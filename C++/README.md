@@ -9,7 +9,11 @@
 
 ## Data Structures
 _add list here_
-
+1.Arrays.
+2.Stacks.
+3.Queue.
+4.Linked List.
+5.Graph.
 ## Searching
 _add list here_
 

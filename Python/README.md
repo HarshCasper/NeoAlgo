@@ -18,7 +18,7 @@ _add list here_
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)
-* [Siamese Networks](Siamese_Network.ipynb)
+* [Principal Component Analysis](principal_component_analysis.ipynb)
    
 ## Mathematics
 _add list here_

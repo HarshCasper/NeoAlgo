@@ -18,7 +18,7 @@ _add list here_
 
 ## Machine Learning
     
-    Linear regression from scratch
+    <a href =https://github.com/kauravankit25/NeoAlgo/blob/master/Python/Linear%20Regression.ipynb >Linear regression from scratch</a>
 
 ## Mathematics
 _add list here_

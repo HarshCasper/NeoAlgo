@@ -53,5 +53,5 @@ if __name__ == "__main__":
     user_input = list(map(int, input("Enter a sequence of comma seprated numbers:\n").split(',')))
     
     # calling the insertion_sort function
-    sorted_collection =insertion_sort(user_input)
-    print(sorted_collection)
+    sorted =insertion_sort(user_input)
+    print(sorted)

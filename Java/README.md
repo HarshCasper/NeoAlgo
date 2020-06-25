@@ -15,8 +15,7 @@ _add list here_
 _add list here_
 
 ## Sorting
-_add list here_
-
+Bubble Sort
 ## Machine Learning
 _add list here_
 

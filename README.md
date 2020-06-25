@@ -1,5 +1,3 @@
-
-
 <p align="center">
     <img src="img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">

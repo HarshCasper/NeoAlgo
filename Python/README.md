@@ -11,7 +11,7 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Linear Search](https://github.com/UtkarshChaurasia/NeoAlgo/blob/master/Python/Linear_Search.py)
 
 ## Sorting
 _add list here_

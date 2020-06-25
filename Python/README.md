@@ -20,6 +20,7 @@ _add list here_
    <ul>
   <li><a href="https://github.com/kauravankit25/NeoAlgo/blob/master/Python/Linear_Regression.ipynb">Linear Regression From Scratch</a></li>
    </ul>
+   
 ## Mathematics
 _add list here_
 

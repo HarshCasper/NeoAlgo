@@ -21,7 +21,7 @@ _add list here_
 _add list here_
 
 ## Mathematics
-_add list here_
+* [Sieve of Atkin](sieveOfAtkin.java)
 
 ## Dynamic Programming
 _add list here_

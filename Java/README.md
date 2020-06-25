@@ -20,6 +20,7 @@ Bubble Sort
 _add list here_
 
 ## Mathematics
+* [Complex numbers](Complex.java)
 * [Sieve of Atkin](sieveOfAtkin.java)
 
 ## Dynamic Programming

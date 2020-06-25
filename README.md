@@ -10,6 +10,16 @@
 ## Overview
 The goal of this project is to have in a single place all possible algorithms and data structures - in multiple languages. We aim to achieve this in a collaborative manner, so feel free to contribute in any way you want, just make sure to follow the contribution guidelines listed below.
 
+## Contents
+Our content is divided by programming language. Please create an issue if you wish to add code in a language that we don't currently have here.
+
+* [Java](/Java/README.md)
+* [Python](/Python/README.md)
+* [Javascript](/Javascript/README.md)
+* [C](/C/README.md)
+* [C++](/C++/README.md)
+* [C#](/C#/README.md)
+
 ## Contributing Guidelines
 A good step-by-step is described below. There are two possible situations: 
 

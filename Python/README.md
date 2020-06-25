@@ -17,7 +17,8 @@ _add list here_
 _add list here_
 
 ## Machine Learning
-_add list here_
+    
+    Linear regression from scratch
 
 ## Mathematics
 _add list here_

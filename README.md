@@ -22,10 +22,20 @@ A good step-by-step is described below. There are two possible situations:
 Make sure your code works before submitting it :D 
 
 1. Fork it (https://github.com/tesseractcoding/neoalgo/fork)
-2. Create your feature branch (git checkout -b feature/fooBar)
+2. Create your feature branch __SEE BELOW MORE INFORMATION__ (git checkout -b feature/fooBar)
 3. Commit your changes (git commit -am 'Add some fooBar')
 4. Push to the branch (git push origin feature/fooBar)
 5. Create a new Pull Request
+
+### Where to upload the files
+__PLEASE READ THIS__
+* Your files should be uploaded directly into the language folder (e.g. if you wrote code for python, within the Python folder and so on)
+* Edit the corresponding _README.md_ file to add the link to your code in the corresponding section
+* Under no circumstances create new folders within the language folders to upload your code. 
+* Also, be polite with the reviewers - they will be ALWAYS polite to you.
+
+## Code of Conduct
+_add code of conduct here_
 
 ## License
 This project follows the [MIT License](/LICENSE).

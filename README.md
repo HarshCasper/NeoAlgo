@@ -65,6 +65,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/swarajpure"><img src="https://avatars3.githubusercontent.com/u/56217868?v=4" width="100px;" alt=""/><br /><sub><b>Swaraj Rajpure</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=swarajpure" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/ashwanisng"><img src="https://avatars0.githubusercontent.com/u/44340485?v=4" width="100px;" alt=""/><br /><sub><b>Ashwani Singh</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ashwanisng" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AmanPriyanshu3"><img src="https://avatars2.githubusercontent.com/u/61093885?v=4" width="100px;" alt=""/><br /><sub><b>Aman Priyanshu</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=AmanPriyanshu" title="Code">💻</a></td>
+    <td align="center"><a href="http://lucasamonrc.dev"><img src="https://avatars3.githubusercontent.com/u/53352488?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Castro</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=lucasamonrc" title="Code">💻</a></td>
   </tr>
 </table>
 

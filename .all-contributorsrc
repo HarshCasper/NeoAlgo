@@ -61,6 +61,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "lucasamonrc",
+      "name": "Lucas Castro",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/53352488?v=4",
+      "profile": "http://lucasamonrc.dev",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

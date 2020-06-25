@@ -8,7 +8,11 @@
 # Codes in the C++ language
 
 ## Data Structures
-_add list here_
+1.Arrays
+2.Linked List.
+3.Stack.
+4.Queue.
+
 
 ## Searching
 _add list here_

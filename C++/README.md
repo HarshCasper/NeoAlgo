@@ -15,7 +15,7 @@ _add list here_
 4.Queue.
 5.Graph
 ## Searching
-*Linear Search[https://github.com/UtkarshChaurasia/NeoAlgo/blob/master/C%2B%2B/Linear_Search.cpp]
+* [Linear Search](https://github.com/UtkarshChaurasia/NeoAlgo/blob/master/C%2B%2B/Linear_Search.cpp)
 
 ## Sorting
 _add list here_

@@ -34,6 +34,15 @@
         "content",
         "doc"
       ]
+    },
+    {
+      "login": "swarajpure",
+      "name": "Swaraj Rajpure",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56217868?v=4",
+      "profile": "https://github.com/swarajpure",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

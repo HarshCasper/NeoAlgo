@@ -1,6 +1,6 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
     <img src="img/neo_algo.png"><br>
@@ -63,6 +63,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://tesseractcoding.github.io/"><img src="https://avatars1.githubusercontent.com/u/42010556?v=4" width="100px;" alt=""/><br /><sub><b>Syed Farhan Ahmad</b></sub></a><br /><a href="#content-born-2learn" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=born-2learn" title="Documentation">📖</a></td>
     <td align="center"><a href="http://harshbardhanmishra.me"><img src="https://avatars1.githubusercontent.com/u/47351025?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Bardhan Mishra</b></sub></a><br /><a href="#content-HarshCasper" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshCasper" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.iamprins.com"><img src="https://avatars2.githubusercontent.com/u/54654484?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo Prins</b></sub></a><br /><a href="#content-ricardoprins" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ricardoprins" title="Documentation">📖</a></td>
   </tr>
 </table>
 

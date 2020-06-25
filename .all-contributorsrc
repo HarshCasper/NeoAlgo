@@ -24,6 +24,16 @@
         "content",
         "doc"
       ]
+    },
+    {
+      "login": "ricardoprins",
+      "name": "Ricardo Prins",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54654484?v=4",
+      "profile": "https://www.iamprins.com",
+      "contributions": [
+        "content",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

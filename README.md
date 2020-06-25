@@ -24,7 +24,7 @@ Our content is divided by programming language. Please create an issue if you wi
 A good step-by-step is described below. There are two possible situations: 
 
 * One, in which you are submitting code for a non-existing DS/Algo. In this case, you can just follow the process below.
-* In case you want to submit an improvement to an existing algo, we prefer that you create an issue, describing in details your improvement. This will help others to analyze your contribution :)
+* In case you want to submit an improvement to an existing algo, we prefer that you create an issue, describing in details your improvement. This will help others to analyze your contribution. You can use the [templates](.github/ISSUE_TEMPLATE/algorithm-ds-proposal.md) that we have provided :)
 
 Make sure your code works before submitting it :D 
 

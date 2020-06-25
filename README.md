@@ -5,9 +5,6 @@
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
-    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-    [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-    <!-- ALL-CONTRIBUTORS-BADGE:END -->
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo">
 </p>
 

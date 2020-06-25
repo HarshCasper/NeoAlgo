@@ -63,6 +63,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://harshbardhanmishra.me"><img src="https://avatars1.githubusercontent.com/u/47351025?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Bardhan Mishra</b></sub></a><br /><a href="#content-HarshCasper" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshCasper" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.iamprins.com"><img src="https://avatars2.githubusercontent.com/u/54654484?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo Prins</b></sub></a><br /><a href="#content-ricardoprins" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ricardoprins" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/swarajpure"><img src="https://avatars3.githubusercontent.com/u/56217868?v=4" width="100px;" alt=""/><br /><sub><b>Swaraj Rajpure</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=swarajpure" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ashwanisng"><img src="https://avatars0.githubusercontent.com/u/44340485?v=4" width="100px;" alt=""/><br /><sub><b>Ashwani Singh</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ashwanisng" title="Code">💻</a></td>
   </tr>
 </table>
 

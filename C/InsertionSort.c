@@ -21,6 +21,7 @@ void main()
 arr[temp+1]=arr[temp];
 temp--;
         }
+        
     arr[temp+1]=key;
         }
    printf("SORTED ARRAY\n");

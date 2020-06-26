@@ -22,6 +22,8 @@
 
 * [Insertion Sort](insertion.cpp)
 
+## Graphs
+* [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)
 
 ## Machine Learning
 _add list here_

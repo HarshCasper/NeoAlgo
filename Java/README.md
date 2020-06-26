@@ -15,7 +15,6 @@ _add list here_
 _add list here_
 
 ## Sorting
-
 * [Bubble Sort](BubbleSort.java)
 * [Quick Sort](QuickSort.java)
 * [Insertion Sort](InsertionSort.java)
@@ -23,6 +22,9 @@ _add list here_
 
 ## Machine Learning
 _add list here_
+
+## Graphs
+* [Dijkstra's Algorithm](Dijkstra.java)
 
 ## Mathematics
 * [Complex numbers](Complex.java)

@@ -8,7 +8,8 @@
 # Codes in the Javascript language
 
 ## Data Structures
-_add list here_
+- [Linked List](./LinkedList.js)
+- [Queue](./Queue.js)
 
 ## Searching
 _add list here_

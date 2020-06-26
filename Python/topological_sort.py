@@ -1,6 +1,6 @@
 #topological sort
 
-#a key-value pair represent a vertex and all its outward edges.
+#a key-value pair represent a vertex and all it's outward edges.
 adjacent = {}
 
 #stores the list of vertex.
@@ -49,7 +49,7 @@ def t_sort(s):
 
 
 
-#******program starts here.******
+# program starts here
 
 initalizeVertex()
 initalizeDirectedEdges()  

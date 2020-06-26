@@ -15,11 +15,19 @@ _add list here_
 _add list here_
 
 ## Sorting
-Bubble Sort
+* [Bubble Sort](BubbleSort.java)
+* [Quick Sort](QuickSort.java)
+* [Insertion Sort](InsertionSort.java)
+* [Merge Sort](Merge_sort.java)
+
 ## Machine Learning
 _add list here_
 
+## Graphs
+* [Dijkstra's Algorithm](Dijkstra.java)
+
 ## Mathematics
+* [Complex numbers](Complex.java)
 * [Sieve of Atkin](sieveOfAtkin.java)
 
 ## Dynamic Programming

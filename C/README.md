@@ -5,17 +5,19 @@
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo">
 </p>
+
 # Codes in the C language
 
 ## Data Structures
 _add list here_
 
 ## Searching
-_add list here_
+- [Linear Search](linear_search.c)
 
 ## Sorting
-_add list here_
-- [bubble sort](bubble_sort.c)
+* [Bubble Sort](bubble_sort.c)
+* [Insertion Sort](InsertionSort.c)
+* [Merge Sort](MergeSort.c)
 
 ## Machine Learning
 _add list here_

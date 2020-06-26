@@ -8,13 +8,15 @@
 # Codes in the Javascript language
 
 ## Data Structures
-- [Linked Lists](./LinkedList.js)
+- [Linked List](./LinkedList.js)
+- [Queue](./Queue.js)
 
 ## Searching
-_add list here_
+* [Binary Search](binary_search.js)
+* [Linear Search](linear_search.js)
 
 ## Sorting
-_add list here_
+- [Bubble Sort](https://github.com/TesseractCoding/NeoAlgo/blob/master/Javascript/BubbleSort.js)
 
 ## Machine Learning
 _add list here_

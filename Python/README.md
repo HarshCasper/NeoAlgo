@@ -14,7 +14,7 @@ _add list here_
 _add list here_
 
 ## Sorting
-* [Quick Sort](Quick_Sort.py)
+* [Quick Sort](Quick_sort.py)
 
 ## Machine Learning
 _add list here_

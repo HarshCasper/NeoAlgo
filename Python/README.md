@@ -11,7 +11,7 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Sublinear Search](Sublinear_search.ipynb)
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.py)

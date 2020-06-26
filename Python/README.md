@@ -23,6 +23,7 @@ _add list here_
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)
 * [Logistic Regression](Logistic_Regression.ipynb)
+* [Numeric Outlier Selection](Numerical_outlier_method.ipynb)
 * [Principal Component Analysis](principal_component_analysis.ipynb)
 
 ## Mathematics

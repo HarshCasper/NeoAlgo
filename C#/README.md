@@ -11,10 +11,10 @@
 _add list here_
 
 ## Searching
-_add list here_
+Linear Search 
 
 ## Sorting
-_add list here_
+Insertion Sort
 
 ## Machine Learning
 _add list here_

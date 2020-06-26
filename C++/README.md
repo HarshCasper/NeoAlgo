@@ -20,6 +20,7 @@ _add list here_
 ## Sorting
 * [Bubble Sort](Bubble_Sort.cpp)
 * [Merge Sort](Merge_Sort.cpp)
+* [Randomized Quick Sort](Randomized_Quick_Sort.cpp)
 
 ## Machine Learning
 _add list here_

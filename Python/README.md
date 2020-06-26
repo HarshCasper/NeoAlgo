@@ -16,9 +16,7 @@ _add list here_
 ## Sorting
 _add list here_
 * [Insertion Sort](insertion.py)
-
 * [Bubble Sort](Bubble_Sort.py)
-
 * [Quick Sort](Quick_sort.py) 
 
 ## Machine Learning

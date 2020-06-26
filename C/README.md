@@ -5,6 +5,7 @@
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo">
 </p>
+
 # Codes in the C language
 
 ## Data Structures

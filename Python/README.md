@@ -18,6 +18,7 @@ _add list here_
 * [Insertion Sort](insertion.py)
 
 * [Bubble Sort](Bubble_Sort.py)
+* [Quick Sort](QuickSort.py)
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)

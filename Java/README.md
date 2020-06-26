@@ -15,8 +15,11 @@ _add list here_
 _add list here_
 
 ## Sorting
- Bubble Sort
+
+* [Bubble Sort](BubbleSort.java)
+* [Quick Sort](QuickSort.java)
 * [Insertion Sort](InsertionSort.java)
+
 
 ## Machine Learning
 _add list here_

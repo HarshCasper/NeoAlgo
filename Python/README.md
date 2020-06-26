@@ -14,7 +14,7 @@ _add list here_
 _add list here_
 
 ## Sorting
-*Insertion Sort[Insertion_Sort/insertion.py]
+*[Insertion Sort](Insertion_Sort/insertion.py)
 
 ## Machine Learning
 _add list here_

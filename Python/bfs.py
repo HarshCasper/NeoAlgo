@@ -1,6 +1,6 @@
 # breadth first search
 
-#a key-value pair represent an ooutward edge.
+#a key-value pair represent a vertex and all it's outward edges.
 adjacent = {}
 
 #stores the list of vertex.
@@ -80,7 +80,6 @@ def bfs():
 #program starts here.
 
 initalizeVertex()
-#we can call initalizeDirectedEdges if it is directed graph.
 initalizeUndirectedEdges()  
 
 #showVertex()

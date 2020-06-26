@@ -1,4 +1,4 @@
-# breadth first search
+# breadth first search.
 
 #a key-value pair represent a vertex and all it's outward edges.
 adjacent = {}
@@ -30,7 +30,6 @@ def initalizeUndirectedEdges():
         adjacent[a].append(b)
         adjacent[b].append(a)
 
-
 def initalizeDirectedEdges():
     n = int(input("Enter the no. of edges.\n"))
     print("Enter the space seperated edges.")
@@ -47,7 +46,6 @@ def showEdges():
     print('The dictionary of edges are: ')
     print(adjacent)
     print('\n')
-
 
 def bfs():
     frontier = []
@@ -75,8 +73,6 @@ def bfs():
         level_no +=1    
 
 
-
-
 # program starts here.
 
 initalizeVertex()
@@ -89,10 +85,3 @@ print('Implementing BFS.')
 bfs()
 
 print(level)
-
-
-
-
-
-
-

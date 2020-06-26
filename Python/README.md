@@ -11,6 +11,7 @@
 _add list here_
 
 ## Searching
+* [Linear Search](Linear_Search.py)
 * [Sublinear Search](Sublinear_search.ipynb)
 
 ## Sorting

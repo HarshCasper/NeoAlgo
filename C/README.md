@@ -13,7 +13,7 @@ _add list here_
 ## Searching
 _add list here_
 
-## Sorting
+## Sorting 
 * [MergeSort](MergeSort.c)
 * [InsertionSort](InsertionSort.c)
 ## Machine Learning

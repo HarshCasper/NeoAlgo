@@ -36,3 +36,4 @@ public class Merge_sort {
 /*output:
 3 5 7 9 10 11 12 13 16 24 
 */
+//for more better understanding of how this algorithm is working read the readme file for merge sort.

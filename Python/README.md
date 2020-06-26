@@ -14,14 +14,20 @@ _add list here_
 * [Sublinear Search](Sublinear_search.ipynb)
 
 ## Sorting
+* [Insertion Sort](insertion.py)
 * [Bubble Sort](Bubble_Sort.py)
+* [Heap Sort](Heap_sort.py)
+* [Selection sort](Selection_Sort.py)
+* [Quick Sort](QuickSort.py)
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)
+* [Logistic Regression](Logistic_Regression.ipynb)
 * [Principal Component Analysis](principal_component_analysis.ipynb)
-   
+
 ## Mathematics
 * [Area](Area.py)
+* [Fibonacci Sequence Recursion](fibonacci_recursion.py)
 
 ## Dynamic Programming
 _add list here_

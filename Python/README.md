@@ -12,9 +12,12 @@ _add list here_
 
 ## Searching
 * [Sublinear Search](Sublinear_search.ipynb)
+* [Breadth First Search](bfs.py)
+* [Depth First Search](dfs.py)
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.py)
+* [Topological Sort](topological_sort.py)
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)

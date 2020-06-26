@@ -8,17 +8,18 @@
 # Codes in the C++ language
 
 ## Data Structures
-_add list here_
-1.Arrays.
-2.Linked List.
-3.Stack.
-4.Queue.
-5.Graph
+### Arrays
+* [Contiguous Sub Array with Given Sum](Arrays/SubArrayWithGivenSum.cpp)
+### Linked List
+### Stack
+### Queue
+### Graph
 ## Searching
 _add list here_
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.cpp)
+* [Merge Sort](Merge_Sort.cpp)
 
 ## Machine Learning
 _add list here_

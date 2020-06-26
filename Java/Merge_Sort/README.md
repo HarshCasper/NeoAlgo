@@ -17,7 +17,7 @@ a[]= {8, 1,10,5,4,2,7,3}
 ## merge_sort(a,0,7) is called
   * In merge_sort() (0<7) is checked then
   * mid=0+7/2=3
-  * merge_sort(a,0,3)
+  1 merge_sort(a,0,3)
    - (0<3) is checked then
    - mid=0+3/2=1
    - merge_sort(a,0,1)
@@ -46,7 +46,7 @@ a[]= {8, 1,10,5,4,2,7,3}
     * comparision takes place and new result becomes {5,10} which is stored in b.
     * it goes to previous call.
   - now merging has to be done ie calling of merge(a,0,1,3) and new result is {1,5,8,10}
-  * merge_sort(a,4,7)
+  2 merge_sort(a,4,7)
    - (4<7) is checked then
    - mid=4+7/2=5
    - merge_sort(a,4,5)

@@ -14,7 +14,7 @@
 _add list here_
 
 ## Sorting
-_add list here_
+- [Bubble Sort](https://github.com/TesseractCoding/NeoAlgo/blob/master/Javascript/BubbleSort.js)
 
 ## Machine Learning
 _add list here_

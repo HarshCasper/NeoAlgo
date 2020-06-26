@@ -3,8 +3,11 @@
 ### All Submissions:
 
 Before starting:
+
 __PLEASE DO NOT CREATE EXTRA FOLDERS WITHIN THE EXISTING ONES!__
+
 __PLEASE DO NOT ASSIGN ANYONE UNLESS SPECIFICALLY TOLD TO DO SO__
+
 __PLEASE PLEASE PLEASE READ AND CHECK THE BOXES BELOW__
 
 * [ ] Have you followed the guidelines in our Contributing document?

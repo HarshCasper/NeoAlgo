@@ -12,7 +12,7 @@ _add list here_
 1.Arrays
 2.Linked List
 3.Stack
-4.Queue
+4.Queue https://github.com/GudlaArunKumar/NeoAlgo/blob/master/C%2B%2B/Queue.cpp
 5.Graph
 ## Searching
 _add list here_

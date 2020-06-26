@@ -9,11 +9,13 @@
 
 ## Data Structures
 ### Arrays
-* [Contiguous Sub Array with Given Sum](Arrays/SubArrayWithGivenSum.cpp)
+* [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
+
 ### Linked List
 ### Stack
 ### Queue
 ### Graph
+
 ## Searching
 _add list here_
 

@@ -88,6 +88,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://utkarshchaurasia.netlify.com/"><img src="https://avatars1.githubusercontent.com/u/47274683?v=4" width="100px;" alt=""/><br /><sub><b>Utkarsh Chaurasia</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=UtkarshChaurasia" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/MSufiyanAG"><img src="https://avatars0.githubusercontent.com/u/63553397?v=4" width="100px;" alt=""/><br /><sub><b>MSufiyanAG</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=MSufiyanAG" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=MSufiyanAG" title="Documentation">📖</a></td>
     <td align="center"><a href="https://kutt.it/4pX3NA"><img src="https://avatars2.githubusercontent.com/u/26149500?v=4" width="100px;" alt=""/><br /><sub><b>Haikel Fazzani</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=haikelfazzani" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ashutosh-tiwari-bb8119171"><img src="https://avatars0.githubusercontent.com/u/43310463?v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh Tiwari</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=AshTiwari" title="Code">💻</a></td>
   </tr>
 </table>
 

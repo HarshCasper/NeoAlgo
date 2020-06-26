@@ -80,6 +80,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://equinox-13.github.io/"><img src="https://avatars0.githubusercontent.com/u/36486238?v=4" width="100px;" alt=""/><br /><sub><b>Quaid Johar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Equinox-13" title="Code">💻</a> <a href="#example-Equinox-13" title="Examples">💡</a></td>
     <td align="center"><a href="https://github.com/maaz-bin-asad"><img src="https://avatars0.githubusercontent.com/u/60134184?v=4" width="100px;" alt=""/><br /><sub><b>Maaz Bin Asad</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=maaz-bin-asad" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/aditya-n-02a0a8192"><img src="https://avatars0.githubusercontent.com/u/42292430?v=4" width="100px;" alt=""/><br /><sub><b>Adityanagraj</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Adityanagraj" title="Code">💻</a></td>
+    <td align="center"><a href="https://utkarshchaurasia.netlify.com/"><img src="https://avatars1.githubusercontent.com/u/47274683?v=4" width="100px;" alt=""/><br /><sub><b>Utkarsh Chaurasia</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=UtkarshChaurasia" title="Code">💻</a></td>
   </tr>
 </table>
 

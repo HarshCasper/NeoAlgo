@@ -12,6 +12,7 @@
 - [Queue](./Queue.js)
 
 ## Searching
+* [Binary Search](binary_search.js)
 * [Linear Search](linear_search.js)
 
 ## Sorting

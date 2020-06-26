@@ -11,13 +11,14 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Sublinear Search](Sublinear_search.ipynb)
 
 ## Sorting
-_add list here_
+* [Bubble Sort](Bubble_Sort.py)
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)
+* [Principal Component Analysis](principal_component_analysis.ipynb)
    
 ## Mathematics
 _add list here_

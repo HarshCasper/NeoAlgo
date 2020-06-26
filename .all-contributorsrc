@@ -34,6 +34,42 @@
         "content",
         "doc"
       ]
+    },
+    {
+      "login": "swarajpure",
+      "name": "Swaraj Rajpure",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56217868?v=4",
+      "profile": "https://github.com/swarajpure",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ashwanisng",
+      "name": "Ashwani Singh",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/44340485?v=4",
+      "profile": "https://www.linkedin.com/in/ashwanisng",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AmanPriyanshu",
+      "name": "Aman Priyanshu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/61093885?v=4",
+      "profile": "https://github.com/AmanPriyanshu3",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "lucasamonrc",
+      "name": "Lucas Castro",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/53352488?v=4",
+      "profile": "http://lucasamonrc.dev",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

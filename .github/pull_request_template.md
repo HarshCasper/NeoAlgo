@@ -1,12 +1,9 @@
 ### Thanks for contributing to NeoAlgo!
+### Please remove this before submitting your PR.
 ### Don't forget to visit our [website](http://www.tesseractcoding.tech)!
 ### All Submissions:
 
 Before starting:
-
-__PLEASE DO NOT CREATE EXTRA FOLDERS WITHIN THE EXISTING ONES!__
-
-__PLEASE DO NOT ASSIGN ANYONE UNLESS SPECIFICALLY TOLD TO DO SO__
 
 __PLEASE PLEASE PLEASE READ AND CHECK THE BOXES BELOW__
 
@@ -14,6 +11,8 @@ __PLEASE PLEASE PLEASE READ AND CHECK THE BOXES BELOW__
 * [ ] Have you checked the issues to see if your request isn't assigned to someone else?
 * [ ] Have you checked to ensure there aren't other open [Pull Requests](../../../pulls) for the same update/change?
 * [ ] If your submission is to improve an existing code, have you created an issue to specify that?
+* [ ] Don't tag anyone unless specifically requested to do so
+* [ ] Don't create any subfolders unless specifically requested to do so.
 
 ### New Code Submissions:
 

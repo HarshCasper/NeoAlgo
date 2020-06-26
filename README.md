@@ -18,6 +18,7 @@ Our content is divided by programming language. Please create an issue if you wi
 * [C](/C/README.md)
 * [C++](/C++/README.md)
 * [C#](/C#/README.md)
+* [Hacker Rank](/HackerRank/README.md)
 
 ## Contributing Guidelines
 A good step-by-step is described below. There are two possible situations: 

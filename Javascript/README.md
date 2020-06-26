@@ -11,7 +11,7 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Linear Search](linear_search.js)
 
 ## Sorting
 _add list here_

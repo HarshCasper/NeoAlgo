@@ -92,6 +92,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://myexpindark.me/"><img src="https://avatars0.githubusercontent.com/u/50295688?v=4" width="100px;" alt=""/><br /><sub><b>Debojyoti Chakraborty</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=sparkingdark" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Surajv311"><img src="https://avatars0.githubusercontent.com/u/59371846?v=4" width="100px;" alt=""/><br /><sub><b>Suraj_v</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Surajv311" title="Code">💻</a></td>
   </tr>
 </table>
 

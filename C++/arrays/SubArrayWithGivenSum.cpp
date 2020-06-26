@@ -30,8 +30,7 @@
 
 #include <iostream>
 /**
- * Function to print the index range of subarray equal to the given sum. If no
- * such subarray found, print -1.
+ * Function to print the index range of subarray equal to the given sum. If no such subarray found, print -1.
  * @param arr array to check
  * @param size size of an array
  * @param original_sum sum to match with the sum of all elements of a sub array.

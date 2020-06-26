@@ -19,6 +19,7 @@ _add list here_
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.cpp)
+* [Merge_Sort](Merge_Sort.cpp)
 
 ## Machine Learning
 _add list here_

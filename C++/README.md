@@ -5,16 +5,12 @@
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo">
 </p>
+
 # Codes in the C++ language
 
 ## Data Structures
-### Arrays
 * [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
-
-### Linked List
-### Stack
-### Queue
-### Graph
+* [Queue](Queue.cpp)
 
 ## Searching
 * [Linear Search](Linear_Search.cpp)

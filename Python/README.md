@@ -14,6 +14,9 @@ _add list here_
 * [Sublinear Search](Sublinear_search.ipynb)
 
 ## Sorting
+_add list here_
+* [Insertion Sort](insertion.py)
+
 * [Bubble Sort](Bubble_Sort.py)
 
 ## Machine Learning

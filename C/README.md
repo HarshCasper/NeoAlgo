@@ -11,11 +11,11 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Linear Search](linear_search.c)
 
 ## Sorting 
-* [MergeSort](MergeSort.c)
-* [InsertionSort](InsertionSort.c)
+* [Merge Sort](MergeSort.c)
+* [Insertion Sort](InsertionSort.c)
 ## Machine Learning
 _add list here_
 

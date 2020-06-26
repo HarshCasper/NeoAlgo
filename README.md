@@ -76,6 +76,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/srilekhav"><img src="https://avatars3.githubusercontent.com/u/22850696?v=4" width="100px;" alt=""/><br /><sub><b>Srilekha Vinjamara</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=SRILEKHA-V19" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/anush-krishna-8270941a0/"><img src="https://avatars3.githubusercontent.com/u/54374648?v=4" width="100px;" alt=""/><br /><sub><b>A N U S H</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=anushkrishnav" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=anushkrishnav" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://equinox-13.github.io/"><img src="https://avatars0.githubusercontent.com/u/36486238?v=4" width="100px;" alt=""/><br /><sub><b>Quaid Johar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Equinox-13" title="Code">💻</a> <a href="#example-Equinox-13" title="Examples">💡</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->

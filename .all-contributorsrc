@@ -135,6 +135,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "Equinox-13",
+      "name": "Quaid Johar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/36486238?v=4",
+      "profile": "https://equinox-13.github.io/",
+      "contributions": [
+        "code",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,

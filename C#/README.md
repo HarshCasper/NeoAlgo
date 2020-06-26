@@ -11,7 +11,7 @@
 _add list here_
 
 ## Searching
-_add list here_
+Linear search
 
 ## Sorting
 _add list here_

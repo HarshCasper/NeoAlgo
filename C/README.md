@@ -14,8 +14,9 @@ _add list here_
 ## Searching
 - [Linear Search](linear_search.c)
 
-## Sorting
-_add list here_
+## Sorting 
+* [Merge Sort](MergeSort.c)
+* [Insertion Sort](InsertionSort.c)
 
 ## Machine Learning
 _add list here_

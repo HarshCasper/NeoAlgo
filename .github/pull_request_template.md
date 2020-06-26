@@ -1,8 +1,11 @@
 ### Thanks for contributing to NeoAlgo!
-### Don't forget to visit our [website](http://www.tesseractcoding.tech)
+### Don't forget to visit our [website](http://www.tesseractcoding.tech)!
 ### All Submissions:
 
+Before starting:
 __PLEASE DO NOT CREATE EXTRA FOLDERS WITHIN THE EXISTING ONES!__
+__PLEASE DO NOT ASSIGN ANYONE UNLESS SPECIFICALLY TOLD TO DO SO__
+__PLEASE PLEASE PLEASE READ AND CHECK THE BOXES BELOW__
 
 * [ ] Have you followed the guidelines in our Contributing document?
 * [ ] Have you checked the issues to see if your request isn't assigned to someone else?

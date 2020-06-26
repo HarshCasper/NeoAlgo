@@ -7,34 +7,22 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Python language
+# Codes in the Q# language
 
 ## Data Structures
 _add list here_
 
 ## Searching
-* [Breadth First Search](bfs.py)
-* [Depth First Search](dfs.py)
-* [Linear Search](Linear_Search.py)
-* [Sublinear Search](Sublinear_search.ipynb)
+_add list here_
 
 ## Sorting
-* [Bubble Sort](Bubble_Sort.py)
-* [Heap Sort](Heap_sort.py)
-* [Insertion Sort](insertion.py)
-* [Quick Sort](QuickSort.py)
-* [Selection Sort](Selection_Sort.py)
-* [Topological Sort](topological_sort.py)
+_add list here_
 
 ## Machine Learning
-* [Linear Regression](Linear_Regression.ipynb)
-* [Logistic Regression](Logistic_Regression.ipynb)
-* [Numeric Outlier Selection](Numerical_outlier_method.ipynb)
-* [Principal Component Analysis](principal_component_analysis.ipynb)
+_add list here_
 
 ## Mathematics
-* [Area](Area.py)
-* [Fibonacci Sequence Recursion](fibonacci_recursion.py)
+_add list here_
 
 ## Dynamic Programming
 _add list here_

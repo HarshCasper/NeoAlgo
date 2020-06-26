@@ -23,6 +23,7 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 * [C](/C/README.md)
 * [C++](/C++/README.md)
 * [C#](/C#/README.md)
+* [Q#](/Q#/README.md)
 * [Hacker Rank](/HackerRank/README.md)
 
 ## Contributing Guidelines

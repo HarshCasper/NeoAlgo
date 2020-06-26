@@ -24,9 +24,9 @@ _add list here_
 * [Linear Regression](Linear_Regression.ipynb)
 * [Logistic Regression](Logistic_Regression.ipynb)
 * [Principal Component Analysis](principal_component_analysis.ipynb)
-   
+
 ## Mathematics
-_add list here_
+* [Fibonacci Sequence Recursion](fibonacci_recursion.py)
 
 ## Dynamic Programming
 _add list here_

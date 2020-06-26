@@ -15,7 +15,7 @@ _add list here_
 
 ## Sorting
 _add list here_
-- bubble sort[bubble_sort.c]
+- [bubble sort](bubble_sort.c)
 
 ## Machine Learning
 _add list here_

@@ -39,11 +39,11 @@ void merge( int a[], int start, int end){
     }
 
     //Copy elements of temp in a
-    for(int i= start; i<= e; i++){
+    for(int i= start; i<= end; i++){
         a[i]= temp[i];
     }
 
-    return 
+    return; 
 } 
 
 //Implement Merge Sort Function

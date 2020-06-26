@@ -5,20 +5,19 @@
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo">
 </p>
+
 # Codes in the C++ language
 
 ## Data Structures
-_add list here_
-1.Arrays
-2.Linked List
-3.Stack
-4.Queue https://github.com/GudlaArunKumar/NeoAlgo/blob/master/C%2B%2B/Queue.cpp
-5.Graph
+* [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
+* [Queue](Queue.cpp)
+
 ## Searching
-_add list here_
+* [Linear Search](Linear_Search.cpp)
 
 ## Sorting
-1.Bubble Sort
+* [Bubble Sort](Bubble_Sort.cpp)
+* [Merge Sort](Merge_Sort.cpp)
 
 ## Machine Learning
 _add list here_
@@ -27,7 +26,7 @@ _add list here_
 _add list here_
 
 ## Dynamic Programming
-_add list here_
+* [Longest increasing subsequence](longest_increasing_subsequence.cpp)
 
 ## Blockchain
 _add list here_

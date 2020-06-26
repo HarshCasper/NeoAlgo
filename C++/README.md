@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
     <a href="../README.md"><img src="../img/neo_algo.png"><br></a>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -8,13 +8,17 @@
 # Codes in the C++ language
 
 ## Data Structures
-_add list here_
-
+### Arrays
+* [Contiguous Sub Array with Given Sum](Arrays/SubArrayWithGivenSum.cpp)
+### Linked List
+### Stack
+### Queue
+### Graph
 ## Searching
 _add list here_
 
 ## Sorting
-_add list here_
+* [Bubble Sort](Bubble_Sort.cpp)
 
 ## Machine Learning
 _add list here_

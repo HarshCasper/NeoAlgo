@@ -11,15 +11,18 @@
 _add list here_
 
 ## Searching
+* [Breadth First Search](bfs.py)
+* [Depth First Search](dfs.py)
 * [Linear Search](Linear_Search.py)
 * [Sublinear Search](Sublinear_search.ipynb)
 
 ## Sorting
-* [Insertion Sort](insertion.py)
 * [Bubble Sort](Bubble_Sort.py)
 * [Heap Sort](Heap_sort.py)
-* [Selection sort](Selection_Sort.py)
+* [Insertion Sort](insertion.py)
 * [Quick Sort](QuickSort.py)
+* [Selection sort](Selection_Sort.py)
+* [Topological Sort](topological_sort.py)
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)

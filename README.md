@@ -90,6 +90,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://kutt.it/4pX3NA"><img src="https://avatars2.githubusercontent.com/u/26149500?v=4" width="100px;" alt=""/><br /><sub><b>Haikel Fazzani</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=haikelfazzani" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/ashutosh-tiwari-bb8119171"><img src="https://avatars0.githubusercontent.com/u/43310463?v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh Tiwari</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=AshTiwari" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://myexpindark.me/"><img src="https://avatars0.githubusercontent.com/u/50295688?v=4" width="100px;" alt=""/><br /><sub><b>Debojyoti Chakraborty</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=sparkingdark" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->

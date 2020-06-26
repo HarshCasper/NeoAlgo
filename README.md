@@ -71,6 +71,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/kauravankit25"><img src="https://avatars1.githubusercontent.com/u/53783410?v=4" width="100px;" alt=""/><br /><sub><b>Ankit Kaurav</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=kauravankit25" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/asaxena012"><img src="https://avatars2.githubusercontent.com/u/60032144?v=4" width="100px;" alt=""/><br /><sub><b>Aditya Saxena</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=asaxena012" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/RaviAnand111"><img src="https://avatars2.githubusercontent.com/u/59113935?v=4" width="100px;" alt=""/><br /><sub><b>Ravi Anand</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=RaviAnand111" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/srilekhav"><img src="https://avatars3.githubusercontent.com/u/22850696?v=4" width="100px;" alt=""/><br /><sub><b>Srilekha Vinjamara</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=SRILEKHA-V19" title="Code">💻</a></td>
   </tr>
 </table>
 

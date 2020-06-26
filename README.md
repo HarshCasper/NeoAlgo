@@ -45,7 +45,7 @@ __PLEASE READ THIS__
 * Also, be polite with the reviewers - they will be ALWAYS polite to you.
 
 ## Code of Conduct
-You can find our Code of Conduct [here](/CodeOfConduct.md).
+You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 ## License
 This project follows the [MIT License](/LICENSE).

@@ -19,6 +19,7 @@ _add list here_
 ## Machine Learning
    <ul>
   <li><a href="https://github.com/kauravankit25/NeoAlgo/blob/master/Python/Linear_Regression.ipynb">Linear Regression From Scratch</a></li>
+   <li><a href="https://github.com/kauravankit25/NeoAlgo/blob/master/Python/Logistic_Regression.ipynb">Logistic Regression From Scratch</a></li>
    </ul>
    
 ## Mathematics

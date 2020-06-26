@@ -68,6 +68,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/keshav304"><img src="https://avatars0.githubusercontent.com/u/54927712?v=4" width="100px;" alt=""/><br /><sub><b>keshav jha</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=keshav304" title="Code">💻</a></td>
     <td align="center"><a href="https://davidepollicino.com/"><img src="https://avatars0.githubusercontent.com/u/23085146?v=4" width="100px;" alt=""/><br /><sub><b>Davide Pollicino</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=omonimus1" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kauravankit25"><img src="https://avatars1.githubusercontent.com/u/53783410?v=4" width="100px;" alt=""/><br /><sub><b>Ankit Kaurav</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=kauravankit25" title="Code">💻</a></td>
   </tr>
 </table>
 

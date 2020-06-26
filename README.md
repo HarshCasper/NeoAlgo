@@ -26,19 +26,16 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 * [Hacker Rank](/HackerRank/README.md)
 
 ## Contributing Guidelines
-A good step-by-step is described below. There are two possible situations: 
 
-* One, in which you are submitting code for a non-existing DS/Algo. In this case, you can just follow the process below.
+* Issues will be assigned on a _first come, first serve_ basis. You just have to comment on the issue, asking to be assigned, and it will be done if found fit.
+* Preferrably, you cannot work on any issue that is not assigned to you.
 * In case you want to submit an improvement to an existing algo, we prefer that you create an issue, describing in details your improvement. This will help others to analyze your contribution. You can use the [templates](.github/ISSUE_TEMPLATE/algorithm-ds-proposal.md) that we have provided :)
+* If you have anything else in mind, create an issue and please wait for it to be assigned to you. You can then start working on it and create a PR.
+* All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
+* If you have no idea what are issues or PRs, please do refer to [this link](https://github.com/TesseractCoding/NeoAlgo/wiki/What-is-a-Pull-Request-and-how-to-do-it%3F)
 
 Make sure your code works before submitting it :D
 __DON'T CREATE NEW FOLDERS!__
-
-1. Fork it (https://github.com/tesseractcoding/neoalgo/fork)
-2. Create your branch __SEE BELOW MORE INFORMATION__ (git checkout -b fooBar)
-3. Commit your changes (git commit -am 'Add some fooBar')
-4. Push to the branch (git push origin fooBar)
-5. Create a new Pull Request
 
 ### Where to upload the files
 __PLEASE READ THIS__
@@ -48,12 +45,10 @@ __PLEASE READ THIS__
 * Also, be polite with the reviewers - they will be ALWAYS polite to you.
 
 ## Code of Conduct
-_add code of conduct here_
+You can find our Code of Conduct [here](/CodeOfConduct.md).
 
 ## License
 This project follows the [MIT License](/LICENSE).
-
-
 
 ## Contributors ✨
 

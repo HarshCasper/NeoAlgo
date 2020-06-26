@@ -26,6 +26,7 @@ _add list here_
 * [Principal Component Analysis](principal_component_analysis.ipynb)
 
 ## Mathematics
+* [Area](Area.py)
 * [Fibonacci Sequence Recursion](fibonacci_recursion.py)
 
 ## Dynamic Programming

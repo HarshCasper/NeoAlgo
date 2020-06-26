@@ -15,67 +15,75 @@
 a[]= {8, 1,10,5,4,2,7,3}
 
 ## merge_sort(a,0,7) is called
-  * In merge_sort() (0<7) is checked then
-  * mid=0+7/2=3
-  1 merge_sort(a,0,3)
-   - (0<3) is checked then
-   - mid=0+3/2=1
-   - merge_sort(a,0,1)
-    * (0<1) is checked then
-    * mid=0+1/2=0
-    * merge_sort(a,0,0)
-     - 0!<0
-     - call terminates so it goes back to previous call
-     - till now merge_sort(a,l,mid) was being called now merge_sort(a,mid+1,h) will be called.
-    * merge_sort(a,1,1)
+
+In merge_sort() (0<7) is checked then
+  
+mid=0+7/2=3
+  
+* merge_sort(a,0,3)
+  
+  - (0<3) is checked then
+   
+  - mid=0+3/2=1
+  
+  - merge_sort(a,0,1)
+   
+   - (0<1) is checked then
+    
+   - mid=0+1/2=0
+    
+   - merge_sort(a,0,0)
+    
+    - 0!<0
+     
+    - call terminates so it goes back to previous call
+     
+    - till now merge_sort(a,l,mid) was being called now merge_sort(a,mid+1,h) will be called.
+     
+   - merge_sort(a,1,1)
+    
+    - single element so call terminates it goes back to previous call.
+     
+    - now merging has to be done ie calling of merge(a,l,mid,h)
+     
+  - merge(a,0,0,1)
+  
+   - comparision takes place and new result becomes {1,8} which is stored in b.
+     
+   - it goes to previous call
+     
+  - merge_sort(a,2,3)
+
+   - (2<3) is checked then
+    
+   - mid=2+3/2=2
+    
+   - merge_sort(a,2,2)
+    
+    - single element so call terminates it goes back to previous call.
+     
+    - call terminates so it goes back to previous call
+     
+    - merge_sort(a,3,3)
+
      - single element so call terminates it goes back to previous call.
+
      - now merging has to be done ie calling of merge(a,l,mid,h)
-   - merge(a,0,0,1)
-     * comparision takes place and new result becomes {1,8} which is stored in b.
-     * it goes to previous call.
-   - merge_sort(a,2,3)
-    * (2<3) is checked then
-    * mid=2+3/2=2
-    * merge_sort(a,2,2)
-     - single element so call terminates it goes back to previous call.
-     - call terminates so it goes back to previous call
-    * merge_sort(a,3,3)
-     - single element so call terminates it goes back to previous call.
-     - now merging has to be done ie calling of merge(a,l,mid,h)
+     
    - merge(a,2,2,3)
-    * comparision takes place and new result becomes {5,10} which is stored in b.
-    * it goes to previous call.
-  - now merging has to be done ie calling of merge(a,0,1,3) and new result is {1,5,8,10}
-  2 merge_sort(a,4,7)
-   - (4<7) is checked then
-   - mid=4+7/2=5
-   - merge_sort(a,4,5)
-    * (4<5) is checked then
-    * mid=4+5/2=4
-    * merge_sort(a,4,4)
-     - single element so call terminates it goes back to previous call.
-     - call terminates so it goes back to previous call
-     - till now merge_sort(a,l,mid) was being called now merge_sort(a,mid+1,h) will be called.
-    * merge_sort(a,5,5)
-     - single element so call terminates it goes back to previous call.
-     - now merging has to be done ie calling of merge(a,l,mid,h)
-   - merge(a,4,4,5)
-     * comparision takes place and new result becomes {2,4} which is stored in b.
-     * it goes to previous call.
-   - merge_sort(a,6,7)
-    * (6<7) is checked then
-    * mid=6+7/2=6
-    * merge_sort(a,6,6)
-     - single element so call terminates it goes back to previous call.
-     - call terminates so it goes back to previous call
-    * merge_sort(a,7,7)
-     - single element so call terminates it goes back to previous call.
-     - now merging has to be done ie calling of merge(a,l,mid,h)
-   - merge(a,4,4,5)
-    * comparision takes place and new result becomes {3,7} which is stored in b.
-    * it goes to previous call.
-  - now merging has to be done ie calling of merge(a,4,5,7) and new result is {2,3,4,7}
- * now merging has to be done ie calling of merge(a,0,3,7) and new result is {1,2,3,4,5,7,8,10}
+   
+    - comparision takes place and new result becomes {5,10} which is stored in b.
+    
+    - it goes to previous call.
+    
+* now merging has to be done ie calling of merge(a,0,1,3) and new result is {1,5,8,10}
+  
+Similarly for second part
+
+* now merging has to be done ie calling of merge(a,4,5,7) and new result is {2,3,4,7}
+
+* now merging has to be done ie calling of merge(a,0,3,7) and new result is {1,2,3,4,5,7,8,10}
+
 
 ## merge(a,0,3,7) can be seen as example to see how the function works
 i=k=0  j=4

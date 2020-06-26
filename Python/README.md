@@ -21,7 +21,7 @@ _add list here_
 * [Principal Component Analysis](principal_component_analysis.ipynb)
    
 ## Mathematics
-_add list here_
+* [Area](Area.py)
 
 ## Dynamic Programming
 _add list here_

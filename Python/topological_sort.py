@@ -37,7 +37,6 @@ def showEdges():
     print(adjacent)
     print('\n')
 
-
 def t_sort(s):
     for neighbour in adjacent[s]:
         if neighbour not in parent.keys():
@@ -47,8 +46,6 @@ def t_sort(s):
     topological_sort.append(s)      
 
 
-
-
 # program starts here
 
 initalizeVertex()
@@ -56,7 +53,6 @@ initalizeDirectedEdges()
 
 #showVertex()
 #showEdges()
-
 
 print('Implementing Topological Sort.')
 
@@ -68,25 +64,5 @@ for v in Vertex:
         parent[v] = None
         t_sort(v)
 
-
 print('Topological sort order is: ')
 print(topological_sort[::-1])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

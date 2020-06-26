@@ -30,7 +30,7 @@ _add list here_
 _add list here_
 
 ## Dynamic Programming
-_add list here_
+* [Longest increasing subsequence](longest_increasing_subsequence.cpp)
 
 ## Blockchain
 _add list here_

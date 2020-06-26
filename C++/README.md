@@ -18,7 +18,7 @@ _add list here_
 _add list here_
 
 ## Sorting
-_add list here_
+1.Bubble Sort
 
 ## Machine Learning
 _add list here_

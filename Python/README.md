@@ -19,6 +19,8 @@ _add list here_
 
 * [Bubble Sort](Bubble_Sort.py)
 
+* [Quick Sort](Quick_sort.py) 
+
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)
 * [Logistic Regression](Logistic_Regression.ipynb)

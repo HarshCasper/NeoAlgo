@@ -1,4 +1,4 @@
-o<p align="center">
+<p align="center">
     <a href="../README.md"><img src="../img/neo_algo.png"><br></a>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -14,11 +14,8 @@ _add list here_
 * [Sublinear Search](Sublinear_search.ipynb)
 
 ## Sorting
-_add list here_
 * [Insertion Sort](insertion.py)
-
 * [Bubble Sort](Bubble_Sort.py)
-
 * [Quick Sort](Quick_sort.py) 
 
 ## Machine Learning

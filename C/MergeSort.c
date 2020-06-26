@@ -76,7 +76,6 @@ variable_c++;
             variable_c++;
 
         }
-
     }
 else
 {

@@ -14,8 +14,8 @@ _add list here_
 _add list here_
 
 ## Sorting
-_add list here_
-
+* [MergeSort](MergeSort.c)
+* [InsertionSort](InsertionSort.c)
 ## Machine Learning
 _add list here_
 

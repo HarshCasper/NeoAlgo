@@ -15,6 +15,8 @@ _add list here_
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.py)
+* [Heap Sort](Heap_sort.py)
+* [Selection sort](Selection_Sort.py)
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)

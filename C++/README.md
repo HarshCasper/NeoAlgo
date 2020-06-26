@@ -9,7 +9,7 @@
 
 ## Data Structures
 ### Arrays
-* [Contiguous Sub Array with Given Sum](Arrays/SubArrayWithGivenSum.cpp)
+* <a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/C%2B%2B/arrays/SubArrayWithGivenSum.cpp">Contiguous Sub array.</a>
 ### Linked List
 ### Stack
 ### Queue

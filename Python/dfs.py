@@ -1,4 +1,4 @@
-#dfs_visit
+#depth first search.
 
 #a key-value pair represent a vertex and all its outward edges.
 adjacent = {}
@@ -55,9 +55,6 @@ def dfs(s):
             dfs(neighbour)
             
 
-
-
-
 # program starts here
 
 initalizeVertex()
@@ -66,7 +63,6 @@ initalizeUndirectedEdges()
 
 #showVertex()
 #showEdges()
-
 
 print('Implementing dFS.')
 
@@ -79,26 +75,5 @@ for v in Vertex:
         stack.append(v)
         dfs(v)
 
-
 print('DFS order is: ')
 print(stack)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

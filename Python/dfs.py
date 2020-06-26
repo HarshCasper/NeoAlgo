@@ -2,16 +2,12 @@
 
 #a key-value pair represent a vertex and all its outward edges.
 adjacent = {}
-
 #stores the list of vertex.
 Vertex = []
-
 #stores the dfs order.
 stack = []
-
 # a key-value pair represents a vertex and its parent.
 parent = {}
-
 
 def initalizeVertex():
     n = int(input('Enter the no. of vertices.\n'))
@@ -46,7 +42,6 @@ def showEdges():
     print(adjacent)
     print('\n')
 
-
 def dfs(s):
     for neighbour in adjacent[s]:
         if neighbour not in parent.keys():
@@ -60,12 +55,9 @@ def dfs(s):
 initalizeVertex()
 #we can call initalizeDirectedEdges if it is directed graph.
 initalizeUndirectedEdges()  
-
 #showVertex()
 #showEdges()
-
 print('Implementing dFS.')
-
 #for a well connected grapgh, we don't need the below for loop.
 #dfs(starting_vertex) will give correct result.
 #the below for loop is used for unconnected graphs.
@@ -74,6 +66,5 @@ for v in Vertex:
         parent[v] = None
         stack.append(v)
         dfs(v)
-
 print('DFS order is: ')
 print(stack)

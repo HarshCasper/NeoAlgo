@@ -2,13 +2,10 @@
 
 #a key-value pair represent a vertex and all it's outward edges.
 adjacent = {}
-
 #stores the list of vertex.
 Vertex = []
-
 # a key-value pair represents a vertex and its parent.
 parent = {}
-
 #stores the topological sort in reverse order.
 topological_sort = []
 
@@ -50,12 +47,9 @@ def t_sort(s):
 
 initalizeVertex()
 initalizeDirectedEdges()  
-
 #showVertex()
 #showEdges()
-
 print('Implementing Topological Sort.')
-
 #for a well connected grapgh, we don't need the below for loop.
 #dfs(starting_vertex) will give correct result.
 #the below for loop is used for unconnected graphs.

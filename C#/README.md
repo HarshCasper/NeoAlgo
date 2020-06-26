@@ -11,7 +11,7 @@
 _add list here_
 
 ## Searching
-Linear search
+* [Linear Search](LinearSearch.cs)
 
 ## Sorting
 _add list here_

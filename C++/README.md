@@ -20,6 +20,9 @@
 * [Merge Sort](Merge_Sort.cpp)
 * [Randomized Quick Sort](Randomized_Quick_Sort.cpp)
 
+* [Insertion Sort](insertion.cpp)
+
+
 ## Machine Learning
 _add list here_
 

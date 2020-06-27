@@ -26,6 +26,9 @@ _add list here_
 * [Selection Sort](Selection_Sort.py)
 * [Topological Sort](topological_sort.py)
 
+## Graphs
+* [Prim's Algorithm](Prim_Algorithm.py)
+
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)
 * [Logistic Regression](Logistic_Regression.ipynb)

@@ -11,10 +11,11 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Linear Search](LinearSearch.cs)
 
 ## Sorting
-_add list here_
+* [Insertion Sort](InsertionSort.cs)
+* [Insertion Sort](BubbleSort.cs)
 
 ## Machine Learning
 _add list here_

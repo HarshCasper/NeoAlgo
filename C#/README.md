@@ -5,18 +5,19 @@
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo">
 </p>
+
 # Codes in the C# language
 
 ## Data Structures
 _add list here_
 
 ## Searching
-* [Linear Search](LinearSearch.cs)
 * [Binary Search] (BinarySearch.cs)
+* [Linear Search](LinearSearch.cs)
 
 ## Sorting
+* [Bubble Sort](BubbleSort.cs)
 * [Insertion Sort](InsertionSort.cs)
-* [Insertion Sort](BubbleSort.cs)
 
 ## Machine Learning
 _add list here_

@@ -27,6 +27,10 @@
 ## Graphs
 * [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)
 
+## Tree
+
+* [Inorder traversal](inorder-traversal.cpp)
+
 ## Machine Learning
 _add list here_
 

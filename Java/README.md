@@ -13,7 +13,7 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Binary Search](Binary_search.java)
 
 ## Sorting
 * [Bubble Sort](BubbleSort.java)

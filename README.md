@@ -97,6 +97,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Himanshu70565"><img src="https://avatars1.githubusercontent.com/u/47275183?v=4" width="100px;" alt=""/><br /><sub><b>Himanshu Judge</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Himanshu70565" title="Code">💻</a></td>
+    <td align="center"><a href="http://linkedin.com/in/vijayagb/"><img src="https://avatars0.githubusercontent.com/u/25801504?v=4" width="100px;" alt=""/><br /><sub><b>Vijaya Gajanan Buddhavarapu</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=VijayaGB98" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=VijayaGB98" title="Documentation">📖</a> <a href="#ideas-VijayaGB98" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

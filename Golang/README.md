@@ -7,29 +7,22 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Java language
+# Codes in the Golang language
 
 ## Data Structures
 _add list here_
 
 ## Searching
-* [Binary Search](Binary_search.java)
+_add list here_
 
 ## Sorting
-* [Bubble Sort](BubbleSort.java)
-* [Quick Sort](QuickSort.java)
-* [Insertion Sort](InsertionSort.java)
-* [Merge Sort](Merge_sort.java)
+_add list here_
 
 ## Machine Learning
 _add list here_
 
-## Graphs
-* [Dijkstra's Algorithm](Dijkstra.java)
-
 ## Mathematics
-* [Complex numbers](Complex.java)
-* [Sieve of Atkin](sieveOfAtkin.java)
+_add list here_
 
 ## Dynamic Programming
 _add list here_

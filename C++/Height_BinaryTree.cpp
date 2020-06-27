@@ -14,7 +14,7 @@ using namespace std;      //For cin and cout
     @since 28-7-2020
 */
 
-//Implement Tree Data Structure Node
+//Implement Binary Tree Data Structure Node
 class Node{
 public:
     int data;
@@ -71,11 +71,11 @@ int height( Node* root ){
 int main(){
 
     //Build the tree
-    cout<<"Enter the tree elements preorder wise: ";
+    cout<<"Enter the binary tree elements preorder wise: ";
     Node* root= buildTree();
 
     //Find height of tree
-    cout<<endl<<"The height of the tree: "<<height(root); 
+    cout<<endl<<"The height of the binary tree: "<<height(root); 
 
     return 0;
 }

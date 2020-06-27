@@ -20,6 +20,9 @@ _add list here_
 * [Insertion Sort](InsertionSort.c)
 * [Merge Sort](MergeSort.c)
 
+## Graphs
+* [Prim's Algorithm](Prim_Algorithm.c)
+
 ## Machine Learning
 _add list here_
 

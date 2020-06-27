@@ -24,7 +24,7 @@ _add list here_
 * [Principal Component Analysis](principal_component_analysis.ipynb)
    
 ## Mathematics
-_add list here_
+* [Sieve of Eratosthenes](prime_number_using_sieve_of_Eratosthenes.py)
 
 ## Dynamic Programming
 _add list here_
@@ -40,4 +40,3 @@ _add list here_
 
 ## Other
 _add list here_
-* [prime number using sieve of Eratosthenes](prime_number_using_sieve_of_Eratosthenes.py)

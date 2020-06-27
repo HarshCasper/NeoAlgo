@@ -5,6 +5,8 @@ This search algorithm works on the principle of divide and conquer.
 
 For this algorithm to work properly, the data collection should be in the sorted form.
 
+Its implementation can be seen here [Binary Search](Binary_search.java)
+
 let the array be 
 
 a[] ={2,5,6,7,11,13,15};

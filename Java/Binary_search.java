@@ -5,7 +5,7 @@ public class Binary_search{
         while(l<=h){
             int mid=(l+h)/2;
             if(key==a[mid])
-                return mid;
+                return mid+1;//index starts from zero so position has to be incremented by one.
             else if(key<a[mid])
                 h=mid-1;
             else
@@ -25,5 +25,5 @@ public class Binary_search{
     }
 }
 /*output:
-4
+5
  */

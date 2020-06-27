@@ -19,6 +19,7 @@ _add list here_
 * [Bubble Sort](bubble_sort.c)
 * [Insertion Sort](InsertionSort.c)
 * [Merge Sort](MergeSort.c)
+* [Selection Sort](selection_sort.c)
 
 ## Machine Learning
 _add list here_

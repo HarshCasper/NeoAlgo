@@ -95,6 +95,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://aniketsingh98571.github.io/Web-Developer/"><img src="https://avatars3.githubusercontent.com/u/63097956?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Singh</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=aniketsingh98571" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/settings/profile"><img src="https://avatars0.githubusercontent.com/u/46563834?v=4" width="100px;" alt=""/><br /><sub><b>Shubham Rattra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ShubhamRattra" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ShubhamRattra" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Himanshu70565"><img src="https://avatars1.githubusercontent.com/u/47275183?v=4" width="100px;" alt=""/><br /><sub><b>Himanshu Judge</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Himanshu70565" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->

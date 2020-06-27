@@ -7,26 +7,16 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the C++ language
+# Codes in the Q# language
 
 ## Data Structures
-* [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
-* [Queue](Queue.cpp)
+_add list here_
 
 ## Searching
-* [Linear Search](Linear_Search.cpp)
+_add list here_
 
 ## Sorting
-* [Bubble Sort](Bubble_Sort.cpp)
-* [Merge Sort](Merge_Sort.cpp)
-* [Randomized Quick Sort](Randomized_Quick_Sort.cpp)
-* [Shell Sort](Shell Sort.cpp)
-* [Quick Sort](Quick_Sort.cpp)
-
-* [Insertion Sort](insertion.cpp)
-
-## Graphs
-* [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)
+_add list here_
 
 ## Machine Learning
 _add list here_
@@ -35,7 +25,7 @@ _add list here_
 _add list here_
 
 ## Dynamic Programming
-* [Longest increasing subsequence](longest_increasing_subsequence.cpp)
+_add list here_
 
 ## Blockchain
 _add list here_

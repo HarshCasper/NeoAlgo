@@ -1,5 +1,6 @@
 public class Binary_search{
-    //binary search algorith explanation in its readme file
+    //binary search algorith explanation in its readme file in wiki section
+    //this can performed recursively also 
     static int binsearch(int[] a,int l,int h,int key){
         while(l<=h){
             int mid=(l+h)/2;

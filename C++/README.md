@@ -11,7 +11,9 @@
 
 ## Data Structures
 * [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
+* [Linked List](LinkedList.cpp)
 * [Queue](Queue.cpp)
+
 
 ## Searching
 * [Linear Search](Linear_Search.cpp)

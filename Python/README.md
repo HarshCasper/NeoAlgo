@@ -17,6 +17,7 @@ _add list here_
 * [Depth First Search](dfs.py)
 * [Linear Search](Linear_Search.py)
 * [Sublinear Search](Sublinear_search.ipynb)
+* [Random Search Las vegas version](random_search_las_vegas.py)
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.py)

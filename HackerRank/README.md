@@ -25,3 +25,4 @@
 |Staircase|[Problem]()|[Solution](Staircase.py)|Python3|
 |Time Conversion|[Problem](https://www.hackerrank.com/challenges/time-conversion)|[Solution](TimeConversion.py)|Python3|
 |Pallindrome Index|[Problem](https://www.hackerrank.com/challenges/palindrome-index/problem)|[Solution](Pallindrome_Index.py)|Python3|
+|Counting Vallyes|[Problem](https://www.hackerrank.com/challenges/counting-valleys/problem)|[Solution](Counting_Valleys.py)|Python3|

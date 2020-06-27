@@ -13,7 +13,8 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Binary Search](binary_search.go)
+* [Linear Search](linear_search.go)
 
 ## Sorting
 _add list here_

@@ -7,7 +7,7 @@ using namespace std;      //For cin and cout
     The sub-arrays are then sorted recursively. This can be done in-place, requiring small additional amounts of memory to perform the sorting.
 
     @author Aditya Saxena
-    @since 27-7-2020
+    @since 27-6-2020
 */
 
 //Implement partitionPivot function

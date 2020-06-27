@@ -40,3 +40,4 @@ _add list here_
 
 ## Other
 _add list here_
+* [prime number using sieve of Eratosthenes](prime_number_using_sieve_of_Eratosthenes.py)

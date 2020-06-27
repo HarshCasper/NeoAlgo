@@ -20,6 +20,7 @@
 * [Bubble Sort](Bubble_Sort.cpp)
 * [Merge Sort](Merge_Sort.cpp)
 * [Randomized Quick Sort](Randomized_Quick_Sort.cpp)
+* [Shell Sort](Shell Sort.cpp)
 * [Quick Sort](Quick_Sort.cpp)
 
 * [Insertion Sort](insertion.cpp)

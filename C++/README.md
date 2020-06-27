@@ -9,20 +9,12 @@
 
 ## Data Structures
 _add list here_
-<ol>
-    <li>Arrays</li>
-     <li>Linked List</li>
-     <li>Stack</li>
-     <li>Queue</li>
-     <li>Graph</li>
-    </ol>
+1
 ## Searching
 _add list here_
 
 ## Sorting
-<ol>
-<li>Shell Sort</>
-</ol>
+[Shell Sort](Shell Sort.cpp)
 
 ## Machine Learning
 _add list here_

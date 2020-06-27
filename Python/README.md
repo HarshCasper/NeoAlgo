@@ -42,6 +42,7 @@ _add list here_
 * [Fibonacci Sequence Recursion](fibonacci_recursion.py)
 * [Sieve of Eratosthenes](prime_number_using_sieve_of_Eratosthenes.py)
 * [Factorial](factorial.py)
+* [Factorial Recursion](factorial_recursion.py)
 
 
 ## Dynamic Programming

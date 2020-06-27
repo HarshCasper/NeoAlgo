@@ -35,62 +35,59 @@ arr[] = 64 25 12 22 11   min(11,25,12,22,64)=11
 
 */
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-
-
-
-void swap(int *xp, int *yp) 
-{ 
-    int temp = *xp; 
-    *xp = *yp; 
-    *yp = temp; 
+void swap(int *xp, int *yp)
+{
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
 }
 //create a array dynamically
-int* create(int n){
-    int *a = (int*)malloc(n*sizeof(int));
+int *create(int n)
+{
+    int *a = (int *)malloc(n * sizeof(int));
 
     for (int i = 0; i < n; i++)
     {
         /* take input using element */
-        scanf("%d",(a+i));
+        scanf("%d", (a + i));
     }
 
     return a;
-    
 }
 
 //display the arrray
-void display(int* a,int n){
-     for (int i = 0; i < n; i++)
-     {
-         /* display it */
-         printf("%d",*(a+i));
-         printf(" ");
-     }
-     
+void display(int *a, int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        /* display it */
+        printf("%d", *(a + i));
+        printf(" ");
+    }
 }
 
 //selection sort function
-int* selection_sort(int *a,int n){
-     int i, j, min_index; 
-  
-    // One by one move boundary of unsorted subarray 
-    for (i = 0; i < n-1; i++) 
-    { 
-        // Find the minimum element in unsorted array 
-        min_index = i; 
-        for (j = i+1; j < n; j++) 
-          if (a[j] < a[min_index]) 
-            min_index = j; 
-  
-        // Swap the found minimum element with the first element 
-        swap(&a[min_index], &a[i]); 
-    } 
+int *selection_sort(int *a, int n)
+{
+    int i, j, min_index;
 
-     return a;
-     
+    // One by one move boundary of unsorted subarray
+    for (i = 0; i < n - 1; i++)
+    {
+        // Find the minimum element in unsorted array
+        min_index = i;
+        for (j = i + 1; j < n; j++)
+            if (a[j] < a[min_index])
+                min_index = j;
+
+        // Swap the found minimum element with the first element
+        swap(&a[min_index], &a[i]);
+    }
+
+    return a;
 }
 
 int main(int argc, char const *argv[])
@@ -98,20 +95,17 @@ int main(int argc, char const *argv[])
     int n;
 
     printf("\nenter teh size of the array:");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
-    int* a = create(n);
-    
-     
+    int *a = create(n);
+
     printf("\nunsorted array:");
-    display(a,n);
+    display(a, n);
 
-    int *b = selection_sort(a,n);
-  
+    int *b = selection_sort(a, n);
+
     printf("\n\nsorted array:");
-    display(b,n);
+    display(b, n);
 
     return 0;
 }
-
-

@@ -21,6 +21,9 @@ _add list here_
 * [Merge Sort](MergeSort.c)
 * [Selection Sort](selection_sort.c)
 
+## Graphs
+* [Prim's Algorithm](Prim_Algorithm.c)
+
 ## Machine Learning
 _add list here_
 

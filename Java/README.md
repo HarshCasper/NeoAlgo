@@ -21,6 +21,9 @@ _add list here_
 * [Insertion Sort](InsertionSort.java)
 * [Merge Sort](Merge_sort.java)
 
+## Graphs
+* [Prim's Algorithm](Prim_Algorithm.java)
+
 ## Machine Learning
 _add list here_
 

@@ -26,6 +26,7 @@
 
 ## Graphs
 * [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)
+*[Prim's Algorithm](Prim_Algorithm.cpp)
 
 ## Machine Learning
 _add list here_

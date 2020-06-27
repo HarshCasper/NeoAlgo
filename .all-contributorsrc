@@ -245,6 +245,25 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "aniketsingh98571",
+      "name": "Aniket Singh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/63097956?v=4",
+      "profile": "https://aniketsingh98571.github.io/Web-Developer/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ShubhamRattra",
+      "name": "Shubham Rattra",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46563834?v=4",
+      "profile": "https://github.com/settings/profile",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

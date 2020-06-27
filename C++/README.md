@@ -11,6 +11,7 @@
 
 ## Data Structures
 * [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
+* [Linked List](LinkedList.cpp)
 * [Queue](Queue.cpp)
 
 ## Searching
@@ -18,15 +19,16 @@
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.cpp)
-* [Merge Sort](Merge_Sort.cpp)
-* [Randomized Quick Sort](Randomized_Quick_Sort.cpp)
-* [Quick Sort](Quick_Sort.cpp)
-
 * [Insertion Sort](insertion.cpp)
+* [Merge Sort](Merge_Sort.cpp)
+* [Quick Sort](Quick_Sort.cpp)
+* [Randomized Quick Sort](Randomized_Quick_Sort.cpp)
+* [Shell Sort](Shell Sort.cpp)
 
 ## Graphs
 * [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)
 * [In-Order (LNR) Tree Traversal](inorder-traversal.cpp)
+* [Prim's Algorithm](Prim_Algorithm.cpp)
 
 ## Machine Learning
 _add list here_

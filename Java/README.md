@@ -13,13 +13,16 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Binary Search](Binary_search.java)
 
 ## Sorting
 * [Bubble Sort](BubbleSort.java)
 * [Quick Sort](QuickSort.java)
 * [Insertion Sort](InsertionSort.java)
 * [Merge Sort](Merge_sort.java)
+
+## Graphs
+* [Prim's Algorithm](Prim_Algorithm.java)
 
 ## Machine Learning
 _add list here_

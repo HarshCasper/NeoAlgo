@@ -16,7 +16,9 @@ _add list here_
 * [Breadth First Search](bfs.py)
 * [Depth First Search](dfs.py)
 * [Linear Search](Linear_Search.py)
+* [Random Search Las vegas version](random_search_las_vegas.py)
 * [Sublinear Search](Sublinear_search.ipynb)
+
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.py)
@@ -25,6 +27,9 @@ _add list here_
 * [Quick Sort](QuickSort.py)
 * [Selection Sort](Selection_Sort.py)
 * [Topological Sort](topological_sort.py)
+
+## Graphs
+* [Prim's Algorithm](Prim_Algorithm.py)
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)
@@ -35,6 +40,8 @@ _add list here_
 ## Mathematics
 * [Area](Area.py)
 * [Fibonacci Sequence Recursion](fibonacci_recursion.py)
+* [Sieve of Eratosthenes](prime_number_using_sieve_of_Eratosthenes.py)
+
 
 ## Dynamic Programming
 _add list here_

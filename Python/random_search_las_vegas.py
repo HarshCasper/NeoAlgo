@@ -28,27 +28,32 @@ Improvement:
 
 import random
 
-#manual input function from user
+# manual input function from user
+
+
 def get_list(size):
     l = []
     for i in range(size):
         l.append(int(input()))
     return l
 
-#random algorithm to search the algorithm.
-def random_search(ele,_list):
+# random algorithm to search the algorithm.
+
+
+def random_search(ele, _list):
     collector = random.choice(_list)
 
     while True:
         prev = collector
-        if collector==ele:
+        if collector == ele:
             print('element found')
             break
-        
+
         collector = random.choice(new_list)
+
 
 if __name__ == "__main__":
     new_list = get_list(int(input("enter the size of the list:")))
     ele = int(input("enter the element to search:"))
 
-    random_search(ele,new_list)
+    random_search(ele, new_list)

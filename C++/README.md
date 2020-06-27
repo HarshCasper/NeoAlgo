@@ -14,6 +14,7 @@ _add list here_
 3.Stack.
 4.Queue.
 5.Graph
+6.Tree
 ## Searching
 _add list here_
 

@@ -12,6 +12,7 @@ _add list here_
 
 ## Searching
 * [Linear Search](LinearSearch.cs)
+* [Binary Search] (BinarySearch.cs)
 
 ## Sorting
 * [Insertion Sort](InsertionSort.cs)

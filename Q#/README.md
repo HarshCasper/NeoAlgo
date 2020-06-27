@@ -7,17 +7,16 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the C# language
+# Codes in the Q# language
 
 ## Data Structures
 _add list here_
 
 ## Searching
-* [Linear Search](LinearSearch.cs)
+_add list here_
 
 ## Sorting
-* [Bubble Sort](BubbleSort.cs)
-* [Insertion Sort](InsertionSort.cs)
+_add list here_
 
 ## Machine Learning
 _add list here_

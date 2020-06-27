@@ -16,7 +16,7 @@ _add list here_
 * [Linear Search](LinearSearch.cs)
 
 ## Sorting
-Insertion Sort
+* [Insertion Sort](InsertionSort.cs)
 
 ## Machine Learning
 _add list here_

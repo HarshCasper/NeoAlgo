@@ -10,7 +10,7 @@
 # Codes in the Java language
 
 ## Data Structures
-_add list here_
+* [Segment Tree](SegmentTree.java)
 
 ## Searching
 _add list here_

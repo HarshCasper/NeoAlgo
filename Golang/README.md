@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/neo_algo.png"><br>
+    <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
@@ -7,32 +7,23 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Java language
+# Codes in the Golang language
 
 ## Data Structures
-* [Segment Tree](SegmentTree.java)
+_add list here_
 
 ## Searching
-* [Binary Search](Binary_search.java)
+* [Binary Search](binary_search.go)
+* [Linear Search](linear_search.go)
 
 ## Sorting
-* [Bubble Sort](BubbleSort.java)
-* [Quick Sort](QuickSort.java)
-* [Insertion Sort](InsertionSort.java)
-* [Merge Sort](Merge_sort.java)
-
-## Graphs
-* [Prim's Algorithm](Prim_Algorithm.java)
+_add list here_
 
 ## Machine Learning
 _add list here_
 
-## Graphs
-* [Dijkstra's Algorithm](Dijkstra.java)
-
 ## Mathematics
-* [Complex numbers](Complex.java)
-* [Sieve of Atkin](sieveOfAtkin.java)
+_add list here_
 
 ## Dynamic Programming
 _add list here_

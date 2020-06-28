@@ -1,4 +1,5 @@
 public class Linear_search{
+ //It iterates through the array to find key .The average time complexity O(n).
 static int linsearch(int[] a,int k){
 for(int i=0;i<a.length;i++){
 if(a[i]==k)
@@ -12,3 +13,7 @@ int key=8;
 System.out.println(linsearch(a,key));
 }
 }
+/*
+output:
+3
+*/

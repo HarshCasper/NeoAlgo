@@ -15,6 +15,7 @@
 
 ## Searching
 * [Linear Search](Linear_Search.cpp)
+* [Binary search](binary_search.cpp)
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.cpp)

@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/neo_algo.png"><br>
+    <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
@@ -49,3 +49,8 @@ _add list here_
 
 ## Other
 _add list here_
+
+## Competitive programming
+[Remove Duplicate Element from an array using extra space](RemoveDuplicateElement.java)
+[Remove Duplicate Element Without using Extra Space](RemoveDuplicateElementWithoutExtraSpace.java)
+

@@ -14,7 +14,7 @@ _add list here_
 _add list here_
 
 ## Sorting
-_add list here_
+* [OddevenSort](oddevensort.c)
 
 ## Machine Learning
 _add list here_

@@ -36,7 +36,7 @@
 _add list here_
 
 ## Mathematics
-_add list here_
+* [Sieve of Eratosthenes](Sieve_of_Eratosthenes.cpp)
 
 ## Dynamic Programming
 * [Longest increasing subsequence](longest_increasing_subsequence.cpp)

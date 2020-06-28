@@ -19,6 +19,7 @@
 
 ## Searching
 * [Linear Search](Linear_Search.cpp)
+* [Binary Search](Binary_Search.cpp)
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.cpp)

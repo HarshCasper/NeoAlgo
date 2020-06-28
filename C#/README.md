@@ -16,7 +16,7 @@ _add list here_
 
 ## Sorting
 * [Insertion Sort](InsertionSort.cs)
-* [Insertion Sort](BubbleSort.cs)
+* [Bubble Sort](BubbleSort.cs)
 * [Quick Sort](QuickSort.cs)
 
 ## Machine Learning

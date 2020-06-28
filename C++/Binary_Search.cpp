@@ -5,6 +5,7 @@
  * Implementation of Binary search algorithm.
 */
 #include <iostream>
+#include <algorithm>
 
 bool binary_search(int *, int, int, int);
 
@@ -42,6 +43,9 @@ int main() {
         for (int i = 0 ; i < n ; i++) {
             std::cin >> arr[i];
         }
+
+        std::sort(arr, arr + n);
+
         std::cout << "Enter the element to search : " << std::endl;
         std::cin >> search_element;
 

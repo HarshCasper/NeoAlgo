@@ -14,6 +14,7 @@ _add list here_
 
 ## Searching
 - [Linear Search](linear_search.c)
+- [Random Search Monte Carlo version](random_search.c)
 
 ## Sorting
 * [Bubble Sort](bubble_sort.c)

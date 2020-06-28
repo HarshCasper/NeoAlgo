@@ -25,5 +25,5 @@
 |Sorting:Comparator|[Problem](https://www.hackerrank.com/challenges/ctci-comparator-sorting)|[Solution](SortingComparator.py)|Python3|
 |Staircase|[Problem]()|[Solution](Staircase.py)|Python3|
 |Time Conversion|[Problem](https://www.hackerrank.com/challenges/time-conversion)|[Solution](TimeConversion.py)|Python3|
-|FunnyString|[Problem](https://www.hackerrank.com/challenges/funny-string/problem)|
+
 

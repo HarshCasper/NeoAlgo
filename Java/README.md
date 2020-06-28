@@ -13,6 +13,7 @@
 * [Segment Tree](SegmentTree.java)
 
 ## Searching
+* [Linear Search](Linear_search.java)
 * [Binary Search](Binary_search.java)
 
 ## Sorting

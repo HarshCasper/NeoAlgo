@@ -23,6 +23,7 @@
 
 ## Graphs
 * [Prim's Algorithm](Prim_Algorithm.java)
+* [Kruskal's Algorithm](Kruskal_Algorithm.java)
 
 ## Machine Learning
 _add list here_

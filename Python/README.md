@@ -30,6 +30,7 @@ _add list here_
 
 ## Graphs
 * [Prim's Algorithm](Prim_Algorithm.py)
+* [Kruskal's Algorithm](Kruskal_Algorithm.py) 
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)

@@ -26,6 +26,7 @@ _add list here_
 
 ## Graphs
 * [Prim's Algorithm](Prim_Algorithm.c)
+* [Kruskal's Algorithm](Kruskal_Algorithm.c)
 
 
 ## Machine Learning

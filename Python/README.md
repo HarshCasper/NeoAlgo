@@ -24,6 +24,7 @@ _add list here_
 * [Bubble Sort](Bubble_Sort.py)
 * [Heap Sort](Heap_sort.py)
 * [Insertion Sort](insertion.py)
+* [Merge Sort](Merge_Sort.py)
 * [Quick Sort](QuickSort.py)
 * [Selection Sort](Selection_Sort.py)
 * [Topological Sort](topological_sort.py)

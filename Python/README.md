@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/neo_algo.png"><br>
+    <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
@@ -19,11 +19,11 @@ _add list here_
 * [Random Search Las vegas version](random_search_las_vegas.py)
 * [Sublinear Search](Sublinear_search.ipynb)
 
-
 ## Sorting
 * [Bubble Sort](Bubble_Sort.py)
 * [Heap Sort](Heap_sort.py)
 * [Insertion Sort](insertion.py)
+* [Merge Sort](Merge_Sort.py)
 * [Quick Sort](QuickSort.py)
 * [Selection Sort](Selection_Sort.py)
 * [Topological Sort](topological_sort.py)
@@ -39,9 +39,9 @@ _add list here_
 
 ## Mathematics
 * [Area](Area.py)
+* [Factorial](factorial.py)
 * [Fibonacci Sequence Recursion](fibonacci_recursion.py)
 * [Sieve of Eratosthenes](prime_number_using_sieve_of_Eratosthenes.py)
-
 
 ## Dynamic Programming
 _add list here_

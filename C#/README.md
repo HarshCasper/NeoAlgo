@@ -13,10 +13,12 @@
 _add list here_
 
 ## Searching
+* [Binary Search] (BinarySearch.cs)
 * [Linear Search](LinearSearch.cs)
 
 ## Sorting
-_add list here_
+* [Bubble Sort](BubbleSort.cs)
+* [Insertion Sort](InsertionSort.cs)
 
 ## Machine Learning
 _add list here_

@@ -245,6 +245,45 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "aniketsingh98571",
+      "name": "Aniket Singh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/63097956?v=4",
+      "profile": "https://aniketsingh98571.github.io/Web-Developer/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ShubhamRattra",
+      "name": "Shubham Rattra",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46563834?v=4",
+      "profile": "https://github.com/settings/profile",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "Himanshu70565",
+      "name": "Himanshu Judge",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47275183?v=4",
+      "profile": "https://github.com/Himanshu70565",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "VijayaGB98",
+      "name": "Vijaya Gajanan Buddhavarapu",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25801504?v=4",
+      "profile": "http://linkedin.com/in/vijayagb/",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -13,7 +13,7 @@
 _add list here_
 
 ## Searching
-* [Binary Search] (BinarySearch.cs)
+* [Binary Search](BinarySearch.cs)
 * [Linear Search](LinearSearch.cs)
 
 ## Sorting

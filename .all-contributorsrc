@@ -284,6 +284,15 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "jivthesh",
+      "name": "Jivthesh M",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20579980?v=4",
+      "profile": "http://jivthesh.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

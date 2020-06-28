@@ -12,6 +12,7 @@
 ## Data Structures
 * [Binary Tree](BinaryTree.cpp)
 * [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
+* [Array Right Rotation Naive Approach](Array_Right_Rotate.cpp)
 * [Linked List](LinkedList.cpp)
 * [Queue](Queue.cpp)
 

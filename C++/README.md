@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/neo_algo.png"><br>
+    <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
@@ -12,16 +12,15 @@
 ## Data Structures
 * [Binary Tree](BinaryTree.cpp)
 * [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
-* [Array Right Rotation Naive Approach](Array_Right_Rotate.cpp)
 * [Linked List](LinkedList.cpp)
 * [Queue](Queue.cpp)
 
-
 ## Searching
-* [Linear Search](Linear_Search.cpp)
 * [Binary Search](Binary_Search.cpp)
+* [Linear Search](Linear_Search.cpp)
 
 ## Sorting
+* [Array Right Rotation Naive Approach](Array_Right_Rotate.cpp)
 * [Bubble Sort](Bubble_Sort.cpp)
 * [Insertion Sort](insertion.cpp)
 * [Merge Sort](Merge_Sort.cpp)

@@ -8,9 +8,9 @@ using namespace std;      //For cin and cout
     with constant difference between them that is equal to that prime.
 
     Sample Preorder Input : 
-    8 10 1 -1 -1 6 9 -1 -1 7 -1 -1 3 -1 14 -1 -1 
+    10 
     Sample Output: 
-    4
+    2 3 5 7
 
     @author Aditya Saxena
     @since 28-7-2020

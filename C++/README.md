@@ -23,6 +23,7 @@
 * [Quick Sort](Quick_Sort.cpp)
 
 * [Insertion Sort](insertion.cpp)
+* [Selection Sort](selection_sort.cpp)
 
 ## Graphs
 * [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)

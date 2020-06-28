@@ -36,4 +36,4 @@ _add list here_
 _add list here_
 
 ## Competitive programming
-[Remove Duplicate Element from an array using extra space](Competitive%20programming/RemoveDuplicateElement.java)
+[Remove Duplicate Element from an array using extra space](RemoveDuplicateElement.java)

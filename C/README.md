@@ -22,6 +22,7 @@ _add list here_
 * [Insertion Sort](InsertionSort.c)
 * [Merge Sort](MergeSort.c)
 * [Selection Sort](selection_sort.c)
+* [OddEven Sort](oddevensort.c)
 
 ## Graphs
 * [Prim's Algorithm](Prim_Algorithm.c)

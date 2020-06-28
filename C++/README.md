@@ -31,6 +31,7 @@
 * [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)
 * [In-Order (LNR) Tree Traversal](inorder-traversal.cpp)
 * [Prim's Algorithm](Prim_Algorithm.cpp)
+* [Kruskal's Algorithm](kruskal_Algorithm.cpp)
 
 ## Machine Learning
 _add list here_

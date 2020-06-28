@@ -7,7 +7,7 @@ using namespace std;      //For cin and cout
     the first prime number, 2. The multiples of a given prime are generated as a sequence of numbers starting from that prime,
     with constant difference between them that is equal to that prime.
 
-    Sample Preorder Input : 
+    Sample Input : 
     10 
     Sample Output: 
     2 3 5 7

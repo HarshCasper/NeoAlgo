@@ -14,6 +14,7 @@
 * [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
 * [Linked List](LinkedList.cpp)
 * [Queue](Queue.cpp)
+* [Stack](Stack_Implementation.cpp)
 
 ## Searching
 * [Binary Search](Binary_Search.cpp)

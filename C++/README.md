@@ -16,7 +16,6 @@
 * [Queue](Queue.cpp)
 * [Stack](Stack_Implementation.cpp)
 
-
 ## Searching
 * [Binary Search](Binary_Search.cpp)
 * [Linear Search](Linear_Search.cpp)
@@ -33,10 +32,11 @@
 
 ## Graphs
 * [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)
-* [In-Order (LNR) Tree Traversal](inorder-traversal.cpp)
-* [Pre Order (NLR) Tree Traversal](Preorder_Traversal.cpp)
-* [Prim's Algorithm](Prim_Algorithm.cpp)
+* [In-order (LNR) Tree Traversal](inorder-traversal.cpp)
 * [Kruskal's Algorithm](kruskal_Algorithm.cpp)
+* [Post-order (LRN) Tree Traversal](Postorder_Traversal.cpp)
+* [Pre-order (NLR) Tree Traversal](Preorder_Traversal.cpp)
+* [Prim's Algorithm](Prim_Algorithm.cpp)
 
 ## Machine Learning
 _add list here_

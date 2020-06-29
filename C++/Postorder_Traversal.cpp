@@ -1,13 +1,14 @@
-//This is the pre-order traversal of the binary tree
+//This is the post-order traversal 
 /*
 Author - Chaitanya Khinvasara
 */
 
 /*
 Working of the algorithm 
-   1. Visit the root.
-   2. Traverse the left subtree until you find null
-   3. Traverse the right subtree until you find null
+   
+   1. Traverse the left subtree until you find null
+   2. Traverse the right subtree until you find null
+   3. Visit the root.
 */
 
 
@@ -43,14 +44,15 @@ struct node * insert(struct node *root, int element)
     return root;
 }
 
-//Pre-order traversal
-void preorder(struct node *root)
+//Post-order traversal
+void postorder(struct node *root)
 {
     if(root == NULL)
         return;
+    
+    postorder(root->left);
+    postorder(root->right);
     cout << root->data << " ";
-    preorder(root->left);
-    preorder(root->right);
 }
 
 int main()
@@ -64,7 +66,7 @@ int main()
     insert(root, 10);
 
 
-    cout<<"Pre-order is " <<endl;
-    preorder(root);
+    cout<<"Post-order is " <<endl;
+    postorder(root);
     return 0;
 }

@@ -35,6 +35,7 @@
 * [In-Order (LNR) Tree Traversal](inorder-traversal.cpp)
 * [Prim's Algorithm](Prim_Algorithm.cpp)
 * [Kruskal's Algorithm](kruskal_Algorithm.cpp)
+* [PreOrder Tree Traversal](Preorder_Traversal.cpp)
 
 ## Machine Learning
 _add list here_

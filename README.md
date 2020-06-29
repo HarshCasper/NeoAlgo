@@ -102,6 +102,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://harshitdawar55.github.io"><img src="https://avatars2.githubusercontent.com/u/31154755?v=4" width="100px;" alt=""/><br /><sub><b>Harshit Dawar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshitDawar55" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshitDawar55" title="Documentation">📖</a></td>
     <td align="center"><a href="http://linkedin.com/in/deepak-k-31a414172"><img src="https://avatars1.githubusercontent.com/u/41117353?v=4" width="100px;" alt=""/><br /><sub><b>deepakkapse</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=deepakkapse" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/TanyaAggrawal"><img src="https://avatars1.githubusercontent.com/u/56471903?v=4" width="100px;" alt=""/><br /><sub><b>Tanya Aggarwal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=TanyaAggrawal" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=TanyaAggrawal" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/gaushikmr"><img src="https://avatars3.githubusercontent.com/u/59677936?v=4" width="100px;" alt=""/><br /><sub><b>Gaushik M.R</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=gaushikmr" title="Code">💻</a></td>
   </tr>
 </table>
 

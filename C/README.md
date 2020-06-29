@@ -23,7 +23,7 @@ _add list here_
 _add list here_
 
 ## Mathematics
-_add list here_
+* [Sieve of Eratosthenes](Sieve_of_Eratosthenes.c)
 
 ## Dynamic Programming
 _add list here_

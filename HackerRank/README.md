@@ -21,6 +21,7 @@
 |Counting Vallyes|[Problem](https://www.hackerrank.com/challenges/counting-valleys/problem)|[Solution](Counting_Valleys.py)|Python3|
 |DiagonalDifference|[Problem](https://www.hackerrank.com/challenges/diagonal-difference)|[Solution](DiagonalDifference.py)|Python3|
 |FunnyString|[Problem](https://www.hackerrank.com/challenges/funny-string/problem)|[Solution](FunnyString.py)|Python3|
+|GradingStudents|[Problem](https://www.hackerrank.com/challenges/grading/problem)|[Solution](GradingStudents.py)|Python3|
 |Mini-Max Sum|[Problem](https://www.hackerrank.com/challenges/mini-max-sum)|[Solution](Mini-MaxSum.py)|Python3|
 |Pairs|[Problem](https://www.hackerrank.com/challenges/pairs)|[Solution](Pairs.py)|Python3|
 |Palindrome Index|[Problem](https://www.hackerrank.com/challenges/palindrome-index/problem)|[Solution](Pallindrome_Index.py)|Python3|

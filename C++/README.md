@@ -36,6 +36,7 @@
 * [Prim's Algorithm](Prim_Algorithm.cpp)
 * [Kruskal's Algorithm](kruskal_Algorithm.cpp)
 * [PreOrder Tree Traversal](Preorder_Traversal.cpp)
+* [PostOrder Tree Traversal](Postorder_Traversal.cpp)
 
 ## Machine Learning
 _add list here_

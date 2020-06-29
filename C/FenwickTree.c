@@ -1,5 +1,3 @@
-**Fenwick Tree**
-
 #include <stdio.h>
 
 int FWtree[100] = {0};

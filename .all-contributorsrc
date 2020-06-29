@@ -322,6 +322,33 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "gaushikmr",
+      "name": "Gaushik M.R",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/59677936?v=4",
+      "profile": "https://github.com/gaushikmr",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "GSNCodes",
+      "name": "SowmiyaNarayanan G",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37922208?v=4",
+      "profile": "https://www.linkedin.com/in/sowmiyanarayanan-g/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "harsh-9in",
+      "name": "Harsh Kumar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54139847?v=4",
+      "profile": "https://github.com/harsh-9in",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

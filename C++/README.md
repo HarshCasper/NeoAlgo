@@ -14,6 +14,7 @@
 * [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
 * [Linked List](LinkedList.cpp)
 * [Queue](Queue.cpp)
+* [Stack](Stack_Implementation.cpp)
 
 ## Searching
 * [Binary Search](Binary_Search.cpp)
@@ -29,14 +30,13 @@
 * [Selection Sort](selection_sort.cpp)
 * [Shell Sort](ShellSort.cpp)
 
-
 ## Graphs
 * [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)
-* [In-Order (LNR) Tree Traversal](inorder-traversal.cpp)
-* [Prim's Algorithm](Prim_Algorithm.cpp)
+* [In-order (LNR) Tree Traversal](inorder-traversal.cpp)
 * [Kruskal's Algorithm](kruskal_Algorithm.cpp)
-* [PreOrder Tree Traversal](Preorder_Traversal.cpp)
-* [PostOrder Tree Traversal](Postorder_Traversal.cpp)
+* [Post-order (LRN) Tree Traversal](Postorder_Traversal.cpp)
+* [Pre-order (NLR) Tree Traversal](Preorder_Traversal.cpp)
+* [Prim's Algorithm](Prim_Algorithm.cpp)
 
 ## Machine Learning
 _add list here_

@@ -12,6 +12,7 @@
 * [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
 * [Linked List](LinkedList.cpp)
 * [Queue](Queue.cpp)
+* [Binary Search Tree] (BinarySearchTree.cpp)
 
 
 ## Searching

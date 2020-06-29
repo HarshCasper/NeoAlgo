@@ -8,7 +8,6 @@ n<p align="center">
 # Codes in the C language
 
 ## Data Structures
-- [FenwickTree](FenwickTree.c)
 
 ## Searching
 _add list here_

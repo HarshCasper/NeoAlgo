@@ -23,22 +23,20 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 * [C](/C/README.md)
 * [C++](/C++/README.md)
 * [C#](/C#/README.md)
+* [Q#](/Q#/README.md)
 * [Hacker Rank](/HackerRank/README.md)
 
 ## Contributing Guidelines
-A good step-by-step is described below. There are two possible situations: 
 
-* One, in which you are submitting code for a non-existing DS/Algo. In this case, you can just follow the process below.
+* Issues will be assigned on a _first come, first serve_ basis. You just have to comment on the issue, asking to be assigned, and it will be done if found fit.
+* Preferrably, you cannot work on any issue that is not assigned to you.
 * In case you want to submit an improvement to an existing algo, we prefer that you create an issue, describing in details your improvement. This will help others to analyze your contribution. You can use the [templates](.github/ISSUE_TEMPLATE/algorithm-ds-proposal.md) that we have provided :)
+* If you have anything else in mind, create an issue and please wait for it to be assigned to you. You can then start working on it and create a PR.
+* All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
+* If you have no idea what are issues or PRs, please do refer to [this link](https://github.com/TesseractCoding/NeoAlgo/wiki/What-is-a-Pull-Request-and-how-to-do-it%3F)
 
 Make sure your code works before submitting it :D
 __DON'T CREATE NEW FOLDERS!__
-
-1. Fork it (https://github.com/tesseractcoding/neoalgo/fork)
-2. Create your branch __SEE BELOW MORE INFORMATION__ (git checkout -b fooBar)
-3. Commit your changes (git commit -am 'Add some fooBar')
-4. Push to the branch (git push origin fooBar)
-5. Create a new Pull Request
 
 ### Where to upload the files
 __PLEASE READ THIS__
@@ -48,12 +46,10 @@ __PLEASE READ THIS__
 * Also, be polite with the reviewers - they will be ALWAYS polite to you.
 
 ## Code of Conduct
-_add code of conduct here_
+You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 ## License
 This project follows the [MIT License](/LICENSE).
-
-
 
 ## Contributors ✨
 
@@ -93,6 +89,24 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://myexpindark.me/"><img src="https://avatars0.githubusercontent.com/u/50295688?v=4" width="100px;" alt=""/><br /><sub><b>Debojyoti Chakraborty</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=sparkingdark" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Surajv311"><img src="https://avatars0.githubusercontent.com/u/59371846?v=4" width="100px;" alt=""/><br /><sub><b>Suraj_v</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Surajv311" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/GudlaArunKumar"><img src="https://avatars1.githubusercontent.com/u/58899747?v=4" width="100px;" alt=""/><br /><sub><b>Arun Kumar G</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=GudlaArunKumar" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/hamdi-chahdi-452531104/"><img src="https://avatars3.githubusercontent.com/u/34605324?v=4" width="100px;" alt=""/><br /><sub><b>Hamdi Chahdi</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=hamdiChehdi" title="Code">💻</a></td>
+    <td align="center"><a href="http://atarax665.github.io"><img src="https://avatars1.githubusercontent.com/u/29673671?v=4" width="100px;" alt=""/><br /><sub><b>Abhinav Anand</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=atarax665" title="Code">💻</a></td>
+    <td align="center"><a href="https://aniketsingh98571.github.io/Web-Developer/"><img src="https://avatars3.githubusercontent.com/u/63097956?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Singh</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=aniketsingh98571" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/settings/profile"><img src="https://avatars0.githubusercontent.com/u/46563834?v=4" width="100px;" alt=""/><br /><sub><b>Shubham Rattra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ShubhamRattra" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ShubhamRattra" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Himanshu70565"><img src="https://avatars1.githubusercontent.com/u/47275183?v=4" width="100px;" alt=""/><br /><sub><b>Himanshu Judge</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Himanshu70565" title="Code">💻</a></td>
+    <td align="center"><a href="http://linkedin.com/in/vijayagb/"><img src="https://avatars0.githubusercontent.com/u/25801504?v=4" width="100px;" alt=""/><br /><sub><b>Vijaya Gajanan Buddhavarapu</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=VijayaGB98" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=VijayaGB98" title="Documentation">📖</a> <a href="#ideas-VijayaGB98" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://jivthesh.github.io"><img src="https://avatars3.githubusercontent.com/u/20579980?v=4" width="100px;" alt=""/><br /><sub><b>Jivthesh M</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=jivthesh" title="Code">💻</a></td>
+    <td align="center"><a href="https://harshitdawar55.github.io"><img src="https://avatars2.githubusercontent.com/u/31154755?v=4" width="100px;" alt=""/><br /><sub><b>Harshit Dawar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshitDawar55" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshitDawar55" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://linkedin.com/in/deepak-k-31a414172"><img src="https://avatars1.githubusercontent.com/u/41117353?v=4" width="100px;" alt=""/><br /><sub><b>deepakkapse</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=deepakkapse" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/TanyaAggrawal"><img src="https://avatars1.githubusercontent.com/u/56471903?v=4" width="100px;" alt=""/><br /><sub><b>Tanya Aggarwal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=TanyaAggrawal" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=TanyaAggrawal" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/gaushikmr"><img src="https://avatars3.githubusercontent.com/u/59677936?v=4" width="100px;" alt=""/><br /><sub><b>Gaushik M.R</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=gaushikmr" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/sowmiyanarayanan-g/"><img src="https://avatars2.githubusercontent.com/u/37922208?v=4" width="100px;" alt=""/><br /><sub><b>SowmiyaNarayanan G</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=GSNCodes" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/harsh-9in"><img src="https://avatars3.githubusercontent.com/u/54139847?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Kumar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=harsh-9in" title="Code">💻</a></td>
   </tr>
 </table>
 

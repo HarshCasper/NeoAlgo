@@ -7,34 +7,23 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Java language
+# Codes in the Golang language
 
 ## Data Structures
-* [Segment Tree](SegmentTree.java)
+_add list here_
 
 ## Searching
-* [Linear Search](Linear_search.java)
-* [Binary Search](Binary_search.java)
+* [Binary Search](binary_search.go)
+* [Linear Search](linear_search.go)
 
 ## Sorting
-* [Bubble Sort](BubbleSort.java)
-* [Quick Sort](QuickSort.java)
-* [Insertion Sort](InsertionSort.java)
-* [Merge Sort](Merge_sort.java)
-
-## Graphs
-* [Prim's Algorithm](Prim_Algorithm.java)
-* [Kruskal's Algorithm](Kruskal_Algorithm.java)
+_add list here_
 
 ## Machine Learning
 _add list here_
 
-## Graphs
-* [Dijkstra's Algorithm](Dijkstra.java)
-
 ## Mathematics
-* [Complex numbers](Complex.java)
-* [Sieve of Atkin](sieveOfAtkin.java)
+_add list here_
 
 ## Dynamic Programming
 _add list here_
@@ -50,8 +39,3 @@ _add list here_
 
 ## Other
 _add list here_
-
-## Competitive programming
-[Remove Duplicate Element from an array using extra space](RemoveDuplicateElement.java)
-[Remove Duplicate Element Without using Extra Space](RemoveDuplicateElementWithoutExtraSpace.java)
-

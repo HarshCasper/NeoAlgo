@@ -13,6 +13,7 @@
 * [Linked List](LinkedList.cpp)
 * [Queue](Queue.cpp)
 * [Binary Search Tree](BinarySearchTree.cpp)
+* [Stack](Stack.cpp)
 
 
 ## Searching

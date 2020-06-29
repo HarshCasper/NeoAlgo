@@ -31,10 +31,10 @@
 * [Selection Sort](selection_sort.cpp)
 * [Shell Sort](ShellSort.cpp)
 
-
 ## Graphs
 * [Dijkstra's Algorithm](Dijkstra_algorithm.cpp)
 * [In-Order (LNR) Tree Traversal](inorder-traversal.cpp)
+* [Pre Order (NLR) Tree Traversal](Preorder_Traversal.cpp)
 * [Prim's Algorithm](Prim_Algorithm.cpp)
 * [Kruskal's Algorithm](kruskal_Algorithm.cpp)
 

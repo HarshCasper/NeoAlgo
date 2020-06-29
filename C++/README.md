@@ -9,12 +9,11 @@
 # Codes in the C++ language
 
 ## Data Structures
+* [Binary Search Tree](BinarySearchTree.cpp)
 * [Contiguous Sub Array with Given Sum](SubArrayWithGivenSum.cpp)
 * [Linked List](LinkedList.cpp)
 * [Queue](Queue.cpp)
-* [Binary Search Tree](BinarySearchTree.cpp)
 * [Stack](Stack.cpp)
-
 
 ## Searching
 * [Linear Search](Linear_Search.cpp)

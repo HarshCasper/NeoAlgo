@@ -18,7 +18,8 @@
 * [Linear Search](linear_search.js)
 
 ## Sorting
-- [Bubble Sort](https://github.com/TesseractCoding/NeoAlgo/blob/master/Javascript/BubbleSort.js)
+- [Bubble Sort](BubbleSort.js)
+- [Insertion Sort](insertion_sort.js)
 
 ## Machine Learning
 _add list here_

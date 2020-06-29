@@ -10,7 +10,8 @@
 # Codes in the C language
 
 ## Data Structures
-_add list here_
+* [PreorderTraversal](preordertraversal.c)
+* [FenwickTree](FenwickTree.c)
 
 ## Searching
 - [Linear Search](linear_search.c)

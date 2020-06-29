@@ -16,6 +16,7 @@
 * [Queue](Queue.cpp)
 * [Stack](Stack_Implementation.cpp)
 
+
 ## Searching
 * [Binary Search](Binary_Search.cpp)
 * [Linear Search](Linear_Search.cpp)

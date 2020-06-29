@@ -1,4 +1,4 @@
-## To find the longest contiguous sub-array sum
+## To find the contiguous sub-array with the largest sum in a one-dimensional array of numbers
 
 def kadane(nums):
 

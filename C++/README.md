@@ -55,5 +55,6 @@ _add list here_
 ## Competitive Programming
 * [Array Right Rotation Naive Approach](/cp/Array_Right_Rotate.cpp)
 * [Contiguous Sub Array with Given Sum](/cp/SubArrayWithGivenSum.cpp)
+* [Kadane's Algorithm for max sum subArray](/cp/Kadane_Alogorithm.cpp)
 
 ## Other

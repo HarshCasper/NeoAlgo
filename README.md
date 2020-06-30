@@ -36,7 +36,6 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 * If you have no idea what are issues or PRs, please do refer to [this link](https://github.com/TesseractCoding/NeoAlgo/wiki/What-is-a-Pull-Request-and-how-to-do-it%3F)
 
 Make sure your code works before submitting it :D
-__DON'T CREATE NEW FOLDERS!__
 
 ### Where to upload the files
 __PLEASE READ THIS__

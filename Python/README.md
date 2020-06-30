@@ -33,11 +33,13 @@ _add list here_
 * [Kruskal's Algorithm](/graphs/Kruskal_Algorithm.py) 
 
 ## Machine Learning
+* [Linear Regression](Linear_Regression.ipynb)
 * [Iris Classifier using Keras](/ml/Iris_Classifier_using_Keras.ipynb)
 * [Linear Regression](/ml/Linear_Regression.ipynb)
 * [Logistic Regression](/ml/Logistic_Regression.ipynb)
 * [Numeric Outlier Selection](/ml/Numerical_outlier_method.ipynb)
 * [Principal Component Analysis](/ml/principal_component_analysis.ipynb)
+* [Decision Tree](/ml/DecisionTree_From_Scratch.ipynb)
 
 ## Mathematics
 * [Area](/math/Area.py)

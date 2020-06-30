@@ -1,5 +1,5 @@
 # Stack
-Stack is a type of Linear data structure .Its implementation is here [Stack](Stack.java).
+Stack is a type of Linear data structure .Its implementation is here [Stack](Stackll.java).
 
 It follows LIFO or FILO order ie (Last In First Out) or(First In Last Out).
 

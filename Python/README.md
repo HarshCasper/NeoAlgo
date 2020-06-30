@@ -18,6 +18,7 @@ _add list here_
 
 ## Machine Learning
 * [Linear Regression](Linear_Regression.ipynb)
+* [Decision Tree](DecisionTree_From_Scratch.ipynb)
    
 ## Mathematics
 _add list here_

@@ -11,6 +11,7 @@
 
 ## Data Structures
 * [Segment Tree](/ds/SegmentTree.java)
+* [Stack](/ds/Stackll.java)
 
 ## Searching
 * [Linear Search](/search/Linear_search.java)

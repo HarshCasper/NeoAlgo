@@ -10,7 +10,7 @@
 # Codes in the Python language
 
 ## Data Structures
-_add list here_
+[Tree Traversals - in,pre,post-order](/ds/Tree_Traversals_In_Pre_Post_Order.py)
 
 ## Searching
 * [Breadth First Search](/search/bfs.py)

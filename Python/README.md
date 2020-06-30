@@ -11,7 +11,7 @@
 _add list here_
 
 ## Searching
-_add list here_
+* [Binary Search Algorithm]https://github.com/kulsoomzahra/NeoAlgo/commit/710764f75701e059831f2159bdbbb139b3635742#diff-e3a4cd471515f3cd4b32fc162228c1eb
 
 ## Sorting
 _add list here_

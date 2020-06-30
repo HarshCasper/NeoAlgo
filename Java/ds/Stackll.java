@@ -33,7 +33,7 @@ class mystack<E>
             top=temp;
         }
     }
-    E peep(){
+    E peek(){
         if(isempty())
             return null;
         return top.data;
@@ -68,11 +68,11 @@ public class Stackll {
         s.push(1);
         s.push(2);
         s.push(3);
-        System.out.println(s.peep());
+        System.out.println(s.peek());
         System.out.println(s.pop());
         System.out.println(s.pop());
         System.out.println(s.pop());
-        System.out.println(s.peep());
+        System.out.println(s.peek());
         System.out.println(s.pop());
     }
 }

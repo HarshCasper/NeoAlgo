@@ -39,7 +39,7 @@ _add list here_
 * [Logistic Regression](/ml/Logistic_Regression.ipynb)
 * [Numeric Outlier Selection](/ml/Numerical_outlier_method.ipynb)
 * [Principal Component Analysis](/ml/principal_component_analysis.ipynb)
-* [Decision Tree](DecisionTree_From_Scratch.ipynb)
+* [Decision Tree](/ml/DecisionTree_From_Scratch.ipynb)
 
 ## Mathematics
 * [Area](/math/Area.py)

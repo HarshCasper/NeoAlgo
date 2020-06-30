@@ -15,7 +15,7 @@
 ## Searching
 - [Linear Search](/search/linear_search.c)
 - [Random Search Monte Carlo version](/search/random_search.c)
-
+- [Binary Search]https://github.com/TesseractCoding/NeoAlgo/pull/58/commits/53265c91b1f605cd91685a7beb023aa38f617545#diff-94782b4e6aed542fd5bd09befd9d03db
 ## Sorting
 * [Bubble Sort](/sort/bubble_sort.c)
 * [Insertion Sort](/sort/InsertionSort.c)

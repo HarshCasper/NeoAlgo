@@ -13,13 +13,13 @@
 _add list here_
 
 ## Searching
-* [Binary Search](BinarySearch.cs)
-* [Linear Search](LinearSearch.cs)
+* [Binary Search](/search/BinarySearch.cs)
+* [Linear Search](/search/LinearSearch.cs)
 
 ## Sorting
-* [Bubble Sort](BubbleSort.cs)
-* [Insertion Sort](InsertionSort.cs)
-* [Quick Sort](QuickSort.cs)
+* [Bubble Sort](/sort/BubbleSort.cs)
+* [Insertion Sort](/sort/InsertionSort.cs)
+* [Quick Sort](/sort/QuickSort.cs)
 
 ## Machine Learning
 _add list here_
@@ -31,9 +31,6 @@ _add list here_
 _add list here_
 
 ## Blockchain
-_add list here_
-
-## Searching
 _add list here_
 
 ## Cryptography

@@ -13,11 +13,13 @@
 [Tree (includes Traversals - in,pre,post-order)](/ds/Tree_Traversals_In_Pre_Post_Order.py)
 
 ## Searching
+* [Bilinear Search](/serch/bilinear.py)
 * [Breadth First Search](/search/bfs.py)
 * [Depth First Search](/search/dfs.py)
 * [Linear Search](/search/Linear_Search.py)
 * [Random Search Las vegas version](/search/random_search_las_vegas.py)
 * [Sublinear Search](/search/Sublinear_search.ipynb)
+
 
 ## Sorting
 * [Bubble Sort](/sort/Bubble_Sort.py)

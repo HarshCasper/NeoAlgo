@@ -40,7 +40,7 @@ i)when stack is empty we have to throw error.
 ii)when only one element is there and we have to remove we must set the top pointer null.
 iii)else we have to delete the top before which its value is stored in a variable then head is assigned to next top.
 
-### 3)Peep:
+### 3)Peek:
 It is used to get top element.
 
 Different cases:

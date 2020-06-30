@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/neo_algo.png"><br>
+    <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
@@ -10,15 +10,16 @@
 # Codes in the Javascript language
 
 ## Data Structures
-- [Linked List](./LinkedList.js)
-- [Queue](./Queue.js)
+- [Linked List](/ds/LinkedList.js)
+- [Queue](/ds/Queue.js)
 
 ## Searching
-* [Binary Search](binary_search.js)
-* [Linear Search](linear_search.js)
+* [Binary Search](/search/binary_search.js)
+* [Linear Search](/search/linear_search.js)
 
 ## Sorting
-- [Bubble Sort](https://github.com/TesseractCoding/NeoAlgo/blob/master/Javascript/BubbleSort.js)
+- [Bubble Sort](/sort/BubbleSort.js)
+- [Insertion Sort](/sort/insertion_sort.js)
 
 ## Machine Learning
 _add list here_

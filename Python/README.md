@@ -13,12 +13,13 @@
 _add list here_
 
 ## Searching
+* [Bilinear Search](/serch/bilinear.py)
 * [Breadth First Search](/search/bfs.py)
 * [Depth First Search](/search/dfs.py)
 * [Linear Search](/search/Linear_Search.py)
 * [Random Search Las vegas version](/search/random_search_las_vegas.py)
 * [Sublinear Search](/search/Sublinear_search.ipynb)
-* [Bilinear Search](/serch/bilinear.py)
+
 
 ## Sorting
 * [Bubble Sort](/sort/Bubble_Sort.py)

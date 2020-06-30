@@ -13,7 +13,7 @@ Java implements a Stack ADT(Abstract Data Type) using a LinkedList(class).
 when an algorithm is designed for any problem it is important to cover the corner cases in order to make the 
 solution efficient.
 
-##Operations
+## Operations
 The operations which are normally performed on stack has are 
 1.push
 2.peep

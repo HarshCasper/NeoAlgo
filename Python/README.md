@@ -18,6 +18,7 @@ _add list here_
 * [Linear Search](/search/Linear_Search.py)
 * [Random Search Las vegas version](/search/random_search_las_vegas.py)
 * [Sublinear Search](/search/Sublinear_search.ipynb)
+* [Bilinear Search](/serch/bilinear.py)
 
 ## Sorting
 * [Bubble Sort](/sort/Bubble_Sort.py)

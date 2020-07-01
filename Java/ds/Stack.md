@@ -16,7 +16,7 @@ solution efficient.
 ## Operations
 The operations which are normally performed on stack has are 
 1.push
-2.peep
+2.peek
 3.pop
 
 we are using linkedlist implementation(My preference because no problem of size).

@@ -29,6 +29,7 @@
 * [Randomized Quick Sort](/sort/Randomized_Quick_Sort.cpp)
 * [Selection Sort](/sort/selection_sort.cpp)
 * [Shell Sort](/sort/ShellSort.cpp)
+* [Heap Sort](/sort/HeapSort.cpp)
 
 ## Graphs
 * [Dijkstra's Algorithm](/graphs/Dijkstra_algorithm.cpp)

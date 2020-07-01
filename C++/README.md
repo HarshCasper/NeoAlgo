@@ -12,6 +12,7 @@
 ## Data Structures
 * [Binary Search Tree](/ds/BinarySearchTree.cpp)
 * [Binary Tree](/ds/BinaryTree.cpp)
+* [Doubly Linked List](/ds/DoublyLinkedList.cpp)
 * [Linked List](/ds/LinkedList.cpp)
 * [Queue](/ds/Queue.cpp)
 * [Stack](/ds/Stack_Implementation.cpp)
@@ -55,5 +56,6 @@ _add list here_
 ## Competitive Programming
 * [Array Right Rotation Naive Approach](/cp/Array_Right_Rotate.cpp)
 * [Contiguous Sub Array with Given Sum](/cp/SubArrayWithGivenSum.cpp)
+* [Kadane's Algorithm for max sum subArray](/cp/Kadane_Alogorithm.cpp)
 
 ## Other

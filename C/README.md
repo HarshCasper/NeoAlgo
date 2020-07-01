@@ -13,8 +13,10 @@
 * [Fenwick Tree](/ds/FenwickTree.c)
 
 ## Searching
+- [Binary Search](/search/BinarySearch.c)
 - [Linear Search](/search/linear_search.c)
 - [Random Search Monte Carlo version](/search/random_search.c)
+
 
 ## Sorting
 * [Bubble Sort](/sort/bubble_sort.c)

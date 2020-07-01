@@ -10,9 +10,11 @@
 # Codes in the Python language
 
 ## Data Structures
-_add list here_
+[Tree (includes Traversals - in,pre,post-order)](/ds/Tree_Traversals_In_Pre_Post_Order.py)
 
 ## Searching
+* [Bilinear Search](/serch/bilinear.py)
+* [Binary Search](/search/binarysearch.py)
 * [Breadth First Search](/search/bfs.py)
 * [Depth First Search](/search/dfs.py)
 * [Linear Search](/search/Linear_Search.py)

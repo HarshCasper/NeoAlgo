@@ -16,7 +16,7 @@
 |Apple and Orange|[Problem](https://www.hackerrank.com/challenges/apple-and-orange)|[Solution](AppleandOrange.py)|Python3|
 |Array Manipulation|[Problem](https://www.hackerrank.com/challenges/crush)|[Solution](Array_Manipulation.py)|Python3|
 |Birthday Cake Candles|[Problem](https://www.hackerrank.com/challenges/birthday-cake-candles)|[Solution](BirthdayCakeCandles.py)|Python3|
-|Birthday Chocolate|[Problem](https://www.hackerrank.com/challenges/the-birthday-bar/problem)|[Solution](BirthdayChocolate.py)|Python|
+|Birthday Chocolate|[Problem](https://www.hackerrank.com/challenges/the-birthday-bar/problem)|[Solution](BirthdayChocolate.py)|Python3|
 |Count Triplets|[Problem](https://www.hackerrank.com/challenges/count-triplets-1)|[Solution](CountTriplets.py)|Python3|
 |Counting Vallyes|[Problem](https://www.hackerrank.com/challenges/counting-valleys/problem)|[Solution](Counting_Valleys.py)|Python3|
 |DiagonalDifference|[Problem](https://www.hackerrank.com/challenges/diagonal-difference)|[Solution](DiagonalDifference.py)|Python3|
@@ -30,3 +30,5 @@
 |Sorting:Comparator|[Problem](https://www.hackerrank.com/challenges/ctci-comparator-sorting)|[Solution](SortingComparator.py)|Python3|
 |Staircase|[Problem]()|[Solution](Staircase.py)|Python3|
 |Time Conversion|[Problem](https://www.hackerrank.com/challenges/time-conversion)|[Solution](TimeConversion.py)|Python3|
+|The Full Counting Sort|[Problem](https://www.hackerrank.com/challenges/countingsort4)|[Solution](The_Full_Counting_Sort.cpp)|C++|
+

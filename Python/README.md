@@ -31,7 +31,7 @@
 * [Topological Sort](sort/topological_sort.py)
 
 ## Graphs
-* [Depth of Tree](ds/Depth_Of_Tree.py)
+* [Depth of Tree](graphs/Depth_Of_Tree.py)
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 

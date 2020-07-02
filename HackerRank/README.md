@@ -11,8 +11,8 @@
 
 |Topic| Problems | Solutions |
 |---|---|---|
-|2D Array-DS|[Problem](https://www.hackerrank.com/challenges/2d-array?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[Python3](2D_Array.py),[java](2DArray.java)
-|Alternating Characters|[Problem](https://www.hackerrank.com/challenges/alternating-characters)|[Python3](AlternatingCharacters.py)
+|2D Array-DS|[Problem](https://www.hackerrank.com/challenges/2d-array?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[Python3](2D_Array.py), [Java](2DArray.java)
+|Alternating Characters|[Problem](https://www.hackerrank.com/challenges/alternating-characters)|[Python3](AlternatingCharacters.py), [Java](AlternatingCharacters.java)
 |Apple and Orange|[Problem](https://www.hackerrank.com/challenges/apple-and-orange)|[Python3](AppleandOrange.py)
 |Array Manipulation|[Problem](https://www.hackerrank.com/challenges/crush)|[Python3](Array_Manipulation.py)
 |Birthday Cake Candles|[Problem](https://www.hackerrank.com/challenges/birthday-cake-candles)|[Python3](BirthdayCakeCandles.py)

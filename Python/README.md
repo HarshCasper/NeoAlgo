@@ -10,6 +10,7 @@
 # Codes in the Python language
 
 ## Data Structures
+* [Stacks](ds/Stacks.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 
 ## Searching

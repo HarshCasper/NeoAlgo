@@ -12,7 +12,7 @@
 ## Data Structures
 * [PreorderTraversal](preordertraversal.c)
 * [FenwickTree](FenwickTree.c)
-
+* [InorderTraversal](inorder.c)
 ## Searching
 - [Linear Search](linear_search.c)
 - [Random Search Monte Carlo version](random_search.c)

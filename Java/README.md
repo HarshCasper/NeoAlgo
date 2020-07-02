@@ -27,6 +27,8 @@
 * [Dijkstra's Algorithm](graphs/Dijkstra.java)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 * [Prim's Algorithm](graphs/Prim_Algorithm.java)
+* [Breadth First Search](/Java/graphs/BFS.java)
+
 
 ## Machine Learning
 _add list here_

@@ -9,8 +9,8 @@
 
 # Hacker Rank Solutions
 
-|Topic| Problems | Solutions
-|---|---|---|---|
+|Topic| Problems | Solutions |
+|---|---|---|
 |2D Array-DS|[Problem](https://www.hackerrank.com/challenges/2d-array?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[Python3](2D_Array.py),[java](2DArray.java)
 |Alternating Characters|[Problem](https://www.hackerrank.com/challenges/alternating-characters)|[Python3](AlternatingCharacters.py)
 |Apple and Orange|[Problem](https://www.hackerrank.com/challenges/apple-and-orange)|[Python3](AppleandOrange.py)

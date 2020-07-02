@@ -63,5 +63,5 @@ _add list here_
 _add list here_
 
 ## Other
-* [Check Inversion](Check_Inversion.py)
+* [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)

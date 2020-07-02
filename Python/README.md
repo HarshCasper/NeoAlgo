@@ -11,6 +11,7 @@
 
 ## Data Structures
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Stacks](ds/Stacks.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)

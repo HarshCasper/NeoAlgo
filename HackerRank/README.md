@@ -9,26 +9,26 @@
 
 # Hacker Rank Solutions
 
-|Topic| Problems | Solutions |Language|
-|---|---|---|---|
-|2D Array-DS|[Problem](https://www.hackerrank.com/challenges/2d-array?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[Solution](2D_Array.py)|Python3|
-|Alternating Characters|[Problem](https://www.hackerrank.com/challenges/alternating-characters)|[Solution](AlternatingCharacters.py)|Python3|
-|Apple and Orange|[Problem](https://www.hackerrank.com/challenges/apple-and-orange)|[Solution](AppleandOrange.py)|Python3|
-|Array Manipulation|[Problem](https://www.hackerrank.com/challenges/crush)|[Solution](Array_Manipulation.py)|Python3|
-|Birthday Cake Candles|[Problem](https://www.hackerrank.com/challenges/birthday-cake-candles)|[Solution](BirthdayCakeCandles.py)|Python3|
-|Birthday Chocolate|[Problem](https://www.hackerrank.com/challenges/the-birthday-bar/problem)|[Solution](BirthdayChocolate.py)|Python3|
-|Count Triplets|[Problem](https://www.hackerrank.com/challenges/count-triplets-1)|[Solution](CountTriplets.py)|Python3|
-|Counting Vallyes|[Problem](https://www.hackerrank.com/challenges/counting-valleys/problem)|[Solution](Counting_Valleys.py)|Python3|
-|DiagonalDifference|[Problem](https://www.hackerrank.com/challenges/diagonal-difference)|[Solution](DiagonalDifference.py)|Python3|
-|FunnyString|[Problem](https://www.hackerrank.com/challenges/funny-string/problem)|[Solution](FunnyString.py)|Python3|
-|GradingStudents|[Problem](https://www.hackerrank.com/challenges/grading/problem)|[Solution](GradingStudents.py)|Python3|
-|Mini-Max Sum|[Problem](https://www.hackerrank.com/challenges/mini-max-sum)|[Solution](Mini-MaxSum.py)|Python3|
-|Pairs|[Problem](https://www.hackerrank.com/challenges/pairs)|[Solution](Pairs.py)|Python3|
-|Palindrome Index|[Problem](https://www.hackerrank.com/challenges/palindrome-index/problem)|[Solution](Pallindrome_Index.py)|Python3|
-|PlusMinus|[Problem](https://www.hackerrank.com/challenges/plus-minus)|[Solution](PlusMinus.py)|Python3|
-|SherlockandArray|[Problem](https://www.hackerrank.com/challenges/sherlock-and-array)|[Solution](SherlockandArray.py)|Python3|
-|Sorting:Comparator|[Problem](https://www.hackerrank.com/challenges/ctci-comparator-sorting)|[Solution](SortingComparator.py)|Python3|
-|Staircase|[Problem]()|[Solution](Staircase.py)|Python3|
-|Time Conversion|[Problem](https://www.hackerrank.com/challenges/time-conversion)|[Solution](TimeConversion.py)|Python3|
-|The Full Counting Sort|[Problem](https://www.hackerrank.com/challenges/countingsort4)|[Solution](The_Full_Counting_Sort.cpp)|C++|
+|Topic| Problems | Solutions |
+|---|---|---|
+|2D Array-DS|[Problem](https://www.hackerrank.com/challenges/2d-array?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[Python3](2D_Array.py), [Java](2DArray.java)
+|Alternating Characters|[Problem](https://www.hackerrank.com/challenges/alternating-characters)|[Python3](AlternatingCharacters.py), [Java](AlternatingCharacters.java)
+|Apple and Orange|[Problem](https://www.hackerrank.com/challenges/apple-and-orange)|[Python3](AppleandOrange.py)
+|Array Manipulation|[Problem](https://www.hackerrank.com/challenges/crush)|[Python3](Array_Manipulation.py)
+|Birthday Cake Candles|[Problem](https://www.hackerrank.com/challenges/birthday-cake-candles)|[Python3](BirthdayCakeCandles.py)
+|Birthday Chocolate|[Problem](https://www.hackerrank.com/challenges/the-birthday-bar/problem)|[Python3](BirthdayChocolate.py)
+|Count Triplets|[Problem](https://www.hackerrank.com/challenges/count-triplets-1)|[Python3](CountTriplets.py)
+|Counting Vallyes|[Problem](https://www.hackerrank.com/challenges/counting-valleys/problem)|[Python3](Counting_Valleys.py)
+|DiagonalDifference|[Problem](https://www.hackerrank.com/challenges/diagonal-difference)|[Python3](DiagonalDifference.py)
+|FunnyString|[Problem](https://www.hackerrank.com/challenges/funny-string/problem)|[Python3](FunnyString.py)
+|GradingStudents|[Problem](https://www.hackerrank.com/challenges/grading/problem)|[Python3](GradingStudents.py)
+|Mini-Max Sum|[Problem](https://www.hackerrank.com/challenges/mini-max-sum)|[Python3](Mini-MaxSum.py)
+|Pairs|[Problem](https://www.hackerrank.com/challenges/pairs)|[Python3](Pairs.py)
+|Palindrome Index|[Problem](https://www.hackerrank.com/challenges/palindrome-index/problem)|[Python3](Pallindrome_Index.py)
+|PlusMinus|[Problem](https://www.hackerrank.com/challenges/plus-minus)|[Python3](PlusMinus.py)
+|SherlockandArray|[Problem](https://www.hackerrank.com/challenges/sherlock-and-array)|[Python3](SherlockandArray.py)
+|Sorting:Comparator|[Problem](https://www.hackerrank.com/challenges/ctci-comparator-sorting)|[Python3](SortingComparator.py)
+|Staircase|[Problem]()|[Python3](Staircase.py)
+|Time Conversion|[Problem](https://www.hackerrank.com/challenges/time-conversion)|[Python3](TimeConversion.py)
+|The Full Counting Sort|[Problem](https://www.hackerrank.com/challenges/countingsort4)|[C++](The_Full_Counting_Sort.cpp)
 

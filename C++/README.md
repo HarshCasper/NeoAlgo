@@ -30,7 +30,7 @@
 * [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
 * [Selection Sort](sort/selection_sort.cpp)
 * [Shell Sort](sort/ShellSort.cpp)
-* [Toplogical Sort](sort/Topological_Sorting_DFS.cpp)
+* [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 
 ## Graphs
 * [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)

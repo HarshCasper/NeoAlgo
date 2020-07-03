@@ -16,7 +16,7 @@ class myq<E> {
     boolean isempty(){
         return front==null;
     }
-    void add(E a){
+    void Enqueue(E a){
         Node<E> temp=new Node<E>(a);
         if(isempty()){
             front=temp;
@@ -31,7 +31,7 @@ class myq<E> {
             return;
         }
     }
-    E remove() throws Exception{
+    E Dequeue() throws Exception{
         Node<E> t;
         if (isempty()){
             throw new Exception("EEEEEmpty");
@@ -69,18 +69,18 @@ class myq<E> {
 public class Queuell {
     public static void main(String[] args) throws  Exception{
         myq<Integer> qe = new myq<Integer>();
-        qe.add(10);
-        qe.add(20);
-        qe.add(30);
-        qe.add(40);
+        qe.Enqueue(10);
+        qe.Enqueue(20);
+        qe.Enqueue(30);
+        qe.Enqueue(40);
         System.out.println(qe.Front());
         System.out.println(qe.Rear());
-        System.out.println(qe.remove());
-        System.out.println(qe.remove());
+        System.out.println(qe.Dequeue());
+        System.out.println(qe.Dequeue());
         System.out.println(qe.Front());
-        System.out.println(qe.remove());
-        System.out.println(qe.remove());
-        System.out.println(qe.remove());
+        System.out.println(qe.Dequeue());
+        System.out.println(qe.Dequeue());
+        System.out.println(qe.Dequeue());
 
     }
 }

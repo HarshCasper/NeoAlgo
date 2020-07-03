@@ -10,7 +10,7 @@
 # Codes in the C language
 
 ## Data Structures
-_add list here_
+_ [Quick Sort](quicksort.c)
 
 ## Searching
 - [Linear Search](linear_search.c)

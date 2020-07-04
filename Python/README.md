@@ -8,7 +8,12 @@
 # Codes in the Python language
 
 ## Data Structures
-_add list here_
+*DICTIONARIES
+*LIST
+*QUEUE
+*SETS
+*STACKS
+*TUPLES
 
 ## Searching
 _add list here_

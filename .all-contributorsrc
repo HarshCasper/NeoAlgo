@@ -284,6 +284,89 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "jivthesh",
+      "name": "Jivthesh M",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20579980?v=4",
+      "profile": "http://jivthesh.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "HarshitDawar55",
+      "name": "Harshit Dawar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31154755?v=4",
+      "profile": "https://harshitdawar55.github.io",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "deepakkapse",
+      "name": "deepakkapse",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/41117353?v=4",
+      "profile": "http://linkedin.com/in/deepak-k-31a414172",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "TanyaAggrawal",
+      "name": "Tanya Aggarwal",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/56471903?v=4",
+      "profile": "https://github.com/TanyaAggrawal",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "gaushikmr",
+      "name": "Gaushik M.R",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/59677936?v=4",
+      "profile": "https://github.com/gaushikmr",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "GSNCodes",
+      "name": "SowmiyaNarayanan G",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37922208?v=4",
+      "profile": "https://www.linkedin.com/in/sowmiyanarayanan-g/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "harsh-9in",
+      "name": "Harsh Kumar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54139847?v=4",
+      "profile": "https://github.com/harsh-9in",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Pythonista7",
+      "name": "Ash",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/36104244?v=4",
+      "profile": "https://pythonista7.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "kulsoomzahra",
+      "name": "kulsoomzahra",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46336830?v=4",
+      "profile": "https://github.com/kulsoomzahra",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

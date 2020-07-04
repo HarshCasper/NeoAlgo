@@ -1,4 +1,5 @@
 /**
+ * @author omkarlanghe
  * Given an array of type positive integers, having ith element as feet and ith + 1 element as inches.
  * Eg: considering arr = [1,2] where 1 equals to feet and 2 equals to inches.
  * Find the maximum height, where height is calculated sum of feet and inches after converting feet into inches.

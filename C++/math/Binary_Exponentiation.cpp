@@ -1,4 +1,4 @@
-// C++ Program to find Binary Exponent Iteratively and Recursively.
+// C++ Program to find Binary Exponent Recursively.
 
 #include <iostream>
 

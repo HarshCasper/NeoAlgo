@@ -108,6 +108,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/harsh-9in"><img src="https://avatars3.githubusercontent.com/u/54139847?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Kumar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=harsh-9in" title="Code">💻</a></td>
     <td align="center"><a href="https://pythonista7.github.io/"><img src="https://avatars0.githubusercontent.com/u/36104244?v=4" width="100px;" alt=""/><br /><sub><b>Ash</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Pythonista7" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/kulsoomzahra"><img src="https://avatars0.githubusercontent.com/u/46336830?v=4" width="100px;" alt=""/><br /><sub><b>kulsoomzahra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=kulsoomzahra" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/rohitkumar-rk/"><img src="https://avatars3.githubusercontent.com/u/30660914?v=4" width="100px;" alt=""/><br /><sub><b>Rohit Kumar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=rohitkumar-rk" title="Code">💻</a></td>
   </tr>
 </table>
 

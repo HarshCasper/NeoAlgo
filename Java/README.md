@@ -12,6 +12,7 @@
 ## Data Structures
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
+* [Queue](ds/Queuell.java)
 
 ## Searching
 * [Linear Search](search/Linear_search.java)
@@ -25,6 +26,7 @@
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)
+* [Depth First Search](graphs/DFS.java)
 * [Dijkstra's Algorithm](graphs/Dijkstra.java)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 * [Prim's Algorithm](graphs/Prim_Algorithm.java)

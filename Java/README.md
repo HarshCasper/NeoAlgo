@@ -32,9 +32,6 @@
 ## Machine Learning
 _add list here_
 
-## Graphs
-* [Dijkstra's Algorithm](Dijkstra.java)
-
 ## Mathematics
 
 * [Complex numbers](math/Complex.java)

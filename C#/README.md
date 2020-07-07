@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/neo_algo.png"><br>
+    <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
@@ -13,10 +13,13 @@
 _add list here_
 
 ## Searching
-* [Linear Search](LinearSearch.cs)
+* [Binary Search](/search/BinarySearch.cs)
+* [Linear Search](/search/LinearSearch.cs)
 
 ## Sorting
-_add list here_
+* [Bubble Sort](/sort/BubbleSort.cs)
+* [Insertion Sort](/sort/InsertionSort.cs)
+* [Quick Sort](/sort/QuickSort.cs)
 
 ## Machine Learning
 _add list here_
@@ -28,9 +31,6 @@ _add list here_
 _add list here_
 
 ## Blockchain
-_add list here_
-
-## Searching
 _add list here_
 
 ## Cryptography

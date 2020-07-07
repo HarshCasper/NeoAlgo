@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/neo_algo.png"><br>
+    <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
@@ -10,10 +10,11 @@
 # Codes in the Golang language
 
 ## Data Structures
-_add list here_
+* [Stack](/ds/stack.go)
 
 ## Searching
-_add list here_
+* [Binary Search](/search/binary_search.go)
+* [Linear Search](/search/linear_search.go)
 
 ## Sorting
 _add list here_

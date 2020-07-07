@@ -33,6 +33,7 @@
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
+* [Height of Tree](height_of_given_tree.py)
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 

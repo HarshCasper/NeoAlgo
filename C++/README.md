@@ -24,7 +24,6 @@
 - [Linear Search](search/Linear_Search.cpp)
 
 ## Sorting
-
 * [Bubble Sort](sort/Bubble_Sort.cpp)
 * [Heap Sort](sort/HeapSort.cpp)
 * [Insertion Sort](sort/insertion.cpp)
@@ -35,6 +34,11 @@
 * [Shell Sort](sort/ShellSort.cpp)
 * [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 
+
+
+## Queue
+
+* [Level travese](level-traverse.cpp)
 
 ## Graphs
 

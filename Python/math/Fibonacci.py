@@ -11,7 +11,7 @@ def fibonaccinumber(n):
     1 1 2 3 5 8 13 21 34 55
 
 	"""
-	a,b=0,1
+    a,b=0,1
     if n<1:
         return
     for x in range(0,n):

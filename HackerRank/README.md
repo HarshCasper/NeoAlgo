@@ -9,6 +9,7 @@
 
 # Hacker Rank Solutions
 
+
 |Topic| Problems | Solutions |Language|
 |---|---|---|---|
 |2D Array-DS|[Problem](https://www.hackerrank.com/challenges/2d-array?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|[Solution](2D_Array.py)|Python3|
@@ -31,3 +32,4 @@
 |Staircase|[Problem]()|[Solution](Staircase.py)|Python3|
 |TheHurdleRace|[Problem](https://www.hackerrank.com/challenges/the-hurdle-race/problem)|[Solution](TheHurdleRace.py)|Python3|
 |Time Conversion|[Problem](https://www.hackerrank.com/challenges/time-conversion)|[Solution](TimeConversion.py)|Python3|
+=======

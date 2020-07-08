@@ -29,7 +29,7 @@
 _add list here_
 
 ## Mathematics
-_add list here_
+* [Extended Euclidean Algorithm](Extended_Euclidean_Algorithm.cpp)
 
 ## Dynamic Programming
 * [Longest increasing subsequence](longest_increasing_subsequence.cpp)

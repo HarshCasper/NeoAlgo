@@ -367,6 +367,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "rohitkumar-rk",
+      "name": "Rohit Kumar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/30660914?v=4",
+      "profile": "https://www.linkedin.com/in/rohitkumar-rk/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "iamrajiv",
+      "name": "Rajiv Ranjan Singh",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/42106787?v=4",
+      "profile": "http://iamrajiv.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

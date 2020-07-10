@@ -33,6 +33,7 @@
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
+* [Height of Tree](graphs/height_of_given_tree.py)
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 
@@ -49,6 +50,8 @@
 * [Factorial](math/factorial.py)
 * [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
+* [Fibonacci number](math/Fibonacci.py)
+* [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 
 ## Dynamic Programming
 _add list here_

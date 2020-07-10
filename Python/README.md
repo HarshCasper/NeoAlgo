@@ -30,6 +30,7 @@ _add list here_
 ## Mathematics
 * [Area](Area.py)
 * [Fibonacci Sequence Recursion](fibonacci_recursion.py)
+* [Extended Euclidean Algorithm](Extended_Euclidean_Algorithm.py)
 
 ## Dynamic Programming
 _add list here_

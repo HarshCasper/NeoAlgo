@@ -30,6 +30,7 @@
 |SherlockandArray|[Problem](https://www.hackerrank.com/challenges/sherlock-and-array)|[Solution](SherlockandArray.py)|Python3|
 |Sorting:Comparator|[Problem](https://www.hackerrank.com/challenges/ctci-comparator-sorting)|[Solution](SortingComparator.py)|Python3|
 |Staircase|[Problem]()|[Solution](Staircase.py)|Python3|
+|Strings: Making Anagrams|[Problem](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem)|[Solution](Strings:Making_Anagrams.py)|Python3|
 |TheHurdleRace|[Problem](https://www.hackerrank.com/challenges/the-hurdle-race/problem)|[Solution](TheHurdleRace.py)|Python3|
 |Time Conversion|[Problem](https://www.hackerrank.com/challenges/time-conversion)|[Solution](TimeConversion.py)|Python3|
 =======

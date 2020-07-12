@@ -11,7 +11,11 @@
 
 ## Data Structures
 
+
+_ [Quick Sort](quicksort.c)
+
 - [Fenwick Tree](/ds/FenwickTree.c)
+
 
 ## Searching
 

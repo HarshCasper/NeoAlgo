@@ -11,9 +11,7 @@
 
 ## Data Structures
 
-
-_ [Quick Sort](quicksort.c)
-
+- [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](/ds/FenwickTree.c)
 
 

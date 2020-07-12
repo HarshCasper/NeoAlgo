@@ -61,6 +61,7 @@ _add list here_
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
+- [String permutations](dp/string_permutations.cpp)
 
 ## Blockchain
 

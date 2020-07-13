@@ -62,6 +62,7 @@ _add list here_
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
+- [String permutations](dp/string_permutations.cpp)
 
 ## Blockchain
 
@@ -76,5 +77,7 @@ _add list here_
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
+- [Maximum in Array](cp/Maximum_In_Array.cpp)
+- [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 
 ## Other

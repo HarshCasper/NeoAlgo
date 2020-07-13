@@ -23,6 +23,8 @@
 * [Quick Sort](sort/QuickSort.java)
 * [Insertion Sort](sort/InsertionSort.java)
 * [Merge Sort](sort/Merge_sort.java)
+* [PancakeSort](sort/PancakeSort.java)
+
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)

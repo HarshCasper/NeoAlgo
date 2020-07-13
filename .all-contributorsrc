@@ -385,6 +385,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "omkarlanghe",
+      "name": "Omkar Langhe",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22795064?v=4",
+      "profile": "https://about.me/omkarlanghe",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "parjanyaacoder",
+      "name": "Parjanya Aditya Shukla",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46294122?v=4",
+      "profile": "https://github.com/parjanyaacoder",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

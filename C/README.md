@@ -11,7 +11,9 @@
 
 ## Data Structures
 
+- [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](/ds/FenwickTree.c)
+
 
 ## Searching
 

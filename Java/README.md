@@ -24,6 +24,7 @@
 * [Insertion Sort](sort/InsertionSort.java)
 * [Merge Sort](sort/Merge_sort.java)
 * [PancakeSort](sort/PancakeSort.java)
+* [BeadSort](sort/BeadSort.java)
 
 
 ## Graphs

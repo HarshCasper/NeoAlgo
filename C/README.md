@@ -12,12 +12,16 @@
 ## Data Structures
 
 
+
 * [PreorderTraversal](preordertraversal.c)
 * [FenwickTree](FenwickTree.c)
 * [InorderTraversal](inorder.c)
 
 * [Fenwick Tree](/ds/FenwickTree.c)
 
+
+- [Queue implementation](ds/Queueimplementation.c)
+- [Fenwick Tree](/ds/FenwickTree.c)
 
 
 

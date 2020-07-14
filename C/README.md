@@ -22,7 +22,7 @@ _add list here_
 * [Merge Sort](MergeSort.c)
 * [OddEven Sort](oddevensort.c)
 * [Selection Sort](selection_sort.c)
-
+* [Pancake Sorting](Pancake_sort.c)
 
 ## Graphs
 * [Prim's Algorithm](Prim_Algorithm.c)

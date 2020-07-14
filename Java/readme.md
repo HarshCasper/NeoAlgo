@@ -40,7 +40,7 @@ _add list here_
 
 * [Complex numbers](math/Complex.java)
 * [Sieve of Atkin](math/sieveOfAtkin.java)
-* [Sieve of Eratosthenes]math/SieveOfEratosthenes.java)
+* [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 
 ## Dynamic Programming

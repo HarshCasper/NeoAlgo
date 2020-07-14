@@ -44,7 +44,7 @@ _add list here_
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 
 ## Dynamic Programming
-_add list here_
+* [Kandane Algorithm](dp/Kadane_Algorithm.java)
 
 ## Blockchain
 _add list here_

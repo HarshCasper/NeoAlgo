@@ -64,7 +64,7 @@ _add list here_
 _add list here_
 
 ## Cryptography
-_add list here_
+* [MD5 hashing](cryptography/md5)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)

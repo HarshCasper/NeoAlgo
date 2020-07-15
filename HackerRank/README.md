@@ -33,4 +33,5 @@
 |Strings: Making Anagrams|[Problem](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem)|[Solution](Strings:Making_Anagrams.py)|Python3|
 |TheHurdleRace|[Problem](https://www.hackerrank.com/challenges/the-hurdle-race/problem)|[Solution](TheHurdleRace.py)|Python3|
 |Time Conversion|[Problem](https://www.hackerrank.com/challenges/time-conversion)|[Solution](TimeConversion.py)|Python3|
+|Compare the triplets|[Problem](hackerrank.com/challenges/compare-the-triplets/problem)|Solution|Python3|
 =======

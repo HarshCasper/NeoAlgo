@@ -12,6 +12,7 @@
 ## Data Structures
 * [Stacks](ds/Stacks.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -23,6 +24,7 @@
 * [Sublinear Search](search/Sublinear_search.ipynb)
 
 ## Sorting
+* [Bead Sort](sort/Bead_Sort.py)
 * [Bubble Sort](sort/Bubble_Sort.py)
 * [Heap Sort](sort/Heap_sort.py)
 * [Insertion Sort](sort/insertion.py)

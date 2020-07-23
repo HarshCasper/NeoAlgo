@@ -15,7 +15,7 @@ _add list here_
 4.Queue.
 5.Graph
 ## Searching
-_add list here_
+[Binary Search](Binary_Search.cpp)
 
 ## Sorting
 * [Bubble Sort](Bubble_Sort.cpp)

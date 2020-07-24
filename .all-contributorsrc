@@ -413,6 +413,15 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "farazkhanfk7",
+      "name": "Faraz Khan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/47111858?v=4",
+      "profile": "https://www.linkedin.com/in/farazkhanfk7/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

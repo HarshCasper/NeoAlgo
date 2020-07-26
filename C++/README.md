@@ -39,6 +39,7 @@
 ## Queue
 
 * [Level travese](level-traverse.cpp)
+* [Implemenation of Queue using Linked List](QueueLinkedList.cpp)
 
 ## Graphs
 

@@ -33,7 +33,7 @@
 * [Selection Sort](sort/selection_sort.cpp)
 * [Shell Sort](sort/ShellSort.cpp)
 * [Topological Sort](sort/Topological_Sorting_DFS.cpp)
-* [Counting sort](sort/countsort.cpp)
+* [Counting Sort](sort/countsort.cpp)
 
 
 

@@ -24,6 +24,7 @@
 * [Insertion Sort](sort/InsertionSort.java)
 * [Merge Sort](sort/Merge_sort.java)
 * [PancakeSort](sort/PancakeSort.java)
+* [BeadSort](sort/BeadSort.java)
 
 
 ## Graphs
@@ -40,11 +41,11 @@ _add list here_
 
 * [Complex numbers](math/Complex.java)
 * [Sieve of Atkin](math/sieveOfAtkin.java)
-* [Sieve of Eratosthenes]math/SieveOfEratosthenes.java)
+* [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 
 ## Dynamic Programming
-_add list here_
+* [Kandane Algorithm](dp/Kadane_Algorithm.java)
 
 ## Blockchain
 _add list here_

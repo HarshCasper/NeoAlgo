@@ -68,3 +68,4 @@ _add list here_
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+* [Image Analysis using Numpy](other/Satellite Image Analysis using numpy.ipynb)

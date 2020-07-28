@@ -117,6 +117,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/vanshika-garg-9297a3188/"><img src="https://avatars3.githubusercontent.com/u/51471702?v=4" width="100px;" alt=""/><br /><sub><b>Vanshika Garg</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Vanshikagarg17" title="Code">💻</a> <a href="#content-Vanshikagarg17" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/farazkhanfk7/"><img src="https://avatars2.githubusercontent.com/u/47111858?v=4" width="100px;" alt=""/><br /><sub><b>Faraz Khan</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=farazkhanfk7" title="Code">💻</a></td>
     <td align="center"><a href="https://poojarathore30.github.io/myRestroWEbsite.github.io/"><img src="https://avatars1.githubusercontent.com/u/53404072?v=4" width="100px;" alt=""/><br /><sub><b>Pooja Rathore</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=poojarathore30" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Vrindagupta6828"><img src="https://avatars0.githubusercontent.com/u/50476758?v=4" width="100px;" alt=""/><br /><sub><b>Vrinda Gupta</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Vrindagupta6828" title="Code">💻</a></td>
   </tr>
 </table>
 

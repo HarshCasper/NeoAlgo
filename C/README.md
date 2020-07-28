@@ -41,7 +41,7 @@ _add list here_
 
 - [Sieve of Eratosthenes](/math/Sieve_of_Eratosthenes.c)
 - [Binary Exponentiation](/math/Binary_Exponentiation.c)
-
+- [GCD By Euclidean Algorithm](/math/GCD In C.c)
 ## Dynamic Programming
 
 _add list here_

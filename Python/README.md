@@ -73,3 +73,4 @@ _add list here_
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+* [Reverse a string using stack](other/Reverse a string using stack.py)

@@ -13,7 +13,7 @@
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
 * [Queue](ds/Queuell.java)
-
+* [Level Order Traversal of a Binary Tree Using Priority Queue](ds/LevelOrderTraversalInQueue.java)
 ## Searching
 * [Linear Search](search/Linear_search.java)
 * [Binary Search](search/Binary_search.java)

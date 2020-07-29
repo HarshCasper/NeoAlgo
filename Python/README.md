@@ -68,4 +68,4 @@ _add list here_
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
-* [Image Analysis using Numpy](Python/other/Satellite Image Analysis using numpy.py)
+* [Image Analysis using Numpy](https://github.com/Vrindagupta6828/NeoAlgo/blob/Vrindagupta6828-patch-1/Python/other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)

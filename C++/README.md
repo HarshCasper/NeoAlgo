@@ -14,9 +14,11 @@
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
+- [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
+
 
 ## Searching
 
@@ -33,6 +35,7 @@
 * [Selection Sort](sort/selection_sort.cpp)
 * [Shell Sort](sort/ShellSort.cpp)
 * [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+* [Counting Sort](sort/countsort.cpp)
 
 
 

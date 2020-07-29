@@ -10,15 +10,16 @@
 # Codes in the Java language
 
 ## Data Structures
+* [Binary Tree](ds/Binary_Tree.java)
+* [Linked List](ds/linkedListReverse.java )
+* [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
-* [Queue](ds/Queuell.java)
-* [Linked List](ds/linkedListReverse.java )
-* [Binary Tree](ds/Binary_Tree.java)
 
 ## Searching
 * [Linear Search](search/Linear_search.java)
 * [Binary Search](search/Binary_search.java)
+* [Jump Search](search/jumpSearch.java)
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)
@@ -27,7 +28,6 @@
 * [Merge Sort](sort/Merge_sort.java)
 * [PancakeSort](sort/PancakeSort.java)
 * [BeadSort](sort/BeadSort.java)
-
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)
@@ -45,6 +45,7 @@ _add list here_
 * [Sieve of Atkin](math/sieveOfAtkin.java)
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 * [Segmented_Sieve](math/Segmented_Sieve.java)
+* [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)

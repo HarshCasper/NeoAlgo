@@ -13,6 +13,7 @@
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
 * [Queue](ds/Queuell.java)
+* [Binary Tree](ds/Binary_Tree.java)
 
 ## Searching
 * [Linear Search](search/Linear_search.java)

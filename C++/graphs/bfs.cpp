@@ -1,7 +1,7 @@
 /*
     Author: Davide Pollicino (@omonimus1)
     Date: 07/07/2020
-    Summary: Implement  Level Traverse of a tree, applying the Breath First Search Algorithm (BFS)
+    Summary: Implement Level Traverse of a tree, applying the Breath First Search Algorithm (BFS)
              algorithm
 */
 

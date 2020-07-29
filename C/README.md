@@ -11,7 +11,9 @@
 
 ## Data Structures
 
+- [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](/ds/FenwickTree.c)
+
 
 ## Searching
 
@@ -41,7 +43,7 @@ _add list here_
 
 - [Sieve of Eratosthenes](/math/Sieve_of_Eratosthenes.c)
 - [Binary Exponentiation](/math/Binary_Exponentiation.c)
-
+- [GCD By Euclidean Algorithm](/math/GCD In C.c)
 ## Dynamic Programming
 
 _add list here_

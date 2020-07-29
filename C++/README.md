@@ -14,14 +14,17 @@
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
+- [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
+
 
 ## Searching
 
 - [Binary Search](search/Binary_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
+- [Jump Search](search/Jump_Search.cpp)
 
 ## Sorting
 * [Bubble Sort](sort/Bubble_Sort.cpp)
@@ -33,6 +36,7 @@
 * [Selection Sort](sort/selection_sort.cpp)
 * [Shell Sort](sort/ShellSort.cpp)
 * [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+* [Counting Sort](sort/countsort.cpp)
 
 
 
@@ -54,13 +58,15 @@
 _add list here_
 
 ## Mathematics
-
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
-* [Binary Exponentiation](/math/Binary_Exponentiation.cpp)
+- [Extended Euclidean Algorithm](Extended_Euclidean_Algorithm.cpp)
+- [Binary Exponentiation](/math/Binary_Exponentiation.cpp)
+
 
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
+- [String permutations](dp/string_permutations.cpp)
 
 ## Blockchain
 
@@ -75,5 +81,7 @@ _add list here_
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
+- [Maximum in Array](cp/Maximum_In_Array.cpp)
+- [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 
 ## Other

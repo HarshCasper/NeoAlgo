@@ -12,6 +12,7 @@
 ## Data Structures
 * [Stacks](ds/Stacks.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -23,6 +24,7 @@
 * [Sublinear Search](search/Sublinear_search.ipynb)
 
 ## Sorting
+* [Bead Sort](sort/Bead_Sort.py)
 * [Bubble Sort](sort/Bubble_Sort.py)
 * [Heap Sort](sort/Heap_sort.py)
 * [Insertion Sort](sort/insertion.py)
@@ -40,13 +42,16 @@
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
 * [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
+* [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
 * [Linear Regression](ml/Linear_Regression.ipynb)
+* [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
 * [Logistic Regression](ml/Logistic_Regression.ipynb)
 * [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 * [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 
 ## Mathematics
 * [Area](math/Area.py)
+* [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 * [Factorial](math/factorial.py)
 * [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
@@ -68,3 +73,4 @@ _add list here_
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+* [Reverse a string using stack](other/Reverse a string using stack.py)

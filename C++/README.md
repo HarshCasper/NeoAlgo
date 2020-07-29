@@ -24,6 +24,7 @@
 
 - [Binary Search](search/Binary_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
+- [Jump Search](search/Jump_Search.cpp)
 
 ## Sorting
 * [Bubble Sort](sort/Bubble_Sort.cpp)
@@ -37,14 +38,12 @@
 * [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 * [Counting Sort](sort/countsort.cpp)
 
-
-
 ## Queue
 
-* [Level travese](level-traverse.cpp)
+
 
 ## Graphs
-
+- [Breadth First Search Tree Traversal](graphs/bfs.cpp)
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kruskal's Algorithm](graphs/kruskal_Algorithm.cpp)

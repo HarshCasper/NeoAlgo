@@ -6,6 +6,7 @@ public class Binary_Tree {
     private Node root;
     private int size;
 
+
     Scanner s=new Scanner(System.in);
     public Binary_Tree(){
 
@@ -13,6 +14,17 @@ public class Binary_Tree {
     }
 
     public Node takeInput(Node parent,Boolean  isleftorright){
+        if(parent==null){
+            System.out.println("Enter the value of root node");
+
+=======
+    Scanner s=new Scanner(System.in);
+    
+    public Binary_Tree(){
+        root=takeInput(null,false);
+    }
+
+    public Node takeInput(Node parent,Boolean isleftorright){
         if(parent==null){
             System.out.println("Enter the value of root node");
 
@@ -35,6 +47,9 @@ public class Binary_Tree {
         }
 
 
+
+=======
+
         System.out.println("Do you have right child of "+node.value);
         choice=s.nextBoolean();
         if(choice){
@@ -43,6 +58,8 @@ public class Binary_Tree {
         return node;
     }
 
+
+=======
 
     public void preOrder() {
 
@@ -57,6 +74,7 @@ public class Binary_Tree {
         preOrder(node.left);
         preOrder(node.right);
 
+
     }
 
 
@@ -67,6 +85,10 @@ public class Binary_Tree {
 
 
 
+
+=======
+    }
+    
 
     private class Node{
         private Node left;
@@ -81,5 +103,9 @@ public class Binary_Tree {
         }
     }
 
+
+=======
+        }
+    }
 
 }

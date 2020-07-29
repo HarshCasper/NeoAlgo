@@ -24,6 +24,7 @@
 
 - [Binary Search](search/Binary_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
+- [Jump Search](search/Jump_Search.cpp)
 
 ## Sorting
 * [Bubble Sort](sort/Bubble_Sort.cpp)

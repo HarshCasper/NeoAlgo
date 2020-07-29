@@ -15,12 +15,7 @@
 * [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
-<<<<<<< HEAD
-* [Queue](ds/Queuell.java)
-* [Linked List](ds/linkedListReverse.java )
-* [Binary Tree](ds/Binary_Tree.java)
-=======
->>>>>>> c799e8a214a30adc28bc080d81adb3ee77fa00b9
+
 
 ## Searching
 * [Linear Search](search/Linear_search.java)
@@ -63,6 +58,7 @@ _add list here_
 _add list here_
 
 ## Competitive programming
+
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rotate A 2d Array Without Using Extra Space](cp/Rotate_2d_array_without_using_Extra_Space.java)

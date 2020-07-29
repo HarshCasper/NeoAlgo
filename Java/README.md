@@ -16,6 +16,7 @@
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
 
+
 ## Searching
 * [Linear Search](search/Linear_search.java)
 * [Binary Search](search/Binary_search.java)
@@ -57,8 +58,10 @@ _add list here_
 _add list here_
 
 ## Competitive programming
-[Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
-[Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
-*
+
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Rotate A 2d Array Without Using Extra Space](cp/Rotate_2d_array_without_using_Extra_Space.java)
+
 ## Other
 _add list here_

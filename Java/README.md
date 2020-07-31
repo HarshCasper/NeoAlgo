@@ -28,6 +28,7 @@
 * [Merge Sort](sort/Merge_sort.java)
 * [PancakeSort](sort/PancakeSort.java)
 * [BeadSort](sort/BeadSort.java)
+* [Selection Sort](sort/SelectionSort.java)
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)

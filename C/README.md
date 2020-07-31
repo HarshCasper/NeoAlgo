@@ -13,7 +13,7 @@
 
 - [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](/ds/FenwickTree.c)
-- [Queue Implementation](ds//QueueImplementation.c)
+- [Queue Implementation](/ds/QueueImplementation.c)
 
 
 ## Searching

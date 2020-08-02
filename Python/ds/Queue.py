@@ -1,4 +1,4 @@
-# Stack implementation using List in Python
+# Queue implementation using List in Python
 
 class Queue :
   def __init__(self):

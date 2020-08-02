@@ -34,11 +34,10 @@ def binary_search(search_list, left, right, target):
     
 
 def main():
-    from random import sample
-    search_list = sorted(sample([i for i in range(30)], 10))
-    search_value = 10
+    search_list = list(map(int, input("Enter space separated numbers for the list\n").split()))
+    search_value = int(input("Enter value to search\n"))
     
-    print(search_list, end = "\n\n")
-    print(exponential_search(search_list, 0, len(search_list)-1, search_value))
+    print("Sorted list:", sorted(search_list))
+    print(exponential_search(sorted(search_list), 0, len(search_list)-1, search_value))
     
 main() 

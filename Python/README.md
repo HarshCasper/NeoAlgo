@@ -22,6 +22,7 @@
 * [Linear Search](search/Linear_Search.py)
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
+* [Exponential Search](search/exponential_search.py)
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)

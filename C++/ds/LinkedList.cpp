@@ -115,10 +115,28 @@ int DeleteNode(int pos)   //Takes position to delete the corresponding Node from
     return x;
     }
 }
+
+void ReverseList()  //To Reverse a Linked List
+{
+    Node* current = first; 
+    Node *prev = NULL, *next = NULL; 
+    
+  
+        while (current != NULL) { 
+            next = current->next;  // Store next 
+  
+            current->next = prev;  // Reverse current node's pointer 
+  
+            prev = current;  // Move pointer one position ahead. 
+            current = next; 
+        } 
+        first = prev; 
+        display();
+}
 };
 
 int main(){
-cout <<"Enter number of elements to be inserted into LinkedList: " << endl;
+cout <<"Enter number of elements to be inserted into Linked List: " << endl;
 int num,position,index,Element;
 cin >> num;
 int arr[num];
@@ -128,14 +146,20 @@ for(int i=0;i<num;i++)  // Array of Elements will be inserted into Linked List a
 }
 LinkedList LL(arr,num);
 LL.display();
-cout <<"Enter an Element and its position to insert in LinkedList: " << endl;  //Enter Node data to be inserted into LL with position-1
+cout<<endl;
+cout <<"Enter an Element and its position to insert in Linked List: " << endl;  //Enter Node data to be inserted into LL with position-1
 cin >> Element;
 cin >> position;
 LL.InsertNode(position,Element);
-cout <<"AFter Insertion" << endl;
+cout<<endl;
+cout <<"After Insertion" << endl;
 LL.display();
-cout <<"Enter a position to delete from LinkedList: " << endl;
+cout<<endl;
+cout <<"Enter a position to delete from Linked List: " << endl;
 cin >> index;
-cout <<"Node " <<LL.DeleteNode(index)<<" Deleted from Linked List" << endl;
+cout <<"Node " <<LL.DeleteNode(index)<<" is deleted from Linked List" << endl;
+cout<<endl;
+cout <<"After Reversing a Linked List" << endl;
+LL.ReverseList();
 return 0;
 }

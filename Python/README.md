@@ -34,6 +34,7 @@
 * [Quick Sort](sort/QuickSort.py)
 * [Selection Sort](sort/Selection_Sort.py)
 * [Topological Sort](sort/topological_sort.py)
+* [Intro Sort](sort/IntroSort.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
@@ -73,4 +74,4 @@ _add list here_
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
-* [Reverse a string using stack](other/Reverse a string using stack.py)
+* [Reverse a string using stack](other/Reverse_a_string_using_stack.py)

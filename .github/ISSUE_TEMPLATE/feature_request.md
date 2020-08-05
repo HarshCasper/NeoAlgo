@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: '[SUGGESTION] Title of suggestion'
+title: "[SUGGESTION] Title of suggestion"
 labels: enhancement
 assignees: born-2learn, HarshCasper, ricardoprins
 ---

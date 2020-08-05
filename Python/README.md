@@ -10,8 +10,10 @@
 # Codes in the Python language
 
 ## Data Structures
+* [Queue](ds/Queue.py)
 * [Stacks](ds/Stacks.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -21,8 +23,10 @@
 * [Linear Search](search/Linear_Search.py)
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
+* [Exponential Search](search/exponential_search.py)
 
 ## Sorting
+* [Bead Sort](sort/Bead_Sort.py)
 * [Bubble Sort](sort/Bubble_Sort.py)
 * [Heap Sort](sort/Heap_sort.py)
 * [Insertion Sort](sort/insertion.py)
@@ -30,16 +34,19 @@
 * [Quick Sort](sort/QuickSort.py)
 * [Selection Sort](sort/Selection_Sort.py)
 * [Topological Sort](sort/topological_sort.py)
+* [Intro Sort](sort/IntroSort.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
 * [Height of Tree](graphs/height_of_given_tree.py)
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
+* [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
 * [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
+* [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
 * [Linear Regression](ml/Linear_Regression.ipynb)
 * [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
 * [Logistic Regression](ml/Logistic_Regression.ipynb)
@@ -61,8 +68,6 @@ _add list here_
 ## Blockchain
 _add list here_
 
-## Searching
-_add list here_
 
 ## Cryptography
 _add list here_
@@ -70,3 +75,4 @@ _add list here_
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+* [Reverse a string using stack](other/Reverse_string_using_stack.py)

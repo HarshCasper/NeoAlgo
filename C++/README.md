@@ -14,15 +14,16 @@
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
+- [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
-- [Queue using Linked List](ds/QueueLinkedList.cpp)
 
 ## Searching
 
 - [Binary Search](search/Binary_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
+- [Jump Search](search/Jump_Search.cpp)
 
 ## Sorting
 
@@ -35,13 +36,15 @@
 - [Selection Sort](sort/selection_sort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+- [Counting Sort](sort/countsort.cpp)
+- [TimSort](sort/Tim_Sort.cpp)
 
 ## Queue
-
-- [Level travese](level-traverse.cpp)
+- [Queue using linked list](ds/QueueLinkedList.cpp)
 
 ## Graphs
 
+- [Breadth First Search Tree Traversal](graphs/bfs.cpp)
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kruskal's Algorithm](graphs/kruskal_Algorithm.cpp)

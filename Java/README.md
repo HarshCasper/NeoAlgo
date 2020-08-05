@@ -10,13 +10,16 @@
 # Codes in the Java language
 
 ## Data Structures
+* [Binary Tree](ds/Binary_Tree.java)
+* [Linked List](ds/linkedListReverse.java )
+* [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
-* [Queue](ds/Queuell.java)
 
 ## Searching
 * [Linear Search](search/Linear_search.java)
 * [Binary Search](search/Binary_search.java)
+* [Jump Search](search/jumpSearch.java)
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)
@@ -25,13 +28,14 @@
 * [Merge Sort](sort/Merge_sort.java)
 * [PancakeSort](sort/PancakeSort.java)
 * [BeadSort](sort/BeadSort.java)
-
+* [Selection Sort](sort/SelectionSort.java)
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)
 * [Depth First Search](graphs/DFS.java)
 * [Dijkstra's Algorithm](graphs/Dijkstra.java)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
+* [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
 * [Prim's Algorithm](graphs/Prim_Algorithm.java)
 
 ## Machine Learning
@@ -43,6 +47,7 @@ _add list here_
 * [Sieve of Atkin](math/sieveOfAtkin.java)
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 * [Segmented_Sieve](math/Segmented_Sieve.java)
+* [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)

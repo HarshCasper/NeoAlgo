@@ -17,6 +17,7 @@
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
+- [Queue using Linked List](ds/QueueLinkedList.cpp)
 
 ## Searching
 
@@ -24,21 +25,20 @@
 - [Linear Search](search/Linear_Search.cpp)
 
 ## Sorting
-* [Bubble Sort](sort/Bubble_Sort.cpp)
-* [Heap Sort](sort/HeapSort.cpp)
-* [Insertion Sort](sort/insertion.cpp)
-* [Merge Sort](sort/Merge_Sort.cpp)
-* [Quick Sort](sort/Quick_Sort.cpp)
-* [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
-* [Selection Sort](sort/selection_sort.cpp)
-* [Shell Sort](sort/ShellSort.cpp)
-* [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 
-
+- [Bubble Sort](sort/Bubble_Sort.cpp)
+- [Heap Sort](sort/HeapSort.cpp)
+- [Insertion Sort](sort/insertion.cpp)
+- [Merge Sort](sort/Merge_Sort.cpp)
+- [Quick Sort](sort/Quick_Sort.cpp)
+- [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
+- [Selection Sort](sort/selection_sort.cpp)
+- [Shell Sort](sort/ShellSort.cpp)
+- [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 
 ## Queue
 
-* [Level travese](level-traverse.cpp)
+- [Level travese](level-traverse.cpp)
 
 ## Graphs
 
@@ -54,10 +54,10 @@
 _add list here_
 
 ## Mathematics
+
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Extended Euclidean Algorithm](Extended_Euclidean_Algorithm.cpp)
 - [Binary Exponentiation](/math/Binary_Exponentiation.cpp)
-
 
 ## Dynamic Programming
 

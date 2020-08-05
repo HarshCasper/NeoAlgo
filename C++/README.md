@@ -40,6 +40,7 @@
 - [TimSort](sort/Tim_Sort.cpp)
 
 ## Queue
+- [Queue using linked list](ds/QueueLinkedList.cpp)
 
 ## Graphs
 

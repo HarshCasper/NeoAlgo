@@ -18,6 +18,7 @@
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
+- [Priority Queue](ds/Priority_Queue.cpp)
 
 ## Searching
 
@@ -41,6 +42,7 @@
 
 ## Queue
 
+- [Queue using linked list](ds/QueueLinkedList.cpp)
 
 ## Graphs
 

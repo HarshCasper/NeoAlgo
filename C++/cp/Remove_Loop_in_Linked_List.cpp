@@ -15,7 +15,7 @@ Output:
 1
 
 Explanation:
-Testcase 1: In the first test case N = 3.The linked list with nodes N = 3 is given. Here, x = 2 which means last node is connected with xth node of linked list. Therefore, there exists a loop. 
+Testcase 1: In the first test case N = 3.The linked list with nodes N = 3 is given. Here, x = 2 which means last node is connected with xth node of linked list. Therefore, there exists a loop.
 Testcase 2: N = 4 and x = 0, which means lastNode->next = NULL, thus the Linked list does not contains any loop.
 */
 
@@ -24,113 +24,113 @@ using namespace std;
 
 struct Node
 {
-    int data;
-    Node* next;
-    
-    Node(int val)
-    {
-        data = val;
-        next = NULL;
-    }
+  int data;
+  Node* next;
+
+  Node(int val)
+  {
+    data = val;
+    next = NULL;
+  }
 };
 
 void loopHere(Node* head, Node* tail, int position)
 {
-    if(position==0) return;
-    
-    Node* walk = head;
-    for(int i=1; i<position; i++)
-        walk = walk->next;
-    tail->next = walk;
+  if (position == 0) return;
+
+  Node* walk = head;
+  for (int i = 1; i < position; i++)
+    walk = walk->next;
+  tail->next = walk;
 }
 
 bool isLoop(Node* head)
 {
-    if(!head) return false;
-    
-    Node* fast = head->next;
-    Node* slow = head;
-    
-    while( fast != slow)
-    {
-        if( !fast || !fast->next ) return false;
-        fast=fast->next->next;
-        slow=slow->next;
-    }
-    
-    return true;
+  if (!head) return false;
+
+  Node* fast = head->next;
+  Node* slow = head;
+
+  while ( fast != slow)
+  {
+    if ( !fast || !fast->next ) return false;
+    fast = fast->next->next;
+    slow = slow->next;
+  }
+
+  return true;
 }
 
 int length(Node* head)
 {
-    int ret = 0;
-    while(head)
-    {
-        ret++;
-        head = head->next;
-    }
-    return ret;
+  int ret = 0;
+  while (head)
+  {
+    ret++;
+    head = head->next;
+  }
+  return ret;
 }
 
 void removeLoop(Node* head);
 
 int main()
 {
-    int t;
-    cin>>t;
-    while(t--)
+  int t;
+  cin >> t;
+  while (t--)
+  {
+    int n, num;
+    cin >> n;
+
+    Node *head, *tail;
+    cin >> num;
+    head = tail = new Node(num);
+
+    for (int i = 0 ; i < n - 1 ; i++)
     {
-        int n, num;
-        cin>>n;
-        
-        Node *head, *tail;
-        cin>> num;
-        head = tail = new Node(num);
-        
-        for(int i=0 ; i<n-1 ; i++)
-        {
-            cin>> num;
-            tail->next = new Node(num);
-            tail = tail->next;
-        }
-        
-        int pos;
-        cin>> pos;
-        loopHere(head,tail,pos);
-        
-        removeLoop(head);
-        
-        if( isLoop(head) || length(head)!=n )
-            cout<<"0\n";
-        else
-            cout<<"1\n";
+      cin >> num;
+      tail->next = new Node(num);
+      tail = tail->next;
     }
-	return 0;
+
+    int pos;
+    cin >> pos;
+    loopHere(head, tail, pos);
+
+    removeLoop(head);
+
+    if ( isLoop(head) || length(head) != n )
+      cout << "0\n";
+    else
+      cout << "1\n";
+  }
+  return 0;
 }
 
 
 void removeLoop(Node* head)
 {
-    Node *slowPointer=head, *fastPointer=head;
-    Node *prev;
-    while(fastPointer!=NULL && fastPointer->next!=NULL){
-        prev=slowPointer;
-        slowPointer=slowPointer->next;
-        fastPointer=fastPointer->next->next;
-        if(slowPointer==fastPointer){
-            break;
-        }
+  Node *slowPointer = head, *fastPointer = head;
+  Node *prev;
+  while (fastPointer != NULL && fastPointer->next != NULL) {
+    prev = slowPointer;
+    slowPointer = slowPointer->next;
+    fastPointer = fastPointer->next->next;
+    if (slowPointer == fastPointer) {
+      break;
     }
-    if(slowPointer==fastPointer)
-    {
-        slowPointer=head;
-        while(slowPointer->next!=fastPointer->next){
-            slowPointer=slowPointer->next;
-            fastPointer=fastPointer->next;
-        }
-        if(fastPointer==head){
-            prev->next=NULL;
-        } else
-            fastPointer->next=NULL;
+  }
+  if (slowPointer == fastPointer)
+  {
+    slowPointer = head;
+    while (slowPointer->next != fastPointer->next) {
+      slowPointer = slowPointer->next;
+      fastPointer = fastPointer->next;
     }
+    if (fastPointer == head) {
+      prev->next = NULL;
+    } else
+      fastPointer->next = NULL;
+  }
 }

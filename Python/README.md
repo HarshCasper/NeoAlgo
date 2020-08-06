@@ -31,6 +31,7 @@
 * [Insertion Sort](sort/insertion.py)
 * [Merge Sort](sort/Merge_Sort.py)
 * [Quick Sort](sort/QuickSort.py)
+* [Radix Sort](sort/Radix_Sort.py)
 * [Selection Sort](sort/Selection_Sort.py)
 * [Topological Sort](sort/topological_sort.py)
 

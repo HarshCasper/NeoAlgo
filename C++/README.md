@@ -18,7 +18,7 @@
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
-
+- [Priority Queue](ds/Priority_Queue.cpp)
 
 ## Searching
 
@@ -27,22 +27,25 @@
 - [Jump Search](search/Jump_Search.cpp)
 
 ## Sorting
-* [Bubble Sort](sort/Bubble_Sort.cpp)
-* [Heap Sort](sort/HeapSort.cpp)
-* [Insertion Sort](sort/insertion.cpp)
-* [Merge Sort](sort/Merge_Sort.cpp)
-* [Quick Sort](sort/Quick_Sort.cpp)
-* [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
-* [Selection Sort](sort/selection_sort.cpp)
-* [Shell Sort](sort/ShellSort.cpp)
-* [Topological Sort](sort/Topological_Sorting_DFS.cpp)
-* [Counting Sort](sort/countsort.cpp)
+
+- [Bubble Sort](sort/Bubble_Sort.cpp)
+- [Heap Sort](sort/HeapSort.cpp)
+- [Insertion Sort](sort/insertion.cpp)
+- [Merge Sort](sort/Merge_Sort.cpp)
+- [Quick Sort](sort/Quick_Sort.cpp)
+- [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
+- [Selection Sort](sort/selection_sort.cpp)
+- [Shell Sort](sort/ShellSort.cpp)
+- [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+- [Counting Sort](sort/countsort.cpp)
+- [TimSort](sort/Tim_Sort.cpp)
 
 ## Queue
 
-
+- [Queue using linked list](ds/QueueLinkedList.cpp)
 
 ## Graphs
+
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
@@ -56,15 +59,16 @@
 _add list here_
 
 ## Mathematics
+
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Extended Euclidean Algorithm](Extended_Euclidean_Algorithm.cpp)
 - [Binary Exponentiation](/math/Binary_Exponentiation.cpp)
-
 
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [String permutations](dp/string_permutations.cpp)
+- [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 
 ## Blockchain
 

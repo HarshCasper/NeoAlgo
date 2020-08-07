@@ -1,9 +1,9 @@
 # Add/remove 'enhancement' label if issue contains the words 'update' or 'feature' or 'enhancement'
 enhancement:
   - "(enhancement|feature|update)"
-# Add/remove 'bug' label if issue contains the word 'bug'
+# Add/remove 'bug' label if issue contains the words 'bug' or 'error'
 bug:
-  - "(bug)"
+  - "(bug|error)"
 # Add/remove 'C++' label if issue contains the words 'C' or 'cpp'
 C++:
   - "(C++|cpp)"

@@ -5,8 +5,6 @@
 
 using namespace std;
 
-/// Creating a class for Linked List object
-
 /*
       next (Node pointer)
         |
@@ -29,7 +27,6 @@ public:
         this -> next = nullptr;
     }
 };
-
 
 /* 
 The helper class for the basic utility 
@@ -86,7 +83,6 @@ public:
         }
         return head;
     }
-
 };
 
 /// The main algorithmic solution class

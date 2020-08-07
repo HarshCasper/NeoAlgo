@@ -5,17 +5,6 @@
 
 using namespace std;
 
-/*
-      next (Node pointer)
-        |
- -----------
- | 1  |    |
- -----------
-   |
-  data
-
-*/
-
 class Node
 {
 public:

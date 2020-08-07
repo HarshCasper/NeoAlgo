@@ -449,6 +449,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "YashThakare",
+      "name": "YashThakare",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38381061?v=4",
+      "profile": "https://github.com/YashThakare",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rayvantsahni",
+      "name": "Rayvant Sahni",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/38404580?v=4",
+      "profile": "https://www.linkedin.com/in/rayvant-sahni/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

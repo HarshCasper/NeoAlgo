@@ -19,6 +19,7 @@
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
+- [Reverse Linked List](ds/Reverse_linked_list.cpp)
 
 ## Searching
 

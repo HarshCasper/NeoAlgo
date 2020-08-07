@@ -1,14 +1,13 @@
 ---
 name: Algorithm/DS Proposal
 about: Explain the algo/DS that you want to add to this repo.
-title: ''
+title: "[ALGO/DS] Name"
 labels: documentation, enhancement, good first issue
-assignees: ''
-
+assignees: ""
 ---
 
-**Algorithm:** 
+**Algorithm:**
 
-**DS:** 
+**DS:**
 
 **Languages Supported:**

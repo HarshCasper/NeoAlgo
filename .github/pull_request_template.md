@@ -1,17 +1,32 @@
-### Thanks for contributing to NeoAlgo!
-### Don't forget to visit our [website](http://www.tesseractcoding.tech)
-### All Submissions:
+Please read [how to contribute](https://github.com/TesseractCoding/NeoAlgo/blob/master/CONTRIBUTING.md) First.
 
-__PLEASE DO NOT CREATE EXTRA FOLDERS WITHIN THE EXISTING ONES!__
+### Description
 
-* [ ] Have you followed the guidelines in our Contributing document?
-* [ ] Have you checked the issues to see if your request isn't assigned to someone else?
-* [ ] Have you checked to ensure there aren't other open [Pull Requests](../../../pulls) for the same update/change?
-* [ ] If your submission is to improve an existing code, have you created an issue to specify that?
+Submission description here
 
-### New Code Submissions:
+Checklist:
 
-1. [ ] Does your code work locally?
-2. [ ] Have you cleaned your code for better readability? (no extra unnecessary lines, etc.)
-3. [ ] Have you updated the README.md file to add the link to your code?
+- [ ] I've checked the issue list before deciding what to submit.
+- [ ] I've read the contribution guidelines.
+- [ ] I've edited the `README.md` link to my code.
 
+### References to other Issues or PRs
+
+<!-- If this pull request fixes an issue, write "Fixes #NNNN" in that exact
+format, e.g. "Fixes #1234". Also, please
+write a comment on that issue linking back to this pull request once it is
+open. -->
+
+Fixes:
+
+### Don't forget to visit our [website](https://www.tesseractcoding.tech/)!
+
+Feel free to add this badge after your submission is accepted!
+
+<img src="https://img.shields.io/badge/NeoAlgo-Contributor-brightgreen?style=flat-square" />
+
+```
+<a href=https://github.com/TesseractCoding/NeoAlgo>
+<img src="https://img.shields.io/badge/NeoAlgo-Contributor-brightgreen?style=flat-square" />
+</a>
+```

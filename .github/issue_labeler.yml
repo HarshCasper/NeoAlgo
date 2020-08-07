@@ -1,30 +1,30 @@
 # Add/remove 'enhancement' label if issue contains the words 'update' or 'feature' or 'enhancement'
 enhancement:
-    - '(update|feature|enhancement)'
+  - "(enhancement|feature|update)"
 # Add/remove 'bug' label if issue contains the word 'bug'
 bug:
-    - '(bug)'
+  - "(bug)"
 # Add/remove 'C++' label if issue contains the words 'C' or 'cpp'
 C++:
-    - '(C|cpp)'
+  - "(C++|cpp)"
 # Add/remove 'C' label if issue contains the words 'C' or 'c'
 C:
-    - '(C|c)'
+  - "(C|c)"
 # Add/remove 'java' label if issue contains the words 'JAVA' or 'java'
 Java:
-    - '(java|JAVA|Java)'
+  - "(java|JAVA|Java)"
 # Add/remove 'python' label if issue contains the words 'Python' or 'python'
 Python:
-    - '(Python|python)'
+  - "(Python|python)"
 # Add/remove 'C#' label if issue contains the word 'C#'
 C#:
-    - '(C#)'
+  - "(C#|csharp)"
 # Add/remove 'golang' label if issue contains the words 'GO' or 'golang'
 Golang:
-    - '(GO|golang|Go)'
+  - "(GO|golang|Go)"
 # Add/remove 'javascript' label if issue contains the words 'Javascript' or 'JS'
 JavaScript:
-    - '(Javascript|JS|javascript|JavaScript)'
+  - "(Javascript|JS|javascript|JavaScript)"
 # Add/remove 'Q#' label if issue contains the word 'Q#'
 Q#:
-    - '(Q#)'
+  - "(Q#|qsharp)"

@@ -33,7 +33,7 @@ class solution:
         count = 0
         while(temp):
             temp = temp.next
-            count+=1
+            count += 1
         return count
 
     # the recursive approach to reverse the Linked List

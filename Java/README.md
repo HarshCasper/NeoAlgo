@@ -59,8 +59,9 @@ _add list here_
 _add list here_
 
 ## Competitive programming
-[Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
-[Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 
 ## Other
 _add list here_

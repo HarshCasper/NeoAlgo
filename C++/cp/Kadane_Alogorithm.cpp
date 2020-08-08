@@ -7,6 +7,8 @@ int max_sum_subarray(int a[], int n){
 
     int ans=a[0];
 
+
+
     for(int i=1;i<n;i++)
     {
         max_ending=max(max_ending+a[i], a[i]);
@@ -26,5 +28,5 @@ int main() {
         cin>>a[i];
 
     cout<<max_sum_subarray(a,n);
-    
+
 }

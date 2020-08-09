@@ -1,0 +1,16 @@
+C:
+  - C/**/*
+C#:
+  - C#/**/*
+C++:
+  - C++/**/*
+Golang:
+  - Golang/**/*
+Java:
+  - Java/**/*
+JavaScript:
+  - Javascript/**/*
+Python:
+  - Python/**/*
+Q#:
+  - Q#/**/*

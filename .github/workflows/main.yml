@@ -1,5 +1,4 @@
 on: [push]
-
 jobs:
   check-quality:
     runs-on: ubuntu-latest

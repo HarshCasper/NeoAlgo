@@ -4,12 +4,12 @@ C#:
   - C#/**/*
 C++:
   - C++/**/*
-Golang:
-  - Golang/**/*
+Go:
+  - Go/**/*
 Java:
   - Java/**/*
 JavaScript:
-  - Javascript/**/*
+  - JavaScript/**/*
 Python:
   - Python/**/*
 Q#:

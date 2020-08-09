@@ -6,7 +6,6 @@
 # Numbers of alphabet which we call base
 alphabet_size = 256
 
-
 def rabin_karp(pattern, text, modulus=1000003):
 
     M = len(pattern)
@@ -57,12 +56,10 @@ def rabin_karp(pattern, text, modulus=1000003):
         print(
             f"There are {no_of_matches} matches for the pattern in the text ")
 
-
 def main():
 
     text = input("Enter the text: ")
     pattern = input("Enter the pattern: ")
     rabin_karp(pattern, text)
-
 
 main()

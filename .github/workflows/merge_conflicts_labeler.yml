@@ -1,4 +1,4 @@
-name: "Auto Merge Conflicts Labeler"
+name: "Merge Conflicts Labeler"
 on:
   push:
     branches:

@@ -64,6 +64,10 @@
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 
+## Competitive Programming
+
+* [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+
 ## Dynamic Programming
 _add list here_
 

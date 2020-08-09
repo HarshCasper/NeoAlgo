@@ -1,8 +1,9 @@
 name: Pull Requests Labeler
 on:
   - pull_request
+
 jobs:
-  label:
+  labeler:
     runs-on: ubuntu-latest
     if: (github.repository == 'TesseractCoding/NeoAlgo') && (github.event.pull_request.head.repo.full_name == github.repository)
     steps:

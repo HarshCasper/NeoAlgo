@@ -1,10 +1,9 @@
-name: Issue Labeler
+name: Issues Labeler
 on:
   issues:
     types: [opened, edited]
-
 jobs:
-  triage:
+  labeler:
     runs-on: ubuntu-latest
     steps:
       - uses: github/issue-labeler@v2.0

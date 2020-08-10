@@ -16,13 +16,13 @@ Our content is divided by programming language. Please create an issue if you wi
 Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCoding/NeoAlgo/wiki) section. Please let us know if you'd like to contribute with an article.
 
 - [C](/C/README.md)
-- [C#](/C#/README.md)
+- [C#](/C%23/README.md)
 - [C++](/C++/README.md)
 - [Go](/Go/README.md)
 - [JavaScript](/JavaScript/README.md)
 - [Java](/Java/README.md)
 - [Python](/Python/README.md)
-- [Q#](/Q#/README.md)
+- [Q#](/Q%23/README.md)
 - [Miscellaneous](/Miscellaneous/)
 
 ## Contributing Guidelines

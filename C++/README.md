@@ -19,6 +19,7 @@
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
+- [Trie](ds/trie.cpp)
 
 ## Searching
 

@@ -19,7 +19,7 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 - [C#](/C#/README.md)
 - [C++](/C++/README.md)
 - [Go](/Go/README.md)
-- [Javascript](/JavaScript/README.md)
+- [JavaScript](/JavaScript/README.md)
 - [Java](/Java/README.md)
 - [Python](/Python/README.md)
 - [Q#](/Q#/README.md)

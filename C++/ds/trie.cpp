@@ -46,6 +46,6 @@ int main() {
   insert("darek");
   insert("amly");
   string result = search("darek") ? "Found" : "Not Found";
-  std::cout << result << '\n';
+  cout << result << '\n';
   return 0;
 }

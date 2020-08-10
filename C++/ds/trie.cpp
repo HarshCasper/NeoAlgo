@@ -1,22 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
-// trie structure 
+// trie structure
 struct trie {
   struct trie *children[26];
   bool isend;
   trie () {
-    memset(children,NULL,sizeof(children));
+    memset(children, NULL, sizeof(children));
     isend = false;
   }
 };
 
 struct trie* root;
 // insert algorithm in trie
-void insert( string s1){
+void insert( string s1) {
   struct trie *curr = root;
-  for(char ch : s1){
+  for (char ch : s1) {
     int currindex = ch - 'a';
-    if(curr->children[currindex] == NULL){
+    if (curr->children[currindex] == NULL) {
       curr->children[currindex] = new trie;
     }
     curr = curr->children[currindex];
@@ -24,11 +24,11 @@ void insert( string s1){
   curr->isend = true;
 }
 // search algorithm in trie
-bool search(string s1){
+bool search(string s1) {
   struct trie *curr = root;
-  for(char ch : s1){
+  for (char ch : s1) {
     int currindex = ch - 'a';
-    if(curr->children[currindex]==NULL)
+    if (curr->children[currindex] == NULL)
       return false;
     curr = curr->children[currindex];
   }

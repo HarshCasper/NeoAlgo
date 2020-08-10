@@ -1,6 +1,5 @@
-package DsAlgo;
 import java.util.*;
-public class kadanes_Java {
+public class kadane {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -12,14 +11,14 @@ public class kadanes_Java {
 			arr[i]=sc.nextInt();
 		}
 		for(int i=0;i<arr.length;i++) {
-			if(curSum+arr[i]<0) {
+			if(curSum+arr[i]<0)
 				curSum=0;
-			}else {
+			else 
 			curSum=curSum+arr[i];
-			}
-			if(curSum>maxSoFar) {
+			
+			if(curSum>maxSoFar) 
 				maxSoFar=curSum;
-			}
+			
 		}
 		System.out.println(maxSoFar);
 		

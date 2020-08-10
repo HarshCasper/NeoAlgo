@@ -1,3 +1,4 @@
+package DsAlgo;
 import java.util.*;
 public class kadane {
 

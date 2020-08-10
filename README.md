@@ -23,7 +23,7 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 - [Java](/Java/README.md)
 - [Python](/Python/README.md)
 - [Q#](/Q#/README.md)
-- [Miscellaneous](/Miscellaneous/README.md)
+- [Miscellaneous](/Miscellaneous/)
 
 ## Contributing Guidelines
 

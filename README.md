@@ -1,8 +1,10 @@
 <p align="center">
-    <img src="img/neo_algo.png"><br>
-</p>
+
+<img src="img/neo_algo.png"><br>
 
 <a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat-square" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /> <a href="https://github.com/TesseractCoding/NeoAlgo/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo?style=flat-square" /></a> <a href="https://github.com/TesseractCoding/NeoAlgo/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo?style=flat-square" /></a> <a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/README.md#contributors-" target="_blank"><img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo?style=flat-square" /></a>
+
+</p>
 
 ## Overview
 

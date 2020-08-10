@@ -1,9 +1,9 @@
 C:
   - C/**/*
-C#:
-  - C#/**/*
-C++:
-  - C++/**/*
+C-Plus-Plus:
+  - C-Plus-Plus/**/*
+C-Sharp:
+  - C-Sharp/**/*
 Go:
   - Go/**/*
 Java:
@@ -12,5 +12,5 @@ JavaScript:
   - JavaScript/**/*
 Python:
   - Python/**/*
-Q#:
-  - Q#/**/*
+Q-Sharp:
+  - Q-Sharp/**/*

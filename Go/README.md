@@ -16,7 +16,7 @@ _add list here_
 _add list here_
 
 ## Sorting
-* [Bubble Sort](sort/Bubble_Sort.go)
+* [Bubble Sort](sort/bubble_sort.go)
 
 ## Machine Learning
 _add list here_

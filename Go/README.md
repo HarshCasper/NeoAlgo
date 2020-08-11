@@ -31,7 +31,8 @@ _add list here_
 _add list here_
 
 ## Searching
-_add list here_
+* [Binary Search](search/binary_search.go)
+* [Linear Search](search/linear_search.go)
 
 ## Cryptography
 _add list here_

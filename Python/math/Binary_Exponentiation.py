@@ -1,3 +1,6 @@
+# Python Program to find Binary Exponent Iteratively and Recursively.
+
+# Iterative function to calculate exponent.
 def binExpo_iterate(a,b):
     res=1
     while b>0:
@@ -7,6 +10,7 @@ def binExpo_iterate(a,b):
         b//=2
     return res
 
+# Recursive function to calculate exponent.
 def binExpo_recurse(a,b):
     if b==0:
         return 1
@@ -17,6 +21,7 @@ def binExpo_recurse(a,b):
     else:
         return res
 
+# Main function
 a=int(input())
 b=int(input())
 

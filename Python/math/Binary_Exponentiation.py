@@ -27,7 +27,7 @@ elif b<0:
 elif a==0:
     print(0)
 else:
-    # resIterate=binExpo_iterate(a,b);
+    resIterate=binExpo_iterate(a,b);
     resRecurse=binExpo_recurse(a,b);
-    # print(resIterate)
+    print(resIterate)
     print(resRecurse)

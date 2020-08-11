@@ -43,6 +43,7 @@ _add list here_
 
 ## Mathematics
 
+* [Binary Exponentiation](math/Binary_Exponentiation.java)
 * [Complex numbers](math/Complex.java)
 * [Sieve of Atkin](math/sieveOfAtkin.java)
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)

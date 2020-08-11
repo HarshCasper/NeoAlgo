@@ -57,6 +57,7 @@
 
 ## Mathematics
 * [Area](math/Area.py)
+* [Binary Exponentiation](math/Binary_Exponentiation.py)
 * [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 * [Factorial](math/factorial.py)
 * [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)

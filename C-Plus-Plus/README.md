@@ -40,6 +40,7 @@
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Counting Sort](sort/countsort.cpp)
 - [TimSort](sort/Tim_Sort.cpp)
+- [Radix Sort](https://github.com/TesseractCoding/NeoAlgo/pull/378/commits/d2612d36ab22ab6d588d81c8ac060de59efbc034)
 
 ## Queue
 

@@ -10,7 +10,7 @@
 # Codes in the Golang language
 
 ## Data Structures
-_add list here_
+* [Linked List](ds/linked_list.go)
 
 ## Searching
 _add list here_

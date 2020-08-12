@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
+
 using namespace std;
+
  template <class T>
 void Print(T& vec, int n, string s){
     cout << s << ": [" << flush;
@@ -12,6 +14,7 @@ void Print(T& vec, int n, string s){
     }
     cout << "]" << endl;
 }
+
  int Max(int A[], int n){
     int max = -32768;
     for (int i=0; i<n; i++){
@@ -21,12 +24,14 @@ void Print(T& vec, int n, string s){
     }
     return max;
 }
+
  // Linked List node
 class Node{
 public:
     int value;
     Node* next;
 };
+
  int countDigits(int x){
     int count = 0;
     while (x != 0){
@@ -35,11 +40,13 @@ public:
     }
     return count;
 }
+
  void initializeBins(Node** p, int n){
     for (int i=0; i<n; i++){
         p[i] = nullptr;
     }
 }
+
  void Insert(Node** ptrBins, int value, int idx){
     Node* temp = new Node;
     temp->value = value;
@@ -55,6 +62,7 @@ public:
         p->next = temp;
     }
 }
+
  int Delete(Node** ptrBins, int idx){
     Node* p = ptrBins[idx];  // ptrBins[idx] is head ptr
     ptrBins[idx] = ptrBins[idx]->next;
@@ -62,9 +70,11 @@ public:
     delete p;
     return x;
 }
+
  int getBinIndex(int x, int idx){
     return (int)(x / pow(10, idx)) % 10;
 }
+
  void RadixSort(int A[], int n){
     int max = Max(A, n);
     int nPass = countDigits(max);
@@ -99,6 +109,7 @@ public:
  // Delete heap memory
     delete [] bins;
 }
+
  int main() {
     int A[] = {237, 146, 259, 348, 152, 163, 235, 48, 36, 62};
     int n = sizeof(A)/sizeof(A[0]);

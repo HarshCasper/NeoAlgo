@@ -64,18 +64,18 @@ System.out.println("Enter y to add a data to Linked List");
 		sc.nextLine();
 		choice = sc.nextLine();
 	}
-	Node ctr=head;Node ptr,temp;
+	Node ctr=head;Node ptr,forw;
 	if(ctr==null)
 		System.out.println("Linked List is empty");
 	else {
 	ptr=null;
-	temp=ctr.next;
+	forw=ctr.next;
 	while(ctr.next!=null)
 	{
 		ctr.next=ptr;
 		ptr=ctr;
-		ctr=temp;
-		temp=temp.next;
+		ctr=forw;
+		forw=forw.next;
 		
 		
 	}

@@ -1,4 +1,4 @@
-/* Stack search is method to search an element in a stack and return the index at which its found. */
+/* Stack search is a method to search an element in a stack and return the index at which its found. */
 
 import java.util.*;
 
@@ -7,7 +7,7 @@ public class stack_search{
 	public static void main(String[] args) {
 	    
 	    Scanner sc = new Scanner(System.in);
-	    //enter the no of elemnts to be their inside stack
+	    //enter the no of elemnts to be there inside stack
 	    int n = sc.nextInt();
 	    int no;
         Stack <Integer> st = new Stack <Integer> (); 
@@ -17,9 +17,9 @@ public class stack_search{
         }
         // Displaying the Stack 
         System.out.println("The stack is: " + st); 
-         //enter the item to be searched
+         //enter the element to be searched
             int item = sc.nextInt();
-        // Checking for the item
+        // Checking for the element
             int search = st.search(item);
            System.out.println(item+" is seached at index="+(n-search+1));     
     } 

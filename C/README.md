@@ -14,6 +14,7 @@
 - [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
+- [Reversing a Linked List](ds/Reverse_linked_list.c)
 
 
 ## Searching

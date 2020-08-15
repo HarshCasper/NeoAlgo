@@ -14,8 +14,7 @@ Output: 8
 def staircase(n: int) -> int:
   if n <= 3:
     return n
-  else:
-    return staircase(n-1)+staircase(n-2)
+  return staircase(n-1)+staircase(n-2)
 
 
 # Time Complexity -  O(n) 

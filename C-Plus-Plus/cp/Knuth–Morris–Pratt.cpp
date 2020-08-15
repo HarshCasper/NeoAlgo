@@ -9,36 +9,41 @@
 
 using namespace std;
 
-void computeLPS(string &, vector<int> &);
-void searchByKMP(string &, string &);
-
-int main()
+// Fills lps for given patttern pat[0..M-1]
+void computeLPS(string &patt, vector<int> &lps)
 {
-    string text = "", patt = "";
+    int M = patt.size();
+    // length of the previous longest prefix suffix
+    int len = 0;
 
-    int n;
+    lps[0] = 0;
 
-    cout << "Enter Number of test Cases:";
-    cin >> n;
-
-    while (n)
+    int i = 1;
+    // the loop calculates lps[i] for i = 1 to M-1
+    while (i < M)
     {
-        cout << endl;
-        cout << "Enter the text string:";
-        cin >> text;
-
-        cout << endl
-             << "Enter the pattern string:";
-        cin >> patt;
-
-        searchByKMP(text, patt);
-        n--;
-        text.clear();
-        patt.clear();
+        if (patt[i] == patt[len])
+        {
+            len++;
+            lps[i] = len;
+            i++;
+        }
+        else
+        {
+            if (len != 0)
+            {
+                len = lps[len - 1];
+            }
+            else
+            {
+                lps[i] = 0;
+                i++;
+            }
+        }
     }
-
-    return 0;
 }
+
+
 // Prints occurrences of patt in text
 void searchByKMP(string &text, string &patt)
 {
@@ -75,36 +80,29 @@ void searchByKMP(string &text, string &patt)
     }
 }
 
-// Fills lps for given patttern pat[0..M-1]
-void computeLPS(string &patt, vector<int> &lps)
+int main()
 {
-    int M = patt.size();
-    // length of the previous longest prefix suffix
-    int len = 0;
+    string text = "", patt = "";
 
-    lps[0] = 0;
+    int n;
 
-    int i = 1;
-    // the loop calculates lps[i] for i = 1 to M-1
-    while (i < M)
+    cout << "Enter Number of test Cases:";
+    cin >> n;
+
+    while (n)
     {
-        if (patt[i] == patt[len])
-        {
-            len++;
-            lps[i] = len;
-            i++;
-        }
-        else
-        {
-            if (len != 0)
-            {
-                len = lps[len - 1];
-            }
-            else
-            {
-                lps[i] = 0;
-                i++;
-            }
-        }
+        cout << endl;
+        cout << "Enter the text string:";
+        cin >> text;
+
+        cout << endl << "Enter the pattern string:";
+        cin >> patt;
+
+        searchByKMP(text, patt);
+        n--;
+        text.clear();
+        patt.clear();
     }
+
+    return 0;
 }

@@ -19,6 +19,7 @@
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
+- [Reverse Linked List](ds/Reverse_linked_list.cpp)
 
 ## Searching
 
@@ -61,8 +62,9 @@ _add list here_
 ## Mathematics
 
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
-- [Extended Euclidean Algorithm](Extended_Euclidean_Algorithm.cpp)
-- [Binary Exponentiation](/math/Binary_Exponentiation.cpp)
+- [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
+- [Binary Exponentiation](math/Binary_Exponentiation.cpp)
+- [Ackermann_Function](math/Ackermann_function.cpp)
 
 ## Dynamic Programming
 

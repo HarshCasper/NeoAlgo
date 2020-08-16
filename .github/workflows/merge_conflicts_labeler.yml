@@ -1,10 +1,10 @@
-name: "Auto label merge conflicts"
+name: Merge Conflicts Labeler
 on:
   push:
     branches:
       - master
 jobs:
-  triage:
+  labeler:
     runs-on: ubuntu-latest
     steps:
       - uses: mschilde/auto-label-merge-conflicts@master

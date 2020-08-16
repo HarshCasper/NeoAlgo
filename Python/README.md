@@ -14,6 +14,7 @@
 * [Stacks](ds/Stacks.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+* [Reverse Linked List](ds/Reverse_linked_list.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -56,12 +57,17 @@
 
 ## Mathematics
 * [Area](math/Area.py)
+* [Binary Exponentiation](math/Binary_Exponentiation.py)
 * [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 * [Factorial](math/factorial.py)
 * [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+
+## Competitive Programming
+
+* [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 
 ## Dynamic Programming
 _add list here_

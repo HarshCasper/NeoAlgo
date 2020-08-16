@@ -44,10 +44,11 @@ public class Binary_Tree {
 
         preOrder(root);
     }
-    public void postOrder() {
 
-        postOrder(root);
+    public void postOrder(){
+       postOrder(root); 
     }
+   
     private void preOrder(Node node) {
         if (node == null) {
             return;
@@ -60,8 +61,10 @@ public class Binary_Tree {
         if (node == null) {
             return;
         }
-        postOrder(node.left);
-        postOrder(node.right);
+
+        preOrder(node.left);
+        preOrder(node.right);
+
         System.out.print(node.value + ",");
     }
     

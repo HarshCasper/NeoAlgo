@@ -1,4 +1,4 @@
-Recursive:
+/*Recursive:*/
 import java.util.Scanner;
 
 public class CountDigits {

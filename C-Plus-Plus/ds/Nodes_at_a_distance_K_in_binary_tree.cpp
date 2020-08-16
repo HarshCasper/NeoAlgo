@@ -4,7 +4,7 @@
 
     Sample preorder input : 1 2 4 6 -1 -1 7 10 -1 -1 11 -1 -1 5 8 -1 -1 9 -1 -1 3 -1 -1
             target node   : 4
-            k             : 2
+            K             : 2
 
     Sample output         : 10 11 5 1
 

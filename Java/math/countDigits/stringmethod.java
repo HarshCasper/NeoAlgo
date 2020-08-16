@@ -1,4 +1,4 @@
-String Method:
+/*String Method:*/
 import java.util.Scanner;
 
 public class CountDigits {
@@ -27,5 +27,6 @@ public class CountDigits {
 	Enter a number : 24567
  	
 	Sample Output : 5
-	 	
+	 
+	 
 */

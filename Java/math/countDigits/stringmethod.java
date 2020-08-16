@@ -27,5 +27,6 @@ public class CountDigits {
 	Enter a number : 24567
  	
 	Sample Output : 5
-	 	
+	 
+	 
 */

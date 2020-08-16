@@ -13,7 +13,7 @@
 
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
-- [Tree] (ds/Generic_Trees.cpp)
+- [Tree](ds/Generic_Trees.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)

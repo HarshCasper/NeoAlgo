@@ -17,3 +17,9 @@ class CountDigits {
         Console.WriteLine("Number of digits= " + countDigit(num)); 
     } 
 }
+/*
+	Sample Input/Output-
+	Enter the number: 7890
+	Number of digits= 4
+
+*/

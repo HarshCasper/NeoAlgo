@@ -68,7 +68,7 @@ class LinkedList:
             self.head = pos.next
             temp = None
             return
-        for i in range(1,index-1):
+        for ind in range(1,index-1):
             pos = pos.next
             if pos == None:
                 break
@@ -110,29 +110,23 @@ if __name__=='__main__':
     print("9. Exit")
     print("--Use 1-based indexing--")
     while(True):
-        print("Enter your choice: ")
-        ch = int(input())
+        ch = int(input("Enter your choice: "))
         if ch == 1:
-            print("Enter the element to insert: ")
-            ndata = int(input())
+            ndata = int(input("Enter the element to insert: "))
             newLinkedList.insertNodeAtFront(ndata)
         elif ch == 2:
-            print("Enter the element to insert: ")
-            ndata = int(input())
+            ndata = int(input("Enter the element to insert: "))
             newLinkedList.insertNodeAtEnd(ndata)
         elif ch == 3:
-            print("Enter the element to insert: ")
-            ndata = int(input())
-            print("Enter index to insert this element: ")
-            ind = int(input())
+            ndata = int(input("Enter the element to insert: "))
+            ind = int(input("Enter index to insert this element: "))
             newLinkedList.insertNodeAtPosition(ind,ndata)
         elif ch == 4:
             newLinkedList.deleteNodeAtFront()
         elif ch == 5:
             newLinkedList.deleteNodeAtEnd()
         elif ch == 6:
-            print("Enter index to delete element: ")
-            ind = int(input())
+            ind = int(input("Enter index to delete element: "))
             newLinkedList.deleteNodeAtPosition(ind)
         elif ch == 7:
             newLinkedList.traverseList()

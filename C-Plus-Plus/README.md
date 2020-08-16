@@ -65,6 +65,7 @@ _add list here_
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Ackermann_Function](math/Ackermann_function.cpp)
+- [Prime Factorization using sieve](math/Primefactorization.cpp)
 
 ## Dynamic Programming
 

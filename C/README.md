@@ -15,7 +15,6 @@
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
 
-
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
@@ -45,6 +44,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
+
 ## Dynamic Programming
 
 _add list here_
@@ -59,4 +59,4 @@ _add list here_
 
 ## Other
 
-_add list here_
+- [String Rotation Queries](other/string_rotation_queries.c)

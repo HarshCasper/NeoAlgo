@@ -16,6 +16,7 @@
 * [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
+* [Stack ~ Linked List Implementation](ds/Stack.java)
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)

@@ -91,7 +91,7 @@ public class Binary_Tree {
         postOrder(node.left);
         postOrder(node.right);
         System.out.print(node.value + ",");
-        // post order travercal output will be 4 5 2 3 1
+        // post order traversal output will be 4 5 2 3 1
     }
     
     private class Node{

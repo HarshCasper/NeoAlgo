@@ -15,7 +15,6 @@
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Binary Tree Post-order](ds/Binary_Tree_Postorder_Traversal.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
->>>>>>> cce89334944a91eab8dda3ae9b01fcffa59cf0bb
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)

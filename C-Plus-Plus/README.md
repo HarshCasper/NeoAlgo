@@ -13,7 +13,12 @@
 
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+<<<<<<< HEAD
 - [Binary Tree Post-order](ds/Binary_Tree_Postorder_Traversal.cpp)
+=======
+- [Binary Tree](ds/postorder.cpp)
+- [Singly Linked List](ds/singly_linked_list.cpp)
+>>>>>>> cce89334944a91eab8dda3ae9b01fcffa59cf0bb
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)
@@ -64,7 +69,8 @@ _add list here_
 
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
-- [Binary Exponentiation](/math/Binary_Exponentiation.cpp)
+- [Binary Exponentiation](math/Binary_Exponentiation.cpp)
+- [Ackermann_Function](math/Ackermann_function.cpp)
 
 ## Dynamic Programming
 

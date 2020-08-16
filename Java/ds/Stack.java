@@ -26,9 +26,17 @@ public class Stack
 		top = ptr;
 	}
   }
-  void seek()
+  boolean isEmpty()
   {
+	if(top==null) 
+		retrun true;
+	return false;
+  }
+  void seek()
+  {     if(!isEmpty())
 	  System.out.println(top.data);
+        else 
+          System.out.println("Stack is empty");
   }
   void pop()
   {

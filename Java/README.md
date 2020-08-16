@@ -52,6 +52,7 @@ _add list here_
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 * [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)
+* [Count Number Of Digits](math/countdigit.java)
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)

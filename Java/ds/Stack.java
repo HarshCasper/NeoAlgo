@@ -65,6 +65,7 @@ public class Stack
   {
 	Stack st=new Stack();
 	Scanner sc=new Scanner(System.in);
+	System.out.println("Stack");
 	int choice; boolean f=true;
 	while(f) 
 	{

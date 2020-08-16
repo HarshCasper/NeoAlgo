@@ -1,4 +1,4 @@
-Iterative:
+/*Iterative:*/
 import java.util.Scanner;
 
 public class CountDigits {

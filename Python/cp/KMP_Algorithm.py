@@ -1,4 +1,5 @@
 def calculateLps(pattern, lps):
+    # length of previous lps  
     length = 0
     lps[0] = 0
 
@@ -9,12 +10,13 @@ def calculateLps(pattern, lps):
             lps[iterator] = length
             iterator += 1
         else:
-            if length != 0:
+            if length != 0:   
+                # iterator is not incremented here
                 length = lps[length - 1]
             else:
-                lps[iterator] = 0
+                lps[iterator] = 0 
                 iterator += 1
-
+# this is the function used to check if pattern is there in text
 def KMPSearch(pattern, text):
     sizePattern = len(pattern)
     sizeText = len(text)
@@ -23,6 +25,7 @@ def KMPSearch(pattern, text):
     lps = [0] * sizePattern
     j = 0
 
+    # this function will calculate the longest prefix suffix
     calculateLps(pattern, lps)
 
     i = 0
@@ -32,7 +35,7 @@ def KMPSearch(pattern, text):
             j+=1
 
         if j == sizePattern:
-            print("Pattern found at " + str(i - j + 1))
+            print("Pattern found at " + str(i - j + 1)) # print the pattern starting index
             j = lps[j - 1]
         elif i < sizeText and pattern[j] != text[i]:
             if j != 0:

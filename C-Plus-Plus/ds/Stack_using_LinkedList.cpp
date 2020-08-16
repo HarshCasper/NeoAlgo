@@ -1,3 +1,9 @@
+//This program implements Stack Data stucture using Linked List representation
+
+//by @GudlaArunKumar
+
+
+
 // Stsck using Vector
 
 #include <bits/stdc++.h>
@@ -29,9 +35,6 @@ public:
         return v.size();
     }
 };
-
-//This program implements Stack Data stucture using Linked List representation
-//by @GudlaArunKumar
 
 #include <iostream>
 using namespace std;

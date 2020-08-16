@@ -18,8 +18,9 @@ public class Main
     		head=ptr;
           }
     	else 
-    	  {ptr.next=null;
-    	   head=ptr;
+    	  {     
+		ptr.next=null;
+    	        head=ptr;
        	  }
     }
     public bool isEmpty()
@@ -61,12 +62,14 @@ public class Main
     public void delete_From_End()
     {   
     	Node ctr=head;
-    	if(ctr!=null)
-	{
-    	  while(ctr.next.next!=null)
+    	if(ctr!=null && ctr.next!=null)
+	   {
+    	     while(ctr.next.next!=null)
     		ctr=ctr.next;
-    	  ctr.next=null;
-    	}
+    	     ctr.next=null;
+    	  }
+    	else if( ctr!=null && ctr.next==null)
+    	   head = null;
     	else
     	  System.out.println("Linked list is empty");  
     }

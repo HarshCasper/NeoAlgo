@@ -29,10 +29,10 @@ public class Stack
   boolean isEmpty()
   {
 	if(top==null) 
-		retrun true;
+		return true;
 	return false;
   }
-  void seek()
+  void peek()
   {     if(!isEmpty())
 	  System.out.println(top.data);
         else 
@@ -59,6 +59,7 @@ public class Stack
 		System.out.print(ctr.data+" ");
 		ctr=ctr.next;
 	}
+	System.out.println();
   }
   public static void main(String[] args)
   {
@@ -67,7 +68,7 @@ public class Stack
 	int choice; boolean f=true;
 	while(f) 
 	{
-		System.out.println("Enter 1 to input data, 2 to delete data from stack and 3 to seek data from stack");
+		System.out.println("Enter 1 to input data, 2 to delete data from stack, 3 to peek data from stack and 4 to exit");
 		choice=sc.nextInt();
 		switch(choice) 
 		{
@@ -75,15 +76,18 @@ public class Stack
 		         int data = sc.nextInt();
 		         st.push(data);
 		         st.print();
-		         System.out.println();
+		         System.out.println("Success");
 		         break;
 		 case 2: st.pop();
 		         st.print();
-		         System.out.println();
-			     break;
-		 case 3: st.seek();
+		         System.out.println("Success");
+			 break;
+		 case 3: st.peek();
+			  System.out.println("Success");	
 		         break;
-	     default: f=false;
+		case 4:  f=false;
+	                 break;
+	     default: System.out.println("Enter Valid Input");
 	            break;
 		}
 	}
@@ -92,23 +96,32 @@ public class Stack
 }
 
 /*
-Enter 1 to input data, 2 to delete data from stack and 3 to seek data from stack
-1
-Enter data to enter into stack
-1
-1 
-Enter 1 to input data, 2 to delete data from stack and 3 to seek data from stack
+Enter 1 to input data, 2 to delete data from stack, 3 to peek data from stack and 4 to exit
 1
 Enter data to enter into stack
 2
-2 1 
-Enter 1 to input data, 2 to delete data from stack and 3 to seek data from stack
-2
-1 
-Enter 1 to input data, 2 to delete data from stack and 3 to seek data from stack
+2 
+Success
+Enter 1 to input data, 2 to delete data from stack, 3 to peek data from stack and 4 to exit
+1
+Enter data to enter into stack
 3
+3 2 
+Success
+Enter 1 to input data, 2 to delete data from stack, 3 to peek data from stack and 4 to exit
+2
+2 
+Success
+Enter 1 to input data, 2 to delete data from stack, 3 to peek data from stack and 4 to exit
+3
+2
+Success
+Enter 1 to input data, 2 to delete data from stack, 3 to peek data from stack and 4 to exit
 1
-Enter 1 to input data, 2 to delete data from stack and 3 to seek data from stack
+Enter data to enter into stack
 4
-
+4 2 
+Success
+Enter 1 to input data, 2 to delete data from stack, 3 to peek data from stack and 4 to exit
+4
 */

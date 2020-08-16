@@ -1,4 +1,4 @@
-String Method:
+/*String Method:*/
 import java.util.Scanner;
 
 public class CountDigits {

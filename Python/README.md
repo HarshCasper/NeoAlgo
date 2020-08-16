@@ -67,6 +67,7 @@
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+* [Modular Division](math/modular_division.py)
 
 ## Competitive Programming
 
@@ -77,7 +78,6 @@ _add list here_
 
 ## Blockchain
 
-* [Moduler Division](blockchain/modular_division.py)
 
 
 ## Cryptography

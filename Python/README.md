@@ -68,6 +68,7 @@
 ## Competitive Programming
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [KMP Algorithm](cp/KMP_Algorithm.py)
 
 ## Dynamic Programming
 _add list here_
@@ -83,4 +84,4 @@ _add list here_
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
-* [KMP Algorithm](other/KMP_Algorithm.py)
+

@@ -1,5 +1,6 @@
 //This program solves the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other.
-#include<stdio.h>
+#include<stdio.h>
+
 #include<conio.h>
 #define INF 9999
 char board[20][20];
@@ -63,10 +64,10 @@ void printSolution()
     }
     printf("|\n");
   }
-  printf("       ‾‾");
+  printf("       __");
   for(i=1;i<=n;i++) 
   { 
-    printf("‾‾‾‾");
+    printf("___");
   }
   printf("\n");
   getch();
@@ -108,4 +109,4 @@ void main()
   nQueens(0);
   printf("\nTotal Solutions: %d", count);
   getch();
-}
+}

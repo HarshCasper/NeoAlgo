@@ -23,7 +23,7 @@ public class Main
     	        head=ptr;
        	  }
     }
-    public bool isEmpty()
+    public boolean isEmpty()
     {
       if(head==null)
        return true;
@@ -76,14 +76,16 @@ public class Main
     public void delete_At_Position(int c)
     {   
     	int i=1;Node ctr=head,ptr;
-    	if(ctr!=null ) 
+    	if(ctr!=null && ctr.next!=null) 
 	{
     	   while(i<c-1 && ctr.next!=null)
     		ctr=ctr.next;
     	   ptr=ctr.next;
     	   ctr.next=ptr.next;
         }
-       else
+	else if( ctr!=null && ctr.next==null)
+    	   head = null;    
+        else
     	 System.out.println("Linked list is empty"); 
        return ;
    }

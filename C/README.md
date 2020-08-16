@@ -59,4 +59,4 @@ _add list here_
 
 ## Other
 
-_add list here_
+-[String Rotation Query](other/string_rotation_queries.c)

@@ -10,11 +10,11 @@
 # Codes in the Golang language
 
 ## Data Structures
-* [Stack](/ds/stack.go)
+* [Stack](ds/Stack.go)
 
 ## Searching
-* [Binary Search](/search/binary_search.go)
-* [Linear Search](/search/linear_search.go)
+* [Binary Search](search/binary_search.go)
+* [Linear Search](search/linear_search.go)
 
 ## Sorting
 _add list here_

@@ -13,10 +13,7 @@
 
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
-<<<<<<< HEAD
 - [Binary Tree Post-order](ds/Binary_Tree_Postorder_Traversal.cpp)
-=======
-- [Binary Tree](ds/postorder.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
 >>>>>>> cce89334944a91eab8dda3ae9b01fcffa59cf0bb
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)

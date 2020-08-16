@@ -47,7 +47,7 @@ _add list here_
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
 ## Dynamic Programming
 
-_add list here_
+- [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 
 ## Blockchain
 

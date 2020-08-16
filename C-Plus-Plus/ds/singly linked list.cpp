@@ -28,17 +28,16 @@ int ele;			//ele is the input data from the user
 int main()              //Main Function Begins Here
 {
 int ch;
+cout<< "\n\n\t All Basic Features of Singly Linked List"<<endl;         //Displaying the Features in a tabular manner         
+cout<<"\t **************************************************"<<endl;
 
-do{
-cout<<"1) Insert at Front"<<endl;
-cout<<"2) Insert at End"<<endl;
-cout<<"3) Insert at position"<<endl;
-cout<<"4) Delete at Front"<<endl;
-cout<<"5) Delete at End"<<endl;
-cout<<"6) Display"<<endl;
-cout<<"7) Length"<<endl;
-cout<<"8) Exit"<<endl;
-cout<<"**************************************\n ENTER YOUR CHOICE: "<<endl;
+do
+{
+cout<<"\t 1) Insert at Front\t \t 2) Insert at End "<<endl; 
+cout<<"\t 3) Insert at position\t \t 4) Delete at Front"<<endl;
+cout<<"\t 5) Delete at End\t \t 6) Display"<<endl;
+cout<<"\t 7) Length\t \t\t 8) Exit"<<endl;
+cout<<"\t ***************************************************\n ENTER YOUR CHOICE: "<<endl;
 cin >>ch;
   switch(ch)
   {
@@ -73,6 +72,10 @@ cin >>ch;
     case 8:
     exit(0);
     break;
+    
+    default:
+    cout<<"Invalid Input. Please enter the Number between 1 to 8 "<<endl;
+    
   }
 }while(ch!=0);
     return 0;
@@ -89,11 +92,15 @@ if(head==NULL)
  {
     head=ptr;
     tail=ptr;
+         cout<<"Inserted Successfully."<<endl;
+         cout<<"\t **************************************************"<<endl;
  }
  else
  {
     tail->next=ptr;
     tail=ptr;
+          cout<<"Inserted Successfully."<<endl;
+          cout<<"\t **************************************************"<<endl; 
  }
 }
 //--------------------------------------------------------------
@@ -108,11 +115,16 @@ if(head==NULL)
     head=ptr;
     tail=ptr;
     ptr->next=NULL;
+     cout<<"Inserted Successfully."<<endl;
+     cout<<"\t **************************************************"<<endl;
  }
 else
  {
     ptr->next=head;
     head=ptr;
+      cout<<"Inserted Successfully."<<endl;
+      cout<<"\t **************************************************"<<endl;
+
  }
 }
 
@@ -136,6 +148,9 @@ void Insert_At_Pos()
   }
   ptr->next=pos->next;
   pos->next=ptr;
+      cout<<"Inserted Successfully."<<endl;
+      cout<<"\t *************************************************"<<endl;
+
 }
 
 //-------------------------------------------------------------
@@ -148,6 +163,7 @@ void Delete_At_Front()
         ptr=head;
         head=ptr->next;
 	   cout<<"Deleted Successfully"<<endl;
+	   cout<<"\t **************************************************"<<endl;
         free(ptr);
     }
 }
@@ -167,6 +183,7 @@ void Delete_At_End()
         }
     ptr->next=NULL;
     cout<<"Deleted Successfully"<<endl;
+    cout<<"\t **************************************************"<<endl;
     free(temp);
     }
 }
@@ -182,7 +199,7 @@ void Display()                         //Traversing throughout the Linked LIst
         temp=temp->next;
         i++;
     }
-    cout<<"****************************************************" <<endl;
+    cout<<"\t ***********************************************"<<endl;
 }
 //------------------------------------------------------------------------------------
 
@@ -198,4 +215,5 @@ void Length()
         i++;
     }
     cout<<"Total no. of Nodes : "<<Count<<endl;
+    cout<<"\t ***********************************************"<<endl;
 }

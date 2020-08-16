@@ -18,7 +18,7 @@
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
-- [Stack](ds/Stack_Implementation.cpp)
+- [Stack](ds/Stack_using_Array.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
 

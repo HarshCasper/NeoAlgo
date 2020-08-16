@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include<stack>
+#include <stack>
 using namespace std;
 
 struct tree {               // treenode

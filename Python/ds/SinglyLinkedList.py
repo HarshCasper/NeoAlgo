@@ -136,3 +136,45 @@ if __name__=='__main__':
             break
         else:
             print("Enter a valid choice (1-9)")
+            
+            
+# --- EXAMPLE ---
+
+# SINGLY LINKED LIST
+# 1. Insert Node at Front
+# 2. Insert Node at End
+# 3. Insert Node at Position
+# 4. Delete Node at Front
+# 5. Delete Node at End
+# 6. Delete Node at Position
+# 7. Print the List
+# 8. Count nodes in the List
+# 9. Exit
+# --Use 1-based indexing--
+# Enter your choice: 1
+# Enter the element to insert: 10
+# Enter your choice: 2
+# Enter the element to insert: 5
+# Enter your choice: 3
+# Enter the element to insert: 3
+# Enter index to insert this element: 2
+# Enter your choice: 7
+# 10
+# 3
+# 5
+# Enter your choice: 6
+# Enter index to delete element: 2
+# Enter your choice: 7
+# 10
+# 5
+# Enter your choice: 8
+# 2
+# Enter your choice: 4
+# Enter your choice: 7
+# 5
+# Enter your choice: 5
+# Enter your choice: 7
+# Empty list, nothing to print!
+# Enter your choice: 10
+# Enter a valid choice (1-9)
+# Enter your choice: 9

@@ -11,10 +11,12 @@
 
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
-* [Linked List](ds/linkedListReverse.java )
+* [Linked List](ds/linkedList.java )
+* [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
+* [Stack ~ Linked List Implementation](ds/Stack.java)
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)
@@ -22,6 +24,7 @@
 * [Linear Search](search/Linear_search.java)
 * [Binary Search](search/Binary_search.java)
 * [Jump Search](search/jumpSearch.java)
+* [Stack Search](search/Stack_Search.java)
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)

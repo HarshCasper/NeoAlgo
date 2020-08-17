@@ -17,6 +17,7 @@
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
 * [Stack ~ Linked List Implementation](ds/Stack.java)
+* [AVL Tree](ds/AVLTree.java)
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)

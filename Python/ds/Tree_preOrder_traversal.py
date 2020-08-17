@@ -14,11 +14,6 @@ class Tree:
             self.recursive_preorder_traversal(root.left, path)
             self.recursive_preorder_traversal(root.right, path)
         return path
-    
-    '''
-    Stack is used to implement the iterative approach. Push nodes into the stack. We leave the inner loop when left leaf is reached. 
-    Latest node is popped out of the stack and we move to its right child and repeat the above steps until we reach the right-most child.
-    '''
 
     def iterative_preorder_traversal(self, root):
         self.path = []
@@ -43,17 +38,18 @@ preOrdertree.root.left.right  = node(32)
 preOrdertree.root.right.left  = node(64)
 preOrdertree.root.right.right = node(128)
 
+#### Pre-Order Traversal :- root.val -> root.left -> root.right
+
+print(preOrdertree.recursive_preorder_traversal(preOrdertree.root, []))  # Expected result: [2,4,16,32,8,64,128]
+print(preOrdertree.iterative_preorder_traversal(preOrdertree.root))  # Expected result: [2,4,16,32,8,64,128]
+
 '''
       2
    /     \
   4       8
  / \     / \
 16  32  64  128
- 
+     
+Stack is used to implement the iterative approach. Push nodes into the stack. We leave the inner loop when left leaf is reached. 
+Latest node is popped out of the stack and we move to its right child and repeat the above steps until we reach the right-most child. 
 '''
-
-#### Pre-Order Traversal :- root.val -> root.left -> root.right
-
-print(preOrdertree.recursive_preorder_traversal(preOrdertree.root, []))  # Expected result: [2,4,16,32,8,64,128]
-print(preOrdertree.iterative_preorder_traversal(preOrdertree.root))  # Expected result: [2,4,16,32,8,64,128]
-

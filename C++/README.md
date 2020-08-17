@@ -13,12 +13,14 @@
 
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+- [Singly Linked List](ds/singly_linked_list.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
+- [Reverse Linked List](ds/Reverse_linked_list.cpp)
 - [Inorder Traversal recursive and non recursive](inorder.cpp)
 
 ## Searching
@@ -62,13 +64,15 @@ _add list here_
 ## Mathematics
 
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
-- [Extended Euclidean Algorithm](Extended_Euclidean_Algorithm.cpp)
-- [Binary Exponentiation](/math/Binary_Exponentiation.cpp)
+- [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
+- [Binary Exponentiation](math/Binary_Exponentiation.cpp)
+- [Ackermann_Function](math/Ackermann_function.cpp)
 
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [String permutations](dp/string_permutations.cpp)
+- [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 
 ## Blockchain
 

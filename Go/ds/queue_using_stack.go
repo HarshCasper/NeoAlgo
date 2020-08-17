@@ -275,5 +275,5 @@ func main() {
 	4 -> print length
 	5 -> exit program
 	4
-
+	The current length of Queue is 1
 */

@@ -96,6 +96,14 @@ func (queue *QUEUE) initQueue() {
 	queue.deQueueStack.initStack()
 }
 
+func (queue *QUEUE) length() {
+	if queue.isEmpty() {
+		fmt.Println("The current length of Queue is 0")
+	} else {
+		fmt.Printf("The current length of Queue is %d\n", queue.back-queue.front+1)
+	}
+}
+
 // isEmpty(): checks if the both front and back are less than 0 it means Queue is empty
 func (queue *QUEUE) isEmpty() bool {
 	if queue.front < 0 && queue.back < 0 {
@@ -119,7 +127,7 @@ func (queue *QUEUE) isFull() bool {
 func (queue *QUEUE) enQueue() {
 	var data int
 	if queue.isFull() {
-		fmt.Println("Can't enqueue value")
+		fmt.Println("Can't insert value")
 		fmt.Println("Queue is full")
 	} else {
 		if queue.front < 0 {
@@ -129,22 +137,22 @@ func (queue *QUEUE) enQueue() {
 		fmt.Scanf("%d", &data)
 		queue.back++
 		queue.enQueueStack.push(data)
-		fmt.Println("value enqueued succesfully at the end of the Queue")
+		fmt.Println("value inserted succesfully at the end of the Queue")
 	}
 }
 
 // deQueue(): if the underlying stacks are not empty then it will pop all elemnt from enQueueStack
 // and push them to deQueueStack and return the value by poping it from deQueueStack
-// and finally it will pop all element from deQueueStack and push them to enQueueStack
+// and finally it will pop all element from deQueueStack and push them to enQueueStack again
 func (queue *QUEUE) deQueue() {
 	if queue.front < 0 || queue.front > queue.back {
-		fmt.Println("Can't dequeue value")
+		fmt.Println("Can't delete value")
 		fmt.Println("Queue is empty")
 	} else {
 		for i := 0; i <= queue.back-queue.front; i++ {
 			queue.deQueueStack.push(queue.enQueueStack.pop())
 		}
-		fmt.Printf("Dequeued element is %d\n", queue.deQueueStack.pop())
+		fmt.Printf("Succesfully deleted element %d from the front of the Queue\n", queue.deQueueStack.pop())
 		queue.front++
 		for i := 0; i <= queue.back-queue.front; i++ {
 			queue.enQueueStack.push(queue.deQueueStack.pop())
@@ -156,11 +164,12 @@ func (queue *QUEUE) deQueue() {
 }
 
 // printQueue(): if queue is not empty then it will simply
-// print the element of enQueueStack
+// print all the elements of enQueueStack
 func (queue *QUEUE) printQueue() {
 	if queue.isEmpty() {
 		fmt.Println("Queue is empty")
 	} else {
+		fmt.Println("Current state of Queue is")
 		for i := 0; i <= queue.back-queue.front; i++ {
 			fmt.Printf("%d ", queue.enQueueStack.array[i])
 		}
@@ -175,7 +184,7 @@ func main() {
 	var isContinue bool = true
 	fmt.Println("Please enter option")
 	for isContinue {
-		fmt.Println("1 -> enqueue element\n2 -> dequeue element\n3 -> print Queue\n4 -> exit program")
+		fmt.Println("1 -> insert element\n2 -> delete element\n3 -> print Queue\n4 -> print length\n5 -> exit program")
 		fmt.Scanf("%d", &choice)
 
 		switch choice {
@@ -189,6 +198,9 @@ func main() {
 			queue.printQueue()
 			break
 		case 4:
+			queue.length()
+			break
+		case 5:
 			isContinue = false
 			break
 		default:
@@ -198,3 +210,70 @@ func main() {
 	}
 
 }
+
+/*
+	input/output sample
+
+	Please enter option
+	1 -> insert element
+	2 -> delete element
+	3 -> print Queue
+	4 -> print length
+	5 -> exit program
+	1
+	enter the value: 4
+	value inserted succesfully at the end of the Queue
+	1 -> insert element
+	2 -> delete element
+	3 -> print Queue
+	4 -> print length
+	5 -> exit program
+	1
+	enter the value: 5
+	value inserted succesfully at the end of the Queue
+	1 -> insert element
+	2 -> delete element
+	3 -> print Queue
+	4 -> print length
+	5 -> exit program
+	1
+	enter the value: 6
+	value inserted succesfully at the end of the Queue
+	1 -> insert element
+	2 -> delete element
+	3 -> print Queue
+	4 -> print length
+	5 -> exit program
+	3
+	Current state of Queue is
+	4 5 6
+	1 -> insert element
+	2 -> delete element
+	3 -> print Queue
+	4 -> print length
+	5 -> exit program
+	2
+	Succesfully deleted element 4 from the front of the Queue
+	1 -> insert element
+	2 -> delete element
+	3 -> print Queue
+	4 -> print length
+	5 -> exit program
+	2
+	Succesfully deleted element 5 from the front of the Queue
+	1 -> insert element
+	2 -> delete element
+	3 -> print Queue
+	4 -> print length
+	5 -> exit program
+	3
+	Current state of Queue is
+	6
+	1 -> insert element
+	2 -> delete element
+	3 -> print Queue
+	4 -> print length
+	5 -> exit program
+	4
+
+*/

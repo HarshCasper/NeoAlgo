@@ -12,6 +12,7 @@
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
 * [Linked List](ds/linkedList.java )
+* [AVL Tree](ds/AVL_tree.java)
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)

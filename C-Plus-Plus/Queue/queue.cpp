@@ -36,7 +36,6 @@ public:
             cout<<"Queue is Full !"<<endl;
             return;
         }
-        cout<<"Insertion is successfull !"<<endl;
         data[nextindex]=element;
         nextindex = (nextindex+1)% capacity;
         if(firstindex == -1)
@@ -79,12 +78,17 @@ int main()
     int choice;
     do
     {
-        cout<<"\n1.Insertion of Element\n2.Deletion of Element\n3.Displat top value of queue\n4.Size of queue\n5.Is Empty\n6.Exit"<<endl;
+        cout<<"\n0.Exit\n1.Insertion of Element\n2.Deletion of Element\n3.Display top value of queue\n4.Size of queue\n5.Is Empty"<<endl;
         cin>>choice;
         switch(choice)
         {
+         case 0:
+            choice = 0;
+            cout<<"Exit Function is Successfull !"<<endl;
+            break;        
         case 1:
             q.enqueue();
+            cout<<"Insertion is successfull !"<<endl;
             break;
         case 2:
             cout << "Pop  value from the queue : "<<q.dequeue() << endl;
@@ -101,13 +105,9 @@ int main()
             cout << "Isempty "<<q.isEmpty() << endl;
             cout<<"IsEmpty function is Successfull !"<<endl;
             break;
-        case -1:
-            choice = -1;
-            cout<<"Exit Function is Successfull !"<<endl;
-            break;
         default:
             cout<<"\nEnter a valid choice!!";
         }
     }
-    while(choice != -1);
+    while(choice != 0);
 }

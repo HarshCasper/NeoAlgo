@@ -72,6 +72,7 @@ _add list here_
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
+- [Edit Distance](dp/edit_distance.cpp)
 
 ## Blockchain
 

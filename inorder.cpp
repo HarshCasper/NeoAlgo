@@ -94,3 +94,36 @@ int main(){
     cout<<endl;
     t.inorder_nonrec();
 }
+
+
+/*
+OUTPUT:-
+Enter the data for root node
+3
+Enter the postion l / r where u want to insert the element
+l
+2
+Do u want to enter more data ?
+y
+Enter the postion l / r where u want to insert the element
+l
+Enter the postion l / r where u want to insert the element
+l
+1
+Do u want to enter more data ?
+y
+Enter the postion l / r where u want to insert the element
+r
+4
+Do u want to enter more data ?
+y
+Enter the postion l / r where u want to insert the element
+r
+Enter the postion l / r where u want to insert the element
+r
+5
+Do u want to enter more data ?
+n
+1 2 3 4 5
+1 2 3 4 5
+*/

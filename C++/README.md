@@ -21,7 +21,7 @@
 - [Stack](ds/Stack_Implementation.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
-- [Inorder Traversal recursive and non recursive](ds/graphs/inorder.cpp)
+- [Inorder Traversal recursive and non recursive](ds/inorder.cpp)
 
 ## Searching
 

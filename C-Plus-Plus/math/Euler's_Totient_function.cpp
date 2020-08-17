@@ -1,20 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
 int F(int n){
-    int arr[n+1],i,j;
-    arr[0]=0,arr[1]=1;     // as 1 is the only integer coprime with 0
-    for(i=2;i<=n;i++) arr[i]=i; // initialising arr[i] with i
+    int arr[n+1],i,j; 
+    for(i=0;i<=n;i++){
+        arr[i]=i;
+    }
     for(i=2;i<=n;i++){
-        if(arr[i]==i){
-        for(j=i;j<=n;j+=i) arr[j]-=(arr[j]/i); // just like sieve of eratosthenes we are decreasing values of multiple of primes
+        if(arr[i]==i){             // checking if arr[i] has been untouched or not
+            for(j=i;j<=n;j+=i){
+                arr[j]-=arr[j]/i;  // here we are removing no. of coprime of j integer
+            }
         }
     }
-    return arr[n];  //  here each arr[i] is giving number of coprimes of i from 0 to i
+    // till now arr[i] shows no. of coprimes of n from 1 to n
+    for(i=2;i<=n;i++){
+        arr[i]+=arr[i-1]; // applying dp to calculate no. of coprime 
+    }                     // between 1 and n (both 1 and n inclusive)
+    return arr[n];
 }
 int main(){
     int n;
     cin>>n;
-    cout<<F(n); // printing Euler's Totient Function for int n
-return 0;
+    cout<<F(n)<<endl; // always remember 0 is only coprime with 1
+    return 0;        
 }
-// time complexity O(nloglogn) same as sieve of eratosthenes

@@ -43,6 +43,7 @@ public:
     void print_ll(Node* head)
     {
     	Node *temp=head;
+    	cout<<"Reverse link list :: ";
         while(temp != NULL)
         {
             cout << temp -> data <<"--> ";

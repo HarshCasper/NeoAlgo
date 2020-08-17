@@ -10,15 +10,18 @@
 # Codes in the C++ language
 
 ## Data Structures
-
+Stack_using_LinkedList.cpp
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+- [Singly Linked List](ds/singly_linked_list.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
 - [Stack](ds/Stack_Implementation.cpp)
-- [Parenthesis check using stack](ds/stackParenthesisChecker.cpp)
+- [Stack Using Array](ds/Stack_using_Array.cpp)
+- [Stack Using Linked List](ds/Stack_using_LinkedList.cpp)
+- [Balanced Parenthesis](ds/stackParenthesisChecker.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
 
@@ -88,5 +91,6 @@ _add list here_
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
+- [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
 
 ## Other

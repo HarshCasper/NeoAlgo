@@ -104,7 +104,7 @@ void binaryTree::preOrderTraversal_recursive(node* leaf){
 // and pushes the address of its right subtree in stack. Also, sets current node as address of its left subtree
 // This continues till the current node is NULL.
 // 3. When it reaches NULL i.e. no left subtree is available, it sets current node as top value in the
-// stack and pops it from the stack. Then it repeats step 1.
+// stack and pops it from the stack. Then it repeats step 2.
 void binaryTree::preOrderTraversal_iterative(){
     cout<<"PreOrderTraversal(iterative): ";
     if(root==NULL)

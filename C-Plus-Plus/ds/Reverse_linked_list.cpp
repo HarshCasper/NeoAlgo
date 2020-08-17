@@ -26,6 +26,8 @@ functions used in Linked List algorithms
 3 - take_input - take input from the user, terminated by -1
 
 */
+//Node* copy=NULL;
+
 class helper
 {
 public:
@@ -42,8 +44,7 @@ public:
     }
     void print_ll(Node* head)
     {
-    	Node *temp=head;
-    	cout<<"Reverse link list :: ";
+        Node *temp=head;
         while(temp != NULL)
         {
             cout << temp -> data <<"--> ";
@@ -53,13 +54,13 @@ public:
     }
     Node* take_input()
     {
-    	cout<<"Enter data to enter into the linked list and add -1 at the end of link list : ";
+        cout<<"Enter data to enter into the linked list and add -1 at the end of link list : ";
         int data;
         cin >> data;
         Node* head = NULL;
         Node* tail = NULL;
         if(data==-1)
-        	cout<<"Link List is Empty please try again.";
+            cout<<"Link List is Empty please try again.";
         while(data != -1)
         {
             Node* n = new Node(data);
@@ -78,6 +79,16 @@ public:
         }
         return head;
     }
+    Node *copy(Node *ref)
+    {
+        if(ref==NULL) return ref;
+        Node *temp=(Node *)malloc(sizeof(Node));
+        temp->data=ref->data;
+        temp->next=copy(ref->next);
+        return temp;
+    }
+    
+
 };
 
 /// The main algorithmic solution class
@@ -130,8 +141,8 @@ public:
          */
          
          Node* prev = NULL;
-		 Node *temp;
-		 Node  *curr = head;
+         Node *temp;
+         Node  *curr = head;
          while(curr)
          {
              temp = curr -> next;
@@ -143,7 +154,8 @@ public:
          return head;
      }
      
-}; 
+};
+
 
 
 int main()
@@ -151,10 +163,11 @@ int main()
     helper help_object;
     solution sol;
     Node* head = help_object.take_input();
-    Node* temp= help_object.take_input();
+    Node *copy=help_object.copy(head);
     Node* head2 = sol.reverse_linked_recursive(head);
-    Node* head3 = sol.reverse_linked_iterative(temp);
+    Node* head3 = sol.reverse_linked_iterative(copy);
     help_object.print_ll(head2);
     help_object.print_ll(head3);
     return 0;
 }
+

@@ -7,9 +7,9 @@ int edit_distance (char *x, char *y)
     int n=strlen(y);
 
     int dp[101][101];
-    
+
     //base case
-    //making last row and column of dp array 0    
+    //making last row and column of dp array 0
     for(int i=0;i<=m;i++)
         dp[i][0]=i;
     for(int j=0;j<=n;j++)
@@ -38,3 +38,7 @@ int main()
 
     cout<<edit_distance(str1,str2);
 }
+
+//working
+//input: sunday saturday
+//output:3

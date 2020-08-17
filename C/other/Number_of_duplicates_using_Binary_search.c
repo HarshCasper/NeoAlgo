@@ -1,6 +1,10 @@
 /* To print the occurrence of the given number in the list/array using Binary Search Technique */
 
 #include <stdio.h>
+int Binary_search_algo_for__finding_occurrence(int* , int , int , int);
+int Partition(int* , int , int);
+int Quick_sort(int* , int , int);
+
 int Binary_search_algo_for__finding_occurrence(int array[], int sizeOf_array, int number, int found)
 {
     int start = 0, end = sizeOf_array - 1;
@@ -39,19 +43,7 @@ int Binary_search_algo_for__finding_occurrence(int array[], int sizeOf_array, in
     return value;
 }
 
-int quickSort(int array[] , int lower_bound , int  upper_bound)
-{
-    int temp ;
-
-    if (lower_bound < upper_bound)
-    {
-        temp = partition(array , lower_bound , upper_bound );// as partition function would return end index which would be used further
-        quickSort(array , lower_bound , temp - 1);
-        quickSort(array , temp + 1, upper_bound);
-    }
-}
-
-int partition(int array[], int lower_bound, int upper_bound)
+int Partition(int array[], int lower_bound, int upper_bound)
 {
     int pivot , start , end , t;
     pivot = array[lower_bound];
@@ -84,6 +76,18 @@ int partition(int array[], int lower_bound, int upper_bound)
     return end ;
 }
 
+int Quick_sort(int array[] , int lower_bound , int  upper_bound)
+{
+    int temp ;
+
+    if (lower_bound < upper_bound)
+    {
+        temp = Partition(array , lower_bound , upper_bound );// as partition function would return end index which would be used further
+        Quick_sort(array , lower_bound , temp - 1);
+        Quick_sort(array , temp + 1, upper_bound);
+    }
+}
+
 int main()
 {
 //declaring the size of array
@@ -105,10 +109,10 @@ int main()
     printf("The number whose occurrence must be found : ");
     scanf("%d", &number);
 
-// we would sort the array using quickSort
+// we would sort the array using Quick_sort
     int lower_bound = 0 , upper_bound = sizeOf_array - 1;
 
-    quickSort(array , lower_bound , upper_bound);
+    Quick_sort(array , lower_bound , upper_bound);
 
 // now we have sorted the array
 
@@ -130,3 +134,15 @@ int main()
 
     return 0;
 }
+
+/*
+Sample Test Case
+
+Input
+5
+1 4 2 3 4
+4
+
+Output
+Occurrence of '4' : 2
+*/

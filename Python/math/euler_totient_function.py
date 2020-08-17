@@ -1,21 +1,28 @@
 # python program for Euler's Totient Function 
-import math
 def euler_totient(q):
-    ans=q   #defining the answer initially to n
-    for i in range (2,int(math.sqrt(q+1))):
-      if (q%i == 0):    #checking if i is a factor of q
-        while (q%i == 0): 
-          q/=i             # if the condition is satisified we are updating the value of n
-        ans-= ans/i        # just as we do in sieve of eratosthenes algorithm
-                           # we are decreasing values for the multiples of primes
-    if (q>1):              #this case ensures that if n have a prime factor greater than sqrt(n) then we are counting thaat case
-     ans-=ans/q            
-     
-    print(int(ans))
+    arr=[]
+    for i in range(n+1):
+        arr.append(i)
+        
+    for i in range(2,n+1):
+      if arr[i]==i:                    #if this condition is satisfied then we are removing the coprimes of j
+            for j in range(i,n+1,i):
+                arr[j]-=(arr[j]//i)  
+                
+    for i in range(2,n+1):
+        arr[i]+=arr[i-1]               #for calculating no of coprime between (1,n) we are using the concept of dyanmic programming 
+        
+    return arr[n]  
+    
     
 print("Enter number of elements : ")
-n = int(input())           # taking input from the user
+n = int(input())                       # taking input from the user
 if(n<0):                   
     print("inavlid input")
 else:
-    euler_totient(n)
+    print(euler_totient(n))
+#sample input
+#euler_totient(4) will be 6 as no of coprime between 1 and 4 are (1,1),(1,2),(1,3),(1,4),(2,3),(3,4)
+#euler_totient(5) will be 10 as no of coprime between 1 and 4 are (1,1),(1,2),(1,3),(1,4),(1,5),(2,3),(2,5),(3,4),(3,5),(4,5)
+#here we are considering (2,3) and (3,2) as same pair
+ 

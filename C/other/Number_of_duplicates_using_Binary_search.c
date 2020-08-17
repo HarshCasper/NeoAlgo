@@ -84,38 +84,39 @@ int partition(int array[],int lower_bound,int upper_bound)
 int main()
 {
 //declaring the size of array
-int sizeOf_array;
-printf("The size of array is:\n");
-scanf("%d",&sizeOf_array);
+    int sizeOf_array;
+    printf("The size of array is:\n");
+    scanf("%d",&sizeOf_array);
 
 // defining the array
-int array[sizeOf_array];
-printf("Please input the elements in array:\n");
-// storing elements in array
-for(int i = 0 ; i<sizeOf_array;i++){
-    scanf("%d",&array[i]);
-}
-printf("\n");
+    int array[sizeOf_array];
+    printf("Please input the elements in array:\n");
 
-int number; // we would input the number whose occurrence must be returned.
-printf("The number whose occurrence must be found : ");
-scanf("%d",&number);
+// storing elements in array
+    for(int i = 0 ; i<sizeOf_array;i++){
+    scanf("%d",&array[i]);
+    }
+    printf("\n");
+
+    int number; // we would input the number whose occurrence must be returned.
+    printf("The number whose occurrence must be found : ");
+    scanf("%d",&number);
 
 // we would sort the array using quickSort
+    int lower_bound=0 , upper_bound =sizeOf_array-1;
 
-int lower_bound=0 , upper_bound =sizeOf_array-1;
-quickSort(array , lower_bound , upper_bound);
+    quickSort(array , lower_bound , upper_bound);
 
 // now we have sorted the array
 
 // we pass 1 for the first occurrence of the number
-int first_occurrence_of_number = Binary_search_algo_for__finding_occurrence(array, sizeOf_array, number, 1);
+    int first_occurrence_of_number = Binary_search_algo_for__finding_occurrence(array, sizeOf_array, number, 1);
 
 // we pass 0 for the first occurrence of the number
-int last_occurrence_of_number = Binary_search_algo_for__finding_occurrence(array, sizeOf_array, number, 0);
+    int last_occurrence_of_number = Binary_search_algo_for__finding_occurrence(array, sizeOf_array, number, 0);
 
 // now we would subtract the first & last occurrence to get the total occurrences of the number
-int total_occurrences_of_number = last_occurrence_of_number - first_occurrence_of_number + 1;
+    int total_occurrences_of_number = last_occurrence_of_number - first_occurrence_of_number + 1;
 
 	if (first_occurrence_of_number != -1){
 		printf("The number: %d occurs %d times in the given array.", number, total_occurrences_of_number);

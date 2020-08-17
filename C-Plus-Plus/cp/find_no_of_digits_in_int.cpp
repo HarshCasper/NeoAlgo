@@ -23,8 +23,8 @@ int num_of_digits_recursive(int num){
 int main() {
     int num;
     cin >> num;                                           //Inputting the number
-    cout << "The number of digits in given integer is ";
-    //cout << num_of_digits(num) << endl;                 //Normal approach
+    cout << "The number of digits in given integer (using normal approach): " << num_of_digits(num) << endl;
+    cout << "The number of digits in given integer (using recursive approach): " << num_of_digits(num) << endl;
     cout << num_of_digits_recursive(num) << endl;         //Recursive approach
     return 0;
 }

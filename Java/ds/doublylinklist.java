@@ -111,13 +111,48 @@ public class DLL {
 			last = last.prev; 
 		} 
 	} 
+	 void deleteNode(Node del) 
+   	 { 
+  
+		// Base case 
+		if (head == null || del == null) { 
+		    return; 
+		} 
+
+		// If node to be deleted is head node 
+		if (head == del) { 
+		    head = del.next; 
+		} 
+
+		// Change next only if node to be deleted 
+		// is NOT the last node 
+		if (del.next != null) { 
+		    del.next.prev = del.prev; 
+		} 
+
+		// Change prev only if node to be deleted 
+		// is NOT the first node 
+		if (del.prev != null) { 
+		    del.prev.next = del.next; 
+		} 
+  
+        // Finally, free the memory occupied by del 
+        return; 
+    } 
+	
+	public int size() {
+	    int count = 0;
+	    for (Node node = base; node != null; node = node.getNext())
+		count++;
+	    return count;
+	}
 
 	/* Driver program to test above functions*/
 	public static void main(String[] args) 
 	{ 
 		/* Start with the empty list */
 		DLL dll = new DLL(); 
-
+	
 		// Insert 6. So linked list becomes 6->NULL 
 		dll.append(6); 
 
@@ -132,9 +167,21 @@ public class DLL {
 
 		// Insert 8, after 7. So linked list becomes 1->7->8->6->4->NULL 
 		dll.InsertAfter(dll.head.next, 8); 
+		// Deleting first node 
+		dll.deleteNode(dll.head); 
+
+		// List after deleting first node 
+		// 8->4->2 
+		System.out.print("\nList after deleting first node: "); 
+		dll.printlist(dll.head); 
+
+		// Deleting middle node from 8->4->2 
+		dll.deleteNode(dll.head.next); 
 
 		System.out.println("Created DLL is: "); 
 		dll.printlist(dll.head); 
+		//prints the size of the list
+		System.out.println("Size of the doubly linklist is-->"+dll.size());
 	} 
 } 
 

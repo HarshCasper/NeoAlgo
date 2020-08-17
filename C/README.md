@@ -58,5 +58,5 @@ _add list here_
 _add list here_
 
 ## Other
-- [Number of Duplicates using Binary search](other/Number of Duplicates using Binary search.c)
+- [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 _add list here_

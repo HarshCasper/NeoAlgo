@@ -14,19 +14,23 @@ class Tree:
             self.recursive_preorder_traversal(root.left, path)
             self.recursive_preorder_traversal(root.right, path)
         return path
-	
+    
+    '''
+    Stack is used to implement the iterative approach. Push nodes into the stack. We leave the inner loop when left leaf is reached. 
+    Latest node is popped out of the stack and we move to its right child and repeat the above steps until we reach the right-most child.
+    '''
+
     def iterative_preorder_traversal(self, root):
-        self.path = []  #to save the path of the tree
-        stack = []      #stack to save the cuurent node.
+        self.path = []
+        stack = [] 
         while stack or root:
             while root:
-                self.path.append(root.val)   #preorder traversal. Therefore, keeping current node's value
-                stack.append(root)           #pushing the current node into stack so that 
-                                             #it can be used in the future to move to the right child
-                root = root.left             #traversing to the left child of the current node
-            root = stack.pop()               #will end the inner loop once we reach the left most leaf. 
-            root = root.right                #most recent node is popped out of the stack. 
-                                             #Now we move to its right node and repeat the above steps until we reach rightmost leaf
+                self.path.append(root.val)   
+                stack.append(root) 
+                root = root.left            
+            root = stack.pop()                
+            root = root.right                
+                                             
         return self.path
  	
 preOrdertree = Tree(2)

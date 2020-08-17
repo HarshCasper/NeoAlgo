@@ -1,15 +1,10 @@
-//This program implements Stack Data stucture using Linked List representation
-
+/*This program implements Stack Data stucture using Linked List representation
 //by @GudlaArunKumar
-
-
-
-// Stsck using Vector
+ Stack using Vector
+*/
 
 #include <bits/stdc++.h>
-using namespace std;
-
-// Stack class and its functions
+using namespace std;                        // Stack class and its functions
 template<typename T>
 class Stack{
 
@@ -18,13 +13,15 @@ public:
     void push(T d){
         v.push_back(d);
     }
-    void pop(){
+    void pop()
+    {
         if(v.size()==0){
             cout<<"Stack Overflow"<<endl;
         }
-        else
+        else{
             v.pop_back();
-    }
+        }
+    }   
     T top(){
         return v[v.size()-1];
     }
@@ -38,12 +35,11 @@ public:
 
 #include <iostream>
 using namespace std;
-class Node{       //Class Node to store Data and next pointer to next Node
+class Node{                  //Class Node to store Data and next pointer to next Node
 public:
     int data;
     Node *Next;
 };
-
 class StackLinkedList{
 private:
     Node *top;   // Top pointer is declared here
@@ -64,7 +60,6 @@ public:
             top=t;
         }
     }
-
     int pop()    // Returns the elements at the Top 
     {
         int x=-1;
@@ -81,7 +76,6 @@ public:
         }
     return x;
     }
-
     void display()
     {
         cout << "Elements in the stack: "<< endl;
@@ -94,28 +88,21 @@ public:
         cout << endl;
     }
 };
-
-int main() {
-
+int main() 
+{
     Stack<int> s;
-
     // Inserting elements in stack
     s.push(1);
     s.push(2);
     s.push(3);
     s.push(4);
-
     cout<<"Size of stack :   "<<s.size()<<endl;
-
     cout<<"Stack elements"<<endl;
     while(!s.empty()){
         cout<<s.top()<<" ";
         s.pop();
     }
-
     cout<<endl;
-
     cout<<"Tring to pop element when stack is empty"<<endl;
-
     s.pop();
 }

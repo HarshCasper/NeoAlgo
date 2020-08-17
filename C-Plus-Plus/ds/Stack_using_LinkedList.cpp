@@ -1,108 +1,133 @@
-/*This program implements Stack Data stucture using Linked List representation
-//by @GudlaArunKumar
- Stack using Vector
+/*
+Implement the basic functionality of stack using Linked List Data structure
+
+@author: Rishikeshrajrxl
+@created: 17/08/2020
 */
-
-#include <bits/stdc++.h>
-using namespace std;                        // Stack class and its functions
-template<typename T>
-class Stack{
-
-    vector<T> v;
-public:
-    void push(T d){
-        v.push_back(d);
-    }
-    void pop()
-    {
-        if(v.size()==0){
-            cout<<"Stack Overflow"<<endl;
-        }
-        else{
-            v.pop_back();
-        }
-    }   
-    T top(){
-        return v[v.size()-1];
-    }
-    bool empty(){
-        return v.size()==0;
-    }
-    int size(){
-        return v.size();
-    }
-};
 
 #include <iostream>
 using namespace std;
-class Node{                  //Class Node to store Data and next pointer to next Node
-public:
-    int data;
-    Node *Next;
-};
-class StackLinkedList{
-private:
-    Node *top;   // Top pointer is declared here
-public:
-    StackLinkedList(){
-        top=NULL;
-    }
-    void push(int x)
-    {
-        Node *t=new Node;  //If heap is full, then Stack Overflow occurs
-        if(t==NULL)
-        {
-            cout <<"Stack overflow" << endl;
-        }
-        else{
-            t->data=x;     // Top pointer points to Last Inserted Node
-            t->Next=top;
-            top=t;
-        }
-    }
-    int pop()    // Returns the elements at the Top 
-    {
-        int x=-1;
-        if(top==NULL)
-        {
-            cout << "Stack is empty" << endl;
-        }
-        else
-        {
-            Node *p=top;
-            x=p->data;
-            top=top->Next;
-            delete p;
-        }
-    return x;
-    }
-    void display()
-    {
-        cout << "Elements in the stack: "<< endl;
-        Node *q=top;
-        while(q!=NULL)
-        {
-            cout << q->data << " ";
-            q=q->Next;
-        }
-        cout << endl;
-    }
-};
-int main() 
+
+struct node
+{                          //declaration of node
+int data;
+struct node*next;
+}*head=NULL,*temp,*ptr;
+
+void Push();             //Function declaration
+void Peek();           
+void Pop();
+void Is_Empty();
+void Display();
+void count();
+int ele;
+
+int main()              //Main() starts
 {
-    Stack<int> s;
-    // Inserting elements in stack
-    s.push(1);
-    s.push(2);
-    s.push(3);
-    s.push(4);
-    cout<<"Size of stack :   "<<s.size()<<endl;
-    cout<<"Stack elements"<<endl;
-    while(!s.empty()){
-        cout<<s.top()<<" ";
-        s.pop();
+int ch;
+cout<< "\n\n\t Implement the basic functionality of stack"<<endl;         //Displaying the Features in a tabular manner         
+cout<<"\t **************************************************"<<endl;
+do{
+cout<<"\t 1) Push\t \t 2) Pop "<<endl; 
+cout<<"\t 3) Peek\t \t 4) Is_Empty"<<endl;
+cout<<"\t 5) Display\t \t 6) count"<<endl;
+cout<<"\t 7) Exit"<<endl;
+cout<<"\t ***************************************************\nENTER YOUR CHOICE : ";
+cin >>ch;
+  switch(ch)
+  {
+    case 1:
+    Push();
+    break;
+
+    case 2:
+    Pop();
+    break;
+
+    case 3:
+    Peek();
+    break;
+
+    case 4:
+    Is_Empty();
+    break;
+
+    case 5:
+    Display();
+    break;
+
+    case 6:
+    count();
+    break;
+    
+    case 7:
+    exit(0);
+    break;
+    
+    default:
+    cout<<"Invalid Input. Please enter the Number between 1 to 7 \n"<<endl;
+  }
+}while(ch!=0);
+    return 0;
+}                       // Main() Ends
+//--------------------------------------------------------------------------
+void Push()             //Insertion at the top 
+{
+    ptr=(struct node*)malloc(sizeof(struct node));
+    cout<<"ENTER THE ELEMENT : ";
+    cin>>ele;
+    ptr->data=ele;
+    ptr->next=head;
+    head=ptr;
+    cout<<"Pushed Successfully"<<endl;
+}
+//---------------------------------------------------------------------------
+void Pop()                //deletion from the top
+{
+    if(head==NULL){
+        cout<<"Stack is Empty"<<endl;
     }
-    cout<<endl;
-    cout<<"Tring to pop element when stack is empty"<<endl;
-    s.pop();
+    else{
+        temp=head;
+        head=head->next;
+        cout<<"Poped Successfully"<<endl;
+        free(temp);
+    }
+}
+//---------------------------------------------------------------------------
+void Peek()             //returns the value of the top
+{
+    cout<<"Peek Value is : "<< head->data<<endl;
+}
+//-----------------------------------------------------------------------------
+void Is_Empty()           //returns Yes if Empty, else No
+{
+   if(head==NULL)
+     cout<<"Yes"<<endl;
+   else
+     cout<<"No"<<endl;
+}
+//------------------------------------------------------------------------------
+void Display()           //returns all the value inside the Stack
+{
+    if(head==NULL){
+        cout<<"Stack is Empty "<<endl;
+    } else{
+        temp=head;
+        cout<<"Data In Stack : ";
+        while(temp!=NULL){
+             cout<<temp->data<<" ";
+             temp=temp->next;
+        }cout<<""<<endl;
+    }
+}
+//-------------------------------------------------------------------------------
+void count()        //returns total no of nodes in stack
+{
+   int count=0;
+   temp=head;
+   while(temp!=NULL){
+       count+=1;
+       temp=temp->next;
+   } cout<<"Total No is : "<<count<<endl;
 }

@@ -67,6 +67,7 @@ _add list here_
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 * [Solution of Euler’s Totient Function in java](cp/Euler.java)
+* [Solution of Merge overlaping subintervals in java](cp/MergeOverlappingIntervals.java)
 
 ## Other
 _add list here_

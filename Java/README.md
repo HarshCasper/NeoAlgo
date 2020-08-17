@@ -11,6 +11,7 @@
 
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
+* [Tree (PreorderTraversal)](ds/preOrderTraversal.java)
 * [Linked List](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)

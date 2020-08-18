@@ -34,9 +34,13 @@ int edit_distance (char *x, char *y)
 int main()
 {
     char str1[100],str2[100];
-    cin>>str1>>str2;
+    cout <<"Enter first string: ";
+    cin>>str1;
+    cout <<"Enter second string: ";
+    cin>>str2;
 
-    cout<<edit_distance(str1,str2);
+    cout<<"minimum number of edits to convert string1 to string2: ";
+    cout<<edit_distance(str1,str2)<<endl;
 }
 
 //working

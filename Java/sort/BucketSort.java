@@ -72,3 +72,26 @@ class BucketSort {
         sc.close();
     }
 }
+/*
+Sample input/output:-
+
+Enter size of array:
+10
+Enter array elements:
+88
+26
+77
+49
+91
+62
+33
+85
+99
+11
+Enter number of buckets:
+5
+Array before bucket sort:
+88.0 26.0 77.0 49.0 91.0 62.0 33.0 85.0 99.0 11.0 
+Array after Bucket sort:
+11.0 26.0 33.0 49.0 62.0 77.0 85.0 88.0 91.0 99.0
+*/

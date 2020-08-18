@@ -1,3 +1,7 @@
+// Euler's Totient Function represented by M(n)
+// For integer n it calculates the no. of coprimes
+// of n from 0 to n. Do refer line 18 for 
+// better grasp of question
 #include <bits/stdc++.h>
 using namespace std;
 int F(int n){
@@ -28,8 +32,7 @@ int main(){
     cout<<F(n)<<endl; // always remember 0 is only coprime with 1
     return 0;        
 }
-/*           
-             
+/*                      
              Sample Input  3
              Sample Output 4
              Explanation: Coprime pairs between 0 and 4

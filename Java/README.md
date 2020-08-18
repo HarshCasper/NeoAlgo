@@ -57,7 +57,7 @@ _add list here_
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)
-
+* [Longest common subsequence] (dp/LCS.java)
 ## Blockchain
 _add list here_
 

@@ -1,10 +1,22 @@
-def checkParanthesis(s):
+def checkParanthesis(input_string):
+    ''' 
+        argument : string
+
+        Function checks whether the Brackets Combinations Provided As Input 
+        is Balanced or Not.
+        
+        usage : checkParanthesis(string)
+        
+    '''
+
+
+
     # hashmap maintaing the open and closed brackets
     occurence = {"(":0 , ")":0, "{":0 , "}":0 , "[":0 , "]" : 0 , "<":0 , ">":0}
     # occurence supports common,curly,square and angle bracket
 
-    for i in s:
-        occurence[i]+=1
+    for bracket in input_string:
+        occurence[bracket]+=1
 
     if occurence["("] == occurence[")"] and occurence["{"] == occurence["}"]:
         if occurence["["] == occurence["]"] and occurence["<"] == occurence[">"]:
@@ -16,5 +28,6 @@ def checkParanthesis(s):
 
 
 if __name__ == "__main__":
-    inp = input()
-    checkParanthesis(inp)
+    # inp = input("Enter the Brackets Combinations\n")
+    # checkParanthesis(inp)
+    print(checkParanthesis.__doc__)

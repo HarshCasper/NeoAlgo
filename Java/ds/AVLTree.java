@@ -1,340 +1,207 @@
-// AVL Binary search tree implementation in Java
-// Author: AlgorithmTutor
+class Node { 
+    int key, height; 
+    Node l, r; 
+  
+    Node(int d) { 
+        key = d; 
+        height = 1; 
+    } 
+} 
+  
+class AVLTree { 
+  
+    Node root; 
+  
+    //A function to get height of tree
+    int height(Node N) { 
+        if (N == null) 
+            return 0; 
+  
+        return N.height; 
+    } 
+  
+// A function to get max of two numbers
+    int max(int a, int b) { 
+        return (a > b) ? a : b; 
+    } 
+ 
+    Node rightRotate(Node y) { 
+        Node x = y.l; 
+        Node T2 = x.r; 
+  
+        x.r = y; 
+        y.l = T2; 
+  
+        //height update
+        y.height = max(height(y.l), height(y.r)) + 1; 
+        x.height = max(height(x.l), height(x.r)) + 1; 
+  
+        //new root 
+        return x; 
+    } 
 
-// data structure that represents a node in the tree
-class Node {
-	int data; // holds the key
-	Node parent; // pointer to the parent
-	Node left; // pointer to left child
-	Node right; // pointer to right child
-	int bf; // balance factor of the node
+    Node leftRotate(Node x) { 
+        Node y = x.r; 
+        Node T2 = y.l; 
+  
+        y.l = x; 
+        x.r = T2; 
+  
+        //height upate
+        x.height = max(height(x.l), height(x.r)) + 1; 
+        y.height = max(height(y.l), height(y.r)) + 1; 
+  
+        //new root 
+        return y; 
+    } 
+    int getBalance(Node N) { 
+        if (N == null) 
+            return 0; 
+  
+        return height(N.l) - height(N.r); 
+    } 
+  
+    Node insert(Node node, int key) { 
+	    
+        if (node == null) 
+            return (new Node(key)); 
+  
+        if (key < node.key) 
+            node.l = insert(node.l, key); 
+        else if (key > node.key) 
+            node.r = insert(node.r, key); 
+        else
+            return node; 
+ 
+        node.height = 1 + max(height(node.l), 
+                              height(node.r)); 
 
-	public Node(int data) {
-		this.data = data;
-		this.parent = null;
-		this.left = null;
-		this.right = null;
-		this.bf = 0;
-	}
-}
+        int balance = getBalance(node); 
+  
+        if (balance > 1 && key < node.l.key) 
+            return rightRotate(node); 
 
-public class AVLTree {
-	private Node root;
+        if (balance < -1 && key > node.r.key) 
+            return leftRotate(node); 
+  
+  
+        if (balance > 1 && key > node.l.key) { 
+            node.l = leftRotate(node.l); 
+            return rightRotate(node); 
+        } 
+  
+    
+        if (balance < -1 && key < node.r.key) { 
+            node.r = rightRotate(node.r); 
+            return leftRotate(node); 
+        } 
+        return node; 
+    } 
 
-	public AVLTree() {
-		root = null;
-	}
+    Node deleteNode(Node root, int key)  
+    {  
+  
+        if (root == null)  
+            return root;  
 
-	private void printHelper(Node currPtr, String indent, boolean last) {
-		// print the tree structure on the screen
-	   	if (currPtr != null) {
-		   System.out.print(indent);
-		   if (last) {
-		      System.out.print("R----");
-		      indent += "     ";
-		   } else {
-		      System.out.print("L----");
-		      indent += "|    ";
-		   }
+        if (key < root.key)  
+            root.l = deleteNode(root.l, key);  
+  
+        else if (key > root.key)  
+            root.r = deleteNode(root.r, key);  
 
-		   System.out.println(currPtr.data + "(BF = " + currPtr.bf + ")");
+        else
+        {  
+            // node with only 1 or no child
+            if ((root.l == null) || (root.r == null))  
+            {  
+                Node temp = null;  
+                if (temp == root.l)  
+                    temp = root.r;  
+                else
+                    temp = root.l;  
+   
+                if (temp == null)  
+                {  
+                    temp = root;  
+                    root = null;  
+                }  
+                else 
+                    root = temp; 
+            }  
+            else
+            {  
+    
+                Node temp = minValueNode(root.r);  
 
-		   printHelper(currPtr.left, indent, false);
-		   printHelper(currPtr.right, indent, true);
-		}
-	}
+                root.key = temp.key;  
+  
+                root.r = deleteNode(root.r, temp.key);  
+            }  
+        }  
+  
+        //if the tree has 1 node then return
+        if (root == null)  
+            return root;  
+ 
+        root.height = max(height(root.l), height(root.r)) + 1;  
+  
 
-	private Node searchTreeHelper(Node node, int key) {
-		if (node == null || key == node.data) {
-			return node;
-		}
+        int balance = getBalance(root);  
 
-		if (key < node.data) {
-			return searchTreeHelper(node.left, key);
-		} 
-		return searchTreeHelper(node.right, key);
-	}
+        if (balance > 1 && getBalance(root.l) >= 0)  
+            return rightRotate(root);  
 
-	private Node deleteNodeHelper(Node node, int key) {
-		// search the key
-		if (node == null) return node;
-		else if (key < node.data) node.left = deleteNodeHelper(node.left, key);
-		else if (key > node.data) node.right = deleteNodeHelper(node.right, key);
-		else {
-			// the key has been found, now delete it
+        if (balance > 1 && getBalance(root.l) < 0)  
+        {  
+            root.l = leftRotate(root.l);  
+            return rightRotate(root);  
+        }  
 
-			// case 1: node is a leaf node
-			if (node.left == null && node.right == null) {
-				node = null;
-			}
+        if (balance < -1 && getBalance(root.r) <= 0)  
+            return leftRotate(root);  
+ 
+        if (balance < -1 && getBalance(root.r) > 0)  
+        {  
+            root.r = rightRotate(root.r);  
+            return leftRotate(root);  
+        }  
+  
+        return root;  
+    }  
+  
+  
+    // A  function to print preorder traversal 
+    // of the tree. 
+    void preOrder(Node node) { 
+        if (node != null) { 
+            System.out.print(node.key + " "); 
+            preOrder(node.l); 
+            preOrder(node.r); 
+        } 
+    } 
+  
+    public static void main(String[] args) { 
+        
+        AVLTree tree = new AVLTree();
+        //insertion
 
-			// case 2: node has only one child
-			else if (node.left == null) {
-				Node temp = node;
-				node = node.right;
-			}
+        tree.root = tree.insert(tree.root, 10); 
+        tree.root = tree.insert(tree.root, 20); 
+        tree.root = tree.insert(tree.root, 30); 
+        tree.root = tree.insert(tree.root, 40); 
+        tree.root = tree.insert(tree.root, 50); 
+        tree.root = tree.insert(tree.root, 25); 
+	    
+        System.out.println("Preorder traversal of constructed tree is : "); 
+        tree.preOrder(tree.root); 
 
-			else if (node.right == null) {
-				Node temp = node;
-				node = node.left;
-			}
+        //deletion
 
-			// case 3: has both children
-			else {
-				Node temp = minimum(node.right);
-				node.data = temp.data;
-				node.right = deleteNodeHelper(node.right, temp.data);
-			}
+        tree.root = tree.deleteNode(tree.root, 10);  
+        System.out.println("");  
+        System.out.println("Preorder traversal after deletion of 10 :");  
+        tree.preOrder(tree.root);  
 
-		} 
-
-		// Write the update balance logic here 
-		// YOUR CODE HERE
-
-		return node;
-	}
-
-	// update the balance factor the node
-	private void updateBalance(Node node) {
-		if (node.bf < -1 || node.bf > 1) {
-			rebalance(node);
-			return;
-		}
-
-		if (node.parent != null) {
-			if (node == node.parent.left) {
-				node.parent.bf -= 1;
-			} 
-
-			if (node == node.parent.right) {
-				node.parent.bf += 1;
-			}
-
-			if (node.parent.bf != 0) {
-				updateBalance(node.parent);
-			}
-		}
-	}
-
-	// rebalance the tree
-	void rebalance(Node node) {
-		if (node.bf > 0) {
-			if (node.right.bf < 0) {
-				rightRotate(node.right);
-				leftRotate(node);
-			} else {
-				leftRotate(node);
-			}
-		} else if (node.bf < 0) {
-			if (node.left.bf > 0) {
-				leftRotate(node.left);
-				rightRotate(node);
-			} else {
-				rightRotate(node);
-			}
-		}
-	}
-
-
-	private void preOrderHelper(Node node) {
-		if (node != null) {
-			System.out.print(node.data + " ");
-			preOrderHelper(node.left);
-			preOrderHelper(node.right);
-		} 
-	}
-
-	private void inOrderHelper(Node node) {
-		if (node != null) {
-			inOrderHelper(node.left);
-			System.out.print(node.data + " ");
-			inOrderHelper(node.right);
-		} 
-	}
-
-	private void postOrderHelper(Node node) {
-		if (node != null) {
-			postOrderHelper(node.left);
-			postOrderHelper(node.right);
-			System.out.print(node.data + " ");
-		} 
-	}
-
-	// Pre-Order traversal
-	// Node.Left Subtree.Right Subtree
-	public void preorder() {
-		preOrderHelper(this.root);
-	}
-
-	// In-Order traversal
-	// Left Subtree . Node . Right Subtree
-	public void inorder() {
-		inOrderHelper(this.root);
-	}
-
-	// Post-Order traversal
-	// Left Subtree . Right Subtree . Node
-	public void postorder() {
-		postOrderHelper(this.root);
-	}
-
-	// search the tree for the key k
-	// and return the corresponding node
-	public Node searchTree(int k) {
-		return searchTreeHelper(this.root, k);
-	}
-
-	// find the node with the minimum key
-	public Node minimum(Node node) {
-		while (node.left != null) {
-			node = node.left;
-		}
-		return node;
-	}
-
-	// find the node with the maximum key
-	public Node maximum(Node node) {
-		while (node.right != null) {
-			node = node.right;
-		}
-		return node;
-	}
-
-	// find the successor of a given node
-	public Node successor(Node x) {
-		// if the right subtree is not null,
-		// the successor is the leftmost node in the
-		// right subtree
-		if (x.right != null) {
-			return minimum(x.right);
-		}
-
-		// else it is the lowest ancestor of x whose
-		// left child is also an ancestor of x.
-		Node y = x.parent;
-		while (y != null && x == y.right) {
-			x = y;
-			y = y.parent;
-		}
-		return y;
-	}
-
-	// find the predecessor of a given node
-	public Node predecessor(Node x) {
-		// if the left subtree is not null,
-		// the predecessor is the rightmost node in the 
-		// left subtree
-		if (x.left != null) {
-			return maximum(x.left);
-		}
-
-		Node y = x.parent;
-		while (y != null && x == y.left) {
-			x = y;
-			y = y.parent;
-		}
-
-		return y;
-	}
-
-	// rotate left at node x
-	void leftRotate(Node x) {
-		Node y = x.right;
-		x.right = y.left;
-		if (y.left != null) {
-			y.left.parent = x;
-		}
-		y.parent = x.parent;
-		if (x.parent == null) {
-			this.root = y;
-		} else if (x == x.parent.left) {
-			x.parent.left = y;
-		} else {
-			x.parent.right = y;
-		}
-		y.left = x;
-		x.parent = y;
-
-		// update the balance factor
-		x.bf = x.bf - 1 - Math.max(0, y.bf);
-		y.bf = y.bf - 1 + Math.min(0, x.bf);
-	}
-
-	// rotate right at node x
-	void rightRotate(Node x) {
-		Node y = x.left;
-		x.left = y.right;
-		if (y.right != null) {
-			y.right.parent = x;
-		}
-		y.parent = x.parent;
-		if (x.parent == null) {
-			this.root = y;
-		} else if (x == x.parent.right) {
-			x.parent.right = y;
-		} else {
-			x.parent.left = y;
-		}
-		y.right = x;
-		x.parent = y;
-
-		// update the balance factor
-		x.bf = x.bf + 1 - Math.min(0, y.bf);
-		y.bf = y.bf + 1 + Math.max(0, x.bf);
-	}
-
-
-	// insert the key to the tree in its appropriate position
-	public void insert(int key) {
-		// PART 1: Ordinary BST insert
-		Node node = new Node(key);
-		Node y = null;
-		Node x = this.root;
-
-		while (x != null) {
-			y = x;
-			if (node.data < x.data) {
-				x = x.left;
-			} else {
-				x = x.right;
-			}
-		}
-
-		// y is parent of x
-		node.parent = y;
-		if (y == null) {
-			root = node;
-		} else if (node.data < y.data) {
-			y.left = node;
-		} else {
-			y.right = node;
-		}
-
-		// PART 2: re-balance the node if necessary
-		updateBalance(node);
-	}
-
-	// delete the node from the tree
-	Node deleteNode(int data) {
-		return deleteNodeHelper(this.root, data);
-	}
-
-	// print the tree structure on the screen
-	public void prettyPrint() {
-		printHelper(this.root, "", true);
-	}
-
-	public static void main(String [] args) {
-		AVLTree bst = new AVLTree();
-    	bst.insert(1);
-    	bst.insert(2);
-    	bst.insert(3);
-    	bst.insert(4);
-    	bst.insert(5);
-    	bst.insert(6);
-    	bst.insert(7);
-    	bst.insert(8);
-    	bst.prettyPrint();
-    }
-
-}
+    } 
+} 

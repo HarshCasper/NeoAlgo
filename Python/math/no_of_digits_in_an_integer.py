@@ -20,8 +20,7 @@ if __name__ == "__main__":
     print("The no: of digits in {} is: {} ".format(n, iterative_countDigits(n)))
     print("Recursive approach")
     print("The no: of digits in {} is: {} ".format(n, recursive_countDigits(n)))
-
-
+    
 """
 Output:-
 Enter the number: 4567

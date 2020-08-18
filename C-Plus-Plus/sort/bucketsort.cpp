@@ -28,7 +28,15 @@ void bucketSort(float arr[], int n)
 }
 int main() 
 { 
-    float arr[] = {0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434}; 
+    int k;
+    cout << "Enter the size of an array \n";
+    cin >> k;
+    float arr[k];
+    cout << "Enter array elements \n";
+    for(int i=0; i<k; i++)
+    {
+      cin >> arr[i];
+    }
     int n = sizeof(arr)/sizeof(arr[0]); 
     bucketSort(arr, n); 
   

@@ -10,7 +10,9 @@
 # Codes in the C++ language
 
 ## Data Structures
+
 Stack_using_LinkedList.cpp
+
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
@@ -28,6 +30,7 @@ Stack_using_LinkedList.cpp
 - [Binary Search](search/Binary_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
+- [Randomized Select](search/Randomized_Select.cpp)
 
 ## Sorting
 

@@ -56,7 +56,7 @@ _add list here_
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)
-* [CoinChange DP](dp/Coin_Change.java)
+* [CoinChange](dp/Coin_Change.java)
 
 ## Blockchain
 _add list here_

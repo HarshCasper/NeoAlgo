@@ -1,16 +1,16 @@
 C:
-  - C/**/*
+  - any: ['C/**/*']
 C-Plus-Plus:
-  - C-Plus-Plus/**/*
+  - any: ['C-Plus-Plus/**/*']
 C-Sharp:
-  - C-Sharp/**/*
+  - any: ['C-Sharp/**/*']
 Go:
-  - Go/**/*
+  - any: ['Go/**/*']
 Java:
-  - Java/**/*
+  - any: ['Java/**/*']
 JavaScript:
-  - JavaScript/**/*
+  - any: ['JavaScript/**/*']
 Python:
-  - Python/**/*
+  - any: ['Python/**/*']
 Q-Sharp:
-  - Q-Sharp/**/*
+  - any: ['Q-Sharp/**/*']

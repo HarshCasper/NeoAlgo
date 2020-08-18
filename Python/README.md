@@ -13,6 +13,7 @@
 * [Queue](ds/Queue.py)
 * [Stacks](ds/Stacks.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 
@@ -84,4 +85,7 @@ _add list here_
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
+
+## miscellaneous
+* [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)
 

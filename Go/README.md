@@ -11,6 +11,7 @@
 
 ## Data Structures
 * [Stack](/ds/stack.go)
+* [Singly Linked List](./ds/singly_linked_list.go)
 
 ## Searching
 * [Binary Search](/search/binary_search.go)

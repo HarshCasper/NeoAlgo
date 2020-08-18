@@ -17,7 +17,12 @@
 * [Linear Search](/search/linear_search.go)
 
 ## Sorting
-_add list here_
+* [Bubble Sort](/sort/bubbleSort.go)
+* [Counting Sort](/sort/countingSort.go)
+* [Insertion Sort](/sort/insertionSort.go)
+* [Merge Sort](/sort/mergeSort.go)
+* [Quick Sort](/sort/quickSort.go)
+* [Selection Sort](/sort/selectionSort.go)
 
 ## Machine Learning
 _add list here_

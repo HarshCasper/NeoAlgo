@@ -25,6 +25,10 @@ class LinkedList:
             print(temp.data, end =" ")
             temp = temp.next
 
+        # for printing new line
+        print()
+
+
 # creating a solution class to implement more methods on the Linked List
 class solution:
 
@@ -78,13 +82,15 @@ class solution:
             curr.next = prev
             prev = curr
             curr = temp
+
         return prev
 
 if __name__ == '__main__':
     llist = LinkedList()
     llist.head = Node(1)
     
-    # takig array input using map and list
+    
+    # taking array input using map and list
     arr = list(map(int,input().split()))
     
     # forging the linked list
@@ -95,10 +101,14 @@ if __name__ == '__main__':
     
     # recursive approach test
     llist2 = LinkedList()
-    llist2.head = sol.reverse_linked_recurive(llist.head)
+    llist2.head = sol.reverse_linked_recursive(llist.head)
     llist2.printLL()
     
+    #llist.printLL()
     # iterative approach test
     llist3 = LinkedList()
     llist3.head = sol.reverse_linked_iterative(llist.head)
     llist3.printLL()
+
+    
+    

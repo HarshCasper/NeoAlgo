@@ -28,6 +28,6 @@ def checkParanthesis(input_string):
 
 
 if __name__ == "__main__":
-    # inp = input("Enter the Brackets Combinations\n")
-    # checkParanthesis(inp)
-    print(checkParanthesis.__doc__)
+    inp = input("Enter the Brackets Combinations\n")
+    checkParanthesis(inp)
+    

@@ -28,9 +28,9 @@ let parenString3 = '[{()}]';
 let parenString4 = '][(){';
 let parenString5 = '[{]}';
 
-console.log(BalancedParen(parenString1));   // Balamced
-console.log(BalancedParen(parenString2));   // Balamced
-console.log(BalancedParen(parenString3));   // Balamced
-console.log(BalancedParen(parenString4));   // Unbalamced
-console.log(BalancedParen(parenString5));   // Unbalamced
+console.log(BalancedParen(parenString1));   // Balanced
+console.log(BalancedParen(parenString2));   // Balanced
+console.log(BalancedParen(parenString3));   // Balanced
+console.log(BalancedParen(parenString4));   // Unbalanced
+console.log(BalancedParen(parenString5));   // Unbalanced
 

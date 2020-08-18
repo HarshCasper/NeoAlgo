@@ -64,7 +64,7 @@
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
-* [No:of digits in a number](math/no_of_digits.py)
+* [No. of Digits in an Integer](math/no_of_digits.py)
 
 ## Competitive Programming
 

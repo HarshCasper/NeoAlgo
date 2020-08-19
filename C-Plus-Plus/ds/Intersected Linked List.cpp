@@ -1,18 +1,16 @@
 /*
-Program to find the Intersection point in singly Linked List
-
+Intersection Point in Y Shapped Linked Lists.
 @author: Rishikeshrajrxl
 @created: 20/08/2020
 */
+
 #include <iostream>
 using namespace std;
-
 struct node
 {                                //declaration of node
 int data;
 struct node*next1,*next2;
 }*head1=NULL,*head2=NULL,*temp1,*temp2,*ptr;
-
 
 void Insert_1();                // function declaration
 void Insert_2();
@@ -60,7 +58,6 @@ int main()                  //  Main() function begins here
            
            default:
            cout<<"Invalid Input"<<endl;
-           
        };
    }while(1);
    return 0;
@@ -73,7 +70,6 @@ void Insert_1()
     cin>>ele;
     ptr->data=ele;
     ptr->next1=NULL;
-
     if(head1==NULL){
         head1=ptr;
     }
@@ -94,7 +90,6 @@ void Insert_2()
     cin>>ele;
     ptr->data=ele;
     ptr->next2=NULL;
-
     if(head2==NULL){
         head2=ptr;
     }
@@ -148,10 +143,8 @@ void Intersect()
     cout<<"***********************************************************************"<<endl;
     int pos;
     cout<<"ENTER THE POSITION : ";
-    cin>>pos;
-    
+    cin>>pos; 
     temp1=head1;temp2=head2;
-    
     if(length1>length2){
         while(temp2->next2!=NULL){
             temp2=temp2->next2;

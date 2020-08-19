@@ -1,11 +1,27 @@
-//Deit distance
 #include <bits/stdc++.h>
 using namespace std;
 
-int edit_distance (char *x, char *y)
+//Edit distance Recursive approach
+int edit_distance_recursive (string &x, string &y, int m, int n)
 {
-    int m=strlen(x);
-    int n=strlen(y);
+    //base case
+    if (m==0) return n;
+    if (n==0) return m;
+
+    if(x[m-1]==y[n-1]) //if matches
+    {
+      return edit_distance_recursive(x,y,m-1,n-1);
+    }
+
+    return 1+min( min(edit_distance_recursive(x,y,m,n-1),edit_distance_recursive(x,y,m-1,n)), edit_distance_recursive(x,y,m-1,n-1));
+
+}
+
+//Edit distance DP approach
+int edit_distance_dp (string &x, string &y)
+{
+    int m=x.length();
+    int n=y.length();
 
     int dp[101][101];
 
@@ -34,14 +50,20 @@ int edit_distance (char *x, char *y)
 
 int main()
 {
-    char str1[100],str2[100];
+    string str1,str2;
     cout <<"Enter first string: ";
     cin>>str1;
     cout <<"Enter second string: ";
     cin>>str2;
 
-    cout<<"minimum number of edits to convert string1 to string2: ";
-    cout<<edit_distance(str1,str2)<<endl;
+    int m=str1.length();
+    int n=str2.length();
+
+    cout<<"minimum number of edits to convert string1 to string2 Using Recursive approach: ";
+    cout<<edit_distance_recursive(str1,str2,m,n)<<endl;
+
+    cout<<"minimum number of edits to convert string1 to string2 Using DP approach: ";
+    cout<<edit_distance_dp(str1,str2)<<endl;
 }
 
 //working

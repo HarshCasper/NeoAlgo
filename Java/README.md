@@ -11,11 +11,15 @@
 
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
-* [Linked List](ds/linkedListReverse.java )
+* [Linked List](ds/linkedList.java )
+* [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
+ Implementation-of-queue-using-stack
 * [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
+* [Stack ~ Linked List Implementation](ds/Stack.java)
+   master
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)

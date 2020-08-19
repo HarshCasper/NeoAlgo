@@ -32,6 +32,7 @@
 * [PancakeSort](sort/PancakeSort.java)
 * [BeadSort](sort/BeadSort.java)
 * [Selection Sort](sort/SelectionSort.java)
+* [Recursive Bubble sort](Recursivebubblesort.java)
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)

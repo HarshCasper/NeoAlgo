@@ -20,12 +20,8 @@ def insertion_sort(array, size):
 # Function to perform Bucket Sorting
 def bucket_sort(unsortedArray, size):
     
-    bucket = []  
+    bucket = [[]] * size # Bucket should be of same size as that of Unsorted Array
     MAX = max(unsortedArray)
-    
-    # Bucket should be of same size as that of Unsorted Array
-    for index in range(size):
-        bucket.append([])
     
     for index in range(size):
         index1 = int((size * unsortedArray[index])/MAX)

@@ -1,12 +1,13 @@
 //Qs class for implementing queue using two stack with costly dequeue() 
-class Qs {
+import java.util.Scanner;
+class QueueUsingStack {
 	int s1[];			//First stack
 	int s2[];			//Second stack
 	int size;			//size of queue
 	int topS1;			//To maintain top of stack 1
 	int topS2;			//To maintain top of stack 2
 	int count;  		//To count number of items in queue
-	public Qs(int s)
+	public QueueUsingStack(int s)
 	{
 		topS1 = 0;
 		topS2 = 0;
@@ -84,10 +85,18 @@ class Qs {
 		}
 		return dq;
 	}
+	public void display()
+	{
+		int i;
+		for(i=0;i<count;i++)
+		{
+			System.out.print(s1[i]+" ");
+		}
+	}
 }
 
 //Sq class to implement a stack using two queue with costly push()
-class Sq {
+class StackUsingQueue {
 	int q1[];		//First queue
 	int q2[];		//Second queue
 	int front1;		//To maintain front of queue 1
@@ -96,7 +105,7 @@ class Sq {
 	int rear2;		////To maintain rear of queue 2
 	int size;		//size of stack
 	int count;		//to count number of items in stack
-	public Sq(int s)
+	public StackUsingQueue(int s)
 	{
 		size = s;
 		q1 = new int[size];
@@ -166,46 +175,90 @@ class Sq {
 		count--;
 		return temp;
 	}
+	public void display(int k)
+	{
+		int i;
+		for(i=k;i<count+k;i++)
+		{
+			System.out.print(q1[i]+" ");
+		}
+	}
 }
 
 //QueueandStack class with main function to operate Qs and Sq class
 public class QueueandStack {
 	public static void main(String args[])
 	{
-		Sq obs = new Sq(5);		//Creating an object of Sq class
-		Qs obq = new Qs(5);		//Creating an object of Qs class
-		
-		//Calling enqueue function from Qs class to enqueue an item into queue
-		obq.enqueue(1);
-		obq.enqueue(2);
-		obq.enqueue(3);
-		obq.enqueue(4);
-		obq.enqueue(5);
-		
-		System.out.println("Implementation of queue using stack");
-		
-		//Printing dequeue items from dequeue function from Qs class
-		System.out.print(obq.dequeue()+" ");
-		System.out.print(obq.dequeue()+" ");
-		System.out.print(obq.dequeue()+" ");
-		System.out.print(obq.dequeue()+" ");
-		System.out.println(obq.dequeue()+" ");
-		
-		//Calling push function from Sq class to push an item into a stack
-		obs.push(1);
-		obs.push(2);
-		obs.push(3);
-		obs.push(4);
-		obs.push(5);
-		
-		System.out.println("Implementation of stack using queue");
-		
-		//Printing poped items from pop function from Sq class
-		System.out.print(obs.pop()+" ");
-		System.out.print(obs.pop()+" ");
-		System.out.print(obs.pop()+" ");
-		System.out.print(obs.pop()+" ");
-		System.out.println(obs.pop()+" ");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 1 for implementing Queue using Stack");
+		System.out.println("Enter 2 for implementing Stack using Queue");
+		int n = sc.nextInt(); 
+		if(n == 1)  	//For implementing queue using stack
+		{
+			System.out.println("Enter the size of Queue");
+			int s = sc.nextInt();
+			QueueUsingStack obq = new QueueUsingStack(s);
+			System.out.println("Enter 1 for Enqueue");
+			System.out.println("Enter 2 for Dequeue");
+			System.out.println("Enter 3 to display Queue");
+			System.out.println("Enter 4 to exit");
+			while(true)
+			{
+				int ch = sc.nextInt();
+				switch(ch) 
+				{
+					case 1:
+						System.out.println("Enter the number to enqueue");
+						int d = sc.nextInt();
+						obq.enqueue(d);
+						System.out.println("Number enqueued successfully");
+						break;
+					case 2:
+						int temp = obq.dequeue();
+						System.out.println(temp+" is dequeued");
+						break;
+					case 3:
+						obq.display();
+						break;
+					case 4:
+						System.exit(0);
+				}
+			}
+		}
+		else			//For implementing stack using queue
+		{
+			int k = 0;
+			System.out.println("Enter the size of Stack");
+			int s = sc.nextInt();
+			StackUsingQueue obs = new StackUsingQueue(s);
+			System.out.println("Enter 1 for Push");
+			System.out.println("Enter 2 for Pop");
+			System.out.println("Enter 3 to display Stack");
+			System.out.println("Enter 4 to exit");
+			while(true)
+			{
+				int ch = sc.nextInt();
+				switch(ch) 
+				{
+					case 1:
+						System.out.println("Enter the number to Push");
+						int d = sc.nextInt();
+						obs.push(d);
+						System.out.println("Number pushed successfully");
+						break;
+					case 2:
+						int temp = obs.pop();
+						k++;
+						System.out.println(temp+" is poped");
+						break;
+					case 3:
+						obs.display(k);
+						break;
+					case 4:
+						System.exit(0);
+				}
+			}
+		}
 	}
 }
 
@@ -213,7 +266,63 @@ public class QueueandStack {
 
 /*Output:
 
-Implementation of queue using stack
-1 2 3 4 5 
-Implementation of stack using queue
-5 4 3 2 1  */
+--------------------------------------------
+Output of implementing Queue using Stack
+--------------------------------------------
+
+Enter 1 for implementing Queue using Stack
+Enter 2 for implementing Stack using Queue
+1
+Enter the size of Queue
+3
+Enter 1 for Enqueue
+Enter 2 for Dequeue
+Enter 3 to display Queue
+Enter 4 to exit
+1
+Enter the number to enqueue
+1
+Number enqueued successfully
+1
+Enter the number to enqueue
+2
+Number enqueued successfully
+1
+Enter the number to enqueue
+3
+Number enqueued successfully
+2
+1 is dequeued
+3
+2 3 
+
+--------------------------------------------
+Output of implementing Stack using Queue
+--------------------------------------------
+
+Enter 1 for implementing Queue using Stack
+Enter 2 for implementing Stack using Queue
+2
+Enter the size of Stack
+3
+Enter 1 for Push
+Enter 2 for Pop
+Enter 3 to display Stack
+Enter 4 to exit
+1
+Enter the number to Push
+1
+Number pushed successfully
+1
+Enter the number to Push
+2
+Number pushed successfully
+1
+Enter the number to Push
+3
+Number pushed successfully
+2
+3 is poped
+3
+2 1 
+ */

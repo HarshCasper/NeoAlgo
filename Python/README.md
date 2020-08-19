@@ -43,8 +43,9 @@
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
 * [Height of Tree](graphs/height_of_given_tree.py)
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
-* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
+* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 * [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+* [Minimum swaps to sort array](graphs/Minimum_swaps_to_sort_array.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)

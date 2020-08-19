@@ -46,10 +46,14 @@ skip2 = int(input('No. of elements to be skipped for l2: '))
 linked_list1 = LinkedList()
 linked_list2 = LinkedList()
 
-linked_list1.create_linked_list(inp1)
-linked_list2.create_linked_list(inp2, 1, skip1, skip2, linked_list1.head)
+if (skip1 == len(inp1) and skip2 == len(inp2)) or inp1[skip1+1] == inp2[skip2+1]:
+    linked_list1.create_linked_list(inp1)
+    linked_list2.create_linked_list(inp2, 1, skip1, skip2, linked_list1.head)
 
-print(linked_list1.intersection_point(linked_list2.head))
+    print(linked_list1.intersection_point(linked_list2.head))
+else:
+    print('Invalid Input!')
+
 
 '''
 Input format: 4 lines->

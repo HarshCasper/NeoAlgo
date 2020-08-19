@@ -11,6 +11,8 @@
 
 ## Data Structures
 * [Stack](ds/Stack.go)
+* [Stack using Queue](./ds/stack_using_queue.go)
+* [Queue using Stack](./ds/queue_using_stack.go)
 
 ## Searching
 * [Binary Search](search/binary_search.go)

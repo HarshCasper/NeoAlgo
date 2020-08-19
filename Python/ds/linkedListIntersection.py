@@ -40,7 +40,7 @@ class LinkedList:
 inp1 = list(map(int, input('Elements of list1: ').split(',')))
 inp2 = list(map(int, input('Elements of list2: ').split(',')))
 skip1 = int(input('No. of elements to be skipped for l1: '))
-skip2 = int(input('No. of elements to be skipped for l1: '))
+skip2 = int(input('No. of elements to be skipped for l2: '))
 
 linkedList1 = LinkedList()
 linkedList2 = LinkedList()

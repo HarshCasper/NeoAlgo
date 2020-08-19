@@ -27,27 +27,27 @@ int fib_Space_Opt(int n){
 }
 
 
-
 int main() {
-int n;
-cout<<"Enter number 'n' to find nth fibonacci number: ";
-cin>>n;
-int dp[n+1]={0};
-dp[1] = 1;
+ int n;
+ cout<<"Enter number 'n' to find nth fibonacci number: ";
+ cin>>n;
+ int dp[n+1]={0};
+ dp[1] = 1;
 
-cout<<"Output calculated with space complexity O(n): ";
-cout<<fib(n,dp)<<endl;
-cout<<"Output calculated with space complexity O(1): ";
-cout<<fib_Space_Opt(n)<<endl;
+ cout<<"Output calculated with space complexity O(n): ";
+ cout<<fib(n,dp)<<endl;
+ cout<<"Output calculated with space complexity O(1): ";
+ cout<<fib_Space_Opt(n)<<endl;
 
 return 0;
 }
 
 /*
-Time O(n)
+sample input output
+input: 10
+output: 55
 */
 
-
-//sample input output
-//input: 10
-//output: 55
+/*
+Time O(n)
+*/

@@ -15,22 +15,22 @@ int fib(int n,int dp[]){
 }
 
 
-
 int main() {
-int n;
-cout<<"Enter number 'n' to find nth fibonacci number: ";
-cin>>n;
-int dp[n+1]={0};
-cout<<"output :"<<fib(n,dp)<<endl;
+ int n;
+ cin>>n;
+ int dp[n+1]={0};
+ cout<<"output :"<<fib(n,dp)<<endl;
 
 return 0;
 }
 
 /*
+sample input output
+input: 10
+output: 55
+*/
+
+/*
 Space O(n)
 Time O(n)
 */
-
-//sample input output
-//input: 10
-//output: 55

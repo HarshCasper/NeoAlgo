@@ -1,74 +1,72 @@
-import java.util.Arrays;
+import java.util.*;
 
-class PGraph {
-
-  public void Prim(int G[][], int V) {
-
-    int INF = 9999999;
-
-    int no_edge; // number of edge
-
-    // create a array to track selected vertex
-    // selected will become true otherwise false
-    boolean[] selected = new boolean[V];
-
-    // set selected false initially
-    Arrays.fill(selected, false);
-
-    // set number of edge to 0
-    no_edge = 0;
-
-    // the number of egde in minimum spanning tree will be
-    // always less than (V -1), where V is number of vertices in
-    // graph
-
-    // choose 0th vertex and make it true
-    selected[0] = true;
-
-    // print for edge and weight
-    System.out.println("Edge : Weight");
-
-    while (no_edge < V - 1) {
-      // For every vertex in the set S, find the all adjacent vertices
-      // , calculate the distance from the vertex selected at step 1.
-      // if the vertex is already in the set S, discard it otherwise
-      // choose another vertex nearest to selected vertex at step 1.
-
-      int min = INF;
-      int x = 0; // row number
-      int y = 0; // col number
-
-      for (int i = 0; i < V; i++) {
-        if (selected[i] == true) {
-          for (int j = 0; j < V; j++) {
-            // not in selected and there is an edge
-            if (!selected[j] && G[i][j] != 0) {
-              if (min > G[i][j]) {
-                min = G[i][j];
-                x = i;
-                y = j;
-              }
-            }
-          }
+class Prims {
+        //Function to get the next vetex of MST based on the min Edge length
+        public int getMinEdge(Boolean[] visited,int[] dist,int V){
+                int minedge = Integer.MAX_VALUE,minvertex=-1;
+                //update the minvertex with smallest edge vertex
+                for(int i=0;i<V;i++){
+                        if(!visited[i] && minedge>dist[i]){
+                                minedge = dist[i];
+                                minvertex = i;
+                        }
+                }
+                
+                return minvertex;
         }
-      }
-      System.out.println(x + " - " + y + " :  " + G[x][y]);
-      selected[y] = true;
-      no_edge++;
-    }
-  }
+        
+        public void mst(int[][] graph,int V){
+                //Array to store the parent node of vertices
+                int[] parent = new int[V];
+                //Array to store the edge lengths of MST;
+                int[] dist = new int[V];
+                //Array to check if the node is visited or not
+                Boolean[] visited = new Boolean[V];
+                //Initialize the dist values as INFINITY and visited as false
+                for(int i=0;i<V;i++){
+                        dist[i]=Integer.MAX_VALUE;
+                        visited[i] = false;
+                }
+                //0 is going to be root of MST hence
+                //make its parent -1 and dist 0
+                dist[0] = 0;
+                parent[0] = -1;
+                //counter loop for selecting V vertices
+                for(int k=0;k<V-1;k++){
+                        //get vertex with minimum edge
+                        int u = getMinEdge(visited,dist,V);
+                        //make selected vertex as visited i.e. it is now included in MST
+                        visited[u] = true;
+                        for(int v=0;v<V;v++){
+                                //Conditions to check adjacent unvisited vertices 
+                                //Update the dist[v] if graph[u][v] is less than dist[v] 
+                                if(!visited[v] && graph[u][v]!=0  && graph[u][v]<dist[v]){
+                                        dist[v] = graph[u][v];
+                                        parent[v] = u;
+                                }
+                        }
+                }
+                //loop to print the solution MST
+                System.out.println("Prims MST:");
+                for(int u=1;u<V;u++){
+                        System.out.println("Edge "+parent[u]+" - "+u+" :length "+dist[u]);
+                }
+        
+        }        
+        
+                  
 
-  public static void main(String[] args) {
-    PGraph g = new PGraph();
+        public static void main(String[] args) {
+        Prims p = new Prims();
 
-    // number of vertices in grapj
-    int V = 5;
+        // number of vertices in graph
+        int V = 5;
 
-    // create a 2d array of size 5x5
-    // for adjacency matrix to represent graph
-    int[][] G = { { 0, 9, 75, 0, 0 }, { 9, 0, 95, 19, 42 }, { 75, 95, 0, 51, 66 }, { 0, 19, 51, 0, 31 },
+        // create a 2d array of size 5x5
+        // for adjacency matrix to represent graph
+        int[][] graph = { { 0, 9, 75, 0, 0 }, { 9, 0, 95, 19, 42 }, { 75, 95, 0, 51, 66 }, { 0, 19, 51, 0, 31 },
         { 0, 42, 66, 31, 0 } };
 
-    g.Prim(G, V);
-  }
+        p.mst(graph, V);
+}
 }

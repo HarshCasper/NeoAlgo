@@ -7,7 +7,7 @@ class LinkedList:
     def __init__(self):
         self.head = None
         
-    def createLinkedList(self, arr, serial = 0, skip1 = 0, skip2 = 0, head1 = None):
+    def create_linked_list(self, arr, serial = 0, skip1 = 0, skip2 = 0, head1 = None):
         if serial == 0:
             dummy = self.head = Node(arr.pop(0))
             while arr:
@@ -27,7 +27,8 @@ class LinkedList:
                 skip2 -= 1
             dummy.next = head1
     
-    def intersectionPoint(self, head2):
+    def intersection_point(self, head2):
+        """ Return the point of intersection of Y-shaped linked lists"""
         iterator1 = self.head
         iterator2 = head2
         while iterator1 or iterator2:
@@ -42,13 +43,13 @@ inp2 = list(map(int, input('Elements of list2: ').split(',')))
 skip1 = int(input('No. of elements to be skipped for l1: '))
 skip2 = int(input('No. of elements to be skipped for l2: '))
 
-linkedList1 = LinkedList()
-linkedList2 = LinkedList()
+linked_list1 = LinkedList()
+linked_list2 = LinkedList()
 
-linkedList1.createLinkedList(inp1)
-linkedList2.createLinkedList(inp2, 1, skip1, skip2, linkedList1.head)
+linked_list1.create_linked_list(inp1)
+linked_list2.create_linked_list(inp2, 1, skip1, skip2, linked_list1.head)
 
-print(linkedList1.intersectionPoint(linkedList2.head))
+print(linked_list1.intersection_point(linked_list2.head))
 
 '''
 Input format: 4 lines->

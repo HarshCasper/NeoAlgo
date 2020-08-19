@@ -1,27 +1,28 @@
-def longestSubstringLength(string):
-    di = {}
+def longest_substring_length(string):
+    """Returns length of the longest substring without repetition of characters """
+    dct = {}
     result = 0
     start = 0
     counter = 0
     for index, val in enumerate(string):
-        if val not in di:
-            di[val] = index
+        if val not in dct:
+            dct[val] = index
             counter += 1
         else:
-            if di[val] >= start:
-                start = di[val] + 1
-                counter = index - di[val] -1
+            if dct[val] >= start:
+                start = dct[val] + 1
+                counter = index - dct[val] -1
             counter += 1
-            di[val] = index
+            dct[val] = index
         result = max(result, counter)
     return result
 
-testCase = int(input('No. of test cases:'))
-while testCase:
-    print(longestSubstringLength(input()))
-    testCase -= 1
+test_case = int(input('No. of test cases:'))
+while test_case:
+    print(longest_substring_length(input()))
+    test_case -= 1
     
-'''
+"""
 Input format:
 3                       #No. of Test cases
 abccddabc
@@ -38,4 +39,4 @@ if its greater than start, then the counter becomes currentIndex - lastOccurence
 Complexity: Time: O(n) n-> length of string
             Space: O(n)
 contributed by @pradeep98
-'''
+"""

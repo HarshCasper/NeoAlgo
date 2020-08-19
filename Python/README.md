@@ -85,6 +85,7 @@ _add list here_
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
 * [Paranthesis Checker](other/paranthesis_checker.py)
+* [Longest substring without repeating character](other/longest_Substring.py)
 
 ## miscellaneous
 * [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)

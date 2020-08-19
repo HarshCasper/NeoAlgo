@@ -20,11 +20,11 @@ def checkParanthesis(input_string):
 
     if occurence["("] == occurence[")"] and occurence["{"] == occurence["}"]:
         if occurence["["] == occurence["]"] and occurence["<"] == occurence[">"]:
-            print("Yes")
+            print("Balanced")
         else:
-            print("No")
+            print("Not Balanced")
     else:
-        print("No")
+        print("Not Balanced")
 
 
 if __name__ == "__main__":

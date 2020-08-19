@@ -21,6 +21,7 @@
 - [Binary Search](search/BinarySearch.c)
 - [Linear Search](search/linear_search.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Randomized_selection_algorithm](search/randomized_selection_algorithm.c)
 
 ## Sorting
 

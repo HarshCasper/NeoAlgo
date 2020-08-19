@@ -1,3 +1,4 @@
+//This  algorithm is used to select i_th order statistic from the given data in expected linear time.
 #include <stdio.h>
 #include <stdlib.h>
 int arr[100000];

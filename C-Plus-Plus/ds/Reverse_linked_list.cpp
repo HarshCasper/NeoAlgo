@@ -24,9 +24,9 @@ functions used in Linked List algorithms
 1 - length - to return length of the Linked List
 2 - print_ll - print the linked list to the output console
 3 - take_input - take input from the user, terminated by -1
-
+4 - Node* copy=NULL;
 */
-//Node* copy=NULL;
+
 
 class helper
 {
@@ -163,6 +163,7 @@ int main()
     helper help_object;
     solution sol;
     Node* head = help_object.take_input();
+    //clone of head pointer
     Node *copy=help_object.copy(head);
     Node* head2 = sol.reverse_linked_recursive(head);
     Node* head3 = sol.reverse_linked_iterative(copy);

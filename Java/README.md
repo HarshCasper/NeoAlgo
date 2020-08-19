@@ -23,6 +23,7 @@
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)
+* [KMP Algorithm](Algorithms/KMPAlgorithm.java)
 ## Searching
 * [Linear Search](search/Linear_search.java)
 * [Binary Search](search/Binary_search.java)

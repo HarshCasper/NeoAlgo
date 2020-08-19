@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int num_of_digits(int num){
@@ -20,10 +20,21 @@ int num_of_digits_recursive(int num){
     return 1 + num_of_digits_recursive(num / 10);        
 }
 
+int num_of_digits_stringsoln(int num){
+    string number = to_string(num);
+    return number.size();                                //returning string length
+}
+
+int num_of_digits_logbased(int num){
+    return floor(log10(num) + 1);                        //Number of digits in integer = upper bound of log10(N)
+}
+
 int main() {
     int num;
     cin >> num;                                           //Inputting the number
     cout << "The number of digits in given integer (using normal approach): " << num_of_digits(num) << endl;
     cout << "The number of digits in given integer (using recursive approach): " << num_of_digits_recursive(num) << endl;
+    cout << "The number of digits in given integer (using string): " << num_of_digits_stringsoln(num) << endl;
+    cout << "The number of digits in given integer (log based approach): " << num_of_digits_logbased(num) << endl;
     return 0;
 }

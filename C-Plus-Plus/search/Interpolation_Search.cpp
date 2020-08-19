@@ -35,16 +35,16 @@ int interpolationSearch(int arr[], int n, int x)
 } 
 
 
-int main()										//Starting our main function 
+int main()							 //Starting our main function 
 { 
  
 	int num,x,loc;          
     std::cout << "Enter size of an array: ";
     std::cin >> num;
-    int arr[num];								//Creating array of the size num
+    int arr[num];						//Creating array of the size num
     std::cout << "Enter elements: " << std::endl; 
     
-    for (int i = 0; i < num; i++)               //Enter the elements in the array
+    for (int i = 0; i < num; i++)              			//Enter the elements in the array
     {
         std::cin >> arr[i];
     }
@@ -70,9 +70,9 @@ int main()										//Starting our main function
 
 	// If element was found 
 	if (index != -1) 
-		cout << "Element found at index " << index; //Returning the index pf the element
+		cout << "Element found at index " << index;      //Returning the index pf the element
 	else
-		cout << "Element not found.";               //Returning -1 as element has not found 
+		cout << "Element not found.";                    //Returning -1 as element has not found 
 		
 	return 0; 
 } 

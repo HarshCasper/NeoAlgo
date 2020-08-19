@@ -25,7 +25,7 @@ if __name__ == "__main__":
 Output:-
 Enter the number: 4567
 Iterative approach
-The no: of digits in 4567 is:4
+The no. of digits in 4567 is:4
 Recursive approach
-The no: of digits in 4567 is:4
+The no. of digits in 4567 is:4
 """     

@@ -1,31 +1,32 @@
 # Program to count digits in an integer 
 
-#Iterative approach
-def iterative_countDigits(n):
+def iterative_countDigits(number):
+    '''Function to count the number of digits in an integer using the iterative approach.'''
     count = 0
-    while n != 0: 
-        n //= 10                
+    while number != 0: 
+        number //= 10                
         count+= 1
     return count 
 
 #Recursive approach
-def recursive_countDigits(n): 
-    if n == 0: 
+def recursive_countDigits(number): 
+    '''Function to count the number of digits in an integer using the recursive approach.'''
+    if number == 0: 
         return 0
-    return 1 + recursive_countDigits(n // 10) 
+    return 1 + recursive_countDigits(number // 10) 
 
 if __name__ == "__main__":
-    n = int(input("Enter the number: "))
-    print("Iterative approach")
-    print("The no. of digits in {} is: {} ".format(n, iterative_countDigits(n)))
-    print("Recursive approach")
-    print("The no. of digits in {} is: {} ".format(n, recursive_countDigits(n)))
+    number = int(input("Enter the number: "))
+    print(iterative_countDigits.__doc__)
+    print("The no. of digits in {} is: {} ".format(number, iterative_countDigits(number)))
+    print(recursive_countDigits.__doc__)
+    print("The no. of digits in {} is: {} ".format(number, recursive_countDigits(number)))
 
 """
 Output:-
 Enter the number: 4567
-Iterative approach
+Function to count the number of digits in an integer using the iterative approach.
 The no. of digits in 4567 is:4
-Recursive approach
+Function to count the number of digits in an integer using the recursive approach.
 The no. of digits in 4567 is:4
 """     

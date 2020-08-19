@@ -10,7 +10,7 @@
 # Codes in the C++ language
 
 ## Data Structures
-
+Stack_using_LinkedList.cpp
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
@@ -18,7 +18,8 @@
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Queue](ds/Queue.cpp)
-- [Stack](ds/Stack_using_Array.cpp)
+- [Stack Using Array](ds/Stack_using_Array.cpp)
+- [Stack Using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
 

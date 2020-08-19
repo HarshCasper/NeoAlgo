@@ -24,7 +24,7 @@ functions used in Linked List algorithms
 1 - length - to return length of the Linked List
 2 - print_ll - print the linked list to the output console
 3 - take_input - take input from the user, terminated by -1
-
+4 - Copy function is used to make a clone of head pointer.
 */
 //Node* copy=NULL;
 

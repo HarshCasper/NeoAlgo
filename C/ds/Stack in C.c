@@ -24,6 +24,16 @@ int peek() {
    return stack[top];
 }
 
+int count(){
+
+    int count = 0;
+    for(int i = top; i>=0; i--){
+        count++;
+    }
+    printf("The total number of elements in the stack are : %d \n",count);
+
+}
+
 int pop() {
    int data;
 
@@ -41,6 +51,7 @@ int push(int data) {
    if(!isfull()) {
       top = top + 1;
       stack[top] = data;
+      printf("Element inserted at the top of stack successfully!!!\n");
    } else {
       printf("Could not insert data, Stack is full.\n");
    }
@@ -51,7 +62,7 @@ int main() {
    int ch,n,a;
    do{
 
-   printf("Enter your choice : \n1 - Push\n2 - Pop\n3 - Peak\n4 - Check if stack is Empty\n5 - Check if stack is full\n6 - Display\n");
+   printf("Enter your choice : \n1 - Push\n2 - Pop\n3 - Peak\n4 - Check if stack is Empty\n5 - Check if stack is full\n6 - Display\n7 - Count total number of elements\n");
    scanf("%d",&ch);
 
    switch(ch){
@@ -91,6 +102,10 @@ int main() {
                 printf("Stack is empty \n");
              }
                break;
+
+        case 7:
+            count();
+            break;
 
         default:
             printf("Please enter the correct choice\n");

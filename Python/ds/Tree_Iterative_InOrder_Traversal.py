@@ -49,8 +49,7 @@ class Tree:
 			    curr = stack.pop()
 			    print(curr.data, end=' ')
 			    curr = curr.right
-
-
+print("Enter the input in the sequence :- root.val root->left root->right (enter null if empty)")
 NodesArray = list(input().split(' '))
 InOrdertree = Tree()
 InOrdertree.createTree(NodesArray)
@@ -58,6 +57,7 @@ InOrdertree.inorderIterative(InOrdertree.root)
 
 
 '''
+Input-format should be like this :: 10 20 30 40 50 null null
      10
    /     \
   20      30

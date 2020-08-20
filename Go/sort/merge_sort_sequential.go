@@ -5,32 +5,34 @@ import (
 	"time"
 )
 
+// merge(): a simple function which merge the two slices into one slice
+
 func merge(left []int, right []int) []int {
 
 	result := make([]int, len(left)+len(right))
 
-	i, j := 0, 0
+	leftArrayIndex, rightArrayIndex := 0, 0
 
-	for k := 0; k < len(result); k++ {
-		if i >= len(left) {
-			result[k] = right[j]
-			j++
+	for resultArrayIndex := 0; resultArrayIndex < len(result); resultArrayIndex++ {
+		if leftArrayIndex >= len(left) {
+			result[resultArrayIndex] = right[rightArrayIndex]
+			rightArrayIndex++
 			continue
 
-		} else if j >= len(right) {
-			result[k] = left[i]
-			i++
+		} else if rightArrayIndex >= len(right) {
+			result[resultArrayIndex] = left[leftArrayIndex]
+			leftArrayIndex++
 			continue
 
 		}
 
-		if left[i] < right[j] {
-			result[k] = left[i]
-			i++
+		if left[leftArrayIndex] < right[rightArrayIndex] {
+			result[resultArrayIndex] = left[leftArrayIndex]
+			leftArrayIndex++
 
 		} else {
-			result[k] = right[j]
-			j++
+			result[resultArrayIndex] = right[rightArrayIndex]
+			rightArrayIndex++
 
 		}
 

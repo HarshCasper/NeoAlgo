@@ -18,28 +18,28 @@ func merge(left []int, right []int) []int {
 
 	result := make([]int, len(left)+len(right))
 
-	i, j := 0, 0
+	leftArrayIndex, rightArrayIndex := 0, 0
 
-	for k := 0; k < len(result); k++ {
-		if i >= len(left) {
-			result[k] = right[j]
-			j++
+	for resultArrayIndex := 0; resultArrayIndex < len(result); resultArrayIndex++ {
+		if leftArrayIndex >= len(left) {
+			result[resultArrayIndex] = right[rightArrayIndex]
+			rightArrayIndex++
 			continue
 
-		} else if j >= len(right) {
-			result[k] = left[i]
-			i++
+		} else if rightArrayIndex >= len(right) {
+			result[resultArrayIndex] = left[leftArrayIndex]
+			leftArrayIndex++
 			continue
 
 		}
 
-		if left[i] < right[j] {
-			result[k] = left[i]
-			i++
+		if left[leftArrayIndex] < right[rightArrayIndex] {
+			result[resultArrayIndex] = left[leftArrayIndex]
+			leftArrayIndex++
 
 		} else {
-			result[k] = right[j]
-			j++
+			result[resultArrayIndex] = right[rightArrayIndex]
+			rightArrayIndex++
 
 		}
 
@@ -50,7 +50,7 @@ func merge(left []int, right []int) []int {
 }
 
 // parallel implementation of merge sort with goroutines
-func mergeSortParaller(arr []int) []int {
+func mergeSortParallel(arr []int) []int {
 	/*
 		 max := 2048
 		 we cand add condition like this
@@ -79,11 +79,11 @@ func mergeSortParaller(arr []int) []int {
 	// left part of array will be handle by another goroutine
 	go func() {
 		defer waitGroup.Done()
-		left = mergeSortParaller(left)
+		left = mergeSortParallel(left)
 	}()
 
 	// right part of array will handle by this main goroutine
-	right = mergeSortParaller(right)
+	right = mergeSortParallel(right)
 
 	// waiting for goroutin to finish it's work
 	waitGroup.Wait()
@@ -96,7 +96,7 @@ func main() {
 
 	start := time.Now() // adding timestamp when excecution of mergesort start
 
-	arr = mergeSortParaller(arr)
+	arr = mergeSortParallel(arr)
 
 	end := time.Now() // adding timestamp when excecution of mergesort finish
 

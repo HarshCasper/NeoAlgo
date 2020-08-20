@@ -41,8 +41,7 @@ public class InterpolationSearch {
             System.out.println("Element not found"); 
         else
             System.out.println("Element found at index " + position); 
-    } 
-
+     } 
 } 
 /* <-----Input------->
    Enter the size of array:
@@ -54,4 +53,3 @@ public class InterpolationSearch {
    <------Output------>
    Element found at index 2
  */
-

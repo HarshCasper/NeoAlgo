@@ -50,15 +50,15 @@ using namespace std;
 vector<int> level(node * root)
 {
     vector<int> ans;  // ans is where level order will be stored.
-    queue<node *>q;
-    q.push(root);
-    while(!q.empty())
+    queue<node *>queue1;
+    queue1.push(root);
+    while(!queue1.empty())
     {
-        node * first=q.front();
-        q.pop();
+        node * first=queue1.front();
+        queue1.pop();
         ans.push_back(first->val);
-        if(first->left!=NULL) q.push(first->left); // checking if left nodes exists or not 
-        if(first->right!=NULL) q.push(first->right); // checking if right node exisits or not.
+        if(first->left!=NULL) queue1.push(first->left); // checking if left nodes exists or not 
+        if(first->right!=NULL) queue1.push(first->right); // checking if right node exisits or not.
 
     }
 
@@ -84,5 +84,5 @@ int main()
  // this is the same example as above mentioned.
  
  anss=level(root);
- for(auto i : anss) cout<<i<<" ";
+ for(auto nodevalue : anss) cout<<nodevalue<<" ";
 }

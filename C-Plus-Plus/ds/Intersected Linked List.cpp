@@ -4,15 +4,18 @@ Program to find the Intersection point in singly Linked List
 @author: Rishikeshrajrxl
 @created: 20/08/2020
 */
-#include <iostream>
+
+#include <bits/stdc++.h> 
 using namespace std;
 
-struct node
-{                                //declaration of node
-int data;
-struct node*next1,*next2;
-}*head1=NULL,*head2=NULL,*temp1,*temp2,*ptr;
-
+class Node
+{ 
+     public:
+     int data;
+     Node*next1,*next2;
+};
+Node*head1=NULL,*head2=NULL;       //pointers to the Node
+Node*temp1,*temp2,*ptr;
 
 void Insert_1();                // function declaration
 void Insert_2();
@@ -25,7 +28,7 @@ int main()                  //  Main() function begins here
 {
     int ch;
    do{
-       cout<<"\n  \t\t PROGRAM TO FIND INTERSECTION POINT"<<endl;
+       cout<<"\n \n\n \t\t PROGRAM TO FIND INTERSECTION POINT"<<endl;
        cout<<"\t********************************************************************"<<endl;
        cout<<"\t 1) INSERT IN LIST 1 \t \t 2) INSERT IN LIST 2"<<endl;
        cout<<"\t 3) DISPLAY ALL LIST \t \t 4) INTERSECT LISTS AT SPECIFIC POSITION"<<endl;
@@ -59,21 +62,19 @@ int main()                  //  Main() function begins here
            break;
            
            default:
-           cout<<"Invalid Input"<<endl;
-           
+           cout<<"Invalid Input"<<endl;     
        };
    }while(1);
    return 0;
 }                                //  End of Main() function here 
 //-----------------------------------------------------------------------------
 void Insert_1()
-{
-    ptr=(struct node*)malloc(sizeof(struct node));
-    cout<<" ENTER THE ELEMENT: ";
+{   
+    ptr=new Node();
+    cout<<"ENTER THE ELEMENT : ";
     cin>>ele;
     ptr->data=ele;
     ptr->next1=NULL;
-
     if(head1==NULL){
         head1=ptr;
     }
@@ -89,12 +90,11 @@ void Insert_1()
 //----------------------------------------------------------------------------------
 void Insert_2()
 {
-    ptr=(struct node*)malloc(sizeof(struct node));
-    cout<<" ENTER THE ELEMENT: ";
+    ptr=new Node();
+    cout<<"ENTER THE ELEMENT : ";
     cin>>ele;
     ptr->data=ele;
     ptr->next2=NULL;
-
     if(head2==NULL){
         head2=ptr;
     }
@@ -111,13 +111,15 @@ void Insert_2()
 void Display_All()
 {
     cout<<"LIST 1 : ";
-    temp1=head1;
+    temp1=head1;  
+     
     while(temp1!=NULL){
         cout<<temp1->data<<" ";
         temp1=temp1->next1;
     }
     cout<<"\nLIST 2 : ";
     temp2=head2;
+     
     while(temp2!=NULL){
         cout<<temp2->data<<" ";
         temp2=temp2->next2;
@@ -129,6 +131,7 @@ void Intersect()
     int length1=0,length2=0;
     string list="";
     temp1=head1; temp2=head2;
+    
     while(temp1!=NULL){
         length1++;
         temp1=temp1->next1;
@@ -146,10 +149,10 @@ void Intersect()
     cout<<"Since "<<list<<" is bigger in length."<<endl;
     cout<<"Tell the position of node in "<<list<<" on which you want to intersect : "<<endl;
     cout<<"***********************************************************************"<<endl;
+    
     int pos;
     cout<<"ENTER THE POSITION : ";
     cin>>pos;
-    
     temp1=head1;temp2=head2;
     
     if(length1>length2){
@@ -197,6 +200,7 @@ int Find_Intersection()
 {
     int length1=0,length2=0;
     temp1=head1; temp2=head2;
+    
     while(temp1!=NULL){
         length1++;
         temp1=temp1->next1;             //finding length of list
@@ -207,18 +211,21 @@ int Find_Intersection()
     }
     int  diff=abs(length1-length2);     //difference of both Lists
     temp1=head1; temp2=head2;
+    
     if(length1>length2){
         for(int i=0;i<diff;i++){
                 temp1=temp1->next1;
         }
-    }else{
+    }
+    else{
          for(int i=0;i<diff;i++){
                 temp2=temp2->next2;
         }
     }
-    while(temp1!=NULL && temp2!=NULL)      {
+    while(temp1!=NULL && temp2!=NULL){
         if(temp1==temp2)
         return temp1->data;
+        
         temp1=temp1->next1;
         temp2=temp2->next2;
     }

@@ -7,6 +7,7 @@ Program to find the Intersection point in singly Linked List
 
 #include <bits/stdc++.h> 
 using namespace std;
+
 class Node
 { 
      public:
@@ -15,6 +16,7 @@ class Node
 };
 Node*head1=NULL,*head2=NULL;       //pointers to the Node
 Node*temp1,*temp2,*ptr;
+
 void Insert_1();                // function declaration
 void Insert_2();
 void Display_All();
@@ -67,7 +69,8 @@ int main()                  //  Main() function begins here
 }                                //  End of Main() function here 
 //-----------------------------------------------------------------------------
 void Insert_1()
-{    ptr=new Node();
+{   
+    ptr=new Node();
     cout<<"ENTER THE ELEMENT : ";
     cin>>ele;
     ptr->data=ele;
@@ -109,12 +112,14 @@ void Display_All()
 {
     cout<<"LIST 1 : ";
     temp1=head1;  
+     
     while(temp1!=NULL){
         cout<<temp1->data<<" ";
         temp1=temp1->next1;
     }
     cout<<"\nLIST 2 : ";
     temp2=head2;
+     
     while(temp2!=NULL){
         cout<<temp2->data<<" ";
         temp2=temp2->next2;

@@ -143,7 +143,4 @@ Some of the often-used industry coding standards.
 
    * [The standard Library c++](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-stdlib)
    * [101 Rules for C++ Best Practices](http://library.bagrintsev.me/CPP/Sutter.C%2B%2B%20Coding%20Standards.2005.pdf)
-
-
-
-
+   

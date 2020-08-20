@@ -2,9 +2,7 @@
 #include <cstdlib>
 #include <algorithm>
 #include <stack>
-
 using namespace std;
-
 class Node
 {
 public:
@@ -16,7 +14,6 @@ public:
         this -> next = NULL;
     }
 };
-
 /* 
 The helper class for the basic utility 
 functions used in Linked List algorithms
@@ -26,8 +23,6 @@ functions used in Linked List algorithms
 3 - take_input - take input from the user, terminated by -1
 4 - Node* copy=NULL;
 */
-
-
 class helper
 {
 public:
@@ -67,8 +62,7 @@ public:
             if(head==NULL)
             {
                 head = n;
-                tail = n;
-             
+                tail = n;            
             }
             else
             {
@@ -87,15 +81,12 @@ public:
         temp->next=copy(ref->next);
         return temp;
     }
-    
-
 };
 
 /// The main algorithmic solution class
 class solution
 {
-public:
-    
+public:    
      /// Recursive approach
      Node* reverse_linked_recursive(Node* head)
      {
@@ -104,24 +95,20 @@ public:
          {
              return head;
          }
-         
          /// getting small output using recursion
          Node* small_head = reverse_linked_recursive(head -> next);
-         head -> next = NULL;
-         
+         head -> next = NULL;         
          /// Traversing to the end node
          Node* temp = small_head;
          while(temp -> next != NULL)
          {
             temp = temp -> next;
-         }
-         
+         }        
          /// Putting the head pointer at the next of end node
          temp -> next = head;
          head = small_head;
          return head;
      }
-
      /// The iterative approach
      Node* reverse_linked_iterative(Node* head)
      {
@@ -129,8 +116,7 @@ public:
          if(head == NULL || head -> next == NULL)
          {
              return head;
-         }
-         
+         }      
          /*
           getting three pointers,
           
@@ -138,8 +124,7 @@ public:
           temp = auxiliary storage (Node pointer)
           curr = current pointer
          
-         */
-         
+         */      
          Node* prev = NULL;
          Node *temp;
          Node  *curr = head;
@@ -152,12 +137,8 @@ public:
          }
          head=prev;
          return head;
-     }
-     
+     }    
 };
-
-
-
 int main()
 {
     helper help_object;
@@ -171,4 +152,3 @@ int main()
     help_object.print_ll(head3);
     return 0;
 }
-

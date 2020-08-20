@@ -19,7 +19,7 @@
 * [Linear Search](/search/linear_search.go)
 
 ## Sorting
-* [Merge Sort Sequantial](./sort/merge_sort_sequantial.go)
+* [Merge Sort Sequantial](./sort/merge_sort_sequential.go)
 * [Merge Sort Parallel](./sort/merge_sort_parallel.go)
 
 ## Machine Learning

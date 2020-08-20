@@ -80,4 +80,9 @@ func main() {
 	time taken by algorithm is
 	2.535µs
 
+
+
+	Time Complexity: O(nLog(n)) in worst case
+	Space Complexity: O(n) in worst case
+
 */

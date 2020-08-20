@@ -55,7 +55,7 @@ func mergeSortParaller(arr []int) []int {
 		 max := 2048
 		 we cand add condition like this
 		 if len(arr) < max{
-			mergeSortSequantial(arr)
+			mergeSortSequential(arr)
 		 }
 		 it will use normal mergesort  after array became small
 		 because for that small size, creating gorouting and waiting for scheduler
@@ -114,5 +114,10 @@ func main() {
 	[1 1 1 2 3 4 5 5 6 7]
 	time taken by algorithm is
 	51.359µs
+
+
+
+	Time Complexity: O(Log(n)) in worst case
+	Space Complexity: O(n) in worst case
 
 */

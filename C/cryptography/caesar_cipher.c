@@ -1,13 +1,13 @@
-/* Caesar Cipher Algorithm 
+/* Caesar Cipher Algorithm
 
-Caesar Cipher Algorithm is an old encryption methodology used for encryption of data. Also known as Caesar Shift or 
-Caesar’s Code, it is one of the most straightforward and prevalent encryption technique. This Caesar Cipher 
-encryption algorithm is a kind of substitution cipher wherein every character in the plain-text or the user 
-input is replaced by another character which is defined with a fixed number of positions away from the existing character. 
+Caesar Cipher Algorithm is an old encryption methodology used for encryption of data. Also known as Caesar Shift or
+Caesar’s Code, it is one of the most straightforward and prevalent encryption technique. This Caesar Cipher
+encryption algorithm is a kind of substitution cipher wherein every character in the plain-text or the user
+input is replaced by another character which is defined with a fixed number of positions away from the existing character.
 It is a method in which every letter or character in the plain text is altered and shifted. Every text character replaced
  by a specific character depending upon the algorithm.
 
-The Caesar Cipher Algorithm is one of the oldest and easiest algorithms for encryption and decryption algorithm 
+The Caesar Cipher Algorithm is one of the oldest and easiest algorithms for encryption and decryption algorithm
 in C programming language.
 
 */
@@ -19,7 +19,7 @@ char data[50], temp;
 int key, count;
 
 /* Cipher_Caesar Encryption */
-void encryption() 
+void encryption()
 {
 	for (count = 0; data[count] != '\0'; count++) {
 		temp = data[count];
@@ -41,7 +41,7 @@ void encryption()
 }
 
 /* Cipher_Caesar Decryption */
-void decryption() 
+void decryption()
 {
 	for (count = 0; data[count] != '\0'; count++) {
 		temp = data[count];
@@ -66,12 +66,12 @@ int main()
 {
 	printf("Enter a String:\t");
 	scanf("%[^\n]s", data);
-	
+
 	printf("Enter a Key:\t");
 	scanf("%d", &key);
-	
+
 	encryption();
-    decryption();
+	decryption();
 
 	printf("\n");
 	return 0;
@@ -80,9 +80,9 @@ int main()
 
 /* Sample Output:
 
-Enter a String: HACKINCODES                                                                                                                    
-Enter a Key:    4                                                                                                                              
-Encrypted Message:      LEGOMRGSHIW                                                                                                            
-Decrypted Message:      HACKINCODES 
+Enter a String: HACKINCODES
+Enter a Key:    4
+Encrypted Message:      LEGOMRGSHIW
+Decrypted Message:      HACKINCODES
 
 */

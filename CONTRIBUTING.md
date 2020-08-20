@@ -3,7 +3,7 @@
 ## Creating Pull Request
 You have a GitHub repo and can push to it. All is well. But how the heck do you contribute to other people's GitHub projects? That is what I wanted to know after I learned git and GitHGub. I will explain how to fork a git repo, make changes, and submit a pull request.
 
- - when you want to work on other's GitHub project, the first step is to fork a repo. <br><br>
+ - When you want to work on other's GitHub project, the first step is to fork a repo. <br><br>
  <img src="img/fork.png " width="750" /><br>
  
   - Once there click on the Fork button in the top-right corner. This creates a new copy of repo under your Github user account.

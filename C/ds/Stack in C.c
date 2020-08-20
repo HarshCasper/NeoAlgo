@@ -43,7 +43,6 @@ int pop() {
 }
 
 int push(int data) {
-
    if(!isfull()) {
       top = top + 1;
       stack[top] = data;
@@ -54,7 +53,6 @@ int push(int data) {
 }
 
 int main() {
-
    int ch,n,a;
    do{
 
@@ -87,7 +85,6 @@ int main() {
             break;
 
         case 6:
-
              if(!isempty()) {
                 printf("Elements: \n");
                   for(int i = top; i>=0; i--){
@@ -105,12 +102,10 @@ int main() {
 
         default:
             printf("Please enter the correct choice\n");
-
    }
         printf("Press 1 to repeat otherwise press any key \n");
         scanf("%d",&n);
 
    }while(n == 1);
-
    return 0;
 }

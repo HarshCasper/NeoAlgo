@@ -91,5 +91,6 @@ _add list here_
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
 
 ## Other

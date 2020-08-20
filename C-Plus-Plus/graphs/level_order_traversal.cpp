@@ -31,13 +31,13 @@ using namespace std;
  };
  
  node * root; // to create nodes.
- node * create(int n){
-     node * x =new node();
-     x->left=NULL;
-     x->right=NULL;
-     x->val=n;
+ node * create(int value){
+     node * newnode =new node();
+     newnode->left=NULL;
+     newnode->right=NULL;
+     newnode->val=value;
      
-     return x;
+     return newnode;
  }
  
  

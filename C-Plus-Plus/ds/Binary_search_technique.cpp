@@ -1,9 +1,8 @@
 #include<bits/stdc++.h> //header file 
-using namespace std; //for cin and cout
+using namespace std; //for standard cin and cout
 
-
-
-/*c++ program to implement binary search technique
+/*
+c++ program to implement binary search technique
 
 inputs: 
 	Size of array/list
@@ -14,72 +13,58 @@ Program should do :
 Sample Test Case:
 	Input :
 	5
-	1 4 2 3 4 
+	1 4 2 3 4
 	4
 	Output:
 	Occurence of '4': 2
 */
 
-//sorting the elements in ascending order
-void Bubblesort(int arr[],int size)
-{
-	int temp;//temporary variable to swap variable
-	for(int i=0;i<size;i++)
-	{
-		for(int j=0;j<size-1;--i,j++)
-		{if(arr[j]>arr[j+1])
-			{//swapping the values
-				temp=arr[j];
-				arr[j]=arr[j+1];
-				arr[j+1]=temp;
-			}
 
-		}
-	}
-}
-//Binary search for searching the element
-int Bsearch(int arr[],int n,int x,bool searchfirst)
+//BinarySearch() to search the elements and count the occurrence
+
+
+int BinarySearch(int arr[],int n,int x,bool searchfirst)
 {
-	Bubblesort(arr,n);
-	int low=0,high=n-1,result=-1;//low and high variables to store first and last element of array
-	while(low<=high)			//result variable to store the occurrence
+	int first=0,last=n-1,result=-1;//first and last variables to store first and last element of array
+	while(first<=last)			//result variable to store the occurrence
 	{
-		int mid = (low+high)/2;
+		int mid = (first+last)/2;
 		if(arr[mid]==x)
 		{
 			result=mid;
-			if(searchfirst) 	//searchfirst - varible to search the first element of occurrence
-				high=mid-1;
+			if(searchfirst) 	//searchfirst - a bool type varible to search the first element of occurrence
+				last=mid-1;		
 			else
-				low=mid+1;
+				first=mid+1;
 
 		}
-		else if(x<arr[mid]) high=mid-1;
-		else low=mid+1;
+		else if(x<arr[mid]) last=mid-1;
+		else first=mid+1;
 	}
 	return result;
 }
+
+//main() function to take the number of elements
 int main()
-{	//array to store the elements
+{
 	int arr[50],n;
-	cout<<"Enter the size of array:"<<endl;
+	cout<<"Enter the size of array:"<<endl; //size of array
 	cin>>n;
-	cout<<"Enter the elements in an array:"<<endl;
+	cout<<"Enter the elements in an array(in ascending order):"<<endl;  //elements in ascending order
 	for(int i=1;i<=n;i++)
 		cin>>arr[i];
-	Bubblesort(arr,n); //calling Bubblesort to sort the elements entered
 	int x;
-	cout<<"Enter a number  :"<<endl;
+	cout<<"Enter a number to find its Occurrence :"<<endl;  //variable whose occurrence is to be find out
 	cin>>x;
-	int firstIndex=Bsearch(arr,sizeof(arr)/sizeof(arr[0]),x,true); //firstIndex to save the ruturn value
+	int firstIndex= BinarySearch(arr,sizeof(arr)/sizeof(arr[0]),x,true); //firstIndex to save the ruturn value
 	if(firstIndex==-1)
 	{
-		cout<<"Occurrence of "<<x<<" : "<<0<<endl;
+		cout<<"Occurrence of "<<x<<" : "<<0<<endl; //if occurrence not found
 
 	}
 	else
 	{
-		int lastIndex=Bsearch(arr,sizeof(arr)/sizeof(arr[0]),x,false); //lastIndex to save the return value
+		int lastIndex= BinarySearch(arr,sizeof(arr)/sizeof(arr[0]),x,false); //lastIndex to save the return value
 		cout<<"Occurrence of "<<x<<" :"<<lastIndex-firstIndex +1<<endl; //subtracting lastindex from firstindex to get the occurrence
 	}
 	return 0;

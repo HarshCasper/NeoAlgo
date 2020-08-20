@@ -1,6 +1,6 @@
 ## Introduction
 
-Programming style is about how we organize and document our code. A program written following a consistent style is easier to read, easier to correct and easier to maintain.
+Programming style is about how we organize and document our code. A program which is written following a consistent style is easier to read, debug and maintain.
 
 A program may be written only once, but is read many times:
 
@@ -21,7 +21,7 @@ Some of the often-used industry coding standards.
 
 1. Variable Names
    
-   The names of variables and data members are all in lowercase generally, with underscores between words.(lowerCamelCase for variable names)
+   The names of variables and data members are all in lowercase generally, with underscores between words. (lowerCamelCase for variable names)
    ```
     int count 
   
@@ -52,13 +52,13 @@ Some of the often-used industry coding standards.
    with_map
    ```
 
-## Whitespace and Identation
+## Whitespace and Indentation
 
-   * The most important thing is never mix tabs and spaces.
-   * Use 2 or 4 spaces per level of identation.
+   * The most important thing is never mixing tabs and spaces.
+   * Use 2 or 4 spaces per level of indentation.
    * You Should set your editor to replace tabs with spaces.
-   * Add space to improve readability between operators and operands,commas and semicolon.
-   * Add space on outside of parantheses and brackets wherever needed.
+   * Add space to improve readability between operators and operands, commas and semicolon.
+   * Add space on outside of parentheses and brackets wherever needed.
 
    Example:
 
@@ -120,15 +120,15 @@ Some of the often-used industry coding standards.
    * Keep Lines of a Reasonable Length
    * Don't leak memory i.e Every heap allocation using new should have a corresponding delete.
    * Prefer using nullptr to NULL.
-   * Never Use using namespace in a Header File. (This causes the name space you are using to be pulled into the namespace of the header file.)
+   * Never Use using namespace in a Header File. (This causes the namespace you are using to be pulled into the namespace of the header file.)
    * Use .hpp and .cpp for Your File Extensions
    * Never Mix Tabs and Spaces
    * Using const wherever possible. (All member functions that do not modify their object should be const.)
    * Don't Name Anything Starting With _
    * Avoid Macros
-   * Declare variable as locally as possible.
+   * Declare a variable as locally as possible.
    
-   Examples:
+   Example:
 
    ```
    void Fun( vector<int>& v){

@@ -1,21 +1,19 @@
 # Contributing Guidlines
 ### Learn how to create issues, Fork a repo, makes changes, and ask the maintainers to review and merge it
 ## Creating Pull Request
-You have a Github repo and can push to it. All is well. But how the heck do you contribute to other people's Github projects? That is what I wanted to know after I learned git and Github. I will explain how to fork a git repo, make changes, and submit a pull request.
+You have a GitHub repo and can push to it. All is well. But how the heck do you contribute to other people's GitHub projects? That is what I wanted to know after I learned git and GitHGub. I will explain how to fork a git repo, make changes, and submit a pull request.
 
- - when you want to work on other's Github project, the first step is to fork a repo. <br><br>
+ - when you want to work on other's GitHub project, the first step is to fork a repo. <br><br>
  <img src="img/fork.png " width="750" /><br>
  
   - Once there click on the Fork button in the top-right corner. This creates a new copy of repo under your Github user account.
- - Clone this Github repo. Open up the GitBash/Command Line and type in:
- Don't forget to write your guthub user name. <br><br>
+ - Clone this Github repo. Open up the GitBash/Command Line and type in: <br><br>
 <img src="img/git clone.png" width="750"/><br>
-
-- cd into the specific directory. Now create a branch of the master by pushind the command: git branch < YOUR_USERNAME >  <br><br>
+  - Don't forget to write your guthub user name. 
+- cd into the specific directory. Now create a branch of the master by pushing the command: git branch < YOUR_USERNAME >  <br><br>
 <img src="img/git branch.png" width="750" /><br>
 
-- You can now check the branches by pushing in the comand: git branch. <br><br>
-You will see the Master Branch and another branch with your username.
+- You can now check the branches by pushing in the comand: git branch. You will see the Master Branch and another branch with your username. <br><br>
 
 - Switch to Development Branch. Never develop on Master Branch. Push in the command: git checkout < YOURUSERNAME >.  <br><br>
 <img src="img/git checkout.png" width="750"/><br>

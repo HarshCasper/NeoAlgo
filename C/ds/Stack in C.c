@@ -5,7 +5,6 @@ int stack[8];
 int top = -1;
 
 int isempty() {
-
    if(top == -1)
       return 1;
    else
@@ -13,7 +12,6 @@ int isempty() {
 }
 
 int isfull() {
-
    if(top == MAXSIZE)
       return 1;
    else
@@ -25,7 +23,6 @@ int peek() {
 }
 
 int count(){
-
     int count = 0;
     for(int i = top; i>=0; i--){
         count++;
@@ -36,7 +33,6 @@ int count(){
 
 int pop() {
    int data;
-
    if(!isempty()) {
       data = stack[top];
       top = top - 1;
@@ -114,11 +110,7 @@ int main() {
         printf("Press 1 to repeat otherwise press any key \n");
         scanf("%d",&n);
 
-
    }while(n == 1);
-
-
-
 
    return 0;
 }

@@ -34,7 +34,7 @@ int BinarySearch(int arr[],int n,int x,bool searchfirst)
 	int first=0,last=n-1,result=-1;//first and last variables to store first and last element of array
 	while(first<=last)			//result variable to store the occurrence
 	{
-		int mid = (first+last)/2;
+		int mid = first + ((last - first) / 2);
 		if(arr[mid]==x)
 		{
 			result=mid;

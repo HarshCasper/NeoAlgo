@@ -14,10 +14,6 @@
 * [Stack using Queue](./ds/stack_using_queue.go)
 * [Queue using Stack](./ds/queue_using_stack.go)
 * [Singly Linked List](./ds/singly_linked_list.go)
-<<<<<<< HEAD
-=======
-
->>>>>>> 51fba3ce2fafd6f9f188f0c2cecbe728296d18d2
 
 ## Searching
 * [Binary Search](/search/binary_search.go)

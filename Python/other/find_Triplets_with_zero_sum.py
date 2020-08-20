@@ -50,7 +50,13 @@ n = len(arr)
 findTriplets(arr, n) 
 
 '''
-Complexity Analysis:
+SAMPLE INPUT 1 :
+	arr = [0, -1, 2, -3, 1] 
+OUTPUT :
+	-1 0 1
+	-3 2 1
+
+COMPLEXITY ANALYSIS :
 
 Time Complexity : O(n^2).
     Only two nested loops is required, so the time complexity is O(n2).

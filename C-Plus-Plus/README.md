@@ -22,8 +22,8 @@
 - [Stack Using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
-- [Intersection point in Y shaped LinkedList](ds/Intersected Linked List.cpp)
-- [Reverse Linked List](ds/Reverse_linked_list.cpp)
+- [Intersection point LinkedList](ds/Intersected Linked List.cpp)
+
 ## Searching
 
 - [Binary Search](search/Binary_Search.cpp)

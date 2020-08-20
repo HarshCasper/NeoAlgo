@@ -25,7 +25,7 @@ _add list here_
 _add list here_
 
 ## Mathematics
-_add list here_
+* [Prime Factorization Using Sieve](/math/prime_factor.cs)
 
 ## Dynamic Programming
 _add list here_

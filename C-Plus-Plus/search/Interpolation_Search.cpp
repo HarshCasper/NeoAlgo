@@ -72,31 +72,32 @@ int main() //Starting our main function
   return 0;
 }
 
+/*
+SAMPLE INPUT:
 
-//SAMPLE INPUT:
+5 
+1
+7
+4
+9
+2 
+4
 
-//5 
-//1
-//7
-//4
-//9
-//2 
-//4
+SAMPLE OUTPUT:
+Enter size of an array: Enter elements: 
 
-//SAMPLE OUTPUT:
-//Enter size of an array: Enter elements: 
+Array after sorting using default sort is : 
 
-//Array after sorting using default sort is : 
+1 2 4 7 9 
+Enter element to be searched: 
+4
+Element found at index 2
 
-//1 2 4 7 9 
-//Enter element to be searched: 
-//4
-//Element found at index 2
+Time Complexity of Interpolation Search Algorithm
+Average Case: O (log log n) 
+Worst Case: O(N)
 
-//Time Complexity of Interpolation Search Algorithm
-//Average Case: O (log log n) 
-//Worst Case: O(N)
-
-//Space Complexity of Interpolation Search Algorithm is O(1)
+Space Complexity of Interpolation Search Algorithm is O(1)
+*/
 
 

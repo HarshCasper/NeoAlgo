@@ -72,28 +72,32 @@ if index != -1:
     print ('Element found at index', index)  # Returning the index of the element
 else:
     print 'Element not found'  # Returning -1 as element has not found
+    
+""""
+SAMPLE INPUT:
+5
+1
+5
+7
+2
+9
+7
 
-#SAMPLE INPUT:
-#5
-#1
-#5
-#7
-#2
-#9
-#7
+SAMPLE OUTPUT:
+Enter the size of array : Enter elements :
+The elements entered are:
+ [1, 5, 7, 2, 9] 
 
-#SAMPLE OUTPUT:
-#Enter the size of array : Enter elements :
-#The elements entered are:
-# [1, 5, 7, 2, 9] 
+The sorted array is: 
+[1, 2, 5, 7, 9] 
 
-#The sorted array is: 
-#[1, 2, 5, 7, 9] 
+Enter the element to be searched: Element found at index 3
 
-#Enter the element to be searched: Element found at index 3
+Time Complexity of Interpolation Search Algorithm
+Average Case: O (log log n) 
+Worst Case: O(N)
 
-#Time Complexity of Interpolation Search Algorithm
-#Average Case: O (log log n) 
-#Worst Case: O(N)
+Space Complexity of Interpolation Search Algorithm is O(1)
 
-#Space Complexity of Interpolation Search Algorithm is O(1)
+"""
+

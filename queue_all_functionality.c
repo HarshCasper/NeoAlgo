@@ -71,6 +71,16 @@ int get_front(struct queue* q){
 	printf ("\n%d is the front element of the queue.", q->arr[q->front]);
 }
 
+void count(struct queue* q){
+	printf ("\n%d is the number of elements in the queue.", q->curr_size);
+}
+
+void display(struct queue* q){
+	int i;
+	printf ("\nThe elements of the queue are as follows : ");
+	for (i=q->front; i<=q->rear; i++)
+		printf ("%d, ", q->arr[i]);
+}
 
 int main(){
 	
@@ -83,18 +93,27 @@ int main(){
 	printf ("\nQueue created with capacity %d.", max_size);
 	
 	while(1){
-		printf ("\n\n1. Insert an element\n2. Remove an element\n3. See the front element\n4. Exit\n");
+		printf ("\n\n1. Insert an element\n2. Remove an element\n3. See the front element\n4. Count the number of elements of the queue\n5. Display the elements of the queue\n6. Exit\n");
 		scanf ("%d", &ch);
 		switch(ch){
-			case 1: printf("\nEnter element to insert:");
+			case 1: printf("\nYou asked to Insert an element.");
+					printf("\nEnter element to insert:");
 					scanf("%d", &data);
 					enqueue(q, data);
 					break;
-			case 2: dequeue(q);
+			case 2: printf("\nYou asked to Remove an element.");
+					dequeue(q);
 					break;
-			case 3 : get_front(q);
+			case 3 : printf("\nYou asked to Display the Front element.");
+					 get_front(q);
 					 break;
-			case 4 : printf("Exiting..");
+			case 4 : printf("\nYou asked to Count the Number of Elements in the Queue.");
+					 count(q);
+					 break;
+			case 5 : printf("\nYou asked to Display all the Elements in the Queue.");
+					 display(q);
+					 break;
+			case 6 : printf("Exiting..");
 					 exit(0);
 			default : printf ("\nWrong choice. Please enter again.");
 		}

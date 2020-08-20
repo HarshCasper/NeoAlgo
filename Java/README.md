@@ -37,6 +37,7 @@
 * [PancakeSort](sort/PancakeSort.java)
 * [BeadSort](sort/BeadSort.java)
 * [Selection Sort](sort/SelectionSort.java)
+* [Minimum number of swaps to sort an array of N unordered consecutive integers](sort/MinimumSwapsForNIntegers.java)
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)

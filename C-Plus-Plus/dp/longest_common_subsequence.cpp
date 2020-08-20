@@ -1,5 +1,7 @@
-//Given two sequences, find the length of longest subsequence present in both of them.
-//A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous.
+/*
+Given two sequences, find the length of longest subsequence present in both of them.
+A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -18,7 +20,6 @@ int lcs(char *x,char *y)
     for(int j=0;j<=n;j++)
         dp[0][j]=0;
 
-
     for(int i=1;i<=m;i++)
     {
         for(int j=1;j<=n;j++)
@@ -34,19 +35,20 @@ int lcs(char *x,char *y)
         }
     }
 
-    return dp[m][n];   //return last element
+    return dp[m][n]; //return last element
 }
 
 int main()
 {
     char str1[100],str2[100];
+    cout<<"Enter string1 and string2: "
     cin>>str1>>str2;
-
-    cout<<lcs(str1,str2);
+    cout<<"output : "<<lcs(str1,str2);
 }
 
-// input=
-// ABCDEFGH
-// BDHCEG
-// output=
-// 4
+/*
+   Enter string1 and string2 : ABCDEFGH BDHCEG
+   output : 4
+*/
+
+// Time and Space complexity : O(mn)

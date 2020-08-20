@@ -1,63 +1,71 @@
+#include<bits/stdc++.h> //header file 
+using namespace std; //for standard cin and cout
 
-/**
- * copyright 2020 @author omkarlanghe
- * @file
- * Implementation of Binary search algorithm.
+/*
+c++ program to implement binary search technique
+
+inputs: 
+	Size of array/list
+	Elements in the array/list
+	A number whose occurrence is to be printed 
+Program should do :
+	Find the occurrence of the given number using the above technique
+Sample Test Case:
+	Input :
+	5
+	1 4 2 3 4
+	4
+	Output:
+	Occurence of '4': 2
 */
-#include <iostream>
-#include <algorithm>
 
-bool binary_search(int *, int, int, int);
 
-/**
- * Function which returns true if element found in an array, else returns false.
-*/
-bool binary_search(int *arr, int search_element, int lb, int ub) {
-    while (lb <= ub) {
-        int mid = ((lb + ub) / 2);
-        if (arr[mid] == search_element) {
-            return (true);
-        } else if (arr[mid] > search_element) {
-            ub = mid - 1;
-        } else {
-            lb = mid + 1;
-        }
-    }
-    return (false);
+//BinarySearch() to search the elements and count the occurrence
+
+
+int BinarySearch(int arr[],int n,int x,bool searchfirst)
+{
+	int first=0,last=n-1,result=-1;//first and last variables to store first and last element of array
+	while(first<=last)			//result variable to store the occurrence
+	{
+		int mid = (first+last)/2;
+		if(arr[mid]==x)
+		{
+			result=mid;
+			if(searchfirst) 	//searchfirst - a bool type varible to search the first element of occurrence
+				last=mid-1;		
+			else
+				first=mid+1;
+
+		}
+		else if(x<arr[mid]) last=mid-1;
+		else first=mid+1;
+	}
+	return result;
 }
 
-/** Main function */
-int main() {
-    int t, n, search_element;
-    int *arr = nullptr;
-    std::cout << "Enter the number of test cases : " << std::endl;
-    std::cin >> t;
+//main() function to take the number of elements
+int main()
+{
+	int arr[50],n;
+	cout<<"Enter the size of array:"<<endl; //size of array
+	cin>>n;
+	cout<<"Enter the elements in an array(in ascending order):"<<endl;  //elements in ascending order
+	for(int i=1;i<=n;i++)
+		cin>>arr[i];
+	int x;
+	cout<<"Enter a number to find its Occurrence :"<<endl;  //variable whose occurrence is to be find out
+	cin>>x;
+	int firstIndex= BinarySearch(arr,sizeof(arr)/sizeof(arr[0]),x,true); //firstIndex to save the ruturn value
+	if(firstIndex==-1)
+	{
+		cout<<"Occurrence of "<<x<<" : "<<0<<endl; //if occurrence not found
 
-    while (t--) {
-        std::cout << "Enter the size of an array : " << std::endl;
-        std::cin >> n;
-
-        arr = new int[n]; // dynamic memory allocation
-
-        std::cout << "Enter the elements in an array : " << std::endl;
-        for (int i = 0 ; i < n ; i++) {
-            std::cin >> arr[i];
-        }
-
-        std::sort(arr, arr + n);
-
-        std::cout << "Enter the element to search : " << std::endl;
-        std::cin >> search_element;
-
-        // call to binary search function
-        bool result = binary_search(arr, search_element, 0, n);
-
-        if(result) {
-            std::cout << "Element found." << std::endl;
-        } else {
-            std::cout << "Element not found." << std::endl;
-        }
-        delete[] arr; // free memory after use
-    }
-    return 0;
+	}
+	else
+	{
+		int lastIndex= BinarySearch(arr,sizeof(arr)/sizeof(arr[0]),x,false); //lastIndex to save the return value
+		cout<<"Occurrence of "<<x<<" :"<<lastIndex-firstIndex +1<<endl; //subtracting lastindex from firstindex to get the occurrence
+	}
+	return 0;
 }

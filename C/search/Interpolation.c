@@ -63,3 +63,19 @@ int main()
     return 0;
 }
 /* The main() end */
+/*Sample Input Output of above code 
+Enter the size of array (num < 100) : 5
+Enter 5 Elements of array  :
+1
+2
+3
+4
+5
+Enter the value to be Search : 4
+ELEMENTS ARE :
+1    2    3    4    5
+Element to be search is : 4
+
+
+Output -->
+Element 4 found at position 4.

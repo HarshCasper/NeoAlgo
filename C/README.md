@@ -46,7 +46,7 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
 ## Dynamic Programming
-- [EditDistance in Dp](dynamicprogram/EditDistanceDP.c)
+- [EditDistance in Dp](dp/EditDistanceDP.c)
 
 ## Blockchain
 

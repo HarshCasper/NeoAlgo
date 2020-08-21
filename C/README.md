@@ -14,7 +14,7 @@
 - [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
-- [Prime Factorization using Sieve](ds/Primefactorization_Sieve.c)
+- [Prime Factorization using Sieve](math/Primefactorization_Sieve.c)
 
 ## Searching
 

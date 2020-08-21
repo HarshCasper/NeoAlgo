@@ -92,5 +92,7 @@ _add list here_
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
+- [Maximum circular sum in arrays](cp/maximum_circular_sum_arrays.cpp)
 
 ## Other
+- [Decimal to octal conversion](cp/decimal_to_octal_conversion.cpp)

@@ -39,38 +39,40 @@ def interpolationSearch(arr, size, search_element):
 # Starting with the main code
 # Creating array of the size n
 # Size would be taken into the variable n from user
+def main():
+    arr = []
+    size = int(input('Enter the size of array : '))
 
-arr = []
-size = int(input('Enter the size of array : '))
+    # Entering the elements in the array
 
-# Entering the elements in the array
+    print ('Enter elements :')
+    for i in range(0, size):
+        ele = int(input())
+        arr.append(ele)
+    print ('The elements entered are:\n', arr, '\n')
 
-print ('Enter elements :')
-for i in range(0, size):
-    ele = int(input())
-    arr.append(ele)
-print ('The elements entered are:\n', arr, '\n')
+    # Sorting our array
 
-# Sorting our array
+    print ('The sorted array is: ')
+    arr.sort()
+    print (arr, '\n')
 
-print ('The sorted array is: ')
-arr.sort()
-print (arr, '\n')
+    # Entering the searching element
 
-# Entering the searching element
+    search_element = int(input('Enter the element to be searched: '))
 
-search_element = int(input('Enter the element to be searched: '))
+    index = interpolationSearch(arr, size, search_element)
 
-index = interpolationSearch(arr, size, search_element)
+    # If element was found
 
-# If element was found
+    if index != -1:
+        # Returning the index of the element
+        print ('Element found at index', index)
+    else:
+        # Returning -1 as element has not found
+        print ('Element not found')
+main()
 
-if index != -1:
-    # Returning the index of the element
-    print ('Element found at index', index)
-else:
-    # Returning -1 as element has not found
-    print ('Element not found')
 """"
 SAMPLE INPUT:
 5

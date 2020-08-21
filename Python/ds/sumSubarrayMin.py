@@ -1,5 +1,5 @@
 def sum_subarray_mins(A) -> int:
-    """"returns the sum of the smallest elements of all arrays"""
+    """"returns the sum of the smallest elements of all sub-arrays"""
     stack = []
     length = len(A)
     left = [-1]*length
@@ -19,8 +19,8 @@ def sum_subarray_mins(A) -> int:
         sumi += (index - left[index]) * (right[index]-index) * A[index]
     return sumi
 
-arr = list(map(int, input().split(',')))
-print(sum_subarray_mins(arr))
+arr = list(map(int, input('Enter elements of an array (format- a,b,c..): ').split(',')))
+print('Sum of smallest elements of all sub-arrays is: {}' .format(sum_subarray_mins(arr)))
 """
 Input format:
 5,7,1,3,8,2

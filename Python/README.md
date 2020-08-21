@@ -16,6 +16,7 @@
 * [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
+* [Singly Linked List](ds/SinglyLinkedList.py)
 * [Sum of smallest elements in all subarrays](ds/sumSubarrayMin.py)
 
 ## Searching

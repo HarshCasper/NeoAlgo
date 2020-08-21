@@ -10,11 +10,14 @@
 # Codes in the Golang language
 
 ## Data Structures
-* [Stack](ds/Stack.go)
+* [Stack](./ds/Stack.go)
+* [Stack using Queue](./ds/stack_using_queue.go)
+* [Queue using Stack](./ds/queue_using_stack.go)
+* [Circular Linked List](./ds/CircularLinkedList.go)
 
 ## Searching
-* [Binary Search](search/binary_search.go)
-* [Linear Search](search/linear_search.go)
+* [Binary Search](./search/binary_search.go)
+* [Linear Search](./search/linear_search.go)
 
 ## Sorting
 _add list here_

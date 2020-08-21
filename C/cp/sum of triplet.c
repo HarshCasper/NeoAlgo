@@ -12,7 +12,7 @@ output:
 */
 #include<stdio.h>
 
-void sort(int a[1000],int n)
+void sort(int a[],int n)
 {
 	//using bubble sort
 	int i,j,temp;
@@ -29,7 +29,7 @@ void sort(int a[1000],int n)
 		}
 	}
 }
-void tripletSum(int a[1000],int n,int target)
+void tripletSum(int a[],int n,int target)
 {
 	int i=0, j,k;
   for(i=0; i<n; i++ ) // to traverse the whole array we need a foor loop from i to n-1
@@ -60,9 +60,12 @@ void tripletSum(int a[1000],int n,int target)
 
 int main()
 {
-	int a[1000],n,i,target;
+	int *a, n,i,target;
 	
 	scanf("%d",&n); //input no. of elements in array
+	
+	a = (int)malloc(n * sizeof(int)); // take dynamic array as they are not of fixed size and are allocated on heap
+	
 	for(i=0; i<n; i++)
 	{
 		scanf("%d",&a[i]); //  input elements in array

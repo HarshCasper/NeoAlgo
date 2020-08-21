@@ -1,26 +1,26 @@
 ''' python program for Euler's Totient Function '''
-def euler_totient(q):
-    ''' Takes in a variable q and return the number of coprimes of q '''
-    arr=[]
-    for i in range(n + 1):
-        arr.append(i)
+def euler_totient(num):
+    ''' Takes in a variable q and return the number of coprimes of n '''
+    Arr=[]
+    for count in range(num + 1):
+        Arr.append(count)
         
-    for i in range(2, n + 1):
+    for count in range(2, num + 1):
       '''if this condition is satisfied then we are removing the coprimes of j '''
-      if arr[i] == i:                    
-            for j in range( i ,n + 1 ,i):
-                arr[j] -= (arr[j] / i)  
+      if Arr[count] == count:                    
+            for j in range( count ,num + 1 ,count):
+                Arr[j] -= (Arr[j] / count)  
                     
-    return int(arr[n])  
+    return int(Arr[num])  
     
     
 print("Enter a number : ")
 ''' taking input from the user '''
-n = int(input())                       
-if(n < 0):                   
+num = int(input())                       
+if(num < 0):                   
     print("inavlid input")
 else:
-    print(euler_totient(n))
+    print(euler_totient(num))
     
 '''sample input
 euler_totient(4) will be 2 as coprime will be (1,4),(3,4)

@@ -55,7 +55,7 @@ _add list here_
 
 ## Cryptography
 
-_add list here_
+- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 
 ## Other
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)

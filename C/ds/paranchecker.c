@@ -14,7 +14,7 @@ Output: no
 #include <math.h>
 #include <stdlib.h>
 int check(char *a){
-    int a1 = 0,a2 = 0 , b1= 0, b2=0,c1=0,c2=0;
+    int a1 = 0,a2 = 0 , b1= 0, b2=0,c1=0,c2=0; //initialising all to 0 first
     for(int i=0;i<strlen(a) ; i++){
         if(a[i]=='{')
             a1++;

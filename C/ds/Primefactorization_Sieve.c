@@ -44,4 +44,7 @@ int main()                                  /* driver function*/
 /* THIS CODE IS CONTRIBUTED BY KASHIKA JAIN
 SAMPLE INPUT  : 39
 SAMPLE OUTPUT : The prime factors of the number 39 are :3 13 
+
+Time complexity  : O(log n)
+Space complexity : O(n)
 */

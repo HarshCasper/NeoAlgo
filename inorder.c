@@ -7,6 +7,7 @@ struct node{
 	struct node* right;
 };
 
+//This function creates a new node and alocates memory to it
 struct node* create_new_node(int info){
 
 	struct node* new_node = (struct node*)malloc(sizeof(struct node));
@@ -17,6 +18,7 @@ struct node* create_new_node(int info){
 	return (new_node);
 }
 
+//This function is for displaying the inorder traversal of the binary tree
 void inorder_traversal(struct node* head){
 
 	if (head==NULL)
@@ -29,6 +31,8 @@ void inorder_traversal(struct node* head){
 	inorder_traversal(head->right);
 
 }
+
+//driver program
 int main(){
 	
 	struct node* head = create_new_node(40);

@@ -46,7 +46,7 @@ def main():
     # Entering the elements in the array
 
     print ('Enter elements :')
-    for i in range(0, size):
+    for index in range(0, size):
         ele = int(input())
         arr.append(ele)
     print ('The elements entered are:\n', arr, '\n')

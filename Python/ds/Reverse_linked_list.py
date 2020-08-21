@@ -86,13 +86,14 @@ class solution:
         return prev
 
 if __name__ == '__main__':
-    # creating Linked List for recursive
+
+    # creating Linked List
     llist = LinkedList()
     llist.head = Node(1)
-    # creating Linked list for Iterative
+    
     llist1 = LinkedList()
     llist1.head = Node(1)
-
+    
     # taking array input using map and list
     arr = list(map(int,input().split()))
     
@@ -100,24 +101,24 @@ if __name__ == '__main__':
     for i in arr:
         llist.append(i)
         llist1.append(i)
+
+    print("printing the given Linked List")
     llist.printLL()
     sol = solution()
     
-    #llist1.printLL()
+
 
     # recursive approach test
     llist2 = LinkedList()
     llist2.head = sol.reverse_linked_recursive(llist.head)
+    print("Reverse Linked List Using Recursion")
+    llist2.printLL()
     
     
     # iterative approach test
     llist3 = LinkedList()
     llist3.head = sol.reverse_linked_iterative(llist1.head)
-
-    #Printing Linked List
-    print("Reverse Linked List using Recursion")
-    llist2.printLL()
-    print("Reverse Linked List using Iterative")
+    print("Reverse Linked List Using Iteration")
     llist3.printLL()
 
 

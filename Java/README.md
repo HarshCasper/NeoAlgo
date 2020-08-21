@@ -55,8 +55,7 @@ _add list here_
 * [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)
 
 ## Dynamic Programming
-* [Kandane Algorithm](dp/Kadane_Algorithm.java)
-* [CoinChange DP](dp/Coin_Change.java) 
+* [Kandane Algorithm](dp/Kadane_Algorithm.java) 
 
 ## Blockchain
 _add list here_

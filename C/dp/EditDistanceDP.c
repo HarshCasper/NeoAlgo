@@ -62,5 +62,4 @@ int main()
 Input:
 Enter the first string: "sunday"
 Enter the second string: "saturday"
-Output: 3
-*/
+Output: 3  */

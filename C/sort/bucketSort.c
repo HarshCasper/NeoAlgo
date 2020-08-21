@@ -1,103 +1,58 @@
-/*
- * C Program to Sort Array using Bucket Sort
- */
 #include <stdio.h>
-#include <stdlib.h>
 
-/* Structing a Bucket*/
-struct bucket
+// bucket sort function
+void Bucket_Sort(int array[], int n, int max, int min)
 {
-    int count;
-    int *value;
-};
-
-/* Function for comparing Integers */
-int compareIntegers(const void *first, const void *second)
-{
-    int x = *((int *)first), y = *((int *)second);
-    if (x == y)
-    {
-        return 0;
-    }
-    else if (x < y)
-    {
-        return -1;
-    }
-    else
-    {
-        return 1;
-    }
-}
-/* End of compareIntegers() */
-
-/* Function for bucket sort */
-void bucketSort(int array[], int n)
-{
-    struct bucket buckets[3];
-    int i, j, k;
-    for (i = 0; i < 3; i++)
-    {
-        buckets[i].count = 0;
-        buckets[i].value = (int *)malloc(sizeof(int) * n);
-    }
+    int i, j = 0;
+    int cpos[max+1], cneg[-(min-1)];
+    for (i = 0; i <= max; i++)
+        cpos[i] = 0;
+    for (i = 0; i <= -(min-1); i++)
+        cneg[i] = 0;
 
     for (i = 0; i < n; i++)
     {
-        if (array[i] < 0)
-        {
-            buckets[0].value[buckets[0].count++] = array[i];
-        }
-        else if (array[i] > 10)
-        {
-            buckets[2].value[buckets[2].count++] = array[i];
-        }
+        if (array[i] >= 0)
+            (cpos[array[i]])++;
         else
-        {
-            buckets[1].value[buckets[1].count++] = array[i];
-        }
+            (cneg[-array[i]])++;
     }
-    for (k = 0, i = 0; i < 3; i++)
-    {
-        // now using quicksort to sort the elements of buckets
-        qsort(buckets[i].value, buckets[i].count, sizeof(int), &compareIntegers);
-        for (j = 0; j < buckets[i].count; j++)
-        {
-            array[k + j] = buckets[i].value[j];
-        }
-        k += buckets[i].count;
-        free(buckets[i].value);
-    }
+
+    for (i = -min; i > 0; i--)
+        for (; cneg[i] > 0; (cneg[i])--)
+            array[j++] = -i;
+
+    for (i = 0; i <= max; i++)
+        for (; cpos[i] > 0; (cpos[i])--)
+            array[j++] = i;
 }
-/* End of Bucket_Sort() */
 
-/* The main() begins */
-int main(char *arg[])
+//main fucntion
+int main()
 {
-
-    int array[100];
-    int i, j, k, n;
-
-    //Taking Limit
-    printf("Enter Limit:");
-    scanf("%d", &n);
-    //Taking Elements in the Array
-    printf("Enter Elements:\n");
-    for (i = 0; i < n; i++)
+    int array[100], i, num, max = 0, min = 0;
+    printf("Enter the size of array : ");
+    scanf("%d", &num);
+    printf("Enter the %d elements to be sorted:\n",num);
+    for (i = 0; i < num; i++)
         scanf("%d", &array[i]);
-    //Priting the Original Array
-    printf("Before Sorting\n");
-    for (j = 0; j < i; j++)
+    for (i = 0; i < num; i++)
     {
-        printf("%d ", array[j]);
+        if (array[i] > max)
+            max = array[i];
+        if (array[i] < min)
+            min = array[i];
     }
-
-    //Calling Bucket Sort Function
-    bucketSort(array, n);
-
-    //Priting the Sorted Array
-    printf("\n After Sorting\n");
-    for (k = 0; k < i; k++)
-        printf("%d ", array[k]);
+    if (min >= 0)min = 0;
+    printf("\nThe array of elements before sorting : \n");
+    for (i = 0; i < num; i++)
+        printf("%d ", array[i]);
+    printf("\nThe array of elements after sorting : \n");
+    Bucket_Sort(array, num, max, min);
+    for (i = 0; i < num; i++)
+    {
+        printf("%d ", array[i]);
+    }
 
     return 0;
 }

@@ -16,12 +16,17 @@
 * [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
+
 * [Circular Linked List](ds/Circular_LinkedList.py)
+* [Singly Linked List](ds/SinglyLinkedList.py)
+
+
 ## Searching
 * [Bilinear Search](search/bilinear.py)
 * [Binary Search](search/binarysearch.py)
 * [Breadth First Search](search/bfs.py)
 * [Depth First Search](search/dfs.py)
+* [Interpolation Search](search/Interpolation_Search.py)
 * [Linear Search](search/Linear_Search.py)
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
@@ -65,6 +70,7 @@
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+* [Euler’s Totient Function](math/euler_totient_function.py)
 
 ## Competitive Programming
 

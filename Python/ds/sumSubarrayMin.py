@@ -23,9 +23,10 @@ arr = list(map(int, input('Enter elements of an array (format- a,b,c..): ').spli
 print('Sum of smallest elements of all sub-arrays is: {}' .format(sum_subarray_mins(arr)))
 """
 Input format:
-5,7,1,3,8,2
+Enter elements of an array (format- a,b,c..): 5,7,1,3,8,2
 
-Output: 49
+Output format:
+Sum of smallest elements of all sub-arrays is: 49
 
 Approach: Before finding the sum, we should know the minimums in all sub-arrays.
 For this we will traverse to all numbers of the list and find their left minimum and

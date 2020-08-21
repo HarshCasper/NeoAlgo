@@ -46,4 +46,6 @@ int main(){
 	return 0;
 }
 
-//Time complexity of the above code : O(n) (where n is the number of nodes in the tree)
+//Time complexity of the above code : O(n) 
+//Space complexity of the above code : O(n)
+//(where n is the number of nodes in the tree)

@@ -54,4 +54,20 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 
 #### If Still, you have some problem then Do watch this tutorial
 [Git & GitHub Tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk)
+<br>
+## Here are some 12 Rules
+#### You should be following while doing Open-Source to make your Contributions shine during the whole process:
+- Be Nice, Be Respectful (BNBR)
+- Check if the Issue you created, exists or not.
+- Make proper commit messages and document your PR well.
+- Always add Comments in your Code and explain it at points.
+- Dynamic Input is always preferred over static Driver Code.
+- Squash your commits before you push them.
+- Always create a Pull Request from a Branch; Never from the Master.
+- Follow proper Code conventions. Using i, j in Loops show a poor understanding of Code Quality. Use proper Variable, Function Names.
+- Issues would be served on "First Come, First Serve" basis.
+- Issues would be tagged as Easy, Medium, Hard. Scores would be assigned on the difficulty of Issue you solve.
+- Code would be reviewed by Mentors before they are merged. Every PR requires 3 Reviews.
+- No person can take up more than 2 Issues at a single point of time.
+
 

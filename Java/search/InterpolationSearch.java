@@ -50,7 +50,8 @@ public class InterpolationSearch {
             System.out.println("Element found at index " + position); 
     } 
 } 
-/* <-----Input------->
+/*
+   <-----Input------->
    Enter the size of array:
    4
    Enter the elements of an array:

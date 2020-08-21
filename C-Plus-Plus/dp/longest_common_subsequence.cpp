@@ -51,4 +51,4 @@ int main()
    output : 4
 */
 
-// Time and Space complexity : O(mn)
+// Time and Space complexity : O(mn), where m = length of string1 and n = length of string2

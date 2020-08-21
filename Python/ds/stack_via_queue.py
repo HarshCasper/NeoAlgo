@@ -1,48 +1,41 @@
-# Program to implement a stack using  
-# two queue
-from queue import Queue
-
+ Implement Stack using single queue and recursion
 class Stack:
 
-    def __init__(self):
+	# Constructor
+	def __init__(self):
+		self.q = []
 
-        # Two inbuilt queues
-        self.q1 = Queue()
-        self.q2 = Queue()
+	# Insert an item into the stack
+	def push(self, data):
+		self.q.append(data)
 
-        # To maintain current number
-        # of elements
-        self.curr_size = 0
+	# Utility function to reverse contents of a queue
+	def reversedeque(self):
+		# base case
+		if not self.q:
+			return
 
-    def push(self, x):
-        self.curr_size += 1
+		# hold front element in recursion call stack and insert
+		# it back into the queue after recursive call is over
 
-        # Push x first in empty q2
-        self.q2.put(x)
+		front = self.q.pop()
+		self.reversedeque()
+		self.q.append(front)
 
-        # Push all the remaining
-        # elements in q1 to q2.
-        while (not self.q1.empty()):
-            self.q2.put(self.q1.queue[0])
-            self.q1.get()
+	# Remove the top item from the stack
+	def pop(self):
+		# if the queue is isEmpty
+		if not self.q:
+			print("Underflow!!")
+			exit(0)
 
-        # swap the names of two queues
-        self.q = self.q1
-        self.q1 = self.q2
-        self.q2 = self.q
+		# reverse the queue
+		self.reversedeque()
 
-    def pop(self):
+		# pop front element of reversed queue
+		front = self.q.pop()
 
-        # if no elements are there in q1
-        if (self.q1.empty()):
-            return
-        self.q1.get()
-        self.curr_size -= 1
+		# revert the queue to original state
+		self.reversedeque()
 
-    def top(self):
-        if (self.q1.empty()):
-            return -1
-        return self.q1.queue[0]
-
-    def size(self):
-        return self.curr_size
+		return front

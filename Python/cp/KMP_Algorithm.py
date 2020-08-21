@@ -44,7 +44,7 @@ def KMPSearch(pattern, text):
                 i += 1
 
 #for dynamic input use the below code 
-text =input("Enter the inut string : ")
+text =input("Enter the input string : ")
 pattern = input("Enter the string to be searched : ")
 KMPSearch(pattern, text)
 

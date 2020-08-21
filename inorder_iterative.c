@@ -12,6 +12,7 @@ struct stack_node{
 	struct stack_node* next;
 };
 
+//This function creates a new stack to keep a track of the nodes visited
 struct node* create_new_node(int info){
 
 	struct node* new_node = (struct node*)malloc(sizeof(struct node));
@@ -48,6 +49,7 @@ int is_empty(struct stack_node *top) {
   	return 0;
 }
 
+//This function displays the inorder traversal of the binary tree
 void inorder_traversal(struct node* head) { 
 
   	struct node* curr_node = head; 
@@ -71,7 +73,7 @@ void inorder_traversal(struct node* head) {
   }  
 }      
 
-
+//driver program
 int main(){
 	
 	struct node* head = create_new_node(40);
@@ -85,3 +87,5 @@ int main(){
 
 	return 0;
 }
+
+//Time complexity of the above program : O(n) (where n is the number of nodes in the tree)

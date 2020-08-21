@@ -42,6 +42,7 @@ Stack_using_LinkedList.cpp
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Counting Sort](sort/countsort.cpp)
 - [TimSort](sort/Tim_Sort.cpp)
+- [HeapSort_1](sort/heap_sort.cpp)
 
 ## Queue
 

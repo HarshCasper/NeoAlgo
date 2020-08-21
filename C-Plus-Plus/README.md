@@ -28,6 +28,7 @@ Stack_using_LinkedList.cpp
 - [Binary Search](search/Binary_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
+- [Interpolation Search](search/Interpolation_Search.cpp)
 
 ## Sorting
 

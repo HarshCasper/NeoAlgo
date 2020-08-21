@@ -22,6 +22,7 @@
 * [Binary Search](search/binarysearch.py)
 * [Breadth First Search](search/bfs.py)
 * [Depth First Search](search/dfs.py)
+* [Interpolation Search](search/Interpolation_Search.py)
 * [Linear Search](search/Linear_Search.py)
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)

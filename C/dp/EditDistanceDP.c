@@ -58,8 +58,7 @@ int main()
         printf(" %d\n ", n);
 	return 0; 
 } 
-/* 
-Input:
-Enter the first string: "sunday"
-Enter the second string: "saturday"
-Output: 3  */
+/* Input:
+   Enter the first string: "sunday"
+   Enter the second string: "saturday"
+   Output: 3  */

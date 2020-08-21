@@ -121,21 +121,63 @@ class Node:
 if __name__ == '__main__':
 
     # Taking Input from User
-    user_input = list(map(int,input("Enter values to be added in List \n").split()))
+    user_input = list(map(int,input("Enter initial values to be added in List \n").split()))
 
     # Setting First Value as HEAD
     l  = circular_llist(Node(user_input[0]))
 
-    # Appending values in list
+    # Creation of the list
     for inputs in range(1,len(user_input)):
         l.create(Node(user_input[inputs]))
 
-    l.printAll()
-    l.append(Node(10))
-    l.prepend(Node(5))
-    l.insert(Node(23),7)
-    l.remove(23)
-    l.getSize()
+    print('''
+     PRESS  :  TO 
+     ----------------------
+       1    :  APPEND value at the END of list.
+       2    :  PREPEND value at the START of the list.
+       3    :  INSERT value at the desired Index
+       4    :  DELETE value from the list
+       5    :  PRINT ALL the values of your list
+       6    :  GET SIZE of your List
+       7    :  QUIT The program
+    -----------------------------
+    ''')
+
+
+    choice = 1
+    while choice!=7:
+        print("Enter Your Choice")
+        choice = int(input())
+        if choice==1:
+            user_value = int(input("Enter the value you want to APPEND\n"))
+            l.append(Node(user_value))
+        elif choice==2:
+            user_value = int(input("Enter the value you want to PREPEND\n"))
+            l.prepend(Node(user_value))
+        elif choice==3:
+            user_value = int(input("Enter the value you want to INSERT\n"))
+            user_desired_index = int(input(f"Enter the position for {user_value}\n"))
+            l.insert(Node(user_value),user_desired_index)
+        elif choice==4:
+            user_value = int(input("Enter the value to be DELETED\n"))
+            l.remove(user_value)
+        elif choice==5:
+            l.printAll()
+        elif choice==6:
+            l.getSize()
+        elif choice!=7:
+            print("Invalid choice. Try Again!")
+        
+    else:
+        print("ThankYou! for using our LinkedList\nHAve a Nice Day")
+  
+    
+    # l.printAll()
+    # l.append(Node(10))
+    # l.prepend(Node(5))
+    # l.insert(Node(23),7)
+    # l.remove(23)
+    # l.getSize()
 
     # OUTPUT :
     # ----------------------------------------------------------------------------------

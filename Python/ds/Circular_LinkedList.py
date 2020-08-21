@@ -156,7 +156,7 @@ if __name__ == '__main__':
             l.prepend(Node(user_value))
         elif choice==3:
             user_value = int(input("Enter the value you want to INSERT\n"))
-            user_desired_index = int(input(f"Enter the position for {user_value}\n"))
+            user_desired_index = int(input(f"Enter the index for {user_value}\n"))
             l.insert(Node(user_value),user_desired_index)
         elif choice==4:
             user_value = int(input("Enter the value to be DELETED\n"))
@@ -172,32 +172,42 @@ if __name__ == '__main__':
         print("ThankYou! for using our LinkedList\nHAve a Nice Day")
   
     
-    # l.printAll()
-    # l.append(Node(10))
-    # l.prepend(Node(5))
-    # l.insert(Node(23),7)
-    # l.remove(23)
-    # l.getSize()
+        # OUTPUT :
+        # ----------------------------------------------------------------------------------
+        #     Enter initial values to be added in List
+        #      1 2 3 4 5
 
-    # OUTPUT :
-    # ----------------------------------------------------------------------------------
-    # Enter values to be added in List
-    # 1 2 3 4 5 6 7 8 9
-    # Your Current List:
-    # 1--->2--->3--->4--->5--->6--->7--->8--->9
-    # Value 10 adding at the END of list
-    # Your Current List:
-    # 1--->2--->3--->4--->5--->6--->7--->8--->9--->10
-    # Value 5 adding at the START of list
-    # Your Current List:
-    # 5--->1--->2--->3--->4--->5--->6--->7--->8--->9--->10
-    # Inserting 23 at index 7
-    # Your Current List:
-    # 5--->1--->2--->3--->4--->5--->6--->23--->7--->8--->9--->10
-    # Removing 23 from the list
-    # Your Current List:
-    # 5--->1--->2--->3--->4--->5--->6--->7--->8--->9--->10
-    # Total No of Nodes : 11
+        #      PRESS  :  TO
+        #      ----------------------
+        #        1    :  APPEND value at the END of list.
+        #        2    :  PREPEND value at the START of the list.
+        #        3    :  INSERT value at the desired Index
+        #        4    :  DELETE value from the list
+        #        5    :  PRINT ALL the values of your list
+        #        6    :  GET SIZE of your List
+        #        7    :  QUIT The program
+        #     -----------------------------
+
+        # Enter Your Choice
+        # 1
+        # Enter the value you want to APPEND
+        # 6
+        # Value 6 adding at the END of list
+        # Your Current List:
+        # 1--->2--->3--->4--->5--->6
+        # Enter Your Choice
+        # 3
+        # Enter the value you want to INSERT
+        # 10
+        # Enter the position for 10
+        # 4
+        # Inserting 10 at index 4
+        # Your Current List:
+        # 1--->2--->3--->4--->10--->5--->6
+        # Enter Your Choice
+        # 7
+        # ThankYou! for using our LinkedList
+        # HAve a Nice Day
 
 
 

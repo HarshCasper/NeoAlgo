@@ -6,18 +6,17 @@
 '''
 
 # function to print triplets with 0 sum 
-
-def find_Triplets_with_zero_sum(arr, n): 
+def find_Triplets_with_zero_sum(arr, num): 
    
     ''' find triplets in a given  array whose sum is zero 
         
         Parameteres : 
             arr : input array 
-            n = size of input array
+            num = size of input array
 
         Output :
-            if triplets found print their values 
-            else print No Triplet Found
+            if triplets found reuturn their values 
+            else return No Triplet Found
 
     '''
    
@@ -26,34 +25,38 @@ def find_Triplets_with_zero_sum(arr, n):
     # sort array elements 
     arr.sort() 
 
-    for i in range(0, n - 1) : 
+    # Run a loop until l is less than r, if the sum of array[l], array[r] is equal to zero then print the triplet and break the loop
+    for index in range(0, num - 1) : 
     
         # initialize left and right 
-        l = i + 1
-        r = n - 1
-        x = arr[i] 
+        left = index + 1
+        right = num - 1
+
+        curr = arr[index] # current element
         
-        while (l < r): 
+        while (left < right): 
             
-            temp = x + arr[l] + arr[r] 
+            temp = curr + arr[left] + arr[right] 
             
             if (temp == 0) : 
                 # print elements if it's sum is zero 
-                print(x, arr[l], arr[r]) 
-                l+=1
-                r-=1
+                print(curr, arr[left], arr[right]) 
+                
+                left += 1
+                right -= 1
+                
                 found = True
             
 
             # If sum of three elements is less 
             # than zero then increment in left 
             elif (temp < 0) : 
-                l+=1
+                left += 1
 
             # if sum is greater than zero than 
             # decrement in right side 
             else: 
-                r-=1
+                right -= 1
         
     if (found == False): 
         print(" No Triplet Found") 
@@ -73,10 +76,12 @@ if __name__ == "__main__":
 
 '''
 SAMPLE INPUT 1 :
-	arr = [0, -1, 2, -3, 1] 
+	Enter size of array : 5 
+	Enter elements of array : 0, -1, 2, -3, 1
 OUTPUT :
-	-1 0 1
-	-3 2 1
+	Triplets with 0 sum are as : 
+				    -3 1 2
+				    -1 0 1
 
 COMPLEXITY ANALYSIS :
 

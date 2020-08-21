@@ -61,6 +61,7 @@ int main()
         printf(" %d\n ", n);
 	return 0; 
 } 
+// The main() end here
 /*
 Input:
 Enter the first string: "sunday"

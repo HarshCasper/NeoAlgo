@@ -56,3 +56,23 @@ int main()
 
     return 0;
 }
+
+/* 
+Output:
+
+Enter the size of array : 8
+Enter the 8 elements to be sorted:
+5
+12
+61
+1
+8
+90
+37
+18
+
+The array of elements before sorting :
+5 12 61 1 8 90 37 18
+The array of elements after sorting :
+1 5 8 12 18 37 61 90 
+*/

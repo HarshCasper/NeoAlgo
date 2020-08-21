@@ -1,17 +1,17 @@
 ''' python program for Euler's Totient Function '''
 def euler_totient(num):
-    ''' Takes in a variable q and return the number of coprimes of n '''
-    Arr=[]
+    ''' Takes in a variable num and return the number of coprimes of n '''
+    arr=[]
     for count in range(num + 1):
-        Arr.append(count)
+        arr.append(count)
         
     for count in range(2, num + 1):
       '''if this condition is satisfied then we are removing the coprimes of j '''
-      if Arr[count] == count:                    
+      if arr[count] == count:                    
             for j in range( count ,num + 1 ,count):
-                Arr[j] -= (Arr[j] / count)  
+                arr[j] -= (arr[j] / count)  
                     
-    return int(Arr[num])  
+    return int(arr[num])  
     
     
 print("Enter a number : ")

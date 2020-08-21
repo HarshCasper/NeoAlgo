@@ -1,5 +1,8 @@
-/* A Dynamic Programming based C program to find minimum 
-   number operations to convert string1 to string2 */
+/* 
+A Dynamic Programming based C program to find minimum 
+number operations to convert string1 to string2
+*/
+
 #include <stdio.h>
 #include <string.h>
 // Utility function to find the minimum of three numbers 
@@ -58,7 +61,9 @@ int main()
         printf(" %d\n ", n);
 	return 0; 
 } 
-/* Input:
-   Enter the first string: "sunday"
-   Enter the second string: "saturday"
-   Output: 3  */
+/*
+Input:
+Enter the first string: "sunday"
+Enter the second string: "saturday"
+Output: 3 
+*/

@@ -13,7 +13,9 @@
 * [Queue](ds/Queue.py)
 * [Stacks](ds/Stacks.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+* [Reverse Linked List](ds/Reverse_linked_list.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -32,6 +34,7 @@
 * [Insertion Sort](sort/insertion.py)
 * [Merge Sort](sort/Merge_Sort.py)
 * [Quick Sort](sort/QuickSort.py)
+* [Radix Sort](sort/Radix_Sort.py)
 * [Selection Sort](sort/Selection_Sort.py)
 * [Topological Sort](sort/topological_sort.py)
 * [Intro Sort](sort/IntroSort.py)
@@ -55,12 +58,17 @@
 
 ## Mathematics
 * [Area](math/Area.py)
+* [Binary Exponentiation](math/Binary_Exponentiation.py)
 * [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 * [Factorial](math/factorial.py)
 * [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+
+## Competitive Programming
+
+* [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 
 ## Dynamic Programming
 _add list here_
@@ -76,3 +84,7 @@ _add list here_
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
+* [Longest substring without repeating character](other/longest_Substring.py)
+
+## miscellaneous
+* [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)

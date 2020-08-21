@@ -1,0 +1,13 @@
+name: Merge Conflicts Labeler
+on:
+  push:
+    branches:
+      - master
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: mschilde/auto-label-merge-conflicts@master
+        with:
+          CONFLICT_LABEL_NAME: "merge conflicts"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

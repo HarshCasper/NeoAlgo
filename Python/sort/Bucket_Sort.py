@@ -29,7 +29,10 @@ def bucket_sort(unsortedArray, size):
         if index1 == size:
             index1 -= 1
         
-        bucket[index1].append(unsortedArray[index])
+        if len(bucket[index1]):
+            bucket[index1].append(unsortedArray[index])
+        else:
+            bucket[index1] = [unsortedArray[index]]
         
     sortedArray = [] # List in which sorted elements are to be placed
     

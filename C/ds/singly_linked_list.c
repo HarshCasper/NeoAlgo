@@ -340,3 +340,92 @@ void display()
     }
 }
 
+
+
+
+/*
+Following are the sample of Input/Output processed by this program :
+
+
+
+---------------------------------
+
+Operations on singly linked list
+
+---------------------------------
+
+1-Insert node at first
+2-Insert node at last
+3-Insert node at position
+4-Display the total number of nodes
+5-Delete Node from any Position
+6-Check if list is empty or not
+7-Search Element in the linked list
+8-Display List from Beginning to end
+9-Exit
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Enter your choice : 1
+
+Inserting node at first :
+
+Enter the value for the node:12
+
+----INSERTED----
+YOU WANT TO CONTINUE (Y/N)y
+
+---------------------------------
+
+Operations on singly linked list
+
+---------------------------------
+
+1-Insert node at first
+2-Insert node at last
+3-Insert node at position
+4-Display the total number of nodes
+5-Delete Node from any Position
+6-Check if list is empty or not
+7-Search Element in the linked list
+8-Display List from Beginning to end
+9-Exit
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Enter your choice : 2
+
+Inserting node at last :
+
+Enter the value for the Node:13
+
+----INSERTED----
+YOU WANT TO CONTINUE (Y/N)y
+
+---------------------------------
+
+Operations on singly linked list
+
+---------------------------------
+
+1-Insert node at first
+2-Insert node at last
+3-Insert node at position
+4-Display the total number of nodes
+5-Delete Node from any Position
+6-Check if list is empty or not
+7-Search Element in the linked list
+8-Display List from Beginning to end
+9-Exit
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Enter your choice : 8
+
+Displaying List From Beginning to End :
+12      13
+YOU WANT TO CONTINUE (Y/N)n
+
+Process returned 0 (0x0)   execution time : 31.014 s
+Press any key to continue.
+*/

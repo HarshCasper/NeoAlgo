@@ -65,6 +65,7 @@
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+* [Euler’s Totient Function](math/euler_totient_function.py)
 
 ## Competitive Programming
 

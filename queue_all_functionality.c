@@ -17,6 +17,7 @@ struct queue{
 	int *arr;
 };
 
+//This function creates a queue and allocates space for the queue
 struct queue* create_queue(int max_size){
 	struct queue* new_queue = (struct queue*)malloc(sizeof(struct queue));
 	new_queue->max_size = max_size;
@@ -27,6 +28,7 @@ struct queue* create_queue(int max_size){
 	return new_queue;
 }
 
+//This function checks whether the queue is empty
 int is_queue_empty(struct queue* q){
 	if (q->curr_size == 0)
 		return 1;
@@ -34,6 +36,7 @@ int is_queue_empty(struct queue* q){
 		return 0;
 }
 
+//This function checks whether the queue is full
 int is_queue_full(struct queue* q){
 	if (q->curr_size == q->max_size)
 		return 1;
@@ -41,6 +44,7 @@ int is_queue_full(struct queue* q){
 		return 0;
 }
 
+//This function adds an element to the queue
 void enqueue(struct queue* q, int data){
 	if (is_queue_full(q)){
 		printf ("\nQueue is full.");
@@ -52,6 +56,7 @@ void enqueue(struct queue* q, int data){
 	printf ("\n%d is inserted into the queue at position %d.", data, q->rear);
 }
 
+//This function removes the front element of the queue every time it is called
 int dequeue(struct queue* q){
 	if (is_queue_empty(q)){
 		printf ("\nQueue is empty. There are no elements to remove from it.");
@@ -63,7 +68,8 @@ int dequeue(struct queue* q){
 	printf ("\n%d is dequeued from the queue.", data);
 }
 
-int get_front(struct queue* q){
+//This function returns the first element of the queue, if there are no elements in the queue, it prints a message
+void get_front(struct queue* q){
 	if (is_queue_empty(q)){
 		printf ("\nQueue is empty");
 		return;
@@ -71,10 +77,12 @@ int get_front(struct queue* q){
 	printf ("\n%d is the front element of the queue.", q->arr[q->front]);
 }
 
+//This function counts the number of elements in the queue
 void count(struct queue* q){
 	printf ("\n%d is the number of elements in the queue.", q->curr_size);
 }
 
+//This function displays all the elements of the queue
 void display(struct queue* q){
 	int i;
 	printf ("\nThe elements of the queue are as follows : ");

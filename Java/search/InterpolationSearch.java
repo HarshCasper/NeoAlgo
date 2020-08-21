@@ -58,5 +58,4 @@ public class InterpolationSearch {
    Enter the element to be search:
    5
    <------Output------>
-   Element found at index 2
- */
+   Element found at index 2  */

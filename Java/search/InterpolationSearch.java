@@ -1,36 +1,32 @@
-import java.util.Scanner;                                                            //importing the packages required for this code
+import java.util.Scanner;                                                            
 // JAVA Implementation of recursive Interpolation Search
-
-      public class InterpolationSearch {                                                     
-             
-	    int findEleByInterSearching(int arr[], int low, int high, int key) {         // Returns index of key if it is present in arr[low..high], else return -1 
-     
-             if(high >= low && key>=arr[low] && key<=arr[high]) {
-            
-            	if(low==high)                                                             //if value of high and low ae same
-            	{
-            		if(arr[low]==key)                                                // value of key compared with element at index low
-            	           return low;
-                        else
-            		   return -1;
-                 }
-
-                int pos = low + (((high-low)/(arr[high]-arr[low]))*(key-arr[low]));        //determining the position of the key element in an array
-                
-                if(arr[pos] == key)                                                      // If the element key is present at the pos value itself 
+public class InterpolationSearch {                                                     
+             int findEleByInterSearching(int arr[], int low, int high, int key) {        
+                 if(high >= low && key>=arr[low] && key<=arr[high]) {
+                 //if value of high and low ae same
+                  if(low==high) {                                                          
+            	       // value of key compared with element at index low
+            	       if(arr[low]==key)                                              
+            	            return low;
+                       else
+                            return -1;
+                  }
+                 //determining the position of the key element in an array
+                 int pos = low + (((high-low)/(arr[high]-arr[low]))*(key-arr[low]));       
+                // value of key compared with element at index low
+                if(arr[pos] == key)                                                    
                   return pos;
-               
-                if(arr[pos] > key)                                                       // If element key  is smaller than pos value
-                  return findEleByInterSearching(arr, low, pos - 1, key);                // then it can only be present in left subarray 
-               
-                if(arr[pos] < key)                                                       //Else the element key  can only be present 
-                  return findEleByInterSearching(arr, pos + 1, high, key);              //in right subarray 
-               
-            }  
-       
-      return -1;                                                                         // return statement
+                /* If element key  is smaller than pos value
+                    then it can only be present in left subarray */
+                if(arr[pos] > key)                                                      
+                  return findEleByInterSearching(arr, low, pos - 1, key);              
+               /* Else the element key  can only be present 
+                   in right subarray */
+                if(arr[pos] < key)                                                    
+                  return findEleByInterSearching(arr, pos + 1, high, key);           
+                }  
+         return -1;                                                                         
       } 
-  
      // Driver method to test above 
      public static void main(String args[]) {
         InterpolationSearch s = new InterpolationSearch();
@@ -40,9 +36,8 @@ import java.util.Scanner;                                                       
         int size = sc.nextInt();                                                    
         sc.nextLine();
         int sortedarr[]=new int[size];
-        System.out.println("Enter the elements of array:");                          // dynamic input of elements in an array
+        System.out.println("Enter the elements of array:");                         
         for(int index=0;index<size;index++) {
-           
             sortedarr[index]=sc.nextInt(); 
         }
         System.out.println("Enter the element to be searched:");
@@ -54,7 +49,6 @@ import java.util.Scanner;                                                       
         else
             System.out.println("Element found at index " + position); 
     } 
-
 } 
 /* <-----Input------->
    Enter the size of array:
@@ -66,4 +60,3 @@ import java.util.Scanner;                                                       
    <------Output------>
    Element found at index 2
  */
-

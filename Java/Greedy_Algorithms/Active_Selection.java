@@ -35,73 +35,59 @@
 //        (8, 9)
 
 
-/*package whatever //do not write package name here */
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+import java.util. * ;
+import java.lang. * ;
+import java.io. * ;
 
-class Main{
-    public static void main (String[] args) {
-        //code
+class Main {
+  public static void main(String[] args) {
+    //code
 
-        Scanner s=new Scanner(System.in);
-        int t=s.nextInt();
-        while (t-->0){
-            int n=s.nextInt();
-            int[] start=new int[n];
-            int[] finish=new int[n];
+    Scanner s = new Scanner(System. in );
+    int t = s.nextInt();
+    while (t-->0) {
+      int n = s.nextInt();
+      int[] start = new int[n];
+      int[] finish = new int[n];
 
-            for (int i = 0; i <n ; i++) {
-                start[i]=s.nextInt();
+      for (int i = 0; i < n; i++) {
+        start[i] = s.nextInt();
 
-            }
-            for (int i = 0; i <n ; i++) {
-                finish[i]=s.nextInt();
+      }
+      for (int i = 0; i < n; i++) {
+        finish[i] = s.nextInt();
 
-            }
-            for (int i = 0; i <n-1 ; i++) {
-                for (int j = 0; j < n-1; j++) {
-                    if(finish[j]>finish[j+1]){
-                        int temp=finish[j];
-                        finish[j]=finish[j+1];
-                        finish[j+1]=temp;
+      }
+      for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - 1; j++) {
+          if (finish[j] > finish[j + 1]) {
+            int temp = finish[j];
+            finish[j] = finish[j + 1];
+            finish[j + 1] = temp;
 
-                        int te=start[j];
-                        start[j]=start[j+1];
-                        start[j+1]=te;
-                    }
-
-                }
-
-            }
-
-            int i=0;
-            int c=1;
-            for (int j = 1; j <n ; j++) {
-                if(finish[i]<=start[j]){
-                    c++;
-                    i=j;
-                }
-
-            }
-            System.out.println(c);
-
-
-
-
-
-
+            int te = start[j];
+            start[j] = start[j + 1];
+            start[j + 1] = te;
+          }
 
         }
 
+      }
 
+      int i = 0;
+      int c = 1;
+      for (int j = 1; j < n; j++) {
+        if (finish[i] <= start[j]) {
+          c++;
+          i = j;
+        }
 
-
-
-
-
-
+      }
+      System.out.println(c);
 
     }
+
+  }
 }
+

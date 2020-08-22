@@ -9,6 +9,7 @@
 
 /* declared here as global variable because stack[]
 * is used by more than one functions */
+
 char stack[SIZE];
 int top = -1;
 
@@ -169,6 +170,7 @@ void InfixToPostfix(char infix_exp[], char postfix_exp[])
 }
 
 /* main function begins */
+
 int main()
 {
 	char infix[SIZE],postfix[SIZE];         /* declare infix string and postfix string */

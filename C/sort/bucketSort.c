@@ -1,3 +1,14 @@
+/* Bucket Sort in C - Bucket Sort is a sorting algorithm, which is commonly used in 
+computer science. Bucket Sort works by distributing the elements of an array into 
+a number of buckets. Each bucket is then sorted individually, either using a 
+different sorting algorithm, or by recursively applying the bucket 
+sorting algorithm. 
+
+# The average time complexity for Bucket Sort is O(n + k). 
+  The worst time complexity is O(n²).
+# The space complexity for Bucket Sort is O(n+k). */
+
+/* C Program to sort Elements Using Bucket Sort */
 #include <stdio.h>
 
 // bucket sort function

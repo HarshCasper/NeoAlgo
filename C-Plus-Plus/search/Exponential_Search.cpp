@@ -46,7 +46,8 @@ int main() {
       cout << "Element is not found in the list." << endl;
 }
 
-// Sample Output 
+// Sample Output
+ 
 // Enter the number of elements: 5
 // Enter the elements: 
 // 1

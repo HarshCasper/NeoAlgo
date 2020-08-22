@@ -12,16 +12,20 @@
 ## Data Structures
 * [Queue](ds/Queue.py)
 * [Stacks](ds/Stacks.py)
+* [Tree (in-order(iterative)](ds/Tree_Iterative_InOrder_Traversal.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [fenwick tree](ds/fenwick_tree.py)
+* [Singly Linked List](ds/SinglyLinkedList.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
 * [Binary Search](search/binarysearch.py)
 * [Breadth First Search](search/bfs.py)
 * [Depth First Search](search/dfs.py)
+* [Interpolation Search](search/Interpolation_Search.py)
 * [Linear Search](search/Linear_Search.py)
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
@@ -66,6 +70,8 @@
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 * [Modular Division](math/modular_division.py)
+* [Euler’s Totient Function](math/euler_totient_function.py)
+
 
 ## Competitive Programming
 
@@ -85,3 +91,7 @@ _add list here_
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
+* [Longest substring without repeating character](other/longest_Substring.py)
+
+## miscellaneous
+* [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)

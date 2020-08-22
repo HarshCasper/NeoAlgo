@@ -1,7 +1,5 @@
 
-/**
- * copyright 2020 @author narayan2111
- * @file
+/*
  * Implementation of Binary search algorithm.
   c++ program to implement binary search technique
   Algorithm for printing the occurrence of the given number in the list/array using Binary Search

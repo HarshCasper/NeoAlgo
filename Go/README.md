@@ -13,6 +13,7 @@
 * [Stack](/ds/stack.go)
 * [Stack using Queue](./ds/stack_using_queue.go)
 * [Queue using Stack](./ds/queue_using_stack.go)
+* [Singly Linked List](./ds/singly_linked_list.go)
 
 ## Searching
 * [Binary Search](/search/binary_search.go)

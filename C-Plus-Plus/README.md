@@ -28,6 +28,7 @@ Stack_using_LinkedList.cpp
 - [Binary Search](search/Binary_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
+- [Interpolation Search](search/Interpolation_Search.cpp)
 
 ## Sorting
 
@@ -89,6 +90,8 @@ _add list here_
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
+- [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
 
 ## Other

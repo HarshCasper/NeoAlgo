@@ -40,6 +40,7 @@
 * [Selection Sort](sort/SelectionSort.java)
 * [Bucket Sort](sort/BucketSort.java)
 * [Minimum number of swaps to sort an array of N unordered consecutive integers](sort/MinimumSwapsForNIntegers.java)
+* [Heap Sort](sort/HeapSort.java)
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)

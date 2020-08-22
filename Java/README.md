@@ -23,6 +23,7 @@
 * [Binary Search](search/Binary_search.java)
 * [Jump Search](search/jumpSearch.java)
 * [Stack Search](search/Stack_Search.java)
+* [Interpolation Search](search/InterpolationSearch.java)
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)

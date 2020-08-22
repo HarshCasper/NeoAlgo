@@ -1,6 +1,3 @@
-#include<bits/stdc++.h> //header file 
-using namespace std; //for standard cin and cout
-
 /*
 c++ program to implement binary search technique
 
@@ -22,6 +19,9 @@ Sample Test Case:
 
 //BinarySearch() to search the elements and count the occurrence
 
+
+#include<bits/stdc++.h> //header file 
+using namespace std; //for standard cin and cout
 
 int BinarySearch(int arr[],int n,int x,bool searchfirst)
 {

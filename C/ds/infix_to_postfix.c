@@ -1,3 +1,5 @@
+/* Conversion of the infix to post fix expression */
+
 #include<stdio.h>
 #include<stdlib.h>      /* for exit() */
 #include<ctype.h>     /* for isdigit(char ) */

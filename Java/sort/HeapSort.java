@@ -120,5 +120,11 @@ Time to sort the array:
 Array after heap sort:
 1 3 6 7 9 10 11 12 20
 
-Time complexity = O(nLogn)
+Building the max heap requires O(n) calls to the buildHeap function which
+takes O(Logn) time to build the max heap
+Therefore, total time complexity = O(nLogn)
+
+In heap sort since we are only keeping data in the array and only
+rearranging it so no data needs to be stored anywhere else (other than the swap step)
+So, space complexity = O(1)
 */

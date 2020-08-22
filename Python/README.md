@@ -1,5 +1,3 @@
-
-
 <p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
@@ -206,6 +204,7 @@ _add list here_
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Singly Linked List](ds/SinglyLinkedList.py)
+* [Circular Linked List](ds/Circular_LinkedList.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)

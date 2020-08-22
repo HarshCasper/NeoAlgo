@@ -14,13 +14,14 @@
 - [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
-
+- [Interpolation Search](search/Interpolation.c)
 
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
 - [Linear Search](search/linear_search.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+
 
 ## Sorting
 

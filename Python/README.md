@@ -72,7 +72,6 @@
 * [Modular Division](math/modular_division.py)
 * [Euler’s Totient Function](math/euler_totient_function.py)
 
-
 ## Competitive Programming
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)

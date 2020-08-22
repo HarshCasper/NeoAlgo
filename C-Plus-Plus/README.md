@@ -88,5 +88,5 @@ _add list here_
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
-- [Targe sum triplets](cp/target sum triplets.cpp)
+- [Target sum triplets](cp/target_sum_triplets.cpp)
 ## Other

@@ -1,4 +1,4 @@
-/* Conversion of the infix to post fix expression */
+/* C code for Conversion of infix expression to post fix expression */
 
 #include<stdio.h>
 #include<stdlib.h>      /* for exit() */

@@ -3,12 +3,8 @@
  * copyright 2020 @author narayan2111
  * @file
  * Implementation of Binary search algorithm.
-*/
-#include<bits/stdc++.h> //header file 
-using namespace std; //for standard cin and cout
-
-/*
-c++ program to implement binary search technique
+  c++ program to implement binary search technique
+  Algorithm for printing the occurrence of the given number in the list/array using Binary Search
 
 inputs: 
 	Size of array/list
@@ -28,6 +24,8 @@ Sample Test Case:
 
 //BinarySearch() to search the elements and count the occurrence
 
+#include<bits/stdc++.h> //header file 
+using namespace std; //for standard cin and cout
 
 int BinarySearch(int arr[],int n,int x,bool searchfirst)
 {

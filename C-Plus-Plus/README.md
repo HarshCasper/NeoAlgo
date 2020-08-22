@@ -10,7 +10,9 @@
 # Codes in the C++ language
 
 ## Data Structures
+
 Stack_using_LinkedList.cpp
+
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
@@ -29,6 +31,7 @@ Stack_using_LinkedList.cpp
 - [Linear Search](search/Linear_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
 - [Interpolation Search](search/Interpolation_Search.cpp)
+- [Exponential Search](search/Exponential_Search.cpp)
 
 ## Sorting
 
@@ -69,6 +72,7 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Ackermann_Function](math/Ackermann_function.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
+
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)

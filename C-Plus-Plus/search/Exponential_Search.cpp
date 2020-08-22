@@ -47,7 +47,6 @@ int main() {
 }
 
 // Sample Output 
-
 // Enter the number of elements: 5
 // Enter the elements: 
 // 1

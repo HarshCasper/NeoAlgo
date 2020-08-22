@@ -29,7 +29,7 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 <img src="img/git push.png" width="750"/><br>
 
 - Once you push the changes to your repo, Go to your forked repository, the Compare & pull request button will appear in GitHub. <br><br>
-<img src="img/pull request.png" width="750"/><br>
+<img src="img/pull_request.png" width="750"/><br>
 
 - Click it and you'll be taken to this screen. <br><br>
 <img src="img/pull_2.png" width="750"/><br>
@@ -40,10 +40,10 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
   Issues can be used to keep track of bugs, enhancements, or other requests.
 
   - On GitHub, navigate to the main page of the repository.
-  - Under your repository name, click on the Issues button. <br>
+  - Under your repository name, click on the Issues button.<br><br>
   <img src="img/issue.png" /><br>
 
-- Click New issue. 
+- Click New issue.<br><br>
   <img src="img/new_issue.png" /><br>
 - If there are multiple issue types, click Get started next to the type of issue you'd like to open.
   <img src="img/issue_template_get_started_button.png" /><br>

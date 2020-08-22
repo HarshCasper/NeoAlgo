@@ -8,21 +8,21 @@
 int main(void) {
     
 	// Aceepting an array 
-	int n;
+	int size;
 	printf("Enter number of elemets in array \n");
-	scanf (" %d ", &n);
+	scanf (" %d ", &size);
 	
-	int arr[n];
+	int arr[size];
 	printf("Enter elemets of array \n");
-	for (int i = 0; i < n; i++ ){
-	    scanf(" %d ", &arr[i]);
+	for (int index = 0; index < size; index++ ){
+	    scanf(" %d ", &arr[index]);
 	}
 	
 	//KADANE'S ALGORITHM
 	int max_sum  = arr[0];
 	int curr_max = arr[0];
-	for (int i = 1; i < n; i++ ){
-	    curr_max = MAX(arr[i], arr[i] + curr_max);
+	for (int index = 1; index < size; index++ ){
+	    curr_max = MAX(arr[index], arr[index] + curr_max);
 	    max_sum = MAX(curr_max, max_sum);
 	}
 	

@@ -5,23 +5,28 @@ class BucketSort {
     private static void heapSort(int arr[]) {
         int size = arr.length;
 
-        //calling buildHeap() to rearrange along with creating max heap
+        System.out.println("Time to make first max heap:");
+        long startTime = System.nanoTime();
+        // calling buildHeap() to rearrange along with creating max heap
         for(int i = size/2 - 1; i>=0; i--) {
             buildHeap(arr, size, i);
         }
+        long stopTime = System.nanoTime();
+        System.out.println((stopTime - startTime)*0.000000001);
 
-        int temp = 0;
+        System.out.println("Time to make sort using max heaps and putting largest element in the end:");
+        startTime = System.nanoTime();
         // exchanging and extracting elements one by one from the final heap to sort the array
         for(int i = size-1; i>0; i--) {
 
-            //swap the current root and last term
-            temp = arr[i];
-            arr[i] = arr[0];
-            arr[0] = temp;
+            // swap the current root and last term
+            swap(arr, i, 0);
 
-            //doing max heap again
+            // doing max heap again
             buildHeap(arr, i, 0);
         }
+        stopTime = System.nanoTime();
+        System.out.println((stopTime - startTime)*0.000000001);
     }
 
     private static void buildHeap(int arr[], int size, int i) {
@@ -41,16 +46,19 @@ class BucketSort {
             max = rightNode;
         }
 
-        int temp;
         if (max != i) {
             // root is not greatest
-            temp = arr[max];
-            arr[max] = arr[i];
-            arr[i] = temp;
+            swap(arr, max, i);
 
-            //since this sub-heap got rearranged we need to rearrange all sub-heaps before this recursively
+            // since this sub-heap got rearranged we need to rearrange all sub-heaps before this recursively
             buildHeap(arr, size, max);
         }
+    }
+
+    private static void swap(int arr[], int pos1, int pos2) {
+        int temp = arr[pos1];
+        arr[pos1] = arr[pos2];
+        arr[pos2] = temp;
     }
 
     public static void main(String[] args) {
@@ -72,7 +80,11 @@ class BucketSort {
         }
         System.out.println();
 
+        long startTime = System.nanoTime();
         heapSort(arr);
+        long stopTime = System.nanoTime();
+        System.out.println("Time to sort the array:");
+        System.out.println((stopTime - startTime)*0.000000001);
 
         // after sorting
         System.out.println("Array after heap sort:");
@@ -99,8 +111,14 @@ Enter array elements:
 1
 Array before heap sort:
 12 11 9 10 3 7 6 20 1 
+Time to make first max heap:
+1.0418000000000001E-5
+Time to make sort using max heaps and putting largest element in the end:
+7.484000000000001E-6
+Time to sort the array:
+0.002423689
 Array after heap sort:
-1 3 6 7 9 10 11 12 20 
+1 3 6 7 9 10 11 12 20
 
 Time complexity = O(nLogn)
 */

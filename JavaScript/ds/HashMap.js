@@ -166,12 +166,15 @@ module.exports = HashMap;
 
 //Examples
 
+//Object Instantiation
 const birdCensus = new HashMap(16);
 
+//Input : Assigns the Value at an Index
 birdCensus.assign('mandarin duck', 'Central Park Pond');
 birdCensus.assign('monk parakeet', 'Brooklyn College');
 birdCensus.assign('horned owl', 'Pelham Bay Park');
 
+//Output: Retrieves the value from the given Index by matching hash Values
 console.log(birdCensus.retrieve('mandarin duck'));
 console.log(birdCensus.retrieve('monk parakeet'));
 console.log(birdCensus.retrieve('horned owl'));

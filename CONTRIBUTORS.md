@@ -75,6 +75,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/HarshAgarwal-DEV"><img src="https://avatars3.githubusercontent.com/u/63976467?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Agarwal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshAgarwal-DEV" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/sangeetamishr/"><img src="https://avatars3.githubusercontent.com/u/60270904?v=4" width="100px;" alt=""/><br /><sub><b>Sangeeta Mishra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=SangeetaMishra" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Aanisha"><img src="https://avatars2.githubusercontent.com/u/43934116?v=4" width="100px;" alt=""/><br /><sub><b>Aanisha Bhattacharyya</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Aanisha" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://bagladivyang03.github.io/webdev/"><img src="https://avatars1.githubusercontent.com/u/57760543?v=4" width="100px;" alt=""/><br /><sub><b>Divyang Bagla</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=bagladivyang03" title="Code">💻</a></td>
   </tr>
 </table>
 

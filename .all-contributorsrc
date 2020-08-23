@@ -504,6 +504,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "bagladivyang03",
+      "name": "Divyang Bagla",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/57760543?v=4",
+      "profile": "https://bagladivyang03.github.io/webdev/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",

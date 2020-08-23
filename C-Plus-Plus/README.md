@@ -41,10 +41,6 @@
 - [Counting Sort](sort/countsort.cpp)
 - [TimSort](sort/Tim_Sort.cpp)
 
-## String
-
-- [Longest Substring Without Repeating Characters](string/LongestSubstringWithoutRepeatingCharacters.cpp)
-
 ## Queue
 
 - [Queue using linked list](ds/QueueLinkedList.cpp)
@@ -74,6 +70,7 @@ _add list here_
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
+- [Sliding Window Technique](dp/SlidingWindowTechnique.cpp)
 
 ## Blockchain
 

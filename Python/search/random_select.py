@@ -2,7 +2,7 @@
 #Pthon implementation of Radomised selection Algorithm
 """
 Time Complexity:O(n)
-Space Complexity:
+Space Complexity:O(n)
 """
 import random as rand
 

@@ -30,7 +30,7 @@ _add list here_
 _add list here_
 
 ## Dynamic Programming
-_add list here_
+* [Target Sum Triplets](./dp/target_sum_triplets.go)
 
 ## Blockchain
 _add list here_

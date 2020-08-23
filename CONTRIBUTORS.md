@@ -99,6 +99,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Himanshu44626748"><img src="https://avatars3.githubusercontent.com/u/56768982?v=4" width="100px;" alt=""/><br /><sub><b>Himanshu Mishra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Himanshu44626748" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/pradeep98"><img src="https://avatars1.githubusercontent.com/u/33161791?v=4" width="100px;" alt=""/><br /><sub><b>pradeep98</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=pradeep98" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Huzaib"><img src="https://avatars2.githubusercontent.com/u/59613175?v=4" width="100px;" alt=""/><br /><sub><b>Huzaib</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Huzaib" title="Code">💻</a></td>
   </tr>
 </table>
 

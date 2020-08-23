@@ -62,7 +62,7 @@ int is_operator(char symbol)
 	}
 	else
 	{
-	return 0;
+		return 0;
 	}
 }
 
@@ -190,6 +190,11 @@ int main()
 
 	return 0;
 }
+
+
+/*
+The following is the process how the conversion of infix expression to postfix expression takes place by the above code
+*/
 
 
 /*

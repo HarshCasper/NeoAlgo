@@ -2,15 +2,16 @@ key=input("Enter the key : ")
 key=key.replace(" ", "")
 key=key.upper()
 def matrix(x,y,initial):
+    ''' generating key matrix '''
     return [[initial for i in range(x)] for j in range(y)]
     
 result=list()
-for c in key: 
-    if c not in result:
-        if c=='J':
+for element in key: 
+    if element not in result:
+        if element=='J':
             result.append('I')
         else:
-            result.append(c)
+            result.append(element)
 flag=0
 for i in range(65,91): 
     if chr(i) not in result:
@@ -28,21 +29,27 @@ for i in range(0,5):
         my_matrix[i][j]=result[k]
         k+=1
 
-def locindex(c): 
+def locindex(element): 
     loc=list()
-    if c=='J':
-        c='I'
+    if element=='J':
+        element='I'
     for i ,j in enumerate(my_matrix):
         for k,l in enumerate(j):
-            if c==l:
+            if element==l:
                 loc.append(i)
                 loc.append(k)
                 return loc
                 
             
-# function to encrypt plain text into cipher text using the given key     
+  
 
-def encrypt():  
+def encrypt(): 
+    ''' returns encrypted cipher text using the key matrix and the following rules-
+    -If both the letters are in the same column: Take the letter below each one (going back to the top if at the bottom).
+    -If both the letters are in the same row: Take the letter to the right of each one (going back to the leftmost if at the rightmost position).
+    -If neither of the above rules is true: Form a rectangle with the two letters and take the letters on the horizontal opposite corner of the rectangle.
+    
+    '''
     msg=str(input("ENTER MSG : "))
     msg=msg.upper()
     msg=msg.replace(" ", "")             
@@ -67,9 +74,14 @@ def encrypt():
             print("{}{}".format(my_matrix[loc[0]][loc1[1]],my_matrix[loc1[0]][loc[1]]),end=' ')    
         i=i+2  
         
-# function to decrypt cipher text into plain text using the given key
 
-def decrypt():  
+
+def decrypt(): 
+    ''' returns decrypted plain text using the key matrix and the following rules-
+    -If both the letters are in the same column: Take the letter above each one (going back to the bottom if at the top).
+    -If both the letters are in the same row: Take the letter to the left of each one (going back to the rightmost if at the leftmost position).
+    -If neither of the above rules is true: Form a rectangle with the two letters and take the letters on the horizontal opposite corner of the rectangle.
+    '''
     msg=str(input("ENTER CIPHER TEXT:"))
     msg=msg.upper()
     msg=msg.replace(" ", "")

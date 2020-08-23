@@ -91,6 +91,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Shishir198"><img src="https://avatars3.githubusercontent.com/u/48624911?v=4" width="100px;" alt=""/><br /><sub><b>Shishir198</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Shishir198" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/kushagraiitbbs"><img src="https://avatars0.githubusercontent.com/u/66637263?v=4" width="100px;" alt=""/><br /><sub><b>kushagraiitbbs</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=kushagraiitbbs" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/anubhvshrma18"><img src="https://avatars1.githubusercontent.com/u/57109153?v=4" width="100px;" alt=""/><br /><sub><b>Anubhav Sharma</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=anubhvshrma18" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pragya-jaiswal-9661b3192/"><img src="https://avatars3.githubusercontent.com/u/49182690?v=4" width="100px;" alt=""/><br /><sub><b>Pragya Jaiswal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=pragyajaiswa05l" title="Code">💻</a></td>
   </tr>
 </table>
 

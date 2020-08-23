@@ -1,6 +1,3 @@
-#include<bits/stdc++.h> //header file 
-using namespace std; //for standard cin and cout
-
 /*
 c++ program to implement binary search technique
 
@@ -17,12 +14,16 @@ Sample Test Case:
 	4
 	Output:
 	Occurence of '4': 2
+
+	Space Complexity - O(1) 
+	Time complexity - logn
 */
 
 
 //BinarySearch() to search the elements and count the occurrence
 
-
+#include<bits/stdc++.h> //header file 
+using namespace std; //for standard cin and cout
 int BinarySearch(int arr[],int n,int x,bool searchfirst)
 {
 	int first=0,last=n-1,result=-1;//first and last variables to store first and last element of array

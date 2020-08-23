@@ -23,5 +23,3 @@ if __name__ == '__main__':
         print(fibonacciBottomUp(n))
     else:
         print('Wrong choice')
-
-   

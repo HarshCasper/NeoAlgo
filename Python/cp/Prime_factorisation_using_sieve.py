@@ -2,34 +2,28 @@
 Python Program to calculate prime factorization  
 of a number n in O(Log n) time complexity using sieve. 
 '''
-import math as mf
+import math
   
-Max_Num = 100001
+Max_Num = 10001
   
-# stores smallest prime factor for every number 
-spf = [0 for i in range(Max_Num)]   
+spf = [0 for i in range(Max_Num)] #smallest prime factor for every number 
 
 def sieve(): 
     ''' Function that calculates SPF (Smallest Prime Factor) for every number till Max_Num. '''
     spf[1] = 1
-    for i in range(2, Max_Num):# marking smallest prime factor for every number to be itself.
+    for i in range(2, Max_Num):#smallest prime factor for every number is the number itself.
         spf[i] = i 
   
-    # separately marking spf for  
-    # every even number as 2 
-    for i in range(4, Max_Num, 2): 
+  
+    for i in range(4, Max_Num, 2): #smallest prime factor of every even number is 2
         spf[i] = 2 
   
-    for i in range(3, mf.ceil(mf.sqrt(Max_Num))): 
-          
-        # checking if i is prime 
-        if (spf[i] == i): 
-              
-            # marking SPF for all numbers 
-            # divisible by i 
-            for j in range(i * i, Max_Num, i):  
-                  
-                # marking spf[j] if it is not previously marked 
+    for i in range(3, math.ceil(math.sqrt(Max_Num))): 
+                
+        if (spf[i] == i): # checks if i is a prime number
+                         
+            for j in range(i * i, Max_Num, i): #small prime factors for all numbers divisible by i.                  
+               
                 if (spf[j] == j): 
                     spf[j] = i 
   
@@ -54,8 +48,16 @@ x = int(input("Enter the number to find prime factors for:"))
 print("Prime factors of",x, ":", 
                                 end = "") 
   
-# calling getFactorization function 
-y = getFactorization(x) 
+
+y = getFactorization(x) #function calling
   
 for i in range(len(y)): 
     print(y[i], end = " ") 
+
+''' 
+Sample Output 
+
+Enter the number to find prime factors for:288
+Prime factors of 288 :2 3
+
+'''

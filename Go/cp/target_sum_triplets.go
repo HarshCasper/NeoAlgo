@@ -104,6 +104,10 @@ func main() {
 
 /*
 
+	Time Complexity : O(n^2) because of two nested loops
+	Space Complexity : O(1)
+
+
 	input/output sample
 
 	please enter the number of element

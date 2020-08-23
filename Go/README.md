@@ -29,8 +29,11 @@ _add list here_
 ## Mathematics
 _add list here_
 
+## Competitive Programming
+* [Target Sum Triplets](./cp/target_sum_triplets.go)
+
 ## Dynamic Programming
-* [Target Sum Triplets](./dp/target_sum_triplets.go)
+_add list here_
 
 ## Blockchain
 _add list here_

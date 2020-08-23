@@ -50,8 +50,8 @@ Node *del_RightBalance(Node *pptr,int *pshorter);
 	root = insert(root,25);
 	
 	Constructed AVL tree would be
-			 48
-		    /  \
+		 48
+		/  \
 	      33    58
 	     /  \   / \
 	    30  40 50 60
@@ -63,8 +63,8 @@ Node *del_RightBalance(Node *pptr,int *pshorter);
 
 	root = del(root,60);
 	Modified AVL tree would be
-			 48
-		    /  \
+		 48
+		/  \
 	      33    58
 	     /  \   / 
 	    30  40 50 
@@ -73,8 +73,8 @@ Node *del_RightBalance(Node *pptr,int *pshorter);
 
 	root = del(root,48);
 	Modified AVL tree would be
-			 42
-		    /  \
+		 42
+		/  \
 	      33    58
 	     /  \   / 
 	    30  40 50 
@@ -84,8 +84,8 @@ Node *del_RightBalance(Node *pptr,int *pshorter);
 	root = del(root,25); 
 	root = del(root,30); 
 	Modified AVL tree would be
-			 42
-		    /  \
+		 42
+		/  \
 	      35    58
 	     /  \   / 
 	    33  40 50 
@@ -94,8 +94,8 @@ Node *del_RightBalance(Node *pptr,int *pshorter);
 	root = del(root,33); 
 	root = del(root,58); 
 	Modified AVL tree would be
-			 42
-		    /  \
+		 42
+		/  \
 	      40    50
 ------------------------------------------------*/
 
@@ -180,14 +180,14 @@ Node *insert_left_check(Node *pptr, int *ptaller )
 {
 	switch(pptr->balance)
 	{
-	 case 0: 				/* was balanced */  
+	 case 0: 			/* was balanced */  
 		pptr->balance = 1;	/* now left heavy */
 		break;
-	 case -1: 				/* was right heavy */ 
+	 case -1: 			/* was right heavy */ 
 		pptr->balance = 0;	/* now balanced */
 		*ptaller = FALSE;
 			break;
-	 case 1: 								/* was left heavy */   
+	 case 1: 					/* was left heavy */   
 		pptr = insert_LeftBalance(pptr);	/* Left Balancing */
 		*ptaller = FALSE;
 	}
@@ -198,14 +198,14 @@ Node *insert_right_check(Node *pptr, int *ptaller )
 {
 	switch(pptr->balance)
 	{
-	 case 0: 				/* was balanced */	
+	 case 0: 			/* was balanced */	
 		pptr->balance = -1;	/* now right heavy */
 		break;
-	 case 1: 				/* was left heavy */  
+	 case 1: 			/* was left heavy */  
 		pptr->balance = 0;	/* now balanced */ 
 		*ptaller = FALSE;
 		break;
-	 case -1: 								/* was right heavy */   
+	 case -1: 					/* was right heavy */   
 		pptr = insert_RightBalance(pptr);	/* Right Balancing */
 		*ptaller = FALSE;
 	}
@@ -214,7 +214,7 @@ Node *insert_right_check(Node *pptr, int *ptaller )
 
 Node *insert_LeftBalance(Node *pptr)
 {
-	Node *aptr, *bptr;			/* pointer to Node A and Node B respectively */
+	Node *aptr, *bptr;		/* pointer to Node A and Node B respectively */
 
 	aptr = pptr->lchild;
 	if(aptr->balance == 1)  	/* Single Right Rotate */ 
@@ -223,7 +223,7 @@ Node *insert_LeftBalance(Node *pptr)
 		aptr->balance = 0;
 		pptr = RotateRight(pptr);
 	}
-	else						/* Left-Right Rotate */
+	else				/* Left-Right Rotate */
 	{
 		bptr = aptr->rchild;
 		switch(bptr->balance)	/* Adjust balance factor */
@@ -249,7 +249,7 @@ Node *insert_LeftBalance(Node *pptr)
 
 Node *insert_RightBalance(Node *pptr)
 {
-	Node *aptr, *bptr;			/* pointer to Node A and Node B respectively */
+	Node *aptr, *bptr;		/* pointer to Node A and Node B respectively */
 
 	aptr = pptr->rchild;
 	if(aptr->balance == -1) 	/* Single Left Rotate */ 
@@ -258,7 +258,7 @@ Node *insert_RightBalance(Node *pptr)
 		aptr->balance = 0;
 		pptr = RotateLeft(pptr);
 	}
-	else						/* Right-Left Rotate */
+	else				/* Right-Left Rotate */
 	{
 		bptr = aptr->lchild;
 		switch(bptr->balance)	/* Adjust balance factor */
@@ -358,14 +358,14 @@ Node *del_left_check(Node *pptr, int *pshorter)
 {
 	switch(pptr->balance)
 	{
-		case 0: 				/* was balanced */       
+		case 0: 			/* was balanced */       
 			pptr->balance = -1;	/* now right heavy */ 
 			*pshorter = FALSE;
 			break;
-		case 1: 				/* was left heavy */	 
+		case 1: 			/* was left heavy */	 
 			pptr->balance = 0;	/* now balanced */
 			break;            
-		case -1: 										/* was right heavy */   
+		case -1: 						/* was right heavy */   
 			pptr = del_RightBalance(pptr, pshorter); 	/*Right Balancing*/
 	}
 	return pptr;
@@ -375,14 +375,14 @@ Node *del_right_check(Node *pptr, int *pshorter)
 {
 	switch(pptr->balance)
 	{
-		case 0:					/* was balanced */		
+		case 0:				/* was balanced */		
 			pptr->balance = 1;	/* now left heavy */
 			*pshorter = FALSE;
 			break;
-		case -1: 				/* was right heavy */	
+		case -1: 			/* was right heavy */	
 			pptr->balance = 0;	/* now balanced */
 			break;
-		case 1: 										/* was left heavy */	
+		case 1: 						/* was left heavy */	
 			pptr = del_LeftBalance(pptr, pshorter );  	/*Left Balancing*/
 	}
 	return pptr;
@@ -392,7 +392,7 @@ Node *del_LeftBalance(Node *pptr,int *pshorter)
 {
 	Node *aptr, *bptr;
 	aptr = pptr->lchild;
-	if( aptr->balance == 0)  		/* Single Right Rotate */
+	if( aptr->balance == 0)  	/* Single Right Rotate */
 	{
 		pptr->balance = 1;
 		aptr->balance = -1;
@@ -405,10 +405,10 @@ Node *del_LeftBalance(Node *pptr,int *pshorter)
 		aptr->balance = 0;
 		pptr = RotateRight(pptr);
 	}
-	else							/* Left-Right Rotate */
+	else				/* Left-Right Rotate */
 	{
 		bptr = aptr->rchild;
-		switch(bptr->balance)		/* Adjust balance factor */
+		switch(bptr->balance)	/* Adjust balance factor */
 		{
 			case 0:					
 				pptr->balance = 0;
@@ -434,7 +434,7 @@ Node *del_RightBalance(Node *pptr,int *pshorter)
 	Node *aptr, *bptr;
 
 	aptr = pptr->rchild;
-	if (aptr->balance == 0)			/* Single Left Rotate */
+	if (aptr->balance == 0)		/* Single Left Rotate */
 	{
 		pptr->balance = -1;
 		aptr->balance = 1;
@@ -447,10 +447,10 @@ Node *del_RightBalance(Node *pptr,int *pshorter)
 		aptr->balance = 0;
 		pptr = RotateLeft(pptr);			
 	}
-	else							/* Right-Left Rotate */
+	else				/* Right-Left Rotate */
 	{
 		bptr = aptr->lchild;
-		switch(bptr->balance)		/* Adjust balance factor */
+		switch(bptr->balance)	/* Adjust balance factor */
 		{
 			case 0:					
 				pptr->balance = 0;

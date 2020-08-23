@@ -73,6 +73,7 @@
 ## Competitive Programming
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [KMP Algorithm](cp/KMP_Algorithm.py)
 
 ## Dynamic Programming
 _add list here_

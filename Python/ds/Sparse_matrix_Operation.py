@@ -55,3 +55,6 @@ if(count > (size/2)):
 else:  
     print("Given matrix is not a sparse matrix"); 
 
+#Time Complexity: O(noOfTerms*noOfcolumn)
+#Space Complexity: O(1)
+

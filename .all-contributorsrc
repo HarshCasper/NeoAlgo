@@ -1,14 +1,10 @@
 {
+  "projectName": "NeoAlgo",
+  "projectOwner": "TesseractCoding",
   "files": [
     "CONTRIBUTORS.md"
   ],
   "imageSize": 100,
-  "contributorsPerLine": 7,
-  "skipCi": true,
-  "projectName": "NeoAlgo",
-  "projectOwner": "TesseractCoding",
-  "repoType": "github",
-  "repoHost": "https://github.com",
   "contributors": [
     {
       "login": "born-2learn",
@@ -473,5 +469,9 @@
         "code"
       ]
     }
-  ]
+  ],
+  "repoType": "github",
+  "contributorsPerLine": 7,
+  "repoHost": "https://github.com",
+  "skipCi": true,
 }

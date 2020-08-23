@@ -67,7 +67,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
-- [Ackermann_Function](math/Ackermann_function.cpp)
+- [Ackermann Function](math/Ackermann_Function.cpp)
 
 ## Dynamic Programming
 

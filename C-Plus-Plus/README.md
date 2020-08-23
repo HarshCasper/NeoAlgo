@@ -21,7 +21,7 @@ Stack_using_LinkedList.cpp
 - [Stack Using Array](ds/Stack_using_Array.cpp)
 - [Stack Using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
-- [Reverse Linked List](ds/Reverse_linked_list.cpp)
+- [Updated Reverse Linked List](ds/Reverse_linked_list.cpp)
 
 ## Searching
 
@@ -67,7 +67,6 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
-- [Ackermann Function](math/Ackermann_Function.cpp)
 
 ## Dynamic Programming
 

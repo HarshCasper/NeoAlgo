@@ -1,9 +1,14 @@
 {
   "files": [
-    "README.md"
+    "CONTRIBUTORS.md"
   ],
   "imageSize": 100,
-  "commit": false,
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "projectName": "NeoAlgo",
+  "projectOwner": "TesseractCoding",
+  "repoType": "github",
+  "repoHost": "https://github.com",
   "contributors": [
     {
       "login": "born-2learn",
@@ -68,15 +73,6 @@
       "name": "Lucas Castro",
       "avatar_url": "https://avatars3.githubusercontent.com/u/53352488?v=4",
       "profile": "http://lucasamonrc.dev",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "keshav304",
-      "name": "keshav jha",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/54927712?v=4",
-      "profile": "https://github.com/keshav304",
       "contributions": [
         "code"
       ]
@@ -469,19 +465,13 @@
       ]
     },
     {
-      "login": "bagladivyang03",
-      "name": "Divyang Bagla",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/57760543?v=4",
-      "profile": "https://bagladivyang03.github.io/webdev/",
+      "login": "keshav304",
+      "name": "keshav jha",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/54927712?v=4",
+      "profile": "https://github.com/keshav304",
       "contributions": [
         "code"
       ]
     }
-  ],
-  "contributorsPerLine": 7,
-  "projectName": "NeoAlgo",
-  "projectOwner": "TesseractCoding",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "skipCi": true
+  ]
 }

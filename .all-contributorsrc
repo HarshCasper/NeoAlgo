@@ -473,5 +473,5 @@
   "repoType": "github",
   "contributorsPerLine": 7,
   "repoHost": "https://github.com",
-  "skipCi": true,
+  "skipCi": true
 }

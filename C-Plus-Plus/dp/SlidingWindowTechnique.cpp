@@ -26,7 +26,19 @@ long long maxSum(const vector<int> &arr, size_t k)
 
 int main()
 {
-  vector<int> arr = {100, 200, 300, 400};
-  size_t k = 2;
+  size_t n;
+  cout << "Enter the size of array\n";
+  cin >> n;
+  vector<int> arr(n);
+
+  cout << "Enter the Elemnets of Array\n";
+  for (size_t i = 0; i < n; i++)
+    cin >> arr[i];
+
+  size_t k;
+  cout << "Enter the size of Sub-Array\n";
+  cin >> k;
+  cout << "Outupt\n";
   cout << maxSum(arr, k);
+  return 0;
 }

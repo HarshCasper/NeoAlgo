@@ -21,6 +21,7 @@ def sum_subarray_mins(A) -> int:
 
 arr = list(map(int, input('Enter elements of an array (format- a,b,c..): ').split(',')))
 print('Sum of smallest elements of all sub-arrays is: {}' .format(sum_subarray_mins(arr)))
+
 """
 Input format:
 Enter elements of an array (format- a,b,c..): 5,7,1,3,8,2

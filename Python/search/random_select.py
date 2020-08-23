@@ -1,5 +1,9 @@
 #471
 #Pthon implementation of Radomised selection Algorithm
+"""
+Time Complexity:O(n)
+Space Complexity:
+"""
 import random as rand
 
 # This function returns the ith smallest element assuming that the elements are distinct
@@ -61,8 +65,11 @@ if __name__ == '__main__':
         arr.append(int(input("Enter a element")))
     i_pos = int(input("Enter the i'th position"))
 
-    print("i'th smallest element is",
-          ithSmallestElement(arr, 0, size - 1, i_pos))
+    if(ithSmallestElement(arr, 0, size - 1, i_pos) is None):
+        print("Please enter a valid i'th position")
+    else:
+        print("i'th smallest element is",
+              ithSmallestElement(arr, 0, size - 1, i_pos))
 
 """
 Testcases that were tested:

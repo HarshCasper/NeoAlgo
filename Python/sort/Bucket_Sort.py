@@ -45,15 +45,17 @@ def bucket_sort(unsortedArray, size):
     return sortedArray
 
 def main():
-    # Enter the size of Unsorted List/Array
-    size = int(input())
+    
+    print("Enter the size of List")
+    size = int(input()) # Enter the size of Unsorted List/Array
 
     unsortedArray = []
 
-    # Enter the elements of List/Array 
-    for index in range(size):
+    print("Enter " + str(size) + " elements of list")
     
-        element = int(input())
+    for index in range(size):
+        
+        element = int(input()) # Input the element of List
         unsortedArray.append(element)
 
     print("Unsorted Array :", unsortedArray) # Print Unsorted Array

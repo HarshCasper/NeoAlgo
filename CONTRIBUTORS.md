@@ -78,6 +78,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://bagladivyang03.github.io/webdev/"><img src="https://avatars1.githubusercontent.com/u/57760543?v=4" width="100px;" alt=""/><br /><sub><b>Divyang Bagla</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=bagladivyang03" title="Code">💻</a></td>
     <td align="center"><a href="http://subhayu.me"><img src="https://avatars1.githubusercontent.com/u/38143013?v=4" width="100px;" alt=""/><br /><sub><b>Subhayu Kumar Bala</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=subhayu99" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ChiragTutlani"><img src="https://avatars2.githubusercontent.com/u/42274144?v=4" width="100px;" alt=""/><br /><sub><b>Chirag Tutlani</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ChiragTutlani" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->

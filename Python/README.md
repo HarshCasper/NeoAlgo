@@ -72,8 +72,9 @@
 - [Euler’s Totient Function](math/euler_totient_function.py)
 
 ## Competitive Programming
-- [Prime Factorisation using sieve](cp/Prime_factorisation_using_sieve.py)
-- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [KMP Algorithm](cp/KMP_Algorithm.py)
+* [Prime Factorisation using sieve](cp/Prime_factorisation_using_sieve.py)
 
 ## Dynamic Programming
 _add list here_

@@ -73,6 +73,7 @@
 ## Competitive Programming
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [Target Sum Triplet](cp/Target_Sum_Triplet.py)
 
 ## Dynamic Programming
 _add list here_

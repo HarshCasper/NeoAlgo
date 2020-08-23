@@ -21,13 +21,14 @@ Stack_using_LinkedList.cpp
 - [Stack Using Array](ds/Stack_using_Array.cpp)
 - [Stack Using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
-- [Reverse Linked List](ds/Reverse_linked_list.cpp)
+- [Updated Reverse Linked List](ds/Reverse_linked_list.cpp)
 
 ## Searching
 
 - [Binary Search](search/Binary_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
+- [Interpolation Search](search/Interpolation_Search.cpp)
 
 ## Sorting
 
@@ -67,7 +68,7 @@ _add list here_
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Ackermann_Function](math/Ackermann_function.cpp)
-
+- [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
@@ -89,6 +90,8 @@ _add list here_
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
+- [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
 
 ## Other

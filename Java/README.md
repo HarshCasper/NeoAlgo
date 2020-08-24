@@ -13,6 +13,7 @@
 * [Binary Tree](ds/Binary_Tree.java)
 * [Linked List](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
+* [Queue Basic Functionalities](ds/queue.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
 

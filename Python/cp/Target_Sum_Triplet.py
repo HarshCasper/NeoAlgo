@@ -23,3 +23,21 @@ for i in range(rang):
 op = int(input('Enter the target for triplet:'))
 print('The Target Triplet is')
 targettriplets(lst, len(lst), op)   
+
+"""Input and Output
+Enter the Range for the Triplet:9
+1
+3
+4
+2
+5
+9
+6
+7
+8
+Enter the target for triplet:10
+1   2   7
+1   3   6
+1   4   5
+2   3   5
+"""

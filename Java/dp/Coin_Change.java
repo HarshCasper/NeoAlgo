@@ -79,3 +79,21 @@ public class demo{
         System.out.println(change(n,arr));
     }
 }
+
+/*
+Sample Test Case
+Input:
+N = 4
+S = {1,2,3}
+Explanation
+there are four solutions: {1,1,1,1},{1,1,2},{2,2},{1,3}
+Output
+4
+Input
+N = 10
+S = {2, 5, 3, 6}
+Explanation
+there are five solutions: {2,2,2,2,2}, {2,2,3,3}, {2,2,6}, {2,3,5} and {5,5}
+Output
+5
+*/

@@ -79,7 +79,8 @@
 * [KMP Algorithm](cp/KMP_Algorithm.py)
 
 ## Dynamic Programming
-_add list here_
+
+* [N-Queen](dp/N-Queen.py)
 
 ## Blockchain
 _add list here_

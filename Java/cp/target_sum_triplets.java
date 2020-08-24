@@ -44,8 +44,27 @@ class target_sum_triplets
     }
   }
   
+  // Sample Input Output ->
+
+
+  // Input
+  // 9
+  // 5 7 9 1 2 4 6 8 3
+  // 10
+
+  // Output
+  // 1, 2 and 7
+  // 1, 3 and 6
+  // 1, 4 and 5
+  // 2, 3 and 5
+
+
+
   // Complexity Analysis
+
   // Time Complexity - O(n^2)
   // Space Complexity - O(1)
+
+ 
   
           

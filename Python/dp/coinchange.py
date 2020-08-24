@@ -40,9 +40,11 @@ def coinChange(coins,value,n):
 				# assigning the previous value from matrix
 				k[i][j] = k[i-1][j]
 
+	# returns value in n * value block
 	return k[n][value]
 
 min_coins = coinChange(coins,value,n)
 
+# printing the min required coins
 print(min_coins)
 

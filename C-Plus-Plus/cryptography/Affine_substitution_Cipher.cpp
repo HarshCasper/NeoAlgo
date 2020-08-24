@@ -54,7 +54,7 @@ string decryption(string cipher) {
 
 int main() {
     string message = "TESSERACTCODINGNEOALGO";
-    //use only uppercase characters (you can modift the code for lowercase characters)
+    //use only uppercase characters (you can modify the code for lowercase characters)
     string new_message = encryption(message);
     cout << "Encrypted Message: " << new_message<<"\n";
     string original_message = decryption(new_message);

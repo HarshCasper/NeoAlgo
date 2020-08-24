@@ -45,8 +45,7 @@ Input:
 Enter infix expression: A+C*(B^D-E)^(G+H*K)-J
 Output:
 Postfix expression:     ACBD^E-GHK*+^*+J-
-'''
-'''
+
 Time Complexity : O(n)
 Space Complexity: Θ(n)
 '''

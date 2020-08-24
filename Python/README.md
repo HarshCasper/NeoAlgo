@@ -12,10 +12,14 @@
 ## Data Structures
 * [Queue](ds/Queue.py)
 * [Stacks](ds/Stacks.py)
+* [Tree (in-order(iterative)](ds/Tree_Iterative_InOrder_Traversal.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 * [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
+* [Singly Linked List](ds/SinglyLinkedList.py)
+* [Circular Linked List](ds/Circular_LinkedList.py)
+* [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
 * [Sum of smallest elements in all subarrays](ds/sumSubarrayMin.py)
 
 ## Searching
@@ -23,6 +27,7 @@
 * [Binary Search](search/binarysearch.py)
 * [Breadth First Search](search/bfs.py)
 * [Depth First Search](search/dfs.py)
+* [Interpolation Search](search/Interpolation_Search.py)
 * [Linear Search](search/Linear_Search.py)
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
@@ -46,6 +51,7 @@
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 * [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+* [Dynamic Prims Algorithm](graphs/Prims Algo_dynamic.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
@@ -66,10 +72,12 @@
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+* [Euler’s Totient Function](math/euler_totient_function.py)
 
 ## Competitive Programming
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [KMP Algorithm](cp/KMP_Algorithm.py)
 
 ## Dynamic Programming
 _add list here_

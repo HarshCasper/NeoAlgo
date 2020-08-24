@@ -14,13 +14,14 @@
 - [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
-
+- [Interpolation Search](search/Interpolation.c)
 
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
 - [Linear Search](search/linear_search.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+
 
 ## Sorting
 
@@ -47,7 +48,9 @@ _add list here_
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
 ## Dynamic Programming
 
-_add list here_
+- [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
+=======
+- [EditDistance in Dp](dp/EditDistanceDP.c)
 
 ## Blockchain
 
@@ -55,7 +58,7 @@ _add list here_
 
 ## Cryptography
 
-_add list here_
+- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 
 ## Other
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)

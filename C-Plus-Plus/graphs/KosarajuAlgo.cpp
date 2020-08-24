@@ -1,7 +1,4 @@
-#include<iostream>
-#include<list>
-#include<vector>
-#include<cstring>
+#include<bits/stdc++.h>
 using namespace std;
 
 class Graph{
@@ -55,12 +52,8 @@ class Graph{
                     dfs(i);
                 }
             }
-
-
-
             for(int i=0;i<V;i++){
                 vis[i]=0;
-                //cout<<vis[i]<<" ";
             }
             int col=1;
             for(int i=V-1;i>=0;i--){
@@ -79,16 +72,18 @@ class Graph{
 };
 
 int main(){
+    int n,e;
+    cout<<"Enter number of vertices and edges:";
+    cin>>n>>e;
+    Graph g(n);
+    cout<<"Enter edges:";
+    for(int i=0;i<e;i++){
+        int x,y;
+        cin>>x>>y;
+        x--;y--;
+        g.addEdge(x,y);
+    }
 
-    Graph g(6);
-    g.addEdge(0,1);
-    g.addEdge(2,0);
-    g.addEdge(1,2);
-    g.addEdge(3,0);
-    g.addEdge(2,3);
-    g.addEdge(3,4);
-    g.addEdge(4,5);
-    g.addEdge(5,3);
     g.solve();
     return 0;
 }

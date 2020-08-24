@@ -10,19 +10,20 @@
 # Codes in the Python language
 
 ## Data Structures
-* [Queue](ds/Queue.py)
-* [Stacks](ds/Stacks.py)
-* [Tree (in-order(iterative)](ds/Tree_Iterative_InOrder_Traversal.py)
-* [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
-* [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
-* [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
-* [Reverse Linked List](ds/Reverse_linked_list.py)
-* [Singly Linked List](ds/SinglyLinkedList.py)
-* [Circular Linked List](ds/Circular_LinkedList.py)
-* [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
 
+- [Queue](ds/Queue.py)
+- [Stacks](ds/Stacks.py)
+- [Tree (in-order(iterative)](ds/Tree_Iterative_InOrder_Traversal.py)
+- [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+- [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
+- [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+- [Reverse Linked List](ds/Reverse_linked_list.py)
+- [Singly Linked List](ds/SinglyLinkedList.py)
+- [Circular Linked List](ds/Circular_LinkedList.py)
+- [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
 
 ## Searching
+
 - [Bilinear Search](search/bilinear.py)
 - [Binary Search](search/binarysearch.py)
 - [Breadth First Search](search/bfs.py)
@@ -34,6 +35,7 @@
 - [Exponential Search](search/exponential_search.py)
 
 ## Sorting
+
 - [Bead Sort](sort/Bead_Sort.py)
 - [Bubble Sort](sort/Bubble_Sort.py)
 - [Heap Sort](sort/Heap_sort.py)
@@ -46,19 +48,22 @@
 - [Intro Sort](sort/IntroSort.py)
 
 ## Graphs
+
 - [Depth of Tree](graphs/Depth_Of_Tree.py)
 - [Height of Tree](graphs/height_of_given_tree.py)
 - [Prim's Algorithm](graphs/Prim_Algorithm.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
 * [Height of Tree](graphs/height_of_given_tree.py)
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
-* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
+* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 * [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 * [Dynamic Prims Algorithm](graphs/Prims Algo_dynamic.py)
 
 ## Machine Learning
+
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
@@ -69,6 +74,7 @@
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 
 ## Mathematics
+
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
@@ -80,24 +86,30 @@
 - [Euler’s Totient Function](math/euler_totient_function.py)
 
 ## Competitive Programming
-* [Rabin Karp Algorithm](cp/Rabin_Karp.py)
-* [KMP Algorithm](cp/KMP_Algorithm.py)
-* [Prime Factorisation using sieve](cp/Prime_factorisation_using_sieve.py)
+
+- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+- [KMP Algorithm](cp/KMP_Algorithm.py)
+- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 
 ## Dynamic Programming
+
 _add list here_
 
 ## Blockchain
+
 _add list here_
 
 ## Cryptography
+
 _add list here_
 
 ## Other
+
 - [Check Inversion](other/Check_Inversion.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
 
 ## miscellaneous
+
 - [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)

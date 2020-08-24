@@ -1,5 +1,13 @@
 # function to convert infix to postfix using array as stack
 def infix_to_postfix(infix_expression):
+    """
+    Function to change infix expression to postfix one
+    Params:
+        infix_expression: Infix Expression provided by user
+    Returns:
+        postfix_expression: Postfix Expression convertef from Infix one
+    """
+
     # initially empty stack
     stack = []
     # initially empty postfix_expression
@@ -32,20 +40,25 @@ def infix_to_postfix(infix_expression):
     return postfix_expression
 
 
-# set of operators
+# Set of operators
 operators = set(["+", "-", "*", "/", "(", ")", "^"])
+
 # dictionary having priorities
 priorities = {"+": 1, "-": 1, "*": 2, "/": 2, "^": 3}
-print("Input:")
+
+print("Input")
 infix_expression = input("Enter infix expression\n")
-print("Output:")
-# displaying the Output
+print("Output")
+
+# Displaying the Output
 print("Postfix expression: ", infix_to_postfix(infix_expression))
+
 """
  Input:
  Enter infix expression: A+C*(B^D-E)^(G+H*K)-J
  Output:
  Postfix expression:     ACBD^E-GHK*+^*+J-
+
  Time Complexity : O(n)
  Space Complexity: Θ(n)
-  """
+"""

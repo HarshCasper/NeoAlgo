@@ -100,14 +100,17 @@ if __name__ == '__main__':
 
     print("Representation using Linked List")
 
-    # Initialize stacks with some values
     stack = Stack()
-    stack.push(10)
-    stack.push(20)
-    stack.push(30)
-    stack.push(40)
-    stack.push(50)
 
+    # taking input from user
+    print("Enter the size of Stack")
+    size = int(input())
+
+    # Initialize stacks with some values
+    arr = list(map(int,input().split()))
+    
+    for i in arr:
+        stack.push(i)
 
     # Test size()
     print ("Pass" if (stack.size() == 5) else "Fail")
@@ -130,7 +133,7 @@ if __name__ == '__main__':
     # Printing all elements in stack
     stack.printStack()
 
-    
+
 
     ## Testing implementation of Stack using List
 

@@ -57,7 +57,7 @@ Node *del_RightBalance(Node *pptr,int *pshorter);
 	    30  40 50 60
 	   /    / \
 	  25   35  42
-------------------------------------------------*/	  
+*/	  
 
 	/*Deletion
 
@@ -97,7 +97,20 @@ Node *del_RightBalance(Node *pptr,int *pshorter);
 		 42
 		/  \
 	      40    50
-------------------------------------------------*/
+*/
+
+
+/* Time and Space Complexity */
+/*
+	AVL Tree is a self-balancing Binary Search Tree (BST) such that it's height remains O(Log N) after every insertion and deletion.  
+	Hence, the height of an AVL tree is always O(Log N), where N is the number of nodes in tree.
+	
+	O(1)/constant time : Rotate Operation, Update height and adjust balance factor.
+	O(log N)/O(h) time : Insertion and Deletion operations, where h is height of the tree.
+	O(N) time 	   : Tree Traversal Operations (Pre, Post and Inorder).
+
+	O(N) space complexity : AVL tree operations take O(N) space (stack size is included), where N is the number of nodes in tree.
+*/
 
 int main()
 {

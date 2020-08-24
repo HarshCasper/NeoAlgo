@@ -10,6 +10,7 @@
 # Codes in the Python language
 
 ## Data Structures
+
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
 - [Tree (in-order(iterative)](ds/Tree_Iterative_InOrder_Traversal.py)
@@ -88,7 +89,7 @@
 
 - [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
-- [Prime factorization using Sieve](cp/Prime_factorisation_using_sieve.py)
+- [Prime factorisation using Sieve](cp/Prime_factorisation_using_sieve.py)
 
 ## Dynamic Programming
 

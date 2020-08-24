@@ -1,5 +1,5 @@
 /*
-c++ program to implement binary search technique
+Algorithm for printing the occurrence of the given number in the list/array using Binary Search
 
 inputs: 
 	Size of array/list

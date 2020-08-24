@@ -36,6 +36,7 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Pre-Order (NLR) Tree Traversal](graphs/preordertraversal.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
+- [AVL Tree](graphs/AVL_Tree.c)
 
 ## Machine Learning
 

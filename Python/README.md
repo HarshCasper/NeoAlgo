@@ -48,6 +48,7 @@
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 * [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+* [Dynamic Prims Algorithm](graphs/Prims Algo_dynamic.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
@@ -73,6 +74,7 @@
 ## Competitive Programming
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [KMP Algorithm](cp/KMP_Algorithm.py)
 
 ## Dynamic Programming
 _add list here_

@@ -19,6 +19,7 @@
  Implementation-of-queue-using-stack
 * [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 * [Stack ~ Linked List Implementation](ds/Stack.java)
+* [Sparse Matrix](ds/SparseMatrix.java)
    master
 
 ## Algorithms
@@ -64,6 +65,9 @@ _add list here_
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)
+* [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
+
+
 
 ## Blockchain
 _add list here_

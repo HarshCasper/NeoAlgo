@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Implementation of Kosaraju's Algorithm to find out the strongly connected components (SCCs) in a graph.
 class Graph{
     list<int> *l;
     list<int> *rl;
@@ -43,6 +44,7 @@ class Graph{
 
         }
 
+        //for finding the strongly connected components
         void solve(){
 
             memset(vis,0,V);
@@ -65,7 +67,7 @@ class Graph{
             }
 
             for(int i=0;i<V;i++){
-                cout<<i<<": "<<comp[i]<<endl;
+                cout<<i+1<<": "<<comp[i]<<endl;
             }
 
         }
@@ -73,9 +75,10 @@ class Graph{
 
 int main(){
     int n,e;
-    cout<<"Enter number of vertices and edges";
+    cout<<"Enter number of vertices and edges:";
     cin>>n>>e;
     Graph g(n);
+    cout<<"Enter edges:";
     for(int i=0;i<e;i++){
         int x,y;
         cin>>x>>y;
@@ -86,3 +89,26 @@ int main(){
     g.solve();
     return 0;
 }
+/*Sample input-output:
+Input: 
+6 7
+1 2
+2 3
+3 1
+3 4
+4 5
+5 6
+6 4
+Output: 
+1:1
+2:1
+3:1
+4:2
+5:2
+6:2
+
+Time Complexity: O(n+e)
+n: Number of vertices
+e: Number of edges
+Space Complexity: O(1)
+*/

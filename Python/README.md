@@ -19,6 +19,8 @@
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Singly Linked List](ds/SinglyLinkedList.py)
 * [Circular Linked List](ds/Circular_LinkedList.py)
+* [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
+
 ## Searching
 * [Bilinear Search](search/bilinear.py)
 * [Binary Search](search/binarysearch.py)

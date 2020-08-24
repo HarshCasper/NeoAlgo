@@ -3,26 +3,20 @@ Given two sequences, find the length of longest subsequence present in both of t
 A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous.
 */
 
-#include<bits/stdc++.h>
+#include <iostream>
+#include <vector> // for 2D vector
 using namespace std;
 
-int lcs(char *x,char *y)
+int lowest_common_subsequence(string &x, string &y)
 {
-    int m=strlen(x);
-    int n=strlen(y);
+    int len_x = x.length();
+    int len_y = y.length();
 
-    int dp[100][100];
+    vector<vector<int> > dp (len_x+1, vector<int> (len_y+1,0));
 
-    //base case
-    //making first row and column 0
-    for(int i=0;i<=m;i++)
-        dp[i][0]=0;
-    for(int j=0;j<=n;j++)
-        dp[0][j]=0;
-
-    for(int i=1;i<=m;i++)
+    for(int i=1;i<=len_x;i++)
     {
-        for(int j=1;j<=n;j++)
+        for(int j=1;j<=len_y;j++)
         {
             int q=0;
 
@@ -35,15 +29,15 @@ int lcs(char *x,char *y)
         }
     }
 
-    return dp[m][n]; //return last element
+    return dp[len_x][len_y]; //return last element
 }
 
 int main()
 {
-    char str1[100],str2[100];
-    cout<<"Enter string1 and string2: "
+    string str1,str2;
+    cout<<"Enter string1 and string2: ";
     cin>>str1>>str2;
-    cout<<"output : "<<lcs(str1,str2);
+    cout<<"output : "<<lowest_common_subsequence(str1,str2)<<endl;
 }
 
 /*

@@ -29,8 +29,8 @@ int main(void) {
 }
 
 /*
-TIME COMPLEXITY : O(N) where n is number of elements in array
-SPACE COMPLEXITY : o(1) as no new space is allocated
+TIME COMPLEXITY : O(n) where n is number of elements in array
+SPACE COMPLEXITY : O(1) as no new space is allocated
 TEST CASE 
 
 INPUT

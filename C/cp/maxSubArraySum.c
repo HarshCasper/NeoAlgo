@@ -9,13 +9,13 @@ int main(void) {
     
 	// Aceepting an array 
 	int size;
-	printf("Enter number of elemets in array \n");
-	scanf (" %d ", &size);
+	printf("Enter the size of the array ");
+	scanf ("%d", &size);
 	
+	printf("Enter elements of array \n");
 	int arr[size];
-	printf("Enter elemets of array \n");
 	for (int index = 0; index < size; index++ ){
-	    scanf(" %d ", &arr[index]);
+	    scanf("%d", &arr[index]);
 	}
 	
 	//KADANE'S ALGORITHM
@@ -27,7 +27,6 @@ int main(void) {
 	}
 	
 	printf("Maximum sum of subarray is %d \n", max_sum);
-	
 	
 	return 0;
 }

@@ -41,8 +41,14 @@ string decryption(string cipher) {
 int main() {
     string message = "TESSERACTCODINGNEOALGO";
     string new_message = encryption(message);
-    cout << "Encrypted Message: " << new_message;
+    cout << "Encrypted Message: " << new_message<<"\n";
     string original_message = decryption(new_message);
     cout << "Decrypted Message: " << original_message;
     return 0;
 }
+
+/*
+OUTPUT
+Encrypted Message: RSYYSFUGRGAZQHEHSAUVEA
+Decrypted Message: TESSERACTCODINGNEOALGO
+*/

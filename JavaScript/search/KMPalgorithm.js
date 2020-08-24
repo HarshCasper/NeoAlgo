@@ -62,6 +62,9 @@ if(result === -1) {
 }
 
 /*
+Output for above sample input:
+Pattern is present in text at index 2
+
 Time complexity = O(m+n)
 Space complexity = O(n)
 m = number of characters in text

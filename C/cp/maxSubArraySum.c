@@ -1,13 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
-#define MIN(a,b) (((a)<(b))?(a):(b))
 #define MAX(a,b) (((a)>(b))?(a):(b))
-
 
 int main(void) {
     
-	// Aceepting an array 
+	// Accepting an array 
 	int size;
 	printf("Enter the size of the array ");
 	scanf ("%d", &size);
@@ -32,6 +29,8 @@ int main(void) {
 }
 
 /*
+TIME COMPLEXITY : O(N) where n is number of elements in array
+SPACE COMPLEXITY : o(1) as no new space is allocated
 TEST CASE 
 
 INPUT

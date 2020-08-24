@@ -81,7 +81,7 @@ _add list here_
 
 ## Cryptography
 
-- [Affine substitution Cipher.](cryptography/Affine substitution Cipher.cpp)
+- [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
 
 ## Competitive Programming
 

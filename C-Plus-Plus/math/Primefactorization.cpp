@@ -1,6 +1,5 @@
 //CPP program to prime factorize a number using sieve
-#include<iostream>
-#include<vector>
+#include<bits/stdc++.h>
 using namespace std;
 int a[1000001];
 //Created Sieve to efficiently handle the queries to calculate the prime factorization

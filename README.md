@@ -13,7 +13,7 @@ In case you have any questions, feel free to tag one of the repo admins in your 
 
 Our content is divided by programming language. Please create an issue if you wish to add code in a language that we don't currently have here. **Do not create folders in your submissions, unless specifically told to do so.**
 
-Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCoding/NeoAlgo/wiki) section. Please let us know if you'd like to contribute with an article.
+Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCoding/NeoAlgo/wiki) section. Please let us know if you'd like to contribute to an article.
 
 - [C](/C/README.md)
 - [C-Plus-Plus](/C-Plus-Plus/README.md)
@@ -44,6 +44,10 @@ Make sure your code works before submitting it :D
 - Edit the corresponding _README.md_ file to **add the link to your code in the corresponding section** ([GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/))
 - **Under no circumstances create new folders within the language folders to upload your code unless specifically told to do so**.
 - Also, be polite with the reviewers - they will be ALWAYS polite to you.
+
+## Our Contributors
+
+[CONTRIBUTORS.md](https://github.com/TesseractCoding/NeoAlgo/blob/master/CONTRIBUTORS.md)
 
 ## Code of Conduct
 

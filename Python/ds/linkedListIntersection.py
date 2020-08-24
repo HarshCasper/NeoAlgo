@@ -26,7 +26,7 @@ class LinkedList:
                 return iterator1.val
             iterator1 = iterator1.next if iterator1 else head2
             iterator2 = iterator2.next if iterator2 else self.head
-        return False
+        return 'No intersecting point found!'
                 
 inp1 = list(map(int, input('Elements of list1: ').split(',')))
 inp2 = list(map(int, input('Elements of list2: ').split(',')))

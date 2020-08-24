@@ -10,7 +10,6 @@
 # Codes in the Python language
 
 ## Data Structures
-
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
 - [Tree (in-order(iterative)](ds/Tree_Iterative_InOrder_Traversal.py)

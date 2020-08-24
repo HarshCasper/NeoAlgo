@@ -54,13 +54,7 @@
 - [Prim's Algorithm](graphs/Prim_Algorithm.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
-
-* [Depth of Tree](graphs/Depth_Of_Tree.py)
-* [Height of Tree](graphs/height_of_given_tree.py)
-* [Prim's Algorithm](graphs/Prim_Algorithm.py)
-* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
-* [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
-* [Dynamic Prims Algorithm](graphs/Prims Algo_dynamic.py)
+- [Dynamic Prims Algorithm](graphs/Prims Algo_dynamic.py)
 
 ## Machine Learning
 
@@ -89,7 +83,6 @@
 
 - [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
-- [Prime factorisation using Sieve](cp/Prime_factorisation_using_sieve.py)
 
 ## Dynamic Programming
 

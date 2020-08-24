@@ -68,6 +68,7 @@
 ## Competitive Programming
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 
 ## Dynamic Programming
 _add list here_

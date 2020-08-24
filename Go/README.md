@@ -20,7 +20,8 @@
 * [Linear Search](/search/linear_search.go)
 
 ## Sorting
-_add list here_
+* [Merge Sort Sequantial](./sort/merge_sort_sequential.go)
+* [Merge Sort Parallel](./sort/merge_sort_parallel.go)
 
 ## Machine Learning
 _add list here_

@@ -15,8 +15,8 @@ def find_Triplets_with_zero_sum(arr, num):
             num = size of input array
 
         Output :
-            if triplets found reuturn their values 
-            else return No Triplet Found
+            if triplets found return their values 
+            else return "No Triplet Found"
 
     '''
    

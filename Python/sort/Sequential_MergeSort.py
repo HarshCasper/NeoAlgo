@@ -4,16 +4,16 @@
 import random
 
 """ sequential implementation of merge sort """
-def seq_mergesort(array, *args):
+def sequential_mergesort(array, *args):
     if not args: # first call
-        seq_mergesort(array, 0, len(array)-1)
+        sequential_mergesort(array, 0, len(array)-1)
         return array # return the sorted array
     else: # recursive call
         left, right = args
         if (left < right):
             mid = (left + right) // 2 # find the middle point
-            seq_mergesort(array, left, mid) # sort the left half
-            seq_mergesort(array, mid+1, right) # sort the right half
+            sequential_mergesort(array, left, mid) # sort the left half
+            sequential_mergesort(array, mid+1, right) # sort the right half
             merge(array, left, mid, right) # merge the two sorted halves
 
 """ helper method to merge two sorted subarrays
@@ -51,9 +51,9 @@ if __name__ == '__main__':
     strRandomArray = ','.join([str(i) for i in array])
     print('Random Array to Sort is : ' + strRandomArray)
     print('Evaluating Sequential Implementation...')
-    sequential_result = seq_mergesort(array.copy())
+    sequential_result = sequential_mergesort(array.copy())
     for i in range(NUM_EVAL_RUNS):
-        seq_mergesort(array.copy())
+        sequential_mergesort(array.copy())
     strfinalSortResult =','.join([str(i) for i in sequential_result])
     print('final sorted array is : '+ strfinalSortResult)
     

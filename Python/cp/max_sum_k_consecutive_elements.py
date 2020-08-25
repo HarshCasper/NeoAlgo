@@ -11,11 +11,14 @@ def maxSumofKelements(arr, n, k):
     return ans
     
 
+print("Enter number of elements in array: ")    
 n = int(input());                     #inputting num of elements in array
 
+print("Enter array elements in a single line seperated with spaces : ")
 input_string = input()                #inputting array elements
 arr = input_string.split()
 
+print("Enter k")
 k = int(input())                      #inputting k
 
 print("Maximum sum of k consecutive elements in array is: " + str(maxSumofKelements(arr, n, k)))

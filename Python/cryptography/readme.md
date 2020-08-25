@@ -10,7 +10,7 @@
 <br>
 <hr>
 <br>
-The above program on affine cipher contains an encryption and decryption functions which takes the plain text and keys as input and displays the encrypted text as well decrypts it and shows the original plain text again.
+The above program on affine cipher contains an encryption and decryption functions which takes the plain text and keys as input , checks the conditions and displays the encrypted text as well decrypts it and shows the original plain text again.
 
  
 

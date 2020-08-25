@@ -1,5 +1,33 @@
 ﻿public class Solution
 {
+	/* 
+	
+	Given a string, return the length of the longest substring WITHOUT repeating characters.
+	
+	Samples...
+	Example 1: 
+		Input: "abcabcbb"
+		Output: 3 
+		Explanation: The answer is "abc", with the length of 3.
+	
+	Example 2:
+	    Input: "bbbbb"
+	    Output: 1
+	    Explanation: The answer is "b", with the length of 1.
+	
+	Example 3:
+	    Input: "pwwkew"
+	    Output: 3
+	    Explanation: The answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+	
+	Algorithm complexity analysis:
+	This is the sliding window solution for the 'Longest Substring without Repeating Characters' problem, which is far more efficient than the naive brute force approach.
+	
+	Time complexity: O(n), where n is the length of the input string.
+	Space complexity: O(k), where k is the number of unique characters in the input string.
+	
+    */
+	
     public int LengthOfLongestSubstring(string s)
     {
         // pointers to the substring without duplicating characters

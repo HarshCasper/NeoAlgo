@@ -44,7 +44,9 @@ _add list here_
 
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
-- [GCD By Euclidean Algorithm](math/GCD In C.c)
+- [GCD By Euclidean Algorithm]
+   (math/GCD In C.c)
+   
 ## Dynamic Programming
 
 _add list here_
@@ -52,6 +54,10 @@ _add list here_
 ## Blockchain
 
 _add list here_
+
+## Competitive Programming
+- [Sum of Triplet]
+  (cp/sum of triplet.c)
 
 ## Cryptography
 

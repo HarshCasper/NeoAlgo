@@ -32,20 +32,33 @@ def merge(array, left, mid, right):
             right_temp_index += 1
         merge_index += 1
 
+""" sequential implementation of merge sort """
+def sequential_mergesort(array, *args):
+    if not args: # first call
+        sequential_mergesort(array, 0, len(array)-1)
+        return array # return the sorted array
+    else: # recursive call
+        left, right = args
+        if (left < right):
+            mid = (left + right) // 2 # find the middle point
+            sequential_mergesort(array, left, mid) # sort the left half
+            sequential_mergesort(array, mid+1, right) # sort the right half
+            merge(array, left, mid, right) # merge the two sorted halves	
+	
 """ parallel implementation of merge sort """
 def parallel_mergesort(array, *args):
     if not args: # first call
         shared_array = mp.RawArray('i', array)
-        par_mergesort(shared_array, 0, len(array)-1, 0)
+        parallel_mergesort(shared_array, 0, len(array)-1, 0)
         array[:] = shared_array # insert result into original array
         return array
     else:
         left, right, depth = args
         if (left < right):
             mid = (left + right) // 2
-            left_proc = mp.Process(target=par_mergesort, args=(array, left, mid, depth+1))
+            left_proc = mp.Process(target=parallel_mergesort, args=(array, left, mid, depth+1))
             left_proc.start()
-            par_mergesort(array, mid+1, right, depth+1)
+            parallel_mergesort(array, mid+1, right, depth+1)
             left_proc.join()
             merge(array, left, mid, right)
 
@@ -56,13 +69,20 @@ if __name__ == '__main__':
     array = [random.randint(0,10_000) for i in range(userRange)]
     strRandomArray = ','.join([str(i) for i in array])
     print('Random Array to Sort is : ' + strRandomArray)
+    print('Evaluating Sequential Implementation...')
+    sequential_result = sequential_mergesort(array.copy())
+    for i in range(NUM_EVAL_RUNS):
+        sequential_mergesort(array.copy())
+    strfinalSortResult =','.join([str(i) for i in sequential_result])
+    print('final Sequential approach sorted array is : '+ strfinalSortResult)
     print('Evaluating Parallel Implementation...')
     parallel_result = parallel_mergesort(array.copy())
-    parallel_time = 0
     for i in range(NUM_EVAL_RUNS):
         parallel_mergesort(array.copy())
+    if sequential_result != parallel_result:
+        raise Exception('sequential_result and parallel_result do not match.')	
     strfinalSortResult =','.join([str(i) for i in parallel_result])
-    print('final sorted array is : '+ strfinalSortResult)
+    print('final Parallel approach sorted array is : '+ strfinalSortResult)
     
     # input/output sample
     # Enter your range for generating random array: 10

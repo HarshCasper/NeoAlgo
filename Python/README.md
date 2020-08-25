@@ -264,6 +264,7 @@ _add list here_
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 * [KMP Algorithm](cp/KMP_Algorithm.py)
+* [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 
 ## Dynamic Programming
 _add list here_

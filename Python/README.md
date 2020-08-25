@@ -20,7 +20,7 @@
 * [Singly Linked List](ds/SinglyLinkedList.py)
 * [Circular Linked List](ds/Circular_LinkedList.py)
 * [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
-
+* [Doubly Linked List](ds/doubly_linked_list.py)
 ## Searching
 * [Bilinear Search](search/bilinear.py)
 * [Binary Search](search/binarysearch.py)

@@ -63,7 +63,6 @@ if __name__ == '__main__':
     # Random Array to Sort is : 1807,7508,7166,7673,2000,1356,7665,4670,9395,6002
     # Evaluating Sequential Implementation...
     # final sorted array is : 1356,1807,2000,4670,6002,7166,7508,7665,7673,9395
-    
     # Time Complexity: O(nLog(n)) in worst case
 	#Space Complexity: O(n) in worst case
     

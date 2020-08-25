@@ -47,7 +47,7 @@ _add list here_
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
 ## Dynamic Programming
 
-_add list here_
+- [Longest Common Subsequence](dp/lcs.c)
 
 ## Blockchain
 

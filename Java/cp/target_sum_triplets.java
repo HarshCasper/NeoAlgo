@@ -7,7 +7,7 @@ class target_sum_triplets
     public static void main(String args [])
     
     {
-        Scanner sc=new Scanner (System.in);
+        Scanner sc=new Scanner (System.in); // Input
         int n=sc.nextInt(); //  array size
         
         int arr[]=new int[n];
@@ -28,7 +28,7 @@ class target_sum_triplets
                   
                   if(arr[j] + arr[start] + arr[end] == target)
                   {
-                   System.out.println(arr[j] + ", " + arr[start] + " and " + arr[end]);
+                   System.out.println(arr[j] + ", " + arr[start] + " and " + arr[end]); // Output ( keep printing output till end)
                    start++;
                    end--;
                   } 

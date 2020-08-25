@@ -44,6 +44,9 @@
 * [Topological Sort](sort/topological_sort.py)
 * [Intro Sort](sort/IntroSort.py)
 
+## Linked-List
+* [Doubly Linked List](Linked-List/doubly_linked_list.py)
+
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
 * [Height of Tree](graphs/height_of_given_tree.py)

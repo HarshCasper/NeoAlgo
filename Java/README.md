@@ -79,7 +79,6 @@ _add list here_
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
-* [Target Sum Triplets](cp/target_sum_triplets.java)
 
 ## Other
 _add list here_

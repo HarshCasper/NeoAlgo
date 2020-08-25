@@ -4,7 +4,7 @@
 using namespace std;
 
 //triplets printing function
-void printtriplets(int arr[],int n,int sum)
+void printtriplets(int* arr,int n,int sum)
 {
 	//sorting array initially
 	sort(arr,arr+n);
@@ -39,17 +39,18 @@ void printtriplets(int arr[],int n,int sum)
 //Main function
 int main() 
 {
-	int end,input[1000],target;
+	int end,target;
 	cout<<"Enter the no. of elements in array you want to enter"<<endl; 
 	cin >> end;
 	
+	int* input = new int[end];
 	cout<<"Enter elements"<<endl;
-	
 	for(int ind=0;ind<end;ind++)
 		cin >> input[ind];
 	
 	cout<<"Enter target"<<endl;	
 	cin>>target;
 	printtriplets(input,end,target);
+	delete[] input;
 	return 0;
 }

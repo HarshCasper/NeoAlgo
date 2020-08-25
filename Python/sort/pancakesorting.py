@@ -83,3 +83,14 @@ PancakeSoritng(arr,n)
 
 #Printing the sorted array
 print("The Sorted array is \n{}".format(arr))
+
+"""
+#Sample Input 
+[2,6,5,1,8,6,9]
+
+#Sample Output
+Length of the array is 7
+The Sorted array is [1,2,5,6,6,8,9]
+
+"""
+

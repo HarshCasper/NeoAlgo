@@ -13,7 +13,7 @@ int max(int a,int b)
 }
 
 // To print LCS of X[0..m-1], Y[0..n-1] 
-void lcs(char X[], char Y[], int m, int n ) 
+void longest_common_subsequence(char X[], char Y[], int m, int n ) 
 { 
     int t[m+1][n+1];
     // Initialisation : if either string is empty, size of LCS is 0
@@ -78,6 +78,6 @@ int main()
     scanf("%s%s",X,Y); 
     int m = strlen(X); 
     int n = strlen(Y); 
-    lcs(X, Y, m, n); 
+    longest_common_subsequence(X, Y, m, n);
     return 0;
 } 

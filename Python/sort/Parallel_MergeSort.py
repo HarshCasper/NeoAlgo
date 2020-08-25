@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Solution: Sort an array of random integers with merge sort using parallel approach."""
+""" Merge Sort Algorithm for Sort an array of random integers with parallel and sequential apporach is used."""
 
 import random
 import math
@@ -33,7 +33,7 @@ def merge(array, left, mid, right):
         merge_index += 1
 
 """ parallel implementation of merge sort """
-def par_mergesort(array, *args):
+def parallel_mergesort(array, *args):
     if not args: # first call
         shared_array = mp.RawArray('i', array)
         par_mergesort(shared_array, 0, len(array)-1, 0)
@@ -57,10 +57,10 @@ if __name__ == '__main__':
     strRandomArray = ','.join([str(i) for i in array])
     print('Random Array to Sort is : ' + strRandomArray)
     print('Evaluating Parallel Implementation...')
-    parallel_result = par_mergesort(array.copy())
+    parallel_result = parallel_mergesort(array.copy())
     parallel_time = 0
     for i in range(NUM_EVAL_RUNS):
-        par_mergesort(array.copy())
+        parallel_mergesort(array.copy())
     strfinalSortResult =','.join([str(i) for i in parallel_result])
     print('final sorted array is : '+ strfinalSortResult)
     

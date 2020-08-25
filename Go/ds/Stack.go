@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
+	"math/rand"
 )
 
 // A linked list node
@@ -44,6 +45,14 @@ func (obj *stack) Pop() (interface{}, error) {
 	return data, nil
 }
 
+// Returns a random element to insert in the Stack
+func getElement() interface{} {
+	var temp interface{} = rand.Intn(100)
+	fmt.Println("Element: ", temp)
+
+	return temp
+}
+
 // Returns the value at the beginning of the stack
 // along with the error message
 func (obj *stack) Peek() (interface{}, error) {
@@ -56,16 +65,31 @@ func (obj *stack) Peek() (interface{}, error) {
 
 func main() {
 	var object stack
-	object.Push(5)
-	object.Push(10)
-	fmt.Println(object.Peek())
-	object.Push(15)
-	fmt.Println(object.Pop())
-	object.Push(20)
-	fmt.Println(object.isEmpty())
-	fmt.Println(object.Pop())
-	fmt.Println(object.Pop())
-	fmt.Println(object.Pop())
-	fmt.Println(object.isEmpty())
-	fmt.Println(object.Pop())
+	var flag bool = true
+	var choice int
+
+	for flag {
+		fmt.Print("Menu\n1. Push element\n2. Pop element\n3. Peek element\n4. Count of elements\n5. Exit\nEnter your choice: ")
+		fmt.Scan(&choice)
+
+		switch choice {
+		case 1:
+			element := getElement()
+			object.Push(element)
+		case 2:
+			element, err := object.Pop()
+			fmt.Println("Element: ", element)
+			fmt.Println("Error: ", err)
+		case 3:
+			element, err := object.Peek()
+			fmt.Println("Element: ", element)
+			fmt.Println("Error: ", err)
+		case 4:
+			fmt.Println("The total number of elements present in the Stack are: ", object.size)
+		case 5:
+			flag = false
+		default:
+			fmt.Println("Please enter valid choice.")
+		}
+	}
 }

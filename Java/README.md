@@ -16,6 +16,10 @@
 * [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
+ Implementation-of-queue-using-stack
+* [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
+* [Stack ~ Linked List Implementation](ds/Stack.java)
+   master
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)
@@ -33,6 +37,8 @@
 * [PancakeSort](sort/PancakeSort.java)
 * [BeadSort](sort/BeadSort.java)
 * [Selection Sort](sort/SelectionSort.java)
+* [Bucket Sort](sort/BucketSort.java)
+* [Minimum number of swaps to sort an array of N unordered consecutive integers](sort/MinimumSwapsForNIntegers.java)
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)

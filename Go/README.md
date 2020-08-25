@@ -10,7 +10,7 @@
 # Codes in the Golang language
 
 ## Data Structures
-* [Stack](./ds/Stack.go)
+* [Stack](/ds/stack.go)
 * [Stack using Queue](./ds/stack_using_queue.go)
 * [Queue using Stack](./ds/queue_using_stack.go)
 * [Circular Linked List](./ds/CircularLinkedList.go)

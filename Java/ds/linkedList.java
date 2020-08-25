@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main 
+public class Main
 {
     static Node head;
     class Node{
@@ -9,7 +9,7 @@ public class Main
     		this.data=data;
     	}
     }
-    
+
     public void insert_At_beginning(int data) {
     	Node ptr = new Node(data);
     	if(head!=null)
@@ -17,8 +17,8 @@ public class Main
     		ptr.next=head;
     		head=ptr;
           }
-    	else 
-    	  {     
+    	else
+    	  {
 		ptr.next=null;
     	        head=ptr;
        	  }
@@ -30,14 +30,14 @@ public class Main
       return false;
     }
     public void print() {
-    	Node ctr=head;	
+    	Node ctr=head;
     	while(ctr!=null)
     	{
     		System.out.print(ctr.data);
     		ctr=ctr.next;
     	}
     	System.out.println();
-    }  
+    }
     public void insert_At_End(int data)
     {    Node ctr=head;
     	 Node ptr = new Node(data);
@@ -52,15 +52,15 @@ public class Main
     	   ctr.next=ptr;
            ptr.next=null;
     	 }
-    } 
+    }
     public void delete_From_Beginning()
     {   if(head!=null)
     	  head = head.next;
-        else 
+        else
     	System.out.println("Linked list is empty");
     }
     public void delete_From_End()
-    {   
+    {
     	Node ctr=head;
     	if(ctr!=null && ctr.next!=null)
 	   {
@@ -71,12 +71,12 @@ public class Main
     	else if( ctr!=null && ctr.next==null)
     	   head = null;
     	else
-    	  System.out.println("Linked list is empty");  
+    	  System.out.println("Linked list is empty");
     }
     public void delete_At_Position(int c)
-    {   
+    {
     	int i=1;Node ctr=head,ptr;
-    	if(ctr!=null && ctr.next!=null) 
+    	if(ctr!=null && ctr.next!=null)
 	{
     	   while(i<c-1 && ctr.next!=null)
     		ctr=ctr.next;
@@ -84,9 +84,9 @@ public class Main
     	   ctr.next=ptr.next;
         }
 	else if( ctr!=null && ctr.next==null)
-    	   head = null;    
+    	   head = null;
         else
-    	 System.out.println("Linked list is empty"); 
+    	 System.out.println("Linked list is empty");
        return ;
    }
    public void insert_At_Position(int c,int data)
@@ -159,6 +159,7 @@ public class Main
    	          ll.count();
    	          break;
                   }
+
            default:f=false;
         }
        System.out.println("Enter choice from 1-7");

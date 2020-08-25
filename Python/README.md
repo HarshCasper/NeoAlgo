@@ -188,4 +188,3 @@ _add list here_
 
 ## miscellaneous
 * [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)
-

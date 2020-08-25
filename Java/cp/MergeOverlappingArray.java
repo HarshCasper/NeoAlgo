@@ -5,9 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class Answer {
+public class MergeOverlappingArray {
 	
-	 public static void merge(int[][] intervals) {
+	 public static int[][] merge(int[][] intervals) {
 	        List<int[]> list = new ArrayList<>();
 	        
 	        if(intervals.length == 0 || intervals == null)
@@ -27,10 +27,8 @@ public class Answer {
 	            }
 	        }
 	            list.add(new int[]{begin,end});
-	            for (int[] row :list ) {
-		            System.out.println(Arrays.toString(row)); 
-		    } 
-	            return ;
+	            intervals = list.toArray(new int[0][]);
+	            return intervals;
 	            
 	    }
 
@@ -39,14 +37,42 @@ public class Answer {
 		System.out.println("Enter number of intervals: ");
 		int n = sc.nextInt();
 		System.out.println("Enter intervals: ");
-		int[][] arr = new int[n][n]; 
+		int[][] arr = new int[n][2]; 
 		for(int k =0;k<arr.length;k++) {
 			for(int l=0;l<arr[k].length;l++) {
 				arr[k][l] = sc.nextInt();
 			}
 		}
-		merge(arr);
+		int[][] t= merge(arr);
+		 for (int[] row : t) {
+             System.out.println(Arrays.toString(row)); 
+     } 
 		sc.close();
 	}
 }
 
+/*
+=>Input and Output of program
+
+Enter number of intervals: 
+2
+Enter intervals: 
+1 8
+2 7
+[1, 8]
+
+Enter number of intervals: 
+4
+Enter intervals: 
+1 3
+2 6
+8 10
+15 18
+[1, 6]
+[8, 10]
+[15, 18]
+
+=>Time Complexity: O(nlogn) + O(n)
+=>Space Complexity: O(n)
+
+*/

@@ -1,3 +1,6 @@
+#Time Complexity:O(noOfRows*noOfcolumns)
+#Space Complexity:O(1)
+
 #for row and coloumn input
 R = int(input("Enter the number of rows:")) 
 C = int(input("Enter the number of columns:")) 

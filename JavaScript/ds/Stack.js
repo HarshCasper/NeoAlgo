@@ -1,4 +1,5 @@
 class Stack{
+    //Initializing stack with an empty array
     constructor(){
         this.arr=[];
         var top=0;
@@ -23,6 +24,7 @@ class Stack{
         }else{
             var temp=arr[top];
             top--;
+            console.log("One element has been removed from the stack");
             return temp;
         }
     }
@@ -43,7 +45,7 @@ class Stack{
         return output;
     }
     //size is used to return the size of the stack
-    size(){
+    count(){
         return top;
     }
 
@@ -51,28 +53,40 @@ class Stack{
 }
 //Implementation
 
+const another_arr=[56,75,24,69,47];
+
 //Making an object of the stack class
 var mystack=new Stack();
 
-//Checking whether the stack is empty or not
-console.log(mystack.isEmpty()); 
+//Checking whether the stack is empty or not by isEmpty() 
+if(mystack.isEmpty()==true){
+    console.log("The stack is empty right now");
+}else{
+    console.log("The stack has elements in it");
+}
 
-//We can check it by size() also 
-console.log(mystack.size());
+//We can check it by count() also but it will not return true or false
+console.log("The size of the current stack is",mystack.count());
 
 //pushing elements in the stack
-mystack.push_back(56); 
-mystack.push_back(75); 
-mystack.push_back(24);
+mystack.push_back(another_arr[0]);
 
-//Printing the new size of the array
-console.log("The new size of stack is ",top);
+mystack.push_back(another_arr[1]); 
 
-//Printing the stack
+mystack.push_back(another_arr[2]);
+
+//Printing the new size of the array using count()
+console.log("The new size of stack is ",count());
+
+//Printing the stack with print()
 console.log("The elements present in stack are ",mystack.print());
 
-//Removing the topmost element from the stack
-mystack.pop();
+//Removing the topmost element from the stack by pop()
+var removed_element=mystack.pop();
 
-//Printing the stack after removing the element
+console.log("The element which is popped from the stack is ",removed_element);
+
+//Printing the stack after removing the element using print()
 console.log("The elements present after removing one element in stack are ",mystack.print());
+
+

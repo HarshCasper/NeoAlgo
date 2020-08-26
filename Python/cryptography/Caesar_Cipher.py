@@ -12,63 +12,63 @@ In the below code messages are encrypted with a shift of the value provided as k
 
 # Decrypt Caesar Cipher Messages
 
-"""Function to decrypt a caesar ciphered message"""
+# Function to decrypt a caesar ciphered message
 def decrypt(text, shift):
     message = ""
 
-    """Looping through all the characters present in text"""
+    # Looping through all the characters present in text
     for character in range(len(text)):
 
-        """Saving current character in current_character"""
+        # Saving current character in current_character
         current_character = text[character]
 
-        """If current characater is space adding it directly to message"""
+        # If current characater is space adding it directly to message
         if current_character == ' ':
             message += current_character
             continue
 
-        """If current characater is an uppercase letter adding it after shifting with key value to message"""
+        # If current characater is an uppercase letter adding it after shifting with key value to message
         if current_character.isupper():
             message += chr((ord(current_character) - shift - 65) % 26 + 65)
             continue
 
-        """If current characater is an lowercase letter adding it after shifting with key value to message"""
+        # If current characater is an lowercase letter adding it after shifting with key value to message
         if current_character.islower():
             message += chr((ord(current_character) - shift - 97) % 26 + 97)
             continue
 
-    """Returning the message"""
+    # Returning the message
     return message
 
 
 # Encrypt Caesar Cipher Messages
 
-"""Function to encrypt a message"""
+# Function to encrypt a message
 def encrypt(text, shift):
     message = ""
 
-    """Looping through all the characters present in text"""
+    # Looping through all the characters present in text
     for character in range(len(text)):
 
-        """Saving current character in current_character"""
+        # Saving current character in current_character
         current_character = text[character]
 
-        """If current characater is space adding it directly to message"""
+        # If current characater is space adding it directly to message
         if current_character == ' ':
             message += current_character
             continue
 
-        """If current characater is an uppercase letter adding it after shifting with key value to message"""
+        # If current characater is an uppercase letter adding it after shifting with key value to message
         if current_character.isupper():
             message += chr((ord(current_character) + shift - 65) % 26 + 65)
             continue
 
-        """If current characater is an lowercase letter adding it after shifting with key value to message"""
+        # If current characater is an lowercase letter adding it after shifting with key value to message
         if current_character.islower():
             message += chr((ord(current_character) + shift - 97) % 26 + 97)
             continue
 
-    """Returning message"""
+    # Returning message
     return message
 
 

@@ -1,4 +1,4 @@
-package def;
+//Given a collection of intervals, merge all overlapping intervals.
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -47,6 +47,9 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
 ## Dynamic Programming
+
+- [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
+=======
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 
 ## Blockchain

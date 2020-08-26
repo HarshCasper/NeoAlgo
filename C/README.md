@@ -58,7 +58,8 @@ _add list here_
 ## Cryptography
 
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
-- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
+- [Affine Cipher Algorithm](cryptography/Affine_Substitution_Cipher.c)
+
 
 ## Other
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)

@@ -1,7 +1,7 @@
 '''
   Author : Mohit Kumar
   
-  python program to find triplets in a given  array whose sum is zero 
+  Python program to find triplets in a given  array whose sum is zero 
 
 '''
 
@@ -19,7 +19,7 @@ def find_Triplets_with_zero_sum(arr, num):
             else return "No Triplet Found"
 
     '''
-   
+    # bool variable to check if triplet found or not 
     found = False
 
     # sort array elements 
@@ -48,13 +48,11 @@ def find_Triplets_with_zero_sum(arr, num):
                 found = True
             
 
-            # If sum of three elements is less 
-            # than zero then increment in left 
+            # If sum of three elements is less  than zero then increment in left 
             elif (temp < 0) : 
                 left += 1
 
-            # if sum is greater than zero than 
-            # decrement in right side 
+            # if sum is greater than zero than decrement in right side 
             else: 
                 right -= 1
         
@@ -86,7 +84,7 @@ OUTPUT :
 COMPLEXITY ANALYSIS :
 
 Time Complexity : O(n^2).
-    Only two nested loops is required, so the time complexity is O(n2).
+    Only two nested loops is required, so the time complexity is O(n^2).
 
 Auxiliary Space : O(1), no extra space is required, so the time complexity is constant.
 

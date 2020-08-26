@@ -74,6 +74,9 @@ _add list here_
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
+- [Longest common subsequence](dp/longest_common_subsequence.cpp)
+- [Fibonacci number with bottom-up approach](dp/fibonacci_bottom_up.cpp)
+- [Fibonacci number with top-down approach](dp/fibonacci_top_down.cpp)
 
 ## Blockchain
 

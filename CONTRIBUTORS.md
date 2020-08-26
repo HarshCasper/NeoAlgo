@@ -111,6 +111,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://yuvraj-kadale.github.io/my_portfolio/"><img src="https://avatars3.githubusercontent.com/u/43489758?v=4" width="100px;" alt=""/><br /><sub><b>Yuvraj Kadale</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Yuvraj-kadale" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Kritika37"><img src="https://avatars2.githubusercontent.com/u/36529311?v=4" width="100px;" alt=""/><br /><sub><b>Kritika37</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Kritika37" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/raksha009"><img src="https://avatars0.githubusercontent.com/u/57195964?v=4" width="100px;" alt=""/><br /><sub><b>Raksha</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=raksha009" title="Code">💻</a></td>
+    <td align="center"><a href="https://siddharth25pandey.github.io"><img src="https://avatars0.githubusercontent.com/u/56592079?v=4" width="100px;" alt=""/><br /><sub><b>SIDDHARTH PANDEY</b></sub></a><br /><a href="#content-siddharth25pandey" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=siddharth25pandey" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Joshitha18"><img src="https://avatars2.githubusercontent.com/u/47497998?v=4" width="100px;" alt=""/><br /><sub><b>joshithagandra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Joshitha18" title="Code">💻</a></td>
   </tr>
 </table>
 

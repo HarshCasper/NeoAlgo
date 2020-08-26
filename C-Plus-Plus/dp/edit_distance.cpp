@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+
+#include <iostream>
+#include <vector> // for 2D vector
 using namespace std;
 
 //Edit distance Recursive approach
@@ -20,21 +22,20 @@ int edit_distance_recursive (string &x, string &y, int m, int n)
 //Edit distance DP approach
 int edit_distance_dp (string &x, string &y)
 {
-    int m=x.length();
-    int n=y.length();
+    int len_x = x.length();
+    int len_y = y.length();
 
-    int dp[101][101];
-
+    vector<vector<int> > dp (len_x+1, vector<int> (len_y+1,0));
     //base case
     //making last row and column of dp array 0
-    for(int i=0;i<=m;i++)
+    for(int i=0;i<=len_x;i++)
         dp[i][0]=i;
-    for(int j=0;j<=n;j++)
+    for(int j=0;j<=len_y;j++)
         dp[0][j]=j;
 
-    for(int i=1;i<=m;i++)
+    for(int i=1;i<=len_x;i++)
     {
-        for(int j=1;j<=n;j++)
+        for(int j=1;j<=len_y;j++)
         {
             if(x[i-1]==y[j-1]) //if matches
                 dp[i][j] = dp[i-1][j-1];
@@ -44,7 +45,7 @@ int edit_distance_dp (string &x, string &y)
 
     }
 
-    return dp[m][n];   //return last element
+    return dp[len_x][len_y];   //return last element
 }
 
 
@@ -66,6 +67,8 @@ int main()
     cout<<edit_distance_dp(str1,str2)<<endl;
 }
 
-//working
-//input: sunday saturday
-//output:3
+/*
+working
+input: sunday saturday
+output:3
+*/

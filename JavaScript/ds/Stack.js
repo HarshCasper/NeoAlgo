@@ -53,7 +53,26 @@ class Stack{
 }
 //Implementation
 
-const another_arr=[56,75,24,69,47];
+/* Note: For simplicity I am taking all the values but if you want to take 
+array as an input then you can refer below code otherwise jump to the code where i am initializing my array.
+
+
+Taking input from the user that how many values he/she wants to push into the stack
+var input = prompt('Enter the number of values you want to push into the stack');
+
+var another_arr = []; //Declaring the array
+
+input=parseInt(input);
+
+for(var i=0; i<input; i++) {
+	
+	Taking Input from user
+	another_arr[i] = prompt('Enter Element ' + (i+1));
+}
+
+*/
+var input=3;
+const another_arr=[56,75,24];
 
 //Making an object of the stack class
 var mystack=new Stack();
@@ -66,27 +85,28 @@ if(mystack.isEmpty()==true){
 }
 
 //We can check it by count() also but it will not return true or false
-console.log("The size of the current stack is",mystack.count());
+console.log("The size of the current stack is",mystack.count()); //It will print 0.
 
-//pushing elements in the stack
-mystack.push_back(another_arr[0]);
+//Pushing elements in the stack
 
-mystack.push_back(another_arr[1]); 
+for(var i=0; i<input; i++) {
+	mystack.push_back(another_arr[i]);
+}
 
-mystack.push_back(another_arr[2]);
+//After pushing all the elements then mystack will be [56,75,24]
 
 //Printing the new size of the array using count()
-console.log("The new size of stack is ",count());
+console.log("The new size of stack is ",count()); // It will print 3.
 
 //Printing the stack with print()
-console.log("The elements present in stack are ",mystack.print());
+console.log("The elements present in stack are ",mystack.print()); //It will print 56 75 24 .
 
 //Removing the topmost element from the stack by pop()
-var removed_element=mystack.pop();
+var removed_element=mystack.pop(); //This will return 24.
 
-console.log("The element which is popped from the stack is ",removed_element);
+console.log("The element which is popped from the stack is ",removed_element); //It will print 24
 
 //Printing the stack after removing the element using print()
-console.log("The elements present after removing one element in stack are ",mystack.print());
+console.log("The elements present after removing one element in stack are ",mystack.print()); //It will print 56 75 
 
 

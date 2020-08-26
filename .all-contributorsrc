@@ -747,6 +747,25 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "raksha009",
+      "name": "Raksha",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/57195964?v=4",
+      "profile": "https://github.com/raksha009",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "siddharth25pandey",
+      "name": "SIDDHARTH PANDEY",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/56592079?v=4",
+      "profile": "https://siddharth25pandey.github.io",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
     }
   ],
   "repoType": "github",

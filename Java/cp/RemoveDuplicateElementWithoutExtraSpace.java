@@ -1,10 +1,13 @@
+// import the Scanner class
+import java.util.Scanner;
+
 public class RemoveDuplicateElementWithoutExtraSpace{
 
     /**
      * Method 2
      * Without using any extra space
      *
-     * Input  (To be used only for expected output) :
+     * Input :
      * 2
      * 5
      * 1, 2, 2, 3, 4, 4, 4, 5, 5
@@ -39,8 +42,18 @@ public class RemoveDuplicateElementWithoutExtraSpace{
 
     public static void main (String[] args)
     {
-        int arr[] = {1, 2, 2, 3, 4, 4, 4, 5, 5};
-        int n = arr.length;
+        // taking the input from the user
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the length of the array : ");
+        int n = sc.nextInt();
+        
+        int arr[] = new int[n];
+        System.out.println("Enter the values for the array elements : ");
+        // taking the values for the array from the user
+        for(int i=0; i<n; i++)
+        {
+            arr[i] = sc.nextInt();
+        }
 
         n = removeDuplicates(arr, n);
 

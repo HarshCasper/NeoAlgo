@@ -1,9 +1,12 @@
+// import the Scanner class
+import java.util.Scanner;
+
 /**
  *
  * Remove duplicate elements from sorted Array
  *
  * Example:
- * Input  (To be used only for expected output) :
+ * Input:
  * 2
  * 9
  * 1, 2, 2, 3, 4, 4, 4, 5, 5
@@ -67,8 +70,19 @@ public class RemoveDuplicateElement {
     }
 
     public static void main(String[] args) {
-        int a[] = {1, 2, 2, 3, 4, 4, 4, 5, 5};
-        int n = a.length;
+        
+        // taking the input from the user
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the length of the array : ");
+        int n = sc.nextInt();
+        
+        int a[] = new int[n];
+        System.out.println("Enter the values for the array elements : ");
+        // taking the values for the array from the user
+        for(int i=0; i<n; i++)
+        {
+            a[i] = sc.nextInt();
+        }
 
         n = DuplicateElement(a,n);
 

@@ -30,7 +30,6 @@
 * [Jump Search](search/jumpSearch.java)
 * [Stack Search](search/Stack_Search.java)
 * [Interpolation Search](search/Interpolation_search.java)
-* [Manacher's Algorithm](search/ManacherAlgorithm.java)
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)

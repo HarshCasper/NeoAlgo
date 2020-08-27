@@ -10,13 +10,18 @@ int main(){
 		arr[i] = num;
 	}
 	for (int i = 0; i < n-1; i++){			//Outer for loop
+		int sorted =0; // declaring a sorted variable which will check if array is already sorted or not
 		for(int j = 0; j < n-1; j++){		//Inner for loop
 			if(arr[j] > arr[j+1]){			//Checking if the element if larger than the next element
 				temp = arr[j+1];			//Swapping the elements, temp is used to store the temporary variable
 				arr[j+1] = arr[j];
-				arr[j] = temp; 
+				arr[j] = temp;
+				sorted = 1; // sorted value will be updated to 1 if there is swapping of elements occured 
 				}
 			}
+		if(sorted ==0){ // If the elements aren't swapped and int sorted =0 only then array is already sorted
+			break;
+		}
 	}
 	cout<<"Array after sorting is:"<<endl;
 	for(int i = 0; i < n; i++){			//For loop for printing out the array after sorting

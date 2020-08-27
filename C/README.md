@@ -15,7 +15,8 @@
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
 
-
+## Algorithms
+- [KMP Algorithm](cp/kmpalgo.c)
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)

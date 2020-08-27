@@ -14,6 +14,7 @@
 - [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
+- [Sparse Matrix Implementation using Array](ds/sparse matrix representation.c)
 
 
 ## Searching
@@ -45,7 +46,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [GCD By Euclidean Algorithm]
-   (math/GCD In C.c)
+(math/GCD In C.c)
    
 ## Dynamic Programming
 
@@ -57,7 +58,7 @@ _add list here_
 
 ## Competitive Programming
 - [Sum of Triplet]
-  (cp/sum of triplet.c)
+(cp/sum of triplet.c)
 
 ## Cryptography
 

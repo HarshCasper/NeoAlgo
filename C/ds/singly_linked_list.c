@@ -1,7 +1,5 @@
-
 #include <stdio.h>
 #include <malloc.h>
-
 
 typedef struct node
 {
@@ -19,11 +17,8 @@ void search();
 void empty();
 void display();
 
-
-
 node *newnode, *ptr, *prev, *temp;
 node *first = NULL, *last = NULL;
-
 
  int main()
  {
@@ -63,11 +58,9 @@ node *first = NULL, *last = NULL;
             insert_node_pos();
             break;
         case 4:
-
             count();
             break;
         case 5:
-
             delete_pos();
             break;
         case 6:
@@ -82,7 +75,6 @@ node *first = NULL, *last = NULL;
             printf("\nDisplaying List From Beginning to End :\n");
             display();
             break;
-
         case 9:
             printf("\nExiting :\n");
             return 0;
@@ -96,7 +88,6 @@ node *first = NULL, *last = NULL;
     }
     return 0;
  }
-
 
 node* create_node(int val)
 {
@@ -113,7 +104,6 @@ node* create_node(int val)
         return newnode;
     }
 }
-
 
 void insert_node_first()
 {
@@ -137,7 +127,6 @@ void insert_node_first()
     printf("\n----INSERTED----");
 }
 
-
 void insert_node_last()
 {
     int val;
@@ -159,7 +148,6 @@ void insert_node_last()
     }
  printf("\n----INSERTED----");
 }
-
 
 void insert_node_pos()
 {
@@ -284,10 +272,8 @@ void empty()
 
     if (first == NULL)
     {
-
         printf("The list is empty\n");
     }
-
 }
 
 
@@ -340,13 +326,8 @@ void display()
     }
 }
 
-
-
-
 /*
 Following are the sample of Input/Output processed by this program :
-
-
 
 ---------------------------------
 

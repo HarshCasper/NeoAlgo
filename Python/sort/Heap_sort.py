@@ -56,4 +56,11 @@ Enter elements to be sorted : 5
 20
 40
 [10, 20, 30, 40, 50]
+
+Building the max heap requires O(n) calls to the buildHeap function which
+takes O(log n) time to build the max heap
+Therefore, total time complexity = O(nlog n)
+In heap sort since we are only keeping data in the array and only
+rearranging it so no data needs to be stored anywhere else (other than the swap step)
+So, space complexity = O(1)
 '''

@@ -70,6 +70,7 @@ _add list here_
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Count The Reversals](cp/Count_The_Reversals.java)
 
 ## Other
 _add list here_

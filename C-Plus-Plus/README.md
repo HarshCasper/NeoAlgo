@@ -57,6 +57,7 @@ Stack_using_LinkedList.cpp
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Kosaraju's Algorithm](graphs/Kosaraju_Algorithm.cpp)
 
 ## Machine Learning
 
@@ -74,6 +75,9 @@ _add list here_
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
+- [Longest common subsequence](dp/longest_common_subsequence.cpp)
+- [Fibonacci number with bottom-up approach](dp/fibonacci_bottom_up.cpp)
+- [Fibonacci number with top-down approach](dp/fibonacci_top_down.cpp)
 
 ## Blockchain
 
@@ -81,7 +85,7 @@ _add list here_
 
 ## Cryptography
 
-_add list here_
+- [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
 
 ## Competitive Programming
 

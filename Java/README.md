@@ -84,6 +84,8 @@ _add list here_
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+
 
 ## Other
 _add list here_

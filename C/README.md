@@ -17,6 +17,7 @@
 
 ## Algorithms
 - [KMP Algorithm](cp/kmpalgo.c)
+
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)

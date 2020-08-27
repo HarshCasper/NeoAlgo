@@ -14,5 +14,5 @@
 - [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
-- [Sparse Matrix representation using Array]
-(ds/sparse matrix representation.c)
+- [Sparse Matrix Implementation using Array](ds/sparse matrix representation.c)
+- [Interpolation Search](search/Interpolation.c)

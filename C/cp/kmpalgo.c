@@ -7,7 +7,7 @@
 #include <string.h>
 int maxm=1e5+1;      // maximum size of an input string
 void prefix(char* pat, int patlen, int* pre){
-    int i=1,j=0;
+    int i=1, j=0;
     pre[0]=0;
     while(i<patlen){
         if(pat[i]==pat[j]){
@@ -26,10 +26,11 @@ void prefix(char* pat, int patlen, int* pre){
     }
 }
 void kmp(char* pat,char* txt,int* pre,int patlen,int txtlen){
-    int i=0,j=0;
-    while(i<txtlen){
+    int i=0, j=0;
+    while(i < txtlen){
         if(txt[i]==pat[j]){
-            j++;i++;
+            j++; 
+			i++;
         }
         else{
             if(j!=0) j=pre[j-1];

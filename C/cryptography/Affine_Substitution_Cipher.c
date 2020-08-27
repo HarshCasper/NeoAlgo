@@ -10,7 +10,7 @@ int CalculateMultiplicativeInverse(int);
 
 int main() {
   int index, indx, k, gcd, alpha, beta, num_msg[100], numcipher[100], numdecipher[100], decipher[100], alphaInverse;
-  char msg[100], cipher[100];
+  char msg[size], cipher[100];
   printf("Input :\n");
   printf("Enter Cipher message : ");
   scanf("%[^\n]%*c", msg);
@@ -134,10 +134,13 @@ int CalculateMultiplicativeInverse(int alpha) {
 
 /* 
  Input :
+ Input size of array : 15
  Enter the Cipher message : AFFINE CIPHER
  Enter the value of key alpha : 17
  Enter the value of key beta : 20
  Output : 
  Encrypted Message is : UBBAHK CAPJKX
  Decrypted Message is : AFFINE CIPHER
+ Time Complexity :  O(n)
+ Space Complexity : O(1)
  */

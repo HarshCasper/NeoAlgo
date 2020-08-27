@@ -51,24 +51,15 @@ public class Binary_Tree {
         switch(option)
         {
             case 1:
-            preOrder();
+            preOrder(root);
             break;
 
             case 2:
-            postOrder();
+            postOrder(root);
             break;
         }
 
     }
-
-    public void preOrder() {
-
-        preOrder(root);
-    }
-    public void postOrder(){
-        postOrder(root);
-    }
-
     private void preOrder(Node node) {
         if (node == null) {
             return;

@@ -141,4 +141,3 @@ int CalculateMultiplicativeInverse(int alpha) {
  Encrypted Message is : UBBAHK CAPJKX
  Decrypted Message is : AFFINE CIPHER
  */
- 

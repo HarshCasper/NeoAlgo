@@ -104,7 +104,10 @@ def sparse_matrix():
 		print(i)
 
 
-if(count > (size/2)):  
+if(count == size):
+	print("Null Mtrix");
+
+elif(count > (size/2)):  
 	print("Given matrix is a sparse matrix");
 	sparse_matrix()   
 

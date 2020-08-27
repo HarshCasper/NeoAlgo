@@ -25,7 +25,7 @@ _add list here_
 _add list here_
 
 ## Mathematics
-* [Finding no of digits in an integer](/C-Sharp/math/Finding_no_of_digits_in_an_integer.cs)
+* [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)
 
 ## Dynamic Programming
 _add list here_

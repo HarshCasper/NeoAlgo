@@ -1,3 +1,5 @@
+#Python Program for Target Sum of Triplets
+#In this we have to enter range for the input and take input from the user and set target and generate unique triplets for that
 def targettriplets(lst, rang, target):   
     lst.sort() # Sorting the list in ascending order
     i = 0

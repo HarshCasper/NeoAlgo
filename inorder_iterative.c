@@ -91,3 +91,6 @@ int main(){
 //Time complexity of the above program : O(n) 
 //Space complexity of the above program : O(n)
 //(where n is the number of nodes in the tree)
+
+//Sample input : If the nodes from the root till the last leaf node are as follows : [40, 30, 60, 10, 30, 50, 70]
+//Sample output : [10, 20, 30, 40, 40, 60, 70]

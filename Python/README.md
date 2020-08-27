@@ -20,6 +20,7 @@
 * [Singly Linked List](ds/SinglyLinkedList.py)
 * [Circular Linked List](ds/Circular_LinkedList.py)
 * [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
+* [Intersection Point of Y-shaped linked list](ds/linkedListIntersection.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)

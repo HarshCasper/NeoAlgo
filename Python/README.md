@@ -19,6 +19,8 @@
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Singly Linked List](ds/SinglyLinkedList.py)
 * [Circular Linked List](ds/Circular_LinkedList.py)
+* [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
+
 ## Searching
 * [Bilinear Search](search/bilinear.py)
 * [Binary Search](search/binarysearch.py)
@@ -48,6 +50,7 @@
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 * [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+* [Dynamic Prims Algorithm](graphs/Prims Algo_dynamic.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
@@ -73,7 +76,12 @@
 ## Competitive Programming
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+
 * [Target Sum Triplets](cp/Target_Sum_Triplet.py)
+
+* [KMP Algorithm](cp/KMP_Algorithm.py)
+* [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+
 
 ## Dynamic Programming
 _add list here_
@@ -83,7 +91,10 @@ _add list here_
 
 
 ## Cryptography
-_add list here_
+_add list here_    
+
+
+
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)

@@ -114,6 +114,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://siddharth25pandey.github.io"><img src="https://avatars0.githubusercontent.com/u/56592079?v=4" width="100px;" alt=""/><br /><sub><b>SIDDHARTH PANDEY</b></sub></a><br /><a href="#content-siddharth25pandey" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=siddharth25pandey" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Joshitha18"><img src="https://avatars2.githubusercontent.com/u/47497998?v=4" width="100px;" alt=""/><br /><sub><b>joshithagandra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Joshitha18" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/idiya-nc/"><img src="https://avatars2.githubusercontent.com/u/44759773?v=4" width="100px;" alt=""/><br /><sub><b>Diya Nag Chaudhury</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=cherryWood55" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->

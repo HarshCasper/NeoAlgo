@@ -37,29 +37,14 @@ public class Binary_Tree {
         if(choice){
             node.right=takeInput(node,false);
         }
-        System.out.println("Do you want tree traversal ");
-        boolean chose = s.nextBoolean();
-        if(chose){
-            traversal();
-        }
         return node;
     }
-    public void traversal()
-    {
-        System.out.println("Enter 1 for preorder traversal or enter 2 for postorder traversal ");
-        int option = s.nextInt();
-        switch(option)
-        {
-            case 1:
-            preOrder(root);
-            break;
 
-            case 2:
-            postOrder(root);
-            break;
-        }
+    public void preOrder() {
 
+        preOrder(root);
     }
+
     private void preOrder(Node node) {
         if (node == null) {
             return;
@@ -67,22 +52,6 @@ public class Binary_Tree {
         System.out.print(node.value + ",");
         preOrder(node.left);
         preOrder(node.right);
-    }
-    private void postOrder(Node node) {
-        /* input tree 
-              1  
-            /   \
-           2     3
-         /  \
-        4    5
-        */
-        if(node == null) {
-            return;
-        }
-        postOrder(node.left);
-        postOrder(node.right);
-        System.out.print(node.value + ",");
-        // post order traversal output will be 4 5 2 3 1
     }
     
     private class Node{

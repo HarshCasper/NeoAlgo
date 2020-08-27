@@ -10,7 +10,7 @@ int CalculateMultiplicativeInverse(int);
 
 int main() {
   int index, indx, k, gcd, alpha, beta, num_msg[100], numcipher[100], numdecipher[100], decipher[100], alphaInverse;
-  char msg[size], cipher[100];
+  char msg[100], cipher[100];
   printf("Input :\n");
   printf("Enter Cipher message : ");
   scanf("%[^\n]%*c", msg);

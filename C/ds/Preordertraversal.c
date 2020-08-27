@@ -1,78 +1,100 @@
-**Preorder Traversal in c**
-
 #include<stdio.h>
+#include<conio.h>
 #include<stdlib.h>
 
-typedef struct BST
-{
-  int data;
-  struct BST *left;
-  struct BST *right;
-}node;
+struct BST{
+ int data;
+ struct BST *left;
+ struct BST *right;
+};
 
-node *create();
-void insert(node *,node *);
-void preorder(node *);
+struct BST* create();
+void insert(struct BST*, struct BST*);
+void preorderRecursive(struct BST*);
+void preorderIterative(struct BST*);
 
-int main()
-{
-  char ch;
-  node *root=NULL,*temp;
-
-  do
-  {
+int main(){
+ char ch;
+ struct BST *root=NULL, *temp;
+ do{
     temp=create();
-    if(root==NULL)
-      root=temp;
+    if(root==NULL){
+        root=temp;
+        }
     else  
-      insert(root,temp);
-
-    printf("Do you want to enter more(y/n)?");
+        insert(root,temp);
+    printf("Do you want to enter more data? (y/n) ");
     getchar();
-    scanf("%c",&ch);
-  }while(ch=='y'|ch=='Y');
-
-  printf("Preorder Traversal: ");
-  preorder(root);
-  return 0;
+    scanf("%c", &ch);
+ }while(ch=='y' || ch== 'Y');
+ printf("\nPreorder traversal using recursion\n");
+ preorderRecursive(root);
+ printf("\nPreorder traversal using iteration\n");
+ preorderIterative(root);
+ getch();
+ return 0;
 }
 
-node *create()
+struct BST *create(){
+ struct BST *temp;
+ printf("Enter data: ");
+ temp=(struct BST*)malloc(sizeof(struct BST*));
+ scanf("%d", &temp->data);
+ temp->left=NULL;
+ temp->right=NULL;
+ return temp;
+}
+
+void insert(struct BST *root, struct BST *temp){
+ if(temp->data<root->data){
+   if(root->left==NULL){
+    root->left=temp;
+   }
+   else{
+    root=root->left;
+    insert(root, temp);
+   }
+ }
+ else if(temp->data>root->data){
+   if(root->right==NULL){
+    root->right=temp;
+   }
+   else{
+    root=root->right;
+    insert(root, temp);
+   }
+ }
+}
+
+void preorderRecursive(struct BST *root){
+    if(root!=NULL){
+        printf("%d ", root->data);
+        preorderIterative(root->left);
+        preorderIterative(root->right);
+    }
+}
+
+void preorderIterative(struct BST* root)
 {
-  node *temp;
-  printf("Enter data:");
-  temp=(node*)malloc(sizeof(node));
-  scanf("%d",&temp->data);
-  temp->left=temp->right=NULL;
-  return temp;
+    while(root){
+        if(root->left!=NULL){
+            struct BST* node = root->left;
+			while(node->right && node->right != root){
+			    node=node->right;
+			}
+			if(node->right==root){
+				node->right=NULL;
+				root=root->right;
+			}
+			else{
+		        printf("%d ", root->data);
+				node->right=root;
+				root=root->left;
+			}
+        }
+        else{
+		    printf("%d ", root->data);
+			root=root->right;
+        }
+    }
 }
-
-void insert(node *root,node *temp)
-{
-  if(temp->data<root->data)
-  {
-    if(root->left!=NULL)
-      insert(root->left,temp);
-    else
-      root->left=temp;
-  }
-
-  if(temp->data>root->data)
-  {
-    if(root->right!=NULL)
-      insert(root->right,temp);
-    else
-      root->right=temp;
-  }
-}
-
-void preorder(node *root)
-{
-  if(root!=NULL)
-  {
-    printf("%d ",root->data);
-    preorder(root->left);
-    preorder(root->right);
-  }
-}
-

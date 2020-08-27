@@ -15,7 +15,7 @@
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
 - [Interpolation Search](search/Interpolation.c)
-- [Pre-Order (NLR) Tree Traversal](ds/preordertraversal.c)
+- [Pre-Order Tree Traversal](ds/preordertraversal.c)
 
 ## Searching
 

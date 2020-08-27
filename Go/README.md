@@ -14,6 +14,7 @@
 * [Stack using Queue](./ds/stack_using_queue.go)
 * [Queue using Stack](./ds/queue_using_stack.go)
 * [Singly Linked List](./ds/singly_linked_list.go)
+* [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
 
 ## Searching
 * [Binary Search](/search/binary_search.go)

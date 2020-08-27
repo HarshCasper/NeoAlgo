@@ -48,7 +48,8 @@ _add list here_
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
 ## Dynamic Programming
 
-- [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c) =======
+- [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c) 
+- =======
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 - [Coin_Change_Problem Updated](dp/Coin_Change_Problem.C)
 

@@ -1,7 +1,7 @@
 //Java implementation to sort the given matrix 
 
-import java.io. * ;
-import java.util. * ;
+import java.io.* ;
+import java.util.* ;
 
 public class MatrixSorting {
 

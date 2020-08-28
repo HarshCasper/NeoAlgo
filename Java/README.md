@@ -14,6 +14,7 @@
 * [Linked List](ds/linkedList.java )
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
+* [Queue Basic Functionalities](ds/queue.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
  Implementation-of-queue-using-stack
@@ -66,6 +67,7 @@ _add list here_
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 * [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)
+* [Count Number Of Digits](math/countDigits)
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)

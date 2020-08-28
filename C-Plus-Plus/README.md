@@ -79,6 +79,7 @@ _add list here_
 - [Longest common subsequence](dp/longest_common_subsequence.cpp)
 - [Fibonacci number with bottom-up approach](dp/fibonacci_bottom_up.cpp)
 - [Fibonacci number with top-down approach](dp/fibonacci_top_down.cpp)
+- [Edit Distance](dp/edit_distance.cpp)
 
 ## Blockchain
 

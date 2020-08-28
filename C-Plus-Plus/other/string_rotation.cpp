@@ -15,61 +15,79 @@ lines contains character d[i] denoting direction and integer r[i] denoting the m
 
 #include <string.h>
 #include <iostream>
-#include<algorithm>
-#include<map>
+#include <algorithm>
+#include <map>
 using namespace std;
-string shiftLeft(string s,int c) // performing left shift operation
+
+// performing left shift operation
+string shiftLeft(string s, int c) 
 {
-   return s.substr(c) + s.substr(0,c);
+    return s.substr(c) + s.substr(0, c);
 }
-string shiftRight(string s,int c) // performing right shift operation
+
+// performing right shift operation
+string shiftRight(string s, int c) 
 {
-    return s.substr(c+1) + s.substr(0,c+1);
+    return s.substr(c + 1) + s.substr(0, c + 1);
 }
 
 // DRIVER FUNCTION
-int main() {
-    char str[200],direction;
-    int queries,amount;
-    string firstchar=""; // first characters after performing each query is concatenated
-    cin>>str; // getting the input string
-    cin>>queries;
-    for(int query_num=0;query_num<queries;query_num++)
+int main()
+{
+    char str[200], direction;
+    int queries, amount;
+    // first characters after performing each query is concatenated
+    string firstchar = ""; 
+    // getting the input string
+    cin >> str;            
+    cin >> queries;
+    for (int query_num = 0; query_num < queries; query_num++)
     {
-        cin>>direction>>amount; // getting the direction and amount 
-        if(direction=='L') // if direction is left, perform left shift
+        // getting the direction and amount
+        cin >> direction >> amount; 
+        // if direction is left, perform left shift
+        if (direction == 'L')       
         {
-                firstchar+=shiftLeft(str, amount)[0];
+            firstchar += shiftLeft(str, amount)[0];
         }
-        else if(direction=='R') // if direction is right, perform right shift
+        // if direction is right, perform right shift
+        else if (direction == 'R') 
         {
-                firstchar+=shiftRight(str, amount)[0];
+            firstchar += shiftRight(str, amount)[0];
         }
     }
-    map<char,int> mp1,mp2;
-    for(auto &i:firstchar) mp1[i]++;  // storing occurrence of characters in firstchar in map
-    unsigned i=0,d=firstchar.size();
-    if(d>(int)strlen(str)) // check if the size id greater than that of original string
+    map<char, int> mp1, mp2;
+    for (auto &i : firstchar)
+        // storing occurrence of characters in firstchar in map
+        mp1[i]++; 
+    unsigned i = 0, d = firstchar.size();
+    // check if the size id greater than that of original string
+    if (d > (int)strlen(str)) 
     {
-        cout<<"NO";
+        cout << "NO";
         return 0;
     }
-    for(i=0;i<d;i++) mp2[str[i]]++; // storing occurrence of characters in str in map
-    for(;i<(int)strlen(str);i++)
+    for (i = 0; i < d; i++)
+        // storing occurrence of characters in str in map
+        mp2[str[i]]++; 
+    for (; i < (int)strlen(str); i++)
     {
         mp2[str[i]]++;
-        if(mp2[str[i-d]]==1)
+        if (mp2[str[i - d]] == 1)
         {
-            mp2.erase(mp2.find(str[i-d]));
+            mp2.erase(mp2.find(str[i - d]));
         }
-        else mp2[str[i-d]]--;
-        if(mp1==mp2) // condition to check whether firstchar is an anagram of str
+        else
+            mp2[str[i - d]]--;
+        // condition to check whether firstchar is an anagram of str
+        if (mp1 == mp2) 
         {
-            cout<<"YES";
+            cout << "YES";
             return 0;
         }
     }
-    cout<<"NO"; // if firstchar is not an anagram of str, print NO
+    // if firstchar is not an anagram of str, print NO
+    cout << "NO"; 
     return 0;
 }
 /*

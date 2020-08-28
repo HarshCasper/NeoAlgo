@@ -77,8 +77,12 @@
 ## Competitive Programming
 
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+
+* [Target Sum Triplets](cp/Target_Sum_Triplet.py)
+
 * [KMP Algorithm](cp/KMP_Algorithm.py)
 * [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+
 
 ## Dynamic Programming
 _add list here_

@@ -1,12 +1,9 @@
 def checkParanthesis(input_string):
     ''' 
         argument : string
-
         Function checks whether the Brackets Combinations Provided As Input 
         is Balanced or Not.
-        
         usage : checkParanthesis(string)
-        
     '''
 
 
@@ -30,4 +27,17 @@ def checkParanthesis(input_string):
 if __name__ == "__main__":
     inp = input("Enter the Brackets Combinations\n")
     checkParanthesis(inp)
+    
+
+    # Sample output 1:
+    # ------------------------------
+    # Enter the Brackets Combinations
+    # {{{}}}
+    # Balanced
+    
+    # Sample output 2:
+    # ------------------------------
+    # Enter the Brackets Combinations
+    # ({{{{)}}]]
+    # Not Balanced
     

@@ -89,3 +89,5 @@ _add list here_
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 
 ## Other
+
+- [String Rotation based on Queries](other/string_rotation.cpp)

@@ -3,6 +3,15 @@ Intersection Point of Y shaped LinkedList
 
 @author: Rishikeshrajrxl
 @created: 20/08/2020
+
+***** Demo of the Program ******
+ENTER THE LIST 1 : 10 -> 3 -> 7 -> 40 -> 15 -> 6
+ENTER THE LIST 2 : 11 ->12 -> 20 
+
+ENTER THE POSTION FOR INTERSECTION  w.r.t BIGGER LIST (i.e LIST 1): 5
+DISPLAY THE LIST AFTER INTERSECTION : LIST 1:  10 ->3 ->7 ->40 ->15 ->6
+                                      LIST 2:  11 ->12 ->20 ->15 ->6                 //as we can see List 2 is linked with List 1 at position 
+INTERSECTION POINT IS : 5                                      
 */
 
 #include <bits/stdc++.h> 
@@ -24,7 +33,7 @@ void Intersect();
 int Find_Intersection();
 int ele;
 
-int main()                  //  Main() function begins here 
+int main()                  //  Main() function begins 
 {
     int ch;
    do{
@@ -66,7 +75,7 @@ int main()                  //  Main() function begins here
        };
    }while(1);
    return 0;
-}                                //  End of Main() function here 
+}                                //  End of Main() function
 //-----------------------------------------------------------------------------
 void Insert_1()
 {   
@@ -149,7 +158,7 @@ void Intersect()
     cout<<"Since "<<list<<" is bigger in length."<<endl;
     cout<<"Tell the position of node in "<<list<<" on which you want to intersect : "<<endl;
     cout<<"***********************************************************************"<<endl;
-    
+     
     int pos;
     cout<<"ENTER THE POSITION : ";
     cin>>pos;
@@ -191,10 +200,9 @@ void Intersect()
         
         Approach to solve this problem :- 
         ------------------------------
-        we will calculate the length of individual and will iterate the longer List till it's 
+        We will calculate the length of individual and will iterate the longer List till it's 
         difference and then we wil iterate both the list together checking the pointer of next node 
-        is same or not.
-        
+        is same or not.       
 *///---------------------------------------------------------------------------------------
 int Find_Intersection()
 {

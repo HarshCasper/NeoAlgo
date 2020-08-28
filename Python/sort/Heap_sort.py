@@ -41,7 +41,7 @@ def heap_sort(arr):
 
 # Taking Elements to be Sorted
 data = [int(input())
-        for i in range(int(input("Enter elements to be sorted : ")))]
+        for index in range(int(input("Enter elements to be sorted : ")))]
 # Sending element to get sorted
 heap_sort(data)
 # Priting Elements after Getting Sorted

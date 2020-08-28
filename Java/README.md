@@ -24,12 +24,16 @@
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)
+## Greedy Algorithms
+* [Activity Selection](Greedy_Algorithms/Active_Selection.java)
+
 ## Searching
 * [Linear Search](search/Linear_search.java)
 * [Binary Search](search/Binary_search.java)
 * [Jump Search](search/jumpSearch.java)
 * [Stack Search](search/Stack_Search.java)
 * [Interpolation Search](search/Interpolation_search.java)
+* [Manacher's Algorithm](search/ManacherAlgorithm.java)
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)
@@ -79,6 +83,9 @@ _add list here_
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+
 
 ## Other
 _add list here_

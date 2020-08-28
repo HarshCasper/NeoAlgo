@@ -9,10 +9,12 @@
 
 # Codes in the C++ language
 
+
 ## Data Structures
 Stack_using_LinkedList.cpp
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+- [Red-Black Tree](ds/RED-BLACK-TREE.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)

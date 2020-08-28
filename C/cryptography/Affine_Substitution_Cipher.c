@@ -1,4 +1,6 @@
-// C program to illustate Affine Cipher
+/* The Affine Substitution cipher is a type of monoalphabetic substitution cipher wherein each letter in an alphabet
+    is mapped to its numeric equivalent encrypted using a simple mathematical function and converted back to a letter. */
+// C program to illustate Affine Substitution Cipher
 
 #include<stdio.h>
 #include<string.h>

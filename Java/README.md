@@ -60,7 +60,7 @@ _add list here_
 _add list here_
 
 ## Cryptography
-* [Ceaser Cipher](cryptography/ceaserCipher.java)
+* [Caesar Cipher](cryptography/ceaserCipher.java)
 
 ## Competitive programming
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)

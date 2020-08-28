@@ -1,5 +1,7 @@
 
 import java.util.*;
+// import java.util.LinkedList; 
+// import java.util.Queue; 
 class node{
     int value;
     node left;
@@ -10,6 +12,13 @@ class node{
         value = key;
         left = null;
         right = null;
+    }
+    node(int key, node left, node right )
+    {
+        this.value = key;
+        this.left = left;
+        this.right = right;
+
     }
 
 }
@@ -42,16 +51,6 @@ class stack
 }
 public class postorder_Traversal {
     node root;
-    postorder_Trevarsal()
-    {
-        root = null;
-    }
-    postorder_Trevarsal(int item)
-    {
-        root = new node(item);
-    }
-    //postorder traversal iterative
-    //static Stack<node> stack1, stack2;
     void postorder_traversal_Iterative()
     {
         stack stack1 = new stack();
@@ -92,17 +91,43 @@ public class postorder_Traversal {
     {
         postorderRecursive(root);
     }
+    public postorder_Traversal(){
+        root=takeInput(null,false);
+    }
+      node takeInput(node parent,Boolean isleftorright){
+          Scanner s = new Scanner(System.in);
+        if(parent==null){
+            System.out.println("Enter the value of root node");
+        }
+        else {
+            if(isleftorright){
+                System.out.println("enter the value of left child of "+parent.value);
+            }
+            else {
+                System.out.println("enter the value of right child "+parent.value);
+            }
+        }
+        int value=s.nextInt();
+        node node=new node(value,null,null);
+        boolean choice;
+        System.out.println("Do you have left child of "+node.value);
+        choice=s.nextBoolean();
+        if(choice){
+            node.left=takeInput(node,true);
+        }
+
+        System.out.println("Do you have right child of "+node.value);
+        choice=s.nextBoolean();
+        if(choice){
+            node.right=takeInput(node,false);
+        }
+        return node;
+    }
+    
     public static void main(String args[])
     {
+    
         postorder_Traversal binaryTree = new postorder_Traversal();
-        // forming the binary tree
-        binaryTree.root = new node(1);
-        binaryTree.root.left = new node(2);
-        binaryTree.root.right = new node(3);
-        binaryTree.root.left.left = new node(4);
-        binaryTree.root.left.right = new node(5);
-        binaryTree.root.right.left = new node(6);
-        binaryTree.root.right.right = new node(7);
        // tree formed is 
        /*
                  1

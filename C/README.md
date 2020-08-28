@@ -8,6 +8,7 @@
 </p>
 
 # Codes in the C language
+- [KMP Algorithm](cp/kmpalgo.c)
 
 ## Data Structures
 
@@ -15,8 +16,6 @@
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
 
-## Algorithms
-- [KMP Algorithm](cp/kmpalgo.c)
 
 ## Searching
 

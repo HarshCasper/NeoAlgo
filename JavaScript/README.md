@@ -28,7 +28,7 @@
 _add list here_
 
 ## Mathematics
-_add list here_
+[Count Number of Digits in an Integer](/math/CountDigits_Integer.js)
 
 ## Dynamic Programming
 _add list here_

@@ -73,6 +73,7 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Ackermann_Function](math/Ackermann_function.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
+- [Karatsuba_Algorithm](math/Karatsuba_Algorithm.cpp)
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)

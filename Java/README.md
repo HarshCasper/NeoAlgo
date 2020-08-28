@@ -14,6 +14,7 @@
 * [Linked List](ds/linkedList.java )
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
+* [Queue Basic Functionalities](ds/queue.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
  Implementation-of-queue-using-stack
@@ -66,6 +67,7 @@ _add list here_
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 * [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)
+* [Count Number Of Digits](math/countDigits)
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)
@@ -77,13 +79,15 @@ _add list here_
 _add list here_
 
 ## Cryptography
-_add list here_
+* [Caesar Cipher](cryptography/ceaserCipher.java)
 
 ## Competitive programming
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+
 
 ## Other
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)

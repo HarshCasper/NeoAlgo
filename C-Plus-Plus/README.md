@@ -108,3 +108,5 @@ _add list here_
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
 
 ## Other
+
+- [String Rotation based on Queries](other/string_rotation.cpp)

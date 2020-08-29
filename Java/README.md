@@ -21,6 +21,7 @@
 * [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 * [Stack ~ Linked List Implementation](ds/Stack.java)
 * [Sparse Matrix](ds/SparseMatrix.java)
+* [Matrix Sorting](ds/MatrixSorting.java)
    master
 
 ## Algorithms

@@ -1,3 +1,6 @@
+#Problem Statement: To find out the maximum sum of k consecutive elements in an array
+# For example: Input : arr = {40, 30, 50, 10}, k = 2
+#              Output: 80
 def maxSumofKelements(arr, n, k):
     if(k > n):
         return -1;                      #k must be smaller than n
@@ -11,14 +14,11 @@ def maxSumofKelements(arr, n, k):
     return ans
     
 
-print("Enter number of elements in array: ")    
-n = int(input());                     #inputting num of elements in array
+n = int(input("Enter number of elements in array: "));                     #inputting num of elements in array
 
-print("Enter array elements in a single line seperated with spaces : ")
-input_string = input()                #inputting array elements
+input_string = input("Enter array elements in a single line seperated with spaces : ")                #inputting array elements
 arr = input_string.split()
 
-print("Enter k")
 k = int(input("Enter k: "))                      #inputting k
 
 print("Maximum sum of k consecutive elements in array is: " + str(maxSumofKelements(arr, n, k)))

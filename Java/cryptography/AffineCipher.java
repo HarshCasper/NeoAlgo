@@ -1,5 +1,4 @@
-/* HakinCodes 2020
- * 
+/*
  * AFFINE CIPHER :-
  * 		It is one of the methods from cryptography.
  * 
@@ -14,23 +13,29 @@
  * 		The Encryption and Decryption formula's followed by the Affine Cipher are as follows :
  *
  * 			Encryption :-
- *				cipherCode = ((a * inputCode) + b) % z
+ *				cipherCode = ((multiplicationFactor * inputCode) + additionFactor) % lengthOfAlphabets
  *
  *			Decrytion :-
- * 				decipherCode = ((a^-1) * (inputCode - b)) % z
+ * 				decipherCode = ((inverse_multiplicationFactor) * (inputCode - additionFactor)) % lengthOfAlphabets
  * 
  * 			Symbols :-
- * 			1) z => It is the total no. of alphabets used as a dictionary to encrypt or decrypt the text.
+ * 			1) Length of the alphabet list => 
+ * 					It is the total no. of alphabets used as a dictionary to encrypt or decrypt the text.
  * 					In this case, we are considering english language so the dictionary has "A to Z" and "a to z"
  * 
- * 			2) a => It is a multiplication factor to the input code. It should be coprime with z to work this algorithm.
- * 					In this case, we will be randomly choosing 'a' from the set of coprime no.s of z.
+ * 			2) Multiplication Factor => 
+ * 					It is a multiplication factor to the input code. It should be coprime with z to work this algorithm.
+ * 					In this case, we will be randomly choosing 'multiplication factor' from the set of coprime no.s to length of alphabets.
  * 
- * 			3) a^-1 => 	This is the a-inverse i.e. the multiplicative inverse of a with respect to z. Means
- * 						(a x a-inverse) mod z = 1.
+ * 			3) Inverse of Multiplication Factor => 	
+ * 					This is the a-inverse i.e. the multiplicative inverse of a with respect to length of alphabets. 
+ * 					Means (Multiplication Factor x Inverse Multiplication Factor) mod length of alphabets = 1.
  * 
- * 			4) b => It is a addition factor. There are no specific constraints other than 0 <= b <= z.
+ * 			4) Addition Factor => 
+ * 					It is a addition factor. There are no specific constraints other than 0 <= Addition Factor <= Length of alphabets.
  */
+
+package hakinCodes.affineCipher;
 
 import java.util.*;
 
@@ -38,7 +43,7 @@ public class AffineCipher {
 	//Creating objects that will be used throughout the code. 
 	List<Character> alphabets = new ArrayList<Character>();
 	Random randomObject = new Random();
-	int z, a, b, a_inverse;
+	int lengthOfAlphabets, multiplicationFactor, additionFactor, inverse_multiplicationFactor;
 	
 	//Constructor which initiates all objects.
 	public AffineCipher() {
@@ -52,17 +57,17 @@ public class AffineCipher {
 		}
 		
 		//Assigning values to the various factors used in the encryption/decryption formulas. 
-		z = alphabets.size();
-		a = getCoprimeFactor();
-		b = randomObject.nextInt(z+1);
-		a_inverse = getAInverse();
+		lengthOfAlphabets = alphabets.size();
+		multiplicationFactor = getCoprimeFactor();
+		additionFactor = randomObject.nextInt(lengthOfAlphabets+1);
+		inverse_multiplicationFactor = getAInverse();
 	}
 	
 	//Function for creating a list of coprime factors of 'z' and randomly assigning one of them to 'a'.
 	public int getCoprimeFactor() {
 		List<Integer> coprimeFactors = new ArrayList<Integer>();
-		for(int coprimeFactor=1; coprimeFactor<=z; coprimeFactor+=2) {
-			if((z % coprimeFactor) !=0) {
+		for(int coprimeFactor=1; coprimeFactor<=lengthOfAlphabets; coprimeFactor+=2) {
+			if((lengthOfAlphabets % coprimeFactor) !=0) {
 				coprimeFactors.add(coprimeFactor);
 			}
 		}
@@ -72,8 +77,8 @@ public class AffineCipher {
 	//Function to find the multiplicative inverse of 'a'.
 	public int getAInverse() {
 		int a_inverse_temp;
-		for(a_inverse_temp=2; a_inverse_temp<=z; a_inverse_temp++) {
-			if((a * a_inverse_temp) % z == 1) {
+		for(a_inverse_temp=2; a_inverse_temp<=lengthOfAlphabets; a_inverse_temp++) {
+			if((multiplicationFactor * a_inverse_temp) % lengthOfAlphabets == 1) {
 				break;
 			}
 		}
@@ -85,9 +90,9 @@ public class AffineCipher {
 		String output = "";
 		for (char charInInput : input.toCharArray()) {
 			int inputCode = alphabets.indexOf(charInInput); //Taking one character of text at a time and assigning its numeric value.
-			int cipherCode = ((a * inputCode) + b) % z; //Applying encryption formula.
+			int cipherCode = ((multiplicationFactor * inputCode) + additionFactor) % lengthOfAlphabets; //Applying encryption formula.
 			if(cipherCode < 0) {
-				cipherCode += z;
+				cipherCode += lengthOfAlphabets;
 			}
 			output += alphabets.get(cipherCode); //Finding the character matching with the calculated cipher code.
 		}
@@ -98,9 +103,9 @@ public class AffineCipher {
 		String output = "";
 		for(char charInInput : input.toCharArray()) {
 			int inputCode = alphabets.indexOf(charInInput);
-			int decipherCode = (a_inverse * (inputCode - b)) % z; //Applying decryption formula.
+			int decipherCode = (inverse_multiplicationFactor * (inputCode - additionFactor)) % lengthOfAlphabets; //Applying decryption formula.
 			if(decipherCode < 0) {
-				decipherCode += z;
+				decipherCode += lengthOfAlphabets;
 			}
 			output += alphabets.get(decipherCode);
 		}
@@ -152,3 +157,39 @@ public class AffineCipher {
 		scanner.close();
 	}
 }
+
+/* 
+    Output of the Program :- 
+	Menu :-
+	1. Encryption
+	2. Decryption
+	1
+	Enter input text :- Affine Cipher
+	Input Text :- AffineCipher
+	Encrypted Text :- dccrQXnramXk
+	Do you want to continue (Y/N) ? 
+	Y
+	Menu :-
+	1. Encryption
+	2. Decryption
+	2
+	Enter input text :- dccrQXnramXk
+	Input Text :- dccrQXnramXk
+	Encrypted Text :- AffineCipher
+	Do you want to continue (Y/N) ? 
+	N
+	
+	*Encryption Cycle :- 
+	Input 							:-							Affine Cipher
+    Input(Removing white spaces) 	:- 							AffineCipher
+    Output 							:- 							dccrQXnramXk
+    
+    *Decryption Cycle :-
+    Input 							:-							dccrQXnramXk
+    Input(Removing white spaces) 	:- 							dccrQXnramXk
+    Output 							:- 							AffineCipher
+    
+    
+	***Note :- 	All the factors except the lengthOfAlphabets are choosen at random so the result may not be the same at every execution of the program.
+				But for the encryption and decryption used formula's are of Affine Cipher only. 
+*/

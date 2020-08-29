@@ -21,7 +21,12 @@ void towerOfHanoi(int n, char from_rod,
 // Driver code
 int main()
 {
-    int n = 4; // Number of disks
+    int n; // Number of disks
+    cout << "Enter number of disks: ";
+    cin >> n;
+    
     towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods
+  
+    cout << "All disks have been moved to another rod!!!";
     return 0;
 }

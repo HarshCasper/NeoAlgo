@@ -1,11 +1,10 @@
-// import the Scanner class
 import java.util.Scanner;
 
 public class RemoveDuplicateElementWithoutExtraSpace{
 
     /**
      * Method 2
-     * Without using any extra space
+     * Remove duplicate element from sorted array without using any extra space
      *
      * Input :
      * 2

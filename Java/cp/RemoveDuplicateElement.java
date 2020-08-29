@@ -1,4 +1,3 @@
-// import the Scanner class
 import java.util.Scanner;
 
 /**
@@ -89,8 +88,6 @@ public class RemoveDuplicateElement {
 //        print the updated array
         for (int i=0; i<n; i++){
             System.out.print(a[i] + " ");
-
-//            output - 1 2 3 4 5
         }
 
     }

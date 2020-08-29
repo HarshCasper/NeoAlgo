@@ -69,7 +69,7 @@ def PancakeSoritng(arr,n):
 
 
 #Testing our function on a user array
-user_input = input("Enter input numers separated by a comma\n").strip()
+user_input = input("Enter input numbers separated by a comma\n").strip()
 
 #Storing value of input element in the variable arr
 arr= [int(elem) for elem in user_input.split(',')]

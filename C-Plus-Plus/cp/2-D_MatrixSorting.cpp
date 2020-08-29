@@ -22,44 +22,12 @@
  * 1 2 3
  * 4 5 6
  * 7 8 9
- * 
- * Explanation:
- * @source: https://www.geeksforgeeks.org/sort-given-matrix/
+ *
 */
 
 #include <bits/stdc++.h>
 using namespace std;
-#define SIZE 1000
-// function to print the given matrix
-void printMat(int mat[SIZE][SIZE], int n)
-{
-    cout<<"Sorted Matrix is:"<<endl;
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++)
-            cout << mat[i][j] << " ";
-        cout << endl;
-    }
-}
-void sortMat(int mat[SIZE][SIZE], int n)
-{
-    // temporary matrix of size n^2
-    int temp[n*n];
-    int k = 0;
-    // copy the elements of matrix one by one
-    // into temp[]
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
-            temp[k++] = mat[i][j];
-    // sort temp[]
-    sort(temp, temp + k);
-    // copy the elements of temp[] one by one
-    // in mat[][]
-    k = 0;
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
-            mat[i][j] = temp[k++];
-    printMat(mat, n);
-}
+
 int main() {
     int n;
     cout << "Enter the size of an array : " <<endl;
@@ -71,6 +39,22 @@ int main() {
             cin >> arr[i][j];
         }
     }
-    sortMat(arr, n);
+    int oneD_arr[n*n + 2]; // Array to store all the elements in 1_D for sorting
+    int pos = 0;
+    for (int i = 0; i < n; i++){
+        for (int j = 0; j < n; j++){
+            oneD_arr[pos++] = arr[i][j];
+        }
+    }
+    sort(oneD_arr, oneD_arr+pos); // Using inbuilt sort
+    pos = 0;
+    cout<<"\n Sorted 2-D Matrix is:"<<"\n";
+    for (int i = 0; i < n; i++){
+        for (int j = 0; j < n; j++){
+            arr[i][j] = oneD_arr[pos++]; // changing value of intial array with sorted values
+            cout<<arr[i][j]<<" "; // displays output
+        }
+        cout<<"\n";
+    }
     return (0);
 }

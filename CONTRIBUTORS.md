@@ -118,6 +118,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/idiya-nc/"><img src="https://avatars2.githubusercontent.com/u/44759773?v=4" width="100px;" alt=""/><br /><sub><b>Diya Nag Chaudhury</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=cherryWood55" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/devanshiv123"><img src="https://avatars0.githubusercontent.com/u/43826157?v=4" width="100px;" alt=""/><br /><sub><b>Devanshi Verma</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=devanshiv123" title="Code">💻</a></td>
     <td align="center"><a href="http://ishita1608.netlify.com"><img src="https://avatars2.githubusercontent.com/u/50510726?v=4" width="100px;" alt=""/><br /><sub><b>Ishita Keshawani</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Ishita1608" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Ajay0511"><img src="https://avatars2.githubusercontent.com/u/56833904?v=4" width="100px;" alt=""/><br /><sub><b>Ajay0511</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Ajay0511" title="Code">💻</a></td>
   </tr>
 </table>
 

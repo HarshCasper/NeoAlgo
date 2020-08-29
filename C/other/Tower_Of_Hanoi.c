@@ -13,6 +13,7 @@ void TowerOfHanoi(int n,int a,int b,int c){
 int main(){
     int n;
     scanf("%d",&n);
+    printf("The value of n is: %d\n", n);
     TowerOfHanoi(n,1,2,3);
     return 0;
 }

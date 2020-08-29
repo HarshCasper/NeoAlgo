@@ -1,7 +1,5 @@
 
 import java.util.*;
-// import java.util.LinkedList; 
-// import java.util.Queue; 
 class node{
     int value;
     node left;
@@ -128,8 +126,19 @@ public class postorder_Traversal {
     {
     
         postorder_Traversal binaryTree = new postorder_Traversal();
-       // tree formed is 
-       /*
+       
+      
+      binaryTree.postorder_traversal_Iterative();
+      binaryTree.postorder_traversal_recursive();
+     
+
+        
+
+
+    }
+}
+/* for this tree
+       
                  1
                /   \
               2     3 
@@ -137,16 +146,7 @@ public class postorder_Traversal {
            4     5 6   7
           /      \ /    \
          null null null null
-        */
-      // this will print postorder traversal of above binary tree iteratively using defined stack class
-      binaryTree.postorder_traversal_Iterative();
-      // this will print postorder traversal of above binary tree recursively
-      binaryTree.postorder_traversal_recursive();
-      //post orde traversal of above tree is 
-      //    4 5 2 6 7 3 1
-
         
-
-
-    }
-}
+ post orde traversal of above tree is 
+          4 5 2 6 7 3 1
+*/

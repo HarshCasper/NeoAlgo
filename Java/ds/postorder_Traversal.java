@@ -124,17 +124,9 @@ public class postorder_Traversal {
     
     public static void main(String args[])
     {
-    
-        postorder_Traversal binaryTree = new postorder_Traversal();
-       
-      
+      postorder_Traversal binaryTree = new postorder_Traversal();  
       binaryTree.postorder_traversal_Iterative();
       binaryTree.postorder_traversal_recursive();
-     
-
-        
-
-
     }
 }
 /* for this tree

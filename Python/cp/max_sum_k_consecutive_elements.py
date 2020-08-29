@@ -19,7 +19,7 @@ input_string = input()                #inputting array elements
 arr = input_string.split()
 
 print("Enter k")
-k = int(input())                      #inputting k
+k = int(input("Enter k: "))                      #inputting k
 
 print("Maximum sum of k consecutive elements in array is: " + str(maxSumofKelements(arr, n, k)))
 

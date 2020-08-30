@@ -14,6 +14,7 @@
 - [Queue implementation](ds/Queueimplementation.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
+- [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Interpolation Search](search/Interpolation.c)
 
 ## Searching
@@ -47,6 +48,9 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
 ## Dynamic Programming
+
+- [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
+=======
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 
 ## Blockchain
@@ -56,6 +60,7 @@ _add list here_
 ## Cryptography
 
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
+- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 
 ## Other
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)

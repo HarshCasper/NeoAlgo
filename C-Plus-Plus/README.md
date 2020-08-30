@@ -86,6 +86,7 @@ _add list here_
 - [Fibonacci number with bottom-up approach](dp/fibonacci_bottom_up.cpp)
 - [Fibonacci number with top-down approach](dp/fibonacci_top_down.cpp)
 - [Edit Distance](dp/edit_distance.cpp)
+- [Backtracking Algorithm](backtracking_sudoku.cpp)
 
 ## Blockchain
 

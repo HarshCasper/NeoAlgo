@@ -6,7 +6,10 @@ using namespace std;
 void towerOfHanoi(int n, char from_rod,
                   char to_rod, char aux_rod)
 {
-    if (n == 1)
+  //takes number of rod and rod labels as input
+  // performs tower of hanoi algorithm
+  // each update in position of disk is shown in output.
+  if (n == 1)
     {
         cout << "Move disk 1 from rod " << from_rod <<
              " to rod " << to_rod << endl;
@@ -26,7 +29,7 @@ int main()
     cin >> n;
     
     towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods
-  
+    
     cout << "All disks have been moved to another rod!!!";
     return 0;
 }

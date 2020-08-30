@@ -21,8 +21,8 @@ Time complexity - logn
 */
 
 
-#include <iostream> //Header File
-using namespace std; //Standard cin and cout
+#include <iostream>
+using namespace std;
 
 
 //Binary_search() for performing binary search on elements
@@ -84,6 +84,7 @@ int Partition (int *Array, int start, int end)
     swap(Array[partition_index], Array[end]);
 
     return partition_index; 
+
 }
 
 //Quick_sort() for performing quick_sort Algorithm
@@ -101,14 +102,16 @@ int Quick_sort (int array[] , int lower_bound , int  upper_bound)
 }
 
 //main function
+
 int main()
-{
+{	
+	int *array;
     int array_size;
 
     cout<<"The size of array is: ";
     cin>>array_size;
 
-    int array[array_size];
+    array = new int [array_size];
 
     cout<<"Please input the elements in array:\n";
     for (int i = 0 ; i < array_size ; i++) 
@@ -139,6 +142,7 @@ int main()
     else {                                  //occurrence not found
         cout<<"The number is not present in the array."; 
     }
+    delete [] array;
 
     return 0;
 }

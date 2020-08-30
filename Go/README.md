@@ -10,16 +10,19 @@
 # Codes in the Golang language
 
 ## Data Structures
-* [Stack](/ds/stack.go)
+* [Stack](./ds/Stack.go)
 * [Stack using Queue](./ds/stack_using_queue.go)
 * [Queue using Stack](./ds/queue_using_stack.go)
+* [Singly Linked List](./ds/singly_linked_list.go)
+* [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
 
 ## Searching
 * [Binary Search](/search/binary_search.go)
 * [Linear Search](/search/linear_search.go)
 
 ## Sorting
-_add list here_
+* [Merge Sort Sequantial](./sort/merge_sort_sequential.go)
+* [Merge Sort Parallel](./sort/merge_sort_parallel.go)
 
 ## Machine Learning
 _add list here_

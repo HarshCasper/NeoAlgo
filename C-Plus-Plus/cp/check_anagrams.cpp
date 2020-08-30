@@ -38,7 +38,7 @@ int main(){
     }
     return 0;
 }
-// Dry run:
+// Sample test case:
 // s1 = 'abcd' and s2 = 'abcdb'
 // count of a, b, c, d become 1 while traversing through s1
 // count of a, b, c, d become 0, -1, 0, 0 respectively, while traversing through s2

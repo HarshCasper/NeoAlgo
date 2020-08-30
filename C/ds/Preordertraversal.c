@@ -20,9 +20,12 @@ int main(){
     temp=create();
     if(root==NULL){
         root=temp;
+	printf("Element inserted successfully! \n");
         }
-    else  
+    else{ 
         insert(root,temp);
+        printf("Element inserted successfully! \n");
+    }
     printf("Do you want to enter more data? (y/n) ");
     getchar();
     scanf("%c", &ch);
@@ -98,3 +101,23 @@ void preorderIterative(struct BST* root)
         }
     }
 }
+
+//  Sample Output
+
+// Enter data: 5
+// Element inserted successfully! 
+// Do you want to enter more data? (y/n) y
+// Enter data: 3
+// Element inserted successfully! 
+// Do you want to enter more data? (y/n) y
+// Enter data: 8
+// Element inserted successfully! 
+// Do you want to enter more data? (y/n) y
+// Enter data: 7
+// Element inserted successfully! 
+// Do you want to enter more data? (y/n) n
+
+// Preorder traversal using recursion
+// 5 3 8 7 
+// Preorder traversal using iteration
+// 5 3 8 7 

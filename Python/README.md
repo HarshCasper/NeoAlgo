@@ -77,7 +77,7 @@ _add list here_
 
 
 ## Cryptography
-* [Playfair cipher](cryptography/playfair.py)
+* [Playfair Cipher](cryptography/playfair.py)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)

@@ -104,9 +104,16 @@ while(1):
     ch=int(input("\n 1.Encryption \n 2.Decryption: \n 3.Exit \n Enter Your Choice: "))
     
     if ch==1:
-        encrypt()
+        try:
+            encrypt()
+        except Exception as e:
+            print("Wrong input!")
+        
     elif ch==2:
-        decrypt()
+        try:
+            decrypt()
+        except Exception as e:
+            print("Wrong input!")
     elif ch==3:
         break;
     else:

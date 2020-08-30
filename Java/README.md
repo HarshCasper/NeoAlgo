@@ -23,6 +23,7 @@
 * [Sparse Matrix](ds/SparseMatrix.java)
 * [Matrix Sorting](ds/MatrixSorting.java)
    master
+* [Detect Loop in Linked List](ds/detect_loop.java)
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)

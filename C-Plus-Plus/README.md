@@ -106,7 +106,7 @@ _add list here_
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
-
+- [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
 ## Other
 
 - [String Rotation based on Queries](other/string_rotation.cpp)

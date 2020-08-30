@@ -81,7 +81,7 @@
 * [KMP Algorithm](cp/KMP_Algorithm.py)
 * [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 * [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
-
+* [Anagram Checker](cp/anagram_checker.py)
 ## Dynamic Programming
 _add list here_
 

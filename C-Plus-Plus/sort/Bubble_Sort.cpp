@@ -1,3 +1,7 @@
+/*Bubble Sort Algorithm is the simplest sorting algorithm in which each element is compared to its adjacent element 
+and if first elememt is greater than second element ,then the swapping occurs.
+The swapping occurs till the array is sorted.
+*/
 #include<iostream>			//Header file
 using namespace std;		//For cin and cout
 int main(){

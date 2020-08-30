@@ -25,10 +25,10 @@ bool check_anagrams(string s1, string s2){
 
 int main(){
     string s1, s2;
-    cout << "Enter s1";
-    getline(cin, s1);
-    cout << "Enter s2";
-    getline(cin, s2);
+    cout << "Enter s1: ";
+    cin >> s1;
+    cout << "Enter s2: ";
+    cin >> s2;
     cout << "Anagrams or not: ";
     if(check_anagrams(s1, s2)){
         cout << "yes";

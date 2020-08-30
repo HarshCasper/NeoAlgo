@@ -11,10 +11,15 @@
 
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
-* [Linked List](ds/linkedListReverse.java )
+* [Linked List](ds/linkedList.java )
+* [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
+ Implementation-of-queue-using-stack
+* [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
+* [Stack ~ Linked List Implementation](ds/Stack.java)
+   master
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)
@@ -22,6 +27,7 @@
 * [Linear Search](search/Linear_search.java)
 * [Binary Search](search/Binary_search.java)
 * [Jump Search](search/jumpSearch.java)
+* [Stack Search](search/Stack_Search.java)
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)
@@ -31,7 +37,12 @@
 * [PancakeSort](sort/PancakeSort.java)
 * [BeadSort](sort/BeadSort.java)
 * [Selection Sort](sort/SelectionSort.java)
+<<<<<<< HEAD
 * [Shell Sort](sort/ShellSort.java)
+=======
+* [Bucket Sort](sort/BucketSort.java)
+* [Minimum number of swaps to sort an array of N unordered consecutive integers](sort/MinimumSwapsForNIntegers.java)
+>>>>>>> 7f29d4fedc14a4da3b9dc14839e0f0a1df27ac83
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)

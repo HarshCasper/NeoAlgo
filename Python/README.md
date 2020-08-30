@@ -95,6 +95,7 @@ _add list here_
 ## Cryptography
 
 * [Shift Cipher or Ceaser Cipher](cryptography/shiftCipher.py)
+* [Affine Cipher](cryptography/affineCipher.py)
 
 
 

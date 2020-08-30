@@ -118,3 +118,25 @@ while(1):
         break;
     else:
         print("Choose correct choice")
+  '''
+  SAMPLE TEST CASE--->
+  
+  Enter the key : HELLO
+
+ 1.Encryption 
+ 2.Decryption: 
+ 3.Exit 
+ Enter Your Choice: 1
+ENTER MSG : CRYPTOGRAPHY
+CIPHER TEXT: KW ZN YF CU GU OV 
+ 1.Encryption 
+ 2.Decryption: 
+ 3.Exit 
+ Enter Your Choice: 2
+ENTER CIPHER TEXT:KW ZN YF CU GU OV 
+PLAIN TEXT: CR YP TO GR AP HY 
+ 1.Encryption 
+ 2.Decryption: 
+ 3.Exit 
+ Enter Your Choice: 3
+'''

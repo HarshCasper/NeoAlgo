@@ -95,6 +95,7 @@ _add list here_
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Anagram](cp/Anagram.java)
 
 
 ## Other

@@ -88,7 +88,7 @@ _add list here_
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Target Sum Triplets](cp/target_sum_triplets.java)
-
+* [Count Triplets with sum of two equal to the third one](cp/CountTriplets.java)
 
 ## Other
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)

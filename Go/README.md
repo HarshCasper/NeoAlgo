@@ -30,6 +30,9 @@ _add list here_
 ## Mathematics
 _add list here_
 
+## Competitive Programming
+* [Target Sum Triplets](./cp/target_sum_triplets.go)
+
 ## Dynamic Programming
 _add list here_
 

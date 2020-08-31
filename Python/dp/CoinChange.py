@@ -1,4 +1,9 @@
 ''' Minimum no of coins required'''
+
+'''Problem Statement : Given coins of different denominations with infinite supply and a total amount of money amount. 
+                      Compute the fewest number of coins required to make up that amount.
+'''
+
 #importing sys module to initalize the maxsize 
 import sys
 
@@ -6,10 +11,14 @@ import sys
 INT_MAX = sys.maxsize - 1
 
 # taking input of list of coins
+print("Enter the coins denominations")
 coins = list(map(int,input().split()))
+print("Given Coins Denominations are: ",coins)
 
 # taking input of value of coin to be changed
+print("Enter the total amount")
 value = int(input())
+print("Given the total amount is: ",value)
 
 # size of coins list
 n = len(coins)
@@ -45,6 +54,11 @@ def coinChange(coins,value,n):
 
   # returns value in n * value block
   return k[n][value]
+
+#Sample input
+'''   coins = [1,2,5,8,10]
+      value = 24
+'''
 
 min_coins = coinChange(coins,value,n)
 

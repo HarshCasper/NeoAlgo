@@ -107,7 +107,7 @@ _add list here_
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Check whether two strings are anagrams or not](cp/check_anagrams.cpp)
-
+- [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
 ## Other
 
 - [String Rotation based on Queries](other/string_rotation.cpp)

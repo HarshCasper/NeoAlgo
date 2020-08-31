@@ -12,8 +12,6 @@
 
 ## Data Structures
 
-Stack_using_LinkedList.cpp
-
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Red-Black Tree](ds/RED-BLACK-TREE.cpp)
@@ -27,6 +25,7 @@ Stack_using_LinkedList.cpp
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Updated Reverse Linked List](ds/Reverse_linked_list.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
+- [Stack_using_LinkedList](ds/Stack_using_LinkedList.cpp)
 
 ## Searching
 

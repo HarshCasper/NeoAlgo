@@ -9,10 +9,12 @@
 
 # Codes in the C++ language
 
+
 ## Data Structures
-Stack_using_LinkedList.cpp
+
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+- [Red-Black Tree](ds/RED-BLACK-TREE.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
@@ -22,6 +24,8 @@ Stack_using_LinkedList.cpp
 - [Stack Using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Updated Reverse Linked List](ds/Reverse_linked_list.cpp)
+- [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
+- [Stack_using_LinkedList](ds/Stack_using_LinkedList.cpp)
 
 ## Searching
 
@@ -71,6 +75,7 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Ackermann_Function](math/Ackermann_function.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
+
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
@@ -102,4 +107,8 @@ _add list here_
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Longest_Palindromic_Substring](cp/LongestPalindromicSubstring.cpp)
 
+- [Check whether two strings are anagrams or not](cp/check_anagrams.cpp)
+- [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
 ## Other
+
+- [String Rotation based on Queries](other/string_rotation.cpp)

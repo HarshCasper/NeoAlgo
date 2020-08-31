@@ -49,11 +49,12 @@ string LongestPalinSubstr(string str){
 }
 
 int main(){
+	cout<<"Enter a string:"<<endl;
 	string str;
 	cin>>str;
 
 	string LongestPalindrome=LongestPalinSubstr(str);
-	cout<<LongestPalindrome<<endl;
+	cout<<"Longest Palindromic substring of given string is: "<<LongestPalindrome<<endl;
 }
 
 /*Sample Input: babad

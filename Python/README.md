@@ -83,7 +83,7 @@ _add list here_
 
 
 ## Cryptography
-[Affine cipher](Python/cryptography/AffineCipher.py)
+[Affine cipher](cryptography/AffineCipher.py)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)

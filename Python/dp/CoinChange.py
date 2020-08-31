@@ -1,10 +1,14 @@
 ''' Minimum no of coins required'''
+#importing sys module to initalize the maxsize 
 import sys
 
+# assigning max value a variable can take
 INT_MAX = sys.maxsize - 1
 
+# taking input of list of coins
 coins = list(map(int,input().split()))
 
+# taking input of value of coin to be changed
 value = int(input())
 
 # size of coins list

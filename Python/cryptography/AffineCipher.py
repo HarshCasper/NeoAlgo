@@ -7,15 +7,9 @@ def encryption():
   global key2  # key 2
   global cipher_text # to store to the cipher text or the encrypted plain_text
   cipher_text=''
-  
-  
-
-
   key1 ,key2=input("Enter the keys : ").split()
 
   list_encrypted_characters=[] # a list for storing the encrypted characters which we later merged to a string i.e cipher_text
-
-
 
   def gcd(number1, number2): # for checking whether two numbers are coprime or not
       while number2 != 0:
@@ -102,14 +96,10 @@ decryption()
 #  The decryted text is :  Hello this is Affine substitution algorithm !
 
 
-
-
 #  Enter the plain text : I love python programming
 #  Enter the keys : 15 10
 #  The encrypted text is :  A tmns bgjlmx bfmwfkiiaxw
 #  The decryted text is :  I love python programming
-
-
 
 
 #  Enter the plain text : Hard work is the key to success 
@@ -118,12 +108,8 @@ decryption()
 
 
 
-
-
 #  Enter the plain text : Lets solve
 #  Enter the keys : 3 27
 #  Please enter valid keys..try again     # since the value of keys should be smaller than 26 but here the value of key2 is 27
-
-
 
 

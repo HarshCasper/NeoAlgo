@@ -15,8 +15,7 @@ def check_anagrams(first_string, second_string):
             print("These two words are anagrams")
         else:
             print("These two words are not anagrams")
-        
-        
+               
     else:
         print("These two words are not anagrams")
         

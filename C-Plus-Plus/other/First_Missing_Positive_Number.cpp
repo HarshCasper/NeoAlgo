@@ -8,10 +8,7 @@ You can modify the input array in-place.
 
 */
 
-#include <iostream>
-#include <cstdlib>
-#include <algorithm>
-#include <conio.h>
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -48,6 +45,7 @@ int firstMissingNumber(int arr[], int n)
 // DRIVER FUNCTION
 int main()
 {
+    // size of the array
     int n;
     // getting the size of the array
     cin >> n;

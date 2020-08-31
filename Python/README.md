@@ -83,7 +83,7 @@ _add list here_
 
 
 ## Cryptography
-[Affine cipher](NeoAlgo/Python/cryptography/AffineCipher.py)
+[Affine cipher](Python/cryptography/AffineCipher.py)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)

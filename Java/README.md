@@ -14,12 +14,14 @@
 * [Linked List](ds/linkedList.java )
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
+* [Queue Basic Functionalities](ds/queue.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
  Implementation-of-queue-using-stack
 * [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 * [Stack ~ Linked List Implementation](ds/Stack.java)
 * [Sparse Matrix](ds/SparseMatrix.java)
+* [Matrix Sorting](ds/MatrixSorting.java)
    master
 
 ## Algorithms
@@ -66,6 +68,7 @@ _add list here_
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 * [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)
+* [Count Number Of Digits](math/countDigits)
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)
@@ -77,7 +80,7 @@ _add list here_
 _add list here_
 
 ## Cryptography
-_add list here_
+* [Caesar Cipher](cryptography/ceaserCipher.java)
 
 ## Competitive programming
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
@@ -85,7 +88,9 @@ _add list here_
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Count The Reversals](cp/Count_The_Reversals.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+
 
 
 ## Other
-_add list here_
+* [Tower of Hanoi problem](other/TowerOfHanoi.java)

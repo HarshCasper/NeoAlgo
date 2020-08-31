@@ -10,7 +10,7 @@
 # Codes in the Golang language
 
 ## Data Structures
-* [Stack](/ds/stack.go)
+* [Stack](./ds/Stack.go)
 * [Stack using Queue](./ds/stack_using_queue.go)
 * [Queue using Stack](./ds/queue_using_stack.go)
 * [Singly Linked List](./ds/singly_linked_list.go)
@@ -29,6 +29,9 @@ _add list here_
 
 ## Mathematics
 _add list here_
+
+## Competitive Programming
+* [Target Sum Triplets](./cp/target_sum_triplets.go)
 
 ## Dynamic Programming
 _add list here_

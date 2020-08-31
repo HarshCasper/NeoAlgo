@@ -11,15 +11,31 @@
 
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
-* [Linked List](ds/linkedListReverse.java )
+* [Linked List](ds/linkedList.java )
+* [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
+* [Queue Basic Functionalities](ds/queue.java)
 * [Segment Tree](ds/SegmentTree.java)
 * [Stack](ds/Stackll.java)
+ Implementation-of-queue-using-stack
+* [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
+* [Stack ~ Linked List Implementation](ds/Stack.java)
+* [Sparse Matrix](ds/SparseMatrix.java)
+* [Matrix Sorting](ds/MatrixSorting.java)
+   master
+
+## Algorithms
+* [Kadane's Algorithm](Algorithms/kadanes_Java.java)
+## Greedy Algorithms
+* [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 
 ## Searching
 * [Linear Search](search/Linear_search.java)
 * [Binary Search](search/Binary_search.java)
 * [Jump Search](search/jumpSearch.java)
+* [Stack Search](search/Stack_Search.java)
+* [Interpolation Search](search/Interpolation_search.java)
+* [Manacher's Algorithm](search/ManacherAlgorithm.java)
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)
@@ -29,6 +45,9 @@
 * [PancakeSort](sort/PancakeSort.java)
 * [BeadSort](sort/BeadSort.java)
 * [Selection Sort](sort/SelectionSort.java)
+* [Bucket Sort](sort/BucketSort.java)
+* [Minimum number of swaps to sort an array of N unordered consecutive integers](sort/MinimumSwapsForNIntegers.java)
+* [Heap Sort](sort/HeapSort.java)
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)
@@ -43,25 +62,33 @@ _add list here_
 
 ## Mathematics
 
+* [Binary Exponentiation](math/Binary_Exponentiation.java)
 * [Complex numbers](math/Complex.java)
 * [Sieve of Atkin](math/sieveOfAtkin.java)
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 * [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)
+* [Count Number Of Digits](math/countDigits)
 
 ## Dynamic Programming
 * [Kandane Algorithm](dp/Kadane_Algorithm.java)
+* [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
+
+
 
 ## Blockchain
 _add list here_
 
 ## Cryptography
-_add list here_
+* [Caesar Cipher](cryptography/ceaserCipher.java)
 
 ## Competitive programming
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+
 
 ## Other
-_add list here_
+* [Tower of Hanoi problem](other/TowerOfHanoi.java)

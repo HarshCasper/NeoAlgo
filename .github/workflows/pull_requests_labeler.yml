@@ -1,13 +1,12 @@
-name: Pull Requests Labeler
+name: "Pull Requests Labeler"
 on:
-  - pull_request
+- pull_request
 
 jobs:
   labeler:
     runs-on: ubuntu-latest
-    if: (github.repository == 'TesseractCoding/NeoAlgo') && (github.event.pull_request.head.repo.full_name == github.repository)
     steps:
-      - uses: actions/labeler@v2
-        with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          configuration-path: ".github/pull_requests_labeler.yml"
+    - uses: actions/labeler@master
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        configuration-path: ".github/pull_requests_labeler.yml"

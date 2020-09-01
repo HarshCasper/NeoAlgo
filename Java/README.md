@@ -100,3 +100,4 @@ _add list here_
 
 ## Other
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)
+* [Find first missing positive number](other/FirstMissingPositiveNumber.java)

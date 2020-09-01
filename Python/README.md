@@ -85,6 +85,7 @@
 * [KMP Algorithm](cp/KMP_Algorithm.py)
 * [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 * [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+* [Anagram Checker](cp/anagram_checker.py)
 * [Target sum triplet](cp/Target_Sum_Triplet.py)
 * [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
 

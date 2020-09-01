@@ -7,14 +7,14 @@ public class ShellSort{
         int n = scan.nextInt();// size of array
         int[] array = new int[n];
         System.out.println("Enter the elements in the array : ");
-        int n = scan.nextInt();// size of array
         for(int i=0;i<n;i++){
             array[i] = scan.nextInt(); //array elements
+            //example array : 7 , 85, 24, 45, 1, 29
         }
         scan.close();
 
         shellSort(array, n); // function call for sorting array
-
+        //Output : 1, 7 24, 29, 45, 85
        
     }
 
@@ -31,7 +31,7 @@ public class ShellSort{
                 for(j = i; j>=gap && array[j-gap] > temp; j=j-gap){
                     array[j] =array[j-gap];
                 }
-                array[j] = temp;// coorect place of placing temp
+                array[j] = temp;// correct place of placing temp
             }
             gap = gap/2;
         }

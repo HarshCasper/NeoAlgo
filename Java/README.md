@@ -45,16 +45,10 @@
 * [PancakeSort](sort/PancakeSort.java)
 * [BeadSort](sort/BeadSort.java)
 * [Selection Sort](sort/SelectionSort.java)
-<<<<<<< HEAD
 * [Shell Sort](sort/ShellSort.java)
-=======
 * [Bucket Sort](sort/BucketSort.java)
 * [Minimum number of swaps to sort an array of N unordered consecutive integers](sort/MinimumSwapsForNIntegers.java)
-<<<<<<< HEAD
->>>>>>> 7f29d4fedc14a4da3b9dc14839e0f0a1df27ac83
-=======
 * [Heap Sort](sort/HeapSort.java)
->>>>>>> af1a803972aecefdbbcd9d3c40d8c2e2292537ed
 
 ## Graphs
 * [Breadth First Search](graphs/BFS.java)

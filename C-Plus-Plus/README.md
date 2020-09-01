@@ -22,6 +22,7 @@ Stack_using_LinkedList.cpp
 - [Stack Using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Updated Reverse Linked List](ds/Reverse_linked_list.cpp)
+- [Implementation of max and min heap](ds/heap.cpp) 
 
 ## Searching
 

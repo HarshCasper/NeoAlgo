@@ -7,10 +7,34 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
+# Codes in the C# language
 
+## Data Structures
+_add list here_
 
-# Codes in the C language
+## Searching
+- [Binary Search](search/BinarySearch.cs)
+- [Linear Search](search/LinearSearch.cs)
 
-## Competitive Programming
+## Sorting
+- [Bubble Sort](sort/BubbleSort.cs)
+- [Insertion Sort](sort/InsertionSort.cs)
+- [Quick Sort](sort/QuickSort.cs)
 
-[Kadane's Algorithm for max sum subArray](cp/Kadane's_Alogorithm.c)
+## Machine Learning
+_add list here_
+
+## Mathematics
+* [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)
+
+## Dynamic Programming
+_add list here_
+
+## Blockchain
+_add list here_
+
+## Cryptography
+_add list here_
+
+## Other
+_add list here_

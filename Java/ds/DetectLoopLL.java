@@ -86,4 +86,7 @@ Enter the Position to check:
     OUTPUT
 -----------------
 FALSE
+
+Time complexity: O(n).
+Auxiliary Space:O(1).
 */

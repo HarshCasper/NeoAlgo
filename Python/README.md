@@ -37,6 +37,8 @@
 * [Selection Sort](sort/Selection_Sort.py)
 * [Topological Sort](sort/topological_sort.py)
 * [Intro Sort](sort/IntroSort.py)
+* [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
+* [Merge Sort Parallel](sort/Parallel_MergeSort.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)

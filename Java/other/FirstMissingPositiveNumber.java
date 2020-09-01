@@ -13,7 +13,7 @@ public class FirstMissingPositiveNumber {
         int j = 0, i;
         // j is for counting non-positive integers
         for (i = 0; i < arr.length; i++) {
-            if (arr[0] <= 0) {
+            if (arr[i] <= 0) {
                 swap(arr, i, j);
                 j += 1;
             }
@@ -28,12 +28,12 @@ public class FirstMissingPositiveNumber {
             j += 1;
         }
 
-        // marking the as visited by its negative
+        // marking the number visited by its negative
         // for only those that don't go beyond length of the
         // array of positive numbers
         for (i = 0; i < arr2.length; i++) {
-            int checkNum = arr2[i];
-            if (checkNum >= 0 && checkNum - 1 < arr2.length && arr2[checkNum - 1] > 0) {
+            int checkNum = Math.abs(arr2[i]);
+            if (checkNum - 1 < arr2.length && arr2[checkNum - 1] > 0) {
                 arr2[checkNum - 1] = -arr2[checkNum - 1];
             }
         }

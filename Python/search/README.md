@@ -1,1 +1,0 @@
-[Randomized Select](search/random_select.py)

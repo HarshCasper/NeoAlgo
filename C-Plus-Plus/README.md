@@ -26,6 +26,7 @@
 - [Updated Reverse Linked List](ds/Reverse_linked_list.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
 - [Stack_using_LinkedList](ds/Stack_using_LinkedList.cpp)
+- [Max and Min heap Implementation](ds/max_min_heap.cpp)
 
 ## Searching
 

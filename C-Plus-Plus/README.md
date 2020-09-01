@@ -26,6 +26,8 @@ Stack_using_LinkedList.cpp
 - [Stack_using_LinkedList](ds/Stack_using_LinkedList.cpp)
 - [Implementation of max and min heap](ds/heap.cpp) 
 
+- [Implementation of max and min heap](ds/heap.cpp) 
+
 ## Searching
 
 - [Binary Search](search/Binary_Search.cpp)

@@ -23,6 +23,9 @@
 - [Linear Search](search/linear_search.c)
 - [Random Search Monte Carlo version](search/random_search.c)
 
+## CP
+- [First Missing Positive Integer](other/first_missing_positive_integer.c)
+
 
 ## Sorting
 

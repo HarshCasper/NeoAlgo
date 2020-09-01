@@ -24,7 +24,7 @@
 - [Random Search Monte Carlo version](search/random_search.c)
 
 ## CP
-- [First Missing Positive Integer](other/first_missing_positive_integer.c)
+- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 
 
 ## Sorting

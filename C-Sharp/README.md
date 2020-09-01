@@ -7,36 +7,30 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Javascript language
+# Codes in the C# language
 
 ## Data Structures
-- [Linked List](/ds/LinkedList.js)
-- [Queue](/ds/Queue.js)
-- [Stack](ds/Stack.js)
+_add list here_
 
 ## Searching
-* [Binary Search](/search/binary_search.js)
-* [Linear Search](/search/linear_search.js)
-* [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
+- [Binary Search](search/BinarySearch.cs)
+- [Linear Search](search/LinearSearch.cs)
 
 ## Sorting
-- [Bubble Sort](/sort/BubbleSort.js)
-- [Insertion Sort](/sort/insertion_sort.js)
-- [Sleep Sort](/sort/sleepSort.js)
+- [Bubble Sort](sort/BubbleSort.cs)
+- [Insertion Sort](sort/InsertionSort.cs)
+- [Quick Sort](sort/QuickSort.cs)
 
 ## Machine Learning
 _add list here_
 
 ## Mathematics
-[Count Number of Digits in an Integer](/math/CountDigits_Integer.js)
+* [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)
 
 ## Dynamic Programming
 _add list here_
 
 ## Blockchain
-_add list here_
-
-## Searching
 _add list here_
 
 ## Cryptography

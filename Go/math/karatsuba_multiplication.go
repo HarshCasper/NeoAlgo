@@ -83,8 +83,8 @@ func add(first, second string) string {
 	first, second = addZeroFront(first, second)
 
 	for i := len(first) - 1; i >= 0; i-- {
-		intA, _ := strconv.Atoi(first[i : i+1])
-		intB, _ := strconv.Atoi(second[i : i+1])
+		intA, err := strconv.Atoi(first[i : i+1])
+		intB, err := strconv.Atoi(second[i : i+1])
 
 		sumDigit := intA + intB + carry
 		carry = 0
@@ -131,9 +131,9 @@ func main() {
 
 	firstNumberInput, secondNumberInput := 0, 0
 
-	fmt.Println("enter first number")
+	fmt.Println("enter first number:")
 	fmt.Scanf("%d", &firstNumberInput)
-	fmt.Println("enter second number")
+	fmt.Println("enter second number:")
 	fmt.Scanf("%d", &secondNumberInput)
 
 	// converting both number to positve number because
@@ -141,7 +141,7 @@ func main() {
 	firstNumber := int(math.Abs(float64(firstNumberInput)))
 	secondNumber := int(math.Abs(float64(secondNumberInput)))
 
-	fmt.Println("the result is:")
+	fmt.Println("the multiplication result is:")
 	rawResult := multiply(strconv.Itoa(firstNumber), strconv.Itoa(secondNumber))
 
 	result := ""
@@ -153,6 +153,36 @@ func main() {
 		result = "-" + rawResult
 	} else if secondNumberInput < 0 {
 		result = "-" + rawResult
+	} else {
+		result = rawResult
 	}
 	fmt.Println(result)
 }
+
+/*
+	time complexity : O(n^1.585)
+	space complexity : O(n)
+
+	input/output sample
+
+	enter first number:
+	111111
+	enter second number:
+	222222
+	the multiplication result is:
+	24691308642
+
+	enter first number:
+	-54454644
+	enter second number:
+	454634
+	the multiplication result is:
+	-24756932620296
+
+	enter first number:
+	-4454545
+	enter second number:
+	-1314544
+	the multiplication result is:
+	5855695402480
+*/

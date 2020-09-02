@@ -83,8 +83,8 @@ func add(first, second string) string {
 	first, second = addZeroFront(first, second)
 
 	for i := len(first) - 1; i >= 0; i-- {
-		intA, err := strconv.Atoi(first[i : i+1])
-		intB, err := strconv.Atoi(second[i : i+1])
+		intA, _ := strconv.Atoi(first[i : i+1])
+		intB, _ := strconv.Atoi(second[i : i+1])
 
 		sumDigit := intA + intB + carry
 		carry = 0

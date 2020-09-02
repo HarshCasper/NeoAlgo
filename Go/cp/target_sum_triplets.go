@@ -1,5 +1,4 @@
 /*
-
 	Take as input N, the size of array. Take N more inputs and store that in an array.
 	Take as input “target”, a number.
 	Write a function which prints all triplets of numbers which sum to target.
@@ -14,8 +13,6 @@ input:
 	1, 3 and 6
 	1, 4 and 5
 	2, 3 and 5
-
-
 */
 package main
 
@@ -44,7 +41,6 @@ func sumTriplets(arr []int, targetSum int) {
 			// index for first element is i
 			// index for second element is 0
 			// index for third element is index of last element
-
 			left = 0
 			right = arrayLength - 1
 
@@ -69,14 +65,12 @@ func sumTriplets(arr []int, targetSum int) {
 					right--
 				}
 			}
-
 		}
 	}
 	// if there is no triplet exist
 	if count == 0 {
 		fmt.Println("Sorry couldn't found any triplets with target sum")
 	}
-
 }
 
 func main() {
@@ -99,10 +93,11 @@ func main() {
 	fmt.Scanf("%d", &targetSum)
 
 	sumTriplets(array, targetSum)
-
 }
 
 /*
+	Time Complexity : O(n^2) because of two nested loops
+	Space Complexity : O(1)
 
 	input/output sample
 
@@ -119,5 +114,4 @@ func main() {
 	Triplet is 5 1 4
 	Triplet is 6 1 3
 	Triplet is 7 1 2
-
 */

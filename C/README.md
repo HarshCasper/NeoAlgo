@@ -62,4 +62,4 @@ _add list here_
 
 ## Other
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
-_add list here_
+- [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)

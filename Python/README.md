@@ -35,6 +35,7 @@
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
+* [Random Select Algorithm](search/random_select.py)
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)

@@ -52,6 +52,10 @@ _add list here_
 =======
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 
+## Competitive Programming
+
+- [Activity selection](cp/Activity_selection.c)
+
 ## Blockchain
 
 _add list here_

@@ -8,10 +8,7 @@ You can modify the input array in-place.
 
 */
 
-#include <iostream>
-#include <cstdlib>
-#include <algorithm>
-#include <conio.h>
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -48,17 +45,20 @@ int firstMissingNumber(int arr[], int n)
 // DRIVER FUNCTION
 int main()
 {
+    // size of the array
     int n;
+    cout<<"Enter the size of the array: \n";
     // getting the size of the array
     cin >> n;
     int arr[n], index, res;
+    cout<<"Enter the elements of the array: \n";
     // getting the array elements
     for (index = 0; index < n; index++)
         cin >> arr[index];
     printf("\n");
     // finding the first positive missing number
     res = firstMissingNumber(arr, n);
-    cout << res;
+    cout <<"The First Missing Positive Number in the given array is: "<<res;
     return 0;
 }
 /*

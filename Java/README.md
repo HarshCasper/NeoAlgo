@@ -11,6 +11,7 @@
 
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
+* [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 * [Linked List](ds/linkedList.java )
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
@@ -92,3 +93,4 @@ _add list here_
 
 ## Other
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)
+* [Find first missing positive number](other/FirstMissingPositiveNumber.java)

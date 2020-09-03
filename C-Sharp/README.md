@@ -25,7 +25,7 @@ _add list here_
 _add list here_
 
 ## Mathematics
-_add list here_
+* [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)
 
 ## Dynamic Programming
 _add list here_

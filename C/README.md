@@ -16,6 +16,7 @@
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Interpolation Search](search/Interpolation.c)
+- [Pre-Order Tree Traversal](ds/Preordertraversal.c)
 
 ## Searching
 
@@ -35,7 +36,6 @@
 ## Graphs
 
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
-- [Pre-Order (NLR) Tree Traversal](graphs/preordertraversal.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 
 ## Machine Learning
@@ -64,4 +64,5 @@ _add list here_
 
 ## Other
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
-_add list here_
+- [Tower of Hanoi](other/Tower_Of_Hanoi.c)
+- _add list here_

@@ -29,7 +29,7 @@ You have a GitHub repo and can push to it. All is well. But how the heck do you 
 <img src="img/git push.png" width="750"/><br>
 
 - Once you push the changes to your repo, Go to your forked repository, the Compare & pull request button will appear in GitHub. <br><br>
-<img src="img/pull request.png" width="750"/><br>
+<img src="img/pull_request.png" width="750"/><br>
 
 - Click it and you'll be taken to this screen. <br><br>
 <img src="img/pull_2.png" width="750"/><br>

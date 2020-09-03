@@ -1,11 +1,15 @@
 # Author: Prasad V Patil
-
+/*
+   C++ code for Conversion of infix expression to post fix expression.
+*/
 
 #include<iostream>
-#include<stack>
-#include<string>
+#include<stack> //import Stack STL
+#include<string>  //import String STL
 
 using namespace std;
+
+//Function declarations
 
 // Function to convert Infix expression to postfix
 string InfixToPostfix(string expression);

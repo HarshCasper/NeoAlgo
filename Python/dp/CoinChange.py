@@ -70,6 +70,3 @@ Sample input:
 Sample Output:
     Minimum coins required are 3
 '''
-    
-=======
-

@@ -49,6 +49,7 @@
 * [Topological Sort](sort/topological_sort.py)
 * [Intro Sort](sort/IntroSort.py)
 * [Pancake Sort](sort/pancakesorting.py)
+* [2-D Matrix Sort](sort/Matrix_Sort.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)

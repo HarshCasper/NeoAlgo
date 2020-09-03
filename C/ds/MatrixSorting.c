@@ -26,12 +26,9 @@ int main()
     int ROW, COLUMN;
     printf("Enter Row: ");
     scanf("%d", &ROW);
-
     printf("Enter Column: ");
     scanf("%d", &COLUMN);
-
     printf("Enter the elements of Matrix:\n");
-
     int arr[ROW][COLUMN], minimum, i, j, temp, k, w, z = 0, q = 0 ;
     /* 
      i = row iterator
@@ -44,24 +41,24 @@ int main()
 
      */
 
-    for(i = 0; i < ROW; i++)
-        for(j = 0; j < COLUMN; j++)
+    for(i = 0;i < ROW;i++)
+        for(j = 0;j < COLUMN;j++)
         {
-            scanf("%d", &arr[i][j]);
+            scanf("%d",&arr[i][j]);
         }
 
 
-    for(i = 0; i < ROW; i++)
-        for(j = 0; j < COLUMN; j++)
+    for(i = 0;i < ROW;i++)
+        for(j = 0;j < COLUMN;j++)
         {
             temp = i;
             q = j;
             minimum = arr[i][j];
             w = j;
-            for(k = i; k < COLUMN; k++)
+            for(k = i;k < ROW;k++)
             {
 
-                for(; w < COLUMN; w++)
+                for(;w < COLUMN;w++)
                 if(arr[k][w] < minimum)
                 {
                     minimum = arr[k][w];
@@ -70,17 +67,19 @@ int main()
                 }
                 w = 0;
             }
-            temp = arr[i][j];
-            arr[i][j] = minimum;
-            arr[z][q] = temp;
+            if(arr[z][q] < arr[i][j])
+            {
+                temp = arr[i][j];
+                arr[i][j] = minimum;
+                arr[z][q] = temp;
+            }
         }
 
     printf("\nSorted Matrix: \n");
-
     for(i = 0; i < ROW; i++)
     {
-        for(j = 0; j < COLUMN; j++)
-            printf("%d ", arr[i][j]);
+        for(j = 0;j < COLUMN;j++)
+            printf("%d ",arr[i][j]);
         printf("\n");
     }
     

@@ -70,7 +70,7 @@
 * [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 
 ## Dynamic Programming
-_add list here_
+* [Coin Change Problem](dp/CoinChange.py)
 
 ## Blockchain
 _add list here_

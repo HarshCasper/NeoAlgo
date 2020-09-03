@@ -11,6 +11,7 @@
 
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
+* [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 * [Linked List](ds/linkedList.java )
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
@@ -21,6 +22,7 @@
 * [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 * [Stack ~ Linked List Implementation](ds/Stack.java)
 * [Sparse Matrix](ds/SparseMatrix.java)
+* [Matrix Sorting](ds/MatrixSorting.java)
    master
 
 ## Algorithms
@@ -90,4 +92,5 @@ _add list here_
 
 
 ## Other
-_add list here_
+* [Tower of Hanoi problem](other/TowerOfHanoi.java)
+* [Find first missing positive number](other/FirstMissingPositiveNumber.java)

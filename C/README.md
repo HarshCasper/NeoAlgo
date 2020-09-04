@@ -32,6 +32,7 @@
 - [Merge Sort](sort/MergeSort.c)
 - [OddEven Sort](sort/oddevensort.c)
 - [Selection Sort](sort/selection_sort.c)
+- [Shell Sort](sort/Shell_sort)
 
 ## Graphs
 

@@ -35,8 +35,9 @@ int main()
 	for(i=0;i<num;i++)
 	{
 		/*In bubble sort, 
-		//maximum value is placed at last index
-		*/In each pass we left the last index i.e num-1-i
+		maximum value is placed at last index
+		In each pass we left the last index i.e num-1-i
+                */
 		for(j=0;j<num-1-i;j++)
 		{
 			if(finish[j]>finish[j+1])
@@ -49,10 +50,11 @@ int main()
 		}
 	}
 	/*condition for Activity selection
-	//update prev each time
-	// with current of start i.e i
-	//count variable will see
-	*/ number of activites possible
+	update prev each time
+	with current of start i.e i
+	count variable will see
+	number of activites possible
+        */
 	for(i=1;i<num;i++)
 	{
 		if(start[i]>=finish[prev])

@@ -13,7 +13,11 @@ void swap(int *x,int *y)
 //Main function start
 int main()
 {
-	int num,start[20],finish[20],i,j,prev=0,count=1;
+	int num,i,j,prev=0,count=1;
+	int *start,*finish;
+	//Dynamic Memory Allocation for arrays
+	start = (int*) malloc(num * sizeof(int));
+	finish = (int*) malloc(num * sizeof(int));
 	//Take number of activites as a input
 	printf("Enter the number of activities :");
 	scanf("%d",&num);

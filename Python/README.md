@@ -35,7 +35,10 @@
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
+* [Random Select Algorithm](search/random_select.py)
 * [Z Algorithm](search/Z_Algorithm_HakinCode.py)
+
+
 
 
 ## Sorting
@@ -99,7 +102,7 @@ _add list here_
 
 
 ## Cryptography
-_add list here_
+[Affine cipher](cryptography/AffineCipher.py)
 
 ## Other
 

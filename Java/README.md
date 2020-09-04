@@ -11,6 +11,7 @@
 
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
+* [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 * [Linked List](ds/linkedList.java )
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
@@ -87,8 +88,11 @@ _add list here_
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Count The Reversals](cp/Count_The_Reversals.java)
 * [Target Sum Triplets](cp/target_sum_triplets.java)
+
 
 
 ## Other
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)
+* [Find first missing positive number](other/FirstMissingPositiveNumber.java)

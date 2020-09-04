@@ -12,7 +12,7 @@ class Node
         next = null;
     }
 }
-class DetectLoopLL
+public class DetectLoopLL
 {
     public static void makeLoop(Node head, Node tail, int x){
         if (x == 0) return;
@@ -25,9 +25,9 @@ class DetectLoopLL
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         //size of linked list
-        System.out.println("\Enter the size of Linked List:");
+        System.out.println("Enter the size of Linked List:");
         int n = sc.nextInt();
-         System.out.println("\Enter the data of Linked List:");
+         System.out.println("Enter the data of Linked List:");
         //Input for the Linked list
         int num = sc.nextInt();
         Node head = new Node(num);
@@ -40,7 +40,7 @@ class DetectLoopLL
             tail = tail.next;
         }
         //Position to check loop exists or not
-         System.out.println("\Enter the Position to check:");
+         System.out.println("Enter the Position to check:");
         int pos = sc.nextInt();
         makeLoop(head, tail, pos);
         //Object of Solution class

@@ -1,37 +1,44 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     int n;
     printf("Enter the value of n: ");
     scanf("%d\n",&n);
     printf("Enter the array:\n");
-    int a[n+1];
+    int *arr = (int*)malloc(n * sizeof(int));
     for (int i = 1; i <= n; ++i)
     {
-        scanf("%d", &a[i]);
+        scanf("%d", &arr[i]);
     }
+    if (arr == NULL) { 
+        printf("Memory not allocated.\n"); 
+        return 0;
+    } 
+    else {
+        for (int i = 1; i <= n; i++) {
+            if (arr[i] <= 0 || arr[i] > n) 
+                continue; 
 
-    for (int i = 1; i <= n; i++) {
-        if (a[i] <= 0 || a[i] > n) 
-            continue; 
-
-        int x = a[i]; 
-        while (a[x] != x) { 
-            int next_ele = a[x]; 
-            a[x] = x; 
-            x = next_ele;
-            if (x <= 0 || x > n) 
-                break; 
-        } 
-    }
-    int ans = n + 1;
-    for (int i = 1; i <= n; i++) { 
-        if (a[i] != i) { 
-            ans = i;
-            break;
-        } 
-    }
-    printf("%d", ans);
+            int x = arr[i]; 
+            while (arr[x] != x) { 
+                int next_ele = arr[x]; 
+                arr[x] = x; 
+                x = next_ele;
+                if (x <= 0 || x > n) 
+                    break; 
+            } 
+        }
+        int ans = n + 1;
+        for (int i = 1; i <= n; i++) { 
+            if (arr[i] != i) { 
+                ans = i;
+                break;
+            } 
+        }
+        printf("%d", ans);
+    } 
+    
     return 0;
 }
 

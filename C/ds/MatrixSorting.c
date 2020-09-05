@@ -1,23 +1,3 @@
-/*C implementation to sort the given matrix
-
- Input :
-  Enter Row: 3
-  Enter Column: 3
-  Enter the elements of matrix :
-  7 8 9
-  5 6 4
-  3 1 2
-  Output :
-  Sorted Matrix :
-  1 2 3
-  4 5 6
-  7 8 9
-
-  Time Complexity: O(n2log2n)
-  Space Complexity : Auxiliary Space: O(n2)
- */
-
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -85,3 +65,21 @@ int main()
     
     return 0;
 }
+/*C implementation to sort the given matrix
+
+ Input :
+  Enter Row: 3
+  Enter Column: 3
+  Enter the elements of matrix :
+  7 8 9
+  5 6 4
+  3 1 2
+  Output :
+  Sorted Matrix :
+  1 2 3
+  4 5 6
+  7 8 9
+
+  Time Complexity: O(n2log2n)
+  Space Complexity : Auxiliary Space: O(n2)
+ */

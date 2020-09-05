@@ -1,20 +1,3 @@
-'''
-To find the longest Palindrome Substring in given string
-
-Sample I/O:
-	Input:
-	
-	Enter String: Boon
-	
-	Output:
-	Longest palindrome substring is:
-	oo
-	Length is: 2
-
-Time Complexity: O(n*2)
-Space Complexity: O(1)
-
-'''
 def palindrome(string): 
 	maxLength = 1
 
@@ -56,3 +39,20 @@ def palindrome(string):
 string = input("Enter String: ") 
 print ("Length is: " + str(palindrome(string)))
 
+'''
+To find the longest Palindrome Substring in given string
+
+Sample I/O:
+	Input:
+	
+	Enter String: Boon
+	
+	Output:
+	Longest palindrome substring is:
+	oo
+	Length is: 2
+
+Time Complexity: O(n*2)
+Space Complexity: O(1)
+
+'''

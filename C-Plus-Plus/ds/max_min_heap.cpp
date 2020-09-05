@@ -2,11 +2,12 @@
 using namespace std;
 class heap{
     int n;
-    int arr[1000];
+    int arr[];
     public:
     heap(){
         cout<<"Enter the total no. of elements in a heap u want ?"<<endl;
         cin>>n;
+        arr[n+1];
         memset(arr,0,n+1);       //initialising the value 0 
     }
     void max_heap(){            //max heap function accepting values and calling insert_max to insert element to acc to max heap condition

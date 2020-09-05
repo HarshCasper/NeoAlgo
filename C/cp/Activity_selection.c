@@ -2,6 +2,7 @@
 //Greedy Algorithm approach
 #include <stdio.h>
 #include <conio.h>
+#include <stdlib.h>
 
 //swap function to check and swap values
 void swap(int *x,int *y)

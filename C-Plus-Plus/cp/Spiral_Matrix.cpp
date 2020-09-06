@@ -30,22 +30,15 @@ public:
             return arrLL;
         }
         
-        
-        int i = 0;
-        int j = 0;
-        int k1  =0;
-        int k2 = 0;
-        int itr = 0;
+        int i, j, k1, k2, itr = 0;
         while (j < n || i < m || j > k1 || i > k2){
            
             bool one = false;
             while (j < n ){
-                
                 if (i != itr || i >= m) break;
                 arrLL.push_back(matrix[i][j]);
                 j++;
                 one = true;
-                
             }
         
             i++; j--; n--;
@@ -58,7 +51,7 @@ public:
             
             j--; i--; m--;
             
-             bool bk = false;
+            bool bk = false;
             while ( j>= k1  && b == true){
                 arrLL.push_back(matrix[i][j]);
                 j--;
@@ -86,6 +79,11 @@ public:
 /*
 TEST CASE
 
+TIME COMPLEXITY : 0(N*M) 
+SPACE COMPLEXITY: 0(N+M)
+
+where N is number of rows and M is number of columns
+
 INPUT
 [[ 1, 2, 3 ],
  [ 4, 5, 6 ],
@@ -101,5 +99,4 @@ INPUT
 
 OUTPUT
 [1,2,3,4,8,12,11,10,9,5,6,7]
-
 */

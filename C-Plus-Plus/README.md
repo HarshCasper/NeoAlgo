@@ -90,5 +90,6 @@ _add list here_
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Spiral-Matrix](cp/Spiral_Matrix.cpp)
 
 ## Other

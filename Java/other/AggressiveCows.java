@@ -76,4 +76,6 @@ public class AggressiveCow {
  * 
  * Time complexity: O(N log(N))
  * Space complexity: O(N)
+ * 
+ * Link to the problem: https://www.spoj.com/problems/AGGRCOW/
  */

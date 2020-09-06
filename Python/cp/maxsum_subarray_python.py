@@ -1,3 +1,5 @@
+#time complexity : O(nlogn)
+
 # Returns sum of maxium sum subarray in arr[l..h]
 def maxSumSubArray(arr, low, high) :
     # Base Case

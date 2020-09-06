@@ -24,6 +24,10 @@
 - [Linear Search](search/linear_search.c)
 - [Random Search Monte Carlo version](search/random_search.c)
 
+## Competitive Programming
+
+- [Activity selection](cp/Activity_selection.c)
+
 
 ## Sorting
 

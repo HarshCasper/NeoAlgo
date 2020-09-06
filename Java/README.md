@@ -41,6 +41,7 @@
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)
+* [Optimized Bubble Sort](sort/OptimizedBubbleSort.java)
 * [Quick Sort](sort/QuickSort.java)
 * [Insertion Sort](sort/InsertionSort.java)
 * [Merge Sort](sort/Merge_sort.java)
@@ -98,3 +99,4 @@ _add list here_
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)
 * [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 * [Aggressive Cows](other/AggressiveCows.java)
+* [First non-repeating character in a string](other/FirstNonRepeatingChar.java)

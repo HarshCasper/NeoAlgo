@@ -1,3 +1,4 @@
+
 # Python program for implementation of Shell Sort
 
 
@@ -31,6 +32,7 @@ def shellSort(arr):
 
             arr[j] = temp
         gap //= 2
+
 
 arr = []
 

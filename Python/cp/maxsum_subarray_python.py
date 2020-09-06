@@ -6,7 +6,7 @@ def maxSumSubArray(arr, low, high) :
     if (low == high) :
         return arr[low]
     # Find middle element
-    mid = (low + high) // 2
+    mid = low + ((high - low) / 2)
     # Return maximum of left ,right and mid crossing
     return max(maxSumSubArray(arr, low, mid),
                maxSumSubArray(arr, mid+1, high),

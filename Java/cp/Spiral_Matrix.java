@@ -34,7 +34,11 @@ class SpiralMatrix {
         }
         
         
-        int i, j, k1, k2, itr = 0;
+        int i = 0;
+        int j = 0;
+        int k1 = 0;
+        int k2 = 0;
+        int itr = 0;
         while (j < n || i < m || j > k1 || i > k2){
             boolean one = false;
             while (j < n ){

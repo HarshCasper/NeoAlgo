@@ -92,11 +92,11 @@ _add list here_
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Count The Reversals](cp/Count_The_Reversals.java)
 * [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Aggressive Cows](cp/AggressiveCows.java)
 
 
 
 ## Other
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)
 * [Find first missing positive number](other/FirstMissingPositiveNumber.java)
-* [Aggressive Cows](other/AggressiveCows.java)
 * [First non-repeating character in a string](other/FirstNonRepeatingChar.java)

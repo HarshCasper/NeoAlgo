@@ -1,3 +1,12 @@
+"""
+ A O(n ^ 2) time and O(1) space program to find the  
+ longest palindromic substring 
+  
+ This function prints the longest palindrome substring (LPS) 
+ of str[]. It also returns the length of the longest palindrome 
+
+"""
+
 def palindrome(string): 
 	maxLength = 1
 

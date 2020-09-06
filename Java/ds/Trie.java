@@ -87,7 +87,7 @@ public class Trie {
 	
 		removeHelper(child, start+1, str);
 		
-//		We can remove a node only if it is non terminating and its number of children are zero
+//		We can remove a node only if it is terminating and its number of children are zero
 		if(!child.isTerminating) {
 
 			if(child.childCount==0) {

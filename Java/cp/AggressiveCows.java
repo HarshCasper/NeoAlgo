@@ -27,7 +27,7 @@ public class AggressiveCow {
 
         // using binary search technique to find distances
         while (left <= right) {
-            int mid = (left + right)/2;
+            int mid = left + ((right - left) / 2);
 
             if (checkDist(mid, cows, arr)) {
                 left = mid + 1;

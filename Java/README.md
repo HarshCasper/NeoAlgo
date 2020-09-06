@@ -71,6 +71,7 @@ _add list here_
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Longest Substring without repeating characters](LongestSubstring_without_repeating_characters)
 
 ## Other
 _add list here_

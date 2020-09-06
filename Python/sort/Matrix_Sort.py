@@ -53,5 +53,5 @@ if __name__ == '__main__':
 # 7 8 9
 
 
-# time complexity = O(n^2)
+# time complexity = O(n^2log2(n))
 # space complexity = O(n^2)

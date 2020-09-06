@@ -1,27 +1,34 @@
+# Python program for implementation of Shell Sort
 
 def shellsort(arr):
 
-	#calculate the size of the array
+	# Start with a big gap, then reduce the gap
 	size = len(arr)
-
-	#dividing the array in two parts
 	gap = size//2
+
+	# Do a gapped insertion sort for this gap size. 
 	while gap > 0:
-		for i in range(gap,size):
-			temp = arr[i]
 
-			#shifting the elements
-			j = i
+		for iteration in range(gap,size):
 
-			while j>= gap and arr[j-gap] > temp:
-				arr[j] = arr[j-gap]
-				j -= gap
-				#putting the elements at right place
-			arr[j] = temp
+			# save a[i] in temp
+			temp = arr[iteration]
+
+			#shift earlier gap-sorted elements up until the correct(new)
+			# location for a[i] is found
+			new_loc = iteration
+
+			while new_loc>= gap and arr[new_loc-gap] > temp:
+				arr[new_loc] = arr[new_loc-gap]
+				new_loc -= gap
+
+			# put temp (the original a[i]) in its correct location 
+			arr[new_loc] = temp
 		gap //= 2
 
 #input array
 arr = []
+
 size = int(input("Enter size: "))
 print("Enter elements:")
 for i in range(0,size):

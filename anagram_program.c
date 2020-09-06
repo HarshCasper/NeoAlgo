@@ -1,3 +1,5 @@
+//C program to check if two input strings are anagrams or not
+
 #include <stdio.h>
 #include <string.h>
 void sort_strings(char str[]) //sort the strings

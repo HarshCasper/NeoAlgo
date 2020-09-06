@@ -1,4 +1,14 @@
 def sort_matrix(mat, size):
+    '''
+    Takes input as unsorted matrix.
+    Creates a 1-d list of len size*size and values 0.
+    Sorts this list using python .sort() method.
+    Then assigns these values to the original matrix.
+    Parameters:
+                unsorted matrix mat
+                size of matrix
+    Returns a sorted matrix of dimension size x size
+    '''
     temp_mat = [0]*(size*size)
     count = 0
     for i in range(size):
@@ -16,6 +26,9 @@ def sort_matrix(mat, size):
 
 
 def display_matrix(mat, size):
+    '''
+    Takes input a matrix and its size. Prints the value row wise of the matrix.
+    '''
     for i in range(size):
         for j in range(size):
             print(mat[i][j], end=' ')

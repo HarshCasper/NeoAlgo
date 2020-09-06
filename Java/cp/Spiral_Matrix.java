@@ -2,17 +2,15 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-
 class SpiralMatrix {
     public List<Integer> spiralOrder(int[][] matrix) {
-        //List ans = new ArrayList(); OR
         ArrayList<Integer> arrLL = new ArrayList<>();
         
         //EDGE CASE
         if (matrix.length == 0) return arrLL;
         
-        int m = matrix.length;
-        int n = matrix[0].length;
+        int m = matrix.length;      // Number of rows
+        int n = matrix[0].length;  // Number of columns
         
         if (m == 1 && n == 1) {
             arrLL.add(matrix[0][0]);
@@ -36,21 +34,14 @@ class SpiralMatrix {
         }
         
         
-        int i = 0;
-        int j = 0;
-        int k1  =0;
-        int k2 = 0;
-        int itr = 0;
+        int i, j, k1, k2, itr = 0;
         while (j < n || i < m || j > k1 || i > k2){
-           
             boolean one = false;
             while (j < n ){
-                
                 if (i != itr || i >= m) break;
                 arrLL.add(matrix[i][j]);
                 j++;
                 one = true;
-                
             }
         
             i++; j--; n--;
@@ -63,7 +54,7 @@ class SpiralMatrix {
             
             j--; i--; m--;
             
-             boolean bk = false;
+            boolean bk = false;
             while ( j>= k1  && b == true){
                 arrLL.add(matrix[i][j]);
                 j--;
@@ -71,7 +62,6 @@ class SpiralMatrix {
             }
             
             j++; i--; k1++;
-            
             
             while ( i > k2 && bk == true) {
                 arrLL.add(matrix[i][j]);
@@ -81,14 +71,17 @@ class SpiralMatrix {
             j++; i++; k2++;
             itr ++;
         }
-        
         return arrLL;
-        
     }
 }
 
 /*
 TEST CASE
+
+TIME COMPLEXITY : 0(N*M) 
+SPACE COMPLEXITY: 0(N+M)
+
+where M is number of rows and N is number of columns
 
 INPUT
 [[ 1, 2, 3 ],
@@ -105,5 +98,5 @@ INPUT
 
 OUTPUT
 [1,2,3,4,8,12,11,10,9,5,6,7]
-
 */
+

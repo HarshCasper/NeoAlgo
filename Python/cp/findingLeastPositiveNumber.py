@@ -27,4 +27,6 @@ def findpositive(arr, size):
             j += 1
     return MainFunction(arr[j:], size - j)
 arr = list(map(int, input().split(" ")))
-print("the smallest missing number", findpositive(arr, len(arr)))
+# sample input= [-1, 2, 4,3 , 0]
+print("the smallest missing positive number is", findpositive(arr, len(arr)))
+# output: the smallest missing positive number is 1

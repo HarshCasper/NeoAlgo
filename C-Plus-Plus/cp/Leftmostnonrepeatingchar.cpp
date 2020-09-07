@@ -5,10 +5,7 @@ using namespace std;
 
 int leftmostnonrepeatingchar(string s){
     int res = numeric_limits<int>::max();  //Initialised res to infinity
-    int fi[256];                           //An array to store first indices of string characters(size is 256 because there are 256 ascii characters)
-    for(int i = 0; i < 256; i++){          //Initialising all elements to -1
-        fi[i] = -1;
-    }
+    vector<int> fi(256, -1);               //An array to store first indices of string characters(size is 256 because there are 256 ascii characters
     for(int i = 0; i < s.size(); i++){     //Traversing through string   
         if(fi[s[i]] == -1){                //If this position in array is -1, that means its a non repeating element
             fi[s[i]] = i;

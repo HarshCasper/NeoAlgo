@@ -12,11 +12,13 @@ class SpiralMatrix {
         int m = matrix.length;      // Number of rows
         int n = matrix[0].length;  // Number of columns
         
+        // Number of rows = Number of Columns = 1
         if (m == 1 && n == 1) {
             arrLL.add(matrix[0][0]);
             return arrLL;
         }
         
+        // Number of rows = 1
         if (m == 1) {
             for (int j = 0; j < n; j++){
                 arrLL.add(matrix[0][j]);
@@ -25,6 +27,7 @@ class SpiralMatrix {
             return arrLL;
         }
         
+        // Number of columns = 1
         if (n == 1){
             for (int i = 0; i < m; i++){
                 arrLL.add(matrix[i][0]);

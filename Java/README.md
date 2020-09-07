@@ -41,6 +41,7 @@
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)
+* [Optimized Bubble Sort](sort/OptimizedBubbleSort.java)
 * [Quick Sort](sort/QuickSort.java)
 * [Insertion Sort](sort/InsertionSort.java)
 * [Merge Sort](sort/Merge_sort.java)
@@ -91,6 +92,7 @@ _add list here_
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Count The Reversals](cp/Count_The_Reversals.java)
 * [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Aggressive Cows](cp/AggressiveCows.java)
 
 
 

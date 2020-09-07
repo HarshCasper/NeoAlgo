@@ -13,7 +13,7 @@
 ## Data Structures
 * [Queue](ds/Queue.py)
 * [Stacks](ds/Stacks.py)
-* [Tree (in-order(iterative)](ds/Tree_Iterative_InOrder_Traversal.py)
+* [Tree (in-order(iterative))](ds/Tree_Iterative_InOrder_Traversal.py)
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 * [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
@@ -22,6 +22,8 @@
 * [Circular Linked List](ds/Circular_LinkedList.py)
 * [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
 * [Sparse Matrix ](ds/Sparse_matrix_Operation.py)
+* [Binary Tree (Post order transversal)](ds/Binary_tree_post_order.py)
+* [Linked List Intersection](ds/linkedListIntersection.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -33,6 +35,9 @@
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
+* [Random Select Algorithm](search/random_select.py)
+* [Z Algorithm](search/Z_Algorithm_HakinCode.py)
+
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
@@ -45,6 +50,7 @@
 * [Selection Sort](sort/Selection_Sort.py)
 * [Topological Sort](sort/topological_sort.py)
 * [Intro Sort](sort/IntroSort.py)
+* [Pancake Sort](sort/pancakesorting.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
@@ -53,6 +59,7 @@
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 * [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 * [Dynamic Prims Algorithm](graphs/Prims Algo_dynamic.py)
+* [Dynamic Prims Algorithm](graphs/Prims_Algo_dynamic.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
@@ -74,6 +81,7 @@
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 * [Euler’s Totient Function](math/euler_totient_function.py)
+* [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
 
 ## Competitive Programming
 
@@ -82,6 +90,9 @@
 * [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 * [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 * [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
+* [Anagram Checker](cp/anagram_checker.py)
+* [Target sum triplet](cp/Target_Sum_Triplet.py)
+* [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
 
 ## Dynamic Programming
 _add list here_
@@ -94,6 +105,10 @@ _add list here_
 _add list here_
 
 ## Other
+[Affine cipher](cryptography/AffineCipher.py)
+
+## Other
+
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
@@ -101,5 +116,5 @@ _add list here_
 
 ## miscellaneous
 * [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)
-
+* [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
 

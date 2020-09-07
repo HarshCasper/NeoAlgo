@@ -1,5 +1,8 @@
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 4275f98... Updated README file
 <p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
@@ -143,8 +146,11 @@ _add list here_
 * [Selection Sort](sort/Selection_Sort.py)
 * [Topological Sort](sort/topological_sort.py)
 * [Intro Sort](sort/IntroSort.py)
+<<<<<<< HEAD
 * [Shell Sort](sort/Shell_Sort.py)
 
+=======
+>>>>>>> parent of 4275f98... Updated README file
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
@@ -400,6 +406,7 @@ _add list here_
 
 ## miscellaneous
 * [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)
+<<<<<<< HEAD
 
 
 <p align="center">
@@ -511,3 +518,5 @@ _add list here_
 * [Longest substring without repeating character](other/longest_Substring.py)
 * [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
 
+=======
+>>>>>>> parent of 4275f98... Updated README file

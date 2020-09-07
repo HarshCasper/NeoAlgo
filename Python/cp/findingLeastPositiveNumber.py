@@ -1,6 +1,9 @@
 # finding least positive number
-# Given an array of integers, find the first missing positive integer in linear time and constant space. In other words,
-# find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
+# Given an array of integers, find the first missing positive integer in
+# linear time and constant space.In other words,
+# find the lowest positive integer that does not exist in the array.
+# The array can contain duplicates
+# and negative numbers as well.
 # code contributed by devanshi katyal
 # space complexity:O(1)
 # time complexity:O(n)
@@ -15,8 +18,9 @@ def MainFunction(arr, size):
             return i + 1
     return size + 1
 
+
 def findpositive(arr, size):
-    j= 0
+    j = 0
     for i in range(size):
         if (arr[i] <= 0):
             arr[i], arr[j] = arr[j], arr[i]

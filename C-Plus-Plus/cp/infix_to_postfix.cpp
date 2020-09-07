@@ -173,3 +173,10 @@ int HasHigherPrecedence(char op1, char op2)
 	}
 	return op1Weight > op2Weight ?  true: false;
 }
+
+
+/*
+        Sample input and its output:-
+	Input = a+b*c-(d/e+f*g*h)
+	Output = abc*+de/fg*h*+-
+*/

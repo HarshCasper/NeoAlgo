@@ -1,5 +1,8 @@
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 93b72b94a4327da611ae70715d767ee3bc4657ff
 <p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
@@ -46,6 +49,7 @@
 * [Selection Sort](sort/Selection_Sort.py)
 * [Topological Sort](sort/topological_sort.py)
 * [Intro Sort](sort/IntroSort.py)
+* [Shell Sort](sort/Shell_Sort.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
@@ -143,8 +147,11 @@ _add list here_
 * [Selection Sort](sort/Selection_Sort.py)
 * [Topological Sort](sort/topological_sort.py)
 * [Intro Sort](sort/IntroSort.py)
+<<<<<<< HEAD
 * [Shell Sort](sort/Shell_Sort.py)
 
+=======
+>>>>>>> 93b72b94a4327da611ae70715d767ee3bc4657ff
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)

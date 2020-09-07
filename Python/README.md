@@ -89,7 +89,7 @@
 * [Anagram Checker](cp/anagram_checker.py)
 * [Target sum triplet](cp/Target_Sum_Triplet.py)
 * [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
-* [Finding_Least_positive_number](cp/findingLeastPositiveNumber.py)
+* [Finding Least positive number](cp/findingLeastPositiveNumber.py)
 
 ## Dynamic Programming
 _add list here_

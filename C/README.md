@@ -29,6 +29,7 @@
 - [Merge Sort](sort/MergeSort.c)
 - [OddEven Sort](sort/oddevensort.c)
 - [Selection Sort](sort/selection_sort.c)
+- [Merge Sort in O(1) space complexity](sort/mergesort_in_O(1)_space_complexity.c)
 
 ## Graphs
 

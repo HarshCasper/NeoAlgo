@@ -1,8 +1,12 @@
-/*Flood Fill Algorithm determines the area connected to given node in multidensioanl array
+/*Flood Fill Algorithm determines the area connected to given node in multidensioanl array.
 
-Problem Statement: To fill connected, similarly-colored areas with different color.
-Idea: Start from current source node and replace its color with the replacement color
+Problem Statement:To fill connected, similarly-colored areas with different color.
+
+Idea(DFS): Start from current source node and replace its color with the replacement color
 and recursively explore all valid neighbours and replace their color as well.
+
+Idea(BFS): To apply BFS and process all 8 adjacent pixels of current one and enqueue each 
+valid pixel which has same color as that of previous one.
 
 Input for algorithm: matrix, start node, target color, replacement color.
 
@@ -22,13 +26,32 @@ bool safe(char matrix[M][N],int start_x,int start_y,char target){
 	return(start_x>=0 && start_y>=0 && start_x<M && start_y<N && matrix[start_x][start_y]==target);
 }
 
-void floodFill(char matrix[M][N],int start_x,int start_y,char target,char replacement){
+void floodFillDFS(char matrix[M][N],int start_x,int start_y,char target,char replacement){
+	queue<pair<int,int>> q;
+	q.push({start_x,start_y});
+
+	while(!q.empty()){
+		pair<int,int> node=q.front();
+		q.pop();
+		int x=node.first;
+		int y=node.second;
+		matrix[x][y]=replacement;
+		//Processing all 8 dircetions
+		for(int k=0;k<8;k++){
+			if(safe(matrix,x+row[k],y+col[k],target)){
+				q.push({x+row[k],y+col[k]});
+			}
+		}
+	}
+}
+
+void floodFillBFS(char matrix[M][N],int start_x,int start_y,char target,char replacement){
 	//replacing color of current cell
 	matrix[start_x][start_y]=replacement;
 	//processing all 8 neighbours recursively
 	for(int k=0;k<8;k++){
 		if(safe(matrix,start_x+row[k],start_y+col[k],target)){
-			floodFill(matrix,start_x+row[k],start_y+col[k],target,replacement);
+			floodFillBFS(matrix,start_x+row[k],start_y+col[k],target,replacement);
 		}
 	}	
 }
@@ -51,7 +74,16 @@ int main(){
 	char replacement_color;
 	cin>>replacement_color;
 
-	floodFill(matrix,start_x,start_y,target_color,replacement_color);
+	floodFillDFS(matrix,start_x,start_y,target_color,replacement_color);
+	
+	for(int i=0;i<M;i++){
+		for(int j=0;j<N;j++){
+			cout<<matrix[i][j]<<" ";
+		}
+		cout<<endl;
+	}
+
+	floodFillBFS(matrix,start_x,start_y,target_color,replacement_color);
 
 	for(int i=0;i<M;i++){
 		for(int j=0;j<N;j++){

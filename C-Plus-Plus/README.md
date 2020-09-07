@@ -59,8 +59,7 @@ Stack_using_LinkedList.cpp
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
 - [Kosaraju's Algorithm](graphs/Kosaraju_Algorithm.cpp)
-- [FloodFill Algorithm(BFS)](graphs/FloodFillAlgorithm/FloodFill(usingBFS).cpp)
-- [FloodFill Algorithm(DFS)](graphs/FloodFillAlgorithm/FloodFill(usingDFS).cpp)
+- [FloodFill Algorithm(BFS)](graphs/FloodFill.cpp)
 
 ## Machine Learning
 

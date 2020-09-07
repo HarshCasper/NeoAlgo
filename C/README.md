@@ -68,5 +68,4 @@ _add list here_
 ## Other
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
-- [First Missing Positive Integer](other/first_missing_positive_integer.c)
 - _add list here_

@@ -126,6 +126,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/rutujadhanawade"><img src="https://avatars2.githubusercontent.com/u/53823042?v=4" width="100px;" alt=""/><br /><sub><b>Rutuja Dhanawade</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=rutujadhanawade" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/GrayFlash"><img src="https://avatars1.githubusercontent.com/u/57063469?v=4" width="100px;" alt=""/><br /><sub><b>Gaurav Kumar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=GrayFlash" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/rohangawhade"><img src="https://avatars3.githubusercontent.com/u/49246157?v=4" width="100px;" alt=""/><br /><sub><b>Rohan Gawhade</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=rohangawhade" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/riya-joshi-401"><img src="https://avatars0.githubusercontent.com/u/53979947?v=4" width="100px;" alt=""/><br /><sub><b>RIYA JOSHI</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=riya-joshi-401" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/SayaniG371"><img src="https://avatars0.githubusercontent.com/u/55864408?v=4" width="100px;" alt=""/><br /><sub><b>SayaniG371</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=SayaniG371" title="Code">💻</a></td>
   </tr>
 </table>
 

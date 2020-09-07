@@ -36,6 +36,10 @@
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
 * [Random Select Algorithm](search/random_select.py)
+* [Z Algorithm](search/Z_Algorithm_HakinCode.py)
+
+
+
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
@@ -98,7 +102,7 @@ _add list here_
 
 
 ## Cryptography
-_add list here_
+[Affine cipher](cryptography/AffineCipher.py)
 
 ## Other
 

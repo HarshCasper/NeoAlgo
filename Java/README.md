@@ -24,6 +24,7 @@
 * [Sparse Matrix](ds/SparseMatrix.java)
 * [Matrix Sorting](ds/MatrixSorting.java)
    master
+* [Detect Loop in Linked List](DetectLoopLL.java)   
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)
@@ -40,6 +41,7 @@
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)
+* [Optimized Bubble Sort](sort/OptimizedBubbleSort.java)
 * [Quick Sort](sort/QuickSort.java)
 * [Insertion Sort](sort/InsertionSort.java)
 * [Merge Sort](sort/Merge_sort.java)
@@ -90,9 +92,11 @@ _add list here_
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Count The Reversals](cp/Count_The_Reversals.java)
 * [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Aggressive Cows](cp/AggressiveCows.java)
 
 
 
 ## Other
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)
 * [Find first missing positive number](other/FirstMissingPositiveNumber.java)
+* [First non-repeating character in a string](other/FirstNonRepeatingChar.java)

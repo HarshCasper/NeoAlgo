@@ -438,6 +438,10 @@ _add list here_
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
 * [Random Select Algorithm](search/random_select.py)
+* [Z Algorithm](search/Z_Algorithm_HakinCode.py)
+
+
+
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)

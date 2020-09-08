@@ -2,21 +2,6 @@ import java.util.Scanner;
 
 public class RemoveDuplicateElementWithoutExtraSpace{
 
-    /**
-     * Method 2
-     * Remove duplicate element from sorted array without using any extra space
-     *
-     * Input :
-     * 2
-     * 5
-     * 1, 2, 2, 3, 4, 4, 4, 5, 5
-     * 3
-     * 1 2 2
-     * Output
-     * 1 2 3 4 5 
-     * 1 2
-     */
-
     // Function to remove duplicate elements
     // This function returns new size of modified
     // array.
@@ -62,3 +47,17 @@ public class RemoveDuplicateElementWithoutExtraSpace{
     }
 
 }
+
+/*
+
+Example:
+
+Input: 
+Enter the length of the array : 5
+Enter the values for the array elements : 
+1 1 1 3 4
+
+Output:
+1 3 4
+
+*/

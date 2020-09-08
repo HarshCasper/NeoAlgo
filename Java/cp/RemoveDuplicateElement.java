@@ -1,21 +1,5 @@
 import java.util.Scanner;
 
-/**
- *
- * Remove duplicate elements from sorted Array
- *
- * Example:
- * Input:
- * 2
- * 9
- * 1, 2, 2, 3, 4, 4, 4, 5, 5
- * 3
- * 1 2 2
- * Output
- * 1, 2, 3, 4, 5
- * 1 2
- */
-
 public class RemoveDuplicateElement {
 
     /**
@@ -93,3 +77,17 @@ public class RemoveDuplicateElement {
     }
 
 }
+
+/*
+
+Example : 
+
+Input:
+Enter the length of the array : 4
+Enter the values for the array elements : 
+1 1 2 2
+
+Output:
+1 2
+
+*/

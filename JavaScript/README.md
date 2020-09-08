@@ -12,20 +12,24 @@
 ## Data Structures
 - [Linked List](/ds/LinkedList.js)
 - [Queue](/ds/Queue.js)
+- [Parenthesis Checker](/ds/Parenthesis_Checker.js)
+- [Stack](/ds/Stack.js)
 
 ## Searching
 * [Binary Search](/search/binary_search.js)
 * [Linear Search](/search/linear_search.js)
+* [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
 
 ## Sorting
 - [Bubble Sort](/sort/BubbleSort.js)
 - [Insertion Sort](/sort/insertion_sort.js)
+- [Sleep Sort](/sort/sleepSort.js)
 
 ## Machine Learning
 _add list here_
 
 ## Mathematics
-_add list here_
+[Count Number of Digits in an Integer](/math/CountDigits_Integer.js)
 
 ## Dynamic Programming
 _add list here_

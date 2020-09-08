@@ -14,6 +14,9 @@
 - [Queue](/ds/Queue.js)
 - [AVL Tree](/ds/AVLTree.js)
 - [Stack](ds/Stack.js)
+- [Parenthesis Checker](/ds/Parenthesis_Checker.js)
+- [Stack](/ds/Stack.js)
+
 
 
 ## Searching

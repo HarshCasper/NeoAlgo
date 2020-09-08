@@ -36,6 +36,8 @@
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
 * [Random Select Algorithm](search/random_select.py)
+* [Z Algorithm](search/Z_Algorithm_HakinCode.py)
+
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
@@ -86,6 +88,7 @@
 * [KMP Algorithm](cp/KMP_Algorithm.py)
 * [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 * [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+* [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
 * [Anagram Checker](cp/anagram_checker.py)
 * [Target sum triplet](cp/Target_Sum_Triplet.py)
 * [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
@@ -96,9 +99,9 @@ _add list here_
 ## Blockchain
 _add list here_
 
-
 ## Cryptography
-_add list here_
+
+* [Affine cipher](cryptography/AffineCipher.py)
 
 ## Other
 

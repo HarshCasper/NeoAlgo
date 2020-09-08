@@ -31,7 +31,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/bubble_sort.c)
-- [Bubble Sort](sort/OPtimizBubble_Sort.c)
+- [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Merge Sort](sort/MergeSort.c)
 - [OddEven Sort](sort/oddevensort.c)

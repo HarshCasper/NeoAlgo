@@ -17,7 +17,7 @@
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Interpolation Search](search/Interpolation.c)
-- [Matrix Sorting ](ds/MatrixSorting.c)
+- [Spiral Matrix](ds/Spiral_Matrix.c)
 
 ## Searching
 
@@ -33,7 +33,6 @@
 - [Merge Sort](sort/MergeSort.c)
 - [OddEven Sort](sort/oddevensort.c)
 - [Selection Sort](sort/selection_sort.c)
-- [Matrix Sort](sort/MatrixSorting.c)
 - [Matrix Sorting](sort/MatrixSorting.c)
 
 ## Graphs
@@ -68,5 +67,4 @@ _add list here_
 
 ## Other
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
-_add list here_
 

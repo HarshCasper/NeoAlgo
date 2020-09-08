@@ -10,8 +10,8 @@ bool mirr_inv(int arr[], int n)
 	{
 		if (arr[arr[i]] != i)
 			return false;
-        else
-            return true;
+        	else
+            		return true;
 	}
 	return true;
 }

@@ -38,17 +38,25 @@ class ParenthesisChecker
     {
         Scanner sc = new Scanner(System.in);
         int t= sc.nextInt();
-        
-        while(t-->0)
-        {
-            String str = sc.next();
-            if(isparenthesis(str) == true){
-                System.out.println("yes");
-            }
-            else{
-                System.out.println("no");
-            }
-        
+
+        String str = sc.next();
+        if(isparenthesis(str) == true){
+            System.out.println("yes");
         }
+        else{
+            System.out.println("no");
+        }
+        
+        
     }
 }
+/*
+Input: “[()]{}{[()()]()}”
+Output: yes
+
+Input: “[(])”
+Output: no
+
+Time Complexity: O(n)
+Auxiliary Space: O(n) (stack)
+*/

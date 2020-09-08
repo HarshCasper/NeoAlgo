@@ -17,7 +17,7 @@ public class DoubleFactorial {
     private static int iterDoubleFactorial(int num) {
         int result = 1;
         // using iterations
-        for (int i = num; i >= 0; i = i-2) {
+        for (int i = num; i >= 0; i = i - 2) {
 
             if (i == 0 || i == 1) {
                 return result;
@@ -41,19 +41,19 @@ public class DoubleFactorial {
         sc.close();
 
         int result;
-        switch(ch) {
-            case 1:
-                result = recursiveDoubleFactorial(num);
-                System.out.println("Double factorial:" + result);
-                break;
+        switch (ch) {
+        case 1:
+            result = recursiveDoubleFactorial(num);
+            System.out.println("Double factorial:" + result);
+            break;
 
-            case 2:
-                result = iterDoubleFactorial(num);
-                System.out.println("Double factorial:" + result);
-                break;
+        case 2:
+            result = iterDoubleFactorial(num);
+            System.out.println("Double factorial:" + result);
+            break;
 
-            default:
-                System.out.println("Invalid choice.");
+        default:
+            System.out.println("Invalid choice.");
         }
     }
 }

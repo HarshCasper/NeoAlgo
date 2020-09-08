@@ -81,6 +81,7 @@
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 * [Euler’s Totient Function](math/euler_totient_function.py)
 * [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
+* [Double Factorial](math/double_factorial.py)
 
 ## Competitive Programming
 

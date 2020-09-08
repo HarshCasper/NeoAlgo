@@ -99,12 +99,9 @@ _add list here_
 ## Blockchain
 _add list here_
 
-
 ## Cryptography
-_add list here_
 
-## Other
-[Affine cipher](cryptography/AffineCipher.py)
+* [Affine cipher](cryptography/AffineCipher.py)
 
 ## Other
 
@@ -112,7 +109,4 @@ _add list here_
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
 * [Longest substring without repeating character](other/longest_Substring.py)
-
-## miscellaneous
 * [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
-

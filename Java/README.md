@@ -11,6 +11,7 @@
 
 ## Data Structures
 * [Binary Tree](ds/Binary_Tree.java)
+* [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 * [Linked List](ds/linkedList.java )
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Queue](ds/Queuell.java)
@@ -23,6 +24,7 @@
 * [Sparse Matrix](ds/SparseMatrix.java)
 * [Matrix Sorting](ds/MatrixSorting.java)
    master
+* [Detect Loop in Linked List](DetectLoopLL.java)   
 
 ## Algorithms
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)
@@ -39,6 +41,7 @@
 
 ## Sorting
 * [Bubble Sort](sort/BubbleSort.java)
+* [Optimized Bubble Sort](sort/OptimizedBubbleSort.java)
 * [Quick Sort](sort/QuickSort.java)
 * [Insertion Sort](sort/InsertionSort.java)
 * [Merge Sort](sort/Merge_sort.java)
@@ -86,7 +89,14 @@ _add list here_
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
-* [Parenthesis Checker](cp/parenthesischecker.java)
+* [Parenthesis Checker](cp/parenthesis_checker.java)
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Count The Reversals](cp/Count_The_Reversals.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Aggressive Cows](cp/AggressiveCows.java)
+
 
 ## Other
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)
+* [Find first missing positive number](other/FirstMissingPositiveNumber.java)
+* [First non-repeating character in a string](other/FirstNonRepeatingChar.java)

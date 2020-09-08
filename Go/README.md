@@ -28,7 +28,10 @@
 _add list here_
 
 ## Mathematics
-_add list here_
+* [Karatsuba Multiplication](./math/karatsuba_multiplication.go)
+
+## Competitive Programming
+* [Target Sum Triplets](./cp/target_sum_triplets.go)
 
 ## Dynamic Programming
 _add list here_

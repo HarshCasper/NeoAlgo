@@ -12,7 +12,8 @@
 ## Data Structures
 - [Linked List](/ds/LinkedList.js)
 - [Queue](/ds/Queue.js)
-- [Stack](ds/Stack.js)
+- [Parenthesis Checker](/ds/Parenthesis_Checker.js)
+- [Stack](/ds/Stack.js)
 
 ## Searching
 * [Binary Search](/search/binary_search.js)

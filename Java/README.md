@@ -109,8 +109,5 @@ _add list here_
 
 * [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 * [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
-<<<<<<< HEAD
 * [Double Factorial](other/DoubleFactorial.java)
-=======
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)
->>>>>>> 6cc344bc3da53023585eefca4393ae8eb48284db

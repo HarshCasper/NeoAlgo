@@ -1,4 +1,3 @@
-
 <p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
@@ -19,8 +18,6 @@
 - [Interpolation Search](search/Interpolation.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 
-
-
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
@@ -28,8 +25,8 @@
 - [Random Search Monte Carlo version](search/random_search.c)
 
 ## CP
-- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 
+- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 
 ## Sorting
 
@@ -54,6 +51,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
+
 ## Dynamic Programming
 
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
@@ -70,8 +68,9 @@ _add list here_
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 
 ## Other
+
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
-_add list here_
+  _add list here_
 
 <p align="center">
     <img src="../img/neo_algo.png"><br>
@@ -102,7 +101,7 @@ _add list here_
 ## Competitive Programming
 
 - [Activity selection](cp/Activity_selection.c)
-
+- [Anagram Program](cp/anagram_program.c)
 
 ## Sorting
 
@@ -127,6 +126,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
+
 ## Dynamic Programming
 
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
@@ -142,7 +142,7 @@ _add list here_
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 
 ## Other
+
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - _add list here_
-

@@ -1,3 +1,9 @@
+/**
+ * In mathematics, the double factorial or semi-factorial
+ * of a number n (denoted by n!!) is the product of all
+ * the integers from 1 up to n that have the same parity
+ * (odd or even) as n.
+ */
 import java.util.*;
 
 public class DoubleFactorial {

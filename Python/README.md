@@ -58,7 +58,6 @@
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 * [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
-* [Dynamic Prims Algorithm](graphs/Prims Algo_dynamic.py)
 * [Dynamic Prims Algorithm](graphs/Prims_Algo_dynamic.py)
 
 ## Machine Learning
@@ -115,6 +114,5 @@ _add list here_
 * [Longest substring without repeating character](other/longest_Substring.py)
 
 ## miscellaneous
-* [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)
 * [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
 

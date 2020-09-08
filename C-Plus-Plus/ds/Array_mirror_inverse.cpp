@@ -4,7 +4,7 @@ using namespace std;
 
 // Function that returns true if
 // the array is mirror-inverse
-bool mirr_inv(int arr[], int n)
+bool mirror_inverse(int arr[], int n)
 {
 	for (int i = 0; i < n; i++)
 	{
@@ -24,17 +24,13 @@ int main()
 		int arr[n];
 		int k;
 		for(int j=0;j<n;j++)
-        {
+                {
 
-        cout<<"enter elements "<< j <<" of array";
-            cin>>k;
-            arr[j]=k;
-        }
-		//int arr[] = { 4, 3,2, 1, 0 };
-
-		//this->m=n;
-		//int n = sizeof(arr)/sizeof(arr[0]);
-		if (mirr_inv(arr,n))
+                     cout<<"enter elements "<< j <<" of array";
+                     cin>>k;
+                     arr[j]=k;
+                }
+		if (mirror_inverse(arr,n))
 			cout << "My Array is Mirror inverse";
 		else
 			cout << "My Array is not Mirror inverse";

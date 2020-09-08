@@ -4,6 +4,10 @@ class MergeSortedArrays
 {
 	private static void merge(int arr1[], int arr2[])
 	{
+        if (arr1 == null || arr2 == null) {
+            return;
+        }
+
 		// Iterate through all elements of arr2[] in reverse 
 		for (int i = (arr2.length - 1); i >= 0; i--)
 		{

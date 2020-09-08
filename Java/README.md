@@ -30,6 +30,7 @@ _add list here_
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Target Sum Triplets](cp/target_sum_triplets.java)
+* [String to Int(atoi)](cp/String_to_int(atoi).java)
 
 ## Cryptography
 

@@ -1,3 +1,10 @@
+//This code is submitted to NeoAlgo as a part of Contributors hack 2020
+
+//Finding the longest substring without repeating characters having linear time Complexity O(n) and constant Space Complexity O(1)
+
+//Sample Input-output
+
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>

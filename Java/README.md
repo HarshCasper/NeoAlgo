@@ -77,6 +77,7 @@ _add list here_
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 * [Sieve of Atkin](math/sieveOfAtkin.java)
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+* [Double Factorial](math/DoubleFactorial.java)
 
 ## Searching
 
@@ -109,5 +110,4 @@ _add list here_
 
 * [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 * [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
-* [Double Factorial](other/DoubleFactorial.java)
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)

@@ -13,19 +13,19 @@
 _add list here_
 
 ## Searching
-* [Binary Search](/search/BinarySearch.cs)
-* [Linear Search](/search/LinearSearch.cs)
+- [Binary Search](search/BinarySearch.cs)
+- [Linear Search](search/LinearSearch.cs)
 
 ## Sorting
-* [Bubble Sort](/sort/BubbleSort.cs)
-* [Insertion Sort](/sort/InsertionSort.cs)
-* [Quick Sort](/sort/QuickSort.cs)
+- [Bubble Sort](sort/BubbleSort.cs)
+- [Insertion Sort](sort/InsertionSort.cs)
+- [Quick Sort](sort/QuickSort.cs)
 
 ## Machine Learning
 _add list here_
 
 ## Mathematics
-_add list here_
+* [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)
 
 ## Dynamic Programming
 _add list here_
@@ -37,4 +37,4 @@ _add list here_
 _add list here_
 
 ## Other
-_add list here_
+- [Longest substring without repeating characters](cp/LengthOfLongestSubstring.cs)

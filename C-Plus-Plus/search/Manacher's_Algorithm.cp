@@ -25,7 +25,11 @@ int main() {
         }
     }
     for(int i=0, l=0, r=-1; i<n; ++i){
-        int k=(i>r)?0:min(d2[l+r-i+1],r-i+1);
+        int k;
+        if(i>r)
+            k=0;
+        else
+            k=min(d2[l+r-i+1],r-i+1);
         while(0<=i-k-1&&i+k<n&&str[i-k-1]==str[i+k]){
             k++;
         }

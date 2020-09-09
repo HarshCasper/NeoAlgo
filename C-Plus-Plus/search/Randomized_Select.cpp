@@ -68,3 +68,11 @@ int main()
     cout << randomizedSelect(A, 0, n - 1, i) << endl;
     return 0;
 }
+
+//SAMPLE INPUT/OUTPUT
+// INPUT--------------------------
+// 7
+// 5 9 4 12 7 1 10
+// 3
+// OUTPUT-------------------------
+// 5

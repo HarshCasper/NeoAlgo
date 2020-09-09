@@ -23,6 +23,7 @@ Stack_using_LinkedList.cpp
 - [Stack Using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Updated Reverse Linked List](ds/Reverse_linked_list.cpp)
+- [Trie](ds/Trie_implementation.cpp)
 
 ## Searching
 
@@ -127,6 +128,7 @@ _add list here_
 - [Updated Reverse Linked List](ds/Reverse_linked_list.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
 - [Stack_using_LinkedList](ds/Stack_using_LinkedList.cpp)
+- [Max and Min heap Implementation](ds/max_min_heap.cpp)
 
 ## Searching
 
@@ -202,6 +204,7 @@ _add list here_
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
+- [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Target sum triplets](cp/target_sum_triplets.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)

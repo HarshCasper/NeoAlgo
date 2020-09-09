@@ -83,4 +83,4 @@ _add list here_
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
-* [Remove outermost paranthesis] (other/remove_outermost_parenthesis.py)
+* [Remove outermost paranthesis](other/remove_outermost_parenthesis.py)

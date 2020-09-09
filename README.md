@@ -13,7 +13,7 @@ In case you have any questions, feel free to tag one of the repo admins in your 
 
 Our content is divided by programming language. Please create an issue if you wish to add code in a language that we don't currently have here. **Do not create folders in your submissions, unless specifically told to do so.**
 
-Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCoding/NeoAlgo/wiki) section. Please let us know if you'd like to contribute to an article.
+Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCoding/NeoAlgo/wiki) section. Please let us know if you'd like to contribute with an article.
 
 - [C](/C/README.md)
 - [C-Plus-Plus](/C-Plus-Plus/README.md)
@@ -40,14 +40,12 @@ Make sure your code works before submitting it :D
 
 **PLEASE READ THIS**
 
+LINK TO THE CODE - https://github.com/salonishah01/NeoAlgo/blob/problem2/Python/other/left_nonRepeating_char.py
+
 - Your files should be uploaded directly into the corresponding folder (e.g. if you wrote code for a Data Structure in Python, it goes inside the DS folder within the Python folder and so on)
 - Edit the corresponding _README.md_ file to **add the link to your code in the corresponding section** ([GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/))
 - **Under no circumstances create new folders within the language folders to upload your code unless specifically told to do so**.
 - Also, be polite with the reviewers - they will be ALWAYS polite to you.
-
-## Our Contributors
-
-[CONTRIBUTORS.md](https://github.com/TesseractCoding/NeoAlgo/blob/master/CONTRIBUTORS.md)
 
 ## Code of Conduct
 
@@ -56,3 +54,86 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 ## License
 
 This project follows the [MIT License](/LICENSE).
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://tesseractcoding.github.io/"><img src="https://avatars1.githubusercontent.com/u/42010556?v=4" width="100px;" alt=""/><br /><sub><b>Syed Farhan Ahmad</b></sub></a><br /><a href="#content-born-2learn" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=born-2learn" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://harshbardhanmishra.me"><img src="https://avatars1.githubusercontent.com/u/47351025?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Bardhan Mishra</b></sub></a><br /><a href="#content-HarshCasper" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshCasper" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.iamprins.com"><img src="https://avatars2.githubusercontent.com/u/54654484?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo Prins</b></sub></a><br /><a href="#content-ricardoprins" title="Content">🖋</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ricardoprins" title="Documentation">📖</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ricardoprins" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/swarajpure"><img src="https://avatars3.githubusercontent.com/u/56217868?v=4" width="100px;" alt=""/><br /><sub><b>Swaraj Rajpure</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=swarajpure" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ashwanisng"><img src="https://avatars0.githubusercontent.com/u/44340485?v=4" width="100px;" alt=""/><br /><sub><b>Ashwani Singh</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ashwanisng" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/AmanPriyanshu3"><img src="https://avatars2.githubusercontent.com/u/61093885?v=4" width="100px;" alt=""/><br /><sub><b>Aman Priyanshu</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=AmanPriyanshu" title="Code">💻</a></td>
+    <td align="center"><a href="http://lucasamonrc.dev"><img src="https://avatars3.githubusercontent.com/u/53352488?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Castro</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=lucasamonrc" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/keshav304"><img src="https://avatars0.githubusercontent.com/u/54927712?v=4" width="100px;" alt=""/><br /><sub><b>keshav jha</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=keshav304" title="Code">💻</a></td>
+    <td align="center"><a href="https://davidepollicino.com/"><img src="https://avatars0.githubusercontent.com/u/23085146?v=4" width="100px;" alt=""/><br /><sub><b>Davide Pollicino</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=omonimus1" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kauravankit25"><img src="https://avatars1.githubusercontent.com/u/53783410?v=4" width="100px;" alt=""/><br /><sub><b>Ankit Kaurav</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=kauravankit25" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/asaxena012"><img src="https://avatars2.githubusercontent.com/u/60032144?v=4" width="100px;" alt=""/><br /><sub><b>Aditya Saxena</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=asaxena012" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/RaviAnand111"><img src="https://avatars2.githubusercontent.com/u/59113935?v=4" width="100px;" alt=""/><br /><sub><b>Ravi Anand</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=RaviAnand111" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/srilekhav"><img src="https://avatars3.githubusercontent.com/u/22850696?v=4" width="100px;" alt=""/><br /><sub><b>Srilekha Vinjamara</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=SRILEKHA-V19" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/anush-krishna-8270941a0/"><img src="https://avatars3.githubusercontent.com/u/54374648?v=4" width="100px;" alt=""/><br /><sub><b>A N U S H</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=anushkrishnav" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=anushkrishnav" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://equinox-13.github.io/"><img src="https://avatars0.githubusercontent.com/u/36486238?v=4" width="100px;" alt=""/><br /><sub><b>Quaid Johar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Equinox-13" title="Code">💻</a> <a href="#example-Equinox-13" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/maaz-bin-asad"><img src="https://avatars0.githubusercontent.com/u/60134184?v=4" width="100px;" alt=""/><br /><sub><b>Maaz Bin Asad</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=maaz-bin-asad" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/aditya-n-02a0a8192"><img src="https://avatars0.githubusercontent.com/u/42292430?v=4" width="100px;" alt=""/><br /><sub><b>Adityanagraj</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Adityanagraj" title="Code">💻</a></td>
+    <td align="center"><a href="https://utkarshchaurasia.netlify.com/"><img src="https://avatars1.githubusercontent.com/u/47274683?v=4" width="100px;" alt=""/><br /><sub><b>Utkarsh Chaurasia</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=UtkarshChaurasia" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/MSufiyanAG"><img src="https://avatars0.githubusercontent.com/u/63553397?v=4" width="100px;" alt=""/><br /><sub><b>MSufiyanAG</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=MSufiyanAG" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=MSufiyanAG" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://kutt.it/4pX3NA"><img src="https://avatars2.githubusercontent.com/u/26149500?v=4" width="100px;" alt=""/><br /><sub><b>Haikel Fazzani</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=haikelfazzani" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ashutosh-tiwari-bb8119171"><img src="https://avatars0.githubusercontent.com/u/43310463?v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh Tiwari</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=AshTiwari" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://myexpindark.me/"><img src="https://avatars0.githubusercontent.com/u/50295688?v=4" width="100px;" alt=""/><br /><sub><b>Debojyoti Chakraborty</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=sparkingdark" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Surajv311"><img src="https://avatars0.githubusercontent.com/u/59371846?v=4" width="100px;" alt=""/><br /><sub><b>Suraj_v</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Surajv311" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/GudlaArunKumar"><img src="https://avatars1.githubusercontent.com/u/58899747?v=4" width="100px;" alt=""/><br /><sub><b>Arun Kumar G</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=GudlaArunKumar" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/hamdi-chahdi-452531104/"><img src="https://avatars3.githubusercontent.com/u/34605324?v=4" width="100px;" alt=""/><br /><sub><b>Hamdi Chahdi</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=hamdiChehdi" title="Code">💻</a></td>
+    <td align="center"><a href="http://atarax665.github.io"><img src="https://avatars1.githubusercontent.com/u/29673671?v=4" width="100px;" alt=""/><br /><sub><b>Abhinav Anand</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=atarax665" title="Code">💻</a></td>
+    <td align="center"><a href="https://aniketsingh98571.github.io/Web-Developer/"><img src="https://avatars3.githubusercontent.com/u/63097956?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Singh</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=aniketsingh98571" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/settings/profile"><img src="https://avatars0.githubusercontent.com/u/46563834?v=4" width="100px;" alt=""/><br /><sub><b>Shubham Rattra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ShubhamRattra" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ShubhamRattra" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Himanshu70565"><img src="https://avatars1.githubusercontent.com/u/47275183?v=4" width="100px;" alt=""/><br /><sub><b>Himanshu Judge</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Himanshu70565" title="Code">💻</a></td>
+    <td align="center"><a href="http://linkedin.com/in/vijayagb/"><img src="https://avatars0.githubusercontent.com/u/25801504?v=4" width="100px;" alt=""/><br /><sub><b>Vijaya Gajanan Buddhavarapu</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=VijayaGB98" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=VijayaGB98" title="Documentation">📖</a> <a href="#ideas-VijayaGB98" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://jivthesh.github.io"><img src="https://avatars3.githubusercontent.com/u/20579980?v=4" width="100px;" alt=""/><br /><sub><b>Jivthesh M</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=jivthesh" title="Code">💻</a></td>
+    <td align="center"><a href="https://harshitdawar55.github.io"><img src="https://avatars2.githubusercontent.com/u/31154755?v=4" width="100px;" alt=""/><br /><sub><b>Harshit Dawar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshitDawar55" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=HarshitDawar55" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://linkedin.com/in/deepak-k-31a414172"><img src="https://avatars1.githubusercontent.com/u/41117353?v=4" width="100px;" alt=""/><br /><sub><b>deepakkapse</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=deepakkapse" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/TanyaAggrawal"><img src="https://avatars1.githubusercontent.com/u/56471903?v=4" width="100px;" alt=""/><br /><sub><b>Tanya Aggarwal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=TanyaAggrawal" title="Code">💻</a> <a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=TanyaAggrawal" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/gaushikmr"><img src="https://avatars3.githubusercontent.com/u/59677936?v=4" width="100px;" alt=""/><br /><sub><b>Gaushik M.R</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=gaushikmr" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/sowmiyanarayanan-g/"><img src="https://avatars2.githubusercontent.com/u/37922208?v=4" width="100px;" alt=""/><br /><sub><b>SowmiyaNarayanan G</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=GSNCodes" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/harsh-9in"><img src="https://avatars3.githubusercontent.com/u/54139847?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Kumar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=harsh-9in" title="Code">💻</a></td>
+    <td align="center"><a href="https://pythonista7.github.io/"><img src="https://avatars0.githubusercontent.com/u/36104244?v=4" width="100px;" alt=""/><br /><sub><b>Ash</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Pythonista7" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kulsoomzahra"><img src="https://avatars0.githubusercontent.com/u/46336830?v=4" width="100px;" alt=""/><br /><sub><b>kulsoomzahra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=kulsoomzahra" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/rohitkumar-rk/"><img src="https://avatars3.githubusercontent.com/u/30660914?v=4" width="100px;" alt=""/><br /><sub><b>Rohit Kumar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=rohitkumar-rk" title="Code">💻</a></td>
+    <td align="center"><a href="http://iamrajiv.github.io"><img src="https://avatars0.githubusercontent.com/u/42106787?v=4" width="100px;" alt=""/><br /><sub><b>Rajiv Ranjan Singh</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=iamrajiv" title="Code">💻</a></td>
+    <td align="center"><a href="https://about.me/omkarlanghe"><img src="https://avatars1.githubusercontent.com/u/22795064?v=4" width="100px;" alt=""/><br /><sub><b>Omkar Langhe</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=omkarlanghe" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/parjanyaacoder"><img src="https://avatars3.githubusercontent.com/u/46294122?v=4" width="100px;" alt=""/><br /><sub><b>Parjanya Aditya Shukla</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=parjanyaacoder" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/vanshika-garg-9297a3188/"><img src="https://avatars3.githubusercontent.com/u/51471702?v=4" width="100px;" alt=""/><br /><sub><b>Vanshika Garg</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Vanshikagarg17" title="Code">💻</a> <a href="#content-Vanshikagarg17" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/farazkhanfk7/"><img src="https://avatars2.githubusercontent.com/u/47111858?v=4" width="100px;" alt=""/><br /><sub><b>Faraz Khan</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=farazkhanfk7" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/poojarathore30"><img src="https://avatars1.githubusercontent.com/u/53404072?v=4" width="100px;" alt=""/><br /><sub><b>Pooja Rathore</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=poojarathore30" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Vrindagupta6828"><img src="https://avatars0.githubusercontent.com/u/50476758?v=4" width="100px;" alt=""/><br /><sub><b>Vrinda Gupta</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Vrindagupta6828" title="Code">💻</a></td>
+    <td align="center"><a href="https://shobhittiwari.netlify.com/"><img src="https://avatars3.githubusercontent.com/u/46121289?v=4" width="100px;" alt=""/><br /><sub><b>SHOBHIT TIWARI</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=shobhu98" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/YashThakare"><img src="https://avatars1.githubusercontent.com/u/38381061?v=4" width="100px;" alt=""/><br /><sub><b>YashThakare</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=YashThakare" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/rayvant-sahni/"><img src="https://avatars3.githubusercontent.com/u/38404580?v=4" width="100px;" alt=""/><br /><sub><b>Rayvant Sahni</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=rayvantsahni" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST: END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!

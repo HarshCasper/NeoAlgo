@@ -14,6 +14,7 @@
 * [Parenthesis Checker](/ds/Parenthesis_Checker.js)
 * [Queue](/ds/Queue.js)
 * [Stack](/ds/Stack.js)
+* [Trie](/ds/Trie.js)
 
 ## Searching
 * [Binary Search](/search/binary_search.js)

@@ -1,6 +1,3 @@
-
-
-
 <p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
@@ -11,7 +8,6 @@
 </p>
 
 # Codes in the C++ language
-
 
 ## Data Structures
 
@@ -34,14 +30,12 @@
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Updated Reverse Linked List](ds/Reverse_linked_list.cpp)
 
-
 ## Searching
 
 - [Binary Search](search/Binary_Search.cpp)
 - [Interpolation Search](search/Interpolation_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
-
 
 ## Sorting
 
@@ -56,7 +50,6 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 
-
 ## Graphs
 
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
@@ -67,7 +60,6 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
-
 
 ## Machine Learning
 
@@ -80,7 +72,6 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
-
 
 ## Dynamic Programming
 
@@ -108,7 +99,7 @@ _add list here_
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
-- [Intersection Point of Y shaped LinkedList](cp/Intersection Point of Y shaped LinkedList.cpp)
+- [Intersection Point of Y shaped LinkedList](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Infix to Postfix](C-Plus-Plus/cp/infix_to_postfix.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)

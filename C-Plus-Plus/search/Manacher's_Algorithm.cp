@@ -1,5 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+Manacher's Algorithm is used to the find all the pairs (i,j) such that substring s[i…j] is a palindrome.
+*/
 
 int main() {
     string str;
@@ -55,6 +58,9 @@ int main() {
 }
 
 /*
+Time Complexity: O(N)
+Space Complexity: O(N)
+
 INPUT
 abcba
 

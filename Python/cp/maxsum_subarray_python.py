@@ -32,7 +32,7 @@ def maxSumCrossing(arr, low, mid, high) :
 # Driver Code
 # creating an empty list
 listt = []
-# number of elemetns as input
+# number of elements as input
 n = int(input("Enter number of elements in arr : "))
 # iterating till the range
 for i in range(0, n):

@@ -10,35 +10,44 @@
 # Codes in the C# language
 
 ## Blockchain
-   _add list here_
+
+_add list here_
 
 ## Competitive Programing
-* [Longest substring without repeating characters](cp/LengthOfLongestSubstring.cs)
+
+- [Longest substring without repeating characters](cp/LengthOfLongestSubstring.cs)
 
 ## Cryptography
+
 _add list here_
 
 ## Data Structures
+
 _add list here_
 
 ## Dynamic Programming
+
 _add list here_
 
 ## Searching
-* [Binary Search](search/BinarySearch.cs)
-* [Linear Search](search/LinearSearch.cs)
+
+- [Binary Search](search/BinarySearch.cs)
+- [Linear Search](search/LinearSearch.cs)
 
 ## Sorting
-* [Bubble Sort](sort/BubbleSort.cs)
-* [Insertion Sort](sort/InsertionSort.cs)
-* [Quick Sort](sort/QuickSort.cs)
+
+- [Bubble Sort](sort/BubbleSort.cs)
+- [Insertion Sort](sort/InsertionSort.cs)
+- [Quick Sort](sort/QuickSort.cs)
 
 ## Machine Learning
+
 _add list here_
 
 ## Mathematics
-* [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)
+
+- [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)
 
 ## Other
-_add list here_
 
+_add list here_

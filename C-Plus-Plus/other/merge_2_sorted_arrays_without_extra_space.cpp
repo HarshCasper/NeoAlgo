@@ -17,16 +17,19 @@ int main() {
 
     cin >> arr2[i];
   }
-
+  
+  // iterating through first array from the end and the second array from start.
   for (int i = m - 1, j = 0; i >= 0 && j < n; i--, j++) {
     int temp;
+    // swap if number in 1st array is greater than 2nd array.
     if (arr1[i] > arr2[j]) {
       temp = arr1[i];
       arr1[i] = arr2[j];
       arr2[j] = temp;
     }
   }
-
+  
+  //sorting both the arrays to get final result.
   sort(arr1, arr1 + m);
   sort(arr2, arr2 + n);
   cout << "answer: ";

@@ -89,6 +89,15 @@ _add list here_
 
 ## Sorting
 
+## Competitive programming
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Count The Reversals](cp/Count_The_Reversals.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Aggressive Cows](cp/AggressiveCows.java)
+* [Spiral Matrix](cp/Spiral_Matrix.java)
 * [BeadSort](sort/BeadSort.java)
 * [Bubble Sort](sort/BubbleSort.java)
 * [Bucket Sort](sort/BucketSort.java)

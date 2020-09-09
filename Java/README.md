@@ -118,4 +118,5 @@ _add list here_
 
 * [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 * [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
+* [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)

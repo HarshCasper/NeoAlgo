@@ -6,24 +6,21 @@ public:
     }
     
     int maxArea(vector<int>& height) {
-        
-        int max  = 0;
+        int max = 0;
         int i = 0;    // left pointer
         int j = height.size() - 1;    // right pointer
         
         while (i < j){
-            int curr = calc(i,j, height[i], height[j]);
+            int curr = calculate(i,j, height[i], height[j]);
             if (curr > max) max = curr;
             if (height[i] < height[j]) i++;     
             else j--;
         }
         return max;  // Returning maxarea
-    
     }
 };
 
 /*
-
 TIME COMPLEXITY
 2 POINTER APPROACH USED
 O(N) where n is the size of the array

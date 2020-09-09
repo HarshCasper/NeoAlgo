@@ -23,9 +23,7 @@ int main() {
     int temp;
     // swap if number in 1st array is greater than 2nd array.
     if (arr1[i] > arr2[j]) {
-      temp = arr1[i];
-      arr1[i] = arr2[j];
-      arr2[j] = temp;
+      swap(arr1[i] , arr2[j]); 
     }
   }
   

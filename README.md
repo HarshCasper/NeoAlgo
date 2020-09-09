@@ -40,7 +40,7 @@ Make sure your code works before submitting it :D
 
 **PLEASE READ THIS**
 
-LINK TO THE CODE - https://github.com/salonishah01/NeoAlgo/blob/outermost-paranthesis/Python/other/remove_outermost_parenthesis.py
+LINK TO THE CODE - Python/other/remove_outermost_parenthesis.py
 
 - Your files should be uploaded directly into the corresponding folder (e.g. if you wrote code for a Data Structure in Python, it goes inside the DS folder within the Python folder and so on)
 - Edit the corresponding _README.md_ file to **add the link to your code in the corresponding section** ([GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/))

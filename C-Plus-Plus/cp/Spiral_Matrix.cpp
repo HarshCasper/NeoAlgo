@@ -1,4 +1,4 @@
-class Solution {
+class Spiral_Matrix {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         vector<int> arrLL;
@@ -6,62 +6,57 @@ public:
         //EDGE CASE
         if (matrix.size()  == 0) return arrLL;
         
-        int m = matrix.size() ;
-        int n = matrix[0].size() ;
+        int rows = matrix.size() ;
+        int columns = matrix[0].size() ;
         
-        if (m == 1 && n == 1) {
+        if (rows == 1 && columns == 1) {
             arrLL.push_back(matrix[0][0]);
             return arrLL;
         }
         
-        if (m == 1) {
-            for (int j = 0; j < n; j++){
-                arrLL.push_back(matrix[0][j]);
-                
+        if (rows == 1) {
+            for (int j = 0; j < columns; j++){
+                arrLL.push_back(matrix[0][j]);  
             }
             return arrLL;
         }
         
-        if (n == 1){
-            for (int i = 0; i < m; i++){
-                arrLL.push_back(matrix[i][0]);
-                
+        if (columns == 1){
+            for (int i = 0; i < rows; i++){
+                arrLL.push_back(matrix[i][0]);  
             }
             return arrLL;
         }
         
         int i, j, k1, k2, itr = 0;
-        while (j < n || i < m || j > k1 || i > k2){
+        while (j < columns || i < rows || j > k1 || i > k2){
            
-            bool one = false;
-            while (j < n ){
-                if (i != itr || i >= m) break;
+            bool cond1 = false;
+            while (j < columns ){
+                if (i != itr || i >= rows) break;
                 arrLL.push_back(matrix[i][j]);
                 j++;
-                one = true;
+                cond1 = true;
             }
         
             i++; j--; n--;
-            bool b = false;
-            while (i < m && one == true){
+            bool cond2 = false;
+            while (i < rows && cond1 == true){
                 arrLL.push_back(matrix[i][j]);
-                b = true;
+                cond2 = true;
                 i++;
             }
             
             j--; i--; m--;
-            
-            bool bk = false;
-            while ( j>= k1  && b == true){
+            bool cond3 = false;
+            while ( j>= k1  && cond2 == true){
                 arrLL.push_back(matrix[i][j]);
                 j--;
-                bk = true;
+                cond3 = true;
             }
             
             j++; i--; k1++;
-            
-            
-            while ( i > k2 && bk == true) {
+            while ( i > k2 && cond3 == true) {
                 arrLL.push_back(matrix[i][j]);
                 i--;
             }
@@ -69,10 +64,7 @@ public:
             j++; i++; k2++;
             itr ++;
         }
-        
         return arrLL;
-        
-    
     }
 };
 

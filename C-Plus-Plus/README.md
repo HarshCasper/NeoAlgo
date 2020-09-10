@@ -74,7 +74,6 @@ _add list here_
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 
-
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)

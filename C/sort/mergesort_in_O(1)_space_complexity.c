@@ -1,6 +1,7 @@
 //algorithm for merging two sorted array in O(1) space complexity and in Nlog(N) + Mlog(M) time complexity
 
 #include <stdio.h>
+#include <stdlib.h>
 int i,j;
 
 void mergesort(int a[] , int b[] , int n , int m)
@@ -25,9 +26,7 @@ void mergesort(int a[] , int b[] , int n , int m)
             } 
     }
     
-    // using the inplace algorithm we will now sorting the individual arrays 
-    
-    //sorting first array
+    // sorting the firt array
     int x = n;
     int round1 = x/2 + x%2;
     while(round1 > 0 && x > 1)
@@ -86,15 +85,37 @@ int main() {
 	printf("please enter the number of elements for the second array\n");
 	scanf("%d ",&m);
 	
-	int a[100000] , b[100000];
+	
+	int capacity = 100;
+      int used = 0;
+      int *a = (int *)malloc(sizeof(int)*capacity);
+	int *b = (int *)malloc(sizeof(int)*capacity);
 	
 	printf("please enter the elements of the first array\n");
 	for(i = 1; i <= n; i++)
-	scanf("%d",&a[i-1]);
+	{
+		scanf("%d",&a[i-1]);
+		if(used == capacity)
+                   {
+                        capacity *= 2; 
+                        a=(int *)realloc(a,sizeof(int)*capacity);
+                   }
+                a[used] = a[i-1];
+                used++;
+	}
 	
 	printf("please enter the elements of the second array\n");
 	for(i = 1; i <= m; i++)
-	scanf("%d",&b[i-1]);
+	{
+		scanf("%d",&b[i-1]);
+		if(used == capacity)
+                   {
+                        capacity *= 2; 
+                        b=(int *)realloc(b,sizeof(int)*capacity);
+                   }
+                b[used] = b[i-1];
+                used++;
+	}
 	
 	mergesort(a,b,n,m);
 	
@@ -109,10 +130,10 @@ int main() {
   Sample input/output
   Enter size of first array:
   6
-  Enter array elements:
-  1 5 7 9 13 17
   Enter size of second array:
   5
+  Enter array elements:
+  1 5 7 9 13 17
   Enter array elements:
   4 6 10 13 15
   output

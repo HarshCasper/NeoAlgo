@@ -55,6 +55,8 @@ _add list here_
 * [Linked List](ds/linkedList.java )
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
 * [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
+* [Trie](ds/Trie.java)
+
 
 ## Graphs
 

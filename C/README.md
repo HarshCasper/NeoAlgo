@@ -59,4 +59,4 @@ _add list here_
 
 ## Other
 
-_add list here_
+- [remove outermost parentheses](other/remove_outermost_parentheses.c)

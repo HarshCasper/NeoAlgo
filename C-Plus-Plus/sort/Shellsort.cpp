@@ -3,6 +3,9 @@ Shell sort is a highly efficient sorting algorithm and is based on insertion sor
 This algorithm avoids large shifts as in case of insertion sort, if the smaller value is to the far right 
 and has to be moved to the far left.This algorithm uses insertion sort on a widely spread elements, first to sort 
 them and then sorts the less widely spaced elements. This spacing is termed as interval.
+Worst case time complexity = O(n2)
+Best case complexity = O(nlog(n)).
+Space complexity = O(1).
 */
 
 

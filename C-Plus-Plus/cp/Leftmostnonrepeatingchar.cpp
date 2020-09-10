@@ -28,7 +28,7 @@ int main(){
     cout << "The leftmost non repeating character in the string is: " << leftmostnonrepeatingchar(s);
     return 0;
 }
-// Sample test case:
-// s = "aabcdb", all elements of fi array are initialised as -1
-// After traversing through string, our res would become 3 
+/*Sample test case:
+s = "aabcdb", all elements of fi array are initialised as -1
+After traversing through string, our res would become 3 */
 

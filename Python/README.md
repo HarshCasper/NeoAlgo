@@ -82,7 +82,6 @@ _add list here_
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 
 ## Other
-<<<<<<< HEAD
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 * [Longest substring without repeating character](other/longest_Substring.py)
@@ -90,15 +89,6 @@ _add list here_
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
 * [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
 * [Sudoku Solver](other/sudoku_backtracking.py)
-=======
->>>>>>> 61c9e974612fd53d232466b7923e266299a9fd30
-
-- [Check Inversion](other/Check_Inversion.py)
-- [Kadane's Algorithm](other/Kadanes_Algorithm.py)
-- [Longest substring without repeating character](other/longest_Substring.py)
-- [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
-- [Reverse a string using stack](other/Reverse_string_using_stack.py)
-- [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
 
 ## Searching
 

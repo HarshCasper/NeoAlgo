@@ -61,7 +61,7 @@ _add list here_
 ## Other
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
-- [remove outermost parentheses](other/remove_outermost_parentheses.c)
+- [Remove outermost parentheses](other/remove_outermost_parentheses.c)
 
 
 ## Searching
@@ -69,9 +69,6 @@ _add list here_
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)
 - [Random Search Monte Carlo version](search/random_search.c)
-
-
-
 
 
 ## Sorting

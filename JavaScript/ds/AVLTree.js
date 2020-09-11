@@ -1,8 +1,6 @@
 class AVLTree {
    constructor() {
-      
       // Initialising the root element to null.
-      
       this.root = null;
    }
 
@@ -21,14 +19,10 @@ class AVLTree {
    }
 
    insert(data) {
-      let node = new this.Node(data);
-      
+      let node = new this.Node(data); 
       // Checking if the tree is empty
-      
       if (this.root === null) {
-      
-         // Insert the first element as this.root = node;
-         
+         // Insert the first element as this.root = node;  
       } else {
          insertHelper(this, this.root, node);
       }
@@ -50,13 +44,9 @@ function insertHelper(self, root, node) {
    (root === null) {
       root = node;
    } else if (node.data < root.data) {
-   
       // Go left
-      
-      root.left = insertHelper(self, root.left, node);
-      
+      root.left = insertHelper(self, root.left, node)
       // Check for balance factor and perform the appropriate rotation
-      
       if (root.left !== null && self.getBalanceFactor(root) > 1) {
       if (node.data > root.left.data) {
          root = rotationLL(root);
@@ -65,13 +55,9 @@ function insertHelper(self, root, node) {
       }
    }
 } else if (node.data > root.data) {
-
    // Go Right
-   
    right = insertHelper(self, root.right, node);
-   
    // Check for balance factor and perform appropriate rotation
-   
    if (root.right !== null && self.getBalanceFactor(root) < -1) {
       if (node.data > root.right.data) {
          root = rotationRR(root);

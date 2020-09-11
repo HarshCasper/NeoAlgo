@@ -4,32 +4,31 @@
 #include <stdlib.h>
 int i, j;
 
+void swap(int &x, int &y)    // swapping the elements
+{ 
+    int temp = x; 
+    x = y; 
+    y = temp; 
+} 
+
 void mergesort(int a[], int b[], int n, int m) {
-  int min;
-  if (n >= m) {
-    min = m;
-  } else {
-    min = n;
-  }
+  int min = min(n, m);
   for (i = 0; i < min; i++)  // we are swapping the elements of both the array
     // which should be there in the result
   {
-    if (a[n - i - 1] > b[i]) {
-      a[n - i - 1] = a[n - i - 1] - b[i];  // swapping the elements
-      b[i] = a[n - i - 1] + b[i];
-      a[n - i - 1] = b[i] - a[n - i - 1];
+    if (a[n - i - 1] > b[i]) 
+    {
+       swap(a[n - i - 1], b[i]);   
     }
   }
   // sorting the first array
   int x = n;
   int round1 = x / 2 + x % 2;
   while (round1 > 0 && x > 1) {
-    for (int i = 1; i + round1 <= n;
-         i++)  // Comparing elements in the first array
-      if (a[i - 1] > a[i + round1 - 1]) {
-        a[i - 1] = a[i - 1] - a[i + round1 - 1];
-        a[i + round1 - 1] = a[i - 1] + a[i + round1 - 1];
-        a[i - 1] = a[i + round1 - 1] - a[i - 1];
+    for (int i = 1; i + round1 <= n; i++)  // Comparing elements in the first array
+      if (a[i - 1] > a[i + round1 - 1])
+      {
+        swap(a[i - 1], a[i + round1 - 1]);
       }
 
     x = round1;
@@ -40,10 +39,9 @@ void mergesort(int a[], int b[], int n, int m) {
   int round2 = y / 2 + y % 2;
   while (round2 > 0 && y > 1) {
     for (i = 1; i + round2 <= m; i++)  // Comparing elements in the second array
-      if (b[i - 1] > b[i + round2 - 1]) {
-        b[i - 1] = b[i - 1] - b[i + round2 - 1];
-        b[i + round2 - 1] = b[i - 1] + b[i + round2 - 1];
-        b[i - 1] = b[i + round2 - 1] - b[i - 1];
+      if (b[i - 1] > b[i + round2 - 1]) 
+      {
+        swap(b[i - 1], b[i + round2 - 1]);
       }
 
     y = round2;

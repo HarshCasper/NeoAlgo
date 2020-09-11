@@ -95,6 +95,7 @@ _add list here_
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Elements Occurrence using Binary Search](cp/ElemetsOccurrence_BinarySearch.cpp)
+- [Remove Outermost Parantheses](cp/remove_bracket)
 
 ## Other
 

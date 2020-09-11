@@ -47,7 +47,7 @@
 - [Quick Sort](sort/Quick_Sort.cpp)
 - [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
 - [Selection Sort](sort/selection_sort.cpp)
-- [Shell Sort](sort/ShellSort.cpp)
+- [Shell Sort](sort/Shellsort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 
 ## Graphs

@@ -89,6 +89,7 @@ _add list here_
 * [Jump Search](search/jumpSearch.java)
 
 ## Sorting
+* [Cocktail Sort](sort/CocktailSort.java)
 
 ## Competitive programming
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)

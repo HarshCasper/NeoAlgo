@@ -31,6 +31,7 @@
 
 ## Sorting
 - [Bubble Sort](sort/bubble_sort.c)
+- [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Merge Sort](sort/MergeSort.c)
 - [OddEven Sort](sort/oddevensort.c)
@@ -73,14 +74,14 @@ _add list here_
 
 
 
-## Sorting
-- [Bubble Sort](sort/bubble_sort.c)
-- [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
-- [Insertion Sort](sort/InsertionSort.c)
-- [Merge Sort](sort/MergeSort.c)
-- [OddEven Sort](sort/oddevensort.c)
-- [Selection Sort](sort/selection_sort.c)
-- [Shell Sort](sort/ShellSort.c)
+
+
+
+
+
+
+
+
 
 ## Cryptography
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)

@@ -108,9 +108,7 @@ int main() {
 	return 0;
 }
 
-
-/* 
-  Sample input/output
+/* Sample input/output
   Enter size of first array:
   6
   Enter size of second array:
@@ -121,4 +119,4 @@ int main() {
   4 6 10 13 15
   output
   1 4 5 6 7 9 10 13 13 15 17 
-*/
+  */

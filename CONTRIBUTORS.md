@@ -130,6 +130,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/riya-joshi-401"><img src="https://avatars0.githubusercontent.com/u/53979947?v=4" width="100px;" alt=""/><br /><sub><b>RIYA JOSHI</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=riya-joshi-401" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SayaniG371"><img src="https://avatars0.githubusercontent.com/u/55864408?v=4" width="100px;" alt=""/><br /><sub><b>SayaniG371</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=SayaniG371" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/kevin-patel-3ab844192/"><img src="https://avatars2.githubusercontent.com/u/42174390?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Patel</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=PatelKeviin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/gupta-piyush19"><img src="https://avatars0.githubusercontent.com/u/56182734?v=4" width="100px;" alt=""/><br /><sub><b>Piyush Gupta</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=gupta-piyush19" title="Code">💻</a></td>
   </tr>
 </table>
 

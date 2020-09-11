@@ -1,5 +1,4 @@
 //algorithm for merging two sorted array in O(1) space complexity and in Nlog(N) + Mlog(M) time complexity
-
 #include <stdio.h>
 #include <stdlib.h>
 int i,j;
@@ -15,7 +14,6 @@ void mergesort(int a[] , int b[] , int n , int m)
     {
         min = n;
     }
-    
     for (i = 0; i < min; i++)    //we are swapping the elements of both the array which should be there in the result
     { 
         if (a[n - i - 1] > b[i]) 
@@ -25,15 +23,13 @@ void mergesort(int a[] , int b[] , int n , int m)
                 a[n- i - 1] = b[i] - a[n - i - 1];
             } 
     }
-    
     // sorting the firt array
     int x = n;
     int round1 = x/2 + x%2;
     while(round1 > 0 && x > 1)
     {
-           // Comparing elements in the first array 
-        for (int i = 1; i + round1 <= n; i++) 
-            if (a[i- 1 ] > a[i + round1 - 1]) 
+        for (int i = 1; i + round1 <= n; i++)      // Comparing elements in the first array 
+        if (a[i- 1 ] > a[i + round1 - 1]) 
                 {
                     a[i- 1 ] = a[i - 1] - a[i + round1 - 1];
                     a[i + round1 - 1]= a[i - 1] + a[i + round1 - 1];
@@ -42,17 +38,14 @@ void mergesort(int a[] , int b[] , int n , int m)
                 
         x= round1;
         round1 = x/2 + x%2;
-    
     }
-  
     // Sorting  the second array 
     int y = m;
     int round2 = y/2 + y%2;
     while(round2 > 0 && y > 1)
     {
-           // Comparing elements in the second array 
-        for (i = 1; i + round2 <= m; i++) 
-            if (b[i - 1] > b[i + round2 - 1]) 
+         for (i = 1; i + round2 <= m; i++)         // Comparing elements in the second array
+         if (b[i - 1] > b[i + round2 - 1]) 
                 {
                     b[i - 1] = b[i - 1] - b[i + round2 - 1];
                     b[i + round2 - 1] = b[i - 1] + b[i+  round2 - 1];
@@ -61,11 +54,9 @@ void mergesort(int a[] , int b[] , int n , int m)
                 
         y= round2;
         round2 =y/2 + y%2;
-    
-    }
+     }
      
 }
-
 
 void print(int a[] , int b[] , int n , int m)
 {
@@ -77,15 +68,11 @@ void print(int a[] , int b[] , int n , int m)
 
 int main() {
     
-    //taking input from the user
-    
 	int n,m;    
-	printf("please enter the number of elements for the first array\n");
+	printf("please enter the number of elements for the first array\n");      //taking input from the user
 	scanf("%d ",&n);
 	printf("please enter the number of elements for the second array\n");
 	scanf("%d ",&m);
-	
-	
 	int capacity = 100;
       int used = 0;
       int *a = (int *)malloc(sizeof(int)*capacity);
@@ -116,12 +103,8 @@ int main() {
                 b[used] = b[i-1];
                 used++;
 	}
-	
 	mergesort(a,b,n,m);
-	
 	print(a,b,n,m);
-	
-	
 	return 0;
 }
 

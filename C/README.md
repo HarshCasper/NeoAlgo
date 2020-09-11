@@ -73,16 +73,6 @@ _add list here_
 - [Sum of Triplet](cp/sum_of_triplet.c)
 
 
-
-
-
-
-
-
-
-
-
-
 ## Cryptography
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
@@ -90,4 +80,3 @@ _add list here_
 
 ## Blockchain
 _add list here_
-

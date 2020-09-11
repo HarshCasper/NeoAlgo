@@ -2,9 +2,22 @@
 
 //Finding the longest substring without repeating characters having linear time Complexity O(n) and constant Space Complexity O(1)
 
+------------------------------------------------------------------------------
+	
 //Sample Input-output
+------------------------------------------------------------------------------
+//Input: abcbacbb
+//Output: length of longest substring without repeating charecters: 3
 
+//Input: Hackincodes
+//Output: length of longest substring without repeating charecters: 7
 
+//Input: ddddd
+//Output: length of longest substring without repeating charecters: 1
+
+//Input: 
+//Output: length of longest substring without repeating charecters: 0
+------------------------------------------------------------------------------
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>

@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class Longest_Substring {
     public int lengthOfLongestSubstring(String s) {
         if (s.length() == 1) return 1;
         
@@ -25,6 +25,12 @@ class Solution {
         }
         return maxlen;
     }
+    
+    public void main(){
+        Scanner s = new Scanner(System.in);
+        String str = s.next();
+        int ans = lengthOfLongestSubstring(str);
+        System.out.println(ans);
 }
 
 /*

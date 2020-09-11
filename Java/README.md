@@ -77,7 +77,14 @@ _add list here_
 * [Segmented_Sieve](math/Segmented_Sieve.java)
 * [Sieve of Atkin](math/sieveOfAtkin.java)
 * [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+* [Double Factorial](math/DoubleFactorial.java)
 
+
+## Dynamic Programming
+* [Kandane Algorithm](dp/Kadane_Algorithm.java)
+* [Longest common subsequence](dp/LCS.java)
+## Blockchain
+_add list here_
 ## Searching
 
 * [Binary Search](search/Binary_search.java)
@@ -89,6 +96,15 @@ _add list here_
 
 ## Sorting
 
+## Competitive programming
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Count The Reversals](cp/Count_The_Reversals.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Aggressive Cows](cp/AggressiveCows.java)
+* [Spiral Matrix](cp/Spiral_Matrix.java)
 * [BeadSort](sort/BeadSort.java)
 * [Bubble Sort](sort/BubbleSort.java)
 * [Bucket Sort](sort/BucketSort.java)
@@ -109,4 +125,5 @@ _add list here_
 
 * [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 * [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
+* [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 * [Tower of Hanoi problem](other/TowerOfHanoi.java)

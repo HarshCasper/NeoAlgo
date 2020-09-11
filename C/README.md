@@ -9,22 +9,14 @@
 
 # Codes in the C language
 
-## Blockchain
-_add list here_
 
 
-## CP
-- [Activity Selection](cp/Activity_selection.c)
-- [Anagram Program](cp/anagram_program.c)
-- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
-- [Max Sub Array Sum](cp/maxSubArraySum.c)
-- [Sum of Triplet](cp/sum_of_triplet.c)
-
-
-## Cryptography
-- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
-- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
-
+- [Bubble Sort](sort/bubble_sort.c)
+- [Insertion Sort](sort/InsertionSort.c)
+- [Merge Sort](sort/MergeSort.c)
+- [OddEven Sort](sort/oddevensort.c)
+- [Selection Sort](sort/selection_sort.c)
+- [Merge Sort in O(1) space complexity](sort/mergesort_in_O(1)_space_complexity.c)
 
 ## Data Structures
 - [Fenwick Tree](ds/FenwickTree.c)
@@ -38,9 +30,28 @@ _add list here_
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 
 
+## Searching
+- [Binary Search](search/BinarySearch.c)
+- [Interpolation Search](search/Interpolation.c)
+- [Linear Search](search/linear_search.c)
+- [Random Search Monte Carlo version](search/random_search.c)
+
+
+## Sorting
+- [Bubble Sort](sort/bubble_sort.c)
+- [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
+- [Insertion Sort](sort/InsertionSort.c)
+- [Merge Sort](sort/MergeSort.c)
+- [OddEven Sort](sort/oddevensort.c)
+- [Selection Sort](sort/selection_sort.c)
+- [Shell Sort](sort/ShellSort.c)
+- [Matrix Sort](sort/MatrixSorting.c)
+
+
 ## Dynamic Programming
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
+
 
 
 ## Graphs
@@ -63,17 +74,18 @@ _add list here_
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 
 
-## Searching
-- [Binary Search](search/BinarySearch.c)
-- [Interpolation Search](search/Interpolation.c)
-- [Linear Search](search/linear_search.c)
-- [Random Search Monte Carlo version](search/random_search.c)
+## CP
+- [Activity Selection](cp/Activity_selection.c)
+- [Anagram Program](cp/anagram_program.c)
+- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
+- [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Sum of Triplet](cp/sum_of_triplet.c)
 
 
-## Sorting
-- [Bubble Sort](sort/bubble_sort.c)
-- [Insertion Sort](sort/InsertionSort.c)
-- [Merge Sort](sort/MergeSort.c)
-- [OddEven Sort](sort/oddevensort.c)
-- [Selection Sort](sort/selection_sort.c)
-- [Shell Sort](sort/ShellSort.c)
+## Cryptography
+- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
+- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
+
+
+## Blockchain
+_add list here_

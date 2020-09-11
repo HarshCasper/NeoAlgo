@@ -129,6 +129,10 @@ _add list here_
 ## Cryptography
 _add list here_
 
+## Cryptography
+* [Affine cipher](cryptography/AffineCipher.py)
+* [Caesar Cipher](cryptography/Caesar_Cipher.py)
+
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)

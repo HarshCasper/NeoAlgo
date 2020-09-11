@@ -25,11 +25,10 @@ int Iterative(int num)   // Iterative approach
         } 
         else 
         {
-            ans*=i;
+            ans *= i;
         }
     }
     return ans;
-        
 }
 
 int main() {

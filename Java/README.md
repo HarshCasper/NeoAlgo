@@ -30,6 +30,8 @@ _add list here_
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Container with Most water](Container_with_most_area.java)
+* [Remove Outer Most Parentheses](cp/Remove_Outermost_parentheses.java)
 
 ## Cryptography
 

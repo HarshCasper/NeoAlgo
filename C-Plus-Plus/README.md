@@ -113,6 +113,7 @@ _add list here_
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Target sum triplets](cp/target_sum_triplets.cpp)
 - [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
+- [Russian Peasant Algorithm](cp/RussianPeasant.cpp)
 
 ## Other
 

@@ -12,6 +12,7 @@
 ## Algorithms
 
 * [Kadane's Algorithm](Algorithms/kadanes_Java.java)
+* [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 
 ## Greedy Algorithms
 

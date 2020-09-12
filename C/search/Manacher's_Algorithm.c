@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <string.h>
 /*
 Manacher's Algorithm is used to the find all the pairs (i,j) such that substring s[i…j] is a palindrome.
 */
+#include <stdio.h>
+#include <string.h>
 
 int min(int num1, int num2){
     return (num1 > num2 ) ? num2 : num1;

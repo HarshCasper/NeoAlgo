@@ -54,7 +54,6 @@
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 
 
-
 ## Graphs
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
@@ -82,16 +81,6 @@ _add list here_
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
-
-
-
-## Sorting
-- [Bubble Sort](sort/bubble_sort.c)
-- [Insertion Sort](sort/InsertionSort.c)
-- [Merge Sort](sort/MergeSort.c)
-- [OddEven Sort](sort/oddevensort.c)
-- [Selection Sort](sort/selection_sort.c)
-- [Shell Sort](sort/ShellSort.c)
 
 
 ## Cryptography

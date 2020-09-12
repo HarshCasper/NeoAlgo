@@ -34,6 +34,7 @@ _add list here_
 ## Cryptography
 
 * [Caesar Cipher](cryptography/ceaserCipher.java)
+* [Vigenere Cipher](cryptography/vigenereCipher.java)
 
 ## Dynamic Programming
 

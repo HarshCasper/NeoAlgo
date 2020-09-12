@@ -1,3 +1,11 @@
+/**
+ * In this algorithm we keep halving one number and doubling the 2nd one.
+ * While halving, if we get an odd number, we add the 2nd doubled number to the result.
+ * This goes on until the halving makes the first reach 0
+ * 
+ * It is also known as the Ancient Egyptian Multiplication, used by scribes to do multiplication
+ * without using the multiplication table.
+ */
 import java.util.*;
 
 public class RussianPeasant {

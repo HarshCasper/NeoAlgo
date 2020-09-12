@@ -1,6 +1,6 @@
 import java.util.*;
 
-class BucketSort {
+class HeapSort {
 
     private static void heapSort(int arr[]) {
         int size = arr.length;

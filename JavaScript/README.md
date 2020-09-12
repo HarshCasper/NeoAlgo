@@ -10,27 +10,28 @@
 # Codes in the Javascript language
 
 ## Data Structures
-* [Linked List](ds/LinkedList.js)
-* [Parenthesis Checker](ds/Parenthesis_Checker.js)
-* [Queue](ds/Queue.js)
-* [Stack](ds/Stack.js)
-* [Trie](ds/Trie.js)
+* [Linked List](./ds/LinkedList.js)
+* [Queue](./ds/Queue.js)
+* [Parenthesis Checker](./ds/Parenthesis_Checker.js)
+* [Stack](./ds/Stack.js)
+* [Trie](./ds/Trie.js)
 
 ## Searching
-* [Binary Search](search/binary_search.js)
-* [Knuth-Morris-Pratt(KMP) Algorithm](search/KMPalgorithm.js)
-* [Linear Search](search/linear_search.js)
+* [Linear Search](./search/linear_search.js)
+* [Binary Search](./search/binary_search.js)
+* [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
 
 ## Sorting
-* [Bubble Sort](sort/BubbleSort.js)
-* [Insertion Sort](sort/insertion_sort.js)
-* [Sleep Sort](sort/sleepSort.js)
-
-## Mathematics
-* [Count Number of Digits in an Integer](math/CountDigits_Integer.js)
+* [Bubble Sort](./sort/BubbleSort.js)
+* [Insertion Sort](./sort/insertion_sort.js)
+* [Sleep Sort](./sort/sleepSort.js)
 
 ## Machine Learning
 _add list here_
+
+## Mathematics
+* [Count Number of Digits in an Integer](./math/CountDigits_Integer.js)
+* [Double Factorial](./math/DoubleFactorial.js)
 
 ## Dynamic Programming
 _add list here_

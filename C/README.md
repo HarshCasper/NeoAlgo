@@ -81,6 +81,7 @@ _add list here_
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
+- [Calculation of Double Factorial](cp/doublefactorial.c)
 
 
 ## Cryptography

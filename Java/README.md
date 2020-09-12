@@ -30,6 +30,7 @@ _add list here_
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 * [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 * [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 
 ## Cryptography
 

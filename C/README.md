@@ -35,7 +35,7 @@ _add list here_
 - [GCD By Euclidean Algorithm](math/GCD In C.c)
 ## Dynamic Programming
 
-
+- [N-Queen](dp/N-Queen.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 
 ## Blockchain

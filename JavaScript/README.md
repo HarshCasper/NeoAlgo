@@ -11,22 +11,11 @@
 
 ## Data Structures
 
-- [Linked List](/ds/LinkedList.js)
-- [Queue](/ds/Queue.js)
-- [AVL Tree](/ds/AVLTree.js)
-- [Stack](ds/Stack.js)
-- [Parenthesis Checker](/ds/Parenthesis_Checker.js)
-- [Stack](/ds/Stack.js)
-* [Linked List](/ds/LinkedList.js)
-* [Parenthesis Checker](/ds/Parenthesis_Checker.js)
-* [Queue](/ds/Queue.js)
-* [Stack](/ds/Stack.js)
-* [Linked List](./ds/LinkedList.js)
-* [Queue](./ds/Queue.js)
-* [Parenthesis Checker](./ds/Parenthesis_Checker.js)
-* [Stack](./ds/Stack.js)
-
-
+- [Linked List](./ds/LinkedList.js)
+- [Queue](./ds/Queue.js)
+- [AVL Tree](./ds/AVLTree.js)
+- [Stack](./ds/Stack.js)
+- [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 
 
 ## Searching

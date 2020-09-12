@@ -7,43 +7,47 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Golang language
+# Codes in the C# language
+
+## Blockchain
+
+_add list here_
+
+## Competitive Programing
+
+- [Longest substring without repeating characters](cp/LengthOfLongestSubstring.cs)
+
+## Cryptography
+
+_add list here_
 
 ## Data Structures
-* [Stack](./ds/Stack.go)
-* [Stack using Queue](./ds/stack_using_queue.go)
-* [Queue using Stack](./ds/queue_using_stack.go)
-* [Singly Linked List](./ds/singly_linked_list.go)
-* [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
+
+_add list here_
+
+## Dynamic Programming
+
+_add list here_
 
 ## Searching
-* [Binary Search](/search/binary_search.go)
-* [Linear Search](/search/linear_search.go)
+
+- [Binary Search](search/BinarySearch.cs)
+- [Linear Search](search/LinearSearch.cs)
 
 ## Sorting
-* [Merge Sort Sequantial](./sort/merge_sort_sequential.go)
-* [Merge Sort Parallel](./sort/merge_sort_parallel.go)
+
+- [Bubble Sort](sort/BubbleSort.cs)
+- [Insertion Sort](sort/InsertionSort.cs)
+- [Quick Sort](sort/QuickSort.cs)
 
 ## Machine Learning
+
 _add list here_
 
 ## Mathematics
-* [Karatsuba Multiplication](./math/karatsuba_multiplication.go)
 
-## Competitive Programming
-* [Target Sum Triplets](./cp/target_sum_triplets.go)
-
-## Dynamic Programming
-_add list here_
-
-## Blockchain
-_add list here_
-
-## Searching
-_add list here_
-
-## Cryptography
-_add list here_
+- [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)
 
 ## Other
+
 _add list here_

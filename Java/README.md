@@ -54,6 +54,7 @@ _add list here_
 * [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
 * [Linked List](ds/linkedList.java )
 * [Linked List ~ Reverse](ds/linkedListReverse.java )
+* [Tree Traversals(preOrderTraversal)](ds/preOrderTraversal.java)
 * [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 
 ## Graphs

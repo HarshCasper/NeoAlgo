@@ -10,14 +10,6 @@
 # Codes in the C language
 
 
-
-- [Bubble Sort](sort/bubble_sort.c)
-- [Insertion Sort](sort/InsertionSort.c)
-- [Merge Sort](sort/MergeSort.c)
-- [OddEven Sort](sort/oddevensort.c)
-- [Selection Sort](sort/selection_sort.c)
-- [Merge Sort in O(1) space complexity](sort/mergesort_in_O(1)_space_complexity.c)
-
 ## Data Structures
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
@@ -26,7 +18,7 @@
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
-- [Circular Linked List] (ds/CircularLinkedList.c)
+- [Circular Linked List](ds/CircularLinkedList.c)
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 
@@ -44,6 +36,7 @@
 - [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Merge Sort](sort/MergeSort.c)
+- [Merge Sort in O(1) space complexity](sort/mergesort_in_O(1)_space_complexity.c)
 - [OddEven Sort](sort/oddevensort.c)
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
@@ -53,7 +46,6 @@
 ## Dynamic Programming
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
-
 
 
 ## Graphs

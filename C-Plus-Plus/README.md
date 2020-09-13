@@ -36,6 +36,7 @@
 - [Interpolation Search](search/Interpolation_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
+- [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
 
 ## Sorting
 
@@ -73,6 +74,7 @@ _add list here_
 ## Mathematics
 
 - [Ackermann_Function](math/Ackermann_function.cpp)
+- [Double factorial](math/double_factorial.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)

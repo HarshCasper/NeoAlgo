@@ -8,27 +8,21 @@ Use the second loop to find if the current character is occurring in the latter 
 If it is not occurring, print that character.
 Else, continue traversing.
 """
-
 def firstNotRepeatingCharacter(string):
-  for i in range(len(string)):
-    flag = False
-    for j in range(len(string)):
-      if string[i] == string[j] and i != j:
-        flag = True
-    
-    if not flag:
-      return string[i]
-  
-  return "_"
-
-# Driver program to test above function 
+    for i in range(len(string)):
+        flag = False
+        for j in range(len(string)):
+            if string[i] == string[j] and i != j:
+                flag = True
+        if not flag:
+            return string[i]
+    return "_"
 string = input("Enter a string: ")
 index = firstNotRepeatingCharacter(string) 
-if index == None: 
+if index is None: 
     print('-1')
 else: 
-    print(string.find(index))
-    
+    print(string.find(index)) 
 """
 Sample input 1:
 Input: "abaacd"

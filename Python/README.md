@@ -131,3 +131,4 @@ _add list here_
 - [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
+- [Swap Two Nibbles](other/Swap_two_nibbles.py)

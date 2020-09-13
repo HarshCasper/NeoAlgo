@@ -11,7 +11,7 @@ import java.util.Stack;
          right = null;
      }
  }
- class demo{
+ class preOrderTraversal{
                 //recursive
      public static void preOrderRec(Node root){
          if(root == null)

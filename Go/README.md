@@ -9,20 +9,24 @@
 
 # Codes in the Golang language
 
+## Blockchain
+_add list here_
+
+## Competitive Programming
+* [Target Sum Triplets](./cp/target_sum_triplets.go)
+
+## Cryptography
+_add list here_
+
 ## Data Structures
-* [Stack](./ds/Stack.go)
-* [Stack using Queue](./ds/stack_using_queue.go)
+* [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
 * [Queue using Stack](./ds/queue_using_stack.go)
 * [Singly Linked List](./ds/singly_linked_list.go)
-* [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
+* [Stack](./ds/Stack.go)
+* [Stack using Queue](./ds/stack_using_queue.go)
 
-## Searching
-* [Binary Search](/search/binary_search.go)
-* [Linear Search](/search/linear_search.go)
-
-## Sorting
-* [Merge Sort Sequantial](./sort/merge_sort_sequential.go)
-* [Merge Sort Parallel](./sort/merge_sort_parallel.go)
+## Dynamic Programming
+_add list here_
 
 ## Machine Learning
 _add list here_
@@ -30,20 +34,13 @@ _add list here_
 ## Mathematics
 * [Karatsuba Multiplication](./math/karatsuba_multiplication.go)
 
-## Competitive Programming
-* [Target Sum Triplets](./cp/target_sum_triplets.go)
-
-## Dynamic Programming
-_add list here_
-
-## Blockchain
+## Other
 _add list here_
 
 ## Searching
-_add list here_
+* [Binary Search](/search/binary_search.go)
+* [Linear Search](/search/linear_search.go)
 
-## Cryptography
-_add list here_
-
-## Other
-_add list here_
+## Sorting
+* [Merge Sort Parallel](./sort/merge_sort_parallel.go)
+* [Merge Sort Sequantial](./sort/merge_sort_sequential.go)

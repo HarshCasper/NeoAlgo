@@ -114,11 +114,11 @@ _add list here_
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Target sum triplets](cp/target_sum_triplets.cpp)
 - [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
-- [Russian Peasant Algorithm](cp/RussianPeasant.cpp)
 
 ## Other
 
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
+- [Russian Peasant Algorithm](cp/RussianPeasant.cpp)
 

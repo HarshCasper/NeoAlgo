@@ -36,13 +36,18 @@ int main()
 {
   
     int i, n;
-    printf("Enter the number\n");
+    printf("Enter the number the indexing starts from 1\n");
     scanf("%d",&n);
-    for(i=0;i<n;i++)
-      f[i]=-1;
-    fibonacci(n);
- 
-    printf("The nth fibonacci term is: %d",f[n-1]);
+    if(n<=0)
+    printf("Wrong Input\n");
+    else
+    {
+	    for(i=0;i<n;i++)
+	      f[i]=-1;
+	    fibonacci(n);
+	 
+	    printf("The nth fibonacci term is: %d",f[n-1]);
+    }
     
     return 0;
 }
@@ -55,5 +60,8 @@ n=5
 
 sample output:
 The nth fibonacci term is:3
+
+Time Complexity-O(n)
+Space Complexity-O(n)
 */
 

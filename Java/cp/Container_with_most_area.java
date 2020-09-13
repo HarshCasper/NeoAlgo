@@ -1,0 +1,36 @@
+class Container_with_most_Water {
+    public static int calculate(int i, int j, int x1, int x2){
+        int part1 = Math.min (x1,x2);
+        return part1 * Math.abs(j - i);
+    }
+    public int maxArea(int[] height) {
+        int max = 0;
+        
+        int i = 0;    // left pointer
+        int j = height.length - 1;    // right pointer
+        
+        while (i < j){
+            int curr = calculate(i,j, height[i], height[j]);
+             if (curr > max) max = curr;
+            if (height[i] < height[j]) i++;    
+            else j--;
+        }
+        return max;  // Returning maxarea
+    }
+]
+
+/*
+
+TIME COMPLEXITY
+2 POINTER APPROACH USED
+O(N) where n is the size of the array
+
+TEST CASE
+
+INPUT
+[1,8,6,2,5,4,8,3,7]
+OUTPUT
+49
+*/
+
+

@@ -25,7 +25,7 @@ int main()
 	int n;
 	//Enter the number
 	cin>>n;
-	 vector<int> v;
+	vector<int> v;
     while (n != 1) 
     { 
         v.push_back(a[n]); 

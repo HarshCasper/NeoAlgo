@@ -36,6 +36,7 @@
 - [Interpolation Search](search/Interpolation_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
+- [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
 
 ## Sorting
 
@@ -60,6 +61,11 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+<<<<<<< HEAD
+- [Kosaraju's Algorithm](graphs/Kosaraju_Algorithm.cpp)
+- [FloodFill Algorithm](graphs/FloodFill.cpp)
+=======
+>>>>>>> master
 
 ## Machine Learning
 

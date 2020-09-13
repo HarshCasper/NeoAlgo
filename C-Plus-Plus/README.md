@@ -36,6 +36,7 @@
 - [Interpolation Search](search/Interpolation_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
+- [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
 
 ## Sorting
 
@@ -60,6 +61,11 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+<<<<<<< HEAD
+- [Kosaraju's Algorithm](graphs/Kosaraju_Algorithm.cpp)
+- [FloodFill Algorithm](graphs/FloodFill.cpp)
+=======
+>>>>>>> master
 
 ## Machine Learning
 
@@ -68,6 +74,7 @@ _add list here_
 ## Mathematics
 
 - [Ackermann_Function](math/Ackermann_function.cpp)
+- [Double factorial](math/double_factorial.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
@@ -113,4 +120,5 @@ _add list here_
 
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
+- [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
 

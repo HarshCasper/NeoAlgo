@@ -17,12 +17,14 @@ def firstNotRepeatingCharacter(string):
         if not flag:
             return string[i]
     return "_"
+
 string = input("Enter a string: ")
 index = firstNotRepeatingCharacter(string) 
 if index is None: 
     print('-1')
 else: 
     print(string.find(index)) 
+    
 """
 Sample input 1:
 Input: "abaacd"
@@ -32,6 +34,6 @@ Sample input 2:
 Input:"aabbccdd"
 Output: -1
 
-Time Complexity: O(n*2) - n being the length of string
+Time Complexity: O(n**2) - n being the length of string
 Space Complexity: O(n)
     """

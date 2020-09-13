@@ -211,6 +211,7 @@ _add list here_
 - [Intersection Point of Y shaped LinkedList](cp/Intersection Point of Y shaped LinkedList.cpp)
 - [Check whether two strings are anagrams or not](cp/check_anagrams.cpp)
 - [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
+- [String to int(atoi)](cp/string_to_int.cpp)
 
 ## Other
 

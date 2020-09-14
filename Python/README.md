@@ -9,6 +9,35 @@
 
 # Codes in the Python language
 
+## Blockchain
+
+_add list here_
+
+## Other
+* [Check Inversion](other/Check_Inversion.py)
+* [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+* [Merge two arrays](other/merge_sorted_arrays.py)
+* [Reverse a string using stack](other/Reverse_string_using_stack.py)
+* [Longest substring without repeating character](other/longest_Substring.py)
+
+## miscellaneous
+* [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)
+
+## Competitive Programming
+
+- [Anagram Checker](cp/anagram_checker.py)
+- [KMP Algorithm](cp/KMP_Algorithm.py)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+- [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
+- [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
+- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+- [Target sum triplet](cp/Target_Sum_Triplet.py)
+- [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+
+## Cryptography
+
+- [Affine cipher](cryptography/AffineCipher.py)
+
 ## Data Structures
 
 - [Binary Tree (Post order transversal)](ds/Binary_tree_post_order.py)
@@ -120,6 +149,7 @@ _add list here_
 - [Check Inversion](other/Check_Inversion.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+- [Merge two arrays](other/merge_sorted_arrays.py)
 - [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)

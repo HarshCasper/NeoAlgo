@@ -16,7 +16,7 @@ jobs:
       - name: Prettier Action
       # You may pin to the exact commit or the version.
       # uses: creyD/prettier_action@71bcaf62101319a94cc7403ca9ddc5424be1ee17
-      uses: creyD/prettier_action@v3.0
+      uses: creyD/prettier_action@@v2.2
       with:
         # Commit message
         commit_message: # optional, default is Prettified Code!

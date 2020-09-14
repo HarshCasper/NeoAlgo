@@ -30,17 +30,14 @@ def mergearray(array1, array2, size1, size2):
         print(array2[i], end=' ')
         i = i + 1
 
-
 size1 = int(input('Enter size of 1st array:'))
 print('Enter elements of array 1: ')
 array1 = list(map(int, input().split()))
-
 
 size2 = int(input('Enter size of 2nd array: '))
 print('Enter elements of array 2: ')
 array2 = list(map(int, input().split()))
 mergearray(array1, array2, size1, size2)
-
 
 '''
 Sample I/O:
@@ -61,5 +58,4 @@ Sample I/O:
 
 Time Complexity: O(NlogN)(where N will be max of size1 and size2)
 Space Complexity: O(1)
-
 '''

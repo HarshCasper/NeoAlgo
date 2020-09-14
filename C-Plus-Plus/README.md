@@ -68,6 +68,7 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Ackermann_Function](math/Ackermann_function.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
+
 ## Dynamic Programming
 
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
@@ -96,6 +97,7 @@ _add list here_
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
 
 ## Other
+
 <p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
@@ -106,7 +108,6 @@ _add list here_
 </p>
 
 # Codes in the C++ language
-
 
 ## Data Structures
 

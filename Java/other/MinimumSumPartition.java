@@ -6,7 +6,7 @@ public class MinimumSumPartition {
     public static int findMinSum(int[] arr, int i, int sumCalculated, int total)
     {
         // check for last element, meaning we have sum of one subset as sumCalculated and the other as
-        // total - sumCalculated, so we return their absolute difference
+        // total - 2*sumCalculated, so we return their absolute difference
         if (i == 0) {
             return Math.abs((total-sumCalculated) - sumCalculated);
         }

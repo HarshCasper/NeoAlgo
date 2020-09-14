@@ -23,15 +23,19 @@ _add list here_
 
 ## Competitive programming
 
-* [Aggressive Cows](cp/AggressiveCows.java)
-* [Count The Reversals](cp/Count_The_Reversals.java)
-* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
-* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
-* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
-* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
-* [Target Sum Triplets](cp/target_sum_triplets.java)
-* [Longest Common Prefix](cp/Longest_Common_Prefix.java)
-* [Spiral Matrix](cp/Spiral_Matrix.java)
+
+- [Aggressive Cows](cp/AggressiveCows.java)
+- [Count The Reversals](cp/Count_The_Reversals.java)
+- [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+- [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+- [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+- [Target Sum Triplets](cp/target_sum_triplets.java)
+- [String to Int(atoi)](<cp/String_to_int(atoi).java>)
+- [Longest Common Prefix](cp/Longest_Common_Prefix.java)
+- [Spiral Matrix](cp/Spiral_Matrix.java)
+- [Container with Most water](Container_with_most_area.java)
+- [Remove Outer Most Parentheses](cp/Remove_Outermost_parentheses.java)
 
 ## Cryptography
 
@@ -56,6 +60,7 @@ _add list here_
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
+- [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 
 ## Graphs
@@ -81,12 +86,15 @@ _add list here_
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 - [Double Factorial](math/DoubleFactorial.java)
 
-
 ## Dynamic Programming
-* [Kandane Algorithm](dp/Kadane_Algorithm.java)
-* [Longest common subsequence](dp/LCS.java)
+
+- [Kandane Algorithm](dp/Kadane_Algorithm.java)
+- [Longest common subsequence](dp/LCS.java)
+
 ## Blockchain
+
 _add list here_
+
 ## Searching
 
 - [Binary Search](search/Binary_search.java)
@@ -98,10 +106,19 @@ _add list here_
 
 ## Sorting
 
+## Competitive programming
+
+- [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+- [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+- [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+- [Count The Reversals](cp/Count_The_Reversals.java)
+- [Target Sum Triplets](cp/target_sum_triplets.java)
+- [Aggressive Cows](cp/AggressiveCows.java)
+- [Spiral Matrix](cp/Spiral_Matrix.java)
 - [BeadSort](sort/BeadSort.java)
 - [Bubble Sort](sort/BubbleSort.java)
 - [Bucket Sort](sort/BucketSort.java)
-- [Cocktail Sort](sort/CocktailSort.java)
 - [Heap Sort](sort/HeapSort.java)
 - [Insertion Sort](sort/InsertionSort.java)
 - [Merge Sort](sort/Merge_sort.java)
@@ -110,6 +127,20 @@ _add list here_
 - [PancakeSort](sort/PancakeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
+- [Longest Substring without repeating characters](LongestSubstring_without_repeating_characters)
+
+* [BeadSort](sort/BeadSort.java)
+* [Bubble Sort](sort/BubbleSort.java)
+* [Bucket Sort](sort/BucketSort.java)
+* [Cocktail Sort](sort/CocktailSort.java)
+* [Heap Sort](sort/HeapSort.java)
+* [Insertion Sort](sort/InsertionSort.java)
+* [Merge Sort](sort/Merge_sort.java)
+* [Minimum number of swaps to sort an array of N unordered consecutive integers](sort/MinimumSwapsForNIntegers.java)
+* [Optimized Bubble Sort](sort/OptimizedBubbleSort.java)
+* [PancakeSort](sort/PancakeSort.java)
+* [Quick Sort](sort/QuickSort.java)
+* [Selection Sort](sort/SelectionSort.java)
 
 ## Machine Learning
 

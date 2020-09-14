@@ -1,11 +1,11 @@
 # Conversion of an infix expression to postfix expression.
 
 An Infix expression is an expression where operators are written in-between the operands. Example:- A+B.
-Infix expressions are readable and solvable by humans. 
+Infix expressions are readable and solvable by humans.
 But the computer cannot differentiate the operators and parenthesis easily, that’s why conversion to postfix expression is needed.
 i.e, Operators are written after their operands. Example:- AB+
 
-### To convert infix expression to postfix expression, we will use the *Stack Data Structure*. 
+### To convert infix expression to postfix expression, we will use the _Stack Data Structure_.
 
 ### The following is the process how the conversion of an infix expression to postfix expression takes place using stack data structure.
 

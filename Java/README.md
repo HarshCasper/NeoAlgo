@@ -23,6 +23,15 @@ _add list here_
 
 ## Competitive programming
 
+
+* [Aggressive Cows](cp/AggressiveCows.java)
+* [Count The Reversals](cp/Count_The_Reversals.java)
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+* [String to Int(atoi)](cp/String_to_int(atoi).java)
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)

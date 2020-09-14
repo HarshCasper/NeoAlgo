@@ -27,7 +27,6 @@ class towerOfHanoi
 }
 
 /* Sample input/output
-
 Enter the number of disks: 
 4
 Move disk 1 from rod 1 to rod 2
@@ -45,5 +44,4 @@ Move disk 3 from rod 2 to rod 3
 Move disk 1 from rod 1 to rod 2
 Move disk 2 from rod 1 to rod 3
 Move disk 1 from rod 2 to rod 3
-
 */

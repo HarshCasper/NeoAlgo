@@ -61,7 +61,6 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
-- [Kosaraju's Algorithm](graphs/Kosaraju_Algorithm.cpp)
 - [FloodFill Algorithm](graphs/FloodFill.cpp)
 
 

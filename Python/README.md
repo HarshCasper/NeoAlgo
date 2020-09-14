@@ -14,14 +14,16 @@
 _add list here_
 
 ## Other
-* [Check Inversion](other/Check_Inversion.py)
-* [Kadane's Algorithm](other/Kadanes_Algorithm.py)
-* [Merge two arrays](other/merge_sorted_arrays.py)
-* [Reverse a string using stack](other/Reverse_string_using_stack.py)
-* [Longest substring without repeating character](other/longest_Substring.py)
+
+- [Check Inversion](other/Check_Inversion.py)
+- [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+- [Merge two arrays](other/merge_sorted_arrays.py)
+- [Reverse a string using stack](other/Reverse_string_using_stack.py)
+- [Longest substring without repeating character](other/longest_Substring.py)
 
 ## miscellaneous
-* [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)
+
+- [Ocurrence of a number using binary search](miscellaneous/find_freq_using_bs.py)
 
 ## Competitive Programming
 

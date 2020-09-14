@@ -14,13 +14,12 @@ def russianPeasant(number1, number2):
 			result = result + number1 
 
 		# Double the first number and halve the second number 
-		number1 = number1 << 1 		 #bitwise left operator
-		number2 = number2 >> 1 		 #bitwise right operator
+		number1 = number1 << 1 		 #bitwise left shift operator
+		number2 = number2 >> 1 		 #bitwise right shift operator
 	
 	return print("Result is",result )
 
-# Driver program to test 
-# above function 
+# Driver code 
 number1=int(input("Enter 1st Number:"))
 number2=int(input("Enter 2nd Number:"))
 russianPeasant(number1,number2) 

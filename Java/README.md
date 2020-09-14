@@ -80,12 +80,15 @@ _add list here_
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 - [Double Factorial](math/DoubleFactorial.java)
 
-
 ## Dynamic Programming
-* [Kandane Algorithm](dp/Kadane_Algorithm.java)
-* [Longest common subsequence](dp/LCS.java)
+
+- [Kandane Algorithm](dp/Kadane_Algorithm.java)
+- [Longest common subsequence](dp/LCS.java)
+
 ## Blockchain
+
 _add list here_
+
 ## Searching
 
 - [Binary Search](search/Binary_search.java)

@@ -1,11 +1,11 @@
 C:
-  - "(C|c)"
+  - "( C )"
 C-Plus-Plus:
   - "(C-Plus-Plus|CPP|cpp)"
 C-Sharp:
   - "(C-Sharp|csharp|C#)"
 Go:
-  - "(Go|GO|GOLANG|Golang|go|golang)"
+  - "(Go|GO|Golang)"
 Java:
   - "(Java|java)"
 JavaScript:
@@ -15,4 +15,4 @@ Python:
 Q-Sharp:
   - "(Q-Sharp|qsharp|Q#)"
 enhancement:
-  - "(enhancement|feature)"
+  - "(enhancement)"

@@ -9,7 +9,6 @@
 
 # Codes in the Python language
 
-
 ## Blockchain
 
 _add list here_
@@ -69,11 +68,11 @@ _add list here_
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z Algorithm](search/Z_Algorithm_HakinCode.py)
 
-
 ## Sorting
 
 - [Bead Sort](sort/Bead_Sort.py)
 - [Bubble Sort](sort/Bubble_Sort.py)
+- [Cocktail Sort](sort/cocktail_sort.py)
 - [Heap Sort](sort/Heap_sort.py)
 - [Insertion Sort](sort/insertion.py)
 - [Merge Sort](sort/Merge_Sort.py)
@@ -86,7 +85,6 @@ _add list here_
 - [Pancake Sort](sort/pancakesorting.py)
 - [2-D Matrix Sort](sort/Matrix_Sort.py)
 - [Shell Sort](sort/Shell_Sort.py)
-
 
 ## Graphs
 
@@ -122,7 +120,6 @@ _add list here_
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 - [Euler’s Totient Function](math/euler_totient_function.py)
 
-
 ## Blockchain
 
 _add list here_
@@ -138,17 +135,14 @@ _add list here_
 - [Target sum triplet](cp/Target_Sum_Triplet.py)
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
 
-
 ## Cryptography
 
 - [Affine cipher](cryptography/AffineCipher.py)
 - [Caesar Cipher](cryptography/Caesar_Cipher.py)
 
-
 ## Dynamic Programming
 
 _add list here_
-
 
 ## Other
 

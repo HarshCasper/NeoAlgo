@@ -28,3 +28,7 @@ class Longest_Common_Prefix{
 //encourage encoder enchant
 
 //Longest Common Prefix : enc
+
+//Complexities
+// Time: O(n^2)
+// Space: O(n)

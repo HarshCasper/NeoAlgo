@@ -113,6 +113,7 @@ _add list here_
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Target sum triplets](cp/target_sum_triplets.cpp)
 - [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
+- [String to int(atoi)](cp/string_to_int.cpp)
 - [Container with most water](Container_with_most_water.cpp)
 - [Spiral-Matrix](cp/Spiral_Matrix.cpp)
 

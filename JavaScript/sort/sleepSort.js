@@ -7,14 +7,14 @@ Drawbacks and constraints of sleepSort:
 2. It might not be very useful in case of large integers in the array as large integers could cause a long duartion timeout. 
 */
 
-let numbers = [10,50,3,7,1,75];
+let numbers = [10, 50, 3, 7, 1, 75];
 
 console.log("Sorted Array : ");
-numbers.forEach(num => {
-
-// Here creating timeout of duration  = element of array
-  setTimeout(() => {console.log(num)}, num)     
-
+numbers.forEach((num) => {
+  // Here creating timeout of duration  = element of array
+  setTimeout(() => {
+    console.log(num);
+  }, num);
 });
 
 // Output : 1 3 7 10 50 75
@@ -26,14 +26,14 @@ multiply the timeout with some constant e.g. 2*num or 3*num, but this can cause 
 for some large elements of the array.
 */
 
-let numbers2 = [10,50,3,7,1,75,0];
+let numbers2 = [10, 50, 3, 7, 1, 75, 0];
 
 console.log("Sorted Array : ");
-numbers2.forEach(num => {
-
-// Here creating timeout of duration  = 2 * element of array 
-  setTimeout(() => {console.log(num)}, 2*num)     
-
+numbers2.forEach((num) => {
+  // Here creating timeout of duration  = 2 * element of array
+  setTimeout(() => {
+    console.log(num);
+  }, 2 * num);
 });
 
 // Output : 0 1 3 7 10 50 75

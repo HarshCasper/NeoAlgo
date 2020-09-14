@@ -122,4 +122,5 @@ _add list here_
 - [Longest substring without repeating character](other/longest_Substring.py)
 - [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
+- [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
 - [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)

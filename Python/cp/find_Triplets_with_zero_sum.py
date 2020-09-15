@@ -74,12 +74,12 @@ if __name__ == "__main__":
 
 '''
 SAMPLE INPUT 1 :
-	Enter size of array : 5 
-	Enter elements of array : 0, -1, 2, -3, 1
+    Enter size of array : 5 
+    Enter elements of array : 0, -1, 2, -3, 1
 OUTPUT :
-	Triplets with 0 sum are as : 
-				    -3 1 2
-				    -1 0 1
+    Triplets with 0 sum are as : 
+                    -3 1 2
+                    -1 0 1
 
 COMPLEXITY ANALYSIS :
 

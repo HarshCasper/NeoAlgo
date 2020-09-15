@@ -9,6 +9,31 @@
 
 # Codes in the C language
 
+## CP
+
+- [Activity Selection](cp/Activity_selection.c)
+- [Anagram Program](cp/anagram_program.c)
+- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
+- [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Sum of Triplet](cp/sum_of_triplet.c)
+
+- [Binary Search](search/BinarySearch.c)
+- [Linear Search](search/linear_search.c)
+- [Random Search Monte Carlo version](search/random_search.c)
+- [Randomized_selection_algorithm](search/randomized_selection_algorithm.c)
+
+## Cryptography
+
+- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
+- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
+
+- [Bubble Sort](sort/bubble_sort.c)
+- [Insertion Sort](sort/InsertionSort.c)
+- [Merge Sort](sort/MergeSort.c)
+- [OddEven Sort](sort/oddevensort.c)
+- [Selection Sort](sort/selection_sort.c)
+- [Merge Sort in O(1) space complexity](<sort/mergesort_in_O(1)_space_complexity.c>)
+
 ## Data Structures
 
 - [Fenwick Tree](ds/FenwickTree.c)

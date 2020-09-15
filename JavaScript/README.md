@@ -17,35 +17,43 @@
 - [Stack](./ds/Stack.js)
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 
-
 ## Searching
-* [Linear Search](./search/linear_search.js)
-* [Binary Search](./search/binary_search.js)
-* [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
+
+- [Linear Search](./search/linear_search.js)
+- [Binary Search](./search/binary_search.js)
+- [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
 
 ## Sorting
-* [Bubble Sort](./sort/BubbleSort.js)
-* [Insertion Sort](./sort/insertion_sort.js)
-* [Sleep Sort](./sort/sleepSort.js)
+
+- [Bubble Sort](./sort/BubbleSort.js)
+- [Insertion Sort](./sort/insertion_sort.js)
+- [Sleep Sort](./sort/sleepSort.js)
 
 ## Machine Learning
+
 _add list here_
 
 ## Mathematics
-* [Count Number of Digits in an Integer](./math/CountDigits_Integer.js)
-* [Double Factorial](./math/DoubleFactorial.js)
+
+- [Count Number of Digits in an Integer](./math/CountDigits_Integer.js)
+- [Double Factorial](./math/DoubleFactorial.js)
 
 ## Dynamic Programming
+
 _add list here_
 
 ## Blockchain
+
 _add list here_
 
 ## Searching
+
 _add list here_
 
 ## Cryptography
+
 _add list here_
 
 ## Other
+
 _add list here_

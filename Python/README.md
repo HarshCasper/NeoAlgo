@@ -230,6 +230,7 @@ _add list here_
 - [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 - [Target sum triplet](cp/Target_Sum_Triplet.py)
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
 
 ## Cryptography
 

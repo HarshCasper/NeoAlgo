@@ -41,22 +41,22 @@ for i in range(size):
 
 '''
 Sample I/O:
-	Input: 
-	Enter Size: 5
-	Enter Elements: 
-	5
-	4
-	3
-	2
-	1
+    Input: 
+    Enter Size: 5
+    Enter Elements: 
+    5
+    4
+    3
+    2
+    1
 
-	Output:
-	Sorted Array:
-	1
-	2
-	3
-	4
-	5
+    Output:
+    Sorted Array:
+    1
+    2
+    3
+    4
+    5
 
 Time Complexity: O(n^2)
 Space Complexity: O(1)

@@ -216,4 +216,5 @@ _add list here_
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
+- [Russian Peasant Algorithm](cp/RussianPeasant.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)

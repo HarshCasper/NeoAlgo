@@ -89,6 +89,7 @@
 * [Anagram Checker](cp/anagram_checker.py)
 * [Target sum triplet](cp/Target_Sum_Triplet.py)
 * [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+* [Check for Subsequence](cp/Subsequence_check.py)
 
 ## Dynamic Programming
 _add list here_

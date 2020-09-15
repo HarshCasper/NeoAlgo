@@ -107,3 +107,4 @@ _add list here_
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
 * [Longest substring without repeating character](other/longest_Substring.py)
 * [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
+* [Check for Subsequence](other/sebsequence_check.py)

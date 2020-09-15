@@ -1,30 +1,30 @@
 #### Level Order Traversal of a Tree
 
 class TreeNode:
-	def __init__(self, val):
-		self.val = val
-		self.left = None
-		self.right = None
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
 
 
 class Tree:
-	def __init__(self, root):
-		self.root = TreeNode(root)
+    def __init__(self, root):
+        self.root = TreeNode(root)
 
 
-	def level_order_traversal(self, root):
-		nodes_visited = [root]
-		path = ''
-		while len(nodes_visited) > 0:
-			node = nodes_visited.pop(0)
-			if node.left:
-				nodes_visited.append(node.left)
-			if node.right:
-				nodes_visited.append(node.right)
+    def level_order_traversal(self, root):
+        nodes_visited = [root]
+        path = ''
+        while len(nodes_visited) > 0:
+            node = nodes_visited.pop(0)
+            if node.left:
+                nodes_visited.append(node.left)
+            if node.right:
+                nodes_visited.append(node.right)
 
-			path += str(node.val) + ' '
+            path += str(node.val) + ' '
 
-		return path
+        return path
 
 
 #### Creating a tree of the following structure:-

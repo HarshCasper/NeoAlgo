@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Function that returns true if
+// Function that returns Yes if
 // the array is mirror-inverse
 bool mirror_inverse(int arr[], int n)
 {
@@ -15,7 +15,6 @@ bool mirror_inverse(int arr[], int n)
 	}
 	return true;
 }
-
 int main()
 {
 		int n;
@@ -25,20 +24,21 @@ int main()
 		int k;
 		for(int j=0;j<n;j++)
                 {
-
-                     cout<<"enter elements "<< j <<" of array";
-                     cin>>k;
-                     arr[j]=k;
+                     cin >> arr[j];
                 }
 		if (mirror_inverse(arr,n))
-			cout << "My Array is Mirror inverse";
+			cout << "Yes";
 		else
-			cout << "My Array is not Mirror inverse";
+			cout << "No";
 		return 0;
+}
+
+
+
 /*
 Enter size of array
 5
-Sample Input -
+Input - 
 enter elements 0 of array
 4
 enter elements 1 of array
@@ -49,7 +49,7 @@ enter elements 3 of array
 1
 enter elements 4 of array
 0
-My output of my sample input 
-My Array is Mirror inverse
+Output - Yes
+
 */
-}
+

@@ -37,18 +37,18 @@ class Tree:
 
     # Iterative function to perform in-order traversal of the tree
     def inorderIterative(self,root):
-	    stack = []
-	    curr = root
-	    while stack or curr:
+        stack = []
+        curr = root
+        while stack or curr:
         # if current node is not null, push it to the stack
-		    if curr:
-		    	stack.append(curr)
-		    	curr = curr.left
-		    else:
-			# else if current node is null, we pop an element from the stack,print it and finally set current node to its right child
-			    curr = stack.pop()
-			    print(curr.data, end=' ')
-			    curr = curr.right
+            if curr:
+                stack.append(curr)
+                curr = curr.left
+            else:
+            # else if current node is null, we pop an element from the stack,print it and finally set current node to its right child
+                curr = stack.pop()
+                print(curr.data, end=' ')
+                curr = curr.right
 print("Enter the input in the sequence :- root.val root->left root->right (enter null if empty)")
 NodesArray = list(input().split(' '))
 InOrdertree = Tree()

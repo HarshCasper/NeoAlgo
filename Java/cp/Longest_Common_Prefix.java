@@ -22,13 +22,13 @@ class Longest_Common_Prefix{
     }
 }
 
-//sample input and output:
+/*sample input and output:
 
-//Enter strings
-//encourage encoder enchant
+Enter strings
+encourage encoder enchant
 
-//Longest Common Prefix : enc
+Longest Common Prefix : enc
 
-//Complexities
-// Time: O(n^2)
-// Space: O(n)
+Complexities
+Time: O(n^2)
+Space: O(n)*/

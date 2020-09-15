@@ -1,39 +1,39 @@
 #### Program to traverse a given tree in pre-order, in-order and post-order fashion.
 
 class TreeNode:
-	def __init__(self, val):
-		self.val = val
-		self.left = None
-		self.right = None
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
 
 
 class Tree:
-	def __init__(self, root):
-		self.root = TreeNode(root)
+    def __init__(self, root):
+        self.root = TreeNode(root)
 
-	def inorder_traversal(self, node, path):
-		if node:
-			path = self.inorder_traversal(node.left, path)
-			path += str(node.val) + ' '
-			path = self.inorder_traversal(node.right, path)
+    def inorder_traversal(self, node, path):
+        if node:
+            path = self.inorder_traversal(node.left, path)
+            path += str(node.val) + ' '
+            path = self.inorder_traversal(node.right, path)
 
-		return path
+        return path
 
-	def preorder_traversal(self, node, path):
-		if node:
-			path += str(node.val) + ' '
-			path = self.preorder_traversal(node.left, path)
-			path = self.preorder_traversal(node.right, path)
+    def preorder_traversal(self, node, path):
+        if node:
+            path += str(node.val) + ' '
+            path = self.preorder_traversal(node.left, path)
+            path = self.preorder_traversal(node.right, path)
 
-		return path
+        return path
 
-	def postorder_traversal(self, node, path):
-		if node:
-			path = self.postorder_traversal(node.left, path)
-			path = self.postorder_traversal(node.right, path)
-			path += str(node.val) + ' '
+    def postorder_traversal(self, node, path):
+        if node:
+            path = self.postorder_traversal(node.left, path)
+            path = self.postorder_traversal(node.right, path)
+            path += str(node.val) + ' '
 
-		return path
+        return path
 
 
 

@@ -1,4 +1,4 @@
-# python program Swap two nibbles in a byte 
+#Python Program to swap the two nibbles in a given byte.
 
 #function to swap nibbles
 def swapNibbles(number): 

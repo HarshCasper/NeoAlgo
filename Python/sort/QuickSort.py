@@ -8,7 +8,7 @@
 def partition(arr,low,high):
     '''
         The value of i is initialized to (low-1) since initially first element is swapped by itself 
-	Reason: no greater element has been encountered apart from itself
+    Reason: no greater element has been encountered apart from itself
     '''
     pivotElement = arr[high]
     i = (low - 1)
@@ -24,7 +24,7 @@ def partition(arr,low,high):
     arr[i + 1], arr[high] = arr[high], arr[i + 1]
     
     return(i + 1)
-	
+    
 '''
     This is the calling function that implements QuickSort algorithm, where:
     arr = input array given by user
@@ -40,9 +40,9 @@ def quickSort(arr,low,high):
         # Separately sort elements before partition and after partition
         quickSort(arr, low, pi-1)
         quickSort(arr, pi+1, high)
-	
+    
 
-# main function 	
+# main function     
 if __name__ == "__main__":
     n = int(input())
     arr = list(map(int, input().split()))

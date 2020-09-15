@@ -51,7 +51,7 @@ class Tree:
             root = root.right                
                                              
         return self.path
- 	
+    
 treeNodesArray = list(input().split(','))
 preOrdertree = Tree()
 preOrdertree.createTree(treeNodesArray)

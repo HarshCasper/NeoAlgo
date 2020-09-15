@@ -23,7 +23,6 @@ _add list here_
 
 ## Competitive programming
 
-
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
@@ -33,9 +32,18 @@ _add list here_
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 - [String to Int(atoi)](<cp/String_to_int(atoi).java>)
 - [Longest Common Prefix](cp/Longest_Common_Prefix.java)
-- [Spiral Matrix](cp/Spiral_Matrix.java)
-- [Container with Most water](Container_with_most_area.java)
-- [Remove Outer Most Parentheses](cp/Remove_Outermost_parentheses.java)
+
+* [Aggressive Cows](cp/AggressiveCows.java)
+* [Count The Reversals](cp/Count_The_Reversals.java)
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Spiral Matrix](cp/Spiral_Matrix.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+* [Container with Most water](Container_with_most_area.java)
+* [Remove Outer Most Parentheses](cp/Remove_Outermost_parentheses.java)
+* [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 
 ## Cryptography
 

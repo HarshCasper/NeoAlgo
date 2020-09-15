@@ -189,6 +189,7 @@ _add list here_
 ## Cryptography
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
+- [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 
 ## Competitive Programming
 
@@ -216,3 +217,4 @@ _add list here_
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
 - [Russian Peasant Algorithm](cp/RussianPeasant.cpp)
+- [Swap Two Nibbles](other/SwapTwoNibbles.cpp)

@@ -130,9 +130,17 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/riya-joshi-401"><img src="https://avatars0.githubusercontent.com/u/53979947?v=4" width="100px;" alt=""/><br /><sub><b>RIYA JOSHI</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=riya-joshi-401" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SayaniG371"><img src="https://avatars0.githubusercontent.com/u/55864408?v=4" width="100px;" alt=""/><br /><sub><b>SayaniG371</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=SayaniG371" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/kevin-patel-3ab844192/"><img src="https://avatars2.githubusercontent.com/u/42174390?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Patel</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=PatelKeviin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/gupta-piyush19"><img src="https://avatars0.githubusercontent.com/u/56182734?v=4" width="100px;" alt=""/><br /><sub><b>Piyush Gupta</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=gupta-piyush19" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/shubha028"><img src="https://avatars2.githubusercontent.com/u/56934420?v=4" width="100px;" alt=""/><br /><sub><b>shubha028</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=shubha028" title="Code">💻</a></td>
+    <td align="center"><a href="http://avinashranjan.tech"><img src="https://avatars2.githubusercontent.com/u/55796944?v=4" width="100px;" alt=""/><br /><sub><b>Avinash Kr. Ranjan</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=avinashkranjan" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/lipsamishra1609"><img src="https://avatars1.githubusercontent.com/u/60312522?v=4" width="100px;" alt=""/><br /><sub><b>Lipsa Mishra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=lipsamishra1609" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.codeworld.ml"><img src="https://avatars1.githubusercontent.com/u/47490316?v=4" width="100px;" alt=""/><br /><sub><b>Prashant Kumar Gupta</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=imPGupta" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->

@@ -241,6 +241,15 @@ _add list here_
 
 _add list here_
 
+* [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [KMP Algorithm](cp/KMP_Algorithm.py)
+* [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
+* [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+* [Anagram Checker](cp/anagram_checker.py)
+* [Target sum triplet](cp/Target_Sum_Triplet.py)
+* [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+* [Finding Least positive number](cp/findingLeastPositiveNumber.py)
+
 ## Other
 
 - [Check Inversion](other/Check_Inversion.py)

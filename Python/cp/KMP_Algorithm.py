@@ -48,7 +48,8 @@ def KMPSearch(pattern, text):
             j += 1
 
         if j == sizePattern:
-            print('Pattern found at ' + str(i - j + 1))  # print the pattern starting index
+            print('Pattern found at ' + str(i - j + 1))
+            # print the pattern starting index
             j = lps[j - 1]
         elif i < sizeText and pattern[j] != text[i]:
             if j != 0:

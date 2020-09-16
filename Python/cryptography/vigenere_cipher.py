@@ -1,17 +1,19 @@
 # Vigenere Cipher python code.
-# encrypting the message
+
+
 def encrypt(msg, key):
     cipher = ""
     n = len(key)
     i = 0
     for l in msg:
-        p = int(ord(l) + ord(key[i % n])) % 26  # finding the index of the character 
-        cipher += chr(p + ord('A'))  # to perform the shift with the key
+        # finding the index of the character
+        p = int(ord(l) + ord(key[i % n])) % 26
+        # to perform the shift with the key
+        cipher += chr(p + ord('A'))
         i += 1
     return cipher
 
 
-# decrypting the message
 def decrypt(cipher, key):
     msg = ""
     n = len(key)
@@ -40,5 +42,4 @@ Enter the plain All uppercase text: VIGENERECIPHER
 Enter the key All uppercase text: SECRET
 The encrypted text is:  NMIVRXJIEZTAWV
 The decrypted(original) text is:  VIGENERECIPHER
-
 '''

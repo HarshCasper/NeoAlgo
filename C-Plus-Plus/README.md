@@ -154,10 +154,9 @@ _add list here_
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
-  <<<<<<< HEAD
 - [Kosaraju's Algorithm](graphs/Kosaraju_Algorithm.cpp)
-- # [FloodFill Algorithm](graphs/FloodFill.cpp)
-  > > > > > > > master
+- [FloodFill Algorithm](graphs/FloodFill.cpp)
+
 
 ## Machine Learning
 
@@ -215,6 +214,8 @@ _add list here_
 
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
+- [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
+- [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Russian Peasant Algorithm](cp/RussianPeasant.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)

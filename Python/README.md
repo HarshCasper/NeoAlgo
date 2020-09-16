@@ -230,6 +230,7 @@ _add list here_
 - [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 - [Target sum triplet](cp/Target_Sum_Triplet.py)
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
 
 ## Cryptography
 
@@ -239,6 +240,15 @@ _add list here_
 ## Dynamic Programming
 
 _add list here_
+
+* [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+* [KMP Algorithm](cp/KMP_Algorithm.py)
+* [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
+* [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+* [Anagram Checker](cp/anagram_checker.py)
+* [Target sum triplet](cp/Target_Sum_Triplet.py)
+* [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+* [Finding Least positive number](cp/findingLeastPositiveNumber.py)
 
 ## Other
 
@@ -250,3 +260,4 @@ _add list here_
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
 - [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
+- [Swap Two Nibbles](other/Swap_two_nibbles.py)

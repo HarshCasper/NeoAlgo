@@ -31,86 +31,85 @@ Space Complexity:O(1)
 """
 
 
-#for row and column input
+# for row and column input
 
 
-ROW = int(input("Enter the number of rows:")) 
-COLUMN = int(input("Enter the number of columns:")) 
-  
-
-# Initialize matrix 
+ROW = int(input("Enter the number of rows:"))
+COLUMN = int(input("Enter the number of columns:"))
 
 
-matrix = [] 
-
-print("Enter the entries row wise:") 
-  
-# For user input 
+# Initialize matrix
 
 
-for i in range(ROW):          # A for loop for row entries 
-    a =[] 
-    for j in range(COLUMN):      # A for loop for column entries 
-         a.append(int(input())) 
-    matrix.append(a)        #taking input of arrays
+matrix = []
 
-  
-  #Initializing count =0 to count the number of zeros.
+print("Enter the entries row wise:")
 
-count = 0   
-
-#Calculates number of rows and columns present in given matrix  
+# For user input
 
 
-matrix_rows = len(matrix);  
-matrix_cols = len(matrix[0]);  
-   
-#Calculates the size of the array  
+for i in range(ROW):          # A for loop for row entries
+    a = []
+    for j in range(COLUMN):      # A for loop for column entries
+        a.append(int(input()))
+    matrix.append(a)        # taking input of arrays
 
-  
-size = matrix_rows * matrix_cols;  
-   
+# Initializing count = 0 to count the number of zeros.
 
-#Count all zero element present in matrix  
+count = 0
 
-for i in range(0, matrix_rows):  
-    for j in range(0, matrix_cols):  
-        if(matrix[i][j] == 0):  
-            count = count + 1;  
+# Calculates number of rows and columns present in given matrix
 
 
-#Sparse Matrix definition  
+matrix_rows = len(matrix)
+matrix_cols = len(matrix[0])
+
+# Calculates the size of the array
+
+
+size = matrix_rows * matrix_cols
+
+
+# Count all zero element present in matrix
+
+for i in range(0, matrix_rows):
+    for j in range(0, matrix_cols):
+        if(matrix[i][j] == 0):
+            count = count + 1
+
+
+# Sparse Matrix definition
 
 def sparse_matrix():
-    size = 0;
-    for i in range(ROW): 
-        for j in range(COLUMN): 
-            if (matrix[i][j] != 0): 
-                size += 1;
+    size = 0
+    for i in range(ROW):
+        for j in range(COLUMN):
+            if (matrix[i][j] != 0):
+                size += 1
 
-    matrix_rows, matrix_cols = (3, size) 
-    Print_Matrix = [[0 for i in range(matrix_cols)] for j in range(matrix_rows)] 
+    matrix_rows, matrix_cols = (3, size)
+    Print_Matrix = [[0 for i in range(matrix_cols)]
+                    for j in range(matrix_rows)]
 
     k = 0
-    for i in range(ROW): 
-        for j in range(COLUMN): 
-            if (matrix[i][j] != 0): 
-                Print_Matrix[0][k] = i 
-                Print_Matrix[1][k] = j 
-                Print_Matrix[2][k] = matrix[i][j] 
+    for i in range(ROW):
+        for j in range(COLUMN):
+            if (matrix[i][j] != 0):
+                Print_Matrix[0][k] = i
+                Print_Matrix[1][k] = j
+                Print_Matrix[2][k] = matrix[i][j]
                 k += 1
 
-    for i in Print_Matrix: 
+    for i in Print_Matrix:
         print(i)
 
 
 if(count == size):
-    print("Null Mtrix");
+    print("Null Mtrix")
 
-elif(count > (size/2)):  
-    print("Given matrix is a sparse matrix");
-    sparse_matrix()   
+elif(count > (size/2)):
+    print("Given matrix is a sparse matrix")
+    sparse_matrix()
 
-else:  
-    print("Given matrix is not a sparse matrix"); 
-    
+else:
+    print("Given matrix is not a sparse matrix")

@@ -41,9 +41,9 @@ for i in range(size):
 
 '''
 Sample I/O:
-    Input: 
+    Input:
     Enter Size: 5
-    Enter Elements: 
+    Enter Elements:
     5
     4
     3

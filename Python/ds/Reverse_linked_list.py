@@ -24,6 +24,7 @@ class LinkedList:
         while(temp):
             print(temp.data, end =" ")
             temp = temp.next
+        print()
 
 # creating a solution class to implement more methods on the Linked List
 class solution:
@@ -83,22 +84,35 @@ class solution:
 if __name__ == '__main__':
     llist = LinkedList()
     llist.head = Node(1)
+
+    #creating another linkedlist
+    llist1 = LinkedList()
+    llist1.head = Node(1)
     
     # takig array input using map and list
+    print("Enter the elements to be entered in Linked List :")
     arr = list(map(int,input().split()))
     
     # forging the linked list
     for i in arr:
         llist.append(i)
+        llist1.append(i)
+
+    print("Printing LinkedList : ")
     llist.printLL()
+
+    print("Printing LinkedList1 : ")
+    llist1.printLL()
     sol = solution()
     
     # recursive approach test
     llist2 = LinkedList()
-    llist2.head = sol.reverse_linked_recurive(llist.head)
+    llist2.head = sol.reverse_linked_recursive(llist.head)
+    print("Printing Reverse Linked List using recursive approach : ")
     llist2.printLL()
     
     # iterative approach test
     llist3 = LinkedList()
-    llist3.head = sol.reverse_linked_iterative(llist.head)
+    llist3.head = sol.reverse_linked_iterative(llist1.head)
+    print("Printing Reverse Linked List using iterative approach : ")
     llist3.printLL()

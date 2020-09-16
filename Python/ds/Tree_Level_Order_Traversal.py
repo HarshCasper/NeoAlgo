@@ -1,4 +1,5 @@
-#### Level Order Traversal of a Tree
+# Level Order Traversal of a Tree
+
 
 class TreeNode:
     def __init__(self, val):
@@ -10,7 +11,6 @@ class TreeNode:
 class Tree:
     def __init__(self, root):
         self.root = TreeNode(root)
-
 
     def level_order_traversal(self, root):
         nodes_visited = [root]
@@ -27,7 +27,7 @@ class Tree:
         return path
 
 
-#### Creating a tree of the following structure:-
+# Creating a tree of the following structure:-
 
 #      1
 #    /   \
@@ -37,18 +37,16 @@ class Tree:
 
 tree = Tree(1)
 
-tree.root.left  = TreeNode(2)
+tree.root.left = TreeNode(2)
 tree.root.right = TreeNode(3)
 
-tree.root.left.left   = TreeNode(4)
-tree.root.left.right  = TreeNode(5)
-tree.root.right.left  = TreeNode(6)
+tree.root.left.left = TreeNode(4)
+tree.root.left.right = TreeNode(5)
+tree.root.right.left = TreeNode(6)
 tree.root.right.right = TreeNode(7)
 
-#### Level Order Traversal
-#### In level order traversal, every node at the 
-#### same level is visited before moving on to the next.
+# Level Order Traversal
+# In level order traversal, every node at the
+# same level is visited before moving on to the next.
 
-print(tree.level_order_traversal(tree.root)) # Expected Output:- 1 2 3 4 5 6 7
-
-
+print(tree.level_order_traversal(tree.root))  # Expected Output:- 1 2 3 4 5 6 7

@@ -946,6 +946,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "belikesayantan",
+      "name": "Sayantan Paul",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53504602?v=4",
+      "profile": "https://github.com/belikesayantan",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mahimagoyalx",
+      "name": "Mahima Goyal",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/44669552?v=4",
+      "profile": "https://www.linkedin.com/in/mahimagoyal-/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",

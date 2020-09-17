@@ -125,6 +125,7 @@ _add list here_
 - [KMP Algorithm](cp/KMP_Algorithm.py)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 - [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
+- [Longest Common Prefix](cp/longest_Common_Prefix.py)
 - [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 - [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 - [Target sum triplet](cp/Target_Sum_Triplet.py)

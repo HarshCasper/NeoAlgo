@@ -160,3 +160,4 @@ _add list here_
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
+- [Unique 3](other/UniqueIII.java)

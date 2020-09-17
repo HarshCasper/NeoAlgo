@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
   int n;
@@ -7,10 +8,10 @@ int main() {
   for (int i = 0; i < n; ++i) {
   	scanf("%d", &arr[i]);
   }
-  bool f = 1;
+  bool f = true;
   for (int i = 0; i < n; ++i) {
   	if(arr[arr[i]] != i) {
-  		f = 0;
+  		f = false;
   	}
   }
   if(f)

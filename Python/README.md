@@ -262,3 +262,4 @@ _add list here_
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
 - [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
 - [Swap Two Nibbles](other/Swap_two_nibbles.py)
+- [Check for Subsequence](other/subsequence_check.py)

@@ -13,29 +13,22 @@
 
 - [Activity Selection](cp/Activity_selection.c)
 - [Anagram Program](cp/anagram_program.c)
-- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
-- [Max Sub Array Sum](cp/maxSubArraySum.c)
-- [Sum of Triplet](cp/sum_of_triplet.c)
-
 - [Binary Search](search/BinarySearch.c)
+- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Linear Search](search/linear_search.c)
+- [Max Sub Array Sum](cp/maxSubArraySum.c)
 - [Random Search Monte Carlo version](search/random_search.c)
-- [Randomized_selection_algorithm](search/randomized_selection_algorithm.c)
+- [Randomized selection algorithm](search/randomized_selection_algorithm.c)
+- [Sum of Triplet](cp/sum_of_triplet.c)
 
 ## Cryptography
 
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 
-- [Bubble Sort](sort/bubble_sort.c)
-- [Insertion Sort](sort/InsertionSort.c)
-- [Merge Sort](sort/MergeSort.c)
-- [OddEven Sort](sort/oddevensort.c)
-- [Selection Sort](sort/selection_sort.c)
-- [Merge Sort in O(1) space complexity](<sort/mergesort_in_O(1)_space_complexity.c>)
-
 ## Data Structures
 
+- [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
@@ -43,7 +36,6 @@
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
-- [Circular Linked List](ds/CircularLinkedList.c)
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 
@@ -58,14 +50,14 @@
 ## Sorting
 
 - [Bubble Sort](sort/bubble_sort.c)
-- [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
+- [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)
 - [Merge Sort in O(1) space complexity](<sort/mergesort_in_O(1)_space_complexity.c>)
 - [OddEven Sort](sort/oddevensort.c)
+- [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
-- [Matrix Sort](sort/MatrixSorting.c)
 
 ## Dynamic Programming
 
@@ -91,19 +83,6 @@ _add list here_
 
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
-
-## CP
-
-- [Activity Selection](cp/Activity_selection.c)
-- [Anagram Program](cp/anagram_program.c)
-- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
-- [Max Sub Array Sum](cp/maxSubArraySum.c)
-- [Sum of Triplet](cp/sum_of_triplet.c)
-
-## Cryptography
-
-- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
-- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 
 ## Blockchain
 

@@ -11,11 +11,11 @@
 
 ## Data Structures
 
-- [Linked List](./ds/LinkedList.js)
-- [Queue](./ds/Queue.js)
 - [AVL Tree](./ds/AVLTree.js)
-- [Stack](./ds/Stack.js)
+- [Linked List](./ds/LinkedList.js)
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
+- [Queue](./ds/Queue.js)
+- [Stack](./ds/Stack.js)
 
 ## Searching
 
@@ -39,6 +39,10 @@ _add list here_
 - [Count Number of Digits in an Integer](./math/CountDigits_Integer.js)
 - [Double Factorial](./math/DoubleFactorial.js)
 
+## Competitive Programming
+
+_add list here_
+
 ## Dynamic Programming
 
 _add list here_
@@ -52,6 +56,10 @@ _add list here_
 _add list here_
 
 ## Cryptography
+
+_add list here_
+
+## Graphs
 
 _add list here_
 

@@ -42,7 +42,7 @@ _add list here_
 
 ## Dynamic Programming
 
-_add list here_
+- [Stack](dp/stack.go)
 
 ## Machine Learning
 
@@ -60,8 +60,3 @@ _add list here_
 
 - [Binary Search](/search/binary_search.go)
 - [Linear Search](/search/linear_search.go)
-
-## Sorting
-
-- [Merge Sort Parallel](./sort/merge_sort_parallel.go)
-- [Merge Sort Sequantial](./sort/merge_sort_sequential.go)

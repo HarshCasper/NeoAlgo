@@ -48,4 +48,7 @@ public class UniqueIII {
  * Enter array elements:
  * 6 2 5 2 2 6 6
  * Unique number:5
+ *
+ * Time complexity: O(n)
+ * Space complexity: O(n)
  */

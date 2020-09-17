@@ -1,43 +1,42 @@
 #include <stdio.h>
-int doublefactorial(int n){
-    int res = 1;
-    for(int i=n;i>0;i-=2){
-    if(n==0 || n==1)
-        return res;
+
+int doublefactorial(int n) {
+  int res = 1;
+  for (int i = n; i > 0; i -= 2) {
+    if (n == 0 || n == 1)
+      return res;
     else
-         res = res*i;
-    }
+      res = res * i;
+  }
 
 }
 
-int recdoublefactorial(int n){
-    if(n==0 || n==1)
-        return 1;
-    else
-         return n*recdoublefactorial(n-2);
+int recdoublefactorial(int n) {
+  if (n == 0 || n == 1)
+    return 1;
+  else
+    return n * recdoublefactorial(n - 2);
+}
+
+int main() {
+  int n;
+  printf("Enter the number :");
+  scanf("%d", & n);
+  int k;
+  do {
+    printf("Enter the choice below :\n1.Iterative solution \n2.Recursive Solution \n3.Exit \n");
+    scanf("%d", & k);
+    switch (k) {
+    case 1:
+      printf("The Double Factorial is : %d\n", doublefactorial(n));
+      break;
+    case 2:
+      printf("The Double Factorial is : %d\n", recdoublefactorial(n));
+      break;
     }
+  } while (k != 3);
 
-
-int main()
-{
-    int n;
-    printf("Enter the number :");
-    scanf("%d",&n);
-    int k;
-    do{
-        printf("Enter the choice below :\n1.Iterative solution \n2.Recursive Solution \n3.Exit \n");
-        scanf("%d",&k);
-        switch(k){
-        case 1:
-        printf("The Double Factorial is : %d\n",doublefactorial(n));
-        break;
-        case 2:
-        printf("The Double Factorial is : %d\n",recdoublefactorial(n));
-        break;
-        }
-    }while(k!=3);
-    
-    return 0;
+  return 0;
 }
 
 /*

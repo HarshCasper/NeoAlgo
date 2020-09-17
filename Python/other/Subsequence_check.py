@@ -1,6 +1,6 @@
 # Take input for class TestCase
 print("Enter Number of TestCase :")
-testcase= int(input())
+testcase = int(input())
 # Iterate till TestCase
 for item in range(testcase):
     # Take input for str1 and str2

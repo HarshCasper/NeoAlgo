@@ -116,3 +116,12 @@ if __name__ == '__main__':
     llist3.head = sol.reverse_linked_iterative(llist1.head)
     print("Printing Reverse Linked List using iterative approach : ")
     llist3.printLL()
+
+    '''
+        Sample Input:   arr = [9,2,8,13,15]
+                        llist = [9,2,8,13,15]
+                        llist1 = [9,2,8,13,15]
+
+        Sample Output:  For recursive approach  15->13->8->2->9
+                        For iterative approach  15->13->8->2->9
+    '''

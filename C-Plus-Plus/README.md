@@ -209,6 +209,8 @@ _add list here_
 - [String to int(atoi)](cp/string_to_int.cpp)
 - [Container with most water](Container_with_most_water.cpp)
 - [Spiral-Matrix](cp/Spiral_Matrix.cpp)
+- [Check for Subsequence](cp/Check_for_Subsequence.cpp)
+
 
 ## Other
 

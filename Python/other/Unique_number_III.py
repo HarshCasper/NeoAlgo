@@ -32,6 +32,6 @@ Sample I/O:
     Uniuqe element:
     4
 
-Time Complexity: O(size)
+Time Complexity: O(size*size)
 Space Complexity:O(1)
 '''

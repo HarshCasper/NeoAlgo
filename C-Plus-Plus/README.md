@@ -211,7 +211,6 @@ _add list here_
 - [Spiral-Matrix](cp/Spiral_Matrix.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 
-
 ## Other
 
 - [String Rotation based on Queries](other/string_rotation.cpp)

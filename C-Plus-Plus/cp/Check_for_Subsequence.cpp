@@ -30,13 +30,14 @@ int main() {
 	return 0;
 }
 
-//Time Complexity: O(n)
+/*Time Complexity: O(n)
 
-//Input:
-//2
-//WGA AWRGNA
-//QBR EQVBA
+Input:
+2
+WGA AWRGNA
+QBR EQVBA
 
-//Output:
-//Yes, str1 is substring of str2
-//No, str1 is not substring of str2
+Output:
+Yes, str1 is substring of str2
+No, str1 is not substring of str2
+*/

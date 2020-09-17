@@ -236,6 +236,7 @@ _add list here_
 
 - [Affine cipher](cryptography/AffineCipher.py)
 - [Caesar Cipher](cryptography/Caesar_Cipher.py)
+- [Vigenere cipher](cryptography/vigenere_cipher.py)
 
 ## Dynamic Programming
 

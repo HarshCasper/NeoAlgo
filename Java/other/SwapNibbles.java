@@ -14,10 +14,10 @@ public class SwapNibbles {
     }
 
     private static int swapNibbles(int x) {
-        // (x & 0x0F) << 4 gives us the last 4 bits of the number and
-        // shifts it by 4 bits to the left.
-        // (x & 0xF0) >> 4 gives us the last 4 bits of the number and
-        // shifts it to right by 4 bits.
+        /* (x & 0x0F) << 4 gives us the last 4 bits of the number and
+        shifts it by 4 bits to the left.
+        (x & 0xF0) >> 4 gives us the last 4 bits of the number and
+        shifts it to right by 4 bits. */
         return ((x & 0x0F) << 4 | (x & 0xF0) >> 4);
     }
 }

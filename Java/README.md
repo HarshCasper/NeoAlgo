@@ -35,7 +35,6 @@ _add list here_
 - [Spiral Matrix](cp/Spiral_Matrix.java)
 - [String to Int(atoi)](<cp/String_to_int(atoi).java>)
 - [Longest Common Prefix](cp/Longest_Common_Prefix.java)
-
 * [Aggressive Cows](cp/AggressiveCows.java)
 * [Count The Reversals](cp/Count_The_Reversals.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)

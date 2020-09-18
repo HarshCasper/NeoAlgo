@@ -39,6 +39,7 @@ bool compare(pair<int,int> a,pair <int ,int> b)         //made compare function 
 int main() 
 {
 	int testcases;
+	
 	cout<<"Enter no. of Testcases:";                      //no.of test cases to be tested
 	cin>>testcases;
 

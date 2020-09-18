@@ -35,6 +35,7 @@ _add list here_
 - [Spiral Matrix](cp/Spiral_Matrix.java)
 - [String to Int(atoi)](<cp/String_to_int(atoi).java>)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
+- [Check for Subsequence](cp/CheckForSubSequence.java)
 
 ## Cryptography
 

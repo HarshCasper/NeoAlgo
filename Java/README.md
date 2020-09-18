@@ -45,7 +45,6 @@ _add list here_
 * [Target Sum Triplets](cp/target_sum_triplets.java)
 * [Container with Most water](Container_with_most_area.java)
 * [Remove Outer Most Parentheses](cp/Remove_Outermost_parentheses.java)
-* [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 
 ## Cryptography

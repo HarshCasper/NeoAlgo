@@ -14,6 +14,7 @@
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
+- [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
@@ -114,7 +115,6 @@ _add list here_
 
 ## Cryptography
 
-
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
 
 ## Competitive Programming
@@ -137,9 +137,9 @@ _add list here_
 - [String to int(atoi)](cp/string_to_int.cpp)
 - [Container with most water](Container_with_most_water.cpp)
 - [Spiral-Matrix](cp/Spiral_Matrix.cpp)
-
 - [Affine Substitution](cryptography/Affine_substitution_Cipher.cpp)
 - [Vignere Cipher](cryptography/Vigenere_Cipher.cpp)
+
 
 
 

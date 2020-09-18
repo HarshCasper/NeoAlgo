@@ -25,6 +25,7 @@
 
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
+- [Russian Peasant Algorithm](cryptography/Russian_Peasant_Algorithm.c)
 
 ## Data Structures
 

@@ -29,7 +29,7 @@ Sample I/O:
     1 1 1 4 2 2 2 3 3 3
 
     Output:
-    Uniuqe element:
+    Unique element:
     4
 
 Time Complexity: O(size*size)

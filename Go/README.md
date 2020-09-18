@@ -13,6 +13,17 @@
 
 _add list here_
 
+## Sorting
+
+* [Bubble Sort](./sort/bubbleSort.go)
+* [Counting Sort](./sort/countingSort.go)
+* [Insertion Sort](./sort/insertionSort.go)
+* [Merge Sort](./sort/mergeSort.go)
+* [Merge Sort Sequential](./sort/merge_sort_sequential.go)
+* [Merge Sort Parallel](./sort/merge_sort_parallel.go)
+* [Quick Sort](./sort/quickSort.go)
+* [Selection Sort](./sort/selectionSort.go)
+
 ## Competitive Programming
 
 - [Target Sum Triplets](./cp/target_sum_triplets.go)
@@ -31,7 +42,7 @@ _add list here_
 
 ## Dynamic Programming
 
-_add list here_
+- [Stack](dp/stack.go)
 
 ## Machine Learning
 
@@ -49,8 +60,3 @@ _add list here_
 
 - [Binary Search](/search/binary_search.go)
 - [Linear Search](/search/linear_search.go)
-
-## Sorting
-
-- [Merge Sort Parallel](./sort/merge_sort_parallel.go)
-- [Merge Sort Sequantial](./sort/merge_sort_sequential.go)

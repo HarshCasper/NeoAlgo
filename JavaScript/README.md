@@ -65,4 +65,4 @@ _add list here_
 
 ## Other
 
-_add list here_
+- [Remove outermost parenthesis](other/RemoveOuterParenthesis.js)

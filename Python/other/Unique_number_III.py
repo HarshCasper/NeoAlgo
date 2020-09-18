@@ -3,7 +3,7 @@
 # occurs only once. Find that unique element.
 
 
-def uniquee_element(array, size):
+def unique_element(array, size):
     for i in range(size):
         j = 0
         while(j < size):
@@ -19,8 +19,8 @@ def uniquee_element(array, size):
 print("Enter Elements:")
 array = input().split()
 size = len(array)
-print("Uniuqe element:")
-print(uniquee_element(array, size))
+print("Unique element:")
+print(unique_element(array, size))
 
 '''
 Sample I/O:

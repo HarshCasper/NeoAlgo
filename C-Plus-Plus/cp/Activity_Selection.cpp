@@ -24,6 +24,7 @@ Sample Output
 Explanation
 Person can only do 0th and 2nd activities.
 **/
+#include<bits/stdc++.h>
 #include<iostream>
 #include<algorithm>
 #include<utility>

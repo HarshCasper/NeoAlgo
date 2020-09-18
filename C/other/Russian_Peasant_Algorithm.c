@@ -31,5 +31,5 @@ Time Complexity: O(log2(max(no of digits in a, no of digits in b)))
 OUTPUT
 Enter the first number: 4
 Enter the second number: 5
-The product of the given number is 20
+The product of the given numbers is 20
 */

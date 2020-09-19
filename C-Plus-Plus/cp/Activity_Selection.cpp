@@ -24,6 +24,7 @@ Sample Output
 Explanation
 Person can only do 0th and 2nd activities.
 **/
+#include<bits/stdc++.h>
 #include<iostream>
 #include<algorithm>
 #include<utility>
@@ -38,6 +39,7 @@ bool compare(pair<int,int> a,pair <int ,int> b)         //made compare function 
 int main() 
 {
 	int testcases;
+	
 	cout<<"Enter no. of Testcases:";                      //no.of test cases to be tested
 	cin>>testcases;
 

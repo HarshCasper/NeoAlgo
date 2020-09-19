@@ -84,6 +84,7 @@ _add list here_
 ## Other
 
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
+- [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 
 ## Blockchain

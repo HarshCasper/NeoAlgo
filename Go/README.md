@@ -9,41 +9,54 @@
 
 # Codes in the Golang language
 
-## Data Structures
-* [Stack](./ds/Stack.go)
-* [Stack using Queue](./ds/stack_using_queue.go)
-* [Queue using Stack](./ds/queue_using_stack.go)
-* [Singly Linked List](./ds/singly_linked_list.go)
-* [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
+## Blockchain
 
-## Searching
-* [Binary Search](/search/binary_search.go)
-* [Linear Search](/search/linear_search.go)
+_add list here_
 
 ## Sorting
-* [Merge Sort Sequantial](./sort/merge_sort_sequential.go)
+
+* [Bubble Sort](./sort/bubbleSort.go)
+* [Counting Sort](./sort/countingSort.go)
+* [Insertion Sort](./sort/insertionSort.go)
+* [Merge Sort](./sort/mergeSort.go)
+* [Merge Sort Sequential](./sort/merge_sort_sequential.go)
 * [Merge Sort Parallel](./sort/merge_sort_parallel.go)
+* [Quick Sort](./sort/quickSort.go)
+* [Selection Sort](./sort/selectionSort.go)
+
+## Competitive Programming
+
+- [Target Sum Triplets](./cp/target_sum_triplets.go)
+
+## Cryptography
+
+_add list here_
+
+## Data Structures
+
+- [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
+- [Queue using Stack](./ds/queue_using_stack.go)
+- [Singly Linked List](./ds/singly_linked_list.go)
+- [Stack](./ds/Stack.go)
+- [Stack using Queue](./ds/stack_using_queue.go)
+
+## Dynamic Programming
+
+- [Stack](dp/stack.go)
 
 ## Machine Learning
+
 _add list here_
 
 ## Mathematics
-_add list here_
 
-## Competitive Programming
-* [Target Sum Triplets](./cp/target_sum_triplets.go)
+- [Karatsuba Multiplication](./math/karatsuba_multiplication.go)
 
-## Dynamic Programming
-_add list here_
+## Other
 
-## Blockchain
 _add list here_
 
 ## Searching
-_add list here_
 
-## Cryptography
-_add list here_
-
-## Other
-_add list here_
+- [Binary Search](/search/binary_search.go)
+- [Linear Search](/search/linear_search.go)

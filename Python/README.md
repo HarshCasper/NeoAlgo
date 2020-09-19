@@ -132,7 +132,4 @@ _add list here_
 - [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
 - [Swap Two Nibbles](other/Swap_two_nibbles.py)
 - [Unique Number III](other/Unique_number_III.py)
-- [Check for Subsequence](other/subsequence_check.py)
-- [Satellite Image analysis using Numpy](other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)
 - [Subsequence check](other/Subsequence_check.py)
-- [Swap 2 nibbles](other/Swap_two_nibbles.py)

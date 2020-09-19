@@ -28,6 +28,7 @@ public class Euler_Totient {
 		System.out.println("\nThe euler totient function for " + n + " is " + ans);
 
 		//This gives euler totient function from 1 to N
+		// Time Complexity: O(N loglogN) - same as Sieve of Eratosthenes
 		int phi[] = new int[n + 1];
 		for (int i = 0; i <= n; ++i) {
 			phi[i] = i;
@@ -47,7 +48,6 @@ public class Euler_Totient {
 }
 
 /*
-Time Complexity: O(N loglogN)
 OUTPUT
 Enter an integer: 10
 The euler totient function for 10 is: 4

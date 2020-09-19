@@ -132,3 +132,4 @@ _add list here_
 - [Satellite Image analysis using Numpy](other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)
 - [Subsequence check](other/Subsequence_check.py)
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
+- [Find leftmost non repeating character](other/left_nonRepeating_char.py)

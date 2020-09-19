@@ -117,23 +117,6 @@ _add list here_
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 
-<<<<<<< HEAD
-## Competitive Programming
-
-- [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
-- [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
-- [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
-- [Maximum in Array](cp/Maximum_In_Array.cpp)
-- [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
-- [Target sum triplets](cp/target_sum_triplets.cpp)
-- [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
-- [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
-- [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
-- [Check whether two strings are anagrams or not](cp/check_anagrams.cpp)
-- [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
-- [ActivitySelection](cp/Activity_Selection.cpp)
-=======
->>>>>>> master
 ## Other
 
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)

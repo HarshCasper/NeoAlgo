@@ -16,11 +16,11 @@ int main() {
 	scanf("%d", &b);
 	int ans = 0;
 	while(b) {
-		if (b%2) {
+		if (b % 2) {
 			ans += a;
 		}
-		a*=2;
-		b/=2;
+		a *= 2;
+		b /= 2;
 	}
 	printf("\nThe product of the given number is %d\n", ans);
 	return 0;

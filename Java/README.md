@@ -75,9 +75,10 @@ _add list here_
 ## Mathematics
 
 - [Count Number Of Digits](math/countDigits)
-  - [Iterative](countDigits/iterative.java)
-  - [Recursive](countDigits/recursive.java)
-  - [String Method](countDigits/stringmethod.java)
+- [Euler's Totient Function](math/Euler's_Totient_function.java)
+- [Iterative](math/countDigits/iterative.java)
+- [Recursive](math/countDigits/recursive.java)
+- [String Method](math/countDigits/stringmethod.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)
 - [Complex numbers](math/Complex.java)
 - [Double Factorial](math/DoubleFactorial.java)
@@ -129,5 +130,6 @@ _add list here_
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)

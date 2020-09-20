@@ -44,6 +44,10 @@ Stack_using_LinkedList.cpp
 - [Counting Sort](sort/countsort.cpp)
 - [TimSort](sort/Tim_Sort.cpp)
 
+## Cryptography
+
+- [Encryption Using Trees](cryptography/Encryption_using_Trees.cpp)
+
 ## Queue
 
 - [Queue using linked list](ds/QueueLinkedList.cpp)

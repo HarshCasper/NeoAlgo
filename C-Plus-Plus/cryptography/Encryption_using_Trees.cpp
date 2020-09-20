@@ -171,3 +171,22 @@ string level_order_trav(Node *root) {
 string convert_tree_to_string (Node *root) {
   return level_order_trav(root);
 }
+
+/*
+
+OUTPUT : 
+Enter 1 to get encrypted key
+Enter 2 to get decrypted key
+Enter 3 to exit
+1
+Enter Text : mohitkuamr
+Encrypted_key : olpzl}pwh{
+
+Enter 1 to get encrypted key
+Enter 2 to get decrypted key
+Enter 3 to exit
+2
+Enter Text : olpzl}pwh{
+Decrypted_key : mohitkuamr
+
+*/

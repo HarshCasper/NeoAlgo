@@ -59,4 +59,4 @@ _add list here_
 
 ## Other
 
-- [Swap Two Nibbles](other/Swap two nibbles.c)
+- [Swap Two Nibbles](other/Swap_two_nibbles.c)

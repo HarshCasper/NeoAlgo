@@ -1,7 +1,7 @@
 /* Author : Mohit Kumar
 
    Encryption Algorithim Using Trees
-
+   how this algorthim works visit : https://ibb.co/x6ycbbM
 */
 
 #include<bits/stdc++.h>

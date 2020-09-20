@@ -14,7 +14,7 @@ int main()
     printf(" Enter a number : \n");
     scanf("%d",&num);
     int result = swapnibbles(num);
-    printf(" %d\n",result);
+    printf("output is  %d\n",result);
 }
 
 /*

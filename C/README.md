@@ -59,4 +59,4 @@ _add list here_
 
 ## Other
 
-_add list here_
+- [Check for subsequence](other/check_for_subsequence.c)

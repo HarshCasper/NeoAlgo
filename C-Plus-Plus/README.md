@@ -93,4 +93,4 @@ _add list here_
 
 ## Other
 
-- [Rat in a Maze](cp/ratinamaze.cpp)
+- [Rat in a Maze](other/ratinamaze.cpp)

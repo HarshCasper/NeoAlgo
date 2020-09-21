@@ -91,6 +91,7 @@ _add list here_
 
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
+- [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
 
 ## Blockchain
 

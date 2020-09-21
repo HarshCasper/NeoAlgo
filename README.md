@@ -40,7 +40,6 @@ Make sure your code works before submitting it :D
 
 **PLEASE READ THIS**
 
-
 - Your files should be uploaded directly into the corresponding folder (e.g. if you wrote code for a Data Structure in Python, it goes inside the DS folder within the Python folder and so on)
 - Edit the corresponding _README.md_ file to **add the link to your code in the corresponding section** ([GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/))
 - **Under no circumstances create new folders within the language folders to upload your code unless specifically told to do so**.

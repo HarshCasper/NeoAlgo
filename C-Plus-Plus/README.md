@@ -92,3 +92,5 @@ _add list here_
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
 
 ## Other
+
+- [Rat in a Maze](cp/ratinamaze.cpp)

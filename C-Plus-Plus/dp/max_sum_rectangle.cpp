@@ -73,6 +73,7 @@ Enter matrix elements:
 -4 -1 1 7 -6                                                                                                                  
 Maximum Sum is: 29  
 
-Time Complexity: O(n^3) 
+Time Complexity: O(cols^2 * rows) 
+Space Compleity: O(rows)
 */
 

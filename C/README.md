@@ -12,6 +12,7 @@
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
+- [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
 - [Anagram Program](cp/anagram_program.c)
 - [Binary Search](search/BinarySearch.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
@@ -87,7 +88,12 @@ _add list here_
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
+- [Check for subsequence](other/check_for_subsequence.c)
+- [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
 
 ## Blockchain
 
 _add list here_
+
+
+

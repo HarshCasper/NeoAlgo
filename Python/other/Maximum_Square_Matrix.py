@@ -11,8 +11,8 @@ def MaxSquare(mat):
             temp[i][j] = mat[i][j]
             # checking if it is not a corner case:
             if i > 0 and j > 0 and mat[i][j] == 1:
-                temp[i][j] = min(temp[i][j - 1], temp[i - 1][j], temp[i - 1][j - 1])
-                temp[i][j] += 1
+                temp[i][j] = min(temp[i][j - 1], temp[i - 1][j])
+                temp[i][j] = min(temp[i][j], temp[i - 1][j - 1]) + 1
             # for finding max size of square mat
             if ans < temp[i][j]:
                 ans = temp[i][j]

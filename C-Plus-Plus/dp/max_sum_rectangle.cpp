@@ -8,7 +8,7 @@ int kadane(int* arr, int n){
         curr_sum += arr[i];
         if(best_sum < curr_sum){
             best_sum = curr_sum;
-            flag=0;
+            flag = 0;
         }
         if(curr_sum < 0)
             curr_sum = 0;

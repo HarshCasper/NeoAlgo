@@ -145,6 +145,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ishi0301"><img src="https://avatars3.githubusercontent.com/u/53488394?v=4" width="100px;" alt=""/><br /><sub><b>Ishita Singh</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ishi0301" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/salonishah01"><img src="https://avatars3.githubusercontent.com/u/46890827?v=4" width="100px;" alt=""/><br /><sub><b>Saloni Shah</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=salonishah01" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/samyukta20"><img src="https://avatars3.githubusercontent.com/u/56357749?v=4" width="100px;" alt=""/><br /><sub><b>samyukta20</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=samyukta20" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.linkedin.com/in/sukriti-shah"><img src="https://avatars0.githubusercontent.com/u/37061039?v=4" width="100px;" alt=""/><br /><sub><b>Sukriti Shah</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=sukritishah15" title="Code">💻</a></td>
   </tr>
 </table>
 

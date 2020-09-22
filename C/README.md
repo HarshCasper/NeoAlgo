@@ -21,6 +21,8 @@
 - [Random Search Monte Carlo version](search/random_search.c)
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
+- [Calculate Double Factorial](cp/doublefactorial.c)
+
 
 ## Cryptography
 

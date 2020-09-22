@@ -51,4 +51,4 @@ _add list here_
 
 ## Other
 
-_add list here_
+- [Unique Number III](other/Unique_Number_III.cs)

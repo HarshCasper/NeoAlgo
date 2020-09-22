@@ -106,8 +106,9 @@ _add list here_
 - [Fibonacci top to bottom](dp./../dp/fibonacci_top_down.cpp)
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
-- [String permutations](dp/string_permutations.cpp)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
+- [String permutations](dp/string_permutations.cpp)
+
 
 ## Blockchain
 

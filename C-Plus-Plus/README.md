@@ -24,6 +24,7 @@
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
@@ -115,24 +116,6 @@ _add list here_
 ## Cryptography
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
-
-## Competitive Programming
-
-- [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
-- [Check whether two strings are anagrams or not](cp/check_anagrams.cpp)
-- [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
-- [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
-- [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
-- [Intersection Point of Y shaped LinkedList](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
-- [Infix to Postfix](C-Plus-Plus/cp/infix_to_postfix.cpp)
-- [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
-- [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
-- [Maximum in Array](cp/Maximum_In_Array.cpp)
-- [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
-- [Infix to Postfix](cp/infix_to_postfix.cpp)
-- [Target sum triplets](cp/target_sum_triplets.cpp)
-- [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
-- [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 
 ## Other

@@ -37,6 +37,7 @@
 - [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 - [Target sum triplet](cp/Target_Sum_Triplet.py)
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+- [Maximum sum rectangle] (cp/max_sum.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

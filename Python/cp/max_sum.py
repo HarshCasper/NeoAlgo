@@ -55,5 +55,5 @@ if __name__ == '__main__':
     result = max_sub_sub_rectangle(rectangle)
     assert 18 == result.maxSum
     print (result)
-    #Time complexity: O(n^3) or O(COL^2*ROW)
-    #Space Complexity: O(ROW)
+    # Time complexity: O(n^3) or O(COL^2*ROW)
+    # Space Complexity: O(ROW)

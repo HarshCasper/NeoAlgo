@@ -40,9 +40,9 @@ def max_sub_sub_rectangle(rectangle):
             for i in range(rows):
                 temp[i] += rectangle[i][right]
 
-            kadanes_result = kadanes(temp)
-            if kadanes_result.maxSum > result.maxSum:
-                result = Result(kadanes_result.maxSum, left, right, kadanes_result.start, kadanes_result.end)
+            kad_res = kadanes(temp)
+            if kad_res.maxSum > result.maxSum:
+                result = Result(kad_res.maxSum, left, right, kad_res.start, kada_res.end)
 
     return result
 
@@ -55,6 +55,6 @@ if __name__ == '__main__':
     result = max_sub_sub_rectangle(rectangle)
     assert 18 == result.maxSum
     print (result)
-    # Time complexity: O(n^3) or O(COL^2*ROW)
+    #Time complexity: O(n^3) or O(COL^2*ROW)
     #Space complexity:O(ROW)
     

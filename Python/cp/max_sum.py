@@ -57,3 +57,4 @@ if __name__ == '__main__':
     print (result)
     # Time complexity: O(n^3) or O(COL^2*ROW)
     # Space Complexity: O(ROW)
+    # Output :Result(maxSum=18, leftBound=1, rightBound=3, upBound=1, lowBound=3)

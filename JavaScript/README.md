@@ -9,6 +9,8 @@
 
 # Codes in the Javascript language
 
+## Algorithms
+- [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)
 ## Data Structures
 
 - [AVL Tree](./ds/AVLTree.js)
@@ -65,4 +67,4 @@ _add list here_
 
 ## Other
 
-_add list here_
+- [Remove outermost parenthesis](other/RemoveOuterParenthesis.js)

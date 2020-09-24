@@ -14,6 +14,7 @@
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
+- [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
@@ -29,6 +30,7 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [ActivitySelection](cp/Activity_Selection.cpp)
 
 ## Data Structures
 
@@ -105,7 +107,9 @@ _add list here_
 - [Fibonacci top to bottom](dp./../dp/fibonacci_top_down.cpp)
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
+- [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [String permutations](dp/string_permutations.cpp)
+
 
 ## Blockchain
 
@@ -113,8 +117,8 @@ _add list here_
 
 ## Cryptography
 
-- [Affine Substitution](cryptography/Affine_substitution_Cipher.cpp)
-- [Vignere Cipher](cryptography/Vigenere_Cipher.cpp)
+- [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
+- [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 
 ## Other
 

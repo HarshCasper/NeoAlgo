@@ -1,6 +1,6 @@
 import java.util.*;
 class Longest_Common_Prefix{
-    public String LongestCommonPrefixFn(String[] strs) {
+    public static String LongestCommonPrefixFn(String[] strs) {
         if(strs.length==0){
             return "";
         }
@@ -17,8 +17,7 @@ class Longest_Common_Prefix{
         System.out.println("Enter strings");
         String st = sc.nextLine();
         String[] arrOfStr = st.split(" ");
-        Longest_Common_Prefix lcp = new Longest_Common_Prefix();
-        System.out.println("Longest Common Prefix : "+lcp.LongestCommonPrefixFn(arrOfStr));
+        System.out.println("Longest Common Prefix : "+LongestCommonPrefixFn(arrOfStr));
     }
 }
 

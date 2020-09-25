@@ -62,6 +62,7 @@
 - [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
+- [Bucket Sort](sort/bucketSort.c)
 
 ## Dynamic Programming
 

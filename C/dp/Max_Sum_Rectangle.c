@@ -85,5 +85,5 @@ int main() {
  Maximum sumRectangle is : 29
  
  Time Complexity: O(cols^2 * rows) 
- Space Compleity: O(rows)
+ Space Complexity: O(rows)
  */

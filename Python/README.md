@@ -31,6 +31,7 @@
 - [Find Least positive number](cp/findingLeastPositiveNumber.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
 - [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
+- [Longest Common Prefix](cp/longest_Common_Prefix.py)
 - [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 - [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
 - [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)

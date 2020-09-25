@@ -3,22 +3,22 @@
 #include <string>
 using namespace std;
 
-// Partition the Set into two subsets Set1, Set2 such that the
-// difference between the sum of elements in Set1 and the sum
-// of elements in Set2 is minimized
+/* Partition the Set into two subsets Set1, Set2 such that the
+  difference between the sum of elements in Set1 and the sum
+  of elements in Set2 is minimized */
 int minPartition(int Set[], int n, int Set1, int Set2)
 {
-    // Case 0. If list becomes empty, return the absolute
-    // difference between two sets
+    /* Case 0. If list becomes empty, return the absolute
+       difference between two sets */
     if (n < 0)
         return abs(Set1 - Set2);
 
-    // Case 1. Include current item in the subset Se1 and recur
-    // for remaining items (n - 1)
+    /* Case 1. Include current item in the subset Se1 and recur
+       for remaining items (n - 1) */
     int inc = minPartition(Set, n - 1, Set1 + Set[n], Set2);
 
-    // Case 2. Exclude current item from subset Se1 and recur for
-    // remaining items (n - 1)
+    /* Case 2. Exclude current item from subset Se1 and recur for
+       remaining items (n - 1) */
     int exc = minPartition(Set, n - 1, Set1, Set2 + Set[n]);
 
     //Returning included and excluded values

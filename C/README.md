@@ -12,6 +12,7 @@
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
+- [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
 - [Anagram Program](cp/anagram_program.c)
 - [Binary Search](search/BinarySearch.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
@@ -20,6 +21,8 @@
 - [Random Search Monte Carlo version](search/random_search.c)
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
+- [Calculate Double Factorial](cp/doublefactorial.c)
+
 
 ## Cryptography
 
@@ -59,6 +62,7 @@
 - [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
+- [Bucket Sort](sort/bucketSort.c)
 
 ## Dynamic Programming
 

@@ -9,6 +9,8 @@
 
 # Codes in the Javascript language
 
+## Algorithms
+- [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)
 ## Data Structures
 
 - [AVL Tree](./ds/AVLTree.js)

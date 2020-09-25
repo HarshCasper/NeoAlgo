@@ -13,6 +13,7 @@
 
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
+- [Z-Algorithm](Algorithms/ZAlgorithm.java)
 
 ## Greedy Algorithms
 
@@ -33,7 +34,8 @@ _add list here_
 - [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 - [Remove Duplicate Element from an array without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 - [Spiral Matrix](cp/Spiral_Matrix.java)
-- [String to Int(atoi)](<cp/String_to_int(atoi).java>)
+- [String to Int(atoi)](cp/String_to_int.java>)
+- [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 
 ## Cryptography
@@ -91,6 +93,7 @@ _add list here_
 
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
+- [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
 
 ## Blockchain
 
@@ -128,6 +131,7 @@ _add list here_
 
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
+- [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [Sudoku solver](other/SudokuSolver.java)

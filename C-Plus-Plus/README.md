@@ -30,6 +30,7 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [ActivitySelection](cp/Activity_Selection.cpp)
 
 ## Data Structures
 
@@ -106,7 +107,9 @@ _add list here_
 - [Fibonacci top to bottom](dp./../dp/fibonacci_top_down.cpp)
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
+- [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [String permutations](dp/string_permutations.cpp)
+
 
 ## Blockchain
 

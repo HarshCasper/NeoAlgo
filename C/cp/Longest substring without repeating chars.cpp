@@ -1,20 +1,6 @@
 /* This code is submitted to NeoAlgo as a part of Contributors hack 2020
-Finding the longest substring without repeating characters having linear time Complexity O(n) and constant Space Complexity O(1)
+Finding the longest substring without repeating characters having linear time Complexity O(n) and constant Space Complexity O(1) */
 	
-Sample Input-output
-
-Input: abcbacbb
-Output: length of longest substring without repeating charecters: 3
-
-Input: Hackincodes
-Output: length of longest substring without repeating charecters: 7
-
-Input: ddddd
-Output: length of longest substring without repeating charecters: 1
-
-Input: 
-Output: length of longest substring without repeating charecters: 0  */
-
 
 #include <stdio.h>
 #include <conio.h>
@@ -66,10 +52,25 @@ int Lols(char str[], int len) //length of longest substring
 
 int main(void)
 {
-	char string[20]="dddddd";
-	int len=strlen(string);
-	printf ("Given Input Substring:"); 
-	printf("%s",string);				// length of the string
+	char string[20];
+	printf("Enter Input String:");
+	scanf("%[^\n]%*c", string); 
+	int len=strlen(string); 			// length of the string
 	printf("\nlength of longest substring without repeating characters: %d\n", Lols(string,len));
 }
+
+
+/* Sample Input-output
+
+Input: Enter Input String:abcbacbb
+Output: length of longest substring without repeating charecters: 3
+
+Input: Enter Input String:Hackincodes
+Output: length of longest substring without repeating charecters: 7
+
+Input: Enter Input String:ddddd
+Output: length of longest substring without repeating charecters: 1
+
+Input: Enter Input String:
+Output: length of longest substring without repeating charecters: 0  */
 

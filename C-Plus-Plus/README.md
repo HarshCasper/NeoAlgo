@@ -30,6 +30,7 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Painter Partition](cp/painter_partition.cpp)
 
 ## Data Structures
 

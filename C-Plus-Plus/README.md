@@ -110,6 +110,7 @@ _add list here_
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [String permutations](dp/string_permutations.cpp)
+- [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 
 
 ## Blockchain

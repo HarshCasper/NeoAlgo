@@ -13,7 +13,7 @@ public class RecursionCount {
         System.out.println("Number of occurrences of \"" + str2 + "\" in \"" + str1 + "\":" + countSubstring(str1, str2));
     }
 
-    private static int countSubstring(String str1, String str2) {
+    static int countSubstring(String str1, String str2) {
         // recursive function
         if(str1.contains(str2)) {
             return 1 + countSubstring(str1.replaceFirst(str2, ""), str2);

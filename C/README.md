@@ -89,6 +89,7 @@ _add list here_
 
 ## Other
 
+- [Find the Numbers](other/Find_the_numbers.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 

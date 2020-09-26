@@ -22,7 +22,7 @@
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
-
+- [Maximum Water Container](cp/Maximum_Container_with_water.c)
 
 ## Cryptography
 
@@ -99,6 +99,3 @@ _add list here_
 ## Blockchain
 
 _add list here_
-
-
-

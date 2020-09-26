@@ -94,6 +94,7 @@ _add list here_
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - [Check for subsequence](other/check_for_subsequence.c)
 - [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
+- [Sudoku Solver](other/SudokuSolver.c)
 
 ## Blockchain
 

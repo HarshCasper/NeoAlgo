@@ -109,6 +109,7 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
+- [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 

@@ -24,12 +24,14 @@
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [ActivitySelection](cp/Activity_Selection.cpp)
 
 ## Data Structures
 
@@ -106,7 +108,9 @@ _add list here_
 - [Fibonacci top to bottom](dp./../dp/fibonacci_top_down.cpp)
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
+- [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [String permutations](dp/string_permutations.cpp)
+
 
 ## Blockchain
 

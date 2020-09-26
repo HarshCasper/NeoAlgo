@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RecursionCount {
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first string:");
         String str1 = scanner.nextLine();

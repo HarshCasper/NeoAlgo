@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="../img/neo_algo.png"><br>
+    <img src="../../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
@@ -20,6 +20,7 @@
 | Count Triplets           | [Problem](https://www.hackerrank.com/challenges/count-triplets-1)                                                                                  | [Solution](CountTriplets.py)           | Python3  |
 | Counting Vallyes         | [Problem](https://www.hackerrank.com/challenges/counting-valleys/problem)                                                                          | [Solution](Counting_Valleys.py)        | Python3  |
 | DiagonalDifference       | [Problem](https://www.hackerrank.com/challenges/diagonal-difference)                                                                               | [Solution](DiagonalDifference.py)      | Python3  |
+| Find Angle MBC       | [Problem](https://www.hackerrank.com/challenges/find-angle/problem)                                                                               | [Solution](Find_Angle_MBS.py)      | Python3  |
 | FunnyString              | [Problem](https://www.hackerrank.com/challenges/funny-string/problem)                                                                              | [Solution](FunnyString.py)             | Python3  |
 | GradingStudents          | [Problem](https://www.hackerrank.com/challenges/grading/problem)                                                                                   | [Solution](GradingStudents.py)         | Python3  |
 | Mini-Max Sum             | [Problem](https://www.hackerrank.com/challenges/mini-max-sum)                                                                                      | [Solution](Mini-MaxSum.py)             | Python3  |

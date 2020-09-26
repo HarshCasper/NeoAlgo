@@ -5,28 +5,22 @@
 
 void findUniquePair(int arr[], int size) 
 { 
-	// XOR each element and get XOR of two unique 
-	// elements(ans) 
+	// XOR each element and get XOR of two unique elements(ans) 
 	int XOR = arr[0]; 
 	for (int i = 1; i < size; i++) 
 		XOR = XOR ^ arr[i]; 
-	
-	// Now XOR has XOR of two missing elements. Any set 
-	// bit in it must be set in one missing and unset in 
-	// other missing number 
 
 	// Get a set bit of XOR (We get the rightmost set bit) 
-	int set_bit_no = XOR & ~(XOR-1); 
+	int set_bit = XOR & ~(XOR-1); 
 
 	// Now divide elements in two sets by comparing rightmost 
-	// set bit of XOR with bit at same position in each element. 
 	int x = 0, y = 0; // Initialize missing numbers 
 	for (int i = 0; i < size; i++) 
 	{ 
-		if (arr[i] & set_bit_no) 
-			x = x ^ arr[i]; /*XOR of first set in arr[] */
+		if (arr[i] & set_bit)
+			x = x ^ arr[i]; //first unique number in arr[]
 		else
-			y = y ^ arr[i]; /*XOR of second set in arr[] */
+			y = y ^ arr[i]; //second unique number in arr[]
 	} 
 	if(x>y)
 		printf("Distinct Numbers are %d and  %d", y, x);
@@ -35,7 +29,6 @@ void findUniquePair(int arr[], int size)
 	
 } 
 
-// Driver code 
 int main() 
 { 
 	

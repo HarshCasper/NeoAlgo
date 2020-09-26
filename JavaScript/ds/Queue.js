@@ -36,7 +36,7 @@ class Queue {
       str.trim();
       return str;
     }
-    
+
     const iterated = [];
     for (let i of this.items) {
       iterated.push(callback(i));
@@ -50,26 +50,28 @@ class Queue {
 let arr = [10, 20, 30, 40, 50];
 let queue = new Queue();
 
-console.log('Empty size:', queue.size()) // Returns 0
+console.log("Empty size:", queue.size()); // Returns 0
 
-console.log('Is empty?', queue.isEmpty()); // Returns true
+console.log("Is empty?", queue.isEmpty()); // Returns true
 
-try { 
+try {
   console.log(queue.dequeue()); // Will throw an error
 } catch (err) {
-  console.error('Error for attemtping to dequeue empty queue:', err.message);
-} 
+  console.error("Error for attemtping to dequeue empty queue:", err.message);
+}
 
 // Add items in the queue
 for (let i of arr) {
   queue.enqueue(i);
 }
 
-console.log('Added values:', queue.iterate()); // Displays all elements in the queue.
+console.log("Added values:", queue.iterate()); // Displays all elements in the queue.
 
-console.log('Front:', queue.front()); // Returns 10
-console.log('Dequeue:', queue.dequeue()) // Removes 10 from the queue.
-console.log('New Front:', queue.front()); // Returns 20
+console.log("Front:", queue.front()); // Returns 10
+console.log("Dequeue:", queue.dequeue()); // Removes 10 from the queue.
+console.log("New Front:", queue.front()); // Returns 20
 
-
-console.log('Iterate with callback:', queue.iterate(element => element / 10)); // Maps the queue and returns an array.
+console.log(
+  "Iterate with callback:",
+  queue.iterate((element) => element / 10)
+); // Maps the queue and returns an array.

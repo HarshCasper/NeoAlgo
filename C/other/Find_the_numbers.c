@@ -1,6 +1,8 @@
 //Program to find the Unique numbers in an array out of which two numbers occur exactly once and are distinct.
 // You need to find the other two numbers and print them in ascending order.
 
+// Also Taken help from geeksforgeeks
+
 #include <stdio.h> 
 
 void findUniquePair(int arr[], int size) 

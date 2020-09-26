@@ -24,6 +24,7 @@
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
@@ -109,6 +110,7 @@ _add list here_
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [String permutations](dp/string_permutations.cpp)
+- [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 
 
 ## Blockchain
@@ -122,6 +124,7 @@ _add list here_
 
 ## Other
 
+- [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)

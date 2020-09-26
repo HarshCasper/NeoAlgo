@@ -37,6 +37,7 @@ _add list here_
 - [String to Int(atoi)](cp/String_to_int.java>)
 - [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
+- [Check for Subsequence](cp/CheckForSubSequence.java)
 
 ## Cryptography
 
@@ -91,9 +92,14 @@ _add list here_
 
 ## Dynamic Programming
 
+
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
+- [Kandane Algorithm](dp/Kadane_Algorithm.java)
+- [CoinChange DP](dp/Coin_Change.java) 
+- [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
+
 
 ## Blockchain
 

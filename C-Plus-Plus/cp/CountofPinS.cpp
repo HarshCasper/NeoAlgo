@@ -24,8 +24,10 @@ void check_p_in_s(string p, string s, int stri, int count){
 
 int main(){
     string p, s;
-    cin >> p;
+    cout << "Enter the main string";
     cin >> s;
+    cout << "Enter the string that you want to count in the main string";
+    cin >> p;
     check_p_in_s(p, s, 0, 0);
     return 0;
 }

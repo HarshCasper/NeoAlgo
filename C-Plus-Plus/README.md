@@ -109,6 +109,7 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
+- [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 
@@ -128,7 +129,9 @@ _add list here_
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
+- [Sudoku Solver](other/sudoku.cpp)
 - [Russian Peasant Algorithm](cp/RussianPeasant.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+

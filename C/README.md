@@ -24,7 +24,6 @@
 - [Calculate Double Factorial](cp/doublefactorial.c)
 - [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
 
-
 ## Cryptography
 
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
@@ -95,10 +94,8 @@ _add list here_
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - [Check for subsequence](other/check_for_subsequence.c)
 - [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
+- [Sudoku Solver](other/SudokuSolver.c)
 
 ## Blockchain
 
 _add list here_
-
-
-

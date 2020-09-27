@@ -84,6 +84,7 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 - [Prim's Algorithm](graphs/Prim_Algorithm.py)
 - [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
+- [Minimum swaps to sort a list](graphs/Minimum_swaps_to_sort_list.py)
 
 ## Machine Learning
 
@@ -147,4 +148,3 @@ _add list here_
 - [Subsequence check](other/Subsequence_check.py)
 
 - [Subsequence check](other/Subsequence_check.py)
-

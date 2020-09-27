@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool isSafeToPut(int mat[][10], int i, int j, int n, int number)
+bool isSafeToPut(int **mat, int i, int j, int n, int number)
 {
     // Check the rows and cols
     for (int k = 0; k < n; k++)
@@ -39,7 +39,7 @@ bool isSafeToPut(int mat[][10], int i, int j, int n, int number)
     return true;
 }
 
-bool SudokuSolver(int mat[][10], int i, int j, int n)
+bool SudokuSolver(int **mat, int i, int j, int n)
 {
     if (i == n)
     {
@@ -86,8 +86,15 @@ int main()
     int n;
     cout << "Enter size of square matrix: ";
     cin >> n;
-    int mat[10][10];
-    printf("Enter elements and type 0 for empty cells:\n");
+
+    int **mat = new int *[n];
+
+    //pointer initialization
+    for (int i = 0; i < n; i++)
+    {
+        mat[i] = new int[n];
+    }
+    cout << "Enter elements and type 0 for empty cells: " << endl;
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)

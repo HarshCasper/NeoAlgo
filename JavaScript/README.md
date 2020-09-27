@@ -11,6 +11,8 @@
 
 ## Algorithms
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)
+- [Z Algorithm](Algorithms/ZAlgorithm.js)
+
 ## Data Structures
 
 - [AVL Tree](./ds/AVLTree.js)

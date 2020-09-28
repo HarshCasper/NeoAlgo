@@ -19,17 +19,20 @@ def firstNotRepeatingCharacter(string):
 string = input("Enter a string: ")
 index = firstNotRepeatingCharacter(string) 
 if index is None: 
-    print('-1')
+    print('No non repeating character found. All the characters are repeating.')
 else: 
-    print(string.find(index)) 
+    ind = string.find(index)
+    print("Non Repeating character " + str(string[ind]) + " found at index " + str(ind)) 
     
 """
 Sample input 1:
 Input: "abaacd"
-Output: 1
+Output: Non Repeating character b found at index 1
+
 Sample input 2:
 Input:"aabbccdd"
-Output: -1
-Time Complexity: O(n**2) - n being the length of string
+Output: No non repeating character found. All the characters are repeating.
+
+Time Complexity: O(n*2) - n being the length of string
 Space Complexity: O(n)
     """

@@ -32,10 +32,10 @@ else:
 
 """
 Sample input 1:
-Input: "abaacd"
+Input: Enter a string : abaacd
 Output: Non Repeating character b found at index 1
 Sample input 2:
-Input:"aabbccdd"
+Input: Enter a string : aabbccdd
 Output: No non repeating character found. All the characters are repeating.
 Time Complexity: O(n*2) - n being the length of string
 Space Complexity: O(n)

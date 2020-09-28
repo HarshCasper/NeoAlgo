@@ -22,7 +22,7 @@
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
-- [Maximum Water Container](cp/Maximum_Container_with_water.c)
+- [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
 
 ## Cryptography
 

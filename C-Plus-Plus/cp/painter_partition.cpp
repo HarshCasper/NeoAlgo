@@ -1,5 +1,5 @@
 /*
-You have to paint N boards of length {A0, A1, A2, A3 … AN-1}. There are K 
+You have to paint N boards of length {A0, A1, A2, A3 â€¦ AN-1}. There are K 
 painters available and you are also given how much time a painter takes to
  paint 1 unit of board. You have to get this job done as soon as possible
  under the constraints that any painter will only paint contiguous sections
@@ -72,11 +72,11 @@ long int minimum_time(int* arr,int n ,int k,int t,long long int sum)
 			end=mid-1;
 		}
 		else
-        {
-            start=mid+1;
+                {
+                        start=mid+1;
+                }
         }
-    }
-    return (ans*t)%10000003;
+        return (ans*t)%10000003;
 }
 
 
@@ -87,9 +87,9 @@ int main()
 	cin>>n>>k>>t;
 	int* arr=new int[n];
 	for(int i=0;i<n;i++)
-    {
-		cin>>arr[i];
-        sum += arr[i];
+        {
+	       	cin>>arr[i];
+                sum += arr[i];
 	}
 	cout<<minimum_time(arr,n,k,t,sum);	
 	delete[] arr;

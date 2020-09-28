@@ -22,7 +22,7 @@
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
-- [Maximum Water Container](cp/Maximum_Container_with_water.c)
+- [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
 
 ## Cryptography
 
@@ -63,6 +63,7 @@
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
 - [Bucket Sort](sort/bucketSort.c)
+- [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 
 ## Dynamic Programming
 
@@ -89,6 +90,7 @@ _add list here_
 
 ## Other
 
+- [Find the Numbers](other/Find_the_numbers.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)

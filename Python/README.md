@@ -140,11 +140,7 @@ _add list here_
 - [Maximum Square Matrix with all 1's](other/Maximum_Square_Matrix.py)
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
-- [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
-- [Swap Two Nibbles](other/Swap_two_nibbles.py)
-
-- [Unique Number III](other/Unique_number_III.py)
+- [Satellite Image analysis using Numpy](other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)
+- [Swap 2 nibbles](other/Swap_two_nibbles.py)
+- [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
-
-- [Subsequence check](other/Subsequence_check.py)
-

@@ -34,7 +34,6 @@ will take 50 units of time to paint the second board. Since both can paint simul
 
 #include<iostream>
 #include <bits/stdc++.h>
-
 using namespace std;
 
 bool painters(int* arr,long long int maxtime,int n,int k)
@@ -57,7 +56,6 @@ bool painters(int* arr,long long int maxtime,int n,int k)
 	return true;
 }
 
-
 long int minimum_time(int* arr,int n ,int k,int t,long long int sum)
 {
 	long long int start = *max_element(arr, arr + n);
@@ -78,7 +76,6 @@ long int minimum_time(int* arr,int n ,int k,int t,long long int sum)
         }
         return (ans*t)%10000003;
 }
-
 
 int main()
 {

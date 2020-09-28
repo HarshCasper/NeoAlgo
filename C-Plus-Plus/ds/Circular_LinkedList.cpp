@@ -37,7 +37,7 @@ void insert(node *&head, int data) //pass by referance
     head = n;
 }
 
-//Creating a function the get the node to be deleted
+//Creating a function to get the node to be deleted
 node *getnode(node *head, int data) //pass ny value
 {
     node *temp = head;
@@ -96,16 +96,29 @@ void print(node *head)
 int main()
 {
     node *head = NULL;
-    insert(head, 1);
-    insert(head, 2);
-    insert(head, 3);
-    insert(head, 4);
-    insert(head, 5);
-    insert(head, 6);
+    cout << "Insertion in circular linkedlist" << endl;
+    int arr[100], arr2[100];
+    int n, n2;
+    cout << "enter the number of elements" << endl;
+    cin >> n;
+    for (int i = 0; i < n; i++)
+    {
+        cout << "enter element number " << i << "-" << endl;
+        cin >> arr[i];
+        insert(head, arr[i]);
+    }
+    cout << "Elements inserted" << endl;
     print(head);
 
-    del(head, 4);
-    del(head, 5);
+    cout << "enter the number of elements you want to delete" << endl;
+    cin >> n2;
+    for (int j = n2 - 1 + 1; j > 0; j--)
+    {
+        cout << "enter position of number " << endl;
+        cin >> arr2[j];
+        del(head, arr[j + 1]);
+    }
+
     print(head);
 
     return 0;
@@ -113,6 +126,28 @@ int main()
 
 /*
 OUTPUT
+Insertion in circular linkedlist
+enter the number of elements
+6
+enter element number 0-
+1
+enter element number 1-
+2
+enter element number 2-
+3
+enter element number 3-
+4
+enter element number 4-
+5
+enter element number 5-
+6
+Elements inserted
 6 -> 5 -> 4 -> 3 -> 2 -> 1
-6 -> 3 -> 2 -> 1
+enter the number of elements you want to delete
+2
+enter position of number 
+2
+enter position of number 
+3
+6 -> 5 -> 2 -> 1
 */

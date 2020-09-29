@@ -37,6 +37,7 @@
 ## Data Structures
 
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
+- [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)

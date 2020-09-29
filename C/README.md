@@ -24,6 +24,7 @@
 - [Calculate Double Factorial](cp/doublefactorial.c)
 - [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
 
+
 ## Cryptography
 
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
@@ -42,6 +43,7 @@
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
+- [Delete a linked list node function](ds/List_deletenode_func.c)
 
 ## Searching
 

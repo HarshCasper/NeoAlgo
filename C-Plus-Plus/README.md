@@ -32,12 +32,16 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Painter Partition](cp/painter_partition.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
 
 ## Data Structures
 
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
+- [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+- [Circular Linkedlist](ds/Circular_LinkedList.cpp)
+- [Singly Linked List](ds/singly_linked_list.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)

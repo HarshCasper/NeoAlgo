@@ -18,11 +18,12 @@
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Linear Search](search/linear_search.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Painter Partition Problem](cp/painter_partition.c)
 - [Random Search Monte Carlo version](search/random_search.c)
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
-- [Maximum Water Container](cp/Maximum_Container_with_water.c)
+- [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
 
 ## Cryptography
 
@@ -63,6 +64,7 @@
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
 - [Bucket Sort](sort/bucketSort.c)
+- [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 
 ## Dynamic Programming
 
@@ -70,6 +72,7 @@
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
+
 
 ## Graphs
 
@@ -89,9 +92,24 @@ _add list here_
 
 ## Other
 
+- [Find the Numbers](other/Find_the_numbers.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
+- [Remove outermost parentheses](other/remove_outermost_parentheses.c)
+
+## CP
+
+- [Activity Selection](cp/Activity_selection.c)
+- [Anagram Program](cp/anagram_program.c)
+- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
+- [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Sum of Triplet](cp/sum_of_triplet.c)
+
+## Cryptography
+
+- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
+- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Check for subsequence](other/check_for_subsequence.c)
 - [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
 - [Sudoku Solver](other/SudokuSolver.c)
@@ -99,3 +117,4 @@ _add list here_
 ## Blockchain
 
 _add list here_
+

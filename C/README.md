@@ -96,6 +96,7 @@ _add list here_
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - [Remove outermost parentheses](other/remove_outermost_parentheses.c)
+- [Unique Number - III](other/UniqueNumberIII.c)
 
 ## CP
 

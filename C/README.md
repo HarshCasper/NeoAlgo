@@ -24,7 +24,6 @@
 - [Calculate Double Factorial](cp/doublefactorial.c)
 - [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
 
-
 ## Cryptography
 
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
@@ -74,7 +73,6 @@
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 
-
 ## Graphs
 
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
@@ -118,4 +116,3 @@ _add list here_
 ## Blockchain
 
 _add list here_
-

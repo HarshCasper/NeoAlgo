@@ -72,6 +72,7 @@
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 
+
 ## Graphs
 
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
@@ -94,6 +95,20 @@ _add list here_
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
+- [Remove outermost parentheses](other/remove_outermost_parentheses.c)
+
+## CP
+
+- [Activity Selection](cp/Activity_selection.c)
+- [Anagram Program](cp/anagram_program.c)
+- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
+- [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Sum of Triplet](cp/sum_of_triplet.c)
+
+## Cryptography
+
+- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
+- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Check for subsequence](other/check_for_subsequence.c)
 - [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
 - [Sudoku Solver](other/SudokuSolver.c)
@@ -101,3 +116,4 @@ _add list here_
 ## Blockchain
 
 _add list here_
+

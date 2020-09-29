@@ -61,5 +61,6 @@ Output:
 Enter the length of array,num of painters and time: 2 2 5
 Enter the array: 1 10
 Total time taken: 50
-
+Time complexity : O(n*log(N)) (where N is sum of array elements)
+space complexity : O(n)     (n is size of array)
 */

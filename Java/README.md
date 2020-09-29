@@ -13,6 +13,7 @@
 
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
+- [Z-Algorithm](Algorithms/ZAlgorithm.java)
 
 ## Greedy Algorithms
 
@@ -33,8 +34,10 @@ _add list here_
 - [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 - [Remove Duplicate Element from an array without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 - [Spiral Matrix](cp/Spiral_Matrix.java)
-- [String to Int(atoi)](<cp/String_to_int(atoi).java>)
+- [String to Int(atoi)](cp/String_to_int.java>)
+- [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
+- [Check for Subsequence](cp/CheckForSubSequence.java)
 
 ## Cryptography
 
@@ -75,9 +78,10 @@ _add list here_
 ## Mathematics
 
 - [Count Number Of Digits](math/countDigits)
-  - [Iterative](countDigits/iterative.java)
-  - [Recursive](countDigits/recursive.java)
-  - [String Method](countDigits/stringmethod.java)
+- [Euler's Totient Function](math/Euler's_Totient_function.java)
+- [Iterative](math/countDigits/iterative.java)
+- [Recursive](math/countDigits/recursive.java)
+- [String Method](math/countDigits/stringmethod.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)
 - [Complex numbers](math/Complex.java)
 - [Double Factorial](math/DoubleFactorial.java)
@@ -88,8 +92,14 @@ _add list here_
 
 ## Dynamic Programming
 
+
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
+- [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
+- [Kandane Algorithm](dp/Kadane_Algorithm.java)
+- [CoinChange DP](dp/Coin_Change.java) 
+- [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
+
 
 ## Blockchain
 
@@ -127,7 +137,12 @@ _add list here_
 
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
+- [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [Painter Partition problem](other/PainterPartition.java)
+- [Recursion Counting of Substring in given String](other/RecursionCount.java)
+- [Sudoku solver](other/SudokuSolver.java)
+- [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)

@@ -31,12 +31,14 @@
 - [Find Least positive number](cp/findingLeastPositiveNumber.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
 - [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
+- [Longest Common Prefix](cp/longest_Common_Prefix.py)
 - [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 - [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
 - [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 - [Target sum triplet](cp/Target_Sum_Triplet.py)
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+- [Maximum sum rectangle](cp/max_sum.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -108,6 +110,14 @@
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 
+## Other
+* [Check Inversion](other/Check_Inversion.py)
+* [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+* [Longest substring without repeating character](other/longest_Substring.py)
+* [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
+* [Reverse a string using stack](other/Reverse_string_using_stack.py)
+* [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
+* [Sudoku Solver](other/sudoku_backtracking.py)
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)
@@ -127,8 +137,10 @@ _add list here_
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 - [Longest Substring](other/longest_Substring.py)
 - [Merging Sorted arrays](other/merge_sorted_arrays.py)
+- [Maximum Square Matrix with all 1's](other/Maximum_Square_Matrix.py)
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
 - [Satellite Image analysis using Numpy](other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)
-- [Subsequence check](other/Subsequence_check.py)
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
+- [Find leftmost non repeating character](other/left_nonRepeating_char.py)
+- [Subsequence check](other/Subsequence_check.py)

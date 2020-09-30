@@ -1,7 +1,7 @@
 #include<stdio.h>
 int i, j, k,n,arr[10][10];
 //Floyd function 
-void floyd_Warshell ()
+void floyd_Warshall ()
 {
  //Add all vertex one by one
     for (k = 0; k < n; k++)

@@ -54,7 +54,7 @@ _add list here_
 
 ## Other
 
-_add list here_
+* [Tower of Hanoi](./other/Tower_of_Hanoi.go)
 
 ## Searching
 

@@ -177,19 +177,4 @@ Vertex	Distance from Source
 3          9
 
 Time Complexity -O(N^2)
-
 */
-		int f,s,weight;
-		cin>>f>>s>>weight;
-		edges[f][s]=weight;
-		edges[s][f]=weight;
-	}
-	cout<<endl;
-	dijsktea(edges,n);
-	
-	for(int i=0;i<n;i++)
-	{
-		delete [] edges[i];
-	}
-	
-}

@@ -16,17 +16,17 @@ def factorialtree(n):  # function to divide the factorial in trees
         return 1
     return factorial_range(1, n)
 
-# Driver Code
 
+# Driver Code
 n = int(input())
 print(factorialtree(n))
 
 '''
 Sample I/O:
-    input:
-    12
-    Output:
-    479001600
-Time Complexity:O(logN)
-Space Complexity:O(1)
+input:
+12
+Output:
+479001600
+Time Complexity: O(logN)
+Space Complexity: O(1)
 '''

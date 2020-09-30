@@ -16,6 +16,7 @@
 - [Anagram Program](cp/anagram_program.c)
 - [Binary Search](search/BinarySearch.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
+- [Finding possible codes using recursion ](cp/possible_code_recursion.c)
 - [Linear Search](search/linear_search.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
 - [Random Search Monte Carlo version](search/random_search.c)

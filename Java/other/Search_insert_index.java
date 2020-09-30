@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class Search_insert_index {
 
     static int search(int[] nums, int target) {
@@ -20,6 +21,7 @@ public class Search_insert_index {
 
         return start;
     }
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -30,26 +32,15 @@ public class Search_insert_index {
         System.out.println("Enter the array elements");
         for (int i = 0; i < len; i++)
             arr[i] = sc.nextInt();
-
         System.out.println("Enter the target value");
         target = sc.nextInt();
         index = search(arr, len);
         System.out.println("Index of the target element is " + index);
-
-
     }
 }
 /*
-output:
-Enter the length of array
-4
-Enter the array elements
-1 2 5 6
-Enter the target value
-3
-Index of the target element is
-2
-
-Time Complexity: O(log(n))
-space complexity: O(n)
-*/
+ * output: Enter the length of array 4 Enter the array elements 1 2 5 6 Enter
+ * the target value 3 Index of the target element is 2
+ *
+ * Time Complexity: O(log(n)) space complexity: O(n)
+ */

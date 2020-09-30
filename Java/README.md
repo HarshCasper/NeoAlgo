@@ -143,6 +143,7 @@ _add list here_
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
+- [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

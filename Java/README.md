@@ -136,6 +136,7 @@ _add list here_
 
 ## Other
 
+- [All possible codes](other/LetterCodeRecursion.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)

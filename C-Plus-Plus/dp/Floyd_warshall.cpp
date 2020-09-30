@@ -64,15 +64,11 @@ Enter values for 1 row :
 6
 0
 0
-0
-0
 Enter values for 2 row :
 3
 0
 2
 4
-0
-0
 0
 Enter values for 3 row :
 6
@@ -80,24 +76,18 @@ Enter values for 3 row :
 0
 1
 4
-2
-0
 Enter values for 4 row :
 0
 4
 1
 0
 2
-0
-4
 Enter values for 5 row :
 0
 0
 4
 2
 0
-2
-1
 
 OUTPUT
 Minimum Cost for Node: 0

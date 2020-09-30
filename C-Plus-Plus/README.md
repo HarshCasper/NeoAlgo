@@ -87,5 +87,6 @@ _add list here_
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
+- [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 
 ## Other

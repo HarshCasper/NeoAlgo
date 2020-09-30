@@ -91,15 +91,15 @@ Enter values for 5 row :
 
 OUTPUT
 Minimum Cost for Node: 0
-0	3	6	6	5	
+0	3	5	6	8	
 Minimum Cost for Node: 1
-5	0	3	3	2	
+3	0	2	3	5	
 Minimum Cost for Node: 2
-4	7	0	7	6	
+5	2	0	1	3	
 Minimum Cost for Node: 3
-2	5	1	4	2	
+6	3	1	0	2	
 Minimum Cost for Node: 4
-3	6	2	1	0	
+8	5	3	2	0	
 
 Time Complexity :O(N^3)
 

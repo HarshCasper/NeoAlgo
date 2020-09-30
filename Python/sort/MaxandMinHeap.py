@@ -71,4 +71,6 @@ Head value of Maxheap : 56
 The Maxheap elements : 56 12 15
 Head value of Minheap : 12
 The Minheap elements : 12 15 56
+Time Complexity : O(n log n)
+ Space Complexity : O(1)
 """

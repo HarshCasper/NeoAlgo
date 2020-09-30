@@ -2,10 +2,10 @@ import java.util.*;
 public class Search_insert_index {
 
     static int search(int[] nums, int target) {
-	// using binary search since array is sorted.
+        // using binary search since array is sorted.
         int start = 0;
         int end = nums.length - 1;
-	
+
         while (start <= end) {
             int mid = (start + end) / 2;
 
@@ -23,22 +23,19 @@ public class Search_insert_index {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int len, target,index;
+        int len, target, index;
         System.out.println("Enter the length of array");
         len = sc.nextInt();
-
-	int arr[] = new int[len];
+        int arr[] = new int[len];
         System.out.println("Enter the array elements");
-        
         for (int i = 0; i < len; i++)
             arr[i] = sc.nextInt();
 
         System.out.println("Enter the target value");
         target = sc.nextInt();
-
         index = search(arr, len);
-        System.out.println("Index of the target element is "+ index);
-    
+        System.out.println("Index of the target element is " + index);
+
 
     }
 }

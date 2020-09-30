@@ -77,6 +77,7 @@
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
 - [Maximum sum rectangle](cp/max_sum.py)
 - [Maximum Water Container](cp/Maximum_Water_Container.py)
+- [Smallest sum subarray](cp/smallest_sum_array.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

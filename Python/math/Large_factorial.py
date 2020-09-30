@@ -3,7 +3,7 @@
 
 def factorial_range(start, end):
     if start+1 < end:
-        middle = (end + start)//2  # computing the mid element
+        middle = start + ((end - start)//2)  # computing the mid element
         # recursive function to half the digits
         return factorial_range(start, middle) * factorial_range(middle+1, end)
     if start == end:

@@ -1,4 +1,4 @@
-#Python Code for Heap Sorting
+# Python Code for Heap Sorting
 # Python3 program to demonstrate working of heapq
 from heapq import heappush, heapify
 

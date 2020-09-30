@@ -18,6 +18,7 @@
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Linear Search](search/linear_search.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Painter Partition Problem](cp/painter_partition.c)
 - [Random Search Monte Carlo version](search/random_search.c)
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)

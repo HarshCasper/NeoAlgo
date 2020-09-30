@@ -1,61 +1,50 @@
 #include<bits/stdc++.h>
 using namespace std;
-void floyd_warshall(int arr[][5])
-{
-    int i, j, k;
-   //Add all vertex one by one
-    for (k = 0; k < 5; k++)
-    {
-	//pick all as a source
-        for (i = 0; i < 5; i++)
-        {
-	    //pick all as a destination
-            for (j = 0; j < 5; j++)
-            {
-                if ((arr[i][k] * arr[k][j] != 0) && (i != j))
-                {
-		    //If vertex k is on the shortest path from  
-                    // i to j, then update the value of arr[i][j] 
-                    if ((arr[i][k] + arr[k][j] < arr[i][j]) || (arr[i][j] == 0))
-                    {
-                        arr[i][j] = arr[i][k] + arr[k][j];
-                    }
-                }
-            }
-        }
-    }
-   //function to print solution
-    cout<<"\nOUTPUT"<<endl;
-    for (i = 0; i < 5; i++)
-    {
-        cout<<"\nMinimum Cost for Node: "<<i<<endl;
-        for (j = 0; j < 5; j++)
-        {
-            cout<<arr[i][j]<<"\t";
-        }
- 
-    }
+void floyd_warshall(int arr[][5]) {
+	int i, j, k;
+	//Add all vertex one by one
+	for (k = 0; k < 5; k++) {
+		//pick all as a source
+		for (i = 0; i < 5; i++) {
+			//pick all as a destination
+			for (j = 0; j < 5; j++) {
+				if ((arr[i][k] * arr[k][j] != 0) && (i != j)) {
+					//If vertex k is on the shortest path from
+					// i to j, then update the value of arr[i][j]
+					if ((arr[i][k] + arr[k][j] < arr[i][j]) || (arr[i][j] == 0)) {
+						arr[i][j] = arr[i][k] + arr[k][j];
+					}
+				}
+			}
+		}
+	}
+	//function to print solution
+	cout << "\nOUTPUT" << endl;
+	for (i = 0; i < 5; i++) {
+		cout << "\nMinimum Cost for Node: " << i << endl;
+		for (j = 0; j < 5; j++) {
+			cout << arr[i][j] << "\t";
+		}
+	}
 }
 //Main function began
-int main()
-{
-    int a[5][5];
-    //Enter values
-    cout<<"Enter values for matrix-\n\n";
-    for (int i = 0; i < 5; i++)
-    {
-        cout<<"Enter values for "<<(i+1)<<" row :"<<endl;
-        for (int j = 0; j < 5; j++)
-        {
-            cin>>a[i][j];
-        }
-    }
-    // call the floyd function
-    floyd_waeshall(a);
+int main() {
+	int a[5][5];
+	//Enter values
+	cout << "Enter values for matrix-\n\n";
+	for (int i = 0; i < 5; i++) {
+		cout << "Enter values for " << (i + 1) << " row :" << endl;
+		for (int j = 0; j < 5; j++) {
+			cin >> a[i][j];
+		}
+	}
+	// call the floyd function
+	floyd_waeshall(a);
 }
 //main function ends
 
-/*Sample Input Output :
+/*
+Sample Input Output:
 Enter values for matrix-
 
 Enter values for 1 row :
@@ -89,18 +78,17 @@ Enter values for 5 row :
 2
 0
 
-OUTPUT
+OUTPUT:
 Minimum Cost for Node: 0
-0	3	5	6	8	
+0	3	5	6	8
 Minimum Cost for Node: 1
-3	0	2	3	5	
+3	0	2	3	5
 Minimum Cost for Node: 2
-5	2	0	1	3	
+5	2	0	1	3
 Minimum Cost for Node: 3
-6	3	1	0	2	
+6	3	1	0	2
 Minimum Cost for Node: 4
-8	5	3	2	0	
+8	5	3	2	0
 
 Time Complexity :O(N^3)
-
 */

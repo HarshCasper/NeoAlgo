@@ -66,6 +66,7 @@
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 - [Factorial](math/factorial.py)
+- [Large Digit Factorial](math/Large_digit_factorial.py)
 - [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 - [Fibonacci number](math/Fibonacci.py)

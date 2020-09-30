@@ -33,21 +33,21 @@ Space complexity: O(n)
 Example 1:
 Sample input:
 Enter number of elements: 7
-Enter 7 elements: 6 
+Enter 7 elements: 6
 2
 5
 2
 2
 6
-6 
+6
 Output: The number that occurs only once is 5
 
 Example 2:
-Sample Input: 
+Sample Input:
 Enter number of elements: 4
-Enter 4 elements: 3 
+Enter 4 elements: 3
 3
 1
-3 
-Output: The number that occurs only once is 1 
+3
+Output: The number that occurs only once is 1
 */

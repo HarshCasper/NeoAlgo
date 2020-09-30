@@ -50,7 +50,7 @@ void dijkstra(int** edges,int n)
 	}
 	//print the constructed distance array
 	cout<<"Vertex\tDistance from Source\n";
-    for(int i=0;i<n-1;i++)
+        for(int i=0;i<n-1;i++)
 	{
 		cout<<i<<"          "<<distance[i]<<endl;
 	}

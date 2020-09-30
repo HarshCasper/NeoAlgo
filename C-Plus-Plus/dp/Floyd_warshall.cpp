@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void floyd_waeshall(int arr[][5])
+void floyd_warshall(int arr[][5])
 {
     int i, j, k;
    //Add all vertex one by one
@@ -36,7 +36,7 @@ void floyd_waeshall(int arr[][5])
  
     }
 }
-//Main function begain
+//Main function began
 int main()
 {
     int a[5][5];

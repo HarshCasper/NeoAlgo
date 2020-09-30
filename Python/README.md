@@ -40,6 +40,7 @@
 * [Intro Sort](sort/IntroSort.py)
 * [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 * [Merge Sort Parallel](sort/Parallel_MergeSort.py)
+* [Heap Sorting](sort/MaxandMinHeap.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)

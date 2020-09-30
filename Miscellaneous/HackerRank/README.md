@@ -11,7 +11,7 @@
 
 | Topic                    | Problems                                                                                                                                           | Solutions                              | Language |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | -------- |
-| 2D Array-DS              | [Problem](https://www.hackerrank.com/challenges/2d-array?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays) | [Solution](2D_Array.py)                | Python3  |
+| 2D Array-DS              | [Problem](https://www.hackerrank.com/challenges/2d-array?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays) | [Solution](2D_Array.py)                | Python3, Java  |
 | Alternating Characters   | [Problem](https://www.hackerrank.com/challenges/alternating-characters)                                                                            | [Solution](AlternatingCharacters.py)   | Python3  |
 | Apple and Orange         | [Problem](https://www.hackerrank.com/challenges/apple-and-orange)                                                                                  | [Solution](AppleandOrange.py)          | Python3  |
 | Array Manipulation       | [Problem](https://www.hackerrank.com/challenges/crush)                                                                                             | [Solution](Array_Manipulation.py)      | Python3  |

@@ -745,7 +745,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/36529311?v=4",
       "profile": "https://github.com/Kritika37",
       "contributions": [
-        "doc"
+        "doc",
+        "code"
       ]
     },
     {
@@ -997,6 +998,15 @@
       "name": "Sukriti Shah",
       "avatar_url": "https://avatars0.githubusercontent.com/u/37061039?v=4",
       "profile": "http://www.linkedin.com/in/sukriti-shah",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "reethikprasad",
+      "name": "Reethik Prasad",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/59340628?v=4",
+      "profile": "http://reethik.ml/",
       "contributions": [
         "code"
       ]

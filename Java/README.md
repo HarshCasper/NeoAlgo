@@ -37,6 +37,7 @@ _add list here_
 - [String to Int(atoi)](cp/String_to_int.java>)
 - [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
+- [Check for Subsequence](cp/CheckForSubSequence.java)
 
 ## Cryptography
 
@@ -47,6 +48,7 @@ _add list here_
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [LCS](dp/LCS.java)
+- [Flood Fill Algorithm](dp/flood_fill.java)
 
 ## Data Structures
 
@@ -91,9 +93,14 @@ _add list here_
 
 ## Dynamic Programming
 
+
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
+- [Kandane Algorithm](dp/Kadane_Algorithm.java)
+- [CoinChange DP](dp/Coin_Change.java) 
+- [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
+
 
 ## Blockchain
 
@@ -129,11 +136,15 @@ _add list here_
 
 ## Other
 
+- [All possible codes](other/LetterCodeRecursion.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [Painter Partition problem](other/PainterPartition.java)
+- [Recursion Counting of Substring in given String](other/RecursionCount.java)
+- [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

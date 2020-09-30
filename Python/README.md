@@ -255,6 +255,7 @@ _add list here_
 - [Check Inversion](other/Check_Inversion.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+- [Large Factorials](other/Large_factorial.py)
 - [Merge two arrays](other/merge_sorted_arrays.py)
 - [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)

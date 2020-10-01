@@ -1,27 +1,23 @@
 import java.util.Scanner;
 
-class RainWaterHarvesting{
+class RainWaterHarvesting {
 
-    public static int saveWater(int[] arr, int size)
-    {
+    public static int saveWater(int[] arr, int size) {
 
         int result = 0;
 
         // traverse the array from second to second last element
-        for(int i = 1; i < size - 1; i++)
-        {
+        for (int i = 1; i < size - 1; i++) {
 
             // Find maximum element on its left
             int left = arr[i];
-            for(int j = 0; j < i; j++)
-            {
+            for (int j = 0; j < i; j++) {
                 left = Math.max(left, arr[j]);
             }
 
             // Find maximum element on its right
             int right = arr[i];
-            for(int j = i + 1; j < size; j++)
-            {
+            for (int j = i + 1; j < size; j++) {
                 right = Math.max(right, arr[j]);
             }
 
@@ -31,8 +27,7 @@ class RainWaterHarvesting{
         return result;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter array size:");
         int size = scanner.nextInt();
@@ -46,6 +41,7 @@ class RainWaterHarvesting{
         System.out.println("Maximum amount of water that can be saved is:" + saveWater(arr, size));
     }
 }
+
 /*
 * Sample input/output:
 * Enter array size:

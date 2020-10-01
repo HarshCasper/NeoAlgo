@@ -3,8 +3,11 @@
 #include<stdlib.h>
 
 void main(){
-
-	int cost[10][10],distance[10],path[10][10],n,v,p,row,column,min,index=1,i,j;
+	
+	int size;
+	printf("Enter the size of array:");
+	scanf("%d",&size);
+	int cost[size][size],distance[size],path[size][size],n,v,p,row,column,min,index=1,i,j;
 	//use enters no of nodes
 	printf("Enter no of nodes :  ");
 	scanf("%d",&n);
@@ -70,7 +73,7 @@ void main(){
 }
 /*
 Sample Input Output
-
+Enter the size of the array : 10
 Enter no of nodes :  5
 Enter cost matrix :  0
 4

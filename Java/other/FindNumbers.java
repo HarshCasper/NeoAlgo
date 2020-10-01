@@ -28,7 +28,7 @@ public class FindNumbers {
         }
 
         System.out.println("Unique terms are:");
-        for(Integer i : freq.keySet()) {
+        for (Integer i : freq.keySet()) {
             if (freq.get(i) == 1) {
                 System.out.println(i);
             }

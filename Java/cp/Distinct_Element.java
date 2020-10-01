@@ -31,7 +31,10 @@ class Distinct_Element {
 }
 
 /*
- * output: Enter the length of array and window size: 4 2 Enter the array
- * elements: 10 10 20 30 Distinct elements are: 1 2 2 Time complexity : O(K^2)
- * space complexity : O(size)
- */
+output:
+Enter the length of array and window size: 4 2
+Enter the array elements: 10 10 20 30
+Distinct elements are: 1 2 2
+Time complexity : O(K^2)
+space complexity : O(size)
+*/

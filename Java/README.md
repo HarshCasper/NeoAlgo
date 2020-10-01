@@ -136,6 +136,7 @@ _add list here_
 
 ## Other
 
+- [All possible codes](other/LetterCodeRecursion.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
@@ -143,6 +144,7 @@ _add list here_
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
+- [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

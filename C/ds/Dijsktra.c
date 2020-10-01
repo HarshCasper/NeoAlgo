@@ -5,7 +5,9 @@
 void main(){
 	
 	int size;
-	printf("Enter the size of array:");
+	//Enter the maximum size of the array
+	//for cost distance and path array
+	printf("Enter the maximum size of array:");
 	scanf("%d",&size);
 	int cost[size][size],distance[size],path[size][size],n,v,p,row,column,min,index=1,i,j;
 	//use enters no of nodes

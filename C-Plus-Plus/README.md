@@ -55,6 +55,7 @@
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Queue](ds/queue.cpp)
 - [Queue Linked List](ds/QueueLinkedList.cpp)
+- [Circular Queue Using Linked List](ds/Circular_Queue_Using_LinkedList.cpp)
 - [Red Black Tree](ds/RED-BLACK-TREE.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
 - [Singly Linked List](../Python/ds/SinglyLinkedList.py)

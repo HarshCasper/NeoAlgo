@@ -44,6 +44,7 @@
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
+- [Bellman Ford Algorithm](ds/bellman_ford.c)
 
 ## Searching
 

@@ -1,37 +1,34 @@
 package main
- 
+
 import "fmt"
 
 type solver interface {
-    play(int)
+	play(int)
 }
-  
-type towers struct {
-   
-}
- 
 
-func (t *towers) play(n int) {    
-    t.shiftN(n, 1, 2, 3)
+type towers struct {
 }
- 
+
+func (t *towers) play(n int) {
+	t.shiftN(n, 1, 2, 3)
+}
 
 func (t *towers) shiftN(n, from, to, via int) {
-    if n > 0 {
-        t.shiftN(n-1, from, via, to)
-        t.shiftM(from, to)
-        t.shiftN(n-1, via, to, from)
-    }
+	if n > 0 {
+		t.shiftN(n-1, from, via, to)
+		t.shiftM(from, to)
+		t.shiftN(n-1, via, to, from)
+	}
 }
 
 func (t *towers) shiftM(from, to int) {
-    fmt.Println("Shifting disk from rod", from, "to rod", to)
+	fmt.Println("Shifting disk from rod", from, "to rod", to)
 }
 
 func main() {
-    var t solver    
-    t = new(towers)
-    t.play(4)
+	var t solver
+	t = new(towers)
+	t.play(4)
 }
 
 /*

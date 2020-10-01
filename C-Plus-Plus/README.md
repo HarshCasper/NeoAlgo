@@ -35,6 +35,7 @@
 - [Painter Partition](cp/painter_partition.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
+- [Search Insert Position](cp/search_insert_position.cpp)
 
 ## Data Structures
 
@@ -59,6 +60,8 @@
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
+- [Add Post-Order Tree Traversal](ds/postorder.cpp)
+
 
 ## Graphs
 
@@ -120,7 +123,6 @@ _add list here_
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
-
 
 ## Blockchain
 

@@ -58,7 +58,7 @@
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
-- [Add Pre-Order Tree Traversal](ds/preorder.cpp)
+
 
 ## Graphs
 
@@ -120,6 +120,7 @@ _add list here_
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
+
 
 
 ## Blockchain

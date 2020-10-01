@@ -77,6 +77,7 @@
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
 - [Maximum sum rectangle](cp/max_sum.py)
 - [Maximum Water Container](cp/Maximum_Water_Container.py)
+- [Smallest sum subarray](cp/smallest_sum_array.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -139,6 +140,7 @@
 * [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 * [Factorial](math/factorial.py)
 * [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
+* [Large Number Factorial](math/Large_number_factorial.py)
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)

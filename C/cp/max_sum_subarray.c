@@ -25,7 +25,7 @@ int max_sum_subarray(int arr[], int lo, int hi) {
     if(lo == hi) {
         return arr[lo];
     }
-    int mid = (lo + hi) / 2;
+    int mid = lo + (hi - lo) / 2;
     return max(max(max_sum_subarray(arr, lo, mid), max_sum_subarray(arr, mid+1, hi)), max_sum_crossing(arr, lo, mid, hi));
 }
 

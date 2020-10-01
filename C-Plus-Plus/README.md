@@ -133,11 +133,6 @@ _add list here_
 
 ## Other
 
-- [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
-- [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
-- [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
-- [Maximum in Array](cp/Maximum_In_Array.cpp)
-- [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)

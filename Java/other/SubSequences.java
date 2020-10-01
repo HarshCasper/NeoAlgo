@@ -4,12 +4,12 @@ class SubSequences {
     static void get_sequence(String str, String ans, int i) {
         // Base condition
         if (i == str.length()) {
-            System.out.println("'"+ans+"'");
+            System.out.println("'" + ans + "'");
             return;
         }
-        //Before character gets added to final
+        // Before character gets added to final
         get_sequence(str, ans, i + 1);
-        //after character gets added to ans
+        // after character gets added to ans
         get_sequence(str, ans + str.charAt(i), i + 1);
 
     }
@@ -25,7 +25,9 @@ class SubSequences {
     }
 }
 
-/* output:
+
+/*
+output:
 Enter the string
 abcd
 All possible subsequences are:

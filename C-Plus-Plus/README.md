@@ -58,7 +58,7 @@
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
-- [In-Order Tree Traversal](ds/Inorder.cpp)
+
 
 ## Graphs
 

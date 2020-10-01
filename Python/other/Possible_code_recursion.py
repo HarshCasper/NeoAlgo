@@ -8,7 +8,7 @@ def output(original, previous):
         print(previous)
         return
     if len(original) == 1:
-        print (previous + chr(96 + int(original)))  # checking range
+        print(previous + chr(96 + int(original)))  # checking range
         return
 
     if int(original[0:2]) < 27:
@@ -16,6 +16,7 @@ def output(original, previous):
         output(original[2:], previous + new_character)
     new_character = chr(96 + int(original[0:1]))
     output(original[1:], previous + new_character)
+
 
 # driver code
 if __name__ == '__main__':
@@ -33,6 +34,6 @@ Sample I/O:
     aaw
     aabc
 
-Time Complexity: O(N) ,where N =String
+Time Complexity: O(N), where N =String
 Space Complexity: O(1)
 '''

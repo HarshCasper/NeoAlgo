@@ -40,8 +40,10 @@
 ## Data Structures
 
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
-- [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+- [Add Post-Order Tree Traversal](ds/postorder.cpp)
+- [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
+- [Binary Tree LevelOrder Traversal](ds/BinaryTree_LevelOrder.cpp)
 - [Circular Linkedlist](ds/Circular_LinkedList.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
@@ -60,7 +62,6 @@
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
-- [Add Post-Order Tree Traversal](ds/postorder.cpp)
 
 
 ## Graphs

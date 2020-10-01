@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define MAX 10
 
 //Structure
 typedef struct ed
@@ -9,10 +8,10 @@ typedef struct ed
 }ed;
 
 //Bellman ford function began
-void bellman(int nv,ed e[],int src_graph,int ne)
+void bellman(int nv,ed e[],int src_graph,int ne,int size)
 {
   int u,v,weight,i,j=0;
-  int arr[MAX];
+  int arr[size];
   
   /* initializing array 'arr' with 999.*/
   for(i=0;i<nv;i++)
@@ -61,8 +60,10 @@ void bellman(int nv,ed e[],int src_graph,int ne)
 //Main Function began
 int main()
 {
-  int nv,ne,src_graph;
-  ed e[MAX];
+  int nv,ne,src_graph,size;
+  cout<<"Enter the max size of the array:\n";
+  cin>>size;
+  ed e[size];
   //Take input from the user
   cout<<"Enter the number of vertices: ";
   cin>>nv;  
@@ -85,13 +86,14 @@ int main()
     cin>>e[i].wt;  
   }
   //calling bellman ford function
-  bellman(nv,e,src_graph,ne);
+  bellman(nv,e,src_graph,ne,size);
   return 0;
 }
 //Main function ends
 
 /*Sample Input Output
 
+Enter the max size of array : 10
 Enter the number of vertices: 4
 Enter the source vertex: 1
 

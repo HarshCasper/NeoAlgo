@@ -24,7 +24,7 @@
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
 - [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
-- [Maximum Sum Subarray][cp/max_sum_subarray.c)
+- [Maximum Sum Subarray](cp/max_sum_subarray.c)
 
 ## Cryptography
 

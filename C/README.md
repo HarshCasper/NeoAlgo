@@ -100,6 +100,7 @@ _add list here_
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - [Remove outermost parentheses](other/remove_outermost_parentheses.c)
+- [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 
 ## CP
 

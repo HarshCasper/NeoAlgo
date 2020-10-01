@@ -174,7 +174,7 @@ _add list here_
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
-
+- [Minimum Sum Partition](other/MinimumSumPartition.py)
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
 * [Kadane's Algorithm](other/Kadanes_Algorithm.py)

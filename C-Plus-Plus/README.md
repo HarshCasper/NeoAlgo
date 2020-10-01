@@ -40,6 +40,8 @@
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+- [Circular Linkedlist](ds/Circular_LinkedList.cpp)
+- [Singly Linked List](ds/singly_linked_list.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
@@ -56,6 +58,8 @@
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
+- [Add Post-Order Tree Traversal](ds/postorder.cpp)
+
 
 ## Graphs
 
@@ -76,6 +80,7 @@
 - [Interpolation Search](search/Interpolation_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
+- [Randomized Select Search](search/Randomized_Select.cpp)
 
 ## Sorting
 
@@ -115,6 +120,8 @@ _add list here_
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
+- [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
+
 
 
 ## Blockchain

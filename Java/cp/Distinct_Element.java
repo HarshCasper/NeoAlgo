@@ -3,7 +3,7 @@ import java.util.*;
 class Distinct_Element {
     static void FindDistinct(int arr[], int size, int k) {
         // using set for storing the distinct elements.
-        Set < Integer > elements = new HashSet < Integer > ();
+        Set<Integer> elements = new HashSet<Integer>();
         for (int i = 0; i <= size - k; i++) {
             for (int j = 0; j < k; j++) {
                 elements.add(arr[i + j]);
@@ -30,10 +30,8 @@ class Distinct_Element {
     }
 }
 
-/* output:
-Enter the length of array and window size: 4 2
-Enter the array elements: 10 10 20 30
-Distinct elements are: 1 2 2
-Time complexity : O(K^2)
-space complexity : O(size)
-*/
+/*
+ * output: Enter the length of array and window size: 4 2 Enter the array
+ * elements: 10 10 20 30 Distinct elements are: 1 2 2 Time complexity : O(K^2)
+ * space complexity : O(size)
+ */

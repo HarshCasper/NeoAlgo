@@ -23,7 +23,7 @@
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
-- [Longest substring without repeating characters](cp/Longest%20substring%20without%20repeating%20chars.cpp)
+- [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
 
 ## Cryptography

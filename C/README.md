@@ -90,6 +90,7 @@ _add list here_
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
+- [Factorial of Very Large Numbers](math/Factorial_of_Very_Large_Numbers.c)
 
 ## Other
 
@@ -98,6 +99,7 @@ _add list here_
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - [Remove outermost parentheses](other/remove_outermost_parentheses.c)
+- [Stable Matching Algorithm](other/Stable_Matching.c)
 
 ## CP
 

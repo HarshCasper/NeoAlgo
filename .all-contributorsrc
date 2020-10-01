@@ -745,7 +745,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/36529311?v=4",
       "profile": "https://github.com/Kritika37",
       "contributions": [
-        "doc"
+        "doc",
+        "code"
       ]
     },
     {
@@ -988,6 +989,33 @@
       "name": "samyukta20",
       "avatar_url": "https://avatars3.githubusercontent.com/u/56357749?v=4",
       "profile": "https://github.com/samyukta20",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sukritishah15",
+      "name": "Sukriti Shah",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/37061039?v=4",
+      "profile": "http://www.linkedin.com/in/sukriti-shah",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "reethikprasad",
+      "name": "Reethik Prasad",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/59340628?v=4",
+      "profile": "http://reethik.ml/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "shraddhavp",
+      "name": "Shraddha",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/42699578?v=4",
+      "profile": "http://shraddhavp.github.io",
       "contributions": [
         "code"
       ]

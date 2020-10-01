@@ -13,6 +13,7 @@
 
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
+- [Z-Algorithm](Algorithms/ZAlgorithm.java)
 
 ## Greedy Algorithms
 
@@ -26,6 +27,7 @@ _add list here_
 
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
+- [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
 - [Longest Substring without Repeating characters](cp/LongestSubstring_without_repeating_characters.java)
 - [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.java)
@@ -33,8 +35,10 @@ _add list here_
 - [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 - [Remove Duplicate Element from an array without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 - [Spiral Matrix](cp/Spiral_Matrix.java)
-- [String to Int(atoi)](<cp/String_to_int(atoi).java>)
+- [String to Int(atoi)](cp/String_to_int.java>)
+- [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
+- [Check for Subsequence](cp/CheckForSubSequence.java)
 
 ## Cryptography
 
@@ -45,6 +49,7 @@ _add list here_
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [LCS](dp/LCS.java)
+- [Flood Fill Algorithm](dp/flood_fill.java)
 
 ## Data Structures
 
@@ -89,8 +94,14 @@ _add list here_
 
 ## Dynamic Programming
 
+
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
+- [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
+- [Kandane Algorithm](dp/Kadane_Algorithm.java)
+- [CoinChange DP](dp/Coin_Change.java) 
+- [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
+
 
 ## Blockchain
 
@@ -126,10 +137,15 @@ _add list here_
 
 ## Other
 
+- [All possible codes](other/LetterCodeRecursion.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
+- [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [Painter Partition problem](other/PainterPartition.java)
+- [Recursion Counting of Substring in given String](other/RecursionCount.java)
+- [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

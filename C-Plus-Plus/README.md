@@ -32,12 +32,18 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Painter Partition](cp/painter_partition.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
+- [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
+- [Search Insert Position](cp/search_insert_position.cpp)
 
 ## Data Structures
 
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
+- [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+- [Circular Linkedlist](ds/Circular_LinkedList.cpp)
+- [Singly Linked List](ds/singly_linked_list.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
@@ -54,6 +60,8 @@
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
+- [Add Post-Order Tree Traversal](ds/postorder.cpp)
+
 
 ## Graphs
 
@@ -74,6 +82,7 @@
 - [Interpolation Search](search/Interpolation_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
+- [Randomized Select Search](search/Randomized_Select.cpp)
 
 ## Sorting
 
@@ -113,7 +122,7 @@ _add list here_
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
-
+- [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 
 ## Blockchain
 
@@ -126,6 +135,9 @@ _add list here_
 
 ## Other
 
+
+- [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
+- [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)

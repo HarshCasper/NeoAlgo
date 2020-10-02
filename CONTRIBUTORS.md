@@ -146,6 +146,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/salonishah01"><img src="https://avatars3.githubusercontent.com/u/46890827?v=4" width="100px;" alt=""/><br /><sub><b>Saloni Shah</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=salonishah01" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/samyukta20"><img src="https://avatars3.githubusercontent.com/u/56357749?v=4" width="100px;" alt=""/><br /><sub><b>samyukta20</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=samyukta20" title="Code">💻</a></td>
     <td align="center"><a href="http://www.linkedin.com/in/sukriti-shah"><img src="https://avatars0.githubusercontent.com/u/37061039?v=4" width="100px;" alt=""/><br /><sub><b>Sukriti Shah</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=sukritishah15" title="Code">💻</a></td>
+    <td align="center"><a href="http://reethik.ml/"><img src="https://avatars2.githubusercontent.com/u/59340628?v=4" width="100px;" alt=""/><br /><sub><b>Reethik Prasad</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=reethikprasad" title="Code">💻</a></td>
+    <td align="center"><a href="http://shraddhavp.github.io"><img src="https://avatars3.githubusercontent.com/u/42699578?v=4" width="100px;" alt=""/><br /><sub><b>Shraddha</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=shraddhavp" title="Code">💻</a></td>
+    <td align="center"><a href="http://ahampriyanshu.github.io"><img src="https://avatars1.githubusercontent.com/u/54521023?v=4" width="100px;" alt=""/><br /><sub><b>Priyanshu Tiwari</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ahampriyanshu" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/rajanshoo25"><img src="https://avatars2.githubusercontent.com/u/57529264?v=4" width="100px;" alt=""/><br /><sub><b>Anshoo Rajput</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=rajanshoo25" title="Code">💻</a></td>
   </tr>
 </table>
 

@@ -40,7 +40,6 @@ _add list here_
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 - [Check for Subsequence](cp/CheckForSubSequence.java)
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
-- [Catalan Number](cp/CatalanNumber.java)
 
 ## Cryptography
 
@@ -93,6 +92,7 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Catalan Number](math/CatalanNumber.java)
 
 ## Dynamic Programming
 

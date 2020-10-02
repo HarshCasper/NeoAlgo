@@ -47,6 +47,8 @@
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
+- [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
+
 
 ## Searching
 

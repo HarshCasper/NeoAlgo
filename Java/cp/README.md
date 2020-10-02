@@ -1,1 +1,17 @@
-a
+## Competitive programming
+
+- [Aggressive Cows](cp/AggressiveCows.java)
+- [Count The Reversals](cp/Count_The_Reversals.java)
+- [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
+- [Longest Substring without Repeating characters](cp/LongestSubstring_without_repeating_characters.java)
+- [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+- [Remove outermost parenthesis](cp/Remove_Outermost_parentheses.java)
+- [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+- [Remove Duplicate Element from an array without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+- [Spiral Matrix](cp/Spiral_Matrix.java)
+- [String to Int(atoi)](cp/String_to_int.java>)
+- [Longest Common Prefix](cp/Longest_Common_Prefix.java)
+- [Target Sum Triplets](cp/target_sum_triplets.java)
+- [Check for Subsequence](cp/CheckForSubSequence.java)
+- [Factorial of large numbers](cp/Factorial_large_numbers.java)

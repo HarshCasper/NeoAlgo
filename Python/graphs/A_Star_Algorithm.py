@@ -1,13 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# # A* Star Algorithm
-# 
-# ##### A* is a variant of Dijkstra's algorithm,A* assigns a weight to each open node equal to the weight of the edge to that node plus the approximate distance between that node and the finish. This approximate distance is found by the heuristic, and represents a minimum possible distance between that node and the end. This allows it to eliminate longer paths once an initial path is found.
-
-# In[8]:
-
-
 '''
 g: The cost of the path from the start node.
 h: estimation the cost of the path from present position to the goal
@@ -17,8 +9,6 @@ current: current node
 start : Start node
 end : end node
 '''
-
-
 class node():
     def __init__(self,parent=None,position=None):
         self.parent=parent #stores current parent
@@ -95,16 +85,3 @@ start=(0, 0)
 end=(5, 5)
 path=a_star(maze,start, end)
 print(path)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

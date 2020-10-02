@@ -84,6 +84,7 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 - [Prim's Algorithm](graphs/Prim_Algorithm.py)
 - [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
+- [A* Algorithm](graphs/A_Star_Algorithm.py)
 
 ## Machine Learning
 

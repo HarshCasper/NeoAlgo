@@ -32,6 +32,7 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)

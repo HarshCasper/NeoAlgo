@@ -1,14 +1,18 @@
-<p align="center">
-    <img src="../img/neo_algo.png"><br>
-    <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
-    <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
-    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo">
-    <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
-</p>
+## CP
 
-# Codes in the C language
-
-## Competitive Programming
-
-[Kadane's Algorithm for max sum subArray](cp/Kadane's_Alogorithm.c)
+- [Activity Selection](cp/Activity_selection.c)
+- [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
+- [Anagram Program](cp/anagram_program.c)
+- [Binary Search](search/BinarySearch.c)
+- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
+- [Finding possible codes using recursion ](cp/possible_code_recursion.c)
+- [Linear Search](search/linear_search.c)
+- [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Painter Partition Problem](cp/painter_partition.c)
+- [Random Search Monte Carlo version](search/random_search.c)
+- [Randomized selection algorithm](search/randomized_selection_algorithm.c)
+- [Sum of Triplet](cp/sum_of_triplet.c)
+- [Calculate Double Factorial](cp/doublefactorial.c)
+- [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
+- [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
+- [Maximum Sum Subarray](cp/max_sum_subarray.c)

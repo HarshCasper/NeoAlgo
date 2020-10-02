@@ -135,6 +135,8 @@ _add list here_
 
 ## Other
 
+
+- [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)

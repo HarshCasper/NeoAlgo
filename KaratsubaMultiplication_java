@@ -1,0 +1,24 @@
+long karatsuba(long X, long Y)
+    {
+        // Base Case
+        if(X<10 && Y<10)return X*Y;
+        
+        // determine the size of X and Y 
+        int size = Math.max((Long.toString(X)).length(), (Long.toString(Y)).length());
+        
+        // Split X and Y
+        int n = (int)Math.ceil(size/2.0);
+        long p = (long)Math.pow(10,n);
+        long a = (long)Math.floor(X/(double)p);
+        long b = X%p;
+        long c = (long)Math.floor(Y/(double)p);
+        long d = Y%p;
+        
+        // Recur until base case
+        long ac = karatsuba(a, c);
+        long bd = karatsuba(b, d);
+        long e = karatsuba(a+b, c+d) - ac - bd;
+         // return the equation
+        return (long)(Math.pow(10*1L, 2*n)*ac + Math.pow(10*1L, n)*e + bd);
+    }
+}

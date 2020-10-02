@@ -24,6 +24,9 @@
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
 - [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
+- [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
+- [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
+- [Maximum Sum Subarray](cp/max_sum_subarray.c)
 
 ## Cryptography
 
@@ -43,6 +46,9 @@
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
+- [Bellman Ford Algorithm](ds/bellman_ford.c)
+- [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
+
 
 ## Searching
 
@@ -99,6 +105,8 @@ _add list here_
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - [Remove outermost parentheses](other/remove_outermost_parentheses.c)
 - [Recursion count of substring](other/recursion_string.c)
+- [Unique Number - III](other/UniqueNumberIII.c)
+- [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 
 ## CP
 

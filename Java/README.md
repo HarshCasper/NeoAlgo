@@ -93,7 +93,11 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+<<<<<<< HEAD
 - [Ugly Number](math/UglyNumber.java)
+=======
+- [Catalan Number](math/CatalanNumber.java)
+>>>>>>> 46e1f13 (Added CatalanNumber from cp to math)
 
 ## Dynamic Programming
 

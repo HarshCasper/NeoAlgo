@@ -135,6 +135,7 @@ _add list here_
 
 ## Other
 
+- [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)

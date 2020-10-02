@@ -15,3 +15,5 @@
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
+- [Sudoku Solver](other/sudoku_backtracking.py)
+- [Ocurrence of a number using binary search](other/find_freq_using_bs.py)

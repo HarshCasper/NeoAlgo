@@ -152,6 +152,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/rajanshoo25"><img src="https://avatars2.githubusercontent.com/u/57529264?v=4" width="100px;" alt=""/><br /><sub><b>Anshoo Rajput</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=rajanshoo25" title="Code">💻</a></td>
+    <td align="center"><a href="https://smv1999.github.io/"><img src="https://avatars1.githubusercontent.com/u/42896577?v=4" width="100px;" alt=""/><br /><sub><b>Vaidhyanathan S M</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=smv1999" title="Code">💻</a></td>
   </tr>
 </table>
 

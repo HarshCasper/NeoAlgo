@@ -222,6 +222,7 @@ _add list here_
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
+<<<<<<< HEAD
 - [Find the Numbers](other/find_the_numbers.py)
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
@@ -229,3 +230,6 @@ _add list here_
 - [Remove Outermost Paranthesis](other/remove_outermost_paranthesis.py)
 - [Find the Numbers](other/find_the_numbers.py)
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
+=======
+- [Painter Partition Probelm](other/painter_partition.py)
+>>>>>>> 81e53a9 (Update README.md)

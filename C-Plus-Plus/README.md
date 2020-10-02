@@ -37,6 +37,7 @@
 - [ActivitySelection](cp/Activity_Selection.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
+- [Z Algorithm](cp/zalgorithm.cpp)
 
 ## Data Structures
 

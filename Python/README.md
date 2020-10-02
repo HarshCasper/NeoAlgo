@@ -45,7 +45,7 @@
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
 * [Height of Tree](graphs/height_of_given_tree.py)
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
-* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
+* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 * [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 
 - [Binary Tree (Post order transversal)](ds/Binary_tree_post_order.py)
@@ -217,4 +217,3 @@ _add list here_
 - [Subsequence check](other/Subsequence_check.py)
 - [Find the Numbers](other/find_the_numbers.py)
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
-

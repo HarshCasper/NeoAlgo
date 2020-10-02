@@ -52,3 +52,4 @@ _add list here_
 ## Other
 
 - [Unique Number III](other/Unique_Number_III.cs)
+- [Prime Factorization using Sieve](other/prime_factor_sieve.cs)

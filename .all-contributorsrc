@@ -1010,6 +1010,33 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "shraddhavp",
+      "name": "Shraddha",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/42699578?v=4",
+      "profile": "http://shraddhavp.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ahampriyanshu",
+      "name": "Priyanshu Tiwari",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54521023?v=4",
+      "profile": "http://ahampriyanshu.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rajanshoo25",
+      "name": "Anshoo Rajput",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/57529264?v=4",
+      "profile": "https://github.com/rajanshoo25",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",

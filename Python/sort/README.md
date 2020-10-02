@@ -1,1 +1,16 @@
-a
+## Sorting
+
+- [Bead Sort](sort/Bead_Sort.py)
+- [Bubble Sort](sort/Bubble_Sort.py)
+- [Cocktail sort](sort/cocktail_sort.py)
+- [Heap Sort](sort/Heap_sort.py)
+- [Insertion Sort](sort/insertion.py)
+- [Intro-sort](sort/IntroSort.py)
+- [Matrix Sort](sort/Matrix_Sort.py)
+- [Merge Sort](sort/Merge_Sort.py)
+- [Pancake Sort](sort/pancakesorting.py)
+- [Quick Sort](sort/QuickSort.py)
+- [Radix Sort](sort/Radix_Sort.py)
+- [Selection Sort](sort/Selection_Sort.py)
+- [Shell Sort](sort/Shell_Sort.py)
+- [Topological Sort](sort/topological_sort.py)

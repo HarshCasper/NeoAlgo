@@ -65,6 +65,6 @@ int main(){
 	Enter the elements of set B: 5 7
 	Total happiness= 1
 	
-	Time Complexity= O(n) 
-	Space Complexity= O(n)
+	Time Complexity= O(n^2) 
+	Space Complexity= O(1)
 */

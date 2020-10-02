@@ -9,33 +9,55 @@
 
 # Codes in the Golang language
 
-## Data Structures
-* [Stack](/ds/stack.go)
+## Blockchain
 
-## Searching
-* [Binary Search](/search/binary_search.go)
-* [Linear Search](/search/linear_search.go)
-
-## Sorting
 _add list here_
 
+## Sorting
+
+* [Bubble Sort](./sort/bubbleSort.go)
+* [Counting Sort](./sort/countingSort.go)
+* [Insertion Sort](./sort/insertionSort.go)
+* [Merge Sort](./sort/mergeSort.go)
+* [Merge Sort Sequential](./sort/merge_sort_sequential.go)
+* [Merge Sort Parallel](./sort/merge_sort_parallel.go)
+* [Quick Sort](./sort/quickSort.go)
+* [Selection Sort](./sort/selectionSort.go)
+
+## Competitive Programming
+
+- [Target Sum Triplets](./cp/target_sum_triplets.go)
+
+## Cryptography
+
+_add list here_
+
+## Data Structures
+
+- [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
+- [Queue using Stack](./ds/queue_using_stack.go)
+- [Singly Linked List](./ds/singly_linked_list.go)
+- [Stack](./ds/Stack.go)
+- [Stack using Queue](./ds/stack_using_queue.go)
+
+## Dynamic Programming
+
+- [Stack](dp/stack.go)
+- [Longest Substring without Repeating Characters](./dp/longest_substring.go)
+
 ## Machine Learning
+
 _add list here_
 
 ## Mathematics
-_add list here_
 
-## Dynamic Programming
-_add list here_
-
-## Blockchain
-_add list here_
-
-## Searching
-_add list here_
-
-## Cryptography
-_add list here_
+- [Karatsuba Multiplication](./math/karatsuba_multiplication.go)
 
 ## Other
-_add list here_
+
+* [Tower of Hanoi](./other/Tower_of_Hanoi.go)
+
+## Searching
+
+- [Binary Search](/search/binary_search.go)
+- [Linear Search](/search/linear_search.go)

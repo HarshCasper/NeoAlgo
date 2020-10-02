@@ -64,6 +64,7 @@
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+* [Check Armstrong Number](math/CheckArmstrongNumber.py)
 
 ## Competitive Programming
 

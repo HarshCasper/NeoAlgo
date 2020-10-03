@@ -39,10 +39,10 @@ _add list here_
 - [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 - [Check for Subsequence](cp/CheckForSubSequence.java)
-- [Validate Stack Sequences](ValidateStackSequences.java
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
+- [Validate Stack Sequences](ValidateStackSequences.java
 
-## Cryptography
+# Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
 

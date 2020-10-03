@@ -1,23 +1,40 @@
+/*
+The Catalan numbers form a sequence of natural numbers that occur in various 
+counting problems, often involving recursively-defined objects.
+
+Application in some combinatorial problems:
+1.Number of correct bracket sequence consisting of n opening and n closing brackets.
+2.The number of rooted full binary trees with n+1 leaves (vertices are not numbered). A rooted binary tree is full if every vertex has either two children or no children.
+3.The number of ways to completely parenthesize n+1 factors. 
+*/
+
 #include <stdio.h>
-int catalan(int n) {
-   if (n <= 1) {
-       return 1;
-   }
-   int res = 0;
-   for (int i=0; i<n; i++)
-      res += catalan(i)*catalan(n-i-1);
-   return res;
+
+int catalan(int n)
+{
+	if (n <= 1)
+	{
+		return 1;
+	}
+
+	int res = 0;
+	for (int i = 0; i < n; i++)
+		res += catalan(i) *catalan(n - i - 1);
+	return res;
 }
-int main(){
-   int n;
-   printf("Enter Number: ");
-   scanf("%d",&n);
-   printf("\n");
-   for(int i =1;i<=n;i++)
-   {
-       printf("%d ",catalan(i));
-   }
-   return 0;
+
+int main()
+{
+	int n;
+	printf("Enter Number: ");
+	scanf("%d", &n);
+	printf("\n");
+	for (int i = 1; i <= n; i++)
+	{
+		printf("%d ", catalan(i));
+	}
+
+	return 0;
 }
 
 /*

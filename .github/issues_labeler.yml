@@ -16,3 +16,5 @@ Q-Sharp:
   - "(Q-Sharp|qsharp|Q#)"
 enhancement:
   - "(enhancement)"
+  Hacktoberfest:
+  - ".*"

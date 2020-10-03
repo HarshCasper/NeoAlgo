@@ -214,4 +214,5 @@ _add list here_
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
 - [Find the Numbers](other/find_the_numbers.py)
+- [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 

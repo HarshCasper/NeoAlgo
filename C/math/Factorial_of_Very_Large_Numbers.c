@@ -112,7 +112,21 @@ int main()
                 }
             }
         }
-        printf("%d",head->val);
+        printf("%d\n",head->val);
     }
     return 0;
 }
+
+
+/*
+Sample Input 
+2
+25 50
+
+Sample Output 
+15511210043330985984000000
+30414093201713378043612608166064768844377641568960512000000000000
+
+
+Time Complexity-- O(N)
+*/

@@ -1,9 +1,4 @@
-/*********************************************************************************
-                            All possible sums using FFT
-Author: Rishabh Gautam 
-Email: rgautam1919@gmail.com
-Github: rishabh7896
-**********************************************************************************
+/*
 We are given two arrays a[] and b[].
 We have to find all possible sums a[i]+b[j], 
 and for each sum count how often it appears.
@@ -114,7 +109,6 @@ vector<int> multiply(vector<int>const &a, vector<int>const &b)
 
 int main()
 {
-    clock_t start=clock();
     //declare and read the values of a and m;
     int n, m,temp; cin>>n>>m;
     //declare and read the values of a[] of size n 
@@ -140,8 +134,5 @@ int main()
         //if the the frequency is not zero then the value exists
         if(ans[i]!=0) 
             cout<<i<<" "<<ans[i]<<endl;
-
-    cerr<<fixed<<setprecision(6);
-    cerr<<(double)(clock()-start)/CLOCKS_PER_SEC<<endl;
     return 0;
 }

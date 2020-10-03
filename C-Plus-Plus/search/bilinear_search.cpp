@@ -40,18 +40,18 @@ using namespace std;
 //bilenear search algorithm
 int bilinear(vector<int>&a,int n,int key)
 {
-    int front=0,back=n-1,index=-1;
+    int front=0,back=n-1;
     //terminating condition
     while(front<=back)
     {
-        if(a[front]==key)
-            index=front+1;
+        if(a[front]==key) 
+            return front+1;
         if(a[back]==key)
-            index=back+1;
+            return back+1;
         front++;
         back--;
     }
-    return index;
+    return -1;
 }
 
 int main()

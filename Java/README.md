@@ -42,7 +42,7 @@ _add list here_
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
 - [Validate Stack Sequences](ValidateStackSequences.java
 
-# Cryptography
+## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
 

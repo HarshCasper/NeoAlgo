@@ -31,12 +31,12 @@
  * @source: https://practice.geeksforgeeks.org/problems/maximum-in-struct-array/1
 */
 
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
+using namespace std;
 
-int max_height_in_array(std::vector<int>, int);
+int max_height_in_array(vector<int>, int);
 
-int max_height_in_array(std::vector<int> arr, int size) {
+int max_height_in_array(vector<int> arr, int size) {
     int max = 0;
     if ((size & 1) == 0) {  // check for even size.
         for (int i = 0 ; i < size ; i = i+2) {
@@ -61,23 +61,23 @@ int max_height_in_array(std::vector<int> arr, int size) {
 
 int main() {
     int test_cases, size, ele;
-    std::cout << "Enter test cases : " << std::endl;
-    std::cin >> test_cases;
+    cout << "Enter test cases : " << endl;
+    cin >> test_cases;
 
     while (test_cases--) {
-        std::vector<int> arr;
-        std::cout << "Enter the size of an array : " << std::endl;
-        std::cin >> size;
+        vector<int> arr;
+        cout << "Enter the size of an array : " << endl;
+        cin >> size;
 
-        std::cout << "Enter the elements in an array : " << std::endl;
+        cout << "Enter the elements in an array : " << endl;
         for (int i = 0 ; i < size ; i++) {
-            std::cin >> ele;
+            cin >> ele;
             arr.push_back(ele);
         }
 
         int result = max_height_in_array(arr, size);
-        std::cout << "Maximum height in the given array is : " << result
-        << std::endl;
+        cout << "Maximum height in the given array is : " << result
+        << endl;
     }
-    return (0);
+    return 0;
 }

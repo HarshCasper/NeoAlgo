@@ -17,4 +17,4 @@ Q-Sharp:
 enhancement:
   - "(enhancement)"
 Hacktoberfest:
-  - ".*"
+  - "(.*)"

@@ -56,7 +56,6 @@ int bilinear(vector<int>&a,int n,int key)
 
 int main()
 {
-    clock_t start=clock();
     //declare and read the values of n;
     int n; cin>>n;
     //declare and read the values of a[] of size n
@@ -67,8 +66,6 @@ int main()
     int key; cin>>key;
     //Billinear approach
     cout<<bilinear(a,n,key);
-
-    cerr<<fixed<<setprecision(6);
-    cerr<<(double)(clock()-start)/CLOCKS_PER_SEC<<endl;
+    
     return 0;
 }

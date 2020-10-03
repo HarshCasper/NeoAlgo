@@ -37,8 +37,11 @@ int main()
     int x = 0, y = 0, a, b;
     cout<<"Enter the numbers whose GCD is to be found:"<<endl;
     cin>>a>>b;
+	
     cout<<"GCD of "<<a<<" and "<<b<<" is:"<<endl;
-    cout<<gcd_iterative(a, b, x, y);
+    cout<<gcd(a, b, x, y)<<endl;
+    cout<<"GCD (iterative method) is : "<<endl;
+    cout<<gcd_iterative(a,b,x,y)<<endl;
     return 0;
 }
 
@@ -50,6 +53,8 @@ Enter the numbers whose GCD is to be found:
 
 Output:
 GCD of 36 and 60 is:
+12
+GCD (iterative method) is : 
 12
 
 Time Complexity: O(Log min(a, b))

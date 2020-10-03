@@ -10,26 +10,26 @@ Application in some combinatorial problems:
 
 #include <stdio.h>
 
-int catalan(int n)
+int catalan(int num)
 {
-	if (n <= 1)
+	if (num <= 1)
 	{
 		return 1;
 	}
 
 	int res = 0;
-	for (int i = 0; i < n; i++)
-		res += catalan(i) *catalan(n - i - 1);
+	for (int i = 0; i < num; i++)
+		res += catalan(i) *catalan(num - i - 1);
 	return res;
 }
 
 int main()
 {
-	int n;
+	int num;
 	printf("Enter Number: ");
-	scanf("%d", &n);
+	scanf("%d", &num);
 	printf("\n");
-	for (int i = 1; i <= n; i++)
+	for (int i = 1; i <= num; i++)
 	{
 		printf("%d ", catalan(i));
 	}

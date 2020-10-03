@@ -85,6 +85,7 @@
 - [Linear Search](search/Linear_Search.cpp)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
 - [Randomized Select Search](search/Randomized_Select.cpp)
+- [Bilinear Search](search/bilinear_search.cpp)
 
 ## Sorting
 

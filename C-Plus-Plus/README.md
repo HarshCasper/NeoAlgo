@@ -17,6 +17,7 @@
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
+- [Count of string P in string S](cp/CountofPinS.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
@@ -24,18 +25,27 @@
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
+- [Painter Partition](cp/painter_partition.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
+- [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
+- [Search Insert Position](cp/search_insert_position.cpp)
+- [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
 
 ## Data Structures
 
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
+- [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
+- [Circular Linkedlist](ds/Circular_LinkedList.cpp)
+- [Singly Linked List](ds/singly_linked_list.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
@@ -52,6 +62,8 @@
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
+- [Add Post-Order Tree Traversal](ds/postorder.cpp)
+
 
 ## Graphs
 
@@ -72,6 +84,7 @@
 - [Interpolation Search](search/Interpolation_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
+- [Randomized Select Search](search/Randomized_Select.cpp)
 
 ## Sorting
 
@@ -93,7 +106,9 @@ _add list here_
 ## Mathematics
 
 - [Ackermann Function](math/Ackermann_function.cpp)
+- [Armstrong Number](math/armstrong_number.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
+- [Catalan number](math/catalan_num.cpp)
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
@@ -108,9 +123,10 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
+- [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
-
+- [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 
 ## Blockchain
 
@@ -123,10 +139,16 @@ _add list here_
 
 ## Other
 
+
+- [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
+- [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
+- [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
+- [Sudoku Solver](other/sudoku.cpp)
 - [Russian Peasant Algorithm](cp/RussianPeasant.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+

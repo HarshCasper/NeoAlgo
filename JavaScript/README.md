@@ -11,6 +11,8 @@
 
 ## Algorithms
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)
+- [Z Algorithm](Algorithms/ZAlgorithm.js)
+
 ## Data Structures
 
 - [AVL Tree](./ds/AVLTree.js)
@@ -67,4 +69,5 @@ _add list here_
 
 ## Other
 
+- [Large Factorials](other/largeNumberFactorial.js)
 - [Remove outermost parenthesis](other/RemoveOuterParenthesis.js)

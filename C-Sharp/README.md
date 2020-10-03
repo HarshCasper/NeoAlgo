@@ -19,7 +19,7 @@ _add list here_
 
 ## Cryptography
 
-_add list here_
+- [Vigenere Cipher](cryptography/vigenere_cipher.cs)
 
 ## Data Structures
 
@@ -51,4 +51,5 @@ _add list here_
 
 ## Other
 
-_add list here_
+- [Unique Number III](other/Unique_Number_III.cs)
+- [Prime Factorization using Sieve](other/prime_factor_sieve.cs)

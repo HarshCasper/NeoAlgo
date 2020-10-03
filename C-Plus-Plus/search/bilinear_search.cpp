@@ -1,10 +1,4 @@
-/*********************************************************************************
-                            Bilinear Search
-Author: Rishabh Gautam 
-Email: rgautam1919@gmail.com
-Github: rishabh7896
-**********************************************************************************
-
+/*
 We are given an array a[], check whether the value exists or not,
 if exits print the index(1 based indexing) else print -1.
 

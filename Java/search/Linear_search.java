@@ -5,7 +5,7 @@ public class Linear_search {
 	//The average and worst case time complexity O(n).
 	//The worst case space complexity is O(1).
 	static int linSearch(int[] a, int k, int length) {
-		for (int i = 0; i<length; i++) {
+		for (int i = 0; i < length; i++) {
 			if (a[i] == k)
 				return i + 1; //returns position
 		}
@@ -17,7 +17,7 @@ public class Linear_search {
 		int length = sc.nextInt();
 		int arr[] = new int[length];
 		System.out.print("Enter array values: ");
-		for (int i = 0; i<length; i++) {
+		for (int i = 0; i < length; i++) {
 			arr[i] = sc.nextInt();
 		}
 		System.out.print("Enter the value whose index needs to be searched: ");

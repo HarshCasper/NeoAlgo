@@ -10,7 +10,7 @@ public class Binary_search {
 			int mid = (l + h) / 2;
 			if (key == a[mid])
 				return mid + 1; //index starts from zero so position has to be incremented by one.
-			else if (key<a[mid])
+			else if (key < a[mid])
 				h = mid - 1;
 			else
 				l = mid + 1;
@@ -24,7 +24,7 @@ public class Binary_search {
 		int length = sc.nextInt();
 		int arr[] = new int[length];
 		System.out.print("Enter array values: ");
-		for (int i = 0; i<length; i++) {
+		for (int i = 0; i < length; i++) {
 			arr[i] = sc.nextInt();
 		}
 		// to sort the array if not sorted

@@ -1,0 +1,16 @@
+int is(int num,int i){
+
+    while(num%i==0){
+        num=num/i;
+    }
+    return num;
+}
+bool isUgly(int num) {
+    if(num<=0){
+        return false;
+    }
+    num=is(num,2);
+    num=is(num,3);
+    num=is(num,5);
+    return (num==1)? true :false;
+}

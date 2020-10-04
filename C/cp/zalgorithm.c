@@ -45,7 +45,7 @@ int main()
 	strcat(pattern, "$");
 	strcat(pattern, text);
 	int n = strlen(pattern);
-	int z[n] = {};
+	int z[n];
 	getZ(pattern, z);
 	for (int i = 0; i < n; ++i)
 	{

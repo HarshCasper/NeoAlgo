@@ -97,7 +97,7 @@ int main()
 }
 
 /*
-Sample Input 1:
+Sample Input:
 9 14
 0 1 4
 0 7 8

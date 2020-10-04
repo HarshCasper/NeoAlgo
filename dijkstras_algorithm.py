@@ -26,6 +26,7 @@ print(g.edges())
 
 nx.draw(g)
 plt.show()
+
 # dijkstra's Algorithm
 h = nx.Graph()
 e = [('a', 'b', 1), ('b', 'c', 2),

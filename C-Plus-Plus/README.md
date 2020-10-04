@@ -113,6 +113,7 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
+- [Ugly Numbers](math/ugly_numbers.cpp)
 
 ## Dynamic Programming
 

@@ -44,7 +44,7 @@ int main()
 	string concat = pattern + "$" + text;
 	int n = concat.size();
 	int m = pattern.size();
-	int z[n] = {};
+	int z[n];
 	getZ(concat, z);
 	for (int i = 0; i < n; ++i)
 	{
@@ -60,8 +60,8 @@ int main()
 Time Complexity: O(length of text + length of pattern)
 
 Input
-AABACAAFGAABAABA
-AABA
+Enter the text: AABACAAFGAABAABA
+Enter the pattern: AABA
 
 Output
 Pattern found at index 0

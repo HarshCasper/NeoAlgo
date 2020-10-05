@@ -57,13 +57,15 @@ int bilinear(vector<int>&a,int n,int key)
 int main()
 {
     //declare and read the values of n;
-    int n; cin>>n;
+    int n; 
+    cin>>n;
     //declare and read the values of a[] of size n
     vector<int>a(MAX);
     for(int i=0;i<n;i++)
         cin>>a[i];
     //declare and read the value of key
-    int key; cin>>key;
+    int key; 
+    cin>>key;
     //Billinear approach
     cout<<bilinear(a,n,key);
     

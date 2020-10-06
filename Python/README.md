@@ -79,6 +79,7 @@
 - [Maximum Water Container](cp/Maximum_Water_Container.py)
 - [Smallest sum subarray](cp/smallest_sum_array.py)
 - [Delete a node from linked list](cp/delete_node.py)
+- [Search Insert Position](cp/search_insert_position.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

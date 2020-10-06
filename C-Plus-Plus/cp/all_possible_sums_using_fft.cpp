@@ -62,7 +62,8 @@ void fft(vector<cd> &a, bool invert)
         for(;j&bit;bit>>=1)
             j^=bit;
         j^=bit;
-        if(i<j) swap(a[i],a[j]);
+        if(i<j) 
+        	swap(a[i],a[j]);
     }
     for(int len=2;len<=n;len<<=1) 
     {
@@ -80,7 +81,9 @@ void fft(vector<cd> &a, bool invert)
             }
         }
     }
-    if(invert) for(cd &x:a) x/=n;
+    if(invert) 
+    	for(cd &x:a) 
+    		x/=n;
 }
 
 /*This function works with polynomials with integer coefficients, 
@@ -110,7 +113,8 @@ vector<int> multiply(vector<int>const &a, vector<int>const &b)
 int main()
 {
     //declare and read the values of a and m;
-    int n, m,temp; cin>>n>>m;
+    int n, m,temp; 
+    cin>>n>>m;
     //declare and read the values of a[] of size n 
     //at the same time create the polynomial A
     vector<int>A(RANGE,0);

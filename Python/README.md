@@ -213,4 +213,6 @@ _add list here_
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
-- [Painter Partition Probelm](other/painter_partition.py)
+- [Painter Partition Probelm](other/painter_partition.py)-
+- [Find the Numbers](other/find_the_numbers.py)
+- [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)

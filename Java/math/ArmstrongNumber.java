@@ -10,15 +10,15 @@ public class ArmstrongNumber
 	    System.out.print("Enter a number : ");
 	    int num = sc.nextInt();
 	    int res = num;
-	    int val=0;
+	    int val = 0;
 	    int len = length_number(num);
 	    while(res>0){
-	        int temp = res%10;
+	        int temp = res % 10;
 	        val += Math.pow(temp, len);
-	        res = res/10;
+	        res = res / 10;
 	    }
-	    if(num == val) System.out.println(num+" is armstrong");
-	    else System.out.println(num+" is not armstrong");
+	    if(num == val) System.out.println(num+" is an armstrong number.");
+	    else System.out.println(num+" is not an armstrong number.");
 	}
 }
 
@@ -26,15 +26,15 @@ public class ArmstrongNumber
 Sample input and output
 Example 1:
 Enter a number : 1002
-Number is not armstrong
+Number is not an armstrong number.
 
 Example 2:
 Enter a number : 153
-Number is armstrong
+Number is an armstrong number.
 
 Example 3:
 Enter a number : 8208
-8208 is armstrong
+8208 is an armstrong number.
 
 Complexities
 time: O(log(n))

@@ -28,9 +28,9 @@
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
 - [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
+- [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
-
 
 ## Cryptography
 

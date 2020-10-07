@@ -39,6 +39,7 @@
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
+- [Z Algorithm](cp/zalgorithm.cpp)
 
 ## Data Structures
 
@@ -86,6 +87,7 @@
 - [Linear Search](search/Linear_Search.cpp)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
 - [Randomized Select Search](search/Randomized_Select.cpp)
+- [Bilinear Search](search/bilinear_search.cpp)
 
 ## Sorting
 
@@ -109,6 +111,7 @@ _add list here_
 - [Ackermann Function](math/Ackermann_function.cpp)
 - [Armstrong Number](math/armstrong_number.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
+- [Catalan number](math/catalan_num.cpp)
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)

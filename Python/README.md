@@ -55,6 +55,7 @@
 - [Queue](ds/Queue.py)
 - [Reverse Linked List](ds/Reverse_linked_list.py)
 - [Stacks](ds/Stacks.py)
+- [Linked Lists](ds/addNodes.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
 - [Sparse Matrix ](ds/Sparse_matrix_Operation.py)
 - [Tree (in-order(iterative)](ds/Tree_Iterative_InOrder_Traversal.py)

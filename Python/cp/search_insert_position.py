@@ -10,13 +10,16 @@ Input: [1,3,5,6], 5
 Output: 2
 
 '''
+#taking the input from the user
 
 x = list(map(int, input().strip().split()))
 target = int(input())
 
+#finding whther the target value is in the list or not
+
 if target in x:
-    print(x.index(target))
+    print(x.index(target))   #if target is present then printing the index
 else:
-    x.append(target)
-    x.sort()
-    print(x.index(target))
+    x.append(target)   #adding the target in the list
+    x.sort()   	#sorting the list
+    print(x.index(target))   #printing the target value

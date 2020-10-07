@@ -22,4 +22,4 @@ if target in x:
 else:
     x.append(target)   #adding the target in the list
     x.sort()   	#sorting the list
-    print(x.index(target))   #printing the target value
+    print(x.index(target))   #printing the target index

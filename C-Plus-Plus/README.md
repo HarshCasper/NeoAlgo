@@ -132,6 +132,7 @@ _add list here_
 
 ## Other
 
+- [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)

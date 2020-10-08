@@ -27,6 +27,7 @@ _add list here_
 
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
+- [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
 - [Longest Substring without Repeating characters](cp/LongestSubstring_without_repeating_characters.java)
 - [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.java)
@@ -38,6 +39,8 @@ _add list here_
 - [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 - [Check for Subsequence](cp/CheckForSubSequence.java)
+- [Factorial of large numbers](cp/Factorial_large_numbers.java)
+- [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 
 ## Cryptography
 
@@ -136,13 +139,17 @@ _add list here_
 
 ## Other
 
+- [All possible codes](other/LetterCodeRecursion.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
+- [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
+- [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

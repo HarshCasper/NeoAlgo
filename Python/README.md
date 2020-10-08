@@ -77,6 +77,8 @@
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
 - [Maximum sum rectangle](cp/max_sum.py)
 - [Maximum Water Container](cp/Maximum_Water_Container.py)
+- [Smallest sum subarray](cp/smallest_sum_array.py)
+- [Delete a node from linked list](cp/delete_node.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -139,6 +141,7 @@
 * [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 * [Factorial](math/factorial.py)
 * [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
+* [Large Number Factorial](math/Large_number_factorial.py)
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
@@ -196,14 +199,20 @@ _add list here_
 ## Other
 
 - [Check Inversion](other/Check_Inversion.py)
+- [Distinct Elements Count](other/Distinct_elements_count.py)
 - [Find frequency using Binary Search](other/find_freq_using_bs.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 - [Longest Substring](other/longest_Substring.py)
 - [Merging Sorted arrays](other/merge_sorted_arrays.py)
 - [Maximum Square Matrix with all 1's](other/Maximum_Square_Matrix.py)
+- [Possible Code Recursion](other/Possible_code_recursion.py)
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
 - [Satellite Image analysis using Numpy](other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)
+- [Subsequence Recursion](other/Subsequence_recursion.py)
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
+- [Find the Numbers](other/find_the_numbers.py)
+- [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
+

@@ -32,8 +32,13 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
+- [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
+- [Search Insert Position](cp/search_insert_position.cpp)
+- [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
+- [Z Algorithm](cp/zalgorithm.cpp)
 
 ## Data Structures
 
@@ -58,6 +63,8 @@
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
+- [Add Post-Order Tree Traversal](ds/postorder.cpp)
+
 
 ## Graphs
 
@@ -79,6 +86,7 @@
 - [Linear Search](search/Linear_Search.cpp)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
 - [Randomized Select Search](search/Randomized_Select.cpp)
+- [Bilinear Search](search/bilinear_search.cpp)
 
 ## Sorting
 
@@ -100,7 +108,9 @@ _add list here_
 ## Mathematics
 
 - [Ackermann Function](math/Ackermann_function.cpp)
+- [Armstrong Number](math/armstrong_number.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
+- [Catalan number](math/catalan_num.cpp)
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
@@ -120,7 +130,6 @@ _add list here_
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 
-
 ## Blockchain
 
 _add list here_
@@ -133,6 +142,8 @@ _add list here_
 ## Other
 
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
+- [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
+- [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)

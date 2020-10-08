@@ -43,6 +43,7 @@ _add list here_
 ## Dynamic Programming
 
 - [Stack](dp/stack.go)
+- [Longest Substring without Repeating Characters](./dp/longest_substring.go)
 
 ## Machine Learning
 
@@ -51,10 +52,11 @@ _add list here_
 ## Mathematics
 
 - [Karatsuba Multiplication](./math/karatsuba_multiplication.go)
+- [Armstrong Number](./math/armstrong_number.go)
 
 ## Other
 
-_add list here_
+* [Tower of Hanoi](./other/Tower_of_Hanoi.go)
 
 ## Searching
 

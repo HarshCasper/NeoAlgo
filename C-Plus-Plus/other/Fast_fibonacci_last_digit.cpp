@@ -1,4 +1,4 @@
-// C++ Program to claculate last digit number of fibonacci series
+// C++ Program to calculate last digit number of fibonacci series
 
 #include <iostream>
 using namespace std;

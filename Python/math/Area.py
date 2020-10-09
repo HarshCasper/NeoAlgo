@@ -61,12 +61,41 @@ def area_circle(radius):
 
 def main():
     print("Areas of various geometric shapes: \n")
-    print(f"Rectangle: {area_rectangle(10, 20)=}")
-    print(f"Square: {area_square(10)=}")
-    print(f"Triangle: {area_triangle(10, 10)=}")
-    print(f"Parallelogram: {area_parallelogram(10, 20)=}")
-    print(f"Trapezium: {area_trapezium(10, 20, 30)=}")
-    print(f"Circle: {area_circle(20)=}")
+    
+    print("Enter sides of rectangle:",end=" ")
+    l,b=input().split()
+    l=int(l)
+    b=int(b)
+    print("Rectangle with sides "+str(l)+" and "+str(b)+" is: "+str(area_rectangle(l,b)))
+    
+    print("Enter side of square:",end=" ")
+    l=int(input())
+    print("Square with side "+str(l)+" is: "+str(area_square(l)))
+    
+    print("Enter base and height of triangle:",end=" ")
+    b,h=input().split()
+    h=int(h)
+    b=int(b)
+    print("Triangle with height "+str(h)+" and base "+str(b)+" is: "+str(area_triangle(h,b)))
+    
+    print("Enter base and height of parallelogram:",end=" ")
+    b,h=input().split()
+    h=int(h)
+    b=int(b)
+    print("Parallelogram with height "+str(h)+" and base "+str(b)+" is: "+str(area_parallelogram(h,b)))
+    
+    print("Enter bases and height of trapezium:",end="")
+    b1,b2,h=input().split()
+    b1=int(b1)
+    b2=int(b2)
+    h=int(h)
+    print("Trapezium with bases "+str(b1)+" and "+str(b2)+"and height "+str(h)+" is: "+str(area_trapezium(b1,b2,h)))
+    
+    print("Enter radius of circle:",end=" ")
+    r=int(input())
+    print("Circle with radius "+str(r)+" is: "+str(area_circle(r)))
+    
+    
 
 
 if __name__ == "__main__":

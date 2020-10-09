@@ -141,7 +141,7 @@ _add list here_
 
 ## Other
 
-
+- [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)

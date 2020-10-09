@@ -198,6 +198,7 @@ _add list here_
 - [Check Inversion](other/Check_Inversion.py)
 - [Find frequency using Binary Search](other/find_freq_using_bs.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+- [Least Common multiple](other/Least_common_multiple.py)
 - [Longest Substring](other/longest_Substring.py)
 - [Merging Sorted arrays](other/merge_sorted_arrays.py)
 - [Maximum Square Matrix with all 1's](other/Maximum_Square_Matrix.py)

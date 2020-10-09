@@ -40,6 +40,7 @@ _add list here_
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 - [Check for Subsequence](cp/CheckForSubSequence.java)
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
+- [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 
 ## Cryptography
 
@@ -144,6 +145,7 @@ _add list here_
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)

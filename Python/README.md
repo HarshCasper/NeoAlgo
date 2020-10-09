@@ -79,6 +79,7 @@
 - [Maximum Water Container](cp/Maximum_Water_Container.py)
 - [Smallest sum subarray](cp/smallest_sum_array.py)
 - [Delete a node from linked list](cp/delete_node.py)
+- [Rain Water Harvesting](cp/rainwater_harvesting.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -145,6 +146,7 @@
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+* [Ugly Number](math/UglyNumber.py)
 
 ## Competitive Programming
 
@@ -214,5 +216,6 @@ _add list here_
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
 - [Painter Partition Probelm](other/painter_partition.py)-
+- [Remove Outermost Paranthesis](other/remove_outermost_paranthesis.py)
 - [Find the Numbers](other/find_the_numbers.py)
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)

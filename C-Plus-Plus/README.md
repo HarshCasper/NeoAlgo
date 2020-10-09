@@ -86,6 +86,7 @@
 - [Linear Search](search/Linear_Search.cpp)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
 - [Randomized Select Search](search/Randomized_Select.cpp)
+- [Bilinear Search](search/bilinear_search.cpp)
 
 ## Sorting
 
@@ -140,7 +141,7 @@ _add list here_
 
 ## Other
 
-
+- [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)

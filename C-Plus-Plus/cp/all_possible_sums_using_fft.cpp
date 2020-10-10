@@ -4,21 +4,16 @@ We have to find all possible sums a[i]+b[j],
 and for each sum count how often it appears.
 Let the size of array a be n and array b be m.
 Sample Input: 
-12 7
-16 17 9 0 19 24 3 8 12 14 5 20 
-6 2 11 16 20 17 2 
+3 2
+1 2 3
+4 5
 Sample Output:
+5 1
+6 2
+7 2
 8 1
-9 2
-10 2
-11 1
-14 1
-15 2
-16 2
-17 1
 Large Data file: https://bit.ly/3l8Zo9q
-Output file: https://bit.ly/3jqnz2C
- 
+Output file: https://bit.ly/3jqnz2C 
 Constraints:
 1<=n<=1e5
 1<=m<=1e5

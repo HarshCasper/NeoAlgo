@@ -1,7 +1,7 @@
 //Java Code to find the last digit of nth fibonacci number
 
-import java.io. * ;
-import java.util. * ;
+import java.io.* ;
+import java.util.* ;
 
 public class LastDigitFibonacci {
 

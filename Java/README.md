@@ -154,3 +154,4 @@ _add list here_
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
+- [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)

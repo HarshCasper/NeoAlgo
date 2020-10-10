@@ -1,8 +1,7 @@
 """
-
-Given a sorted array and a target value, return the index if the target is found. 
+Given a sorted array and a target value,
+return the index if the target is found.
 If not, return the index where it would be if it were inserted in order.
-
 You may assume no duplicates in the array.
 
 Example 1:
@@ -18,12 +17,15 @@ target = int(input("Enter the Element whose index has to be found: "))
 # finding whether the target value is in the list or not
 
 if target in x:
+    a = x.index(target)
     print(
-        "The number is present at the index {}.".format(x.index(target))
+        "The number is present at the index {}.".format(a)
     )  # if target is present then printing the index
 else:
     x.append(target)  # adding the target in the list
     x.sort()  # sorting the list
+    a = x.index(target)
     print(
-        "Number not found. It can be inserted at index {}.".format(x.index(target))
+        "Number not found. It can be inserted at index {}.".format(a)
     )  # printing the target index
+

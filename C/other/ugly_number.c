@@ -33,17 +33,17 @@ int get_ugly_no(int n)
     { 
         nxt_ugly = MIN(nxt_mul_2, MIN(nxt_mul_3, nxt_mul_5)); 
         ugly[i] = nxt_ugly; 
-        if(nxt_ugly == nxt_mul_2) 
+        if (nxt_ugly == nxt_mul_2) 
         { 
             i2++; 
             nxt_mul_2 = ugly[i2] * 2; 
         }
-        if(nxt_ugly == nxt_mul_3) 
+        if (nxt_ugly == nxt_mul_3) 
         { 
             i3++; 
             nxt_mul_3 = ugly[i3] * 3; 
         } 
-        if(nxt_ugly == nxt_mul_5) 
+        if (nxt_ugly == nxt_mul_5) 
         { 
             i5++; 
             nxt_mul_5 = ugly[i5] * 5; 

@@ -14,8 +14,8 @@ class Solution(object):
         runningTotal[0] = nums[0]
         runningTotal[1] = max(nums[0], nums[1])
 
-        for i in range(2, len(nums)):
-            runningTotal.append(max([nums[i] + runningTotal[i - 2], runningTotal[i - 1]]))
+        for index in range(2, len(nums)):
+            runningTotal.append(max([nums[index] + runningTotal[index - 2], runningTotal[index - 1]]))
 
 
         return runningTotal[-1]

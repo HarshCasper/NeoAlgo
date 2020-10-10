@@ -23,14 +23,13 @@ long long lcm(int a, int b)
 int main()
 {
 	//Input 2 numbers for Lcm
-    int n1, n2, max;
+    int n1, n2;
     cout << "Enter two numbers: ";
     cin >> n1 >> n2;
     //Print output
     cout<<"\tOUTPUT\n";
     //calling Lcm Funtion
-    cout <<"LCM of " << n1 << " and "
-         << n2 << "--> " << lcm(n1, n2); 
+    cout << lcm(n1, n2); 
  
     return 0;
 }

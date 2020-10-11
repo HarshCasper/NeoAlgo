@@ -81,6 +81,7 @@
 - [Delete a node from linked list](cp/delete_node.py)
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
+- [House Robber](cp/house_robber.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

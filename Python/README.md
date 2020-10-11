@@ -80,6 +80,7 @@
 - [Smallest sum subarray](cp/smallest_sum_array.py)
 - [Delete a node from linked list](cp/delete_node.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
+- [House Robber](cp/house_robber.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

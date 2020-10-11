@@ -79,6 +79,8 @@
 - [Maximum Water Container](cp/Maximum_Water_Container.py)
 - [Smallest sum subarray](cp/smallest_sum_array.py)
 - [Delete a node from linked list](cp/delete_node.py)
+- [Stable Marriage Problem](cp/stable_marriage_problem.py)
+- [Rain Water Harvesting](cp/rainwater_harvesting.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -145,6 +147,7 @@
 * [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 * [Fibonacci number](math/Fibonacci.py)
 * [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+* [Ugly Number](math/UglyNumber.py)
 
 ## Competitive Programming
 
@@ -202,6 +205,7 @@ _add list here_
 - [Distinct Elements Count](other/Distinct_elements_count.py)
 - [Find frequency using Binary Search](other/find_freq_using_bs.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+- [Least Common multiple](other/Least_common_multiple.py)
 - [Longest Substring](other/longest_Substring.py)
 - [Merging Sorted arrays](other/merge_sorted_arrays.py)
 - [Maximum Square Matrix with all 1's](other/Maximum_Square_Matrix.py)
@@ -213,5 +217,6 @@ _add list here_
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
+- [Remove Outermost Paranthesis](other/remove_outermost_paranthesis.py)
+- [Find the Numbers](other/find_the_numbers.py)
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
-

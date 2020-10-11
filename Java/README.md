@@ -40,6 +40,7 @@ _add list here_
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 - [Check for Subsequence](cp/CheckForSubSequence.java)
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
+- [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 
 ## Cryptography
 
@@ -153,3 +154,4 @@ _add list here_
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
+- [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)

@@ -57,6 +57,7 @@
 - [Selection Sort](sort/Selection_Sort.py)
 - [Shell Sort](sort/Shell_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
+- [Tim Sort](sort/Tim_Sort.py)
 
 ## Graphs
 

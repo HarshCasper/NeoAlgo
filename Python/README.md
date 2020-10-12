@@ -61,6 +61,7 @@
 - [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 - [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+<<<<<<< HEAD
 
 ## Competitive Programming
 
@@ -85,6 +86,9 @@
 - [Affine Cipher](cryptography/AffineCipher.py)
 - [Caesar Cipher](cryptography/Caesar_Cipher.py)
 - [Vigenere Cipher](cryptography/vigenere_cipher.py)
+=======
+- [Linked List Intersection](ds/linkedListIntersection.py)
+>>>>>>> 93bf47b (Update README.md)
 
 ## Searching
 
@@ -99,6 +103,7 @@
 - [Random select](search/random_select.py)
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
+
 
 ## Sorting
 
@@ -120,81 +125,71 @@
 ## Graphs
 
 - [Depth of Tree](graphs/Depth_Of_Tree.py)
-- [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Height of Tree](graphs/height_of_given_tree.py)
+- [Prim's Algorithm](graphs/Prims_Algo_dynamic.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
-- [Prim's Algorithm](graphs/Prim_Algorithm.py)
-- [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
-
-## Machine Learning
-* [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
-* [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
-* [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
-* [Linear Regression](ml/Linear_Regression.ipynb)
-* [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
-* [Logistic Regression](ml/Logistic_Regression.ipynb)
-* [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
-* [Principal Component Analysis](ml/principal_component_analysis.ipynb)
-
-## Mathematics
-* [Area](math/Area.py)
-* [Binary Exponentiation](math/Binary_Exponentiation.py)
-* [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
-* [Factorial](math/factorial.py)
-* [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
-* [Large Number Factorial](math/Large_number_factorial.py)
-* [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
-* [Fibonacci number](math/Fibonacci.py)
-* [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
-* [Ugly Number](math/UglyNumber.py)
+- [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 
 ## Competitive Programming
 
-* [Rabin Karp Algorithm](cp/Rabin_Karp.py)
-
-## Dynamic Programming
-_add list here_
-
-## Blockchain
-_add list here_
-
+- [Anagram Checker](cp/anagram_checker.py)
+- [Find Least positive number](cp/findingLeastPositiveNumber.py)
+- [KMP Algorithm](cp/KMP_Algorithm.py)
+- [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
+- [Longest Common Prefix](cp/longest_Common_Prefix.py)
+- [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
+- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
+- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+- [Target sum triplet](cp/Target_Sum_Triplet.py)
+- [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+- [Maximum sum rectangle](cp/max_sum.py)
+- [Maximum Water Container](cp/Maximum_Water_Container.py)
+- [Smallest sum subarray](cp/smallest_sum_array.py)
+- [Delete a node from linked list](cp/delete_node.py)
+- [Stable Marriage Problem](cp/stable_marriage_problem.py)
+- [Rain Water Harvesting](cp/rainwater_harvesting.py)
+- [House Robber](cp/house_robber.py)
 
 ## Cryptography
-_add list here_
 
-## Other
-* [Check Inversion](other/Check_Inversion.py)
-* [Kadane's Algorithm](other/Kadanes_Algorithm.py)
-* [Reverse a string using stack](other/Reverse_string_using_stack.py)
+- [Affine Cipher](cryptography/AffineCipher.py)
+- [Caesar Cipher](cryptography/Caesar_Cipher.py)
+- [Vigenere Cipher](cryptography/vigenere_cipher.py)
+
+## Machine Learning
+
+- [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
+- [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
+- [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
+- [Linear Regression](ml/Linear_Regression.ipynb)
+- [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
+- [Logistic Regression](ml/Logistic_Regression.ipynb)
+- [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
+- [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+
+## Mathematics
+
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
-- [Double factorial](math/double_factorial.py)
-- [Euler's Totient Function](math/euler_totient_function.py)
-- [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
-- [Factorial](math/factorial.py)
-- [Fibonacci number](math/Fibonacci.py)
-- [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
+- [Factorial](math/factorial.py)
+- [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
+- [Large Number Factorial](math/Large_number_factorial.py)
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
+- [Fibonacci number](math/Fibonacci.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+- [Ugly Number](math/UglyNumber.py)
+- [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
+- [Least Common Multiple](math/Least_common_multiple.py)
+- [Double Factorial](math/double_factorial.py)
+- [Euler Totient Function](math/euler_totient_function.py)
 
-## Other
-* [Check Inversion](other/Check_Inversion.py)
-* [Kadane's Algorithm](other/Kadanes_Algorithm.py)
-* [Longest substring without repeating character](other/longest_Substring.py)
-* [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
-* [Reverse a string using stack](other/Reverse_string_using_stack.py)
-* [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
-* [Sudoku Solver](other/sudoku_backtracking.py)
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)
 
 ## Blockchain
-
-_add list here_
-
-## Cryptography
 
 _add list here_
 
@@ -218,3 +213,5 @@ _add list here_
 - [Subsequence check](other/Subsequence_check.py)
 - [Find the Numbers](other/find_the_numbers.py)
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
+- [Sudoku Solver](other/sudoku_backtracking.py)
+- [Longest substring without repeating character](other/longest_Substring.py)

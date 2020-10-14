@@ -48,6 +48,7 @@
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
+- [Knutt Morris Prat Algorithm](ds/KnuttMorrisPrathAlgo.c)
 
 
 ## Searching

@@ -54,12 +54,27 @@ int ternarySearchIterative(int l, int r, int key, int ar[])
 int main() 
 { 
 	int l, r, p, key; 	
-	int ar[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; 
+	cin>>r;
+	int *ar = new int[r];
+	for(int i=0;i<r;i++){
+	    cin>>ar[i];
+	}
 	l = 0; 
-	r = 9;
-	key = 5; 
+	cin>>key;
 	p = ternarySearchIterative(l, r, key, ar);
-	cout << "Iterative Approach : Index of " << key << " is " << p << endl; // Output : 4
+	cout << "Iterative Approach : Index of " << key << " is " << p << endl; 
 	p = ternarySearchRecursion(l, r, key, ar); 
-	cout << "Recursive Approach : Index of " << key << " is " << p << endl; // Output : 4
+	cout << "Recursive Approach : Index of " << key << " is " << p << endl; 
 } 
+'''
+Time Complexity : O(log3(N))
+Sample I/O:
+INPUT : 
+9
+1 2 3 4 5 6 7 8 9 
+5
+
+OUTPUT : 
+Iterative Approach : Index of 5 is 4
+Recursive Approach : Index of 5 is 4
+'''

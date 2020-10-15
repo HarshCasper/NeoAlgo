@@ -140,6 +140,7 @@ _add list here_
 ## Other
 
 - [All possible codes](other/LetterCodeRecursion.java)
+- [Find the numbers](other/FindNumbers.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
@@ -154,3 +155,4 @@ _add list here_
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
+- [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)

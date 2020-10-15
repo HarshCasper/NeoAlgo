@@ -1,7 +1,7 @@
 #include <bits/stdc++.h> 
 using namespace std; 
 
-//Recursive Approach
+//Recursive Approach: Time Complexity Is O(log3(N))
 int ternarySearchRecursion(int l, int r, int key, int ar[]) 
 { 
 	if (r >= l) { 
@@ -26,7 +26,7 @@ int ternarySearchRecursion(int l, int r, int key, int ar[])
 	return -1; 
 } 
 
-//Iterative Approach
+//Iterative Approach: Time Complexity Is O(log3(N))
 int ternarySearchIterative(int l, int r, int key, int ar[])   
 { 
     while (r >= l) { 
@@ -59,7 +59,7 @@ int main()
 	r = 9;
 	key = 5; 
 	p = ternarySearchIterative(l, r, key, ar);
-	cout << "Iterative Approach : Index of " << key << " is " << p << endl; 
+	cout << "Iterative Approach : Index of " << key << " is " << p << endl; // Output : 4
 	p = ternarySearchRecursion(l, r, key, ar); 
-	cout << "Recursive Approach : Index of " << key << " is " << p << endl; 
+	cout << "Recursive Approach : Index of " << key << " is " << p << endl; // Output : 4
 } 

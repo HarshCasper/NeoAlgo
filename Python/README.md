@@ -128,6 +128,7 @@
 - [Logistic Regression](ml/Logistic_Regression.ipynb)
 - [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+- [Polynomial Regression](ml/Polynomial_Regression.ipynb)
 
 ## Mathematics
 

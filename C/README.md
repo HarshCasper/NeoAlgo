@@ -106,6 +106,7 @@ _add list here_
 - [Remove outermost parentheses](other/remove_outermost_parentheses.c)
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
+- [Ternary Search](other/ternarySearch.c)
 
 ## CP
 

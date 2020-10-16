@@ -54,12 +54,15 @@ int ternarySearchIterative(int l, int r, int key, int ar[])
 int main() 
 { 
 	int l, r, p, key; 	
+	cout<<"Enter Number Of Elements in the array:\n";
 	cin>>r;
-	int *ar = new int[r];
+	int ar[r];
+	cout<<"Enter The Elements In Array:\n";
 	for(int i=0;i<r;i++){
 	    cin>>ar[i];
 	}
-	l = 0; 
+	l = 0;
+	cout<<"Enter The Element To Be Searched:\n";
 	cin>>key;
 	p = ternarySearchIterative(l, r, key, ar);
 	cout << "Iterative Approach : Index of " << key << " is " << p << endl; 
@@ -70,8 +73,11 @@ int main()
 Time Complexity : O(log3(N))
 Sample I/O:
 INPUT : 
+Enter Number Of Elements in the array:
 9
+Enter The Elements In Array:
 1 2 3 4 5 6 7 8 9 
+Enter The Element To Be Searched:
 5
 
 OUTPUT : 

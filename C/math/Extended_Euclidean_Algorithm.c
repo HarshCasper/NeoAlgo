@@ -55,4 +55,4 @@ Enter the values of a and b : 55 10
  
 Output :
 GCD using Extended Euclidean algorithm is: 5
-
+*/

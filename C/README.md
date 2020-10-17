@@ -57,6 +57,7 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Ternary Search](search/TernarySearch.c)
 
 ## Sorting
 
@@ -106,7 +107,6 @@ _add list here_
 - [Remove outermost parentheses](other/remove_outermost_parentheses.c)
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
-- [Ternary Search](other/ternarySearch.c)
 
 ## CP
 

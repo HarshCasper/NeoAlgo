@@ -20,6 +20,6 @@ int main()
 /*
 Input:
 Enter a number: 50
-Output: 
-35
+Output: 35
+
 */ 

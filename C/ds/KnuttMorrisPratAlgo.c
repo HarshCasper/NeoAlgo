@@ -55,6 +55,9 @@ int main()
 }
 
 /*
+Time Complexity: O(n + m)  - n is the length of string and m is the length of sbstring
+Space Complexity: O(m) - m is the length of substring
+
 Sample Input:
 Enter string: ABCABAABCABAC
 Enter subsring: CAB 

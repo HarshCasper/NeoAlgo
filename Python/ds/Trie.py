@@ -1,160 +1,183 @@
-"""
-Tries is a kind of search tree data structure used to store a dynamic set or associative array where the keys are usually strings.
-In this implementation we have only focused on maintaining a Trie for lowercase letter words only.
-Time Complexity: O (length of longest string in Trie * Number of queries)
-Space Complexity: O (size of node * total nodes)
-"""
-
 class Trienode:
-	"""
-	Each node in the Trie will contain the following structure
-	"""
-	def __init__(self,char):
-		self.char=char
-		self.wordend=0
-		self.children=[None for i in range(26)]
+    """
+    Each node in the Trie will contain the following structure
+    """
+
+    def __init__(self, char):
+        self.char = char
+        self.wordend = 0
+        self.children = [None for i in range(26)]
+
 
 class Trie:
-	"""
-	The Trie data structure
-	"""
-	def __init__(self):
-		"""
-		The root will contain a '/' character. We may also keep it an empty string, it won't matter.
-		"""
-		self.root=Trienode('/')
+    """
+    The Trie data structure
+    """
 
-	def insert(self,word):
-		"""
-		To insert word in Trie
-		"""
-		ptr=self.root
+    def __init__(self):
+        """
+        The root will contain a '/' character.
+        We may also keep it an empty string, it won't matter.
+        """
+        self.root = Trienode('/')
 
-		for c in word:
-			idx=ord(c) - ord('a')  # This is done for relative indexing of the children array
+    def insert(self, word):
+        """
+        To insert word in Trie
+        """
+        ptr = self.root
 
-			if ptr.children[idx] != None:
-				ptr=ptr.children[idx]
-				ptr.pc+=1
+        for c in word:
+            # This is done for relative indexing of the children array
+            idx = ord(c) - ord('a')
 
-			else:
-				ptr.children[idx]=Trienode(c)
-				ptr=ptr.children[idx]
-				ptr.pc+=1
+            if ptr.children[idx] is not None:
+                ptr = ptr.children[idx]
 
-		ptr.wordend = 1
+            else:
+                ptr.children[idx] = Trienode(c)
+                ptr = ptr.children[idx]
 
-	def _search(self,word):
-		"""
-		Searches if a word is present in the Trie. Basically a private function that can be used to query or delete results
-		"""
-		ptr=self.root
-		self.exists=True
+        ptr.wordend = 1
 
-		for c in word:
-			idx = ord(c)-ord('a')
+    def _search(self, word):
+        """
+        Searches if a word is present in the Trie.
+        Basically a private function that can be used
+        to query or delete results
+        """
+        ptr = self.root
+        self.exists = True
 
-			if ptr.children[idx] != None:
-				ptr=ptr.children[idx]
+        for c in word:
+            idx = ord(c) - ord('a')
 
-			# Note: In the following lines of code, specific numbers and a pointer is returned just for the convinience to map 
-			# the types of results returned from the Trie. We may use other numbers or approach as well. 
+            if ptr.children[idx] is not None:
+                ptr = ptr.children[idx]
 
-			else:
-				# not exists as ptr has no child in that idx, i.e, it's value is None
-				self.exists=False
-				return (-1,None)
+            # Note: In the following lines of code, specific numbers and
+            # a pointer is returned just for the convinience to map
+            # the types of results returned from the Trie. We may use other
+            # numbers or approach as well.
 
-		if self.exists:
+            else:
+                # not exists as ptr has no child in that idx, i.e, it's value
+                # is None
+                self.exists = False
+                return (-1, None)
 
-			if ptr.wordend == 1:
-				# exists
-				return (0,ptr)
-			else:
-				# not exist as wordend= 0
-				return (1,None)
+        if self.exists:
 
-	def query(self,word):
-		"""
-		To query if a word is present in Trie
-		"""
-		val, _= self._search(word)
+            if ptr.wordend == 1:
+                # exists
+                return (0, ptr)
+            else:
+                # not exist as wordend= 0
+                return (1, None)
 
-		if val==-1 or val==1:
-			print(word,"does not exist in the Trie")
-		elif val ==0:
-			print(word,"exists in the Trie")
+    def query(self, word):
+        """
+        To query if a word is present in Trie
+        """
+        val, _ = self._search(word)
 
-	def delete(self,word):
-		"""
-		To delete a word from Trie
-		"""
-		val,ptr = self._search(word)
+        if val == -1 or val == 1:
+            print(word, "does not exist in the Trie")
+        elif val == 0:
+            print(word, "exists in the Trie")
 
-		if val== -1:
-			print(word,'does not exists in Trie')
+    def delete(self, word):
+        """
+        To delete a word from Trie
+        """
+        val, ptr = self._search(word)
 
-		elif val== 1 :
-			print(word,'does not exists in Trie')
+        if val == -1:
+            print(word, 'does not exists in Trie')
 
-		elif val==0:
-			ptr.wordend =0
-			print(word,'Deleted')
+        elif val == 1:
+            print(word, 'does not exists in Trie')
+
+        elif val == 0:
+            ptr.wordend = 0
+            print(word, 'Deleted')
 
 
 def menu(trie):
 
-	while True:
-		print('Enter I/i: insert, Q/q: query, D/d: delete, E/e: exit')
-		ip=input()
+    while True:
+        print('Enter I/i: insert, Q/q: query, D/d: delete, E/e: exit')
+        ip = input()
 
-		if ip=='I' or ip=='i':
-			print('Enter a word: ')
-			word=input()
-			trie.insert(word)
+        if ip == 'I' or ip == 'i':
+            print('Enter a word: ')
+            word = input()
+            trie.insert(word)
 
-		elif ip=='Q' or ip=='q':
-			print('Enter a word: ')
-			word=input()
-			trie.query(word)
+        elif ip == 'Q' or ip == 'q':
+            print('Enter a word: ')
+            word = input()
+            trie.query(word)
 
-		elif ip =='D' or ip=='d':
-			print('Enter a word: ')
-			word=input()
-			trie.delete(word)
+        elif ip == 'D' or ip == 'd':
+            print('Enter a word: ')
+            word = input()
+            trie.delete(word)
 
-		elif ip =='E' or ip=='e':
-			break
+        elif ip == 'E' or ip == 'e':
+            break
 
 
 def main():
+    # Through real time user input
+    print("Input strings to be inserted in the Trie (only lowercase words)")
+    init_ip = input().split()
 
-	"""
-	#Sample Test cases
-	ip=['aab','acd','bab','aa']
-	s=['aab','ac','baba','ace','aa']
-	trie=Trie()
-	for word in init_ip:
-		trie.insert(word)
-	for word in s:
-		trie.query(word)
-	
-	trie.delete('ba')
-	trie.delete('bab')
-	trie.delete('aaba')
-	trie.delete('bab')
-	"""
+    trie = Trie()
 
-	#Through real time user input
-	print("Input strings to be inserted in the Trie (Note: only lowercase words)")
-	init_ip=input().split()
+    for word in init_ip:
+        trie.insert(word)
 
-	trie=Trie()
+    menu(trie)
 
-	for word in init_ip:
-		trie.insert(word)
+if __name__ == '__main__':
+    main()
 
-	menu(trie)
 
-if __name__=='__main__':
-	main()
+"""
+Sample input-output :
+
+$ python3 Trie.py
+Input strings to be inserted in the Trie (only lowercase words)
+abc ab bab cd efd
+Enter I/i: insert, Q/q: query, D/d: delete, E/e: exit
+q
+Enter a word:
+abc
+abc exists in the Trie
+Enter I/i: insert, Q/q: query, D/d: delete, E/e: exit
+q
+Enter a word:
+abe
+abe does not exist in the Trie
+Enter I/i: insert, Q/q: query, D/d: delete, E/e: exit
+d
+Enter a word:
+cd
+cd Deleted
+Enter I/i: insert, Q/q: query, D/d: delete, E/e: exit
+q
+Enter a word:
+cd
+cd does not exist in the Trie
+Enter I/i: insert, Q/q: query, D/d: delete, E/e: exit
+i
+Enter a word:
+abef
+Enter I/i: insert, Q/q: query, D/d: delete, E/e: exit
+q
+Enter a word:
+abef
+abef exists in the Trie
+"""
+

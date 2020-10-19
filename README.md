@@ -25,6 +25,7 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 - [Q-Sharp](/Q-Sharp/README.md)
 - [Miscellaneous](/Miscellaneous)
 
+
 ## Contributing Guidelines
 
 - Issues will be assigned on a _first come, first serve_ basis. You just have to comment on the issue, asking to be assigned, and it will be done if found fit.

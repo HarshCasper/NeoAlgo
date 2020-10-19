@@ -75,6 +75,7 @@
 - [Shell Sort](sort/ShellSort.c)
 - [Bucket Sort](sort/bucketSort.c)
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
+- [Quick Sort](sort/quicksort.c)
 
 ## Dynamic Programming
 

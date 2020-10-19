@@ -100,6 +100,7 @@ _add list here_
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Armstrong Number](math/armstrong_number.c)
+- [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 
 ## Other
 

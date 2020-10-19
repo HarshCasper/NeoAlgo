@@ -53,6 +53,7 @@
 - [Delete a linked list node function](ds/List_deletenode_func.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
+- [Stack using Linked List Implementation](ds/stack_using_linkedlist.c)
 
 ## Searching
 

@@ -23,24 +23,24 @@ public class Main
     return -1;
   }
     // Iterative Approach
- static int ternarySearch(int arr[],int f,int left,int right)
+ static int ternarySearch(int arr[], int f, int left, int right)
     {  int found = -1;
-        while(left<=right)
+        while(left <= right)
         {
           int mid1 = left + (right - left) / 3;
 	int mid2 = right - (right - left) / 3;
-            if(arr[mid1]==f)
-                return mid1+1;
-            else if(arr[mid2]==f)
-                return mid2+1;
-            else if(f<arr[mid1])
-             right = mid1-1;
-            else if(f>arr[mid2])
-               left =mid2+1;
+            if(arr[mid1] == f)
+                return mid1 + 1;
+            else if(arr[mid2] == f)
+                return mid2 + 1;
+            else if(f < arr[mid1])
+             right = mid1 - 1;
+            else if(f > arr[mid2])
+               left = mid2 + 1;
             else 
               {
-                  left=mid2+1;
-                  right=mid2-1;
+                  left = mid2 + 1;
+                  right = mid2 - 1;
               }
             
         } 
@@ -52,7 +52,7 @@ public class Main
   public static void main (String[]args)
   {
     Scanner sc = new Scanner (System.in);
-    int i,left,n, right,f = -1, element;
+    int i, n, left, right, f = -1, element;
     System.out.println ("Enter length of array");
     n = sc.nextInt ();
     System.out.println ("Enter  array elements");
@@ -74,16 +74,19 @@ public class Main
   }
 }
 
-// Complexity -  O(log3N)
+/*
+Time Complexity -  O(log3(N))
 
-/* 
-Input/Output -  
+Sample I/O :
+
+Input :  
 Enter length of array
 4
 Enter  array elements
 1 2 3 4
 Enter element to be searched
 4
-Element found at 4 */
 
-
+Output :
+Element found at 4 
+*/

@@ -16,7 +16,7 @@ void push(int n)//push operation
 	top=newnode;
 }
 
-void pop()
+void pop()//pop operation
 {
 	struct node *temp;
 	temp=top;

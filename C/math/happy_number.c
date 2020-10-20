@@ -18,17 +18,17 @@ void main(){
     
     }
     if(sum==1)
-        printf("%d is a happy number",n);
+        printf("%d is a happy number.",n);
     else
-        printf("%d is not a happy number",n);
+        printf("%d is not a happy number.",n);
 }
 
 /*
     Sample input/output:
     Example 1:
-    Enter a number: 32
-    32 is a happy number
+    Input : Enter a number: 32
+    Output : 32 is a happy number.
     Example 2:
-    Enter a number: 14
-    14 is not a happy number
+    Input : Enter a number: 14
+    Output : 14 is not a happy number.
 */

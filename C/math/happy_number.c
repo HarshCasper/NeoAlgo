@@ -1,7 +1,7 @@
 //C Program to check a number is Happy Number or not.
 
 #include<stdio.h>
-#include<math.h>
+
 void main(){
     int n,sum,digit;
     printf("\nEnter a number: ");
@@ -25,13 +25,10 @@ void main(){
 
 /*
     Sample input/output:
-
     Example 1:
     Enter a number: 32
     32 is a happy number
-
     Example 2:
     Enter a number: 14
     14 is not a happy number
-
 */

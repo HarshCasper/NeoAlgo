@@ -105,17 +105,8 @@ _add list here_
 - [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
-- [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Target sum triplets](cp/target_sum_triplets.cpp)
-<<<<<<< HEAD
-- [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
-- [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
-- [Knuth–Morris–Pratt_algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Longest_Palindromic_Substring](cp/LongestPalindromicSubstring.cpp)
-
-- [Check whether two strings are anagrams or not](cp/check_anagrams.cpp)
-=======
->>>>>>> master
 - [2-D MatrixSorting algorithm](cp/2-D_MatrixSorting.cpp)
 
 ## Other

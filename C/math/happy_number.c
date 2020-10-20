@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 void main(){
-    int n,sum,digit;
+    int n, sum, digit;
     printf("Enter a number: ");
     scanf("%d", &n);
     int temp = n;

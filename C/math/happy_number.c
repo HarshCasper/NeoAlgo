@@ -10,7 +10,7 @@ void main(){
     while(sum != 1 && sum != 4){
             sum = 0;
         while(temp != 0){
-            digit = temp%10;
+            digit = temp % 10;
             sum += digit * digit;
             temp = temp / 10;
         }

@@ -35,8 +35,6 @@
  * 					It is a addition factor. There are no specific constraints other than 0 <= Addition Factor <= Length of alphabets.
  */
 
-package hakinCodes.affineCipher;
-
 import java.util.*;
 
 public class AffineCipher {

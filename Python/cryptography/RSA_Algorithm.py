@@ -1,4 +1,9 @@
 import math
+'''RSA is an encryption algorithm, used to
+securely transmit messages over the internet.
+It is based on the principle that it is easy to multiply large numbers,
+but factoring large numbers is very difficult.
+'''
 
 
 def inverse_mod(p, m):

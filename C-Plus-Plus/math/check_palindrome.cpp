@@ -6,9 +6,7 @@ int main()
      int n, num, digit, rev = 0;
      cout << "Enter a positive number: ";
      cin >> num;
-
-     n = num;
-
+     n = num;//storing original value of num
      do
      {
          digit = num % 10;
@@ -20,7 +18,8 @@ int main()
          cout << " The number is a palindrome.";
      else
          cout << " The number is not a palindrome.";
-     //sample input 1
+    return 0;
+      //sample input 1
      //232
      //sample output 1
      // The number is a palindrome.
@@ -32,5 +31,4 @@ int main()
      //12321
      //sample output 3
      // The number is a palindrome.
-    return 0;
 }

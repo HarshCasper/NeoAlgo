@@ -41,6 +41,7 @@ _add list here_
 - [Check for Subsequence](cp/CheckForSubSequence.java)
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
+- [Happy Number](cp/Happy_Number.java)
 
 ## Cryptography
 

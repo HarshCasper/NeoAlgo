@@ -17,7 +17,8 @@ if __name__ == '__main__':
     '''p and q  are prime numbers. pt is plain text.
     e is derived number which lies between 1 and (p-1)*(q-1)
     '''
-    p, q, e, pt = [int(x) for x in input("Enter p, q, e and plaintext: ").split()]
+    p, q, e, pt = [int(x) for x in input("Enter\
+    p, q, e and plaintext: ").split()]
     n = p * q
     fn = (p-1) * (q-1)
     d = inverse_mod(e, fn)

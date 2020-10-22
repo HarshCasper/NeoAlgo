@@ -16,12 +16,13 @@ int main()
          num = num / 10;
      } while (num != 0);
 
-     cout << " The reverse of the number is: " << rev << endl;
-
      if (n == rev)
          cout << " The number is a palindrome.";
      else
          cout << " The number is not a palindrome.";
-
+     //sampleinput
+     //232
+     //456
+     //12321
     return 0;
 }

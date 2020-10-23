@@ -51,6 +51,7 @@
 - [Vigenere Cipher](cryptography/vigenere_cipher.py)
 - [RSA Algorithm](cryptography/RSA_Algorithm.py)
 - [Linked List Intersection](ds/linkedListIntersection.py)
+- [XOR Cipher](cryptography/XOR_cipher.py)
 
 ## Searching
 

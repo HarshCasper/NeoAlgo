@@ -209,6 +209,8 @@ _add list here_
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
 - [Satellite Image analysis using Numpy](other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)
+- [Happy Number](other/HappyNumber.py)
+
 - [Subsequence Recursion](other/Subsequence_recursion.py)
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)

@@ -1,14 +1,5 @@
-Time Complexity : O(n) 
-Space Complexity: O(n)
-Sample Input:
-2                        //no. of testcases 
-8                        //size of array
-4 -8 9 -4 1 -8 -1 6       
-9                        //size of array
--2 1 -3 4 -1 2 1 -5 4
-Sample Output:
-9                        
-6
+/* This approach uses Dynamic Programming and Prefix Sum to find out maximum subarray sum in Linear time.
+Alternate approach could be to use Kadane's algorithm using O(1) extra space. */
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -39,3 +30,15 @@ int main(){
     }
     return 0;
 }
+
+/* Time Complexity : O(n) 
+Space Complexity: O(n)
+Sample Input:
+2                        //no. of testcases 
+8                        //size of array
+4 -8 9 -4 1 -8 -1 6       
+9                        //size of array
+-2 1 -3 4 -1 2 1 -5 4
+Sample Output:
+9                        
+6 */

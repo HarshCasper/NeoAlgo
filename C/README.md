@@ -48,6 +48,8 @@
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
+- [Reversing a Linked List](ds/Reverse_linked_list.c)
+
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 - [Delete a linked list node function](ds/List_deletenode_func.c)

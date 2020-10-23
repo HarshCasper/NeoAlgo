@@ -1,19 +1,14 @@
 Time Complexity : O(n) 
-    
 Space Complexity: O(n)
-
 Sample Input:
 2                        //no. of testcases 
 8                        //size of array
 4 -8 9 -4 1 -8 -1 6       
 9                        //size of array
 -2 1 -3 4 -1 2 1 -5 4
-
 Sample Output:
 9                        
 6
-
-
 
 #include<bits/stdc++.h>
 using namespace std;

@@ -129,7 +129,7 @@ _add list here_
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
-- [Maximum Subarray Sum](C-Plus-Plus/dp/Max_subarray_sum(DP).cpp)
+- [Maximum Subarray Sum](dp/Max_subarray_sum(DP).cpp)
 
 ## Blockchain
 

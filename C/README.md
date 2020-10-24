@@ -63,6 +63,7 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Ternary Search](search/TernarySearch.c)
 
 ## Sorting
 

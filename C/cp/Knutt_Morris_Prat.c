@@ -17,7 +17,7 @@ int main()
  
     } while (c != '\n');
     string[i - 1] = '\0';
-    /*Scanning substring*/
+    /*Scanning pattern to search*/
     printf("Enter substring: ");
     i = 0;
     do
@@ -26,23 +26,25 @@ int main()
         c = getchar();
         matchcase[i++] = tolower(c);
     } while (c != '\n');
+ 
     matchcase[i - 1] = '\0';
-    for (i = 0; i < strlen(string) - strlen(matchcase) + 1; i++)
+    for (i = 0; i < strlen(string) - strlen(matchcase) + 1; i++) /*Search in the range of len(string) - Len(pattern) + 1*/
     {
         index = i;
-        if (string[i] == matchcase[j])
+        if (string[i] == matchcase[j]) /*Check if charatcers match*/
         {
+         /*Continue checking until the characters match or the end of pattern string is reached*/
             do
             {
                 i++;
                 j++;
             } while(j != strlen(matchcase) && string[i] == matchcase[j]);
-            if (j == strlen(matchcase))
+            if (j == strlen(matchcase)) /*if j is equal to pattern length , pattern is found.*/
             {
                 printf("Match found from position %d to %d.\n", index + 1, i);
                 return 0;
             }
-            else
+            else /*if j is not eual to pattern length, move to next character and continue the same steps.*/
             {
                 i = index + 1;
                 j = 0;

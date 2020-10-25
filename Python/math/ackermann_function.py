@@ -35,5 +35,7 @@ m, n = input("Enter non-negative values of m and n: ").split()
 m, n = int(m), int(n)
 print("A(%u, %u) = %u" % (m, n, Ackermann_func(m, n)))
 
+# SAMPLE INPUT: Enter non-negative values of m and n: 2 2
+# SAMPLE OUTPUT: A(2,2) = 7
 # Time complexity: O( M * N )
 # Space complexity: O( M * N )

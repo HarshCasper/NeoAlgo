@@ -19,7 +19,7 @@ _add list here_
 
 ## Cryptography
 
-_add list here_
+- [Vigenere Cipher](cryptography/vigenere_cipher.cs)
 
 ## Data Structures
 
@@ -48,7 +48,11 @@ _add list here_
 
 - [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)
 - [Tower of Hanoi](math/tower_of_hanoi.cs)
+- [Armstrong Number](math/Armstrong_Number.cs)
+- [Catalan Number](math/Catalan_Number.cs)
+
 
 ## Other
 
 - [Unique Number III](other/Unique_Number_III.cs)
+- [Prime Factorization using Sieve](other/prime_factor_sieve.cs)

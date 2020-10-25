@@ -40,6 +40,7 @@ _add list here_
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 - [Check for Subsequence](cp/CheckForSubSequence.java)
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
+- [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 
 ## Cryptography
 
@@ -92,6 +93,7 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Catalan Number](math/CatalanNumber.java)
 
 ## Dynamic Programming
 
@@ -139,11 +141,13 @@ _add list here_
 ## Other
 
 - [All possible codes](other/LetterCodeRecursion.java)
+- [Find the numbers](other/FindNumbers.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
@@ -152,3 +156,4 @@ _add list here_
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
+- [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)

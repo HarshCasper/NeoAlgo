@@ -170,6 +170,7 @@
 
 ## Mathematics
 
+- [Ackermann Function](math/ackermann_function.py)
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)

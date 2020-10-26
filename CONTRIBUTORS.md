@@ -155,7 +155,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://smv1999.github.io/"><img src="https://avatars1.githubusercontent.com/u/42896577?v=4" width="100px;" alt=""/><br /><sub><b>Vaidhyanathan S M</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=smv1999" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/suprithars111"><img src="https://avatars3.githubusercontent.com/u/55579784?v=4" width="100px;" alt=""/><br /><sub><b>suprithars111</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=suprithars111" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Aanchi-glitch2744"><img src="https://avatars1.githubusercontent.com/u/63657840?v=4" width="100px;" alt=""/><br /><sub><b>Aanchi-glitch2744</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Aanchi-glitch2744" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/hardikchitkara"><img src="https://avatars1.githubusercontent.com/u/56203317?v=4" width="100px;" alt=""/><br /><sub><b>hardik chitkara</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=hardikchitkara" title="Code">💻</a></td>
   </tr>
 </table>
 

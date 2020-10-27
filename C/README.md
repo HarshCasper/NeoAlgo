@@ -112,6 +112,7 @@ _add list here_
 - [Recursion count of substring](other/recursion_string.c)
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
+- [Added a string permutation program in c](other/String_permutation.c)
 
 ## CP
 

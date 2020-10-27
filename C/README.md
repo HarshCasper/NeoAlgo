@@ -104,6 +104,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
+- [Happy Number](math/happy_number.c)
 
 ## Other
 

@@ -80,6 +80,7 @@
 - [Maximum Water Container](cp/Maximum_Water_Container.py)
 - [Smallest sum subarray](cp/smallest_sum_array.py)
 - [Delete a node from linked list](cp/delete_node.py)
+- [Minimum Spanning tree using kruskal algorithm](cp/min_spanning_tree.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

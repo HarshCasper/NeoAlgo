@@ -157,6 +157,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Aanchi-glitch2744"><img src="https://avatars1.githubusercontent.com/u/63657840?v=4" width="100px;" alt=""/><br /><sub><b>Aanchi-glitch2744</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Aanchi-glitch2744" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hardikchitkara"><img src="https://avatars1.githubusercontent.com/u/56203317?v=4" width="100px;" alt=""/><br /><sub><b>hardik chitkara</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=hardikchitkara" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/arnab031"><img src="https://avatars2.githubusercontent.com/u/51916075?v=4" width="100px;" alt=""/><br /><sub><b>arnab031</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=arnab031" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/thuy-ttn"><img src="https://avatars0.githubusercontent.com/u/63241619?v=4" width="100px;" alt=""/><br /><sub><b>Trần Thị Ngọc Thúy</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=thuy-ttn" title="Code">💻</a></td>
   </tr>
 </table>
 

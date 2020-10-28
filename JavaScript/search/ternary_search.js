@@ -67,3 +67,27 @@ function ternary_search_recursive(leftIndex, rightIndex, key, array) {
     // The key doesn't exists
     return -1;
 }
+
+/*
+*   @Test
+*/
+function test() {
+    var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+    // Iterative tests
+    var target = 15;
+    console.log(ternary_search_iterative(0, array.length, target, array)); // Output: -1
+
+    target = 5
+    console.log(ternary_search_iterative(0, array.length, target, array)); // Output: 4
+
+    // Recursive tests
+    target = 20;
+    console.log(ternary_search_recursive(0, array.length, target, array)); // Output: -1
+
+    target = 4
+    console.log(ternary_search_recursive(0, array.length, target, array)); // Output: 3
+}
+
+// Entry point of the application for testing purpose
+test();

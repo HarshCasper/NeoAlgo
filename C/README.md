@@ -48,6 +48,8 @@
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
+- [Reversing a Linked List](ds/Reverse_linked_list.c)
+
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 - [Delete a linked list node function](ds/List_deletenode_func.c)
@@ -61,6 +63,7 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Ternary Search](search/TernarySearch.c)
 
 ## Sorting
 
@@ -101,6 +104,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
+- [Happy Number](math/happy_number.c)
 
 ## Other
 

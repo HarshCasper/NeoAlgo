@@ -115,6 +115,7 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
+- [Palindrome Number](math/check_palindrome.cpp)
 
 ## Dynamic Programming
 
@@ -154,4 +155,3 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
-

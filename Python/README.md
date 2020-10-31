@@ -11,6 +11,42 @@
 
 ## Data Structures
 
+* [Queue](ds/Queue.py)
+* [Stacks](ds/Stacks.py)
+* [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+* [Reverse Linked List](ds/Reverse_linked_list.py)
+
+## Searching
+* [Bilinear Search](search/bilinear.py)
+* [Binary Search](search/binarysearch.py)
+* [Breadth First Search](search/bfs.py)
+* [Depth First Search](search/dfs.py)
+* [Linear Search](search/Linear_Search.py)
+* [Random Search Las vegas version](search/random_search_las_vegas.py)
+* [Sublinear Search](search/Sublinear_search.ipynb)
+* [Exponential Search](search/exponential_search.py)
+
+## Sorting
+* [Bead Sort](sort/Bead_Sort.py)
+* [Bubble Sort](sort/Bubble_Sort.py)
+* [Heap Sort](sort/Heap_sort.py)
+* [Insertion Sort](sort/insertion.py)
+* [Merge Sort](sort/Merge_Sort.py)
+* [Quick Sort](sort/QuickSort.py)
+* [Radix Sort](sort/Radix_Sort.py)
+* [Selection Sort](sort/Selection_Sort.py)
+* [Topological Sort](sort/topological_sort.py)
+* [Intro Sort](sort/IntroSort.py)
+* [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
+* [Merge Sort Parallel](sort/Parallel_MergeSort.py)
+
+## Graphs
+* [Depth of Tree](graphs/Depth_Of_Tree.py)
+* [Height of Tree](graphs/height_of_given_tree.py)
+* [Prim's Algorithm](graphs/Prim_Algorithm.py)
+* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
+* [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Binary Tree (Post order transversal)](ds/Binary_tree_post_order.py)
 - [Circular Linked List](ds/Circular_LinkedList.py)
 - [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
@@ -24,6 +60,7 @@
 - [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 - [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+- [Trie](ds/Trie.py)
 
 ## Competitive Programming
 
@@ -49,7 +86,9 @@
 - [Affine Cipher](cryptography/AffineCipher.py)
 - [Caesar Cipher](cryptography/Caesar_Cipher.py)
 - [Vigenere Cipher](cryptography/vigenere_cipher.py)
+- [RSA Algorithm](cryptography/RSA_Algorithm.py)
 - [Linked List Intersection](ds/linkedListIntersection.py)
+- [XOR Cipher](cryptography/XOR_cipher.py)
 
 ## Searching
 
@@ -131,6 +170,7 @@
 
 ## Mathematics
 
+- [Ackermann Function](math/ackermann_function.py)
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
@@ -140,6 +180,16 @@
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 - [Fibonacci number](math/Fibonacci.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+
+## Other
+* [Check Inversion](other/Check_Inversion.py)
+* [Kadane's Algorithm](other/Kadanes_Algorithm.py)
+* [Longest substring without repeating character](other/longest_Substring.py)
+* [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
+* [Reverse a string using stack](other/Reverse_string_using_stack.py)
+* [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
+* [Sudoku Solver](other/sudoku_backtracking.py)
+
 - [Ugly Number](math/UglyNumber.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
 - [Least Common Multiple](math/Least_common_multiple.py)
@@ -168,6 +218,7 @@ _add list here_
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
 - [Satellite Image analysis using Numpy](other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)
+- [Happy Number](other/HappyNumber.py)
 - [Subsequence Recursion](other/Subsequence_recursion.py)
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)

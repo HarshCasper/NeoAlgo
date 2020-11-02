@@ -44,7 +44,11 @@ _add list here_
 - [Catalan Number](./math/catalan_number.js)
 - [Count Number of Digits in an Integer](./math/CountDigits_Integer.js)
 - [Double Factorial](./math/DoubleFactorial.js)
+<<<<<<< HEAD
 - [Armstrong Number](./math/ArmstrongNumbers.js)
+=======
+- [Binary Exponentiation](./math/bin_exp.js)
+>>>>>>> bb6c8b0 (Added Binary Exponentiation Code in JavaScript (#1394))
 
 ## Competitive Programming
 

@@ -31,3 +31,14 @@ int main()
     pythagoreanTriplets(limit);
     return 0;
 }
+
+
+
+Sample Input:
+Enter the limit:
+10
+Ouput:
+3 4 5
+8 6 10
+
+This program finds the pythagorean triplet in the given limit

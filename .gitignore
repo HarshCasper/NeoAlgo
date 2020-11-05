@@ -154,3 +154,5 @@ venv.bak/
 dmypy.json
 .pyre/
 .pytype/
+C-Plus-Plus/sort/Shellsort.cpp
+C-Plus-Plus/sort/ShellSort.cpp

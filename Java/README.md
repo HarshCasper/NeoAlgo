@@ -115,6 +115,7 @@ _add list here_
 
 - [Binary Search](search/Binary_search.java)
 - [Interpolation Search](search/Interpolation_search.java)
+- [Ternary Search](search/TernarySearch.java)
 - [Jump Search](search/jumpSearch.java)
 - [Linear Search](search/Linear_search.java)
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)

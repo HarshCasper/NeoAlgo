@@ -105,6 +105,7 @@ _add list here_
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [CoinChange DP](dp/Coin_Change.java)
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
+- [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
 
 
 ## Blockchain

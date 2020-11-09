@@ -36,6 +36,8 @@ Output:
             result for both parts and find minimum among all moves
             which will be our ans.
 
+            Time Complexity : O(a*b)
+            Space Complexity : O(a*b) due to the 2d array of size (a+1) by (b+1)
 */
 import java.util.Scanner;
 

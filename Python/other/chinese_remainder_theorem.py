@@ -35,6 +35,7 @@ def muinv(a, b):
 
 
 print("x = ", chineserem(n, a))
+# Sample Input - >
 # Enter size of array : 3
 # Enter value of coprime divisors : 2 3 5
 # Enter value of remainders : 1 2 4

@@ -1,4 +1,4 @@
-def mulitply(li):
+def multiply_fun(li):
     result = 1
     for i in li:
         result *= i
@@ -13,7 +13,7 @@ a = list(map(int, input().split()))
 
 def chineserem(n, a):
     sum = 0
-    pr = mulitply(n)
+    pr = multiply_fun(n)
     for n_i, a_i in zip(n, a):
         p = pr/n_i
         sum += a_i * muinv(p, n_i)*p

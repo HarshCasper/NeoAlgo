@@ -5,6 +5,7 @@ Quick Sort algorithm follows Divide and Conquer approach.
 It divides elements into smaller parts based on some condition and
 performing the sort operations on those divided smaller parts.
 
+Time Complexity : O(N*logN)
 */
 
 var items = [5,3,7,6,2,9];

@@ -160,4 +160,4 @@ _add list here_
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
-- [House Robber Problem](other/House_Robber-problem.java)
+- [HouseRobberProblem](other/House_Robber-problem.java)

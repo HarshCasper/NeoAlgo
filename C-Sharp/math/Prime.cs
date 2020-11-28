@@ -5,6 +5,7 @@
 // Enter a number : 13
 // Output : 
 // 13 is a Prime Number.
+
 using System;
 
 namespace primenumber
@@ -25,7 +26,7 @@ namespace primenumber
             else
             {
                 //The iteration starts from the smallest prime number
-                for (int iteration = 2; iteration < number; iteration++)
+                for (int iteration = 2; iteration <= Math.Sqrt( number ); iteration++)
                 {
                     //Checks if the number is divisible by any other number other than 1 or itself
                     if (number % iteration == 0)
@@ -63,3 +64,6 @@ namespace primenumber
         }
     }
 }
+//Approach of Time Complexity O(sqrt(n)) and space complexity O(1)
+
+//End of the program

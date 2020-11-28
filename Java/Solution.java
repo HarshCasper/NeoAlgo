@@ -18,3 +18,14 @@ class Solution {
         }
     }
 }
+
+//Time Complexity - O(n) for the one-time traversal of array.
+//Space Complexity - O(1) Since no extra space is required.
+
+//Input: nums = [1,2,3,1]
+//Output: 4
+//Explanation: Rob House1 and House3
+
+//Input: nums = [2,7,9,3,1]
+//Output: 12
+//Explanation: Rob House1, House3 and House5

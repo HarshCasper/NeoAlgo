@@ -1,4 +1,4 @@
-class Solution {
+class House_Robber_Problem {
     public int rob(int[] nums) {
         int len=nums.length;
         if(len==0)

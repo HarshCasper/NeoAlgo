@@ -180,6 +180,7 @@
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 - [Fibonacci number](math/Fibonacci.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+- [Prime Number Iterative and Recursive](math/prime_number.py)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)

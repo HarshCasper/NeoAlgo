@@ -33,7 +33,8 @@ int main() {
 }
 
 /*
-
+Time Complexity: n(log(n))
+Space Complexity: n
 Sample input: 
 Enter number of houses: 4
 Enter money in each house: 1 2 3 1 

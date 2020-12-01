@@ -78,7 +78,7 @@ def main():
             l, b = input().split()
             l = int(l)
             b = int(b)
-            print("Rectangle with sides "+str(l)+" and "+str(b)+" is:", end="")
+            print(f"Rectangle with sides {l} and {b} is:", end="")
             print(str(area_rectangle(l, b)))
             print("you wnat to continue (1/0)", end=" ")
             again_choice = int(input())
@@ -89,7 +89,7 @@ def main():
         elif(choice == 2):
             print("Enter side of square:", end=" ")
             l = int(input())
-            print("Square with side "+str(l)+" is: "+str(area_square(l)))
+            print(f"Square with side {l} is: {area_square(l)}")
             print("you wnat to continue (1/0)", end=" ")
             again_choice = int(input())
             if(again_choice):
@@ -101,7 +101,7 @@ def main():
             b, h = input().split()
             h = int(h)
             b = int(b)
-            print("Triangle of height "+str(h)+",base "+str(b)+" is:", end="")
+            print(f"Triangle of height {h},base {b} is:", end="")
             print(str(area_triangle(h, b)))
             print("you wnat to continue (1/0)", end=" ")
             again_choice = int(input())
@@ -114,7 +114,7 @@ def main():
             b, h = input().split()
             h = int(h)
             b = int(b)
-            print("Parallelogram of height "+str(h)+",base "+str(b)":", end="")
+            print(f"Parallelogram of height {h},base {b}:", end="")
             print(str(area_parallelogram(h, b)))
             print("you wnat to continue (1/0)", end=" ")
             again_choice = int(input())
@@ -128,8 +128,8 @@ def main():
             b1 = int(b1)
             b2 = int(b2)
             h = int(h)
-            print("Trapezium with bases "+str(b1)+" and "+str(b2), end=" ")
-            print("and height "+str(h)+" is: "+str(area_trapezium(b1, b2, h)))
+            print(f"Trapezium with bases {b1} and {b2}", end=" ")
+            print(f"and height {h} is: {area_trapezium(b1, b2, h)}")
             print("you wnat to continue (1/0)", end=" ")
             again_choice = int(input())
             if(again_choice):
@@ -139,7 +139,7 @@ def main():
         elif(choice == 6):
             print("Enter radius of circle:", end=" ")
             r = int(input())
-            print("Circle with radius "+str(r)+" is: "+str(area_circle(r)))
+            print(f"Circle with radius {r} is: {area_circle(r)}")
             print("you wnat to continue (1/0)", end=" ")
             again_choice = int(input())
             if(again_choice):

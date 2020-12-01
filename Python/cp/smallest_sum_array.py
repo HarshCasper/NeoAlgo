@@ -22,9 +22,9 @@ def subArraylen(arr, n, K):
                 ln = min(ln,  i - mp[x])
     return ln
 arr = []
-n = int(input("enter the number of elements"))
+n = int(input("Enter the number of elements: "))
 for i in range(0, n):
-    ele = int(input("enter the elements"))
+    ele = int(input("Enter the elements: "))
     arr.append(ele)
 K = int(input("enter the sum "))
 ln = subArraylen(arr, n, K)

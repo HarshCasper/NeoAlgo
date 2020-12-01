@@ -14,8 +14,12 @@ def euclidGCD(number1, number2):
 def lcm(number1, number2):
     return (number1 * number2) // euclidGCD(number1, number2)
 
-number1, number2 = [int(x) for x in input().split()]
-print(lcm(number1, number2))
+number1 = int(input("Enter the first number : "))
+number2 = int(input("Enter the second number : "))
+
+#number1, number2 = [int(x) for x in input().split()]
+print(f"GCD of two numbers :{euclidGCD(number1, number2)}")
+print(f"LCM of two numbers :{lcm(number1, number2)}")
 
 '''
 Sample I/O:

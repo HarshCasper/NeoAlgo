@@ -157,3 +157,4 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [Generate all Subsets](other/subsets.cpp)

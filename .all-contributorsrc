@@ -1136,6 +1136,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "hemanth-kotagiri",
+      "name": "Hemanth Kotagiri",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/24365579?v=4",
+      "profile": "http://hemanth-kotagiri.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "charlie219",
+      "name": "Akash Kumar Bhagat",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43098511?v=4",
+      "profile": "http://fubble.tk",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",

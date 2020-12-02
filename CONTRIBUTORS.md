@@ -164,6 +164,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/JayantGoel001"><img src="https://avatars0.githubusercontent.com/u/54479676?v=4" width="100px;" alt=""/><br /><sub><b>Jayant Goel</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=JayantGoel001" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Gaurav6982"><img src="https://avatars0.githubusercontent.com/u/49642550?v=4" width="100px;" alt=""/><br /><sub><b>Gaurav</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Gaurav6982" title="Code">💻</a></td>
     <td align="center"><a href="http://techsfortalk.me"><img src="https://avatars3.githubusercontent.com/u/64386187?v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh_K_Sah</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ashu-cybertron" title="Code">💻</a></td>
+    td align="center"><a href="https://github.com/ErzaTitania-2001"><img src="https://avatars1.githubusercontent.com/u/56203317?v=4" width="100px;" alt=""/><br /><sub><b>Ahana Pal</b></sub></a><br /><a href="https://github.com/ErzaTitania-2001/NeoAlgo/blob/master/Java/cp/Prime.java" title="Code">💻 <a href="https://github.com/ErzaTitania-2001/NeoAlgo/blob/master/Java/cp/PrimeRecursion.java" title="Code">💻</a></td>
   </tr>
 </table>
 

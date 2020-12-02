@@ -22,4 +22,11 @@ class PrimeRecursion
     }
 }
 //* Contributed By ErzaTitani-2001
+/* Sample Input and Output :
+Input : 
+Enter a number : 13
+Output : 
+13 is a Prime Number.
+Space Complexity : O(n)
+Time Complexity : O(n)   *///
         

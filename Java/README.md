@@ -45,7 +45,6 @@ _add list here_
 - [Prime Number With Recursion](https://github.com/ErzaTitania-2001/NeoAlgo/blob/master/Java/cp/PrimeRecursion.java)
 - [Prime Number without Recursion](https://github.com/ErzaTitania-2001/NeoAlgo/blob/master/Java/cp/Prime.java)
 
-
 ## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
@@ -101,7 +100,6 @@ _add list here_
 
 ## Dynamic Programming
 
-
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
@@ -109,7 +107,6 @@ _add list here_
 - [CoinChange DP](dp/Coin_Change.java)
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
-
 
 ## Blockchain
 

@@ -50,3 +50,6 @@ int main() {
 // [1,2],
 // []
 // ]
+
+//TIME COMPLEXITY - O(2^n)
+//SPACE COMPLEXITY - O(n)

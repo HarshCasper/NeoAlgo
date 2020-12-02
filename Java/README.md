@@ -42,6 +42,8 @@ _add list here_
 - [Check for Subsequence](cp/CheckForSubSequence.java)
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
+- [Prime Number With Recursion](cp/PrimeRecursion.java)
+- [Prime Number without Recursion](cp/Prime.java)
 
 ## Cryptography
 
@@ -98,7 +100,6 @@ _add list here_
 
 ## Dynamic Programming
 
-
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
@@ -106,7 +107,6 @@ _add list here_
 - [CoinChange DP](dp/Coin_Change.java)
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
-
 
 ## Blockchain
 

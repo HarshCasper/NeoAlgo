@@ -42,6 +42,9 @@ _add list here_
 - [Check for Subsequence](cp/CheckForSubSequence.java)
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
+- [Prime Number With Recursion](https://github.com/ErzaTitania-2001/NeoAlgo/blob/master/Java/cp/PrimeRecursion.java)
+- [Prime Number without Recursion](https://github.com/ErzaTitania-2001/NeoAlgo/blob/master/Java/cp/Prime.java)
+
 
 ## Cryptography
 

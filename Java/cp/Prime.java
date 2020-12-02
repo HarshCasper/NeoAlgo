@@ -1,4 +1,5 @@
-//check whether a number is Prime or not without recursion//
+// check whether a number is Prime or not without recursion
+
 import java.util.Scanner;
 class Prime
 {
@@ -14,12 +15,15 @@ class Prime
         System.out.println(n+((c==0)?" is a Prime Number." :" is not a Prime Number."));
     }
 }
-//* Contributed By ErzaTitani-2001
-/* Sample Input and Output : 
-Input : 
+
+// Contributed By ErzaTitani-2001
+
+/*
+Sample Input and Output :
+Input :
 Enter a number : 13
-Output : 
+Output :
 13 is a Prime Number.
 Space  Complexity : O(1)
-Time Complexity : O(n) */
-        
+Time Complexity : O(n)
+*/

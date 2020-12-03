@@ -36,3 +36,5 @@ int main() {
 //
 //sample input : 3 5 
 //output : 3
+//time complexity O(n^2)
+//space 174kb

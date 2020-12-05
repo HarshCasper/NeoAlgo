@@ -45,6 +45,7 @@ _add list here_
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
 - [Ugly Number With Recursion](https://github.com/ErzaTitania-2001/NeoAlgo/blob/master/Java/cp/UglyRecursion.java) 
+- [PDDI Using Recursion](https://github.com/ErzaTitania-2001/NeoAlgo/blob/master/Java/cp/ArmStrongRecursion.java)
 
 ## Cryptography
 

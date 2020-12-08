@@ -27,12 +27,14 @@
 - [Linear Search](./search/linear_search.js)
 - [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
 - [Manacher Algorithm](./search/ManacherAlgorithm.js)
+- [Ternary Search](./search/ternary_search.js)
 
 ## Sorting
 
 - [Bubble Sort](./sort/BubbleSort.js)
 - [Insertion Sort](./sort/insertion_sort.js)
 - [Sleep Sort](./sort/sleepSort.js)
+- [Quick Sort](./sort/quicksort.js)
 
 ## Machine Learning
 
@@ -40,8 +42,11 @@ _add list here_
 
 ## Mathematics
 
+- [Catalan Number](./math/catalan_number.js)
 - [Count Number of Digits in an Integer](./math/CountDigits_Integer.js)
 - [Double Factorial](./math/DoubleFactorial.js)
+- [Armstrong Number](./math/ArmstrongNumbers.js)
+- [Binary Exponentiation](./math/bin_exp.js)
 
 ## Competitive Programming
 

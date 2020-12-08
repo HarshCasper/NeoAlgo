@@ -28,6 +28,10 @@
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
 - [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
+- [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
+- [Catalan Number](cp/catalan_number.c)
+- [Z Algorithm](cp/zalgorithm.c)
+- [CP Sets Question](cp/cp_sets_question.c)
 
 ## Cryptography
 
@@ -45,11 +49,13 @@
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
+- [Reversing a Linked List](ds/Reverse_linked_list.c)
+
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
+- [Delete a linked list node function](ds/List_deletenode_func.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
-
 
 ## Searching
 
@@ -58,6 +64,7 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Ternary Search](search/TernarySearch.c)
 
 ## Sorting
 
@@ -81,7 +88,6 @@
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 
-
 ## Graphs
 
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
@@ -97,6 +103,9 @@ _add list here_
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
+- [Armstrong Number](math/armstrong_number.c)
+- [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
+- [Happy Number](math/happy_number.c)
 
 ## Other
 
@@ -128,4 +137,3 @@ _add list here_
 ## Blockchain
 
 _add list here_
-

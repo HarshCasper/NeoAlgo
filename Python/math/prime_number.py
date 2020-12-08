@@ -15,8 +15,6 @@ def is_prime_iterative(num):
     # Base Cases
     if(num <= 1):
         return False
-    if num == 2:
-        return True
    
     for i in range(2, int(num**(1/2))+1):
         if num % i == 0:
@@ -40,10 +38,13 @@ Return Type: Boolean
 def is_prime_recursive(num, i=2):
 
     # Base Cases
-    if(num <= 1 or n % i == 0):
+    if num == 2 :
+        return True
+        
+    if num <= 1 or n % i == 0 :
         return False
 
-    if num == 2 or i * i > n:
+    if i * i > n:
         return True
 
     # check the next divisor

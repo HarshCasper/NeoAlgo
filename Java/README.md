@@ -103,6 +103,7 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 
 ## Dynamic Programming

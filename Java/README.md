@@ -129,6 +129,7 @@ _add list here_
 - [Linear Search](search/Linear_search.java)
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)
 - [Stack Search](search/Stack_Search.java)
+- [Bilinear Search](search/Bilinear_Search.java)
 
 ## Sorting
 

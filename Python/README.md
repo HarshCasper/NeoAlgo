@@ -126,6 +126,31 @@
 
 - [Depth of Tree](graphs/Depth_Of_Tree.py)
 - [Height of Tree](graphs/height_of_given_tree.py)
+- [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
+- [Prim's Algorithm](graphs/Prim_Algorithm.py)
+- [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
+
+## Machine Learning
+* [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
+* [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
+* [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
+* [Linear Regression](ml/Linear_Regression.ipynb)
+* [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
+* [Logistic Regression](ml/Logistic_Regression.ipynb)
+* [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
+* [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+
+## Mathematics
+* [Area](math/Area.py)
+* [Binary Exponentiation](math/Binary_Exponentiation.py)
+* [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
+* [Factorial](math/factorial.py)
+* [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
+* [Large Number Factorial](math/Large_number_factorial.py)
+* [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
+* [Fibonacci number](math/Fibonacci.py)
+* [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+* [Check Armstrong Number](math/CheckArmstrongNumber.py)
 - [Prim's Algorithm](graphs/Prims_Algo_dynamic.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)

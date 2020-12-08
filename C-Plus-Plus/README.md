@@ -39,6 +39,7 @@
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
+- [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 
 ## Data Structures
@@ -78,6 +79,7 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 
 ## Searching
 
@@ -87,6 +89,8 @@
 - [Linear Search](search/Linear_Search.cpp)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.cp)
 - [Randomized Select Search](search/Randomized_Select.cpp)
+- [Bilinear Search](search/bilinear_search.cpp)
+- [Tenary Search](search/TernarySearch.cpp)
 
 ## Sorting
 
@@ -115,6 +119,7 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
+- [Palindrome Number](math/check_palindrome.cpp)
 
 ## Dynamic Programming
 
@@ -129,6 +134,7 @@ _add list here_
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
+- [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
 
 ## Blockchain
 
@@ -141,7 +147,7 @@ _add list here_
 
 ## Other
 
-
+- [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
@@ -153,4 +159,4 @@ _add list here_
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
-
+- [Least Common Multiple](other/lcm.cpp)

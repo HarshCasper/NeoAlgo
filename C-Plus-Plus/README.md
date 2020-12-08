@@ -104,6 +104,7 @@
 - [Selection Sort](sort/selection_sort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+- [Bucket Sort](sort/bucket_sort.cpp)
 
 ## Machine Learning
 

@@ -25,9 +25,17 @@ _add list here_
 
 ## Competitive programming
 
+
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+* [ZigZag](cp/Zig_Zag.java)
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
+- [Knuth–Morris–Pratt Algorithm](cp/KMP_Algorithm.java)
 - [Longest Substring without Repeating characters](cp/LongestSubstring_without_repeating_characters.java)
 - [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.java)
@@ -41,6 +49,10 @@ _add list here_
 - [Check for Subsequence](cp/CheckForSubSequence.java)
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
+- [Prime Number With Recursion](cp/PrimeRecursion.java)
+- [Prime Number without Recursion](cp/Prime.java)
+- [Ugly Number With Recursion](cp/UglyRecursion.java) 
+- [PDDI Using Recursion](cp/ArmStrongRecursion.java)
 
 ## Cryptography
 
@@ -93,18 +105,18 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 
 ## Dynamic Programming
-
 
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
-- [CoinChange DP](dp/Coin_Change.java) 
+- [CoinChange DP](dp/Coin_Change.java)
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
-
+- [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
 
 ## Blockchain
 
@@ -114,10 +126,12 @@ _add list here_
 
 - [Binary Search](search/Binary_search.java)
 - [Interpolation Search](search/Interpolation_search.java)
+- [Ternary Search](search/TernarySearch.java)
 - [Jump Search](search/jumpSearch.java)
 - [Linear Search](search/Linear_search.java)
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)
 - [Stack Search](search/Stack_Search.java)
+- [Bilinear Search](search/Bilinear_Search.java)
 
 ## Sorting
 

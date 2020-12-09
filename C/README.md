@@ -28,6 +28,7 @@
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
 - [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
+- [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
@@ -83,6 +84,7 @@
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
+- [House Robber](dp/houseRobber.c)
 
 ## Graphs
 
@@ -101,6 +103,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
+- [Happy Number](math/happy_number.c)
 
 ## Other
 
@@ -112,6 +115,7 @@ _add list here_
 - [Recursion count of substring](other/recursion_string.c)
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
+- [Nth Ugly Number](other/ugly_number.c)
 
 ## CP
 

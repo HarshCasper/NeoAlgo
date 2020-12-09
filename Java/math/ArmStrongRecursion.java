@@ -1,4 +1,5 @@
-//checking Armstrong number with Recursion
+// Checking Armstrong number with Recursion
+
 import java.util.Scanner;
 class ArmStrongRecursion
 {
@@ -6,7 +7,7 @@ class ArmStrongRecursion
     public static int armstrong(int i)
     { if(i<10) //base class
         return (int)(Math.pow(i,p));
-        else 
+        else
         return((int)Math.pow(i%10,p)+armstrong(i/10));
     }
     public static void main(String args[])
@@ -15,7 +16,7 @@ class ArmStrongRecursion
         System.out.print("N = ");
         int n=sc.nextInt();
         p=Integer.toString(n).length(); //calculating the number of digits in the number by converting it into String
-        
+
         if(n==armstrong(n))
         System.out.println(n+" is an Armstrong number");
         else
@@ -23,11 +24,10 @@ class ArmStrongRecursion
     }
 }
 
-/* Sample Input and Output :
+/*
+Sample Input and Output :
  N = 153
 153 is an Armstrong number
 Space Complexity: O(1)
 Time Complexity : O(p)
 */
-
- 

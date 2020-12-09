@@ -37,13 +37,11 @@ Return Type: Boolean
 def is_prime_recursive(num, i=2):
 
     # Base Cases
-    if num == 2:
+    if num == 2 or i * i > n:
         return True
+
     if num <= 1 or n % i == 0:
         return False
-
-    if i * i > n:
-        return True
 
     # check the next divisor
     return is_prime_recursive(num, i + 1)
@@ -54,6 +52,7 @@ if __name__ == "__main__":
     n = int(input("Enter the number to be checked : "))
     print("Iterative Approach:- ", is_prime_iterative(n))
     print("Recursive Approach:- ", is_prime_recursive(n))
+
 """
 Enter the number to be checked : 13
 Iterative Approach:-  True

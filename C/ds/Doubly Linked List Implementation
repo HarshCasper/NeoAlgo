@@ -1,0 +1,360 @@
+//DOUBLY LINKED LIST IN C
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<malloc.h>
+#define ISEMPTY printf("\nEMPTY LIST:");
+
+struct node{
+    int data;
+    struct node* next;
+    struct node* prev;
+};
+
+struct node *head;
+void insert_node_first();
+void insert_node_last();
+void insert_at_pos();
+void delete_node_first();
+void delete_node_last();
+void deletion_specified();
+void display();
+
+
+
+void insert_node_first(){
+   struct node *new_node;
+   int new_data;
+   new_node = (struct node *)malloc(sizeof(struct node));
+   if(new_node == NULL){
+       printf("\nOVERFLOW");
+   }
+   else{
+    printf("\nEnter data");
+    scanf("%d",&new_data);
+
+   if(head==NULL){
+       new_node->next = NULL;
+       new_node->prev=NULL;
+       new_node->data=new_data;
+       head=new_node;
+   }
+   else{
+       new_node->data=new_data;
+       new_node->prev=NULL;
+       new_node->next = head;
+       head->prev=new_node;
+       head=new_node;
+   }
+   printf("\nNode inserted\n");
+}
+
+}
+
+void insert_node_last(){
+   struct node *new_node,*temp;
+   int new_data;
+   new_node = (struct node *) malloc(sizeof(struct node));
+   if(new_node == NULL){
+       printf("\nOVERFLOW");
+   }
+   else{
+       printf("\nEnter data");
+       scanf("%d",&new_data);
+        new_node->data=new_data;
+       if(head == NULL){
+           new_node->next = NULL;
+           new_node->prev = NULL;
+           head = new_node;
+       }
+       else{
+          temp = head;
+          while(temp->next!=NULL){
+              temp = temp->next;
+          }
+          temp->next = new_node;
+          new_node ->prev=temp;
+          new_node->next = NULL;
+        }
+
+       }
+     printf("\nNode inserted\n");
+}
+
+void insert_at_pos(){
+   struct node *new_node,*temp;
+   int new_data,pos,i;
+   new_node = (struct node *)malloc(sizeof(struct node));
+   if(new_node == NULL){
+       printf("\n OVERFLOW");
+   }
+   else{
+       temp=head;
+       printf("Enter the position");
+       scanf("%d",&pos);
+       for(i=0;i<pos;i++){
+           temp = temp->next;
+           if(temp == NULL){
+               printf("\n There are less than %d elements", pos);
+               return;
+           }
+       }
+       printf("Enter data");
+       scanf("%d",&new_data);
+       new_node->data = new_data;
+       new_node->next = temp->next;
+       new_node -> prev = temp;
+       temp->next = new_node;
+       temp->next->prev=new_node;
+       printf("\nNode inserted\n");
+   }
+}
+
+void delete_node_first(){
+    struct node *ptr;
+    if(head == NULL){
+        printf("\n UNDERFLOW");
+    }
+    else if(head->next == NULL){
+        head = NULL;
+        free(head);
+        printf("\nNode deleted\n");
+    }
+    else{
+        ptr = head;
+        head = head -> next;
+        head -> prev = NULL;
+        free(ptr);
+        printf("\nNode deleted\n");
+    }
+
+}
+
+void delete_node_last(){
+    struct node *ptr;
+    if(head == NULL){
+        printf("\n UNDERFLOW");
+    }
+    else if(head->next == NULL){
+        head = NULL;
+        free(head);
+        printf("\nNode deleted\n");
+    }
+    else{
+        ptr = head;
+        if(ptr->next != NULL){
+            ptr = ptr -> next;
+        }
+        ptr -> prev -> next = NULL;
+        free(ptr);
+        printf("\nNode deleted\n");
+    }
+}
+
+void deletion_specified(){
+    struct node *ptr, *temp;
+    int val;
+    printf("\n Enter the data after which the node is to be deleted : ");
+    scanf("%d", &val);
+    ptr = head;
+    while(ptr -> data != val)
+        ptr = ptr -> next;
+    if(ptr -> next == NULL){
+        printf("\nCan't delete\n");
+    }
+    else if(ptr -> next -> next == NULL){
+        ptr ->next = NULL;
+    }
+    else{
+        temp = ptr -> next;
+        ptr -> next = temp -> next;
+        temp -> next -> prev = ptr;
+        free(temp);
+        printf("\nNode deleted\n");
+    }
+}
+
+void display(){
+    struct node *new_node;
+    printf("\n printing values...\n");
+    new_node = head;
+    while(new_node != NULL){
+        printf("%d\n",new_node->data);
+        new_node=new_node->next;
+    }
+}
+
+
+int main(){
+    struct node* head=NULL;
+    int ch;
+    do{
+        printf("\nOperations on doubly linked list\n");
+        printf("\n---------------------------------\n");
+        printf("\n1. Insert node at first");
+        printf("\n2. Insert node at last");
+        printf("\n3. Insert node at the given position");
+        printf("\n4. Delete first node");
+        printf("\n5. Delete last node");
+        printf("\n6. Delete specified node");
+        printf("\n7. Display list");
+        printf("\n8. Exit");
+        printf("\nEnter your choice:");
+        scanf("%d",&ch);
+    switch(ch){
+        case 1:
+            insert_node_first();
+            break;
+        case 2:
+            insert_node_last();
+            break;
+        case 3:
+            insert_at_pos();
+            break;
+        case 4:
+            delete_node_first();
+            break;
+        case 5:
+            delete_node_last();
+            break;
+        case 6:
+            deletion_specified();
+            break;
+        case 7:
+            display();
+            break;
+        case 8:
+            exit(0);
+        default:
+            printf("Please enter a valid choice\n");
+        }
+    }
+    while(ch!=8);
+}
+
+
+/* Following is the sample input - output of the above program */
+/*
+Operations on doubly linked list
+
+---------------------------------
+
+1. Insert node at first
+2. Insert node at last
+3. Insert node at the given position
+4. Delete first node
+5. Delete last node
+6. Delete specified node
+7. Display list
+8. Exit
+Enter your choice: 1
+
+Enter data 20
+
+Node inserted
+
+Operations on doubly linked list
+
+---------------------------------
+
+1. Insert node at first
+2. Insert node at last
+3. Insert node at the given position
+4. Delete first node
+5. Delete last node
+6. Delete specified node
+7. Display list
+8. Exit
+Enter your choice: 2
+
+Enter data 36
+
+Node inserted
+
+Operations on doubly linked list
+
+---------------------------------
+
+1. Insert node at first
+2. Insert node at last
+3. Insert node at the given position
+4. Delete first node
+5. Delete last node
+6. Delete specified node
+7. Display list
+8. Exit
+Enter your choice: 2
+
+Enter data 55
+
+Node inserted
+
+Operations on doubly linked list
+
+---------------------------------
+
+1. Insert node at first
+2. Insert node at last
+3. Insert node at the given position
+4. Delete first node
+5. Delete last node
+6. Delete specified node
+7. Display list
+8. Exit
+Enter your choice: 7
+
+ printing values...
+20
+36
+55
+
+Operations on doubly linked list
+
+---------------------------------
+
+1. Insert node at first
+2. Insert node at last
+3. Insert node at the given position
+4. Delete first node
+5. Delete last node
+6. Delete specified node
+7. Display list
+8. Exit
+Enter your choice: 5
+
+Node deleted
+
+Operations on doubly linked list
+
+---------------------------------
+
+1. Insert node at first
+2. Insert node at last
+3. Insert node at the given position
+4. Delete first node
+5. Delete last node
+6. Delete specified node
+7. Display list
+8. Exit
+Enter your choice: 7
+
+ printing values...
+20
+
+Operations on doubly linked list
+
+---------------------------------
+
+1. Insert node at first
+2. Insert node at last
+3. Insert node at the given position
+4. Delete first node
+5. Delete last node
+6. Delete specified node
+7. Display list
+8. Exit
+Enter your choice: 8
+
+Process returned 0 (0x0)   execution time : 24.114 s
+Press any key to continue.
+*/

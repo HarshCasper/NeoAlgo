@@ -1,25 +1,25 @@
 def counting_fun(array):
     count_temp = 0                       # stores occurence count
     for i in range(0, len(array)):
-        count_temp = array.count(array[i])   # Counts the occurence 
+        count_temp = array.count(array[i])   # Counts the occurence
         if count_temp > number/2:
-            print(f"Number occuring more than n/2 is :{array[i]}")  
-            count_temp = "True"                                         
+            print(f"Number occuring more than n/2 is :{array[i]}")
+            count_temp = "True"
             break
-    if(count_temp != "True"):       
+    if(count_temp != "True"):
         print("No Element occuring more than n/2")
-number = int(input("Enter Number of values you will enter(eg.6): ")) 
+number = int(input("Enter Number of values you will enter(eg.6): "))
 i = 0
 list_1 = []                         # List Declaration
 print(f"Enter {number} values: ")
-for i in range(0, number): 
-    elements = int(input()) 
+for i in range(0, number):
+    elements = int(input())
     list_1.append(elements)         # adding element to the list
 
 counting_fun(list_1)
 
 # Output:
-# Enter 6 values: 
+# Enter 6 values:
 # 1
 # 1
 # 1

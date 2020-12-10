@@ -1,14 +1,13 @@
 /*
-Search for key in rowwise and columnwise sorted matrix
--------------------------------------------------------
+Search for key in row-wise and column-wise sorted matrix
+
 Staircase Search Method:
 
 In a sorted matrix, consider the top right corner. If we go down then the value increases
 and if we go left then the value decreases.
 
 Time Complexity: O(max(n, m))
-Auxilliary Space: O(1)
-
+Auxiliary Space: O(1)
 */
 
 #include<bits/stdc++.h>
@@ -44,9 +43,6 @@ void staircase_search(int** a, int n, int m, int key) {
 	} else {
 		cout << "Key not found";
 	}
-
-
-
 }
 
 
@@ -85,6 +81,4 @@ Input:
 
 Output:
 2 1
-
 */
-

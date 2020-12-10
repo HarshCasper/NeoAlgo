@@ -10,7 +10,7 @@ class MergeSortRecursion
         else
              {
             // Find the mid of the array
-            int mid = (start + end) / 2;
+           int mid = start + ((end - start) / 2);
  
             // Sort first and second halves
             sort(arr, start, mid);

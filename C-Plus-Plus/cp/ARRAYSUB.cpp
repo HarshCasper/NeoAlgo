@@ -1,3 +1,5 @@
+//Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.
+//https://www.spoj.com/problems/ARRAYSUB/
 #include<iostream>
 #include <deque>
 using namespace std;

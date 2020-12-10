@@ -5,7 +5,7 @@ using namespace std;
 //Function for generating Pythagorean triples
 void GetTriples(int limit)
 {
-	int a = 0, b = 0, c = 0;	// A triple: a^2 + b^2 = c^2
+	int a = 0, b = 0, c = 0, n;	// A triple: a^2 + b^2 = c^2
 	int m = 2;
 
 	//Limiting condition for c autonomatically limits a, b and c

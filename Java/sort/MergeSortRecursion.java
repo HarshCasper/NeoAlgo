@@ -5,7 +5,10 @@ class MergeSortRecursion
     
     public static void sort(int arr[], int start, int end)
     {
-        if (start < end) {
+        if(start==end) //base case
+        return;
+        else
+             {
             // Find the mid of the array
             int mid = (start + end) / 2;
  

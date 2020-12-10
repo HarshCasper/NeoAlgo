@@ -40,9 +40,9 @@ void staircase_search(int** a, int n, int m, int key) {
 
 	// If key is found, then print key
 	if (a[i][j] == key) {
-		cout << i << " " << j << endl;
+		cout << i << " " << j;
 	} else {
-		cout << "Key not found" << endl;
+		cout << "Key not found";
 	}
 
 

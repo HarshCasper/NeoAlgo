@@ -189,8 +189,12 @@
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
 * [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
 * [Sudoku Solver](other/sudoku_backtracking.py)
+<<<<<<< HEAD
 
 >>>>>>> b7e2860 (prime_number.py Added (#1412))
+=======
+* [Moore's Algorithm](other/Moore_Algorithm.py)
+>>>>>>> 43ad3dc (Added Moore's Algorithm into Readme [issue#1439] (#6))
 - [Ugly Number](math/UglyNumber.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
 - [Least Common Multiple](math/Least_common_multiple.py)

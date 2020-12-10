@@ -138,7 +138,7 @@ _add list here_
 - [PancakeSort](sort/PancakeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
-- [Merge Sort Using Recursion](https://github.com/ErzaTitania-2001/NeoAlgo/blob/master/Java/sort/MergeSortRecursion.java)
+- [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 
 ## Machine Learning
 

@@ -5,7 +5,8 @@ typedef long long int lli;
 typedef pair<int,int> pii;
 typedef tuple<int,int,int> tii;
 // Find the number of binary trees possible given the size of the preorder sequence-n
-// O(n^2) complexity - Dynamic Programming Approach
+// Dynamic Programming Approach
+// Complexity : Time- O(n^2) ; Space- O(n)
 int main()
 {
     int n;

@@ -12,6 +12,7 @@
 ## Algorithms
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)
 - [Z Algorithm](Algorithms/ZAlgorithm.js)
+- [Boyer Moore's Majority Voting Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 
 ## Data Structures
 

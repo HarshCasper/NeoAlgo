@@ -52,7 +52,7 @@ void printMajority(int a[], int size)
 } 
   
 /* Driver code */
-int main() 
+/* int main() 
 { 
     int a[] = { 1, 3, 3, 1, 2 }; 
     int size = (sizeof(a)) / sizeof(a[0]); 
@@ -62,3 +62,9 @@ int main()
   
     return 0; 
 }
+
+Output - No Majority Element */
+
+/* Time Complexity: O(n). The time complexity is linear.
+Auxiliary Space: O(1).  No extra space is required */
+

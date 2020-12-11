@@ -11,6 +11,9 @@ diffrent Binary trees that can be made with N distinct nodes
 Argument: N (number of distinct nodes)
 return Type: int (Total number of binary tree)
 
+Time Complexity:  O(n)
+Space Complexity: O(n)
+
 Note: Since the number of possible binary tree will be large
       the answer is given in mod of 10^9+7
 """

@@ -64,8 +64,8 @@ $(document).ready(() => {
             }
         });
         /*
-         *   Verifies that the total count of the candidate 
-         *   is greater than 50% of the total length of the list
+         *  Verifies that the total count of the candidate 
+         *  is greater than 50% of the total length of the list
          * 
          *  returning true signifies that the selected candidate is a legit candidate and has majority votes
          *  returning false signifies that the selected candidate is not a legit candidate and no majority candidate is detected in the list

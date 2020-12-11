@@ -139,7 +139,7 @@ _add list here_
 
 ## Algorithms
 
-- [Boyer_Moore_Majority_Vote] (Algorithms/Boyer_Moore_Majority_Vote.cpp)
+- [Boyer_Moore_Majority_Vote](Algorithms/Boyer_Moore_Majority_Vote.cpp)
 
 ## Cryptography
 

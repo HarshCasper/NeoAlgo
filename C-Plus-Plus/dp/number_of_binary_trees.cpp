@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
-#define N 1000000
 using namespace std;
 typedef long long int lli;
-typedef pair<int,int> pii;
-typedef tuple<int,int,int> tii;
 // Find the number of binary trees possible given the size of the preorder sequence-n
 // Dynamic Programming Approach
 // Complexity : Time- O(n^2) ; Space- O(n)
@@ -23,6 +20,7 @@ int main()
         }
     }
     //Calculation is same to that of catalan number
+    //Print the dp array to check for answers for values<n
     /*for(int i=0;i<=n;i++)
         cout<<dp[i]<<" ";
     cout<<endl;*/

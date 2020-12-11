@@ -92,6 +92,7 @@
 - [Randomized Select Search](search/Randomized_Select.cpp)
 - [Bilinear Search](search/bilinear_search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
+- [Staircase Search](search/Staircase_Search.cpp)
 
 ## Sorting
 

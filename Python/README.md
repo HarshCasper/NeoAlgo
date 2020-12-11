@@ -178,6 +178,7 @@
 <<<<<<< HEAD
 =======
 - [Prime Number Iterative and Recursive](math/prime_number.py)
+- [Cataln Number](math/Catalan_Number.py)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
@@ -201,6 +202,7 @@
 - [Coin Change Problem](dp/CoinChange.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
+- [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 
 ## Blockchain
 

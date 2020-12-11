@@ -25,6 +25,13 @@ _add list here_
 
 ## Competitive programming
 
+
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+* [ZigZag](cp/Zig_Zag.java)
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
@@ -44,6 +51,8 @@ _add list here_
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
+- [Ugly Number With Recursion](cp/UglyRecursion.java) 
+- [PDDI Using Recursion](cp/ArmStrongRecursion.java)
 
 ## Cryptography
 
@@ -96,6 +105,7 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 
 ## Dynamic Programming
@@ -121,6 +131,7 @@ _add list here_
 - [Linear Search](search/Linear_search.java)
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)
 - [Stack Search](search/Stack_Search.java)
+- [Bilinear Search](search/Bilinear_Search.java)
 
 ## Sorting
 

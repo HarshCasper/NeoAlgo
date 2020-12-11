@@ -137,6 +137,10 @@ _add list here_
 
 _add list here_
 
+## Algorithms
+
+- [Boyer_Moore_Majority_Vote] (Algorithms/Boyer_Moore_Majority_Vote.cpp)
+
 ## Cryptography
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
@@ -157,3 +161,5 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+
+

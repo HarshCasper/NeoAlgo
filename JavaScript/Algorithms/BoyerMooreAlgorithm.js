@@ -5,8 +5,8 @@ $(document).ready(() => {
      *   @param {Array} arrayOfCandidates contains a list of candidates
      *   @return {number} majority candidate value selected by the algorithm
      *   
-     *   This function is used to calculate the candidate which has the 
-     *   majority number of votes, this algorithm was propossed by Boyer Moore's.
+     *   This function determines the candidate who has the 
+     *   the majority number of votes, this algorithm was proposed by Boyer Moore's. 
      */
     const selectCandidate = (arrayOfCandidates) => {
 
@@ -28,7 +28,7 @@ $(document).ready(() => {
 
             /*
              * If majorityVotes deduct to 0 then a new candidate 
-             * is assigned and the value of majorityVotes is reset to 1
+             * is assigned and the value of majorityVotes reset to 1
              */
             if (majorityVotes <= 0) {
                 majorityVotes = 1; //Resetting value of majorityVotes
@@ -44,8 +44,8 @@ $(document).ready(() => {
      *  @param {number} selectedCandidate the selected candidate by the Boyer Moore's Algorithm
      *  @return {boolean} verifies and returns that the given candidate is Majority Candidate or not
      * 
-     * This function is used to verify that the given candidate which was selected, is actually a
-     * valid candidate and statisfies the need of having votes greater than 50% of the length of list.
+     * This function verifies that the given candidate selected is a valid candidate 
+     * and satisfies the need of having votes greater than 50% of the length of the list.
      */
     const validateSelectedCandidate = (arrayOfCandidates, selectedCandidate) => {
 
@@ -56,7 +56,7 @@ $(document).ready(() => {
 
             /*
              *   If the selected candidate by the algorithm has the value equal
-             *   to the current element value then the countOfSelectedCandidate
+             *   to the current element value than the countOfSelectedCandida
              *   is incremented by 1
              */
             if (selectedCandidate == candidate) {
@@ -64,7 +64,7 @@ $(document).ready(() => {
             }
         });
         /*
-         *   Verifies that the total count of candidate 
+         *   Verifies that the total count of the candidate 
          *   is greater than 50% of the total length of the list
          * 
          *  returning true signifies that the selected candidate is a legit candidate and has majority votes

@@ -16,10 +16,10 @@ void bucket_sort(vector<int>& arr) {
 	vector<vector<int>> bucket(k);
 	for(int e : arr)
 	    bucket[e/k].push_back(e);
-	for(vector<int> vec : bucket)
-		sort(vec.begin(), vec.end());
+	for(int i = 0; i < k; i++)
+		sort(bucket[i].begin(), bucket[i].end());
 	int ptr = 0, i = 0;
-	// cpoy the elts back to arr
+	// copy the elts back to arr
 	while(ptr < k) {
 		for(int j = 0; j < bucket[ptr].size(); j++)
 			arr[i+j] = bucket[ptr][j];

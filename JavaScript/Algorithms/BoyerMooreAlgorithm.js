@@ -27,7 +27,7 @@ $(document).ready(() => {
             }
 
             /*
-             * If majorityVotes decdect to 0 then a new candidate 
+             * If majorityVotes deduct to 0 then a new candidate 
              * is assigned and the value of majorityVotes is reset to 1
              */
             if (majorityVotes <= 0) {
@@ -67,8 +67,8 @@ $(document).ready(() => {
          *   Verifies that the total count of candidate 
          *   is greater than 50% of the total length of the list
          * 
-         *  If result is true then the selected candidate is a legit candidate
-         *  If result id false then the selected candidate is not a legit candidate
+         *  returning true signifies that the selected candidate is a legit candidate and has majority votes
+         *  returning false signifies that the selected candidate is not a legit candidate and no majority candidate is detected in the list
          */
         if (countOfSelectedCandidate > (arrayOfCandidates.length / 2)) {
             return true;
@@ -77,10 +77,10 @@ $(document).ready(() => {
     };
 
     /*
-     *  An arrow function with 1 parameters and no return value
+     *  An arrow function with 1 parameter and no return value
      *  @param {Array} listOfCandidates contains a list of candidates 
      * 
-     *  This function acts as the main entry point of the execution flow
+     *  This function acts as the main entry point for the execution flow
      */
     const main = (listOfCandidates) => {
         var selectedCandidate = selectCandidate(listOfCandidates); //Fetches value of the selected candidate
@@ -94,7 +94,7 @@ $(document).ready(() => {
 
     //Declaration of list of candidates
     var listOfCandidates = new Array(3, 3, 3, 3, 1, 1, 1, 3, 2);
-    //Calls main function for starting execution
+    //Calls main function for starting execution process
     main(listOfCandidates);
 
 });

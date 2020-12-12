@@ -1,11 +1,10 @@
-// Usecase : if all the elements are in a given range 
-// as in the case we perform counting sort.
-// As in this example, assume all elements are between
-// 0 - 99. We select a fair bucket size, as in this case 
-// 10
-// average time complexity : O(nlog(n/k)), where k is #buckets
-// worst case time complexity : O(nlogn)
-// space complexity : O(n)
+/**
+Usecase : if all the elements are in a given range 
+as in the case we perform counting sort.
+As in this example, assume all elements are between
+0 - 99. We select a fair bucket size, as in this case 
+10
+**/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -41,3 +40,15 @@ int main() {
 		cout << arr[i] << ' ';
 	cout << '\n';
 }
+
+/**
+Input : 
+8
+78 45 75 90 82 24 2 66
+Output :
+2 24 45 66 75 78 82 90
+
+average time complexity : O(nlog(n/k)), where k is #buckets
+worst case time complexity : O(nlogn)
+space complexity : O(n)
+**/

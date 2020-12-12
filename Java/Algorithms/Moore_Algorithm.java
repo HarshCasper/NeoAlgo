@@ -48,3 +48,4 @@ Enter 6 Numbers:
 2
 Number Occuring More than 'n/2'=5
 */
+/*Time Complexity : o(n^2) , Space Complexity : o(1).

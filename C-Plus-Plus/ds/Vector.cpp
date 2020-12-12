@@ -116,18 +116,34 @@ int main() {
 	// Declaring a vector
 	Vector<int> v;
 
-	v.push_back(71);
-	v.push_back(2);
-	v.push_back(73);
-	v.push_back(4);
-	v.push_back(5);
+	int num;
+
+	while (cin >> num) {
+		v.push_back(num);
+	}
 
 	printVector(v);
 
-	v.pop_back();
-	v.push_back(6);
-
-	printVector(v);
-
-	cout << "Capacity = " << v.capacity();
+	cout << "Size = " << v.size() << endl;
+	cout << "Capacity = " << v.capacity() << endl;
+	cout << "Front = " << v.front() << endl;
+	cout << "Back = " << v.back() << endl;
+	v.clear();
+	cout << "Size after clearing = " << v.size() << endl;
+	cout << "Capacity after clearing = " << v.capacity();
 }
+
+/*
+Sample Input:
+1 2 3
+
+Sample Output:
+1 2 3
+Size = 3
+Capacity = 4
+Front = 1
+Back = 3
+Size after clearing = 0
+Capacity after clearing = 4
+
+*/

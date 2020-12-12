@@ -1,3 +1,4 @@
+#The Boyer–Moore majority vote algorithm is an algorithm for finding the majority of a sequence of elements using linear time and constant space.
 def counting_fun(array):
     count_temp = 0                       # stores occurence count
     for i in range(0, len(array)):
@@ -27,3 +28,4 @@ counting_fun(list_1)
 # 4
 # 2
 # Number occuring more than n/2 is: 1
+# Time Complexity : o(n) , Space Complexity : o(1)

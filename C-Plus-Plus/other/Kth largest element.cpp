@@ -7,7 +7,6 @@ It is given that all array elements are distinct. */
 
 
 #include <bits/stdc++.h>
-#include <iostream>
 using namespace std;
 
 //find the kth largest Element
@@ -28,7 +27,13 @@ void kthLargestElement(int a[], int size, int k){
 int main()
 {
     int size, k; 
-    cin >> size >> k;
+    
+    cout << "Enter the size of an Array : " << endl;
+    cin >> size;
+
+    cout << "Enter the value of k : " << endl;
+    cin>> k;
+    
     int a[size];
 
     for (int i = 0; i < size; i++){

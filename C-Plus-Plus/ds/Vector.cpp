@@ -13,7 +13,6 @@ push_back() Time Complexity: O(current size)
 #include<bits/stdc++.h>
 using namespace std;
 
-
 template<typename T>
 class Vector {
 
@@ -100,9 +99,6 @@ public:
 	void clear() {
 		cs = 0;
 	}
-
-
-
 };
 
 void printVector(Vector<int> v) {

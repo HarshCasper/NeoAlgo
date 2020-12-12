@@ -197,6 +197,13 @@
 - [Double Factorial](math/double_factorial.py)
 - [Euler Totient Function](math/euler_totient_function.py)
 
+<<<<<<< HEAD
+=======
+## Backtracking
+
+- [Knight's Tour](backtracking/Knight's_Tour.py)
+ 
+>>>>>>> db0f4a4 (Knight's Tour Added under Backtracking)
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)

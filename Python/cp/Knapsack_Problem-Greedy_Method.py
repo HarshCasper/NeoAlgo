@@ -5,7 +5,7 @@ def Knapsack(p, w, TW):
     #Finding p/w ratio of each item
     for i in range(len(p)):
         l.append(p[i]/w[i])
-    #Ading items to the Knapsack according to p/w ratio
+    #Adding items to the Knapsack according to p/w ratio
     while TW!=0:
         x = max(l)
         i = l.index(max(l))

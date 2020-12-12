@@ -42,8 +42,13 @@ int main()
     return 0;
 }
 
-// Input 
-// size=7 k=3
-// 7 5 9 8 6 4 10
-// Output
-// 8
+/*
+Input 
+size=7 k=3
+7 5 9 8 6 4 10
+Output
+8
+
+Space complexity => O(k)
+Time complexity => O(nlogk)
+*/

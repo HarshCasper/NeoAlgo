@@ -1,5 +1,3 @@
-$(document).ready(() => {
-
     /*
      *   An arrow function with 1 parameter and returns a value.
      *   @param {Array} arrayOfCandidates contains a list of candidates
@@ -96,5 +94,5 @@ $(document).ready(() => {
     var listOfCandidates = new Array(3, 3, 3, 3, 1, 1, 1, 3, 2);
     //Calls main function for starting execution process
     main(listOfCandidates);
-//Output : 3 Has The Majority Number Of Votes
-});
+
+    //Output : 3 Has The Majority Number Of Votes

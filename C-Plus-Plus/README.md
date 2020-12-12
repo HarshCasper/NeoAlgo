@@ -80,6 +80,7 @@
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
+- [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
 
 ## Searching
 

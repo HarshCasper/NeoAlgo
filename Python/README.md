@@ -206,7 +206,7 @@
 - [Fibonacci number](math/Fibonacci.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 - [Prime Number Iterative and Recursive](math/prime_number.py)
-- [Cataln Number](math/Catalan_Number.py)
+- [Catalan Number](math/Catalan_Number.py)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)

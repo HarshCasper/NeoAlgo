@@ -38,7 +38,10 @@
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
+- [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
+- [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [ArraySub](cp/ARRAYSUB.cpp)
 
 ## Data Structures
 
@@ -77,6 +80,7 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 
 ## Searching
 
@@ -116,6 +120,7 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
+- [Ugly Numbers](math/ugly_numbers.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 
 ## Dynamic Programming
@@ -159,3 +164,5 @@ _add list here_
 - [Least Common Multiple](other/lcm.cpp)
 - [Kth largest element](other/Kth largest element.cpp)
 - [Kth smallest element](other/Kth smallest element.cpp)
+- [Generate all Subsets](other/subsets.cpp)
+

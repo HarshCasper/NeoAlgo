@@ -88,6 +88,7 @@ _add list here_
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
+- [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 
 ## Mathematics
 

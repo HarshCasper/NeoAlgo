@@ -138,6 +138,7 @@ _add list here_
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Maximal Area of Square Matrix Aith All 1's](dp/Maximum_area_Square_with_all_1.cpp)
 
 ## Blockchain
 

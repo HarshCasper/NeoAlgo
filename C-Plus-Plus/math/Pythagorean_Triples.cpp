@@ -10,15 +10,21 @@ void GetTriples(int& l)
 
 	while (c < l)
 	{
-		n = 1;	//For every m, evaluate a,b,c for all values of n from 1 to m-1
+		//For every m, evaluate a,b,c for all values of n from 1 to m-1
+		n = 1;	
 		while (n < m)
 		{
-			a = (int)(pow(m, 2)) - (int)(pow(n, 2));	//Evaluating a, b, c using relation between a,b,c and m,n
+			//Evaluating a, b, c using relation between a,b,c and m,n
+			a = (int)(pow(m, 2)) - (int)(pow(n, 2));
 			b = 2 *m * n;
 			c = (int)(pow(m, 2)) + (int)(pow(n, 2));
-			if (c > l)	//Checking for limit being exceeded
+
+			//Checking for limit being exceeded
+			if (c > l)	
 				break;
-			cout << a << " " << b << " " << c << "\n";	//Display computed Triple
+
+			//Display computed Triple
+			cout << a << " " << b << " " << c << "\n";
 			n++;
 		}
 
@@ -30,7 +36,8 @@ void GetTriples(int& l)
 int main()
 {
 	int l;
-	cout << "Enter limit: ";	//Prompts user for input
+	//Prompts user for input
+	cout << "Enter limit (>4) :";
 	cin >> l;
 	GetTriples(l);
 	return 0;

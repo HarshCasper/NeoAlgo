@@ -1,98 +1,54 @@
-// Area of a rectangle
-
 package main
+import (
+   "fmt"
+   "math"
+)
 
-import "fmt"
+// Area of a Rectangle
 
-var area float64
-
-func main() {
-	var l float64 = 6
-	var b float64 = 4
-	area = l*b
-	fmt.Print(area)
-  }
-
+func rectangle(l,b float64) float64 {
+   return l * b
+}
 
 // Area of a Square
 
-package main
-
-import "fmt"
-
-var area float64
-
-func main() {
-	var a float64 = 5
-	area = a*a
-	fmt.Print(area)
-  }
-
-
+func square(l float64) float64 {
+   return l * l
+}
 
 // Area of a Triangle
 
-package main
-
-import "fmt"
-
-var area float64
-
-func main() {
-	var b float64 = 5
-	var h float64 = 4.3
-	area = b*h/2
-	fmt.Print(area)
-	}
-
+func triangle(b,h float64) float64 {
+   return (b * h)/2.0
+}
 
 // Area of a Circle
 
-package main
+func circle(r float64) float64 {
+   return math.Pi * math.Pow(r,2)
+}
 
-import "fmt"
-import "math"
+// Area of a Parallelogram
 
-var area float64
+func parallelogram(b,h float64) float64 {
+   return b * h
+}
 
+// Area of a Trapezium
+  
+func trapezium(a,b,h float64) float64 {
+   return (a+b) * h/2.0
+}
+ 
 func main() {
-	var r float64 = 5
-	area = math.Pi * math.Pow(r,2)
-	fmt.Print(area)
-	}
-  
-  
-  // Area of a Parallelogram
-  
-package main
+	fmt.Println(rectangle(3.0,5.0))
+	fmt.Println(square(4.0))
+	fmt.Println(triangle(4.0,6.0))
+	fmt.Println(circle(3.5))
+	fmt.Println(parallelogram(4.0,7.0))
+	fmt.Println(trapezium(4.0,3.5,6.5))
+}
 
-import "fmt"
-
-var area float64
-
-func main() {
-	var b float64 = 5
-  var h float64 = 7
-	area = b * h
-	fmt.Print(area)
-	}
-  
-  
-  // Area of a Trapezium
-  
-package main
-
-import "fmt"
-
-var area float64
-
-func main() {
-	var a float64 = 5
-  var b float64 = 6.5
-	var h float64 = 4
-  area = (a+b)*h/2
-	fmt.Print(area)
-	}
 
 // Time Complexity - O(n)
 // Space Complexity - O(n)

@@ -10,10 +10,14 @@ using namespace std;
 // Solve the problem with a one-pass algorithm using only O(1) constant space?
 
 // TEST CASE-
-// Input: nums = [2,0,2,1,1,0]
+// Input:
+// n=6
+// nums = [2,0,2,1,1,0]
 // Output: [0,0,1,1,2,2]
 
-// Input: nums = [2,0,1]
+// Input:
+// n=3
+// nums = [2,0,1]
 // Output: [0,1,2]
 
 // The bruteforce approach - Sort the vector in nlogn time

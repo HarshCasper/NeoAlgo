@@ -41,6 +41,7 @@
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [Suduko Solver](cp/SudukoSolver.cpp)
 
 ## Data Structures
 

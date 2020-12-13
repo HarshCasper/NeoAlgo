@@ -82,21 +82,19 @@ def present(a, b, n):
     return not(a < 0 or y < 0 or x >= n or y >= n)
 
 KW = kinghtwalk(n, src, des)
-print("The shortest paths are {}".format(KW))
+print("Minumun nunbers of paths are {}".format(KW))
 ''' 
 Sample input:
-    Enter the sides of the Matrix :
-    Enter the Row and the Column
-    Row:4
-    Column:4
-    Enter the integers:
-    0 3 INF 5 2 0 INF 4 INF 1 0 INF INF INF 2 0
+    Enter the number of matrix :
+    Row:8
+    Enter the source:
+    src1:0
+    src2:7
+    Enter the source:
+    des1:7
+    des2:0
 Sample Output:
-    The shortest paths are
-    0 3 7 5
-    2 0 6 4
-    3 1 0 5
-    5 3 2 0
+    Minumun nunbers of paths are 6
 '''
 # Time complexity: O(N^2)
 

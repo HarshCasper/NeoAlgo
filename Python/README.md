@@ -41,6 +41,9 @@
 * [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 * [Merge Sort Parallel](sort/Parallel_MergeSort.py)
 
+## Backtracking
+* [Sudoku Solver](backtracking/sudokuSolver.py)
+
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
 * [Height of Tree](graphs/height_of_given_tree.py)
@@ -223,6 +226,10 @@
 - [Least Common Multiple](math/Least_common_multiple.py)
 - [Double Factorial](math/double_factorial.py)
 - [Euler Totient Function](math/euler_totient_function.py)
+
+## Backtracking
+
+- [Knight's Tour](backtracking/Knight's_Tour.py)
  
 ## Dynamic Programming
 

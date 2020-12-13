@@ -21,26 +21,27 @@ void kthLargestElement(int a[], int size, int k){
             minHeap.pop();
         }
     }
-    cout<< minHeap.top();
+    cout<< "Kth largest element in the array is: "<< minHeap.top();
 }
 
 int main()
 {
     int size, k; 
     
-    cout << "Enter the size of an Array : " << endl;
+    cout << "Enter the size of an Array : ";
     cin >> size;
 
-    cout << "Enter the value of k : " << endl;
+    cout << "Enter the value of k : ";
     cin>> k;
+
+    cout<< "Enter the elements of the array: " << endl;
     
     int a[size];
+    
 
     for (int i = 0; i < size; i++){
         cin >> a[i];
     }
-
-    // a={7, 5, 9, 8, 6, 4, 10}
 
     kthLargestElement(a,size,k);  
     
@@ -49,10 +50,13 @@ int main()
 
 /*
 Input 
-size=7 k=3
-7 5 9 8 6 4 10
+Enter the size of an Array : 7                                                                                                                
+Enter the value of k : 3                                                                                                                      
+Enter the elements of the array:                                                                                                              
+7 5 9 8 6 4 10      
+
 Output
-8
+Kth largest element in the array is: 8
 
 Space complexity => O(k)
 Time complexity => O(nlogk)

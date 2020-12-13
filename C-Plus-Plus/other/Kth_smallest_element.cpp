@@ -20,26 +20,27 @@ void kthSmallestElement(int arr[], int size, int k){
             maxHeap.pop();
         }
     }
-    cout<< maxHeap.top();
+    cout<< "Kth smallest element in the array is: "<< maxHeap.top();
 }
 
 int main()
 {
     int size, k;
      
-    cout << "Enter the size of an Array : " << endl;
+    cout << "Enter the size of an Array : ";
     cin >> size;
 
-    cout << "Enter the value of k : " << endl;
+    cout << "Enter the value of k : ";
     cin>> k;
 
+    cout<< "Enter the elements of the array: " << endl;
+
     int arr[size];
+    
 
     for (int i = 0; i < size; i++){
         cin >> arr[i];
     }
-
-    // arr={7, 5, 9, 8, 6, 4, 10}
 
     kthSmallestElement(arr, size, k);  
     
@@ -48,10 +49,13 @@ int main()
 
 /*
 Input 
-size=7 k=3
-7 5 9 8 6 4 10
+Enter the size of an Array : 7                                                                                                                
+Enter the value of k : 3                                                                                                                      
+Enter the elements of the array:                                                                                                              
+7 5 9 8 4 6 10      
+
 Output
-6
+Kth smallest element in the array is: 6 
 
 Space complexity => O(k)
 Time complexity => O(nlogk)

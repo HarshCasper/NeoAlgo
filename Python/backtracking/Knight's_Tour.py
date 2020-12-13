@@ -2,6 +2,9 @@
 Purpose: To check wether it is possible for a Knight to visit each
          cell of the N*N chessboard without visiting any cell
          twice starting from (X, Y) position.
+         
+Problem Link:- https://en.wikipedia.org/wiki/Knight%27s_tour
+Visulization :- https://github.com/karan236/Algorithm-Visualizer
 
 Method: Backtracking Algorithm
 Intution: To visit each and every positions which are available from

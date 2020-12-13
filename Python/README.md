@@ -227,6 +227,7 @@
 ## Backtracking
 
 - [Knight's Tour](backtracking/Knight's_Tour.py)
+- [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
  
 ## Dynamic Programming
 

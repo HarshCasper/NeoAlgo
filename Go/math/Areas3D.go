@@ -94,6 +94,10 @@ func main(){
             Surface_Area = 2 * (l*b + l*h + b*h)
             fmt.Print(Surface_Area)
            }
+
+
+// Time Complexity - O(n)
+// Space Complexity - O(n)
            
            
 // Surface Area of a Sphere

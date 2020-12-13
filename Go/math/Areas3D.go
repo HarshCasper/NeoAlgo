@@ -1,129 +1,68 @@
-// Surface Area of a Cone
-
 package main
+import (
+   "fmt"
+   "math"
+)
 
-import ("fmt" ; "math")
+// Surface area of a Cone
 
-var Surface_Area float64
+func cone(r,l float64) float64 {
+   return (math.Pi * r * r) + (math.Pi * r * l)
+}
 
-func main(){
-            var r float64 = 3
-            var l float64 = 7
-            Surface_Area = (math.Pi * r * r) + (math.Pi * r * l)
-            fmt.Print(Surface_Area)
-           }
+// Surface area of a Cube
 
+func cube(a float64) float64 {
+   return 6.0 * a * a
+}
 
-// Surface Area of a Cube
+// Surface area of a Cuboid
 
-package main
+func cuboid(a,b,c float64) float64 {
+   return 2.0 * ((a*b)+(b*c)+(c*a)) 
+}
 
-import "fmt"
+// Surface area of a Cylinder
 
-var Surface_Area float64
+func cylinder(r,h float64) float64 {
+   return (2.0 * (math.Pi * r * r)) + (r*h)
+}
 
-func main(){
-            var a float64 = 3
-            Surface_Area = 6 * a * a
-            fmt.Print(Surface_Area)
-           }
+// Surface area of a Pyramid
 
+func pyramid(l,b,h float64) float64 {
+   return (l*b) + (l*math.Sqrt((b/2.0*b/2.0)+(h*h))) + (b*math.Sqrt((l/2.0*l/2.0)+(h*h)))
+}
 
-// Surface Area of a Cuboid
+// Surface area of a Rectangular Prism
+  
+func rectangular_prism(l,b,h float64) float64 {
+   return 2.0 * (l*b + l*h + b*h)
+}
 
-package main
+// Surface area of a Sphere
+  
+func sphere(r float64) float64 {
+   return 4.0 * math.Pi * r * r
+}
 
-import "fmt"
-
-var Surface_Area float64
-
-func main(){
-            var a float64 = 3
-            var b float64 = 5
-            var c float64 = 7
-            Surface_Area = 2 * ((a*b)+(b*c)+(c*a)) 
-            fmt.Print(Surface_Area)
-           }
-
-
-// Surface Area of a Cylinder
-
-package main
-
-import ("fmt" ; "math")
-
-var Surface_Area float64
-
-func main(){
-            var r float64 = 3
-            var h float64 = 5
-            Surface_Area = (2 * (math.Pi * r * r)) + (r*h)
-            fmt.Print(Surface_Area)
-           }
+// Surface area of a Hemisphere
+  
+func hemisphere(r float64) float64 {
+   return (2.0 * math.Pi * r * r) + (math.Pi * r * r)
+}
 
 
-// Surface Area of a Pyramid
-
-package main
-
-import ("fmt" ; "math")
-
-var Surface_Area float64
-
-func main(){
-            var l float64 = 3
-            var b float64 = 4
-            var h float64 = 5
-            Surface_Area = (l*b) + (l*math.Sqrt((b/2*b/2)+(h*h))) + (b*math.Sqrt((l/2*l/2)+(h*h)))
-            fmt.Print(Surface_Area)
-           }
-           
-           
-// Surface Area of a Rectangle Prism
-
-package main
-
-import "fmt"
-
-var Surface_Area float64
-
-func main(){
-            var l float64 = 3
-            var b float64 = 4
-            var h float64 = 5
-            Surface_Area = 2 * (l*b + l*h + b*h)
-            fmt.Print(Surface_Area)
-           }
-           
-           
-// Surface Area of a Sphere
- 
-package main
-
-import ("fmt" ; "math")
-
-var Surface_Area float64
-
-func main(){
-            var r float64 = 3.5
-            Surface_Area = 4 * math.Pi * r * r
-            fmt.Print(Surface_Area)
-           }
-           
-           
-// Surface Area of Hemisphere
-
-package main
-
-import ("fmt" ; "math")
-
-var Surface_Area float64
-
-func main(){
-            var r float64 = 3.5
-            Surface_Area = (2 * math.Pi * r * r) + (math.Pi * r * r)
-            fmt.Print(Surface_Area)
-           }
+func main() {
+	fmt.Println(cone(3.0,5.0))
+	fmt.Println(cube(4.0))
+	fmt.Println(cuboid(4.0,6.0,2.5))
+	fmt.Println(cylinder(3.5,5.0))
+            fmt.Println(pyramid(4.0,7.0,5.5))
+	fmt.Println(rectangular_prism(4.0,3.5,6.5))
+            fmt.Println(sphere(4.0))
+            fmt.Println(hemisphere(4.5))
+}
 
 
 // Time Complexity - O(n)

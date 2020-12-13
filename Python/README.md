@@ -61,6 +61,8 @@
 - [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Trie](ds/Trie.py)
+- [Floyd Warshall Algorithm](ds/Floyd_Warshall_Algorithm.py)
+- [Knight Walk](ds/Knight_Walk.py)
 
 ## Competitive Programming
 

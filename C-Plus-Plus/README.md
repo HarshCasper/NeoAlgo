@@ -42,6 +42,7 @@
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
+- [Suduko Solver](cp/SudukoSolver.cpp)
 
 ## Data Structures
 

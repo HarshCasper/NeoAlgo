@@ -58,10 +58,10 @@ func main() {
 	fmt.Println(cube(4.0))
 	fmt.Println(cuboid(4.0,6.0,2.5))
 	fmt.Println(cylinder(3.5,5.0))
-            fmt.Println(pyramid(4.0,7.0,5.5))
+        fmt.Println(pyramid(4.0,7.0,5.5))
 	fmt.Println(rectangular_prism(4.0,3.5,6.5))
-            fmt.Println(sphere(4.0))
-            fmt.Println(hemisphere(4.5))
+        fmt.Println(sphere(4.0))
+        fmt.Println(hemisphere(4.5))
 }
 
 

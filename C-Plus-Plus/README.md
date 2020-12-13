@@ -81,6 +81,7 @@
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
+- [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 
 ## Searching
 

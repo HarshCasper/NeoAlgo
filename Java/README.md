@@ -44,7 +44,7 @@ _add list here_
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
-- [Ugly Number With Recursion](cp/UglyRecursion.java) 
+- [Ugly Number With Recursion](cp/UglyRecursion.java)
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
 
 ## Cryptography

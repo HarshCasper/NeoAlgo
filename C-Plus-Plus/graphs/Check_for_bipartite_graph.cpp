@@ -2,7 +2,7 @@
 Bipartite Graph Check
 ----------------------
 Problem:
-Divide all vertcies of the graph in two sets such that
+Divide all vertices of the graph in two sets such that
 all the edges of the graph are from set1 to set2
 
 Similar to 2 coloring problem

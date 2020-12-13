@@ -41,6 +41,7 @@
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [ArraySub](cp/ARRAYSUB.cpp)
 
 ## Data Structures
 
@@ -91,6 +92,7 @@
 - [Randomized Select Search](search/Randomized_Select.cpp)
 - [Bilinear Search](search/bilinear_search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
+- [Staircase Search](search/Staircase_Search.cpp)
 
 ## Sorting
 
@@ -161,3 +163,4 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [Generate all Subsets](other/subsets.cpp)

@@ -51,6 +51,8 @@ _add list here_
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
+- [Ugly Number With Recursion](cp/UglyRecursion.java) 
+- [PDDI Using Recursion](cp/ArmStrongRecursion.java)
 
 ## Cryptography
 
@@ -145,6 +147,7 @@ _add list here_
 - [PancakeSort](sort/PancakeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
+- [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 
 ## Machine Learning
 

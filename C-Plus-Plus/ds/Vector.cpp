@@ -109,37 +109,96 @@ void printVector(Vector<int> v) {
 
 int main() {
 
+	cout << "Enter <1> To push elements \n"
+	     "<2> To pop elements \n"
+	     "<3> To get front element \n"
+	     "<4> To get back element\n"
+	     "<5> To check if vector is empty \n"
+	     "<6> To get size of vector \n"
+	     "<7> To get capacity of vector \n"
+	     "<8> To get iterator to start of vector \n"
+	     "<9> To get end of vector \n"
+	     "<10> To clear vector \n"
+	     "<11> To print the vector \n"
+	     "<12> To exit program \n\n";
+
+	cout << "Enter Choice: ";
+
 	// Declaring a vector
 	Vector<int> v;
 
-	int num;
+	int choice;
 
-	while (cin >> num) {
-		v.push_back(num);
+	while (cin >> choice) {
+
+		switch (choice) {
+
+		case 1: cout << "Enter elements to push until -1: ";
+			int x;
+			cin >> x;
+			while (x != -1) {
+				v.push_back(x);
+				cin >> x;
+			} break;
+
+		case 2: v.pop_back(); break;
+		case 3: cout << v.front() << endl; break;
+		case 4: cout << v.back() << endl; break;
+		case 5: cout << v.empty() << endl; break;
+		case 6: cout << v.size() << endl; break;
+		case 7: cout << v.capacity() << endl; break;
+		case 8: cout << v.begin() << endl; break;
+		case 9: cout << v.end() << endl; break;
+		case 10: v.clear(); break;
+		case 11: printVector(v); break;
+
+		default: exit(0);
+		}
+
+		cout << "Enter Choice: ";
+
 	}
-
-	printVector(v);
-
-	cout << "Size = " << v.size() << endl;
-	cout << "Capacity = " << v.capacity() << endl;
-	cout << "Front = " << v.front() << endl;
-	cout << "Back = " << v.back() << endl;
-	v.clear();
-	cout << "Size after clearing = " << v.size() << endl;
-	cout << "Capacity after clearing = " << v.capacity();
 }
 
 /*
-Sample Input:
-1 2 3
+Console output:
 
-Sample Output:
+Enter <1> To push elements
+<2> To pop elements
+<3> To get front element
+<4> To get back element
+<5> To check if vector is empty
+<6> To get size of vector
+<7> To get capacity of vector
+<8> To get iterator to start of vector
+<9> To get end of vector
+<10> To clear vector
+<11> To print the vector
+<12> To exit program
+Enter Choice: 1
+Enter elements to push until -1: 1 2 3 -1
+Enter Choice: 11
 1 2 3
-Size = 3
-Capacity = 4
-Front = 1
-Back = 3
-Size after clearing = 0
-Capacity after clearing = 4
+Enter Choice: 2
+Enter Choice: 11
+1 2
+Enter Choice: 3
+1
+Enter Choice: 4
+2
+Enter Choice: 5
+0
+Enter Choice: 6
+2
+Enter Choice: 7
+4
+Enter Choice: 8
+0x6a0f68
+Enter Choice: 9
+0x6a0f70
+Enter Choice: 10
+Enter Choice: 11
+
+Enter Choice: 12
 
 */

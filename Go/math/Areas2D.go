@@ -93,3 +93,6 @@ func main() {
   area = (a+b)*h/2
 	fmt.Print(area)
 	}
+
+// Time Complexity - O(n)
+// Space Complexity - O(n)

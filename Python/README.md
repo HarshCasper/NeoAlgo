@@ -208,6 +208,7 @@
 - [Knight's Tour](backtracking/Knight's_Tour.py)
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
 - [Sudoku Solver](backtracking/sudokuSolver.py)
+- [Subset Sum](backtracking/Subset_Sum.py)
  
 >>>>>>> db0f4a4 (Knight's Tour Added under Backtracking)
 ## Dynamic Programming

@@ -54,6 +54,7 @@ _add list here_
 - [Suduko Solver](cp/SudukoSolver.java)
 - [Ugly Number With Recursion](cp/UglyRecursion.java) 
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
+- [NQueens Problem](cp/NQueens.java)
 
 
 ## Cryptography

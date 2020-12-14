@@ -1,8 +1,7 @@
 # Importing sys module to initalize the maxsize
 import sys
-''' Floyd-Warshall Algorithm '''
-
-'''Problem Statement :The problem is to find shortest distances
+''' Floyd Warshall Algorithm '''
+''' Problem Statement :The problem is to find shortest distances
                       between every pair of vertices in a given
                       edge weighted directed Graph. The Graph is
                       represented as Adjancency Matrix, and the
@@ -47,8 +46,7 @@ def printlist(table):
     for i in table:
         print(*i)
 FW = FloydWarshall(graph, row, col)
-print("The shortest paths are")
-format(printlist(FW))
+print("The shortest paths are".format(printlist(FW)))
 ''' 
 Sample input:
     Enter the sides of the Matrix :
@@ -64,4 +62,3 @@ Sample Output:
     3 1 0 5
     5 3 2 0
 '''
-

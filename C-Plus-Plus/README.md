@@ -126,6 +126,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
+- [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 
 ## Dynamic Programming
 

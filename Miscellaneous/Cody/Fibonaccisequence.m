@@ -11,3 +11,6 @@ end
 % Test case
 % Input  n = 7
 % Output f = 13
+
+% Time Complexity = O(n)
+% Space Complexity = O(n)

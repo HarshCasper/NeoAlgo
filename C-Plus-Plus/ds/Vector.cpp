@@ -110,7 +110,7 @@ void printVector(Vector<int> v) {
 int main() {
 
 	cout << "Enter <1> To push elements \n"
-	     "<2> To pop elements \n"
+	     "<2> To pop (last) element \n"
 	     "<3> To get front element \n"
 	     "<4> To get back element\n"
 	     "<5> To check if vector is empty \n"

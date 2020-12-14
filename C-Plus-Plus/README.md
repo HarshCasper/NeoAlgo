@@ -66,7 +66,6 @@
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 
-
 ## Graphs
 
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)

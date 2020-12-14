@@ -2,33 +2,40 @@ def Knapsack(p, w, TW):
     l = []
     pr = []
     wt = []
-    #Finding p/w ratio of each item
+    # Finding p/w ratio of each item
     for i in range(len(p)):
         l.append(p[i]/w[i])
-    #Adding items to the Knapsack according to p/w ratio
-    while TW!=0:
+    # Adding items to the Knapsack according to p/w ratio
+    while TW != 0:
         x = max(l)
         i = l.index(max(l))
-        if(w[i]<=TW):
-            TW-=w[i]
+        if(w[i] <= TW):
+            TW -= w[i]
             pr.append(l[i])
             wt.append(w[i])
         else:
             wt.append(TW)
-            TW=0
+            TW = 0
             pr.append(l[i])
         l[i] = -1
     total_prof = 0
-    #Calculating total profit
+    # Calculating total profit
     for i in range(len(pr)):
-        total_prof+=pr[i]*wt[i]
+        total_prof += pr[i] * wt[i]
     return total_prof
 
-#Profits
+# Profits
 p = [10, 5, 15, 7, 6, 18, 3]
-#Weights
+# Weights
 w = [2, 3, 5, 7, 1, 4, 1]
-#Total Weight the Knapsack can handle
+# Total Weight the Knapsack can handle
 TW = 15
 x = Knapsack(p, w, TW)
 print(x)
+
+# Sample Input 1:
+# p = [10, 5, 15, 7, 6, 18, 3]
+# w = [2, 3, 5, 7, 1, 4, 1]
+# TW = 15
+# Sample Output 1:
+# 55.333333333333336

@@ -206,6 +206,7 @@
 - [Fibonacci number](math/Fibonacci.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 - [Prime Number Iterative and Recursive](math/prime_number.py)
+- [Catalan Number](math/Catalan_Number.py)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
@@ -222,10 +223,19 @@
 - [Least Common Multiple](math/Least_common_multiple.py)
 - [Double Factorial](math/double_factorial.py)
 - [Euler Totient Function](math/euler_totient_function.py)
+
+## Backtracking
+
+- [Knight's Tour](backtracking/Knight's_Tour.py)
+- [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
+- [Sudoku Solver](backtracking/sudokuSolver.py)
  
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)
+- [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
+- [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
+- [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 
 ## Blockchain
 

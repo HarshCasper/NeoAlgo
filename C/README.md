@@ -32,6 +32,7 @@
 - [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
+- [Suduko Solver](cp/SudukoSolver.c)
 
 ## Cryptography
 

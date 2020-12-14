@@ -41,6 +41,8 @@
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [ArraySub](cp/ARRAYSUB.cpp)
+- [Suduko Solver](cp/SudukoSolver.cpp)
 
 ## Data Structures
 
@@ -80,6 +82,8 @@
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
+- [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
+- [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 
 ## Searching
 
@@ -91,6 +95,7 @@
 - [Randomized Select Search](search/Randomized_Select.cpp)
 - [Bilinear Search](search/bilinear_search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
+- [Staircase Search](search/Staircase_Search.cpp)
 
 ## Sorting
 
@@ -162,3 +167,4 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [Generate all Subsets](other/subsets.cpp)

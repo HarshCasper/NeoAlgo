@@ -40,6 +40,11 @@
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
+<<<<<<< HEAD
+=======
+- [Suduko Solver](cp/SudukoSolver.cpp)
+- [Next Largest Permutation](cp/NextPermutation.cpp)
+>>>>>>> 9d7c958 (Next Largest Permutation added in C++)
 
 ## Data Structures
 

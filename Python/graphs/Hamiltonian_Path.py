@@ -1,7 +1,7 @@
 """
 Hamiltonian Path: a Hamiltonian path (or traceable path) is a path
     in an undirected or directed graph that visits each vertex exactly
-    once. 
+    once.
 
 Problem Link: https://en.wikipedia.org/wiki/Hamiltonian_path
 Purpose: To determine the existance of a Hamiltonian Path in the provided
@@ -47,11 +47,12 @@ def Hamiltonial_Path(n, graph):
     answer = [1]
 
     # Start Exploring from eac node/vertex
-    for i in range(1,n+1):
-        ans=DFS(n,graph,1,[i])
+    for i in range(1, n + 1):
+        
+        ans = DFS(n, graph, 1, [i])
         if ans:
             return ans
-    
+
     return False
 
 

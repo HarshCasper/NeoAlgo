@@ -236,6 +236,7 @@
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
+- [Edit Distance](dp/EditDistance.py)
 
 ## Blockchain
 

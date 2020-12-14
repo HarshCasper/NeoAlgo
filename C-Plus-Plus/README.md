@@ -69,7 +69,6 @@
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 
-
 ## Graphs
 
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
@@ -167,4 +166,6 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [Kth largest element](other/Kth_largest_element.cpp.cpp)
+- [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)

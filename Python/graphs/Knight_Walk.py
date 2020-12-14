@@ -18,16 +18,20 @@ INF = 9999999
 # All the posible moves of the knight
 row = [2, 2, -2, -2, 1, 1, -1, -1]
 col = [-1, 1, 1, -1, 2, -2, 2, -2]
+
+
 # Create the Node
 class Node:
     def __init__(self, x, y, dis=0):  # Distance of self from itself
         self.x = x
         self.y = y
         self.dis = dis
+
     # Since we are using the nodes as a hash we will need a
     # hashtable
     def __hash__(self):
         return hash((self.x, self.y, self.dis))
+
     def __eq__(self, other):
         return (self.x, self.y, self.dis) == (other.x, other.y, other.dis)
 # Enter the number of rows
@@ -68,15 +72,15 @@ def kinghtwalk(n, src, des):
                 if present(a, b, n):
                     queue.append(Node(a, b, dis + 1))
 # Check if the given node is valid or not
-                    
-                    
+
+
 def present(a, b, n):
     # If either one of then is not true it mean the cell is
     # outside the board
     return not(a < 0 or y < 0 or x >= n or y >= n)
 KW = kinghtwalk(n, src, des)
 print("Minumun nunbers of paths are {}".format(KW))
-''' 
+'''
 Sample input:
     Enter the number of matrix :
     Row:8

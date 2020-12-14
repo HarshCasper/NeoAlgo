@@ -1,4 +1,5 @@
-//checking Palindrome number with Recursion
+// Checking Palindrome number with Recursion
+
 import java.util.Scanner;
 class PalindromeRecursion
 {
@@ -24,11 +25,10 @@ class PalindromeRecursion
     }
 }
 
-/* Sample Input and Output :
+/*
+Sample Input and Output :
  N = 153
 153 is not a Palindrome number
 Space Complexity: O(1)
 Time Complexity : O(i) i=Number of digits in n
 */
-
- 

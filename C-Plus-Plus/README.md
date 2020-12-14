@@ -168,3 +168,4 @@ _add list here_
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
 - [Generate all Subsets](other/subsets.cpp)
+- [Convex Hull (Jarvis' Algorithm)](other/Convex_Hull_Jarvis_Algorithm.cpp)

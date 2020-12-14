@@ -64,6 +64,7 @@ _add list here_
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [LCS](dp/LCS.java)
 - [Flood Fill Algorithm](dp/flood_fill.java)
+- [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 
 ## Data Structures
 

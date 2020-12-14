@@ -43,6 +43,7 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
+- [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 
 ## Data Structures
 

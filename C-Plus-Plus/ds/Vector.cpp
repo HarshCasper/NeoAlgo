@@ -141,9 +141,15 @@ int main() {
 				cin >> x;
 			} break;
 
-		case 2: v.pop_back(); break;
-		case 3: cout << v.front() << endl; break;
-		case 4: cout << v.back() << endl; break;
+		case 2: if(!v.empty()) cout << v.pop_back() << endl; 
+			else cout<<"Vector is empty"<<endl;
+			break;
+		case 3: if(!v.empty()) cout << v.front() << endl; 
+			else cout<<"Vector is empty"<<endl;
+			break;
+		case 4: if(!v.empty()) cout << v.back() << endl; 
+			else cout<<"Vector is empty"<<endl;
+			break;
 		case 5: cout << v.empty() << endl; break;
 		case 6: cout << v.size() << endl; break;
 		case 7: cout << v.capacity() << endl; break;

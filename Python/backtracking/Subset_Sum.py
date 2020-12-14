@@ -1,6 +1,7 @@
 """
 Purpose: From a list of integers, check and return a set of
         integers whose sum will be equal to the target value K.
+Problem Link:- https://en.wikipedia.org/wiki/Subset_sum_problem
 
 Method: Backtracking
 Time Complexity:  O(2^n)
@@ -57,4 +58,7 @@ Enter the List of Integers: 1 2 3 4 5 6 7 8 9
 Enter the Target value: 19
 The Required Subset is :  5 6 8
 
+Enter the List of Integers: -1 2 6 7 -4 7 5 -2 
+Enter the Target value: 0
+The Required Subset is :  6 -4 -2
 """

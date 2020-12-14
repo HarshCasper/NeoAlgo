@@ -1,0 +1,22 @@
+% Find how many even Fibonacci numbers are available in the first d numbers.
+
+function y = EvenFibonacci(d)
+fibmat = zeros(1,d);
+fibmat(1) = 0; fibmat(2) = 0;
+
+for i = 3:d
+    if (fibmat(i-1) + fibmat(i-2)) == 0;
+        fibmat(i) = 1;
+    else
+        fibmat(i) = 0;
+    end
+end
+
+y = sum(fibmat);
+end
+
+% Test Case
+% Input d = 1e4, Output y = 3333
+
+% Time Complexity = O(n)
+% Space Complexity = O(n)

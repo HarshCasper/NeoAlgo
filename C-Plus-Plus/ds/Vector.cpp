@@ -117,7 +117,7 @@ int main() {
 	     "<6> To get size of vector \n"
 	     "<7> To get capacity of vector \n"
 	     "<8> To get iterator to start of vector \n"
-	     "<9> To get end of vector \n"
+	     "<9> To get iterator to the end of vector \n"
 	     "<10> To clear vector \n"
 	     "<11> To print the vector \n"
 	     "<12> To exit program \n\n";

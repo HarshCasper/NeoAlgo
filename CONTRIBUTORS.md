@@ -170,7 +170,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/atriadhiakri2000"><img src="https://avatars3.githubusercontent.com/u/53268313?v=4" width="100px;" alt=""/><br /><sub><b>Atri Adhikari</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=atriadhiakri2000" title="Code">💻</a></td>
-    <td align="center"><a href="https://gargvader.github.io/"><img src="https://avatars3.githubusercontent.com/u/52619530?v=4" width="100px;" alt=""/><br /><sub><b>Girish Garg</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=gargVader" title="Code">💻</a></td>
+    <td align="center"><a href="http:// gargVader.github.io"><img src="https://avatars3.githubusercontent.com/u/52619530?v=4" width="100px;" alt=""/><br /><sub><b>Girish Garg</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=gargVader" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/itsIapetus"><img src="https://avatars1.githubusercontent.com/u/75844962?v=4" width="100px;" alt=""/><br /><sub><b>itsIapetus</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=itsIapetus" title="Code">💻</a></td>
   </tr>
 </table>
 

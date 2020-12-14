@@ -141,7 +141,7 @@ int main() {
 				cin >> x;
 			} break;
 
-		case 2: if(!v.empty()) cout << v.pop_back() << endl; 
+		case 2: if(!v.empty()) v.pop_back(); 
 			else cout<<"Vector is empty"<<endl;
 			break;
 		case 3: if(!v.empty()) cout << v.front() << endl; 

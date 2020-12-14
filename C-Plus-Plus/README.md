@@ -43,6 +43,7 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
+- [NQueens](cp/NQueens.cpp)
 
 ## Data Structures
 

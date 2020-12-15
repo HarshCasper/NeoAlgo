@@ -236,6 +236,7 @@
 =======
 ## Backtracking
 
+- [N Queens Problem](backtracking/N_Queens.py)
 - [Knight's Tour](backtracking/Knight's_Tour.py)
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
 - [Sudoku Solver](backtracking/sudokuSolver.py)

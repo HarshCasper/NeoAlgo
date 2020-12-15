@@ -166,7 +166,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://techsfortalk.me"><img src="https://avatars3.githubusercontent.com/u/64386187?v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh_K_Sah</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ashu-cybertron" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ErzaTitania-2001"><img src="https://avatars3.githubusercontent.com/u/59911272?v=4" width="100px;" alt=""/><br /><sub><b>@2001!</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ErzaTitania-2001" title="Code">💻</a></td>
     <td align="center"><a href="http://hemanth-kotagiri.github.io"><img src="https://avatars2.githubusercontent.com/u/24365579?v=4" width="100px;" alt=""/><br /><sub><b>Hemanth Kotagiri</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=hemanth-kotagiri" title="Code">💻</a></td>
-    <td align="center"><a href="http://fubble.tk"><img src="https://avatars2.githubusercontent.com/u/43098511?v=4" width="100px;" alt=""/><br /><sub><b>Akash Kumar Bhagat</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=charlie219" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/charlie219"><img src="https://avatars2.githubusercontent.com/u/43098511?v=4" width="100px;" alt=""/><br /><sub><b>Akash Kumar Bhagat</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=charlie219" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/atriadhiakri2000"><img src="https://avatars3.githubusercontent.com/u/53268313?v=4" width="100px;" alt=""/><br /><sub><b>Atri Adhikari</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=atriadhiakri2000" title="Code">💻</a></td>
+    <td align="center"><a href="http:// gargVader.github.io"><img src="https://avatars3.githubusercontent.com/u/52619530?v=4" width="100px;" alt=""/><br /><sub><b>Girish Garg</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=gargVader" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/itsIapetus"><img src="https://avatars1.githubusercontent.com/u/75844962?v=4" width="100px;" alt=""/><br /><sub><b>itsIapetus</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=itsIapetus" title="Code">💻</a></td>
   </tr>
 </table>
 

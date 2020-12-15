@@ -51,6 +51,10 @@ _add list here_
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
+- [Suduko Solver](cp/SudukoSolver.java)
+- [Ugly Number With Recursion](cp/UglyRecursion.java) 
+- [PDDI Using Recursion](cp/ArmStrongRecursion.java)
+
 
 ## Cryptography
 
@@ -89,6 +93,7 @@ _add list here_
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
 - [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
+- [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 
 ## Mathematics
 
@@ -106,6 +111,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 - [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
+- [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 
 ## Dynamic Programming
 
@@ -135,7 +141,7 @@ _add list here_
 ## Sorting
 
 - [BeadSort](sort/BeadSort.java)
-- [Bubble Sort](sort/BubbleSort.java)
+- [Bubble Sort](sort/BubbleSort.ja
 - [Bucket Sort](sort/BucketSort.java)
 - [Cocktail Sort](sort/CocktailSort.java)
 - [Heap Sort](sort/HeapSort.java)
@@ -146,6 +152,7 @@ _add list here_
 - [PancakeSort](sort/PancakeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
+- [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 
 ## Machine Learning
 

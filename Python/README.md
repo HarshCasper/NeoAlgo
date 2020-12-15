@@ -126,6 +126,31 @@
 
 - [Depth of Tree](graphs/Depth_Of_Tree.py)
 - [Height of Tree](graphs/height_of_given_tree.py)
+- [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
+- [Prim's Algorithm](graphs/Prim_Algorithm.py)
+- [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
+
+## Machine Learning
+* [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
+* [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
+* [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
+* [Linear Regression](ml/Linear_Regression.ipynb)
+* [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
+* [Logistic Regression](ml/Logistic_Regression.ipynb)
+* [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
+* [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+
+## Mathematics
+* [Area](math/Area.py)
+* [Binary Exponentiation](math/Binary_Exponentiation.py)
+* [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
+* [Factorial](math/factorial.py)
+* [Fibonacci Sequence Recursion](math/fibonacci_recursion.py)
+* [Large Number Factorial](math/Large_number_factorial.py)
+* [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
+* [Fibonacci number](math/Fibonacci.py)
+* [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
+* [Check Armstrong Number](math/CheckArmstrongNumber.py)
 - [Prim's Algorithm](graphs/Prims_Algo_dynamic.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
@@ -181,6 +206,7 @@
 - [Fibonacci number](math/Fibonacci.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 - [Prime Number Iterative and Recursive](math/prime_number.py)
+- [Catalan Number](math/Catalan_Number.py)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
@@ -191,16 +217,26 @@
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
 * [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
 * [Sudoku Solver](other/sudoku_backtracking.py)
-
+* [Moore's Algorithm](other/Moore_Algorithm.py)
 - [Ugly Number](math/UglyNumber.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
 - [Least Common Multiple](math/Least_common_multiple.py)
 - [Double Factorial](math/double_factorial.py)
 - [Euler Totient Function](math/euler_totient_function.py)
+
+## Backtracking
+
+- [Knight's Tour](backtracking/Knight's_Tour.py)
+- [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
+- [Sudoku Solver](backtracking/sudokuSolver.py)
  
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)
+- [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
+- [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
+- [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
+- [Edit Distance](dp/EditDistance.py)
 
 ## Blockchain
 
@@ -225,6 +261,7 @@ _add list here_
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
+- [Painter Partition Probelm](other/painter_partition.py)-
 - [Remove Outermost Paranthesis](other/remove_outermost_paranthesis.py)
 - [Find the Numbers](other/find_the_numbers.py)
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)

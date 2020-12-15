@@ -1,11 +1,12 @@
+//Solving Problem of MoreAlgo 
 public class MoreAlgo {
-	
-	
+	//Function declaration
 	public static void check(int arr[]) {
 		int count=0;
 		for(int i=0;i<arr.length-1;i++) {
 			count=1;
 			for(int j=i+1;j<arr.length;j++) {
+				
 				if(arr[j]==arr[i]) {
 					count++;
 				}
@@ -20,9 +21,10 @@ public class MoreAlgo {
 		
 	}
 	
+	
 	public static void main(String[] args) {
 		int arr[]= {3, 3, 4, 2, 4, 4, 2, 4};
-		check(arr);
+		check(arr);//calling a function 
 	}
 
 }

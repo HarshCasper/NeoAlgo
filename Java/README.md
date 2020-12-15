@@ -141,7 +141,7 @@ _add list here_
 ## Sorting
 
 - [BeadSort](sort/BeadSort.java)
-- [Bubble Sort](sort/BubbleSort.ja
+- [Bubble Sort](sort/BubbleSort.java)
 - [Bucket Sort](sort/BucketSort.java)
 - [Cocktail Sort](sort/CocktailSort.java)
 - [Heap Sort](sort/HeapSort.java)

@@ -40,7 +40,7 @@ fun trapezium(a: Double, b:Double, h:Double): Double{
 fun main() {
     println(square(2.0))
     println(rectangle(2.0, 4.6))
-    println(circle(3.0))
+    println(circle(5.0))
     println(triangle(2.0,3.0))
     println(parallelogram(4.5,2.3))
     println(trapezium(1.5,4.5,6.0))

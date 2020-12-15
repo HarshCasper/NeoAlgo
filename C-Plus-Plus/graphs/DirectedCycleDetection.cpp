@@ -13,7 +13,9 @@ using namespace std;
 bool cycle;
 
 void dfs_visit(vector<vector<int>>& Graph, int src, vector<bool>& status, vector<bool>& visit) {
+	// mark the node as visited
 	visit[src] = 1;
+	// mark the node saying that it is in the current path
 	status[src] = 1;
 	for(int i = 0; i < Graph[src].size(); i++)
 		if(visit[Graph[src][i]] == 0)
@@ -21,11 +23,14 @@ void dfs_visit(vector<vector<int>>& Graph, int src, vector<bool>& status, vector
 		else
 			if(status[Graph[src][i]] == 1)
 				cycle = 1;
+	// unmark the node saying the path which contains the node is done
     status[src] = 0;
 }
 
 void dfs(vector<vector<int>>& Graph, int v, vector<bool>& status) {
+	// initially mark all nodes as not visited
 	vector<bool> visit(v);
+	// go on visiting each not visited node
 	for(int i = 0; i < v; i++)
 		if(visit[i] == 0)
 			dfs_visit(Graph, i, status, visit);

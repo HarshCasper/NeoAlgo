@@ -1,110 +1,85 @@
-/*
-Bipartite Graph Check
-----------------------
-Problem:
-Divide all vertices of the graph in two sets such that
-all the edges of the graph are from set1 to set2
+/* this the program of the bipartite check
+ Bipartite is the type of graph whose vertices can be divided into two different sets and 
+ every edge in the graph is from set 1 to set 2
 
-Similar to 2 coloring problem
+ This can be done using the coloring the vertices with two different colours such that no two 
+ neighbouring vertices should have a same color.
+ If we are able to do so then the graph is bipartite else it is not
+ 
+ 1. A Tree is always a bipartite graph
+ 2. Graph with a cycle and odd number of vertices is always a non-bipartite */
 
-Algorithm:
-1) If graph is a tree, then YES Bipartite.
-2) If it is not a tree(=> cycle is present)
-	Odd length cycle => NOT Bipartite
-	Even length cycle => YES Bipartite
-
-*/
 #include <bits/stdc++.h>
 using namespace std;
+// creating a class of Graph...
+class Graph
+{
+	int v;
+	list<int> *l; // list containing the edges of the graph
 
-// Helper function to run dfs from src node
-bool dfs_helper(vector<int> graph[], int src, int visited[], int parentOf[], int color) {
+public:
+	Graph(int v)
+	{
+		this->v = v;
+		l = new list<int>[v];
+	}
+	void addEdge(int x, int y)
+	{
+		l[x].push_back(y); // the graph is not directed
+		l[y].push_back(x);
+	}
+	// function to check the bipartite
+	// we are using the DFS algorithm in here to check for the Bipartite graph
+	// the colour value can be either 1 or 2....(for two colors)
 
-	// Mark the current node
-	visited[src] = color;
-
-	// Visit all the neighbours of src
-	for (int nbr : graph[src]) {
-		// If neighbour has not been visited yet
-		if (!visited[nbr]) {
-			// Mark src to be the parent of src
-			parentOf[nbr] = src;
-			// Instantiate dfs call at nbr
-			bool oddLenCycleFound = dfs_helper(graph, nbr, visited, parentOf, 3 - color);
-			// If odd length cycle is found at nbr, then immediately return false
-			if (oddLenCycleFound) return 0;
-		} else {
-			// nbr potentially contributes to a cycle
-			if (parentOf[src] == nbr) {
-				// Not a cycle
-			} else {
-				// Yes a cycle
-				// nbrs of src should not have same color
-				if (visited[nbr] == color) return 0;
+	bool bipartiteCheck(int start, int parent, int colour, int *visited)
+	{
+		//mark start node as visited and color it
+		visited[start] = colour;
+		// iterate over the neighbours of the start node
+		for (auto nbr : l[start])
+		{
+			// check if the node is visited and coloured
+			if (visited[nbr] == 0)
+			{
+				// recursive call and toggle the colour
+				bool ans = bipartiteCheck(nbr, start, 3 - colour, visited);
+				if (!ans)
+					return false;
 			}
-
+			// check if visited nbr node is not parent and its colour is not equal to the colour of the parent
+			else if (nbr != parent and colour == visited[nbr])
+				return false;
 		}
+		return true;
 	}
-	return true;
+};
+
+int main()
+{
+	int V, E; // number of vertices and edges
+	cin >> V >> E;
+	Graph g(V); // initialising the object of the graph with v vertices
+	for (int i = 0; i < E; i++)
+	{
+		int a, b;
+		cin >> a >> b;
+		g.addEdge(a, b); // adding the edges to the graph
+	}
+
+	/* plan to color the vertices 
+	0-> no color, 
+	1 -> color, 
+	2 - color */
+	int *visited = new int[V]; // maintaing an array of the vertices to store the colour
+	for (int i = 0; i < V; i++)
+		visited[i] = 0;
+
+	bool ans = g.bipartiteCheck(0, -1, 1, visited);
+	if (ans)
+		cout << "Bipartite" << endl;
+	else
+		cout << "Not a bipartite" << endl;
+
+	return 0;
 }
-
-bool isBipartite(vector<int> graph[], int n) {
-
-	// Keeps track of visited nodes
-	int visited[n] = {0};
-	// 0 -> Not visited
-	// 1,2 -> Visited and color is 1,2
-
-	// Stores parent of each node
-	int parentOf[n];
-	for (int i = 0; i < n; i++) {
-		parentOf[i] = i; // Initially each node is a parent of itself
-	}
-
-	bool ans = dfs_helper(graph, 0, visited, parentOf, 1);
-
-	// Print colour of each node
-	for (int i = 0; i < n; i++) {
-		cout << i << " color=" << visited[i] << endl;
-	}
-
-	return ans;
-}
-
-int main() {
-	// n : Number of vertices
-	// m : Number of edges
-	int n, m;
-	cin >> n >> m;
-
-	// Ajacency List : graph[i] stores all the neighbours of i
-	vector<int> graph[n];
-
-	for (int i = 0; i < m; i++) {
-		int x, y; cin >> x >> y;
-
-		graph[x].push_back(y);
-		graph[y].push_back(x);
-	}
-
-	cout << isBipartite(graph, n);
-}
-
-/*
-Input:
-5 5
-0 1
-1 2
-2 3
-3 4
-4 0
-
-Output:
-0 color=1
-1 color=2
-2 color=1
-3 color=2
-4 color=1
-0
-
-*/

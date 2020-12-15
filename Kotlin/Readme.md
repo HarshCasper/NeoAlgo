@@ -13,7 +13,3 @@
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
 
-## Maths
-
-- [Areas 2D](Kotlin/Maths/Areas2D.kt)
-- [Areas 3D](Kotlin/Maths/Areas3D.kt)

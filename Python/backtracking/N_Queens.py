@@ -34,8 +34,6 @@ def n_queens(board_size):
     return ans
 
 # Recursive Function to check and place the queens
-
-
 def place_queen(row, a, n, diagonal1, diagonal2, Col):
 
     # If the answer is found, row will be equal to the size of the board i.e. n
@@ -44,7 +42,6 @@ def place_queen(row, a, n, diagonal1, diagonal2, Col):
     R = row + 1
 
     for C in range(1, n + 1):
-
         # Check that particular Column is free to place a queen or not
         if((C not in Col) and ((R + C) not in diagonal1) and ((R - C) not in diagonal2)):
 

@@ -122,6 +122,10 @@ _add list here_
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 
+## Recurtion
+
+-[Print n to 1 using recursion](recurtion/Print_n_to_1_using_recursion.cpp) -[Print 1 to n using recursion](recurtion/Print_1_to_n_using_recursion.cpp)
+
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)

@@ -1,6 +1,6 @@
 /**
 Cycle detection in a directed graph
-using dfs. Here, ststus array shows if 
+using dfs. Here, status array shows if 
 the node is in the path that we are 
 currently on. This is used to detect 
 any presence of back edges.
@@ -42,6 +42,9 @@ public class DirectedCycleDetection {
 
 	public static void main(String[] args) {
 		cycle = false;
+		// v denotes number of vertices
+		// e denotes number of edges
+		// a, b are temporary variables to take input
 		int v, e, a, b;
 		// all vertices are labelled from 0 to v-1
 		Scanner sc= new Scanner(System.in);

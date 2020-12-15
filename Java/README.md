@@ -100,7 +100,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
-- [Strong Number Using Recursion] (math/StrongRecursion.java)
+- [Strong Number Using Recursion](math/StrongRecursion.java)
 
 ## Dynamic Programming
 

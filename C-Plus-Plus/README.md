@@ -40,7 +40,8 @@
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
-- [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
+- [Suduko Solver](cp/SudukoSolver.cpp)
+- [Josephus Problem](cp/Josephus.cpp)
 
 ## Data Structures
 

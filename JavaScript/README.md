@@ -35,6 +35,7 @@
 - [Insertion Sort](./sort/insertion_sort.js)
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)
+- [Radix Sort](./sort/Radix_Sort.js)
 
 ## Machine Learning
 

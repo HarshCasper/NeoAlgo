@@ -40,7 +40,7 @@ class StrongRecursion
     }
 }
 
-/* Sample Input And Output ; 
+/* Sample Input And Output :
  * N = 145
  * It is a Strong Number
  * N = 534

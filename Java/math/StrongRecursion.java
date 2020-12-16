@@ -1,8 +1,16 @@
-//checking for a strong number using indirect recursion
+
+/* checking for a strong number using indirect recursion 
+Strong Number = 145
+1! + 4! + 5! =145 
+sumOfFactorialOfDigit(int n) - extracts digit of n and calls factorial(n). Returns sum of factorial of digits
+factorial(n)- returns factorial of extracted digits passed in the argument*/
+
+
 import java.util.*;
 class StrongRecursion
-{
-    public static int sofd(int n) //recursive function for sum of factorial of digits
+{    
+    /*recursive function for sum of factorial of digits*/
+    public static int sumOfFactorialOfDigit(int n) 
 
     {
         if(n==0)
@@ -11,8 +19,8 @@ class StrongRecursion
             return (factorial(n%10)+sofd(n/10));
 
     }
-
-    public static int factorial(int n) //factorial of n
+    /*recursive function to find the factorial of n */
+    public static int factorial(int n) 
     {    
         if (n == 0)    
             return 1;    
@@ -23,9 +31,9 @@ class StrongRecursion
     public static void main()
     {
         Scanner sc=new Scanner(System.in);
-        System.out.print(" N = ");
+        System.out.print(" Enter Number. N = ");
         int num=sc.nextInt();
-        if(num==sofd(num)) 
+        if(num==sumOfFactorialOfDigit(num)) 
             System.out.println(" It is a Strong Number");
         else
             System.out.println(" It is not a Strong Number");
@@ -44,4 +52,5 @@ class StrongRecursion
  *  
  * 
  */
- 
+
+

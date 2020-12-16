@@ -44,6 +44,7 @@
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
+* [Depth First Search](graphs/DFS.py)
 * [Height of Tree](graphs/height_of_given_tree.py)
 * [Prim's Algorithm](graphs/Prim_Algorithm.py)
 * [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)

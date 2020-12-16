@@ -1,7 +1,8 @@
 /*
+
 Convex Hull (Jarvis's Algorithm)
-================================
-Convex Hull is the outermost polugon that can be formed from a set of
+
+Convex Hull is the outermost polygon that can be formed from a set of
 points such that it encloses all other points in the set and none of its corners
 are bent inwards.
 */
@@ -17,9 +18,9 @@ typedef struct POINT {
 // Gives orientation of p->q->r
 int orientation(POINT p, POINT q, POINT r) {
 	int slope = (p.y - r.y) * (p.x - q.x) - (p.y - q.y) * (p.x - r.x);
-	if (slope > 0) return 1; // clockwise
+	if (slope > 0) return 1;  // clockwise
 	if (slope < 0) return -1; // anti-clockwise
-	else return 0;      // collinear
+	else return 0;            // collinear
 }
 
 // Prints point
@@ -98,7 +99,6 @@ int main() {
 }
 
 /*
-
 Input:
 6
 0 3
@@ -107,15 +107,10 @@ Input:
 0 2
 0 0
 -1 0
-
 Output:
 -1 0
 0 3
 2 2
 0 0
-
 Time Complexity: O(n*m) where n = Total points, m = Points in hull
-
 */
-
-

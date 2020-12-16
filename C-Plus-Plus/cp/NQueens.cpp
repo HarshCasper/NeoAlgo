@@ -1,12 +1,14 @@
+/**
+N-Queens problem is a famous problem
+The paradigm used to solve the problem is backtracking
+The problem is to find a way to place n queens on nXn board
+such that no queen can kill the other
+**/
+
 #include <bits/stdc++.h>
 using namespace std;
 
 #define N 20
-
-/**
-N-Queens problem is a famous problem
-The paradigm used to solve the problem is backtracking
-**/
     
 void solve(bool board[N][N], bool cols[N], bool ndiag[2*N-1], bool rdiag[2*N-1], int row, string asf, int n) {
     
@@ -18,11 +20,13 @@ void solve(bool board[N][N], bool cols[N], bool ndiag[2*N-1], bool rdiag[2*N-1],
     for(int col=0; col<n; col++) {
         if(cols[col] == false && ndiag[row+col] == false && 
             rdiag[row-col+n-1] == false) {
+                // place the queen
                 cols[col] = true;
                 ndiag[row+col] = true;
                 rdiag[row-col+n-1] = true;
                 board[row][col] = true;
                 solve(board, cols, ndiag, rdiag, row+1, asf+to_string(row)+"-"+to_string(col)+", ", n);
+                // backtrack
                 cols[col] = false;
                 ndiag[row+col] = false;
                 rdiag[row-col+n-1] = false;
@@ -44,6 +48,7 @@ int main() {
 		for(int j = 0; j < n; j++)
 			board[i][j] = false;
 
+    // initialize that no column has a queen
 	for(int i = 0; i < n; i++)
 		cols[i] = false;
 

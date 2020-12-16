@@ -5,15 +5,15 @@ Articulation Point:- In an undirected graph, any vertex whose removal
         or Articulation Point.
 
 Purpose:- To return a list of all Articulation point in the given
-            graph if such point exists.
+            graph if such a point exists.
 Problem Link:- https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph
 
 Method - Depth First Search
-Intution:- The idea behind the solution is to use DFS because it forms DFS tree.
+Intuition:- The idea behind the solution is to use DFS because it forms a DFS tree.
         In DFS tree, a vertex u is articulation point if one of the following two conditions is true.
-        1) u is root of DFS tree and it has at least two children.
-        2) u is not root of DFS tree and it has a child v such that
-            no vertex in subtree rooted with v has a back edge to one
+        1) u is the root of DFS tree and it has at least two children.
+        2) u is not the root of DFS tree and it has a child v such that
+            no vertex in the subtree rooted with v has a back edge to one
             of the ancestors (in DFS tree) of u.
 
 Time Complexity:-  O(N+M)
@@ -38,7 +38,7 @@ def dfs(graph, node, parent, low, f_time, visited, AP):
     f_time[node] = Time
     Time += 1
 
-    # To count teh children from the current Node
+    # To count the children from the current Node
     child = 0
 
     # Check for each adjoining Vertex/Node
@@ -53,7 +53,7 @@ def dfs(graph, node, parent, low, f_time, visited, AP):
             dfs(graph, i, parent, low, f_time, visited, AP)
             low[node] = min(low[node], low[i])
 
-            # (1) u is root of DFS tree and has two or more chilren.
+            # (1) u is the root of the DFS tree and has two or more children.
             if parent[node] == -1 and child > 1:
                 AP[node] = 1
 

@@ -23,18 +23,18 @@ void dfs_visit(vector<vector<int>>& Graph, int src, vector<bool>& status, vector
 	status[src] = 0;
 }
 
-void dfs(vector<vector<int>>& Graph, int v, vector<bool>& status) {
+void dfs(vector<vector<int>>& Graph, int vertex, vector<bool>& status) {
 	// initially mark all nodes as not visited
-	vector<bool> visit(v);
+	vector<bool> visit(vertex);
 	// go on visiting each not visited node
-	for (int i = 0; i < v; i++)
+	for (int i = 0; i < vertex; i++)
 		if (visit[i] == 0)
 			dfs_visit(Graph, i, status, visit);
 }
 
-void detect_cycle(vector<vector<int>>& Graph, int v) {
-	vector<bool> status(v);
-	dfs(Graph, v, status);
+void detect_cycle(vector<vector<int>>& Graph, int vertex) {
+	vector<bool> status(vertex);
+	dfs(Graph, vertex, status);
 	if (cycle == 0)
 		cout << "No cycle exits in the given graph \n";
 	else
@@ -43,17 +43,17 @@ void detect_cycle(vector<vector<int>>& Graph, int v) {
 
 int main() {
 	cycle = 0;
-	int v, e, a, b;
+	int vertex, edge, a, b;
 	// all vertices are labelled from 0 to v-1
-	cin >> v >> e;
-	vector<vector<int>> Graph(v);
+	cin >> vertex >> edge;
+	vector<vector<int>> Graph(vertex);
 	// all directed edges
-	for (int i = 0; i < e; i++) {
+	for (int i = 0; i < edge; i++) {
 		cin >> a >> b;
 		// edge a -> b
 		Graph[a].push_back(b);
 	}
-	detect_cycle(Graph, v);
+	detect_cycle(Graph, vertex);
 	return 0;
 }
 

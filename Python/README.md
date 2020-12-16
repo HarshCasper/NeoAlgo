@@ -110,6 +110,7 @@
 - [Maximum sum rectangle](cp/max_sum.py)
 - [Maximum Water Container](cp/Maximum_Water_Container.py)
 - [Smallest sum subarray](cp/smallest_sum_array.py)
+- [Count ways to Nth stair(Staircse Problem)](cp/staircase_problem.py)
 - [Delete a node from linked list](cp/delete_node.py)
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 

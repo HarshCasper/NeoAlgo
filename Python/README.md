@@ -65,8 +65,12 @@
 =======
 - [Trie](ds/Trie.py)
 - [Floyd Warshall Algorithm](ds/Floyd_Warshall_Algorithm.py)
+<<<<<<< HEAD
 - [Knight Walk](ds/Knight_Walk.py)
 >>>>>>> cd74cbd (Duly updated the README.md)
+=======
+- [Knight Walk](graphs/Knight_Walk.py)
+>>>>>>> c428345 (Update Python/README.md)
 
 ## Competitive Programming
 

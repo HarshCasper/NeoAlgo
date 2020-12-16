@@ -67,6 +67,7 @@ _add list here_
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [LCS](dp/LCS.java)
 - [Flood Fill Algorithm](dp/flood_fill.java)
+- [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 
 ## Data Structures
 
@@ -122,6 +123,7 @@ _add list here_
 - [CoinChange DP](dp/Coin_Change.java)
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
+- [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 
 ## Blockchain
 

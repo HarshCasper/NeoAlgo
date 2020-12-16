@@ -131,6 +131,7 @@
 - [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
 - [Topological Sort/Ordering](graphs/Topological_Sort.py)
 - [Hamiltonian Path](graphs/Hamiltonian_Path.py)
+- [Articulation Point](graphs/Articulation_Point.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
@@ -228,6 +229,7 @@
 
 ## Backtracking
 
+- [N Queens Problem](backtracking/N_Queens.py)
 - [Knight's Tour](backtracking/Knight's_Tour.py)
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
 - [Sudoku Solver](backtracking/sudokuSolver.py)
@@ -239,6 +241,7 @@
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
+- [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
 
 ## Blockchain

@@ -240,6 +240,7 @@
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 - [Edit Distance](dp/EditDistance.py)
+- [Knapsack0-1](dp/Knapsack0-1.py)
 
 ## Blockchain
 

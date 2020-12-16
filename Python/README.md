@@ -64,11 +64,15 @@
 <<<<<<< HEAD
 =======
 - [Trie](ds/Trie.py)
+<<<<<<< HEAD
 - [Floyd Warshall Algorithm](ds/Floyd_Warshall_Algorithm.py)
 <<<<<<< HEAD
 - [Knight Walk](ds/Knight_Walk.py)
 >>>>>>> cd74cbd (Duly updated the README.md)
 =======
+=======
+- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
+>>>>>>> c20c3c9 (Update Python/README.md)
 - [Knight Walk](graphs/Knight_Walk.py)
 >>>>>>> c428345 (Update Python/README.md)
 

@@ -1,6 +1,8 @@
 /**
 N-Queens problem is a famous problem
 The paradigm used to solve the problem is backtracking
+The problem is to find a way to place n queens on nXn board
+such that no queen can kill the other
 **/
 
 import java.io.*;
@@ -19,11 +21,13 @@ public class NQueens {
         for(int col=0; col<board.length; col++) {
             if(cols[col] == false && ndiag[row+col] == false && 
                 rdiag[row-col+board.length-1] == false) {
+                    // place the queen
                     cols[col] = true;
                     ndiag[row+col] = true;
                     rdiag[row-col+board.length-1] = true;
                     board[row][col] = true;
                     solve(board, cols, ndiag, rdiag, row+1, asf+row+'-'+col+", ");
+                    // backtrack
                     cols[col] = false;
                     ndiag[row+col] = false;
                     rdiag[row-col+board.length-1] = false;
@@ -36,7 +40,6 @@ public class NQueens {
     Scanner scn = new Scanner(System.in);
     int n = scn.nextInt();
     boolean[][] board = new boolean[n][n];
-    //write your code here
     
     boolean[] cols = new boolean[n];
     boolean[] ndiag = new boolean[2*n-1];

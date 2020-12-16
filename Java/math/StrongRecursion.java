@@ -7,33 +7,30 @@ factorial(n)- returns factorial of extracted digits passed in the argument*/
 
 
 import java.util.*;
-class StrongRecursion
-{    
+class check_strong_number {
     /*recursive function for sum of factorial of digits*/
-    public static int sumOfFactorialOfDigit(int n) 
+    public static int sumOfFactorialOfDigit(int n)
 
     {
-        if(n == 0)
+        if (n == 0)
             return n;
         else
-            return(factorial(n % 10)+sofd(n / 10));
+            return (factorial(n % 10) + sumOfFactorialOfDigit(n / 10));
 
     }
     /*recursive function to find the factorial of n */
-    public static int factorial(int n) 
-    {    
-        if(n == 0)    
-            return 1;    
-        else    
-            return(n * factorial(n - 1));    
-    }    
+    public static int factorial(int n) {
+        if (n == 0)
+            return 1;
+        else
+            return (n * factorial(n - 1));
+    }
 
-    public static void main()
-    {
-        Scanner sc=new Scanner(System.in);
+    public static void main() {
+        Scanner sc = new Scanner(System.in);
         System.out.print(" Enter Number. N = ");
-        int num=sc.nextInt();
-        if(num==sumOfFactorialOfDigit(num)) 
+        int num = sc.nextInt();
+        if (num == sumOfFactorialOfDigit(num))
             System.out.println(" It is a Strong Number");
         else
             System.out.println(" It is not a Strong Number");

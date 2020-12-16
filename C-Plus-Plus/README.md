@@ -44,6 +44,7 @@
 - [ArraySub](cp/ARRAYSUB.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
+- [Next Largest Permutation](cp/NextPermutation.cpp)
 
 ## Data Structures
 
@@ -69,7 +70,7 @@
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
-
+- [Vector](ds/Vector.cpp)
 
 ## Graphs
 
@@ -127,6 +128,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
+- [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 
 ## Dynamic Programming
 
@@ -167,4 +169,7 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [Kth largest element](other/Kth_largest_element.cpp.cpp)
+- [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
+- [Convex Hull (Jarvis' Algorithm)](other/Convex_Hull_Jarvis_Algorithm.cpp)

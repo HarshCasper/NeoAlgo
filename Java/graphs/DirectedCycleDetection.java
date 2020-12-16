@@ -1,13 +1,10 @@
 /**
 Cycle detection in a directed graph
-using dfs. Here, status array shows if 
-the node is in the path that we are 
-currently on. This is used to detect 
-any presence of back edges.
-backegde present <=> cycle present 
+using DFS. Here, status array shows if the node is in the path that we are currently on. This is used to detect any presence of back edges.
+backedge present <=> cycle present
 **/
 
-import java.io.*; 
+import java.io.*;
 import java.util.*;
 
 public class DirectedCycleDetection {
@@ -51,7 +48,7 @@ public class DirectedCycleDetection {
 		v = sc.nextInt();
 		e = sc.nextInt();
 		ArrayList<ArrayList<Integer> > graph = new ArrayList<ArrayList<Integer> >(v);
-		for (int i = 0; i < v; i++) 
+		for (int i = 0; i < v; i++)
             graph.add(new ArrayList<Integer>());
 		// all directed edges
 		for(int i = 0; i < e; i++) {
@@ -59,7 +56,7 @@ public class DirectedCycleDetection {
 			b = sc.nextInt();
 			// edge a -> b
 			graph.get(a).add(b);
-		} 
+		}
 		detect_cycle(graph, v);
 	}
 }

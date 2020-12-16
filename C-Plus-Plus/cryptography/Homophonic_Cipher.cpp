@@ -57,16 +57,12 @@ void mapping(vector<vector<char> > &code){    //Mapping one plain-text alphabet 
 	code[25].push_back('M');	
 }
 
-int main(){
+string encode(string plain){
 	
 	vector<vector<char> >code(26);
-	cout<<"HOMOPHONIC SUBSTITUTION TECHNIQUE\n\n";
 	mapping(code);
 	
-	string plain,encrypted="";
-	cout<<"Enter the plain text: ";
-	cin>>plain;
-	
+	string encrypted = "";
 	int n = plain.length();
 	for(int i=0;i<n;i++){
 		if(plain[i]>=97){ 								//if lowercase
@@ -84,7 +80,20 @@ int main(){
 		}
 	}
 	
-	cout<<"Encrypted Text: "<<encrypted<<endl;
-	return 0;
+	return encrypted;
+	
 }
 
+int main(){
+	
+	vector<vector<char> >code(26);
+	mapping(code);
+	
+	string plain,encrypt;
+	cout<<"Enter the plain text: ";
+	cin>>plain;
+	
+	encrypt = encode(plain);
+	cout<<"Cipher Text: "<<encrypt<<endl;
+	
+}

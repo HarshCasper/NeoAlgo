@@ -30,17 +30,9 @@ Time Complexity: O(n)
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+string encode(string plain, int shift){
 	
-	string plain,encrypt;
-    cout<<"Enter the plain text: ";
-	cin>>plain;
-	
-	int shift;
-    cout<<"Enter the integer key to shift: ";
-	cin>>shift;
-	
-	encrypt="";
+	string encrypt="";
 	int length = plain.length();
 	for(int i=0;i<length;i++){
 		if(plain[i]<=91){
@@ -51,6 +43,21 @@ int main(){
 		//lowercase letter
 			encrypt+=char((plain[i]-97+shift)%26+97);
 	}
+	return encrypt;
 	
-	cout<<encrypt<<endl;
+}
+
+int main(){
+	
+	string plain,encrypt;
+    int shift;
+	cout<<"Enter the plain text: ";
+	cin>>plain;
+	
+    cout<<"Enter the integer key to shift: ";
+	cin>>shift;
+	
+	encrypt = encode(plain,shift);
+	cout<<"Cipher Text: "<<encrypt<<endl;
+	
 }

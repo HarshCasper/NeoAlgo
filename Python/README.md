@@ -129,6 +129,8 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 - [Prim's Algorithm](graphs/Prim_Algorithm.py)
 - [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
+- [Topological Sort/Ordering](graphs/Topological_Sort.py)
+- [Hamiltonian Path](graphs/Hamiltonian_Path.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)

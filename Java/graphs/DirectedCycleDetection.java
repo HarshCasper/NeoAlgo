@@ -21,16 +21,16 @@ public class DirectedCycleDetection {
 	    status[src] = false;
 	}
 
-	private static void dfs(ArrayList<ArrayList<Integer> > graph, int v, boolean[] status) {
+	private static void dfs(ArrayList<ArrayList<Integer> > graph, int vertex, boolean[] status) {
 		boolean[] visit = new boolean[v];
-		for(int i = 0; i < v; i++)
+		for(int i = 0; i < vertex; i++)
 			if(visit[i] == false)
 				dfs_visit(graph, i, status, visit);
 	}
 
-	private static void detect_cycle(ArrayList<ArrayList<Integer> > graph, int v) {
-		boolean[] status = new boolean[v];
-		dfs(graph, v, status);
+	private static void detect_cycle(ArrayList<ArrayList<Integer> > graph, int vertex) {
+		boolean[] status = new boolean[vertex];
+		dfs(graph, vertex, status);
 		if(cycle == false)
 		    System.out.println("No cycle exits in the given graph");
 	    else
@@ -39,25 +39,25 @@ public class DirectedCycleDetection {
 
 	public static void main(String[] args) {
 		cycle = false;
-		// v denotes number of vertices
-		// e denotes number of edges
+		// vertex denotes number of vertices
+		// edge denotes number of edges
 		// a, b are temporary variables to take input
-		int v, e, a, b;
+		int vertex, edge, a, b;
 		// all vertices are labelled from 0 to v-1
 		Scanner sc= new Scanner(System.in);
-		v = sc.nextInt();
-		e = sc.nextInt();
-		ArrayList<ArrayList<Integer> > graph = new ArrayList<ArrayList<Integer> >(v);
-		for (int i = 0; i < v; i++)
+		vertex = sc.nextInt();
+		edge = sc.nextInt();
+		ArrayList<ArrayList<Integer> > graph = new ArrayList<ArrayList<Integer> >(vertex);
+		for (int i = 0; i < vertex; i++)
             graph.add(new ArrayList<Integer>());
 		// all directed edges
-		for(int i = 0; i < e; i++) {
+		for(int i = 0; i < edge; i++) {
 			a = sc.nextInt();
 			b = sc.nextInt();
 			// edge a -> b
 			graph.get(a).add(b);
 		}
-		detect_cycle(graph, v);
+		detect_cycle(graph, vertex);
 	}
 }
 

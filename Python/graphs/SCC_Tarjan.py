@@ -1,7 +1,7 @@
 """
-Strongly Connected Components : A directed graph is strongly connected 
-        if there is a path between all pairs of vertices. A strongly 
-        connected component (SCC) of a directed graph is a maximal 
+Strongly Connected Components : A directed graph is strongly connected
+        if there is a path between all pairs of vertices. A strongly
+        connected component (SCC) of a directed graph is a maximal
         strongly connected subgraph.
 
 Purpose: To find all the Strongly Connected Components (SCC) in the
@@ -10,7 +10,7 @@ Method: Tarjan's Algorithm / Depth First Search
 Intution: Tarjan Algorithm is based on following facts:
         1. DFS search produces a DFS tree/forest
         2. Strongly Connected Components form subtrees of the DFS tree.
-        3. If we can find the head of such subtrees, we can print/store all 
+        3. If we can find the head of such subtrees, we can print/store all
             the nodes in that subtree (including head) and that will be one SCC.
         4. There is no back edge from one SCC to another (There can be cross
         edges, but cross edges will not be used while processing the graph).
@@ -24,84 +24,89 @@ Reaturn : List       ( Strongly Connected Components)
 """
 from collections import defaultdict
 
-#Global variable to keep a track of finishing time of diffrent nodes
-Time=0
+# Global variable to keep a track of finishing time of diffrent nodes
+Time = 0
 
 # Depth First Search recuresive function
-def DFS(graph,node,low,ids,visited,chk,stack,ans):
+
+
+def DFS(graph, node, low, ids, visited, chk, stack, ans):
     global Time
 
     # Update the stack
     stack.append(node)
 
     # Mark the node visited and Checked
-    chk[node]=1
-    visited[node]=1
+    chk[node] = 1
+    visited[node] = 1
 
-    # Initialize the id and low to the Time 
-    ids[node]=Time;low[node]=Time
-    Time+=1
+    # Initialize the id and low to the Time
+    ids[node] = Time
+    low[node] = Time
+    Time += 1
 
     for i in graph[node]:
 
         # For each not visited node, recursievely call DFS()
         if not visited[i]:
-            DFS(graph,i,low,ids,visited,chk,stack,ans)
-        
+            DFS(graph, i, low, ids, visited, chk, stack, ans)
+
         # If the node is already checked, Initialize the low to min value
         if chk[i]:
-            low[node]= min(low[node],low[i])
-    
+            low[node] = min(low[node], low[i])
+
     # After checking each adjacent vertex, if id == low, than the node is
     # the Head of a Strongly Connected Component
 
-    if ids[node]==low[node]:
+    if ids[node] == low[node]:
 
         # Pop the stack until we find the Head Node and mark the poped
         # Node as unchecked and store them in temp variable
-        temp=[]
+        temp = []
         while 1:
-            no=stack.pop()
+            no = stack.pop()
             temp.append(no)
-            chk[no]=0
-            low[no]=ids[node]
-            if no==node:
+            chk[no] = 0
+            low[no] = ids[node]
+            if no == node:
                 break
-        
+
         # Append the poped elements as an SCC to the answer
         ans.append(temp)
 
     return True
 
-def SCC_Tarjan(n,graph):
-    
-    # To keep a track of already visited and checked nodes
-    visited=[0]*(n+1)
-    chk=[0]*(n+1)
 
-    # To mantain a stack which will help in tracing the elemnts 
+def SCC_Tarjan(n, graph):
+
+    # To keep a track of already visited and checked nodes
+    visited = [0] * (n + 1)
+    chk = [0] * (n + 1)
+
+    # To mantain a stack which will help in tracing the elemnts
     # when the head is found
-    stack=[]
+    stack = []
 
     # ids to keep the Finishing time of each vertex and
     # low to store the lowest finishing time in all its adjacent nodes
-    low=[0]*(n+1)
-    ids=[0]*(n+1)
+    low = [0] * (n + 1)
+    ids = [0] * (n + 1)
 
-    ans=[]
-    for i in range(1,n+1):
+    ans = []
+    for i in range(1, n + 1):
 
         # For all unvisited node, we will call the DSF() function
         if not visited[i]:
-            DFS(graph,i,low,ids,visited,chk,stack,ans)
+            DFS(graph, i, low, ids, visited, chk, stack, ans)
 
     return ans
+
 
 if __name__ == "__main__":
 
     n, m = map(int, input("Enter the number of vertex and edges: ").split())
     print("Enter the edges: ")
-    
+
     # Store the graph in the form of Dictionary
     graph = defaultdict(list)
 
@@ -116,9 +121,9 @@ if __name__ == "__main__":
     for i in ans:
 
         # Formated Output
-        print("[",end="")
-        print(*i,end="")
-        print("]",end=" , ")
+        print("[", end="")
+        print(*i, end="")
+        print("]", end=" , ")
 
 """
 
@@ -146,9 +151,9 @@ The Strongly Connected Componentes in the given Directed Graph are :
         1-------->4----------->5
         ^         |           /^
         |         |          /  \
-        |         |         /    \ 
+        |         |         /    \
         |         |        V      \
-        |         V        6------>7 
+        |         V        6------>7
         2<--------3
 
 Enter the number of vertex and edges: 7 8

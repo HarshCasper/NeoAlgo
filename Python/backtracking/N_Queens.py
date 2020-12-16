@@ -5,9 +5,9 @@ Purpose: To place N queens in a N*N Chessboard such that no two queens
 Problem Link:- https://en.wikipedia.org/wiki/Eight_queens_puzzle
 Method: Backtracking
 Intution: Since there could be only one queen in each row, we can assume the
-          N*N chessbord to be a 1d array which each index denotes one of the
+          N*N chessboard to be a 1d array which each index denotes one of the
           row and the row value denotes the column. Now in each row, we will
-          put a queen and check wether it is possible or not. If possible, then
+          put a queen and check whether it is possible or not. If possible, then
           we recursively check for the next row. If its not possible to place
           a queen in any of the column is a particular row, then we backtrack
           and try next Column.
@@ -16,7 +16,7 @@ Time Complexity:  O(2^N)
 Space Complexity: O(N)
 
 Argument: Integer ( Size of the Chessboard)
-Return  : List    ( Possition of individual queens)/ False
+Return  : List    ( Position of individual queens)/ False
 '''
 
 

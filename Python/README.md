@@ -130,6 +130,7 @@
 - [Topological Sort/Ordering](graphs/Topological_Sort.py)
 - [Hamiltonian Path](graphs/Hamiltonian_Path.py)
 - [Articulation Point](graphs/Articulation_Point.py)
+- [Strongly Connected Components - Tarjan's Algorithm](graphs/SCC_Tarjan.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)

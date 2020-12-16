@@ -13,19 +13,19 @@ class StrongRecursion
     public static int sumOfFactorialOfDigit(int n) 
 
     {
-        if(n==0)
+        if(n == 0)
             return n;
         else
-            return (factorial(n%10)+sofd(n/10));
+            return(factorial(n % 10)+sofd(n / 10));
 
     }
     /*recursive function to find the factorial of n */
     public static int factorial(int n) 
     {    
-        if (n == 0)    
+        if(n == 0)    
             return 1;    
         else    
-            return(n * factorial(n-1));    
+            return(n * factorial(n - 1));    
     }    
 
     public static void main()
@@ -45,12 +45,8 @@ class StrongRecursion
  * It is a Strong Number
  * N = 534
  *  It is not a Strong Number
- *  
- *  
- *  Time Complexity : O(n)
+    Time Complexity : O(n)
  *  Space Complexity : 1
- *  
- * 
- */
+    */
 
 

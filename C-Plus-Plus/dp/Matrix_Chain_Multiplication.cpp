@@ -98,4 +98,8 @@ Output
 
 Minimum number of multiplications are: 38000
 The way which give the minimum number of scalar multiplications is: (((A1A2)A3)A4)
+
+Complexity:
+Time:n^3
+Space:n^2
 */

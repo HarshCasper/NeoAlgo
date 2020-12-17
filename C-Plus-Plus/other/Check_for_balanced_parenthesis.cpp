@@ -1,7 +1,7 @@
 /*
-Check for balanced paranthesis
+Check for balanced parenthesis
 ==============================
-Given an expression containing paranthesis, check if it is well-formed or balanced
+Given an expression containing parenthesis, check if it is well-formed or balanced
 
 Application: Stack data structure
 */
@@ -17,31 +17,31 @@ int main() {
 	// Size of the string
 	int n = str.size();
 
-	// Stack to store open paranthesis
+	// Stack to store open parenthesis
 	stack<int> s;
-	// Open paranthesis -> 1
+	// Open parenthesis -> 1
 
 	// Loop through characters in the string
 	for (int i = 0; i < n; i++) {
-		// Open paranthesis is always pushed into the stack
+		// Open parenthesis is always pushed into the stack
 		if (str[i] == '(') {
 			s.push(1);
 		} else if (str[i] == ')') {
-			// Closed paranthesis encountered must be balanced by an open paranthesis already
+			// Closed parenthesis encountered must be balanced by an open parenthesis already
 			// present in the stack
 			if (!s.empty()) {
-				// Stack contains open paranthesis, one of which has been balanced
-				// Pop one paranthesis out
+				// Stack contains open parenthesis, one of which has been balanced
+				// Pop one parenthesis out
 				s.pop();
 			} else {
-				// Stack contains no open paranthesis. So closed paranthesis cannot be balanced
+				// Stack contains no open parenthesis. So closed parenthesis cannot be balanced
 				cout << "No" << endl;
 				return 0;
 			}
 		}
 	}
 
-	// Check if we have open paranthesis remaining
+	// Check if we have open parenthesis remaining
 	if (s.size()) {
 		cout << "No" << endl;
 	} else {

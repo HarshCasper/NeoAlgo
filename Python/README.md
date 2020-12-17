@@ -248,6 +248,7 @@
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 - [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
+- [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 
 ## Blockchain
 

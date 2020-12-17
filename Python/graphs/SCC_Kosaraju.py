@@ -28,65 +28,70 @@ Return  : List       ( List of diffrent Strongly Connected Components)
 """
 from collections import defaultdict
 
-def DFS(graph,node,visited,stack,display):
-    
+
+def DFS(graph, node, visited, stack, display):
+
     # Mark the node Visited
-    visited[node]=True
+    visited[node] = True
 
     for i in graph[node]:
 
-        # Recursively call all DFS() function to all its unvisited adjacent nodes
+        # Recursively call all DFS() function to all its unvisited adjacent
+        # nodes
         if not visited[i]:
-            DFS(graph,i,visited,stack,display)
+            DFS(graph, i, visited, stack, display)
 
     # If the display is True, then Display the SCC
     if display:
-        print(node,end=" ")
+        print(node, end=" ")
     else:
         stack.append(node)
 
-# Reverse_Graph() function reverse all the directed edges of the graph   
+# Reverse_Graph() function reverse all the directed edges of the graph
+
+
 def Reverse_Graph(graph):
 
-    rev_graph=defaultdict(list)
+    rev_graph = defaultdict(list)
     for i in graph.keys():
         for j in graph[i]:
             rev_graph[j].append(i)
-    
+
     # Return the reversed graph
     return rev_graph
 
-def SCC_Kosaraju(n,graph):
-    
+
+def SCC_Kosaraju(n, graph):
+
     # Initilize the Stack
-    stack=[]
+    stack = []
 
     # To keep a track of all the visited nodes
-    visited=[False]*(n+1)
+    visited = [False] * (n + 1)
 
-    for i in range(1,n+1):
+    for i in range(1, n + 1):
 
         # (1) Recursively call DFS() to push the unvisited nodes into the stack
         if not visited[i]:
-            DFS(graph,i,visited,stack,False)
-    
+            DFS(graph, i, visited, stack, False)
+
     # (2) Reverse the Graph
-    rev_graph=Reverse_Graph(graph)
-    
+    rev_graph = Reverse_Graph(graph)
+
     # Mark all the nodes Unvisited
-    visited=[False]*(n+1)
+    visited = [False] * (n + 1)
 
     while stack:
-        node=stack.pop()
+        node = stack.pop()
 
-        # For each unvisited node in the stack, call DFS()
+        # (3) For each unvisited node in the stack, call DFS()
         if not visited[node]:
 
             # Print the SCC in formated way
-            print("[ ",end="")
-            DFS(rev_graph,node,visited,stack,True)
+            print("[ ", end="")
+            DFS(rev_graph, node, visited, stack, True)
             print("]")
-        
+
 
 if __name__ == "__main__":
 
@@ -101,7 +106,7 @@ if __name__ == "__main__":
         # Directed Graph
         graph[a] += [b]
 
-    print("The Strongly Connected Componentes in the given Directed Graph are :")
+    print("The Strongly Connected Componentes in the given Directed Graph :")
     SCC_Kosaraju(n, graph)
 
 """

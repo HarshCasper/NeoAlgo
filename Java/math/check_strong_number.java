@@ -1,10 +1,11 @@
 
-/* checking for a strong number using indirect recursion 
+/*
+Checking for a strong number using indirect recursion
 Strong Number = 145
-1! + 4! + 5! =145 
+1! + 4! + 5! =145
 sumOfFactorialOfDigit(int n) - extracts digit of n and calls factorial(n). Returns sum of factorial of digits
-factorial(n)- returns factorial of extracted digits passed in the argument*/
-
+factorial(n)- returns factorial of extracted digits passed in the argument
+*/
 
 import java.util.*;
 class check_strong_number {
@@ -37,13 +38,13 @@ class check_strong_number {
     }
 }
 
-/* Sample Input And Output :
- * N = 145
- * It is a Strong Number
- * N = 534
- *  It is not a Strong Number
-    Time Complexity : O(n)
- *  Space Complexity : 1
-    */
+/*
+Sample Input And Output :
+N = 145
+It is a Strong Number
+N = 534
+It is not a Strong Number
 
-
+Time Complexity : O(n)
+Space Complexity : 1
+*/

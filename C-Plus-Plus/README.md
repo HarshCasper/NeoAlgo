@@ -179,3 +179,5 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
+- [Convex Hull (Jarvis' Algorithm)](other/Convex_Hull_Jarvis_Algorithm.cpp)
+- [Check for balanced paranthesis](other/Check_for_balanced_parenthesis.cpp)

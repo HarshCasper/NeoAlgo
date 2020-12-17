@@ -104,3 +104,51 @@ if __name__ == "__main__":
     print("The Strongly Connected Componentes in the given Directed Graph are :")
     SCC_Kosaraju(n, graph)
 
+"""
+
+Sample Input / Output
+
+        1--------->5        4
+         ^        / \       ^
+          \      /   \     /
+           \    /     \   /
+            \  /       \ /
+             \V         3
+              2
+
+Enter the number of vertex and edges: 5 5
+Enter the edges:
+1 5
+5 2
+2 1
+5 3
+3 4
+The Strongly Connected Componentes in the given Directed Graph are :
+[ 5 2 1 ]
+[ 3 ]
+[ 4 ]
+
+
+        1-------->4----------->5
+        ^         |           /^
+        |         |          /  \
+        |         |         /    \
+        |         |        V      \
+        |         V        6------>7
+        2<--------3
+
+Enter the number of vertex and edges: 7 8
+Enter the edges:
+1 4
+2 1
+3 2
+4 3
+4 5
+5 6
+6 7
+7 5
+The Strongly Connected Componentes in the given Directed Graph are :
+[ 4 3 2 1 ]
+[ 6 7 5 ]
+
+"""

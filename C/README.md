@@ -33,6 +33,7 @@
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
 - [Boyer-Moore Voting Algorithm](cp/BoyerMooreVote.c)
+- [Suduko Solver](cp/SudukoSolver.c)
 
 ## Cryptography
 

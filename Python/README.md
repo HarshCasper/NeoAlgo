@@ -61,6 +61,9 @@
 - [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Trie](ds/Trie.py)
+- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
+- [Knight Walk](graphs/Knight_Walk.py)
+- [Bridge Edge in Graph](graph/Bridge_Edge_in_Graph.py)
 
 ## Competitive Programming
 
@@ -129,6 +132,11 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 - [Prim's Algorithm](graphs/Prim_Algorithm.py)
 - [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
+- [Topological Sort/Ordering](graphs/Topological_Sort.py)
+- [Hamiltonian Path](graphs/Hamiltonian_Path.py)
+- [Articulation Point](graphs/Articulation_Point.py)
+- [Strongly Connected Components - Tarjan's Algorithm](graphs/SCC_Tarjan.py)
+- [Bipartite Graph](graphs/Bipartite_Graph.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
@@ -206,6 +214,7 @@
 - [Fibonacci number](math/Fibonacci.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 - [Prime Number Iterative and Recursive](math/prime_number.py)
+- [Catalan Number](math/Catalan_Number.py)
 
 ## Other
 * [Check Inversion](other/Check_Inversion.py)
@@ -216,16 +225,29 @@
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
 * [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
 * [Sudoku Solver](other/sudoku_backtracking.py)
-
+* [Moore's Algorithm](other/Moore_Algorithm.py)
 - [Ugly Number](math/UglyNumber.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
 - [Least Common Multiple](math/Least_common_multiple.py)
 - [Double Factorial](math/double_factorial.py)
 - [Euler Totient Function](math/euler_totient_function.py)
+
+## Backtracking
+
+- [N Queens Problem](backtracking/N_Queens.py)
+- [Knight's Tour](backtracking/Knight's_Tour.py)
+- [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
+- [Sudoku Solver](backtracking/sudokuSolver.py)
+- [Subset Sum](backtracking/Subset_Sum.py)
  
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)
+- [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
+- [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
+- [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
+- [Unique BST with N nodes](dp/Unique_BST.py)
+- [Edit Distance](dp/EditDistance.py)
 
 ## Blockchain
 

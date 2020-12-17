@@ -152,6 +152,10 @@ _add list here_
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 
+## Computational Geometry
+
+- [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
+
 ## Other
 
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
@@ -168,4 +172,4 @@ _add list here_
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
 - [Generate all Subsets](other/subsets.cpp)
-- [Convex Hull (Jarvis' Algorithm)](other/Convex_Hull_Jarvis_Algorithm.cpp)
+

@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c428345 (Update Python/README.md)
 =======
 - [Bridge Edge in Graph](graph/Bridge_Edge_in_Graph.py)
@@ -86,6 +87,8 @@
 =======
 - [Bridge Edge in Graph](graph/Bridge_Edge_in_Graph.py)
 >>>>>>> 45bb708 (Changed the Readme and Added Bridge Edge in Graph)
+=======
+>>>>>>> f4f01bb (Update README.md)
 
 ## Competitive Programming
 

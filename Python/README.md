@@ -75,10 +75,13 @@
 >>>>>>> c20c3c9 (Update Python/README.md)
 - [Knight Walk](graphs/Knight_Walk.py)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c428345 (Update Python/README.md)
 =======
 - [Bridge Edge in Graph](graph/Bridge_Edge_in_Graph.py)
 >>>>>>> a5f947a (Changed the readme abd Added Bridge Edge in Graph)
+=======
+>>>>>>> 520d190 (Update README.md)
 
 ## Competitive Programming
 

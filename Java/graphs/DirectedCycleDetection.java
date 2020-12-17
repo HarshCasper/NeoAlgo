@@ -75,6 +75,6 @@ Input :
 Output :
 Cycle exists in the given graph
 
-Time Complexity : O(v+e)
-Space Complexity : O(v)
+Time Complexity : O(vertex+edge)
+Space Complexity : O(vertex)
 **/

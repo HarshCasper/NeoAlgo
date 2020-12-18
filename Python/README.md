@@ -135,6 +135,7 @@
 - [Topological Sort/Ordering](graphs/Topological_Sort.py)
 - [Hamiltonian Path](graphs/Hamiltonian_Path.py)
 - [Articulation Point](graphs/Articulation_Point.py)
+- [Strongly Connected Components - Kosaraju's Algorithm](graphs/SCC_Kosaraju.py)
 - [Strongly Connected Components - Tarjan's Algorithm](graphs/SCC_Tarjan.py)
 - [Bipartite Graph](graphs/Bipartite_Graph.py)
 

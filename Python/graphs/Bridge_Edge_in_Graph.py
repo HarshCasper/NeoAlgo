@@ -38,9 +38,6 @@ Output :Output True if the edge is a Bridge and
 INT_MAX = sys.maxsize - 1
 # Initialize Infinity
 INF = 9999999
-# All the posible moves of the knight
-row = [2, 2, -2, -2, 1, 1, -1, -1]
-col = [-1, 1, 1, -1, 2, -2, 2, -2]
 
 # FUNCTIONS
 # Create The graph
@@ -73,7 +70,7 @@ def BFS(graph, u, lists, visited):
                 visited[i] = 1
     return lists
 
-# To Check If the given Edge is a bridgr or not
+# To Check If the given Edge is a bridge or not
 
 
 def checkbridge(graph, no_of_vertices, u, v):
@@ -95,11 +92,11 @@ def checkbridge(graph, no_of_vertices, u, v):
 
 # INPUTS
 
-print("Enter the no of nodes and the number of edges.")
+print("Enter the number of vertices and the number of edges.")
 no_of_vertices, no_of_edges = map(int, input().split())
 # no_of_edge space-separated pairs u and v denoting that there
 # is a bidirectional edge from u to v.
-print("Enter the nodes of the edges.")
+print("Enter the vertices of the edges.")
 array = list(map(int, input().strip().split()))
 # Space-separated integers denoting the edge to be
 # removed if its a bridge.
@@ -120,11 +117,14 @@ else:
 '''
 INPUT
 
-No of Vertices = 4
-No of Edges = 3
-List of the nodes of the edges = 0, 1, 1, 2, 2, 3
-Expected Bridge edges = 1->2
+    Enter the number of vertices and the number of edges.
+    4 3
+    Enter the vertices of the edges.
+    0 1 1 2 2 3
+    Enter the expected node of the bridge.
+    1 2
 
 OUTPUT
+
 The BRIDGE is present.
 '''

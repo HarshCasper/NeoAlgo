@@ -144,6 +144,9 @@ _add list here_
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
+- [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
+
 
 ## Blockchain
 

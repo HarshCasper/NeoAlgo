@@ -97,20 +97,19 @@ int findsubsets()
 
 void display()
 {
-	cout<<"\n \n Array Size: "<<size;
-	cout<<"\n Array elements are: ";
-	for(int i=0;i<size;i++)
-        cout<<arr[i]<<" ";
-	cout<<endl;
-     
+	   
 	if (table[size][sum/2]==0)
-		cout << " No such Partition exist\n";
+	{
+		cout<<" False"<<endl;
+		cout << "No such Partition exist\n";
+	}
 	else{
-		cout << " Set 1 elements: "; 
+		cout<<" True"<<endl;
+		cout << " The array can be partitioned as:  "; 
 		for (int i = 0; i < set1.size(); i++) 
 			cout << set1[i] << " "; 
 		
-		cout << "\n Set 2 elements: "; 
+		cout << "and "; 
 		for (int i = 0; i < set2.size(); i++) 
 			cout << set2[i] << " ";	
 	}

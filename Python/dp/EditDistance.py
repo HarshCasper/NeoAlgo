@@ -1,5 +1,13 @@
 """
-Edit Distance using dp
+Edit Distance using dynamic programming
+Problem on Leetcode: https://leetcode.com/problems/edit-distance/
+
+Given two strings, return the minimum number of operations required to convert one word to other.
+You can apply the following operatiions:
+1. Insert a character
+2. Delete a character
+3. Replace a character
+
 m: length of first string
 n: length of second string
 Time Complexity : O(m*n) (Looping through both strings)
@@ -53,13 +61,17 @@ if __name__ == '__main__':
     first_string = input()
     print("Enter Second string: ")
     second_string = input()
-    print(editDist(first_string, second_string))
+    print("Minimum number of edits required: ",
+          editDist(first_string, second_string))
 
 
 """
 Sample Input:
+Enter First string:
 shine
+Enter Second string:
 sings
+
 Sample Output:
-3
+Minimum number of edits required: 3
 """

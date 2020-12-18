@@ -17,8 +17,15 @@ class Graph:
 
     def containsEdge(self, v1, v2):
         '''
-        Summary line-
+        Summary line:
         Helps us to check whether a particular edge is present in a graph or not.
+
+        Args:
+        v1- first vertex from which that edge passes
+        v2- second vertex from which that edge passes
+
+        Returns-
+        Boolean value indicating whether that edge is present or not.
         '''
         if self.adjMatrix[v1][v2] != 0:
             return True
@@ -27,18 +34,24 @@ class Graph:
 
     def getPathDFShelper(self, sv, ev, visited):
         '''
-        Summary line-
+        Summary line:
         Helps us to perform depth first search in the graph using a stack and adjacency matrix.
 
-        Working-
+        Working:
         We use the visited list to mark `True` for every vertex we visit.
         After being visited, we push the next element of the vertex
         into the stack and continue untill we reach a point where
         the next element is also marked `True` for visited.
 
-        Variable names-
+        Args:
         sv- Starting vertex
         ev- Ending vertex
+        visited- array containing boolean value
+        to indicate if that node has been visited before.
+
+        Return:
+        Boolean value and a list of nodes
+        obtained after DFS traversal.
         '''
         if sv == ev:
             path = [ev]
@@ -61,10 +74,12 @@ class Graph:
 
 
 if __name__ == "__main__":
+    print("Enter no of vertices and edges-")
     v, e = map(int, input().split())
     if v > 0 and e > 0:
         g = Graph(v)
         for i in range(e):
+            print("Enter vertex1 and vertex2 having edge-")
             v1, v2 = map(int, input().split())
             g.addEdge(v1, v2)
         sv, ev = map(int, input().split())
@@ -72,15 +87,18 @@ if __name__ == "__main__":
         for i in path:
             print(i, end = " ")
 
-# Sample input-
-# 4 4
-# 0 1
-# 0 3
-# 1 2
-# 2 3
-# 1 3
+'''
+Sample input-
+4 4
 
-# Sample output-
-# 3 0 1
+0 1
+0 3
+1 2
+2 3
+1 3
 
-# Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+Sample output-
+3 0 1
+
+Time complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+'''

@@ -126,5 +126,5 @@ INPUT
 
 OUTPUT
 
-The BRIDGE is present.
+    The BRIDGE is present.
 '''

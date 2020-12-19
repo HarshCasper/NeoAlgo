@@ -68,7 +68,7 @@
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
-- [Deque](Deque.cpp/queue.cpp)
+- [Deque](ds/Deque.cpp)
 
 
 

@@ -12,6 +12,7 @@
 ## Algorithms
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)
 - [Z Algorithm](Algorithms/ZAlgorithm.js)
+- [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 
 ## Data Structures
 
@@ -27,12 +28,14 @@
 - [Linear Search](./search/linear_search.js)
 - [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
 - [Manacher Algorithm](./search/ManacherAlgorithm.js)
+- [Ternary Search](./search/ternary_search.js)
 
 ## Sorting
 
 - [Bubble Sort](./sort/BubbleSort.js)
 - [Insertion Sort](./sort/insertion_sort.js)
 - [Sleep Sort](./sort/sleepSort.js)
+- [Quick Sort](./sort/quicksort.js)
 
 ## Machine Learning
 
@@ -43,6 +46,8 @@ _add list here_
 - [Catalan Number](./math/catalan_number.js)
 - [Count Number of Digits in an Integer](./math/CountDigits_Integer.js)
 - [Double Factorial](./math/DoubleFactorial.js)
+- [Armstrong Number](./math/ArmstrongNumbers.js)
+- [Binary Exponentiation](./math/bin_exp.js)
 
 ## Competitive Programming
 

@@ -146,7 +146,6 @@ _add list here_
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
-- [Bucket Sort Using Hash](sort/Bucket_Sort.java)
 
 
 ## Machine Learning

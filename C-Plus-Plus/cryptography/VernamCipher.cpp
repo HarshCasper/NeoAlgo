@@ -10,7 +10,7 @@ using namespace std;
 string encrypt(string plain,string key){
 	string enc="";
 	int n=key.length();
-  for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){
 		int y = plain[i]+key[i]-130;
 		if(y>=26) {
       y = y-26;

@@ -10,7 +10,7 @@ Intution: The problem can be solved using dynamic programming when the
         of size (sum/2 + 1)*(n+1).And we can construct the solution in a
         bottom-up manner such that every filled entry has the following property.
 
-        DP[i][j] = True if a subset of {arr[0], arr[1], ..arr[j-1]} has sum 
+        DP[i][j] = True if a subset of {arr[0], arr[1], ..arr[j-1]} has sum
              equal to i, otherwise false
 Reference: https://www.geeksforgeeks.org/partition-problem-dp-18/
 
@@ -23,29 +23,29 @@ Return  : Boolean
 """
 
 
-def Partition_Problem(n,arr):
+def Partition_Problem(n, arr):
 
     # Calculate the sum of the each element in the array
-    s=sum(arr)
+    s = sum(arr)
 
     # Base Case: if the sum is odd, return false
-    if s%2:
+    if s % 2:
         return False
-    
-    DP=[[True]*(n+1) for j in range(s//2+1)]
+
+    DP = [[True] * (n + 1) for j in range(s // 2 + 1)]
 
     # Initilize the leftmost col to False
-    for i in range(1, s//2+1):
+    for i in range(1, s // 2 + 1):
         DP[i][0] = True
 
-    # Construct the DP table 
-    for row in range(1,s//2+1):
+    # Construct the DP table
+    for row in range(1, s // 2 + 1):
 
-        for col in range(1,n+1):
-            DP[row][col]=DP[row][col-1]
+        for col in range(1, n + 1):
+            DP[row][col] = DP[row][col - 1]
 
-            if row>=arr[col-1]:
-                DP[row][col]= DP[row][col] or DP[row-1][col-1]
+            if row >= arr[col - 1]:
+                DP[row][col] = DP[row][col] or DP[row - 1][col - 1]
 
     # Return the last element of the table
     return DP[-1][-1]
@@ -56,10 +56,10 @@ def Partition_Problem(n,arr):
 if __name__ == "__main__":
 
     # Input the array form the user
-    a = list(map(int,input("Enter the array elements: ").split()))
-    n=len(a)
+    a = list(map(int, input("Enter the array elements: ").split()))
+    n = len(a)
 
-    ans=Partition_Problem(n,a)
+    ans = Partition_Problem(n, a)
 
     if ans:
         print("Yes")

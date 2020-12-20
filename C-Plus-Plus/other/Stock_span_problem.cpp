@@ -2,7 +2,7 @@
 Stock Span Problem
 ===================
 You are given the price of a stock for N consecutive days and are required to find the span
-of stock's price on ith day. The span of a stoock's price on a given day i, is the maximum
+of stock's price on ith day. The span of a stock's price on a given day i, is the maximum
 consecutive days before the (i+1)th day, for which the stock's price is less than equal to that on
 the ith day.
 

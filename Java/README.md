@@ -157,6 +157,7 @@ _add list here_
 - [PancakeSort](sort/PancakeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
+- [Radix Sort](sort/RadixSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 
 ## Machine Learning

@@ -62,6 +62,6 @@ _add list here_
 
 ## Searching
 
-- [Binary Search](/search/binary_search.go)
-- [Linear Search](/search/linear_search.go)
-- [Interpolation Search](/search/interpolation_search.go)
+- [Binary Search](./search/binary_search.go)
+- [Linear Search](./search/linear_search.go)
+- [Interpolation Search](./search/interpolation_search.go)

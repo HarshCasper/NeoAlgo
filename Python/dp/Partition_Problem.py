@@ -65,3 +65,23 @@ if __name__ == "__main__":
         print("Yes")
     else:
         print("No")
+
+"""
+
+Sample Input / Output
+
+Enter the array elements: 6 3 11 2
+Yes
+
+
+Enter the array elements: 1 3 4 14 6
+Yes
+
+
+Enter the array elements: 1 2 3 4 5 6
+No
+
+Enter the array elements: 10 6 7 4 2 9 5
+No
+
+"""

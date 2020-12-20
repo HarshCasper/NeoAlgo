@@ -185,7 +185,7 @@ _add list here_
 - [Reverse a string using stack](other/Reverse_string_using_stack.py)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
 - [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
-- [Chinese Remainder theoram](other/chinese_remainder_theorem.py)
+- [Chinese Remainder theorem](other/chinese_remainder_theorem.py)
 - [Moore's Algorithm](other/Moore_Algorithm.py)
 - [Satellite Image analysis using Numpy](other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)
 - [Happy Number](other/HappyNumber.py)

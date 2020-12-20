@@ -1,19 +1,19 @@
 /*
 Check for balanced parenthesis
 ==============================
-Given an expression containing parenthesis, check if it is well-formed or balanced
+Given an expression containing parenthesis, check if it is well-formed or balanced.
+Example of balanced parenthesis are: (), ((())), (a+b), (a/b)*(b/a)
 
 Application: Stack data structure
+Time Complexity: O(n)
+Space Complexity: O(n)
 */
 
 #include<iostream>
 #include <stack>
 using namespace std;
 
-int main() {
-
-	// Input the string
-	string str; cin >> str;
+bool isBalanced(string str) {
 	// Size of the string
 	int n = str.size();
 
@@ -35,7 +35,6 @@ int main() {
 				s.pop();
 			} else {
 				// Stack contains no open parenthesis. So closed parenthesis cannot be balanced
-				cout << "No" << endl;
 				return 0;
 			}
 		}
@@ -43,10 +42,19 @@ int main() {
 
 	// Check if we have open parenthesis remaining
 	if (s.size()) {
-		cout << "No" << endl;
+		return 0;
 	} else {
-		cout << "Yes" << endl;
+		return 1;
 	}
+}
+
+int main() {
+
+	// Input the string
+	string str; cin >> str;
+
+	if (isBalanced(str)) cout << "Yes";
+	else cout << "No";
 }
 
 /*

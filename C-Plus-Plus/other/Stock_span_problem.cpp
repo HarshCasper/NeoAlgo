@@ -7,6 +7,9 @@ consecutive days before the (i+1)th day, for which the stock's price is less tha
 the ith day.
 
 Application: Stack data structure
+Link: https://practice.geeksforgeeks.org/problems/stock-span-problem/0
+Time Complexity: O(n)
+Space Complexity: O(n)
 */
 
 #include<iostream>

@@ -1,3 +1,4 @@
+/*C code to find the majority element in a given set of string by Boyer-Moore voting algorithm */
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 100
@@ -13,30 +14,20 @@ Struct boyerMooreVote(int ar[],int len)
     Struct bmv;
     int i,count=1;
     int temp=ar[0];
-    for(i=1;i<len-1;i++)
-    {
-        if(count==0)
-        {
+    for(i=1;i<len-1;i++){
+        if(count==0){
             temp=ar[i];
             count=1;
         }          
-        else
-        {
-         if(temp==ar[i])
-         {
+        else{
+         if(temp==ar[i]){
              count+=1;
          }
-         else
-         {
+         else{
              count-=1;
-         }
-            
-            
-        }
-        /*algorithm used to find the majoritty number by taking a temporary
-        variable which changes when count of it decreases to 0 with other numbers in the
-        list and increases when the corresponding number matches,resulting to the last number with +ve 
-        value will become the majority number*/
+         }     
+       }
+        /*algorithm used to find the majoritty number */
     }
   bmv.majority_number=temp;
   int count2=0;
@@ -52,7 +43,7 @@ Struct boyerMooreVote(int ar[],int len)
 return bmv;
 }
 
-//diver function
+//driver function
 
 int main()
 {

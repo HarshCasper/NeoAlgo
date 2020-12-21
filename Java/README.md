@@ -14,6 +14,7 @@
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
+- [Moore Algorithm](Algorithm/Moore_Algorithm.java)
 
 ## Greedy Algorithms
 
@@ -66,6 +67,7 @@ _add list here_
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [LCS](dp/LCS.java)
 - [Flood Fill Algorithm](dp/flood_fill.java)
+- [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 
 ## Data Structures
 
@@ -92,6 +94,8 @@ _add list here_
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
+- [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
+- [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 
 ## Mathematics
 
@@ -109,6 +113,8 @@ _add list here_
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 - [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
+- [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
+- [Strong Number Using Recursion](math/check_strong_number.java)
 
 ## Dynamic Programming
 
@@ -119,6 +125,7 @@ _add list here_
 - [CoinChange DP](dp/Coin_Change.java)
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
+- [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 
 ## Blockchain
 
@@ -149,6 +156,7 @@ _add list here_
 - [PancakeSort](sort/PancakeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
+- [Radix Sort](sort/RadixSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 
 ## Machine Learning

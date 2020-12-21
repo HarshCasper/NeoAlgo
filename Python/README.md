@@ -183,8 +183,12 @@
 - [Edit Distance](dp/EditDistance.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
+<<<<<<< HEAD
 - [Partition Problem](dp/Partition_Problem.py)
 
+=======
+- [Dice Throw Problem](dp/Dice_Throw.py)
+>>>>>>> c109ba4 (Readme updated)
 
 ## Graphs
 

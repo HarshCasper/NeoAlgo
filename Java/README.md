@@ -114,6 +114,7 @@ _add list here_
 - [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
+- [Strong Number Using Recursion](math/check_strong_number.java)
 
 
 ## Dynamic Programming

@@ -4,6 +4,7 @@ In each iteration we kill the every kth
 person in a circular arrangement of n persons.
 Find the person who is alive at the end.
 0-based indexing
+link to the problem : https://en.wikipedia.org/wiki/Josephus_problem
 **/
 
 #include <iostream>
@@ -16,9 +17,9 @@ int solution(int n, int k){
 }
 
 int main() {
-    int n, k;
-    cin >> n;
-    cout << solution(n,k) << '\n'; 
+    int people, gap;
+    cin >> people >> gap;
+    cout << solution(people, gap) << '\n'; 
     return 0;
 }
 

@@ -6,7 +6,7 @@ dq = collections.deque([4, 5, 6])
 print("Initial: ", dq)
 
 
-#INSERTION METHODS
+# INSERTION METHODS
 # Append to the right:
 dq.append(7)
 print("Append 7 to the right: ", list(dq))
@@ -28,7 +28,7 @@ dq.insert(5, -1)
 print("Insert -1 at index 5: ", list(dq))
 
 
-#DELETION METHODS
+# DELETION METHODS
 # Pop element from the right end:
 dq.pop()
 print("Remove element from the right: ", list(dq))
@@ -42,7 +42,7 @@ dq.remove(-1)
 print("Remove -1: ", list(dq))
 
 
-#MISCELLANEOUS METHODS
+# MISCELLANEOUS METHODS
 # Count the number of times 5 occurs:
 i = dq.count(5)
 print("Count the number of times 5 occurs: ", i)

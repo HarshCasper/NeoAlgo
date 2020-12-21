@@ -22,12 +22,17 @@ public class NQueens {
             if(cols[col] == false && ndiag[row+col] == false && 
                 rdiag[row-col+board.length-1] == false) {
                     // place the queen
+            	    // let the column get occpied
+            	    // correspondingly ndiag and rdiag
+            	    // matrices are populated
                     cols[col] = true;
                     ndiag[row+col] = true;
                     rdiag[row-col+board.length-1] = true;
                     board[row][col] = true;
                     solve(board, cols, ndiag, rdiag, row+1, asf+row+'-'+col+", ");
                     // backtrack
+                    // remove all the markings 
+                    // made in the above step
                     cols[col] = false;
                     ndiag[row+col] = false;
                     rdiag[row-col+board.length-1] = false;
@@ -62,3 +67,6 @@ Space Complexity : O(n^2)
 Time Complexity : upperbounded by O(n^n)
 
 **/
+
+
+

@@ -80,7 +80,7 @@
 - [Edit Distance](dp/EditDistance.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
-
+- [Dice Throw Problem](dp/Dice_Throw.py)
 
 ## Graphs
 

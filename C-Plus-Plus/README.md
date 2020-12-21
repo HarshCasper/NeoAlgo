@@ -127,6 +127,7 @@ _add list here_
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
+- [LCM and GCD](math/LCM_and_GCD.cpp)
 
 ## Recursion
 

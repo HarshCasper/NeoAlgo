@@ -53,7 +53,7 @@ _add list here_
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
 - [Suduko Solver](cp/SudukoSolver.java)
-- [Ugly Number With Recursion](cp/UglyRecursion.java) 
+- [Ugly Number With Recursion](cp/UglyRecursion.java)
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
 
 
@@ -114,7 +114,6 @@ _add list here_
 - [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
-- [Ugly Number](math/UglyNumber.java)
 
 
 ## Dynamic Programming

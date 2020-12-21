@@ -6,6 +6,7 @@ class TreeNode:
     """
     Defination of binary tree node
     """
+
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
@@ -33,6 +34,9 @@ def explore(node, mini, maxi):
     The left subtree of a node contains only nodes with keys less than the node's key.
     The right subtree of a node contains only nodes with keys greater than the node's key.
     Both the left and right subtrees must also be binary search trees.
+
+    # Time complexity : O(N) since we visit each node exactly once.
+    # Space complexity : O(N) since we keep up to the entire tree.
     """
     if node:
         if node.val <= mini or node.val >= maxi:

@@ -25,6 +25,7 @@
 - [Reverse Linked List](ds/Reverse_linked_list.py)
 - [Linked List Intersection](ds/linkedListIntersection.py)
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
+- [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 
 
 ## Searching

@@ -61,6 +61,9 @@
 - [Tree (Pre Order Traversal- recursive and iterative)](ds/Tree_preOrder_traversal.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Trie](ds/Trie.py)
+- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
+- [Knight Walk](graphs/Knight_Walk.py)
+- [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 
 ## Competitive Programming
 
@@ -131,6 +134,10 @@
 - [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
 - [Topological Sort/Ordering](graphs/Topological_Sort.py)
 - [Hamiltonian Path](graphs/Hamiltonian_Path.py)
+- [Articulation Point](graphs/Articulation_Point.py)
+- [Strongly Connected Components - Kosaraju's Algorithm](graphs/SCC_Kosaraju.py)
+- [Strongly Connected Components - Tarjan's Algorithm](graphs/SCC_Tarjan.py)
+- [Bipartite Graph](graphs/Bipartite_Graph.py)
 
 ## Machine Learning
 * [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
@@ -228,6 +235,7 @@
 
 ## Backtracking
 
+- [N Queens Problem](backtracking/N_Queens.py)
 - [Knight's Tour](backtracking/Knight's_Tour.py)
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
 - [Sudoku Solver](backtracking/sudokuSolver.py)
@@ -239,8 +247,12 @@
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
+- [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
 - [Knapsack0-1](dp/Knapsack0-1.py)
+- [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
+- [Ugly Number](dp/Ugly_Number.py)
+
 
 ## Blockchain
 

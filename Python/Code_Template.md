@@ -2,6 +2,7 @@
 
 Here is the general code template a contributor must follow in order to maintain the consistency and quality of the codes.The template is comprised of many individual components which may be multi-lined comments or code. The components of the template is briefly discussed bellow.
 
+
 ## Introduction:
 
         This contains the basic description of the algorithm used or the problem the code focuses to solve. The description should be brief consisting of not more than 3-5 lines. In case of a problem description, one should consider 

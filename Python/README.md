@@ -399,5 +399,9 @@ _add list here_
 >>>>>>> 81e53a9 (Update README.md)
 =======
 
+<<<<<<< HEAD
 # [Coding Template for Contribution](Code_Template.md)
 >>>>>>> 936f9af (README.md Updated)
+=======
+## [Coding Template for Contribution](Code_Template.md)
+>>>>>>> d09a38e (Template formated)

@@ -108,6 +108,10 @@
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
 
+## Stack based problems
+
+- [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+
 ## Machine Learning
 
 _add list here_
@@ -169,3 +173,7 @@ _add list here_
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Least Common Multiple](other/lcm.cpp)
+- [Kth largest element](other/Kth_largest_element.cpp.cpp)
+- [Kth smallest element](other/Kth_smallest_element.cpp)
+- [Generate all Subsets](other/subsets.cpp)

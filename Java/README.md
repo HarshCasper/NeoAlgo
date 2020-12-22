@@ -104,6 +104,7 @@ _add list here_
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
+- [Factorial Using BigInteger](FactorialUsingBigInteger.java)
 
 ## Dynamic Programming
 

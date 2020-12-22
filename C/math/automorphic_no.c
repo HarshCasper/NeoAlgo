@@ -33,6 +33,8 @@ Sample Input-Output:2
 Enter the number to check:
 5
 AUTOMORPHIC NUMBER !
+
+Time Complexity: O(n)
 */
 
 

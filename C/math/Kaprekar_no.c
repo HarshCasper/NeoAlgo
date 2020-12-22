@@ -55,6 +55,8 @@ SampleInput-Output2:
 Enter the number to check:
 12
 Not Kaprekar Number!
+
+Time Complexity: O(n)
 */
 
 

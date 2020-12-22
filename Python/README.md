@@ -185,8 +185,13 @@
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Partition Problem](dp/Partition_Problem.py)
 =======
+=======
+- [Dice Throw Problem](dp/Dice_Throw.py)	
+- [Partition Problem](dp/Partition_Problem.py)
+>>>>>>> 92f5f7f (Minor updation in Readme.md)
 
 >>>>>>> 936f9af (README.md Updated)
 

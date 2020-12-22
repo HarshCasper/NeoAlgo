@@ -175,6 +175,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/PuravUdayDesai"><img src="https://avatars2.githubusercontent.com/u/44437936?v=4" width="100px;" alt=""/><br /><sub><b>Purav Uday Desai</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=PuravUdayDesai" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/DeagleOfficial"><img src="https://avatars0.githubusercontent.com/u/66419293?v=4" width="100px;" alt=""/><br /><sub><b>Supratik Chakraborty</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=DeagleOfficial" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/YASH01009"><img src="https://avatars0.githubusercontent.com/u/46935127?v=4" width="100px;" alt=""/><br /><sub><b>YASH01009</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=YASH01009" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Bharati2612"><img src="https://avatars0.githubusercontent.com/u/72921285?v=4" width="100px;" alt=""/><br /><sub><b>Bharati Padhy</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Bharati2612" title="Code">💻</a></td>
   </tr>
 </table>
 

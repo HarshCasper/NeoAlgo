@@ -28,7 +28,7 @@ giving at least one example.
 
         This is the only un-commented part of the template where you write the implementation of the algorithm or the solution of a problem discussed earlier. The code should be formatted to PEP8 standard guideline The variable name should be meaningful and the function name should be such that it signifies its usage in the program. Important lines of implementation of the algorithm and variable declaration should be backed with a relatable single-line comment which justifies the implementation and necessary for the variable declaration.
 
-        Most importantly, the code must work fine with all the desired corner cases. The code is tested by the contributor over self-made test cases before making the pull request to ensure the smooth working and the correctness of the code. 
+        Most importantly, the code must work fine with all the desired corner cases. The code must be tested by the contributor over self-made test cases before making the pull request to ensure the smooth working and the correctness of the code. 
 
         The Community has a very strict intolerance against plagiarism, The contributed code must not be Copied form any of the reference sites such as GeekForGeeks, Code Nation etc. The contributors must implement the algorithm or solution on   their own. They can take reference of the code from the site but that reference must be shared here to ensure a quality contribution.
 

@@ -15,9 +15,9 @@ def double_fact_r(n):          # recursive implementation
 
 
 if __name__ == "__main__":
-    n = input("enter number")
-    print("Answer using Iterative method: " + str(double_fact_i(n)))
-    print("Answer using recursive method: " + str(double_fact_r(n)))
+    n = int(input("Enter number: "))
+    print(f"Answer using Iterative method: {double_fact_i(n)}")
+    print(f"Answer using recursive method: {double_fact_r(n)}")
 
 '''
 output:

@@ -29,7 +29,7 @@ def area_triangle(length, breadth):
     >>> area_triangle(10,10)
     50.0
     """
-    return 1 / 2 * length * breadth
+    return round(1 / 2 * length * breadth,2)
 
 
 def area_parallelogram(base, height):
@@ -47,7 +47,7 @@ def area_trapezium(base1, base2, height):
     >> area_trapezium(10,20,30)
     450
     """
-    return 1 / 2 * (base1 + base2) * height
+    return round(1 / 2 * (base1 + base2) * height,2)
 
 
 def area_circle(radius):
@@ -56,12 +56,12 @@ def area_circle(radius):
     >> area_circle(20)
     1256.6370614359173
     """
-    return math.pi * radius * radius
+    return round(math.pi * radius * radius,2)
 
 
 def main():
     print("Areas of various geometric shapes: \n")
-    print("enter the shape of your choice:")
+    print("Enter the shape of your choice: ")
     again = True
 
     while(again):
@@ -80,7 +80,7 @@ def main():
             b = int(b)
             print(f"Rectangle with sides {l} and {b} is:", end="")
             print(str(area_rectangle(l, b)))
-            print("you wnat to continue (1/0)", end=" ")
+            print("you want to continue (1/0)", end=" ")
             again_choice = int(input())
             if(again_choice):
                 again = True
@@ -90,7 +90,7 @@ def main():
             print("Enter side of square:", end=" ")
             l = int(input())
             print(f"Square with side {l} is: {area_square(l)}")
-            print("you wnat to continue (1/0)", end=" ")
+            print("You want to continue (1/0)", end=" ")
             again_choice = int(input())
             if(again_choice):
                 again = True
@@ -103,7 +103,7 @@ def main():
             b = int(b)
             print(f"Triangle of height {h},base {b} is:", end="")
             print(str(area_triangle(h, b)))
-            print("you wnat to continue (1/0)", end=" ")
+            print("You want to continue (1/0)", end=" ")
             again_choice = int(input())
             if(again_choice):
                 again = True
@@ -116,7 +116,7 @@ def main():
             b = int(b)
             print(f"Parallelogram of height {h},base {b}:", end="")
             print(str(area_parallelogram(h, b)))
-            print("you wnat to continue (1/0)", end=" ")
+            print("You want to continue (1/0)", end=" ")
             again_choice = int(input())
             if(again_choice):
                 again = True
@@ -130,7 +130,7 @@ def main():
             h = int(h)
             print(f"Trapezium with bases {b1} and {b2}", end=" ")
             print(f"and height {h} is: {area_trapezium(b1, b2, h)}")
-            print("you wnat to continue (1/0)", end=" ")
+            print("You want to continue (1/0)", end=" ")
             again_choice = int(input())
             if(again_choice):
                 again = True
@@ -140,14 +140,14 @@ def main():
             print("Enter radius of circle:", end=" ")
             r = int(input())
             print(f"Circle with radius {r} is: {area_circle(r)}")
-            print("you wnat to continue (1/0)", end=" ")
+            print("You want to continue (1/0)", end=" ")
             again_choice = int(input())
             if(again_choice):
                 again = True
             else:
                 again = False
         else:
-            print("please enter valid choice")
+            print("Please enter valid choice")
             again = True
 if __name__ == "__main__":
     main()

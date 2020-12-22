@@ -1,12 +1,11 @@
 # Python Coding Template 
 
-Here is the general code template a contributor must follow in order to maintain the consistency and quality of the codes.The template is comprised of many individual components which may be multi-lined comments or code. The components of the template is briefly discussed bellow.
+Here is the general code template a contributor must follow in order to maintain the consistency and quality of the codes.The template comprises of many individual components which may be multi-lined comments or code. The components of the template are briefly discussed below.
 
 
 ## Introduction:
 
-- This contains the basic description of the algorithm used or the problem the code focuses to solve. The description should be brief consisting of not more than 3-5 lines. In case of a problem description, one should consider 
-giving at least one example.
+- This contains the basic description of the algorithm used or the problem the code focuses to solve. The description should be brief consisting of not more than 3-5 lines. In case of a problem description, one should consider giving at least one example.
 
 ## Purpose:
 
@@ -22,7 +21,7 @@ giving at least one example.
 
 ## Argument / Return Type:
 
-- The data type of the argument and the return value of the main function involved in the solution or implementation of the algorithm is specifically provided.
+- The data type of the argument and the return value of the main function involved in the solution or implementation of the algorithm is to be specifically provided.
 
 ## Code / Solution:
 

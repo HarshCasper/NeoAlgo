@@ -19,9 +19,9 @@ void solve(string output, string str)
     {
 
         string output1 = output;
-        op1.push_back(tolower(str[0]));
+        output1.push_back(tolower(str[0]));
         string output2 = output;
-        op2.push_back(toupper(str[0]));
+        output2.push_back(toupper(str[0]));
 
         str.erase(str.begin() + 0);
 
@@ -31,7 +31,7 @@ void solve(string output, string str)
     else
     {
         string output3 = output;
-        op3.push_back(str[0]);
+        output3.push_back(str[0]);
 
         str.erase(str.begin() + 0);
 
@@ -42,7 +42,7 @@ void solve(string output, string str)
 int main()
 {
     string str;
-    cout << "Enter an alphanumeric string : "
+    cout << "Enter an alphanumeric string : ";
     cin >> str;
 
     cout << "Output : " << endl;

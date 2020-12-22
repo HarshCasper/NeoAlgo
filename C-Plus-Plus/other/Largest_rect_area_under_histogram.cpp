@@ -62,8 +62,10 @@ void largestAreaUnderHistogram(int height[], int n) {
 int main() {
 
 	// Input number of bars
+	cout << "Enter number of bars: ";
 	int n; cin >> n;
 	// Input heights
+	cout << "Enter height of each bar: ";
 	int height[n];
 	for (int i = 0; i < n; i++) cin >> height[i];
 
@@ -71,10 +73,8 @@ int main() {
 }
 
 /*
-Input:
-7
-6 2 5 4 5 1 6
-
-Output:
+Console:
+Enter number of bars: 7
+Enter height of each bar: 6 2 5 4 5 1 6
 Largest area = 12 between bars 1 and 5
 */

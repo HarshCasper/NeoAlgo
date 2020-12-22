@@ -80,8 +80,7 @@
 - [Edit Distance](dp/EditDistance.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
-- [Dice Throw Problem](dp/Dice_Throw.py)
-- [Partition Problem](dp/Partition_Problem.py)
+
 
 ## Graphs
 
@@ -200,3 +199,5 @@ _add list here_
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+
+# [Coding Template for Contribution](Code_Template.md)

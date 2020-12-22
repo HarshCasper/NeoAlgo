@@ -61,16 +61,11 @@ int main(void)
 
 
 /* Sample Input-output
-
 Input: Enter Input String:abcbacbb
 Output: length of longest substring without repeating charecters: 3
-
 Input: Enter Input String:Hackincodes
 Output: length of longest substring without repeating charecters: 7
-
 Input: Enter Input String:ddddd
 Output: length of longest substring without repeating charecters: 1
-
 Input: Enter Input String:
 Output: length of longest substring without repeating charecters: 0  */
-

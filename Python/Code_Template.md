@@ -1,7 +1,6 @@
 # Python Coding Template 
 
-        Here is the general code template a contributor must follow in order to maintain the consistency and quality of the codes. The template is comprised of many individual components which may be multi-lined comments or code. The components of the template is briefly discussed bellow.
-
+Here is the general code template a contributor must follow in order to maintain the consistency and quality of the codes.The template is comprised of many individual components which may be multi-lined comments or code. The components of the template is briefly discussed bellow.
 
 ## Introduction:
 

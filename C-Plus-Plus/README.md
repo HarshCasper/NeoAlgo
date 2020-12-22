@@ -112,6 +112,10 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 
+## Stack based problems
+
+- [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+
 ## Machine Learning
 
 _add list here_
@@ -179,5 +183,5 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
-- [Largest rectangular area under histogram](other/Largest_rect_area_under_histogram.cpp)
+
 

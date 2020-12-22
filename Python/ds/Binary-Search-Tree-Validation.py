@@ -1,4 +1,12 @@
+"""A valid Binary Search Tree is defined as follows:
+
+The left subtree of a node contains only nodes with keys less than the node's key.
+The right subtree of a node contains only nodes with keys greater than the node's key.
+Both the left and right subtrees must also be binary search trees.
+
+"""
 import typing
+# Python's typing module provides a way of hinting what type of objects are being used. This makes the code more readable and robust.
 import math
 
 
@@ -28,12 +36,11 @@ def isValidBST(root: TreeNode) -> bool:
     return explore(root, -math.inf, math.inf)
 
 
-def explore(node, mini, maxi):
-    """A valid Binary Search Tree is defined as follows:
-
-    The left subtree of a node contains only nodes with keys less than the node's key.
-    The right subtree of a node contains only nodes with keys greater than the node's key.
-    Both the left and right subtrees must also be binary search trees.
+def explore(node: TreeNode, mini: int, maxi: int) -> bool:
+    """
+    Explores the tree (Depth First Search)
+    - Returns False when the node that doesn't satisfy any of the BST properties is encountered.
+    - Returns True when all the nodes in tree are satisfying BST properties and the entire tree has been explored.
 
     # Time complexity : O(N) since we visit each node exactly once.
     # Space complexity : O(N) since we keep up to the entire tree.

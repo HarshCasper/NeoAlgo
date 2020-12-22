@@ -127,11 +127,10 @@ _add list here_
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
-- [LCM and GCD](math/LCM_and_GCD.cpp)
 
 ## Recursion
 
--[All possible subset using recursion](recursion/All_possible_subset_using_recursion.cpp) 
+-[All possible subset using recursion](recursion/All_possible_subset_using_recursion.cpp)
 -[Print N-bit binary numbers having more 1s than 0s using recursion](recursion/Print_N_bit_binary_numbers_having_more_1s_than_0s_using_recursion.cpp)
 -[Letter Case Permutation using recursion](recursion/Letter_Case_Permutation_using_recursion.cpp)
 

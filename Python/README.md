@@ -200,4 +200,4 @@ _add list here_
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
 
-# [Coding Template for Contribution](Code_Template.md)
+## [Coding Template for Contribution](Code_Template.md)

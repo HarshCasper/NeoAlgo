@@ -7,10 +7,10 @@ int main()
  int n;
  printf("Enter the number to check:\n");
  scanf("%d",&n);
- int flag=1;
  int s,temp,l;
  temp=n;
  s=n*n;
+ int flag=1;
  while(n!=0)
  {
   flag=flag*10;

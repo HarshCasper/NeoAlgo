@@ -184,7 +184,11 @@
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Partition Problem](dp/Partition_Problem.py)
+=======
+
+>>>>>>> 936f9af (README.md Updated)
 
 =======
 - [Dice Throw Problem](dp/Dice_Throw.py)
@@ -386,9 +390,14 @@ _add list here_
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+<<<<<<< HEAD
 - [Remove Outermost Paranthesis](other/remove_outermost_paranthesis.py)
 - [Find the Numbers](other/find_the_numbers.py)
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 =======
 - [Painter Partition Probelm](other/painter_partition.py)
 >>>>>>> 81e53a9 (Update README.md)
+=======
+
+# [Coding Template for Contribution](Code_Template.md)
+>>>>>>> 936f9af (README.md Updated)

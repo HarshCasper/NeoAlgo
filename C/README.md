@@ -109,7 +109,6 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 
-
 ## Other
 
 - [Find the Numbers](other/Find_the_numbers.c)

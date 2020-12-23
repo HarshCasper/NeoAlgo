@@ -11,4 +11,9 @@
 
 ## Sorting Algorithms
 
-[Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
+- [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
+
+## Maths
+
+- [Areas 2D](Maths/Areas2D.kt)
+- [Areas 3D](Maths/Areas3D.kt)

@@ -38,7 +38,13 @@
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
+- [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
+- [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [ArraySub](cp/ARRAYSUB.cpp)
+- [Suduko Solver](cp/SudukoSolver.cpp)
+- [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
+- [Next Largest Permutation](cp/NextPermutation.cpp)
 
 ## Data Structures
 
@@ -64,7 +70,7 @@
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
-
+- [Vector](ds/Vector.cpp)
 
 ## Graphs
 
@@ -77,6 +83,9 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Cycle Detection in Graph](graphs/detect_cycle.cpp)
+- [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
+- [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 
 ## Searching
 
@@ -88,6 +97,7 @@
 - [Randomized Select Search](search/Randomized_Select.cpp)
 - [Bilinear Search](search/bilinear_search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
+- [Staircase Search](search/Staircase_Search.cpp)
 
 ## Sorting
 
@@ -101,6 +111,11 @@
 - [Selection Sort](sort/selection_sort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+- [Radix Sort](sort/radix_sort.cpp)
+
+## Stack based problems
+
+- [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 
 ## Machine Learning
 
@@ -116,7 +131,9 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
+- [Ugly Numbers](math/ugly_numbers.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
+- [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 
 ## Dynamic Programming
 
@@ -131,7 +148,11 @@ _add list here_
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
+- [Maximum Subarray Sum](dp/Max_subarray_sum(DP).cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
+- [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
+- [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 
 ## Blockchain
 
@@ -141,6 +162,10 @@ _add list here_
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
+
+## Computational Geometry
+
+- [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
 ## Other
 
@@ -157,3 +182,7 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [Kth largest element](other/Kth_largest_element.cpp.cpp)
+- [Kth smallest element](other/Kth_smallest_element.cpp)
+- [Generate all Subsets](other/subsets.cpp)
+- [Stock Span Problem](other/Stock_span_problem.cpp)

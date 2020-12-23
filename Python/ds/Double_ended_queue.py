@@ -1,79 +1,117 @@
-# Import collections module:
-import collections
-
-# Initialize deque:
-dq = collections.deque([4, 5, 6])
-print("Initial: ", dq)
+# Flexible Dequeue
 
 
-# INSERTION METHODS
-# Append to the right:
-dq.append(7)
-print("Append 7 to the right: ", list(dq))
+class Deque:
 
-# Append to the left:
-dq.appendleft(3)
-print("Append 3 to the left: ", list(dq))
+    # constructor function called during object creation
+    def __init__(self):
+        self.ir = 0
+        self.il = - 1
+        self.dl = 0
+        self.dr = 0
+        self.list = []
+        self.n = 0
 
-# Append multiple values to right:
-dq.extend([8, 9, 10])
-print("Append 8, 9 and 10 to the right: ", list(dq))
+    # resets the queue by values entered by user at the time of creation
+    def reset(self):
+        self.ir = self.n
+        self.il = - 1
+        self.dl = 0
+        self.dr = self.n-1
 
-# Append multiple values to left:
-dq.extendleft([1, 2])
-print("Append 2 and 1 to the left: ", list(dq))
+    # takes the length of elements to be inserted
+    def entry(self):
+        self.list = []
+        self.n = int(input('Enter no. of elements:'))
+        self.reset()
+        for i in range(self.n):
+            self.list.append('-')
 
-# Insert -1 at index 5
-dq.insert(5, -1)
-print("Insert -1 at index 5: ", list(dq))
+    # insertion from left or right
+    def insert(self):
+        sub = self.ir-self.il
+        if sub == 1:
+            print('-'*10)
+            print('Queue is Full')
+        elif sub == 2:
+            self.il += 1
+            self.list[self.il] = int(input('Enter your element: '))
+        else:
+            ch = input('Want to insert from left or right?(L/R): ')
+            if ch == 'r' or ch == 'R':
+                self.ir -= 1
+                self.list[self.ir] = int(input('Enter your element:'))
+            elif ch == 'l' or ch == 'L':
+                self.il += 1
+                self.list[self.il] = int(input('Enter your element:'))
+            else:
+                print('-' * 10)
+                print('Invalid Choice !!!!!')
 
+    # deletion from left or right
+    def delete(self):
+        if self.ir == self.n and self.il == -1:
+            print('Queue is Empty')
+        elif self.dr == self.dl:
+            print('Deleted:', self.list[self.dr])
+            self.reset()
+        else:
+            ch = input('Want to delete from left or right?(L/R):')
+            if ch == 'l' or ch == 'L':
+                print('Deleted:', self.list[self.dl])
+                self.dl += 1
+            elif ch == 'r' or ch == 'R':
+                print('Deleted:', self.list[self.dr])
+                self.dr -= 1
+            else:
+                print('-' * 10)
+                print('Invalid Choice!!!!!!')
 
-# DELETION METHODS
-# Pop element from the right end:
-dq.pop()
-print("Remove element from the right: ", list(dq))
+    # print all the elements from left or right
+    def display(self):
+        if self.ir == self.n and self.il == -1:
+            print('Queue is Empty')
+        elif self.dr == self.dl:
+            print('Printing the Queue: ')
+            print(self.list[self.dr])
+        else:
+            ch = input('Want to display from left or right?(R/L):')
+            if ch == 'l' or ch == 'L':
+                print ('Displaying the Queue from left: ')
+                for i in range(self.dl, self.dr+1, +1):
+                    print(self.list[i], end='')
+            elif ch == 'r' or ch == 'R':
+                print('Displaying the Queue from right: ')
+                for i in range(self.dr, self.dl-1, -1):
+                    print(self.list[i], end=' ')
+            else:
+                print('Invalid Choice!!!!!!')
 
-# Pop element from the left end:
-dq.popleft()
-print("Remove element from the left: ", list(dq))
+    # creation of the deque
+    def choose(self):
+        while True:
+            print('''
+            PRESS  :  TO
+            ----------------------
+            1    :  Entry
+            2    :  Insert
+            3    :  Delete
+            4    :  Display
+            5    :  Exit
+            ----------------------
+            ''')
 
-# Remove -1:
-dq.remove(-1)
-print("Remove -1: ", list(dq))
+            ch = int(input('Enter your choice:'))
+            if ch == 1:
+                self.entry()
+            elif ch == 2:
+                self.insert()
+            elif ch == 3:
+                self.delete()
+            elif ch == 4:
+                self.display()
+            else:
+                break
 
-
-# MISCELLANEOUS METHODS
-# Count the number of times 5 occurs:
-i = dq.count(5)
-print("Count the number of times 5 occurs: ", i)
-
-# Return index of '7' if found between index 4 and 6:
-i = dq.index(7, 4, 6)
-print("Search index of number 7 between index 4 and 6: ", i)
-
-# Rotate the deque three times to the right:
-dq.rotate(3)
-print("Rotate the deque 3 times to the right: ", list(dq))
-
-# Reverse the whole deque:
-dq.reverse()
-print("Reverse the deque: ", list(dq))
-
-
-'''
-OUTPUT:
-
-Initial:  deque([4, 5, 6])
-Append 7 to the right:  [4, 5, 6, 7]
-Append 3 to the left:  [3, 4, 5, 6, 7]
-Append 8, 9 and 10 to the right:  [3, 4, 5, 6, 7, 8, 9, 10]
-Append 2 and 1 to the left:  [2, 1, 3, 4, 5, 6, 7, 8, 9, 10]
-Insert -1 at index 5:  [2, 1, 3, 4, 5, -1, 6, 7, 8, 9, 10]
-Remove element from the right:  [2, 1, 3, 4, 5, -1, 6, 7, 8, 9]
-Remove element from the left:  [1, 3, 4, 5, -1, 6, 7, 8, 9]
-Remove -1:  [1, 3, 4, 5, 6, 7, 8, 9]
-Count the number of times 5 occurs:  1
-Search index of number 7 between index 4 and 6:  5
-Rotate the deque 3 times to the right:  [7, 8, 9, 1, 3, 4, 5, 6]
-Reverse the deque:  [6, 5, 4, 3, 1, 9, 8, 7]
-'''
+ob = Deque()
+ob.choose()

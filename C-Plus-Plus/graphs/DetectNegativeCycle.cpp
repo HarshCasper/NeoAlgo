@@ -3,7 +3,7 @@
 First line contains two space separated integers,(N,M) 
 N- no of vertices, M- no of edges.
 Then M lines follow, each line has 3 space separated integers ui ,vi ,wi which denotes edge from vertex ui to vi with weight wi.
-Find shortest distance from vertex 1 to all other vertices.
+In the given graph, detect wheather any negative cycle is present or not.
 
 
 TEST CASE
@@ -20,61 +20,81 @@ Negative Cycle Present */
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int>edges[1000001];
-int dist[1000001];
-bool flag=false;
+struct Edge { 
+  int src, dest, weight; 
+}; 
 
-void relax(){
-  int k=0;
-  while(edges[k].size()>0){
-    int u=edges[k][1],v=edges[k][2],w=edges[k][0];
-    if(dist[v]>dist[u]+w){
-      dist[v]=dist[u]+w;
-      flag=true;
+struct Graph { 
+  int V, E; 
+  struct Edge* edge; 
+}; 
+  
+struct Graph* createGraph(int V, int E) 
+{ 
+  struct Graph* graph = new Graph; 
+  graph->V = V; 
+  graph->E = E; 
+  graph->edge = new Edge[E]; 
+  return graph; 
+} 
+
+bool containNegativeCycle(struct Graph* graph, int src){
+  int V = graph->V; 
+  int E = graph->E; 
+  int dist[V];
+
+  for (int i = 0; i < V; i++) 
+    dist[i] = INT_MAX; 
+  dist[src] = 0;
+
+  for(int i=0;i<V-1;i++){
+    for (int j = 0; j < E; j++){
+      int u = graph->edge[j].src; 
+      int v = graph->edge[j].dest; 
+      int w = graph->edge[j].weight; 
+      if (dist[u] != INT_MAX && dist[u] + w < dist[v]) 
+        dist[v] = dist[u] + w;
     }
-    k++;
   }
-}
 
-void bellmanFord(int n){
-  for(int i=0;i<n-1;i++){
-    relax();
-  }
+  for (int i = 0; i < E; i++) { 
+    int u = graph->edge[i].src; 
+    int v = graph->edge[i].dest; 
+    int weight = graph->edge[i].weight; 
+    if (dist[u] != INT_MAX && dist[u] + weight < dist[v]) {  
+      return true; 
+    } 
+  } 
+  return false;
 }
 
 int main(){
   int n,m;
   cin>>n>>m;
-  for(int i=0;i<n;i++){
-    edges[i].clear();
-    dist[i]=1e9;
-  }
+  struct Graph* graph = createGraph(n, m);
     
   for(int i=0;i<m;i++){
     int u,v,w;
     cin>>u>>v>>w;
-    edges[i].push_back(w);
-    edges[i].push_back(u-1);
-    edges[i].push_back(v-1);
+    graph->edge[i].src = u-1; 
+    graph->edge[i].dest = v-1; 
+    graph->edge[i].weight = w;
   }
-  dist[0]=0;
 
-  bellmanFord(n);
-  flag=false;
-  relax();
-  if(flag==true){
-    cout<<"Negative Cycle is present"<<endl;
+  bool negativeCycle=containNegativeCycle(graph,0);
+  if(negativeCycle){
+  	cout<<"Negative Cycle is Present"<<endl;
   }
-  else {
-    cout<<"No negative Cycle present"<<endl;
+  else{
+  	cout<<"No negative cycle present"<<endl;
   }
+  return 0;
 }
+
 /*
 Time- complexity
     O(VE)
     If there are 'n' vertices, then there can be n(n-1)/2 edges thus the worst case time complexity is O(n^3).
 Space Complexity-
     O(V)
-
-Bellman Ford algorithm can handle negative weights which dijkstra couldn't. However it cannot handle negative cycles and have more complexity than Dijkstra.
 */

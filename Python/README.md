@@ -144,7 +144,7 @@
 * [Logistic Regression](ml/Logistic_Regression.ipynb)
 * [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 * [Principal Component Analysis](ml/principal_component_analysis.ipynb)
-* [SVM on IRIS Dataset](ml/ml/SVM_ON_IRIS_DATASET.ipynb)
+* [SVM on IRIS Dataset](ml/SVM_ON_IRIS_DATASET.ipynb)
 
 
 ## Mathematics

@@ -109,7 +109,11 @@ _add list here_
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
+<<<<<<< HEAD
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+=======
+- [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
+>>>>>>> 7453367 (Update README.md)
 
 ## Dynamic Programming
 

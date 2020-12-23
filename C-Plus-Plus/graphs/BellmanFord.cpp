@@ -1,27 +1,7 @@
-
-/*Input:
-First line contains two space separated integers,(N,M) 
-N- no of vertices, M- no of edges.
-Then M lines follow, each line has 3 space separated integers ui ,vi ,wi which denotes edge from vertex ui to vi with weight wi.
-Find shortest distance from vertex 1 to all other vertices.
-
-
-TEST CASE
-5 5
-1 2 5
-1 3 2
-3 4 1
-1 4 6
-3 5 5
-
-OUTPUT
-Vertex Distance from Source
-0  0
-1  5
-2  2
-3  3
-4  7 */
-
+/*
+Bellman Ford algorithm can handle negative weights which dijkstra couldn't.
+However it cannot handle negative cycles and have more complexity than Dijkstra.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -98,12 +78,32 @@ int main(){
   bellmanFord(graph,0);
   return 0;
 }
-/*
-Time- complexity
-    O(VE)
-    If there are 'n' vertices, then there can be n(n-1)/2 edges thus the worst case time complexity is O(n^3).
-Space Complexity-
-    O(V)
 
-Bellman Ford algorithm can handle negative weights which dijkstra couldn't. However it cannot handle negative cycles and have more complexity than Dijkstra.
+/*
+Input:
+First line contains two space separated integers,(N,M) 
+N- no of vertices, M- no of edges.
+Then M lines follow, each line has 3 space separated integers ui ,vi ,wi which denotes edge from vertex ui to vi with weight wi.
+Find shortest distance from vertex 1 to all other vertices.
+
+TEST CASE
+5 5
+1 2 5
+1 3 2
+3 4 1
+1 4 6
+3 5 5
+
+OUTPUT
+Vertex Distance from Source
+0  0
+1  5
+2  2
+3  3
+4  7
+
+Time- complexity: O(VE)
+If there are 'n' vertices, then there can be n(n-1)/2 edges thus the worst case time complexity is O(n^3).
+
+Space Complexity: O(V)
 */

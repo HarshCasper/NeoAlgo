@@ -2,6 +2,8 @@
 // https://www.hackerearth.com/practice/notes/factorial-of-large-number/
 import java.math.BigInteger; 
 import java.util.*; 
+import java.io.*;
+import java.lang.*;
 
 class FactorialUsingBigInteger
 { 

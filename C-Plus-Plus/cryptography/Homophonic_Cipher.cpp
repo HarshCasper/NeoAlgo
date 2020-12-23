@@ -1,34 +1,8 @@
-//Homophonic Subsitution Cipher
-
-/*
-
-The Homophonic Substitution cipher is a substitution cipher in which single 
-plaintext letters can be replaced by any of several different ciphertext letters. 
-They are generally much more difficult to break than standard substitution ciphers.
-
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Q W E R T Y U I O P A S D F G H J K L Z X C V B N M
-4       5       8         7 2       1 6            
-        9                                          
-        0                         
-		
-		
-Example:
-Plain Text : TESSERACTCODING
-Cipher Text: 60LL5KQEZE2R87U
-
-Plain Text : NeoAlgo
-Cipher Text: 70gQsug
-
-Time Complexity: O(n)
-Space Complexity: O(1)		                 
-                   
-*/
-
 #include<bits/stdc++.h>
 using namespace std;
 
-void mapping(vector<vector<char> > &code){    //Mapping one plain-text alphabet to more than one cipher-text alphabet.
+//Mapping one plain-text alphabet to more than one cipher-text alphabet.
+void mapping(vector<vector<char> > &code) {    
 	code[0].push_back('Q');code[0].push_back('4');
 	code[1].push_back('W');
 	code[2].push_back('E');
@@ -57,31 +31,32 @@ void mapping(vector<vector<char> > &code){    //Mapping one plain-text alphabet 
 	code[25].push_back('M');	
 }
 
-string encode(string plain){
+/* Encodes characters of plain text by one of the 
+several different cipher text letters using a map. */
+string encode(string plain) {
 	
 	vector<vector<char> >code(26);
 	mapping(code);
-	
 	string encrypted = "";
 	int n = plain.length();
-	for(int i=0;i<n;i++){
-		if(plain[i]>=97){ 								//if lowercase
+	for(int i = 0;i < n; ++i) {
+		//if lowercase character
+		if(plain[i] >= 97) {
+			int num = (rand() % (code[plain[i] - 97].size()));
 			
-			int num = (rand() % (code[plain[i]-97].size()));
-			
-			if(code[plain[i]-97][num] >= 65)			//if character
-			encrypted = encrypted+char(code[plain[i]-97][num]-65+97);
-			else										//if numeral
-			encrypted = encrypted+code[plain[i]-97][num];
+			if(code[plain[i]-97][num] >= 65)
+				encrypted = encrypted+char(code[plain[i]-97][num]- 65 + 97);
+			else
+				encrypted = encrypted+code[plain[i]-97][num];
 		}
-		else{ 											//if uppercase
+		//uppercase letter
+		else {
 			int num = (rand() % (code[plain[i]-65].size()));
 			encrypted = encrypted+code[plain[i]-65][num];
 		}
 	}
 	
 	return encrypted;
-	
 }
 
 int main(){
@@ -97,3 +72,21 @@ int main(){
 	cout<<"Cipher Text: "<<encrypt<<endl;
 	
 }
+
+/* Mapping used: 
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Q W E R T Y U I O P A S D F G H J K L Z X C V B N M
+4       5       8         7 2       1 6            
+        9                                          
+        0                         
+
+Example:
+Plain Text : TESSERACTCODING
+Cipher Text: 60LL5KQEZE2R87U
+
+Plain Text : NeoAlgo
+Cipher Text: 70gQsug
+
+Time Complexity: O(n)
+Space Complexity: O(1)                  
+*/

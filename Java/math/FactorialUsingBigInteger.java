@@ -13,14 +13,18 @@ class FactorialUsingBigInteger
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the value of N:\n");
 		int N = sc.nextInt(); 
-		
-		BigInteger f = new BigInteger("1"); // Or BigInteger assigned to ONE 
-		// Multiply f with number till N
-		for (int i = 2; i <= N; i++) 
+		if(N>=0)
 		{
-			f = f.multiply(BigInteger.valueOf(i)); 
-		}
-		System.out.println("Factorial of given number is :"+f); 
+			BigInteger f = new BigInteger("1"); // Or BigInteger assigned to ONE 
+			// Multiply f with number till N
+			for (int i = 2; i <= N; i++) 
+			{
+				f = f.multiply(BigInteger.valueOf(i)); 
+			}
+			System.out.println("Factorial of given number is :"+f); 
+		}else{
+			System.out.println("Number Should be greater than 0");
+		}	
 	} 
 } 
 /*

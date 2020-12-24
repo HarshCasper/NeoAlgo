@@ -58,6 +58,7 @@ _add list here_
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
 - [Modified Caesar Cipher](cryptography/ModifiedCaesarCipher.java)
+- [Homophonic Cipher](cryptography/HomophonicCipher.java)
 
 ## Dynamic Programming
 

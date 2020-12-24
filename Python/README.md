@@ -103,6 +103,7 @@
 - [Knight Walk](graphs/Knight_Walk.py)
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+- [Detect Negative Cycle](graphs/Negative_Cycle.py)
 
 
 ## Competitive Programming

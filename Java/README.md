@@ -55,6 +55,7 @@ _add list here_
 - [Homophonic Cipher](cryptography/HomophonicCipher.java)
 - [Rail Fence Cipher](cryptography/RailFenceCipher.java)
 - [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
+- [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
 
 ## Dynamic Programming
 

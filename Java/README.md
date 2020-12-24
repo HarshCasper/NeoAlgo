@@ -46,6 +46,7 @@ _add list here_
 - [Prime Number without Recursion](cp/Prime.java)
 - [Ugly Number With Recursion](cp/UglyRecursion.java) 
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
+- [Subarray of an array with given sum in O(n) time](cp/GC1.java)
 
 ## Cryptography
 

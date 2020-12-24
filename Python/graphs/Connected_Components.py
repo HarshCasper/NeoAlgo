@@ -1,6 +1,6 @@
 """
-Connected Components:- In an undirectional graph, a connected
-        the component is a subgraph such that there exist at least
+Connected Components:- In an undirected graph, a connected
+        component is a subgraph such that there exists at least
         one path connecting any of the two nodes of that graph.
 Purpose: Given an undirected graph with N nodes and M edges where
         each node is numbered between 1 and N find the total number
@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
     ans = Connected_Components(n, graph)
     print("Number of connected components: ", ans)
-
+        
 """
 Sample Input / Output
         1-----------2         4    7

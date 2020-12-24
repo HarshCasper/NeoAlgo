@@ -1,3 +1,8 @@
+/*
+Given a Binary Search Tree, the program finds the Youngest and Oldest 
+member of given two numbers.
+*/
+
 #include<iostream>
 using namespace std;
 
@@ -8,10 +13,12 @@ struct BST
 	BST *right = NULL;
 };
 
-BST *start = NULL; //points to the root node
+//points to the root node
+BST *start = NULL; 
 int l1,l2;
 
-BST *arr_to_BST(int arr[20], int beg, int end) //function to convert array into Binary Search Tree with shortest height
+//function to convert array into Binary Search Tree with shortest height
+BST *arr_to_BST(int arr[20], int beg, int end) 
 {
 	BST *ptr;
 	
@@ -47,7 +54,8 @@ void Display_BST(BST *ptr) //function to print Binary Search Tree
 		Display_BST(ptr->right);
 }
 
-void level_assign(BST *ptr, int value=0) //function to assign level values to corresponding nodes
+//function to assign level values to corresponding nodes
+void level_assign(BST *ptr, int value=0) 
 {
 	ptr->level = value;
 	if(ptr->left != NULL)
@@ -56,7 +64,8 @@ void level_assign(BST *ptr, int value=0) //function to assign level values to co
 		level_assign(ptr->right,value+1);
 }
 
-int find_number(BST *ptr,int n) //returns level of the number
+//returns level of the number
+int find_number(BST *ptr,int n) 
 {
 	if(ptr->a == n)
 		return ptr->level;
@@ -66,7 +75,8 @@ int find_number(BST *ptr,int n) //returns level of the number
 		find_number(ptr->right,n);
 }
 
-void Display(BST *ptr, int n1, int n2) //function to print the value of youngest member for given numbers
+//function to print the value of youngest member for given numbers
+void Display(BST *ptr, int n1, int n2) 
 {
 	if(n1 < ptr->a && n2 > ptr->a)
 	{
@@ -109,7 +119,8 @@ int main()
 		cin>>n2;
 		l1 = find_number(start,n1);
 		l2 = find_number(start,n2);
-		cout<<"\neldest:"<<start->a;	//print the eldest member of Binary Search Tree
+//print the eldest member of Binary Search Tree
+		cout<<"\neldest:"<<start->a;	
 		if(n1 > n2)
 		{
 			if(n2 < start->a && n1 > start->a)

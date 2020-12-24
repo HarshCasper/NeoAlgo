@@ -57,6 +57,7 @@ _add list here_
 ## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
+- [Modified Caesar Cipher](cryptography/ModifiedCaesarCipher.java)
 
 ## Dynamic Programming
 

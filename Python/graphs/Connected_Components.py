@@ -1,24 +1,19 @@
 """
 Connected Components:- In an undirectional graph, a connected
-        component is a subgraph such that there exsit at least
+        the component is a subgraph such that there exist at least
         one path connecting any of the two nodes of that graph.
-
 Purpose: Given an undirected graph with N nodes and M edges where
         each node is numbered between 1 and N find the total number
         of connected components in the graph.
-
 Method: Breadth-First Search
-Intution: For every node of the graph that is not yet visited,
+Intuition: For every node of the graph that is not yet visited,
         1. we will call BFS() function to traverse the graph and
             marking the nodes visited.
         2. increase the count of connected components by 1
-
 Time Complexity:  O(N+M)
 Space Complexity: O(N)
-
 Argument: Dictionary ( Graph )
-Return  : Integer    ( Number of connected components )
-
+Return:   Integer    ( Number of connected components )
 """
 from collections import defaultdict, deque
 
@@ -50,7 +45,7 @@ def Connected_Components(n, graph):
     # Variable visited to keep a track of already visited nodes
     visited = [0] * (n + 1)
 
-    # To count the number of Connected Component
+    # To count the number of Connected Components
     count = 0
 
     # Iterate through each node and check if it is visited or not
@@ -83,20 +78,16 @@ if __name__ == "__main__":
         graph[a] += [b]
 
     ans = Connected_Components(n, graph)
-    print("Number of connected components : ", ans)
+    print("Number of connected components: ", ans)
 
 """
-
 Sample Input / Output
-
         1-----------2         4    7
         |           |         |   /
         |           |         |  /
         |           |         | /
         |           |         |/
         3-----------5         6
-
-
 Enter the number of vertex and edges: 7 6
 Enter the edges:
 1 2
@@ -105,17 +96,14 @@ Enter the edges:
 3 5
 4 6
 6 7
-Number of connected components :  2
+Number of connected components:  2
 Explanation: Connected components are (1, 2, 3, 5) and (4, 6, 7)
-
-
         1----------2        4        7
          \           \      /\      /
           \           \    /  \    /
            \           \  /    \  /
             \           \/      \/
              3-----------5-------6
-
 Enter the number of vertex and edges: 7 8
 Enter the edges:
 1 2
@@ -126,5 +114,5 @@ Enter the edges:
 5 6
 6 4
 6 7
-Number of connected components :  1
+Number of connected components:  1
 """

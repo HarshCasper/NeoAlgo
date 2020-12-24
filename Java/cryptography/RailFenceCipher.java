@@ -47,7 +47,9 @@ public class RailFenceCipher
      * Here plain text= HelloHiHowAreYou? and key =3
      * </p>
      * <p>
-     * 0 H O O E ? 1 E L H H W R Y U 2 L I A O
+     *    0 H               O                   O                       E                   ?
+     *    1    E       L       H          H           W           R           Y        U
+     *    2        L               I                       A                       O
      * </p>
      * </li>
      * 

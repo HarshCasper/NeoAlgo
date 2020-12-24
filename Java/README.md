@@ -54,6 +54,7 @@ _add list here_
 - [Modified Caesar Cipher](cryptography/ModifiedCaesarCipher.java)
 - [Homophonic Cipher](cryptography/HomophonicCipher.java)
 - [Rail Fence Cipher](cryptography/RailFenceCipher.java)
+- [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
 
 ## Dynamic Programming
 

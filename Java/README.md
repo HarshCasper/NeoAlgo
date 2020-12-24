@@ -60,6 +60,11 @@ _add list here_
 ## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
+- [Modified Caesar Cipher](cryptography/ModifiedCaesarCipher.java)
+- [Homophonic Cipher](cryptography/HomophonicCipher.java)
+- [Rail Fence Cipher](cryptography/RailFenceCipher.java)
+- [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
+- [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
 
 ## Dynamic Programming
 

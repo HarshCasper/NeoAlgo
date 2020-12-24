@@ -52,7 +52,7 @@ _add list here_
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
 - [Modified Caesar Cipher](cryptography/ModifiedCaesarCipher.java)
-- [Homophonic Cipher](cryptography/HomophonicCipher.java)RailFenceCipher
+- [Homophonic Cipher](cryptography/HomophonicCipher.java)
 - [Rail Fence Cipher](cryptography/RailFenceCipher.java)
 
 ## Dynamic Programming

@@ -55,6 +55,7 @@ _add list here_
 - [Suduko Solver](cp/SudukoSolver.java)
 - [Ugly Number With Recursion](cp/UglyRecursion.java) 
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
+- [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
 
 
 ## Cryptography
@@ -120,6 +121,7 @@ _add list here_
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
+- [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 
 ## Dynamic Programming
 

@@ -45,6 +45,10 @@ _add list here_
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
+<<<<<<< HEAD
+=======
+- [Suduko Solver](cp/SudukoSolver.java)
+>>>>>>> b0f0e0f (Added Factorial Of a Number using Big Integer (#1663))
 - [Ugly Number With Recursion](cp/UglyRecursion.java)
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
 - [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
@@ -110,11 +114,8 @@ _add list here_
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
-<<<<<<< HEAD
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
-=======
-- [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
->>>>>>> 7453367 (Update README.md)
+
 
 ## Dynamic Programming
 

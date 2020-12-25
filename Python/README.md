@@ -199,7 +199,11 @@
 =======
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
+<<<<<<< HEAD
 >>>>>>> 92f5f7f (Minor updation in Readme.md)
+=======
+- [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
+>>>>>>> ad68128 (Added Matrix-Chain-Multiplication in Python)
 
 >>>>>>> 936f9af (README.md Updated)
 

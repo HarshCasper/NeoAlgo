@@ -1,7 +1,7 @@
 /* Given a list of words and two words word1 and word2, find the shortest distance between those two words from the list.
  */
 import java.util.*;
-class GC2 {
+class Shortest_Dist {
     static List < String > arr;
     public static void main(String args[]) {
         int t = 0;

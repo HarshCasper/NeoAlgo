@@ -1,35 +1,45 @@
+/*
+
+We can easily solve this problem in linear time using kadane’s algorithm.
+The idea is to maintain maximum (positive sum) sub-array “ending” at each index of the given array.
+This subarray is either empty (in which case its sum is zero) or consists of one more element than the maximum subarray ending at the previous index.
+And, To Cover Both Positive and Negative Cases, approach requires two traversals of the input array.
+
+*/
+
 #include <bits/stdc++.h>
+
 #define ll long long int
 using namespace std;
 
-int kadane (ll arr[], ll n)
-{
-  ll max_so_far = arr[0];
+// Function to find contiguous sub-array with the largest sum
+// in given set of integers (handles negative numbers as well)
 
-  ll max_ending_here = arr[0];
+int kadane(ll arr[], ll n) {
 
-  for (ll i = 1; i < n; i++)
-    {
-      max_ending_here = max_ending_here + arr[i];
-      max_ending_here = max (max_ending_here, arr[i]);
+  ll max_so_far = arr[0]; // stores maximum sum sub-array found so far
 
-      max_so_far = max (max_so_far, max_ending_here);
-    }
+  ll max_ending_here = arr[0]; // stores maximum sum of sub-array ending at current position
+
+  for (ll i = 1; i < n; i++) {
+    max_ending_here = max_ending_here + arr[i]; // update maximum sum of sub-array "ending" at index i (by adding current element to maximum sum ending at previous index i-1)
+    max_ending_here = max(max_ending_here, arr[i]); // maximum sum is should be more than the current element
+
+    max_so_far = max(max_so_far, max_ending_here); // update result if current sub-array sum is found to be greater
+  }
 
   return max_so_far;
 }
 
-int main ()
-{
+int main() {
   ll n;
   cin >> n;
   ll arr[n];
-  for (ll i = 0; i < n; i++)
-    {
-      cin >> arr[i];
-    }
+  for (ll i = 0; i < n; i++) {
+    cin >> arr[i];
+  }
 
-  cout << "" << kadane (arr, n);
+  cout << "" << kadane(arr, n);
 
   return 0;
 }

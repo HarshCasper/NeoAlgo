@@ -176,3 +176,4 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
+- [Sort a nearly sorted](other/Sort_a_nearly_sorted_array.cpp)

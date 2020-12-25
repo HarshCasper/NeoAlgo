@@ -8,7 +8,7 @@ Sum found between indexes 2 and 4
  */
 // to find Subarray of an array with given sum in O(n) time
 import java.util.*;
-class GC1 {
+class Subarray {
     public static void findsubarray(List < Integer > arr, int sum) {
         int startindex = 0, endindex = 0, tempsum = 0;
         boolean flag = true;

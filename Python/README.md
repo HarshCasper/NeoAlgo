@@ -248,6 +248,7 @@
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 >>>>>>> 78e353d (Python README.md Re-Structured (#1623))
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+- [Detect Negative Cycle](graphs/Negative_Cycle.py)
 
 
 ## Competitive Programming

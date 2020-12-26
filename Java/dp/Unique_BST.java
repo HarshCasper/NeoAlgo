@@ -4,7 +4,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main {
+class Unique_BST {
     // function will return no. of unique bsts
     static int uniqueBST(int n) {
         int count[] = new int[n + 1];

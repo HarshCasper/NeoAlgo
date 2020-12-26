@@ -1,13 +1,14 @@
 // Unique BSTs using DP
 // For given n, how many structurally unique BST's that store values 1 ... n?
+
 import java.io.*;
 import java.util.*;
 
-class Unique_BST {
+class Main {
     // function will return no. of unique bsts
     static int uniqueBST(int n) {
         int count[] = new int[n + 1];
-        // for each 'i' number of nodes 
+        // for each 'i' number of nodes
         for (int i = 1; i <= n; ++i) {
             for (int j = 0; j < i; ++j) {
                 // No. of trees if j is a root
@@ -25,9 +26,11 @@ class Unique_BST {
     }
 }
 
-/* output
+/*
+Input:
 Enter the number:
 3
+Output:
 Number of Unique BSTs 5
 Time complexity : O(n)
 */

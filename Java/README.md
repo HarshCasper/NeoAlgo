@@ -53,13 +53,19 @@ _add list here_
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
 - [Suduko Solver](cp/SudukoSolver.java)
-- [Ugly Number With Recursion](cp/UglyRecursion.java) 
+- [Ugly Number With Recursion](cp/UglyRecursion.java)
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
+- [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
 
 
 ## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
+- [Modified Caesar Cipher](cryptography/ModifiedCaesarCipher.java)
+- [Homophonic Cipher](cryptography/HomophonicCipher.java)
+- [Rail Fence Cipher](cryptography/RailFenceCipher.java)
+- [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
+- [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
 
 ## Dynamic Programming
 
@@ -115,6 +121,8 @@ _add list here_
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
+- [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
+- [Factorial Using BigInteger](FactorialUsingBigInteger.java)
 
 ## Dynamic Programming
 

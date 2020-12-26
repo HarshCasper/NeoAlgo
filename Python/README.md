@@ -80,8 +80,9 @@
 - [Edit Distance](dp/EditDistance.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
-- [Dice Throw Problem](dp/Dice_Throw.py)
+- [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
+
 
 ## Graphs
 
@@ -94,6 +95,7 @@
 - [Topological Sort/Ordering](graphs/Topological_Sort.py)
 - [Hamiltonian Path](graphs/Hamiltonian_Path.py)
 - [Articulation Point](graphs/Articulation_Point.py)
+- [Connected Components](graphs/Connected_Components.py)
 - [Strongly Connected Components - Kosaraju's Algorithm](graphs/SCC_Kosaraju.py)
 - [Strongly Connected Components - Tarjan's Algorithm](graphs/SCC_Tarjan.py)
 - [Bipartite Graph](graphs/Bipartite_Graph.py)
@@ -101,8 +103,8 @@
 - [Knight Walk](graphs/Knight_Walk.py)
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+- [Detect Negative Cycle](graphs/Negative_Cycle.py)
 - [Depth First Search](graphs/DFS.py)
-
 
 ## Competitive Programming
 
@@ -201,3 +203,5 @@ _add list here_
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+
+## [Coding Template for Contribution](Code_Template.md)

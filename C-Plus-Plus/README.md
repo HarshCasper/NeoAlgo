@@ -86,6 +86,8 @@
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
+- [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
+- [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 
 ## Searching
 
@@ -112,6 +114,10 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
+
+## Stack based problems
+
+- [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 
 ## Machine Learning
 

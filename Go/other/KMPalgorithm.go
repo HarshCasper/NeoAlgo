@@ -13,7 +13,6 @@ func StringLast(key string, point string) int {
 	if len(word) > 0 {
 		return word[len(word)-1]
 	}
-
 	return -1
 }
 
@@ -22,32 +21,24 @@ func StringFirst(key string, point string) int {
 	if len(word) > 0 {
 		return word[0]
 	}
-
 	return -1
 }
 
 func KMP(key string, point string) []int {
-
 	new := preKMP(point)
 	i := 0
 	j := 0
 	m := len(point)
 	n := len(key)
-
 	x := []byte(point)
 	y := []byte(key)
 	var value []int
-
-	//got zero target or want, just return empty result
 	if m == 0 || n == 0 {
 		return value
 	}
-
-	//want string bigger than target string
 	if n < m {
 		return value
 	}
-
 	for j < n {
 		for i > -1 && x[i] != y[j] {
 			i = new[i]
@@ -62,7 +53,6 @@ func KMP(key string, point string) []int {
 			i = new[i]
 		}
 	}
-
 	return value
 }
 
@@ -78,10 +68,8 @@ func preKMP(x string) [PatternSize]int {
 		for j > -1 && x[i] != x[j] {
 			j = kmpNext[j]
 		}
-
 		i++
 		j++
-
 		if x[i] == x[j] {
 			kmpNext[i] = kmpNext[j]
 		} else {
@@ -91,6 +79,7 @@ func preKMP(x string) [PatternSize]int {
 	return kmpNext
 }
 
+// Test Code
 func main() {
 	fmt.Println("First Position String:")
 	fmt.Println(StringFirst("cocacola", "co"))

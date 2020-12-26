@@ -1,5 +1,22 @@
-'''Python code to implement HUffman encoding 
-and decoding of a string'''
+'''Huffman Compression and Decompression: Files of high size need much cost
+to handle and this can be overcome by huffman compression and decompression
+techniques in which the byte size of charactersare given values by their frequency,
+more freuent char are given less bytes and vice versa.
+
+Purpose: To encode and decode strings by priority queue and binary trees.
+Method: Huffman algorithm
+Intution: 1.Push all the freq keys in the priority queue.
+          2.To build the tree pop two items as left and right child of tree.
+          3.Push the new node formed in the priority queue until it become 1.
+          4.Traverse the formed Huffman tree and the code is encoded.
+          5.For decoding we traverse according to the bits assigned for left(0)
+          and right(1).
+Time complexity: 0(n*logn) 
+Argument:1.Encoding function:root and the empty string.
+         2.Decoding function: root and encoded string.
+Return:1.Encoding function:encoded string
+       2.Decoding function:printing the decoded string.
+'''
 import queue as Queue
 
 counter = 0
@@ -84,8 +101,7 @@ decodeHuff(root, toBeDecoded)
 print('The encoded code is',toBeDecoded)
 
 
-'''Time complexity: 0(n*logn)
-
+'''
 INPUT
 Enter the string:- ABCBAACD
 

@@ -134,6 +134,7 @@ _add list here_
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
+- [Unique BST](dp/Unique_BST.java)
 
 ## Blockchain
 

@@ -53,13 +53,19 @@ _add list here_
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
 - [Suduko Solver](cp/SudukoSolver.java)
-- [Ugly Number With Recursion](cp/UglyRecursion.java) 
+- [Ugly Number With Recursion](cp/UglyRecursion.java)
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
+- [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
 
 
 ## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
+- [Modified Caesar Cipher](cryptography/ModifiedCaesarCipher.java)
+- [Homophonic Cipher](cryptography/HomophonicCipher.java)
+- [Rail Fence Cipher](cryptography/RailFenceCipher.java)
+- [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
+- [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
 
 ## Dynamic Programming
 
@@ -94,6 +100,7 @@ _add list here_
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
+- [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 
 ## Mathematics
@@ -113,6 +120,9 @@ _add list here_
 - [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
+- [Strong Number Using Recursion](math/check_strong_number.java)
+- [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
+- [Factorial Using BigInteger](FactorialUsingBigInteger.java)
 
 ## Dynamic Programming
 
@@ -154,6 +164,7 @@ _add list here_
 - [PancakeSort](sort/PancakeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
+- [Radix Sort](sort/RadixSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 
 ## Machine Learning

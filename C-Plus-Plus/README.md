@@ -152,6 +152,7 @@ _add list here_
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
+- [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 
 ## Blockchain

@@ -1,3 +1,4 @@
+//According to gofmt only
 package main
  
 //Importing the module

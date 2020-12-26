@@ -119,6 +119,11 @@
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
+- [Check for balanced parenthesis](stack/Median_in_a_running_stream_of_integers.cpp)
+
+## Heaps based problems
+
+- [Median in a running stream of integers](heaps/Median_in_a_running_stream_of_integers.cpp)
 
 ## Machine Learning
 

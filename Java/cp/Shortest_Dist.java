@@ -8,7 +8,7 @@ class Shortest_Dist {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the list of words " + "\n" + "Words = ");
-        arr = new ArrayList < > ();
+        arr = new ArrayList <> ();
 
         arr.add(sc.nextLine());
         while (sc.hasNext()) {
@@ -34,8 +34,8 @@ class Shortest_Dist {
     public static int shortest_dist(List < String > wd, String wd1, String wd2) {
         int dist = -1;
         List < String > wdcopy = new ArrayList(wd);
-        List < Integer > ind1 = new ArrayList < > ();
-        List < Integer > ind2 = new ArrayList < > ();
+        List < Integer > ind1 = new ArrayList <> ();
+        List < Integer > ind2 = new ArrayList <> ();
 
         while (wd.contains(wd1)) {
             ind1.add(wd.indexOf(wd1));

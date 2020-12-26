@@ -125,6 +125,7 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
+- [Bucket Sort](sort/bucket_sort.cpp)
 
 ## Stack based problems
 

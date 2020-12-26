@@ -5,7 +5,7 @@ using namespace std;
 
 int uniqueBST(int n) {
         vector<int> count(n+1);
-		// for each 'i' number of nodes
+	// for each 'i' number of nodes
         for(int i = 1; i <= n ; ++i) {
             for(int j = 0 ; j < i ; ++j) {
                 // No. of trees if j is a root

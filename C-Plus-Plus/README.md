@@ -116,6 +116,7 @@
 ## Stack based problems
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+- [Stock Span Problem](stack/Stock_span_problem.cpp)
 
 ## Machine Learning
 

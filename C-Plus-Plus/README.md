@@ -184,5 +184,5 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
-- [Convex Hull (Jarvis' Algorithm)](other/Convex_Hull_Jarvis_Algorithm.cpp)
-- [Check for balanced parenthesis](other/Check_for_balanced_parenthesis.cpp)
+- [Stock Span Problem](other/Stock_span_problem.cpp)
+- [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)

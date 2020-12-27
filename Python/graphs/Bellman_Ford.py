@@ -100,7 +100,7 @@ if __name__ == "__main__":
         print("Minimum Distance between the Source and Destination is: ", distance)
 
 """
-Sample Input / Output
+Sample Input - Output
 
                 -4            -1           5
            (1)--------->(2)-------->(3)--------->(6)

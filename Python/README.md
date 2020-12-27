@@ -49,6 +49,7 @@
 - [Insertion Sort](sort/insertion.py)
 - [Quick Sort](sort/QuickSort.py)
 - [Heap Sort](sort/Heap_sort.py)
+- [Merge Sort](sort/Merge_Sort.py)
 - [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 - [Merge Sort Parallel](sort/Parallel_MergeSort.py)
 - [Cocktail sort](sort/cocktail_sort.py)

@@ -191,3 +191,4 @@ _add list here_
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Stock Span Problem](other/Stock_span_problem.cpp)
+- [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)

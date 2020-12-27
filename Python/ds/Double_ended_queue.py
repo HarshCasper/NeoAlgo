@@ -1,4 +1,4 @@
-# Flexible Dequeue
+# Flexible Dequeue: we can use both the front and rear end for insertion and deletion operations
 
 
 class Deque:

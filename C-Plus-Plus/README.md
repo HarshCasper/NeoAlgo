@@ -77,6 +77,7 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Depth First Search Algorithm](graphs/DFS.cpp)
 
 ## Searching
 
@@ -132,6 +133,8 @@ _add list here_
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Partition Problem](dp/Partition_Problem.cpp)
+- [Egg Dropping Problem](dp/Egg_Dropping.cpp)
 
 ## Blockchain
 

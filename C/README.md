@@ -88,6 +88,7 @@
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
+- [Unique BST](dp/Unique_BST.c)
 
 ## Graphs
 

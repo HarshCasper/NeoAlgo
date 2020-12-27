@@ -1,10 +1,12 @@
 //RAIL FENCE TRANSPOSITION TECHNIQUE
+/* It is a type of transposition cipher technique which encrypts the plain 
+text message into a cipher text by rearranging the characters of the 
+plain text. The alternate characters are picked first, starting from the 
+first character. */
+
 #include<bits/stdc++.h>
 using namespace std;
 
-/* Encrypts the plain text message into a cipher text by 
-rearranging the characters of the plain text. The alternate 
-characters are picked first, starting from the first character. */
 string encrypt(string s) {
 	string s1 = "";
 	string s2 = "";

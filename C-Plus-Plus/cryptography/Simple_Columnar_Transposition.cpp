@@ -1,10 +1,11 @@
 //SIMPLE COLUMNAR TRANSPOSITION TECHNIQUE
+/* It is a type of transposition cipher technique which encrypts the plain text 
+message into a cipher text by rearranging the characters of the 
+plain text. The plain text is written row-wise and read column-wise. */
+
 #include<bits/stdc++.h>
 using namespace std;
 
-/* Encrypts the plain text message into a cipher text by rearranging 
-the characters of the plain text. The plain text is written row-wise 
-and read column-wise. */
 string encrypt(string s) {
 	float n = s.length();
 	int row = ceil(n/5),col = 5;

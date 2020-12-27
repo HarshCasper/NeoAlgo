@@ -1,11 +1,12 @@
 //SIMPLE COLUMNAR MULTIPLE ROUNDS TRANSPOSITION TECHNIQUE
+/* It is a type of transposition cipher technique which encrypts the plain text 
+message into a cipher text by rearranging the characters of the 
+plain text. The plain text is written row-wise and read column-wise.
+This procedure is chained and carried out k times. */
+
 #include<bits/stdc++.h>
 using namespace std;
 
-/* Encrypt the plain text message into a cipher text by 
-rearranging the characters of the plain text. The plain 
-text is written row-wise and read column-wise.This 
-procedure is chained and carried out k times. */
 string encrypt(string s,vector<int> &order) {
 	
 	float n = s.length();

@@ -1,4 +1,5 @@
 // The Boyer–Moore majority vote algorithm in C++
+// This algorithm finds a majority element, if there is one: i.e, an element that occurs repeatedly for more than half of the elements of the input.
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -41,7 +41,13 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
+<<<<<<< HEAD
 - [Josephus Problem](cp/Josephus.cpp)
+=======
+- [NQueens](cp/NQueens.cpp)
+- [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
+- [Next Largest Permutation](cp/NextPermutation.cpp)
+>>>>>>> 94cad68 (Update Readme.md and Resolve changes)
 
 ## Data Structures
 
@@ -83,9 +89,16 @@
 <<<<<<< HEAD
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
+<<<<<<< HEAD
 =======
 - [Depth First Search Algorithm](graphs/DFS.cpp)
 >>>>>>> 1674e5f (Added the beginner pitch and did required changes to readme file as well)
+=======
+- [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
+- [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
+- [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
+- [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
+>>>>>>> 94cad68 (Update Readme.md and Resolve changes)
 
 ## Searching
 
@@ -147,10 +160,11 @@ _add list here_
 - [String permutations](dp/string_permutations.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
+- [Maximum Subarray Sum](dp/Max_subarray_sum(DP).cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
-
 
 ## Blockchain
 
@@ -159,6 +173,9 @@ _add list here_
 ## Cryptography
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
+- [Rail Fence Transposition Technique](cryptography/Rail_fence_Cipher.cpp)
+- [Simple Columnar Transposition Technique](cryptography/Simple_Columnar_Transposition.cpp)
+- [Simple Columnar with Multiple Rounds Transposition Technique](cryptography/Simple_Columnar_Transposition_multiple_rounds.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 
@@ -185,4 +202,7 @@ _add list here_
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Stock Span Problem](other/Stock_span_problem.cpp)
+<<<<<<< HEAD
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
+=======
+>>>>>>> 94cad68 (Update Readme.md and Resolve changes)

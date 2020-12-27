@@ -53,6 +53,8 @@ _add list here_
 
 - [Karatsuba Multiplication](./math/karatsuba_multiplication.go)
 - [Armstrong Number](./math/armstrong_number.go)
+- [Areas of 2D](./math/Areas2D.go)
+- [Areas of 3D](./math/Areas3D.go)
 
 ## Other
 
@@ -60,5 +62,6 @@ _add list here_
 
 ## Searching
 
-- [Binary Search](/search/binary_search.go)
-- [Linear Search](/search/linear_search.go)
+- [Binary Search](./search/binary_search.go)
+- [Linear Search](./search/linear_search.go)
+- [Interpolation Search](./search/interpolation_search.go)

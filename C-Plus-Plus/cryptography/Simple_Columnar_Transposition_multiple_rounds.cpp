@@ -1,3 +1,4 @@
+//SIMPLE COLUMNAR MULTIPLE ROUNDS TRANSPOSITION TECHNIQUE
 #include<bits/stdc++.h>
 using namespace std;
 

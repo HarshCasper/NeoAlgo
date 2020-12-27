@@ -183,6 +183,7 @@
 - [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
+- [Knapsack 0-1](dp/Knapsack_01.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 <<<<<<< HEAD
 <<<<<<< HEAD

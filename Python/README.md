@@ -92,7 +92,11 @@
 >>>>>>> f4f01bb (Update README.md)
 =======
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
+<<<<<<< HEAD
 >>>>>>> 5fc14c1 (Changed Readme and bridge edge in graph)
+=======
+- [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
+>>>>>>> 2fa003c (Changed Readme and Added Euler_circuit_and_Path)
 
 ## Competitive Programming
 

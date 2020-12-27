@@ -138,10 +138,11 @@ def printLL(head):
         head = head.next
     print()
 
+
 if __name__ == "__main__":
     head = inputLL()
     print("Enter index of nodes to be swapped-")
-    i, j = list(int(i) for i in input().split())
+    i, j = map(int, input().split())
     head = swapNodes(head, i, j)
     printLL(head)
 

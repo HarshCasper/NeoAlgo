@@ -153,6 +153,7 @@ _add list here_
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
+- [Sprague-Grundy Theorem](dp/Sprague_Grundy_Theorem.cpp)
 
 ## Blockchain
 

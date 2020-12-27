@@ -80,8 +80,12 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+<<<<<<< HEAD
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
+=======
+- [Depth First Search Algorithm](graphs/DFS.cpp)
+>>>>>>> 1674e5f (Added the beginner pitch and did required changes to readme file as well)
 
 ## Searching
 

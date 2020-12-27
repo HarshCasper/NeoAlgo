@@ -1,4 +1,18 @@
 //Egg Dropping problem
+/*
+The Egg Dropping Problem: There is a building with k floors. You are given n eggs.
+
+An egg dropping from any floor is termed a “trial”. After a dropping, an egg can either survive or
+break. A broken egg cannot be used whereas a survived egg can be used for another trial. All eggs are
+identical, i.e. effect must be same for all eggs.
+
+A floor is called the critical floor if an egg breaks from that floor and above but does not break from
+any floor below that one. We assume that if an egg survives a fall, it survives a shorter fall. And if an
+egg breaks from some floor, then it would break from higher floor also.
+
+Given n and k, you have to find the minimum number of trials in the worst case.
+*/
+
 #include <bits/stdc++.h> 
 using namespace std;
 

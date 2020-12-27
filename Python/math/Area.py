@@ -47,7 +47,7 @@ def area_trapezium(base1, base2, height):
     >> area_trapezium(10,20,30)
     450
     """
-    return round(1 / 2 * (base1 + base2) * height,2)
+    return 1 / 2 * (base1 + base2) * height
 
 
 def area_circle(radius):

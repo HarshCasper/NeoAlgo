@@ -1,23 +1,12 @@
-Step 1: SET STATUS = 1 (ready state)
-for each node in G
+Step 1: First we set the STATUS = 1 (status 1 is ready state) for each node in Graph.
 
-Step 2: Enqueue the starting node A
-and set its STATUS = 2
-(waiting state)
+Step 2: Then enqueue the starting node A and set its STATUS = 2 (status 2 is waiting state).
 
-Step 3: Repeat Steps 4 and 5 until
-QUEUE is empty
+Step 3: Then we repeat Steps 4 and 5 until the QUEUE is empty(=null).
 
-Step 4: Dequeue a node N. Process it
-and set its STATUS = 3
-(processed state).
+Step 4: Then we dequeue a node N, process it and set its STATUS = 3 (status 3 is processed state).
 
-Step 5: Enqueue all the neighbours of
-N that are in the ready state
-(whose STATUS = 1) and set
-their STATUS = 2
-(waiting state)
+Step 5: Then we enqueue all the neighbouring nodes of node N that are in the ready state and we set their STATUS = 2.
 
-[END OF LOOP]
-
+[LOOP ENDS]
 Step 6: EXIT

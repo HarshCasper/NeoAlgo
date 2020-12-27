@@ -16,10 +16,8 @@ int majority(int arr[], int arrsize)
             }
         }
         // checking for majority
-        if (count > arrsize / 2) {
-
-            return arr[i];
-        }
+        if (count > arrsize / 2)
+            return arr[i];       
     }
     return -1;
 }
@@ -50,6 +48,6 @@ Enter no of elements:5
 Enter elements: 1 2 3 2 4
 There is no Majority.
 
-Time complexity : O(n*n)
-Space complexity: O(n)
+Time complexity : O(n^2)
+Space complexity: O(1)
 */

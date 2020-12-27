@@ -17,33 +17,30 @@ using namespace std;
 
 typedef long long int lli;
 
-lli PossibleBinaryTrees(int n)
+lli PossibleBinaryTrees(int number)
 {
-    lli *Dp=(lli *)malloc((n+1)*sizeof(lli));
+    lli *table=(lli *)malloc((number+1)*sizeof(lli));
+    table[0]=1,table[1]=1;                                      //Since number of trees that can be formed for n=0/1 is 1
     
-    Dp[0]=1,Dp[1]=1;                        //Since number of trees that can be formed for n=0/1 is 1
-    
-    for(int i=2;i<=n;i++)                   //Calculating possible number of binary trees for all i<=n and storing them for future use-Tabulation Method
+    for(int loop1=2;loop1<=number;loop1++)                      //Calculating possible number of binary trees for all i<=n and storing them for future use-Tabulation Method
     {
-        Dp[i]=0;
-        for(int j=0;j<i;j++)                //We loop over the possible splits from 0 to i-1
+        table[loop1]=0;
+        for(int loop2=0;loop2<i;loop2++)                        //We loop over the possible splits from 0 to i-1
         {
-            Dp[i]+=(Dp[j]*Dp[i-j-1]);
+            table[loop1]+=(table[loop2]*table[loop1-loop2-1]);
         }
     }
     
-    lli ans=Dp[n];
-    
-    free(Dp);
-    
-    return ans;
+    lli answer=table[number];
+    free(table);
+    return answer;
 }
 
-int main()                                  //Driver function
+int main()                                                      //Driver function
 {
-    int n;                                  //Enter length of preorder sequence
-    cin>>n;
-    cout<<PossibleBinaryTrees(n)<<endl;
+    int number;                                                 //Enter length of preorder sequence
+    cin>>number;
+    cout<<PossibleBinaryTrees(number)<<endl;
     return 0;
 }
 /* Sample input:-

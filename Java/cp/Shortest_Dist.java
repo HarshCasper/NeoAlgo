@@ -1,5 +1,6 @@
-/* Given a list of words and two words word1 and word2, find the shortest distance between those two words from the list.
- */
+
+// Given a list of words and two words word1 and word2, find the shortest distance between those two words from the list.
+
 import java.util.*;
 class Shortest_Dist {
     static List < String > arr;
@@ -69,22 +70,26 @@ class Shortest_Dist {
 
     }
 }
-/*Sample Input And Output : 
- * Enter the list of words 
-Words = 
+
+/*
+Sample Input And Output :
+Enter the list of words
+Words =
 practice
 makes
 perfect
 coding
 makes
 2
+Enter the words between which the shortest distance is to be calculated
 practice
 coding
- The shortest Distance between practice and coding is : 3
+The shortest Distance between practice and coding is : 3
+Enter the words between which the shortest distance is to be calculated
 coding
 makes
- The shortest Distance between coding and makes is : 1
- 
- Timple Complexity : O(n)
- Space Complexity : O(1)
- */
+The shortest Distance between coding and makes is : 1
+
+Timple Complexity : O(n)
+Space Complexity : O(1)
+*/

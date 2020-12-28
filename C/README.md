@@ -55,6 +55,7 @@
 - [Delete a linked list node function](ds/List_deletenode_func.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
+- [Doubly Linked List](ds/doubly_linked_list.c)
 
 ## Searching
 
@@ -108,6 +109,11 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Binary to Decimal](math/binary_to_decimal.c)
+- [Decimal to Binary](math/decimal_to_binary.c)
+- [Magic Number](math/magic_number.c)
+- [Palindrome Number](math/palindrome_number.c)
+- [Special Number](math/special_number.c)
 
 ## Other
 
@@ -120,6 +126,7 @@ _add list here_
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
+- [Compare Strings](other/compare_strings.c)
 
 ## CP
 

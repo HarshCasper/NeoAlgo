@@ -1,15 +1,6 @@
-#MODULES
-
-# Importing sys module to initalize the maxsize
-import sys
-# Importing collections model to access deque
-from collections import deque
-# Importing collections model to access defaultdict
-from collections import defaultdict
-
 ''' Euler-circuit-and-Path  '''
 '''
-Problem Statement :Eulerian Path is a path in graph that
+Problem Statement : Eulerian Path is a path in graph that
                    visits every edge exactly once.
                    Eulerian Circuit is an Eulerian
                    Path which starts and ends on the
@@ -18,7 +9,7 @@ Problem Statement :Eulerian Path is a path in graph that
                    exists the Euler Path or circuit
                    or none in given undirected graph.
 
-Input :First line consists of test cases T. First
+Input : First line consists of test cases T. First
        line of every test case consists of 2
        integers V and E, denoting the number of
        vertex and edges. Second line of every test
@@ -26,10 +17,20 @@ Input :First line consists of test cases T. First
        the edge connected.
 
 
-Output :Return the int value to print 1 if Euler path
+Output : Return the int value to print 1 if Euler path
         exists print 2 if Euler cycle exists else 0.
 
+Time Complexity : O(V+E)
+Time Complexity : O(N)
+
+
 '''
+#MODULES
+
+# Importing sys module to initalize the maxsize
+import sys
+# Importing collections model to access deque and defaultdict
+from collections import deque, defaultdict
 
 # Assigning max value a variable can take
 INT_MAX = sys.maxsize - 1
@@ -62,7 +63,7 @@ def Eulerpath(G, no_of_vertices, no_of_edges):
     # G is G.graph
     Nodes_odd_degree = 0
     for node, connectednodes in G.items():
-        if len(connectednodes) %2 == 1:
+        if (len(connectednodes) %2 == 1):
             Nodes_odd_degree = Nodes_odd_degree + 1
         if Nodes_odd_degree > 2 :
             return 0
@@ -70,7 +71,9 @@ def Eulerpath(G, no_of_vertices, no_of_edges):
         return 2
     else:
         return 1
-    
+
+# -----------------------Driver Code-----------------------
+
 
 # MAIN Function
 

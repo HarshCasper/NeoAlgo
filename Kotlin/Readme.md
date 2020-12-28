@@ -12,6 +12,7 @@
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
+- [Shell Sort](sort/ShellSort/src/ShellSort.kt)
 
 ## Maths
 

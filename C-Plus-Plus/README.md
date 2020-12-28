@@ -121,6 +121,7 @@
 ## Stack based problems
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+- [Stack using Queue](stack/stack_using_queue.cpp)
 
 ## Machine Learning
 

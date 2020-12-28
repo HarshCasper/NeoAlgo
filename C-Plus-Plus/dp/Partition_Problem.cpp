@@ -1,4 +1,8 @@
 //Partition problem
+/*Partition problem is to determine whether a given set can be partitioned into two subsets
+such that the sum of elements in both subsets is the same. 
+*/
+
 #include <bits/stdc++.h> 
 using namespace std;
 
@@ -20,13 +24,15 @@ void input()
 void calSum()
 {
 	sum = accumulate(arr, arr+size, 0);
-		
-	table=new int*[sum/2+1];		//Initializing memory for DP Table
+	
+	//Initializing memory for DP Table	
+	table=new int*[sum/2+1];		
 	for(int i = 0; i <= size; ++i)
       table[i] = new int[sum/2+1];
 
 
-	for(int i=0;i<size+1;i++)		//Initializing all the cells of table to -1
+	//Initializing all the cells of table to -1
+	for(int i=0;i<size+1;i++)		
     {  
 		for(int j=0;j<sum/2+1;j++)
            table[i][j]=-1;           
@@ -119,7 +125,8 @@ int main()
 {       
 	input();
 	calSum(); 
-	if (sum%2!=0) { 				//If sum is not even then no such partition exist
+	//If sum is not even then no such partition exist
+	if (sum%2!=0) { 				
 		cout << " No such partition exist"; 
 		return 0;
 	}    
@@ -128,6 +135,8 @@ int main()
 	display();	
 	return 0; 
 } 
+
+
 
 /*
 Input:
@@ -141,5 +150,5 @@ Set 1 elements: 3 3 1
 Set 2 elements: 2 3 2
 
 Complexity:
-Time:2^n
+Time:O(2^n)
 */

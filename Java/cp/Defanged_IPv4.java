@@ -6,7 +6,7 @@ Output : "1[.]1[.]1[.]1[.]"
 Input : "255.100.50.0"
 Output : "255[.]100[.]50[.]0[.]"*/
 import java.util.*;
-class GC3 {
+class Defanged_IPv4 {
     public static void main(String args[]) {
         int c = 0;
         Scanner sc = new Scanner(System.in);

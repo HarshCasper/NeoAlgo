@@ -140,7 +140,6 @@ _add list here_
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 
-
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)

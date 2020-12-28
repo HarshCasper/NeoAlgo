@@ -140,6 +140,7 @@ _add list here_
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 
+
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
@@ -158,6 +159,7 @@ _add list here_
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
+- [Sprague Grundy Theorem](dp/Sprague_Grundy_Theorem.cpp)
 
 ## Blockchain
 

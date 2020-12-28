@@ -22,7 +22,6 @@ MOD = int(1e9 + 7)
 
 
 def num_of_ways_with_obstacles(grid, n, m):
-    
     dp = [[0] * m for _ in range(n)]
     for i in range(n):
         for j in range(m):
@@ -37,5 +36,4 @@ def num_of_ways_with_obstacles(grid, n, m):
                     if grid[i][k] != '.':
                         break
                     dp[i][j] = (dp[i][j] + dp[i][k]) % MOD
-                    
     return dp[n - 1][m - 1]

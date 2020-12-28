@@ -1,40 +1,21 @@
 """
 This script takes two input strings and compare them to check if they are anagrams or not.
 """
+def mysort(s):    	#function that splits the letters
+	d=sorted(s)
+	s=''.join(d)
+	return s
 
-def check_anagrams(first_string, second_string):
+s1=input("enter first word ")
+n1=mysort(s1) #function invocation /calling the function
+
+s2=input("enter second word ")
+n2=mysort(s2)
+
+if n1.lower()==n2.lower():
+	print(s1," and ",s2," are anagrams")
+else:
+	print(s1," and ",s2," are not anagrams")
+
+
     
-    #If the length of both these words dont match then they cant be anagrams
-    if len(first_string) == len(second_string):
-        
-        #Sort both the strings and check their equality
-        first_string = sorted(first_string.lower())
-        second_string = sorted(second_string.lower())
-        
-        if first_string == second_string:
-            print("These two words are anagrams")
-        else:
-            print("These two words are not anagrams")
-               
-    else:
-        print("These two words are not anagrams")
-        
-def main():
-    first_string = input("Enter a word: ")
-    second_string = input("Enter another one: ")
-
-    check_anagrams(first_string, second_string)
-
-main()    
-
-#Sample Input-Output:
-
-#Sample 1
-#Inputs: "silent" and "listen"
-
-#Output: These two words are anagrams
-
-#Sample 2
-#Inputs: "july" and "june"
-
-#Output: These two words are  not anagrams

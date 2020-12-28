@@ -1,6 +1,7 @@
 name: 'Auto Assign Reviewers to Pull Requests'
-on: pull_request
-
+on:
+  pull_request:
+    types: [opened, reopened]
 jobs:
   add-reviews:
     runs-on: ubuntu-latest

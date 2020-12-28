@@ -203,6 +203,7 @@
 
 ## Graphs
 
+- [Breadth First Search](graphs/BFS.py)
 - [Depth of Tree](graphs/Depth_Of_Tree.py)
 - [Height of Tree](graphs/height_of_given_tree.py)
 <<<<<<< HEAD
@@ -251,8 +252,7 @@
 >>>>>>> 78e353d (Python README.md Re-Structured (#1623))
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
-
-- [Breadth First Search](graphs/BFS.py)
+- [Bellman Ford](graphs/Bellman_Ford.py)
 
 ## Competitive Programming
 

@@ -57,7 +57,7 @@ int main()
 {
 	int no_element;
 	cout << "Enter the no of element to be sorted: "; 
-  cin >> no_element;
+  	cin >> no_element;
 	int a[no_element];
 
 	// taking input 

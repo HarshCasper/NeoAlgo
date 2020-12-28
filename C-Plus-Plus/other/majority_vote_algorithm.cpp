@@ -6,20 +6,27 @@ using namespace std;
 
 // To find majority element
 int majority(int arr[], int arrsize) {
-	int count = 0;
-	for (int i = 0; i < arrsize - 1; i++) {
-		count = 1;
-		for (int j = i + 1; j < arrsize; j++) {
-			// Counting occurance of elements.
-			if (arr[j] == arr[i]) {
-				count++;
-			}
+	int index = 0, count = 1;
+	// finding num to check majority
+	for (int i = 1; i < arrsize; i++) {
+		if (arr[index] == arr[i])
+			count++;
+		else
+			count--;
+		if (count == 0) {
+			index = i;
+			count = 1;
 		}
-		// checking for majority
-		if (count > arrsize / 2)
-			return arr[i];
 	}
-	return -1;
+	int num = arr[index];
+	for (int i = 0; i < arrsize; i++)
+		if (arr[i] == num)
+			count++;
+	// checking for majority
+	if (count > arrsize / 2)
+		return num;
+	else
+		return -1;
 }
 
 int main() {
@@ -32,22 +39,21 @@ int main() {
 		cin >> arr[i];
 	int result = majority(arr, n);
 	if (result != -1)
-		cout << "Majority of a sequence is" << result << endl;
+		cout << "Majority of a sequence is " << result << endl;
 	else
 		cout << "There is no majority \n";
 	return 0;
 }
 
-/*
-input/output:
-Enter no of elements:5
-Enter elements: 1 1 1 1 2
-Majority of a sequence is 1
+/*input/output:
+ Enter no of elements:5
+ Enter elements: 1 1 1 1 2
+ Majority of arr sequence is 1
 
-Enter no of elements:5
-Enter elements: 1 2 3 2 4
-There is no Majority.
+ Enter no of elements:5
+ Enter elements: 1 2 3 2 4
+ There is no Majority.
 
-Time complexity : O(n^2)
-Space complexity: O(1)
-*/
+ Time complexity : O(n)
+ Space complexity: O(1)
+ */

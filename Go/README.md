@@ -58,9 +58,9 @@ _add list here_
 
 ## Other
 
-* [Tower of Hanoi](./other/Tower_of_Hanoi.go)
-* [Huffman Coding](./other/Huffman_coding.go)
-* [KMP Algorithm](./other/KMPalgorithm.go)
+- [Tower of Hanoi](./other/Tower_of_Hanoi.go)
+- [Huffman Coding](./other/Huffman_coding.go)
+- [KMP Algorithm](./other/KMPalgorithm.go)
 
 ## Searching
 

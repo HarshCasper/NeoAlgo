@@ -84,6 +84,7 @@
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
+- [Grid With Obstacles+any number of moves downward or forward](dp/create num_of_ways_with_obstacles_DP.py)
 
 
 ## Graphs

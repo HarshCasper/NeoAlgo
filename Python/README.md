@@ -88,6 +88,7 @@
 
 ## Graphs
 
+- [Breadth First Search](graphs/BFS.py)
 - [Depth of Tree](graphs/Depth_Of_Tree.py)
 - [Height of Tree](graphs/height_of_given_tree.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
@@ -106,8 +107,7 @@
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
-
-- [Breadth First Search](graphs/BFS.py)
+- [Bellman Ford](graphs/Bellman_Ford.py)
 
 ## Competitive Programming
 

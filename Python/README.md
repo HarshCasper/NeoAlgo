@@ -68,6 +68,7 @@
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
 - [Sudoku Solver](backtracking/sudokuSolver.py)
 - [Subset Sum](backtracking/Subset_Sum.py)
+- [Rat-In-Maze problem](backracking/RatInMaze.py)
 
 
 ## Dynamic Programming
@@ -79,6 +80,7 @@
 - [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
+- [Knapsack 0-1](dp/Knapsack_01.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
@@ -86,6 +88,7 @@
 
 ## Graphs
 
+- [Breadth First Search](graphs/BFS.py)
 - [Depth of Tree](graphs/Depth_Of_Tree.py)
 - [Height of Tree](graphs/height_of_given_tree.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
@@ -104,7 +107,7 @@
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
-
+- [Bellman Ford](graphs/Bellman_Ford.py)
 
 ## Competitive Programming
 

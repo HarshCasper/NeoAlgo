@@ -121,6 +121,7 @@
 ## Stack based problems
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+- [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 
 ## Machine Learning
 
@@ -191,4 +192,3 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
-- [Stock Span Problem](other/Stock_span_problem.cpp)

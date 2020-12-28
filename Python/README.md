@@ -25,6 +25,8 @@
 - [Reverse Linked List](ds/Reverse_linked_list.py)
 - [Linked List Intersection](ds/linkedListIntersection.py)
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
+- [Queue](ds/Queue.py)
+- [Stack2](ds/Stack2.py)
 
 
 ## Searching
@@ -129,6 +131,11 @@
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
+- [Anagram Checker](cp/anagram_checker.py)
+- [Count occurence of each letter in word](cp/LetterCount.py)
+- [Count the number of vowels and consants in a string](cp/VowelsConsants.py)
+
+
 
 
 ## Cryptography
@@ -206,5 +213,6 @@ _add list here_
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+
 
 ## [Coding Template for Contribution](Code_Template.md)

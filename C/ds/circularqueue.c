@@ -1,44 +1,56 @@
-#include <stdio.h> //headers
+//headers
+#include <stdio.h> 
 #include <stdbool.h>
-#define size 5  //the size of the queue we are taking here
+//defining the size of the queue we are taking here
+#define size 5  
 
-typedef struct //defining a structure
+//defining a structure
+typedef struct 
 {
-    int data[5]; // creating the queu structure with data, front and rear nodes pointing to front and the last(behind) node
-    int front;//a node containg the value of a pointer/address pointing to the front node
-    int rear;//a node containing the value of a pointer/address pointing to the back/behind/rear node
+    // creating the queue structure with data, front and rear nodes pointing to front and the last(behind) node
+    int data[5]; 
+    
+    //a node containg the value of a pointer/address pointing to the front node
+    int front;
+    
+    //a node containing the value of a pointer/address pointing to the back/behind/rear node
+    int rear;
 } mainf;
 
-mainf st;//the name of the structure
-//we will be referencing our structure with st in the code below
+//the name of the structure
+mainf queuestructure;
 
 //In the circular queue, in the last node, the front pointer points to the first node.
-
 int enque(int number)
-{ // adding a value to the queue
-    if (st.front == st.rear + 1) //if the queue is full user cant add anything more
+{ 
+    //adding a value to the queue
+    //if the queue is full user cant add anything more
+    if (queuestructure.front == queuestructure.rear + 1) 
     {
         printf("Queue is full!\n");
     }
-    else if (st.rear == size - 1)
+    else if (queuestructure.rear == size - 1)
     {
-        st.rear = 0;
+        queuestructure.rear = 0;
         printf("Rear resetted to one.\n");
     }
     else
     {
-        st.rear++;
-        st.data[st.rear] = number; //adding the value to the queue
-        printf("%d -> Added! \n", st.data[st.rear]);
+        queuestructure.rear++;
+        //adding the value to the queue
+        queuestructure.data[queuestructure.rear] = number; 
+        printf("%d -> Added! \n", queuestructure.data[queuestructure.rear]);
     }
 }
 
+
 void dequeue()
-// removing a specific node fromt he queue
+//removing a specific node from the queue
 {
+    //the element which is being removed
     int out;
-    st.front++;
-    out = st.data[st.front];
+    queuestructure.front++;
+    out = queuestructure.data[queuestructure.front];
 
     printf("%d -> Removed! \n", out);
 }
@@ -46,15 +58,17 @@ void dequeue()
 int main(void)
 {
     int user, value;
-    st.front = -1; //setting the front pointer to null
-    st.rear = -1; //setting the rear pointer to null
-    // this means that our queue is empty rn
+    //setting the front pointer to null
+    queuestructure.front = -1; 
+    //setting the rear pointer to null
+    queuestructure.rear = -1; 
+    //this means that our queue is empty at the beginning
     bool out = true;
-    //to ensure user selects some good/valid option from below
 
     printf("Enter 1 to enqueue queue.\n");
     printf("Enter 2 to dequeue queue.\n");
     printf("Enter 3 to exit.\n");
+    
     while (out = true)
     {
         scanf("%d", &user);
@@ -63,19 +77,15 @@ int main(void)
         {
             printf("Enter a value to enqueue : ");
             scanf("%d", &value);
-            enque(value);//entering an element at the back
+            //entering an element at the back
+            enque(value);
             out = true;
         }
         else if (user == 2)
         {
-            dequeue();//to remove the first element
+            //to remove the first element
+            dequeue();
             out = true;
-
-        }
-        else if (user == 3)
-        {
-            out == false;
-            return 0;
         }
         else
         {
@@ -84,3 +94,27 @@ int main(void)
         }
     }
 }
+
+
+/*
+Output:
+
+Enter 1 to enqueue queue.                                                                                                                       
+Enter 2 to dequeue queue.                                                                                                                       
+Enter 3 to exit.                                                                                                                                
+1                                                                                                                                               
+Enter a value to enqueue : 11                                                                                                                   
+11 -> Added!                                                                                                                                    
+1                                                                                                                                               
+Enter a value to enqueue : 12                                                                                                                   
+12 -> Added!                                                                                                                                    
+1                                                                                                                                               
+Enter a value to enqueue : 14                                                                                                                   
+14 -> Added!                                                                                                                                    
+1                                                                                                                                               
+Enter a value to enqueue : 13                                                                                                                   
+13 -> Added!                                                                                                                                    
+2                                                                                                                                               
+11 -> Removed!                                                                                                                                  
+3    
+*/

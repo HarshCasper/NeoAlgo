@@ -35,8 +35,8 @@
 | TheHurdleRace            | [Problem](https://www.hackerrank.com/challenges/the-hurdle-race/problem)                                                                           | [Solution](TheHurdleRace.py)           | Python3  |
 | Time Conversion          | [Problem](https://www.hackerrank.com/challenges/time-conversion)                                                                                   | [Solution](TimeConversion.py)          | Python3  |
 | Compare the triplets     | [Problem](hackerrank.com/challenges/compare-the-triplets/problem)                                                                                  | [Solution](Compare_the_Triplets.py)    | Python3  |
-|Arrays-DS                   |[Problem](https://www.hackerrank.com/challenges/arrays-ds/problem)        [Solution](Arrays-DS.py)     | Python3    | 
-|Left-Rotation               |[Problem](https://www.hackerrank.com/challenges/array-left-rotation/problem)   [Solution](Left_Rotation.c) |  C  |
-|Sparse Arrays               |[Problem](https://www.hackerrank.com/challenges/sparse-arrays/problem)[Solution](Sparse_Arrays.py)|Python3    |
-|Delete duplicate-value nodes from linkedlist  |[Problem](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem)[Solution](Delete_duplicate_linkedlist.py)|Python 3|
-|Binary Search Tree : Lowest Common Ancestor|[Problem](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem)[Solution](BST-LowestCommonAncestor.py)|Python3 |
+|Arrays-DS                   |[Problem](https://www.hackerrank.com/challenges/arrays-ds/problem)                                                                         [Solution](Arrays-DS.py)     | Python3    | 
+|Left-Rotation               |[Problem](https://www.hackerrank.com/challenges/array-left-rotation/problem)                                                               [Solution](Left_Rotation.c) |  C  |
+|Sparse Arrays               |[Problem](https://www.hackerrank.com/challenges/sparse-arrays/problem)                                                                    [Solution](Sparse_Arrays.py)|Python3    |
+|Delete duplicate-value nodes from linkedlist  |[Problem](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem)          [Solution](Delete_duplicate_linkedlist.py)|Python 3|
+|Binary Search Tree : Lowest Common Ancestor|[Problem](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem)                          [Solution](BST-LowestCommonAncestor.py)|Python3 |

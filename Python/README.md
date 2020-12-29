@@ -16,6 +16,34 @@
 - [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
 - [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+- [Trie](ds/Trie.py)
+
+## Competitive Programming
+
+- [Anagram Checker](cp/anagram_checker.py)
+- [Find Least positive number](cp/findingLeastPositiveNumber.py)
+- [KMP Algorithm](cp/KMP_Algorithm.py)
+- [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
+- [Longest Common Prefix](cp/longest_Common_Prefix.py)
+- [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
+- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
+- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+- [Target sum triplet](cp/Target_Sum_Triplet.py)
+- [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+- [Maximum sum rectangle](cp/max_sum.py)
+- [Maximum Water Container](cp/Maximum_Water_Container.py)
+- [Smallest sum subarray](cp/smallest_sum_array.py)
+- [Count ways to Nth stair(Staircase Problem)](cp/staircase_problem.py)
+- [Delete a node from linked list](cp/delete_node.py)
+- [Rain Water Harvesting](cp/rainwater_harvesting.py)
+- [Search Insert Position](cp/search_insert_position.py)
+
+## Cryptography
+- [Affine Cipher](cryptography/AffineCipher.py)
+- [Caesar Cipher](cryptography/Caesar_Cipher.py)
+- [Vigenere Cipher](cryptography/vigenere_cipher.py)
+- [RSA Algorithm](cryptography/RSA_Algorithm.py)
 - [Perorder Traversal](ds/Tree_preOrder_traversal.py)
 - [Inorder Traversal](ds/Tree_Iterative_InOrder_Traversal.py)
 - [Postorder Traversal](ds/Binary_tree_post_order.py)
@@ -80,6 +108,7 @@
 - [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
+- [Knapsack 0-1](dp/Knapsack_01.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
@@ -87,6 +116,7 @@
 
 ## Graphs
 
+- [Breadth First Search](graphs/BFS.py)
 - [Depth of Tree](graphs/Depth_Of_Tree.py)
 - [Height of Tree](graphs/height_of_given_tree.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
@@ -105,7 +135,7 @@
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
-
+- [Bellman Ford](graphs/Bellman_Ford.py)
 
 ## Competitive Programming
 

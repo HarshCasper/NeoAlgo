@@ -1,5 +1,6 @@
-''' Euler-circuit-and-Path  '''
-'''
+''' 
+Euler-circuit-and-Path
+
 Problem Statement : Eulerian Path is a path in graph that
                    visits every edge exactly once.
                    Eulerian Circuit is an Eulerian
@@ -23,9 +24,7 @@ Output : Return the int value to print 1 if Euler path
 Time Complexity : O(V+E)
 Time Complexity : O(N)
 
-
 '''
-#MODULES
 
 # Importing sys module to initalize the maxsize
 import sys
@@ -37,10 +36,7 @@ INT_MAX = sys.maxsize - 1
 # Initialize Infinity
 INF = 9999999
 
-# FUNCTIONS
 # Create The graph
-
-
 class Graph():
 
     # Add the vertices of the graph
@@ -57,8 +53,6 @@ class Graph():
         self.graph[u].append(v)
 
 # Check for Euler Path
-
-
 def Eulerpath(G, no_of_vertices, no_of_edges):
     # G is G.graph
     Nodes_odd_degree = 0
@@ -74,17 +68,12 @@ def Eulerpath(G, no_of_vertices, no_of_edges):
 
 # -----------------------Driver Code-----------------------
 
-
-# MAIN Function
-
-# INPUTS
-
 no_of_vertices = int(input("Enter the number of vertices: "))
 no_of_edges = int(input("Enter the number of edges: "))
 # Create the graph
 G = Graph(no_of_vertices)
 # Enter the 2*Edge no of vertices
-print("Enter the vertices of the edges.")
+print("Enter the vertices of the edges:")
 edges = list(map(int, input().strip().split()))
 # Add the undirected graphs from u to v
 for i in range(0, len(edges), 2):
@@ -92,16 +81,15 @@ for i in range(0, len(edges), 2):
     G.addEdge(u, v)
     G.addEdge(v, u)
 
-
 # OUTPUT
-
 if (Eulerpath(G.graph, no_of_vertices, no_of_edges) == 1):
     print ("The Euler path exists.")
 elif (Eulerpath(G.graph, no_of_vertices, no_of_edges) == 0):
     print ("The Euler path does not exists.")
 
-# SAMPLE
 '''
+SAMPLE INPUT/OUTPUT:
+
 INPUT
 
     Enter the number of vertices: 5

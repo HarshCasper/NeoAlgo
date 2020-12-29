@@ -9,7 +9,7 @@ Time Complexity:  O(N+M)
 Space Complexity: O(N)
 */
 
-//                                 **********************Find The Number Of Islands In The Graph***************************
+//                                 **********************Number of Connected Components In a Graph***************************
 
 #include<bits/stdc++.h>
 using namespace std;

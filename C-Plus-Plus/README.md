@@ -122,6 +122,7 @@
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
+- [Stock Span Problem](stack/Stock_span_problem.cpp)
 
 ## Machine Learning
 

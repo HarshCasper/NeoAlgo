@@ -14,6 +14,7 @@
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
+- [Moore Algorithm](Algorithm/Moore_Algorithm.java)
 
 ## Greedy Algorithms
 
@@ -25,6 +26,13 @@ _add list here_
 
 ## Competitive programming
 
+
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+* [ZigZag](cp/Zig_Zag.java)
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
@@ -37,6 +45,7 @@ _add list here_
 - [Remove Duplicate Element from an array without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 - [Spiral Matrix](cp/Spiral_Matrix.java)
 - [String to Int(atoi)](cp/String_to_int.java>)
+- [Count Ways to Nth Stair](cp/Staircase_problem.java)
 - [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 - [Check for Subsequence](cp/CheckForSubSequence.java)
@@ -44,10 +53,22 @@ _add list here_
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
+- [Suduko Solver](cp/SudukoSolver.java)
+- [Ugly Number With Recursion](cp/UglyRecursion.java)
+- [PDDI Using Recursion](cp/ArmStrongRecursion.java)
+- [NQueens Problem](cp/NQueens.java)
+- [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
+- [Shortest Distance Between Words](cp/Shortest_Dist.java)
+
 
 ## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
+- [Modified Caesar Cipher](cryptography/ModifiedCaesarCipher.java)
+- [Homophonic Cipher](cryptography/HomophonicCipher.java)
+- [Rail Fence Cipher](cryptography/RailFenceCipher.java)
+- [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
+- [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
 
 ## Dynamic Programming
 
@@ -55,6 +76,7 @@ _add list here_
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [LCS](dp/LCS.java)
 - [Flood Fill Algorithm](dp/flood_fill.java)
+- [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 
 ## Data Structures
 
@@ -81,6 +103,8 @@ _add list here_
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
+- [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
+- [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 
 ## Mathematics
 
@@ -96,7 +120,12 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
+- [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
+- [Strong Number Using Recursion](math/check_strong_number.java)
+- [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
+- [Factorial Using BigInteger](FactorialUsingBigInteger.java)
 
 ## Dynamic Programming
 
@@ -107,6 +136,7 @@ _add list here_
 - [CoinChange DP](dp/Coin_Change.java)
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
+- [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 
 ## Blockchain
 
@@ -121,6 +151,7 @@ _add list here_
 - [Linear Search](search/Linear_search.java)
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)
 - [Stack Search](search/Stack_Search.java)
+- [Bilinear Search](search/Bilinear_Search.java)
 
 ## Sorting
 
@@ -136,6 +167,8 @@ _add list here_
 - [PancakeSort](sort/PancakeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
+- [Radix Sort](sort/RadixSort.java)
+- [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 
 ## Machine Learning
 

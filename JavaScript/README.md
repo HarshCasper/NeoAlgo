@@ -12,6 +12,7 @@
 ## Algorithms
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)
 - [Z Algorithm](Algorithms/ZAlgorithm.js)
+- [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 
 ## Data Structures
 
@@ -45,6 +46,7 @@ _add list here_
 - [Catalan Number](./math/catalan_number.js)
 - [Count Number of Digits in an Integer](./math/CountDigits_Integer.js)
 - [Double Factorial](./math/DoubleFactorial.js)
+- [Armstrong Number](./math/ArmstrongNumbers.js)
 - [Binary Exponentiation](./math/bin_exp.js)
 
 ## Competitive Programming

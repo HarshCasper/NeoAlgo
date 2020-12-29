@@ -85,6 +85,7 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Depth First Search Algorithm](graphs/DFS.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
@@ -122,6 +123,7 @@
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
+- [Stock Span Problem](stack/Stock_span_problem.cpp)
 
 ## Machine Learning
 
@@ -156,6 +158,8 @@ _add list here_
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 - [Maximum Subarray Sum](dp/Max_subarray_sum(DP).cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Partition Problem](dp/Partition_Problem.cpp)
+- [Egg Dropping Problem](dp/Egg_Dropping.cpp)
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)

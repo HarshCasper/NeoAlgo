@@ -5,7 +5,7 @@
 
 ## Overview
 
-The goal of this project is to have in a single place all possible algorithms and data structures - in multiple languages. We aim to achieve this collaboratively, so feel free to contribute in any way you want, just make sure to follow the contribution guidelines listed below.
+The goal of this project is to have in a single place for all possible algorithms and data structures - in multiple languages. We aim to achieve this collaboratively, so feel free to contribute in any way you want, just ensure to follow the contribution guidelines listed below point_down:.
 
 In case you have any questions, feel free to tag one of the repo admins in your issue/PR (**don't assign us to any issue!**): Syed Farhan(@born-2learn), Ricardo Prins(@ricardoprins), Harsh Mishra(@HarshCasper).
 

@@ -1,5 +1,5 @@
 import java.util.*;
-class Defanged_IPv4 {
+class Main {
     public static void main(String args[]) {
         int c = 0;
         Scanner sc = new Scanner(System.in);
@@ -17,9 +17,10 @@ class Defanged_IPv4 {
     }
 }
 
-/* Sample Input and Output : 
+/*
+Sample Input and Output :
 
- * Enter IPv4 address
+Enter IPv4 address
 1.1.1.1
 Defanged IPv4 address : 1[.]1[.]1[.]1
 Enter IPv4 address
@@ -29,6 +30,6 @@ Enter IPv4 address
 1.1.1.1.
 Not a valid IPv4 address
 
-Time Complexity : O(n) where n=s.length();
-Space Complexity : O(1)
- */
+Time Complexity: O(n) where n is the length of address
+Space Complexity: O(1)
+*/

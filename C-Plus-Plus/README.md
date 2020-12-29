@@ -43,6 +43,8 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
+- [Josephus Problem](cp/Josephus.cpp)
+- [NQueens](cp/NQueens.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 
@@ -84,6 +86,7 @@
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
+- [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
@@ -119,7 +122,7 @@
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
-- [Check for balanced parenthesis](stack/Median_in_a_running_stream_of_integers.cpp)
+- [Stock Span Problem](stack/Stock_span_problem.cpp)
 
 ## Heaps based problems
 
@@ -170,6 +173,7 @@ _add list here_
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
+- [Vernam Cipher](cryptography/VernamCipher.cpp)
 
 ## Computational Geometry
 

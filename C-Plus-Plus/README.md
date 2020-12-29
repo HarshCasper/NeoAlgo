@@ -108,6 +108,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/Bubble_Sort.cpp)
+- [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
 - [Insertion Sort](sort/insertion.cpp)

@@ -3,25 +3,28 @@
   
 
   if MaximizingPlayer then      // for Maximizer Player  
-     maxEva= -infinity            
+     tempalpha= -infinity            
      for each child of node 
      do  
-       eva= minimax(child, depth-1, alpha, beta, False)  
+       eva= minimax(child, depth-1, alpha, beta, false)  
        
-    maxEva= max(maxEva, eva)   
-    alpha= max(alpha, maxEva)      
+    maxEva= max(tempalpha, eva)   
+    alpha= max(alpha, eva)      
     
     if beta<=alpha  
       break  
-   return maxEva  
+    return maxEva  
    
 
   else                         // for Minimizer player  
-     minEva= +infinity   
-     for each child of node do  
-     eva= minimax(child, depth-1, alpha, beta, true)  
-     minEva= min(minEva, eva)   
+     tempbeta= +infinity   
+     for each child of node 
+     do  
+       eva= minimax(child, depth-1, alpha, beta, true)  
+     
+     minEva= min(tempbeta, eva)   
      beta= min(beta, eva)  
-      if beta<=alpha  
-    break          
-   return minEva  
+     
+     if beta<=alpha  
+       break          
+     return minEva  

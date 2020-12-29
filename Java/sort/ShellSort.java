@@ -10,34 +10,25 @@ import java.util.Scanner;
 */
 
 public class ShellSort 
-{ 
-	static void printArray(int arr[]) 
+{
+	int shellsort(int arr[], int n) 
 	{ 
-		//function to print the elements of the array
-  
-		int n = arr.length; 
-		for (int i=0; i<n; ++i) 
-			System.out.print(arr[i] + " "); 
-		
-		System.out.println(); 
-	} 
-
-	int sort(int arr[]) 
-	{ 
-		int n = arr.length; 
-
+		//here n is the size of the array
 		//initially gap = n/2
-		for (int gap = n/2; gap > 0; gap /= 2) 	
+		for (int gap = n/2; gap > 0; gap = gap/2) 	
 		{ 
-			for (int i = gap; i < n; i += 1) 
+			for (int i = gap; i < n; i++) 
 			{
-				//decreasing by gap/2
-				int temp = arr[i]; 
-				int j; 
-				for (j = i; j >= gap && arr[j - gap] > temp; j -= gap) 
-					arr[j] = arr[j - gap]; 
-				//swapping the contents of arr[i] and arr[j]
-				arr[j] = temp; 
+				//decreasing the gap
+				int k = arr[i];
+                		int j = i;
+                
+				while (j >= gap && arr[j - gap] > k) 
+				{
+				    arr[j] = arr[j - gap];
+				    j = j - gap;
+				}
+				arr[j] = k;	
 			} 
 		} 
 		return 0; 
@@ -52,23 +43,28 @@ public class ShellSort
 		int n = sc.nextInt();
 		
 		//declaring an array of n elements
-        	int arr[] = new int[n];
+        	int array[] = new int[n];
 		
 		//taking the input from the user
 		for(int i=0;i<n;i++)
 		{
 			System.out.print("\n" + i + "'th element : ");
-			arr[i] = sc.nextInt();
+			array[i] = sc.nextInt();
 		}
 		
 		System.out.println("\nArray before sorting"); 
-		printArray(arr); 
-
-		ShellSort ob = new ShellSort(); //creating an object of shellsort class so that the methods inside shellsort class can be used
-		ob.sort(arr); 
-
-		System.out.println("Array after sorting"); 
-		printArray(arr); 
+		for (int j=0; j<n; j++) 
+			System.out.print(array[j] + " "); 
+		
+		
+		//creating an object of shellsort class so that the methods inside shellsort class can be used
+		ShellSort object = new ShellSort(); 
+		object.shellsort(array,n);
+		
+		System.out.println("\nArray after sorting"); 
+		for (int k=0; k<n; k++) 
+			System.out.print(array[k] + " "); 
+		
 	} 
 }
 /*

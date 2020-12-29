@@ -1,7 +1,7 @@
 /*
 Given a Binary Search Tree, the program finds the Youngest and Oldest 
 member of given two numbers.
-Youngest member is the Parent of the given 2 nodes if they are siblings.
+Youngest member is the Parent of the given 2 nodes only if they are siblings.
 Oldest member is the root node of the BST.
 */
 

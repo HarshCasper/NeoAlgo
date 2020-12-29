@@ -1,6 +1,8 @@
 /*
 Given a Binary Search Tree, the program finds the Youngest and Oldest 
 member of given two numbers.
+Youngest member is the Parent of the given 2 nodes if they are siblings.
+Oldest member is the root node of the BST.
 */
 
 #include<iostream>
@@ -37,7 +39,8 @@ BST *arr_to_BST(int arr[20], int beg, int end)
 		return NULL;
 }
 
-void Display_BST(BST *ptr) //function to print Binary Search Tree
+//function to print Binary Search Tree
+void Display_BST(BST *ptr) 
 {
 	cout<<"\na:"<<ptr->a;
 	
@@ -138,3 +141,43 @@ int main()
 	}
 	return 0;
 }
+
+/*
+For example:
+The sample output screen will be:
+
+Enter number of elements:7
+
+Enter sorted array:
+12 34 45 56 67 78 89
+
+a:56    left:34 right:78
+a:34    left:12 right:45
+a:12
+a:45
+a:78    left:67 right:89
+a:67
+a:89
+
+//the program runs for n test cases
+Enter number of test cases:3
+
+Enter first number:78
+
+Enter second number:89
+
+eldest:56
+youngest:56
+Enter first number:12
+
+Enter second number:45
+
+eldest:56
+youngest:34
+
+Enter first number:34
+
+Enter second number:78
+
+eldest:56
+*/

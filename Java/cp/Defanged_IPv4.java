@@ -1,10 +1,3 @@
-/* Given a valid (IPv4) IP address, return a defanged version of of that IP address. A defanged IP address replaces every period "." with "[.]".
-
-Input : address : "1.1.1.1"
-Output : "1[.]1[.]1[.]1[.]"
-
-Input : "255.100.50.0"
-Output : "255[.]100[.]50[.]0[.]"*/
 import java.util.*;
 class Defanged_IPv4 {
     public static void main(String args[]) {
@@ -25,6 +18,7 @@ class Defanged_IPv4 {
 }
 
 /* Sample Input and Output : 
+
  * Enter IPv4 address
 1.1.1.1
 Defanged IPv4 address : 1[.]1[.]1[.]1
@@ -34,6 +28,7 @@ Defanged IPv4 address : 2500[.]100[.]50[.]0
 Enter IPv4 address
 1.1.1.1.
 Not a valid IPv4 address
+
 Time Complexity : O(n) where n=s.length();
 Space Complexity : O(1)
  */

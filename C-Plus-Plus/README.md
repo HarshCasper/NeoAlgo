@@ -118,7 +118,7 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
-
+- [Counting Sort](sort/counting_sort.cpp)
 ## Stack based problems
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)

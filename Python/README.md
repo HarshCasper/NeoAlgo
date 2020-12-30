@@ -395,6 +395,7 @@ _add list here_
 ## Other
 
 - [Check Inversion](other/Check_Inversion.py)
+- [Count Inversions](other/Count_Inversion.py)
 - [Distinct Elements Count](other/Distinct_elements_count.py)
 - [Find frequency using Binary Search](other/find_freq_using_bs.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)

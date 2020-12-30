@@ -83,10 +83,10 @@ Sample Input 1:
 Sample Output 1:
 2 24 45 66 75 90 175 802
 
-Sample Input 1: 
+Sample Input 2: 
 8
 175 -45 -75 90 -802 24 1 66
-Sample Output 1:
+Sample Output 2:
 2 24 45 66 75 90 175 802
 
 Time complexity : O(n)

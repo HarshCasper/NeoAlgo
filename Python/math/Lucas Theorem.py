@@ -21,6 +21,10 @@ Output: 6
 '''defining the modulo function.'''
 def Mod(n, r, p): 
     arr = [0] * (n + 1);   
+           #The array arr is going to store the
+           # last row of the triangle 
+           # at the end. And last entry  
+           # of last row is nCr 
     arr[0] = 1;    
     for i in range(1, (n + 1)):       
         j = min(i, r);  

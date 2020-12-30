@@ -1,8 +1,8 @@
 
+# Reference from GeeksForGeeks
 '''
 Lucas Theorem : 
 Lucas' theorem is a result about binomial coefficients modulo a prime p.
-
 We will be given three numbers n, r and p and we need to compute value of nCr mod p.
 Excample 1:
 Q.) : Find the remainder when 1000C300 is divided by 13.
@@ -18,7 +18,7 @@ Example 2:
 Input:  n = 10, r = 2, p = 13
 Output: 6
 '''
-#defining the modulo function.
+'''defining the modulo function.'''
 def Mod(n, r, p): 
     arr = [0] * (n + 1);   
     arr[0] = 1;    
@@ -41,12 +41,12 @@ def Lucas(n, r, p):
     rth = int(r % p);            
     return (Lucas(int(n / p), int(r / p), p) * Mod(nth, rth, p)) % p; 
 ########################################################################
-
 n = int(input("Enter The Value of n : "))
 r = int(input("Enter The Value of r : "))
 p = int(input("Enter The Value of p : "))
 print("Value of nCr % p is",Lucas(n, r, p)); 
 
-
-
-
+'''
+  Time Complexity : O(P^2)
+  Space Complexity : O(P)
+'''

@@ -174,6 +174,9 @@ _add list here_
 
 _add list here_
 
+## Operating Systems
+-  [Banker's Algorithm] (Operating%20System/banker.java)
+
 ## Other
 
 - [All possible codes](other/LetterCodeRecursion.java)

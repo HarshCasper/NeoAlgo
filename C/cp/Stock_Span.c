@@ -1,5 +1,5 @@
 // Stock Span Problem
-// Given a list of prices of a stock for N number of days, find stock span for each day. 
+// Given a list of prices of a stock for N number of days, find stock span for each day.
 
 #include<stdio.h>
 #define MAXSIZE 50
@@ -84,15 +84,16 @@ int main() {
 	calcSpan(arr, n);
 	return 0;
 }
-/*
- INput:
- Enter the no. of days: 
- 5
- Enter the stock prizes: 
- 30 20 40 50 60
 
+/*
+ Input:
+ Enter the no. of days:
+ 5
+ Enter the stock prizes:
+ 30 20 40 50 60
  Output:
- 1  1  3  4  5  
+ 1  1  3  4  5
+
  Time complexity: O(n)
  Space complexity: O(n)
  */

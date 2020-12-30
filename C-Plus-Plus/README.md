@@ -24,7 +24,7 @@
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
-- [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
@@ -198,5 +198,3 @@ _add list here_
 - [Generate all Subsets](other/subsets.cpp)
 - [Stock Span Problem](other/Stock_span_problem.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
-
-

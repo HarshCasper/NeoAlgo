@@ -7,7 +7,6 @@
 // If the list is k-sorted then for a few smaller number k, then the list remains h-sorted. Following this idea for a decreasing sequence of h values finishing in one is absolute to leave a sorted list within the end.
 
 import java.util.*
-
 fun main(args:Array<String>){
     println("Enter The number of elements in array:")
     val sc = Scanner(System.`in`)
@@ -27,9 +26,9 @@ fun main(args:Array<String>){
             val temp = ar[j]
 	    // shifting earlier gap-sorted elements until the correct location for a[j] is found 
             var k = j
-            while (k>=i && ar[k-i]>temp){
+            while (k >= i && ar[k-i] > temp){
                 ar[k] = ar[k-i]
-                k-=i
+                k -= i
             }
             ar[k] = temp
             j++
@@ -58,10 +57,7 @@ Enter the elements of array:
 48
 56
 23
-
 Output:-
 Sorted Array----->
-
 1 8 23 48 56 59 458 1548 8752 215487
-
 * */

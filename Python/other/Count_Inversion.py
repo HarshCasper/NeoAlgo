@@ -13,21 +13,21 @@ Purpose: Given an array A of length N containing distinct integers from 1
         intersection.
         Example: A = [1, 2, 5, 4, 3]
 
-          SET 1         SET 2
+          	  SET 1         SET 2
 		   (1)-----------(1)
 		   (2)-----------(2)
-		   (3)		     (5)
-		     \		     /
-		      \		    /
+		   (3)		 (5)
+		     \           /
+		      \	        /
 		  (4)--X-------X----(4)
-                \     /
-                 \   /
-                  \ /
-                   X
-                  / \
-                 /   \
+                	\     /
+                 	 \   /
+                  	  \ /
+                   	   X
+                  	  / \
+                         /   \
 		     	/     \
-              (5)     (3)
+              	      (5)     (3)
 
         Number of intersection = 3
 
@@ -128,8 +128,8 @@ Number of intersection =  3
 Enter the array: 1 2 3 4 5 6
 Number of intersection =  0
 
-          SET 1            SET 2
-           (1)--------------(1)
+                  SET 1            SET 2
+           	   (1)--------------(1)
 		   (2)--------------(2)
 		   (3)--------------(3)
 		   (4)--------------(4)
@@ -140,18 +140,18 @@ Number of intersection =  0
 Enter the array: 2 3 4 5 1
 Number of intersection =  4
 
-          SET 1         SET 2
+          	  SET 1         SET 2
 		   (1)
-             \
+             	     \
 		      \
 		  (2)--X-----------(2)
-                \
-          (3)----X---------(3)
-                  \
-          (4)-------X------(4)
-                     \
-		  (5)---------X----(5)
-                       \
-                        \
-                         (1)
+                	\
+          	  (3)----X---------(3)
+                  	  \
+          	 (4)-------X------(4)
+                            \
+		 (5)---------X----(5)
+                      	      \
+                               \
+                               (1)
 """

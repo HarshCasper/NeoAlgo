@@ -64,13 +64,10 @@ int main() {
     }
     // perform the sort
     radix_sort(arr, n);
-    for(ll i = 0; i < n; i++) {
-        // Subtracting DIF to get the original numbers back
-        arr[i]-=DIF;
-    }
+
     // Outputting the sorted array
     for(ll i = 0; i < n; i++) {
-        cout << arr[i] << ' ';
+        cout << arr[i]-DIF << ' ';
     }
     cout << '\n';
     return 0;
@@ -87,7 +84,7 @@ Sample Input 2:
 8
 175 -45 -75 90 -802 24 1 66
 Sample Output 2:
-2 24 45 66 75 90 175 802
+-802 -75 -45 1 24 66 90 175
 
 Time complexity : O(n)
 Space complexity : O(n)

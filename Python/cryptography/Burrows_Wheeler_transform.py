@@ -54,8 +54,8 @@ def invert_bwt(compressed_string):
     for row in bwt_rotations:
         if row[-1] == "$":
             inverted_string = "".join(row)
-            return inverted_string
-    return
+            break
+    return inverted_string
 
 
 # Driver Code

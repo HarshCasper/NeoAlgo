@@ -125,6 +125,10 @@
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 
+## Heap based problems
+
+- [Merge K sorted arrays](heaps/Merge_k_sorted_arrays.cpp)
+
 ## Machine Learning
 
 _add list here_

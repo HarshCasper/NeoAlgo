@@ -1,5 +1,6 @@
 // Stock Span Problem
 // Given a list of prices of a stock for N number of days, find stock span for each day.
+// link to problem:  https://practice.geeksforgeeks.org/problems/stock-span-problem/
 
 #include<stdio.h>
 #define MAXSIZE 50

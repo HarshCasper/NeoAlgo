@@ -32,6 +32,7 @@
 - [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
+- [Suduko Solver](cp/SudukoSolver.c)
 
 ## Cryptography
 
@@ -49,8 +50,6 @@
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
-- [Reversing a Linked List](ds/Reverse_linked_list.c)
-
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 - [Delete a linked list node function](ds/List_deletenode_func.c)
@@ -64,7 +63,6 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
-- [Ternary Search](search/TernarySearch.c)
 
 ## Sorting
 
@@ -79,6 +77,7 @@
 - [Shell Sort](sort/ShellSort.c)
 - [Bucket Sort](sort/bucketSort.c)
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
+- [Radix Sort](sort/radix_sort.c)
 
 ## Dynamic Programming
 
@@ -88,6 +87,7 @@
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
+- [Unique BST](dp/Unique_BST.c)
 
 ## Graphs
 
@@ -107,6 +107,8 @@ _add list here_
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Happy Number](math/happy_number.c)
+- [Automorphic Number](math/automorphic_no.c)
+- [Karpekar Number](math/Kaprekar_no.c)
 
 ## Other
 

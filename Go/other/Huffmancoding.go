@@ -88,16 +88,16 @@ func main() {
 
 // Output
 
-// Symbol	Weight	Huffman Code
-// m	    1     	000
-// l    	1     	001
-// i    	1     	010
-// g	    1 	    011
-// t	    1 	    100
-// r	    1   	  101
-// a	    1	      1100
-// s	    1	      1101
-// o	    1	      1110
-// h	    1   	  1111
+// Symbol  Weight  Huffman Code
+// m       1       000
+// l       1       001
+// i       1       010
+// g       1       011
+// t       1       100
+// r       1       101
+// a       1       1100
+// s       1       1101
+// o       1       1110
+// h       1       1111
 
 // Time Complexity = O(n) Space Complexity = O(n) 

@@ -33,6 +33,7 @@
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
 - [Suduko Solver](cp/SudukoSolver.c)
+- [Stock Span Problem](cp/Stock_Span.c)
 
 ## Cryptography
 
@@ -87,6 +88,7 @@
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
+- [Unique BST](dp/Unique_BST.c)
 
 ## Graphs
 
@@ -106,6 +108,8 @@ _add list here_
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Happy Number](math/happy_number.c)
+- [Automorphic Number](math/automorphic_no.c)
+- [Karpekar Number](math/Kaprekar_no.c)
 
 ## Other
 

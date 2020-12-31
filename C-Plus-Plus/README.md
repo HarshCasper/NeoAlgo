@@ -24,7 +24,7 @@
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
-- [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
@@ -43,6 +43,8 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
+- [Josephus Problem](cp/Josephus.cpp)
+- [NQueens](cp/NQueens.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 
@@ -83,9 +85,13 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Depth First Search Algorithm](graphs/DFS.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
+- [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
+- [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
+- [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 
 ## Searching
 
@@ -112,6 +118,13 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
+- [Bucket Sort](sort/bucket_sort.cpp)
+
+## Stack based problems
+
+- [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+- [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
+- [Stock Span Problem](stack/Stock_span_problem.cpp)
 
 ## Machine Learning
 
@@ -146,8 +159,11 @@ _add list here_
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 - [Maximum Subarray Sum](dp/Max_subarray_sum(DP).cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Partition Problem](dp/Partition_Problem.cpp)
+- [Egg Dropping Problem](dp/Egg_Dropping.cpp)
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
+- [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 
 ## Blockchain
@@ -157,7 +173,11 @@ _add list here_
 ## Cryptography
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
+- [Rail Fence Transposition Technique](cryptography/Rail_fence_Cipher.cpp)
+- [Simple Columnar Transposition Technique](cryptography/Simple_Columnar_Transposition.cpp)
+- [Simple Columnar with Multiple Rounds Transposition Technique](cryptography/Simple_Columnar_Transposition_multiple_rounds.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
+- [Vernam Cipher](cryptography/VernamCipher.cpp)
 
 ## Computational Geometry
 
@@ -182,3 +202,4 @@ _add list here_
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Stock Span Problem](other/Stock_span_problem.cpp)
+- [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)

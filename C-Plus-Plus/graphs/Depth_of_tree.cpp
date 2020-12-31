@@ -2,7 +2,6 @@
 using namespace std;
 
 struct node {
-
     node(int x): data(x), left_child(NULL), right_child(NULL) {}
     int data;
     node *left_child;
@@ -10,7 +9,6 @@ struct node {
 };
 
 class bin_tree{
-
     node *root;
 public:
    // constructor of tree
@@ -18,8 +16,6 @@ public:
     {
         root = NULL;
     }
-
-
     void insert_data(int x){
         //if tree is empty
         if(!root)
@@ -46,8 +42,6 @@ public:
                     //else we change the current node pointer with pointer of left child node pointer
                     else
                         temp = temp->left_child;
-
-
                 }
                 //if data to be inserted is grater then or equal to the data of current node
                 else
@@ -63,11 +57,8 @@ public:
                     else
                      temp = temp->right_child;
                 }
-
             }
-
         }
-
     }
 
     int depth(node *level)
@@ -78,37 +69,36 @@ public:
         }
         //depth of left subtree
         int left_depth = depth(level->left_child);
-
         //depth of right subtree
         int rigth_depth = depth(level->right_child);
-
         // depth of tree will max of depth of left subtree and depth of right subtree adding current node;
         return  max(left_depth,rigth_depth)+1;
     }
-
+	
     //depth of whole tree
     int depth_of_tree()
     {
         return(depth(root));
-
     }
-
 };
-
-
-
 int main() {
-
-
     bin_tree t;
-    t.insert_data(50);
-    t.insert_data(40);
-    t.insert_data(60);
-    t.insert_data(30);
-    t.insert_data(45);
-    t.insert_data(55);
-    t.insert_data(70);
-    /*
+    int n;
+    cout<<"Enter number of elements in tree: ";
+    cin>>n;
+    cout<< "Enter elements to insert in  tree: ";
+    while(n--)
+    {	
+        int k; cin>>k;
+        t.insert_data(k);
+    }
+    cout<<"\nDepth of tree:"<<t.depth_of_tree()<<endl;
+    return 0;	
+    /* 
+    Sample case 1
+    Enter number of elements in tree: 7
+    Enter elements to insert in  tree: 50 60 40 55 30 70 45 
+    Depth of tree : 3
 
          50                         level 1
       /     \
@@ -118,15 +108,11 @@ int main() {
   /     \   /     \
 30    45  55      70                level 3
 
-
-
-    */
-    cout<<t.depth_of_tree()<<endl;
-    //so output will be 3
-
-    t.insert_data(56);
-
-    /*
+......................................................................................................
+    Sample case 2
+    Enter number of elements in tree: 8
+    Enter elements to insert in  tree: 50 40 60 55 30 56 70 45
+    Depth of tree : 4
 
          50                         level 1
       /     \
@@ -138,11 +124,6 @@ int main() {
             \
              \
              56                     level 4
-
-
-
-    */
-    cout<<t.depth_of_tree()<<endl;
-    //so output will be 4
-	return 0;
+*/   
+	
 }

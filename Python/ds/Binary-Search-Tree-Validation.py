@@ -6,7 +6,8 @@ Both the left and right subtrees must also be binary search trees.
 
 """
 import typing
-# Python's typing module provides a way of hinting what type of objects are being used. This makes the code more readable and robust.
+# Python's typing module provides a way of hinting what type of objects are being used. 
+# This makes the code more readable and robust.
 import math
 
 
@@ -39,8 +40,10 @@ def isValidBST(root: TreeNode) -> bool:
 def explore(node: TreeNode, mini: int, maxi: int) -> bool:
     """
     Explores the tree (Depth First Search)
-    - Returns False when the node that doesn't satisfy any of the BST properties is encountered.
-    - Returns True when all the nodes in tree are satisfying BST properties and the entire tree has been explored.
+    - Returns False when the node that doesn't satisfy any of the BST properties 
+    is encountered.
+    - Returns True when all the nodes in tree are satisfying BST properties 
+    and the entire tree has been explored.
 
     # Time complexity : O(N) since we visit each node exactly once.
     # Space complexity : O(N) since we keep up to the entire tree.

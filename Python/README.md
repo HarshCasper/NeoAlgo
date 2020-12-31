@@ -42,6 +42,7 @@
 - [Delete a node from linked list](cp/delete_node.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [Search Insert Position](cp/search_insert_position.py)
+- [Stock span problem](cp/stock_span.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

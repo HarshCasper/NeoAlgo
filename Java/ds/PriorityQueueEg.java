@@ -1,13 +1,22 @@
 import java.util.Iterator;
 import java.util.PriorityQueue;
-import java.lang.*;
 import java.util.Scanner;
 
-//Priority Queue data structure is a special queue in which the elements are present not as per FIFO order but as per the natural elements or any xyz comparator used during queue creation.
+/*Priority Queue data structure is a special queue in which the elements are present not as per FIFO order 
+ *but as per the natural elements or any xyz comparator used during queue creation.
+*/
 
 public class PriorityQueueEg {
     
     private static Scanner sc = new Scanner(System.in);
+
+    public static void printingthequeue(PriorityQueue<String> queue) {
+        Iterator iterator = queue.iterator();  
+        while(iterator.hasNext())
+        { 
+            System.out.print(iterator.next() + " ");  
+        }  
+    }
 
     public static void main(String args[])
     {  
@@ -16,6 +25,7 @@ public class PriorityQueueEg {
 
         PriorityQueue<String> queue = new PriorityQueue<String>();  
         
+        //taking n strings as input from the user
         for(int i=0;i<n;i++)
         {
             System.out.println("Kindly enter the "+i+"'th element");
@@ -28,15 +38,12 @@ public class PriorityQueueEg {
         //Define the iterator for PriorityQueue and print its elements 
         System.out.println("\nPriorityQueue : "); 
 
-        Iterator iterator = queue.iterator();  
-        while(iterator.hasNext())
-        { 
-            System.out.print(iterator.next() + " ");  
-        }  
-
+        //to print the queue, using Iterator
+        printingthequeue(queue);
     }
 
 }
+
 /*
 Output:
 
@@ -49,8 +56,8 @@ seeta
 Kindly enter the 2'th element                                                                                                                 
 geeta                                                                                                                                         
 PriorityQueue Head : geeta                                                                                                                    
-                                                                                                                                              
 PriorityQueue :                                                                                                                               
 geeta seeta ram   
 
 */
+

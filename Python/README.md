@@ -57,6 +57,7 @@
 - [Reverse Linked List](ds/Reverse_linked_list.py)
 - [Linked List Intersection](ds/linkedListIntersection.py)
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
+- [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 
 
 ## Searching
@@ -116,6 +117,12 @@
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
+- [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
+
+
+## Pathfinding Algorithms 
+
+- [BFS in Maze](Pathfinding/2D_BFS.py)
 
 
 ## Graphs
@@ -139,6 +146,7 @@
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
+- [Depth First Search](graphs/DFS.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
 
 ## Competitive Programming
@@ -215,6 +223,7 @@ _add list here_
 ## Other
 
 - [Check Inversion](other/Check_Inversion.py)
+- [Count Inversions](other/Count_Inversion.py)
 - [Distinct Elements Count](other/Distinct_elements_count.py)
 - [Find frequency using Binary Search](other/find_freq_using_bs.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)

@@ -118,6 +118,11 @@
 - [Partition Problem](dp/Partition_Problem.py)
 
 
+## Pathfinding Algorithms 
+
+- [BFS in Maze](Pathfinding/2D_BFS.py)
+
+
 ## Graphs
 
 - [Breadth First Search](graphs/BFS.py)

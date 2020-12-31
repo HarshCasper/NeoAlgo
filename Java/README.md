@@ -193,3 +193,4 @@ _add list here_
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
+- [Benjamin Bulb](other/BenjaminBulbs.java)

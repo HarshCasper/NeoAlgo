@@ -78,6 +78,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/Bubble_Sort.py)
+- [Counting Sort](sort/Counting_Sort.py)
 - [Selection Sort](sort/Selection_Sort.py)
 - [Insertion Sort](sort/insertion.py)
 - [Quick Sort](sort/QuickSort.py)

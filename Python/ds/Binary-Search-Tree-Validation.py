@@ -82,7 +82,8 @@ if __name__ == "__main__":
 #        /   \
 #       3     6
 # Output: False
-# This tree is invalid bst as node 3 in the right subtree of root is less than the root
+# This tree is invalid bst
+# as node 3 in the right subtree of root is less than the root
 
 # Sample 3 Input - Output
 # Input: 1 None 2 None None None 3 None None None None None None None 4
@@ -114,4 +115,5 @@ if __name__ == "__main__":
 #     /    \
 #    1      5
 # Output: False
-# This tree is invalid bst as node 5 in left sub tree of the root is greater than the root
+# This tree is invalid bst
+# as node 5 in left sub tree of the root is greater than the root

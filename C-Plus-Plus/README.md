@@ -163,6 +163,7 @@ _add list here_
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
+- [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 
 ## Blockchain

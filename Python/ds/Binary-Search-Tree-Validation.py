@@ -56,44 +56,61 @@ def explore(node: TreeNode, mini: int, maxi: int) -> bool:
 
 
 if __name__ == "__main__":
-    root1 = createTree(0, [2, 1, 3])
-    print(isValidBST(root1))
-    #       2
-    #     /   \
-    #    1     3
-    # This tree is a valid bst
-    root2 = createTree(0, [5, 1, 4, None, None, 3, 6])
-    print(isValidBST(root2))
-    #       5
-    #     /   \
-    #    1     4
-    #        /   \
-    #       3     6
-    # This tree is invalid bst as node 3 in the right subtree of root is less than the root
-    root3 = createTree(0, [1, None, 2, None, None, None,
-                           3, None, None, None, None, None, None, None, 4])
-    print(isValidBST(root3))
-    #    1
-    #     \
-    #      2
-    #       \
-    #        3
-    #         \
-    #          4
-    # This tree is a valid bst
-    root4 = createTree(0, [4, 2, 6, 1, 3, 5, 7])
-    print(isValidBST(root4))
-    #             4
-    #         /       \
-    #        2          6
-    #     /    \     /     \
-    #    1     3    5       7
-    # This tree is a valid bst
-    root5 = createTree(0, [4, 2, None, 1, 5])
-    print(isValidBST(root5))
-    #           4
-    #         /
-    #        2
-    #     /    \
-    #    1      5
-    # This tree is invalid bst as node 5 in left sub tree of the root is greater than the root
+    data = []
+    for element in input().split():
+        if element == 'None':
+            data.append(None)
+        else:
+            data.append(int(element))
+    tree = createTree(0, data)
+    print(isValidBST(tree))
+
+# Sample 1 Input - Output
+# Input: 2 1 3
+#       2
+#     /   \
+#    1     3
+# Output: True
+# This tree is a valid bst
+
+# Sample 2 Input - Output
+# Input: 5 1 4 None None 3 6
+#       5
+#     /   \
+#    1     4
+#        /   \
+#       3     6
+# Output: False
+# This tree is invalid bst as node 3 in the right subtree of root is less than the root
+
+# Sample 3 Input-Ouput
+# Input: 1 None 2 None None None 3 None None None None None None None 4
+#    1
+#     \
+#      2
+#       \
+#        3
+#         \
+#          4
+# Output: True
+# This tree is a valid bst
+
+# Sample 4 Input-Ouput
+# Input: 4 2 6 1 3 5 7
+#             4
+#         /       \
+#        2          6
+#     /    \     /     \
+#    1     3    5       7
+# Output: True
+# This tree is a valid bst
+
+# Sample 5 Input-Output
+# Input: 4 2 None 1 5
+#           4
+#         /
+#        2
+#     /    \
+#    1      5
+# Output: False
+# This tree is invalid bst as node 5 in left sub tree of the root is greater than the root

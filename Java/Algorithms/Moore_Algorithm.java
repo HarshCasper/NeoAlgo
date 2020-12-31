@@ -1,6 +1,6 @@
 /*The Boyer–Moore majority vote algorithm is an algorithm for finding the majority of a sequence of elements using linear time and constant space. */
 import java.util.Scanner;
-public class MoreAlgo {
+public class Moore_Algorithm {
 	
 	public static void check(int arr[]) {
 		int count=0;
@@ -32,7 +32,8 @@ public class MoreAlgo {
 			arr[i] = input.nextInt();		 
 		}
 		//Passing array to function
-		check(arr);                     
+		check(arr);  
+		input.close();                   
 	}
 
 }
@@ -48,4 +49,4 @@ Enter 6 Numbers:
 2
 Number Occuring More than 'n/2'=5
 */
-/*Time Complexity : o(n^2) , Space Complexity : o(1).
+/*Time Complexity : o(n^2) , Space Complexity : o(1).*/

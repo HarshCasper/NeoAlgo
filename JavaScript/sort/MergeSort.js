@@ -32,7 +32,7 @@ function mergeSort(array) {
   return merge(mergeSort(left), mergeSort(array));
 }
 
-var array = prompt("Enter Numbers to Sort Comma Separated: ").split(",");
+var array = prompt("Enter Numbers to Sort (Comma Separated) : ").split(",");
 // You Can also give static input if prompt() not works for you. like this :
 // array = [4, 8, 7, 2, 11, 1, 3];
 

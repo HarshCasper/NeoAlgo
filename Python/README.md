@@ -116,6 +116,7 @@
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
+- [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
 
 
 ## Graphs

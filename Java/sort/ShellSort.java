@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
 /*
-* Shell Sort is a very efficient sorting algorithm based on insertion sort technique.
-* Shell Sort is more effective than insertion sort as
-*	sometimes in Insertion Sorting, we shift a large block to insert an item at the right place as per the sorting order,
-*	which can be avoided by using the Shell Sort algorithm.
-* In Shell Sort, the sorting is done at certain intervals/gaps and everytime, this gap is reduced.
-* This way, Shell Sort becomes nearly twice as fast as Insertion Sort.
+*Shell Sort is a very efficient sorting algorithm based on insertion sort technique.
+*
+*Shell Sort is more effective than insertion sort as
+*sometimes in Insertion Sorting, we shift a large block to insert an item at the right place as per the sorting order,
+*which can be avoided by using the Shell Sort algorithm.
+*
+*In Shell Sort, the sorting is done at certain intervals/gaps and everytime, this gap is reduced.
+*This way, Shell Sort becomes nearly twice as fast as Insertion Sort.
 */
 
 public class ShellSort 

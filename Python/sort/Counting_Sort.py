@@ -32,4 +32,3 @@ lst = [6, 4, 2, 5, 3, 4, 1]
 counting_Sort(lst)
 print("Sorted arr in Ascending Order: ")
 print(lst)
-

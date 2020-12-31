@@ -1,16 +1,4 @@
 
-/*
-Tarjan's Algo is an algorithm which helps to find the number of strongly connected components 
-in a directed graph with a Depth First Search function call.
-
-It's idea is based on the implementation of in time and low time of a graph.  
-
-During execution of DFS & calculation of low time value, this algo keeps track of active nodes.
-
-Refer https://www.youtube.com/watch?v=EDb_TGBZqgg&list=PL2q4fbVm1Ik6DCzm9XZJbNwyHtHGclcEh&index=44 to learn the concept and for the testcase
-*/
-
-
 #include <bits/stdc++.h> 
 using namespace std;
 typedef long long ll;

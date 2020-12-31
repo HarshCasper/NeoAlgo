@@ -24,33 +24,29 @@ Space Complexity: O(n)
 #include<queue>
 using namespace std;
 
-int main() {
-
-	// For taking in input
-	int n;
-
+// Prints median in a running stream of integers
+void getMedian(int a[], int n) {
 	// Declare a maxHeap and a minHeap
 	priority_queue<int> maxHeap;
 	priority_queue<int, vector<int>, greater<int>> minHeap;
 
-	// Input first number
-	cin >> n;
 	// Push in maxheap
-	maxHeap.push(n);
+	maxHeap.push(a[0]);
 
 	// current median
-	double curr = n; // When count of numbers is 1, median is equal to the number itself
+	// When count of numbers is 1, median is equal to the number itself
+	double curr = a[0];
 	// Print current median
 	cout << curr << " ";
 
 	//  While numbers are being inputted
-	while (cin >> n) {
-
+	for (int i = 1; i < n; i++) {
+		int num = a[i];
 		// INSERTION:
 
-		// If n is greater than current median
-		if (n > curr) { // Insert in minHeap
-
+		// If num is greater than current median
+		if (num > curr) {
+			// Insert in minHeap
 			// If size of minHeap is more
 			if (minHeap.size() >= maxHeap.size() + 1) {
 				// shift one element from minHeap to maxHeap
@@ -59,12 +55,12 @@ int main() {
 				maxHeap.push(num);
 			}
 			// Insert in minHeap
-			minHeap.push(n);
+			minHeap.push(num);
 		}
 
-		// If n is less than equal to the current median
-		else { // Insert in maxHeap
-
+		// If num is less than equal to the current median
+		else {
+			// Insert in maxHeap
 			// If size of maxHeap is more
 			if (maxHeap.size() >= minHeap.size() + 1) {
 				// shift one element from maxHeap to minHeap
@@ -73,7 +69,7 @@ int main() {
 				minHeap.push(num);
 			}
 			// Insert in maxHeap
-			maxHeap.push(n);
+			maxHeap.push(num);
 		}
 
 		// PRINTING:
@@ -82,7 +78,8 @@ int main() {
 		if (minHeap.size() == maxHeap.size()) {
 			curr = (minHeap.top() + maxHeap.top()) * 1.0 / 2.0;
 			cout << curr << " ";
-		} // else topmost element of heap with greater size is printed
+		}
+		// else topmost element of heap with greater size is printed
 		else if (minHeap.size() > maxHeap.size()) {
 			curr = minHeap.top();
 			cout << curr << " ";
@@ -94,8 +91,22 @@ int main() {
 	}
 }
 
+// Driver code
+int main() {
+
+	// Take input
+	int n; cin >> n;
+	int a[n];
+	for (int i = 0; i < n; i++) {
+		cin >> a[i];
+	}
+
+	getMedian(a, n);
+}
+
 /*
 Input:
+4
 5 15 1 3
 
 Output:

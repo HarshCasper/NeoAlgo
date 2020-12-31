@@ -124,9 +124,9 @@
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 
-## Heaps based problems
+## Heap based problems
 
-- [Median in a running stream of integers](heaps/Median_in_a_running_stream_of_integers.cpp)
+- [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 
 ## Machine Learning
 

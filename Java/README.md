@@ -168,6 +168,7 @@ _add list here_
 - [Selection Sort](sort/SelectionSort.java)
 - [Radix Sort](sort/RadixSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
+- [Shell Sort](sort/ShellSort.java)
 
 ## Machine Learning
 

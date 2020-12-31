@@ -216,6 +216,7 @@
 * [Reverse a string using stack](other/Reverse_string_using_stack.py)
 * [Satellite Image Analysis using numpy](other/Satellite_Image_Analysis_using_numpy.ipynb)
 * [Sudoku Solver](other/sudoku_backtracking.py)
+* [Huffman coding](other/Huffman_coding.py)
 
 - [Ugly Number](math/UglyNumber.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)

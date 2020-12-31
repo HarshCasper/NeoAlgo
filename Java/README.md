@@ -26,6 +26,13 @@ _add list here_
 
 ## Competitive programming
 
+
+* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+* [Target Sum Triplets](cp/target_sum_triplets.java)
+* [ZigZag](cp/Zig_Zag.java)
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
@@ -46,11 +53,14 @@ _add list here_
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
 - [Prime Number without Recursion](cp/Prime.java)
+- [Suduko Solver](cp/SudukoSolver.java)
 - [Ugly Number With Recursion](cp/UglyRecursion.java)
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
+- [NQueens Problem](cp/NQueens.java)
 - [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
 - [Shortest Distance Between Words](cp/Shortest_Dist.java)
 - [Defanged IP Address](cp/Defanged_IPv4.java)
+
 
 ## Cryptography
 
@@ -94,6 +104,7 @@ _add list here_
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
+- [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 
 ## Mathematics
@@ -110,9 +121,11 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
+- [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
 
 
@@ -156,8 +169,8 @@ _add list here_
 - [PancakeSort](sort/PancakeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
+- [Radix Sort](sort/RadixSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
-
 
 ## Machine Learning
 
@@ -166,6 +179,7 @@ _add list here_
 ## Other
 
 - [All possible codes](other/LetterCodeRecursion.java)
+- [Find the numbers](other/FindNumbers.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)

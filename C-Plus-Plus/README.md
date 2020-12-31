@@ -38,16 +38,20 @@
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
+- [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
+- [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
-<<<<<<< HEAD
-- [Josephus Problem](cp/Josephus.cpp)
-=======
 - [NQueens](cp/NQueens.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
->>>>>>> 94cad68 (Update Readme.md and Resolve changes)
+=======
+- [Josephus Problem](cp/Josephus.cpp)
+- [NQueens](cp/NQueens.cpp)
+- [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
+- [Next Largest Permutation](cp/NextPermutation.cpp)
+>>>>>>> b125e515e1b6342ec1e5b4e295bae476a3e71958
 
 ## Data Structures
 
@@ -86,19 +90,17 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
-<<<<<<< HEAD
-- [Cycle Detection in Graph](graphs/detect_cycle.cpp)
-- [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
-<<<<<<< HEAD
+- [Depth First Search Algorithm](graphs/DFS.cpp)
+=======
 =======
 - [Depth First Search Algorithm](graphs/DFS.cpp)
->>>>>>> 1674e5f (Added the beginner pitch and did required changes to readme file as well)
-=======
+- [Cycle Detection in Graph](graphs/detect_cycle.cpp)
+- [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
+>>>>>>> b125e515e1b6342ec1e5b4e295bae476a3e71958
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
->>>>>>> 94cad68 (Update Readme.md and Resolve changes)
 
 ## Searching
 
@@ -130,6 +132,7 @@
 ## Stack based problems
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+- [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 
 ## Machine Learning
@@ -147,6 +150,8 @@ _add list here_
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Palindrome Number](math/check_palindrome.cpp)
+- [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 
 ## Dynamic Programming
 
@@ -163,6 +168,8 @@ _add list here_
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 - [Maximum Subarray Sum](dp/Max_subarray_sum(DP).cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Partition Problem](dp/Partition_Problem.cpp)
+- [Egg Dropping Problem](dp/Egg_Dropping.cpp)
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Unique BST](dp/Unique_BST.cpp)
@@ -187,7 +194,7 @@ _add list here_
 
 ## Other
 
-
+- [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
@@ -204,7 +211,6 @@ _add list here_
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Stock Span Problem](other/Stock_span_problem.cpp)
-<<<<<<< HEAD
-- [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
 =======
->>>>>>> 94cad68 (Update Readme.md and Resolve changes)
+- [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
+>>>>>>> b125e515e1b6342ec1e5b4e295bae476a3e71958

@@ -212,6 +212,11 @@
 - [Dice Throw Problem](dp/Dice_Throw.py)
 >>>>>>> c109ba4 (Readme updated)
 
+## Pathfinding Algorithms 
+
+- [BFS in Maze](Pathfinding/2D_BFS.py)
+
+
 ## Graphs
 
 - [Breadth First Search](graphs/BFS.py)

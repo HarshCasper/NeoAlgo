@@ -94,7 +94,7 @@ def BFS(maze, src, des, way=1):
 
 
 if __name__ == "__main__":
-    
+
     N, M = map(int, input("Enter the Dimension of the maze:- ").split())
     print("Enter the Maze: ")
     maze = []
@@ -157,3 +157,4 @@ Enter the Destination cell: 4 7
 Disance=  25
 Path:  DDDDRRRRRUULLLUURRRRRDDDD
 """
+

@@ -123,6 +123,7 @@
 ## Pathfinding Algorithms 
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)
+- [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
 
 
 ## Graphs

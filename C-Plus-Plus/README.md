@@ -118,6 +118,7 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
+- [Bucket Sort](sort/bucket_sort.cpp)
 
 ## Stack based problems
 
@@ -162,6 +163,7 @@ _add list here_
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
+- [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 
 ## Blockchain
@@ -171,6 +173,9 @@ _add list here_
 ## Cryptography
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
+- [Rail Fence Transposition Technique](cryptography/Rail_fence_Cipher.cpp)
+- [Simple Columnar Transposition Technique](cryptography/Simple_Columnar_Transposition.cpp)
+- [Simple Columnar with Multiple Rounds Transposition Technique](cryptography/Simple_Columnar_Transposition_multiple_rounds.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 

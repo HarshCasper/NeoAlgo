@@ -148,9 +148,19 @@ if __name__ == "__main__":
 
 '''
 Sample Input-
+
+Enter elements of the Linked List and use -1 to end the list-
 3 4 5 2 6 1 9 -1
+Enter index of nodes to be swapped-
 3 4
 
 Sample Output-
+
 3 4 5 6 2 1 9
+
+Time complexity- O(n) where n is the
+number of nodes in the Linked List.
+
+Space complexity- O(1) because we are only
+storing definite number of nodes/ values.
 '''

@@ -33,6 +33,7 @@
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
 - [Suduko Solver](cp/SudukoSolver.c)
+- [Stock Span Problem](cp/Stock_Span.c)
 
 ## Cryptography
 

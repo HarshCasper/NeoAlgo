@@ -20,12 +20,13 @@ int main() {
 	printf("%d \n", bulbSwitch(n));
 	return 0;
 }
+
 /*
  Sample Input:
- Enter the no. of bulbs: 
+ Enter the no. of bulbs:
  4
  Output:
- 2 
+ 2
  Time complexity: O(n)
  Space complexity: O(1)
  */

@@ -4,16 +4,14 @@ import java.util.Comparator;
 
 
 class huffman_node {
-    //frequency
+
     int frequency;
 
-    //character
     char character;
 
     huffman_node left;
     huffman_node right;
 
-    //constructor
     huffman_node() {
         frequency = 0;
         character = ' ';
@@ -32,12 +30,11 @@ class priority_queue {
     
     Vector < huffman_node > v2;
 
-    // constructor
+
     public priority_queue(int number1, MyComparator comp1) {
         v2 = new Vector();
     }
 
-    // return parent 
     int parent(int h) {
         // if i is  root 
         if (h == 0) {

@@ -151,7 +151,7 @@ _add list here_
 - [Bilinear Search](search/Bilinear_Search.java)
 
 ## Sorting
-
+- [Count INversion](sort/CountInversion.java)
 - [BeadSort](sort/BeadSort.java)
 - [Bubble Sort](sort/BubbleSort.java)
 - [Bucket Sort](sort/BucketSort.java)

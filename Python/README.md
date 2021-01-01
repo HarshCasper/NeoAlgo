@@ -59,6 +59,7 @@
 - [Linked List Intersection](ds/linkedListIntersection.py)
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
+- [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 
 
 ## Searching
@@ -125,6 +126,7 @@
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
+- [DFS in Maze (Iterative)](pathfinding/2D_DFS_Iterative.py)
 
 
 ## Graphs
@@ -192,6 +194,7 @@
 * [Logistic Regression](ml/Logistic_Regression.ipynb)
 * [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 * [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+* [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
 
 
 ## Mathematics

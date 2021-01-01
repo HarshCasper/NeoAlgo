@@ -54,8 +54,8 @@ class algorithm {
         for (int i = 0; i < p; i++) {
 
             for (int j = 0; j < r; j++) {
-
-                need[i][j] = max[i][j] - allocation[i][j]; // Need of instance = maxm instance -allocated instance 
+                // Need of instance = maxm instance -allocated instance 
+                need[i][j] = max[i][j] - allocation[i][j]; 
             }
 
         }
@@ -80,8 +80,9 @@ class algorithm {
 
 
         boolean[] finish = new boolean[P];
-
-        int[] safe = new int[P]; //for storing the final sequence
+        
+        //for storing the final sequence
+        int[] safe = new int[P]; 
 
 
         int[] work = new int[R];
@@ -113,7 +114,7 @@ class algorithm {
                         System.out.println("");
 
 
-                        safe[c1++] = p; //add process to safe array
+                        safe[c1++] = p; 
 
                         //make finish[i]=true
                         finish[p] = true;
@@ -144,7 +145,8 @@ class algorithm {
     }
 }
 
-public class banker // main public class
+// main public class
+public class banker 
 {
     // Driver code 
     public static void main(String[] args) {
@@ -180,11 +182,13 @@ public class banker // main public class
         int max[][] = new int[p][r];
         int allocation[][] = new int[p][r];
         int need[][] = new int[p][r];
-        int[] avail = new int[r]; //available/work array
+        //available/work array
+        int[] avail = new int[r]; 
 
         int[] req = new int[r];
-
-        algorithm al1 = new algorithm(); //create the object
+        
+        //create the object
+        algorithm al1 = new algorithm(); 
 
         do {
             System.out.println("PRESS 1 TO ACCEPT DATA");
@@ -251,12 +255,14 @@ public class banker // main public class
                         req[i] = sc.nextInt();
                     }
                     for (int i = 0; i < r; i++) {
-
-                        if (avail[i] < req[i]) //check if available resources are greater than required
+                        //check if available resources are greater than required
+                        if (avail[i] < req[i]) 
                         {
                             flag = 1;
                             break;
-                        } else if (req[i] > need[p1][i]) //check if needed resources are greater than required
+                            
+                        } //check if needed resources are greater than required
+                        else if (req[i] > need[p1][i]) 
                         {
                             flag = 1;
                             break;

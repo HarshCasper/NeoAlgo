@@ -129,6 +129,7 @@
 
 ## Heap based problems
 
+- [Merge K sorted arrays](heaps/Merge_k_sorted_arrays.cpp)
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 
 ## Machine Learning

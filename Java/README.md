@@ -45,6 +45,7 @@ _add list here_
 - [Remove Duplicate Element from an array without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
 - [Spiral Matrix](cp/Spiral_Matrix.java)
 - [String to Int(atoi)](cp/String_to_int.java>)
+- [Count Ways to Nth Stair](cp/Staircase_problem.java)
 - [Longest Common Prefix](cp/Longest_Common_Prefix.java)
 - [Target Sum Triplets](cp/target_sum_triplets.java)
 - [Check for Subsequence](cp/CheckForSubSequence.java)
@@ -58,6 +59,8 @@ _add list here_
 - [NQueens Problem](cp/NQueens.java)
 - [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
 - [Largest Rectangle in Histogram](cp/RectArea.java)
+- [Shortest Distance Between Words](cp/Shortest_Dist.java)
+- [Defanged IP Address](cp/Defanged_IPv4.java)
 
 
 ## Cryptography

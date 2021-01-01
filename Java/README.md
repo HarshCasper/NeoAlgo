@@ -194,3 +194,4 @@ _add list here_
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
+- [Set Bits in an Integer](other/SetBitsInInteger.java)

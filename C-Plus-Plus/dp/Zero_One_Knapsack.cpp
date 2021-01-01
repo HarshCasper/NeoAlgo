@@ -1,54 +1,60 @@
 #include <iostream>
-using namespace std;
-int n,k;
-int *profit=NULL;
-int *weight=NULL;
-int **table=NULL;
-int max_profit=0;
 
-void input()			//Taking input
-{
-	cin>>n;
-	cin>>k;
-	profit=new int[n];
-	weight=new int[n];
-	for(int i=1; i<=n; i++)
-    {   
-		cin>>profit[i];
-		cin>>weight[i];		
-	}
- }
-int knapsack(int n,int k)
-{
-	if(k==0||n==0)			//When knapsack size and number of items are 0
-	{			
-		return 0;
-	}	
-			
-	else if(weight[n]>k)	//When Knapsack size is greater than weight of nth item
-	{   
-		return knapsack(n-1,k);
-    }
-    else					//Max profit among n-1 item and n items
-	{	int temp1 = knapsack(n-1,k);
-		int temp2 = knapsack(n-1,k-weight[n])+profit[n];
-		return max(temp2,temp1);
-    }
+using namespace std;
+int n, k;
+int * profit = NULL;
+int * weight = NULL;
+int ** table = NULL;
+int max_profit = 0;
+void input() {
+  cin >> n;
+  cin >> k;
+  profit = new int[n];
+  weight = new int[n];
+  for (int i = 1; i <= n; i++) {
+    cin >> profit[i];
+    cin >> weight[i];
+  }
+  table = new int * [k + 1];
+  for (int i = 0; i <= n; ++i)
+    table[i] = new int[k + 1];
+
+  for (int i = 0; i <= n; i++) {
+    for (int j = 0; j <= k; j++)
+      table[i][j] = -1;
+  }
 }
-void display()
-{
-    cout<<"Number of items: "<<n;
-    cout<<endl<<"knapsack Size: "<<k;
-    for(int i=1; i<=n; i++)
-    	cout<<endl<<"Item "<<i<<" (Profit,Weight) is: ("<<profit[i]<<","<<weight[i]<<")";
-	cout<<endl<<"Max Profit in the knapsack is: "<<max_profit;
+
+//finding maximum profit in iterative way
+void knapsack() {
+  for (int j = 0; j <= k; j++)
+    table[0][j] = 0;
+  for (int i = 0; i <= n; i++)
+    table[i][0] = 0;
+  for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= k; j++) {
+      if (j < weight[i]) //when size of knapsack is less than weight of item i
+        table[i][j] = table[i - 1][j];
+      else
+        table[i][j] = max(table[i - 1][j], table[i - 1][j - weight[i]] + profit[i]);
+    }
+  }
+  max_profit = table[n][k];
+}
+
+void display() {
+  cout << "Number of items: " << n;
+  cout << endl << "knapsack Size: " << k;
+  for (int i = 1; i <= n; i++)
+    cout << endl << "Item " << i << " (Prifit,Weight) is: (" << profit[i] << "," << weight[i] << ")";
+  cout << endl << "Max Profit in the knapsack is: " << max_profit;
 }
 int main() {
-	// your code goes here
-	input();				//Take the inputs
-	max_profit=knapsack(n,k);		//find Maximum profit
-	display();
-	return 0;
+  // your code goes here
+  input();
+  knapsack();
+  display();
+  return 0;
 }
 
 /*
@@ -67,4 +73,7 @@ Item 2 (Profit,Weight) is: (100,20)
 Item 3 (Profit,Weight) is: (120,30)
 Max Profit in the knapsack is: 220
 
+Complexity:
+Time: O(n*k)
+Space: O(n*k)
 */

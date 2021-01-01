@@ -49,7 +49,7 @@ _add list here_
 - [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
 - [Shortest Distance Between Words](cp/Shortest_Dist.java)
 - [Defanged IP Address](cp/Defanged_IPv4.java)
-- [Minimum Element In a Rotated Array](cp/Min_Element.java)
+- [Minimum Element In a Rotated Array](cp/Min_Element_Rotated_array.java)
 
 ## Cryptography
 

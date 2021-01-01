@@ -92,6 +92,7 @@
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
+- [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 
 ## Searching
 

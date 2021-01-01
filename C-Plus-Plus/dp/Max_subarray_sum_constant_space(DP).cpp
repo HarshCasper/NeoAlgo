@@ -17,17 +17,22 @@ using namespace std;
 
 int kadane(ll arr[], ll n)
 {
+    // stores maximum sum sub-array found so far
+    ll max_so_far = arr[0]; 
 
-    ll max_so_far = arr[0]; // stores maximum sum sub-array found so far
-
-    ll max_ending_here = arr[0]; // stores maximum sum of sub-array ending at current position
+    // stores maximum sum of sub-array ending at current position
+    ll max_ending_here = arr[0]; 
 
     for (ll i = 1; i < n; i++)
     {
-        max_ending_here = max_ending_here + arr[i];     // update maximum sum of sub-array "ending" at index i (by adding current element to maximum sum ending at previous index i-1)
-        max_ending_here = max(max_ending_here, arr[i]); // maximum sum is should be more than the current element
-
-        max_so_far = max(max_so_far, max_ending_here); // update result if current sub-array sum is found to be greater
+        // update maximum sum of sub-array "ending" at index i (by adding current element to maximum sum ending at previous index i-1)
+        max_ending_here = max_ending_here + arr[i];   
+        
+        // maximum sum is should be more than the current element
+        max_ending_here = max(max_ending_here, arr[i]); 
+        
+        // update result if current sub-array sum is found to be greater
+        max_so_far = max(max_so_far, max_ending_here); 
     }
 
     return max_so_far;

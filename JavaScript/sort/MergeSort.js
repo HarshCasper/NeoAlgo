@@ -2,6 +2,10 @@
  *
  * Merge sort uses the concept of divide-and-conquer to sort the given list of elements.
  * It breaks down the problem into smaller subproblems until they become simple enough to solve directly.
+ * 
+ * Time Complexity: O(nlogn)
+ * 
+ * Space Complexity: O(n) 
  */
 function merge(left, right) {
   let arr = [];

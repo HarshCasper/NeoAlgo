@@ -191,7 +191,7 @@ Input:
 
 Output:
 
-12
+2
 
 Input:
 

@@ -24,7 +24,7 @@
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
-- [Knuth–Morris–Pratt_algorithm](cp/Knuth–Morris–Pratt.cpp)
+- [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
@@ -92,6 +92,7 @@
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
+- [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 
 ## Searching
 
@@ -118,12 +119,18 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
+- [Bucket Sort](sort/bucket_sort.cpp)
 
 ## Stack based problems
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
+
+## Heap based problems
+
+- [Merge K sorted arrays](heaps/Merge_k_sorted_arrays.cpp)
+- [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 
 ## Machine Learning
 
@@ -162,6 +169,7 @@ _add list here_
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
+- [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 
 ## Blockchain
@@ -171,6 +179,9 @@ _add list here_
 ## Cryptography
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
+- [Rail Fence Transposition Technique](cryptography/Rail_fence_Cipher.cpp)
+- [Simple Columnar Transposition Technique](cryptography/Simple_Columnar_Transposition.cpp)
+- [Simple Columnar with Multiple Rounds Transposition Technique](cryptography/Simple_Columnar_Transposition_multiple_rounds.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 
@@ -196,3 +207,6 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Generate all Subsets](other/subsets.cpp)
+- [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
+- [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
+- [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)

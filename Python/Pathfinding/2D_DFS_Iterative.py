@@ -36,7 +36,8 @@ Return  : Integer, String          (Distance, Path)
 
 """
 # Main DFS function using recursion
-def DFS(maze,src,des,way=1):
+
+def DFS(maze, src, des, way=1):
 
     # Dimention of the maze
     n = len(maze)
@@ -50,18 +51,18 @@ def DFS(maze,src,des,way=1):
     moves = {(1, 0): 'D', (-1, 0): 'U', (0, 1): 'R', (0, -1): 'L'}
 
     # Initilize the stack data structure and parent dictionary
-    stack=[(src[0],src[1],0)]
-    parent={}
+    stack = [(src[0], src[1], 0)]
+    parent = {}
 
     # Until the stack is empty, run the loop
     while stack:
-        x,y,cost=stack.pop()
+        x, y, cost = stack.pop()
 
         # If the node is destination, calculate the path and return
         if (x, y) == des:
             path = ''
             dis = cost
-            cur = (x,y)
+            cur = (x, y)
 
             # Calculate the path by backtracking with the parent dict
             while cur != src:
@@ -72,7 +73,7 @@ def DFS(maze,src,des,way=1):
 
             # Return the distance and path
             return dis, path
-        
+
         # For a given node check each possible move
         for i in moves.keys():
             r = x + i[0]
@@ -82,12 +83,12 @@ def DFS(maze,src,des,way=1):
             # then mark it visited and push it in the stack
             if 0 <= r < n and 0 <= c < m and maze[r][c] == way and not visited[r][c]:
                 visited[r][c] = True
-                parent[(r, c)] = (x,y)
+                parent[(r, c)] = (x, y)
                 stack.append((r, c, cost + 1))
 
     # If the stack is empty, there is no way possible, return False
     return False
-    
+
 
 def Find_Path(maze, src, des):
 
@@ -95,11 +96,9 @@ def Find_Path(maze, src, des):
     if(maze[src[0]][src[1]] != 1):
         return False
 
-    return DFS(maze,src,des)
-
+    return DFS(maze, src, des)
 
 # --------------------------------DRIVER CODE ---------------------------------
-
 
 if __name__ == "__main__":
 
@@ -123,7 +122,6 @@ if __name__ == "__main__":
         path = ans[1]
         print("Disance= ", dist)
         print("Path: ", path)
-
 
 """
 Sample Input / Output

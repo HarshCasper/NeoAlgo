@@ -59,6 +59,7 @@
 - [Linked List Intersection](ds/linkedListIntersection.py)
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
+- [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 
 
 ## Searching

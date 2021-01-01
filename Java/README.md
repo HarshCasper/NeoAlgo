@@ -91,6 +91,7 @@ _add list here_
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
+- [Priority Queue](ds/PriorityQueueEg.java)
 
 ## Graphs
 

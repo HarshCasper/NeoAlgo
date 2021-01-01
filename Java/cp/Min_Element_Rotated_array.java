@@ -1,5 +1,5 @@
 import java.util.*;
-class Min_Element {
+class Min_Element_Rotated_array {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the elements");

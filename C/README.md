@@ -63,6 +63,7 @@
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
+- [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)

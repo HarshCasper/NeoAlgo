@@ -35,7 +35,7 @@ For more detailes please click [here](http://page.math.tu-berlin.de/~kant/teachi
 * [__des__](README.md)
   * [DESController.java](DESController.java)
   * [DESCryptographyLogic.java](DESCryptographyLogic.java)
-  * [DESCryptographyModels.java]()
+  * [DESCryptographyModels.java](DESCryptographyModels.java)
   * [InitialPermutationLogic.java]()
   * [InverseInitialPermutationLogic.java]()
   * [PBoxLogic.java]()

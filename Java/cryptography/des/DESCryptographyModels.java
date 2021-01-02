@@ -16,7 +16,7 @@ public class DESCryptographyModels
             1 , 0 , 1 , 0 , 1 , 0 , 1 , 1 ,
             1 , 1 , 0 , 0 , 1 , 1 , 0 , 1 ,
             1 , 1 , 1 , 0 , 1 , 1 , 1 , 1
-    };
+    	};
 	
 	//64-bit original key
 	private byte[] key = 
@@ -110,8 +110,8 @@ public class DESCryptographyModels
 			}
 	};
 	
-    //P-BOX
-    private final byte[] P_BOX= 
+    	//P-BOX
+    	private final byte[] P_BOX= 
 	{
             16  , 7  , 20  , 21 ,
             29  , 12 , 28  , 17 ,

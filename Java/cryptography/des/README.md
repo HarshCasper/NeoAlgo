@@ -43,7 +43,7 @@ For more detailes please click [here](http://page.math.tu-berlin.de/~kant/teachi
 * [__des.exception__](exception/README.md)
   * [ValidationException.java](exception/ValidationException.java)
 * [__des.general__](general/README.md)
-  * [GeneralMethods.java]()
+  * [GeneralMethods.java](general/GeneralMethods.java)
 * [__des.key__](key/README.md)
   * [KeyGenerationModels.java]()
   * [KeyGenerator.java]()

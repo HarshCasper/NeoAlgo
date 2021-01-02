@@ -13,7 +13,7 @@
 ## Classes and Packages
 
 * [__des.exception__](README.md)
-  * [ValidationException.java]()
+  * [ValidationException.java](ValidationException.java)
 
 ## Classes used under current package
 

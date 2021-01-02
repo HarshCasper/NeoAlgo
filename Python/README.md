@@ -151,6 +151,7 @@
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
 - [Depth First Search](graphs/DFS.py)
+- [Depth First Search using adjacency list](graphs/dfs.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
 
 ## Competitive Programming

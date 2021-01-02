@@ -1,3 +1,8 @@
+/*There is a rat who is at the starting point of a matrix and wants to reach
+ to the ending point i.e at the last coordinate of the matrix.
+ 1 denotes the point where it is possible for the mouse to go and
+ 0 denotes that the mouse cannot reach at that point. */
+
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -15,7 +20,8 @@ bool issafetomove(int** arr, int x, int y, int m, int n)     //checking whether 
 
 bool ratInMaze(int** arr, int x,int y,int m, int n, int** solution)
 {
-    if(x==m-1 && y==n-1)             //base condition
+//base condition
+    if(x==m-1 && y==n-1)
     {
         solution[x][y]=1;
         return true;
@@ -24,15 +30,21 @@ bool ratInMaze(int** arr, int x,int y,int m, int n, int** solution)
     if(issafetomove(arr,x,y,m,n))
     {
         solution[x][y]=1;
+
+//mpving in right direction
     if(ratInMaze(arr,x+1,y,m,n,solution))
     {
         return true;
     }
+
+//moving in down direction
         if(ratInMaze(arr,x,y+1,m,n,solution))
     {
         return true;
     }
-    solution[x][y]=0;                //backtracking
+
+//backtracking
+    solution[x][y]=0;
     return false;
     }
 
@@ -94,3 +106,19 @@ int main()
 
     return 0;
 }
+
+
+
+//Output
+/*enter the rows and columns of the  matrix
+3 4
+enter the elements of the array
+1 1 1 1
+1 0 0 0
+1 1 1 1
+
+The path obtained is as follows
+1 0 0 0
+1 0 0 0
+1 1 1 1
+*/

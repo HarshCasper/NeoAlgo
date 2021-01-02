@@ -13,7 +13,7 @@
 ## Classes and Packages
 
 * [__des.validator__](README.md)
-  * [ValidatorLogic.java]()
+  * [ValidatorLogic.java](ValidatorLogic.java)
 
 ## Classes used under current package
 

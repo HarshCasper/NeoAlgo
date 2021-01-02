@@ -270,12 +270,12 @@ public class KeyGenerator
 	public byte[][] generateKey(byte[] key, KeyGenerationModels keyGenerationModels)
 	{
 		
-		byte[]		compressedKey	= compressKey64To56(key, keyGenerationModels.getKEY_COMPRESS_64_TO_56());				// compressed from 64-bit to 56-bit
-		byte[][]	cKeys			= generateCKeys(compressedKey, keyGenerationModels.getNUMBER_OF_SHIFTS());				// 17 C keys are generated (0 - 16)
-		byte[][]	dKeys			= generateDKeys(compressedKey, keyGenerationModels.getNUMBER_OF_SHIFTS());				// 17 D keys are generated (0 - 16)
-		byte[][]	concatenatedKey	= generateConcatenatedKey(cKeys, dKeys);												// last 16 C and D keys are concatenated (0th C and D
-																															// keys are excluded)
-		byte[][]	mainKey			= generateFinalKeys(concatenatedKey, keyGenerationModels.getKEY_COMPRESS_56_TO_48());	// the concatenated keys are then compressed to 48-bit
+		byte[]		compressedKey	= compressKey64To56(key, keyGenerationModels.getKEY_COMPRESS_64_TO_56());		// compressed from 64-bit to 56-bit
+		byte[][]	cKeys		= generateCKeys(compressedKey, keyGenerationModels.getNUMBER_OF_SHIFTS());		// 17 C keys are generated (0 - 16)
+		byte[][]	dKeys		= generateDKeys(compressedKey, keyGenerationModels.getNUMBER_OF_SHIFTS());		// 17 D keys are generated (0 - 16)
+		byte[][]	concatenatedKey	= generateConcatenatedKey(cKeys, dKeys);						// last 16 C and D keys are concatenated (0th C and D
+																	// keys are excluded)
+		byte[][]	mainKey		= generateFinalKeys(concatenatedKey, keyGenerationModels.getKEY_COMPRESS_56_TO_48());	// the concatenated keys are then compressed to 48-bit
 		
 		//returning 48-bit compressed key
 		return mainKey;

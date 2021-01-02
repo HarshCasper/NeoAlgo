@@ -41,7 +41,7 @@ For more detailes please click [here](http://page.math.tu-berlin.de/~kant/teachi
   * [PBoxLogic.java](PBoxLogic.java)
   * [SBoxLogic.java](SBoxLogic.java)
 * [__des.exception__](exception/README.md)
-  * [ValidationException.java]()
+  * [ValidationException.java](exception/ValidationException.java)
 * [__des.general__](general/README.md)
   * [GeneralMethods.java]()
 * [__des.key__](key/README.md)

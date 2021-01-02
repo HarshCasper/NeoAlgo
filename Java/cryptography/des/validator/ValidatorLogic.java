@@ -475,16 +475,16 @@ public class ValidatorLogic
 	{
 		StringBuilder validationString = new StringBuilder();
 		
-		Boolean	keyValidationStatus								= validateOriginalKey(key);
-		Boolean	plainTextValidationStatus						= validatePlainText(plainText);
-		Boolean	keyCompressionTable56To48ValidationStatus		= validateKeyCompressionTable56To48(keyGenerationModels.getKEY_COMPRESS_56_TO_48());
-		Boolean	numberOfShiftsTableValidationStatus				= validateNumberOfShiftsTable(keyGenerationModels.getNUMBER_OF_SHIFTS());
-		Boolean	keyCompressionTable64To56ValidationStatus		= validateKeyCompressionTable64To56(keyGenerationModels.getKEY_COMPRESS_64_TO_56());
+		Boolean	keyValidationStatus				= validateOriginalKey(key);
+		Boolean	plainTextValidationStatus			= validatePlainText(plainText);
+		Boolean	keyCompressionTable56To48ValidationStatus	= validateKeyCompressionTable56To48(keyGenerationModels.getKEY_COMPRESS_56_TO_48());
+		Boolean	numberOfShiftsTableValidationStatus		= validateNumberOfShiftsTable(keyGenerationModels.getNUMBER_OF_SHIFTS());
+		Boolean	keyCompressionTable64To56ValidationStatus	= validateKeyCompressionTable64To56(keyGenerationModels.getKEY_COMPRESS_64_TO_56());
 		Boolean	inverseInitialPermutationTableValidationStatus	= validateInverseInitialPermutationTable(desCryptographyModels.getINVERSE_INITIAL_PERMUTATION());
-		Boolean	pBoxValidationStatus							= validatePBox(desCryptographyModels.getP_BOX());
-		Boolean	sBoxValidationStatus							= validateSBox(desCryptographyModels.getSBOX());
-		Boolean	partitionExpansion32To48ValidationStatus		= validatePartitionExpansionTable32To48(desCryptographyModels.getPARTITION_EXPAND_32_TO_48());
-		Boolean	initialPermutationTableValidationStatus			= validateInitialPermutationTable(desCryptographyModels.getINITIAL_PERMUTATION());
+		Boolean	pBoxValidationStatus				= validatePBox(desCryptographyModels.getP_BOX());
+		Boolean	sBoxValidationStatus				= validateSBox(desCryptographyModels.getSBOX());
+		Boolean	partitionExpansion32To48ValidationStatus	= validatePartitionExpansionTable32To48(desCryptographyModels.getPARTITION_EXPAND_32_TO_48());
+		Boolean	initialPermutationTableValidationStatus		= validateInitialPermutationTable(desCryptographyModels.getINITIAL_PERMUTATION());
 		
 		if (!keyValidationStatus)
 		{

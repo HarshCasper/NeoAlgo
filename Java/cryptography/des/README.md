@@ -39,7 +39,7 @@ For more detailes please click [here](http://page.math.tu-berlin.de/~kant/teachi
   * [InitialPermutationLogic.java](InitialPermutationLogic.java)
   * [InverseInitialPermutationLogic.java](InverseInitialPermutationLogic.java)
   * [PBoxLogic.java](PBoxLogic.java)
-  * [SBoxLogic.java]()
+  * [SBoxLogic.java](SBoxLogic.java)
 * [__des.exception__](exception/README.md)
   * [ValidationException.java]()
 * [__des.general__](general/README.md)

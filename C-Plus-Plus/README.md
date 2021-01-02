@@ -172,7 +172,7 @@ _add list here_
 - [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [[Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)]
-- [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)]
+- [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
 
 ## Blockchain
 

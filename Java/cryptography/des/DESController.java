@@ -119,7 +119,7 @@ public class DESController
 		byte[] decryptedText = new byte[64];
 		try
 		{
-			//calling decrypt methods and storing decrypted of 64-bits text in decryptedText byte array
+			//calling decrypt methods and storing decrypted text of 64-bits in decryptedText byte array
 			decryptedText = desCryptographyLogic.decrypt(cipherText, key, desCryptographyModels, keyGenerationModels);
 		}
 		catch (ValidationException e)
@@ -128,11 +128,11 @@ public class DESController
 			System.out.println(e.getMessage());
 		}
 		
-		// Printing decrypted text
+		//printing decrypted text
 		System.out.println("Decrypted Text:");
 		for (int i = 0; i < decryptedText.length; i++)
 		{
-			// Used for styling the output
+			//used for styling the output
 			if (i % 8 == 0 && i != 0)
 			{
 				System.out.print(" ");

@@ -1,3 +1,12 @@
+/*
+Depth of tree :- we can define depth of tree as total number of levels present in whole tree  tree.
+
+Time Complexity: O(n)
+
+Space Complexity: if tree is perfectly balanced tree O(log n)
+		  if it is not perfectly balanced tree O(n)
+
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

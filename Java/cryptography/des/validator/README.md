@@ -7,9 +7,6 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-
-# Data Encryption Standard Symmetric Key Algorithm 64-bit
-
 ## Classes and Packages
 
 * [__des.validator__](README.md)

@@ -59,6 +59,7 @@ _add list here_
 - [NQueens Problem](cp/NQueens.java)
 - [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
 - [Shortest Distance Between Words](cp/Shortest_Dist.java)
+- [Defanged IP Address](cp/Defanged_IPv4.java)
 
 
 ## Cryptography
@@ -169,6 +170,7 @@ _add list here_
 - [Selection Sort](sort/SelectionSort.java)
 - [Radix Sort](sort/RadixSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
+- [Shell Sort](sort/ShellSort.java)
 
 ## Machine Learning
 

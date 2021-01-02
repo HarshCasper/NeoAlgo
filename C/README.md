@@ -32,7 +32,10 @@
 - [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
+- [Boyer-Moore Voting Algorithm](cp/BoyerMooreVote.c)
 - [Suduko Solver](cp/SudukoSolver.c)
+- [Stock Span Problem](cp/Stock_Span.c)
+- [Bulb Switcher problem](cp/bulbSwitch.c)
 
 ## Cryptography
 
@@ -55,6 +58,7 @@
 - [Delete a linked list node function](ds/List_deletenode_func.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
+- [Circular Queue](ds/circularqueue.c)
 
 ## Searching
 

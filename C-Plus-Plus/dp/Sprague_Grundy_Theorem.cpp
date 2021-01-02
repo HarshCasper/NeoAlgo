@@ -123,8 +123,8 @@ int main()
 Time Complexity: O(n^2)
 Sample Input:
 spraguegrundy	// Main string
-2				// No of substrings in the list
-spra 			// Substrings in the list
+2		// No of substrings in the list
+spra 		// Substrings in the list
 grundy
 
 Sample Output: 

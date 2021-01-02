@@ -46,7 +46,7 @@ For more detailes please click [here](http://page.math.tu-berlin.de/~kant/teachi
   * [GeneralMethods.java](general/GeneralMethods.java)
 * [__des.key__](key/README.md)
   * [KeyGenerationModels.java](key/KeyGenerationModels.java)
-  * [KeyGenerator.java]()
+  * [KeyGenerator.java](key/KeyGenerator.java)
 * [__des.validator__](validator/README.md)
   * [ValidatorLogic.java]()
 

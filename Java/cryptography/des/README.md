@@ -48,7 +48,7 @@ For more detailes please click [here](http://page.math.tu-berlin.de/~kant/teachi
   * [KeyGenerationModels.java](key/KeyGenerationModels.java)
   * [KeyGenerator.java](key/KeyGenerator.java)
 * [__des.validator__](validator/README.md)
-  * [ValidatorLogic.java]()
+  * [ValidatorLogic.java](validator/ValidatorLogic.java)
 
 ## Classes used under current package
 

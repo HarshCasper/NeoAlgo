@@ -8,8 +8,6 @@
 </p>
 
 
-# Data Encryption Standard Symmetric Key Algorithm 64-bit
-
 ## Classes and Packages
 
 * [__des.exception__](README.md)

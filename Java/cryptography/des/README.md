@@ -40,14 +40,14 @@ For more detailes please click [here](http://page.math.tu-berlin.de/~kant/teachi
   * [InverseInitialPermutationLogic.java]()
   * [PBoxLogic.java]()
   * [SBoxLogic.java]()
-* [__des.exception__]()
+* [__des.exception__](exception/README.md)
   * [ValidationException.java]()
-* [__des.general__]()
+* [__des.general__](general/README.md)
   * [GeneralMethods.java]()
-* [__des.key__]()
+* [__des.key__](key/README.md)
   * [KeyGenerationModels.java]()
   * [KeyGenerator.java]()
-* [__des.validator__]()
+* [__des.validator__](validator/README.md)
   * [ValidatorLogic.java]()
 
 ## Classes used under current package

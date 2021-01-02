@@ -61,6 +61,7 @@ _add list here_
 - [Balanced Parenthesis](cp/BalancedParenthesis.java)
 - [Shortest Distance Between Words](cp/Shortest_Dist.java)
 - [Defanged IP Address](cp/Defanged_IPv4.java)
+- [Stock Span Problem](cp/StockSpan.java)
 
 
 ## Cryptography

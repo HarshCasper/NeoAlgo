@@ -43,6 +43,7 @@
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [Search Insert Position](cp/search_insert_position.py)
 - [Stock span problem](cp/stock_span.py)
+- [Bulb Switcher problem](cp/bulb_switcher.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

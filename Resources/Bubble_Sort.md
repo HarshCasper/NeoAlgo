@@ -1,10 +1,10 @@
 # BUBBLE SORT
 
-It is the simplest sorting algorithm which sorts the data in an increasing order. It just bubbles up the largest value to the end by pair-wise (adjacent elements) comparisons & swapping.
+It is the simplest sorting algorithm which sorts the data in increasing order. It just bubbles up the largest value to the end by pair-wise (adjacent elements) comparisons & swapping.
 
 You just have to traverse the collection of elements from front to end.
 
-The steps and execution of bubble sort is explained briefly with the help of an example.
+The steps and execution of bubble sort are explained briefly with the help of an example.
 
 ## ANALYSIS
 
@@ -19,19 +19,19 @@ This is the initial position of array elements.
 
 #### 1st pass:
 
-Now we have to start pair-wise comparisons & on first comparison we find that 2 is great than 1 so both the elements are swapped.
+Now we have to start pair-wise comparisons & on the first comparison, we find that 2 is great than 1 so both the elements are swapped.
 
 Index -> 0 1 2 3 4
 Element-> 1 2 4 5 3
 
-On comparison of 2 & 4, we find they are already sorted so next we compare 4 & 5 & find that they are also sorted. Hence, we didn’t swap the elements. Now we compare 5 & 3, and as 5 is greater than 3 so we swap them. All of this happens in the first pass. At the end of first pass the array is –
+On comparison of 2 & 4, we find they are already sorted so next, we compare 4 & 5 & find that they are also sorted. Hence, we didn’t swap the elements. Now we compare 5 & 3, and as 5 is greater than 3 so we swap them. All of this happens in the first pass. At the end of the first pass, the array is –
 
 Index -> 0 1 2 3 4
 Element-> 1 2 4 3 5
 
 #### 2nd pass:
 
-We again start form the front & start pair-wise comparisons & swap wherever necessary. On first comparison of 1 & 2, they are not swapped as they are already sorted. Same goes for 2 & 4. On next comparison between 4 & 3, 4 being greater than 3 is swapped with 3.
+We again start form the front & start pair-wise comparisons & swap wherever necessary. On the first comparison of 1 & 2, they are not swapped as they are already sorted. Same goes for 2 & 4. On the next comparison between 4 & 3, 4 is greater than 3 is swapped with 3.
 
 Index -> 0 1 2 3 4
 Element-> 1 2 3 4 5
@@ -75,4 +75,4 @@ The time complexity of Bubble sort is O(n2) because for a collection of data hav
 
 #### Space Complexity: O(1)
 
-The space complexity for Bubble Sort is O(1), because only a single additional memory space is required.
+The space complexity for Bubble Sort is O(1) because only a single additional memory space is required.

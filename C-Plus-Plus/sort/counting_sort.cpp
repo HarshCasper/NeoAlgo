@@ -12,6 +12,18 @@
 
 using namespace std;
 
+int Min(long long int A[], long long int n) {
+        long long int min = 100000;
+
+        // finds the maximum element of the array
+        for (long long int i = 0; i < n; i++) {
+                if (A[i] < min) {
+                        min = A[i];
+                }
+        }
+        return min;
+}
+
 int Max(long long int A[], long long int n) {
         long long int max = A[0];
 
@@ -26,28 +38,26 @@ int Max(long long int A[], long long int n) {
 
 void CountSort(long long int A[], long long int n) {
         long long int max = Max(A, n);
-        int* count = new int [max + 1];
+        long long int min = Min(A, n);
+        int* count = new int [max- min + 1];
 
         // initializes the count array with all elements to zero
-        for (long long int i = 0; i < max + 1; i++) {
-                count[i] = 0;
+        for (long long int i = 0; i < n; i++) {
+                count[A[i]-min] = 0;
         }
 
         // updates the count array with frequencies of given numbers
         for (long long int i = 0; i < n; i++) {
-                count[A[i]]++;
+                count[A[i]-min]++;
         }
 
-        long long int i = 0;
-        long long int j = 0;
+        int k = 0;
 
-        // updates A with sorted elements
-        while (j < max + 1) {
-                if (count[j] > 0) {
-                        A[i++] = j;
-                        count[j]--;
-                } else {
-                        j++;
+        for (int j = max; j >= min; j--)
+        {
+                for (int i = 0; i < count[j - min]; i++)
+                {
+                        A[k++] = j;
                 }
         }
 
@@ -72,7 +82,7 @@ int main() {
         cout << "The sorted array is :" << endl;
 
         // prints the sorted array
-        for (long long int i = 0; i < n; i++) {
+        for (long long int i = n-1; i >=0; i--) {
                 cout << A[i] << " ";
         }
         cout << endl;
@@ -84,9 +94,9 @@ int main() {
  Enter the size of array
  10
  Enter the elements
- 45 86 27 38 59 12 86 72 125 38
+ -80 77 256 -125 910 746 -244 910 1012 488
 
  Output:
  The sorted array is :
- 12 27 38 38 45 59 72 86 86 125
+ -244 -125 -80 77 256 488 746 910 910 1012
 */

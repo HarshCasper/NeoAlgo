@@ -93,6 +93,7 @@
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
+- [Depth Of Tree](graphs/Depth_of_tree.cpp)
 
 ## Searching
 

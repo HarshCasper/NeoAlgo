@@ -45,6 +45,7 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Josephus Problem](cp/Josephus.cpp)
 - [NQueens](cp/NQueens.cpp)
+- [rat in a maze](cp/ratInAMaze.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 

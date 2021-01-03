@@ -7,8 +7,8 @@ Input data : 4,9,3,7,2
 <pre>
 1) First of all we need to create a max heap with the input data.
                4(0)				Array -
-              /  \				Index:      0	1	2	3	4
-            9(1)  3(2)		Elements: 	4	9	3	7	2
+              /  \				Index:          0	1	2	3	4
+            9(1)  3(2)		                Elements: 	4	9	3	7	2
            /  \
         7(3)  2(4)
 
@@ -16,14 +16,14 @@ Input data : 4,9,3,7,2
 After comparison at index 1, the heap remains the same.
 After comparisons & swapping at index 0, the heap becomes
               9(0)				Array -
-             /  \				   Index:      0	1	2	3	4
-           7(1)  3(2)			Elements: 	9	7	3	4	2
+             /  \				Index:      0	1	2	3	4
+           7(1)  3(2)			        Elements:   9	7	3	4	2
           / \
        4(3)  2(4)
 After next comparison & swap, the heap becomes
-                9(0)			Array –
-               /  \				Index:      0	1	2	3	4
-            7(1)  4(2)		Elements: 	9	7	4	3	2
+                9(0)			        Array –
+               /  \				Index:          0	1	2	3	4
+            7(1)  4(2)		                Elements: 	9	7	4	3	2
            /  \
         3(3)   2(4)
 

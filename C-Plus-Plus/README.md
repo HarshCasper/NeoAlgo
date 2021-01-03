@@ -39,6 +39,7 @@
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [K-Prefix Problem](cp/K_Prefix.cpp)
 
 ## Data Structures
 

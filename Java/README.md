@@ -61,8 +61,9 @@ _add list here_
 - [Balanced Parenthesis](cp/BalancedParenthesis.java)
 - [Shortest Distance Between Words](cp/Shortest_Dist.java)
 - [Defanged IP Address](cp/Defanged_IPv4.java)
+- [Minimum Element In a Rotated Array](cp/Min_Element_Rotated_array.java)
 - [Stock Span Problem](cp/StockSpan.java)
-
+- [Wrapping Letters](cp/Main.java)
 
 ## Cryptography
 
@@ -140,6 +141,7 @@ _add list here_
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
+- [Unique BST](dp/Unique_BST.java)
 
 ## Blockchain
 
@@ -197,3 +199,4 @@ _add list here_
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
+- [Set Bits in an Integer](other/SetBitsInInteger.java)

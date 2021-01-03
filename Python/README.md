@@ -128,6 +128,7 @@
 - [BFS in Maze](Pathfinding/2D_BFS.py)
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
+- [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
 
 
 ## Graphs

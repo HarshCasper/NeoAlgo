@@ -36,7 +36,7 @@ Element-> 1 1 2 2 4 5 7
 
 1. n-> no of input elements, A[n] -> array of elements.
 2. Initially, k=0. While entering the elements in array,
- if (A[i] > k) then k=A[i];
+   if (A[i] > k) then k=A[i];
 3. Now pass, A[n], n, & k to the counting sort function.
 4. In counting sort function, take two temporary arrays, B[n] & C[k].
 
@@ -54,4 +54,3 @@ The sorted array is given by B[n].
 ## Time & Space Complexity of the Algorithm
 
 Worst Case Time & Space Complexity [ Big-O]: O(n + k) where k is the range of the non-negative key values.
-

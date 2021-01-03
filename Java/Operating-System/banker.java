@@ -1,8 +1,18 @@
+/*
+DESCRIPTION: 
+Banker's Algorithm – is a technique used for deadlock avoidance when there are multiple instances of a resource.The banker's algorithm for deadlock-free resource allocation is one of the basic algorithms in concurrent and distributed systems.User process may only request one resource at a time.System grants request only if the request will result in a safe state.A State is considered to be Safe if it is possible for all the Processes to Complete its Execution without causing any Deadlocks. An Unsafe State is the one in which the Processes cannot complete its execution.
+
+The time complexity for n processes and m resources is o(n*n*m).
+The space complexity for n processes and m resources is o(n*m).
+*/
+
 import java.util.Scanner;
 
 class algorithm {
 
     void display(int r, int p, int[] avail, int max[][], int need[][], int allocation[][], int res[]) {
+        
+        //Checking for available resources inline.
         System.out.println("THE MAXIMUM RESOURCES MATRIX IS AS FOLLOWS :");
         System.out.print("   ");
         for (int i = 0; i < r; i++) {
@@ -177,14 +187,18 @@ public class banker
             }
         } while (r < 0);
         int res[] = new int[r];
-
-
+        
+        // array defines the maximum demand of each process in a system.
         int max[][] = new int[p][r];
+        
+        //array about the number of resources of each type currently allocated to each process.
         int allocation[][] = new int[p][r];
+        
         int need[][] = new int[p][r];
         //available/work array
         int[] avail = new int[r]; 
-
+        
+        //array about how many more resources can be allocated in the future
         int[] req = new int[r];
         
         //create the object

@@ -1,5 +1,5 @@
 import java.util.*;
-class Wrapping_letter {
+class Main {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
@@ -21,8 +21,10 @@ class Wrapping_letter {
     }
 
 }
-/* Sample input and output : 
- * Enter the target character
+
+/*
+Sample input and output:
+Enter the target character
 a
 Enter the letters
 cdf
@@ -32,6 +34,7 @@ z
 Enter the letters
 abc
 The closest letter : a
- Time Complexity : O(n)
- Space Complexity : O(1)
- */
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/

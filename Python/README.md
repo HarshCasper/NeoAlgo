@@ -253,5 +253,6 @@ _add list here_
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+- [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

@@ -35,6 +35,7 @@
 - [Boyer-Moore Voting Algorithm](cp/BoyerMooreVote.c)
 - [Suduko Solver](cp/SudukoSolver.c)
 - [Stock Span Problem](cp/Stock_Span.c)
+- [Bulb Switcher problem](cp/bulbSwitch.c)
 
 ## Cryptography
 

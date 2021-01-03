@@ -1,13 +1,5 @@
-/*Given a list of sorted characters letters containing only lowercase letters, and given a target letter target, find the smallest element in the list that is larger than the given target. Letters also wrap around.
-Input : ch='z' ; letters= ['a', 'b']
-Output : a
-
-Input : ch = 'a' ; letters = ['c', 'd', 'j']
-Output : c
- * 
- */
 import java.util.*;
-class GC4 {
+class Wrapping_letter {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 

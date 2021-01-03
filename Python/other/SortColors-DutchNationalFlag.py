@@ -17,22 +17,23 @@
 
 
 # Function to sort array 
-def dnf_algo( a, arr_size): 
+def dnf_algo( array, len): 
 
     low = 0 
-    high = arr_size - 1
+    high = len - 1
     mid = 0
-    while mid <= high: 
-        if a[mid] == 0: 
-            a[low], a[mid] = a[mid], a[low] 
+
+    while mid <= high:        
+        if array[mid] == 0: 
+            array[low], array[mid] = array[mid], array[low] 
             low = low + 1
             mid = mid + 1
-        elif a[mid] == 1: 
+        elif array[mid] == 1: 
             mid = mid + 1
         else: 
-            a[mid], a[high] = a[high], a[mid]  
+            array[mid], array[high] = array[high], array[mid]  
             high = high - 1
-    return a 
+    return array 
       
     
 array = list(map(int,input().split()))  # taking all the values in one line and mapping into list

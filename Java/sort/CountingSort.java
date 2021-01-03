@@ -98,26 +98,41 @@ class CountingSort
     }
 
     public static void main (String[] args) throws java.lang.Exception
-	{
+    {
+	CountingSort sort = new CountingSort();
+
+        Scanner sc = new Scanner(System.in);
+
         //Input:- Integer Array
-		CountingSort sort = new CountingSort();
-		int[] arrInt = {-1,-2,-3,-4,5,4,3,2,1};
-		sort.sortIntegerArray(arrInt);
-        System.out.println("Sorted Array:- ");
-        for(int i=0; i<arrInt.length;i++)
+        System.out.println("Enter space separated integer:");
+        String intString[]= sc.nextLine().split(" ");
+        int size = intString.length;
+        int[] arrInt = new int[size];
+        for(int i=0 ;i<size;i++){
+            arrInt[i]= Integer.parseInt(intString[i]);
+        }
+        sort.sortIntegerArray(arrInt);
+        System.out.println("Sorted Integer Array:- ");
+        for(int i=0; i<size;i++)
         {
-		    System.out.print(arrInt[i]+" ");
-		}
+            System.out.print(arrInt[i]+" ");
+        }
         System.out.println();
 
         //Input:- Character Array
-		char[] arrChar = {'e','a','d','f','g'};
-		sort.sortCharArray(arrChar);
-        System.out.println("Sorted Array:- ");
-        for(int i=0; i<arrChar.length;i++)
+        System.out.println("\nEnter space separated character:");
+        String charString[] = sc.nextLine().split(" ");
+        int Size=charString.length;
+        char[] arrChar = new char[Size];
+        for(int i=0 ;i<Size;i++){
+            arrChar[i] = charString[i].charAt(0);
+        }
+        sort.sortCharArray(arrChar);
+        System.out.println("Sorted Character Array:- ");
+        for(int i=0; i<Size;i++)
         {
-		    System.out.print(arrChar[i]+" ");
-		}
+            System.out.print(arrChar[i]+" ");
+        }
         System.out.println();
-	}
+    }
 }

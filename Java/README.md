@@ -14,7 +14,7 @@
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
-- [Moore Algorithm](Algorithm/Moore_Algorithm.java)
+- [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
 
 ## Greedy Algorithms
 

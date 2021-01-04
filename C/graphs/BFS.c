@@ -41,7 +41,7 @@ void main()
             getch();
         }
         printf("\nDo you want to traverse from any other node?");
-        ans = getche();
+        ans = getch();
     } while (ans == 'y');
     exit(0);
 }
@@ -69,7 +69,7 @@ void create()
             g[v2][v1] = TRUE;
         }
         printf("\n\nAdd more edges??(y/n)");
-        ans = getche();
+        ans = getch();
     } while (ans == 'y');
 }
 void bfs(int v1)

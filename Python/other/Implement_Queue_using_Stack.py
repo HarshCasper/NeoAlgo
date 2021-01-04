@@ -1,6 +1,5 @@
 ''' 
-Euler-circuit-and-Path
-
+Implement-Queue-Using-Stack
 Problem Statement : Implement a Queue using 2 stacks s1 and s2 .
                     A Query Q is of 2 Types
                     (i) 1 x (a query of this type means  pushing 'x' into the queue)

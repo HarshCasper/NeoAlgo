@@ -15,7 +15,7 @@
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [Moore Algorithm](Algorithm/Moore_Algorithm.java)
-
+- [Tarjan's Algorithm](Algorithms/tarjans.java)
 ## Greedy Algorithms
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)

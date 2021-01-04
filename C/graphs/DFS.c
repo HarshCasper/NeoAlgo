@@ -26,7 +26,7 @@ void main()
             printf("%d", g[v1][v2]);
         printf("\n");
     }
-    getch();
+    getchar();
     do
     {
         for (v1 = 0; v1 < n; v1++)
@@ -41,7 +41,7 @@ void main()
             Dfs(v1);
         }
         printf("\nDo you want to traverse By any other node?");
-        ans = getch();
+        ans = getchar();
     } while (ans == 'y');
 }
 void create()
@@ -73,7 +73,7 @@ void create()
             g[v2][v1] = TRUE;
         }
         printf("\n\nAdd more edges??(y/n)");
-        ans = getch();
+        ans = getchar();
     } while (ans == 'y');
 }
 void Dfs(int v1)

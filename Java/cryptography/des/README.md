@@ -109,5 +109,5 @@ Suppose you have create the _des_ folder and its hierarchy under `E:\neoalgo\`
 
 ## Run in Eclipse IDE
 * Create a new _Java Project_ in Eclipse
-* Copy and Paste the created directy under the `src` folder in eclipse
+* Copy and Paste the created directory directy under the `src` folder in eclipse
 * Now click on _Run as Java Project_ or press _Alt+Shift+X,J_

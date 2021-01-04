@@ -1,6 +1,11 @@
 /*
-DESCRIPTION: 
-Banker's Algorithm – is a technique used for deadlock avoidance when there are multiple instances of a resource.The banker's algorithm for deadlock-free resource allocation is one of the basic algorithms in concurrent and distributed systems.User process may only request one resource at a time.System grants request only if the request will result in a safe state.A State is considered to be Safe if it is possible for all the Processes to Complete its Execution without causing any Deadlocks. An Unsafe State is the one in which the Processes cannot complete its execution.
+Banker's Algorithm
+
+Banker's Algorithm is a technique used for deadlock avoidance when there are multiple instances of a resource.
+The banker's algorithm for deadlock-free resource allocation is one of the basic algorithms in concurrent and distributed systems.
+User process may only request one resource at a time. System grants request only if the request will result in a safe state.
+A state is considered to be safe if it is possible for all the processes to complete its execution without causing any deadlocks.
+An unsafe state is the one in which the processes cannot complete its execution.
 
 The time complexity for n processes and m resources is o(n*n*m).
 The space complexity for n processes and m resources is o(n*m).

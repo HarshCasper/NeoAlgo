@@ -15,9 +15,7 @@ void main()
     int v1, v2;
     char ans = 'y';
     void create(), bfs();
-    clrscr();
     create();
-    clrscr();
     printf("The Adjacency Matrix for the graph is \n");
     for (v1 = 0; v1 < n; v1++)
     {
@@ -43,7 +41,7 @@ void main()
             getch();
         }
         printf("\nDo you want to traverse from any other node?");
-        ans = getche();
+        ans = getch();
     } while (ans == 'y');
     exit(0);
 }
@@ -71,7 +69,7 @@ void create()
             g[v2][v1] = TRUE;
         }
         printf("\n\nAdd more edges??(y/n)");
-        ans = getche();
+        ans = getch();
     } while (ans == 'y');
 }
 void bfs(int v1)

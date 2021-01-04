@@ -4,7 +4,7 @@ public class CountInversion{
     private static int mergeSort(int[] arr, int low, int high){
         int count = 0;
         if(low < high){
-            int mid = (low+high)/2;
+            int mid = low + (high-low)/2;
             count += mergeSort(arr, low, mid-1);
             count += mergeSort(arr, mid+1, high);
 

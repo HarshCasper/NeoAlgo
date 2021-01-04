@@ -8,7 +8,7 @@ Input : Enter the values in the stack as push() function or
         pop() function.
 
 
-Output : Print the value of the stack without any brackets.
+Output : Do some functions on the stack.
 
 
 Time Complexity : O(V)

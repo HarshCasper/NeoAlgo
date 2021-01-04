@@ -64,6 +64,7 @@ _add list here_
 - [Minimum Element In a Rotated Array](cp/Min_Element_Rotated_array.java)
 - [Stock Span Problem](cp/StockSpan.java)
 - [Wrapping Letters](cp/Main.java)
+- [Sort 2D Array](cp/Sort_2D_Array.java)
 
 ## Cryptography
 

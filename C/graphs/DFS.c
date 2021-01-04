@@ -20,7 +20,6 @@ void main()
     void create();
     void Dfs(int);
     create();
-    clrscr();
     printf("The Adjacency Matrix for the graph is \n");
     for (v1 = 0; v1 < n; v1++)
     {

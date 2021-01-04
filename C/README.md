@@ -98,6 +98,7 @@
 
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
+- [Depth First Search](graphs/DFS.c)
 
 ## Machine Learning
 

@@ -24,7 +24,7 @@ void main()
             printf("%d", g[v1][v2]);
         printf("\n");
     }
-    getch();
+    getchar();
     do
     {
         for (v1 = 0; v1 < n; v1++)
@@ -39,10 +39,10 @@ void main()
         {
             printf("The Breadth First Search of the Graph is\n");
             bfs(v1);
-            getch();
+            getchar();
         }
         printf("\nDo you want to traverse from any other node?");
-        ans = getch();
+        ans = getchar();
     } while (ans == 'y');
     exit(0);
 }
@@ -70,7 +70,7 @@ void create()
             g[v2][v1] = TRUE;
         }
         printf("\n\nAdd more edges??(y/n)");
-        ans = getch();
+        ans = getchar();
     } while (ans == 'y');
 }
 void bfs(int v1)

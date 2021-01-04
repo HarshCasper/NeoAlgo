@@ -22,7 +22,7 @@ Output : Return the int value to print 1 if Euler path
         exists print 2 if Euler cycle exists else 0.
 
 Time Complexity : O(V+E)
-Time Complexity : O(N)
+Space Complexity : O(N)
 
 '''
 

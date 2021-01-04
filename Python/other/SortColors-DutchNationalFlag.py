@@ -34,17 +34,51 @@ def dnf_algo( array, len):
             array[mid], array[high] = array[high], array[mid]  
             high = high - 1
     return array 
-      
-    
-array = list(map(int,input().split()))  # taking all the values in one line and mapping into list
 
-arr_size = len(array)  # finding length of list
+# Now by taking all the values in one line and mapping into list    
+    
+array = list(map(int,input().split()))  
+
+ # finding length of list
+
+arr_size = len(array) 
 
 array = dnf_algo(array, arr_size) 
 
 print("Array after applying Dutch National Flag Algo :")
 
 # printing the final resultant array
+
 for i in array: 
-    print(i,end=" ")    # end= " " is used to print all elements in one line
+    # end= " " is used to print all elements in one line
+    print(i,end=" ")    
+
+# ------------------------------------------ TEST CASES -------------------------------------
+
+
+# Sample I/P 1:
+
+# 2 0 1
+
+# Sample O/P 1:
+
+# Array after applying Dutch National Flag Algo : 0 1 2
+
+#--------------------------------------------------------------------------------------------
+
+# Sample I/P 2:
+
+# 2 0 2 1 1 0
+
+# Sample O/P 2:
+
+# Array after applying Dutch National Flag Algo : 0 0 1 1 2 2
+
+#--------------------------------------------------------------------------------------------
+
+# COMPLEXITY ANALYSIS-
+
+#       Time = O(N)
+#       Space = O(1)
+
 

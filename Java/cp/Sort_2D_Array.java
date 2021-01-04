@@ -37,8 +37,8 @@ class Sort_2D_Array {
                 }
             }
         }
-        for (int[] x: arr) {
-            for (int y: x) {
+        for (int[] x : arr) {
+            for (int y : x) {
                 System.out.print(y + "        ");
             }
             System.out.println();
@@ -46,7 +46,8 @@ class Sort_2D_Array {
 
     }
 }
-/*Enter number of rows and columns
+/*
+Enter number of rows and columns
 4
 4
 Enter the elements of the array
@@ -56,12 +57,11 @@ Enter the elements of the array
 24 64 20 65
 Enter the column to be sorted
 3
-10        93        91        90        
-54        78        56        89        
-24        64        20        65        
-39        27        11        42   
+10        93        91        90
+54        78        56        89
+24        64        20        65
+39        27        11        42
 
 Space Complexity : O(1)
 Time Complexity : O(m^2)
- * 
  */

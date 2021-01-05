@@ -61,6 +61,7 @@
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+- [Burrows Wheeler transform(BWT)](cryptography/Burrows_Wheeler_transform.py)
 
 
 ## Searching

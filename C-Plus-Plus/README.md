@@ -73,6 +73,8 @@
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 - [Vector](ds/Vector.cpp)
+- [Ancestors in Binary Search Tree](ds/ancestors_of_given_number_BST.cpp)
+- [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 
 ## Graphs
 

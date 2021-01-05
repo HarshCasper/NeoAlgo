@@ -5,6 +5,8 @@ The algorithm, then backtracks from the dead end towards the most recent node th
 #include<bits/stdc++.h>
 using namespace std;
 //nodes 1 to n
+
+//Creating adjacency list for the graph representation
 void createAdjList(vector<int> adj[], vector<vector<int>> &edges)
 {
     int m = edges.size();
@@ -18,7 +20,10 @@ void createAdjList(vector<int> adj[], vector<vector<int>> &edges)
 
 void dfsVisit(vector<int> &visited, vector<int> adj[], int src)
 {
+	//Mark the current node as visited
     visited[src] = 1;
+	
+	//Recur for all the vertices adjacent to this vertex
     for(int i=0; i<adj[src].size(); i++)
     {
         if(!visited[adj[src][i]])
@@ -29,6 +34,8 @@ void dfsVisit(vector<int> &visited, vector<int> adj[], int src)
     cout << src << " ";
 }
 
+// DFS traversal of the vertices reachable from 1.
+// It uses recursive dfsVisit()
 void dfs(int n, vector<vector<int>> &edges)
 {
     vector<int> adj[n+1];  
@@ -45,7 +52,8 @@ void dfs(int n, vector<vector<int>> &edges)
 int main()
 {
     int n, m;
-	cout<<"Enter number of  vertices and edges: ";  //n vertices and m edges 
+	//n vertices and m edges
+	cout<<"Enter number of  vertices and edges: ";   
     cin >> n >> m;
     vector<vector<int>> edges(m, vector<int>(2));
 	cout<<"Enter all the "<<m<<"edges";

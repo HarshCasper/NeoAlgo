@@ -47,7 +47,7 @@ def NGE(l,inputs):
 # Enter the length of the list
 inputs = int(input("Enter the length of the list: "))
 # Enter the list 
-numbers = list(map(int,input("enter the elements: ").rstrip().rsplit())) 
+numbers = list(map(int,input("Enter the elements: ").rstrip().rsplit())) 
 
 #OUTPUT
 

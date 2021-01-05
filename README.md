@@ -1,6 +1,11 @@
 <p align="center">
 <img src="img/neo_algo.png" /><br>
 <a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/TesseractCoding/NeoAlgo/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo?style=for-the-badge" /></a> <a href="https://github.com/TesseractCoding/NeoAlgo/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo?style=for-the-badge" /></a> <a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/README.md#contributors-" target="_blank"><img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo?style=for-the-badge" /></a>
+<img alt="Fork" src="https://img.shields.io/github/forks/TesseractCoding/NeoAlgo?label=FORKS&style=social" />
+<img alt="Stars" src="https://img.shields.io/github/stars/TesseractCoding?style=social" />
+<img alt="Watch" src="https://img.shields.io/github/watchers/TesseractCoding/NeoAlgo?label=Watch&style=social" />
+
+
 </p>
 
 ## Overview
@@ -8,6 +13,19 @@
 The goal of this project is to have in a single place for all possible algorithms and data structures - in multiple languages. We aim to achieve this collaboratively, so feel free to contribute in any way you want, just ensure to follow the contribution guidelines listed below :point_down:.
 
 In case you have any questions, feel free to tag one of the repo admins in your issue/PR (**don't assign us to any issue!**): <a href="https://github.com/born-2learn/born-2learn.github.io" target="_blank">Syed Farhan</a>, <a href="https://github.com/ricardoprins/ricardoprins" target="_blank">Ricardo Prins</a> and <a href="https://github.com/HarshCasper/harshcasper" target="_blank">Harsh Mishra</a>.
+
+---
+
+## Languages Supported
+<img alt="C" src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png" width="40" height="40"> <img
+alt="C++" src="https://seeklogo.com/images/C/c-logo-43CE78FF9C-seeklogo.com.png" width="40" height="40"> <img
+alt="C Sharp" src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" width="40" height="40"> <img
+alt="GO" src="https://golang.org/lib/godoc/images/go-logo-blue.svg" width="40" height="40"> <img
+alt="JavaScript" src="https://seeklogo.com/images/J/java-script-js-logo-ACF4AE5082-seeklogo.com.png" width="40" height="40"> <img
+alt="Java" src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png" width="40" height="40"> <img
+alt="Python" src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" width="40" height="40"> <img
+alt="Q Sharp" src="https://qsharp.community/assets/images/qsharp-comm-logo.png" width="40" height="40"> <img
+alt="Kotlin" src="https://seeklogo.com/images/K/kotlin-logo-EE46F1FE44-seeklogo.com.png" width="40" height="40">
 
 ## Contents
 
@@ -58,6 +76,6 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 This project follows the [MIT License](/LICENSE).
 
-## Slack 
+## Slack
 
 [![Slack](https://img.shields.io/badge/chat-on_slack-purple.svg?style=for-the-badge&logo=slack)](https://join.slack.com/t/tesseractcodi-bxq5968/shared_invite/zt-ju6c0nqq-KgkTvFyxjNVbDRBIjADanw)

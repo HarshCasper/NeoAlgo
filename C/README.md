@@ -32,6 +32,10 @@
 - [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
+- [Boyer-Moore Voting Algorithm](cp/BoyerMooreVote.c)
+- [Suduko Solver](cp/SudukoSolver.c)
+- [Stock Span Problem](cp/Stock_Span.c)
+- [Bulb Switcher problem](cp/bulbSwitch.c)
 
 ## Cryptography
 
@@ -49,22 +53,21 @@
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
-- [Reversing a Linked List](ds/Reverse_linked_list.c)
-
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 - [Delete a linked list node function](ds/List_deletenode_func.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
+- [Circular Queue](ds/circularqueue.c)
 
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
+- [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
-- [Ternary Search](search/TernarySearch.c)
 
 ## Sorting
 
@@ -79,6 +82,7 @@
 - [Shell Sort](sort/ShellSort.c)
 - [Bucket Sort](sort/bucketSort.c)
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
+- [Radix Sort](sort/radix_sort.c)
 
 ## Dynamic Programming
 
@@ -87,11 +91,14 @@
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
+- [House Robber](dp/houseRobber.c)
+- [Unique BST](dp/Unique_BST.c)
 
 ## Graphs
 
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
+- [Breadth First Search](graphs/BFS.c)
 
 ## Machine Learning
 
@@ -106,6 +113,8 @@ _add list here_
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Happy Number](math/happy_number.c)
+- [Automorphic Number](math/automorphic_no.c)
+- [Karpekar Number](math/Kaprekar_no.c)
 
 ## Other
 
@@ -117,6 +126,7 @@ _add list here_
 - [Recursion count of substring](other/recursion_string.c)
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
+- [Nth Ugly Number](other/ugly_number.c)
 
 ## CP
 

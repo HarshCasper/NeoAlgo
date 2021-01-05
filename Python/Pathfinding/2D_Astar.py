@@ -15,35 +15,35 @@ Method : A*(Astar) Algorithm
 Intuition: For implementation of the A* Algorithm, follow these steps
         1.  Initialize the open list
         2.  Initialize the closed list
-            put the starting node on the open 
+            put the starting node on the open
             list (you can leave its f at zero)
         3.  while the open list is not empty
-            a) find the node with the least f on 
+            a) find the node with the least f on
                 the open list, call it "q"
             b) pop q off the open list
-            c) generate q's 8 successors and set their 
+            c) generate q's 8 successors and set their
                 parents to q
             d) for each successor
                 i) if successor is the goal, stop search
-                    successor.g = q.g + distance between 
+                    successor.g = q.g + distance between
                     successor and q
-                    successor.h = distance from goal to 
-                    successor (This can be done using many 
-                    ways, we will discuss three heuristics- 
+                    successor.h = distance from goal to
+                    successor (This can be done using many
+                    ways, we will discuss three heuristics-
                     Manhattan, Diagonal and Euclidean Heuristics)
                     successor.f = successor.g + successor.h
 
-                ii) if a node with the same position as 
-                    successor is in the OPEN list which has a 
+                ii) if a node with the same position as
+                    successor is in the OPEN list which has a
                 lower f than successor, skip this successor
 
-                iii) if a node with the same position as 
+                iii) if a node with the same position as
                     successor  is in the CLOSED list which has
                     a lower f than successor, skip this successor
                     otherwise, add  the node to the open list end (for loop)
-  
+
             e) push q on the closed list
-                end (while loop) 
+                end (while loop)
 
 Time Compexity:   O(N*M)
 Space Complexity: O(N*M)
@@ -52,26 +52,30 @@ Argument: 2-d list, tupple, tupple (Maze, Source, Destination)
 Return  : Integer, String          (Distance, Path)
 
 """
-from heapq import heappop,heappush
+from heapq import heappop, heappush
 
 # Manhattan Distance for heuristic functionn
-def  heuristic_function(p1, p2):
-	    x1, y1 = p1
-	    x2, y2 = p2
-	    return abs(x1 - x2) + abs(y1 - y2)
 
-def Astar(maze,src,des,way=1):
+
+def heuristic_function(p1, p2):
+    x1, y1 = p1
+    x2, y2 = p2
+    return abs(x1 - x2) + abs(y1 - y2)
+
+
+def Astar(maze, src, des, way=1):
 
     # Base Case: If there is no way from the source, returnn False
     if(maze[src[0]][src[1]] != 1):
         return False
 
     # Dimention of the maze
-    n = len(maze);m = len(maze[0])
+    n = len(maze)
+    m = len(maze[0])
 
-    hp=[]
-    count=0
-    x,y=src
+    hp = []
+    count = 0
+    x, y = src
 
     # To keep a track of visited nodes, also mark source as visited
     visited = [[False] * m for i in range(n)]
@@ -79,22 +83,30 @@ def Astar(maze,src,des,way=1):
 
     # All possible moves from a cell
     moves = {(1, 0): 'D', (-1, 0): 'U', (0, 1): 'R', (0, -1): 'L'}
-    parent={}
+    parent = {}
 
-    heappush(hp,[0,count,src])
-    g_score=[[float('inf')]*m for i in range(n)]
-    g_score[x][y]=0
+    # Initilize the heap with the source cell
+    heappush(hp, [0, count, src])
 
-    f_score=[[float('inf')]*m for i in range(n)]
-    f_score[x][y]=1
+    # Initilze the G_score for each node to infinity
+    # And G_score of source is 0
+    g_score = [[float('inf')] * m for i in range(n)]
+    g_score[x][y] = 0
+
+    # Initilze the F_score for each node to infinity
+    # And F score of source is 1
+    # F_source = G_score + heuristic function
+    f_score = [[float('inf')] * m for i in range(n)]
+    f_score[x][y] = 1
 
     while hp:
-        cur_pos=heappop(hp)[2]
-        #print(cur_pos)
-        xx,yy=cur_pos
+        cur_pos = heappop(hp)[2]
+        # print(cur_pos)
+        xx, yy = cur_pos
 
-        if cur_pos== des:
+        if cur_pos == des:
             path = ''
+
             # Calculate the path by backtracking with the parent dict
             while cur_pos != src:
                 print(cur_pos)
@@ -105,26 +117,28 @@ def Astar(maze,src,des,way=1):
 
             # Return the distance and path
             return len(path), path[::-1]
-        
+
         for i in moves.keys():
-            r=xx+i[0]
-            c=yy+i[1]
+            r = xx + i[0]
+            c = yy + i[1]
 
             # If the next node inside the maze , has a way and not yet visited
             # then mark it visited and push it in the queue
             if 0 <= r < n and 0 <= c < m and maze[r][c] == way and not visited[r][c]:
-                temp=g_score[xx][yy]+1
-                if temp<g_score[r][c]:
-                    parent[(r,c)]=(xx,yy)
-                    g_score[r][c]=temp
-                    f_score[r][c]=temp+heuristic_function(des,(r,c))
+                temp = g_score[xx][yy] + 1
+                if temp < g_score[r][c]:
+                    parent[(r, c)] = (xx, yy)
+                    g_score[r][c] = temp
 
-                    count+=1
-                    heappush(hp,[f_score[r][c],count,(r,c)])
-                    visited[r][c]=1
-    
+                    # F_source = G_score + heuristic function
+                    f_score[r][c] = temp + heuristic_function(des, (r, c))
+
+                    count += 1
+                    heappush(hp, [f_score[r][c], count, (r, c)])
+                    visited[r][c] = 1
+
     return False
-            
+
 
 # --------------------------------DRIVER CODE ---------------------------------
 

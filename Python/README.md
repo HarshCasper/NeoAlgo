@@ -127,8 +127,8 @@
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
-- [DFS in Maze (Iterative)](pathfinding/2D_DFS_Iterative.py)
-
+- [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
+- [A*(Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
 

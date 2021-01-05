@@ -222,7 +222,7 @@
 - [Ugly Number](math/UglyNumber.py)
 - [Prime Number Iterative and Recursive](math/prime_number.py)
 - [Catalan Number](math/Catalan_Number.py)
-
+- [Lucas Theorem](math/Lucas_Theorem.py)
 
 ## Blockchain
 

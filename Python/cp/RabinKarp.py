@@ -102,3 +102,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+'''
+Sample Input/Output:
+
+Text:abcdhrabds      
+Pattern:ab
+Pattern found at positions [1, 7]
+
+Text:abcabcabc
+Pattern:xyz
+Pattern not found
+
+Text:abababab
+Pattern:aba
+Pattern found at positions [1, 3, 5]
+'''

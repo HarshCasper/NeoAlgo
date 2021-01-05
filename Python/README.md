@@ -61,6 +61,7 @@
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+- [Burrows Wheeler transform(BWT)](cryptography/Burrows_Wheeler_transform.py)
 
 
 ## Searching
@@ -127,8 +128,8 @@
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
-- [DFS in Maze (Iterative)](pathfinding/2D_DFS_Iterative.py)
-
+- [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
+- [A*(Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
 

@@ -15,14 +15,14 @@
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [Moore Algorithm](Algorithm/Moore_Algorithm.java)
-- [Tarjan's Algorithm](Algorithms/tarjans.java)
+- [Tarjan's Algorithm](Algorithm/TarjansAlgorithm.java)
 ## Greedy Algorithms
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 
 ## Blockchain
 
-_add list here_
+_add list here_`
 
 ## Competitive programming
 

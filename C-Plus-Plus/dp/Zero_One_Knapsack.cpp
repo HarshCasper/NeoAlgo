@@ -5,12 +5,25 @@ sum of the weights of this subset is smaller than or equal to W. You cannot brea
 */
 
 #include <iostream>
+
 using namespace std;
-int n,k;
-int *profit=NULL;
-int *weight=NULL;
-int **table=NULL;
-int max_profit=0;
+int n, k;
+int * profit = NULL;
+int * weight = NULL;
+int ** table = NULL;
+int max_profit = 0;
+void input() {
+  cin >> n;
+  cin >> k;
+  profit = new int[n];
+  weight = new int[n];
+  for (int i = 1; i <= n; i++) {
+    cin >> profit[i];
+    cin >> weight[i];
+  }
+  table = new int * [k + 1];
+  for (int i = 0; i <= n; ++i)
+    table[i] = new int[k + 1];
 
 //Taking input
 void input()			
@@ -38,19 +51,21 @@ int knapsack(int n,int k)
 		return knapsack(n-1,k);
     }
 	//Max profit among n-1 item and n items
-    else					
+  else					
 	{	int temp1 = knapsack(n-1,k);
 		int temp2 = knapsack(n-1,k-weight[n])+profit[n];
 		return max(temp2,temp1);
     }
+  }
+  max_profit = table[n][k];
 }
-void display()
-{
-    cout<<"Number of items: "<<n;
-    cout<<endl<<"knapsack Size: "<<k;
-    for(int i=1; i<=n; i++)
-    	cout<<endl<<"Item "<<i<<" (Profit,Weight) is: ("<<profit[i]<<","<<weight[i]<<")";
-	cout<<endl<<"Max Profit in the knapsack is: "<<max_profit;
+
+void display() {
+  cout << "Number of items: " << n;
+  cout << endl << "knapsack Size: " << k;
+  for (int i = 1; i <= n; i++)
+    cout << endl << "Item " << i << " (Prifit,Weight) is: (" << profit[i] << "," << weight[i] << ")";
+  cout << endl << "Max Profit in the knapsack is: " << max_profit;
 }
 int main() 
 {
@@ -60,6 +75,7 @@ int main()
 	max_profit=knapsack(n,k);		
 	display();
 	return 0;
+
 }
 
 /*
@@ -78,4 +94,7 @@ Item 2 (Profit,Weight) is: (100,20)
 Item 3 (Profit,Weight) is: (120,30)
 Max Profit in the knapsack is: 220
 
+Complexity:
+Time: O(n*k)
+Space: O(n*k)
 */

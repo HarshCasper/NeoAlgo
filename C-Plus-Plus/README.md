@@ -47,6 +47,7 @@
 - [NQueens](cp/NQueens.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
+- [K-Prefix Algorithm](cp/K-Prefix.cpp)
 
 
 ## Data Structures

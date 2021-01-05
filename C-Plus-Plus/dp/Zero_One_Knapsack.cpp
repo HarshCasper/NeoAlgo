@@ -1,3 +1,9 @@
+/*Given weights and Profit of n items, put these items in a knapsack of capacity W to get the maximum total Profit in the knapsack. 
+In other words, given two integer arrays profit[0..n-1] and weight[0..n-1] which represent Profit and weights associated with n items 
+respectively. Also given an integer W which represents knapsack capacity, find out the maximum Profit subset of val[] such that 
+sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item or don’t pick it (0-1 property).
+*/
+
 #include <iostream>
 using namespace std;
 int n,k;
@@ -6,7 +12,8 @@ int *weight=NULL;
 int **table=NULL;
 int max_profit=0;
 
-void input()			//Taking input
+//Taking input
+void input()			
 {
 	cin>>n;
 	cin>>k;
@@ -20,16 +27,18 @@ void input()			//Taking input
  }
 int knapsack(int n,int k)
 {
-	if(k==0||n==0)			//When knapsack size and number of items are 0
+	//When knapsack size and number of items are 0
+	if(k==0||n==0)			
 	{			
 		return 0;
 	}	
-			
-	else if(weight[n]>k)	//When Knapsack size is greater than weight of nth item
+	//When Knapsack size is greater than weight of nth item		
+	else if(weight[n]>k)	
 	{   
 		return knapsack(n-1,k);
     }
-    else					//Max profit among n-1 item and n items
+	//Max profit among n-1 item and n items
+    else					
 	{	int temp1 = knapsack(n-1,k);
 		int temp2 = knapsack(n-1,k-weight[n])+profit[n];
 		return max(temp2,temp1);
@@ -43,10 +52,12 @@ void display()
     	cout<<endl<<"Item "<<i<<" (Profit,Weight) is: ("<<profit[i]<<","<<weight[i]<<")";
 	cout<<endl<<"Max Profit in the knapsack is: "<<max_profit;
 }
-int main() {
-	// your code goes here
-	input();				//Take the inputs
-	max_profit=knapsack(n,k);		//find Maximum profit
+int main() 
+{
+	//Take the inputs
+	input();
+	//find Maximum profit	
+	max_profit=knapsack(n,k);		
 	display();
 	return 0;
 }

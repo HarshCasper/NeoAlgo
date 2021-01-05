@@ -1,38 +1,48 @@
 // Matrix chain multiplication algorithm 
+/*Matrix chain multiplication is an optimization problem that can be solved using dynamic programming. 
+Given a sequence of matrices, the goal is to find the most efficient way to multiply these matrices.
+*/
+ 
 #include <bits/stdc++.h> 
 using namespace std; 
 
 // Matrix Ai has dimension p[i-1] x p[i] 
 // for i = 1..n we will have P[n+1] array of dimensions
 int *p= NULL;
-int n; //number of matrices
-int minMul=0; //min scalar multiplication
 
+//number of matrices
+int n; 
+
+//min scalar multiplication
+int minMul=0; 
+
+// to store the number of scalar multiplications
 int **m=NULL;
+//to store the K for paranthesis
 int **s=NULL;
 
 //function to take dimensions as input
 void input()
 {
-	cin>>n; //number of matrices
+	//number of matrices
+	cin>>n; 
 	p=new int[n+1];
 	for(int i=0;i<=n;i++)
 		cin>>p[i];
 	
-	m=new int*[n];		// to store the number of scalar multiplications
+	// to store the number of scalar multiplications
+	m=new int*[n];		
 	for(int i = 1; i <= n; ++i)
       m[i] = new int[n];
 	
-	s=new int*[n-1];		//to store the K for paranthesis
+	//to store the K for paranthesis
+	s=new int*[n-1];		
 	for(int i = 1; i <= n-1; ++i)
       s[i] = new int[n-1];
 }
 void MatrixChainMultiply() 
 { 
-  
-    //int m[n][n]; 	// to store the number of scalar multiplications
-	//int s[n-1][n-1];   //to store the K for paranthesis
-	
+  	
     int i, j, k, L, q; 
   
     /* m[i, j] = Minimum number of scalar multiplications needed to compute the 

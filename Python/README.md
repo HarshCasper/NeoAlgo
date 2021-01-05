@@ -238,5 +238,9 @@ _add list here_
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+- [Implement stack using Queue](other/Implement_Stack_using_Queue.py)
+- [Implement queue using Stack(other/Implement_Queue_using_Stack.py)
+- [Check for balanced parentheses](other/Check_for_balanced_parentheses.py)
+- [Next Greater Elements](other/Next_Greater_Element.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

@@ -9,7 +9,7 @@ Problem Statement : Given an expression string x. Examine whether
 Input : Enter list of parentheses.
 
 
-Output : Print True is it is balanced or else False.
+Output : Print True if it is balanced or else False.
 
 
 Time Complexity : O(n)

@@ -25,7 +25,7 @@ Space Complexity : O(n)
 
 '''
 
-def NGE(l,inputs):
+def NGE(l, inputs):
     stack = []
     arr = [-1] * inputs
     print(arr)
@@ -42,16 +42,16 @@ def NGE(l,inputs):
 
 # -----------------------Driver Code-----------------------
 
-#INPUT
+# INPUT
 
 # Enter the length of the list
 inputs = int(input("Enter the length of the list: "))
 # Enter the list 
-numbers = list(map(int,input("Enter the elements: ").rstrip().rsplit())) 
+numbers = list(map(int, input("Enter the elements: ").rstrip().rsplit())) 
 
-#OUTPUT
+# OUTPUT
 
-NGE(numbers,inputs)
+NGE(numbers, inputs)
 
 '''
 SAMPLE INPUT/OUTPUT:

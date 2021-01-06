@@ -1,8 +1,9 @@
-''' 
+'''
 Implement-Queue-Using-Stack
 Problem Statement : Implement a Queue using 2 stacks s1 and s2 .
                     A Query Q is of 2 Types
-                    (i) 1 x (a query of this type means  pushing 'x' into the queue)
+                    (i) 1 x (a query of this type means  
+                    pushing 'x' into the queue)
                     (ii) 2 (a query of this type means to pop element
                     from queue and print the poped element)
 
@@ -19,6 +20,8 @@ Space Complexity : O(N)
 '''
 
 # Create The Queue
+
+
 class Queue:
     
     def __init__(self): 
@@ -57,21 +60,21 @@ class Queue:
 
 # -----------------------Driver Code-----------------------
 
-#INPUT
+# INPUT
 
 # Enter the number of inputs
-inputs = int(input("Enter the no. of inputs: "))
+inputs = int(input("Enter the number of inputs: "))
 # Enter the list of the no. of integers
-list_inputs = list(map(int,input("Enter the list of inputs: ").rstrip().rsplit()))
+list_inputs = list(map(int, input("Enter the list of inputs: ").rstrip().rsplit()))
 queue = Queue()
 for i in list_inputs:
     queue.enter(i)
 
-#OUTPUT
+# OUTPUT
 
 print("The deleted element is: ", queue.delete())
-print("The deleted element is: ",queue.delete())
-print("The deleted element is: ",queue.delete())
+print("The deleted element is: ", queue.delete())
+print("The deleted element is: ", queue.delete())
 
 '''
 SAMPLE INPUT/OUTPUT:

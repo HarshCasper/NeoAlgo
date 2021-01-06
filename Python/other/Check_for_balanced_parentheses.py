@@ -1,10 +1,11 @@
-''' 
+'''
 Check-for-balanced-parentheses
 Problem Statement : Given an expression string x. Examine whether
                     the pairs and the orders of
                     “{“,”}”,”(“,”)”,”[“,”]” are correct in exp.
                     For example, the function should return
-                    'true' for exp = “[()]{}{[()()]()}” and 'false' for exp = “[(])”.
+                    'true' for exp = “[()]{}{[()()]()}” 
+                    and 'false' for exp = “[(])”.
                     
 Input : Enter list of parentheses.
 
@@ -48,20 +49,20 @@ def Check(brackets):
   
     # Check Empty Stack
     
-    if stack: 
+    if stack:
         return False
     return True
 
 # -----------------------Driver Code-----------------------
 
-#INPUT
+# INPUT
 
 # Enter the list of the brackets
 brackets = input("Enter the brackets: ")
 
-#OUTPUT
+# OUTPUT
 
-if(Check(brackets) == True):
+if(Check(brackets)):
     print("The parentheses are balnced")
 else:
     print("The parentheses are not balnced")
@@ -75,7 +76,5 @@ INPUT
 
 OUTPUT
 
-    The parentheses are balnced
-    
+    The parentheses are balnced    
 '''
-

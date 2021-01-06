@@ -73,17 +73,17 @@ class Stack:
 
 # -----------------------Driver Code-----------------------
 
-#INPUT
+# INPUT
 
 # Enter the number of inputs
 inputs = int(input("Enter the no. of inputs: "))
 # Enter the list of the no. of integers
-list_inputs = list(map(int,input("Enter the list of inputs: ").rstrip().rsplit()))
+list_inputs = list(map(int, input("Enter the list of inputs: ").rstrip().rsplit()))
 stack = Stack()
 for i in list_inputs:
     stack.push(i)
 
-#OUTPUT
+# OUTPUT
 
 print("Current size: ", stack.Currsize())
 print(stack.top())

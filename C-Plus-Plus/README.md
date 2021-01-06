@@ -93,6 +93,8 @@
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
+- [Bridges in an Undirected Graph](graphs/Bridges.cpp)
+- [Depth Of Tree](graphs/Depth_of_tree.cpp)
 
 ## Searching
 
@@ -109,6 +111,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/Bubble_Sort.cpp)
+- [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
 - [Insertion Sort](sort/insertion.cpp)
@@ -171,6 +174,7 @@ _add list here_
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
+- [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
 - [[Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)]
 
 ## Blockchain

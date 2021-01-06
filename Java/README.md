@@ -14,7 +14,7 @@
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
-- [Moore Algorithm](Algorithm/Moore_Algorithm.java)
+- [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
 
 ## Greedy Algorithms
 
@@ -63,6 +63,8 @@ _add list here_
 - [Defanged IP Address](cp/Defanged_IPv4.java)
 - [Minimum Element In a Rotated Array](cp/Min_Element_Rotated_array.java)
 - [Stock Span Problem](cp/StockSpan.java)
+- [Wrapping Letters](cp/Main.java)
+- [Sort 2D Array](cp/Sort_2D_Array.java)
 
 ## Cryptography
 
@@ -97,6 +99,7 @@ _add list here_
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
+- [Priority Queue](ds/PriorityQueueEg.java)
 
 ## Graphs
 
@@ -180,7 +183,7 @@ _add list here_
 _add list here_
 
 ## Operating Systems
--  [Banker's Algorithm](Operating%20System/banker.java)
+- [Banker's Algorithm](Operating-System/banker.java)
 
 ## Other
 
@@ -201,3 +204,4 @@ _add list here_
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
+- [Set Bits in an Integer](other/SetBitsInInteger.java)

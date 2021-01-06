@@ -99,6 +99,7 @@ _add list here_
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
+- [Priority Queue](ds/PriorityQueueEg.java)
 
 ## Graphs
 
@@ -204,3 +205,4 @@ _add list here_
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
+- [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)

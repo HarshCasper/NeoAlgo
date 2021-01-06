@@ -1,3 +1,9 @@
+/*
+Huffman Coding is a famous Greedy Algorithm.Huffman coding assigns codes to characters such that the length of the code depends on the relative frequency or weight of the corresponding character.It is a lossless data compression algorithm which uses a small number of bits to encode common characters.A Huffman tree, similar to a binary tree data structure, needs to be created having n leaf nodes and n-1 internal nodes · Priority Queue/heaps is used for the implmentation.
+ Time complexity of the Huffman algorithm is O(nlogn).
+ Space complexity = O(n)
+*/
+
 import java.util.Scanner;
 import java.util.Vector;
 import java.util.Comparator;

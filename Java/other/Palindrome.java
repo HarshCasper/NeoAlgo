@@ -4,6 +4,7 @@ import java.util.*;
 A program to check whether a string is palindrome or not.
 A plaindrome string is a string which is same to its reverse.
 eg. 1234321, radar etc.
+Time Complexity = O(n/2)
 */
 
 public class Palindrome {
@@ -28,27 +29,16 @@ public class Palindrome {
     //method returns true if the string is a palindrome else it returns false
     private static boolean ispalindrome(String string_1) 
     {
-        //creating an empty string to store the reverse of string_1
-        String string_2 = "";
-
-        //we iterate starting from the end of the string_1
-        //storing the reverse in string_2
-
-        /*
-        string.length() returns the length of the string
-        eg. length() of strinf = radar, equals 5
-        But since the index starts from 0, we subtract 1 from the length while initializing.
-        */
-        for(int i=string_1.length()-1;i>=0;i--)
+        //storing the last index of the string in n
+        int n =string_1.length() - 1;
+        //comparing the characters of the string
+        //first to the end and so on
+        for (int i = 0; i < (n)/2; i++) 
         {
-            string_2 = string_2 + string_1.charAt(i);
+           if (string_1.charAt(i) != string_1.charAt(n-i)) 
+               return false;
         }
-
-        //comparing both the string to see if they are equal
-        if(string_1.equals(string_2))
-            return true;
-        else 
-            return false;
+        return true; 
     }
 }
 

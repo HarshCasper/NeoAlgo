@@ -39,7 +39,7 @@
 	  Example 2:
 	  
 	  Enter a number: 123                                                                                                                                                                                                                                   
-	  Reverse of 121 is 321                                                                                                          
+	  Reverse of 123 is 321                                                                                                          
 	  321 is not a palindrome
 	  
 	*/  

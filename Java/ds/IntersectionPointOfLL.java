@@ -1,6 +1,5 @@
 
 class IntersectionPointOfLL {
-
     static class Node {
 
         int data;

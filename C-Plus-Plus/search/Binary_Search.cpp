@@ -14,7 +14,7 @@ bool binary_search(int *, int, int, int);
 */
 bool binary_search(int *arr, int search_element, int lb, int ub) {
     while (lb <= ub) {
-        int mid = ((lb + ub) / 2);
+        int mid = lb+(ub-lb)/2;
         if (arr[mid] == search_element) {
             return (true);
         } else if (arr[mid] > search_element) {

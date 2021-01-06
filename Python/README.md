@@ -21,6 +21,7 @@
 - [Knight Walk](graphs/Knight_Walk.py)
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
+- [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
 
 ## Competitive Programming
 
@@ -129,6 +130,7 @@
 - [BFS in Maze](Pathfinding/2D_BFS.py)
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
+- [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
 - [A*(Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
@@ -220,7 +222,7 @@
 - [Ugly Number](math/UglyNumber.py)
 - [Prime Number Iterative and Recursive](math/prime_number.py)
 - [Catalan Number](math/Catalan_Number.py)
-
+- [Lucas Theorem](math/Lucas_Theorem.py)
 
 ## Blockchain
 

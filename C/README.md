@@ -59,6 +59,7 @@
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
 - [Circular Queue](ds/circularqueue.c)
+- [Inorder Traversal](ds/Inorder.c)
 
 ## Searching
 

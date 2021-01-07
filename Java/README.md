@@ -88,6 +88,7 @@ _add list here_
 
 - [Binary Tree](ds/Binary_Tree.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
+- [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)

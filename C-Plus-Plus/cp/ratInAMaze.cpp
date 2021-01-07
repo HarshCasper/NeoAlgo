@@ -21,7 +21,7 @@ bool issafetomove(int** arr, int x, int y, int row, int col)
 bool ratInMaze(int** arr, int x,int y,int row, int col, int** solution)
 {
 //base condition
-    if(x==row-1 && y==n-1)
+    if(x==row-1 && y==col-1)
     {
         solution[x][y]=1;
         return true;

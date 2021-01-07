@@ -63,13 +63,15 @@ int main()
 	float arr[20];
 	cout<<"\nEnter number of elements:";
 	cin>>n;
+	cout<<"\nEnter numbers : ";
 	for(int i=0;i<n;i++)
 	{
-		cout<<"\nEnter number:";
+		
 		cin>>arr[i];
 	}
 	//loop to print original array
-	cout<<"\n";
+
+	cout<<"\n Array before sorting : ";
 	for(int i=0;i<n;i++)
 	{
 		cout<<"\t"<<arr[i];
@@ -84,3 +86,16 @@ int main()
 	}
 	return 0;
 }
+
+/*
+
+Input :
+Enter number of elements: 8
+Enter numbers : 0.787 0.6773 0.4632 0.2927 0.635 0.896 0.152 0.462
+
+OutPut :
+Array before sorting : 0.787 0.6773 0.4632 0.2927 0.635 0.896 0.152 0.462
+
+Sorted array: 0.152	0.2927	0.462	0.4632	0.635	0.6773	0.787	0.896
+
+*/

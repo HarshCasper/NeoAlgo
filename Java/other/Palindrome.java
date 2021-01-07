@@ -4,7 +4,8 @@ import java.util.*;
 A program to check whether a string is palindrome or not.
 A plaindrome string is a string which is same to its reverse.
 eg. 1234321, radar etc.
-Time Complexity = O(n/2)
+Time Complexity = O(n/2) //represents the number of operations to be performed by an algorithm to complete its task
+Space Complexity = O(n) //represents the total space needed by the algorithm
 */
 
 public class Palindrome {
@@ -33,7 +34,7 @@ public class Palindrome {
         int n =string_1.length() - 1;
         //comparing the characters of the string
         //first to the end and so on
-        for (int i = 0; i < (n)/2; i++) 
+        for (int i = 0; i < (n) / 2; i++) 
         {
            if (string_1.charAt(i) != string_1.charAt(n-i)) 
                return false;

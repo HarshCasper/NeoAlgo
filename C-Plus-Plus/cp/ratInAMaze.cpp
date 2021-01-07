@@ -1,16 +1,16 @@
 /*There is a rat who is at the starting point of a matrix and wants to reach
  to the ending point i.e at the last coordinate of the matrix.
  1 denotes the point where it is possible for the mouse to go and
- 0 denotes that the mouse cannot reach at that point. */
+ 0 denotes the dead end */
 
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
 
-
-bool issafetomove(int** arr, int x, int y, int m, int n)     //checking whether safe to move
+ //checking whether safe to move
+bool issafetomove(int** arr, int x, int y, int row, int col)    
 {
-    if(x<m && y<n && arr[x][y]==1)
+    if(x<row && y<col && arr[x][y]==1)
     {
         return true;
     }
@@ -18,27 +18,27 @@ bool issafetomove(int** arr, int x, int y, int m, int n)     //checking whether 
 }
 
 
-bool ratInMaze(int** arr, int x,int y,int m, int n, int** solution)
+bool ratInMaze(int** arr, int x,int y,int row, int col, int** solution)
 {
 //base condition
-    if(x==m-1 && y==n-1)
+    if(x==row-1 && y==n-1)
     {
         solution[x][y]=1;
         return true;
     }
 
-    if(issafetomove(arr,x,y,m,n))
+    if(issafetomove(arr,x,y,row,col))
     {
         solution[x][y]=1;
 
 //mpving in right direction
-    if(ratInMaze(arr,x+1,y,m,n,solution))
+    if(ratInMaze(arr,x+1,y,row,col,solution))
     {
         return true;
     }
 
 //moving in down direction
-        if(ratInMaze(arr,x,y+1,m,n,solution))
+        if(ratInMaze(arr,x,y+1,row,col,solution))
     {
         return true;
     }
@@ -55,32 +55,32 @@ bool ratInMaze(int** arr, int x,int y,int m, int n, int** solution)
 
 int main()
 {
-    int m, n;
+    int row, col;
     cout<<"enter the rows and columns of the  matrix\n";
-    cin>>m>>n;
+    cin>>row>>col;
 
-    int** arr=new int*[m];
-    for(int x=0;x<m;x++)
+    int** arr=new int*[row];
+    for(int x=0;x<row;x++)
     {
-        arr[x]=new int[n];
+        arr[x]=new int[col];
     }
 
     cout<<"enter the elements of the array\n";
 
 
-    for(int i=0;i<m;i++)
+    for(int i=0;i<row;i++)
     {
-        for(int j=0;j<n;j++)
+        for(int j=0;j<col;j++)
         {
             cin>>arr[i][j];
         }
     }
 
-    int** solution=new int*[m];
-     for(int i=0;i<m;i++)
+    int** solution=new int*[row];
+     for(int i=0;i<row;i++)
     {
-        solution[i]=new int[n];
-        for(int j=0;j<n;j++)
+        solution[i]=new int[col];
+        for(int j=0;j<col;j++)
         {
             solution[i][j]=0;
 
@@ -88,13 +88,13 @@ int main()
     }
 
 
-    if(ratInMaze(arr,0,0,m,n,solution))
+    if(ratInMaze(arr,0,0,row,col,solution))
     {
         cout<<"The path obtained is as follows\n";
 
-    for(int i=0;i<m;i++)
+    for(int i=0;i<row;i++)
     {
-        for(int j=0;j<n;j++)
+        for(int j=0;j<col;j++)
         {
             cout<<solution[i][j]<<" ";
         }

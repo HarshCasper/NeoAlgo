@@ -11,8 +11,7 @@ Space Complexity: O(n)
 #include<stack>
 using namespace std;
 
-//The user can provide the same input (2+3)*5 as (2 +3)*5, (  2+3) *5, (2 + 3) * 5 and so on.
-//Therefore to make the algorithm function properly trim the unnecessary spaces from the string
+//Function to remove spaces from input string and return trimmed string
 string removeSpaces(string&s){
 	int n = s.length();
 	string trimmed;
@@ -120,11 +119,7 @@ int evaluate(string token){
 			}
 			else{
 				//check precedence
-				//During expression evaluation NOTE that a strictly higher precedence operator can 
-				//sit on top of the current operator in 'operators' stack
-				//otherwise we need to evaluate the expression until the precedence of current operator in 'operators' stack becomes  
-				//strictly lower or 'operators' stack becomes empty
-				//if precedence of current symbol is more than top of 'operators' stack then simply push it
+				//if precedence of current symbol is more than symbol at top of 'operators' stack then simply push it
 				if(precedence(token[i]) > precedence(operators.top())){
 					operators.push(token[i]);
 				}

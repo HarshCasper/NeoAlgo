@@ -35,6 +35,7 @@
 - [Boyer-Moore Voting Algorithm](cp/BoyerMooreVote.c)
 - [Suduko Solver](cp/SudukoSolver.c)
 - [Stock Span Problem](cp/Stock_Span.c)
+- [Bulb Switcher problem](cp/bulbSwitch.c)
 
 ## Cryptography
 
@@ -62,6 +63,7 @@
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
+- [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
@@ -96,6 +98,7 @@
 
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
+- [Breadth First Search](graphs/BFS.c)
 
 ## Machine Learning
 

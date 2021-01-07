@@ -94,6 +94,10 @@
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
+- [Bridges in an Undirected Graph](graphs/Bridges.cpp)
+- [Depth Of Tree](graphs/Depth_of_tree.cpp)
+- [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
+- [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
 
 ## Searching
 
@@ -110,6 +114,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/Bubble_Sort.cpp)
+- [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
 - [Insertion Sort](sort/insertion.cpp)
@@ -130,7 +135,7 @@
 
 ## Heap based problems
 
-- [Merge K sorted arrays](heaps/Merge_k_sorted_arrays.cpp)
+- [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 
 ## Machine Learning
@@ -173,6 +178,8 @@ _add list here_
 - [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [[Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)]
+- [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
+- [[Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)]
 
 ## Blockchain
 

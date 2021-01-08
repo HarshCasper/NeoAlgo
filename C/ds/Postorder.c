@@ -75,5 +75,5 @@ The postorder traversal of tree is:
 19 17 9 4 3 14 6 12 
 
 Time Complexity: O(n)
-Space Complexity: O(h)
+Space Complexity: O(n)
 */

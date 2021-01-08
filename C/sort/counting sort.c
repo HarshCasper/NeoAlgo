@@ -20,7 +20,7 @@ countingSort(array, size)
     restore the elements to array
     decrease count of each element restored by 1
 
-// Counting sort in C programming
+/* C Program to sort Elements Using Counting Sort */
 
 #include <stdio.h>
 
@@ -83,6 +83,4 @@ int main() {
   countingSort(array, n);
   printArray(array, n);
 }
-Complexity
-Time Complexities:
 

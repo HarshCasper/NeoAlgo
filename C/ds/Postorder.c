@@ -43,7 +43,7 @@ void postorder(node *t)
 	{
 		postorder(t->left);
 		postorder(t->right);
-		printf("%d", t->data);
+		printf("%d ", t->data);
 	}
 }
 
@@ -66,11 +66,14 @@ main()
 
 
 /*
-Sample Output
+Sample Input:
 Enter integer:To quit enter 0                                                                                                   
 12 4 6 9 14 17 3 19 0  
+
+Sample Output:
 The postorder traversal of tree is:                                                                                           
 19 17 9 4 3 14 6 12 
+
 Time Complexity: O(n)
 Space Complexity: O(h)
 */

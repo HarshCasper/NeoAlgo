@@ -1,12 +1,12 @@
-// Inorder Traversal 
-
-// Definition of In Order traversal : Process all nodes of a tree by recursively processing the left subtree, then processing the root, and finally the right subtree
-// In-order traversal is mainly used to print the values, stored in the nodes of a binary search tree, in ascending order.
-
-//  Algorithm of Inorder(tree) Traversal
-//  1. Traverse the left subtree, i.e., call Inorder(left-subtree)
-//  2. Visit the root.
-//  3. Traverse the right subtree, i.e., call Inorder(right-subtree)
+/*
+Inorder Traversal 
+Definition of In Order traversal : Process all nodes of a tree by recursively processing the left subtree, then processing the root, and finally the right subtree
+In-order traversal is mainly used to print the values, stored in the nodes of a binary search tree, in ascending order. 
+Algorithm of Inorder(tree) Traversal
+1.Traverse the left subtree, i.e., call Inorder(left-subtree)
+2.Visit the root.
+3.Traverse the right subtree, i.e., call Inorder(right-subtree)
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -42,7 +42,7 @@ void inorder(node *t)
 	if (t != NULL)
 	{
 		inorder(t->left);
-		printf(" %d", t->data);
+		printf("%d", t->data);
 		inorder(t->right);
 	}
 }
@@ -68,13 +68,12 @@ main()
 /*
 
 Sample Output
-
 Enter integer:To quit enter 0                                                                                                   
-12 4 6 9 14 17 3 19 0                                                                                                           
-                                                                                                                                
+12 4 6 9 14 17 3 19 0                                                                                                                                                                                                                                           
 The inorder traversal of tree is:                                                                                               
 19 17 9 4 12 6 14 3 
-
+Time Complexity: O(n)
+Space Complexity: O(h)
 */
 
 

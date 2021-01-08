@@ -32,6 +32,7 @@
 - [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
+- [Suduko Solver](cp/SudukoSolver.c)
 
 ## Cryptography
 
@@ -87,6 +88,7 @@
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
+- [House Robber](dp/houseRobber.c)
 
 ## Graphs
 
@@ -117,6 +119,7 @@ _add list here_
 - [Recursion count of substring](other/recursion_string.c)
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
+- [Nth Ugly Number](other/ugly_number.c)
 
 ## CP
 

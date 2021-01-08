@@ -38,7 +38,11 @@
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
+- [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
+- [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [ArraySub](cp/ARRAYSUB.cpp)
+- [Suduko Solver](cp/SudukoSolver.cpp)
 
 ## Data Structures
 
@@ -64,7 +68,7 @@
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
-
+- [Vector](ds/Vector.cpp)
 
 ## Graphs
 
@@ -77,6 +81,9 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Cycle Detection in Graph](graphs/detect_cycle.cpp)
+- [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
+- [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 
 ## Searching
 
@@ -88,6 +95,7 @@
 - [Randomized Select Search](search/Randomized_Select.cpp)
 - [Bilinear Search](search/bilinear_search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
+- [Staircase Search](search/Staircase_Search.cpp)
 
 ## Sorting
 
@@ -116,7 +124,16 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
+- [Ugly Numbers](math/ugly_numbers.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
+- [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
+- [Euclidean Algorithms](math/Euclidean_Algorithm.cpp)
+
+## Recursion
+
+-[All possible subset using recursion](recursion/All_possible_subset_using_recursion.cpp) 
+-[Print N-bit binary numbers having more 1s than 0s using recursion](recursion/Print_N_bit_binary_numbers_having_more_1s_than_0s_using_recursion.cpp)
+-[Letter Case Permutation using recursion](recursion/Letter_Case_Permutation_using_recursion.cpp)
 
 ## Dynamic Programming
 
@@ -157,3 +174,6 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [Kth largest element](other/Kth_largest_element.cpp.cpp)
+- [Kth smallest element](other/Kth_smallest_element.cpp)
+- [Generate all Subsets](other/subsets.cpp)

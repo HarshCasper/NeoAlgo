@@ -1,12 +1,10 @@
 /* Counting Sort in C - Counting sort is a sorting algorithm that sorts 
 the elements of an array by counting the number of occurrences of each unique 
 element in the array. The count is stored in an auxiliary array and the sorting is done by mapping the count as an index of the auxiliary array.
-
 # The average time complexity for Counting Sort is O(n+k). 
 # Worst Case Complexity: O(n+k)
 # Best Case Complexity: O(n+k)
 # Overall complexity = O(max)+O(size)+O(max)+O(size) = O(max+size)
-
 # Counting Sort Algorithm
 countingSort(array, size)
   max <- find largest element in array
@@ -18,10 +16,9 @@ countingSort(array, size)
     find the cumulative sum and store it in count array itself
   for j <- size down to 1
     restore the elements to array
-    decrease count of each element restored by 1
+    decrease count of each element restored by 1 */
 
 /* C Program to sort Elements Using Counting Sort */
-
 #include <stdio.h>
 
 void countingSort(int array[], int size) {
@@ -83,4 +80,3 @@ int main() {
   countingSort(array, n);
   printArray(array, n);
 }
-

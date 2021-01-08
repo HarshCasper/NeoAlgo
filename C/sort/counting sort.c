@@ -59,5 +59,3 @@ Enter the elements to be sorted :
 21 4 18 15 24 6 9 1 5 4
 The Sorted array is : 1 4 4 5 6 9 15 18 21 24
 */
-
-

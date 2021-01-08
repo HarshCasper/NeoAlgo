@@ -42,7 +42,7 @@ void inorder(node *t)
 	if (t != NULL)
 	{
 		inorder(t->left);
-		printf("%d", t->data);
+		printf("%d ", t->data);
 		inorder(t->right);
 	}
 }
@@ -67,13 +67,14 @@ main()
 
 /*
 
-Sample Output
+Sample Input:
 Enter integer:To quit enter 0                                                                                                   
-12 4 6 9 14 17 3 19 0                                                                                                                                                                                                                                           
+12 4 6 9 14 17 3 19 0
+
+Sample Output:
 The inorder traversal of tree is:                                                                                               
-19 17 9 4 12 6 14 3 
+19 17 9 4 12 6 14 3
+
 Time Complexity: O(n)
-Space Complexity: O(h)
+Space Complexity: O(n)
 */
-
-

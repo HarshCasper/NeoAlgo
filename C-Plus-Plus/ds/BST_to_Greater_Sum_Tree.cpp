@@ -26,7 +26,7 @@ BST *arr_to_BST(int arr[20], int beg, int end)
 		ptr->left = NULL;
 		ptr->right = NULL;
 		ptr->a = arr[(beg+end)/2];
-		int mid = (beg+end)/2;
+		int mid = beg + ((end - beg) / 2);
 		ptr->left = arr_to_BST(arr,beg,mid-1);
 		ptr->right = arr_to_BST(arr,mid+1,end);	
 		return ptr;
@@ -38,17 +38,14 @@ BST *arr_to_BST(int arr[20], int beg, int end)
 //function to print Binary Search Tree
 void Display_BST(BST *ptr) 
 {
-	cout<<"\na:"<<ptr->a;
-	
-	if(ptr->left != NULL)
-		cout<<"\tleft:"<<ptr->left->a;
-	
-	if(ptr->right != NULL)
-		cout<<"\tright:"<<ptr->right->a;
-	
+	if(ptr == NULL)
+		return;
+			
 	if(ptr->left != NULL)
 		Display_BST(ptr->left);
 	
+	cout<<"\t"<<ptr->a;
+
 	if(ptr->right != NULL)
 		Display_BST(ptr->right);
 }
@@ -96,18 +93,6 @@ Enter number of elements:6
 
 Enter sorted array:1 2 3 4 5 6
 
-Binary Search Tree before conversion
-a:3     left:1  right:5
-a:1     right:2
-a:2
-a:5     left:4  right:6
-a:4
-a:6
-Binary Search Tree after conversion
-a:15    left:20 right:6
-a:20    right:18
-a:18
-a:6     left:11 right:0
-a:11
-a:0
+Binary Search Tree before conversion    1       2       3       4       5       6
+Binary Search Tree after conversion     20      18      15      11      6       0
 */

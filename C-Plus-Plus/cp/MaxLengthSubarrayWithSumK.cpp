@@ -32,14 +32,8 @@ int MaxLen(int arr[], int n, int k){
 
 int main(){
     int n, arr[100], length, k;
-
-    cout<<"Enter size of array : ";
     cin>>n;
-
-    cout<<"\nEnter Array : ";
     for(int i=0;i<n;i++) cin>>arr[i];
-    
-    cout<<"\nEnter value of k : ";
     cin>>k;
     
     //function calling for Finding max length subarray with sum k.
@@ -51,9 +45,9 @@ int main(){
 /*
 
 ----Inputs----
-Enter size of array : 6
-Enter Array : 1 2 8 1 1 2
-Enter value of k : 10
+6
+1 2 8 1 1 2
+10
 
 ----Output----
 Length of Subarray with sum 10 = 3

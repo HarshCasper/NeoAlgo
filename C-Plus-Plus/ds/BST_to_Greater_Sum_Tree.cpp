@@ -88,6 +88,10 @@ int main()
 }
 
 /*
+Time Complexity:
+T(n)  = O(k) + 2 T(n/2) 
+Space Complexity:
+O(n)
 Sample I/O:
 Enter number of elements:6
 

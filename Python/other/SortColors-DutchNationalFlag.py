@@ -27,16 +27,18 @@ def dnf_algo( array, len):
             high = high - 1
     return array 
 
-# Now by taking all the values in one line and mapping into list    
-array = list(map(int,input().split()))  
+if __name__ == "__main__":
+    
+    # Now by taking all the values in one line and mapping into list    
+    array = list(map(int,input().split()))  
 
-# finding length of list
-arr_size = len(array) 
-array = dnf_algo(array, arr_size) 
-print("Array after applying Dutch National Flag Algo :")
+    # finding length of list
+    arr_size = len(array) 
+    array = dnf_algo(array, arr_size) 
+    print("Array after applying Dutch National Flag Algo :")
 
-# printing the final resultant array
-print(*array)   
+    # printing the final resultant array
+    print(*array)   
 
 # ------------------------------------------ TEST CASES -------------------------------------
 # Sample I/P 1:

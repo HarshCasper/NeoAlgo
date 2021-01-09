@@ -5,6 +5,7 @@ mapping the count as an index of the
 auxiliary array.
 # The average time complexity for Counting Sort is O(n + k). 
   The worst time complexity is O(n + k).
+  where n is the number of elements in input array and k is the range of input.
 # The best complexity for Counting Sort is O(n + k). */
 
 /* C Program to sort Elements Using Counting Sort */
@@ -14,7 +15,7 @@ auxiliary array.
 void counting_sort(int A[], int k, int n)
 {
     int i, j;
-    int B[15], C[100];
+    int B[n], C[k];
     for (i = 0; i <= k; i++)
         C[i] = 0;
     for (j = 1; j <= n; j++)
@@ -35,7 +36,7 @@ void counting_sort(int A[], int k, int n)
 /*  The main() begins  */
 int main()
 {
-    int n, k = 0, A[15], i;
+    int n, k = 0, A[n], i;
     printf("Enter the number of input : ");
     scanf("%d", &n);
     printf("\nEnter the elements to be sorted :\n");

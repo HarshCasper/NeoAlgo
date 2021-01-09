@@ -186,6 +186,7 @@ _add list here_
 
 ## Operating Systems
 - [Banker's Algorithm](Operating-System/banker.java)
+- [Memory Allocation in Operating Systems](Operating-System/alloc.java)
 
 ## Other
 

@@ -6,6 +6,7 @@
  	removing a continous substring which exists in a list of 
  	substrings that are possible to remove.
  -> The first player who can't remove a substring loses. */
+
 #include <bits/stdc++.h>
 using namespace std;
 // Macros used 
@@ -139,8 +140,8 @@ int main()
 Time Complexity: O(n^2)
 Sample Input:
 spraguegrundy	// Main string
-2		        // No of substrings in the list
-spra 		    // Substrings in the list
+2		// No of substrings in the list
+spra 		// Substrings in the list
 grundy
 
 Sample Output: 

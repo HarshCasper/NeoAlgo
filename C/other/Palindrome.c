@@ -9,7 +9,7 @@ Example of Palindromes are 11,44,101,121,
 
 void main()
 {
-	int rev = 0, rem = 0, n = 0, num = 0;
+	int rev = 0, rem = 0, n,num ;
 	printf("\n Enter a number:\t");
 	scanf("%d", &n);
 	num = n;
@@ -17,7 +17,7 @@ void main()
 	while (n > 0)
 	{
 		rem = n % 10;
-		rev = rev *10 + rem;
+		rev = rev * 10 + rem;
 		n = n / 10;
 	}
 
@@ -40,10 +40,12 @@ Example 1:
 Enter a number: 121
 Reverse of 121 is 121
 121 is a palindrome
+
 Example 2:
 Enter a number: 123
 Reverse of 123 is 321
 321 is not a palindrome
+
 Time Complexity: O(n)
 Space Complexity: O(1)
 */

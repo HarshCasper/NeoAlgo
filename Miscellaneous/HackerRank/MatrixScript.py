@@ -1,3 +1,28 @@
+'''
+Problem statement:
+https://www.hackerrank.com/challenges/matrix-script/problem
+
+Topic: Regex and Parsing
+
+Purpose:
+The command re.compile will compile a regular expression pattern into a regular
+expression object, which can be used for matching using its match(), search()
+and other methods. This is a regular expression that has been compiled for
+faster reuse. Regarding the specific regex expression, this searches for groups
+that have alphanumerics (that's the \w part) or apostrophes (which is also in
+those square brackets) that are 1 or longer. Note that whitespace is not a
+match, so this, generally speaking, breaks a line into words.
+
+Time Complexity: O(n^2)
+Space Complexity: O(n)
+'''
+
+import math
+import os
+import random
+import re
+import sys
+
 first_multiple_input = input().rstrip().split()
 
 n = int(first_multiple_input[0])
@@ -15,5 +40,29 @@ for y in range(m):
         string += matrix[x][y]
 pattern = re.compile('(\w)(\W)+(\w)')
 subs = pattern.sub(r"\1 \3", string)
-print(subs) 
+print(subs)
+
+'''
+Sample Input:
+7 3
+Tsi
+h%x
+i #
+sM
+$a
+#t%
+ir!
+
+Sample Output:
+This is Matrix#  %!
+
+Explanation:
+
+The decoded script is:
+This$#is% Matrix#  %!
+It replaces the symbols or spaces between two alphanumeric characters with a
+single space ' ' for better readability.
+So, the final decoded script is:
+This is Matrix#  %!
+'''
 

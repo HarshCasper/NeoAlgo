@@ -1,3 +1,5 @@
+//given two linked lists. and we have to find intersection oint between these two linkedlist. So Here is the program for finding it.
+
 import java.util.*;
 class Intersection_of_two_linkedlists {
     static class Node 
@@ -52,8 +54,8 @@ class Intersection_of_two_linkedlists {
         return; 
     }
     
-    
-    int GetNode() //function to get the intersection point of two linked lists
+    //function to get the intersection point of two linked lists
+    int GetNode() 
     {
         int count1 = GetCount(head1);
         int count2 = GetCount(head2);
@@ -69,8 +71,8 @@ class Intersection_of_two_linkedlists {
         }
     }
  
-     
-    int GetIntesectionNode(int d, Node node1, Node node2)   // function to get the intersection point of two linked lists head1 and head2 
+     // function to get the intersection point of two linked lists head1 and head2 
+    int GetIntesectionNode(int d, Node node1, Node node2)   
     {
         //head1 has more nodes than head2
         Node curr1 = node1;
@@ -96,8 +98,8 @@ class Intersection_of_two_linkedlists {
         return -1;
     }
  
-   
-    int GetCount(Node node)            // returns the count of nodes in the list
+     // returns the count of nodes in the list
+    int GetCount(Node node)          
     {
         Node curr = node;
         int count = 0;
@@ -112,8 +114,8 @@ class Intersection_of_two_linkedlists {
     }
  
  
- 
-    public static void main(String[] args)            // driver function
+ // driver function
+    public static void main(String[] args)            
     {
         Scanner sc = new Scanner(System.in); 
         Intersection_of_two_linkedlists list = new Intersection_of_two_linkedlists();
@@ -123,7 +125,8 @@ class Intersection_of_two_linkedlists {
         System.out.print("enter "+n1+" elemets(space separated) :");
         for(int i=0;i<n1;i++)
         {
-              list.append1(sc.nextInt());          //inserting element in head1 
+            //inserting element in head1
+              list.append1(sc.nextInt());           
         }
  
  
@@ -132,7 +135,8 @@ class Intersection_of_two_linkedlists {
         System.out.print("enter "+n2+" elemets(space separated) :");
         for(int i=0;i<n2;i++)
         {
-              list.append2(sc.nextInt());          //inserting element in head2
+            //inserting element in head2
+              list.append2(sc.nextInt());          
         }
  
         System.out.println("The node of intersection is " + list.GetNode());

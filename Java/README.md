@@ -208,3 +208,5 @@ _add list here_
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
+- [String Palindrome](other/Palindrome.java)
+

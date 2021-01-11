@@ -6,8 +6,8 @@ class BenjaminBulb {
         int bulb_i = 1;
         int count = 0;
 
-        //perform check for all n bulbs starting 
-        //from bulb_i i.e. bulb_1 upto bulb_n
+        /*perform check for all n bulbs starting 
+        from bulb_i i.e. bulb_1 upto bulb_n*/
         while(bulb_i * bulb_i <= bulb_n) {
             count++;
             bulb_i++;
@@ -22,4 +22,3 @@ class BenjaminBulb {
         scn.close();
     }
 }
-

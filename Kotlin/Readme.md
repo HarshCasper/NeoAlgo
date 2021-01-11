@@ -12,6 +12,8 @@
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
+- [Selection Sort](sort/SelectionSort/src/SelectionSort.kt)
+- [Insertion Sort](sort/InsertionSort/src/InsertionSort.kt)
 
 ## Maths
 

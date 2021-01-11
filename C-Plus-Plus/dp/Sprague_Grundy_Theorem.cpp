@@ -138,10 +138,12 @@ int main()
 
 /*
 Time Complexity: O(n^2)
+
 Sample Input:
-spraguegrundy	// Main string
-2		// No of substrings in the list
-spra 		// Substrings in the list
+Enter main string : spraguegrundy
+Enter total number of substrings : 2
+Enter all 2 substrings : 
+spra
 grundy
 
 Sample Output: 

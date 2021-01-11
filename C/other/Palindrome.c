@@ -9,7 +9,7 @@ Example of Palindromes are 11,44,101,121,
 
 void main()
 {
-	int rev = 0, rem = 0, n,num ;
+	int rev = 0, rem = 0, n, num ;
 	printf("\n Enter a number:\t");
 	scanf("%d", &n);
 	num = n;

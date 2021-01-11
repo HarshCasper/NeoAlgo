@@ -73,11 +73,7 @@
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Vector](ds/Vector.cpp)
-<<<<<<< HEAD
-- [Circular Queue](ds/CircularQueue.cpp)
-=======
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
->>>>>>> 97a7aafb50493512cfd0acc7c2d17cdee1b44fa8
 
 ## Graphs
 

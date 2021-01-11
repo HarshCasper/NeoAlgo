@@ -1,4 +1,8 @@
-//Link to problem: https://leetcode.com/problems/bulb-switcher/
+/* Problem Description:
+If we have n number of bulbs and all are toggled n times.
+When it is toggled for the first time, all bulbs are toggled, when they are toggled for the 
+second time, every second bulb is toggled, and the third time every 3rd bulb is toggled and so on.
+Find the number of bulbs that will be toggled ON after n toggles.*/
 
 import java.util.*;
 class BenjaminBulb {

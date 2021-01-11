@@ -142,3 +142,163 @@ int main() {
 
     return 0;
 }
+
+/*Console Output:
+
+Enter size of Circular Queue
+5
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+3
+
+Queue is Empty
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+4
+
+Queue is not Full
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+1
+
+Input value to Enqueue
+3
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+1
+
+Input value to Enqueue
+2
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+1
+
+Input value to Enqueue
+4
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+5
+
+Queue elements displayed:
+3 2 4 0 0
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+3
+
+Queue is not Empty
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+4
+
+Queue is not Full
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+2
+
+Dequeue Operation...
+
+Front value: 0
+3
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+5
+
+Queue elements displayed:
+0 2 4 0 0
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+2
+
+Dequeue Operation...
+
+Front value: 1
+2
+
+
+Select from the following options:
+1. Enqueue
+2. Dequeue
+3. isEmpty
+4. isFull
+5. display
+Press 0 to exit.
+5
+
+Queue elements displayed:
+0 0 4 0 0
+*/

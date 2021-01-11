@@ -207,10 +207,6 @@ _add list here_
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
-<<<<<<< HEAD
-- [Benjamin Bulb](other/BenjaminBulb.java)
-=======
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
 
->>>>>>> 97a7aafb50493512cfd0acc7c2d17cdee1b44fa8

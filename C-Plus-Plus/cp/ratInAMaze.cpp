@@ -1,13 +1,16 @@
 /*There is a rat who is at the starting point of a matrix and wants to reach
  to the ending point i.e at the last coordinate of the matrix.
  1 denotes the point where it is possible for the mouse to go and
- 0 denotes the dead end */
+ 0 denotes the dead end 
+ */
 
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
 
- /*checking whether safe to move */
+ /*
+ *checking whether safe to move 
+ */
 bool issafetomove(int** arr, int x, int y, int row, int col)    
 {
     if(x<row && y<col && arr[x][y]==1)
@@ -20,7 +23,7 @@ bool issafetomove(int** arr, int x, int y, int row, int col)
 
 bool ratInMaze(int** arr, int x,int y,int row, int col, int** solution)
 {
-/*base condition */
+/* base condition  */
     if(x==row-1 && y==col-1)
     {
         solution[x][y]=1;

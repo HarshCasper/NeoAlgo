@@ -104,7 +104,6 @@
 - [Bilinear Search](search/bilinear_search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
 - [Staircase Search](search/Staircase_Search.cpp)
-- [Exponential Search](search/exponential_search.cpp)
 
 ## Sorting
 

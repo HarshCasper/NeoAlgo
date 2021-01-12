@@ -14,7 +14,7 @@
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
-- [Moore Algorithm](Algorithm/Moore_Algorithm.java)
+- [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
 
 ## Greedy Algorithms
 
@@ -58,10 +58,14 @@ _add list here_
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
 - [NQueens Problem](cp/NQueens.java)
 - [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
+- [Largest Rectangle in Histogram](cp/RectArea.java)
 - [Balanced Parenthesis](cp/BalancedParenthesis.java)
 - [Shortest Distance Between Words](cp/Shortest_Dist.java)
 - [Defanged IP Address](cp/Defanged_IPv4.java)
-
+- [Minimum Element In a Rotated Array](cp/Min_Element_Rotated_array.java)
+- [Stock Span Problem](cp/StockSpan.java)
+- [Wrapping Letters](cp/Main.java)
+- [Sort 2D Array](cp/Sort_2D_Array.java)
 
 ## Cryptography
 
@@ -84,6 +88,7 @@ _add list here_
 
 - [Binary Tree](ds/Binary_Tree.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
+- [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
@@ -96,6 +101,7 @@ _add list here_
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
+- [Priority Queue](ds/PriorityQueueEg.java)
 
 ## Graphs
 
@@ -139,6 +145,7 @@ _add list here_
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
+- [Unique BST](dp/Unique_BST.java)
 
 ## Blockchain
 
@@ -177,6 +184,9 @@ _add list here_
 
 _add list here_
 
+## Operating Systems
+- [Banker's Algorithm](Operating-System/banker.java)
+
 ## Other
 
 - [All possible codes](other/LetterCodeRecursion.java)
@@ -196,3 +206,7 @@ _add list here_
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
+- [Set Bits in an Integer](other/SetBitsInInteger.java)
+- [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
+- [String Palindrome](other/Palindrome.java)
+

@@ -72,7 +72,7 @@ int main() {
         cin >> n;
         cout << "Enter the elements" << endl;
 
-        // inputs numbers from the user in an array
+            // inputs numbers from the user in an array
         for (long long int i = 0; i < n; i++) {
                 cin >> A[i];
         }

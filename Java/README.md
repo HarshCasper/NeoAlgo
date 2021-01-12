@@ -57,6 +57,7 @@ _add list here_
 ## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
+- [Data Encryption Standard](cryptography/des/)
 
 ## Dynamic Programming
 

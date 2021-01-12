@@ -7,7 +7,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
- //checking whether safe to move
+ /*checking whether safe to move */
 bool issafetomove(int** arr, int x, int y, int row, int col)    
 {
     if(x<row && y<col && arr[x][y]==1)
@@ -20,7 +20,7 @@ bool issafetomove(int** arr, int x, int y, int row, int col)
 
 bool ratInMaze(int** arr, int x,int y,int row, int col, int** solution)
 {
-//base condition
+/*base condition */
     if(x==row-1 && y==col-1)
     {
         solution[x][y]=1;

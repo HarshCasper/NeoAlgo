@@ -72,7 +72,7 @@ def BFS(maze, src, des, way=1):
                 cur = prev_move
 
             # Return the distance and path
-            return dis, path
+            return dis, path[::-1]
 
         # For a given node check each possible move
         for i in move.keys():

@@ -120,6 +120,7 @@
 - [Bucket Sort](sort/bucket_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
+- [Counting Sort](sort/counting_sort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
 - [Insertion Sort](sort/insertion.cpp)
 - [Merge Sort](sort/Merge_Sort.cpp)

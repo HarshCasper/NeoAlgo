@@ -31,19 +31,19 @@ bool ratInMaze(int** arr, int x,int y,int row, int col, int** solution)
     {
         solution[x][y]=1;
 
-//mpving in right direction
+/*moving in right direction */
     if(ratInMaze(arr,x+1,y,row,col,solution))
     {
         return true;
     }
 
-//moving in down direction
+/*moving in down direction*/
         if(ratInMaze(arr,x,y+1,row,col,solution))
     {
         return true;
     }
 
-//backtracking
+/*backtracking  */
     solution[x][y]=0;
     return false;
     }

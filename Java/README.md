@@ -26,7 +26,7 @@ _add list here_
 
 ## Competitive programming
 
-
+* [Dutch National Flag](cp/DutchFlag.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)

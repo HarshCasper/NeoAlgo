@@ -1,3 +1,6 @@
+/*
+  This program will print Left view of tree by using concept of Depth First Search with some modification
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

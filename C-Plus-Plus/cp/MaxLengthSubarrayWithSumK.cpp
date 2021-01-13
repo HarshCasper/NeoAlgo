@@ -50,6 +50,11 @@ int main(){
 }
 
 /*
+Time Complexity : O(n)
+Auxiliary space Complexity : O(n)
+*/
+
+/*
 
 ----Inputs----
 Enter size of array : 6

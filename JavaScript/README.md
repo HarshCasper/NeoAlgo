@@ -10,8 +10,10 @@
 # Codes in the Javascript language
 
 ## Algorithms
+
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)
 - [Z Algorithm](Algorithms/ZAlgorithm.js)
+- [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 
 ## Data Structures
 
@@ -35,6 +37,7 @@
 - [Insertion Sort](./sort/insertion_sort.js)
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)
+- [Merge Sort](./sort/MergeSort.js)
 
 ## Machine Learning
 

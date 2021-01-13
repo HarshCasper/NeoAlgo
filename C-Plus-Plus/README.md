@@ -97,7 +97,7 @@
 - [Depth Of Tree](graphs/Depth_of_tree.cpp)
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
-- [Left view of Tree)](graphs/leftViewOfTtree.cpp)
+- [Left view of Tree](graphs/left_view_of_tree.cpp)
 
 ## Searching
 

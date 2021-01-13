@@ -26,7 +26,7 @@ _add list here_
 
 ## Competitive programming
 
-
+* [Dutch National Flag](cp/DutchFlag.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
 * [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
@@ -58,6 +58,7 @@ _add list here_
 - [PDDI Using Recursion](cp/ArmStrongRecursion.java)
 - [NQueens Problem](cp/NQueens.java)
 - [Subarray of an array with given sum in O(n) time](cp/Subarray.java)
+- [Largest Rectangle in Histogram](cp/RectArea.java)
 - [Balanced Parenthesis](cp/BalancedParenthesis.java)
 - [Shortest Distance Between Words](cp/Shortest_Dist.java)
 - [Defanged IP Address](cp/Defanged_IPv4.java)
@@ -87,6 +88,7 @@ _add list here_
 
 - [Binary Tree](ds/Binary_Tree.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
+- [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
@@ -206,3 +208,5 @@ _add list here_
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
+- [String Palindrome](other/Palindrome.java)
+

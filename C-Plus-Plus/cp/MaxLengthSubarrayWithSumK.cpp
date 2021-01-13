@@ -1,4 +1,5 @@
 // CPP program to find maximum length subarray with sum = k.
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -32,11 +33,13 @@ int MaxLen(int arr[], int n, int k){
 }
 
 int main(){
-    int n, arr[100], length, k;
+    int n, length, k;
 
     cout<<"Enter size of array : ";
     cin>>n;
 
+    int arr[n];
+    
     cout<<"\nEnter Array : ";
     for(int i=0;i<n;i++) cin>>arr[i];
     

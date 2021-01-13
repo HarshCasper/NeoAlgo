@@ -1,5 +1,7 @@
 /*
    This program will print Left view of tree by using concept of Depth First Search with some modification
+   Time Complexity: O(n) 
+   Space Complexity: O(n)
  */
 
 #include <bits/stdc++.h>

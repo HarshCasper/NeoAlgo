@@ -101,6 +101,7 @@
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
+- [Left view of Tree](graphs/left_view_of_tree.cpp)
 
 ## Searching
 

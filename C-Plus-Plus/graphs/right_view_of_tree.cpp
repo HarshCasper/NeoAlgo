@@ -124,6 +124,8 @@ int main() {
     cout<<"\nRight View of tree:";
     t.right_view_of_tree();
     return 0;	
+}
+
     /* 
    
     Sample case 1
@@ -141,8 +143,8 @@ int main() {
              \
              56                    
              
-.....................................................................................................
- Sample case 1
+.......................................................................
+ Sample case 2
     Enter number of elements in tree: 10
     Enter elements to insert in  tree: 50 40 30 45 60 55 54 70 42 43
     Right View of tree : 50 60 70 54 43 
@@ -160,8 +162,8 @@ int main() {
      \
       \
        43
-    Time Complexity: O(n) 
-    Space Complexity: O(n)
+Time Complexity: O(n) 
+Space Complexity: O(n)
         
     */
 }                    

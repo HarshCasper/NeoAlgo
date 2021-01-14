@@ -1,7 +1,6 @@
 /*
   This program will print Right view of tree by using the concept of level order traversal  with some modification
-    Time Complexity: O(n) 
-    Space Complexity: O(n)
+    
 */ 
 #include <bits/stdc++.h>
 using namespace std;
@@ -41,7 +40,8 @@ public:
                 //if data to be inserted is less then the data of current node
                 if(x < temp->data )
                 {
-                    //if left child of current node is node present we simple add new node with the data to be inserted
+                    //if left child of current node is node present
+                    //we simple add new node with the data to be inserted
                     if(!temp->left_child)
                         {
                             node *tnode = new node(x);
@@ -55,7 +55,8 @@ public:
                 //if data to be inserted is grater then or equal to the data of current node
                 else
                 {
-                    //if right child of current node is node present we simple add new node with the data to be inserted
+                    //if right child of current node is node present 
+                    //we simple add new node with the data to be inserted
                     if(!temp->right_child)
                         {
                             node *tnode = new node(x);
@@ -159,6 +160,8 @@ int main() {
      \
       \
        43
+    Time Complexity: O(n) 
+    Space Complexity: O(n)
         
     */
 }                    

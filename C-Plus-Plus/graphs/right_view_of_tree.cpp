@@ -126,7 +126,7 @@ int main() {
     return 0;	
 }
 
-    /* 
+/* 
    
     Sample case 1
     Enter number of elements in tree: 8
@@ -165,5 +165,4 @@ int main() {
 Time Complexity: O(n) 
 Space Complexity: O(n)
         
-    */
-}                    
+*/               

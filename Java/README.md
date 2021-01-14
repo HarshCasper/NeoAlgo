@@ -134,6 +134,7 @@ _add list here_
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [trailing Zeros In Factorials](math/trailingZerosInFactorials.java)
 
 ## Dynamic Programming
 

@@ -1,7 +1,5 @@
 /*
    This program will print Left view of tree by using concept of Depth First Search with some modification
-   Time Complexity: O(n) 
-   Space Complexity: O(n)
  */
 
 #include <bits/stdc++.h>
@@ -33,25 +31,30 @@ class bin_tree {
 			while (1) {
 				//if data to be inserted is less then the data of current node
 				if (x < temp->data ) {
-					//if left child of current node is node present we simple add new node with the data to be inserted
+					//if left child of current node is node present
+					///we simple add new node with the data to be inserted
 					if (!temp->left_child) {
 						node *tnode = new node(x);
 						temp->left_child = tnode;
 						break;
 					}
-					//else we change the current node pointer with pointer of left child node pointer
+					//else we change the current node pointer 
+					//with pointer of left child node pointer
 					else
 						temp = temp->left_child;
 				}
-				//if data to be inserted is grater then or equal to the data of current node
+				//if data to be inserted is grater then 
+				//or equal to the data of current node
 				else {
-					//if right child of current node is node present we simple add new node with the data to be inserted
+					//if right child of current node is node present 
+					//we simple add new node with the data to be inserted
 					if (!temp->right_child) {
 						node *tnode = new node(x);
 						temp->right_child = tnode;
 						break;
 					}
-					//else we change the current node pointer with pointer of left child node pointer
+					//else we change the current node pointer 
+					//with pointer of left child node pointer
 					else
 						temp = temp->right_child;
 				}
@@ -63,9 +66,8 @@ class bin_tree {
 };
 
 void bin_tree :: left_view_of_tree() {
-	// last printed level
+	
 	int last = 0;
-	// current level
 	int current = 1;
 	left_view(root, last, current);
 }
@@ -114,7 +116,7 @@ int main() {
 	         \
 	         56
 
-	.....................................................................................................
+	.....................................................................
 	Sample case 1
 	Enter number of elements in tree: 10
 	Enter elements to insert in  tree: 50 40 30 45 60 55 54 70 75 72
@@ -132,5 +134,7 @@ int main() {
 	                /
 	               /
 	               72
+   Time Complexity: O(n) 
+   Space Complexity: O(n)
 	*/
 }

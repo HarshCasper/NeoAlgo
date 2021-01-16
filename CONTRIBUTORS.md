@@ -180,6 +180,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Tausif121"><img src="https://avatars1.githubusercontent.com/u/64072708?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Md Tausif Siddiqui</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Tausif121" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/goelesha"><img src="https://avatars1.githubusercontent.com/u/54431564?v=4?s=100" width="100px;" alt=""/><br /><sub><b>goelesha</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=goelesha" title="Code">💻</a></td>
+    <td align="center"><a href="https://djm-1.github.io/dibyajyotimondal/"><img src="https://avatars0.githubusercontent.com/u/54498482?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dibyajyoti Mondal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=djm-1" title="Code">💻</a></td>
+    <td align="center"><a href="http://coderslife.me/resume/"><img src="https://avatars3.githubusercontent.com/u/54434176?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anay Joshi</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=anayjoshi1608" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mehabhalodiya"><img src="https://avatars2.githubusercontent.com/u/73488906?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Meha Bhalodiya</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=mehabhalodiya" title="Code">💻</a></td>
   </tr>
 </table>
 

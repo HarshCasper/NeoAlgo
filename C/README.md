@@ -24,7 +24,6 @@
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
-- [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
 - [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
@@ -99,6 +98,7 @@
 
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
+- [Breadth First Search](graphs/BFS.c)
 
 ## Machine Learning
 
@@ -127,6 +127,7 @@ _add list here_
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
+- [Palindrome](other/Palindrome.c)
 
 ## CP
 

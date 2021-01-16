@@ -50,9 +50,10 @@ void display()
 	else
 	{
 		temp = top;
+		printf("\nData is");
 		while (temp != NULL)
 		{
-			printf("%d\n", temp->data);
+			printf("%d ", temp->data);
 			temp = temp->link;
 		}
 	}
@@ -61,6 +62,7 @@ void main()
 	{
 		int choice;
 		do {
+			printf("\n*****Menu*****)
 			printf("\n1.Push\n2.Pop\n3.Display\n4.Exit\n");
 			printf("Enter your choice:");
 			scanf("%d", &choice);
@@ -123,9 +125,8 @@ Enter your choice
 3.Display 
 4.Exit
 Enter your choice 3 
-data is 23 25
+Data is 23 25
 
 Time complexity : O(1)
 Space Complexity: O(n)
 */
-

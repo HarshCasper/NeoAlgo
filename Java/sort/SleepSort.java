@@ -1,0 +1,46 @@
+
+public class SleepSort {
+    private static int[] elements = {10, 2, 7, 10, 8, 4, 18};
+
+    public static void main(String[] args)
+    {
+        sleepSortMethod(elements);
+    }
+
+    private static void sleepSortMethod(int[] elements) {
+        for(int element: elements)
+        {
+            Thread thread = new Thread(new sleepSortThread(element));
+            thread.start();
+        }
+    }
+
+    private static class sleepSortThread implements Runnable {
+        int element;
+        public sleepSortThread(int element) {
+            this.element = element;
+        }
+
+        @Override
+        public void run() {
+            try
+            {
+                Thread.sleep(element);
+                System.out.println(element);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+
+/* Output
+        2
+        4
+        7
+        8
+        10
+        10
+        18
+*/

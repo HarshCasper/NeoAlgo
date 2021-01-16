@@ -179,6 +179,7 @@ _add list here_
 - [Radix Sort](sort/RadixSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 - [Shell Sort](sort/ShellSort.java)
+- [Sleep Sort](sort/SleepSort.java)
 
 ## Machine Learning
 

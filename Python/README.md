@@ -21,6 +21,7 @@
 - [Knight Walk](graphs/Knight_Walk.py)
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
+- [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
 
 ## Competitive Programming
 
@@ -61,6 +62,7 @@
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+- [Burrows Wheeler transform(BWT)](cryptography/Burrows_Wheeler_transform.py)
 
 
 ## Searching
@@ -127,8 +129,9 @@
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
-- [DFS in Maze (Iterative)](pathfinding/2D_DFS_Iterative.py)
-
+- [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
+- [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
+- [A*(Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
 
@@ -219,8 +222,8 @@
 - [Ugly Number](math/UglyNumber.py)
 - [Prime Number Iterative and Recursive](math/prime_number.py)
 - [Catalan Number](math/Catalan_Number.py)
-
-
+- [Lucas Theorem](math/Lucas_Theorem.py)
+- [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 ## Blockchain
 
 _add list here_
@@ -253,5 +256,6 @@ _add list here_
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+- [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

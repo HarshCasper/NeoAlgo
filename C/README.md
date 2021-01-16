@@ -58,6 +58,7 @@
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
 - [Circular Queue](ds/circularqueue.c)
+- [Post Order Traversal](ds/Postorder.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 
 ## Searching

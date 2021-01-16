@@ -1,8 +1,13 @@
 /*
- Created by Sarthak-9
- Exponential Search Algorithm to search an element in a sorted array
 
- where n is the number of elements input in array and key is the element to search.
+ Created by Sarthak-9
+ Exponential Search Algorithm is an optimized Binary Search to search an element in sorted array.
+ It is specifically used when the size of array is infinite.
+
+ Let n be the number of elements input in array and key be the element to be searched.
+
+ Time Complexity : O(log n)
+ Space Complexity : O(log n)
 
 */
 
@@ -49,7 +54,7 @@ int ExponentialSearch(int *arr, int n, int key)
         int mini = i < (n-1) ? i : (n-1);
 
         // BinarySearch called
-        return BinarySearch(arr, i/2, mini, key);
+        return BinarySearch(arr, i / 2, mini, key);
 }
 
 int main()
@@ -72,7 +77,7 @@ int main()
         int search_result = ExponentialSearch(arr, n, key);
 
         if (search_result != -1) {
-                cout << "Element is present at position " << search_result+1 << endl;
+                cout << "Element is present at position " << search_result << endl;
         } else {
                 cout << "Element is not present in the array" << endl;
         }
@@ -92,6 +97,7 @@ int main()
  52
 
  Output:
- Element is present at position 5
+ Element is present at position 4
 
 */
+

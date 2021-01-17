@@ -11,7 +11,7 @@ Space Complexity: O(n)
 #include<stack>
 using namespace std;
 
-//Function to remove spaces from input string and return trimmed string
+//Function to remove spaces from string and return trimmed string
 string removeSpaces(string&s){
 	int n = s.length();
 	string trimmed;
@@ -40,8 +40,8 @@ int precedence(char c){
 	}
 }
 
-//calculate function is used to calculate a value given two operands
-//and one operator
+//calculate function is used to calculate a value 
+//given two operandsand one operator
 int calculate(int num1, int num2, char symbol){
 	if(symbol=='*'){
 		return num1*num2;
@@ -69,40 +69,44 @@ int evaluate(string token){
 	int n = token.length();
 	
 	for(i=0; i<n; i++){
-		if(isdigit(token[i])){//digit encountered
+		//digit encountered
+		if(isdigit(token[i])){
 			int value = 0;
-			while(i<n && isdigit(token[i])){//there may be more than one digit number e.g(48+5) '48' has 2 digits
+			
+			//there may be more than one digit number 
+			//e.g(48+5) '48' has 2 digits
+			while(i<n && isdigit(token[i])){
 				value = value*10 + (token[i]-'0');
 				i++;
 			}
 			
 			values.push(value);
-			i--;//decrement i to avoid incrementing it 2 times as outer for loop also increments it
+			//decrement i to avoid incrementing it 2 times 
+			//as outer for loop also increments it
+			i--;
 	
 		}
-		//if opening paranthesis is encontered simply push it in 'operators' stack
+		//if opening paranthesis is encontered push it in 'operators' stack
 		else if(token[i]=='('){
 			operators.push('(');
 		}
 
-		//If a closing paranthesis is encountered we have to evaluate the expression until an opening paranthesis is encountered
-		//Assuming the expression is valid we are guaranteed to obtain an opening paranthesis '('
+		//If a closing paranthesis is encountered continue to evaluate the expression 
+		//until an opening paranthesis is encountered
 		else if(token[i]==')'){
 			while(!operators.empty() && operators.top()!='('){
-				//since stack stores values in Last In First Out(LIFO) fashion the top value in the 'values' stack is the second operand 
-				//e.g if expression is (4+5), the top value in stack will be 5 which is the second operand and 4 is the first operand
+				
 				int val2 = values.top();
 				values.pop();
 
 				int val1 = values.top();
 				values.pop();
 
-				//get the operator from operator stack
+				//get the operator
 				char symbol = operators.top();
 				operators.pop();
 
-				//we now have 2 operands and one operator therefore we can calculate the value and store the calculated value back into 
-				//the 'values' stack for futher evaluation
+				//calculate value 
 				int calculated_value = calculate(val1, val2, symbol);
 
 				values.push(calculated_value);
@@ -111,19 +115,19 @@ int evaluate(string token){
 			//pop opening brace as it is evaluated
 			operators.pop();
 		}
-		
-		else{//operator encountered
+		//operator encountered
+		else{
 			//if 'operators' stack is empty simply push the operator
 			if(operators.empty()){
 				operators.push(token[i]);
 			}
 			else{
 				//check precedence
-				//if precedence of current symbol is more than symbol at top of 'operators' stack then simply push it
 				if(precedence(token[i]) > precedence(operators.top())){
 					operators.push(token[i]);
 				}
-				//if precedence of current symbol is less than top of operator stack then evaluate expression
+				//if precedence of current symbol is less than top of operator stack 
+				//then evaluate expression
 				else{
 					while(!operators.empty() && (precedence(token[i]) <= precedence(operators.top())) ){
 
@@ -140,16 +144,15 @@ int evaluate(string token){
 						
 						values.push(calculated_value);
 					}
-					//After the above while loop is over either the 'operators' stack is empty or the current operator in  
-					//'operators' stack has lower precedence than operator of given string so we can safely push it
+					
+					//push current symbol
 					operators.push(token[i]);
 				}
 			}
 		}
 	}
 	
-	//After the string is parsed if operators stack is still not empty this means the expression is not fully calculated. 
-	//Note that size of operators stack will always be less than size of 'values' stack.
+	//Expression is parsed now, evaluate remaining values
 	while(!operators.empty()){
 		int val2 = values.top();
 		values.pop();
@@ -165,7 +168,7 @@ int evaluate(string token){
 		values.push(calculated_value);
 	}
 	
-	//Finally the evaluated expression value will be at the top of 'values' stack
+	//Evaluated expression value will be at the top of 'values' stack
 	return values.top();
 }
 

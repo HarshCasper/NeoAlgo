@@ -1,79 +1,81 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int block;
+int b;
 
-struct Query
+struct Problem
 {
-	int L, R;
+    int Left, Right;
 };
-bool compare(Query x, Query y)
-{
-	
-	if (x.L/block != y.L/block)
-		return x.L/block < y.L/block;
 
-	
-	return x.R < y.R;
+void probRes(int a[], int n, Problem p[], int m)
+{
+    
+    b = (int)sqrt(n);
+
+    
+    sort(p, p + m, check);
+
+    int currLeft = 0, currRight = 0;
+    int currSum = 0;
+
+    
+    for (int i=0; i<m; i++)
+    {
+        
+        int Left = p[i].Left, Right = p[i].Right;
+        while (currLeft < Left)
+        {
+            currSum -= a[currLeft];
+            currLeft++;
+        }
+        while (currLeft > Left)
+        {
+            currSum += a[currLeft-1];
+            currLeft--;
+        }
+        while (currRight <= Right)
+        {
+            currSum += a[currRight];
+            currRight++;
+        }
+
+        while (currRight > Right+1)
+        {
+            currSum -= a[currRight-1];
+            currRight--;
+        }
+
+        cout << "Sum of [" << Left << ", " << Right
+            << "] is " << currSum << endl;
+    }
 }
 
-void queryResults(int a[], int n, Query q[], int m)
+bool check(Problem x, Problem y)
 {
-	
-	block = (int)sqrt(n);
+    
+    if (x.Left/b != y.Left/b)
+        return x.Left/b < y.Left/b;
 
-	
-	sort(q, q + m, compare);
-
-	int currL = 0, currR = 0;
-	int currSum = 0;
-
-	
-	for (int i=0; i<m; i++)
-	{
-		
-		int L = q[i].L, R = q[i].R;
-		while (currL < L)
-		{
-			currSum -= a[currL];
-			currL++;
-		}
-		while (currL > L)
-		{
-			currSum += a[currL-1];
-			currL--;
-		}
-		while (currR <= R)
-		{
-			currSum += a[currR];
-			currR++;
-		}
-
-		while (currR > R+1)
-		{
-			currSum -= a[currR-1];
-			currR--;
-		}
-
-		cout << "Sum of [" << L << ", " << R
-			<< "] is " << currSum << endl;
-	}
+    
+    return x.Right < y.Right;
 }
 
 int main()
 {
-	int a[] = {1, 1, 2, 1, 3, 4, 5, 2, 8};
-	int n = sizeof(a)/sizeof(a[0]);
-	Query q[] = {{0, 4}, {1, 3}, {2, 4}};
-	int m = sizeof(q)/sizeof(q[0]);
-	queryResults(a, n, q, m);
-	return 0;
-}
+    int a[] = {1, 1, 2, 1, 3};
+    int n = sizeof(a)/sizeof(a[0]);
+
+    Problem p[] = {{1, 5}, {2, 4}};
+    int m = sizeof(p)/sizeof(p[0]);
+    
+    probRes(a, n, p, m);
+    return 0;
+} 
 
 // O(m * √n)
 
-// O/P : Sum of [1, 3] is 4
-// Sum of [0, 4] is 8
+// O/P : Sum of [1, 5] is 6
 // Sum of [2, 4] is 6
 
 

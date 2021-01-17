@@ -14,7 +14,7 @@ void probRes(int a[], int n, Problem p[], int m)
     b = (int)sqrt(n);
 
     
-    sort(p, p + m, check);
+    sort(p, p+m , check);
 
     int currLeft = 0, currRight = 0;
     int currSum = 0;

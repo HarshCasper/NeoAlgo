@@ -65,4 +65,12 @@ func main() {
 /*
 Output -
 Sorted List: [2 5 7 9 10 14 18 20]
+
+Time Complexity:
+	1. O(n*k) in best case
+	2. O(n*k) in average case
+	3. O(n*k) in worst case 
+	where n is the number of elements and k is the number of bits required to represent largest element in the array
+
+Space Complexity: O(n+k) 
 */

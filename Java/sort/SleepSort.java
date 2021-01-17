@@ -1,46 +1,53 @@
+import java.util.Scanner;
+import java.util.concurrent.*;
 
 public class SleepSort {
-    private static int[] elements = {10, 2, 7, 10, 8, 4, 18};
 
-    public static void main(String[] args)
-    {
-        sleepSortMethod(elements);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the number of elements in an array: ");
+        int number = sc.nextInt();
+
+        System.out.println("\nEnter the elements in an array: ");
+        int array[] = new int[number];
+
+        for (int i = 0; i < number; i++) {
+            array[i] = sc.nextInt();
+
+        }
+        sleepSort(array);
     }
 
-    private static void sleepSortMethod(int[] elements) {
-        for(int element: elements)
-        {
-            Thread thread = new Thread(new sleepSortThread(element));
-            thread.start();
+    public static void sleepSort(int[] array) {
+        final CountDownLatch countDone = new CountDownLatch(array.length);
+        System.out.println("\nThe sorted array is: ");
+        for (final int num : array) {
+            new Thread(new Runnable() {
+                public void run() {
+                    countDone.countDown();
+                    try {
+
+                        countDone.await();
+                        Thread.sleep(num);
+                        System.out.println(num);
+
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }).start();
         }
     }
 
-    private static class sleepSortThread implements Runnable {
-        int element;
-        public sleepSortThread(int element) {
-            this.element = element;
-        }
-
-        @Override
-        public void run() {
-            try
-            {
-                Thread.sleep(element);
-                System.out.println(element);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-    }
 }
 
-
-/* Output
-        2
-        4
-        7
-        8
-        10
-        10
-        18
-*/
+/*
+ * Output -
+ * 
+ * Enter the number of elements in an array: 7
+ * 
+ * Enter the elements in an array: 10 5 9 77 30 981 14
+ * 
+ * The sorted array is: 5 9 14 10 30 77 981
+ */

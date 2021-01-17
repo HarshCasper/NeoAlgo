@@ -7,7 +7,6 @@ public class Main
     public static int rear;
     public static int arr[];
     public static int size;
-    
     Main(int n) //Constructor
     {
         front =-1;
@@ -26,7 +25,6 @@ public class Main
     ///////////////////////////////////////////////////////////////
     public void getRear()
     {
-        
         if(rear ==-1)
              System.out.println("Queue is Empty.");
         else
@@ -34,8 +32,7 @@ public class Main
     }
     //////////////////////////////////////////////////////////////
     public void Enqueue(int value)
-    {
-           
+    {  
            if(front==-1)
            {
                front = 0;
@@ -68,8 +65,7 @@ public class Main
         else{
             front++;
         }
-        System.out.print("Deleted : "+ data);
-        
+        System.out.print("Deleted : "+ data);  
     }
     //////////////////////////////////////////////////////////////
     public static void main(String []args)  //main function
@@ -101,8 +97,7 @@ public class Main
                                  System.out.print("Enter the value to insert :");
                                  int value=sc.nextInt();
                                  m.Enqueue(value);
-                            }
-                                
+                            }                                
                         }
                         break;
                     case 2:
@@ -133,9 +128,6 @@ public class Main
                         System.out.println("Invalid Choice ! Try again.");
                         break;
                 }
-                
-        }while(true);   
-         
+        }while(true);       
     }
-
 }

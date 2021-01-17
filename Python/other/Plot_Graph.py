@@ -23,7 +23,17 @@ f = lambda x : 2*x*x+5*x+3
 #f = lambda x : mt.sqrt(x)
 #f = lambda x: 1/x
 
+'''
 
+NOTE: While choosing the function, Do check wether the range of limit is within
+    the domain of the function.
+
+    For example:- f(x)=1/x
+        Here 0 is not in the domain of the function, 
+        Hence try to modify the for loop with one or more conditional statements
+        accordingly.
+        
+'''
 # Number of Y co-ordinates
 limit = 50
 

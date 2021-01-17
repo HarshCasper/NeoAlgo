@@ -21,6 +21,10 @@ int stack[SIZE], top = -1;
 
 void main()
 {
+	int s;
+        printf("Enter the array size: ");
+        scanf("%d", &s);
+        int a[s];
 	int value, choice;
 	while (1)
 	{
@@ -95,6 +99,7 @@ void peek()
 }
 
 /*
+Enter the array size: 10
 ***** MENU *****
 1.	Push
 2.	Pop
@@ -154,8 +159,3 @@ Stack elements are: 45
 Time complexity : O(1)
 Space Complexity: O(n)
 */
-
-
-
-
-

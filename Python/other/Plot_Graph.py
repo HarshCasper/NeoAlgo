@@ -25,7 +25,7 @@ f = lambda x : 2*x*x+5*x+3
 
 '''
 
-NOTE: While choosing the function, Do check wether the range of limit is within
+NOTE: While choosing the function, Do check whether the range of limit is within
     the domain of the function.
 
     For example:- f(x)=1/x

@@ -50,4 +50,14 @@ public class SleepSort {
  * Enter the elements in an array: 10 5 9 77 30 981 14
  * 
  * The sorted array is: 5 9 14 10 30 77 981
+ *
+ 
+Time Complexity -
+    1. Best case - O(NlogN + max(input))
+    2. Average case - O(NlogN + max(input))
+    3. Worst case - O(NlogN + max(input))
+    where N = number of elements in the input array, and array = input array elements
+    
+Space Complexity - O(N)
+ 
  */

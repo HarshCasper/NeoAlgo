@@ -107,6 +107,7 @@
 
 - [Binary Search](search/Binary_Search.cpp)
 - [Bilinear Search](search/bilinear_search.cpp)
+- [Exponential Search](search/exponential_search.cpp)
 - [Interpolation Search](search/Interpolation_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)

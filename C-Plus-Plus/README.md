@@ -72,6 +72,9 @@
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 - [Vector](ds/Vector.cpp)
+- [First non-repeating character in Queue](ds/firstNonRepeatingQueue.cpp)
+- [Queue implementation with STL List](ds/queueListSTL.cpp)
+- [Stack implementation with two Queues](ds/stackWIth2Queues.cpp)
 
 ## Graphs
 

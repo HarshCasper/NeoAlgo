@@ -33,7 +33,10 @@
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
 - [Suduko Solver](cp/SudukoSolver.c)
-
+- [Compare Strings](cp/compareStrings.c)
+- [Leftshifting/Rotating elements](cp/leftshift.c)
+- [Missing element in series](cp/missingElementsFasterMethod.c)
+- [Permutation of strings using backtracking](cp/permuationOfStringBacktracking.c)
 ## Cryptography
 
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
@@ -55,7 +58,10 @@
 - [Delete a linked list node function](ds/List_deletenode_func.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
-
+- [Insert node at the end of a singly linked list](ds/insertAtEndLL.c)
+- [Insert node element in sorted wise](ds/insertSortedLL.c)
+- [Maximum node in a liked list](ds/maxLinkedList.c)
+- [All the important functions of circular linked list one file](ds/AllCircularLL.c)
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
@@ -108,7 +114,9 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
-
+- [Decimal to Binary Number](math/decimalToBinary.c)
+- [Magic Number](math/magicNumber.c)
+- [Palindrome Number](math/palindromeNumber.c)
 ## Other
 
 - [Find the Numbers](other/Find_the_numbers.c)

@@ -2,29 +2,26 @@
 Title: Memory Allocation in Operating Systems in Java
 
 Description:
-(a) First-Fit: Allocate the first hole that is big enough. Searching can start either at the beginning of the set of holes or where the previous first search ended. We can stop searching as soon as we find a free hole that is large enough.
-(b) Best-Fit: Allocate the smallest hole that is big enough. We must search the entire list unless the list is ordered by size.
-(c) Worst-Fit: Allocate the largest hole. We must search the entire list unless the list is ordered by size.
+(a) First-Fit: 
+- Allocate the first hole that is big enough. 
+- Searching can start either at the beginning of the set of holes or where the previous first search ended. 
+- Stop searching as soon as we find a free hole that is large enough.
+(b) Best-Fit: 
+- Allocate the smallest hole that is big enough. 
+- Search the entire list unless the list is ordered by size.
+(c) Worst-Fit: 
+- Allocate the largest hole. 
+- Search the entire list unless the list is ordered by size.
  
 */
 
 import java.util.ArrayList;
 import java.util.Scanner;
-public class alloc {
 
-  public static void main(String[] args) {
-    Scanner s = new Scanner(System. in );
-    int u = 0;
-    System.out.println("MEMORY ALLOCATION TECHNIQUES");
-    do {
-      System.out.println("ENTER 1 FOR FIRST FIT");
-      System.out.println("ENTER 2 FOR BEST FIT");
-      System.out.println("ENTER 3 FOR WORST FIT");
-      System.out.println("PRESS O FOR EXIT ");
-      u = s.nextInt();
-      switch (u) {
-      case 1:
-        System.out.println("ENTER THE NUMBER OF PROCESSES");
+public class memory1 {
+ public void first()
+ {
+  System.out.println("ENTER THE NUMBER OF PROCESSES");
         int size = s.nextInt();
         System.out.println("ENTER THE SIZES OF PROCESSES");
         int s1[] = new int[size];
@@ -66,10 +63,11 @@ public class alloc {
           else System.out.print("Not Allocated");
           System.out.println();
         }
-        break;
-
-      case 2:
-        System.out.println("ENTER THE NUMBER OF PROCESSES");
+ }
+ 
+ public void best()
+ {
+  System.out.println("ENTER THE NUMBER OF PROCESSES");
         size = s.nextInt();
         System.out.println("ENTER THE SIZES OF PROCESSES");
         int s11[] = new int[size];
@@ -114,10 +112,10 @@ public class alloc {
           else System.out.print("Not Allocated");
           System.out.println();
         }        
-        break;
-
-      case 3:
-        System.out.println("ENTER THE NUMBER OF PROCESSES");
+ }
+ 
+ public void worst(){
+  System.out.println("ENTER THE NUMBER OF PROCESSES");
         size = s.nextInt();
         System.out.println("ENTER THE SIZES OF PROCESSES");
         int s111[] = new int[size];
@@ -163,6 +161,33 @@ public class alloc {
           else System.out.print("Not Allocated");
           System.out.println();
         }       
+ }
+}
+
+public class alloc {
+
+  public static void main(String[] args) {
+    Scanner s = new Scanner(System. in );
+    int u = 0;
+    System.out.println("MEMORY ALLOCATION TECHNIQUES");
+    do {
+      memory1 c1=new memory1();
+      System.out.println("ENTER 1 FOR FIRST FIT");
+      System.out.println("ENTER 2 FOR BEST FIT");
+      System.out.println("ENTER 3 FOR WORST FIT");
+      System.out.println("PRESS O FOR EXIT ");
+      u = s.nextInt();
+      switch (u) {
+      case 1:
+        c1.first();
+        break;
+
+      case 2:
+        c1.best();
+        break;
+
+      case 3:
+        c1.worst();
         break;
       }
     } while ( u != 0 );

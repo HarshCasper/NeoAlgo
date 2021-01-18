@@ -3,9 +3,13 @@
 
  A Linked List is a linear data structure which includes a series of connected nodes. Each node stores the data and the address of the next node.
  Middle Element can be extracted using following two methods :
+ Method 1 - MiddleNode1 finds the length of the linked list and the prints the data at position length/2.
  Time complexity of MiddleNode1 : O(n)
+ Space Complexity of MiddleNode1 : O(1)
+ Method 2 - MiddleNode2 is an optimized approach which uses two pointers namely slow and fast pointers. The fast pointer moves two steps in each iteration while the slow pointer jumps only one step.
+ When the fast pointer reaches the end, the slow pointer reaches the middle element and its data is printed.
  Time complexity of MiddleNode2 : O(n/2)
- Space Complexity of both methods : O(1)
+ Space Complexity of MiddleNode2 : O(1)
 */
 
 #include <iostream>
@@ -50,12 +54,12 @@ void MiddleNode1(Node* p){
                 p = p->next;
         }
 
-        int index = (int)ceil(length/2.0);
+        int index = (int) ceil(length / 2.0);
 
         Node* q = head;
 
         // traverses to the middle element
-        for (int i=0; i<index-1; i++){
+        for (int i = 0; i < index - 1; i++){
                 q = q->next;
         }
         cout << "Middle Element (Method-I): " << q->data << endl;

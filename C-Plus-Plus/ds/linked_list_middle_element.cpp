@@ -1,25 +1,22 @@
 /*
+ Author: Sarthak Saxena (@Sarthak-9)
 
- Created by Sarthak-9
  A Linked List is a linear data structure which includes a series of connected nodes. Each node stores the data and the address of the next node.
-
  Middle Element can be extracted using following two methods :
  Time complexity of MiddleNode1 : O(n)
  Time complexity of MiddleNode2 : O(n/2)
- Space Complexity of both : O(1)
-
+ Space Complexity of both methods : O(1)
 */
 
 #include <iostream>
 #include <cmath>
-#include <stack>
 
 using namespace std;
 
 class Node{
-        public:
-                int data;
-                Node* next;
+public:
+        int data;
+        Node* next;
 };
 
 Node* head = new Node;
@@ -33,7 +30,7 @@ void create(int arr[], int n){
         tail = head;
 
         // creates the linked list from array
-        for (int i=1; i<n; i++){
+        for (int i = 1; i < n; i++){
                 temp = new Node;
                 temp->data = arr[i];
                 temp->next = nullptr;
@@ -84,7 +81,6 @@ void MiddleNode2(Node* p){
         }
         cout << "Middle Element (Method-II): " << p->data << endl;
 }
-
 
 int main() {
 

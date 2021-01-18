@@ -72,7 +72,6 @@ void main() {
                     printf("Invalid choice");
                 }
             }
-
             while (choice < 5);
             getchar();
         }

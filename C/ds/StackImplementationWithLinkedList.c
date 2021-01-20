@@ -1,5 +1,7 @@
 /*
-A stack is an Abstract Data Type (ADT), commonly used in most programming languages.This feature makes it LIFO data structure. LIFO stands for Last-in-first-out. Here, the element which is placed (inserted or added) last, is accessed first.
+A stack is an Abstract Data Type (ADT), commonly used in most programming languages.This feature makes it LIFO data structure.
+LIFO stands for Last-in-first-out. Here, the element which is placed (inserted or added) last, is accessed first.
+
 The Basic operation in Stack are:
 1.push() − Pushing (storing) an element on the stack.
 2.pop() − Removing (accessing) an element from the stack.
@@ -10,15 +12,18 @@ The Basic operation in Stack are:
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
+
 struct node
 {
     int data;
     struct node *link;
 };
+
 struct node *top = NULL;
 void push();
 void pop();
 void display();
+
 void push()
 {
     struct node *temp;
@@ -28,6 +33,7 @@ void push()
     temp->link = top;
     top = temp;
 }
+
 void pop()
 {
     struct node *temp;
@@ -42,6 +48,7 @@ void pop()
         free(temp);
     }
 }
+
 void display()
 {
     struct node *temp;
@@ -58,33 +65,35 @@ void display()
         }
     }
 }
+
 void main()
 {
     int choice;
     do
     {
         printf("\n*****Menu*****\n");
-		printf("\n1.Push\n2.Pop\n3.Display\n4.Exit\n"); 
+	printf("\n1.Push\n2.Pop\n3.Display\n4.Exit\n"); 
         printf("Enter your choice:"); 
         scanf("%d", &choice);
-		switch (choice)
-		{
-        case 1:
-            push();
-            break;
-        case 2:
-            pop();
-            break;
-        case 3:
-            display();
-            break;
-        case 4:
-            exit(0);
-        default:
-            printf("Invalid choice");
-		}
-    }while (choice < 5);
-    getchar();
+	switch (choice)
+	{
+		case 1:
+			push();
+			break;
+		case 2:
+			pop();
+			break;
+		case 3:
+			display();
+			break;
+		case 4:
+			exit(0);
+		default:
+			printf("Invalid choice");
+	}
+	}
+        while (choice < 5);
+        getchar();
 }
 
 /*

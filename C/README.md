@@ -33,6 +33,7 @@
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
 - [Suduko Solver](cp/SudukoSolver.c)
+- [Missing element in a sum series](cp/missingElementsFasterMethod.c)
 
 ## Cryptography
 

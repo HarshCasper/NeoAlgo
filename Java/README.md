@@ -66,6 +66,7 @@ _add list here_
 - [Stock Span Problem](cp/StockSpan.java)
 - [Wrapping Letters](cp/Main.java)
 - [Sort 2D Array](cp/Sort_2D_Array.java)
+- [Reverse a string](cp/ReverseString.java)
 
 ## Cryptography
 

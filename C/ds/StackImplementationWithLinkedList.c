@@ -10,71 +10,82 @@ The Basic operation in Stack are:
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-struct node {
+struct node
+{
     int data;
-    struct node * link;
+    struct node *link;
 };
-struct node * top = NULL;
+struct node *top = NULL;
 void push();
 void pop();
 void display();
-void push() {
-    struct node * temp;
-    temp = (struct node * ) malloc(sizeof(struct node));
+void push()
+{
+    struct node *temp;
+    temp = (struct node *)malloc(sizeof(struct node));
     printf("\n Enter node data:");
-    scanf("%d", & temp -> data);
-    temp -> link = top;
+    scanf("%d", &temp->data);
+    temp->link = top;
     top = temp;
 }
-void pop() {
-    struct node * temp;
+void pop()
+{
+    struct node *temp;
     if (top == NULL)
         printf("No element");
-    else {
+    else
+    {
         temp = top;
-        printf("The deleted element is %d", temp -> data);
-        top = top -> link;
-        temp -> link = NULL;
+        printf("The deleted element is %d", temp->data);
+        top = top->link;
+        temp->link = NULL;
         free(temp);
     }
 }
-void display() {
-    struct node * temp;
+void display()
+{
+    struct node *temp;
     if (top == NULL)
         printf("\n Stack is empty");
-    else {
+    else
+    {
         temp = top;
         printf("\nData is");
-        while (temp != NULL) {
-            printf("%d ", temp -> data);
-            temp = temp -> link;
+        while (temp != NULL)
+        {
+            printf("%d ", temp->data);
+            temp = temp->link;
         }
     }
 }
-void main() {
-        int choice;
-        do {
-            printf("\n*****Menu*****)
-                printf("\n1.Push\n2.Pop\n3.Display\n4.Exit\n"); printf("Enter your choice:"); scanf("%d", & choice);
-                switch (choice) {
-                case 1:
-                    push();
-                    break;
-                case 2:
-                    pop();
-                    break;
-                case 3:
-                    display();
-                    break;
-                case 4:
-                    exit(0);
-                default:
-                    printf("Invalid choice");
-                }
-            }
-            while (choice < 5);
-            getchar();
-        }
+void main()
+{
+    int choice;
+    do
+    {
+        printf("\n*****Menu*****\n");
+		printf("\n1.Push\n2.Pop\n3.Display\n4.Exit\n"); 
+        printf("Enter your choice:"); 
+        scanf("%d", &choice);
+		switch (choice)
+		{
+        case 1:
+            push();
+            break;
+        case 2:
+            pop();
+            break;
+        case 3:
+            display();
+            break;
+        case 4:
+            exit(0);
+        default:
+            printf("Invalid choice");
+		}
+    }while (choice < 5);
+    getchar();
+}
 
 /*
 *****MENU****** 

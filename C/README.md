@@ -56,6 +56,8 @@
 - [Delete a linked list node function](ds/List_deletenode_func.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
+- [Insertion at the end of a Linked List](ds/insertAtEnd.c)
+- [Insertion of an element in sorted wise](ds/insertSorted.c)
 
 ## Searching
 

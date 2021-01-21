@@ -1,13 +1,13 @@
-/*There is a rat who is at the starting point of a matrix and wants to reach
+/*
+Link of the problem:-  https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+There is a rat who is at the starting point of a matrix and wants to reach
  to the ending point i.e at the last coordinate of the matrix.
  1 denotes the point where it is possible for the mouse to go and
  0 denotes the dead end 
  */
-
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
-
  /*
  *checking whether safe to move 
  */
@@ -19,8 +19,6 @@ bool issafetomove(int** arr, int x, int y, int row, int col)
     }
     return false;
 }
-
-
 bool ratInMaze(int** arr, int x,int y,int row, int col, int** solution)
 {
 /* base condition  */
@@ -50,12 +48,8 @@ bool ratInMaze(int** arr, int x,int y,int row, int col, int** solution)
     solution[x][y]=0;
     return false;
     }
-
-
     return false;
 }
-
-
 int main()
 {
     int row, col;
@@ -69,8 +63,6 @@ int main()
     }
 
     cout<<"enter the elements of the array\n";
-
-
     for(int i=0;i<row;i++)
     {
         for(int j=0;j<col;j++)
@@ -89,8 +81,6 @@ int main()
 
         }
     }
-
-
     if(ratInMaze(arr,0,0,row,col,solution))
     {
         cout<<"The path obtained is as follows\n";
@@ -103,24 +93,18 @@ int main()
         }
         cout<<endl;
     }
-
-
     }
-
     return 0;
 }
-
-
-
 //Output
 /*enter the rows and columns of the  matrix
 3 4
-enter the elements of the array
+* enter the elements of the array
 1 1 1 1
 1 0 0 0
 1 1 1 1
 
-The path obtained is as follows
+* The path obtained is as follows
 1 0 0 0
 1 0 0 0
 1 1 1 1

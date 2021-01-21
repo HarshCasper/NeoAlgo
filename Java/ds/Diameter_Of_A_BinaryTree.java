@@ -1,7 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
 /* The diameter of a binary tree is the length of the longest path between any two nodes in a tree. 
  * This path may or may not pass through the root.
  * Time Complexity - O(N) Space Complexity - O(H) 
@@ -12,7 +11,6 @@ class Pair<T1, T2> {
 	public T1 height;
 	public T2 diameter;
 }
-
 /* Class containing left and right child of current node and key value */
 class BinaryTreeNode<T> {
 	public int data;
@@ -23,7 +21,6 @@ class BinaryTreeNode<T> {
 		this.data = data;
 	}
 }
-
 public class Diameter_Of_A_BinaryTree {
 	/* Function to find height and diameter of a tree */
 	public static Pair<Integer, Integer> heightDiameter(BinaryTreeNode<Integer> root) {
@@ -63,8 +60,7 @@ public class Diameter_Of_A_BinaryTree {
 		output.diameter = diameter;
 		return output;
 	}
-
-	/* Take Input Levelwise */
+        /* Take Input Levelwise */
 	public static BinaryTreeNode<Integer> takeInput() {
 		Scanner s = new Scanner(System.in);
 		/* Use queue to store levelwise input of binary tree (first in first out) */

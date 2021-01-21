@@ -44,38 +44,25 @@ void push(struct Node** head_ref, int new_data)
     
     (*head_ref) = new_node;  
 }  
-  
-
- 
-  
 /* Driver function*/
 int main()  
 {  
-    
     struct Node* head = NULL;  
     int i;
     printf("Enter the number of elements in the linkedlist "); 
     scanf("%d",&i); 
-    
-    
     for (int p=i; p>0; p--)  
     {  
         int c;
         printf("\nEnter the element ");
         scanf("%d",&c);
         push(&head, c);  
-          
-    
     }  
-    
-
-    detectMiddle(head); 
+     detectMiddle(head); 
     return 0;  
 }  
 
 /*
-
-
 Output: 
 Enter the number of elements 5
 Enter the element 2
@@ -84,9 +71,4 @@ Enter the element 1
 Enter the element 6
 Enter the element 7
 The middle element is 1
-
-
-
 */
-
-

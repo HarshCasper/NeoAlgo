@@ -59,11 +59,8 @@
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
 - [Circular Queue](ds/circularqueue.c)
 - [Post Order Traversal](ds/Postorder.c)
-<<<<<<< HEAD
 - [Detect Middle Element of the LinkedList](ds/middle_element_of_linkedlist.c)
-=======
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
->>>>>>> b7cdddc5dd99ddd8429302b7ea23a5f363e2c02f
 
 ## Searching
 

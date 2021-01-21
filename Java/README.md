@@ -67,6 +67,7 @@ _add list here_
 - [Wrapping Letters](cp/Main.java)
 - [Sort 2D Array](cp/Sort_2D_Array.java)
 - [Reverse a string](cp/ReverseString.java)
+- [Implement Queue using Stack](cp/Queue_using_Stack.java)
 
 ## Cryptography
 

@@ -22,7 +22,7 @@
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
 - [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
-
+- [Dynamic Stack](ds/dynamic_queue.py)
 ## Competitive Programming
 
 - [Anagram Checker](cp/anagram_checker.py)

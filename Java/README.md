@@ -181,6 +181,7 @@ _add list here_
 - [Radix Sort](sort/RadixSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 - [Shell Sort](sort/ShellSort.java)
+- [Sleep Sort](sort/SleepSort.java)
 
 ## Machine Learning
 
@@ -188,6 +189,7 @@ _add list here_
 
 ## Operating Systems
 - [Banker's Algorithm](Operating-System/banker.java)
+- [Memory Allocation in Operating Systems](Operating-System/alloc.java)
 
 ## Other
 

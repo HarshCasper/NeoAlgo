@@ -1,3 +1,5 @@
+// Function to Implement Radix Sort
+// Takes an IntArray as arguments and returns a sorted IntArray to the caller function
 fun radixSort(original: IntArray): IntArray {
     // Array needs to be mutable
     var old = original

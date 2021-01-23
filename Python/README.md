@@ -204,6 +204,7 @@
 ## Mathematics
 
 - [Area](math/Area.py)
+- [Armstrong Number](math/Armstrong_Number.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
 - [Least Common Multiple (LCM)](math/Least_common_multiple.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)

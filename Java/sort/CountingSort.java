@@ -136,3 +136,17 @@ class CountingSort
         System.out.println();
     }
 }
+
+/*
+Sample Input-Output
+
+Enter space separated integer:
+7 8 9 4 5 6 7
+Sorted Integer Array:- 
+4 5 6 7 7 8 9
+
+Enter space separated character:
+a b t r a b c f
+Sorted Character Array:- 
+a a b b c f r t
+*/

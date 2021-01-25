@@ -91,6 +91,7 @@
 - [Depth Of Tree](graphs/Depth_of_tree.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
+- [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)

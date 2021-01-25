@@ -257,5 +257,6 @@ _add list here_
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
+- [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

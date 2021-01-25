@@ -199,6 +199,7 @@
 * [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 * [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 * [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
+* [Logically Weighted Regression](ml/Logically%20Weighted%20Regression)
 
 
 ## Mathematics

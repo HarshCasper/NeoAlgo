@@ -18,13 +18,12 @@ try:
          3 to display values of queue
          4 to reverse the exisiting queue
          5 to exit '''))
-
-        if op == 1:  # to insert an elelment in the queue
-
+        
+        if op == 1:
             ele = int(input("enter elem to insert "))
             queue.append(ele)
 
-        elif op == 2:  # to remove an element from the queue
+        elif op == 2:
 
             if len(queue) == 0:
                 print("The queue is empty, insert values if required")
@@ -32,20 +31,18 @@ try:
                 ele = queue.pop(0)
                 print("Element removed is - ", ele)
 
-        elif op == 3:  # to display the elements in the queue
+        elif op == 3:
 
             if len(queue) == 0:
                 print("The queue is empty, insert values if required")
             else:
                 print(queue)
 
-        elif op == 4:  # to reverse queue
-
+        elif op == 4:
             queue.reverse()
             print(queue)
 
-        elif op == 5:  # to exit
-
+        elif op == 5:
             break
 
         else:
@@ -108,4 +105,3 @@ Element removed is -  5
 """
 Time Complexity - O(n)
 """
-

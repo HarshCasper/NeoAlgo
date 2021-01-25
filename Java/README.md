@@ -68,6 +68,7 @@ _add list here_
 - [Sort 2D Array](cp/Sort_2D_Array.java)
 - [Reverse a string](cp/ReverseString.java)
 - [Implement Queue using Stack](cp/Queue_using_Stack.java)
+- [Implement Stack using Queue](cp/Stack_using_Queue.java)
 
 ## Cryptography
 

@@ -1,9 +1,8 @@
 """
 The program helps to count the number of
-vowels and consants in a word
+vowels and consants in a string.
 
 """
-
 
 def Count(word):
     vc, cc = 0, 0
@@ -16,19 +15,19 @@ def Count(word):
                 cc = cc + 1
     return vc, cc
 
-TheWord = input("enter a string ").lower()
+TheWord = input("Enter a string: ").lower()
 
 vc, cc = Count(TheWord)
 
-print("vowel count = ", vc, " consonant count = ", cc)
+print("Vowel count = ", vc, " Consonant count = ", cc)
 
 
 """
-Sample Input-Output:
+Time Complexity: O(n)
 
-VowelsConsants.py
-enter a string Hello World
-vowel count =  3  consonant count =  7
+Sample Input:
+Enter a string: Hello World
 
+Sample Output:
+Vowel count =  3  Consonant count =  7
 """
-

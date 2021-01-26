@@ -17,7 +17,7 @@ class TreeNode:
 
 
 class Tree:
-    def __init__(self, data):
+    def __init__(self, values):
         def createTree(i: int, arr: list) -> TreeNode:
             node = TreeNode(arr[i])
             left_child = 2 * i + 1
@@ -28,7 +28,7 @@ class Tree:
                 node.right = createTree(right_child, arr)
             return node
 
-        self.root = createTree(0, data)
+        self.root = createTree(0, values)
 
     def preOrder(self, node):
         if node:

@@ -128,6 +128,7 @@
 - [Counting Sort](sort/counting_sort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
 - [Insertion Sort](sort/insertion.cpp)
+- [Kahn's Algorithm for Topological Graph Sorting](sort/Kahn's_Algorithm_for_Topological_Graph_sorting.cpp)
 - [Merge Sort](sort/Merge_Sort.cpp)
 - [Quick Sort](sort/Quick_Sort.cpp)
 - [Radix Sort](sort/radix_sort.cpp)

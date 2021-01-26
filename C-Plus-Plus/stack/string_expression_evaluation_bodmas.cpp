@@ -6,33 +6,31 @@ Application: Stack data structure
 Time Complexity: O(n)
 Space Complexity: O(n)
 */
+
 #include<iostream>
 #include<string>
 #include<stack>
 using namespace std;
 
-//Function to remove spaces from string and return trimmed string
-string removeSpaces(string&s){
+//Function to remove spaces from string and return trimmed string.
+string removeSpaces(string &s){
 	int n = s.length();
 	string trimmed;
 
-	for(int i=0; i<n; i++){
-		if(s[i]!=' '){
+	for(int i = 0; i < n; i++){
+		if(s[i] != ' '){
 			trimmed.push_back(s[i]);
 		}
 	}
-
 	return trimmed;
 }
 
-//In Expression containing only '*','/','+' and '-'
-//'*' and '/' have the highest precedence followed by
-//'+' and '-'
+//In Expression containing only '*','/','+' and '-' '*' and '/' have the highest precedence followed by '+' and '-'
 int precedence(char c){
-	if(c=='*' || c=='/'){
+	if(c == '*' || c == '/'){
 		return 3;
 	}
-	else if(c=='+' || c=='-'){
+	else if(c == '+' || c == '-'){
 		return 2;
 	}
 	else{
@@ -40,20 +38,19 @@ int precedence(char c){
 	}
 }
 
-//calculate function is used to calculate a value 
-//given two operandsand one operator
+//calculate function is used to calculate a value given two operandsand one operator
 int calculate(int num1, int num2, char symbol){
-	if(symbol=='*'){
-		return num1*num2;
+	if(symbol == '*'){
+		return num1 * num2;
 	}
-	else if(symbol=='/'){
-		return num1/num2;
+	else if(symbol == '/'){
+		return num1 / num2;
 	}
-	else if(symbol=='+'){
-		return num1+num2;
+	else if(symbol == '+'){
+		return num1 + num2;
 	}
-	else if(symbol=='-'){
-		return num1-num2;
+	else if(symbol == '-'){
+		return num1 - num2;
 	}
 	return -1;
 }
@@ -68,32 +65,29 @@ int evaluate(string token){
 	//get length of given expression
 	int n = token.length();
 	
-	for(i=0; i<n; i++){
-		//digit encountered
+	for(i = 0; i < n; i++){
 		if(isdigit(token[i])){
 			int value = 0;
 			
-			//there may be more than one digit number 
-			//e.g(48+5) '48' has 2 digits
+			//there may be more than one digit number e.g(48+5) '48' has 2 digits
 			while(i<n && isdigit(token[i])){
-				value = value*10 + (token[i]-'0');
+				value = value * 10 + (token[i] - '0');
 				i++;
 			}
 			
 			values.push(value);
-			//decrement i to avoid incrementing it 2 times 
-			//as outer for loop also increments it
 			i--;
 	
 		}
+
 		//if opening paranthesis is encontered push it in 'operators' stack
-		else if(token[i]=='('){
+		else if(token[i] == '('){
 			operators.push('(');
 		}
 
 		//If a closing paranthesis is encountered continue to evaluate the expression 
 		//until an opening paranthesis is encountered
-		else if(token[i]==')'){
+		else if(token[i] == ')'){
 			while(!operators.empty() && operators.top()!='('){
 				
 				int val2 = values.top();
@@ -112,9 +106,9 @@ int evaluate(string token){
 				values.push(calculated_value);
 			}
 
-			//pop opening brace as it is evaluated
 			operators.pop();
 		}
+
 		//operator encountered
 		else{
 			//if 'operators' stack is empty simply push the operator
@@ -144,8 +138,6 @@ int evaluate(string token){
 						
 						values.push(calculated_value);
 					}
-					
-					//push current symbol
 					operators.push(token[i]);
 				}
 			}
@@ -175,9 +167,7 @@ int evaluate(string token){
 int main(){
 	string s;
 	getline(cin,s);
-	//remove spaces from string
 	string trimmed = removeSpaces(s);
-
 	cout<<evaluate(trimmed)<<endl;
 	return 0;
 }

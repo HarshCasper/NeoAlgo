@@ -92,9 +92,13 @@ int main()
     return 0;
 } 
 
+// *************** Time and Space Complexity of the program ********************
+
 // Time Complexity : O((m+m) * √n)
 // Space Complexity : O(1)
 
+
+// ************** Examples of I/P and O/P **************************************
 
 // I/P
 //   n = 5

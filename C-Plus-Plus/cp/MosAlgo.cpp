@@ -63,6 +63,25 @@ bool check(Problem x, Problem y)
 
 int main()
 {
+    int n,m;
+    cin>>n;
+    
+    int[] a = new int(n,0);
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
+    
+    cin>>m;
+    int[] p = new int[];
+    for(int i = Left , i<Right;i++){
+        cin>>p[i];
+    }
+    
+    probRes(a, n, p, m);
+    return 0;
+    
+    
+    
     int a[] = {1, 1, 2, 1, 3};
     int n = sizeof(a)/sizeof(a[0]);
 
@@ -73,24 +92,27 @@ int main()
     return 0;
 } 
 
-// O(m * √n)
-
-// O/P : Sum of [1, 5] is 6
-// Sum of [2, 4] is 6
+// Time Complexity : O((m+m) * √n)
+// Space Complexity : O(1)
 
 
+// I/P
+//   n = 5
+//   m = 2
+//   a = [1, 1, 2, 1, 3]
+//   p =  [2,4]
 
-// Some other examples:
-// I/P:
-// Arr = [0, 1, 1, 0, 2, 3, 4, 1, 3, 5, 1, 5, 3, 5, 4, 0, 2, 2] of 18 elements
-// Queries (0-indexed): [0, 8], [2, 5], [2, 11], [16, 17], [13, 14], [1, 17], [17, 17]
+
+// O/P : Sum of [2, 4] is 6
 
 
-// O/P:
-// 27
-// 6
-// 47
-// 8
-// 9
-// 122
-// 2
+// I/P
+//   n = 18
+//   m = 2
+//   a = [0, 1, 1, 0, 2, 3, 4, 1, 3, 5, 1, 5, 3, 5, 4, 0, 2, 2]
+//   p = [0,8]
+
+
+// O/P : Sum of [2,6] is 10
+
+

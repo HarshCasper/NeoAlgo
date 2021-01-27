@@ -127,7 +127,8 @@ The deleted element is 24
 3.Display 
 4.Exit
 Enter your choice 
-1 Enter node data 25
+1
+Enter node data 25
 
 *****MENU****** 
 1.Push

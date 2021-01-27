@@ -1,3 +1,6 @@
+
+# Get the dataset from 'https://www.kaggle.com/aswin1871/tips-csv'
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

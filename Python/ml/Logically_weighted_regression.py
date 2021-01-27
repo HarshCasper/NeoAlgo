@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 25 05:27:52 2021
-
-@author: aswin
-"""
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -52,3 +44,4 @@ xsort = x[sortIndex][:,0]
 plt.scatter(bill,tip,color='green')
 plt.plot(xsort[:,1],ypred[sortIndex],color='red',linewidth=5)
 plt.show()
+

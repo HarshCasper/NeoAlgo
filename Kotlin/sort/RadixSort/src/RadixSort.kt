@@ -1,11 +1,14 @@
 // Function to Implement Radix Sort
+// The radix sorting algorithm is an integer sorting algorithm, 
+// that sorts by grouping numbers by their individual digits (or by their radix).
+// It uses each radix/digit as a key, and implements counting sort or 
+// bucket sort under the hood in order to do the work of sorting.
+
 // Takes an IntArray as arguments and returns a sorted IntArray to the caller function
 fun radixSort(original: IntArray): IntArray {
     // Array needs to be mutable
     var old = original
-    // Loop for every bit in the integers
     for (shift in 31 downTo 0) {
-        // The array to put the partially sorted array into
         val tmp = IntArray(old.size)
         // The number of 0s
         var j = 0
@@ -27,7 +30,6 @@ fun radixSort(original: IntArray): IntArray {
         for (i in j until tmp.size) {
             tmp[i] = old[i - j]
         }
-        // And now the tmp array gets switched for another round of sorting
         old = tmp
     }
     return old
@@ -38,11 +40,6 @@ fun main(args: Array<String>) {
     val n= readLine()!!.toInt();
     println("Enter array of N integers: ");
     val arrays = IntArray(n) { readLine()!!.toInt() }
-    print("Input Array: ")
-    for(i in arrays){
-        print("$i ")
-    }
-    println("")
     val array= radixSort(arrays);
     print("Array after Radix Sort is: ")
     for(i in array){
@@ -62,6 +59,5 @@ Enter array of N integers:
 4
 
 Sample Output:
-Input Array: 3 -1 2 3 4
 Array after Radix Sort is: -1 2 3 3 4
  */

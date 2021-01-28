@@ -45,7 +45,7 @@
 - [Search Insert Position](cp/search_insert_position.py)
 - [Stock span problem](cp/stock_span.py)
 - [Bulb Switcher problem](cp/bulb_switcher.py)
-- [Vowels ans consonants in a word](cp/VowelsConsonants.py)
+- [Vowels and consonants in a string](cp/VowelsConsonants.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

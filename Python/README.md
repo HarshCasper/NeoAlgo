@@ -258,5 +258,6 @@ _add list here_
 - [Longest substring without repeating character](other/longest_Substring.py)
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
+- [Palindrome](other/Palindrome.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

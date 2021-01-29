@@ -23,6 +23,7 @@
 - [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
 - [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
 - [Dynamic Queue](ds/dynamic_queue.py)
+- [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
 ## Competitive Programming
 
 - [Anagram Checker](cp/anagram_checker.py)

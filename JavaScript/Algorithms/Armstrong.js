@@ -1,4 +1,10 @@
-process.stdin.resume();
+
+// In this programe we will check whether a number is angstrom or not 
+// An Armstrong number of a three-digit number is a number in which 
+// the sum of the cube of the digits is equal to the number itself. 
+// Hence 153 is an Armstrong number
+
+
 process.stdin.setEncoding("utf-8");
 var str = "";
 process.stdin.on("data", (data) => {
@@ -15,7 +21,7 @@ process.stdin.on("end", () => {
     temp = Math.floor(temp / 10);
     n++;
   }
-  
+
   temp = number;
 
   while (temp != 0) {
@@ -30,3 +36,7 @@ process.stdin.on("end", () => {
     console.log(number + " is not an Armstrong number.");
 
 });
+// Example
+// Input 321
+// Output:- 371 is an Armstrong number.
+// Explanation 3*3*3+7*7*7+1*1*1 = 371

@@ -14,7 +14,7 @@
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)
 - [Z Algorithm](Algorithms/ZAlgorithm.js)
 - [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
-- [Check Armstrong](Algorithms/Armstrong.js)
+- [Armstrong Number](Algorithms/Armstrong.js)
 
 ## Data Structures
 

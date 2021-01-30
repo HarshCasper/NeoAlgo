@@ -120,6 +120,7 @@
 ## Stack based problems
 
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+-[Infix to Postfix Conversiion](stack/Infix_to_Postfix.c)
 
 ## Machine Learning
 

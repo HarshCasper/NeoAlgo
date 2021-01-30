@@ -1,25 +1,27 @@
-/*
+"""
 Python Program to check whether a number is Palindrome or not
 An integer is a palindrome if the reverse of that number is equal to the original number.
 Example of Palindromes are 11,44,101,121.
-*/
+
+"""
 
 def palindrome(n):
-    a = n
+    temp = n
     sum = 0
-    r = 0
+    remainder = 0
     while n > 0:
-        r = n % 10
-        sum = sum * 10 + r
+        remainder = n % 10
+        sum = sum * 10 + remainder
         n = n // 10
-    if sum == a:
-        print (a, 'is a palindrome')
+    if sum == temp:
+        print (temp, 'is a palindrome')
     else:
-        print (a, 'is not a palindrome')
-n = eval(input('Enter No '))
-palindrome(n)
+        print (temp, 'is not a palindrome')
+if __name__ == '__main__':        
+    n = eval(input('Enter No '))
+    palindrome(n)
 
-/*
+"""
 Sample Case:
 Example 1:
 Enter a number: 121
@@ -31,4 +33,5 @@ Enter a number: 123
 
 Time Complexity: O(n)
 Space Complexity: O(1)
-*/
+
+"""

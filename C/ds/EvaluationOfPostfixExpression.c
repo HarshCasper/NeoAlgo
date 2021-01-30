@@ -17,15 +17,15 @@ struct stack
 s;
 int main()
 {
-    char ch[50];
-    float x, y, z;
+    char postfix[50];
+    float num1,num2,num3;
     int i;
     s.top = -1;
     printf("\n\n Enter the postfix expression: ");
-    scanf("%s", ch);
-    for (i = 0; ch[i] != '\0'; i++)
+    scanf("%s", postfix);
+    for (i = 0; postfix[i] != '\0'; i++)
     {
-        switch (ch[i])
+        switch (postfix[i])
         {
             case '0':
             case '1':
@@ -37,27 +37,27 @@ int main()
             case '7':
             case '8':
             case '9':
-                s.a[++s.top] = ch[i] - '0';
+                s.a[++s.top] = postfix[i] - '0';
                 break;
             case '+':
-                x = s.a[s.top--];
-                y = s.a[s.top--];
-                s.a[++s.top] = x + y;
+                num1 = s.a[s.top--];
+                num2 = s.a[s.top--];
+                s.a[++s.top] = num1 + num2;
                 break;
             case '-':
-                y = s.a[s.top--];
-                x = s.a[s.top--];
-                s.a[++s.top] = x - y;
+                num2 = s.a[s.top--];
+                num1 = s.a[s.top--];
+                s.a[++s.top] = num1 - num2;
                 break;
             case '*':
-                y = s.a[s.top--];
-                x = s.a[s.top--];
-                s.a[++s.top] = x * y;
+                num2 = s.a[s.top--];
+                num1 = s.a[s.top--];
+                s.a[++s.top] = num1 * num2;
                 break;
             case '/':
-                y = s.a[s.top--];
-                x = s.a[s.top--];
-                s.a[++s.top] = x / y;
+                num2 = s.a[s.top--];
+                num1 = s.a[s.top--];
+                s.a[++s.top] = num1 / num2;
                 break;
         }
     }

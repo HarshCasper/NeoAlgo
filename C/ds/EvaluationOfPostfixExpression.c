@@ -1,10 +1,10 @@
 /*
-A postfix expression is a collection of operators and operands in which the operator is placed after the operands. That means, in a postfix expression the operator follows the operands.
-A postfix expression can be evaluated using the Stack data structure. To evaluate a postfix expression using Stack data structure we can use the following steps...
-1.Read all the symbols one by one from left to right in the given Postfix Expression
-2.If the reading symbol is operand, then push it on to the Stack.
-3.If the reading symbol is operator (+ , - , * , / etc.,), then perform TWO pop operations and store the two popped oparands in two different variables (operand1 and operand2). Then perform reading symbol operation using operand1 and operand2 and push result back on to the Stack.
-4.Finally! perform a pop operation and display the popped value as final result.
+A postfix expression is a collection of operators and operands in which the operator is placed after the operands. 
+To evaluate a postfix expression using Stack data structure we can use the following steps...
+1.Create an empty stack and start scanning the postfix expression from left to right. 
+2.If the element is an operand, push it into the stack.
+3.If the element is an operator O, pop twice and get A and B respectively. Calculate B operator A and push it back to the stack.
+4.When the expression is ended, the value in the stack is the final answer.
 */
 
 #include <stdio.h>
@@ -15,17 +15,17 @@ struct stack
     float a[50];
 }
 s;
-void main()
+int main()
 {
-    char pf[50];
-    float d1, d2, d3;
+    char ch[50];
+    float x, y, z;
     int i;
     s.top = -1;
     printf("\n\n Enter the postfix expression: ");
-    scanf("%s", pf);
-    for (i = 0; pf[i] != '\0'; i++)
+    scanf("%s", ch);
+    for (i = 0; ch[i] != '\0'; i++)
     {
-        switch (pf[i])
+        switch (ch[i])
         {
             case '0':
             case '1':
@@ -37,27 +37,27 @@ void main()
             case '7':
             case '8':
             case '9':
-                s.a[++s.top] = pf[i] - '0';
+                s.a[++s.top] = ch[i] - '0';
                 break;
             case '+':
-                d1 = s.a[s.top--];
-                d2 = s.a[s.top--];
-                s.a[++s.top] = d1 + d2;
+                x = s.a[s.top--];
+                y = s.a[s.top--];
+                s.a[++s.top] = x + y;
                 break;
             case '-':
-                d2 = s.a[s.top--];
-                d1 = s.a[s.top--];
-                s.a[++s.top] = d1 - d2;
+                y = s.a[s.top--];
+                x = s.a[s.top--];
+                s.a[++s.top] = x - y;
                 break;
             case '*':
-                d2 = s.a[s.top--];
-                d1 = s.a[s.top--];
-                s.a[++s.top] = d1 * d2;
+                y = s.a[s.top--];
+                x = s.a[s.top--];
+                s.a[++s.top] = x * y;
                 break;
             case '/':
-                d2 = s.a[s.top--];
-                d1 = s.a[s.top--];
-                s.a[++s.top] = d1 / d2;
+                y = s.a[s.top--];
+                x = s.a[s.top--];
+                s.a[++s.top] = x / y;
                 break;
         }
     }

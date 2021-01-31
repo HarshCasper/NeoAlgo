@@ -67,6 +67,7 @@ _add list here_
 - [Wrapping Letters](cp/Main.java)
 - [Sort 2D Array](cp/Sort_2D_Array.java)
 - [Reverse a string](cp/ReverseString.java)
+- [Implement Queue using Stack](cp/Queue_using_Stack.java)
 
 ## Cryptography
 
@@ -169,6 +170,7 @@ _add list here_
 - [Bubble Sort](sort/BubbleSort.java)
 - [Bucket Sort](sort/BucketSort.java)
 - [Cocktail Sort](sort/CocktailSort.java)
+- [Counting Sort](sort/CountingSort.java)
 - [Heap Sort](sort/HeapSort.java)
 - [Insertion Sort](sort/InsertionSort.java)
 - [Merge Sort](sort/Merge_sort.java)

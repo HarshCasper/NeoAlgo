@@ -77,6 +77,7 @@ _add list here_
 - [Rail Fence Cipher](cryptography/RailFenceCipher.java)
 - [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
 - [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
+- [Data Encryption Standard](cryptography/des/DESController.java)
 
 ## Dynamic Programming
 

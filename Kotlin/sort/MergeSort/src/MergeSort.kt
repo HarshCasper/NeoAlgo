@@ -69,3 +69,29 @@ fun main() {
     val sorted = mergeSort(list.toMutableList());
     println("sorted list is $sorted")
 }
+
+/*
+    Enter the number of items to sort - 12
+    Enter value 1 - 1
+    Enter value 2 - 3
+    Enter value 3 - 5
+    Enter value 4 - 2
+    Enter value 5 - 90
+    Enter value 6 - 24
+    Enter value 7 - 67
+    Enter value 8 - 48
+    Enter value 9 - 95
+    Enter value 10 - 29
+    Enter value 11 - 5
+    Enter value 12 - 16
+    unsorted list is [1, 3, 5, 2, 90, 24, 67, 48, 95, 29, 5, 16]
+    sorted list is [1, 2, 3, 5, 5, 16, 24, 29, 48, 67, 90, 95]
+
+    Time Complexity -
+    Best Case Complexity: O(n*log n)
+    Worst Case Complexity: O(n*log n)
+    Average Case Complexity: O(n*log n)
+
+    Space Complexity -
+    The space complexity of merge sort is O(n).
+ */

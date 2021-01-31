@@ -58,6 +58,7 @@
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
+- [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
@@ -90,6 +91,7 @@
 - [Depth Of Tree](graphs/Depth_of_tree.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
+- [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
@@ -102,11 +104,14 @@
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
 - [Left view of Tree](graphs/left_view_of_tree.cpp)
+- [Right view of Tree](graphs/right_view_of_tree.cpp)
+
 
 ## Searching
 
 - [Binary Search](search/Binary_Search.cpp)
 - [Bilinear Search](search/bilinear_search.cpp)
+- [Exponential Search](search/exponential_search.cpp)
 - [Interpolation Search](search/Interpolation_Search.cpp)
 - [Jump Search](search/Jump_Search.cpp)
 - [Linear Search](search/Linear_Search.cpp)
@@ -137,6 +142,7 @@
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
+- [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 
 ## Heap based problems
 

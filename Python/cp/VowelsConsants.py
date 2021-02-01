@@ -15,11 +15,13 @@ def Count(word):
                 cc = cc + 1
     return vc, cc
 
-TheWord = input("Enter a string: ").lower()
+if __name__ == "__main__":
+    TheWord = input("Enter a string: ").lower()
+    vc, cc = Count(TheWord)
+    print("Vowel count = ", vc, " Consonant count = ", cc)
 
-vc, cc = Count(TheWord)
-
-print("Vowel count = ", vc, " Consonant count = ", cc)
+else:
+        print("File one executed when imported")
 
 
 """

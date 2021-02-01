@@ -17,12 +17,15 @@ def LetterCount(word):
 
     return(dict)
 
+if __name__ == '__main__':
+	word = input("enter a word ").lower()
 
-word = input("enter a word ").lower()
+	LetterCount = LetterCount(word)
 
-LetterCount = LetterCount(word)
+	print(LetterCount)
 
-print(LetterCount)
+else:
+	print("File one executed when imported")
 
 """
 Sample Input-output

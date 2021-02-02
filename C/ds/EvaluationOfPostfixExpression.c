@@ -15,9 +15,8 @@ struct stack
     float a[50];
 }
 s;
-int main()
+int EvalPostfix(char postfix[])
 {
-    char postfix[50];
     float num1,num2,num3;
     int i;
     s.top = -1;
@@ -61,6 +60,11 @@ int main()
                 break;
         }
     }
+}
+int main()
+{
+    char postfix[50];
+    EvalPostfix(postfix);
     printf("\n Expression value is %5.2f", s.a[s.top]);
     getchar();
 }

@@ -6,13 +6,13 @@ Example of Palindromes are 11,44,101,121.
 """
 	
 def palindrome(n):
-temp = n
-sum = 0
-remainder = 0
-while n > 0:
-    remainder = n % 10
-    sum = sum * 10 + remainder
-    n = n // 10
+    temp = n
+    sum = 0
+    remainder = 0
+    while n > 0:
+        remainder = n % 10
+        sum = sum * 10 + remainder
+        n = n // 10
     if sum == temp:
         print (temp, 'is a palindrome')
     else:

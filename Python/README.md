@@ -22,6 +22,9 @@
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
 - [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
+- [Dynamic Stack](ds/dynamic_queue.py)
+- [Dynamic Queue](ds/dynamic_queue.py)
+- [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
 
 ## Competitive Programming
 
@@ -46,6 +49,7 @@
 - [Stock span problem](cp/stock_span.py)
 - [Bulb Switcher problem](cp/bulb_switcher.py)
 - [Letter Count in a word](cp/LetterCount.py)
+- [Rabin Karp algorithm](cp/RabinKarp.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -200,6 +204,7 @@
 * [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 * [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 * [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
+* [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 
 
 ## Mathematics

@@ -39,6 +39,7 @@
 - [Painter Partition](cp/painter_partition.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
+- [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
@@ -91,6 +92,7 @@
 - [Depth Of Tree](graphs/Depth_of_tree.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
+- [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
@@ -138,14 +140,17 @@
 
 ## Stack based problems
 
+-[Infix to Postfix Conversiion](stack/Infix_to_Postfix.c)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
+- [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 
 ## Heap based problems
 
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
+
 
 ## Machine Learning
 
@@ -216,7 +221,6 @@ _add list here_
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
-- [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Least Common Multiple](other/lcm.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)

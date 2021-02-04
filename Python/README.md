@@ -21,6 +21,10 @@
 - [Knight Walk](graphs/Knight_Walk.py)
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
+- [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
+- [Dynamic Stack](ds/dynamic_queue.py)
+- [Dynamic Queue](ds/dynamic_queue.py)
+- [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
 
 ## Competitive Programming
 
@@ -42,6 +46,9 @@
 - [Delete a node from linked list](cp/delete_node.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [Search Insert Position](cp/search_insert_position.py)
+- [Stock span problem](cp/stock_span.py)
+- [Bulb Switcher problem](cp/bulb_switcher.py)
+- [Rabin Karp algorithm](cp/RabinKarp.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -57,6 +64,9 @@
 - [Reverse Linked List](ds/Reverse_linked_list.py)
 - [Linked List Intersection](ds/linkedListIntersection.py)
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
+- [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
+- [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+- [Burrows Wheeler transform(BWT)](cryptography/Burrows_Wheeler_transform.py)
 
 
 ## Searching
@@ -116,7 +126,16 @@
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
+- [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
 
+
+## Pathfinding Algorithms 
+
+- [BFS in Maze](Pathfinding/2D_BFS.py)
+- [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
+- [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
+- [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
+- [A*(Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
 
@@ -139,6 +158,7 @@
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
+- [Depth First Search](graphs/DFS.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
 
 ## Competitive Programming
@@ -182,6 +202,8 @@
 * [Logistic Regression](ml/Logistic_Regression.ipynb)
 * [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 * [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+* [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
+* [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 
 
 ## Mathematics
@@ -205,8 +227,9 @@
 - [Ugly Number](math/UglyNumber.py)
 - [Prime Number Iterative and Recursive](math/prime_number.py)
 - [Catalan Number](math/Catalan_Number.py)
-
-
+- [Lucas Theorem](math/Lucas_Theorem.py)
+- [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
+- [Palindrome](math/Palindrome.py)
 ## Blockchain
 
 _add list here_
@@ -215,6 +238,7 @@ _add list here_
 ## Other
 
 - [Check Inversion](other/Check_Inversion.py)
+- [Count Inversions](other/Count_Inversion.py)
 - [Distinct Elements Count](other/Distinct_elements_count.py)
 - [Find frequency using Binary Search](other/find_freq_using_bs.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)
@@ -238,5 +262,7 @@ _add list here_
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
 - [Longest substring without repeating character](other/longest_Substring.py)
+- [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
+- [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

@@ -1,8 +1,9 @@
-"""
+'''
+
 The program helps to count the number of
 vowels and consants in a string.
 
-"""
+'''
 
 def Count(word):
     vc, cc = 0, 0

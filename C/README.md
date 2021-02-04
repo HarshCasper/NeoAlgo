@@ -24,7 +24,6 @@
 - [Randomized selection algorithm](search/randomized_selection_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
-- [Longest substring without repeating characters](cp/Longest substring without repeating chars.cpp)
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
 - [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
@@ -32,7 +31,10 @@
 - [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
+- [Boyer-Moore Voting Algorithm](cp/BoyerMooreVote.c)
 - [Suduko Solver](cp/SudukoSolver.c)
+- [Stock Span Problem](cp/Stock_Span.c)
+- [Bulb Switcher problem](cp/bulbSwitch.c)
 
 ## Cryptography
 
@@ -55,10 +57,17 @@
 - [Delete a linked list node function](ds/List_deletenode_func.c)
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
+- [Circular Queue](ds/circularqueue.c)
+- [Post Order Traversal](ds/Postorder.c)
+- [Detect Middle Element of the LinkedList](ds/middle_element_of_linkedlist.c)
+- [Postorder Traversal](ds/Postorder.c)
+- [Stack Implementation with Array](ds/StackImplementationWithArray.c)
+- [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
+- [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
@@ -78,6 +87,7 @@
 - [Bucket Sort](sort/bucketSort.c)
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
+- [Counting Sort](sort/countingSort.c)
 
 ## Dynamic Programming
 
@@ -87,11 +97,13 @@
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
+- [Unique BST](dp/Unique_BST.c)
 
 ## Graphs
 
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
+- [Breadth First Search](graphs/BFS.c)
 
 ## Machine Learning
 
@@ -120,6 +132,7 @@ _add list here_
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
+- [Palindrome](other/Palindrome.c)
 
 ## CP
 

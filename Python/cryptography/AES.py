@@ -1,9 +1,11 @@
+
 # Fortunately, we don’t need to implement AES from scratch
 # to do so We have to first install "pycrypto" library
 # -- pip install pycrypto
 
 
-# pycrypto is a collection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption #algorithms (AES, DES, RSA, etc.).
+# pycrypto is a collection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption
+# algorithms (AES, DES, RSA, etc.).
 from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
 
@@ -28,17 +30,18 @@ print(block_size)
 
 
 # Writing padding and unpadding functions
-# padding: as AES algorithm works in blocks of ciphers , our message gets divides into blocks of ciphers which #can be 128 or 192 or 256 bits long, we want our message in multiples of this numbers. thats why we padd our msg.
+# padding: as AES algorithm works in blocks of ciphers,our message gets divides into blocks of ciphers which
+# can be 128 or 192 or 256 bits long, we want our message in multiples of this numbers.thats why we padd our msg.
 # unpadding can be used in time of decryption and padding in time of encryption
 # example: lets take string "I love cats" len-11 after padding "I love cats ----" len-16
 # padding character used here '-'
 
 
-def padding(msg, block_size):
-    padding_bytes_len = block_size - len(msg) % block_size
-    # The chr() method returns a character (a string) from an integer(represents unicode code )
-    # we are generating padding char using padding_bytes_len
-    # we can also use any padding char as explained in above example such as -,= etc
+def padding(msg, blocks_size):
+    padding_bytes_len = blocks_size - len(msg) % blocks_size
+# The chr() method returns a character (a string) from an integer (unicode)
+# we are generating padding char using padding_bytes_len
+# we can also use any padding char as explained in above example such as -,= etc
     padded_char = chr(padding_bytes_len)
     padding_string = padding_bytes_len*padded_char
     padded_res = msg+padding_string
@@ -47,8 +50,8 @@ def padding(msg, block_size):
 
 def unpadding(msg):
     last_char = msg[len(msg) - 1:]
-    # The ord() function returns the number representing the unicode code of a specified character.
-    # as we added unicode code of character to make it padded we are removing same
+# The ord() function returns the number representing the unicode code of a character.
+# as we added unicode code of character to make it padded we are removing same
     unpadded_bytes_len = ord(last_char)
     unpadded_res = msg[:-unpadded_bytes_len]
     return unpadded_res
@@ -122,4 +125,3 @@ print(decrypted_text)
 # Enter your msg to test algorithm: I love AES-algo
 # Encrypted_text is:b'ZlFl33jqCtpb9v9YwfNFoZZfjJaRct6NgbMJ8ECY0ek='
 # Decrypted_text is: I love AES-algo
-

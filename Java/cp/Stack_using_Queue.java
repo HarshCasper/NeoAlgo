@@ -1,5 +1,6 @@
 
 /* Java Program to implement a stack using two queue */
+
 import java.util.*; 
   
 class Stack_using_Queue { 
@@ -68,13 +69,15 @@ class Stack_using_Queue {
 
         System.out.println("Enter the limit");
         int n = sc.nextInt();
-        for(int i = 1; i <= n; i++)  //accepting input from user
+        //accepting input from user
+        for(int i = 1; i <= n; i++)  
           s.push(i); 
         
+        //printing the output
         for(int i = 1; i <= n; i++){
-           System.out.println(s.top()); //printing the output
+           System.out.println(s.top()); 
            s.pop(); 
-    }
+        }
   
     } 
 } 

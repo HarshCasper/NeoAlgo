@@ -48,6 +48,7 @@
 - [Search Insert Position](cp/search_insert_position.py)
 - [Stock span problem](cp/stock_span.py)
 - [Bulb Switcher problem](cp/bulb_switcher.py)
+- [Letter Count in a word](cp/LetterCount.py)
 - [Rabin Karp algorithm](cp/RabinKarp.py)
 
 ## Cryptography

@@ -1,10 +1,9 @@
-
 # Fortunately, we don’t need to implement AES from scratch
 # to do so We have to first install "pycrypto" library
 # -- pip install pycrypto
 
 
-# pycrypto is a collection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption algorithms (AES, DES, RSA, etc.).
+# pycrypto is a collection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption #algorithms (AES, DES, RSA, etc.).
 from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
 
@@ -29,18 +28,15 @@ print(block_size)
 
 
 # Writing padding and unpadding functions
-# padding: as AES algorithm works in blocks of ciphers , our message gets divides into blocks of ciphers which can be 128 or 192 or 256 bits long, we want our message in multiples of this numbers. thats why we padd our msg.
+# padding: as AES algorithm works in blocks of ciphers , our message gets divides into blocks of ciphers which #can be 128 or 192 or 256 bits long, we want our message in multiples of this numbers. thats why we padd our msg.
 # unpadding can be used in time of decryption and padding in time of encryption
 # example: lets take string "I love cats" len-11 after padding "I love cats ----" len-16
 # padding character used here '-'
 
-#print(len('I love cats'))
-#print(len('I love cats ----'))
-
 
 def padding(msg, block_size):
     padding_bytes_len = block_size - len(msg) % block_size
-    # The chr() method returns a character (a string) from an integer(represents unicode code point of the character)
+    # The chr() method returns a character (a string) from an integer(represents unicode code )
     # we are generating padding char using padding_bytes_len
     # we can also use any padding char as explained in above example such as -,= etc
     padded_char = chr(padding_bytes_len)
@@ -102,30 +98,28 @@ input_text = input("Enter your msg to test algorithm: ")
 cipher_text = encryption(input_text)
 print("Encrypted_text is: ")
 print(cipher_text)
-plain_text = decryption(cipher_text)
+decrypted_text = decryption(cipher_text)
 print("Decrypted_text is: ")
-print(plain_text)
+print(decrypted_text)
 
 
 # Sample input output
 
 # Enter your secret key: Hello
-# Hashed key for your secret key:b'\x18_\x8d\xb3"q\xfe%\xf5a\xa6\xfc\x93\x8b.&C\x06\xec0N\xdaQ\x80\x07\xd1vH8\x19i'
 # Enter the block-size in bytes: 16
 # Enter your msg to test algorithm: I love cats
 # Encrypted_text is: b'UyRjiGtZsA3Gc7C1M0RCakZVIIFlAfnNTa8h32+uuJA='
 # Decrypted_text is: I love cats
 
 # Enter your secret key: qazxswedcplmnko
-# Hashed key for your secret key: b'\xa6?\x0b\x17\x80\xdb\xff\x89\xb4\xb6fBZ\xcd\xe8\x9f3\x9e\xf7}\xbfB\xa8@\x90\x93\xcd\xed1\xeb\xe0\x06'
 # Enter the block-size in bytes: 16
 # Enter your msg to test algorithm: I love cats
 # Encrypted_text is:b'IkUR6G3s9e9E5p+aA6X2/kfJdlWTuytJhg49SjmideU='
 # Decrypted_text is: I love cats
 
 # Enter your secret key: qazxswedcplmnko
-# Hashed key for your secret key: b'\xa6?\x0b\x17\x80\xdb\xff\x89\xb4\xb6fBZ\xcd\xe8\x9f3\x9e\xf7}\xbfB\xa8@\x90\x93\xcd\xed1\xeb\xe0\x06'
 # Enter the block-size in bytes: 16
 # Enter your msg to test algorithm: I love AES-algo
 # Encrypted_text is:b'ZlFl33jqCtpb9v9YwfNFoZZfjJaRct6NgbMJ8ECY0ek='
 # Decrypted_text is: I love AES-algo
+

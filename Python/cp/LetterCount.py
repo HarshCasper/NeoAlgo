@@ -22,8 +22,6 @@ if __name__ == '__main__':
     LetterCount = LetterCount(word)
     print(LetterCount)
 
-else:
-    print("File one executed when imported")
 
 """
 Sample Input-output

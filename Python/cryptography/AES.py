@@ -1,15 +1,11 @@
 
 # Fortunately, we don’t need to implement AES from scratch
-# to do so We have to first install "pycrypto" library
-# -- pip install pycrypto
+# to do so We have to first install "pycryptodome" library
+# -- pip install pycryptodome
 
-
-# pycrypto is a collection of both secure hash functions (such as SHA256 and RIPEMD160), and various encryption
-# algorithms (AES, DES, RSA, etc.).
 from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
 
-# As of PyCrypto 2.1.0, PyCrypto provides an easy-to-use random number generator
 from Crypto import Random
 import base64
 
@@ -30,8 +26,9 @@ print(block_size)
 
 
 # Writing padding and unpadding functions
-# padding: as AES algorithm works in blocks of ciphers,our message gets divides into blocks of ciphers which
-# can be 128 or 192 or 256 bits long, we want our message in multiples of this numbers.thats why we padd our msg.
+# padding: as AES algorithm works in blocks of ciphers,our message gets divides into
+# blocks of ciphers which can be 128 or 192 or 256 bits long, we want our message in
+# multiples of this numbers. thats why we padd our msg.
 # unpadding can be used in time of decryption and padding in time of encryption
 # example: lets take string "I love cats" len-11 after padding "I love cats ----" len-16
 # padding character used here '-'
@@ -39,7 +36,7 @@ print(block_size)
 
 def padding(msg, blocks_size):
     padding_bytes_len = blocks_size - len(msg) % blocks_size
-# The chr() method returns a character (a string) from an integer (unicode)
+# The chr() method returns a character from an integer (unicode)
 # we are generating padding char using padding_bytes_len
 # we can also use any padding char as explained in above example such as -,= etc
     padded_char = chr(padding_bytes_len)
@@ -50,8 +47,10 @@ def padding(msg, blocks_size):
 
 def unpadding(msg):
     last_char = msg[len(msg) - 1:]
-# The ord() function returns the number representing the unicode code of a character.
-# as we added unicode code of character to make it padded we are removing same
+# The ord() function returns the number representing
+# the unicode code of a character.
+# as we added unicode code of character to make
+# it padded we are removing same.
     unpadded_bytes_len = ord(last_char)
     unpadded_res = msg[:-unpadded_bytes_len]
     return unpadded_res
@@ -85,7 +84,7 @@ def encryption(message):
 def decryption(message):
     # converting message from characters to bits
     message = base64.b64decode(message)
-    # extracting our intialization vector which will be first block_size bits of message
+    # extracting our intializationvector which will be first block_size bits of message
     initialize_vector = message[:block_size]
     # creating new cipher with our hash_key,in mode CBC and extracted intialized vector
     cipher = AES.new(hash_key, AES.MODE_CBC, initialize_vector)
@@ -111,17 +110,18 @@ print(decrypted_text)
 # Enter your secret key: Hello
 # Enter the block-size in bytes: 16
 # Enter your msg to test algorithm: I love cats
-# Encrypted_text is: b'UyRjiGtZsA3Gc7C1M0RCakZVIIFlAfnNTa8h32+uuJA='
+# Encrypted_text is: b'V5BEQ26uB6iZt7D8FQIzDXKuKJtkM4pKy12cTT2+vU0='
 # Decrypted_text is: I love cats
 
 # Enter your secret key: qazxswedcplmnko
 # Enter the block-size in bytes: 16
 # Enter your msg to test algorithm: I love cats
-# Encrypted_text is:b'IkUR6G3s9e9E5p+aA6X2/kfJdlWTuytJhg49SjmideU='
+# Encrypted_text is:b'OomGSg7EzTt6EYKdrtDMQW31R7tNw5Y4ns9sbiYsIHM='
 # Decrypted_text is: I love cats
 
 # Enter your secret key: qazxswedcplmnko
 # Enter the block-size in bytes: 16
 # Enter your msg to test algorithm: I love AES-algo
-# Encrypted_text is:b'ZlFl33jqCtpb9v9YwfNFoZZfjJaRct6NgbMJ8ECY0ek='
+# Encrypted_text is:b'11f9GkCARXrbcMibADUR7wElYU5lLdIexwhEJaXu2Xc='
 # Decrypted_text is: I love AES-algo
+

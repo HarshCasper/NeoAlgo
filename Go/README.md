@@ -23,6 +23,7 @@ _add list here_
 * [Merge Sort Parallel](./sort/merge_sort_parallel.go)
 * [Quick Sort](./sort/quickSort.go)
 * [Selection Sort](./sort/selectionSort.go)
+* [Radix Sort](./sort/radixSort.go)
 
 ## Competitive Programming
 

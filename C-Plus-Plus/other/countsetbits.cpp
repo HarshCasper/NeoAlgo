@@ -7,14 +7,18 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Enter a Number" << endl; // input the digit
+    // input the digit
+    cout << "Enter a Number" << endl; 
     cin >> n;
-    unsigned int count = 0; // declared a counter to count set bits
-
+    // declared a counter to count set bits
+    unsigned int count = 0; 
     
     while(n) {
-        count += n & 1; // take bitwise operation with 0001;
-        n >>= 1; // right shift by 1
+        
+        // take bitwise operation with 0001;
+        count += n & 1;
+        // right shift by 1 
+        n >>= 1; 
     }
 
     if (count > 1){
@@ -24,3 +28,8 @@ int main()
     cout << "Number of set bits or 1s in digit is " << count;   
     }
 }
+
+// Sample Input : n = 9
+// Sample Output : 2
+// Explanation: Binary representation of 9 is 1001 and has 2 set bits
+// Time Complexity: (-)(logn) (Theta of logn)

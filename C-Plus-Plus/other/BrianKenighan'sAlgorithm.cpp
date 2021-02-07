@@ -1,7 +1,7 @@
 // This is a preferred approach to count no. of set bits of a digit.
 
 //  Brian Kernighan’s Algorithm:
-// Concept -> If we subtract 1 from a decimal number, it will flip the all bits
+// Concept -> If we subtract 1 from a decimal number, it will flip all the bits
 // after the rightmost set bit i.e 1 including that rightmost bit too.
 // As 10 is 0000 1010, 9 is 0000 1001
 // you can see in above example rightmost set bit in 10 is at second position

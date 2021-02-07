@@ -1,4 +1,4 @@
-// This is second and preferred approach to count no. of set bits of a digit.
+// This is a preferred approach to count no. of set bits of a digit.
 
 //  Brian Kernighan’s Algorithm:
 // Concept -> If we subtract 1 from a decimal number, it will flip the all bits
@@ -34,4 +34,3 @@ int main()
     cout << "Number of set bits or 1s in digit is " << count;   
     }
 }
-

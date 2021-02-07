@@ -1,9 +1,9 @@
 
 /*
-A page replacement algorithm looks at the limited information about accesses to the pages provided by hardware and tries to guess which pages should be replaced.
-The simplest page-replacement algorithm is a FIFO algorithm. The first-in, first-out (FIFO) page replacement algorithm is a low-overhead algorithm that requires little bookkeeping on the part of the operating system.
-In the Least Recently Used (LRU) page replacement policy, the page that is used least recently will be replaced.
-Optimal Page Replacement algorithm is the best page replacement algorithm as it gives the least number of page faults.
+- A page replacement algorithm looks at the limited information about accesses to the pages provided by hardware and tries to guess which pages should be replaced.
+- The simplest page-replacement algorithm is a FIFO algorithm. The first-in, first-out (FIFO) page replacement algorithm is a low-overhead algorithm that requires little bookkeeping on the part of the operating system.
+- In the Least Recently Used (LRU) page replacement policy, the page that is used least recently will be replaced.
+- Optimal Page Replacement algorithm is the best page replacement algorithm as it gives the least number of page faults.
 
 */
 import java.util.*;

@@ -9,22 +9,18 @@
 
 # Codes in the Python language
 
-## Data Structures
+## Backtracking
 
-- [Queue](ds/Queue.py)
-- [Stacks](ds/Stacks.py)
-- [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
-- [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
-- [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
-- [Trie](ds/Trie.py)
-- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
-- [Knight Walk](graphs/Knight_Walk.py)
-- [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
-- [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
-- [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
-- [Dynamic Stack](ds/dynamic_queue.py)
-- [Dynamic Queue](ds/dynamic_queue.py)
-- [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
+- [N Queens Problem](backtracking/N_Queens.py)
+- [Knight's Tour](backtracking/Knight's_Tour.py)
+- [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
+- [Sudoku Solver](backtracking/sudokuSolver.py)
+- [Subset Sum](backtracking/Subset_Sum.py)
+- [Rat-In-Maze problem](backracking/RatInMaze.py)
+
+## Blockchain
+
+_add list here_
 
 ## Competitive Programming
 
@@ -70,50 +66,22 @@
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 - [Burrows Wheeler transform(BWT)](cryptography/Burrows_Wheeler_transform.py)
 
+## Data Structures
 
-## Searching
-
-- [Bilinear Search](search/bilinear.py)
-- [Binary Search](search/binarysearch.py)
-- [Breadth First Search](search/bfs.py)
-- [Depth First Search](search/dfs.py)
-- [Exponential Search](search/exponential_search.py)
-- [Interpolation Search](search/Interpolation_Search.py)
-- [Linear Search](search/Linear_Search.py)
-- [Random Search Las vegas version](search/random_search_las_vegas.py)
-- [Random select](search/random_select.py)
-- [Sublinear Search](search/Sublinear_search.ipynb)
-- [Z-Algorithm](search/Z_Algorithm.py)
-
-
-## Sorting
-
-- [Bubble Sort](sort/Bubble_Sort.py)
-- [Selection Sort](sort/Selection_Sort.py)
-- [Insertion Sort](sort/insertion.py)
-- [Quick Sort](sort/QuickSort.py)
-- [Heap Sort](sort/Heap_sort.py)
-- [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
-- [Merge Sort Parallel](sort/Parallel_MergeSort.py)
-- [Cocktail sort](sort/cocktail_sort.py)
-- [Intro-sort](sort/IntroSort.py)
-- [Bead Sort](sort/Bead_Sort.py)
-- [Matrix Sort](sort/Matrix_Sort.py)
-- [Pancake Sort](sort/pancakesorting.py)
-- [Radix Sort](sort/Radix_Sort.py)
-- [Shell Sort](sort/Shell_Sort.py)
-- [Topological Sort](sort/topological_sort.py)
-
-
-## Backtracking
-
-- [N Queens Problem](backtracking/N_Queens.py)
-- [Knight's Tour](backtracking/Knight's_Tour.py)
-- [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
-- [Sudoku Solver](backtracking/sudokuSolver.py)
-- [Subset Sum](backtracking/Subset_Sum.py)
-- [Rat-In-Maze problem](backracking/RatInMaze.py)
-
+- [Queue](ds/Queue.py)
+- [Stacks](ds/Stacks.py)
+- [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
+- [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+- [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+- [Trie](ds/Trie.py)
+- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
+- [Knight Walk](graphs/Knight_Walk.py)
+- [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
+- [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
+- [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
+- [Dynamic Stack](ds/dynamic_queue.py)
+- [Dynamic Queue](ds/dynamic_queue.py)
+- [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
 
 ## Dynamic Programming
 
@@ -129,15 +97,10 @@
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
-
-
-## Pathfinding Algorithms 
-
-- [BFS in Maze](Pathfinding/2D_BFS.py)
-- [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
-- [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
-- [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
-- [A*(Astar) in Maze](Pathfinding/2D_Astar.py)
+- [Assembly line scheduling](dp/Assembly_line.py)
+- [Binomial Coefficient](dp/Binomial_coefficient.py)
+- [Floyd_warshall](dp/floyd_warshall.py)
+- [Matrix-chain multiplication](dp/matrix_chain_multiplication.py)
 
 ## Graphs
 
@@ -162,37 +125,6 @@
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
 - [Depth First Search](graphs/DFS.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
-
-## Competitive Programming
-
-- [Anagram Checker](cp/anagram_checker.py)
-- [Find Least positive number](cp/findingLeastPositiveNumber.py)
-- [KMP Algorithm](cp/KMP_Algorithm.py)
-- [Longest Common Prefix](cp/longest_Common_Prefix.py)
-- [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
-- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
-- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
-- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
-- [Target sum triplet](cp/Target_Sum_Triplet.py)
-- [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
-- [Maximum sum rectangle](cp/max_sum.py)
-- [Search Insert Position](cp/search_insert_position.py)
-- [Maximum Water Container](cp/Maximum_Water_Container.py)
-- [Smallest sum subarray](cp/smallest_sum_array.py)
-- [Delete a node from linked list](cp/delete_node.py)
-- [Stable Marriage Problem](cp/stable_marriage_problem.py)
-- [Rain Water Harvesting](cp/rainwater_harvesting.py)
-- [House Robber](cp/house_robber.py)
-
-
-## Cryptography
-
-- [Affine Cipher](cryptography/AffineCipher.py)
-- [Caesar Cipher](cryptography/Caesar_Cipher.py)
-- [Vigenere Cipher](cryptography/vigenere_cipher.py)
-- [RSA Algorithm](cryptography/RSA_Algorithm.py)
-- [XOR Cipher](cryptography/XOR_cipher.py)
-
 
 ## Machine Learning
 
@@ -232,10 +164,46 @@
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
-## Blockchain
 
-_add list here_
+## Pathfinding Algorithms 
 
+- [BFS in Maze](Pathfinding/2D_BFS.py)
+- [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
+- [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
+- [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
+- [A*(Astar) in Maze](Pathfinding/2D_Astar.py)
+
+## Searching
+
+- [Bilinear Search](search/bilinear.py)
+- [Binary Search](search/binarysearch.py)
+- [Breadth First Search](search/bfs.py)
+- [Depth First Search](search/dfs.py)
+- [Exponential Search](search/exponential_search.py)
+- [Interpolation Search](search/Interpolation_Search.py)
+- [Linear Search](search/Linear_Search.py)
+- [Random Search Las vegas version](search/random_search_las_vegas.py)
+- [Random select](search/random_select.py)
+- [Sublinear Search](search/Sublinear_search.ipynb)
+- [Z-Algorithm](search/Z_Algorithm.py)
+
+## Sorting
+
+- [Bubble Sort](sort/Bubble_Sort.py)
+- [Selection Sort](sort/Selection_Sort.py)
+- [Insertion Sort](sort/insertion.py)
+- [Quick Sort](sort/QuickSort.py)
+- [Heap Sort](sort/Heap_sort.py)
+- [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
+- [Merge Sort Parallel](sort/Parallel_MergeSort.py)
+- [Cocktail sort](sort/cocktail_sort.py)
+- [Intro-sort](sort/IntroSort.py)
+- [Bead Sort](sort/Bead_Sort.py)
+- [Matrix Sort](sort/Matrix_Sort.py)
+- [Pancake Sort](sort/pancakesorting.py)
+- [Radix Sort](sort/Radix_Sort.py)
+- [Shell Sort](sort/Shell_Sort.py)
+- [Topological Sort](sort/topological_sort.py)
 
 ## Other
 

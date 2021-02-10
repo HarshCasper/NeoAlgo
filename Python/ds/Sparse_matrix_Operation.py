@@ -1,4 +1,14 @@
 #here we are going to take or read the matrix and convert matrix into thte sparse matrix
+"""
+input:
+
+
+enter value of row: 3
+0 1 2
+0 0 5
+1 0 0
+
+"""
 from operator import itemgetter , attrgetter
 
 """

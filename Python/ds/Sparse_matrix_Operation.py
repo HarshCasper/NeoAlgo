@@ -18,7 +18,7 @@ enter value of row: 3
 
 def read_mat():
     matrix = []
-    for i in range(int(input("enter value of row : "))):
+    for _ in range(int(input("enter value of row : "))):
         arr = list(map(int, input().split()))
         matrix.append(arr)
     return matrix

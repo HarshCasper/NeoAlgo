@@ -48,7 +48,7 @@ def display_matrix(k):
         print()
 
 
-# addition function to perform addition of two sparse matrix this will store output in sorted format
+# addition function
 
 
 def addspm(sp1, sp2):
@@ -58,11 +58,13 @@ def addspm(sp1, sp2):
     i, j = 1, 1
     if sp1[0][0] == sp2[0][0] and sp1[0][1] == sp2[0][1]:
         while i < len(sp1) and j < len(sp2) :
-            if sp1[i][0] > sp2[j][0] or (sp1[i][0] == sp2[j][0] and sp1[i][1] > sp2[j][1]):
+            if sp1[i][0] > sp2[j][0] or
+            (sp1[i][0] == sp2[j][0] and sp1[i][1] > sp2[j][1]):
                 sp3.append([sp2[j][0], sp2[j][1], sp2[j][2]])
                 j += 1
 
-            elif sp1[i][0] < sp2[j][0] or (sp1[i][0] == sp2[j][0] and sp1[i][1] < sp2[j][1]):
+            elif sp1[i][0] < sp2[j][0] or
+            (sp1[i][0] == sp2[j][0] and sp1[i][1] < sp2[j][1]):
                 sp3.append([sp1[i][0], sp1[i][1], sp1[i][2]])
                 i += 1
 
@@ -86,7 +88,7 @@ def addspm(sp1, sp2):
         return "addition operation is not possible."
 
 
-# this is second addition program I was trying to enhance my aproach from above code.
+# trying to enhance my aproach from above code.
 
 
 def addspm2(k1, k2):
@@ -120,11 +122,13 @@ def substractspm(sp1, sp2):
     i, j = 1, 1
     if sp1[0][0] == sp2[0][0] and sp1[0][1] == sp2[0][1]:
         while i < len(sp1) and j < len(sp2):
-            if sp1[i][0] > sp2[j][0] or (sp1[i][0] == sp2[j][0] and sp1[i][1] > sp2[j][1]):
+            if sp1[i][0] > sp2[j][0] or
+            (sp1[i][0] == sp2[j][0] and sp1[i][1] > sp2[j][1]):
                 sp3.append([sp2[j][0], sp2[j][1], - sp2[j][2]])
                 j += 1
 
-            elif sp1[i][0] < sp2[j][0] or (sp1[i][0] == sp2[j][0] and sp1[i][1] < sp2[j][1]):
+            elif sp1[i][0] < sp2[j][0] or
+            (sp1[i][0] == sp2[j][0] and sp1[i][1] < sp2[j][1]):
                 sp3.append([sp1[i][0], sp1[i][1], sp1[i][2]])
                 i += 1
 

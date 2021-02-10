@@ -1,3 +1,4 @@
+@@ -1,115 +1,160 @@
 """
 
 input:
@@ -14,13 +15,13 @@ enter value of row: 3
 
 
 # this read_mat function will read input from user and return matrix as list of inputs
- 
+
 
 def read_mat():
-    matrix=[]
+    matrix = []
     for i in range(int(input("enter value of row : "))):
-        l=list(map(int,input().split()))
-        matrix.append(l)
+        arr = list(map(int, input().split()))
+        matrix.append(arr)
     return matrix
 
 
@@ -38,7 +39,7 @@ def make_sparse(matrix):
 
 
 # this function is for display sparse matrix
- 
+
 
 def display_matrix(k):
     print("The Output matrix : ")
@@ -48,7 +49,7 @@ def display_matrix(k):
         print()
 
 
-# addition function to perform addition of two sparse matrix
+# addition function to perform addition of two sparse matrix this will store output in sorted format
 
 
 def addspm(sp1, sp2):
@@ -57,7 +58,7 @@ def addspm(sp1, sp2):
     sp3 = []
     i, j = 1, 1
     if sp1[0][0] == sp2[0][0] and sp1[0][1] == sp2[0][1]:
-        while i<len(sp1) and j<len(sp2) :
+        while i < len(sp1) and j < len(sp2) :
             if sp1[i][0] > sp2[j][0] or (sp1[i][0] == sp2[j][0] and sp1[i][1] > sp2[j][1]):
                 sp3.append([sp2[j][0], sp2[j][1], sp2[j][2]])
                 j += 1
@@ -108,7 +109,7 @@ def addspm2(k1, k2):
         print(sp3)
     else:
         print("not possible")
-      
+
 
 # substraction of sparse matrix program
 
@@ -129,7 +130,7 @@ def substractspm(sp1, sp2):
                 i += 1
 
             else:
-                if (sp1[i][2] + sp2[j][2]):
+                if sp1[i][2] + sp2[j][2]:
                     sp3.append([sp1[i][0], sp1[i][1], sp1[i][2] - sp2[j][2]])
                     count += 1
                     i += 1
@@ -152,9 +153,10 @@ def substractspm(sp1, sp2):
 
 
 def main():
-    k1=make_sparse(read_mat())
-    k2=make_sparse(read_mat())    
+    k1 = make_sparse(read_mat())
+    k2 = make_sparse(read_mat())
     addspm(k1, k2)
+
 
 if __name__ == '__main__':
     main()

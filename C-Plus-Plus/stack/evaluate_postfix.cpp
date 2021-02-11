@@ -187,4 +187,3 @@ int main() {
  The evaluated answer from Method 1 : 14
  The evaluated answer from Method 2 : 14
  */
-

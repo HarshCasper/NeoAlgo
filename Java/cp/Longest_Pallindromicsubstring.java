@@ -1,7 +1,7 @@
 // Java solution for longest palindrome in a substring
 import java.util.*;
  
-class GFG{
+class PallindromicSubstr{
  
 // Function to print longest subString
 static void printSubStr(String str, int low, int high)
@@ -15,7 +15,7 @@ static int longestPallindromeSubstr(String str)
     // get length of input String
     int n = str.length();
 
-    int maxLength = 1, start = 0;
+    int maxLen = 1, start = 0;
  
     // Nested loop to mark start and end index
     for (int i = 0; i < str.length(); i++) {
@@ -26,17 +26,17 @@ static int longestPallindromeSubstr(String str)
             for (int k = 0; k < (j - i + 1) / 2; k++)
                 if (str.charAt(i + k) != str.charAt(j - k))
                     f = 0;
-            if (f!=0 && (j - i + 1) > maxLength) {
+            if (f!=0 && (j - i + 1) > maxLen) {
                 start = i;
-                maxLength = j - i + 1;
+                maxLen = j - i + 1;
             }
         }
     }
  
     System.out.print("Longest palindrome subString is: ");
-    printSubStr(str, start, start + maxLength - 1);
+    printSubStr(str, start, start + maxLen - 1);
 
-    return maxLength;
+    return maxLen;
 }
  
 public static void main(String[] args)

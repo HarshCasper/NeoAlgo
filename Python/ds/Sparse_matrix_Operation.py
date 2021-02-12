@@ -1,18 +1,3 @@
-"""
-
-input:
-
-enter value of row: 3
-
-0 1 2
-
-0 0 5
-
-1 0 0
-
-"""
-
-
 # this read_mat function will read input from user and return matrix as list of inputs
 
 
@@ -52,7 +37,6 @@ def display_matrix(k):
 
 
 def addspm(sp1, sp2):
-    print("performing addition on given sparse matrices......... ")
     count = 1
     sp3 = []
     i, j = 1, 1
@@ -116,7 +100,6 @@ def addspm2(k1, k2):
 
 
 def substractspm(sp1, sp2):
-    print("performing substraction on given sparse matrices : ")
     count = 1
     sp3 = []
     i, j = 1, 1
@@ -159,7 +142,48 @@ def main():
     k1 = make_sparse(read_mat())
     k2 = make_sparse(read_mat())
     addspm(k1, k2)
+    substractspm(k1, k2)
 
 
 if __name__ == '__main__':
     main()
+
+
+"""
+
+input:
+
+enter value of row : 3
+1 0 3
+0 2 0
+1 0 0
+
+enter value of row : 3
+1 0 3
+0 2 0
+1 0 0
+ 
+The Output matrix : 
+3 3 4 
+0 0 2 
+0 2 6 
+1 1 4 
+2 0 2 
+ 
+The Output matrix : 
+3 3 4 
+0 0 0 
+0 2 0 
+1 1 0 
+2 0 0 
+
+In output line no 16 and 23 represent (no_of_rows, no_of_columns, no_of_elements)
+sometimes while performing tasks by using sparse matrix we require,
+no of rows and no of columns so this line will keep track of this.
+
+from addspm2(k1, k2) function
+output will be [[0, 0, 2], [0, 2, 6], [1, 1, 4], [2, 0, 2]]
+
+time complexity: O(n)
+
+"""

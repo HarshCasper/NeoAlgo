@@ -1,8 +1,8 @@
   '''
-  Sleep sort is a sorting algorithm used to sort non-negative integers. Sleep sort works by creating a separate thread for each item in the input which is to be sorted and
-  then each thread sleeps for an amount of time which is proportional to the value of corresponding array element. Therefore, the thread which is having the least amount of
-  sleep time wakes up first and the element gets printed and then the second least element and so on. The largest element wakes up after a long time and then the element
-  gets printed at the last and thus the output obtained is a sorted array.     
+  Sleep sort is a sorting algorithm used to sort non-negative integers. Sleep sort works by creating a separate thread for each item in the input which is to be
+  sorted and then each thread sleeps for an amount of time which is proportional to the value of corresponding array element. Therefore, the thread which is having
+  the least amount of sleep time wakes up first and the element gets printed and then the second least element and so on. The largest element wakes up after a long
+  time and then the element gets printed at the last and thus the output obtained is a sorted array.     
   '''
   
 import threading

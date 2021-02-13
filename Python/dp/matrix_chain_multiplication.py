@@ -83,3 +83,9 @@ def print_matrix_chain(S, i, j):
 
 t, s = matrix_chain_order(arr)
 print(print_matrix_chain(s, 1, 3))
+
+'''
+output: 
+54
+( A_1 ( A_2  A_3 ))
+'''

@@ -1,9 +1,9 @@
-  '''
+'''
   Sleep sort is a sorting algorithm used to sort non-negative integers. Sleep sort works by creating a separate thread for each item in the input which is to be
   sorted and then each thread sleeps for an amount of time which is proportional to the value of corresponding array element. Therefore, the thread which is having
   the least amount of sleep time wakes up first and the element gets printed and then the second least element and so on. The largest element wakes up after a long
   time and then the element gets printed at the last and thus the output obtained is a sorted array.     
-  '''
+'''
   
 import threading
 import time
@@ -42,15 +42,16 @@ def SleepSort(list):
         i.join()
 
 
-unsorted_array =[]
-number_of_elements = int(input("Enter the number of elements : "))
-print("Enter the elements: ")
-for i in range(number_of_elements):
-    element = int(input())
-    unsorted_array.append(element)
+if __name__ == "__main__" :
+    unsorted_array =[]
+    number_of_elements = int(input("Enter the number of elements : "))
+    print("Enter the elements: ")
+    for i in range(number_of_elements):
+        element = int(input())
+        unsorted_array.append(element)
 
-print("The elements in sorted manner are: ")
-sorted_array = SleepSort(unsorted_array)
+    print("The elements in sorted manner are: ")
+    sorted_array = SleepSort(unsorted_array)
 
 '''
 Enter the number of elements : 7

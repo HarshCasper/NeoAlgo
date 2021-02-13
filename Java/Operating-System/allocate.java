@@ -8,521 +8,442 @@
 */
 import java.util.*;
 
-class node
-{
-	int d;
-	node next;
-
-	node() //constructor of node class
-	{
-		d = 0;
-		next = null;
-	}
+class node {
+    int d;
+    node next;
+    //constructor of node class
+    node() 
+    {
+        d = 0;
+        next = null;
+    }
 }
-class queue
-{
-	node front;
-	node rear;
-
-	queue()//default constructor
-	{
-		front = null;
-		rear = null;
-	}
-
-	public int isEmpty()//returns 1 if queue is empty
-	{
-		if(front == null)
-		{
-			return 1;
-		}
-		else return 0;
-	}
-
-	public void enq(node temp) //adds an element of type node in queue
-	{
-		if(front == null) //if queue is empty
-		{
-			rear = temp;
-			front = temp;
-		}
-		else 
-		{
-			rear.next = temp;
-			rear = temp;
-		}
-	}
-
-	public node deq() //deletes an element of type node from the queue
-	{
-		node x = new node();
-		if(isEmpty() == 0)
-		{
-			if(front == rear)
-			{
-				x = front;
-				front = null;
-				rear = null;
-			}
-			else
-			{
-				x = front;
-				front = front.next;
-			}
-		}
-		else
-		{
-			System.out.println("Queue is empty.");
-		}
-		return x;
-	}
+class queue {
+    node front;
+    node rear;
+	
+    //default constructor
+    queue() 
+    {
+        front = null;
+        rear = null;
+    }
+    //returns 1 if queue is empty
+    public int isEmpty() 
+    {
+        if (front == null) {
+            return 1;
+        } else return 0;
+    }
+    //adds an element of type node in queue
+    public void enq(node temp) 
+    {
+	//if queue is empty
+        if (front == null) 
+        {
+            rear = temp;
+            front = temp;
+        } else {
+            rear.next = temp;
+            rear = temp;
+        }
+    }
+    //deletes an element of type node from the queue
+    public node deq() 
+    {
+        node x = new node();
+        if (isEmpty() == 0) {
+            if (front == rear) {
+                x = front;
+                front = null;
+                rear = null;
+            } else {
+                x = front;
+                front = front.next;
+            }
+        } else {
+            System.out.println("Queue is empty.");
+        }
+        return x;
+    }
 }
 
-class page
-{
-	int arr[];
-	int pf;
-	int ph;
-	int pno;
-	page()
-	{
-		arr = new int[5];
-		pf = 0;
-		ph = 0;
-		pno = 0;
-	}
+class page {
+    int arr[];
+    int pf;
+    int ph;
+    int pno;
+    page() {
+        arr = new int[5];
+        pf = 0;
+        ph = 0;
+        pno = 0;
+    }
 }
 
-class pagerep
-{
-	page p[];
-	String input;
-	queue q;
-	int frame;
-	int number;
-	int arrlru[];
-	int arropt[];
+class pagerep {
+    page p[];
+    String input;
+    queue q;
+    int frame;
+    int number;
+    int arrlru[];
+    int arropt[];
 
-	pagerep()
-	{
-		input = "";
-		q = new queue();
-		frame = 0;
-		number = 0;
-	}
+    pagerep() {
+        input = "";
+        q = new queue();
+        frame = 0;
+        number = 0;
+    }
 
-	public void accept()
-	{
-		Scanner Sc = new Scanner(System.in);
-		System.out.println("ENTER THE REFERENCE STRING");
-		input = Sc.nextLine();
-		String ref[] = input.split(" ");
-		number = ref.length;
+    public void accept() {
+        Scanner Sc = new Scanner(System.in);
+        System.out.println("ENTER THE REFERENCE STRING");
+        input = Sc.nextLine();
+        String ref[] = input.split(" ");
+        number = ref.length;
 
-		System.out.println("ENTER THE NUMBER OF FRAMES ");
-		frame = Sc.nextInt();
+        System.out.println("ENTER THE NUMBER OF FRAMES ");
+        frame = Sc.nextInt();
 
-		p = new page[number];
-		for(int i = 0 ; i < number ; i++)
-		{
-			p[i] = new page();
-			p[i].pno = Integer.parseInt(ref[i]);
-		}
-	}
+        p = new page[number];
+        for (int i = 0; i < number; i++) {
+            p[i] = new page();
+            p[i].pno = Integer.parseInt(ref[i]);
+        }
+    }
 
-	public void display_ref()
-	{
-		System.out.println("REFERENCE STRING IS  " + input);
-		System.out.println();
-	}
+    public void display_ref() {
+        System.out.println("REFERENCE STRING IS  " + input);
+        System.out.println();
+    }
 
-	public void fcfsalgo()
-	{
-		int i = 0,j = 0;
-		node ptr;
-		int pfc = 0,phc = 0;
+    public void fcfsalgo() {
+        int i = 0, j = 0;
+        node ptr;
+        int pfc = 0, phc = 0;
 
-		for(i = 0 ; i < frame ; i++)
-		{
-			node temp = new node();
-			temp.d = p[i].pno;
-			q.enq(temp);
-			for(ptr = q.front , j = 0 ; j < frame ; j++)
-			{
-				if(ptr != null)
-				{
-					p[i].arr[j] = ptr.d;
-					ptr = ptr.next;
-				}
-				else
-				{
-					p[i].arr[j] = -1;
-				}
-			}
-			pfc++;
-			p[i].pf = pfc;
-			p[i].ph = phc;
-		}
+        for (i = 0; i < frame; i++) {
+            node temp = new node();
+            temp.d = p[i].pno;
+            q.enq(temp);
+            for (ptr = q.front, j = 0; j < frame; j++) {
+                if (ptr != null) {
+                    p[i].arr[j] = ptr.d;
+                    ptr = ptr.next;
+                } else {
+                    p[i].arr[j] = -1;
+                }
+            }
+            pfc++;
+            p[i].pf = pfc;
+            p[i].ph = phc;
+        }
 
-		while( i < number )
-		{
-			int flag = 0;
-			for( int k = 0 ; k < frame ; k++)
-			{
-				p[i].arr[k] = p[i-1].arr[k];
-			}
-			for( j = 0 ; j < frame ; j++)
-			{
-				if(p[i-1].arr[j] == p[i].pno)
-				{
-					flag = 1;
-					p[i].pf = pfc;
-					phc++;
-					p[i].ph = phc;
-				}
-			}
-			if(flag == 0)
-			{
-				node temp = q.deq();
-				for(j = 0 ; j < frame ; j++)
-				{
-					if(p[i].arr[j] == temp.d)
-					{
-						p[i].arr[j] = p[i].pno;
-						pfc++;
-						p[i].pf = pfc;
-						p[i].ph = phc;
-						break;
-					}
-				}
-				temp.d = p[i].pno;
-				temp.next = null;
-				q.enq(temp);
-			}
-			i++;
-		}
-	}
+        while (i < number) {
+            int flag = 0;
+            for (int k = 0; k < frame; k++) {
+                p[i].arr[k] = p[i - 1].arr[k];
+            }
+            for (j = 0; j < frame; j++) {
+                if (p[i - 1].arr[j] == p[i].pno) {
+                    flag = 1;
+                    p[i].pf = pfc;
+                    phc++;
+                    p[i].ph = phc;
+                }
+            }
+            if (flag == 0) {
+                node temp = q.deq();
+                for (j = 0; j < frame; j++) {
+                    if (p[i].arr[j] == temp.d) {
+                        p[i].arr[j] = p[i].pno;
+                        pfc++;
+                        p[i].pf = pfc;
+                        p[i].ph = phc;
+                        break;
+                    }
+                }
+                temp.d = p[i].pno;
+                temp.next = null;
+                q.enq(temp);
+            }
+            i++;
+        }
+    }
 
-	public void lru1()
-	{
-		int i = 0;
-		int j = 0;
-		int pfcnt = 0;
-		int phcnt = 0;
-		arrlru = new int[frame];
-		for(i = 0 ; i < frame ; i++)
-		{
-			arrlru[i] = i;
-			for( j = 0 ; j <= i ; j++)
-			{
-				p[i].arr[j] = p[arrlru[j]].pno;
-			}
-			while(j < frame)
-			{
-				p[i].arr[j] = -1;
-				j++;
-			}
-			pfcnt++;
-			p[i].pf = pfcnt;
-			p[i].ph = phcnt;
-		}
+    public void lru1() {
+        int i = 0;
+        int j = 0;
+        int pfcnt = 0;
+        int phcnt = 0;
+        arrlru = new int[frame];
+        for (i = 0; i < frame; i++) {
+            arrlru[i] = i;
+            for (j = 0; j <= i; j++) {
+                p[i].arr[j] = p[arrlru[j]].pno;
+            }
+            while (j < frame) {
+                p[i].arr[j] = -1;
+                j++;
+            }
+            pfcnt++;
+            p[i].pf = pfcnt;
+            p[i].ph = phcnt;
+        }
 
-		while( i < number)
-		{
-			
-			int flag = 0;
-			for( int k = 0 ; k < frame ; k++)
-			{
-				p[i].arr[k] = p[i-1].arr[k];
-			}
-			for( j = 0 ; j < frame ; j++)
-			{
-				if(p[i-1].arr[j] == p[i].pno)
-				{
-					flag = 1;
-					break;
-				}
-			}
-			if(flag == 1)
-			{
-				for(j = 0; j < frame ; j++)
-				{
-					if(p[arrlru[j]].pno == p[i].pno)
-					{
-						arrlru[j] = i;
-					}
-				}
-				p[i].pf = pfcnt;
-				phcnt++;
-				p[i].ph = phcnt;
-			}
-			else
-			{
-				int min = 999;
-				int pos = 0;
-				for(j = 0 ; j < frame ; j++)
-				{
-					if(arrlru[j] < min)
-					{
-						min = arrlru[j];
-						pos = j;
-					}
-				}
-				for( j = 0 ; j < frame ; j++)
-				{
-					if(p[min].pno == p[i].arr[j])
-					{
-						p[i].arr[j] = p[i].pno;
-						break;
-					}
-				}
-				arrlru[pos] = i; 
-				pfcnt++;
-				p[i].pf = pfcnt;
-				p[i].ph = phcnt;
-			}
-			i++;
-		}
-	}
+        while (i < number) {
 
-	public void optimal1()
-	{
-		int i = 0;
-		int j = 0;
-		int pfcnt = 0;
-		int phcnt = 0;
-		int flag = 0;
-		node ptr;
-		arropt = new int[frame];
-		queue oq = new queue();
+            int flag = 0;
+            for (int k = 0; k < frame; k++) {
+                p[i].arr[k] = p[i - 1].arr[k];
+            }
+            for (j = 0; j < frame; j++) {
+                if (p[i - 1].arr[j] == p[i].pno) {
+                    flag = 1;
+                    break;
+                }
+            }
+            if (flag == 1) {
+                for (j = 0; j < frame; j++) {
+                    if (p[arrlru[j]].pno == p[i].pno) {
+                        arrlru[j] = i;
+                    }
+                }
+                p[i].pf = pfcnt;
+                phcnt++;
+                p[i].ph = phcnt;
+            } else {
+                int min = 999;
+                int pos = 0;
+                for (j = 0; j < frame; j++) {
+                    if (arrlru[j] < min) {
+                        min = arrlru[j];
+                        pos = j;
+                    }
+                }
+                for (j = 0; j < frame; j++) {
+                    if (p[min].pno == p[i].arr[j]) {
+                        p[i].arr[j] = p[i].pno;
+                        break;
+                    }
+                }
+                arrlru[pos] = i;
+                pfcnt++;
+                p[i].pf = pfcnt;
+                p[i].ph = phcnt;
+            }
+            i++;
+        }
+    }
 
-		for(i = 0 ; i < frame ; i++)
-		{
-			int t = p[i].pno;
-			for(j = i+1 ; j < number ; j++)
-			{
-				if(p[j].pno == t)
-				{
-					flag = 1;
-					arropt[i] = j;
-					break;
-				}
-			}
-			if(flag == 0)
-			{
-				node temp = new node();
-				temp.d = t;
-				oq.enq(temp);
-				arropt[i] = 999;
-			}
-			ptr = q.front;
-			for( j = 0 ; j <= i ; j++)
-			{
-				if(arropt[j] != 999)
-				{
-					p[i].arr[j] = p[arropt[j]].pno;
-				}
-				else
-				{
-					p[i].arr[j] = ptr.d;
-					ptr = ptr.next;
-				}
-			}
-			while(j < frame)
-			{
-				p[i].arr[j] = -1;
-				j++;
-			}
-			pfcnt++;
-			p[i].pf = pfcnt;
-			p[i].ph = phcnt;
-		}
+    public void optimal1() {
+        int i = 0;
+        int j = 0;
+        int pfcnt = 0;
+        int phcnt = 0;
+        int flag = 0;
+        node ptr;
+        arropt = new int[frame];
+        queue oq = new queue();
 
-		while( i < number)
-		{
-			//System.out.println("i = " + i );
-			flag = 0;
-			for( int k = 0 ; k < frame ; k++)
-			{
-				p[i].arr[k] = p[i-1].arr[k];
-			}
-			for( j = 0 ; j < frame ; j++)
-			{
-				if(arropt[j] == i)
-				{
-					flag = 1;
-					break;
-				}
-			}
-			if(flag == 1)
-			{
-				flag = 0;
-				for(int k = i+1 ; k < number ; k++)
-				{
-					if(p[k].pno == p[i].pno)
-					{
-						flag = 1;
-						arropt[j] = k;
-						break;
-					}
-				}
-				if(flag == 0)
-				{
-					node temp = new node();
-					temp.d = p[i].pno;
-					oq.enq(temp);
-					arropt[j] = 999;
-				}
-				p[i].pf = pfcnt;
-				phcnt++;
-				p[i].ph = phcnt;
-			}
-			else
-			{
-				int max = 0;
-				int pos = 0;
-				for(j = 0 ; j < frame ; j++)
-				{
-					if(arropt[j] > max)
-					{
-						max = arropt[j];
-						pos = j;
-					}
-				}
-				if(max != 999)
-				{
-					for( j = 0 ; j < frame ; j++)
-					{
-						if(p[max].pno == p[i].arr[j])
-						{
-							p[i].arr[j] = p[i].pno;
-							break;
-						}
-					}
-				}
-				else
-				{
-					node temp = oq.deq();
-					for( j = 0 ; j < frame ; j++)
-					{
-						if(temp.d == p[i].arr[j])
-						{
-							p[i].arr[j] = p[i].pno;
-							break;
-						}
-					}
-				}
-				flag = 0;
-				for(int k = i+1 ; k < number ; k++)
-				{
-					if(p[k].pno == p[i].pno)
-					{
-						flag = 1;
-						arropt[pos] = k;
-						break;
-					}
-				}
-				if(flag == 0)
-				{
-					node temp = new node();
-					temp.d = p[i].pno;
-					oq.enq(temp);
-					arropt[pos] = 999;
-				}
-				pfcnt++;
-				p[i].pf = pfcnt;
-				p[i].ph = phcnt;
-			}
-			i++;
-		}
+        for (i = 0; i < frame; i++) {
+            int t = p[i].pno;
+            for (j = i + 1; j < number; j++) {
+                if (p[j].pno == t) {
+                    flag = 1;
+                    arropt[i] = j;
+                    break;
+                }
+            }
+            if (flag == 0) {
+                node temp = new node();
+                temp.d = t;
+                oq.enq(temp);
+                arropt[i] = 999;
+            }
+            ptr = q.front;
+            for (j = 0; j <= i; j++) {
+                if (arropt[j] != 999) {
+                    p[i].arr[j] = p[arropt[j]].pno;
+                } else {
+                    p[i].arr[j] = ptr.d;
+                    ptr = ptr.next;
+                }
+            }
+            while (j < frame) {
+                p[i].arr[j] = -1;
+                j++;
+            }
+            pfcnt++;
+            p[i].pf = pfcnt;
+            p[i].ph = phcnt;
+        }
 
-	}
+        while (i < number) {
 
-	void dis()//DISPLAY THE MATRIX
-	{
-		System.out.println("\t\t ");
-		System.out.println();
-		System.out.print("RF\t  ");
-		for(int i = 0 ; i < number ; i++)
-		{
-			System.out.print(p[i].pno + "\t");
-		}
-		System.out.println();
-		System.out.println();
-		for(int i = 0 ; i < frame ; i++)
-		{
-			System.out.print("Frame" + i + " \t");
-			for(int j = 0 ; j < number ; j++)
-			{
-				System.out.print(p[j].arr[i] + "\t");
-			}
-			System.out.println();
-		}
-		System.out.println();
-		System.out.print("PF\t  ");
-		for(int j = 0 ; j < number ; j++)
-		{
-			System.out.print(p[j].pf + "\t");
-		}
-		System.out.println();
-		System.out.println("\t\t ");
-		System.out.println("THE NUMBER PAGE FAULT IS/ARE  " + p[number-1].pf);
-		System.out.println("THE NUMBER PAGE HIT IS/ ARE " + p[number-1].ph);
-		System.out.println(" ");
-	}
+            flag = 0;
+            for (int k = 0; k < frame; k++) {
+                p[i].arr[k] = p[i - 1].arr[k];
+            }
+            for (j = 0; j < frame; j++) {
+                if (arropt[j] == i) {
+                    flag = 1;
+                    break;
+                }
+            }
+            if (flag == 1) {
+                flag = 0;
+                for (int k = i + 1; k < number; k++) {
+                    if (p[k].pno == p[i].pno) {
+                        flag = 1;
+                        arropt[j] = k;
+                        break;
+                    }
+                }
+                if (flag == 0) {
+                    node temp = new node();
+                    temp.d = p[i].pno;
+                    oq.enq(temp);
+                    arropt[j] = 999;
+                }
+                p[i].pf = pfcnt;
+                phcnt++;
+                p[i].ph = phcnt;
+            } else {
+                int max = 0;
+                int pos = 0;
+                for (j = 0; j < frame; j++) {
+                    if (arropt[j] > max) {
+                        max = arropt[j];
+                        pos = j;
+                    }
+                }
+                if (max != 999) {
+                    for (j = 0; j < frame; j++) {
+                        if (p[max].pno == p[i].arr[j]) {
+                            p[i].arr[j] = p[i].pno;
+                            break;
+                        }
+                    }
+                } else {
+                    node temp = oq.deq();
+                    for (j = 0; j < frame; j++) {
+                        if (temp.d == p[i].arr[j]) {
+                            p[i].arr[j] = p[i].pno;
+                            break;
+                        }
+                    }
+                }
+                flag = 0;
+                for (int k = i + 1; k < number; k++) {
+                    if (p[k].pno == p[i].pno) {
+                        flag = 1;
+                        arropt[pos] = k;
+                        break;
+                    }
+                }
+                if (flag == 0) {
+                    node temp = new node();
+                    temp.d = p[i].pno;
+                    oq.enq(temp);
+                    arropt[pos] = 999;
+                }
+                pfcnt++;
+                p[i].pf = pfcnt;
+                p[i].ph = phcnt;
+            }
+            i++;
+        }
+
+    }
+	
+    //DISPLAY THE MATRIX
+    void dis() 
+    {
+        System.out.println("\t\t ");
+        System.out.println();
+        System.out.print("RF\t  ");
+        for (int i = 0; i < number; i++) {
+            System.out.print(p[i].pno + "\t");
+        }
+        System.out.println();
+        System.out.println();
+        for (int i = 0; i < frame; i++) {
+            System.out.print("Frame" + i + " \t");
+            for (int j = 0; j < number; j++) {
+                System.out.print(p[j].arr[i] + "\t");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        System.out.print("PF\t  ");
+        for (int j = 0; j < number; j++) {
+            System.out.print(p[j].pf + "\t");
+        }
+        System.out.println();
+        System.out.println("\t\t ");
+        System.out.println("THE NUMBER PAGE FAULT IS/ARE  " + p[number - 1].pf);
+        System.out.println("THE NUMBER PAGE HIT IS/ ARE " + p[number - 1].ph);
+        System.out.println(" ");
+    }
 }
 
 
 public class allocate {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner Sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        Scanner Sc = new Scanner(System.in);
 
-		pagerep sh = new pagerep();
+        pagerep sh = new pagerep();
 
-		int choice = 0;
-		do
-		{	
-			   System.out.println("---------------------------------------------------------------------------------------------------");
-			    System.out.println("  ");
-				System.out.println("PRESS 0 TO EXIT");
-				System.out.println("PRESS 1 TO ACCEPT STRING");
-				System.out.println("PRESS 2 TO DISPLAY STRING");
-				System.out.println("PRESS 3 FOR FCFS");
-				System.out.println("PRESS 4 FOR LRU");
-				System.out.println("PRESS 5 FOR OPTIMAL");
-				System.out.println("PLEASE ENTER YOUR CHOICE ");
-				choice = Sc.nextInt();
-				 System.out.println("--------------------------------------------------------------------------------------------------");
-			switch(choice)
-			{
-			case 1:
-				sh.accept();//accepting the reference string
-				break;
+        int choice = 0;
+        do {
+            System.out.println("---------------------------------------------------------------------------------------------------");
+            System.out.println("  ");
+            System.out.println("PRESS 0 TO EXIT");
+            System.out.println("PRESS 1 TO ACCEPT STRING");
+            System.out.println("PRESS 2 TO DISPLAY STRING");
+            System.out.println("PRESS 3 FOR FCFS");
+            System.out.println("PRESS 4 FOR LRU");
+            System.out.println("PRESS 5 FOR OPTIMAL");
+            System.out.println("PLEASE ENTER YOUR CHOICE ");
+            choice = Sc.nextInt();
+            System.out.println("--------------------------------------------------------------------------------------------------");
+            switch (choice) {
+                case 1:
+	            //accepting the reference string
+                    sh.accept(); 
+                    break;
 
-			case 2:
-				sh.display_ref();//display of reference string
-				break;
+                case 2:
+	            //display of reference string
+                    sh.display_ref(); 
+                    break;
 
-			case 3:
-				sh.fcfsalgo();//first come first serve algorithm
-				sh.dis();
-				break;
+                case 3:
+                    //first come first serve algorithm
+                    sh.fcfsalgo(); 
+                    sh.dis();
+                    break;
 
-			case 4:
-				sh.lru1();//least recently used algorithm
-				sh.dis();
-				break;
+                case 4:
+	            //least recently used algorithm
+                    sh.lru1(); 
+                    sh.dis();
+                    break;
 
-			case 5:
-				sh.optimal1();//optimal algorithm
-				sh.dis();
-				break;
+                case 5:
+	            //optimal algorithm
+                    sh.optimal1();
+                    sh.dis();
+                    break;
 
-			}
-		}while(choice != 0);
-	}
+            }
+        } while (choice != 0);
+    }
 
 }
 
@@ -627,15 +548,3 @@ PRESS 4 FOR LRU
 PRESS 5 FOR OPTIMAL
 PLEASE ENTER YOUR CHOICE 
 */
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

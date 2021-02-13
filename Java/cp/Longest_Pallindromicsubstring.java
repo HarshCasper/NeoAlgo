@@ -1,43 +1,60 @@
+
 // Java solution for longest palindrome in a substring
 import java.util.*;
  
 class PallindromicSubstr{
- 
-// Function to print longest subString
-static void printSubStr(String str, int low, int high)
-{
-    for (int i = low; i <= high; ++i)
-        System.out.print(str.charAt(i));
-}
 
-static int longestPallindromeSubstr(String str)
-{
-    // get length of input String
-    int n = str.length();
-
-    int maxLen = 1, start = 0;
- 
-    // Nested loop to mark start and end index
-    for (int i = 0; i < str.length(); i++) {
-        for (int j = i; j < str.length(); j++) {
-            int f = 1;
- 
-            // Check palindrome
-            for (int k = 0; k < (j - i + 1) / 2; k++)
-                if (str.charAt(i + k) != str.charAt(j - k))
-                    f = 0;
-            if (f!=0 && (j - i + 1) > maxLen) {
-                start = i;
-                maxLen = j - i + 1;
+    public static String expandbothside(String str, int low, int high)
+    {
+        int len = str.length();
+     
+        // expand in both directions
+        while (low >= 0 && high < len &&
+            (str.charAt(low) == str.charAt(high))) {
+                low--;
+                high++;
             }
-        }
+            return str.substring(low + 1, high);
     }
- 
-    System.out.print("Longest palindrome subString is: ");
-    printSubStr(str, start, start + maxLen - 1);
+     
+        
+        public static String longestPallindromeSubstr(String str, int len)
+        {
+            // `max_str` stores the maximum length palindromic substring     
+            String max_str = "", curr_str;
+     
+            // `max_length` stores the maximum length of palindromic     
+            int max_len = 0, curr_len;
+     
+            for (int i = 0; i < len; i++)
+            {
+                // find the longest odd length palindrome with `str[i]` as a midpoint
+     
+                curr_str = expandbothside(str, i, i);
+                curr_len = curr_str.length();    
+     
+                // update maximum length palindromic substring if odd length palindrome has a greater length
+     
+                if (curr_len > max_len)
+                {
+                    max_len = curr_len;
+                    max_str = curr_str;
+                }
 
-    return maxLen;
-}
+                curr_str = expandbothside(str, i, i + 1);
+                curr_len = curr_str.length();
+     
+                // update maximum length palindromic substring if even length palindrome has a greater length
+     
+                if (curr_len > max_len)
+                {
+                    max_len = curr_len;
+                    max_str = curr_str;
+                }
+            }
+     
+            return max_str;
+        }
  
 public static void main(String[] args)
 {
@@ -45,6 +62,17 @@ public static void main(String[] args)
     System.out.println("Enter word");
     String str = sc.nextLine();
     System.out.print("\nLength of longest pallindrome substring is: "
-         + longestPallindromeSubstr(str));
+         + longestPallindromeSubstr(str,str.length() - 1));
 }
 }
+
+/* Time complexity is O(n*n)
+Space complexity is O(1)
+
+Input :
+Enter word
+mallammalayalamaaabbaa
+
+output:
+Length of longest pallindrome substring is: malayalam
+*/

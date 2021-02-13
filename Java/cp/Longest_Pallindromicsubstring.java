@@ -1,5 +1,5 @@
 
-// Java solution for longest palindrome in a substring
+// Java program  to find the longest palindromicsubstring from a word
 import java.util.*;
  
 class PallindromicSubstr{

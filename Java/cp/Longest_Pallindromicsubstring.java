@@ -1,5 +1,5 @@
 
-// Java program  to find the longest palindromicsubstring from a word
+// This is a Java program  to find the longest palindromicsubstring from a word using dynamic programming approach
 import java.util.*;
  
 class PallindromicSubstr{

@@ -82,27 +82,28 @@ int main()
     sp->size=10;
     sp->top=-1;
     sp->arr = (int *)malloc(sp->size * sizeof(int));
-    printf("Enter choice: \n");
-    printf("1.Push\n 2.Pop\n 3.Peek\n");
+    
+    
+    do
+    {
+        printf("Enter choice: \n");
+    printf("1.Push \n2.Pop \n3.Peek \n4.Exit \n");
     scanf("%d", &choice);
-    if(choice==1)
-    {
-      printf("Enter the element to insert: \n");
-      scanf("%d", &element);
-      push(sp, element);
-    }
-    else if(choice ==2)
-    {
-        pop(sp);
-    }
-    else if(choice ==3)
-    {
-         peek(sp);
-    }
-    else
-    {
-       printf("Invalid Choice");     
-    }
+        switch(choice)
+        {
+         case 1: 
+            printf("Enter the element to insert: \n");
+            scanf("%d", &element);
+            push(sp, element);
+            break;
+         case 2:
+            printf("Popped %d from the stack\n", pop(sp));
+            break;
+         case 3:
+            printf("Top most element is %d\n", peek(sp));
+            break;
+        }
+    }while(choice!=4);
     
     return 0;
 }

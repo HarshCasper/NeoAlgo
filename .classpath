@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Java/Algorithms"/>
+	<classpathentry kind="src" path="Java/cp"/>
+	<classpathentry kind="src" path="Java/cryptography"/>
+	<classpathentry kind="src" path="Java/dp"/>
+	<classpathentry kind="src" path="Java/ds"/>
+	<classpathentry kind="src" path="Java/graphs"/>
+	<classpathentry kind="src" path="Java/Greedy_Algorithms"/>
+	<classpathentry excluding="countDigits/" kind="src" path="Java/math"/>
+	<classpathentry kind="src" path="Java/math/countDigits"/>
+	<classpathentry kind="src" path="Java/Operating-System"/>
+	<classpathentry kind="src" path="Java/other"/>
+	<classpathentry kind="src" path="Java/search"/>
+	<classpathentry kind="src" path="Java/sort"/>
+	<classpathentry kind="src" path="Miscellaneous/HackerRank"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

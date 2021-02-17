@@ -59,6 +59,11 @@
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
 - [Circular Queue](ds/circularqueue.c)
 - [Post Order Traversal](ds/Postorder.c)
+- [Detect Middle Element of the LinkedList](ds/middle_element_of_linkedlist.c)
+- [Postorder Traversal](ds/Postorder.c)
+- [Stack Implementation with Array](ds/StackImplementationWithArray.c)
+- [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
+- [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
 
 ## Searching
 
@@ -83,6 +88,7 @@
 - [Bucket Sort](sort/bucketSort.c)
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
+- [Counting Sort](sort/countingSort.c)
 
 ## Dynamic Programming
 

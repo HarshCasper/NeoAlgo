@@ -34,11 +34,13 @@
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
+- [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
+- [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
@@ -58,6 +60,7 @@
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
+- [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
@@ -90,6 +93,7 @@
 - [Depth Of Tree](graphs/Depth_of_tree.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
+- [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
@@ -102,6 +106,8 @@
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
 - [Left view of Tree](graphs/left_view_of_tree.cpp)
+- [Right view of Tree](graphs/right_view_of_tree.cpp)
+
 
 ## Searching
 
@@ -135,14 +141,18 @@
 
 ## Stack based problems
 
+-[Infix to Postfix Conversiion](stack/Infix_to_Postfix.c)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
+- [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
+- [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 
 ## Heap based problems
 
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
+
 
 ## Machine Learning
 
@@ -213,7 +223,6 @@ _add list here_
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
-- [Kth smallest element](other/Kth_smallest_element.cpp)
 - [Least Common Multiple](other/lcm.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)

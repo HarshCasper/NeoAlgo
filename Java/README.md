@@ -66,6 +66,9 @@ _add list here_
 - [Stock Span Problem](cp/StockSpan.java)
 - [Wrapping Letters](cp/Main.java)
 - [Sort 2D Array](cp/Sort_2D_Array.java)
+- [Reverse a string](cp/ReverseString.java)
+- [Implement Queue using Stack](cp/Queue_using_Stack.java)
+- [Implement Stack using Queue](cp/Stack_using_Queue.java)
 
 ## Cryptography
 
@@ -168,6 +171,7 @@ _add list here_
 - [Bubble Sort](sort/BubbleSort.java)
 - [Bucket Sort](sort/BucketSort.java)
 - [Cocktail Sort](sort/CocktailSort.java)
+- [Counting Sort](sort/CountingSort.java)
 - [Heap Sort](sort/HeapSort.java)
 - [Insertion Sort](sort/InsertionSort.java)
 - [Merge Sort](sort/Merge_sort.java)
@@ -179,6 +183,7 @@ _add list here_
 - [Radix Sort](sort/RadixSort.java)
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 - [Shell Sort](sort/ShellSort.java)
+- [Sleep Sort](sort/SleepSort.java)
 
 ## Machine Learning
 
@@ -187,6 +192,7 @@ _add list here_
 ## Operating Systems
 - [Banker's Algorithm](Operating-System/banker.java)
 - [Memory Allocation in Operating Systems](Operating-System/alloc.java)
+- [Page Replacement Algorithms](Operating-System/allocate.java)
 
 ## Other
 

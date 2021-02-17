@@ -23,6 +23,7 @@ _add list here_
 * [Merge Sort Parallel](./sort/merge_sort_parallel.go)
 * [Quick Sort](./sort/quickSort.go)
 * [Selection Sort](./sort/selectionSort.go)
+* [Radix Sort](./sort/radixSort.go)
 
 ## Competitive Programming
 
@@ -37,6 +38,7 @@ _add list here_
 - [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
 - [Queue using Stack](./ds/queue_using_stack.go)
 - [Singly Linked List](./ds/singly_linked_list.go)
+- [Singly Linked List ~ Reversable](./ds/singly_linked_list_reversed.go)
 - [Stack](./ds/Stack.go)
 - [Stack using Queue](./ds/stack_using_queue.go)
 

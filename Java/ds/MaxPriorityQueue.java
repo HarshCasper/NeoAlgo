@@ -1,4 +1,4 @@
-//Implementing the class for Max Priority Queue which includes the required functions
+//Implementing the class for Max Priority Queue which includes the required functions..
 
 
 import java.util.ArrayList;

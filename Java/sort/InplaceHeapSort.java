@@ -1,6 +1,6 @@
 
 
-//Given an integer array of size N, sorting it using Heap Sort in descending order
+//Given an integer array of size N, sorting it using Heap Sort in descending order..
 
 public class InplaceHeapSort {
 	

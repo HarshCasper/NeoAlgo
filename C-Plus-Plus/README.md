@@ -230,5 +230,3 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
-- [Count Set no. of bits](other/countsetbits.cpp)
-- [BrianKenighan's Algorithm to count set no. of bits](other/BrianKenighan'sAlgorithm.cpp)

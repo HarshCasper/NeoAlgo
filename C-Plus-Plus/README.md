@@ -107,6 +107,7 @@
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
 - [Left view of Tree](graphs/left_view_of_tree.cpp)
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
+- [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
 
 
 ## Searching

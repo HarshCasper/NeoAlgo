@@ -1,4 +1,11 @@
+'''The basic idea is to check fewer elements
+by jumping ahead by fixed steps or skipping some
+elements in place of searching all elements.'''
+# Time Complexity : O(√n)
+# Auxiliary Space : O(1)
+
 import math
+#main function
 def jump_search(arr,search):
     flag = 0
     interval = int(math.sqrt(len(arr)))
@@ -22,3 +29,4 @@ def jump_search(arr,search):
 arr = [ i for i in range(1,200,15)]
 res = jump_search(arr, 196)
 print(res) 
+# NOTE:-Works only sorted arrays.

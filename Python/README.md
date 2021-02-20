@@ -51,6 +51,7 @@
 - [Vowels and consonants in a string](cp/VowelsConsonants.py)
 - [Letter Count in a word](cp/LetterCount.py)
 - [Rabin Karp algorithm](cp/RabinKarp.py)
+- [Cyclically Rotate Clockwise](cp/Cyclically_rotate.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

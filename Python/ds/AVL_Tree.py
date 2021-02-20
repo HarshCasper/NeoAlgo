@@ -1,5 +1,8 @@
 """
-AVL tree is a self-balancing Binary Search Tree (BST) where the difference between heights of left and right subtrees cannot be more than one for all nodes and if at any time they differ by more than one, rebalancing is done to restore this property. Each node maintains extra information called a balance factor whose value is either -1, 0 or +1 where balance factor of a node in an AVL tree is the difference between the height of the left subtree and that of the right subtree of that node.
+AVL tree is a self-balancing Binary Search Tree (BST) where the difference between heights of left and right subtrees cannot be more than one for 
+all nodes and if at any time they differ by more than one, rebalancing is done to restore this property. Each node maintains extra information 
+called a balance factor whose value is either -1, 0 or +1 where balance factor of a node in an AVL tree is the difference between the height of 
+the left subtree and that of the right subtree of that node.
 """
 class avlnode:
     def __init__(self, value):

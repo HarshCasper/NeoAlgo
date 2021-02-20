@@ -190,7 +190,7 @@ _add list here_
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
-- [Zero N Knapsack](dp/Zero_N_knapsack.cpp)
+- [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
 
 ## Blockchain

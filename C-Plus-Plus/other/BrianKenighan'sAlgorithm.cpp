@@ -49,19 +49,14 @@ int main()
         count++; 
     }
 
-    if (count > 1){
-    cout << "Number of set bits or 1s in digit are " << count;
-    }
-    else {
-    cout << "Number of set bits or 1s in digit is " << count;   
-    }
+    cout << "Number of set bits or 1s in the number is : " << count;   
 }
 
 
 
 /* 
 Sample Input : n = 9
-Sample Output : 2
+Sample Output : Number of set bits or 1s in the number is : 2
 Explanation: Binary representation of 9 is 1001 and has 2 set bits
 Time Complexity: O(logn)
 */

@@ -103,6 +103,7 @@
 - [Radix Sort](sort/Radix_Sort.py)
 - [Shell Sort](sort/Shell_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
+- [Sleep Sort](sort/Sleep_sort.py)
 
 
 ## Backtracking

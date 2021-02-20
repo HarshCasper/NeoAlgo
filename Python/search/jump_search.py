@@ -6,13 +6,13 @@ def jump_search(arr,search):
     flag = 0
     interval = int(math.sqrt(len(arr)))
     for i in range(0,len(arr),interval):
-        if arr[i] >  search:
+        if (arr[i] >  search):
             chunk = i
             flag = 1
             break
-        if arr[i] ==  search:
+        if (arr[i] ==  search):
             return i
-    if flag==0:
+    if (flag==0):
         c=i
         for j in arr[i:]:
             if j==search:

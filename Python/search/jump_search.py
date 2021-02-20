@@ -1,7 +1,5 @@
-# The basic idea is to check fewer elements by jumping ahead by fixed steps or skipping some elements in place of searching all elements.
-# Time Complexity : O(√n)
-# Auxiliary Space : O(1)
-
+#JUMP-SEARCH
+# NOTE:-Works only sorted arrays.
 import math
 #main function
 def jump_search(arr,search):
@@ -25,9 +23,14 @@ def jump_search(arr,search):
         ind = [i for i,d in enumerate(arr_ls) if d==search]
         return chunk-interval+ind[0]
 #driver code
-arr = list(map(int,input().split()))
-#get the item to be searched
-val=int(input())
-res = jump_search(arr, val)
-print(res) 
-# NOTE:-Works only sorted arrays.
+if __name__ == '__main__':
+    arr = list(map(int,input().split()))
+    val=int(input())
+    res = jump_search(arr, val)
+    print(res)
+    
+# Time Complexity : O(√n)
+# Auxiliary Space : O(1)
+# SAMPLE INPUT line 1   1 2 3 4 5 6 7 8 9 10
+# SAMPLE INPUT line 2   5
+# SAMPLE OUTPUT     4

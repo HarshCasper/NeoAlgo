@@ -1,11 +1,7 @@
 '''
-Rotation of the list means that each element
-is shifted right by one index, and the last element
-of the list is moved to the first place.
-This is done N number of times,
+Rotation of the list means that each elementis shifted right by one index, and the last element of the list is moved to the first place. This is done N number of times,
 where N is user-defined
 '''
-
 
 def Rotate(list, N):
     for i in range(N):
@@ -41,14 +37,12 @@ Press-->
                 print("list after rotating by ", N, " ", list)
 
         elif op == 3:
-
             if len(list) == 0:
                 print("The list is empty, insert values if required")
             else:
                 print(list)
 
         elif op == 4:
-
             ele = int(input("Enter element to put in list "))
             list.append(ele)
 
@@ -59,11 +53,9 @@ Press-->
             print("Invalid option")
 
 except ValueError:
-
     print("Please enter integer only")
 
 except:
-
     print("There's been some issue please check the data you've entered")
 
 '''
@@ -116,8 +108,5 @@ Press-->
 5 to exit
 5
 
-'''
-
-'''
 Time complexity - O(n)
 '''

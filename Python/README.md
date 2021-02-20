@@ -51,6 +51,7 @@
 - [Vowels and consonants in a string](cp/VowelsConsonants.py)
 - [Letter Count in a word](cp/LetterCount.py)
 - [Rabin Karp algorithm](cp/RabinKarp.py)
+- [Cyclically Rotate Clockwise](cp/Cyclically_rotate.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -103,6 +104,7 @@
 - [Radix Sort](sort/Radix_Sort.py)
 - [Shell Sort](sort/Shell_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
+- [Sleep Sort](sort/Sleep_sort.py)
 
 
 ## Backtracking

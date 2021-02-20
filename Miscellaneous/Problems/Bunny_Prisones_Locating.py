@@ -1,6 +1,9 @@
 ''' 
-Keeping track of Commander Lambda’s many bunny prisoners is starting to get tricky. You’ve been tasked with writing a program to match bunny prisoner IDs to cell locations.
-The LAMBCHOP doomsday device takes up much of the interior of Commander Lambda’s space station, and as a result the prison blocks have an unusual layout. They are stacked in a triangular shape, and the bunny prisoners are given numerical IDs starting from the corner, as follows:
+Keeping track of Commander Lambda’s many bunny prisoners is starting to get tricky.
+You’ve been tasked with writing a program to match bunny prisoner IDs to cell locations.
+The LAMBCHOP doomsday device takes up much of the interior of Commander Lambda’s space station,
+and as a result the prison blocks have an unusual layout. They are stacked in a triangular shape,
+ and the bunny prisoners are given numerical IDs starting from the corner, as follows:
 | 7
 | 4 8
 | 2 5 9

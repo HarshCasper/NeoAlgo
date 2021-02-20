@@ -1,3 +1,6 @@
+//It is an algorithm that help us to figure out  minimum spanning tree by selecting the adjacent vertices of already selected vertices.
+//This algorithm uses different logic than Kruskals algorithm
+//It runs faster in dense graphs.
 import java.util.Scanner;
 
 public class Prims_Algorithm {
@@ -25,8 +28,7 @@ public class Prims_Algorithm {
 				}
 			}
 		}
-		
-		// Print edges of MST
+         	// Print edges of MST
 		for(int i = 1; i < v; i++){
 			if(parent[i] < i){
 				System.out.println(parent[i] + " "+ i +" "+ weight[i]);
@@ -34,9 +36,7 @@ public class Prims_Algorithm {
 				System.out.println(i + " "+ parent[i] +" "+ weight[i]);
 			}
 		}
-		
 	}
-	
 	private static int findMinVertex(int[] weight, boolean visited[]) {
 		
 		int minVertex = -1;
@@ -50,10 +50,10 @@ public class Prims_Algorithm {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int V = s.nextInt();
-		int E = s.nextInt();
-        int adjacencyMatrix[][] = new int[V][V];
-			for(int i = 0; i < E; i++){
+		int Vertices = s.nextInt();
+		int Edges = s.nextInt();
+        int adjacencyMatrix[][] = new int[Vertices][Vertices];
+			for(int i = 0; i < Edges; i++){
 				int v1 = s.nextInt();
 				int v2 = s.nextInt();
 				int weight = s.nextInt();
@@ -62,6 +62,5 @@ public class Prims_Algorithm {
 			}
 		
 			prims(adjacencyMatrix);
-
-}
+       }
 }

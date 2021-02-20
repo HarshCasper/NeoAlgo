@@ -1,6 +1,9 @@
 '''
-To cyclically (clockwise) rotate a list of integers by N
-(N is user defined)
+Rotation of the list means that each element
+is shifted right by one index, and the last element
+of the list is moved to the first place.
+This is done N number of times,
+where N is user-defined
 '''
 
 
@@ -11,7 +14,6 @@ def Rotate(list, N):
     return list
 
 try:
-    list = []
 
     # For the list rotation to be dynamic it has been put in a loop
     # While the loop is true the user gets 4 options
@@ -19,15 +21,15 @@ try:
     while True:
         op = int(input('''
 Press-->
-1 to insert element in the list
+1 to insert elements in the list
 2 to rotate list cyclically
 3 to display list
-4 to exit
+4 to add an element in the list
+5 to exit
 '''))
 
         if op == 1:
-            ele = int(input("enter element to put in list "))
-            list.append(ele)
+            list = list(map(int, input("Enter the numbers: ").split()))
 
         elif op == 2:
             if len(list) == 0:
@@ -46,10 +48,15 @@ Press-->
                 print(list)
 
         elif op == 4:
+
+            ele = int(input("Enter element to put in list "))
+            list.append(ele)
+
+        elif op == 5:
             break
 
         else:
-            print("invalid option")
+            print("Invalid option")
 
 except ValueError:
 
@@ -63,40 +70,51 @@ except:
 Sample Input-output:
 
 >Cyclically_rotate.py
-
 Press-->
-1 to insert element in the list
+1 to insert elements in the list
 2 to rotate list cyclically
 3 to display list
-4 to exit
+4 to add an element in the list
+5 to exit
 1
-enter element to put in list 3
+Enter the numbers: 2 3 4 5
 
 Press-->
-1 to insert element in the list
+1 to insert elements in the list
 2 to rotate list cyclically
 3 to display list
-4 to exit
-1
-enter element to put in list 2
+4 to add an element in the list
+5 to exit
+3
+[2, 3, 4, 5]
 
 Press-->
-1 to insert element in the list
+1 to insert elements in the list
 2 to rotate list cyclically
 3 to display list
-4 to exit
-1
-enter element to put in list 4
+4 to add an element in the list
+5 to exit
+4
+Enter element to put in list 4
 
 Press-->
-1 to insert element in the list
+1 to insert elements in the list
 2 to rotate list cyclically
 3 to display list
-4 to exit
+4 to add an element in the list
+5 to exit
 2
 By how much would you like to rotate 2
-list before rotating by  2   [3, 2, 4]
-list after rotating by  2   [2, 4, 3]
+list before rotating by  2   [2, 3, 4, 5, 4]
+list after rotating by  2   [5, 4, 2, 3, 4]
+
+Press-->
+1 to insert elements in the list
+2 to rotate list cyclically
+3 to display list
+4 to add an element in the list
+5 to exit
+5
 
 '''
 

@@ -193,6 +193,7 @@ _add list here_
 - [Banker's Algorithm](Operating-System/banker.java)
 - [Memory Allocation in Operating Systems](Operating-System/alloc.java)
 - [Page Replacement Algorithms](Operating-System/allocate.java)
+- [Disk Scheduling Algorithms](Operating-System/MainDisc.java)
 
 ## Other
 

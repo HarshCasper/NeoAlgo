@@ -1,20 +1,35 @@
-#include <chrono>
-#include <iostream>
-#include <thread>
-#include <vector>
- 
-int main(int argc, char* argv[]) {
-  std::vector<std::thread> threads;
- 
-  for (int i = 1; i < argc; ++i) {
-    threads.emplace_back([i, &argv]() {
-      int arg = std::stoi(argv[i]);
-      std::this_thread::sleep_for(std::chrono::seconds(arg));
-      std::cout << argv[i] << std::endl;
-    });
-  }
- 
-  for (auto& thread : threads) {
-    thread.join();
-  }
+#include<iostream>
+#include<thread>
+#include<chrono>
+#include<vector>
+
+std::vector <int> Sorted;
+
+void CountDown(int Sec)
+{
+	std::this_thread::sleep_for(std::chrono::seconds(Sec));
+	Sorted.push_back(Sec);
+}
+
+void Multithread(int NumList[]){
+    std::vector <std::thread> Threads;
+    for (int i = 0; i <= 10; i++)
+	{
+		Threads.push_back(std::thread(CountDown, NumList[i]));
+	}
+	for (auto& thread : Threads)
+	{
+		thread.join();
+	}
+}
+
+int main()
+{
+	int NumList[] = {0,4,2,3,5,6,7,9,8,1};
+	Multithread(NumList);
+	for (auto& Num : Sorted)
+	{
+		std::cout << Num<<std::endl;
+	}
+    return 0;
 }

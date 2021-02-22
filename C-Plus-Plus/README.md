@@ -136,6 +136,7 @@
 - [Selection Sort](sort/selection_sort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+- [Sleep Sort](sort/sleep_sort.cpp)
 
 ## Stack based problems
 
@@ -230,5 +231,3 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
-- [Count Set no. of bits](other/countsetbits.cpp)
-- [BrianKenighan's Algorithm to count set no. of bits](other/BrianKenighan'sAlgorithm.cpp)

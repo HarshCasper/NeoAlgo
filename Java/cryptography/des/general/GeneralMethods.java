@@ -131,4 +131,30 @@ public class GeneralMethods
 		
 		return shiftedValue;
 	}// End of shiftLeft(byte[] , int) method
+	
+	
+	/**
+	 * <p>
+	 * 		This is a static public method which is used to print text arrays like plain text, cipher text and decrypted text
+	 * </p>
+	 * 
+	 * @param printText	This is an additional text if needed to be printed
+	 * @param text		This is the array which is needed to be printed
+	 */
+	public static void printTextArray(String printText, byte[] text)
+	{
+		System.out.print(printText);
+		for (int i = 0; i < text.length; i++)
+		{
+			//used for styling the output
+			if (i % 8 == 0 && i != 0)
+			{
+				System.out.print(" ");
+			}
+			System.out.print(text[i]);
+		}
+		System.out.println();
+	}//End of printTextArray(String, byte[]) method
+	
+	
 }// End of class GeneralMethods

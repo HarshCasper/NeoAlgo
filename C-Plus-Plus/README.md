@@ -139,6 +139,7 @@
 - [Selection Sort](sort/selection_sort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+- [Sleep Sort](sort/sleep_sort.cpp)
 
 ## Stack based problems
 

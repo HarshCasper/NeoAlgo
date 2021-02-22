@@ -1,9 +1,18 @@
 # NOTE:-Works only sorted arrays.
+"""
+Time Complexity : O(√n)
+Auxiliary Space : O(1)
+SAMPLE INPUT line 1   1 2 3 4 5 6 7 8 9 10
+SAMPLE INPUT line 2   5
+SAMPLE OUTPUT     4
+"""
 import math
+
 
 # main function
 def jump_search(arr, search):
     """Takes in a sorted array arr and a value to search for"""
+    
     flag = 0
     interval = int(math.sqrt(len(arr)))
     for i in range(0, len(arr), interval):
@@ -32,10 +41,4 @@ if __name__ == "__main__":
     res = jump_search(ary, val)
     print(res)
 
-"""
-Time Complexity : O(√n)
-Auxiliary Space : O(1)
-SAMPLE INPUT line 1   1 2 3 4 5 6 7 8 9 10
-SAMPLE INPUT line 2   5
-SAMPLE OUTPUT     4
-"""
+

@@ -1,6 +1,7 @@
 package des;
 
 import des.exception.ValidationException;
+import des.general.GeneralMethods;
 import des.key.KeyGenerationModels;
 
 /**
@@ -74,53 +75,30 @@ public class DESController
 		desCryptographyModels.setKey(key);
 		
 		//printing plain text
-		System.out.println("Plain Text:");
-		for (int i = 0; i < plainText.length; i++)
-		{
-			//used for styling the output
-			if (i % 8 == 0 && i != 0)
-			{
-				System.out.print(" ");
-			}
-			System.out.print(plainText[i]);
-		}
-		System.out.println();
+		GeneralMethods.printTextArray("Plain Text: ",plainText);
 		
 		//created object of class DESCryptographyLogic which consists of encrypt and decrypt methods
 		DESCryptographyLogic desCryptographyLogic = new DESCryptographyLogic();
 		
 		//used to store cipher text
 		byte[] cipherText = new byte[64];
+		
+		//used to store the decrypted text
+		byte[] decryptedText = new byte[64];
+		
 		try
 		{
 			//calling encrypt method and storing cipher text of 64-bits in cipherText byte array
 			cipherText = desCryptographyLogic.encrypt(plainText, key, desCryptographyModels, keyGenerationModels);
-		}
-		catch (ValidationException e)
-		{
-			//printing error message
-			System.out.println(e.getMessage());
-		}
 		
-		//printing cipher text
-		System.out.println("Cipher Text:");
-		for (int i = 0; i < cipherText.length; i++)
-		{
-			//used for styling the output
-			if (i % 8 == 0 && i != 0)
-			{
-				System.out.print(" ");
-			}
-			System.out.print(cipherText[i]);
-		}
-		System.out.println();
+			//printing cipher text
+			GeneralMethods.printTextArray("Cipher Text: ",cipherText);
 		
-		//used to store the decrypted text
-		byte[] decryptedText = new byte[64];
-		try
-		{
 			//calling decrypt methods and storing decrypted of 64-bits text in decryptedText byte array
 			decryptedText = desCryptographyLogic.decrypt(cipherText, key, desCryptographyModels, keyGenerationModels);
+			
+			// Printing decrypted text
+			GeneralMethods.printTextArray("Decrypted Text: ",decryptedText);
 		}
 		catch (ValidationException e)
 		{
@@ -128,17 +106,7 @@ public class DESController
 			System.out.println(e.getMessage());
 		}
 		
-		// Printing decrypted text
-		System.out.println("Decrypted Text:");
-		for (int i = 0; i < decryptedText.length; i++)
-		{
-			// Used for styling the output
-			if (i % 8 == 0 && i != 0)
-			{
-				System.out.print(" ");
-			}
-			System.out.print(decryptedText[i]);
-		}
+
 		
 	}// End of main(String[]) method
 }// End of class DESController

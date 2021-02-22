@@ -1,5 +1,10 @@
 
-// This is a Java program  to find the longest palindromicsubstring from a word using dynamic programming approach
+/* This is a Java program  to find the longest palindromicsubstring from a word using dynamic programming approach
+
+Pallindromic substring means a part of a word which reads the same backward as forward.
+There may be more than one pallindromic substring in a word but this program gives the longest pallindromic
+substring in terms of length.
+*/
 import java.util.*;
  
 class PallindromicSubstr{

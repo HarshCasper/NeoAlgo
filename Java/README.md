@@ -69,6 +69,7 @@ _add list here_
 - [Reverse a string](cp/ReverseString.java)
 - [Implement Queue using Stack](cp/Queue_using_Stack.java)
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
+- [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 
 ## Cryptography
 
@@ -105,6 +106,7 @@ _add list here_
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
+- [AVL Tree](ds/AVL_Tree.java)
 
 ## Graphs
 

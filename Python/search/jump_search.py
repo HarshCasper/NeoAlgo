@@ -10,28 +10,23 @@ import math
 
 
 # main function
-def jump_search(arr, search):
+def jump_search_2(arr,search):
     """Takes in a sorted array arr and a value to search for"""
-    
-    flag = 0
     interval = int(math.sqrt(len(arr)))
-    for i in range(0, len(arr), interval):
-        if arr[i] > search:
-            chunk = i
-            flag = 1
-            break
-        if arr[i] == search:
+
+    ''' find last lowest element '''
+    for i in range(0,len(arr),interval):
+        if arr[i] < search:
+            low = i
+        elif arr[i] == search:
             return i
-    if flag == 0:
-        c = i
-        for j in arr[i:]:
-            if j == search:
-                return c
-            c += 1
-    else:
-        arr_ls = arr[chunk - interval : chunk]
-        ind = [i for i, d in enumerate(arr_ls) if d == search]
-        return chunk - interval + ind[0]
+        else:
+            break
+    ''' apply linear search '''
+    l_index = [e for e,i in enumerate(arr[low:low+interval]) if i == search]
+    if l_index[0]:
+        return low+l_index[0]
+    return "Not Found"
 
 
 # driver code
@@ -40,5 +35,3 @@ if __name__ == "__main__":
     val = int(input())
     res = jump_search(ary, val)
     print(res)
-
-

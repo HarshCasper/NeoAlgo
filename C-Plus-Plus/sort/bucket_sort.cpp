@@ -1,11 +1,13 @@
 /*
 Bucket sort is a sorting algorithm that works by distributing the elements of an array into a number of buckets.
-Each bucket is then sorted individually, either using a different sorting algorithm, 
-or by recursively applying the bucket sorting algorithm.
-I have used Insertion Sort to sort the individual Buckets.
+Each bucket is then sorted individually, either using a different sorting algorithm,
+or by recursively applying the bucket sorting algorithm.Bucket sort is mainly useful when input is uniformly distributed
+over a range. Bucket sort can be implemented with comparisons and therefore can also be considered a comparison sort algorithm.
 */
-#include<iostream>
-#include<vector>
+
+// Header file to include STL library
+#include<bits/stdc++.h>
+//For cin and cout
 using namespace std;
 
 //to sort the individual bucket
@@ -26,9 +28,10 @@ void Insertion_Sort(float arr[10][10],int n,int idx)
 
 void Bucket_Sort(float arr[20],int n)
 {
+    // Declare a 2D array of float numbers
 	float temp[10][10];
-	//count array stores the length of elements in the respective buckets  
-	int count[10]={0};	
+	//count array stores the length of elements in the respective buckets
+	int count[10]={0};
 	for(int i=0;i<n;i++)
 	{
 		int idx = arr[i]*10;
@@ -42,7 +45,7 @@ void Bucket_Sort(float arr[20],int n)
 			Insertion_Sort(temp,count[i],i);
 	}
 
-//to rewrite the values in array in sorted order
+    //to rewrite the values in array in sorted order
 	int i=0;
 	for(int j=0;j<10 && i<n;j++)
 	{
@@ -59,13 +62,15 @@ void Bucket_Sort(float arr[20],int n)
 
 int main()
 {
+    // Declare a variable to store no. of elements
 	int n;
+	// Declare an array of float numbers
 	float arr[20];
-	cout<<"\nEnter number of elements:";
+	cout<<"Enter number of elements :\n";
 	cin>>n;
 	for(int i=0;i<n;i++)
 	{
-		cout<<"\nEnter number:";
+		cout<<"Enter the elements:\n";
 		cin>>arr[i];
 	}
 	//loop to print original array
@@ -76,7 +81,7 @@ int main()
 	}
 	Bucket_Sort(arr, n);
 
-	cout<<"\nSorted array:\n";
+	cout<<"\nSorted array is \n";
 	//loop to print sorted array
 	for(int i=0;i<n;i++)
 	{
@@ -84,3 +89,23 @@ int main()
 	}
 	return 0;
 }
+
+/*
+Input:
+Enter the number of elements :
+4
+Enter the elements:
+0.123 0.008 0.7 0.4
+
+Output:
+Sorted array is
+0.008 0.123 0.4 0.7
+
+--------------------------------
+Time Complexities:
+O(n+k): average time complexity
+O(n²): worst time complexity
+
+Space Complexity: O(n+k)
+
+*/

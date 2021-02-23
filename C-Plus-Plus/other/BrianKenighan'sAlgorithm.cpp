@@ -1,4 +1,4 @@
- /* 
+/*
 This is a preferred approach to count no. of set bits of a digit.
 Brian Kernighan’s Algorithm:
 Concept -> If we subtract 1 from a decimal number, it will flip all the bits

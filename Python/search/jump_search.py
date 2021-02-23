@@ -1,5 +1,7 @@
 """
-The basic idea is to check fewer elements  by jumping ahead by fixed steps or skipping some elements in place of searching all elements.
+The basic idea is to check fewer elements 
+by jumping ahead by fixed steps 
+or skipping some elements in place of searching all elements.
 NOTE:-Works only sorted arrays.
 Time Complexity : O(√n)
 Auxiliary Space : O(1)

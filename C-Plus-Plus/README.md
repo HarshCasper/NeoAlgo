@@ -134,6 +134,7 @@
 - [Radix Sort](sort/radix_sort.cpp)
 - [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
 - [Selection Sort](sort/selection_sort.cpp)
+- [Selection Sort](sort/SelectionSort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 

@@ -1,4 +1,5 @@
 """
+The basic idea is to check fewer elements  by jumping ahead by fixed steps or skipping some elements in place of searching all elements.
 NOTE:-Works only sorted arrays.
 Time Complexity : O(√n)
 Auxiliary Space : O(1)
@@ -28,7 +29,7 @@ def jump_search(arr, search):
 
 # driver code
 if __name__ == "__main__":
-    ary = list(map(int, input().split()))
-    val = int(input())
+    ary = list(map(int, input("ENTER A SORTED ARRAY").split()))
+    val = int(input("ENETER THE VALUE TO SEARCH"))
     ans = jump_search(ary, val)
     print(ans)

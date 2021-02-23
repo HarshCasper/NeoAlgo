@@ -107,6 +107,7 @@
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
 - [Left view of Tree](graphs/left_view_of_tree.cpp)
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
+- [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
 
 
 ## Searching
@@ -138,6 +139,7 @@
 - [Selection Sort](sort/selection_sort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+- [Sleep Sort](sort/sleep_sort.cpp)
 
 ## Stack based problems
 

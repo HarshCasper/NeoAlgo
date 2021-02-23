@@ -25,6 +25,7 @@
 - [Dynamic Stack](ds/dynamic_queue.py)
 - [Dynamic Queue](ds/dynamic_queue.py)
 - [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
+- [AVL Tree](ds/AVL_Tree.py)
 
 ## Competitive Programming
 
@@ -51,6 +52,7 @@
 - [Vowels and consonants in a string](cp/VowelsConsonants.py)
 - [Letter Count in a word](cp/LetterCount.py)
 - [Rabin Karp algorithm](cp/RabinKarp.py)
+- [Cyclically Rotate Clockwise](cp/Cyclically_rotate.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -103,6 +105,7 @@
 - [Radix Sort](sort/Radix_Sort.py)
 - [Shell Sort](sort/Shell_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
+- [Sleep Sort](sort/Sleep_sort.py)
 
 
 ## Backtracking

@@ -7,87 +7,77 @@ over a range. Bucket sort can be implemented with comparisons and therefore can 
 
 // Header file to include STL library
 #include<bits/stdc++.h>
-//For cin and cout
+ //For cin and cout
 using namespace std;
 
 //to sort the individual bucket
-void Insertion_Sort(float arr[10][10],int n,int idx)
-{
-	for(int i=0;i<n;i++)
-	{	int k=i;
-		float temp=arr[idx][i];
-		while(k-1>=0 && arr[idx][k] < arr[idx][k-1])
-		{
-			arr[idx][k]=arr[idx][k-1];
-			k=k-1;
-		}
+void Insertion_Sort(float arr[10][10], int n, int idx) {
+  for (int i = 0; i < n; i++) {
+    int k = i;
+    float temp = arr[idx][i];
+    while (k - 1 >= 0 && arr[idx][k] < arr[idx][k - 1]) {
+      arr[idx][k] = arr[idx][k - 1];
+      k = k - 1;
+    }
 
-		arr[idx][k]=temp;
-	}
+    arr[idx][k] = temp;
+  }
 }
 
-void Bucket_Sort(float arr[20],int n)
-{
-    // Declare a 2D array of float numbers
-	float temp[10][10];
-	//count array stores the length of elements in the respective buckets
-	int count[10]={0};
-	for(int i=0;i<n;i++)
-	{
-		int idx = arr[i]*10;
-		temp[idx][count[idx]]=arr[i];
-		count[idx]++;
-	}
+void Bucket_Sort(float arr[20], int n) {
+  // Declare a 2D array of float numbers
+  float temp[10][10];
+  //count array stores the length of elements in the respective buckets
+  int count[10] = {
+    0
+  };
+  for (int i = 0; i < n; i++) {
+    int idx = arr[i] * 10;
+    temp[idx][count[idx]] = arr[i];
+    count[idx]++;
+  }
 
-	for(int i=0;i<10;i++)
-	{
-		if(count[i]>0)
-			Insertion_Sort(temp,count[i],i);
-	}
+  for (int i = 0; i < 10; i++) {
+    if (count[i] > 0)
+      Insertion_Sort(temp, count[i], i);
+  }
 
-    //to rewrite the values in array in sorted order
-	int i=0;
-	for(int j=0;j<10 && i<n;j++)
-	{
-		if(count[j]>0)
-		{
-			for(int k=0;k<count[j];k++)
-			{
-				arr[i]=temp[j][k];
-				i++;
-			}
-		}
-	}
+  //to rewrite the values in array in sorted order
+  int i = 0;
+  for (int j = 0; j < 10 && i < n; j++) {
+    if (count[j] > 0) {
+      for (int k = 0; k < count[j]; k++) {
+        arr[i] = temp[j][k];
+        i++;
+      }
+    }
+  }
 }
 
-int main()
-{
-    // Declare a variable to store no. of elements
-	int n;
-	// Declare an array of float numbers
-	float arr[20];
-	cout<<"Enter number of elements :\n";
-	cin>>n;
-	for(int i=0;i<n;i++)
-	{
-		cout<<"Enter the elements:\n";
-		cin>>arr[i];
-	}
-	//loop to print original array
-	cout<<"\n";
-	for(int i=0;i<n;i++)
-	{
-		cout<<"\t"<<arr[i];
-	}
-	Bucket_Sort(arr, n);
+int main() {
+  // Declare a variable to store no. of elements
+  int n;
+  // Declare an array of float numbers
+  float arr[20];
+  cout << "Enter number of elements :\n";
+  cin >> n;
+  for (int i = 0; i < n; i++) {
+    cout << "Enter the elements:\n";
+    cin >> arr[i];
+  }
+  //loop to print original array
+  cout << "\n";
+  for (int i = 0; i < n; i++) {
+    cout << "\t" << arr[i];
+  }
+  Bucket_Sort(arr, n);
 
-	cout<<"\nSorted array is \n";
-	//loop to print sorted array
-	for(int i=0;i<n;i++)
-	{
-		cout<<"\t"<<arr[i];
-	}
-	return 0;
+  cout << "\nSorted array is \n";
+  //loop to print sorted array
+  for (int i = 0; i < n; i++) {
+    cout << "\t" << arr[i];
+  }
+  return 0;
 }
 
 /*

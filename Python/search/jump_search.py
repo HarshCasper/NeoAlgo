@@ -24,7 +24,7 @@ def jump_search(arr, search):
             break
     l_index = [e for e, i in enumerate(arr[low:low+interval]) if i == search]
     if l_index[0]:
-        return low+l_index[0]
+        return low + l_index[0]
     return "Not Found"
 
 

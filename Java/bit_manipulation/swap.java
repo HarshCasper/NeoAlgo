@@ -4,23 +4,36 @@ public class swap {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter No a=");
 		int a=sc.nextInt();
+		System.out.println("Enter No a=");
 		int b=sc.nextInt();
 		//swapping 
 		a=a^b;
 		b=a^b;
 		a=a^b;
-		System.out.println(a);
-		System.out.println(b);
+		
+		System.out.println("Value in a after swap = "+ a);
+		System.out.println("Value in b after swap = " +b);
 
 	}
 }
 
+/*
+Enter No a=4
+Enter No b=8
+Value in a after swap=8
+Value in b after swap=4
+/*
 
-Example No1:- Let a=5 and b=10 
-	after xor operation output is a=10 and b=5 
-Example No2:- a=23 and b=5
-	after xor operation output is a=5 and b=23
-
+/*
+Enter No a=10
+Enter No b=20
+Value in a after swap=20
+Value in a after swap=10
+*/
+/*
 **Time Complexity **:- O(1) 
 **Space Complexity ** :- O(1)
+
+*/

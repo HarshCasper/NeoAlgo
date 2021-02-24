@@ -86,6 +86,8 @@
 - [Random select](search/random_select.py)
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
+- [Jump search](search/jump_search.py)
+
 
 
 ## Sorting
@@ -195,6 +197,7 @@
 - [Vigenere Cipher](cryptography/vigenere_cipher.py)
 - [RSA Algorithm](cryptography/RSA_Algorithm.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
+- [AES Algorithm](cryptography/AES.py)
 
 
 ## Machine Learning

@@ -97,6 +97,7 @@ _add list here_
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Queue Basic Functionalities](ds/queue.java)
+- [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 - [Queue](ds/Queuell.java)
 - [Segment Tree](ds/SegmentTree.java)

@@ -1,10 +1,12 @@
 /*The Boyer–Moore majority vote algorithm is an algorithm for finding the majority of a sequence of elements using linear time and constant space. */
 
+
 import java.util.*;
 
 public class MajorityVote {
 
 	// naive approach
+
 	public static void check(int arr[]) {
 		int count = 0;
 		for (int i = 0; i < arr.length - 1; i++) {
@@ -60,6 +62,7 @@ public class MajorityVote {
 			// Giving values to array arr
 			arr[i] = input.nextInt();
 		}
+
 		// Passing array to function
 		check(arr);
 		// using boyer-moore algorithm
@@ -70,9 +73,24 @@ public class MajorityVote {
 		else
 			System.out.println("There is no majority \n");
 
+
 	}
 
 }
+
+
+/*Enter Number of elements (Eg. 6) : 
+6
+Enter 6 Numbers:
+5
+5
+5
+5
+4
+2
+Number Occuring More than 'n/2'=5
+*/
+/*Time Complexity : o(n^2) , Space Complexity : o(1).*/
 
 /*
  * Naive method: 
@@ -88,3 +106,4 @@ public class MajorityVote {
  * 
  * Time complexity : O(n) Space complexity: O(1)
  */
+

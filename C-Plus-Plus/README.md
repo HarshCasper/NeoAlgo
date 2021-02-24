@@ -231,3 +231,5 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [BrianKenighan's Algorithm](other/BrianKenighan'sAlgorithm.cpp)
+- [Count Set Bits](other/CountSetBits.cpp)

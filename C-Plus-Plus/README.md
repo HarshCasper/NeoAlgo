@@ -144,6 +144,7 @@
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
+- [Queue by Stack Implementation](stack/QueuebyStack.cpp)
 
 ## Heap based problems
 

@@ -134,7 +134,6 @@
 - [Radix Sort](sort/radix_sort.cpp)
 - [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
 - [Selection Sort](sort/selection_sort.cpp)
-- [Selection Sort](sort/SelectionSort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 
@@ -231,5 +230,4 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
-- [Count Set Bits](other/countsetbits.cpp)
-- [BrianKenighan's Algorithm](BrianKenighan'sAlgorithm.cpp)
+

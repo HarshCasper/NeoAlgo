@@ -86,6 +86,8 @@
 - [Random select](search/random_select.py)
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
+- [Jump search](search/jump_search.py)
+
 
 
 ## Sorting

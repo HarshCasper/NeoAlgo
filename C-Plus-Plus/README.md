@@ -143,6 +143,8 @@
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
+- [Implementation of Stack Using Queues](stack/StackUsingQueues.cpp)
+- [Implementation of Queue Using Stacks](stack/QueueUsingStacks.cpp)
 
 ## Heap based problems
 
@@ -191,6 +193,7 @@ _add list here_
 - [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Longest Palindromic String](dp/LongestPalindromicString.cpp)
 
 ## Blockchain
 

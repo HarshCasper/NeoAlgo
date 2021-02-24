@@ -68,6 +68,8 @@ _add list here_
 - [Sort 2D Array](cp/Sort_2D_Array.java)
 - [Reverse a string](cp/ReverseString.java)
 - [Implement Queue using Stack](cp/Queue_using_Stack.java)
+- [Implement Stack using Queue](cp/Stack_using_Queue.java)
+- [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 
 ## Cryptography
 
@@ -95,6 +97,7 @@ _add list here_
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Queue Basic Functionalities](ds/queue.java)
+- [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 - [Queue](ds/Queuell.java)
 - [Segment Tree](ds/SegmentTree.java)
@@ -104,6 +107,7 @@ _add list here_
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
+- [AVL Tree](ds/AVL_Tree.java)
 
 ## Graphs
 
@@ -191,6 +195,8 @@ _add list here_
 ## Operating Systems
 - [Banker's Algorithm](Operating-System/banker.java)
 - [Memory Allocation in Operating Systems](Operating-System/alloc.java)
+- [Page Replacement Algorithms](Operating-System/allocate.java)
+- [Disk Scheduling Algorithms](Operating-System/MainDisc.java)
 
 ## Other
 

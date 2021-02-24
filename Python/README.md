@@ -195,6 +195,7 @@
 - [Vigenere Cipher](cryptography/vigenere_cipher.py)
 - [RSA Algorithm](cryptography/RSA_Algorithm.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
+- [AES Algorithm](cryptography/AES.py)
 
 
 ## Machine Learning

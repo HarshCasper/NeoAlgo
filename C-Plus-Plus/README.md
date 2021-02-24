@@ -192,7 +192,7 @@ _add list here_
 - [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
-
+- [Longest Palindrome String](dp/LongestPalindromeString.cpp)
 ## Blockchain
 
 _add list here_

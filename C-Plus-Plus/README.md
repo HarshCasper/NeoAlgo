@@ -230,4 +230,9 @@ _add list here_
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
+<<<<<<< HEAD
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+=======
+- [Unique_Number_III](other/Unique_Number_III.cpp)
+
+>>>>>>> selectionsort

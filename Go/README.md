@@ -16,6 +16,7 @@ _add list here_
 ## Sorting
 
 * [Bubble Sort](./sort/bubbleSort.go)
+* [Bucket Sort](./sort/bucketSort.go)
 * [Counting Sort](./sort/countingSort.go)
 * [Insertion Sort](./sort/insertionSort.go)
 * [Merge Sort](./sort/mergeSort.go)

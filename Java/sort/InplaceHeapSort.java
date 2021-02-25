@@ -16,13 +16,13 @@ public class InplaceHeapSort {
         static void heapify(int arr[], int n, int i) 
     { 
         int largest = i; // Initialize largest as root 
-        int l = 2*i + 1; // left = 2*i + 1 
-        int r = 2*i + 2; // right = 2*i + 2 
-         if (l < n && arr[l] < arr[largest]){ 
-            largest = l; 
+        int left = 2*i + 1; // left = 2*i + 1 
+        int right = 2*i + 2; // right = 2*i + 2 
+         if (left < n && arr[left] < arr[largest]){ 
+            largest = left; 
 	 }
-        if (r < n && arr[r] < arr[largest]){ 
-            largest = r; 
+        if (right < n && arr[right] < arr[largest]){ 
+            largest = right; 
 	}
         if (largest != i) 
         { 
@@ -33,8 +33,10 @@ public class InplaceHeapSort {
               } 
 	}
   }
-// Sample Input
-// 6 
-// 2 6 8 5 4 3
-// Sample Output
-// 8 6 5 4 3 2
+/*
+ Sample Input
+ 6 
+ 2 6 8 5 4 3
+ Sample Output
+ 8 6 5 4 3 2
+*/

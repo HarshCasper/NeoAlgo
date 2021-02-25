@@ -25,6 +25,7 @@
 - [Dynamic Stack](ds/dynamic_queue.py)
 - [Dynamic Queue](ds/dynamic_queue.py)
 - [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
+- [AVL Tree](ds/AVL_Tree.py)
 
 ## Competitive Programming
 
@@ -48,7 +49,10 @@
 - [Search Insert Position](cp/search_insert_position.py)
 - [Stock span problem](cp/stock_span.py)
 - [Bulb Switcher problem](cp/bulb_switcher.py)
+- [Vowels and consonants in a string](cp/VowelsConsonants.py)
+- [Letter Count in a word](cp/LetterCount.py)
 - [Rabin Karp algorithm](cp/RabinKarp.py)
+- [Cyclically Rotate Clockwise](cp/Cyclically_rotate.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -82,6 +86,8 @@
 - [Random select](search/random_select.py)
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
+- [Jump search](search/jump_search.py)
+
 
 
 ## Sorting
@@ -101,6 +107,7 @@
 - [Radix Sort](sort/Radix_Sort.py)
 - [Shell Sort](sort/Shell_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
+- [Sleep Sort](sort/Sleep_sort.py)
 
 
 ## Backtracking
@@ -190,6 +197,7 @@
 - [Vigenere Cipher](cryptography/vigenere_cipher.py)
 - [RSA Algorithm](cryptography/RSA_Algorithm.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
+- [AES Algorithm](cryptography/AES.py)
 
 
 ## Machine Learning
@@ -229,6 +237,7 @@
 - [Catalan Number](math/Catalan_Number.py)
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
+- [Palindrome](math/Palindrome.py)
 ## Blockchain
 
 _add list here_

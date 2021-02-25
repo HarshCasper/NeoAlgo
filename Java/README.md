@@ -197,6 +197,10 @@ _add list here_
 - [Memory Allocation in Operating Systems](Operating-System/alloc.java)
 - [Page Replacement Algorithms](Operating-System/allocate.java)
 - [Disk Scheduling Algorithms](Operating-System/MainDisc.java)
+- [CPU Scheduling Algorithm - FCFS](Operating-System/CPU_Scheduling_FCFS.java)
+- [CPU Scheduling Algorithm - RR](Operating-System/CPU_Scheduling_RR.java)
+- [CPU Scheduling Algorithm - SJF](Operating-System/CPU_Scheduling_SJF.java)
+- [CPU Scheduling Algorithm - SRTF](Operating-System/CPU_Scheduling_SRTF.java)
 
 ## Other
 

@@ -1,26 +1,23 @@
 /*
-You've heard of 0-N knapsack. Below
-is the problem statement for the same.
-Given two integer arrays val[0..n-1] 
-and wt[0..n-1] which represent values 
-and weights associated with n items
-respectively. Also given an integer
-cap which represents knapsack capacity,
-find out the maximum value subset of 
-val[] such that sum of the weights of 
-this subset is smaller than or equal 
-to cap. You cannot break an item, either
-pick the complete item,or don’t pick it
-(0-1 property).There is a little twist 
-for 0-N knapsack. You can pick an element
-more than once. Now you have to find 
-maximum value multi subset of val[]
-such that sum of the weights of this 
-subset is smaller than or equal to cap.
+It's an 0_N knapsack problem. In
+which, Given two integer arrays 
+val[0..n-1] and wt[0..n-1] which
+represent values and weights ass
+-ociated with n items respectively.
+Also given an integer cap which 
+represents knapsack capacity, find
+out the maximum value subset of 
+val[] such that sum of the weights
+of this subset is smaller than or
+equal to cap. You cannot break an 
+item, either pick the complete item,
+or don’t pick it (0-1 property).You
+can pick an element more than once.
 Note: Maximum value subset means the 
 subset with maximum sum of all the 
 values in subset.
 */
+
 #include <bits/stdc++.h>
 
 using namespace std;

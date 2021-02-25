@@ -47,13 +47,13 @@ void bead_sort(int *arr, int n){
 
 int main(void) {
 
-	int n,i,k;
+	int n, i, k;
 	printf("Enter the number of elements in the array : ");
 	scanf("%d",&n);
 
 	int nums[n];
 	printf("Enter the elements of the array : ");
-	for(i=0;i<n;i++){
+	for(i = 0; i < n; i++){
 	    scanf("%d",&nums[i]);
 	}
 

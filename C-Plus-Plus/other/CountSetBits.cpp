@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-unsigned int countSetBits(unsigned int n)
+int CountSetBits(unsigned int n)
 {
-    unsigned int count = 0;
-    while (n) {
+    int count;
+    while (n){
         count += n & 1;
         n >>= 1;
     }
@@ -16,7 +16,7 @@ int main()
     int n;
     cout << "Enter a number" << endl;
     cin >> n;
-    cout <<"The number of set bits or 1s is: " countSetBits(n);
+    cout <<"The number of set bits or 1s is: " << CountSetBits(n);
     return 0;
 }
 
@@ -24,5 +24,5 @@ int main()
 Sample Input: Enter a number
               9
 Sample Output: The number of set bits or 1s is: 2
-Time Complexity: (-)(logn) (Theta of logn)
+Time Complexity: (-)(logn)(Theta of logn)
 */

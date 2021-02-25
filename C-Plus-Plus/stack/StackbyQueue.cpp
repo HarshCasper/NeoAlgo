@@ -20,7 +20,7 @@ class Stack
 
 public:
     // Insert an item into the stack
-    void push(int data)
+    void push(int x)
     {
         // Move all elements from the first queue to the second queue
         while (!q1.empty()) {
@@ -29,7 +29,7 @@ public:
         }
 
         // Push the given item into the first queue
-        q1.push(data);
+        q1.push(x);
 
         // Move all elements back to the first queue from the second queue
         while (!q2.empty()) {
@@ -71,7 +71,7 @@ int main()
         s.push(key);
     }
     cout << "Elements after Stack Implementation using Queue"<<endl;
-    for (int i = 0; i <= keys.size(); i++) {
+    for (int i = 0; i < n; i++) {
         cout << s.pop() << '\n';
     }
 

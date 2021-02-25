@@ -1,3 +1,9 @@
+/*
+In selection sort algorithm, an array is divided into two parts : sorted and unsorted. In this algorithm. we contiuously find minimum element
+from unsorted part and we put it at beginning of the sorted subarray. 
+*/
+
+
 #include<iostream>
 using namespace std;
 void swapping(int &a, int &b) {         //swap the content of a and b
@@ -41,3 +47,20 @@ int main() {
    cout << "Array after Sorting: ";
    display(arr, n);
 }
+
+/*
+Sample Input: Enter the number of elements:
+              5
+              Enter elements:
+              3
+              1
+              -9
+              8
+              6
+Sammple Output: Array before Sorting 
+                 3 1 -9 8 6
+                Array after Sorting:
+                -9 1 3 6 8
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+*/

@@ -98,8 +98,9 @@ public class MaxPriorityQueue {
         return remove;
 	}
 }
-// Sample Input
-// 6 4 2 12 10 
-  
-// Sample Output
-// 12 10 8 6 4 2
+/*
+ Sample Input
+ 6 4 2 12 10 
+ Sample Output
+ 12 10 8 6 4 2
+*/

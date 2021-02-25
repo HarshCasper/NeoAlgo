@@ -1,7 +1,7 @@
 /*************************************************************
  Program to multiply two numbers using Russian peasant method
  Given two integers, write a function to multiply them without using multiplication operator.
- We double the first number and halve the second number repeatedly till the second number doesn’t become 1. 
+ We double the first number and halve the second number repeatedly till the second number doesnâ€™t become 1. 
 In the process, whenever the second number becomes odd, we add the first number to result.
 
  *************************************************************/
@@ -25,7 +25,7 @@ class RussianMultiplication
    product=product+num2;
   while(num1!=1)
   {
-	  //implementation of logic
+  //implementation of logic
    num1=num1>>1;
    num2=num2<<1;
    if(num1%2!=0)

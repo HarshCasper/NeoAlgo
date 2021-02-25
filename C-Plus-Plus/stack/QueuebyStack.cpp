@@ -1,6 +1,6 @@
 /*
-This method makes sure that oldest entered element is always at the top of stack 1, so that deQueue operation just pops from stack1.
-To put the element at top of stack1, stack2 is used. It makes enqueue operation costly in comparison to dequeue
+This method makes sure that oldest entered element is always at the top of stack 1, so that deQueue operation just pops from stack1 that folloe LIFO
+property of FIFO of queue.To put the element at top of stack1, stack2 is used. It makes enqueue operation costly in comparison to dequeue.
 */
 
 #include <bits/stdc++.h>
@@ -9,6 +9,7 @@ using namespace std;
 struct Queue {
     stack<int> s1, s2;
 
+    // Enqueue Operation
     void enQueue(int x)
     {
         // Move all elements from s1 to s2
@@ -27,7 +28,7 @@ struct Queue {
         }
     }
 
-    // Dequeue an item from the queue
+    // Dequeue Operation
     int deQueue()
     {
         // if first stack is empty

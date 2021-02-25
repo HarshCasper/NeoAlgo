@@ -8,74 +8,84 @@ over a range. Bucket sort can be implemented with comparisons and therefore can 
 package main
 
 import (
-	"container/heap"
-	"fmt"
+    "fmt"
+    "os"
+    "strconv"
 )
 
 func main() {
-	arr_i := []int{1, -1, 23, -2, 23, 123, 12, 1}
-	BucketSort(arr_i)
-	fmt.Println("Sorted array after BucketSort is :", arr_i)
+    var x int
+    fmt.Printf("Enter the size of the array : ")
+    fmt.Scan(&x)
+    fmt.Printf("Enter the elements of the array : ")
+    a := make([]float64, x)
+    for i := 0; i < x; i++ {
+        fmt.Scan(&a[i])
+    }
+ 
+	// A copy of the array 'a' is assigned to 'nums' 
+    nums := a    
+    for _, arg := range os.Args[1:] {
+        if n, err := strconv.ParseFloat(arg, 64); err == nil {
+            nums = append(nums, n)
+        }
+    }
+	
+    fmt.Printf("The array before sorting is %v\n", nums)
+    nums = bucketsort(nums, 5)
+    fmt.Printf("The array after sorting is %v\n", nums)
 }
 
-type IntArr []int
+func bucketsort(array []float64, bucketSize int) []float64 {
+    var maximum, minimum float64
+	
+    for _, n := range array {
+        if n < minimum {
+            minimum = n
+        }
+        if n > maximum {
+            maximum = n
+        }
+    }
+	
+    nBuckets := int(maximum-minimum) / bucketSize + 1
+    buckets := make([][]float64, nBuckets)
+    
+    for i := 0; i < nBuckets; i++ {
+        buckets[i] = make([]float64, 0)
+    }
 
-func (h IntArr) Len() int           { return len(h) }
-func (h IntArr) Less(i, j int) bool { return h[i] < h[j] }
-func (h IntArr) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+    for _, n := range array {
+        idx := int(n-minimum) / bucketSize
+        buckets[idx] = append(buckets[idx], n)
+    }
 
-func (h *IntArr) Push(x interface{}) {
-	*h = append(*h, x.(int))
-}
-
-func (h *IntArr) Pop() interface{} {
-	old := *h
-	n := len(old)
-	x := old[n-1]
-	*h = old[0 : n-1]
-	return x
-}
-
-func BucketSort(arr []int) {
-	bucket := make([]IntArr, 10)
-
-	max := arr[0]
-	for _, elem := range arr {
-		if elem > max {
-			max = elem
-		}
-	}
-
-	min := arr[0]
-	for _, elem := range arr {
-		if elem < min {
-			min = elem
-		}
-	}
-
-	width := (max-min)/10 + 1
-
-	for _, elem := range arr {
-		x := (elem - min) / width
-		heap.Push(&bucket[x], elem)
-	}
-
-	for i := 0; i < 10; i++ {
-		heap.Init(&bucket[i])
-	}
-
-	index := 0
-	for i := 0; i < 10; i++ {
-		for j := 0; j < len(bucket[i]); j++ {
-			arr[index] = heap.Pop(&bucket[i]).(int)
-			index++
-		}
-	}
+    sorted := make([]float64, 0)
+    
+    for _, bucket := range buckets {
+        if len(bucket) > 0 {
+            for i := 0; i < len(array); i++ {
+                temp := array[i]
+                j := i - 1
+                for ; j >= 0 && array[j] > temp; j-- {
+                    array[j + 1] = array[j]
+                }
+                array[j + 1] = temp
+            }
+            sorted = append(sorted, bucket...)
+        }
+    }
+    return sorted
 }
 
 /*
-Output:
-Sorted array after BucketSort is : [-2 -1 12 23 123 123 12 1]
+Input:
+Enter the size of the array : 5                                                                                              
+Enter the elements of the array : 21 8 5 33 90
+	
+Output :
+The array before sorting is [21 8 5 33 90]                                                                                           
+The array after sorting is [5 8 21 33 90] 
 	
 --------------------------------
 Time Complexities:

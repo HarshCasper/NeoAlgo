@@ -23,7 +23,6 @@ func main() {
         fmt.Scan(&a[i])
     }
  
-	// A copy of the array 'a' is assigned to 'nums' 
     nums := a    
     for _, arg := range os.Args[1:] {
         if n, err := strconv.ParseFloat(arg, 64); err == nil {

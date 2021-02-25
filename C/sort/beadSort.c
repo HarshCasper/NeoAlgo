@@ -57,7 +57,7 @@ int main(void) {
 	    scanf("%d",&nums[i]);
 	}
 
-    bead_sort(nums, n);
+	bead_sort(nums, n);
 
 	printf("The array elements after sorting are : ");
 	for (i = 0; i < n; i++)

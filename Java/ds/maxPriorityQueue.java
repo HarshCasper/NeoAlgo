@@ -1,6 +1,8 @@
-//Implementing the class for Max Priority Queue which includes the required functions......
+/*
+Implementing the class for Max Priority Queue which includes the required functions......
 //Max Priority Queue is a data structure which manage a list of values, it gives priority to element with maximum value i.e elements are inserted in the order 
-//in which they arrive the queue and the maximum value is always removed first from the queue.
+in which they arrive the queue and the maximum value is always removed first from the queue.
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 public class maxPriorityQueue {

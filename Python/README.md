@@ -25,6 +25,7 @@
 - [Dynamic Stack](ds/dynamic_queue.py)
 - [Dynamic Queue](ds/dynamic_queue.py)
 - [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
+- [AVL Tree](ds/AVL_Tree.py)
 
 ## Competitive Programming
 
@@ -51,6 +52,7 @@
 - [Vowels and consonants in a string](cp/VowelsConsonants.py)
 - [Letter Count in a word](cp/LetterCount.py)
 - [Rabin Karp algorithm](cp/RabinKarp.py)
+- [Cyclically Rotate Clockwise](cp/Cyclically_rotate.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -84,6 +86,8 @@
 - [Random select](search/random_select.py)
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
+- [Jump search](search/jump_search.py)
+
 
 
 ## Sorting
@@ -103,6 +107,7 @@
 - [Radix Sort](sort/Radix_Sort.py)
 - [Shell Sort](sort/Shell_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
+- [Sleep Sort](sort/Sleep_sort.py)
 
 
 ## Backtracking
@@ -125,6 +130,7 @@
 - [Edit Distance](dp/EditDistance.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Knapsack 0-1](dp/Knapsack_01.py)
+- [Knapsack Fractional](dp/Knapsack_fractional.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
@@ -192,6 +198,7 @@
 - [Vigenere Cipher](cryptography/vigenere_cipher.py)
 - [RSA Algorithm](cryptography/RSA_Algorithm.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
+- [AES Algorithm](cryptography/AES.py)
 
 
 ## Machine Learning

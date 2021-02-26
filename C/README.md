@@ -76,6 +76,7 @@
 
 ## Sorting
 
+- [Bead Sort](sort/beadSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)

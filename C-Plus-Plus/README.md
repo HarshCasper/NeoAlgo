@@ -107,7 +107,8 @@
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
 - [Left view of Tree](graphs/left_view_of_tree.cpp)
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
-
+- [Breadth First Search](graphs/BFS1.cpp)
+- [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
 
 ## Searching
 
@@ -124,6 +125,7 @@
 
 ## Sorting
 
+- [Bead Sort](sort/Bead_Sort.cpp)
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
@@ -138,6 +140,7 @@
 - [Selection Sort](sort/selection_sort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+- [Sleep Sort](sort/sleep_sort.cpp)
 
 ## Stack based problems
 
@@ -195,6 +198,7 @@ _add list here_
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
+- [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
 
 ## Blockchain
@@ -229,7 +233,7 @@ _add list here_
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
-- [Russian Peasant Algorithm](cp/RussianPeasant.cpp)
+- [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)

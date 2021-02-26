@@ -70,6 +70,7 @@ _add list here_
 - [Reverse a string](cp/ReverseString.java)
 - [Implement Queue using Stack](cp/Queue_using_Stack.java)
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
+- [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 
 ## Cryptography
 
@@ -97,6 +98,7 @@ _add list here_
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Queue Basic Functionalities](ds/queue.java)
+- [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 - [Queue](ds/Queuell.java)
 - [Segment Tree](ds/SegmentTree.java)
@@ -106,7 +108,10 @@ _add list here_
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
-- [Max. Priority Queue](ds/maxPriorityQueue.java)
+
+=======
+- [AVL Tree](ds/AVL_Tree.java)
+>>>>>>> master
 
 ## Graphs
 
@@ -196,6 +201,11 @@ _add list here_
 - [Banker's Algorithm](Operating-System/banker.java)
 - [Memory Allocation in Operating Systems](Operating-System/alloc.java)
 - [Page Replacement Algorithms](Operating-System/allocate.java)
+- [Disk Scheduling Algorithms](Operating-System/MainDisc.java)
+- [CPU Scheduling Algorithm - FCFS](Operating-System/CPU_Scheduling_FCFS.java)
+- [CPU Scheduling Algorithm - RR](Operating-System/CPU_Scheduling_RR.java)
+- [CPU Scheduling Algorithm - SJF](Operating-System/CPU_Scheduling_SJF.java)
+- [CPU Scheduling Algorithm - SRTF](Operating-System/CPU_Scheduling_SRTF.java)
 
 ## Other
 

@@ -3,36 +3,35 @@ package des;
 import des.general.GeneralMethods;
 
 /**
- * <h1>S-BOX</h1>
- * <p>
+ * S-BOX
+ * 
  * 		class SBoxLogic is a public class which acts as a logic class which helps to compress value through S-BOX
- * </p>
  */
 public class SBoxLogic
 {
 	/**
-	 * <p>
+	 * 
 	 * 		This is a public method which is used to compress value through S-BOX, this is done with the help of
 	 *		table S_BOX which is present in des.DESCryptographyModels.S_BOX
-	 * </p>
-	 * <b>Process</b>
-	 * <ul>
-	 * 		<li>First, a 6-bit value is taken with its respective index position (0-7)</li>
-	 * 		<li>
+	 * 
+	 * Process
+	 * 
+	 * 		First, a 6-bit value is taken with its respective index position (0-7)
+	 * 		
 	 * 			The first and last bit of the respective part are taken and converted to decimal number, this becomes the row
 	 * 			number
-	 * 		</li>
-	 * 		<li>
+	 * 		
+	 * 		
 	 * 			The middle 4 bits of the respective part are taken and converted to decimal number, this becomes the column
 	 * 			number
-	 * 		</li>
-	 * 		<li>
+	 * 		
+	 * 	
 	 * 			The row and column number are mapped with respective S-BOX and value at that particular index(row,column) is
 	 * 			taken
-	 * 		</li>
-	 * 		<li>The value which is retrieved from S-BOX is then converted to a 4-bit binary number</li>
-	 * 		<li>That 4-bits are then returned as a resultant compressed value</li>
-	 * </ul>
+	 * 		
+	 * 		The value which is retrieved from S-BOX is then converted to a 4-bit binary number
+	 * 		That 4-bits are then returned as a resultant compressed value
+	 * 
 	 * 
 	 * @param  value     This is the 6-bit value
 	 * @param  index     This is the index which lies between 0-7
@@ -95,13 +94,13 @@ public class SBoxLogic
 		
 		//returning the compressed value
 		return compressedValue;
-	}// End of compressBySBox(byte[],Integer,byte[][][]) method
+	}
 	
 	/**
-	 * <p>
+	 * 
 	 * 		This is a public method which is used to concatenate values of 8 S-BOXes each containing 4 bits which becomes total
 	 * 		32-bits
-	 * </p>
+	 * 
 	 * 
 	 * @param  values This contains 8 different S-BOXes value each containing 4-bits
 	 * 
@@ -127,5 +126,5 @@ public class SBoxLogic
 		}
 		//returning the concatenated output
 		return concatenatedSBoxValue;
-	}// End of concatenateSBoxValues(byte[][]) method
-}// End of class SBoxLogic
+	}
+}

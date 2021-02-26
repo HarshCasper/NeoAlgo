@@ -4,25 +4,22 @@ import des.DESCryptographyModels;
 import des.key.KeyGenerationModels;
 
 /**
- * <h1>Validation Logic</h1>
- * <p>
+ * Validation Logic
+ * 
  * 		class ValidatorLogic is a public class which acts as a main logic body for validation of
  * 		various models which are used in the algorithm.
- *</p>
+ *
  */
 public class ValidatorLogic
 {
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate initial permutation table.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 64 elements</li>
-	 * 		<li>Each element in the table must have an value between 1 to 64</li>	
-	 * </ul>
+	 * This is a private method which is used to validate initial permutation table.
 	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 64 elements
+	 * 		Each element in the table must have an value between 1 to 64	
 	 * 
 	 * @param  initialPermutationTable This is the initial permutation table
 	 * @return Boolean This is the flag which tells that the validation is successful or not
@@ -49,20 +46,18 @@ public class ValidatorLogic
 				}
 			}
 		}
-		
 		return validationStatus;
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate expansion table (32 to 48) table.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 48 elements</li>
-	 * 		<li>Each element in the table must have an value between 1 to 32</li>	
-	 * </ul>
+	 * This is a private method which is used to validate expansion table (32 to 48) table.
+	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 48 elements
+	 * 		Each element in the table must have an value between 1 to 32
+	 * 
 	 * 
 	 * @param partitionExpand32To48Table This is the partition expansion table
 	 * 
@@ -95,15 +90,13 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate S-BOX.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 8 elements, each element must have 64 elements</li>
-	 * 		<li>Each element in the table must have an value between 0 to 15</li>	
-	 * </ul>
+	 * This is a private method which is used to validate S-BOX.
+	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 8 elements, each element must have 64 elements
+	 * 		Each element in the table must have an value between 0 to 15
 	 * 
 	 * @param sBox	   	This is the S-BOX
 	 * @return Boolean	This is the flag which tells that the validation is successful or not
@@ -150,16 +143,14 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate P-BOX.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 32 elements</li>
-	 * 		<li>Each element in the table must have an value between 1 to 32</li>	
-	 * </ul>
+	 * This is a private method which is used to validate P-BOX.
 	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 32 elements
+	 * 		Each element in the table must have an value between 1 to 32	
+	 *
 	 * @param pBox	This is the P-BOX
 	 * @return 		Boolean This is the flag which tells that the validation is successful or not
 	 */
@@ -188,15 +179,13 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate inverse initial permutation table.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 64 elements</li>
-	 * 		<li>Each element in the table must have an value between 1 to 64</li>	
-	 * </ul>
+	 * This is a private method which is used to validate inverse initial permutation table.
+	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 64 elements
+	 * 		Each element in the table must have an value between 1 to 6
 	 *  
 	 * @param inverseInitialPermutationTable This is the inverse initial permutation table
 	 * @return Boolean This is the flag which tells that the validation is successful or not
@@ -228,16 +217,14 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate key compression table (64 to 56) table.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 56 elements</li>
-	 * 		<li>Each element in the table must have an value between 1 to 64</li>	
-	 * </ul>
-	 *  
+	 * This is a private method which is used to validate key compression table (64 to 56) table.
+	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 56 elements
+	 * 		Each element in the table must have an value between 1 to 64
+	 * 
 	 * @param keyCompressionTable64To56 This is the key compression table (64 to 56)
 	 * @return Boolean This is the flag which tells that the validation is successful or not
 	 */
@@ -268,14 +255,12 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate number of shifts table.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 16 elements</li>	
-	 * </ul> 
+	 * This is a private method which is used to validate number of shifts table.
+	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 16 elements
 	 * 
 	 * @param numberOfShiftsTable This is number of shifts table
 	 * @return Boolean This is the flag which tells that the validation is successful or not
@@ -294,15 +279,13 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate key compression table (56 to 48) table.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 48 elements</li>
-	 * 		<li>Each element in the table must have an value between 1 to 56</li>	
-	 * </ul>
+	 * This is a private method which is used to validate key compression table (56 to 48) table.
+	 * 
+	 * Validation Scheme
+	 *
+	 * 		The table must not be empty
+	 * 		The table must contain 48 elements
+	 * 		Each element in the table must have an value between 1 to 56
 	 *  
 	 * @param keyCompressionTable56To48 This is the key compression table (56 to 48)
 	 * @return Boolean This is the flag which tells that the validation is successful or not
@@ -334,15 +317,13 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate plain text.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 64 elements</li>
-	 * 		<li>Each element in the table must have an value 1 or 0</li>	
-	 * </ul>
+	 * This is a private method which is used to validate plain text.
+	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 64 elements
+	 * 		Each element in the table must have an value 1 or 0	
 	 *  
 	 * @param plainText This is the plain text
 	 * @return Boolean This is the flag which tells that the validation is successful or not
@@ -374,15 +355,13 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate original key.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 64 elements</li>
-	 * 		<li>Each element in the table must have an value 1 or 0</li>	
-	 * </ul>
+	 * This is a private method which is used to validate original key.
+	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 64 elements
+	 * 		Each element in the table must have an value 1 or 0
 	 * 
 	 * @param key This is the original key
 	 * @return Boolean This is the flag which tells that the validation is successful or not
@@ -414,15 +393,14 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to validate cipher text.
-	 * </p>
-	 * <b>Validation Scheme</b>
-	 * <ul>
-	 * 		<li>The table must not be empty</li>
-	 * 		<li>The table must contain 64 elements</li>
-	 * 		<li>Each element in the table must have an value 1 or 0</li>	
-	 * </ul>
+	 * This is a private method which is used to validate cipher text.
+	 * 
+	 * Validation Scheme
+	 * 
+	 * 		The table must not be empty
+	 * 		The table must contain 64 elements
+	 * 		Each element in the table must have an value 1 or 0
+	 * 
 	 *  
 	 * @param cipherText This is the cipher text
 	 * @return Boolean This is the flag which tells that the validation is successful or not
@@ -455,23 +433,22 @@ public class ValidatorLogic
 	
 	// main validator
 	/**
-	 * <p>
+	 * 
 	 * 		This is a public method which is used to validate models/tables/texts at the initial stage, before cipher text is calculated
 	 * 		this method is used when plain text and key is passed to the encrypt.
-	 * </p>
-	 * <b>List of models validated</b>
-	 * <ul>
-	 * 		<li>Original Key</li>
-	 * 		<li>Plain Text</li>
-	 * 		<li>Key Compression (56 to 48)</li>
-	 * 		<li>Number of Shifts</li>
-	 * 		<li>Key Compression (64 to 56)</li>
-	 * 		<li>Inverse Initial Permutation</li>
-	 * 		<li>P-BOX</li>
-	 * 		<li>S-BOX</li>
-	 * 		<li>Expansion table (32 to 48)</li>
-	 * 		<li>Initial permutation table</li>
-	 * </ul>
+	 * 
+	 * List of models validated
+	 * 
+	 * 		Original Key
+	 * 		Plain Text
+	 * 		Key Compression (56 to 48)
+	 * 		Number of Shifts
+	 * 		Key Compression (64 to 56)
+	 * 		Inverse Initial Permutation
+	 * 		P-BOX
+	 * 		S-BOX
+	 * 		Expansion table (32 to 48)
+	 * 		Initial permutation table
 	 * 
 	 * @param plainText				This is the plain text
 	 * @param key					This is the original key	
@@ -483,16 +460,16 @@ public class ValidatorLogic
 	{
 		StringBuilder validationString = new StringBuilder();
 		
-		Boolean	keyValidationStatus								= validateOriginalKey(key);
-		Boolean	plainTextValidationStatus						= validatePlainText(plainText);
-		Boolean	keyCompressionTable56To48ValidationStatus		= validateKeyCompressionTable56To48(keyGenerationModels.getKEY_COMPRESS_56_TO_48());
-		Boolean	numberOfShiftsTableValidationStatus				= validateNumberOfShiftsTable(keyGenerationModels.getNUMBER_OF_SHIFTS());
-		Boolean	keyCompressionTable64To56ValidationStatus		= validateKeyCompressionTable64To56(keyGenerationModels.getKEY_COMPRESS_64_TO_56());
+		Boolean	keyValidationStatus				= validateOriginalKey(key);
+		Boolean	plainTextValidationStatus			= validatePlainText(plainText);
+		Boolean	keyCompressionTable56To48ValidationStatus	= validateKeyCompressionTable56To48(keyGenerationModels.getKEY_COMPRESS_56_TO_48());
+		Boolean	numberOfShiftsTableValidationStatus		= validateNumberOfShiftsTable(keyGenerationModels.getNUMBER_OF_SHIFTS());
+		Boolean	keyCompressionTable64To56ValidationStatus	= validateKeyCompressionTable64To56(keyGenerationModels.getKEY_COMPRESS_64_TO_56());
 		Boolean	inverseInitialPermutationTableValidationStatus	= validateInverseInitialPermutationTable(desCryptographyModels.getINVERSE_INITIAL_PERMUTATION());
-		Boolean	pBoxValidationStatus							= validatePBox(desCryptographyModels.getP_BOX());
-		Boolean	sBoxValidationStatus							= validateSBox(desCryptographyModels.getSBOX());
-		Boolean	partitionExpansion32To48ValidationStatus		= validatePartitionExpansionTable32To48(desCryptographyModels.getPARTITION_EXPAND_32_TO_48());
-		Boolean	initialPermutationTableValidationStatus			= validateInitialPermutationTable(desCryptographyModels.getINITIAL_PERMUTATION());
+		Boolean	pBoxValidationStatus				= validatePBox(desCryptographyModels.getP_BOX());
+		Boolean	sBoxValidationStatus				= validateSBox(desCryptographyModels.getSBOX());
+		Boolean	partitionExpansion32To48ValidationStatus	= validatePartitionExpansionTable32To48(desCryptographyModels.getPARTITION_EXPAND_32_TO_48());
+		Boolean	initialPermutationTableValidationStatus		= validateInitialPermutationTable(desCryptographyModels.getINITIAL_PERMUTATION());
 		
 		if (!keyValidationStatus)
 		{
@@ -539,9 +516,7 @@ public class ValidatorLogic
 	}
 	
 	/**
-	 * <p>
-	 * 		This is a public method which is used to validate the cipher text given for decryption.
-	 * </p>
+	 * This is a public method which is used to validate the cipher text given for decryption.
 	 * 
 	 * @param cipherText	This is the cipher text
 	 * @return				String error message, which indicates error in a particular model, if no such error found it is passed empty

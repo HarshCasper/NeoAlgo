@@ -1,7 +1,7 @@
 package des.key;
 
 /**
- *<h1>DES Key Generation Models</h1>
+ *DES Key Generation Models
  */
 public class KeyGenerationModels
 {
@@ -50,9 +50,7 @@ public class KeyGenerationModels
 	};
 
 	/**
-	 * <p>
-	 * 		This is a public method which is used to get key compression table 64-bits to 56-bits
-	 * </p>
+	 * This is a public method which is used to get key compression table 64-bits to 56-bits
 	 * 
 	 * @return	byte[] key compression table(64-bits to 56-bits)
 	 */
@@ -62,9 +60,7 @@ public class KeyGenerationModels
 	}
 
 	/**
-	 * <p>
-	 * 		This is a public method which is used to get number of shifts table
-	 * </p>
+	 * This is a public method which is used to get number of shifts table
 	 * 
 	 * @return	byte[] number of shifts table
 	 */
@@ -74,9 +70,7 @@ public class KeyGenerationModels
 	}
 
 	/**
-	 * <p>
-	 * 		This is a public method which is used to get key compression table 56-bits to 48-bits
-	 * </p>
+	 * This is a public method which is used to get key compression table 56-bits to 48-bits
 	 * 
 	 * @return	byte[] key compression table (56-bits to 48-bits)
 	 */

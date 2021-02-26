@@ -1,4 +1,15 @@
 //Program to swap two numbers using bit manipulation.
+/*
+XOR operation can be defined as 
+a	b	a^b
+0	0	0
+0	1	1
+1	0	1
+1	1	1
+
+
+
+*/
 import java.util.Scanner;
 public class swap {
 

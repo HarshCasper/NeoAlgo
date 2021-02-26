@@ -1,18 +1,18 @@
 package des;
 
 /**
- * <h1>P-BOX</h1>
- * <p>
+ * P-BOX
+ * 
  * 		class PBoxLogic is a public class which acts as a logic class which helps to permute through P-BOX
- * </p>
+ * 
  */
 public class PBoxLogic
 {
 	/**
-	 * <p>
+	 * 
 	 * 		This is a public method which is used to permute value through P-BOX, this is done with the help of table P_BOX which
 	 * 		is present in des.DESCryptographyModels.P_BOX
-	 * </p>
+	 * 
 	 * 
 	 * @param  value     This is a 32-bit value
 	 * @param  pBoxTable This is the P-BOX
@@ -37,5 +37,5 @@ public class PBoxLogic
 		
 		//returning P-BOX permuted value, it can
 		return permutedByPBox;
-	}// End of permuteByPBox(byte[],byte[]) method
-}// End of class PBoxLogic
+	}
+}

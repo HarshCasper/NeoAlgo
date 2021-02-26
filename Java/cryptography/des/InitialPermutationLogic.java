@@ -1,19 +1,19 @@
 package des;
 
 /**
- * <h1>Initial Permutation</h1>
- * <p>
+ * Initial Permutation
+ * 
  * 		class InitialPermutationLogic is a public class which acts as a logic class which helps to permute through initial
  * 		permutation
- * </p>
+ * 
  */
 public class InitialPermutationLogic
 {
 	/**
-	 * <p>
+	 * 
 	 * 		This is a public method which is used to permute value through initial permutation, this is done with the help of
 	 * 		table INITIAL_PERMUTATION which is present in des.DESCryptographyModels.INITIAL_PERMUTATION
-	 * </p>
+	 * 
 	 * 
 	 * @param  value                   This is a 64-bit value
 	 * @param  initialPermutationTable This is the initial permutation table
@@ -37,5 +37,5 @@ public class InitialPermutationLogic
 		}
 		//returning initial permuted value
 		return initialPermutation;
-	}// End of initialPermutation(byte[],byte[]) method
-}// End of class InitialPermutationLogic
+	}
+}

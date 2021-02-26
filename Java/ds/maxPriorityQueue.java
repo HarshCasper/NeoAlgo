@@ -103,13 +103,13 @@ public class maxPriorityQueue {
        int size = array.size();
  
        Heap h = new Heap();
-       h.insert(array, 3);
+       h.insert(array, 6);
        h.insert(array, 4);
-       h.insert(array, 9);
-       h.insert(array, 5);
        h.insert(array, 2);
+       h.insert(array, 12);
+       h.insert(array, 10);
 
-      System.out.println("Max-Heap array: ");
+      System.out.println("Max: ");
       h.printArray(array, size);
    }
 }

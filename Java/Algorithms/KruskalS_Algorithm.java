@@ -15,7 +15,7 @@ class Edge implements Comparable<Edge>{
 		return this.weight - o.weight;  
         	}
       }
-public class Kruskals_Algorithm {
+public class KruskalS_Algorithm {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
                 int Vertices = scan.nextInt();

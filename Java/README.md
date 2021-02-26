@@ -10,13 +10,13 @@
 # Codes in the Java language
 
 ## Algorithms
-
+- [Kruskal's Algorithm](Algorithms/KruskalS_Algorithm.java)
+- [Prim Algorithm](Algorithms/Prim_Algorithm.java
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
-- [Kruskals_Algorithm](Algorithms/Kruskals_Algorithm.java)
-- [Prims_Algorithm](Algorithms/Prims_Algorithm.java)
+
 
 ## Greedy Algorithms
 

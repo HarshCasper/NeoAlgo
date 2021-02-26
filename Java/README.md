@@ -15,8 +15,7 @@
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
-- [Kruskals_Algorithm](Algorithms/Kruskals_Algorithm.java)
-- [Prims_Algorithm](Algorithms/Prims_Algorithm.java)
+
 
 ## Greedy Algorithms
 

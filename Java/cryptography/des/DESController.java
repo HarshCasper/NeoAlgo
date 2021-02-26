@@ -5,36 +5,31 @@ import des.general.GeneralMethods;
 import des.key.KeyGenerationModels;
 
 /**
- * <h1>Data Encryption Standard</h1>
- * <p>
+ * Data Encryption Standard
+ * 
  * 		To Implement Data Encryption Standard Symmetric Key Cryptography algorithm with 64-bit plain text and 64-bit cipher
  * 		text
- * </p>
- * <b>Description</b>
- * <p>
+ * 
+ * Description
+ * 
  * 		class DESController is a public class which acts as a controller, it is used to call cryptography methods of
  * 		DESCryptography class, the DES algorithm is the most widely used encryption algorithm in the world, DES has been
  * 		found vulnerable/breakable against many attacks, reflecting it's a decline in popularity but despite this DES will
  * 		live in many government and banking for years, due to its successor algorithms Triple-DES, AES, etc.
- * </p>
- * <b>Reference for understanding the algorithm</b>
- * <p>
- * 		<a href="http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm"> The DES Algorithm Illustrated </a>
- * </p>
+ * 
+ * Reference for understanding the algorithm
+ * http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm
+ * 
  */
 public class DESController
 {
 	/**
 	 * This is the main method which makes use of the following methods:
-	 * <ul>
-	 * 		<li>DESCryptographyLogic.encrypt</li>
-	 * 		<li>DESCryptographyLogic.decrypt</li>
-	 * </ul>
+	 * DESCryptographyLogic.encrypt
+	 * DESCryptographyLogic.decrypt
 	 * 
 	 * And uses the following objects of types:
-	 * <ul>
-	 * 		<li>DESCryptographyLogic</li>
-	 * </ul>
+	 * DESCryptographyLogic
 	 * 
 	 * @param args not used
 	 */
@@ -108,8 +103,8 @@ public class DESController
 		
 
 		
-	}// End of main(String[]) method
-}// End of class DESController
+	}
+}
 
 /*
  * OUTPUT:

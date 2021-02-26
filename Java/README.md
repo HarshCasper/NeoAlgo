@@ -108,9 +108,8 @@ _add list here_
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
-
-=======
 - [AVL Tree](ds/AVL_Tree.java)
+- [Max Priority Queue](ds/maxPriorityQueue.java)
 >>>>>>> master
 
 ## Graphs

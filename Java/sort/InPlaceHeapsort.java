@@ -1,5 +1,7 @@
-//Given an integer array of size n, sorting it using Heap Sort in descending order.
-//In-place: Those sorting algorithm which do not require extra space.
+/*
+Given an integer array of size n, sorting it using Heap Sort in descending order.
+In-place: Those sorting algorithm which do not require extra space.
+*/
 public class InPlaceHeapsort {
 	public static void inplaceHeapSort(int arr[]) {
 	 int n = arr.length; 

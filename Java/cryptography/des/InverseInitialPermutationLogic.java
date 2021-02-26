@@ -1,19 +1,19 @@
 package des;
 
 /**
- * <h1>Inverse Initial Permutation</h1>
- * <p>
+ * Inverse Initial Permutation
+ * 
  * 		class InverseInitialPermutationLogic is a public class which acts as a logic class which helps to permute through
  * 		inverse initial permutation
- * </p>
+ * 
  */
 public class InverseInitialPermutationLogic
 {
 	/**
-	 * <p>
+	 * 
 	 * 		This is a public method which is used to permute value through inverse initial permutation, this is done with the
 	 * 		help of table INVERSE_INITIAL_PERMUTATION which is present in des.DESCryptographyModels.INVERSE_INITIAL_PERMUTATION
-	 * </p>
+	 * 
 	 * 
 	 * @param  value                          This is a 64-bit value
 	 * @param  inverseInitialPermutationTable This is the inverse initial permutation table
@@ -38,5 +38,5 @@ public class InverseInitialPermutationLogic
 		
 		//returning inverse initial permuted value
 		return inverseInitialPermutation;
-	}// End of inverseInitialPermutation(byte[],byte[]) method
-}// End of class InverseInitialPermutationLogic
+	}
+}

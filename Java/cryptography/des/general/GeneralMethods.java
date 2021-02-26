@@ -1,18 +1,14 @@
 package des.general;
 
 /**
- * <p>
  * 		class GeneralMethods is a public class which is used for providing general methods which can be used in different
  * 		modules in the algorithm, this class consists a couple of methods which are helpful in various parts of the
  * 		algorithm.
- * </p>
  */
 public class GeneralMethods
 {
 	/**
-	 * <p>
-	 * 		This is a public method which is used to generate and return XORed values of byte arrays
-	 * </p>
+	 * This is a public method which is used to generate and return XORed values of byte arrays
 	 * 
 	 * @param  arrayOne This is an array which is needed to be XORed
 	 * @param  arrayTwo This is an array which is needed to be XORed
@@ -31,12 +27,10 @@ public class GeneralMethods
 			}
 		}
 		return xoredArray;
-	}// End of xorArray(byte[] , byte[]) method
+	}
 	
 	/**
-	 * <p>
-	 * 		This is a public method which is used to convert binary number into its decimal equivalent
-	 * </p>
+	 * This is a public method which is used to convert binary number into its decimal equivalent
 	 * 
 	 * @param  binaryNumber This is the binary number
 	 * 
@@ -51,12 +45,10 @@ public class GeneralMethods
 			decimalNumber += binaryCharacter * (int) Math.pow(2, (binaryNumber.length() - 1) - i);
 		}
 		return decimalNumber;
-	}// End of convertBinaryToDecimal(String) method
+	}
 	
 	/**
-	 * <p>
-	 * 		This is a public method which is used to convert decimal number into its 4-bit binary equivalent
-	 * </p>
+	 * This is a public method which is used to convert decimal number into its 4-bit binary equivalent
 	 * 
 	 * @param  decimalNumber This is the decimal number
 	 * 
@@ -100,12 +92,10 @@ public class GeneralMethods
 			binaryNumber.insert(0, placeholdingBits.toString());
 		}
 		return binaryNumber.toString();
-	}// End of convertDecimalToBinary(Integer) method
+	}
 	
 	/**
-	 * <p>
-	 * 		This is a public method which is used to perform shift left operation on elements of an array
-	 * </p>
+	 * This is a public method which is used to perform shift left operation on elements of an array
 	 * 
 	 * @param  value          This is the array whose elements needed to be shifted
 	 * @param  numberOfShifts This is the number of times the elements should be shifted
@@ -130,13 +120,11 @@ public class GeneralMethods
 		}
 		
 		return shiftedValue;
-	}// End of shiftLeft(byte[] , int) method
+	}
 	
 	
 	/**
-	 * <p>
-	 * 		This is a static public method which is used to print text arrays like plain text, cipher text and decrypted text
-	 * </p>
+	 * This is a static public method which is used to print text arrays like plain text, cipher text and decrypted text
 	 * 
 	 * @param printText	This is an additional text if needed to be printed
 	 * @param text		This is the array which is needed to be printed
@@ -154,7 +142,5 @@ public class GeneralMethods
 			System.out.print(text[i]);
 		}
 		System.out.println();
-	}//End of printTextArray(String, byte[]) method
-	
-	
-}// End of class GeneralMethods
+	}	
+}

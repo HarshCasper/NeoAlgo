@@ -107,6 +107,7 @@ _add list here_
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
+- [Max. Priority Queue](ds/maxPriorityQueue.java)
 
 ## Graphs
 
@@ -186,6 +187,7 @@ _add list here_
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 - [Shell Sort](sort/ShellSort.java)
 - [Sleep Sort](sort/SleepSort.java)
+- [In-Place Heap sort](sort/InPlaceHeapsort.java)
 
 ## Machine Learning
 

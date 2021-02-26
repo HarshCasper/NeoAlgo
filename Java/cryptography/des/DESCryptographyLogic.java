@@ -7,25 +7,22 @@ import des.key.KeyGenerator;
 import des.validator.ValidatorLogic;
 
 /**
- * <h1>Data Encryption Standard</h1> 
- * <b>Description</b>
- * <p>
+ * Data Encryption Standard 
+ * Description
+ * 
  * 		class DESCryptographyLogic is a public class which acts as the main logic body, DESCryptographyLogic has many public
  * 		and private methods which functions interoperable with other methods to complete the whole algorithm.
- * </p>
- *
+ * 
  */
 public class DESCryptographyLogic
 {
 	/**
-	 * <p>
-	 * 		This is a private method which is used to generate left partition of initial permuted text
-	 * </p>
-	 * <b>Description</b>
-	 * <p>
+	 * This is a private method which is used to generate left partition of initial permuted text
+	 * Description
+	 * 
 	 * 		Once the initial permutation is completed the 64-bit permuted text is needed to be divided in 2 parts, the current
 	 * 		method helps in generating left part of the respective which is of 32-bits.
-	 * </p>
+	 * 
 	 * 
 	 * @param  initialPermutationText This is the initial permuted text of 64-bits
 	 * 
@@ -48,17 +45,15 @@ public class DESCryptographyLogic
 		}
 		//returning generated left partition
 		return leftPartition;
-	}//End of generateLeftPartition(byte[]) method
+	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to generate right partition of initial permuted text
-	 * </p>
-	 * <b>Description</b>
-	 * <p>
+	 * This is a private method which is used to generate right partition of initial permuted text
+	 * Description
+	 * 
 	 * 		Once the initial permutation is completed the 64-bit permuted text is needed to be divided in 2 parts, the current
 	 * 		method helps in generating right part of the respective which is of 32-bits.
-	 * </p>
+	 * 
 	 * 
 	 * @param  initialPermutationText This is the initial permuted text of 64-bits
 	 * 
@@ -81,19 +76,17 @@ public class DESCryptographyLogic
 		}
 		//returning generated right partition
 		return rightPartition;
-	}//End of generateRightPartition(byte[]) method
+	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to expand the created partitions from 32-bits to 48-bits
-	 * </p>
-	 * <b>Description</b>
-	 * <p>
+	 * This is a private method which is used to expand the created partitions from 32-bits to 48-bits
+	 * Description
+	 * 
 	 *		Once the partitions are been created they are needed to be expanded from 32-bit to 48-bit text, this is done with the
 	 * 		help of "PARTITION_EXPAND_32_TO_48" table which is also called as "E BIT-SELECTION TABLE". The expansion is done of
 	 * 		the right partition as the key is of 48-bits and the right partition is needed to be XORed with the key in upcoming
 	 * 		modules of the respective algorithm.
-	 * </p>
+	 * 
 	 * 
 	 * @param  partition                  This is 32-bit partition (right partition)
 	 * 
@@ -118,51 +111,48 @@ public class DESCryptographyLogic
 		}
 		//returning generated 48-bit partition
 		return expandedPartition;
-	}//End of expandPartician32To48(byte[],byte[]) method
+	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used as a main entity in DES algorithm, this method is used for encryption and
-	 * 		decryption both
-	 * </p>
-	 * <b>Description</b>
-	 * <p>
+	 * This is a private method which is used as a main entity in DES algorithm, this method is used for encryption and
+	 * decryption both
+	 * Description
+	 * 
 	 * 		This method plays an important role in DES algorithm, this method is used for both encryption and decryption, there
 	 * 		are many phases/steps which are performed in this method which fulfills the need of the respective algorithm, this
 	 * 		method or module in DES is also called as "function f".
-	 * </p>
-	 * <b>Process</b>
-	 * <p>
+	 * 
+	 *Process
+	 * 
 	 * 		This method is called 16 times while performing encryption and decryption.
-	 * </p>
-	 * <ul>
-	 * 		<li>First, right partition and key of the respective iteration is taken</li>
-	 * 		<li>Then, the right partition which is of 32-bits is expanded to 48-bits</li>
-	 * 		<li>Then, XOR operation is performed between the expanded 48-bit right partition and key</li>
-	 * 		<li>Then, the 48-bit resulting XOR is divided into 8 parts each part consists of 6-bits</li>
-	 * 		<li>Then, every 8 parts are compressed to 4-bits from 6-bits using S-BOX
-	 * 			<ul>
-	 * 				<li>There are total 8 S-BOXES for each part one S-BOX, each S-BOX consists of 16 columns and 4 rows</li>
-	 * 				<li>
+	 * 
+	 * 
+	 * 		First, right partition and key of the respective iteration is taken
+	 * 		Then, the right partition which is of 32-bits is expanded to 48-bits
+	 * 		Then, XOR operation is performed between the expanded 48-bit right partition and key
+	 * 		Then, the 48-bit resulting XOR is divided into 8 parts each part consists of 6-bits
+	 * 		Then, every 8 parts are compressed to 4-bits from 6-bits using S-BOX
+	 * 			
+	 * 				There are total 8 S-BOXES for each part one S-BOX, each S-BOX consists of 16 columns and 4 rows
+	 * 				
 	 * 					The first and last bit of the respective part are taken and converted to decimal number, this becomes the row
 	 * 					number
-	 * 				</li>
-	 * 				<li>
+	 * 				
+	 * 				
 	 * 					The middle 4 bits of the respective part are taken and converted to decimal number, this becomes the column
 	 * 					number
-	 * 				</li>
-	 * 				<li>The row and column number are mapped with respective S-BOX and value at that particular index is taken</li>
-	 * 				<li>The value which is retrieved from S-BOX is then converted to a 4-bit binary number</li>
-	 * 				<li>That 4-bit binary number is then used as the bits in the respective part</li>
-	 * 			</ul>
-	 * 		</li>
-	 * 		<li>
+	 * 				
+	 * 				The row and column number are mapped with respective S-BOX and value at that particular index is taken
+	 * 				The value which is retrieved from S-BOX is then converted to a 4-bit binary number
+	 * 				That 4-bit binary number is then used as the bits in the respective part
+	 * 			
+	 * 		
+	 * 		
 	 * 			After the 8 parts of 6 bits are compressed to 8 parts of 4 bits, they are concatenated which makes it total
 	 * 			32-bit
-	 * 		</li>
-	 * 		<li>The concatenated bits are then permuted through P-BOX</li>
-	 * 		<li>The permuted value is then returned</li>
-	 * </ul>
+	 * 		
+	 * 		The concatenated bits are then permuted through P-BOX
+	 * 		The permuted value is then returned
 	 * 
 	 * @param  rightPartician        This is 32-bit right partition
 	 * @param  key                   This is 48-bit key
@@ -222,19 +212,16 @@ public class DESCryptographyLogic
 		
 		//returning permuted value
 		return permutedValueByPBox;
-	}// End of functionF(byte[],byte[],DESCryptographyModels) method
+	}
 	
 	/**
-	 * <p>
-	 * 		This is a private method which is used to generate pre-inverse initial permutation value
-	 * </p>
-	 * <b>Description</b>
-	 * <p>
+	 * This is a private method which is used to generate pre-inverse initial permutation value
+	 * Description
+	 * 
 	 * 		Before proceeding to inverse initial permutation a final step needs to be completed, to generate this value the
 	 * 		requirement is that we have generated R16 and L16 (17th right partition and 17th left partition, (0-16)), to
 	 * 		concatenate both partitions, we first need to add 32-bits of right partition in first 32-bits of concatenated value,
 	 * 		then 32-bits of left partition to last 32-bits of concatenated value.
-	 * </p>
 	 * 
 	 * @param  leftPartition  This is 32-bit left partition L16
 	 * @param  rightPartition This is 32-bit right partition R16
@@ -262,31 +249,28 @@ public class DESCryptographyLogic
 		}
 		//returning pre-inverse initial permuted value
 		return finalValue;
-	}// End of generatePreInverseInitialPermutationText(byte[],byte[]) method
+	}
 	
 	/**
-	 * <p>
-	 * 		This is a public method which is used to encrypt 64-bit plain text using Data Encryption Standard Algorithm
-	 * </p>
-	 * <b>Description</b>
-	 * <p>
+	 * This is a public method which is used to encrypt 64-bit plain text using Data Encryption Standard Algorithm
+	 * Description
+	 * 
 	 * 		In encryption process there are many modules involved:
-	 * </p>
-	 * <ul>
-	 * 		<li>First, 64-bit plain text and original 64-bit key are taken</li>
-	 * 		<li>Then, initial permutation is performed on the plain text</li>
-	 * 		<li>Then, the permuted value is divided into two parts 32-bits each, which creates L0R0</li>
-	 * 		<li>Then, 16 keys each of 48-bits are calculated</li>
-	 * 		<li>Then, from L1R1 to L16R16 are calculated
-	 * 			<ul>
-	 * 				<li>L(n) = R(n-1)</li>
-	 * 				<li>R(n) = L(n-1) ^ {@link #functionF(byte[], byte[], DESCryptographyModels) f}( R(n-1) , K(n) )</li>
-	 * 			</ul>
-	 * 		</li>
-	 * 		<li>Then, final value is calculated by concatenating R16 and L16</li>
-	 * 		<li>Then, the final value is permuted through inverse initial permutation</li>
-	 * 		<li>Then, the permuted value is returned</li>
-	 * </ul>
+	 * 
+	 * 
+	 * 		First, 64-bit plain text and original 64-bit key are taken
+	 * 		Then, initial permutation is performed on the plain text
+	 * 		Then, the permuted value is divided into two parts 32-bits each, which creates L0R0
+	 * 		Then, 16 keys each of 48-bits are calculated
+	 * 		Then, from L1R1 to L16R16 are calculated
+	 * 			
+	 * 				L(n) = R(n-1)
+	 * 				R(n) = L(n-1) ^ {@link #functionF(byte[], byte[], DESCryptographyModels) f}( R(n-1) , K(n) )
+	 * 			
+	 * 		
+	 * 		Then, final value is calculated by concatenating R16 and L16
+	 * 		Then, the final value is permuted through inverse initial permutation
+	 * 		Then, the permuted value is returned
 	 * 
 	 * @param  plainText             This is 64-bit plain text
 	 * @param  key                   This is 64-bit original key
@@ -351,32 +335,29 @@ public class DESCryptographyLogic
 		
 		//returning cipher text
 		return cipherText;
-	}// End of encrypt(byte[],byte[],DESCryptographyModels,KeyGenerationModels) method
+	}
 	
 	/**
-	 * <p>
-	 * 		This is a public method which is used to decrypt 64-bit cipher text using Data Encryption Standard Algorithm
-	 * </p>
-	 * <b>Description</b>
-	 * <p>
+	 * This is a public method which is used to decrypt 64-bit cipher text using Data Encryption Standard Algorithm
+	 * Description
+	 * 
 	 * 		In decryption process there are many modules involved, the decryption process is same as the encryption process
 	 * 		except that the keys are used in descending order(16-1):
-	 * </p>
-	 * <ul>
-	 * 		<li>First, 64-bit cipher text and original 64-bit key are taken</li>
-	 * 		<li>Then, initial permutation is performed on the cipher text</li>
-	 * 		<li>Then, the permuted value is divided into two parts 32-bits each, which creates L0R0</li>
-	 * 		<li>Then, 16 keys each of 48-bits are calculated</li>
-	 * 		<li>Then, from L1R1 to L16R16 are calculated
-	 * 			<ul>
-	 * 				<li>L(n) = R(n-1)</li>
-	 * 				<li>R(n) = L(n-1) ^ {@link #functionF(byte[], byte[], DESCryptographyModels) f}( R(n-1) , K(16-n) )</li>
-	 * 			</ul>
-	 * 		</li>
-	 *		<li>Then, final value is calculated by concatenating R16 and L16</li>
-	 * 		<li>Then, the final value is permuted through inverse initial permutation</li>
-	 * 		<li>Then, the permuted value is returned</li>
-	 * </ul>
+	 * 
+	 * 
+	 * 		First, 64-bit cipher text and original 64-bit key are taken
+	 * 		Then, initial permutation is performed on the cipher text
+	 * 		Then, the permuted value is divided into two parts 32-bits each, which creates L0R0
+	 * 		Then, 16 keys each of 48-bits are calculated
+	 * 		Then, from L1R1 to L16R16 are calculated
+	 * 			
+	 * 				L(n) = R(n-1)
+	 * 				R(n) = L(n-1) ^ {@link #functionF(byte[], byte[], DESCryptographyModels) f}( R(n-1) , K(16-n) )
+	 * 			
+	 * 		
+	 *		Then, final value is calculated by concatenating R16 and L16
+	 * 		Then, the final value is permuted through inverse initial permutation
+	 * 		Then, the permuted value is returned
 	 * 
 	 * @param  cipherText            This is 64-bit cipher text
 	 * @param  key                   This is 64-bit original key
@@ -439,5 +420,5 @@ public class DESCryptographyLogic
 		
 		//returning plain text
 		return plainText;
-	}// End of decrypt(byte[],byte[],DESCryptographyModels,KeyGenerationModels) method
-}// End of class DESCryptographyLogic
+	}
+}

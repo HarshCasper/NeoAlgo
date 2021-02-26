@@ -8,36 +8,37 @@ import java.util.Scanner;
 public class maxPriorityQueue {
 	private ArrayList<Integer> heap=new ArrayList<>();
 	boolean isEmpty() {
-	 return heap.size() == 0;
+	   return heap.size() == 0;
 	}
 	int getSize() {
-         return heap.size();
+           return heap.size();
 	}
 	int getMax() {
-          if(isEmpty())
-            return Integer.MIN_VALUE;
-        return heap.get(0);
+           if(isEmpty()){
+             return Integer.MIN_VALUE;
+	   }   
+          return heap.get(0);
 	}
 	void insert(int element) {
-         heap.add(element);
-        int childIndex = heap.size() - 1;
-        int parentIndex = (childIndex - 1) / 2;
-        while(childIndex > 0)
-        {
+           heap.add(element);
+           int childIndex = heap.size() - 1;
+           int parentIndex = (childIndex - 1) / 2;
+           while(childIndex > 0)
+           {
             if(heap.get(childIndex) > heap.get(parentIndex))
-            {
+             {
                 int temp = heap.get(childIndex);
                 heap.set(childIndex, heap.get(parentIndex));
                 heap.set(parentIndex, temp);
                 childIndex = parentIndex;
                 parentIndex = (childIndex - 1) / 2;
-            }else{
+             }else{
                 return;
-           }
-	    }	
-     }
+              }
+	   }	
+       }
         int removeMax() {
-        if(isEmpty())
+          if(isEmpty())
             return Integer.MIN_VALUE;
         int remove=heap.get(0);
         heap.set(0,heap.get(heap.size()-1));
@@ -89,6 +90,28 @@ public class maxPriorityQueue {
         }
         return remove;
 	}
+     void printArray(ArrayList<Integer> array, int size) {
+        for (Integer i : array) {
+           System.out.print(i + " ");
+           }
+          System.out.println();
+         }
+	
+     public static void main(String args[]) {
+
+       ArrayList<Integer> array = new ArrayList<Integer>();
+       int size = array.size();
+ 
+       Heap h = new Heap();
+       h.insert(array, 3);
+       h.insert(array, 4);
+       h.insert(array, 9);
+       h.insert(array, 5);
+       h.insert(array, 2);
+
+      System.out.println("Max-Heap array: ");
+      h.printArray(array, size);
+   }
 }
 /*
  Sample Input

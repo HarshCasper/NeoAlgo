@@ -1,7 +1,9 @@
-//It is an algroithm that help us to figure out the Minimum Spanning Tree of a given graph.
-//Minimum Spanning Tree is a Spanning Tree which has minimum total weight. If we have a linked undirected graph with a weight combine with each edge.
-//Then the cost of spanning tree would be the sum of the cost of its edges.
-//It runs faster in sparse graphs
+/*
+It is an algroithm that help us to figure out the Minimum Spanning Tree of a given graph.
+Minimum Spanning Tree is a Spanning Tree which has minimum total weight. If we have a linked undirected graph with a weight combine with each edge.
+Then the cost of spanning tree would be the sum of the cost of its edges.
+It runs faster in sparse graphs
+*/
 import java.util.Arrays;
 import java.util.Scanner;
 class Edge implements Comparable<Edge>{

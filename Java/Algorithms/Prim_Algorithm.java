@@ -1,6 +1,9 @@
-//It is an algorithm that help us to figure out  minimum spanning tree by selecting the adjacent vertices of already selected vertices.
-//This algorithm uses different logic than Kruskals algorithm
-//It runs faster in dense graphs.
+/*
+It is an algorithm that help us to figure out  minimum spanning tree by selecting the adjacent vertices of already selected vertices.
+This algorithm uses different logic than Kruskals algorithm
+It runs faster in dense graphs.
+TIME COMPLEXITY:
+*/
 import java.util.Scanner;
 
 public class Prim_Algorithm {
@@ -64,3 +67,15 @@ public class Prim_Algorithm {
 			prims(adjacencyMatrix);
        }
 }
+/*
+Sample Input
+4 4
+0 1 3
+0 3 5
+1 2 1
+2 3 8
+Sample Output
+0 1 3
+1 2 1
+0 3 5
+*/

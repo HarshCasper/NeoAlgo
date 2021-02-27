@@ -2,10 +2,10 @@
 It is an algorithm that help us to figure out  minimum spanning tree by selecting the adjacent vertices of already selected vertices.
 This algorithm uses different logic than Kruskals algorithm
 It runs faster in dense graphs.
-TIME COMPLEXITY:
+TIME COMPLEXITY: O(v^2) 
+V is the number of vertices.
 */
 import java.util.Scanner;
-
 public class Prim_Algorithm {
 	private static void prims(int[][] adjacencyMatrix) {
 		int v = adjacencyMatrix.length;

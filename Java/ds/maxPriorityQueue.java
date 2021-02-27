@@ -5,7 +5,13 @@ in which they arrive the queue and the maximum value is always removed first fro
 */
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 public class maxPriorityQueue {
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));;
+	static StringTokenizer st;
 	private ArrayList<Integer> heap=new ArrayList<>();
 	boolean isEmpty() {
 	   return heap.size() == 0;
@@ -98,20 +104,32 @@ public class maxPriorityQueue {
          }
 	
      public static void main(String args[]) {
-
-       ArrayList<Integer> array = new ArrayList<Integer>();
-       int size = array.size();
- 
-       Heap h = new Heap();
-       h.insert(array, 6);
-       h.insert(array, 4);
-       h.insert(array, 2);
-       h.insert(array, 12);
-       h.insert(array, 10);
-
-      System.out.println("Max: ");
-      h.printArray(array, size);
-   }
+                st = new StringTokenizer(br.readLine());
+		PQ pq = new PQ();
+		int choice = Integer.parseInt(st.nextToken());
+		while(choice != -1) {
+			switch(choice) {
+				case 1 : // insert
+					int element = Integer.parseInt(st.nextToken());
+					pq.insert(element);
+					break;
+				case 2 : // getMax
+					System.out.println(pq.getMax());
+					break;
+				case 3 : // removeMax
+					System.out.println(pq.removeMax());
+					break;
+				case 4 : // size
+					System.out.println(pq.getSize());
+					break;
+				case 5 : // isEmpty
+					System.out.println(pq.isEmpty());
+				default :
+						return;
+			}
+			choice = Integer.parseInt(st.nextToken());
+      
+         }
 }
 /*
  Sample Input

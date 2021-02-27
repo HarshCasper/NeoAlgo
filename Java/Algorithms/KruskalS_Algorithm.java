@@ -3,7 +3,8 @@ It is an algroithm that help us to figure out the Minimum Spanning Tree of a giv
 Minimum Spanning Tree is a Spanning Tree which has minimum total weight. If we have a linked undirected graph with a weight combine with each edge.
 Then the cost of spanning tree would be the sum of the cost of its edges.
 It runs faster in sparse graphs
-TIME COMLEXITY:
+TIME COMLEXITY: ElogE+E.V
+E are the edges and V are the vertices.
 */
 import java.util.Arrays;
 import java.util.Scanner;

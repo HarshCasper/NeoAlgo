@@ -2,6 +2,9 @@
 Given an integer array of size n, sorting it using Heap Sort in descending order.
 In-place: Those sorting algorithm which do not require extra space.
 */
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 public class InPlaceHeapsort {
           static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));;
 	  static StringTokenizer st;

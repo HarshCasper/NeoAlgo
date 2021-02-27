@@ -11,7 +11,7 @@
 
 ## Algorithms
 - [Kruskal's Algorithm](Algorithms/KruskalS_Algorithm.java)
-- [Prim Algorithm](Algorithms/Prim_Algorithm.java
+- [Prim Algorithm](Algorithms/Prim_Algorithm.java)
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
@@ -218,4 +218,3 @@ _add list here_
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
-

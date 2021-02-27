@@ -17,12 +17,12 @@ class Edge implements Comparable<Edge>{
 		return this.weight - o.weight;  
         	}
       }
-public class KruskalS_Algorithm {
+    public class KruskalS_Algorithm {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
                 int Vertices = scan.nextInt();
 		int Edges = scan.nextInt();
-        Edge input[] = new Edge[Edges];
+                Edge input[] = new Edge[Edges];
 		for(int i=0;i<Edges;i++) {
 			input[i] = new Edge();
 			input[i].source = scan.nextInt();

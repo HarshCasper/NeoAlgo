@@ -12,23 +12,25 @@ a	b	a^b
 */
 import java.util.Scanner;
 public class swap {
-
+	//function to swap 2 numbers using bit manipulation
+	public static void swap(int a,int b){
+	        a=a^b;
+		b=a^b;
+		a=a^b;	
+		System.out.println("Value of a after swap = "+a);
+		System.out.println("Value of b after swap = "+b);
+		}
+	
+	//Driver code
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter No a=");
 		int a=sc.nextInt();
 		System.out.println("Enter No b=");
-
 		int b=sc.nextInt();
-		//swapping 
-		a=a^b;
-		b=a^b;
-		a=a^b;
-		
-		System.out.println("Value in a after swap = "+ a);
-		System.out.println("Value in b after swap = " +b);
-
-	}
+		//calling swap function 
+		swap(a,b);
+}
 }
 
 /*

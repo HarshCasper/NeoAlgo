@@ -17,7 +17,8 @@ public class swap {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter No a=");
 		int a=sc.nextInt();
-		System.out.println("Enter No a=");
+		System.out.println("Enter No b=");
+
 		int b=sc.nextInt();
 		//swapping 
 		a=a^b;

@@ -31,6 +31,7 @@ unsafe {
 }
 ```
 - Use the latest stable compiler.
+- For input from `stdin`, use the `std-input` crate defined here.
 
 
 

@@ -21,7 +21,18 @@ impl<R: io::Read> Scanner<R> {
 
     /// Get from `reader` the next input till whitespace, and parse it as type `T`.
     pub fn get<T: FromStr>(&mut self) -> Option<T> {
-        self.buf_iter.next()?.parse().ok()
+        match self.buf_iter.next() {
+            None => {
+                self.buf_str.clear();
+                self.input.read_line(&mut self.buf_str).ok()?;
+                // SAFETY: `self.buf_str` lives as long as `self`, and thus `self.buf_iter` which
+                // is a pointer to `self.buf_str` won't outlive to the thing it points to, that is,
+                // `self.buf_str`.
+                self.buf_iter = unsafe { std::mem::transmute(self.buf_str.split_whitespace()) };
+                self.buf_iter.next()?.parse().ok()
+            }
+            Some(token) => token.parse().ok(),
+        }
     }
 
     /// Get from `reader` the next whitespace-seperated inputs in form of `Vec<T>`.
@@ -52,22 +63,4 @@ impl<R: io::Read> Scanner<R> {
 /// Create a new `Scanner` with `reader` as stdin.
 pub fn stdin_scanner() -> Scanner<Stdin> {
     Scanner::new(stdin())
-}
-
-impl<R: io::Read> Iterator for Scanner<R> {
-    type Item = &'static str;
-
-    fn next(&mut self) -> Option<Self::Item> {
-        match self.buf_iter.next() {
-            None => {
-                self.input.read_line(&mut self.buf_str).ok()?;
-                // SAFETY: `self.buf_str` lives as long as `self`, and thus `self.buf_iter` which
-                // is a pointer to `self.buf_str` won't outlive to the thing it points to, that is,
-                // `self.buf_str`.
-                self.buf_iter = unsafe { std::mem::transmute(self.buf_str.split_whitespace()) };
-                self.buf_iter.next()
-            }
-            token => token,
-        }
-    }
 }

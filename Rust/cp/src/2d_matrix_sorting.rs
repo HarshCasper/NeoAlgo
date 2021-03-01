@@ -35,6 +35,30 @@
 //!  4 5 6
 //!  7 8 9
 //!
+//!
+
+use std_input::stdin_scanner;
 
 fn main() {
+    // getting input
+    let mut scanner = stdin_scanner();
+    let n: usize = scanner.get().unwrap();
+
+    let mut input_matrix: Vec<Vec<i32>> = vec![];
+
+    for _ in 0..n {
+        input_matrix.push(scanner.get_vec(n).unwrap());
+    }
+
+    // sorting
+    let mut sorted_arr = input_matrix.into_iter().flatten().collect::<Vec<i32>>();
+    sorted_arr.sort();
+
+    // printing as n x n matrix
+    for row in 0..n {
+        for col in 0..n {
+            print!("{}\t", sorted_arr[row * n + col]);
+        }
+        println!();
+    }
 }

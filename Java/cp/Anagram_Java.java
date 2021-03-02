@@ -1,8 +1,9 @@
-package HACKER_RANK;
-
+/* This is a java code of checking whether the Strings are anagram to each outher and not...
+An anagram of a string is another string that contains the same characters, only the order of characters can be different.
+For example, “abcd” and “dabc” are an anagram of each other.
+*/
 import java.util.Scanner;
 import java.lang.String;
-
 public class Annagram {
 
 	static boolean isAnagram(String a, String b) {
@@ -14,7 +15,6 @@ public class Annagram {
 		for (char d : a.toCharArray()) {
 			int index = (int) d;
 			al[index]++;
-
 		}
 		for (char d : b.toCharArray()) {
 			int index = (int) d;
@@ -38,6 +38,20 @@ public class Annagram {
 		String b = scan.next();
 		scan.close();
 		boolean ret = isAnagram(a, b);
-		System.out.println((ret) ? "String are Anagrams" : "Strings are Not Anagrams");
+		System.out.println((ret) ? "String are Anagrams..." : "Strings are Not Anagrams...");
 	}
 }
+/*
+Time complexity is O(n)
+Space complexity is O(1)
+
+Input :
+Please enter the first String :
+abcd
+Please enter the Second String :
+dcab
+
+Output:
+String are Anagrams...
+
+*/

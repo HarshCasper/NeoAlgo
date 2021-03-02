@@ -29,20 +29,18 @@ public class maxPriorityQueue {
            heap.add(element);
            int childIndex = heap.size() - 1;
            int parentIndex = (childIndex - 1) / 2;
-           while(childIndex > 0)
-           {
-            if(heap.get(childIndex) > heap.get(parentIndex))
-             {
+           while(childIndex > 0){
+            if(heap.get(childIndex) > heap.get(parentIndex)) {
                 int temp = heap.get(childIndex);
                 heap.set(childIndex, heap.get(parentIndex));
                 heap.set(parentIndex, temp);
                 childIndex = parentIndex;
                 parentIndex = (childIndex - 1) / 2;
-             }else{
-                return;
-              }
-	   }	
-       }
+               }else{
+                 return;
+               }
+	    }	
+        }
         int removeMax() {
           if(isEmpty())
             return Integer.MIN_VALUE;
@@ -133,7 +131,8 @@ public class maxPriorityQueue {
 }
 /*
  Sample Input
+ 2
  6 4 2 12 10 
  Sample Output
- 12 10 8 6 4 2
+ 12
 */

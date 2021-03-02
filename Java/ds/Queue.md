@@ -9,6 +9,7 @@ The order is First In First Out (FIFO).
 The real life examples are queue in front of counter ,queue of students.
 
 ## Operations
+
 The operations that are performed on a queue are
 1)Enqueue
 2)Dequeue

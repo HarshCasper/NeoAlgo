@@ -19,24 +19,18 @@ Let's start building our insertionSort function.
 
 */
 
+const insertionSort = (arr) => {
+  const len = arr.length;
+  for (let i = 0; i < len; i++) {
+    let el = arr[i];
+    let j;
 
-
-
-
-
-const insertionSort = arr => {
-    const len = arr.length;
-    for (let i = 0; i < len; i++) {
-      let el = arr[i];
-      let j;
-  
-      for (j = i - 1; j >= 0 && arr[j] > el; j--) {
-        arr[j + 1] = arr[j];
-      }
-      arr[j + 1] = el;
+    for (j = i - 1; j >= 0 && arr[j] > el; j--) {
+      arr[j + 1] = arr[j];
     }
-    return arr;
-  };
+    arr[j + 1] = el;
+  }
+  return arr;
+};
 
-  console.log(insertionSort([1,3,4,1,2]));
-  
+console.log(insertionSort([1, 3, 4, 1, 2]));

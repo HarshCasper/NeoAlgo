@@ -1,7 +1,7 @@
 /**
- * Nodes are the "elements" of a linked list. 
+ * Nodes are the "elements" of a linked list.
  * They are represented as objects here to include the "next node" property
- */ 
+ */
 class Node {
   constructor(data) {
     this.data = data;
@@ -14,7 +14,6 @@ class Node {
  * that will use nodes to instantiate LinkedList objects.
  */
 class LinkedList {
-
   // TODO: Re-implement the constructor to receive an array, and then convert it to a LinkedList.
   constructor(head = null) {
     this.head = head;
@@ -35,7 +34,7 @@ class LinkedList {
   }
 
   getLast() {
-    let lastNode = this.head;    
+    let lastNode = this.head;
     if (lastNode) {
       while (lastNode.next) {
         lastNode = lastNode.next;
@@ -71,17 +70,17 @@ fourthNode.next = fifthNode;
 const linkedList = new LinkedList(firstNode);
 
 // Calling some Linked List methods.
-console.log('After populating the linked list:');
-console.log('First node: ', linkedList.getFirst());
-console.log('Last node: ', linkedList.getLast());
-console.log('List size: ', linkedList.size());
+console.log("After populating the linked list:");
+console.log("First node: ", linkedList.getFirst());
+console.log("Last node: ", linkedList.getLast());
+console.log("List size: ", linkedList.size());
 
 // Clearing linked list
-console.log('\nAfter clearing the list:')
+console.log("\nAfter clearing the list:");
 linkedList.clear();
-console.log('First node: ', linkedList.getFirst());
-console.log('Last node: ', linkedList.getLast());
-console.log('List size: ', linkedList.size());
+console.log("First node: ", linkedList.getFirst());
+console.log("Last node: ", linkedList.getLast());
+console.log("List size: ", linkedList.size());
 
 /**
  * This is just a simple implementation. My challenge for you now,

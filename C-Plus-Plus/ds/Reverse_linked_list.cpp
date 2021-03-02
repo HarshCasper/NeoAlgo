@@ -1,10 +1,5 @@
-#include <iostream>
-#include <cstdlib>
-#include <algorithm>
-#include <stack>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 class Node
 {
 public:
@@ -13,10 +8,9 @@ public:
     Node(int data)
     {
         this -> data = data;
-        this -> next = nullptr;
+        this -> next = NULL;
     }
 };
-
 /* 
 The helper class for the basic utility 
 functions used in Linked List algorithms
@@ -24,7 +18,7 @@ functions used in Linked List algorithms
 1 - length - to return length of the Linked List
 2 - print_ll - print the linked list to the output console
 3 - take_input - take input from the user, terminated by -1
-
+4 - Node* copy=NULL;
 */
 class helper
 {
@@ -42,26 +36,30 @@ public:
     }
     void print_ll(Node* head)
     {
-        Node* temp = head;
-        while(temp != nullptr)
+        Node *temp=head;
+        while(temp != NULL)
         {
-            cout << temp -> data << " ";
-            temp = temp -> next;
+            cout << temp -> data <<"--> ";
+            temp= temp -> next;
         }
+        cout<<"NULL"<<endl;
     }
     Node* take_input()
     {
+        cout<<"Enter data to enter into the linked list and add -1 at the end of link list : ";
         int data;
         cin >> data;
-        Node* head = nullptr;
-        Node* tail = nullptr;
+        Node* head = NULL;
+        Node* tail = NULL;
+        if(data==-1)
+            cout<<"Link List is Empty please try again.";
         while(data != -1)
         {
             Node* n = new Node(data);
-            if(head==nullptr)
+            if(head==NULL)
             {
                 head = n;
-                tail = n;
+                tail = n;            
             }
             else
             {
@@ -72,48 +70,50 @@ public:
         }
         return head;
     }
+    Node *copy(Node *ref)
+    {
+        if(ref==NULL) return ref;
+        Node *temp=(Node *)malloc(sizeof(Node));
+        temp->data=ref->data;
+        temp->next=copy(ref->next);
+        return temp;
+    }
 };
 
 /// The main algorithmic solution class
 class solution
 {
-public:
-    
+public:    
      /// Recursive approach
      Node* reverse_linked_recursive(Node* head)
      {
          /// if head or it's next pointer are null
-         if(head == nullptr || head -> next == nullptr)
+         if(head == NULL || head -> next == NULL)
          {
              return head;
          }
-         
          /// getting small output using recursion
          Node* small_head = reverse_linked_recursive(head -> next);
-         head -> next = nullptr;
-         
+         head -> next = NULL;         
          /// Traversing to the end node
          Node* temp = small_head;
-         while(temp -> next != nullptr)
+         while(temp -> next != NULL)
          {
             temp = temp -> next;
-         }
-         
+         }        
          /// Putting the head pointer at the next of end node
          temp -> next = head;
          head = small_head;
          return head;
      }
-
      /// The iterative approach
      Node* reverse_linked_iterative(Node* head)
      {
          /// if head or it's next pointer are null
-         if(head == nullptr || head -> next == nullptr)
+         if(head == NULL || head -> next == NULL)
          {
              return head;
-         }
-         
+         }      
          /*
           getting three pointers,
           
@@ -121,8 +121,10 @@ public:
           temp = auxiliary storage (Node pointer)
           curr = current pointer
          
-         */
-         Node* prev = nullptr, *temp, *curr = head;
+         */      
+         Node* prev = NULL;
+         Node *temp;
+         Node  *curr = head;
          while(curr)
          {
              temp = curr -> next;
@@ -130,19 +132,33 @@ public:
              prev = curr;
              curr = temp;
          }
-         return prev;
-     }
+         head=prev;
+         return head;
+     }    
 };
-
-
 int main()
 {
     helper help_object;
     solution sol;
     Node* head = help_object.take_input();
+    //clone of head pointer
+    Node *copy=help_object.copy(head);
     Node* head2 = sol.reverse_linked_recursive(head);
-    Node* head3 = sol.reverse_linked_iterative(head);
+    Node* head3 = sol.reverse_linked_iterative(copy);
     help_object.print_ll(head2);
     help_object.print_ll(head3);
     return 0;
 }
+
+/*Sample Input Output
+Enter Data to enter into linked list and add -1 at the end of the list :
+1
+2
+3
+4
+5
+-1
+Output in both approach :
+5 -> 4 -> 3 -> 2 -> 1 -> NULL
+5 -> 4 -> 3 -> 2 -> 1 -> NULL
+*/

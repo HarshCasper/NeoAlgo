@@ -102,28 +102,28 @@ public class maxPriorityQueue {
          }
 	
      public static void main(String args[]) {
-                st = new StringTokenizer(br.readLine());
-		PQ pq = new PQ();
-		int choice = Integer.parseInt(st.nextToken());
-		while(choice != -1) {
-			switch(choice) {
-				case 1 : // insert
-					int element = Integer.parseInt(st.nextToken());
-					pq.insert(element);
-					break;
-				case 2 : // getMax
-					System.out.println(pq.getMax());
-					break;
-				case 3 : // removeMax
-					System.out.println(pq.removeMax());
-					break;
-				case 4 : // size
-					System.out.println(pq.getSize());
-					break;
-				case 5 : // isEmpty
-					System.out.println(pq.isEmpty());
-				default :
-						return;
+        st = new StringTokenizer(br.readLine());
+	PQ pq = new PQ();
+        int choice = Integer.parseInt(st.nextToken());
+ 	while(choice != -1) {
+	      switch(choice) {
+		case 1 : // insert
+		int element = Integer.parseInt(st.nextToken());
+		pq.insert(element);
+		break;
+		case 2 : // getMax
+		System.out.println(pq.getMax());
+		break;
+		case 3 : // removeMax
+		System.out.println(pq.removeMax());
+		break;
+		case 4 : // size
+		System.out.println(pq.getSize());
+		break;
+		case 5 : // isEmpty
+		System.out.println(pq.isEmpty());
+		default :
+		return;
 			}
 			choice = Integer.parseInt(st.nextToken());
       

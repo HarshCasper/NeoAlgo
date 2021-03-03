@@ -25,7 +25,7 @@
 _add list here_
 
 ## Competitive programming
-
+* [Anagram String](cp/Anagram_java.java)
 * [Dutch National Flag](cp/DutchFlag.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)
@@ -224,4 +224,3 @@ _add list here_
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
-

@@ -87,7 +87,6 @@ int main(){
 
 /* Input : 6 2 5 4 5 1 6
    Output : Maximum Histogram : 12 
-
    Note : In this One Traversal Approach, Every Element is Pushed once and Poped Once,
    Hence, Time Complexity = O(n)
 */

@@ -13,9 +13,6 @@ Note : We have Three approaches to solve this particular problem.
     - Time Complexity : θ(n^2)
 3. Better Approach
     - Time Complexity : O(n) 
-    - Two Traversal Approach
-
--------------------------------------------------------
 */
 #include<iostream>
 #include<stack>
@@ -49,16 +46,15 @@ Time Complexity : O(n)
 */
 int getHistogram(int arr[],int n){
     stack <int> area;
-    int res=0;// Store result
-    int high;// To Store top element of Stack.
+    int res=0;
+    int high;
     int curr;
     
     for(int i=0;i<n;i++){
-        //Find Previous Smaller Element
         while(area.empty()==false && arr[area.top()]>=arr[i]){
             high=area.top();
             area.pop();
-            curr=arr[high]* (area.empty() ? i : (i - area.top() - 1));
+            curr=arr[high]* (area.empty() ? i : i - area.top() - 1);
             res=max(res,curr);
         }
         area.push(i);
@@ -73,7 +69,7 @@ int getHistogram(int arr[],int n){
     }  
     return res;
 } 
-// Driver's Code
+//Driver Code
 int main(){
     int n;
     cin>>n;
@@ -81,6 +77,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+
     cout<<"Maximum Histogram : "<<getHistogram(arr,n);
     return 0;
 }
@@ -90,3 +87,4 @@ int main(){
    Note : In this One Traversal Approach, Every Element is Pushed once and Poped Once,
    Hence, Time Complexity = O(n)
 */
+

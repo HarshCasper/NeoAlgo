@@ -25,7 +25,7 @@
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
-- [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
+- [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)

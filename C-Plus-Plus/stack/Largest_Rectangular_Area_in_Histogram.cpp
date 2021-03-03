@@ -73,7 +73,7 @@ int getHistogram(int arr[],int n){
     }  
     return res;
 } 
-// Driver program to Test above Function
+// Driver's Code
 int main(){
     int n;
     cin>>n;

@@ -5,8 +5,8 @@ Here We are solving fractional knapsack in which we can take a fraction of item 
 
 #include <iostream>
 using namespace std;
-
-void sort_arr(float ratio[], float profit[], float weight[], int n) // A function to sort the arrays according to profit/weight
+// A function to sort the arrays according to profit/weight
+void sort_arr(float ratio[], float profit[], float weight[], int n) 
 {
     float temp;
     for (int i = 0; i < n; i++)
@@ -27,21 +27,26 @@ void sort_arr(float ratio[], float profit[], float weight[], int n) // A functio
             }
 }
 
-int knapsack_fraction(float weight[], float ratio[], float profit[], int n, int capacity) //function to calculate max value in knapsack.
+//function to calculate max value in knapsack.
+int knapsack_fraction(float weight[], float ratio[], float profit[], int n, int capacity) 
 {
     int final = 0;
     int i;
-    for (i = 0; i < n; i++) //iterating over all items
+    //iterating over all items
+    for (i = 0; i < n; i++) 
     {
-        if (weight[i] > capacity) //checking if current weight is greater tahn break i.e this weight can't be put into knapsack.
+        //checking if current weight is greater tahn break i.e this weight can't be put into knapsack.
+        if (weight[i] > capacity) 
             break;
-        else //else add profir to final varibale i.e max profit and update capacity accordingly
+        //else add profir to final varibale i.e max profit and update capacity accordingly
+        else 
         {
             final = final + profit[i];
             capacity = capacity - weight[i];
         }
     }
-    if (i < n) //for fraction amount of item
+    //for fraction amount of item
+    if (i < n) 
         final = final + (ratio[i] * capacity);
     return final;
 }
@@ -52,20 +57,21 @@ int main()
     int n, i, j;
     cout << "Enter the number of items :";
     cin >> n;
-    for (i = 0; i < n; i++) //accepting the profit and weight values for given value of n.
+    //accepting the profit and weight values for given value of n.
+    for (i = 0; i < n; i++) 
     {
         cout << "Enter Profit and weight for item" << i + 1;
         cin >> profit[i] >> weight[i];
     }
     cout << "Enter the capacity of knapsack :" << endl;
     cin >> capacity;
-
-    for (i = 0; i < n; i++) //making the new array and storing ratio (profit/weight)
+    //making the new array and storing ratio (profit/weight)
+    for (i = 0; i < n; i++)
         ratio[i] = profit[i] / weight[i];
-
-    sort_arr(ratio, profit, weight, n); //first sort the array acc to Profit/weight
-
-    int ans = knapsack_fraction(weight, ratio, profit, n, capacity); //call the function to calculate max profit.
+    //first sort the array acc to Profit/weight
+    sort_arr(ratio, profit, weight, n); 
+    //call the function to calculate max profit.
+    int ans = knapsack_fraction(weight, ratio, profit, n, capacity); 
     cout << "the maximum profit is : " << ans << endl;
     return 0;
 }

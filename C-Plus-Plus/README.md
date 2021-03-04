@@ -80,6 +80,12 @@
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 
+
+## Bits Manipulation
+- [Hamming Distance](bits_manipulation/Hamming_Distance.cpp)
+- [Longest Consecutive Run of 1s](bits_manipulation/Longest_Consecutive_Run_of_1s.cpp)
+- [Next Binary Permutation](bits_manipulation/Next_Binary_Permutation.cpp)
+
 ## Graphs
 
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)

@@ -226,6 +226,7 @@ _add list here_
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Generate all Subsets](other/subsets.cpp)
+- [Generate Parentheses](other/Generate_Parentheses.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Least Common Multiple](other/lcm.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)

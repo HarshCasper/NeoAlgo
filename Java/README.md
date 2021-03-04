@@ -175,6 +175,7 @@ _add list here_
 - [Bucket Sort](sort/BucketSort.java)
 - [Cocktail Sort](sort/CocktailSort.java)
 - [Counting Sort](sort/CountingSort.java)
+- [Cycle Sort](sort/CycleSort.java)
 - [Heap Sort](sort/HeapSort.java)
 - [Insertion Sort](sort/InsertionSort.java)
 - [Merge Sort](sort/Merge_sort.java)

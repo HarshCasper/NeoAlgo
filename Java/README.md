@@ -25,7 +25,7 @@
 _add list here_
 
 ## Competitive programming
-* [Anagram String](cp/Anagram_java.java)
+* [Anagram String](cp/Anagram.java)
 * [Dutch National Flag](cp/DutchFlag.java)
 * [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 * [Rabin Karp Algorithm](cp/Rabin_Karp.java)

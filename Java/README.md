@@ -91,6 +91,7 @@ _add list here_
 ## Data Structures
 
 - [Binary Tree](ds/Binary_Tree.java)
+- [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
@@ -108,6 +109,7 @@ _add list here_
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
+
 
 ## Graphs
 

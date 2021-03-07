@@ -58,7 +58,7 @@ Shuffling the array randomly.
 Shuffling the array randomly.
 [1, 2, 3, 4]
 
-Obtained the sorted list (after 8 round): 
+Obtained the sorted list (after 8 round):
 [1, 2, 3, 4]
 
 Process finished with exit code 0

@@ -83,8 +83,6 @@
 
 ## Bits Manipulation
 - [Hamming Distance](bits_manipulation/Hamming_Distance.cpp)
-- [Longest Consecutive Run of 1s](bits_manipulation/Longest_Consecutive_Run_of_1s.cpp)
-- [Next Binary Permutation](bits_manipulation/Next_Binary_Permutation.cpp)
 
 ## Graphs
 

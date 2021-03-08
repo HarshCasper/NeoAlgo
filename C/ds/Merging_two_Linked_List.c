@@ -111,3 +111,23 @@ int main()
 	Display(third);
     return 0;
 }
+//Output:- 
+/*
+Enter the size of the array:
+5
+Enter first LL Elements:
+1
+2
+3
+4
+5
+Enter second LL Elements:
+9
+8
+7
+2
+5
+
+1 2 3 4 5 9 8 7 2 5
+
+*/

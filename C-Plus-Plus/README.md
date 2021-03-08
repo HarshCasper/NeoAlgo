@@ -231,7 +231,6 @@ _add list here_
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
-- [Generate all Subsets](other/subsets.cpp)
 - [Generate Parentheses](other/Generate_Parentheses.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Least Common Multiple](other/lcm.cpp)

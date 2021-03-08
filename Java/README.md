@@ -187,6 +187,7 @@ _add list here_
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 - [Shell Sort](sort/ShellSort.java)
 - [Sleep Sort](sort/SleepSort.java)
+- [Sort Matrix](sort/SORT_MATRIX.java)
 
 ## Machine Learning
 

@@ -1,14 +1,19 @@
-package com.company;
+
 /* Java program to solve N Queen Problem
 using backtracking in an Optimization Method*/
 import java.util.*;
 
-class anaGram
+class nQueens
 {
     static int N;
-    static int []neg = new int[30];// to store negative indices
-    static int []dia = new int[30];// queen placed in right diagonal or not(row+column)
-    static int []col = new int[30];// column array
+    //ldia : Left Diagonal to store negative indices
+    static int []ldia = new int[30];
+    //rdia : Right Diagonal queen placed in right diagonal or not(row+column)
+    static int []rdia = new int[30];
+    //col :  column array
+    static int []col = new int[30];
+
+    //An Effective Funtion to print Solution
     static void printSolution(int onBoard[][])
     {
         for (int i = 0; i < N; i++)
@@ -18,25 +23,33 @@ class anaGram
             System.out.printf("\n");
         }
     }
+
+    /* By this Utility Function, Consider using column 
+    and try placing this queen in all rows one by one and
+    check if queen can be placed or not. If Queen can be
+    placed on Board then we can check left diagonal and 
+    Right diagonal. If Queen placed dosen't match the 
+    rules, then remove Queen on that position.*/
     static boolean solveUtil(int onBoard[][], int colo)
     {
+        //BaseCase : If all Queens Placed
         if (colo >= N)
             return true;
 
         for (int i = 0; i < N; i++) {
-            if ((neg[i - colo + N - 1] != 1 &&
-                    dia[i + colo] != 1) && col[i] != 1) {
+            if ((ldia[i - colo + N - 1] != 1 &&
+                    rdia[i + colo] != 1) && col[i] != 1) {
 
                 onBoard[i][colo] = 1;
-                neg[i - colo + N - 1] =
-                        dia[i + colo] = col[i] = 1;
+                ldia[i - colo + N - 1] =
+                        rdia[i + colo] = col[i] = 1;
 
                 if (solveUtil(onBoard, colo + 1))
                     return true;
 
                 onBoard[i][colo] = 0; // BACKTRACK
-                neg[i - colo + N - 1] =
-                        dia[i + colo] = col[i] = 0;
+                ldia[i - colo + N - 1] =
+                        rdia[i + colo] = col[i] = 0;
             }
         }
         return false;
@@ -55,7 +68,7 @@ class anaGram
         {
             System.out.printf("Solution does not exist");
             return false;
-
+        }
         printSolution(onBoard);
         return true;
     }

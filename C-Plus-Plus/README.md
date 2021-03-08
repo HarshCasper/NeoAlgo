@@ -109,6 +109,7 @@
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
 - [Breadth First Search](graphs/BFS1.cpp)
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
+- [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
 
 ## Searching
 

@@ -26,9 +26,56 @@
 
 #include <stdio.h>
 
+// Calculating the remaining need of the resources for each process.
+void CalculateRemainingNeed(int p, int r, int need[p][r], int allocated[p][r], int max[p][r]){
+    int i,j;
+    for(i = 0; i < p; ++i){
+        for(j = 0; j < r; ++j){
+            need[i][j] = max[i][j] - allocated[i][j];
+        }
+    }
+}
+// Checking whether all the process can be executed.
+int CheckDeadlock(int p, int r, int need[p][r], int avail[], int allocated[p][r], int finish[], int seq[]){
+    int count = 0, i, j, k, unsafe = 1;
+    while (count != p){
+        unsafe = 1;
+        for(i = 0; i < p; ++i){
+            // Checking whether particular process is executed or not.
+            if (finish[i] == 0){
+                for(j = 0; j < r; ++j){
+                    // Checking whether the need of any process is greater than availability.
+                    if (need[i][j] > avail[j]){
+                        break;
+                    }
+                }
+                // If all the resources are available for any process.
+                if (j == r){
+                    for (k = 0; k < r; ++k)
+                        avail[k] = avail[k] + allocated[i][k];
+                    finish[i] = 1;
+                    seq[count] = i+1;
+                    count++;
+                    unsafe = 0;
+                }
+            }
+        }
+        if (unsafe == 1)
+            return unsafe;
+    }
+}
+
+void DisplaySafeSequence(int seq[], int p){
+    int i;
+    printf("The safe sequence is:\n");
+    for(i = 0; i < p - 1; ++i)
+        printf("P%d->", seq[i]);
+    printf("P%d\n", seq[p-1]);
+}
+
 int main() {
 
-    int p, r, i, j, k, count = 0, unsafe;
+    int p, r, i, j;
 
     printf("Enter number of process\n");
     scanf("%d", &p);
@@ -63,49 +110,15 @@ int main() {
         finish[i] = 0;
     }
 
-// Calculating the remaining need of the resources for each process.
-    for(i = 0; i < p; ++i){
-        for(j = 0; j < r; ++j){
-            need[i][j] = max[i][j] - allocated[i][j];
-        }
-    }
+    CalculateRemainingNeed(p, r, need, allocated, max);
 
-// Checking whether all the process can be executed.
-    while (count != p){
-        unsafe = 1;
-        for(i = 0; i < p; ++i){
-            // Checking whether particular process is executed or not.
-            if (finish[i] == 0){
-                for(j = 0; j < r; ++j){
-                    // Checking whether the need of any process is greater than availability.
-                    if (need[i][j] > avail[j]){
-                        break;
-                    }
-                }
-                // If all the resources are available for any process.
-                if (j == r){
-                    for (k = 0; k < r; ++k){
-                        avail[k] = avail[k] + allocated[i][k];
-                    }
-                    finish[i] = 1;
-                    seq[count] = i+1;
-                    count++;
-                    unsafe = 0;
-                }
-            }
-        }
+    int unsafe = CheckDeadlock(p, r, need, avail, allocated, finish, seq);
 
-        // Checking if there is any process which will not able to execute.
-        if (unsafe == 1) {
-            printf("The sequence is unsafe. Deadlock will occur.\n");
-            return 0;
-        }
-    }
-
-    printf("The safe sequence is:\n");
-    for(i = 0; i < p - 1; ++i)
-        printf("P%d->", seq[i]);
-    printf("P%d\n", seq[p-1]);
+    // Checking if there is any process which will not able to execute.
+    if (unsafe == 1)
+        printf("The sequence is unsafe. Deadlock will occur.\n");
+    else
+        DisplaySafeSequence(seq, p);
 
     return 0;
 }

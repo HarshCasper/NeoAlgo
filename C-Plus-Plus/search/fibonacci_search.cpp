@@ -72,33 +72,32 @@ int fibonacciSearch(int arr[], int n, int element) {
 }
 
 int main() {
-   int n; // size of array 
+   int n; 
    cout << "Enter Size Of Arrary:" << "\n";
    cin >> n;
 
-   int arr[n]; // array declaration 
+   int arr[n]; 
    cout << "Enter Elements In Array" << "\n";
 
    for (int i = 0; i < n; i++) {
       cin >> arr[i];
    }
 
-   int element; // Element that user want's to search 
+   int element; 
    cout << "Enter The Element To Be Searched" << "\n";
    cin >> element;
-
-   int index = fibonacciSearch(arr, n, element); // Call fibonacci search function 
+   // Call fibonacci search function 
+   int index = fibonacciSearch(arr, n, element); 
 
    if (index == -1)
-      cout << "Element Not Found" << "\n"; // if element is not present 
+      cout << "Element Not Found" << "\n"; 
    else
-      cout << "Element Found At Array Index : " << index; // if Present print index
+      cout << "Element Found At Array Index : " << index; 
 
    return 0;
 }
 
 /*
-
 Sample I/O:
 Enter Size Of Arrary:
 5
@@ -106,7 +105,7 @@ Enter Elements In Array
 1 6 10 11 78   
 Enter The Element To Be Searched
 78
-Element Found At Array Index :
+Element Found At Array Index : 4
 
 Algorithm Analysis:
 Time Complexity : O(log(n))

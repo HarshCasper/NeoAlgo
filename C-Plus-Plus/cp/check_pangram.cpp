@@ -19,9 +19,9 @@ using namespace std;
 bool checkPangram(string &s)
 {
     /* Create a vector to mark the characters present in the string.Initially all 
-			the characters will be unmarked i.e. the vector will be filled with 0.
-			We will mark the chracters as 1 if present else 0
-		*/
+	the characters will be unmarked i.e. the vector will be filled with 0.
+	We will mark the chracters as 1 if present else 0
+    */
     vector<int> visited(26, 0);
 
     int index;

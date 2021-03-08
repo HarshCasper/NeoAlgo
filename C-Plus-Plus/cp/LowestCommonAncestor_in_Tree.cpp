@@ -58,12 +58,10 @@ int main()
 {
   /*
    Assuming that first line of our input contains N i.e. total no of nodes in a tree.
-
    next N-1 line contains the parent of each node.
-
    and then Q queries ,
-            where every query contains two nodes and we need to print the LCA between them.
-    */
+   where every query contains two nodes and we need to print the LCA between them.
+  */
   int total_no_node;
   cin>>total_no_node;
   for(int i=2;i<=total_no_node;i++)

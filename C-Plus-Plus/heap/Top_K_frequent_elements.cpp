@@ -41,13 +41,13 @@ void topKFrequent(vector<int>& nums, int k) {
  // Driver code
 int main() {
 
-	// Take input
-	int n; 
+    // Take input
+    int n; 
     cin >> n;
-	vector<int> nums(n);
-	for (int i = 0; i < n; i++) {
-		cin >> nums[i];
-	}
+    vector<int> nums(n);
+    for(int i = 0; i < n; i++){
+        cin >> nu ms[i];
+    }
     int k;
     cin >> k;
     topKFrequent(nums, k);

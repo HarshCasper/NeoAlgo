@@ -48,6 +48,7 @@
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Two Pointers Method](cp/Two Pointers Method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 
 ## Data Structures

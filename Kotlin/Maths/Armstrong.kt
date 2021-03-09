@@ -11,8 +11,8 @@ fun isArmstrong(num: Int): Boolean {
     val digits = temp.toString().length
 
     while (temp > 0) {
-        val r = temp % 10
-        result += Math.pow(r.toDouble(), digits.toDouble()).toInt()
+        val remainder = temp % 10
+        result += Math.pow(remainder.toDouble(), digits.toDouble()).toInt()
         temp /= 10
     }
 

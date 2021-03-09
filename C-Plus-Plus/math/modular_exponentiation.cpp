@@ -14,10 +14,6 @@ We use this power of 2s to our advantage.
 (3^4)=(3^2)^2 
 (3^8)=(3^4)^2 
 So, this reduces the number of multiplication, as we only need to sqaure the number (squaring is just single multiplication operation).
-
-So, overall
-Time Complexity: O(log(power))
-Space Complexity: O(1)
 */
 
 long long modular_exponentiation(long long base,long long power,long long mod)
@@ -26,7 +22,10 @@ long long modular_exponentiation(long long base,long long power,long long mod)
     long long answer=1;
     while(power>0)
     {
-        if(power%2==1) answer=(answer*base)%mod;
+        if(power%2==1)
+        { 
+            answer=(answer*base)%mod;
+        }
         base=(base*base)%mod;
         power=power/2;
     }
@@ -42,5 +41,30 @@ int main()
     cin>>power;
     cout<<"Enter mod: ";
     cin>>mod;
-    cout<<"power("<<base<<","<<power<<")%"<<mod<<" = "<<modular_exponentiation(base,power,mod)<<"\n";
+    cout<<"(power^base)%mod = "<<modular_exponentiation(base,power,mod)<<"\n";
 }
+
+/*
+Sample I/0
+
+1. 
+    INPUT
+    Enter base: 2
+    Enter power: 10 
+    Enter mod: 8000 
+    OUTPUT
+    (power^base)%mod = 1024
+
+2.
+    INPUT
+    Enter base: 3
+    Enter power: 6
+    Enter mod: 1 
+    OUTPUT
+    (power^base)%mod = 0
+*/
+
+/*
+Time Complexity: O(log(power))
+Space Complexity: O(1)
+*/

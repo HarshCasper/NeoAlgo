@@ -95,30 +95,6 @@ Output:->
 Topological Order:
 0 1 2 4 3
 
-2.
-Input:->
-6 6
-5 2
-5 0
-4 0
-4 1
-2 3
-3 1
-Output:->
-Topological Order:
-4 5 2 0 3 1
-
-3.
-Input:->
-5 5
-0 1
-1 2
-2 3
-3 4
-4 0
-Output:->
-No topological sort possible, there exists a cycle
-
 Time complexity: O(n+m) //Order of Sum of number of edges and vertices
 
 Auxillary Space: O(n)   //Order of number of vertices

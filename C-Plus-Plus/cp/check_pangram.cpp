@@ -63,7 +63,14 @@ int main()
     return 0;
 }
 
+/* 
+    Input: str = “The quick brown fox jumps over the lazy dog”
+    
+    Output: Yes
+*/
+
 /*
+
 	Time Complexity: O(N), where N is the length of the string.
 	Auxiliary Space: O(N),as we have used a map
 */

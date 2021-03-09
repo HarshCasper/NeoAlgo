@@ -1,3 +1,6 @@
+/* Shaker Sort In C
+The algorithm extends the bubble sort by operating in two directions
+*/
 #include <stdio.h>
 
 void shakersort(int[], int);
@@ -28,7 +31,7 @@ int main()
 
 	return 0;
 }
-
+// Sorts the given array bidirectionally
 void shakersort(int arr[], int num)
 {
 	int end, start, i;
@@ -53,7 +56,7 @@ void shakersort(int arr[], int num)
 		start = start + 1;
 	}
 }
-
+// Swaps two elements
 void swap(int *x, int *y)
 {
 	int temp;

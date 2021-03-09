@@ -219,6 +219,9 @@ _add list here_
 
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
+## Backtracking
+-[Word Break Problem](backtracking/Word_break.cpp)
+
 ## Other
 
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)

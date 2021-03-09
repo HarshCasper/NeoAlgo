@@ -9,7 +9,8 @@ A parentheses string is valid if and only if:
 #include <bits/stdc++.h>
 using namespace std;
 
-bool matching(char a, char b){ //checks if character a and b together make () or not
+//checks if character a and b together make () or not
+bool matching(char a, char b){ 
     if(a == '(' && b == ')'){
         return true;
     }

@@ -201,6 +201,7 @@ _add list here_
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
 
 ## Blockchain
 

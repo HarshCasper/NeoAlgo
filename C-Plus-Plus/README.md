@@ -49,6 +49,7 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [Reverse Lookup Algorithm in 1D](cp/Reverse_Lookup_in_1D_array.cpp)
 
 ## Data Structures
 

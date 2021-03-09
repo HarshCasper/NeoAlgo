@@ -1,4 +1,4 @@
-/*Solution to check if a binary tree is a Binary Search tree.
+﻿/*Solution to check if a binary tree is a Binary Search tree.
 This solution works for duplicate input values of nodes as well.
 
 Constraints:
@@ -15,119 +15,112 @@ This approach would't work for the following example which is actually not a Bin
 
 
 Correct Approach:
-It is a property of Binary Search Tree that its inorder traversal produces a sorted list in ascending order. 
-By inorder traversal of the tree we store the elements in a list and then check if the list is sorted.
+It is a property of Binary Search Tree that its inorder traversal produces a sorted list in ascending order. By inorder traversal of the tree we store the elements in a list and then check if the list is sorted.
 Time Complexity : O(n)
 Space Complexity : O(n)
  */
 
 
+
 import java.util.*;
 
 //Class which defines the structure of each node in the binary tree
-class Node{
-	int data;
-	Node left,right;
-	Node(int data){
-		this.data = data;
-	}
+class Node {
+    int data;
+    Node left, right;
+    Node(int data) {
+        this.data = data;
+    }
 }
-
 public class CheckBST {
+    //Create a binary tree by taking input level wise
+    public static Node createBinaryTree() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter root node value or -1 to exit: ");
+        int rootData = sc.nextInt();
+        Node root = null;
+        if (rootData != -1) {
+            root = new Node(rootData);
+        } else {
+            sc.close();
+            return root;
+        }
+        Queue < Node > tree = new LinkedList < > ();
+        tree.add(root);
+        while (!tree.isEmpty()) {
+            Node temp = tree.remove();
+            System.out.print("Enter left  child of " + temp.data + " or -1 if there is no left child: ");
+            int leftChild = sc.nextInt();
+            // if leftChild is not null create and add left child node
+            if (leftChild != -1) {
+                Node child = new Node(leftChild);
+                tree.add(child);
+                temp.left = child;
+            }
+            System.out.print("Enter right child of " + temp.data + " or -1 if there is no right child: ");
+            int rightChild = sc.nextInt();
+            //if rightChild is not null create and add right child node
+            if (rightChild != -1) {
+                Node child = new Node(rightChild);
+                tree.add(child);
+                temp.right = child;
+            }
+        }
+        sc.close();
+        return root;
+    }
 
-	//Create a binary tree by taking input level wise
-	public static Node createBinaryTree() {
-		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter root node value or -1 to exit: ");
-		int rootData = sc.nextInt();
-		Node root=null;
-		if(rootData!=-1) {
-			root = new Node(rootData);
-		}
-		else {
-			sc.close();
-			return root;
-		}
-		Queue<Node> tree = new LinkedList<>();
-		tree.add(root);
-		while(!tree.isEmpty()) {
-			Node temp = tree.remove();
-			System.out.print("Enter left  child of " + temp.data +" or -1 if there is no left child: ");
-			int leftChild = sc.nextInt();
-			// if leftChild is not null 
-			if (leftChild != -1) {
-				//Create leftChild Node
-				Node child = new Node(leftChild);
-				tree.add(child);
-				/* Create leftChildNode of a frontNode */
-				temp.left = child;
-			}
-			System.out.print("Enter right child of " + temp.data +" or -1 if there is no right child: ");
-			int rightChild = sc.nextInt();
-			//if rightChild is not null 
-			if (rightChild != -1) {
-				/* Create rightChild */
-				Node child = new Node(rightChild);
-				tree.add(child);
-				/* Create rightChildNode of a frontNode */
-				temp.right = child;
-			}
-		}
-		sc.close();
-		return root;
-	}
-	
-	//Correct Approach:
-	static ArrayList<Integer> arr = new ArrayList<Integer>();
-	//Function to produce a list by inorder traversal of tree 
-	public static void inorder(Node root) {
-		if(root==null)
-			return;
-		inorder(root.left);
-		arr.add(root.data);
-		inorder(root.right);
-	}
-	//Function to check if a Binary Tree is a Binary Search Tree
-	public static boolean checkBST(Node root) {
-        		if(root==null)
-            			return true;
-        		boolean check = true;
-        		inorder(root);
-        		for(int i=1;i<arr.size();i++){
-            			if(arr.get(i-1)>=arr.get(i)){
-                			check = false;
-                			break;
-            			}
-        		}
-        		return check;
-    	}
-	
-	
-	public static void main(String[] args) {
-		Node root = createBinaryTree();
-		boolean check;
-		check = checkBST(root);
-		if(check==true)
-			System.out.println("It is a Binary Search Tree");
-		else
-			System.out.println("It is not a Binary Search Tree");
-	}
+    static ArrayList < Integer > arr = new ArrayList < Integer > ();
+    //Function to produce a list by inorder traversal of tree 
+    public static void inorder(Node root) {
+        if (root == null)
+            return;
+        inorder(root.left);
+        arr.add(root.data);
+        inorder(root.right);
+    }
+    //Function to check if a Binary Tree is a Binary Search Tree
+    public static boolean checkBST(Node root) {
+        if (root == null)
+            return true;
+        boolean check = true;
+        inorder(root);
+        for (int i = 1; i < arr.size(); i++) {
+            if (arr.get(i - 1) >= arr.get(i)) {
+                check = false;
+                break;
+            }
+        }
+        return check;
+    }
 
-	/* Sample Input : 
-	 Enter root node value or -1 to exit: 15
-	Enter left  child of 15 or -1 if there is no left child: 12
-	Enter right child of 15 or -1 if there is no right child: 28
-	Enter left  child of 12 or -1 if there is no left child: 9
-	Enter right child of 12 or -1 if there is no right child: 24
-	Enter left  child of 28 or -1 if there is no left child: -1
-	Enter right child of 28 or -1 if there is no right child: -1
-	Enter left  child of 9 or -1 if there is no left child: -1
-	Enter right child of 9 or -1 if there is no right child: -1
-	Enter left  child of 24 or -1 if there is no left child: -1
-	Enter right child of 24 or -1 if there is no right child: -1
-	
-	Sample Output :
-	It is not a Binary Search Tree
-	 
-	 */
+
+    public static void main(String[] args) {
+        Node root = createBinaryTree();
+        boolean check;
+        check = checkBST(root);
+        if (check == true)
+            System.out.println("It is a Binary Search Tree");
+        else
+            System.out.println("It is not a Binary Search Tree");
+    }
 }
+/* Sample Input : 
+Enter root node value or -1 to exit: 15
+Enter left  child of 15 or -1 if there is no left child: 12
+Enter right child of 15 or -1 if there is no right child: 28
+Enter left  child of 12 or -1 if there is no left child: 9
+Enter right child of 12 or -1 if there is no right child: 24
+Enter left  child of 28 or -1 if there is no left child: -1
+Enter right child of 28 or -1 if there is no right child: -1
+Enter left  child of 9 or -1 if there is no left child: -1
+Enter right child of 9 or -1 if there is no right child: -1
+Enter left  child of 24 or -1 if there is no left child: -1
+Enter right child of 24 or -1 if there is no right child: -1
+
+Sample Output :
+It is not a Binary Search Tree
+
+Time Complexity : O(n)
+Space Complexity : O(n)
+*/

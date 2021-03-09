@@ -170,3 +170,67 @@ do {
       return;
   }
 } while (choice !== 0);
+
+
+// Sample I/O of the above program -
+
+/*
+
+> node Hash
+
+Welcome to the Hash Table
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display all elements of the Hash Table
+2. Insert element in the Hash Table
+3. Find element in Hash Table
+4. Delete element from Hash Table
+Enter your choice - 1
+Hash Table -  [ 'grapes', 'oranges' ]
+
+Welcome to the Hash Table
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display all elements of the Hash Table
+2. Insert element in the Hash Table
+3. Find element in Hash Table
+4. Delete element from Hash Table
+Enter your choice - 2
+Enter Value ( first value )  to Insert element - Icecream
+Enter amount ( second value) to Insert element - 250
+After Insertion Hash Table -  [ 'Icecream', 'grapes', 'oranges' ]
+
+Welcome to the Hash Table
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display all elements of the Hash Table
+2. Insert element in the Hash Table
+3. Find element in Hash Table
+4. Delete element from Hash Table
+Enter your choice - 3
+Enter Value to find the element - grapes
+Element  { data: [ 'grapes', 1000 ], location: 57 }
+
+Welcome to the Hash Table
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display all elements of the Hash Table
+2. Insert element in the Hash Table
+3. Find element in Hash Table
+4. Delete element from Hash Table
+Enter your choice - 4
+Enter Value to delete - grapes
+Deleted grapes
+After Deletion Hash Table -  [ 'Icecream', 'oranges' ]
+
+Welcome to the Hash Table
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display all elements of the Hash Table
+2. Insert element in the Hash Table
+3. Find element in Hash Table
+4. Delete element from Hash Table
+Enter your choice - 0
+Hmm, matter of choice!
+
+*/

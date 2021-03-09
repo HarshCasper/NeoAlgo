@@ -26,7 +26,6 @@ int main()
 		printf("%d ", arr[i]);
 	}
 
-	getch();
 	return 0;
 }
 

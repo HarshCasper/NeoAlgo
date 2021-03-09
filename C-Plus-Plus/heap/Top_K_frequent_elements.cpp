@@ -63,3 +63,4 @@ Output: [2,1]
 Explanation:
 Top 2 frequent elements are 2 and 1 as 2 occurs 3 times and 1 occurs 2 times.
 */
+

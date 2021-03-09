@@ -16,49 +16,94 @@
 //! ## Examples
 //! ### Example 1:
 //!  **Input**:
-//!  2
+//!  ```
+//!  2 2
 //!  5 2
 //!  1 3
+//!  ```
 //!  **Ouput**:
-//!  2
+//!  ```
+//!  2 2
 //!  1 2
 //!  3 5
+//!  ```
 //!
 //! ### Example 2:
 //!  **Input**:
-//!  2
+//!  ```
+//!  3 3
 //!  5 8 7
 //!  3 2 9
 //!  1 4 6
+//!  ```
 //!  **Ouput**:
+//!  ```
 //!  1 2 3
 //!  4 5 6
 //!  7 8 9
+//!  ```
 //!
 //!
 
-use std_input::stdin_scanner;
+use std::io::{stdin, stdout, prelude::*, BufWriter};
+use std_input::Scanner;
+
+
+/// Sorts the 2D matrix, returning a new Matrix.
+fn matrix_sorting_2d<T>(input_matrix: &Vec<Vec<T>>) -> Vec<Vec<T>>
+where
+    T: Ord + Copy,
+{
+    // we don not check is each Vec<T> in `input_matrix` has exactly same number of elements as
+    // this constraint is already enforced by the way we  take input
+    let rows = input_matrix.len();
+    let cols = input_matrix[0].len();
+
+    // sorting
+    let mut sorted_arr = input_matrix.iter().flatten().map(|x| *x).collect::<Vec<T>>();
+    sorted_arr.sort();
+    let mut sorted_matrix = vec![Vec::with_capacity(cols); rows];
+
+    for i in 0..rows {
+        for j in 0..cols {
+            sorted_matrix[i].push(sorted_arr[i * cols + j]);
+        }
+    }
+
+    sorted_matrix
+}
 
 fn main() {
     // getting input
-    let mut scanner = stdin_scanner();
+    let stdin = stdin();
+    let stdin = stdin.lock();
+    let mut scanner = Scanner::new(stdin);
+    let stdout = stdout();
+    let mut writer = BufWriter::new(stdout.lock());
+
+    writer.write(b"Enter the dimensions of the matrix : ").unwrap();
+    writer.flush().unwrap();
     let n: usize = scanner.get().unwrap();
+    let m: usize = scanner.get().unwrap();
 
     let mut input_matrix: Vec<Vec<i32>> = vec![];
 
+    writer.write(b"Enter the matrix row-wise :").unwrap();
+    writer.flush().unwrap();
+    println!();
     for _ in 0..n {
-        input_matrix.push(scanner.get_vec(n).unwrap());
+        input_matrix.push(scanner.get_vec(m).unwrap());
     }
 
-    // sorting
-    let mut sorted_arr = input_matrix.into_iter().flatten().collect::<Vec<i32>>();
-    sorted_arr.sort();
+    let sorted_matrix = &matrix_sorting_2d(&input_matrix);
 
     // printing as n x n matrix
+    writer.write(b"\nThe sorted matrix :\n").unwrap();
     for row in 0..n {
         for col in 0..n {
-            print!("{}\t", sorted_arr[row * n + col]);
+            writer.write_fmt(format_args!("{}\t", sorted_matrix[row][col])).unwrap();
         }
-        println!();
+        writer.write(b"\n").unwrap();
     }
+    writer.flush().unwrap();
 }

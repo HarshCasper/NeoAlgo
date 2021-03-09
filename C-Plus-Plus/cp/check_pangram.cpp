@@ -65,5 +65,5 @@ int main()
 
 /*
 	Time Complexity: O(N), where N is the length of the string.
-	Auxiliary Space: O(1)
+	Auxiliary Space: O(N),as we have used a map
 */

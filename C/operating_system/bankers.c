@@ -3,7 +3,7 @@
        *  The Banker’s algorithm is a resource allocation and deadlock avoidance algorithm developed by Edsger Dijkstra.
        *  The time complexity of the Banker's algorithm as a function of the number n of processes and m of resources is o(n*n*m).
        *
-      Let P be number of Process and R be number of resources.
+      Let Pbe number of process and R be number of resources.
        *  BOOLEAN function SAFESTATE is -- Determines if current state is safe
         { UNSAFE : boolean;
           AVAILABLE : array[1..R] of INTEGER
@@ -27,31 +27,31 @@
 #include <stdio.h>
 
 // Calculating the remaining need of the resources for each process.
-void CalculateRemainingNeed(int p, int r, int need[p][r], int allocated[p][r], int max[p][r]){
+void CalculateRemainingNeed(int process, int resource, int need[process][resource], int allocated[process][resource], int max[process][resource]){
     int i,j;
-    for(i = 0; i < p; ++i){
-        for(j = 0; j < r; ++j){
+    for(i = 0; i < process; ++i){
+        for(j = 0; j < resource; ++j){
             need[i][j] = max[i][j] - allocated[i][j];
         }
     }
 }
-// Checking whether all the process can be executed.
-int CheckDeadlock(int p, int r, int need[p][r], int avail[], int allocated[p][r], int finish[], int seq[]){
+// Checking whether all the processrocess can be executed.
+int CheckDeadlock(int process, int resource, int need[process][resource], int avail[], int allocated[process][resource], int finish[], int seq[]){
     int count = 0, i, j, k, unsafe = 1;
-    while (count != p){
+    while (count != process){
         unsafe = 1;
-        for(i = 0; i < p; ++i){
+        for(i = 0; i < process; ++i){
             // Checking whether particular process is executed or not.
             if (finish[i] == 0){
-                for(j = 0; j < r; ++j){
+                for(j = 0; j < resource; ++j){
                     // Checking whether the need of any process is greater than availability.
                     if (need[i][j] > avail[j]){
                         break;
                     }
                 }
                 // If all the resources are available for any process.
-                if (j == r){
-                    for (k = 0; k < r; ++k)
+                if (j == resource){
+                    for (k = 0; k < resource; ++k)
                         avail[k] = avail[k] + allocated[i][k];
                     finish[i] = 1;
                     seq[count] = i+1;
@@ -65,60 +65,62 @@ int CheckDeadlock(int p, int r, int need[p][r], int avail[], int allocated[p][r]
     }
 }
 
-void DisplaySafeSequence(int seq[], int p){
+void DisplaySafeSequence(int seq[], int process){
     int i;
     printf("The safe sequence is:\n");
-    for(i = 0; i < p - 1; ++i)
+    for(i = 0; i < process - 1; ++i)
         printf("P%d->", seq[i]);
-    printf("P%d\n", seq[p-1]);
+    printf("P%d\n", seq[process-1]);
 }
 
 int main() {
 
-    int p, r, i, j;
+    int process, resource, i, j;
 
     printf("Enter number of process\n");
-    scanf("%d", &p);
+    scanf("%d", &process);
 
     printf("Enter the number of resources\n");
-    scanf("%d", &r);
+    scanf("%d", &resource);
 
-    int allocated[p][r], max[p][r], avail[r], need[p][r], finish[p], seq[p];
+    int allocated[process][resource], max[process][resource], avail[resource], need[process][resource], finish[process], seq[process];
 
     printf("Enter the available resources\n");
-    for(i = 0; i < r; ++i){
+    for(i = 0; i < resource; ++i){
         scanf("%d", &avail[i]);
     }
 
     printf("Enter the allocated resources to each process\n");
-    for(i = 0; i < p; ++i){
-        for(int j = 0; j < r; ++j){
+    for(i = 0; i < process; ++i){
+        for(int j = 0; j < resource; ++j){
             scanf("%d", &allocated[i][j]);
         }
     }
 
     printf("Enter the maximum demand of resources by each process\n");
-    for(i = 0; i < p; ++i){
-        for(j = 0; j < r; ++j){
+    for(i = 0; i < process; ++i){
+        for(j = 0; j < resource; ++j){
             scanf("%d", &max[i][j]);
         }
     }
 
-    // This matrix is used to keep track of the executed process.
-    // Initializing with value '0' which means no process is executed yet.
-    for(i = 0; i < p; ++i){
+    /*
+        Finish matrix is used to keep track of the executed process.
+        Initializing with value '0' which means no process is executed yet.
+    */
+    for(i = 0; i < process; ++i){
         finish[i] = 0;
     }
 
-    CalculateRemainingNeed(p, r, need, allocated, max);
+    CalculateRemainingNeed(process, resource, need, allocated, max);
 
-    int unsafe = CheckDeadlock(p, r, need, avail, allocated, finish, seq);
+    int unsafe = CheckDeadlock(process, resource, need, avail, allocated, finish, seq);
 
     // Checking if there is any process which will not able to execute.
     if (unsafe == 1)
         printf("The sequence is unsafe. Deadlock will occur.\n");
     else
-        DisplaySafeSequence(seq, p);
+        DisplaySafeSequence(seq, process);
 
     return 0;
 }

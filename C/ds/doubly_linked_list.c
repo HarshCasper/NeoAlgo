@@ -24,7 +24,9 @@ void viewlist();
 int main()
 {
     int choice;
-    while(1)
+    char ans = 'Y';
+    
+    while(ans == 'Y' || ans == 'y')
     {
         printf("\n\n Operations on doubly linked list");
         printf("\n----------------------------------");
@@ -39,7 +41,7 @@ int main()
         printf("\n 9- To exit.");
         printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
         printf("\nEnter your choice : ");
-        scanf("%d",&choice);
+        scanf("%d" , &choice);
 
         switch(choice)
         {
@@ -68,14 +70,23 @@ int main()
                 deleteafter();
                 break;
         case 9:
-                exit(1);
+        		printf("\nExiting :\n");
+                return 0;
                 break;
         default:
             printf("\nIncorrect Choice!\n");
+            break;
         }
+        printf("\nYOU WANT TO CONTINUE (Y/N) : ");
+        scanf(" %c", &ans);
     }
     return 0;
 }
+
+/*
+To insert a node at the starting of the Doubly linked list,
+create a new node and make it point by the start pointer.
+*/
 
 void insertstart()
 {
@@ -90,6 +101,10 @@ void insertstart()
     start = temp;
 }
 
+/*
+To insert a node at the end of the Doubly linked list,
+create a new node and make it pointed by the previously last node.
+*/
 
 void insertlast()
 {
@@ -115,6 +130,12 @@ void insertlast()
     }
 }
 
+/*
+To insert a node at a specific position of the Doubly linked list,
+create a new node, traverse the list till the desired position,
+make the new node pointed by the previous node. 
+Also make the new node point to the previou's next node.
+*/
 
 void insertafter(struct node *ptr)
 {
@@ -190,6 +211,9 @@ void insertat()
 
 }
 
+/*
+To delete the first node, make start ointer point to the next node.
+*/
 
 void deletefirst()
 {
@@ -205,6 +229,10 @@ void deletefirst()
     }
 }
 
+/*
+To delete the last node, traverse till second last node;
+and make it point to NULL.
+*/
 
 void deletelast()
 {
@@ -225,6 +253,12 @@ void deletelast()
         }
     }
 }
+
+/*
+To delete a specific node, traverse till that node (lets say current),
+use an extra pointer to point its previous node,
+now make the previous node point to current node's next node.
+*/
 
 
 void deleteafter()
@@ -251,6 +285,11 @@ void deleteafter()
     }
 }
 
+/*
+To view the list, use a pointer and make it point to start,
+now print the node's data part and make it point to next node. 
+Repeat both the steps until the pointer points to NULL.
+*/
 
 void viewlist()
 {
@@ -271,7 +310,6 @@ void viewlist()
 
 /*Sample Input/Output of this program-
 
-
  Operations on doubly linked list
 ----------------------------------
  1- To view the list.
@@ -288,6 +326,8 @@ void viewlist()
 Enter your choice : 2
 
 Enter the element : 10
+
+YOU WANT TO CONTINUE (Y/N) : y
 
 
  Operations on doubly linked list
@@ -306,6 +346,8 @@ Enter the element : 10
 Enter your choice : 3
 
 Enter the element : 20
+
+YOU WANT TO CONTINUE (Y/N) : y
 
 
  Operations on doubly linked list
@@ -327,60 +369,7 @@ Enter the element after which you want the insertion : 10
 
 Enter the element : 15
 
-
- Operations on doubly linked list
-----------------------------------
- 1- To view the list.
- 2- Insertion of element at starting.
- 3- Insertion of element at end.
- 4- Insertion of element at any position by providing previous element.
- 5- Insertion of element at any position by providing index.
- 6- Deletion of the first element.
- 7- Deletion of the last element.
- 8- Delete an element from any position.
- 9- To exit.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Enter your choice : 5
-
-Enter the index/position : 1
-
-Enter the element : 25
-
-
- Operations on doubly linked list
-----------------------------------
- 1- To view the list.
- 2- Insertion of element at starting.
- 3- Insertion of element at end.
- 4- Insertion of element at any position by providing previous element.
- 5- Insertion of element at any position by providing index.
- 6- Deletion of the first element.
- 7- Deletion of the last element.
- 8- Delete an element from any position.
- 9- To exit.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Enter your choice : 1
-
-The list is : 10  25  15  20
-
- Operations on doubly linked list
-----------------------------------
- 1- To view the list.
- 2- Insertion of element at starting.
- 3- Insertion of element at end.
- 4- Insertion of element at any position by providing previous element.
- 5- Insertion of element at any position by providing index.
- 6- Deletion of the first element.
- 7- Deletion of the last element.
- 8- Delete an element from any position.
- 9- To exit.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Enter your choice : 8
-
-Enter the index : 1
+YOU WANT TO CONTINUE (Y/N) : y
 
 
  Operations on doubly linked list
@@ -399,6 +388,8 @@ Enter the index : 1
 Enter your choice : 1
 
 The list is : 10  15  20
+YOU WANT TO CONTINUE (Y/N) : y
+
 
  Operations on doubly linked list
 ----------------------------------
@@ -415,23 +406,8 @@ The list is : 10  15  20
 
 Enter your choice : 6
 
+YOU WANT TO CONTINUE (Y/N) : y
 
- Operations on doubly linked list
-----------------------------------
- 1- To view the list.
- 2- Insertion of element at starting.
- 3- Insertion of element at end.
- 4- Insertion of element at any position by providing previous element.
- 5- Insertion of element at any position by providing index.
- 6- Deletion of the first element.
- 7- Deletion of the last element.
- 8- Delete an element from any position.
- 9- To exit.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Enter your choice : 1
-
-The list is : 15  20
 
  Operations on doubly linked list
 ----------------------------------
@@ -447,6 +423,8 @@ The list is : 15  20
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Enter your choice : 7
+
+YOU WANT TO CONTINUE (Y/N) : y
 
 
  Operations on doubly linked list
@@ -465,23 +443,9 @@ Enter your choice : 7
 Enter your choice : 1
 
 The list is : 15
+YOU WANT TO CONTINUE (Y/N) : n
 
- Operations on doubly linked list
-----------------------------------
- 1- To view the list.
- 2- Insertion of element at starting.
- 3- Insertion of element at end.
- 4- Insertion of element at any position by providing previous element.
- 5- Insertion of element at any position by providing index.
- 6- Deletion of the first element.
- 7- Deletion of the last element.
- 8- Delete an element from any position.
- 9- To exit.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Enter your choice : 9
-
-Process returned 1 (0x1)   execution time : 80.786 s
+Process returned 0 (0x0)   execution time : 50.165 s
 Press any key to continue.
 
 */

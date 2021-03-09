@@ -152,6 +152,13 @@
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 
+## Queue
+
+-[Queue](Queue/queue.cpp)
+-[Queue](Queue/Deque.cpp)
+-[Queue](Queue/CircularQueue.cpp)
+
+
 ## Heap based problems
 
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)

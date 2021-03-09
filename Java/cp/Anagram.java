@@ -9,14 +9,9 @@
 import java.util.Scanner;
 import java.lang.String;
 public class Annagram {
-/* Called function(isAnagram) from main function
-* to check whether the Strings are Anagrams.
-*/
 	static boolean isAnagram(String a, String b) {
- // Changing all the charactor of a into Lower case.
 		a = a.toLowerCase();
 		b = b.toLowerCase();
-// the function has boolean type so we have to return the boolean value.
 		boolean c = true;
 		int al[] = new int[256];
 /* system provided the ASCII table
@@ -42,20 +37,17 @@ public class Annagram {
 				break;
 			}
 		}
-		return c;   //returning boolean value from function.
+		return c;
 	}
-	public static void main(String[] args) {   // The main function
-		Scanner scan = new Scanner(System.in); // Assigning variable 'Scan' for taking input from user.
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter the first String : ");
-		String a = scan.next();  // Storing value of first String taken from 'scan' to String a.
+		String a = scan.next();
 		System.out.println("Please enter the Second String : ");
 		String b = scan.next();
-		scan.close(); // Close to receive input from user.
-		boolean ret = isAnagram(a, b); // Calling function in Annagram class.
+		scan.close();
+		boolean ret = isAnagram(a, b);
 		System.out.println((ret) ? "String are Anagrams..." : "Strings are Not Anagrams...");
-/*
-* This will check the boolean value returned from class and will give you an Output from that.
-*/
 	}
 }
 /*
@@ -70,5 +62,4 @@ dcab
 
 Output:
 String are Anagrams...
-
 */

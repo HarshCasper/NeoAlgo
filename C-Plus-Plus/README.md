@@ -216,11 +216,6 @@ _add list here_
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 
 ## Computational Geometry
-- [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
-- [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
-- [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
-- [Maximum in Array](cp/Maximum_In_Array.cpp)
-- [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
 ## Other

@@ -1,13 +1,8 @@
 /** CONCEPT
- * This code computes the number of insertions and deletions required to convert one string to another
- * -->Calculate the length of the longest common subsequence
- * -->Characters not present in the string X but present in string Y need to be inserted
- * -->Characters not present in the string Y but present in string X need to be deleted
- * -->Subtract the length of the longest common subsequence from the length of the string Y to find out the number of insertions
- * -->Subtract the length of the longest common subsequence from the length of the string X to find out the number of deletions
- * 
- * TIME COMPLEXITY- O(n^2)
- 
+ This code computes the number of insertions and deletions required to convert one string to another
+ *Calculate the length of the longest common subsequence
+ *Characters not present in the string X but present in string Y need to be inserted
+ *Characters not present in the string Y but present in string X need to be deleted
 **/
 #include <bits/stdc++.h>
 using namespace std;
@@ -53,3 +48,12 @@ int main()
     int m = y.length();
     minInsertDel(x, y, n, m);
 }
+/*
+ *TIME COMPLEXITY- O(n^2)
+ *INPUT:
+  X= abcdef
+  Y= abcdg
+  OUTPUT:
+  Minimum insertions=1
+  Minimum deletions=2
+*/

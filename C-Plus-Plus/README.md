@@ -201,7 +201,7 @@ _add list here_
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
-
+- [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 ## Blockchain
 
 _add list here_

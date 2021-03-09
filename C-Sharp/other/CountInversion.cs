@@ -48,7 +48,7 @@
         return 0;
 
     }
-    //Limit the number of parameters
+    //Limit the number of parameters and get number of inversions
     public static long countInversions(int[] arr)
     {
         long count = mergeSort(arr, new int[arr.Length], 0, arr.Length - 1);

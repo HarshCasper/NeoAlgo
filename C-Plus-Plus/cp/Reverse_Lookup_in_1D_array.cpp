@@ -25,7 +25,7 @@ Problem Explanation:
 
 -->Efficient Method : (USING REVERSE LOOKUP)
 
-	In this method, the main intution is to get the number of times a particular element is repeated in a subarray.
+	In this method, the main intution is to get the number of subarrays where a particular element is included.
 	Once we have the repetition number, we can multiply the element with the number of times it is repeated in order to get the actual contribution of that element towards the final sum.
 	
 	For example, let's say we have an element with value X placed at i-th position in the array. Now for X to be included in a subarray, that particular subarray must start from any index between 0 to i and must end between any indicies from i to N-1.
@@ -66,7 +66,7 @@ int main(){
 
 	for(int i = 0; i < n; i++){
 		//actual contribution by array[i] is array[i] * ((i + 1) * (N - i))
-        contribution = ((( i + 1) % M * ( n - i ) % M ) % M * array[i] % M ) % M;
+        contribution = ((val % M * val1 % M ) % M * array[i] % M ) % M;
         //total_sum = total_sum + contribution
         total_sum = ((total_sum % M) + (contribution % M)) % M;
     }

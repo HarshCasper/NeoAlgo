@@ -33,6 +33,8 @@ public class StackUsingQueue {
             if (qu2.isEmpty()) {
                 return;
             }
+
+            // remove element and reduce size if qu2 not empty
             qu2.remove();
             currentSize--;
         }
@@ -41,6 +43,8 @@ public class StackUsingQueue {
             if (qu2.isEmpty()) {
                 return -1;
             }
+
+            // return the top element
             return qu2.peek();
         }
 
@@ -52,7 +56,6 @@ public class StackUsingQueue {
     public static void main(String[] args) {
         Stack stack = new Stack();
 
-        // taking input
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size:");
         int size = sc.nextInt();
@@ -62,7 +65,6 @@ public class StackUsingQueue {
         }
         sc.close();
 
-        // giving output
         System.out.println("Current Size:" + stack.size());
         for (int i = size; i > 0; i--) {
             System.out.println(stack.top());

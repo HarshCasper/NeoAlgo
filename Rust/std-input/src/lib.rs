@@ -1,4 +1,4 @@
-use std::io::{self, prelude::*, stdin, BufReader, Stdin};
+use std::io::{self, prelude::*,BufReader};
 use std::str::{FromStr, SplitWhitespace};
 
 /// Scanner struct, used to get C++-style input. It is used to avoid writing boilerplate code again
@@ -58,9 +58,4 @@ impl<R: io::Read> Scanner<R> {
 
         Some(input)
     }
-}
-
-/// Create a new `Scanner` with `reader` as stdin.
-pub fn stdin_scanner() -> Scanner<Stdin> {
-    Scanner::new(stdin())
 }

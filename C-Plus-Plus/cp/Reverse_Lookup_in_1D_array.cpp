@@ -32,7 +32,7 @@ Problem Explanation:
 	Hence the number of subarrays starting from index 0 to i = i + 1 
 	and the number of subarrays ending on indices from i to N-1  = N - i
 
-	Therefore, the total number of repititions = (i + 1) * (N - i)
+	Therefore, the total number of repetitions = (i + 1) * (N - i)
 	The contribution by X = X * repetitions  = X * ((i + 1) * (N - i)).
 
 	Hence the total time complexity would just be O(N).

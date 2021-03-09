@@ -3,6 +3,24 @@ using namespace std;
 typedef long long int ll;
 
 /*
+Given an array, find out the total number of subarrays which has the sum as Zero
+
+Input Format
+The first line consists of an integer N ,the number of elements in the array.
+Then the next N numbers are the elements of the array.
+
+Output Format
+Find the count of the total zero-sum subarrays.
+
+Sample Input
+11
+6 3 -1 -3 4 -2 2 4 6 -12 -7
+
+Sample Output
+5
+*/
+
+/*
   1. Brute force : TC => O(n^2)
      => Looped over all the subarrays and found out the zero sum subarrays
 */
@@ -52,7 +70,8 @@ int main()
     {
         cin >> a[i];
     }
-    cout << Count_subarrays_brute(a, n) << endl;     // Brute force
-    cout << Count_Subarrays_Optimised(a, n) << endl; // Optimised
+    cout << Count_subarrays_brute(a, n); // Brute force
+    cout << endl;
+    cout << Count_Subarrays_Optimised(a, n); // Optimised
     return 0;
 }

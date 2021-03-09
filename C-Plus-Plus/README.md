@@ -122,6 +122,7 @@
 - [Randomized Select Search](search/Randomized_Select.cpp)
 - [Staircase Search](search/Staircase_Search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
+- [Fibonacci Search](search/fibonacci_search.cpp)
 
 ## Sorting
 

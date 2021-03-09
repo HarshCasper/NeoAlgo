@@ -80,10 +80,6 @@
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 
-
-## Bits Manipulation
-- [Hamming Distance](bits_manipulation/Hamming_Distance.cpp)
-
 ## Graphs
 
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
@@ -174,6 +170,7 @@ _add list here_
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
+- [Hamming Distance](math/Hamming_Distance.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)

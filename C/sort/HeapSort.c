@@ -1,12 +1,17 @@
-// C program to sort a the given numbers
-
-#include <math.h>
+/* 
+Heap Sort 
+Heap Sort is treated as the best sorting technique in the category of selection sorting .
+It uses a heap tree as an underlying data structure to soer an array of elements
+This is an inplace sorting algorithm as it does not require any extra storage space other 
+than the input storage list. This algorithm requires 3 basic steps 
+Create heap : Create the initial heap tree with n elements stored in the array A
+Remove max : Select the value in the root node and swap with the value in the i'th 
+location
+Rebuild heap : Rebuild the heap for elements A[1,2,3,..., i - 1]
+The first operation is done once , the second and third are done n times 
+*/
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
-#include <assert.h>
-#include <limits.h>
-#include <stdbool.h>
 
 /* removeMax function is to remove the maximum element, 
 which is at the root of the Max heap */
@@ -140,17 +145,13 @@ int main()
 {
     int n;
     printf("Enter the number of elements to sort\n");
-    // input n --> number of digits in the sequence
     scanf("%d", &n);
     int *ar = (int *)malloc(sizeof(int) * (n + 2));
     printf("Enter the elements to sort\n");
-    // input the sequence of digits and store it in an array ar
     for (int i = 1; i < n + 1; i++)
         scanf("%d", &ar[i]);
 
     heap_sort(ar, n);
-
-    // printing the result
     printf("The sorted list :\n");
     for (int i = 1; i < n + 1; i++)
         printf("%d ", ar[i]);
@@ -158,11 +159,14 @@ int main()
 }
 
 /*
-Working 
+Sample I/O :
 Enter the number of elements to sort
-input -- >> 5
+5
 Enter the number of elements to sort
 4 3 2 5 1
 The sorted list :
 1 2 3 4 5
+
+Time Complexity : O(n log n)
+Space Complexity : O(1) 
 */

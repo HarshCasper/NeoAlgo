@@ -56,6 +56,10 @@ name = "kadane"
 path = "src/kadane.rs"
 ```
 
+Write the logic of the algorithm in a seperate function than the `main` function so that readers can just focus on algorithm and not bother with how input is taken and/or formatted.
+
+Also, we have written a seperate `std-input` crate for easy input, giving a similar interface as with `iostream` in C++. Use this for input. For seeing how to include it in your code, see [`cp/Cargo.toml`](cp/Cargo.toml), and for how to use it see the `main` function of [`cp/src/2d_matrix_sorting.rs`](cp/src/2d_matrix_sorting.rs).
+
 ## Testing Code
 
 Cargo has a great builtin unit testing framework, which we use. You are expected to write test cases for the algorithm you write using this, and check them using

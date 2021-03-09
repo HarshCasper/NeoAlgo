@@ -141,6 +141,7 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
+- [Iterative_Version_Merge_Sort](sort/Iterative_version_merge_sort.cpp) 
 
 ## Stack based problems
 

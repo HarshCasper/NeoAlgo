@@ -193,6 +193,7 @@ _add list here_
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
+- [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)
 - [Partition Problem](dp/Partition_Problem.cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
 - [String permutations](dp/string_permutations.cpp)

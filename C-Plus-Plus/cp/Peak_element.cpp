@@ -1,31 +1,20 @@
 /** An array element is a peak if it is NOT smaller than
 its neighbours. For corner elements, we need to
 consider only one neighbour.
-Since an array always have a maximum value therefore an peak element always be there.
-Eg. :
-Input: array[] = {10, 20, 15, 2, 23, 90, 67}
-Output: 20 or 90
-The element 20 has neighbours 10 and 15, both of
-them are less than 20, similarly 90 has neighbours 23
-and 67.
-A divide-and-conquer algorithm recursively breaks
-down a problem into two or more sub-problems of
-the same or related type, until these become simple
-enough to be solved directly. The solutions to the
-sub-problems are then combined to give a solution to
-the original problem. **/
+Since an array always have a maximum value therefore an peak element always be there and there can be many peak element
+**/
 
 #include <bits/stdc++.h>
 using namespace std;
 
 // recursive approach
-//  Complexity : O(log(N)
-int findPeek(vector<int>v,int l,int r)
+int find_peak_recursive(vector<int>v,int l,int r)
 {
     if(l<r)
     {
         int mid = l+(r-l)/2;
-        if(mid == 0 || mid+1 == v.size()) // means we are at corner
+	// for corner cases
+        if(mid == 0 || mid+1 == v.size()) 
         {
             if(mid==0)
             {
@@ -46,17 +35,16 @@ int findPeek(vector<int>v,int l,int r)
         return v[mid];
         
         else if(v[mid]<v[mid+1])
-        return findPeek(v,mid+1,r);
+        return find_peak_recursive(v,mid+1,r);
         
         else 
-        return findPeek(v,l,r-1);
+        return find_peak_recursive(v,l,r-1);
     }
     return -1;
 }
 
 // using while loop approach
-//  Complexity : O(log(N)
-int findPeek(vector<int>arr)
+int find_peak_iter(vector<int>arr)
 {
     
     int start=0,n=arr.size();
@@ -79,6 +67,7 @@ int findPeek(vector<int>arr)
                 start=mid+1;
             }
         }
+	// for corner cases
         else if(mid==0)
         {
             if(arr[0]>arr[1])
@@ -90,6 +79,7 @@ int findPeek(vector<int>arr)
                 return arr[1];
             }
         }
+	// for corner cases
         else if(mid==n-1)
         {
             if(arr[n-1]>arr[n-2])
@@ -106,52 +96,32 @@ int findPeek(vector<int>arr)
 }
 
 int main() {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
-	cout.tie(0);
-	int n;cin>>n;
+	int n;
+	cin>>n;
 	vector<int> v(n);
 	for(int i=0;i<n;i++)
 	cin>>v[i];
-	int i = findPeek(v,0,n-1);
-	cout << i <<"\n";
+	
+	int peak_recursive = find_peak_recursive(v,0,n-1);
+	cout << "Peak element ( Recursive approach ) : "<< peak_recursive <<"\n";
+	
+	int peak_iter = find_peak_iter(v);
+	cout << "Peak element ( Iterative approach ) : "<< peak_iter <<"\n";
+	
 	return 0;
 }
 
-/** ILLUSTRATION
-Input : a[] = { 10, 20, 15, 2, 23, 90, 6 }
-       //index = 0   1   2  3   4  5   6 
-findPeak(a,0,6)
-if 0<6
-mid = 3 //a[mid] = a[3] = 2
-if 2≥ 15 : false
-if a[mid] < a[mid+1] , 2<23 : true
-return findPeak(a,4,6)
-findPeak(a,4,6)
-if 4<6
-mid = 5 // a[5] = 90
-if 90 ≥ 6 && 90 ≥ 23 : true
-return a[5], i.e., 90
-∴ Output = 90 ; 
+/** 
+Eg. :
+Input: array[] = {10, 20, 15, 2, 23, 90, 67}
 
-Approach 2 :
-// a = { 10, 20, 15, 2, 23, 90, 6 }
-// index =0  1   2   3   4   5  6
-findPeak (a)
-start = 0
-n = a.size() = 7
-end = n-1 = 6
-while start < end
-0 < 6 : true
-mid = 3
-if 3>0 && 4 < 7 : true
-if a[3] ≥ a[2] && a[3] ≥ a[4] : false
-if a[3] < a[4] ( 2<23) : true
-start = mid+1 = 4
-4 < 6 : true
-mid = 5
-if 5>0 && 6<7 : true
-if a[5] ≥ a[4] && a[5] ≥ a[6] ( 90>23 ,
-90>6 ) : true
-return a[5] i.e., 90
-∴ Output = 90 ;**/
+Output: 
+Peak element ( Recursive approach ) : 90
+Peak element ( Iterative approach ) : 20
+
+Time Complexity : O(log(N))
+Space Complexity : O(N)
+Approach :If the middle element is not the peak element, then check if the element on the right side is greater than the middle element 
+then there is always a peak element on the right side. 
+If the element on the left side is greater than the middle element then there is always a peak element on the left side.
+**/

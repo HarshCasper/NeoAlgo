@@ -40,7 +40,8 @@ long long int LCA(int node1, int node2)
     // if after bringing both nodes at same level, node1=node2 , then that is only the lca .
     if (node1 == node2)
     {
-        return node1; // we could return any of the node as both are same.
+        // we could return any of the node as both are same.
+        return node1; 
     }
     //Applying binary lifing and trying to reach the fartherst unequal nodes
     for (int powers_of_two = 17; powers_of_two >= 0; powers_of_two--)
@@ -88,3 +89,24 @@ int main()
 
     return 0;
 }
+
+/* SAMPLE INPUT :
+    5 
+    1 1 3 3
+    3
+    4 5
+    2 5
+    1 4
+*/
+/* Sample OUPUT :
+   3
+   1
+   1
+*/
+/* Time complexity Ansalysis : 
+        Building of Tree takes O(N) time Complexity 
+        Calulating the parent and height function takes another O(18*N) time complexity
+        Then EACH query TAKES LOG(N) time to process the query and find the LCA
+        
+        Therefore, TOTAL Time COMPLEXITY O(N+(18*N)+(Q*LOG(N)) which is same as saying O(Q*LOG(N);
+*/

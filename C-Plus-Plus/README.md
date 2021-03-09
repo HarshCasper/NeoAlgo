@@ -156,6 +156,7 @@
 
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
+- [K Closest Points to Origin](heap/K_Closest_Points_to_Origin.cpp)
 
 
 ## Machine Learning

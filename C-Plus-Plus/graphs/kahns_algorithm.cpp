@@ -22,30 +22,23 @@ using namespace std;
 void kahn_topological_sort(vector <int> adj[], int n){
     //Array for keeping a track for indegree of all nodes
     int in_degree[n]; 
-    
     memset(in_degree,0,sizeof(in_degree));
-    
     queue <int> q; 
-
     //Computing in degree of each node
     for(int i=0;i<n;i++){
         for(auto s: adj[i]){
             in_degree[s]++;
         }
     }
-
     //Pushing nodes with in degree zero into the queue
     for(int i=0;i<n;i++){
         if(!in_degree[i]){
             q.push(i);
         }
     }
-
     int count_of_visited_nodes{};
-    
     //This vector will store the order
     vector <int> topological_order; 
-   
     while(!q.empty()){
         //Storing the front i.e. the first node of the queue in curr
         int curr = q.front();
@@ -62,7 +55,6 @@ void kahn_topological_sort(vector <int> adj[], int n){
         //increasing the count of visited nodes
         count_of_visited_nodes++;
     }
-
     if(count_of_visited_nodes!=n){
         cout<<"No topological sort possible, there exists a cycle"<<endl;
     }
@@ -72,13 +64,10 @@ void kahn_topological_sort(vector <int> adj[], int n){
             cout<<s<<" ";
         }cout<<endl;
     }
-    
 }
-
 int main(){
     int n,m; cin>>n>>m;
     vector <int> adj[n];
-    
     int a,b;
     for(int i=0;i<m;i++){
         cin>>a>>b;

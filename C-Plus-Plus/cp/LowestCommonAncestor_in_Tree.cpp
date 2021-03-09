@@ -104,9 +104,16 @@ int main()
    1
 */
 /* Time complexity Ansalysis : 
-        Building of Tree takes O(N) time Complexity 
-        Calulating the parent and height function takes another O(18*N) time complexity
-        Then EACH query TAKES LOG(N) time to process the query and find the LCA
+   Building of Tree takes O(N) time Complexity 
+   Calulating the parent and height function takes another O(18*N) time complexity
+    Then EACH query TAKES LOG(N) time to process the query and find the LCA
         
-        Therefore, TOTAL Time COMPLEXITY O(N+(18*N)+(Q*LOG(N)) which is same as saying O(Q*LOG(N);
+   Therefore, TOTAL Time COMPLEXITY O(N+(18*N)+(Q*LOG(N)) which is same as saying O(Q*LOG(N);
+   
+   SPACE COMPLEXITY :
+    we ARE USING SPACE COMPLEXITY OF O(N*18) as maximum value of N can be 10^5, 
+    so we have made an fixed Array size of [10^5][18] for the ease and better understanting 
+    of the code.
+    
+    There total Space complexity equals O(N) as 18 is a constant.
 */

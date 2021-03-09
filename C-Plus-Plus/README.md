@@ -218,8 +218,12 @@ _add list here_
 
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
+<<<<<<< HEAD
 ## Backtracking
 -[Word Break Problem](backtracking/Word_break.cpp)
+=======
+
+>>>>>>> f3f8e3ecff01def04109ea96784a01ca0ec9414f
 
 ## Other
 

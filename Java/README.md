@@ -70,6 +70,7 @@ _add list here_
 - [Implement Queue using Stack](cp/Queue_using_Stack.java)
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
+- [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
 
 ## Cryptography
 

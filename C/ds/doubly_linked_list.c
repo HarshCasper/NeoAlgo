@@ -1,6 +1,20 @@
 #include <stdio.h>
 #include <malloc.h>
 
+/*
+Code Description :
+Doubly linked list is a type of linked list in which each node
+has a data part and two pointer part. The first pointer points 
+to the previous node in the list and the second pointer points 
+to the next node in the list.
+
+In the code below we have created the structure of doubly linked list.
+We have also provided options to the user to choose among the opearations.
+
+As per the option selected, respective switch-case will execute and function 
+will be called. Brief description of each function is also provided below.
+*/
+
 struct node
 {
     int info;

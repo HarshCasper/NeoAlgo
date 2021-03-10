@@ -3,44 +3,44 @@ A fun and interactive snake game using GUI programming in python
 It is very user friendly and contains appropriate comments
 It covers all the corner test cases also
 """
-#Import the necessary libraries 
+# Import the necessary libraries
 import turtle
 import time
 import random
 
-#Initialize the scores 
+# Initialize the scores
 score = 0
 highscore = 0
 delay = 0.2
 
-#Set up the screen
+# Set up the screen
 window = turtle.Screen()
 window.title("Snake Game")
 window.bgcolor("black")
-window.setup(height=600,width=600)
+window.setup(height=600, width=600)
 window.tracer(0)
 
-#Create the snake's head
+# Create the snake's head
 head = turtle.Turtle()
 head.speed(0)
 head.shape("square")
 head.color("white")
 head.penup()
-head.goto(0,100)
+head.goto(0, 100)
 head.direction = "stop"
 
-#Create snake food
+# Create snake food
 food = turtle.Turtle()
 food.speed(0)
 food.shape("circle")
 food.color("red")
 food.penup()
-food.shapesize(0.50,0.50)
-food.goto(0,0)
+food.shapesize(0.50, 0.50)
+food.goto(0, 0)
 
 segments = []
 
-#Display the score
+# Display the score
 board = turtle.Turtle()
 board.speed(0)
 board.shape("square")
@@ -48,9 +48,10 @@ board.color("white")
 board.penup()
 board.hideturtle()
 board.goto(0, 260)
-board.write("Score: 0  High Score: {}".format(highscore), align="center", font=("Courier",24,"normal"))
+board.write("Score: 0  High Score: {}".format(highscore), align="center", font=("Courier", 24, "normal"))
 
-#Directions for movement
+
+# Directions for movement
 def move():
     if head.direction == "up":
         y = head.ycor()
@@ -65,28 +66,35 @@ def move():
         x = head.xcor()
         head.setx(x - 20)
 
-#Setting the directions
+# Setting the directions
 def go_down():
-    if head.direction!="up":
+    if head.direction != "up":
         head.direction = "down"
+
+
 def go_up():
-    if head.direction!="down":
+    if head.direction != "down":
         head.direction = "up"
+
+        
 def go_right():
-    if head.direction!="left":
+    if head.direction != "left":
         head.direction = "right"
+
+        
 def go_left():
-    if head.direction!="right":
+    if head.direction != "right":
         head.direction = "left"
 
-#Keyboard Bindings
+
+# Keyboard Bindings
 window.listen()
 window.onkey(go_up, "w")
 window.onkey(go_down, "s")
 window.onkey(go_left, "a")
 window.onkey(go_right, "d")
 
-#Main game loop
+# Main game loop
 while True:
     window.update()
 
@@ -105,12 +113,12 @@ while True:
         new_seg.penup()
         segments.append(new_seg)
 
-        #Increse the score
+        # Increse the score
         score = score + 10
-        if(score > highscore):
+        if score > highscore :
             highscore = score
 
-        #Update the score
+        # Update the score
         board.clear()
         board.write("Score: {}  High Score: {}".format(score, highscore), align="center", font=("Courier", 24, "normal"))
 
@@ -140,7 +148,7 @@ while True:
         # Clear the segments
         segments = []
 
-        #Reset score
+        # Reset score
         score = 0
         # Update the score
         board.clear()

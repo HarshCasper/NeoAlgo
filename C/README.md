@@ -123,6 +123,10 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 
+## Operating System
+
+- [Banker's Algorithm](operating_system/bankers.c)
+
 ## Other
 
 - [Find the Numbers](other/Find_the_numbers.c)

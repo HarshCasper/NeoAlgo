@@ -172,5 +172,4 @@ while True:
             score = 0
             # Update the score
             board.clear()
-            board.write("Score: {}  High Score: {}".format(score, highscore)) 
-            board.write(align="center", font=("Courier", 24, "normal"))
+            board.write("Score: {}  High Score: {}".format(score, highscore), align="center")

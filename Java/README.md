@@ -19,6 +19,7 @@
 ## Greedy Algorithms
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
+- [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 
 ## Blockchain
 

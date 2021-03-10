@@ -50,7 +50,7 @@ class DoublyLinkedList:
 
         @staticmethod
         def printList(node):
-        rev_key = ""
+            rev_key = ""
         while node:
             rev_key += node.data
             node = node.next
@@ -71,7 +71,7 @@ if __name__ == "__main__":
         print("Is Palindrome")
     else:
         print("Not a Palindrome")
-"""Sample Input/Output :- 
+"""Sample Input/Output :-
 
 Test case 1:
 Enter the string : clouds

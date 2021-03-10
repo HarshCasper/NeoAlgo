@@ -16,7 +16,7 @@ void leftRotate(int arr[], int d, int n)
 	reverse(arr, 0, n - 1); 
 } 
 
-// Function to print an array 
+// Function to print array 
 void printArray(int arr[], int size) 
 { 
 	for (int i = 0; i < size; i++) 

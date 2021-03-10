@@ -152,6 +152,7 @@ _add list here_
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Unique BST](dp/Unique_BST.java)
+- [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
 
 ## Blockchain
 

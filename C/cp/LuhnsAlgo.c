@@ -19,7 +19,7 @@ Step 1        10       9   16        7   12        5   8   0   4   4   12       
 Step 2        1+0 = 1  9   1+6 = 7   7   1+2 = 3   5   8   0   4   4   1+2 = 3   8   2   3   1+0 = 1   5
 
 Checksum = 1 + 9 + 7 + 7 + 3 + 5 + 8 + 0 + 4 + 4 + 3 + 8 + 2 + 3 + 1 + 5 = 70
-           3   6   5   0   1   4   4   5   7   2   9   1   2    0    1   5
+
 Since the checksum is divisible by ten, 5987654024681355 is a valid credit card number. Write a program
 that, upon input a 16-digit credit card number, determines whether the card number is valid. A 16-digit
 integer cannot be accommodated in a long int variable, so read the input as a string (a character array).
@@ -31,17 +31,21 @@ int main()
 {
     char card[16];                               //character array
     printf("Enter the credit card number:\n");
-    gets (card);
-    int checksum = 0;
-    for (int i=0; i<strlen(card) ; i++){
-            int digit = card[i] - '0';
-            if (i%2==1){                         //even positions
-            checksum += digit;
-            printf(" + %d", digit);
+    gets (card);                                 //reads a line from stdin and stores it into the 'card' character array
+    int checksum = 0;                            //initiates checksum to zero
+    for (int i=0; i<strlen(card) ; i++)          //iterates as many times as there are characters in the input string
+    {
+        int digit = card[i] - '0';
+        if (i%2==1){                             //even positions
+        checksum += digit;                       //digits added to checksum as it is
+        printf(" + %d", digit);
         }
-        if (i%2==0){                             //odd positions
+        if (i%2==0){                             //odd positions (might require 2digit adjustments)
             checksum += (2*digit<10) ? (2*digit):((2*digit)%10)+1;
-            /*(n modulo 10) + 1 yields same value as the 2digit adjustment
+            /*
+            Ternary operator used to imply single digits are added to checksum without any change;
+            But for 2digit nos., sum of the digits is to be added to checksum.
+            (n modulo 10) + 1 yields same value as the 2digit adjustment
             (eg, (11%10)+1 = 2 = 1+1   ;   10%10+1 =1 = 1+0 )
             */
             printf(" + %d", (2*digit<10) ? (2*digit):(((2*digit)%10)+1));        

@@ -1,8 +1,8 @@
 
-// In this programe we will check whether a number is angstrom or not 
-// An Armstrong number of a three-digit number is a number in which 
+// In this program we will check whether a number is an Armstrong number 
+// An Armstrong number is a three-digit number in which 
 // the sum of the cube of the digits is equal to the number itself. 
-// Hence 153 is an Armstrong number
+// Hence 153 is an Armstrong number -> 1^3 + 5^3 + 3^3 = 153
 
 
 process.stdin.setEncoding("utf-8");

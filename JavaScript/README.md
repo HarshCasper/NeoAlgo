@@ -16,6 +16,10 @@
 - [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 - [Armstrong Number](Algorithms/Armstrong.js)
 
+## Backtracking
+
+- [N-Queens](Backtracking/N-Queens.js)
+
 ## Data Structures
 
 - [AVL Tree](./ds/AVLTree.js)

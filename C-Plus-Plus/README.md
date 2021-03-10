@@ -49,6 +49,7 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [Reversal Algorithm for array rotation](cp/reversal_algo_for_array_rotation.cpp)
 
 ## Data Structures
 
@@ -151,6 +152,7 @@
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
+- [Implementation of Stack](stack/implementation_of_stack.cpp)
 
 ## Heap based problems
 

@@ -20,15 +20,14 @@ Return : Message if the input is a palindrome or not
 
 class Node:
 
-    
     def __init__(self, data):
         self.data = data
         self.next = None
         self.prev = None
 
+
 class DoublyLinkedList:
 
-    
     def __init__(self):
         self.head = None
 
@@ -72,7 +71,7 @@ if __name__ == "__main__":
     else:
         print("Not a Palindrome")
 
-'''
+"""
 
 Sample Input/Output :-
 
@@ -88,4 +87,4 @@ Test case 3:
 Enter the string : books
 Not a Palindrome
 
-'''
+"""

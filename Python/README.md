@@ -53,7 +53,7 @@
 - [Letter Count in a word](cp/LetterCount.py)
 - [Rabin Karp algorithm](cp/RabinKarp.py)
 - [Cyclically Rotate Clockwise](cp/Cyclically_rotate.py)
-- [edges that disconnect the graph when removed](cp/edges_that_disconnect_graph.py)
+- [edges that disconnect the graph](cp/edges_that_disconnect_graph.py)
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
 - [Caesar Cipher](cryptography/Caesar_Cipher.py)

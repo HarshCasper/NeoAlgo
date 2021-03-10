@@ -48,7 +48,7 @@ board.color("white")
 board.penup()
 board.hideturtle()
 board.goto(0, 260)
-board.write("Score: 0  High Score: {}".format(highscore), align="center", font=("Courier", 24, "normal"))
+board.write("Score: 0  High Score: {}".format(highscore))
 
 
 # Directions for movement
@@ -121,7 +121,7 @@ while True:
 
         # Update the score
         board.clear()
-        board.write("Score: {}  High Score: {}".format(score, highscore), align="center", font=("Courier", 24, "normal"))
+        board.write("Score: {}  High Score: {}".format(score, highscore))
 
     # Moving the segment
     for index in range(len(segments) - 1, 0, -1):
@@ -153,7 +153,7 @@ while True:
         score = 0
         # Update the score
         board.clear()
-        board.write("Score: {}  High Score: {}".format(score, highscore), align="center", font=("Courier", 24, "normal"))
+        board.write("Score: {}  High Score: {}".format(score, highscore))
 
     # Check for body collisions
     for segment in segments :
@@ -172,4 +172,4 @@ while True:
             score = 0
             # Update the score
             board.clear()
-            board.write("Score: {}  High Score: {}".format(score, highscore), align="center")
+            board.write("Score: {}  High Score: {}".format(score, highscore))

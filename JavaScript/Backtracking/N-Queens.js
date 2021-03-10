@@ -44,7 +44,7 @@ const totalNQueens = (n) => {
             validRow(board, row, col, n) && 
             validRightUpperDiagonal(board, row, col, n) && 
             validRightLowerDiagonal(board, row, col, n) && 
-            validLeftUpperDiagonal(board, row, col, n) && 
+            validLeftUpperDiagonal(board, row, col) && 
             validLeftLowerDiagonal(board, row, col, n)
     }
             
@@ -116,7 +116,7 @@ const totalNQueens = (n) => {
     }
             
     // Function to check if no two queens can kill each other in their respective left upper diagonal
-    const validLeftUpperDiagonal = (board, row, col, n) => {
+    const validLeftUpperDiagonal = (board, row, col) => {
         let r = row-1;
         let c = col-1;
         let count = 0;
@@ -152,10 +152,14 @@ const totalNQueens = (n) => {
             
         return true;   
     }
+
+    const createRow = ()=>{
+        return new Array(n).fill(false);
+    }
     
 
     // Creating an empty board
-    let board = new Array(n).fill(null).map(()=>new Array(n).fill(false));
+    let board = new Array(n).fill(null).map(createRow);
 
     // Initializing an empty answer variable
     let ans = 0;

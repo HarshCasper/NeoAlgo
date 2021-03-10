@@ -165,3 +165,76 @@ do {
       return;
   }
 } while (choice !== 0);
+
+
+// Sample I/O of the above program -
+
+/*
+
+Welcome to the Linked List Show
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display the Linked List
+2. Append element in the Linked List
+3. Prepend element in the Linked List
+4. Insert anywhere in between the Linked List
+Enter your choice - 1
+Linked List -  [
+  22,  2, 56, 10,
+   5, 74, 16
+]
+
+Welcome to the Linked List Show
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display the Linked List
+2. Append element in the Linked List
+3. Prepend element in the Linked List
+4. Insert anywhere in between the Linked List
+Enter your choice - 2
+Enter Value to Append element - 43
+After Append Linked List -  [
+  22,  2, 56, 10,
+   5, 74, 16, 43
+]
+
+Welcome to the Linked List Show
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display the Linked List
+2. Append element in the Linked List
+3. Prepend element in the Linked List
+4. Insert anywhere in between the Linked List
+Enter your choice - 3
+Enter Value to Prepend element - 98
+After Prepend Linked List -  [
+  98, 22,  2, 56, 10,
+   5, 74, 16, 43
+]
+
+Welcome to the Linked List Show
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display the Linked List
+2. Append element in the Linked List
+3. Prepend element in the Linked List
+4. Insert anywhere in between the Linked List
+Enter your choice - 4
+Enter Value to Insert element - 11
+Enter Position to Insert element - 3
+After Insertion Linked List -  [
+  98, 22, 11,  2, 56,
+  10,  5, 74, 16, 43
+]
+
+Welcome to the Linked List Show
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display the Linked List
+2. Append element in the Linked List
+3. Prepend element in the Linked List
+4. Insert anywhere in between the Linked List
+Enter your choice - 0
+Hmm, matter of choice!
+
+*/

@@ -55,7 +55,7 @@ _add list here_
 
 ## Competitive Programming
 
-_add list here_
+- [Counting squares](./cp/Counting_Squares.js)
 
 ## Dynamic Programming
 

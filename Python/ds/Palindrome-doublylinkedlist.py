@@ -49,7 +49,7 @@ class DoublyLinkedList:
         return
 
     @staticmethod
-    def printList(self, node):
+    def printList(help, node):
         rev_key = ""
         while node:
             rev_key += node.data

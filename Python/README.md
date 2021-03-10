@@ -54,6 +54,7 @@
 - [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [House Robber](cp/house_robber.py)
+- [Counting Squares](cp/Counting_Squares.py)
 
 ## Cryptography
 

@@ -1,15 +1,13 @@
 """
 
-Palindrome : A sequence of letters, words, numbers, phrases or other characters, which gives the same result
-             when read forwards and backwards is called a palindrome
+Palindrome : A sequence of words or numbers which give the same result when read forwards and backwards is called a palindrome
 Purpose : To find if the given string is a palindrome or not, using doubly linked list
 
 Method : Data Structures :- Doubly Linked List
         - Create a doubly linked list
         - Assign each character to one node of the doubly linked list
-        - Initialize 2 pointers called 'before'(at the start) and 'after'(at the end)
         - Check if the data in the before node and after node are equal
-        - If they are equal, increment before and decrement after till the middle of the linked list
+        - If they are equal, perform increment and decrement operations
         - If they are not equal, return false
 
 Time complexity : 0(n)

@@ -8,11 +8,11 @@ fun isArmstrong(num: Int): Boolean {
     var temp = num
 
     // Count No Digits in numbers
-    val digits = temp.toString().length
+    val numberOfDigits = temp.toString().length
 
     while (temp > 0) {
         val remainder = temp % 10
-        result += Math.pow(remainder.toDouble(), digits.toDouble()).toInt()
+        result += Math.pow(remainder.toDouble(), numberOfDigits.toDouble()).toInt()
         temp /= 10
     }
 

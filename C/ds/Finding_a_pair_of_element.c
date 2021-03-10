@@ -1,3 +1,6 @@
+/*
+Finding a pair of element with sum k using hash table in a Unsorted array using c
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -132,18 +135,18 @@ int main()
 /*
 
 Enter Size of Array5
-Enter the array elements1
-4
-3
+Enter the array elements4
 2
-5
+1
+3
+8
 
 1. Find a pair of element with sum k using hash in a Unsorted array:
 2. Exit
 enter you choice 1
 Pair of Elements with sum k using hash table in a unsorted array:
 Enter the sum of k:5
-1+4=5
-3+2=5
+4+1=5
+2+3=5
 
 */

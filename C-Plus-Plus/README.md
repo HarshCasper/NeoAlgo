@@ -112,6 +112,7 @@
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
 - [Breadth First Search](graphs/BFS1.cpp)
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
+- [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
 
 ## Searching
 
@@ -160,6 +161,7 @@
 
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
+- [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 
 
 ## Machine Learning
@@ -175,6 +177,7 @@ _add list here_
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
+- [Hamming Distance](math/Hamming_Distance.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
@@ -207,6 +210,7 @@ _add list here_
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 
 ## Blockchain
 

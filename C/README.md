@@ -64,7 +64,7 @@
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
-
+- [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)

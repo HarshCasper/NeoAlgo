@@ -17,6 +17,7 @@
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
+- [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
@@ -49,6 +50,7 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 
 ## Data Structures
 
@@ -109,6 +111,7 @@
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
 - [Breadth First Search](graphs/BFS1.cpp)
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
+- [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
 
 ## Searching
 
@@ -142,6 +145,7 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
+- [Wave Sort](sort/wave_sort.cpp)
 
 ## Stack based problems
 
@@ -156,6 +160,7 @@
 
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
+- [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 
 
 ## Machine Learning
@@ -171,10 +176,13 @@ _add list here_
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
+- [Hamming Distance](math/Hamming_Distance.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Modular Exponentiation](math/modular_exponentiation.cpp)
+- [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 
 ## Dynamic Programming
 
@@ -201,6 +209,7 @@ _add list here_
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 
 ## Blockchain
 
@@ -210,13 +219,13 @@ _add list here_
 
 - [Affine substitution Cipher](cryptography/Affine_substitution_Cipher.cpp)
 - [Rail Fence Transposition Technique](cryptography/Rail_fence_Cipher.cpp)
+- [Shamir's Secret Sharing algorithm](cryptography/Shamir_Secret_Sharing.cpp)
 - [Simple Columnar Transposition Technique](cryptography/Simple_Columnar_Transposition.cpp)
 - [Simple Columnar with Multiple Rounds Transposition Technique](cryptography/Simple_Columnar_Transposition_multiple_rounds.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 
 ## Computational Geometry
-
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
 ## Other

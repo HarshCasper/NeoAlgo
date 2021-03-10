@@ -64,6 +64,7 @@
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
+- [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
 
 ## Searching
@@ -123,6 +124,10 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+
+## Operating System
+
+- [Banker's Algorithm](operating_system/bankers.c)
 
 ## Other
 

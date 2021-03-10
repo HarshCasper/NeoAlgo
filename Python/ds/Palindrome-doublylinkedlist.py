@@ -48,9 +48,9 @@ class DoublyLinkedList:
         new_node.prev = last
         return
 
-    def printList(self , node):
+        @staticmethod
+        def printList(node):
         rev_key = ""
-        
         while node:
             rev_key += node.data
             node = node.next
@@ -71,8 +71,7 @@ if __name__ == "__main__":
         print("Is Palindrome")
     else:
         print("Not a Palindrome")
-"""
-Sample Input/Output :- 
+"""Sample Input/Output :- 
 
 Test case 1:
 Enter the string : clouds
@@ -84,5 +83,4 @@ Is a Palindrome
 
 Test case 3:
 Enter the string : books
-Not a Palindrome 
-"""
+Not a Palindrome """

@@ -18,7 +18,7 @@ jobs:
       - name: Assign the user or unassign stale assignments
         uses: JasonEtco/slash-assign-action@v0.0.3
         with:
-          required_label: GSSOC
+          required_label: GSSoC'21
           assigned_label: Assigned
           days_until_warning: 7
           days_until_unassign: 14

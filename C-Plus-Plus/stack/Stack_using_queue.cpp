@@ -1,4 +1,6 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<algorithm>
+#include<queue>
 using namespace std;
 
 // making the class of the stack
@@ -36,9 +38,9 @@ public:
         second_queue = temp;
     }
 
-    int pop(){
+    void pop(){
         if(first_queue.empty())
-            return -1;
+            return;
         first_queue.pop();
         curr_size--;
     }

@@ -48,7 +48,6 @@ class DoublyLinkedList:
         new_node.prev = last
         return
 
-    @staticmethod
     def printList(help, node):
         rev_key = ""
         while node:

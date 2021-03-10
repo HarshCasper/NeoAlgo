@@ -16,8 +16,8 @@
 
 from collections import defaultdict
 
-def solution(GG):
 
+def solution(GG):
 
     n = len(GG)
     graph = defaultdict(list)
@@ -29,7 +29,6 @@ def solution(GG):
     bridges = []
 
     def tarjans(u, time):
-
 
         # initializing the discovered times and the lowest links
         seenAt[u] = time

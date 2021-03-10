@@ -35,6 +35,7 @@
 - [Suduko Solver](cp/SudukoSolver.c)
 - [Stock Span Problem](cp/Stock_Span.c)
 - [Bulb Switcher problem](cp/bulbSwitch.c)
+- [Luhn's Algorithm](cp/LuhnsAlgo.c)
 
 ## Cryptography
 

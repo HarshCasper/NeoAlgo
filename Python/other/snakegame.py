@@ -66,6 +66,7 @@ def move():
         x = head.xcor()
         head.setx(x - 20)
 
+
 # Setting the directions
 def go_down():
     if head.direction != "up":
@@ -76,12 +77,12 @@ def go_up():
     if head.direction != "down":
         head.direction = "up"
 
-        
+
 def go_right():
     if head.direction != "left":
         head.direction = "right"
 
-        
+
 def go_left():
     if head.direction != "right":
         head.direction = "left"
@@ -171,4 +172,5 @@ while True:
             score = 0
             # Update the score
             board.clear()
-            board.write("Score: {}  High Score: {}".format(score, highscore), align="center", font=("Courier", 24, "normal"))
+            board.write("Score: {}  High Score: {}".format(score, highscore)) 
+            board.write(align="center", font=("Courier", 24, "normal"))

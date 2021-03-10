@@ -63,7 +63,7 @@ if __name__ == "__main__":
     keys = input("Enter the string : ")
 
     for i in reversed(range(len(keys))):
-         llist.push(keys[i])
+           llist.push(keys[i])
 
     rev_keys = llist.printList(llist.head)
 

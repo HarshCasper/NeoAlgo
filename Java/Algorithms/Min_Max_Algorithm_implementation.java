@@ -50,7 +50,7 @@ public class Min_Max_Algorithm_implementation {
         
         else{
             // Dividing array recursively into smaller parts. 
-            int mid = (low + high)/2;
+            int mid = low + ((high - low) / 2);
             int arr1[] = MinMax(arr, low, mid);
             int arr2[] = MinMax(arr, mid+1, high);
 

@@ -11,11 +11,10 @@ using namespace std;
 bool isSubsetSum(int set[],int n,int sum){
     bool subset[n+1][sum+1];
     
-    //The value of subset[i][j] will be true if there is a subset of set[0...j-1]with sum equal to i
+   
     for(int i=0;i<=n;i++)
         subset[i][0]=true;
-    //if sum is 0 then anser is true
-    //if sum is not 0 and set is empty then answer is false
+  
     for(int i=1;i<=sum;i++)
         subset[0][i]=false;
     //fill this table in bottom up manner
@@ -29,12 +28,6 @@ bool isSubsetSum(int set[],int n,int sum){
 
         }
     }
-    //code prints the entire table
-    for(int i=0;i<=n;i++){
-        for(int j=0;j<=sum;j++){
-            cout<<subset[i][j];
-        }
-        cout<<"\n";
     }
 }
 int main(){

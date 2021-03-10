@@ -71,7 +71,6 @@ if __name__ == "__main__":
     else:
         print("Not a Palindrome")
 
-
 # Sample Input/Output :- 
 
 # Test case 1:

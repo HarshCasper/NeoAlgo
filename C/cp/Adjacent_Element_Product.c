@@ -56,4 +56,3 @@ Array=3 6 -2 -5 7 3
 Largest Adjacent Product in the Array=21
 */
 
-

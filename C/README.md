@@ -65,6 +65,7 @@
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Finding a pair of element](Finding_a_pair_of_element.c)
 
 ## Searching
 

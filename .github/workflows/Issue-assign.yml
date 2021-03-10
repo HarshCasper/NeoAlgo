@@ -1,0 +1,13 @@
+name: 'Issue-assign'
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+jobs:
+  assign-author:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: samspills/assign-pr-to-author@v1.0
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"

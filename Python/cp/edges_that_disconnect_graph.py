@@ -17,37 +17,41 @@
 from collections import defaultdict
 
 def solution(GG):
-        n=len(GG)
-        graph=defaultdict(list)
-        # forming a dictionary with the given input to
-        # contain all the elements as an adjacent list
-        for i,ele in enumerate(GG):graph[i]+=ele
-        seenAt,lowest_link,parent=([-1]*n, [-1]*n, [-1]*n)
-        bridges=[]
-        def tarjans(u,time):
-            #initializing the discovered times and the lowest links
-            seenAt[u]=lowest_link[u]=time
-            # traversing the graphs
-            for v in graph[u]:
-                if seenAt[v]==-1:
-                    #updating the parent
-                    parent[v]=u
-                    tarjans(v,time+1)
-                    # backtracking to update the lowest link
-                    lowest_link[u]=min(lowest_link[u],lowest_link[v])
-                    # observing for any backedges
-                    if lowest_link[v]>seenAt[u]: bridges.append((u,v))
-                elif v!=parent[u]: lowest_link[u]=min(lowest_link[u],seenAt[v])
-        for i in range(n):
-            if seenAt[i]==-1:
-                # call the tarjans() for each of the unvisited node
-                tarjans(i,0)
-        return len(bridges)
 
-
+    n = len(GG)
+    graph = defaultdict(list)
+    # forming a dictionary with the given input to
+    # contain all the elements as an adjacent list
+    for i,ele in enumerate(GG):
+        graph[i] += ele
+    seenAt,lowest_link,parent = ([-1]*n, [-1]*n, [-1]*n)
+    bridges = []
+    def tarjans(u, time):
+        #initializing the discovered times and the lowest links
+        seenAt[u] = time
+        lowest_link[u] = time
+        # traversing the graphs
+        for v in graph[u]:
+            if seenAt[v] == -1:
+                #updating the parent
+                parent[v] = u
+                tarjans(v, time+1)
+                # backtracking to update the lowest link
+                lowest_link[u] = min(lowest_link[u], lowest_link[v])
+                # observing for any backedges
+                if lowest_link[v] > seenAt[u] :
+                    bridges.append((u, v))
+            elif v != parent[u]:
+                lowest_link[u] = min(lowest_link[u], seenAt[v])
+    for i in range(n):
+        if seenAt[i] == -1:
+            # call the tarjans() for each of the unvisited node
+            tarjans(i, 0)
+    return len(bridges)
 # Intuition:
-# We can solve this in many ways , one of the approaches could to check connectivity with
-# respect to each and every edge --> Time complexity O(E∗(V+E)) but it might
+# We can solve this in many ways , one of the approaches could to 
+# check connectivity with respect to each and every edge --> 
+# Time complexity O(E∗(V+E)) but it might
 # not be an effective solution
 # In this approach we are using the Trajan's Algorithm
 # --> some of the observations which are going to be helpful
@@ -78,4 +82,3 @@ def solution(GG):
 # along with some modifications made to accommodate the the conditions
 # --> parent child edge exclusion
 # --> back-edge detection
-

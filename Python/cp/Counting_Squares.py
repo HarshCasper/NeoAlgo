@@ -4,9 +4,7 @@ be made from a grid with r rows and c columns of evenly-spaced points.
 Mod the result by 10 ** 9 + 7.
 A square consists of a set of 4 points that form the vertices of a square. Each side of the square must have the same length, and the square does
 not necessarily have to be aligned with the axes of the grid.
-'''
 
-'''
 Input
 r = 3
 c = 3
@@ -14,9 +12,7 @@ Output
 6
 Explanation
 We can make 4 1x1 squares, and 2 2x2 squares (one of them at a 45 degree angle)
-'''
 
-'''
 Time Complexity:
 O(min(r,c)) - we only count up squares with side lengths less than min(r, c)min(r,c)
 
@@ -40,8 +36,9 @@ def Counting_squares(r, c):
         add=(r-k)*(c-k) 
     return ans%(10**9+7)
 
-print(Counting_squares(5,3))
-# // output =14
+r=int(input('enter the number of rows'))
+c=int(input('enter the number of columns'))
+print(Counting_squares(r,c))
 
 
 

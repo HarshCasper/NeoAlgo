@@ -51,10 +51,10 @@ class DoublyLinkedList:
         @staticmethod
         def printList(self, node):
             rev_key = ""
-        while node:
-            rev_key += node.data
-            node = node.next
-        return rev_key
+            while node:
+                rev_key += node.data
+                node = node.next
+            return rev_key
 
 
 if __name__ == "__main__":

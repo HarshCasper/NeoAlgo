@@ -99,6 +99,7 @@
 - [Shell Sort](sort/Shell_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
 - [Sleep Sort](sort/Sleep_sort.py)
+- [Monkey Sort](sort/monkey_sort.py)
 
 ## Backtracking
 

@@ -48,7 +48,7 @@ class DoublyLinkedList:
         new_node.prev = last
         return
 
-    def printList(help, node):
+    def printList(self, node):
         rev_key = ""
         while node:
             rev_key += node.data

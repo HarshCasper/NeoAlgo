@@ -3,10 +3,10 @@ using namespace std;
 
 // making the class of the stack
 class Stack {
-    queue<int> first_queue;
+    queue<int> first_queue; //cp standard library is used to declare the queue
     queue<int> second_queue;
 
-    int curr_size;
+    int curr_size; // to track the size of the queue
 
 public:
     Stack(){
@@ -22,11 +22,15 @@ public:
 
         second_queue.push(data);
 
+        /* pushing all the elements of the first
+        queue to the second queue after the first element
+        is pushed.*/
         while(!first_queue.empty()){
             second_queue.push(first_queue.front());
             first_queue.pop();
         }
 
+        // swaping the queue to behave it as a queue
         queue<int> temp = first_queue;
         first_queue = second_queue;
         second_queue = temp;

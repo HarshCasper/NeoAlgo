@@ -110,6 +110,7 @@ _add list here_
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
+- [Leaves at Same Level](ds/leavesAtSameLevel.java)
 
 ## Graphs
 

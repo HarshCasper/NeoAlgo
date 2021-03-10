@@ -1,8 +1,14 @@
-#Snake Game
+"""
+A fun and interactive snake game using GUI programming in python
+It is very user friendly and contains appropriate comments
+It covers all the corner test cases also
+"""
+#Import the necessary libraries 
 import turtle
 import time
 import random
 
+#Initialize the scores 
 score = 0
 highscore = 0
 delay = 0.2
@@ -43,7 +49,6 @@ board.penup()
 board.hideturtle()
 board.goto(0, 260)
 board.write("Score: 0  High Score: {}".format(highscore), align="center", font=("Courier",24,"normal"))
-
 
 #Directions for movement
 def move():
@@ -141,7 +146,6 @@ while True:
         board.clear()
         board.write("Score: {}  High Score: {}".format(score, highscore), align="center", font=("Courier", 24, "normal"))
 
-
     # Check for body collisions
     for segment in segments :
         if segment.distance(head) < 20 :
@@ -160,19 +164,3 @@ while True:
             # Update the score
             board.clear()
             board.write("Score: {}  High Score: {}".format(score, highscore), align="center", font=("Courier", 24, "normal"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

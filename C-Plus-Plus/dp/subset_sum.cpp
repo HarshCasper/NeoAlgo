@@ -47,3 +47,5 @@ int main(){
         cout<<"no subset with given sum";
     return 0;
 }
+/*
+Time Complexity: O(sum*n), where sum is the ‘target sum’ and ‘n’ is the size of array.*/

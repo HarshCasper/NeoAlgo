@@ -11,6 +11,7 @@
 
 ## Data Structures
 
+- [Palindrome using doubly linked list](ds/Palindrome-doublylinkedlist.py)
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
 - [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
@@ -26,7 +27,7 @@
 - [Dynamic Queue](ds/dynamic_queue.py)
 - [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
 - [AVL Tree](ds/AVL_Tree.py)
-- [Palindrome using doubly linked list](ds/Palindrome-doublylinkedlist.py)
+
 
 ## Competitive Programming
 

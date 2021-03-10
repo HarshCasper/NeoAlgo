@@ -36,7 +36,6 @@ class DoublyLinkedList:
             node = node.next
         return rev_key
 
-
     def __init__(self):
         self.head = None
 
@@ -56,6 +55,7 @@ class DoublyLinkedList:
         last.next = new_node
         new_node.prev = last
         return
+
 
 if __name__ == "__main__":
 

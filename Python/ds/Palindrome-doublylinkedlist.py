@@ -1,4 +1,4 @@
-"""
+'''
 
 Palindrome : A sequence which appears the same when read forwards and backwards
 Purpose : To find if the given string is a palindrome or not, using doubly linked list
@@ -15,7 +15,7 @@ Space complexity : 0(1)
 Arguments : Arbitrary arguments
 Return : Message if the input is a palindrome or not
 
-"""
+'''
 
 
 class Node:
@@ -48,8 +48,9 @@ class DoublyLinkedList:
         new_node.prev = last
         return
 
-    def printList(self, node):
+    def printList(self , node):
         rev_key = ""
+        
         while node:
             rev_key += node.data
             node = node.next
@@ -70,17 +71,18 @@ if __name__ == "__main__":
         print("Is Palindrome")
     else:
         print("Not a Palindrome")
+"""
+Sample Input/Output :- 
 
-# Sample Input/Output :- 
+Test case 1:
+Enter the string : clouds
+Not a Palindrome
 
-# Test case 1:
-# Enter the string : clouds
-# Not a Palindrome
+Test case 2:
+Enter the string : madam
+Is a Palindrome
 
-# Test case 2:
-# Enter the string : madam
-# Is a Palindrome
-
-# Test case 3:
-# Enter the string : books
-# Not a Palindrome 
+Test case 3:
+Enter the string : books
+Not a Palindrome 
+"""

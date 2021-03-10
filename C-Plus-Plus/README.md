@@ -211,6 +211,7 @@ _add list here_
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
+- [Gold mine](dp/Goldmine.cpp)
 
 ## Blockchain
 

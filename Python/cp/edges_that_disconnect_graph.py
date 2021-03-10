@@ -18,22 +18,26 @@ from collections import defaultdict
 
 def solution(GG):
 
+
     n = len(GG)
     graph = defaultdict(list)
     # forming a dictionary with the given input to
     # contain all the elements as an adjacent list
-    for i,ele in enumerate(GG):
+    for i, ele in enumerate(GG):
         graph[i] += ele
-    seenAt,lowest_link,parent = ([-1]*n, [-1]*n, [-1]*n)
+    seenAt, lowest_link, parent = ([-1]*n, [-1]*n, [-1]*n)
     bridges = []
+
     def tarjans(u, time):
-        #initializing the discovered times and the lowest links
+
+
+        # initializing the discovered times and the lowest links
         seenAt[u] = time
         lowest_link[u] = time
         # traversing the graphs
         for v in graph[u]:
             if seenAt[v] == -1:
-                #updating the parent
+                # updating the parent
                 parent[v] = u
                 tarjans(v, time+1)
                 # backtracking to update the lowest link
@@ -49,8 +53,8 @@ def solution(GG):
             tarjans(i, 0)
     return len(bridges)
 # Intuition:
-# We can solve this in many ways , one of the approaches could to 
-# check connectivity with respect to each and every edge --> 
+# We can solve this in many ways , one of the approaches could to
+# check connectivity with respect to each and every edge -->
 # Time complexity O(E∗(V+E)) but it might
 # not be an effective solution
 # In this approach we are using the Trajan's Algorithm

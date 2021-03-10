@@ -54,17 +54,17 @@ board.write("Score: 0  High Score: {}".format(highscore))
 # Directions for movement
 def move():
     if head.direction == "up":
-        y = head.ycor()
-        head.sety(y+20)
+        y1 = head.ycor()
+        head.sety(y1+20)
     if head.direction == "down":
-        y = head.ycor()
-        head.sety(y-20)
+        y1 = head.ycor()
+        head.sety(y1-20)
     if head.direction == "right":
-        x = head.xcor()
-        head.setx(x + 20)
+        x1 = head.xcor()
+        head.setx(x1 + 20)
     if head.direction == "left":
-        x = head.xcor()
-        head.setx(x - 20)
+        x1 = head.xcor()
+        head.setx(x1 - 20)
 
 
 # Setting the directions
@@ -163,8 +163,8 @@ while True:
             head.direction = "stop"
 
             # Hide the segments
-            for segment in segments:
-                segment.goto(1000, 1000)
+            for seg in segments:
+                seg.goto(1000, 1000)
             # Clear the segments
             segments.clear()
 

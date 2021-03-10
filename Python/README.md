@@ -246,6 +246,7 @@ _add list here_
 
 ## Other
 
+- [Number of deletions and conversiond for string conversion](other/insertnddelete.py)
 - [Check Inversion](other/Check_Inversion.py)
 - [Count Inversions](other/Count_Inversion.py)
 - [Distinct Elements Count](other/Distinct_elements_count.py)

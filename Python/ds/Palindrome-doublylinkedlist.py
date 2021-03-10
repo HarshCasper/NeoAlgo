@@ -1,6 +1,6 @@
 """
 
-Palindrome : A sequence of words or numbers which give the same result when read forwards and backwards is called a palindrome
+Palindrome : A sequence which appears the same when read forwards and backwards
 Purpose : To find if the given string is a palindrome or not, using doubly linked list
 
 Method : Data Structures :- Doubly Linked List
@@ -20,6 +20,7 @@ Return : Message if the input is a palindrome or not
 
 class Node:
 
+    
     def __init__(self, data):
         self.data = data
         self.next = None
@@ -27,6 +28,7 @@ class Node:
 
 class DoublyLinkedList:
 
+    
     def __init__(self):
         self.head = None
 
@@ -75,7 +77,7 @@ if __name__ == "__main__":
 Sample Input/Output :-
 
 Test case 1:
-Enter the string : clouds 
+Enter the string : clouds
 Not a Palindrome
 
 Test case 2:
@@ -87,5 +89,3 @@ Enter the string : books
 Not a Palindrome
 
 """
-
-

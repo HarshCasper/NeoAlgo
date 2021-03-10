@@ -11,7 +11,7 @@ package main
 import "fmt"
 
 //function to find the maximum
-func max(a int, b int) int{
+func max(a, b int) int{
 	if a > b {
 		return a
 	} else {
@@ -20,7 +20,7 @@ func max(a int, b int) int{
 }  
 
 //longest common subsequence function
-func lcs(X string, Y string, m int, n int) int {
+func lcs(X, Y string, m, n int) int {
 
 	//creating 2d array 
     	L := make([][]int, m+1)
@@ -45,8 +45,7 @@ func lcs(X string, Y string, m int, n int) int {
 }  
   
 
-func main(){
-	
+func main() {
 	str1 := "NEOALGO"
     	str2 := "ALGORITHM"
       

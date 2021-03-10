@@ -12,7 +12,7 @@ def size(stack):
 # Empty function
 def isEmpty(stack): 
 	if size(stack) == 0: 
-		return true 
+		return True 
 
 # Push / add an item to stack . 
 def push(stack,item): 

@@ -177,6 +177,8 @@ _add list here_
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Modular Exponentiation](math/modular_exponentiation.cpp)
+- [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 
 ## Dynamic Programming
 

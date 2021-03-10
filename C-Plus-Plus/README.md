@@ -49,6 +49,8 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [Mean of Range in Array](cp/mean_of_range_in_array.cpp)
+- [Merge without extra space](cp/merge_without_extra_space)
 
 ## Data Structures
 

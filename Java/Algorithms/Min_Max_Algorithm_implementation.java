@@ -29,7 +29,7 @@ public class Min_Max_Algorithm_implementation {
         
         int output[] = MinMax(arr, low, high);
         System.out.println("Output:");
-        System.out.println(String.format("Min:- %d Max:- %d", output[0], output[1]));
+        System.out.println(String.format("Min: %d Max: %d", output[0], output[1]));
     }
 
     /* 
@@ -81,5 +81,5 @@ Enter the size of array:-
 Enter elements of array:
 8 7 3 12 6 4 2 11
 Output:
-Min:-2 Max:-12
+Min: 2 Max: 12
 */

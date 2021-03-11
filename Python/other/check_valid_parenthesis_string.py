@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 '''
 PROBLEM STATEMENT
 
@@ -19,43 +22,42 @@ Argument: string (Input string with parenthesis)
 Return: string (Output string with balanced parenthesis)
 
 Time Complexity: O(n)
+
+Testcases
+(1) Input: (()))() Output: (())()
+(2) Input: neoalgo Output: neoalgo
+(3) Input: ())(() Output: ()()
+(4) Input: )))((( Output: ''
+(5) Input: (())() Output: (())()
 '''
 
 
-def remove_parenthesis(string: str) -> str:
-  stack = []
-  indx = []
-  for i, s in enumerate(string):
-    if s == '(':
-      stack.append(i) # save the index of ( in stack
-    elif s == ')':
-      if len(stack) > 0:
-        _ = stack.pop() # pop the index of ( on the top of stack if stack is not empty
-      else:
-        indx.append(i) # if stack is empty, save the index of ) in indx array
-    else:
-      continue # no action taken for other character of the string
-  
+def remove_parenthesis(string):
+    stack = []
+    indx = []
+    for (i, s) in enumerate(string):
+        if s == '(':
+            stack.append(i)  # save the index of ( in stack
+        elif s == ')':
+            if len(stack) > 0:
+                _ = stack.pop()  # pop the index of ( on the top of stack if stack is not empty
+            else:
+                indx.append(i)  # if stack is empty, save the index of ) in indx array
+        else:
+            continue  # no action taken for other character of the string
+
   # Generating the output string by skipping the unpaired parenthesis whose indices are saved in "stack" and "indx"
-  op_str = ""
-  final_indx = indx + stack # combine the list of indices and sort the indices
-  final_indx.sort()
-  for i, s in enumerate(string):
-    if i in final_indx: # if index is in final_indx i.e. has unpaired parenthesis, skip it
-      continue
-    else:
-      op_str = op_str + s 
-  return op_str
+
+    op_str = ''
+    final_indx = indx + stack  # combine the list of indices and sort the indices
+    final_indx.sort()
+    for (i, s) in enumerate(string):
+        if i in final_indx:  # if index is in final_indx i.e. has unpaired parenthesis, skip it
+            continue
+        else:
+            op_str = op_str + s
+    return op_str
+
 
 if __name__ == '__main__':
-  remove_parenthesis("he((l)l)o)")
-  # Output: he((l)l)o
-  '''
-  Testcases
-
-  (1) Input: (()))() Output: (())()
-  (2) Input: neoalgo Output: neoalgo
-  (3) Input: ())(() Output: ()()
-  (4) Input: )))((( Output: ''
-  (5) Input: (())() Output: (())()
-  '''
+    remove_parenthesis('he((l)l)o)')  # Output: he((l)l)o

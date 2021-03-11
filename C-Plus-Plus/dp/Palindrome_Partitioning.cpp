@@ -57,7 +57,7 @@ int main()
     cin>>s;
     cout<<minCutToPalindrome_Opt(s)<<endl;
     return 0; 
-} 
+}
 
 /*
 Time complexity: O(n^2) 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-struct Node
+struct Node //Defining a structure 
 {
     int data;
     struct Node *next;
@@ -9,106 +9,106 @@ void Create(int A[],int n)
 {
     int i;
     struct Node *t,*last;
-    first = (struct Node *)malloc(sizeof(struct Node));
-    first->data = A[0];
-    first->next = NULL;
-    last = first;
-    for(i=1;i<n;i++)
+    first = (struct Node *)malloc(sizeof(struct Node)); //Creating a node dynamically for first linkedlist 
+    first->data = A[0]; //Assiging a data to it.
+    first->next = NULL; //making first next to null
+    last = first; //Making last pointer to point on first
+    for(i=1;i<n;i++) 
     {
-        t = (struct Node *)malloc(sizeof (struct Node));
-        t->data = A[i];
-        t->next = NULL;
-        last->next = t;
-        last = t;
+        t = (struct Node *)malloc(sizeof (struct Node)); //Creating a t node 
+        t->data = A[i]; //Assigning a data to it.
+        t->next = NULL; //Making t next to null. 
+        last->next = t; //Making last next pointer to point on t.
+        last = t; //Making last pointer to point on t.
     }
 }
 void Create2(int A[],int n)
 {
     int i;
-    struct Node *t,*last;
-    second=(struct Node *)malloc(sizeof(struct Node));
-    second->data=A[0];
-    second->next=NULL;
-    last=second;
+    struct Node *t,*last; //Defining struct pointers
+    second=(struct Node *)malloc(sizeof(struct Node)); //Creating a node dynamically for second linkedlist 
+    second->data=A[0]; //Assiging a data to it
+    second->next=NULL;//Making second next to null
+    last=second;//Making last pointer to point on second
 
     for(i=1;i<n;i++)
     {
-        t=(struct Node*)malloc(sizeof(struct Node));
-        t->data=A[i];
-        t->next=NULL;
-        last->next=t;
-        last=t;
+        t=(struct Node*)malloc(sizeof(struct Node)); //Creating a t node 
+        t->data=A[i]; //Assigning a data to it.
+        t->next=NULL; //Making t next to null. 
+        last->next=t; //Making last next pointer to point on t.
+        last=t; //Making last pointer to point on t.
     }
 }
 void Display(struct Node *p)
 {
     while(p!=NULL)
     {
-        printf("%d ",p->data);
-        p=p->next;
+        printf("%d ",p->data); //it will display the value until condition becomes false. 
+        p=p->next; //Mqaking p point on p next.
     }
     printf("\n");
 }
 void Merge(struct Node *p,struct Node*q)
 {
-    struct Node *last;
-    if(p->data<q->data)
+    struct Node *last; //Defning struct pointer
+    if(p->data<q->data)  //Checking whether a q data is greater than p data
     {
-        third = last = p;
-        p = p->next;
-        third->next = NULL;
+        third = last = p; //Assigning third,last to p.
+        p = p->next; //Making as p pointer to point on p's next.
+        third->next = NULL; //making third next pointer to point on null
     }
     else
     {
-        third = last = q;
-        q = q->next;
-        third->next = NULL;
+        third = last = q; //Making third and last pointers to point on q
+        q = q->next; //Making q pointer to point on q's next
+        third->next = NULL; //Making third next pointer to point on null.
     }
-    while(p&&q)
+    while(p&&q) 
     {
-        if(p->data<q->data)
+        if(p->data<q->data) //Checking whether a q data is greater than p data
         {
-            last->next = p;
-            last = p;
-            p=p->next;
-            last->next = NULL;
+            last->next = p; //Making last next pointer to point on p.
+            last = p; //Making last pointer to point on p.
+            p=p->next; //Making p pointer to point on p's next.
+            last->next = NULL; //Making last next pointer to point on null. 
         }
         else
         {
-            last->next = q;
-            last = q;
-            q = q->next;
-            last->next = NULL;
+            last->next = q; //Making last next pointer to point on q. 
+            last = q; //Making last pointer to point on q.
+            q = q->next; //Making q's pointer to point on q's next.
+            last->next = NULL; //Making last next pointer to point on null.
         }
     }
-    if(p)
-        last->next = p;
+    if(p) 
+        last->next = p; //Moving last next pointer to point on p until the condition becomes false.
     if(q)
-        last->next = q;
+        last->next = q; // Moving last next pointer to point on q until the condition becomes false.
 }
 int main()
 {
-    struct Node *t;
-    int *A,*B;
-    int n;
+    struct Node *t; //Defining struct pointer 
+    int *A,*B; //Defining integer type pointers
+    int n; //Declaring variable
     printf("Enter the size of the array: \n");
-    scanf("%d",&n);
-    A = (int *)malloc(n*sizeof(int));
-    B = (int *)malloc(n*sizeof(int));
+    scanf("%d",&n); //Asking user to enter size of the array.
+    A = (int *)malloc(n*sizeof(int)); //Creating an first array dynamically
+    B = (int *)malloc(n*sizeof(int)); //Creating an second array dynamically
     printf("Enter first LL Elements: \n");
     for(int i=0;i<n;i++)
     {
-        scanf("%d",&A[i]);
+        scanf("%d",&A[i]); //Asking user to enter first array values. 
     }
-    Create(A,n);
+    Create(A,n); //Calling function to create first Linkedlist
     printf("Enter second LL Elements: \n");
     for(int i=0;i<n;i++)
     {
-        scanf("%d",&B[i]);
+        scanf("%d",&B[i]); //Asking user to enter second array values. 
     }
-    Create2(B,n);
-	Merge(first,second);
-	Display(third);
+    Create2(B,n); //Calling function to create second Linkedlist
+	Merge(first,second); //Calling Merge function to merge both the Linkedlist.
+	Display(third); //Displaying the Linkedlist.
     return 0;
 }
 //Output:- 

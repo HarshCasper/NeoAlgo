@@ -53,6 +53,7 @@
 - [Letter Count in a word](cp/LetterCount.py)
 - [Rabin Karp algorithm](cp/RabinKarp.py)
 - [Cyclically Rotate Clockwise](cp/Cyclically_rotate.py)
+- [Counting Squares in a Grid](cp/Counting-Squares.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)

@@ -257,3 +257,4 @@ _add list here_
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
+- [Sieve Of Eratosthenes](other/sieve_Of_Eratosthenes.cpp)

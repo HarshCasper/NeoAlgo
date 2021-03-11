@@ -125,20 +125,22 @@ while True:
 
     # Moving the segment
     for index in range(len(segments) - 1, 0, -1):
-        x = segments[index - 1].xcor()
-        y = segments[index - 1].ycor()
+        x = float(segments[index - 1].xcor())
+        y = float(segments[index - 1].ycor())
         segments[index].goto(x, y)
 
     # Move segment 0 to where head is
     if len(segments) > 0:
-        x = head.xcor()
-        y = head.ycor()
+        x = float(head.xcor())
+        y = float(head.ycor())
         segments[0].goto(x, y)
 
     move()
 
     # Check for border collision
-    if head.xcor() > 290 or head.xcor() < -290 or head.ycor() > 290 or head.ycor() < -290 :
+    z1 = head.xcor()
+    z2 = head.ycor()
+    if z1 > 290 or z1 < -290 or z2 > 290 or z2 < -290 :
         time.sleep(1)
         head.goto(0, 0)
         head.direction = "stop"

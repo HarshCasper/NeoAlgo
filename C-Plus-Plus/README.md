@@ -33,7 +33,7 @@
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
-- 
+-
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
@@ -147,6 +147,7 @@
 ## Stack based problems
 
 -[Infix to Postfix Conversiion](stack/Infix_to_Postfix.c)
+
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
@@ -157,7 +158,6 @@
 
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
-
 
 ## Machine Learning
 
@@ -188,8 +188,8 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
-- [Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)
-- [[Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)]
+- [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
+- [[Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)]
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
@@ -242,3 +242,4 @@ _add list here_
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
+- [maximum element in Bitonic array](other/Max_in_BitonicArray.cpp)

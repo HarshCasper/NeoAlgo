@@ -138,6 +138,7 @@
 - [Count Sort](sort/countsort.cpp)
 - [Counting Sort](sort/counting_sort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
+- [In Place Merge Sort](sort/in_place_merge_sort.cpp)
 - [Insertion Sort](sort/insertion.cpp)
 - [Merge Sort](sort/Merge_Sort.cpp)
 - [Quick Sort](sort/Quick_Sort.cpp)

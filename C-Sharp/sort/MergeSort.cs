@@ -3,12 +3,12 @@
 
 using System;
 
-namespace MergeSort
+namespace MergeSortAlgorithm
 {
-    class mergeSort
+    class Merge_Sort
     {
         //The merge step in the sorting problem to sort the elements
-        private static void merge(int[] arr, int[] C, int l, int mid, int r)
+        private static void Merge(int[] arr, int[] C, int l, int mid, int r)
         {
             int i = l, j = mid + 1, k = l;
             //Compare Elments from arr portion andt sort them in temproray array C
@@ -57,6 +57,7 @@ namespace MergeSort
             Console.Write("Enter array size: ");
             int n = Convert.ToInt32(Console.ReadLine());
             int[] arr = new int[n];
+            Console.WriteLine("Enter array Elements: ");
             for(int i = 0; i<n; i++)
             {
                 arr[i] = Convert.ToInt32(Console.ReadLine());
@@ -74,9 +75,19 @@ Sample Input
 
 
 Enter array size: 8
-Enter arry elements : 23 21 12 34 2 5 7 10
+Enter arry elements : 
+23
+21
+12
+34
+2
+5
+7
+10
 
-output: 2 5 7 10 12 21 23 34
+input array : 23 21 12 34 2 5 7 10
+
+merge sorted arry output: 2 5 7 10 12 21 23 34
 
 Complexity:
 Merge sort takes time complexity of O(nlogn) and space complexity of O(n)

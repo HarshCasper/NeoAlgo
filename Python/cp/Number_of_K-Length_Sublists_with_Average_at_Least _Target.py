@@ -28,11 +28,14 @@ c=0 #number of k sets possible before
 if (p//k)>=target: #verifying the taken avg sum greater than target or not
     c+=1 #if yes increment the count [result]
 
-for i in range(k,len(nums)):
+i=k
+while i<len(nums):
     p+=nums[i]-nums[i-k] #adding new element and removeing the firstly added element, this operation takes place until the last element in the list is added 
 
     if (p//k)>=target: #checking if avg sum greater than target 
         c+=1
+    
+    i+=1
 
 print("Number of combinations possible: " ,c) #printing final result
 

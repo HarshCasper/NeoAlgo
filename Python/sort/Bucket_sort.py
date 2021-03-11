@@ -1,19 +1,21 @@
 # Bucket Sort
 '''
-Bucket Sort is a sorting algorithm used to deal with input that is distributed over a range.
-It is a comparison sort algorithm.
-The elements of the list are distributed into a number of buckets(or bins).Each bucket is
-then sorted using any stable sorting algoritm.After sorting is complete, all the buckets are
-merged and we get a sorted list.
-Bucket Sort has a scatter-order-gather approach.
+Bucket Sort is a comparison sorting algorithm used to deal with input that is
+distributed over a range.
+The elements of the list are distributed into a number of buckets(or bins).
+Each bucket is then sorted using any stable sorting algoritm.After
+sorting is complete, all the buckets are merged and we get a sorted list.
+Bucket Sort uses a scatter-order-gather approach.
 '''
 
 
 def bucket_sort(arr):
-    # create a list containing n empty buckets where buckets are also list
+    # create a list containing len(arr) empty buckets where buckets are also list
     bucket_list = []
     for i in enumerate(arr):
-        bucket_list.append([])
+        bucket_num = i[0]
+        if bucket_num< len(arr):
+            bucket_list.append([])
 
     # numerical range of each bucket
     maximum = max(arr)
@@ -55,14 +57,12 @@ if __name__ == "__main__":
 
 
 # Sample I/O
-'''
-Enter sequence of comma separated numbers:
-6.3,12.5,7.7,2.6,1.2,4.0
+# Enter sequence of comma separated numbers:
+# 6.3,12.5,7.7,2.6,1.2,4.0
 
-Sorted List
-1.2 2.6 4.0 6.3 7.7 12.5
-
-Time Complexity -
+# Sorted List
+# 1.2 2.6 4.0 6.3 7.7 12.5
+''' Time Complexity -
     1. Best case - O(n+k)
     2. Average case - O(n+k)
     3. Worst case - O(n^2)

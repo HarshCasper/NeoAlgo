@@ -34,7 +34,7 @@ for i in range(k,len(nums)):
     if (p//k)>=target: #checking if avg sum greater than target 
         c+=1
 
-print(c) #printing final result
+print("Number of combinations possible: " ,c) #printing final result
 
 # ST-1:- Input:-
 

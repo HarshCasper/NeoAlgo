@@ -54,6 +54,8 @@
 - [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [House Robber](cp/house_robber.py)
+- [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
+
 
 ## Cryptography
 

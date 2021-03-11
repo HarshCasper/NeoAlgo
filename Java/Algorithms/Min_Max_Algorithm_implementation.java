@@ -1,3 +1,10 @@
+/*
+    The MinMax Algorithm is used to find the maximum and minimum element of an Array 
+    in less no of comparisons(3*(n/2) - 2 comparisons) as compared to the Brute Force method.
+    It uses a Divide N Conquer algorithmic approach(recursively dividing the array) to find minimum 
+    and maximum elements 
+*/
+
 import java.util.Scanner;
 
 public class Min_Max_Algorithm_implementation {
@@ -15,8 +22,10 @@ public class Min_Max_Algorithm_implementation {
             arr[i] = sc.nextInt();
         }
         
-        int low = 0; //Least index of an array/subarrays
-        int high = n - 1; //Highest index of an array/subarrays
+        //Least index of an array/subarrays
+        int low = 0; 
+        //Highest index of an array/subarrays
+        int high = n - 1; 
         
         int output[] = MinMax(arr, low, high);
         System.out.println("Output:");
@@ -42,14 +51,14 @@ public class Min_Max_Algorithm_implementation {
     }
 
     public static int[] MinMax(int arr[], int low, int high){
-        // If after dividing array, we have one element left or two elements then return min or max of those elements
         
+        // If after dividing array, we have one element left or two elements then return min or max of those elements
         if(low == high || high == low + 1){
             return min_max_of_2_elements(arr[low], arr[high]);
         }
-        
-        else{
-            // Dividing array recursively into smaller parts. 
+
+        // Else dividing array recursively into smaller parts.
+        else{ 
             int mid = low + ((high - low) / 2);
             int arr1[] = MinMax(arr, low, mid);
             int arr2[] = MinMax(arr, mid+1, high);
@@ -59,6 +68,11 @@ public class Min_Max_Algorithm_implementation {
         }
     }
 }
+
+/*
+    Time Complexity:- O(N)
+    Space Complexity:- O(1)
+*/
 
 /*
 Sample Case:

@@ -23,7 +23,6 @@
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Stack](./ds/Stack.js)
-- [Hash Table](./ds/Hash.js)
 
 ## Searching
 

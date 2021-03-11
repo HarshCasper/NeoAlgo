@@ -1,7 +1,5 @@
-// Given a string , remove spaces from it and then return new string
-
 /*
-By using getline function in C++, we can remove spaces from a string and get a new string.
+Given a string , remove spaces from it and then return new string. We can solve it By using getline function in C++ and then get a new string.
 */
 #include <bits/stdc++.h>
 using namespace std;

@@ -24,23 +24,30 @@ Since the checksum is divisible by ten, 5987654024681355 is a valid credit card 
 that, upon input a 16-digit credit card number, determines whether the card number is valid. A 16-digit
 integer cannot be accommodated in a long int variable, so read the input as a string (a character array).
 *******************************************************************************/
-#include <stdio.h>
-#include <string.h>                              //header for string operations
 
-int main()
+#include <stdio.h>
+//header for string operations
+#include <string.h>
+
+//global variable
+//initiates checksum to zero
+int checksum = 0;
+
+//function to evaluate checksum
+void checksum_calc(char card[])
 {
-    char card[16];                               //character array
-    printf("Enter the credit card number:\n");
-    gets (card);                                 //reads a line from stdin and stores it into the 'card' character array
-    int checksum = 0;                            //initiates checksum to zero
-    for (int i=0; i<strlen(card) ; i++)          //iterates as many times as there are characters in the input string
+    //iterates as many times as there are characters in the input string
+    for (int i = 0; i < strlen(card); i++)
     {
         int digit = card[i] - '0';
-        if (i%2==1){                             //even positions
-        checksum += digit;                       //digits added to checksum as it is
-        printf(" + %d", digit);
+        //even positions
+        if (i%2==1){
+            //digits added to checksum as it is
+            checksum += digit;
+            printf(" + %d", digit);
         }
-        if (i%2==0){                             //odd positions (might require 2digit adjustments)
+        //odd positions (might require 2digit adjustments)
+        if (i%2==0){
             checksum += (2*digit<10) ? (2*digit):((2*digit)%10)+1;
             /*
             Ternary operator used to imply single digits are added to checksum without any change;
@@ -48,12 +55,26 @@ int main()
             (n modulo 10) + 1 yields same value as the 2digit adjustment
             (eg, (11%10)+1 = 2 = 1+1   ;   10%10+1 =1 = 1+0 )
             */
-            printf(" + %d", (2*digit<10) ? (2*digit):(((2*digit)%10)+1));        
-        } 
+            printf(" + %d", (2*digit<10) ? (2*digit):(((2*digit)%10)+1));
+        }
     }
-    printf("\t = %d\t",checksum);                //test if checksum is valid (ie, if modulo10 = 0)
+}
+
+//driver code
+int main()
+{
+    //character array
+    char card[16];
+    printf("Enter the credit card number:\n");
+    //reads a line from stdin and stores it into the 'card' character array
+    gets (card);
+    //function to evaluate checksum
+    checksum_calc(card);
+    //test if checksum is valid (ie, if modulo10 = 0)
+    printf("\t = %d\t",checksum);
     printf(checksum%10==0 && (int)strlen(card) == 16 ? "(Valid)":"(Invalid)");       
-    if ((int)strlen(card) != 16)                 //the card number must have exactly 16 digits   
+    //the card number must have exactly 16 digits   
+    if ((int)strlen(card) != 16)
         printf("\n[Invalid because card number must have exactly 16 digits.]");            
     return 0; 
 }
@@ -77,5 +98,4 @@ Enter the credit card number:
 59876540246813550
  + 1 + 9 + 7 + 7 + 3 + 5 + 8 + 0 + 4 + 4 + 3 + 8 + 2 + 3 + 1 + 5 + 0     = 70  (Invalid)
 [Invalid because card number must have exactly 16 digits.]
-
 */

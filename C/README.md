@@ -47,7 +47,6 @@
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
-- [Infix to Prefix](ds/infixToPrefix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
 - [Reversing individual words of a string](ds/reverseWordsOfString.c)
 - [Preorder Traversal](ds/Preordertraversal.c)

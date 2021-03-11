@@ -1,4 +1,4 @@
-# Python program to reverse a string using stack 
+# Python program to reverse a string using stack.
 
 # Function stack. 
 def createStack(): 

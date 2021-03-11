@@ -30,7 +30,7 @@ class DoublyLinkedList:
 
     @staticmethod
     def printList(node):
-        
+
         '''Reversing the string'''
         rev_key = ""
         while node:
@@ -40,9 +40,9 @@ class DoublyLinkedList:
 
     def __init__(self):
         self.head = None
-    
+
     def push(self, new_data):
-        
+
         ''' Adding new node in the front of the list '''
         new_node = Node(new_data)
 
@@ -75,7 +75,8 @@ if __name__ == "__main__":
     else:
         print("Not a Palindrome")
 
-''' 
+'''
+
 Sample Input/Output :-
 Test case 1:
 Enter the string : clouds
@@ -86,4 +87,5 @@ Is a Palindrome
 Test case 3:
 Enter the string : books
 Not a Palindrome
+
 '''

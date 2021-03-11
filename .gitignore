@@ -1,5 +1,3 @@
-
-
 ### C ###
 
 *.d
@@ -156,5 +154,3 @@ venv.bak/
 dmypy.json
 .pyre/
 .pytype/
-
-.vscode

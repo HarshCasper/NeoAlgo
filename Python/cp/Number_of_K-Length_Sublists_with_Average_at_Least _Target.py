@@ -21,22 +21,20 @@ nums= [int(num) for num in input("Enter the list items : ").split()] #input list
 k=int(input()) #input the k-length of sublist
 target=int(input()) #target value( min avg)
 
-def solution(nums, k, target):
-    p=sum(nums[0:k]) #taking first [0:k] sum
+p=sum(nums[0:k]) #taking first [0:k] sum
 
-    c=0 #number of k sets possible
+c=0 #number of k sets possible before
 
-    if (p//k)>=target: #verifying the taken avg sum greater than target or not
-        c+=1 #if yes increment the count [result]
+if (p//k)>=target: #verifying the taken avg sum greater than target or not
+    c+=1 #if yes increment the count [result]
 
-    for i in range(k,len(nums)):
-        p+=nums[i]-nums[i-k] #adding new element and removeing the firstly added element, this operation takes place until the last element in the list is added 
+for i in range(k,len(nums)):
+    p+=nums[i]-nums[i-k] #adding new element and removeing the firstly added element, this operation takes place until the last element in the list is added 
 
-        if (p//k)>=target: #checking if avg sum greater than target 
-            c+=1
+    if (p//k)>=target: #checking if avg sum greater than target 
+        c+=1
 
-    return c #final result is returned
-print(solution(nums, k, target)) #calling the function
+print(c) #printing final result
 
 # ST-1:- Input:-
 

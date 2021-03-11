@@ -125,14 +125,14 @@ while True:
 
     # Moving the segment
     for index in range(len(segments) - 1, 0, -1):
-        x = float(segments[index - 1].xcor())
-        y = float(segments[index - 1].ycor())
+        x = int(segments[index - 1].xcor())
+        y = int(segments[index - 1].ycor())
         segments[index].goto(x, y)
 
     # Move segment 0 to where head is
     if len(segments) > 0:
-        x = float(head.xcor())
-        y = float(head.ycor())
+        x = int(head.xcor())
+        y = int(head.ycor())
         segments[0].goto(x, y)
 
     move()

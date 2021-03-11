@@ -14,6 +14,19 @@ Time complexity : 0(n)
 Space complexity : 0(1)
 Arguments : Arbitrary arguments
 Return : Message if the input is a palindrome or not
+Sample Input/Output :
+
+- Test case 1:
+Enter the string : clouds
+Not a Palindrome
+
+- Test case 2:
+Enter the string : madam
+Is a Palindrome
+
+- Test case 3:
+Enter the string : books
+Not a Palindrome
 
 '''
 
@@ -74,22 +87,3 @@ if __name__ == "__main__":
         print("Is Palindrome")
     else:
         print("Not a Palindrome")
-
-
-"""
-
-Sample Input/Output :
-
-- Test case 1:
-Enter the string : clouds
-Not a Palindrome
-
-- Test case 2:
-Enter the string : madam
-Is a Palindrome
-
-- Test case 3:
-Enter the string : books
-Not a Palindrome
-
-"""

@@ -12,9 +12,6 @@ For all the pairs in the points array we calculate the eucledian distance betwee
 We store a pair of the point and the eucledian distance in a Min-Heap.
 We use a Min-Heap because we need first K closest point i.e points with minimum distance from the origin.
 At the end we print first K points from the Min-Heap.
-
-Time Complexity: O(NlogK)
-Space Complexity: O(N)
 */
 
 #include <iostream>
@@ -22,9 +19,11 @@ Space Complexity: O(N)
 #include <vector>
 #include <math.h>
 using namespace std;
-using user_defined_pair = pair<long long, vector<int>>; // made a user defined pair which would be of the form {distance, coordinate};
+// made a user defined pair which would be of the form {distance, coordinate}
+using user_defined_pair = pair<long long, vector<int>>; 
 
-long long eucledian_distance(vector<int> coordinates) // calculate eucledian distance between point and (0, 0)
+// calculate eucledian distance between point and (0, 0)
+long long eucledian_distance(vector<int> coordinates) 
 {
     int x = coordinates[0];
     int y = coordinates[1];
@@ -33,20 +32,23 @@ long long eucledian_distance(vector<int> coordinates) // calculate eucledian dis
 
 vector<vector<int>> kClosest(vector<vector<int>> points, int k)
 {
-    priority_queue<user_defined_pair, vector<user_defined_pair>, greater<user_defined_pair>> min_heap; // syntax to create a min_heap
+    // syntax to create a min_heap
+    priority_queue<user_defined_pair, vector<user_defined_pair>, greater<user_defined_pair>> min_heap; 
     vector<vector<int>> result;
 
     for (auto coordinates : points)
     {
         float distance = eucledian_distance(coordinates);
         user_defined_pair distance_coordinate_pair = {distance, coordinates};
-        min_heap.push(distance_coordinate_pair); // push a pair of {distance, coordinate} in min_heap
+        // push a pair of {distance, coordinate} in min_heap
+        min_heap.push(distance_coordinate_pair); 
     }
 
     while (k != 0)
     {
         user_defined_pair distance_coordinate_pair = min_heap.top();
-        result.push_back(distance_coordinate_pair.second); // add first k coodinates in result vector
+        // add first k coodinates in result vector
+        result.push_back(distance_coordinate_pair.second); 
         min_heap.pop();
         k--;
     }
@@ -90,6 +92,9 @@ int main()
 }
 
 /*
+Time Complexity: O(NlogK)
+Space Complexity: O(N)
+
 Input:
 points = [[1,3],[-2,2]]
 k = 1

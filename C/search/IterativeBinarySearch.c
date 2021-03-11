@@ -32,7 +32,7 @@ int binarySearch(int arr[], int l, int r, int val) {
 int main() {
   int arr[] = {-2, 5, 14, 17, 19, 27};
   // searched value assuming to be val=19
-  int val = 29;
+  int val = 19;
   int n = sizeof(arr) / sizeof(arr[0]);
   int index = binarySearch(arr, 0, n - 1, val);
 

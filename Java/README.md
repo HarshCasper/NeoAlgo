@@ -70,6 +70,7 @@ _add list here_
 - [Implement Queue using Stack](cp/Queue_using_Stack.java)
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
+- [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
 
 ## Cryptography
 
@@ -91,6 +92,7 @@ _add list here_
 ## Data Structures
 
 - [Binary Tree](ds/Binary_Tree.java)
+- [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
@@ -104,10 +106,12 @@ _add list here_
 - [Sparse Matrix](ds/SparseMatrix.java)
 - [Stack ~ Linked List Implementation](ds/Stack.java)
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
+- [Implementation of Stack using Queue](ds/StackUsingQueue.java)
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
+
 
 ## Graphs
 
@@ -167,6 +171,7 @@ _add list here_
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
+- [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
 
 ## Sorting
 

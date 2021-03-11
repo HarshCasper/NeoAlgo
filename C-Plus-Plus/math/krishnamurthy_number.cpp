@@ -1,15 +1,10 @@
 /*
-    If the factorial of the individual digits of a number when summed up yields the number itself then the number is called Krishnamurthy 
+    If the factorial of individual digits of a number when summed up yields the number itself then the number is called Krishnamurthy 
     Number. 
-    Example 1: 
-    We consider the number 145
+    Example : 
+    Consider the number 145
     Summing of factorials of the individual digits we get = 1! + 4! + 5! = 1 + 24 + 120 =145.
-    Conclusion : 145 is not a Krishnamurthy number.
-    Example 2:
-    We consider the number 26
-    Summing of factorials of the individual digits we get = 2! + 6! = 2 + 720 = 722.
-    Conclusion: 26 is not a Krishnamurthy number.
-
+    Hence 145 is not a Krishnamurthy number.
 */
 
 //CPP Program to find whether a number is a Krishnamurthy number
@@ -27,33 +22,31 @@ int Factorial ( int n )
     return n * Factorial( n - 1 );
 }
 
-int main () 
+int Krishnamurthy_No ( int num )
 {
-    int number, digit, sum = 0;
-    std::cout << "Enter a natural number " << std::endl;
-    std::cin >> number;
-    int copy = number;
+    int digit, sum = 0 ,copy = num;
 
     //Running a loop till we have extracted all the digits from the copy of the given number
     
     while ( copy > 0 ) 
     {
-        //Extracting the last digit from existing copy of number
-
         digit = copy % 10;
-        
-        //Calculating the sum starting from zero and adding up each time we find the factorial.
-        
         sum = sum + Factorial ( digit );
-
-        //Decreasing the exisiting copy of number
-
         copy = copy / 10;
     }
+    return sum;
+}
+
+int main () 
+{
+    int number, digit, sum = 0;
+    std::cout << "Enter a natural number " << std::endl;
+    std::cin >> number;
+    int answer = Krishnamurthy_No ( number ); 
 
     //Comparing if calculated sum adds up to the number
 
-    if ( sum == number)
+    if ( answer == number)
     {
         std:: cout << number <<" is a krishnamurthy number. ";
     }

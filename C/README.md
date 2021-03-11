@@ -12,7 +12,7 @@
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
-- [Adjacent Element Product](cp/Adjacent_Element_Product)
+- [Adjacent Element Product](cp/Adjacent_Element_Product.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
 - [Anagram Program](cp/anagram_program.c)
 - [Binary Search](search/BinarySearch.c)

@@ -22,8 +22,10 @@ string new_string(string s)
 
 int main()
 {
+    cout << "Enter the string\n";
     string s;
     getline(cin , s);
+    cout << "After Removing Spaces the New String is : ";
     cout << new_string(s) << endl;
 }
 /*

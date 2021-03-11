@@ -34,6 +34,7 @@
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
+- 
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
@@ -252,3 +253,4 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
+- [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)

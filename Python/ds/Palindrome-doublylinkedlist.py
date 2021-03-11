@@ -77,14 +77,17 @@ if __name__ == "__main__":
 
 '''
 
-Sample Input/Output :-
-Test case 1:
+Sample Input/Output :
+
+- Test case 1:
 Enter the string : clouds
 Not a Palindrome
-Test case 2:
+
+- Test case 2:
 Enter the string : madam
 Is a Palindrome
-Test case 3:
+
+- Test case 3:
 Enter the string : books
 Not a Palindrome
 

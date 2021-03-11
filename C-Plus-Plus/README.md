@@ -53,6 +53,7 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
+- [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 
 ## Data Structures
 

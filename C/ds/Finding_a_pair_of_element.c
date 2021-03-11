@@ -3,7 +3,7 @@ Finding a pair of element with sum k using hash table in a Unsorted array using 
 */
 #include<stdio.h>
 #include<stdlib.h>
-
+//Define a structure for an array.
 struct Array{
 
 	int * A;
@@ -15,15 +15,15 @@ void pairwithsumhash(struct Array arr)
 
 {
 
-	int i,greatestno = 0,smallestno=32767;
+	int i,greatestno = 0,smallestno = 32767; //Declaring a greatestno and smallestno
 
-	int *H;
+	int *H; // Declaring a integer type pointer for hash table
 
-	int k;
+	int k; //Declaring a variable
 
-	printf("Enter the sum of k:");
+	printf("Enter the sum of k:"); 
 
-	scanf("%d",&k);
+	scanf("%d",&k); //Taking inputs for sum of k 
 
 	for(i=0;i<arr.size;i++)
 
@@ -31,43 +31,43 @@ void pairwithsumhash(struct Array arr)
 
 		if(arr.A[i]>greatestno)
 
-			greatestno = arr.A[i];
-
+			greatestno = arr.A[i]; //Finding greatestno from the array
+		
 		if(arr.A[i]<smallestno)
 
-			smallestno=arr.A[i];
+			smallestno = arr.A[i]; // Finding smallestno from the array
 
 	}
 
-	H = (int *)malloc((greatestno+1)*sizeof(int));
+	H = (int *)malloc((greatestno+1)*sizeof(int)); //Allocating memory dynamically 
 
 	for(int i=0;i<greatestno+1;i++)
 
-		H[i]=0;
+		H[i]=0; //Defing hash table size as per the greatestno
 
 	for(int i=0;i<arr.size;i++)
 
-		H[arr.A[i]]=1;
+		H[arr.A[i]]=1; //Incrementing hash table for every array value.
 
 	for(i =0;i<arr.size;i++)
 
 	{
 
-		if((k-arr.A[i])>=0 && H[k-arr.A[i]]!=0)
+		if((k-arr.A[i])>=0 && H[k-arr.A[i]]!=0) //Applying condition
 
 		{
 
-			printf("%d+%d=%d\n",arr.A[i],k-arr.A[i],k);
+			printf("%d+%d=%d\n",arr.A[i],k-arr.A[i],k); //Printing the result if condition satisfies.
 
-			H[arr.A[i]]--;
+			H[arr.A[i]]--; //Decrementing hash table
 
 		}
 
 	}
 
-	free(H);
+	free(H); //Deleting the memory 
 
-	H=NULL;
+	H=NULL; //Making pointer to NUll.
 
 }
 
@@ -76,15 +76,15 @@ int main()
 
 {
 
-    struct Array arr;
+    struct Array arr; //Declaring struct
 
-    int ch,i;
+    int ch,i; //Declaring the varibles.
 
     printf("Enter Size of Array");
 
-    scanf("%d",&arr.size);
+    scanf("%d",&arr.size); //Asking user to enter the size of the array.
 
-    arr.A = (int *)malloc(arr.size*sizeof(int));
+    arr.A = (int *)malloc(arr.size*sizeof(int)); //Alloacting memory for an array dynamically.
 
     printf("Enter the array elements");
 
@@ -92,7 +92,7 @@ int main()
 
     {
 
-        scanf("%d",&arr.A[i]);
+        scanf("%d",&arr.A[i]); //Asking user to enter the array values.
 
     }
 
@@ -115,17 +115,17 @@ int main()
 
             case 1: printf("Pair of Elements with sum k using hash table in a unsorted array: \n");
 
-            pairwithsumhash(arr);
+            pairwithsumhash(arr); 
 
             break;
 
         }
 
-    }while(ch<2);
+    }while(ch<2); 
 
-    free(arr.A);
+    free(arr.A); //Deleting the array
 
-    arr.A = NULL;
+    arr.A = NULL; //Making pointer to NUll.
 
     return 0;
 

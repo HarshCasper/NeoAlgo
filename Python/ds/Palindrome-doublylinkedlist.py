@@ -17,7 +17,6 @@ Return : Message if the input is a palindrome or not
 
 '''
 
-''' Initializing a node '''
 
 class Node:
 
@@ -26,14 +25,13 @@ class Node:
         self.next = None
         self.prev = None
 
-''' Using Doubly Linked List '''
 
 class DoublyLinkedList:
 
-    ''' String Reverse '''
-    
     @staticmethod
     def printList(node):
+        
+        '''Reversing the string'''
         rev_key = ""
         while node:
             rev_key += node.data
@@ -42,11 +40,10 @@ class DoublyLinkedList:
 
     def __init__(self):
         self.head = None
-
-    ''' Adding new node in the front of the list '''
     
     def push(self, new_data):
-
+        
+        ''' Adding new node in the front of the list '''
         new_node = Node(new_data)
 
         if self.head is None:
@@ -62,7 +59,6 @@ class DoublyLinkedList:
         new_node.prev = last
         return
 
-''' Main Program '''
 
 if __name__ == "__main__":
 
@@ -74,13 +70,12 @@ if __name__ == "__main__":
 
     rev_keys = llist.printList(llist.head)
 
-    ''' Checking if the string is a palindrome '''
     if keys == rev_keys:
         print("Is Palindrome")
     else:
         print("Not a Palindrome")
 
-"""
+''' 
 Sample Input/Output :-
 Test case 1:
 Enter the string : clouds
@@ -91,4 +86,4 @@ Is a Palindrome
 Test case 3:
 Enter the string : books
 Not a Palindrome
-"""
+'''

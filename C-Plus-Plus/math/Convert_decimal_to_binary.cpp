@@ -1,9 +1,9 @@
-//C++ Program to convert a decimal number into its equivalent binary number
+//C++ Program to convert a positive decimal number into its equivalent binary number
 
 #include <bits/stdc++.h>
 using namespace std;
 
-//Function to convert a decimal number into a binary number
+//Function to convert a positive decimal number into a binary number
 
 long long convertDecimalToBinary(int n) {
 	long long binaryNumber = 0;
@@ -19,7 +19,6 @@ long long convertDecimalToBinary(int n) {
 }
 
 //Driver function
-
 int main() {
 	int decimal;
 	//Prompts user for input
@@ -51,4 +50,3 @@ Binary number: 1100100
 Time complexity: O(N)
 Space complexity: O(1)
 */
-

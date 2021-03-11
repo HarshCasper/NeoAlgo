@@ -15,6 +15,7 @@
 - [Stacks](ds/Stacks.py)
 - [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
 - [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+- [Reversing individual words of a string (using stacks)](ds/reverseWordsOfString.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Trie](ds/Trie.py)
 - [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)

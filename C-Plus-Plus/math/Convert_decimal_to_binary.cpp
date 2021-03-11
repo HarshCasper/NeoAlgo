@@ -3,39 +3,34 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//Function to convert a decimal number into binary number
+//Function to convert a decimal number into a binary number
 
-long long convertDecimalToBinary(int n)
-{
-    long long binaryNumber = 0;
-    int remainder, i = 1;
+long long convertDecimalToBinary(int n) {
+	long long binaryNumber = 0;
+	int remainder, i = 1;
 
-    while (n!=0)
-    {
-        remainder = n%2;
-        n /= 2;
-        binaryNumber += remainder*i;
-        i *= 10;
-    }
-    return binaryNumber;
+	while (n != 0) {
+		remainder = n % 2;
+		n /= 2;
+		binaryNumber += remainder * i;
+		i *= 10;
+	}
+	return binaryNumber;
 }
-
 
 //Driver function
 
-int main()
-{
+int main() {
 	int decimal;
 	//Prompts user for input
 	cout << "Enter a decimal number to be converted into binary: ";
-	cin >>decimal;
+	cin >> decimal;
 
-    //Display the resultant binary number 
-	cout<<"Binary number: "<<convertDecimalToBinary(decimal)<<"\n";
+	//Display the resultant binary number
+	cout << "Binary number: " << convertDecimalToBinary(decimal) << "\n";
 
 	return 0;
 }
-
 
 /*
 Input:
@@ -52,7 +47,6 @@ Input:
 Enter a decimal number to be converted into binary: 100
 Output:
 Binary number: 1100100
-
 
 Time complexity: O(N)
 Space complexity: O(1)

@@ -14,7 +14,7 @@ def bucket_sort(arr):
     bucket_list = []
     for i in enumerate(arr):
         bucket_num = i[0]
-        if bucket_num< len(arr):
+        if bucket_num < len(arr):
             bucket_list.append([])
 
     # numerical range of each bucket
@@ -62,11 +62,10 @@ if __name__ == "__main__":
 
 # Sorted List
 # 1.2 2.6 4.0 6.3 7.7 12.5
-''' Time Complexity -
-    1. Best case - O(n+k)
-    2. Average case - O(n+k)
-    3. Worst case - O(n^2)
-    where n = number of elements in the input array
+# Time Complexity -
+#   1. Best case - O(n+k)
+#   2. Average case - O(n+k)
+#   3. Worst case - O(n^2)
+#   where n = number of elements in the input array
 
-Space Complexity - O(nk)
-'''
+# Space Complexity - O(nk)

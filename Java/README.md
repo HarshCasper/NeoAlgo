@@ -171,6 +171,7 @@ _add list here_
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
+- [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
 
 ## Sorting
 

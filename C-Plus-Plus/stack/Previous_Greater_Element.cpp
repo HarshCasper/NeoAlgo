@@ -62,18 +62,4 @@ Testcase '1' :
 N = 5
 Input : arr[N] = {20, 30, 10, 5, 15}
 Output : -1  -1  30  10 30
-
-Testcase '2' :
-
-If array in Decreasing Order.
-N = 4
-Input : arr[N] = {40, 30, 20, 10}
-Output :  -1  40  30  20
-
-Testcase '3' :
-
-If array in Increasing Order.
-N = 4
-Input : arr[N] = {10, 20, 30, 40}
-Output :  -1  -1  -1  -1
 */

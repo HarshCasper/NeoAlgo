@@ -75,7 +75,7 @@ if __name__ == "__main__":
     else:
         print("Not a Palindrome")
 
-'''
+"""
 
 Sample Input/Output :
 
@@ -91,4 +91,4 @@ Is a Palindrome
 Enter the string : books
 Not a Palindrome
 
-'''
+"""

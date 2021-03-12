@@ -13,10 +13,7 @@
 
     Method:In this method we will traverse the linkedlist using two pointers is slow and fast. 
     Move the slow pointer by one position and fast pointer by two positions.
-    If these two pointers meet together at any point at same node then we can say that there is loop/cycle inside linkedlist.
-
-    Time complexity: O(n)
-    Space complexity: O(1) 
+    If these two pointers meet together at any point at same node then we can say that there is loop/cycle inside linkedlist. 
 */
 
 #include <bits/stdc++.h>
@@ -88,7 +85,9 @@ int main()
 }
 
 /*
-
+ Time complexity: O(n)
+ Space complexity: O(1)
+ 
  Input :
  Enter size of linked list
  5
@@ -97,5 +96,4 @@ int main()
 
  Output :
  true
-
 */

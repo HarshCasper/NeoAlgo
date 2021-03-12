@@ -15,6 +15,8 @@
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
+- [MinMax Algorithm](Algorithms/Min_Max_Algorithm_implementation.java)
+- [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
 
 ## Greedy Algorithms
 
@@ -171,6 +173,7 @@ _add list here_
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
+- [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
 
 ## Sorting
 

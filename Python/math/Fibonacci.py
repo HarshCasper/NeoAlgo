@@ -10,7 +10,7 @@ def fibonaccinumber(n):
     0 1 1 2 3 5
 
     >>fibonaccinumber(10)
-    0 1 1 2 3 5 8 13 21 34
+    0 1 1 2 3 5 8 13 21 34 55
 
     """
     a, b = 0, 1

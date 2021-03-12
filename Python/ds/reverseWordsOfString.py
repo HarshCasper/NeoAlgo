@@ -4,7 +4,7 @@ Reversing individual words of a string using stack data structure
 
 
 def reverseWords(string: str):
-    ''' Takes a sentence of words (a string) and prints the individual words in a reverse order '''
+    ''' Prints the individual words in a reverse order '''
     stack = []
     for letter in string:
         if letter.isalnum():
@@ -24,9 +24,11 @@ reverseWords(sentence)
 
 
 '''
+
 Sample Input1: Get me food
 Sample Output1: teG em doof
 
 Sample Input2: happy birthday
 Sample Output2: yppah yadhtrib
+
 '''

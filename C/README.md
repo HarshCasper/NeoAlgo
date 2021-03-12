@@ -12,6 +12,7 @@
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
+- [Adjacent Element Product](cp/Adjacent_Element_Product.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
 - [Anagram Program](cp/anagram_program.c)
 - [Binary Search](search/BinarySearch.c)
@@ -35,6 +36,7 @@
 - [Suduko Solver](cp/SudukoSolver.c)
 - [Stock Span Problem](cp/Stock_Span.c)
 - [Bulb Switcher problem](cp/bulbSwitch.c)
+- [Luhn's Algorithm](cp/LuhnsAlgo.c)
 
 ## Cryptography
 
@@ -70,6 +72,7 @@
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
+- [Iterative-Binary Search](search/IterativeBinarySearch.c)
 - [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)

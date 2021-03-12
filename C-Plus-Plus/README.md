@@ -86,11 +86,8 @@
 - [Ancestors in Binary Search Tree](ds/ancestors_of_given_number_BST.cpp)
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
-<<<<<<< HEAD
 - [Heapify](ds/heapify.cpp)
-=======
-- [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
->>>>>>> upstream/master
+-
 
 ## Graphs
 
@@ -160,12 +157,8 @@
 
 ## Stack based problems
 
-<<<<<<< HEAD
--[Infix to Postfix Conversiion](stack/Infix_to_Postfix.c)
-
-=======
 -[Infix to Postfix Conversiion](../C/stack/Infix_to_Postfix.c)
->>>>>>> upstream/master
+
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)

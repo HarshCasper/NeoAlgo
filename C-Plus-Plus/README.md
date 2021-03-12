@@ -243,4 +243,3 @@ _add list here_
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
 - [maximum element in Bitonic array](other/Max_in_BitonicArray.cpp)
-- [4 Sum Problem](other/4Sum.cpp)

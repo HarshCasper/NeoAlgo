@@ -55,7 +55,7 @@
 ## Data Structures
 
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
-- [Level-Order Tree Traversal](ds/LevelOrderTraversal.cpp)
+- [Level-Order Tree Traversal](ds/LevelOrderTraversal)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)

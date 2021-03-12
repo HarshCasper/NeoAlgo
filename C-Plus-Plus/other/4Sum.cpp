@@ -1,5 +1,6 @@
 /* Given an array of integers, find anyone combination of four elements in the array whose sum is equal to a given value X. 
-   Here most optimized solution is discussed using the concept of hashing.Below is a hashing based  CPP program to find if there are four elements with given sum. */
+   Here most optimized solution is discussed using the concept of hashing.Below is a hashing based  CPP program to find if
+   there are four elements with given sum. */
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -59,5 +60,4 @@ int main(){
           sum=91
           a[n]={10 ,20 ,30 ,40 ,1 ,2}
    Output: 20, 30, 40, 1
-*/
-   
+*/ 

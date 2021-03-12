@@ -17,27 +17,40 @@
 # Space Complexity: O(N)
 
 
-nums= [int(num) for num in input("Enter the list items : ").split()] #input list
-k=int(input()) #input the k-length of sublist
-target=int(input()) #target value( min avg)
+#input list
+nums= [int(num) for num in input("Enter the list items : ").split()]
 
-p=sum(nums[0:k]) #taking first [0:k] sum
+#input the k-length of sublist
+k=int(input()) #
 
-c=0 #number of k sets possible before
+#target value( min avg)
+target=int(input()) 
 
-if (p//k)>=target: #verifying the taken avg sum greater than target or not
-    c+=1 #if yes increment the count [result]
+#taking first [0:k] sum
+p=sum(nums[0:k]) 
+
+#number of k sets possible before
+c=0 
+
+#verifying the taken avg sum greater than target or not
+if (p//k)>=target: 
+    #if yes increment the count [result]
+    c+=1 
 
 i=k
 while i<len(nums):
-    p+=nums[i]-nums[i-k] #adding new element and removeing the firstly added element, this operation takes place until the last element in the list is added 
 
-    if (p//k)>=target: #checking if avg sum greater than target 
+    #adding new element and removeing the firstly added element, this operation takes place until the last element in the list is added 
+    p+=nums[i]-nums[i-k] 
+
+    #checking if avg sum greater than target 
+    if (p//k)>=target: 
         c+=1
     
     i+=1
 
-print("Number of combinations possible: " ,c) #printing final result
+#printing final result
+print("Number of combinations possible: " ,c) 
 
 # ST-1:- Input:-
 

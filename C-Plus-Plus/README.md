@@ -50,6 +50,7 @@
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 <<<<<<< HEAD
 - [Peak element](cp/Peak_element.cpp)
@@ -142,6 +143,7 @@
 - [Count Sort](sort/countsort.cpp)
 - [Counting Sort](sort/counting_sort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
+- [In Place Merge Sort](sort/in_place_merge_sort.cpp)
 - [Insertion Sort](sort/insertion.cpp)
 - [Merge Sort](sort/Merge_Sort.cpp)
 - [Quick Sort](sort/Quick_Sort.cpp)

@@ -1,6 +1,6 @@
 '''
 is_prime_iterative() function uses an iterative approach to check the
-primality of the passed argument. It checks for each number i from 2 to
+primality of the passed argument. It checks for each number i from 5 to
 sqrt(num)+1 that whether it divides the passed number or not. If it does, the
 passed number is not prime, otherwise the number is prime.
 
@@ -15,8 +15,12 @@ def is_prime_iterative(num):
     # Base Cases
     if(num <= 1):
         return False
-    for i in range(2, int(num**(1/2))+1):
-        if num % i == 0:
+    elif (num <= 3):
+        return True
+    elif(num %2 == 0 or num %3 == 0):
+        return False
+    for i in range(5, int(num**(1/2))+1,6):
+        if (num % i == 0 or num % (i+2) == 0):
             return False
 
     # If the passes this test, then the num is prime, hence return True

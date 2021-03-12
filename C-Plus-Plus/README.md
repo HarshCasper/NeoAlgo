@@ -36,6 +36,7 @@
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - 
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
+- [Min Swap To Sort Array](cp/MinSwapToSortArray.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)

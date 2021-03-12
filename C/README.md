@@ -92,6 +92,7 @@
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
+- [Three Way Merge Sort](sort/three_way_merge_sort.c)
 
 ## Dynamic Programming
 

@@ -3,11 +3,6 @@ SELECTION SORT:
     Selection sort is a simple inplace sorting algorithm.
 */
 
-//importing readline module to read user input.
-var readline = require('readline');
-//initializing process.stdin and process.stdout for inputstream and outputstream respectively. 
-var rl = readline.createInterface(
-    process.stdin, process.stdout);
     
 function selectionSort(arr){
     let n = arr.length;
@@ -30,14 +25,8 @@ function selectionSort(arr){
     return arr;
 }
 
-//input array of numbers as a string
-rl.question('Enter array elements in a line: ', (input) => {
-    //converting string into array of integers.
-    
-    console.log(selectionSort(input.split(" ").map(x => parseInt(x))));
-	rl.close();
-});
-
+var arr = prompt("Enter numbers to sort comma separated: ").split(",");
+console.log(selectionSort(arr));
 /*
 Time Complexity - O(n^2)
 Space Complexity - O(1)

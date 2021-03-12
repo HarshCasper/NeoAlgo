@@ -28,15 +28,6 @@ left in "stack" and "indx".
 
 Argument: string (Input string with parenthesis)
 Return: string (Output string with balanced parenthesis)
-
-Time Complexity: O(n)
-
-Testcases
-(1) Input: (()))() Output: (())()
-(2) Input: neoalgo Output: neoalgo
-(3) Input: ())(() Output: ()()
-(4) Input: )))((( Output: ''
-(5) Input: (())() Output: (())()
 '''
 
 
@@ -45,7 +36,8 @@ def remove_parenthesis(string):
     indx = []
     for (i, s) in enumerate(string):
         if s == '(':
-            stack.append(i)  # save the index of ( in stack
+            # save the index of ( in stack
+            stack.append(i)
         elif s == ')':
             if len(stack) > 0:
                 # pop the index of ( on the top of stack if stack is not empty
@@ -60,7 +52,8 @@ def remove_parenthesis(string):
     # Generating the output string by skipping the unpaired parenthesis
     # whose indices are saved in "stack" and "indx"
     op_str = ''
-    final_indx = indx + stack  # combine the list of indices and sort the indices
+    # combine the list of indices and sort the indices
+    final_indx = indx + stack
     final_indx.sort()
     for (i, s) in enumerate(string):
         # if index is in final_indx i.e. has unpaired parenthesis, skip it
@@ -72,4 +65,17 @@ def remove_parenthesis(string):
 
 
 if __name__ == '__main__':
-    remove_parenthesis('he((l)l)o)')  # Output: he((l)l)o
+    # Output: he((l)l)o
+    remove_parenthesis('he((l)l)o)')
+
+
+'''
+Time Complexity: O(n)
+
+Testcases
+(1) Input: (()))() Output: (())()
+(2) Input: neoalgo Output: neoalgo
+(3) Input: ())(() Output: ()()
+(4) Input: )))((( Output: ''
+(5) Input: (())() Output: (())()
+'''

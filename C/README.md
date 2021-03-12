@@ -128,7 +128,7 @@ _add list here_
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
-- [Round Robin Scheduling Algorithm](C/operating_system/Round_Robin_Scheduling.c)
+- [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 
 ## Other
 

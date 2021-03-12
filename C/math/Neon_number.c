@@ -1,4 +1,6 @@
-// C Program to check whether a number is Neon or not. A neon number is a number where the sum of digits of square of the number is equal to the number.
+/* C Program to check whether a number is Neon or not.
+ A neon number is a number where the sum of digits of square of the number is equal to the number. 
+ */
 
 #include <stdio.h>
 #include <math.h>

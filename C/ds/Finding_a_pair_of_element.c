@@ -31,14 +31,10 @@ struct Array {
   int size;
 };
 void pairwithsumhash(struct Array arr) {
-  // Declaring a greatestno and smallestno
   int i, greatestno = 0, smallestno = 32767;
-  // Declaring a integer type pointer for hash table
   int *H;
-  // Declaring a variable
   int k;
   printf("Enter the sum of k:");
-  // Taking inputs for sum of k
   scanf("%d", &k);
   for (i = 0; i < arr.size; i++) {
     // Checking for greatestno in the array
@@ -48,7 +44,6 @@ void pairwithsumhash(struct Array arr) {
     if (arr.A[i] < smallestno)
       smallestno = arr.A[i];
   }
-  // Allocating memory dynamically
   H = (int *)malloc((greatestno + 1) * sizeof(int));
   // Defining hash table size as per the greatestno
   for (int i = 0; i < greatestno + 1; i++)
@@ -57,7 +52,7 @@ void pairwithsumhash(struct Array arr) {
   for (int i = 0; i < arr.size; i++)
     H[arr.A[i]] = 1;
   for (i = 0; i < arr.size; i++) {
-    // Applying condition
+    // Checking whether it is pair or not.
     if ((k - arr.A[i]) >= 0 && H[k - arr.A[i]] != 0) {
       // Printing the result if condition satisfies.
       printf("%d+%d=%d\n", arr.A[i], k - arr.A[i], k);
@@ -65,24 +60,17 @@ void pairwithsumhash(struct Array arr) {
       H[arr.A[i]]--;
     }
   }
-  // Deleting the memory
   free(H);
-  // Making pointer to NUll.
   H = NULL;
 }
 int main() {
-  // Declaring struct
   struct Array arr;
-  // Declaring the varibles.
   int ch, i;
   printf("Enter Size of Array");
-  // Asking user to enter the size of the array.
   scanf("%d", &arr.size);
-  // Alloacting memory for an array dynamically.
   arr.A = (int *)malloc(arr.size * sizeof(int));
   printf("Enter the array elements");
   for (i = 0; i < arr.size; i++) {
-    // Asking user to enter the array values.
     scanf("%d", &arr.A[i]);
   }
   do {
@@ -99,9 +87,7 @@ int main() {
       break;
     }
   } while (ch < 2);
-  // Deleting the array
   free(arr.A);
-  // Making pointer to point on NUll.
   arr.A = NULL;
   return 0;
 }

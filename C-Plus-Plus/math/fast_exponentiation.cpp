@@ -1,3 +1,5 @@
+//This program is performed in C++ and helps students and users to find Fast Exponentiation of a number using the method of Bit Manipulation.
+
 #include<iostream>
 using namespace std;
 
@@ -31,3 +33,11 @@ int main(){
 
     return 0;
 }
+
+//INPUT:
+//Enter the base number: 3
+//Enter the exponent: 5
+//OUTPUT:
+//The power of 3 raised to 5 is: 243
+
+//The Time Complexity is O(logN) and the Space Complexity is O(1)

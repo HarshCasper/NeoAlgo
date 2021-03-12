@@ -66,10 +66,8 @@ def remove_parenthesis(string):
 
 if __name__ == '__main__':
     # Output: he((l)l)o
-    remove_parenthesis('he((l)l)o)')
-        
+    remove_parenthesis('he((l)l)o)')    
     # Time Complexity: O(n)
-
     # Testcases
     # (1) Input: (()))() Output: (())()
     # (2) Input: neoalgo Output: neoalgo

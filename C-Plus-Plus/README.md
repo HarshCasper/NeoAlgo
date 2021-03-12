@@ -163,6 +163,7 @@
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
+- [Smallest element of an array using stack](https://github.com/zhcet19/NeoAlgo/blob/master/C-Plus-Plus/stack/smallest%20element%20in%20an%20array.cpp)
 
 ## Heap based problems
 

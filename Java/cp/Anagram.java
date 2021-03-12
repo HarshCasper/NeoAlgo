@@ -9,37 +9,37 @@
 import java.util.Scanner;
 import java.lang.String;
 public class Annagram {
-	static boolean isAnagram(String a, String b) {
-		a = a.toLowerCase();
-		b = b.toLowerCase();
-		boolean c = true;
-		int al[] = new int[256];
+static boolean isAnagram(String a, String b) {
+a = a.toLowerCase();
+b = b.toLowerCase();
+boolean c = true;
+int al[] = new int[256];
 /* system provided the ASCII table
 * which had 256 characters and each ASCII code
 * (numerical code) was assigned to one character.
 */
-		int bl[] = new int[256];
-		for (char d : a.toCharArray()) {
-			int index = (int) d;
-			al[index]++;
-		}
-		for (char d : b.toCharArray()) {
-			int index = (int) d;
-			bl[index]++;
-		}
+ int bl[] = new int[256];
+ for (char d : a.toCharArray()) {
+ int index = (int) d;
+ al[index]++;
+ }
+ for (char d : b.toCharArray()) {
+ int index = (int) d;
+ bl[index]++;
+ }
 /*
 * For comparing each character from one
 * String one to another.
 */
-		for (int i = 0; i < 256; i++) {
-			if (al[i] != bl[i]) {
-				c = false;
-				break;
-			}
-		}
-		return c;
+	for (int i = 0; i < 256; i++) {
+	if (al[i] != bl[i]) {
+  c = false;
+  break;
 	}
-	public static void main(String[] args) {
+ }
+ return c;
+	}
+	 public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter the first String : ");
 		String a = scan.next();

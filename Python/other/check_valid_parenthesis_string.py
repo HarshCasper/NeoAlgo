@@ -68,14 +68,13 @@ if __name__ == '__main__':
     # Output: he((l)l)o
     remove_parenthesis('he((l)l)o)')
 
+    '''
+    Time Complexity: O(n)
 
-'''
-Time Complexity: O(n)
-
-Testcases
-(1) Input: (()))() Output: (())()
-(2) Input: neoalgo Output: neoalgo
-(3) Input: ())(() Output: ()()
-(4) Input: )))((( Output: ''
-(5) Input: (())() Output: (())()
-'''
+    Testcases
+    (1) Input: (()))() Output: (())()
+    (2) Input: neoalgo Output: neoalgo
+    (3) Input: ())(() Output: ()()
+    (4) Input: )))((( Output: ''
+    (5) Input: (())() Output: (())()
+    '''

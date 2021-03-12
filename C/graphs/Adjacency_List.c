@@ -8,16 +8,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Declare a structure for representing digraph with data and 2 links
- *link represents the edge between the parent node and next node (edge list)
- *pnext point to the next node from which new edges arise(node list)
+/* Declare a structure for representing digraph with data and 2 links
+ * link represents the edge between the parent node and next node (edge list)
+ * pnext point to the next node from which new edges arise(node list)
+ * g points to the graph
 */
 typedef struct AdjacencyList
 {
     int data;
     struct AdjacencyList *link, *pnext;
 } AdjacencyList;
-//Declare graph g
 AdjacencyList *g;
 
 //to insert into the graph
@@ -163,7 +163,6 @@ void print_graph(AdjacencyList *g)
 
 int main()
 {
-    //Allocate memory for g which points to the graph
     AdjacencyList *g = (AdjacencyList *)malloc(sizeof(AdjacencyList) * 10);
     g->link = NULL;
     //menu driven program to insert, delete and print graph according to choice
@@ -173,7 +172,6 @@ int main()
         scanf("%d", &choice);
         switch (choice)
         {
-        //if choice is 1 accept parent and value as user input for insertion
         case 1:
         {
             int parent, value;
@@ -182,7 +180,6 @@ int main()
         }
         break;
 
-        //if choice is 2 accept value as user input deletion
         case 2:
         {
             int value;
@@ -191,14 +188,12 @@ int main()
         }
         break;
 
-        //if choice is 3 print the graph
         case 3:
         {
             print_graph(g);
         }
         break;
 
-        // exit the loop
         case 4:
         {
             return 0;

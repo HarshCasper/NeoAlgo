@@ -105,6 +105,7 @@ int main() {
   arr.A = NULL;
   return 0;
 }
+
 // Output:-
 /*
 Enter Size of Array5

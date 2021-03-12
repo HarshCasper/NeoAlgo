@@ -6,7 +6,7 @@ namespace MergeSortAlgorithm
 {
     class Merge_Sort
     {
-        //The merge step in the sorting problem to sort the elements
+        //The merge step to sort the elements
         private static void Merge(int[] arr, int[] temp, int leftStart, int mid, int rightEnd)
         {
             int left = leftStart, right = mid + 1, index = left;

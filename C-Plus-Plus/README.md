@@ -85,7 +85,6 @@
 - [Ancestors in Binary Search Tree](ds/ancestors_of_given_number_BST.cpp)
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
-- [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
 
 ## Graphs
 
@@ -155,7 +154,7 @@
 
 ## Stack based problems
 
--[Infix to Postfix Conversiion](../C/stack/Infix_to_Postfix.c)
+-[Infix to Postfix Conversiion](stack/Infix_to_Postfix.c)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
@@ -163,8 +162,7 @@
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
-- [Smallest element of an array using stack](https://github.com/zhcet19/NeoAlgo/blob/master/C-Plus-Plus/stack/smallest%20element%20in%20an%20array.cpp)
-
+- [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 ## Heap based problems
 
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
@@ -193,7 +191,6 @@ _add list here_
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
-- [Krishnamurthy Number](math/krishnamurthy_number.cpp)
 
 ## Dynamic Programming
 
@@ -212,7 +209,6 @@ _add list here_
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
-- [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)
 - [Partition Problem](dp/Partition_Problem.cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
 - [String permutations](dp/string_permutations.cpp)

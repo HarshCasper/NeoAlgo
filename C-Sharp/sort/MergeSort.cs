@@ -1,4 +1,4 @@
-﻿// Implementation of merge sort a comparison-based sorting algorithm. It works on the principle of Divide and Conquer.
+﻿// Implementation of MergeSort a comparison-based sorting algorithm. It works on the principle of Divide and Conquer.
 
 using System;
 

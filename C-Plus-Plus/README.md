@@ -198,6 +198,7 @@ _add list here_
 
 ## Dynamic Programming
 
+- [Arithmetic Slices](dp/Arithmetic_Slices.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 - [Edit distance](dp/edit_distance.cpp)
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)
@@ -208,7 +209,7 @@ _add list here_
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)
-- [[Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)]
+- [Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)

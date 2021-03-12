@@ -1,5 +1,4 @@
-﻿// Merge sort is an efficient, general-purpose, comparison-based sorting algorithm.
-// Implementation of merge sort
+﻿// Implementation of merge sort a comparison-based sorting algorithm. It works on the principle of Divide and Conquer.
 
 using System;
 

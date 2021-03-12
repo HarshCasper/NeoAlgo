@@ -4,17 +4,19 @@ Author: Mohim Singla
 
 
 C++ program to merge alternate nodes two linked lists.
-
 */
+
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
 
+//Creating a struct
 struct node{
 int data;
 node *next;
 };
 
+//Function to create linked list
 struct node* create(int n)
 {
 
@@ -46,6 +48,8 @@ struct node* create(int n)
 }
 struct node* head=NULL;
 struct node* tail=NULL;
+
+//Function to create linked list
 struct node* new_list(int x)
 {
 
@@ -69,6 +73,7 @@ struct node* new_list(int x)
     return head;
 };
 
+//Create Merged linked list function
 struct node* merge_list(struct node* list1, struct node* list2,int y)
 {
     node* list3=NULL;
@@ -85,6 +90,7 @@ struct node* merge_list(struct node* list1, struct node* list2,int y)
     return list3;
 }
 
+//display function to print the linked lists
 void display(struct node* head)
 {
     node* temp=head;
@@ -96,6 +102,7 @@ void display(struct node* head)
     cout<<"NULL"<<endl;
 }
 
+//main starts
 int main()
 {
     cout<<"Enter no. of nodes in both the linked lists: ";

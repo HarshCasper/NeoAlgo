@@ -58,6 +58,7 @@
 
 ## Data Structures
 
+- [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
@@ -85,7 +86,6 @@
 - [Ancestors in Binary Search Tree](ds/ancestors_of_given_number_BST.cpp)
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
-- [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
 
 ## Graphs

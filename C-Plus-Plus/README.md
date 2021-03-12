@@ -184,7 +184,7 @@ _add list here_
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
-- [Converting decimal number to binary](D:\gSsoc 2021\NeoAlgo\C-Plus-Plus\math\Convert_decimal_to_binary.cpp)
+- \- [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
 
 ## Dynamic Programming
 

@@ -3,8 +3,8 @@ Problem -
 	To reverse the content of a queue using only a stack.
 
 Algorithm - 
-	First we pop each element from the queue and push it element by element into the stack. We keep doing this untill the queue is empty.
-	Then we pop each element from the stack and push it element by element into the queue. We keep doing this untill the stack is empty.
+	First we pop each element from the queue and push it element by element into the stack. We keep doing this until the queue is empty.
+	Then we pop each element from the stack and push it element by element into the queue. We keep doing this until the stack is empty.
 	We get the content of queue reversed.
 */
 

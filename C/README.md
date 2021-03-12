@@ -68,6 +68,7 @@
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 
 ## Searching
 

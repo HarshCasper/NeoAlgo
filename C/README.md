@@ -71,6 +71,7 @@
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
+- [Iterative-Binary Search](search/IterativeBinarySearch.c)
 - [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)

@@ -23,27 +23,27 @@ func max(a, b int) int{
 func lcs(X, Y string, m, n int) int {
 
 	//creating 2d array 
-    	L := make([][]int, m+1)
+	L := make([][]int, m+1)
 	for itr := 0; itr <= m; itr++ {
 		L[itr] = make([]int, n+1)
 	}
-      
+
 	//bottom up fashion
-    	for i := 0; i <= m; i++ {  
-        	for j := 0; j <= n; j++ {  
-        		if i == 0 || j == 0 { 
-            			L[i][j] = 0
-      			} else if X[i - 1] == Y[j - 1] {
+	for i := 0; i <= m; i++ {  
+		for j := 0; j <= n; j++ {
+			if i == 0 || j == 0 { 
+				L[i][j] = 0
+			} else if X[i - 1] == Y[j - 1] {
 				L[i][j] = L[i - 1][j - 1] + 1
-      			} else {
-            			L[i][j] = max(L[i - 1][j], L[i][j - 1]) 
+			} else {
+				L[i][j] = max(L[i - 1][j], L[i][j - 1]) 
 			}
-        	}  
-    	}  
-          
+		}
+	}  
+
     return L[m][n];  
 }  
-  
+
 
 func main() {
 	var str1 string
@@ -54,14 +54,12 @@ func main() {
 
 	fmt.Print("Enter the 2nd string : ")
 	fmt.Scan(&str2)
-	// str1 := "NEOALGO"
-    // 	str2 := "ALGORITHM"
-      
-    m := len(str1)  
-    n := len(str2)  
-	
-    if m < n {
-    	fmt.Println("Length of LCS is: ", lcs(str1, str2, m, n))
+
+	m := len(str1)
+	n := len(str2)
+
+	if m < n {
+		fmt.Println("Length of LCS is: ", lcs(str1, str2, m, n))
 	} else {
 		fmt.Println("Length of LCS is: ", lcs(str2, str1, n, m))
 	}

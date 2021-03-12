@@ -14,6 +14,7 @@
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
 - [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
+- [Reverse individual words of string](ds/reverseWordsOfString.py)
 - [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Trie](ds/Trie.py)

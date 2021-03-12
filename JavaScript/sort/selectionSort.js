@@ -5,7 +5,7 @@ SELECTION SORT:
     Space Complexity - O(1) 
 */
 
-selectionSort = (arr) => {
+const selectionSort = (arr) => {
     let n = arr.length;
     // i is the current index
     for(let i=0; i<n-1; i++){

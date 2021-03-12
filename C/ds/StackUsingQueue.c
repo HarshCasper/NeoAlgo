@@ -16,7 +16,7 @@ struct Node {
 */
 struct Node *front = NULL, *rear = NULL;
 // Store size of queue
-int size = 0;
+int qsize = 0;
 
 // check whether queue is empty or not
 int isEmpty(struct Node *q) {
@@ -45,7 +45,7 @@ int enQueue(int item) {
 
   rear = q;
   // increase current queue size
-  size++;
+  qsize++;
   return 0;
 }
 
@@ -65,7 +65,7 @@ int deQueue() {
       (rear) == NULL;
     }
     // reduce the current queue size
-    size--;
+    qsize--;
   }
   return delElement;
 }
@@ -77,7 +77,7 @@ int pop() {
   /* dequeue upto n-1 elements in the queue
      and enqueue the respective dequeued element
          at the REAR end of the queue*/
-  for (i = 0; i < size - 1; i++) {
+  for (i = 0; i < qsize - 1; i++) {
     element = deQueue();
     enQueue(element);
   }
@@ -102,31 +102,34 @@ void display(struct Node *temp) {
 
 int main() {
 
-  int i;
-  push(1);
-  push(2);
-  push(3);
-  push(4);
-  push(5);
+  int i, val, size;
+  printf("Enter the size: ");
+  scanf("%d", &size);
 
-  printf("Stack size:%d\n", size);
-  printf("Popped Elements are:\n");
-  while (size > 0) {
-    printf("%d\n ", pop());
+  printf("Enter the numbers:\n");
+  for (i = 0; i < size; i++) {
+    scanf("%d", &val);
+    push(val);
   }
-  printf("Stack size:%d\n", size);
+
+  printf("Stack size:%d\n", qsize);
+  printf("Popped Elements are:\n");
+  while (qsize > 0) {
+    printf("\n%d ", pop());
+  }
+  printf("\nStack size:%d", qsize);
   return 0;
 }
 
 /*
   Sample input/output:
-   push(1);
-   push(2);
-   push(3);
-   push(4);
-   push(5);
-
-  Output:
+  Enter the size: 5
+  Enter the numbers:
+  1
+  2
+  3
+  4
+  5
   Stack Size:5
   Popped Elements are:
   5

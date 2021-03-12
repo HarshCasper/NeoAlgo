@@ -27,6 +27,7 @@
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
+- [Interval List Intersection](cp/Interval_List_Intersection.cpp)
 - [Josephus Problem](cp/Josephus.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)

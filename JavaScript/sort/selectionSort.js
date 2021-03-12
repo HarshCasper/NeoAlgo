@@ -1,10 +1,12 @@
 /*
 SELECTION SORT:
     Selection sort is a simple inplace sorting algorithm.
+    Time Complexity - O(n^2)
+    Space Complexity - O(1) 
 */
+let arr = prompt("Enter numbers to sort comma separated: ").split(",");
 
-    
-function selectionSort(arr){
+selectionSort = (arr) => {
     let n = arr.length;
     // i is the current index
     for(let i=0; i<n-1; i++){
@@ -25,9 +27,4 @@ function selectionSort(arr){
     return arr;
 }
 
-var arr = prompt("Enter numbers to sort comma separated: ").split(",");
-console.log(selectionSort(arr));
-/*
-Time Complexity - O(n^2)
-Space Complexity - O(1)
-*/
+console.log(selectionSort);

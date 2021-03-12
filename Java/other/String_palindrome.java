@@ -13,7 +13,7 @@ public class String_palindrome {
 		// assigning the length of the string to integger type length variable.
 		int length = string.length();
 
-//reversing the string and storing it in the variable reverse_string. 
+         //reversing the string and storing it in the variable reverse_string. 
 		for (int i = length - 1; i >= 0; i--) {
 			reverse_string = reverse_string + string.charAt(i);
 		}
@@ -43,13 +43,18 @@ public class String_palindrome {
 }
 
 /*
- * OUTPUT: 1)when entered a non palindromic string
+ * SAMPLEOUTPUT:
+ *  1)when entered a non palindromic string
  * 
- * Enter a string: NEOALGO NEOALGO is not a palindrome string
+ * Enter a string:
+ * NEOALGO 
+ * NEOALGO is not a palindrome string
  * 
  * 2)when entered a palindromic string
  * 
- * Enter a string: WEEW WEEW is a palindrome string
+ * Enter a string:
+ *  WEEW 
+ *  WEEW is a palindrome string
  * 
  * 3)when entered an empty space string
  * 
@@ -57,3 +62,4 @@ public class String_palindrome {
  * 
  * is a palindrome string
  */
+

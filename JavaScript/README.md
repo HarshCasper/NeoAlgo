@@ -15,6 +15,7 @@
 - [Z Algorithm](Algorithms/ZAlgorithm.js)
 - [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 - [Armstrong Number](Algorithms/Armstrong.js)
+- [Longest Increaing Subsequnce](Algorithms/LongestIncreasingSubsequenceDP.js)
 
 ## Data Structures
 
@@ -23,6 +24,7 @@
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Stack](./ds/Stack.js)
+- [Hash Table](./ds/Hash.js)
 
 ## Searching
 

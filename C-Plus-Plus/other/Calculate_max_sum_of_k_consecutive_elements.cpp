@@ -53,20 +53,19 @@ int main()
 
 }
 /*
-Standard Input and Output
 
+Standard Input and Output
 1. if N == K
 Input array size and value
 5 5
 1 2 3 4 5
 maximum summation of K consecutive elements in the array is 15
-
 2. if N > K
 Input array size and value
 5 3
 5 2 -1 0 3
 maximum summation of K consecutive elements in the array is 6
-
 Time Complexity : O(N)
 Space Complexity : O(1)
+
 */

@@ -1,7 +1,10 @@
 /*
+
 problem link: https://codeforces.com/problemset/problem/431/C
 Dynamic programming is used to solve this problem.
+
 */
+
 #include <bits/stdc++.h>
 using namespace std;
 #define mod 1000000007

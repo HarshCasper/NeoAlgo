@@ -107,13 +107,6 @@ class LinkedList {
 // Instantiating the Linked List class
 const myLinkedList = new LinkedList(10);
 
-myLinkedList.append(5); // Output - [10, 5]
-myLinkedList.append(16); // Output - [10, 5, 16]
-myLinkedList.prepend(2); // Output - [2, 10, 5, 16]
-myLinkedList.insert(2, 56); // Output - [2, 56, 10, 5, 16]
-myLinkedList.insert(1, 22); // Output - [22, 2, 56, 10, 5, 16]
-myLinkedList.insert(myLinkedList.length, 74); // Output - [22, 2, 56, 10, 5, 74, 16]
-
 let choice = 0;
 let value, index;
 
@@ -178,63 +171,9 @@ Follow the instructions to get in the show
 2. Append element in the Linked List
 3. Prepend element in the Linked List
 4. Insert anywhere in between the Linked List
-Enter your choice - 1
-Linked List -  [
-  22,  2, 56, 10,
-   5, 74, 16
-]
-
-Welcome to the Linked List Show
-Follow the instructions to get in the show
-0. To exit without doing anything
-1. Display the Linked List
-2. Append element in the Linked List
-3. Prepend element in the Linked List
-4. Insert anywhere in between the Linked List
 Enter your choice - 2
 Enter Value to Append element - 43
-After Append Linked List -  [
-  22,  2, 56, 10,
-   5, 74, 16, 43
-]
-
-Welcome to the Linked List Show
-Follow the instructions to get in the show
-0. To exit without doing anything
-1. Display the Linked List
-2. Append element in the Linked List
-3. Prepend element in the Linked List
-4. Insert anywhere in between the Linked List
-Enter your choice - 3
-Enter Value to Prepend element - 98
-After Prepend Linked List -  [
-  98, 22,  2, 56, 10,
-   5, 74, 16, 43
-]
-
-Welcome to the Linked List Show
-Follow the instructions to get in the show
-0. To exit without doing anything
-1. Display the Linked List
-2. Append element in the Linked List
-3. Prepend element in the Linked List
-4. Insert anywhere in between the Linked List
-Enter your choice - 4
-Enter Value to Insert element - 11
-Enter Position to Insert element - 3
-After Insertion Linked List -  [
-  98, 22, 11,  2, 56,
-  10,  5, 74, 16, 43
-]
-
-Welcome to the Linked List Show
-Follow the instructions to get in the show
-0. To exit without doing anything
-1. Display the Linked List
-2. Append element in the Linked List
-3. Prepend element in the Linked List
-4. Insert anywhere in between the Linked List
-Enter your choice - 0
-Hmm, matter of choice!
+After Append Linked List -  [10, 43]
 
 */
+

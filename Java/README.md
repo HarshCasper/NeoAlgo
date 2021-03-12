@@ -15,6 +15,8 @@
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
+- [MinMax Algorithm](Algorithms/Min_Max_Algorithm_implementation.java)
+- [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
 
 ## Greedy Algorithms
 

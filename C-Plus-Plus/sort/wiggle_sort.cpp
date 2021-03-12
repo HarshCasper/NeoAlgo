@@ -4,9 +4,7 @@
 
 */
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
+#include<bits/stdc++.h>
 using namespace std;
 
 void wiggle_sort(int n, vector<int> arr)
@@ -48,16 +46,16 @@ void wiggle_sort(int n, vector<int> arr)
 
 int main()
 {
-    int a, i, n;
-    cin >> n;
+    int element, i, no_of_elements;
+    cin >> no_of_elements;
     vector<int> arr;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < no_of_elements; i++)
     { //The given array is stored in a vector arr
-        cin >> a;
-        arr.push_back(a);
+        cin >> element;
+        arr.push_back(element);
     }
     //to wiggle sort arr
-    wiggle_sort(n, arr);
+    wiggle_sort(no_of_elements, arr);
     return 0;
 }
 

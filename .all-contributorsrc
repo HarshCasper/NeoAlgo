@@ -1290,6 +1290,24 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "SrishtiArya07",
+      "name": "Srishti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68293763?v=4",
+      "profile": "https://www.linkedin.com/in/srishti-arya-049b80192/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Madhumitamoi",
+      "name": "Madhumita Moi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75625158?v=4",
+      "profile": "https://github.com/Madhumitamoi",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",

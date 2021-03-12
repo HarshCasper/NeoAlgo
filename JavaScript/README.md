@@ -21,6 +21,7 @@
 
 - [AVL Tree](./ds/AVLTree.js)
 - [Linked List](./ds/LinkedList.js)
+- [Dynamic Linked List](./ds/DynamicLinkedList.js)
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Stack](./ds/Stack.js)

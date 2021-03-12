@@ -1,4 +1,3 @@
-package practice;
 /*Find the pair of adjacent elements that have the largest product   
  in a given array and return that product.
  

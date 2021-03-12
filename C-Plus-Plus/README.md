@@ -68,7 +68,7 @@
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
 - [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
-- [Detect Loop in Linked List ](ds/Detet_Cycle_In_LinkedList.cpp)
+- [Detect Cycle in Linked List ](ds/Detect_Cycle_In_LinkedList.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)

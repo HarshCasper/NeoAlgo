@@ -13,10 +13,6 @@
 # and removeing the initial added elements simultaneously
 
 
-# Time Complexity:  O(N)
-# Space Complexity: O(N)
-
-
 #input list
 nums= [int(num) for num in input("Enter the list items : ").split()]
 
@@ -70,3 +66,5 @@ print("Number of combinations possible: " ,c)
 # output:-
 # 24
 
+# Time Complexity:  O(N)
+# Space Complexity: O(N)

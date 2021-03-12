@@ -11,6 +11,7 @@
 
 ## Data Structures
 
+- [Palindrome using doubly linked list](ds/Palindrome-doublylinkedlist.py)
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
 - [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
@@ -26,6 +27,7 @@
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+
 
 ## Competitive Programming
 
@@ -54,6 +56,8 @@
 - [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [House Robber](cp/house_robber.py)
+- [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
+
 
 ## Cryptography
 

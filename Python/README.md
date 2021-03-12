@@ -11,6 +11,7 @@
 
 ## Data Structures
 
+- [Palindrome using doubly linked list](ds/Palindrome-doublylinkedlist.py)
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
 - [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
@@ -18,15 +19,16 @@
 - [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Trie](ds/Trie.py)
-- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
-- [Knight Walk](graphs/Knight_Walk.py)
-- [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
-- [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
 - [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
 - [Dynamic Stack](ds/dynamic_queue.py)
 - [Dynamic Queue](ds/dynamic_queue.py)
 - [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
 - [AVL Tree](ds/AVL_Tree.py)
+- [Linked List Intersection](ds/linkedListIntersection.py)
+- [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
+- [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
+- [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+
 
 ## Competitive Programming
 
@@ -36,15 +38,14 @@
 - [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
 - [Longest Common Prefix](cp/longest_Common_Prefix.py)
 - [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
-- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
-- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+- [Maximum Subarray Sum](cp/maxsum_subarray_python.py)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 - [Target sum triplet](cp/Target_Sum_Triplet.py)
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
 - [Maximum sum rectangle](cp/max_sum.py)
 - [Maximum Water Container](cp/Maximum_Water_Container.py)
 - [Smallest sum subarray](cp/smallest_sum_array.py)
-- [Count ways to Nth stair(Staircase Problem)](cp/staircase_problem.py)
+- [Count ways to Nth stair (Staircase Problem)](cp/staircase_problem.py)
 - [Delete a node from linked list](cp/delete_node.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [Search Insert Position](cp/search_insert_position.py)
@@ -52,26 +53,22 @@
 - [Bulb Switcher problem](cp/bulb_switcher.py)
 - [Vowels and consonants in a string](cp/VowelsConsonants.py)
 - [Letter Count in a word](cp/LetterCount.py)
-- [Rabin Karp algorithm](cp/RabinKarp.py)
 - [Cyclically Rotate Clockwise](cp/Cyclically_rotate.py)
+- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+- [Stable Marriage Problem](cp/stable_marriage_problem.py)
+- [House Robber](cp/house_robber.py)
+- [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
+
 
 ## Cryptography
+
 - [Affine Cipher](cryptography/AffineCipher.py)
 - [Caesar Cipher](cryptography/Caesar_Cipher.py)
 - [Vigenere Cipher](cryptography/vigenere_cipher.py)
 - [RSA Algorithm](cryptography/RSA_Algorithm.py)
-- [Perorder Traversal](ds/Tree_preOrder_traversal.py)
-- [Inorder Traversal](ds/Tree_Iterative_InOrder_Traversal.py)
-- [Postorder Traversal](ds/Binary_tree_post_order.py)
-- [Tries](ds/Trie.py)
-- [Singly Linked List](ds/SinglyLinkedList.py)
-- [Circular Linked List](ds/Circular_LinkedList.py)
-- [Reverse Linked List](ds/Reverse_linked_list.py)
-- [Linked List Intersection](ds/linkedListIntersection.py)
-- [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
-- [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
-- [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
-- [Burrows Wheeler transform(BWT)](cryptography/Burrows_Wheeler_transform.py)
+- [Burrows Wheeler transform (BWT)](cryptography/Burrows_Wheeler_transform.py)
+- [XOR Cipher](cryptography/XOR_cipher.py)
+- [AES Algorithm](cryptography/AES.py)
 
 
 ## Searching
@@ -88,8 +85,6 @@
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
 - [Jump search](search/jump_search.py)
-
-
 
 ## Sorting
 
@@ -109,7 +104,7 @@
 - [Shell Sort](sort/Shell_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
 - [Sleep Sort](sort/Sleep_sort.py)
-
+- [Bucket Sort](sort/Bucket_sort.py)
 
 ## Backtracking
 
@@ -119,7 +114,6 @@
 - [Sudoku Solver](backtracking/sudokuSolver.py)
 - [Subset Sum](backtracking/Subset_Sum.py)
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
-
 
 ## Dynamic Programming
 
@@ -137,7 +131,6 @@
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
 
-
 ## Pathfinding Algorithms 
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)
@@ -153,7 +146,7 @@
 - [Height of Tree](graphs/height_of_given_tree.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 - [Prim's Algorithm](graphs/Prim_Algorithm.py)
-- [Prim's Algorithm-Dynamic](graphs/Prims_Algo_dynamic.py)
+- [Prim's Algorithm - Dynamic](graphs/Prims_Algo_dynamic.py)
 - [Dijkstra's Algorithm](graphs/dijkstras_algorithm.py)
 - [Topological Sort/Ordering](graphs/Topological_Sort.py)
 - [Hamiltonian Path](graphs/Hamiltonian_Path.py)
@@ -162,45 +155,14 @@
 - [Strongly Connected Components - Kosaraju's Algorithm](graphs/SCC_Kosaraju.py)
 - [Strongly Connected Components - Tarjan's Algorithm](graphs/SCC_Tarjan.py)
 - [Bipartite Graph](graphs/Bipartite_Graph.py)
-- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
-- [Knight Walk](graphs/Knight_Walk.py)
-- [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
 - [Depth First Search](graphs/DFS.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
-
-## Competitive Programming
-
-- [Anagram Checker](cp/anagram_checker.py)
-- [Find Least positive number](cp/findingLeastPositiveNumber.py)
-- [KMP Algorithm](cp/KMP_Algorithm.py)
-- [Longest Common Prefix](cp/longest_Common_Prefix.py)
-- [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
-- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
-- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
-- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
-- [Target sum triplet](cp/Target_Sum_Triplet.py)
-- [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
-- [Maximum sum rectangle](cp/max_sum.py)
-- [Search Insert Position](cp/search_insert_position.py)
-- [Maximum Water Container](cp/Maximum_Water_Container.py)
-- [Smallest sum subarray](cp/smallest_sum_array.py)
-- [Delete a node from linked list](cp/delete_node.py)
-- [Stable Marriage Problem](cp/stable_marriage_problem.py)
-- [Rain Water Harvesting](cp/rainwater_harvesting.py)
-- [House Robber](cp/house_robber.py)
-
-
-## Cryptography
-
-- [Affine Cipher](cryptography/AffineCipher.py)
-- [Caesar Cipher](cryptography/Caesar_Cipher.py)
-- [Vigenere Cipher](cryptography/vigenere_cipher.py)
-- [RSA Algorithm](cryptography/RSA_Algorithm.py)
-- [XOR Cipher](cryptography/XOR_cipher.py)
-- [AES Algorithm](cryptography/AES.py)
-
+- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
+- [Knight Walk](graphs/Knight_Walk.py)
+- [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
+- [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
 
 ## Machine Learning
 
@@ -214,7 +176,6 @@
 * [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 * [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
 * [Logically Weighted Regression](ml/Logically_weighted_regression.py)
-
 
 ## Mathematics
 
@@ -240,10 +201,10 @@
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
+
 ## Blockchain
 
 _add list here_
-
 
 ## Other
 

@@ -1,11 +1,15 @@
+/* Here we are given a directed graph and 
+   we have to print all paths from the source (src) 
+   to the destination (dest) of the graph.
+*/
 import java.io.*;
 import java.util.*;
 
 public class Main {
     static class Edge {
-        int src; // source
-        int nbr; // neighbour
-        int wt; // weight
+        int src;
+        int nbr;
+        int wt;
 
         Edge(int src, int nbr, int wt) {
             this.src = src;
@@ -16,7 +20,6 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        // creating graph
         int vtces = Integer.parseInt(br.readLine());
         ArrayList < Edge > [] graph = new ArrayList[vtces];
         for (int i = 0; i < vtces; i++) {
@@ -33,27 +36,32 @@ public class Main {
             graph[v2].add(new Edge(v2, v1, wt));
         }
 
-        int src = Integer.parseInt(br.readLine()); // source
-        int dest = Integer.parseInt(br.readLine()); // destination
+        int src = Integer.parseInt(br.readLine());
+        int dest = Integer.parseInt(br.readLine());
 
-            boolean[] visited = new boolean[vtces]; // visited array tracks if element is visited or not
+        boolean[] visited = new boolean[vtces]; 
         printAllPaths(graph, src, dest, visited, src + "");
     }
 
-    // this function will print all paths from source to destination
+    // src -> source
+    // dest -> destination
+    // psf -> path so far
     public static void printAllPaths(ArrayList < Edge > [] graph, int src, int dest, boolean[] visited, String psf) {
-        if (src == dest) { // when we reach destination
-            System.out.println(psf); // printing possible paths
+        //When the destination vertex is reached print contents of path so for (psf).
+        if (src == dest) { 
+            System.out.println(psf);
             return;
         }
-        visited[src] = true; // marked as visited
-        // traversing through graph
+        //Keep storing the visited vertices in an array (visited here) so that the traversal doesn’t go in a cycle
+        visited[src] = true;
+        // traverse through graph
         for (Edge edge: graph[src]) {
             if (visited[edge.nbr] == false) {
                 printAllPaths(graph, edge.nbr, dest, visited, psf + edge.nbr);
             }
         }
-        visited[src] = false; // unmarked
+        // unmark the current vertex
+        visited[src] = false;
     }
 }
 

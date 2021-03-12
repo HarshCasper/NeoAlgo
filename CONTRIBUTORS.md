@@ -186,6 +186,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/corey-james-lynch/"><img src="https://avatars.githubusercontent.com/u/33420779?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Corey Lynch</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=CoreyJamesLynch" title="Code">💻</a></td>
     <td align="center"><a href="https://devansu-yadav.github.io/"><img src="https://avatars.githubusercontent.com/u/62554685?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Devansu Yadav</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Devansu-Yadav" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/vybhav72954"><img src="https://avatars.githubusercontent.com/u/49750343?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vybhav72954</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=vybhav72954" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->

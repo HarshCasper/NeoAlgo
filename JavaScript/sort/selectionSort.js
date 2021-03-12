@@ -4,7 +4,6 @@ SELECTION SORT:
     Time Complexity - O(n^2)
     Space Complexity - O(1) 
 */
-let arr = prompt("Enter numbers to sort comma separated: ").split(",");
 
 selectionSort = (arr) => {
     let n = arr.length;
@@ -26,5 +25,8 @@ selectionSort = (arr) => {
     }
     return arr;
 }
-
-console.log(selectionSort);
+//For  dynamic input use the below line.
+//var arr = prompt("Enter numbers to sort comma separated: ").split(",");
+var arr = [9, 8, 7, 6, 5, 4, 3];
+console.log(selectionSort(arr));
+//Expected output : [3,4,5,6,7,8,9]

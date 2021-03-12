@@ -154,7 +154,7 @@
 
 ## Stack based problems
 
--[Infix to Postfix Conversiion](stack/Infix_to_Postfix.c)
+-[Infix to Postfix Conversiion](../C/stack/Infix_to_Postfix.c)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)

@@ -113,6 +113,7 @@
 - [Breadth First Search](graphs/BFS1.cpp)
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
 - [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
+- [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 
 ## Searching
 

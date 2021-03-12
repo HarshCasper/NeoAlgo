@@ -41,7 +41,6 @@ int max_sum_by_sliding_window(int ar[] , int N , int K)
 
 int main()
 {
-	ios_base::sync_with_stdio(false); cin.tie(nullptr);
 	int N, K;
 	cout << "Input array size and value\n";
 	cin >> N >> K;

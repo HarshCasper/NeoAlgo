@@ -1,3 +1,4 @@
+
 /* Here we are given a directed graph and 
    we have to print all paths from the source (src) 
    to the destination (dest) of the graph.
@@ -21,9 +22,9 @@ public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int vtces = Integer.parseInt(br.readLine());
-        ArrayList < Edge > [] graph = new ArrayList[vtces];
+        ArrayList<Edge>[] graph = new ArrayList[vtces];
         for (int i = 0; i < vtces; i++) {
-            graph[i] = new ArrayList < > ();
+            graph[i] = new ArrayList<>();
         }
 
         int edges = Integer.parseInt(br.readLine());
@@ -39,23 +40,24 @@ public class Main {
         int src = Integer.parseInt(br.readLine());
         int dest = Integer.parseInt(br.readLine());
 
-        boolean[] visited = new boolean[vtces]; 
+        boolean[] visited = new boolean[vtces];
         printAllPaths(graph, src, dest, visited, src + "");
     }
 
     // src -> source
     // dest -> destination
     // psf -> path so far
-    public static void printAllPaths(ArrayList < Edge > [] graph, int src, int dest, boolean[] visited, String psf) {
-        //When the destination vertex is reached print contents of path so for (psf).
-        if (src == dest) { 
+    public static void printAllPaths(ArrayList<Edge>[] graph, int src, int dest, boolean[] visited, String psf) {
+        // When the destination vertex is reached print contents of path so for (psf).
+        if (src == dest) {
             System.out.println(psf);
             return;
         }
-        //Keep storing the visited vertices in an array (visited here) so that the traversal doesn’t go in a cycle
+        // Keep storing the visited vertices in an array (visited here) so that the
+        // traversal doesn’t go in a cycle
         visited[src] = true;
         // traverse through graph
-        for (Edge edge: graph[src]) {
+        for (Edge edge : graph[src]) {
             if (visited[edge.nbr] == false) {
                 printAllPaths(graph, edge.nbr, dest, visited, psf + edge.nbr);
             }
@@ -65,18 +67,7 @@ public class Main {
     }
 }
 
-/* Sample Input- 7 8
-                0 1 10
-                1 2 10
-                2 3 10
-                0 3 10
-                3 4 10
-                4 5 10
-                5 6 10
-                4 6 10
-                0 6
-Sample Output-  0123456
-                012346
-                03456
-                0346
-*/
+/*
+ * Sample Input- 7 8 0 1 10 1 2 10 2 3 10 0 3 10 3 4 10 4 5 10 5 6 10 4 6 10 0 6
+ * Sample Output- 0123456 012346 03456 0346
+ */

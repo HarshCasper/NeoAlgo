@@ -1,8 +1,15 @@
 /*
-
 problem link: https://codeforces.com/problemset/problem/431/C
-Dynamic programming is used to solve this problem.
 
+Problem description:
+A k-tree is an infinite rooted tree where:
+- each vertex has exactly k children.
+- each edge has some weight.
+- edge weights will be in order 1,2,..k from left most child to right most child
+  of every node in the tree
+
+count number of paths of total weight n (the sum of all weights of the edges in the path),
+starting from the root of a k-tree and also containing at least one edge of weight at least d
 */
 
 #include <bits/stdc++.h>

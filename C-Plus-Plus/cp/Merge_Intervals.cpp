@@ -81,7 +81,9 @@ vector<vector<int>> merge_interval(vector<vector<int>> interval)
 
 
 /*
-   Time Complexity: O(N) ...N is the number of intervals
+   Time Complexity: O(NlogN) + O(N) ...N is the number of intervals
+                    (sorting)  (traversing)
+   Space Complexity:O(N)
 */
 
 /*   Examples:
@@ -110,3 +112,4 @@ vector<vector<int>> merge_interval(vector<vector<int>> interval)
      6,10
      13,14
      15,18
+*/

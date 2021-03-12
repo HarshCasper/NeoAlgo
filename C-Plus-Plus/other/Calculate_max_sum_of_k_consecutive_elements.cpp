@@ -69,5 +69,4 @@ maximum summation of K consecutive elements in the array is 6
 
 Time Complexity : O(N)
 Space Complexity : O(1)
-
 */

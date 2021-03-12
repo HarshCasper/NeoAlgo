@@ -33,8 +33,8 @@ function selectionSort(arr){
 //input array of numbers as a string
 rl.question('Enter array elements in a line: ', (input) => {
     //converting string into array of integers.
-    let output = selectionSort(input.split(" ").map(x => parseInt(x)));
-    console.log(output);
+    
+    console.log(selectionSort(input.split(" ").map(x => parseInt(x))));
 	rl.close();
 });
 

@@ -36,4 +36,7 @@ Neon number.
 Example 2-
 Enter a number 144
 Not a neon number
+
+Space Complexity O(1)
+Time Complexity  O(log(n))
 */

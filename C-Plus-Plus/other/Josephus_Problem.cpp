@@ -10,10 +10,11 @@ link to the problem : https://en.wikipedia.org/wiki/Josephus_problem
 #include <iostream>
 using namespace std;
 
+// Recursive Function
 int solution(int n, int k) {
-	if (n == 1)
+	if (n == 1)    //Base Case
 		return 0;
-	return (k + solution(n - 1, k)) % n;
+	return (k + solution(n - 1, k)) % n;  // Induction Step
 }
 
 int main() {

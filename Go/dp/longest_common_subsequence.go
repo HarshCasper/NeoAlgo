@@ -46,14 +46,22 @@ func lcs(X, Y string, m, n int) int {
   
 
 func main() {
-	str1 := "NEOALGO"
-    	str2 := "ALGORITHM"
+	var str1 string
+	var str2 string
+
+	fmt.Print("Enter the 1st string : ")
+	fmt.Scan(&str1)
+
+	fmt.Print("Enter the 2nd string : ")
+	fmt.Scan(&str2)
+	// str1 := "NEOALGO"
+    // 	str2 := "ALGORITHM"
       
-    	m := len(str1)  
-    	n := len(str2)  
+    m := len(str1)  
+    n := len(str2)  
 	
-      	if m < n {
-    		fmt.Println("Length of LCS is: ", lcs(str1, str2, m, n))
+    if m < n {
+    	fmt.Println("Length of LCS is: ", lcs(str1, str2, m, n))
 	} else {
 		fmt.Println("Length of LCS is: ", lcs(str2, str1, n, m))
 	}
@@ -62,6 +70,17 @@ func main() {
 /*
 TIME COMPLEXITY: O(M*N)
 SPACE COMPLEXITY: O(M*N)
+
+
 OUTPUT
+
+TEST CASE 1:
+Enter the 1st string : NEOALGO
+Enter the 2nd string : ALGORITHM
 Length of LCS is:  4
+
+TEST CASE 2:
+Enter the 1st string : ABQWERTYCD
+Enter the 2nd string : QWERTY
+Length of LCS is:  6
 */

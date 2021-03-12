@@ -131,6 +131,7 @@
 - [Staircase Search](search/Staircase_Search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
 - [Fibonacci Search](search/fibonacci_search.cpp)
+- [KMP String matching Algorithm](search/KMP_string_matching_algo.cpp)
 
 ## Sorting
 

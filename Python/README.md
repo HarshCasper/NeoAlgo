@@ -168,6 +168,7 @@
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
 - [Depth First Search](graphs/DFS.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
+- [Rotten Oranges](graphs/Rotten_Oranges.py)
 
 ## Competitive Programming
 

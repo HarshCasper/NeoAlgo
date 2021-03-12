@@ -1,21 +1,24 @@
 #include <stdio.h>
-
-void TowerOfHanoi(int n,int a,int b,int c){
-    if(n){
-        TowerOfHanoi(n-1,a,c,b);
-        printf("%d -> %d\n", a,b);
-        TowerOfHanoi(n-1,c,b,a);
-    }
+void towerOfHanoi(int,char,char,char);
+ int main()
+{
+    int n;
+    printf("Enter no of disks\n");
+    scanf("%d",&n);
+    towerOfHanoi(n, 'A', 'C', 'B');
 }
 
-int main(){
-    int number_of_discs;
-    printf("Enter the value of n: ");
-    scanf("%d",&number_of_discs);
-    printf("\nThe value of n is: %d\n", number_of_discs);
-    TowerOfHanoi(number_of_discs,1,2,3);
-    //each rod is numbered as 1,2,3
-    return 0;
+void towerOfHanoi(int n, char from, char to, char temp)
+{
+    if (n == 1)
+    {
+        printf("Move disk 1 from %c to %c\n", from, to);
+        return;
+    }
+    towerOfHanoi(n-1, from, temp, to);
+    printf("Move disk %d from %c to %c\n", n, from, to);
+    towerOfHanoi(n-1, temp, to, from);
+}
 }
 
 /*

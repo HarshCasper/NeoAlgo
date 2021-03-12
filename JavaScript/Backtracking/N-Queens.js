@@ -197,7 +197,7 @@ Explanation :
 There are 724 possible ways to place 10 Queens on a 10x10 chessboard
 
 
-Time Complexity : N^N
-Space Complexity : NxN
+Time Complexity : O(N^N)
+Space Complexity : O(NxN)
 */
 

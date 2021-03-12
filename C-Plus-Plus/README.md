@@ -75,7 +75,6 @@
 - [Queue Linked List](ds/QueueLinkedList.cpp)
 - [Red Black Tree](ds/RED-BLACK-TREE.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
-- [Singly Linked List](../Python/ds/SinglyLinkedList.py)
 - [Singly Linked List](ds/singly_linked_list.cpp)
 - [Stack using Array](ds/Stack_using_Array.cpp)
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)

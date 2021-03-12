@@ -95,6 +95,7 @@
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
+- [Shaker Sort](sort/shaker_sort.c)
 
 ## Dynamic Programming
 

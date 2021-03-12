@@ -54,7 +54,6 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 <<<<<<< HEAD
 - [Peak element](cp/Peak_element.cpp)
-=======
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 >>>>>>> c8ecee37a2708f6788e13c1e0080f40635dd0702

@@ -1,16 +1,25 @@
+// Given a number n, print all primes smaller than or 
+// equal to n. It is also given that n is a small number. 
+
 package main
 
 import "fmt"
 
+//function to print all prime numbers
+//till n
 func Sieve(n int) {
 
+	//creating prime slice of bool type
 	prime := make([]bool, n+1)
 
+	// initializing prime slice with true
 	for itr := 0; itr <= n; itr++ {
 		prime[itr] = true
 	}
 
 	for p := 2; p*p <= n; p++ {
+		//if prime[p] is true then
+		// it is prime
 		if prime[p] == true {
 			for x := p * p; x <= n; x += p {
 				prime[x] = false
@@ -18,6 +27,7 @@ func Sieve(n int) {
 		}
 	}
 
+	// printing all prime numbers
 	for p := 2; p <= n; p++ {
 		if prime[p] == true {
 			fmt.Print(p, " ")
@@ -30,6 +40,9 @@ func main() {
 
 	fmt.Print("Enter the range: ")
 	fmt.Scan(&num)
+
+	// calling Sieve function to print
+	// all prime numbers till num
 	Sieve(num)
 }
 

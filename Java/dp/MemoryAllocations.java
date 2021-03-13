@@ -11,7 +11,7 @@ until the first free space which is at least big enough to accept the data is fo
 *This space is then allocated to the data.
 *Any left over becomes a smaller, separate free space. 
 *If the data to be allocated is bigger than the biggest free space, 
-the request cannot be met, and an error is generated
+the request cannot be met, and an error will be generated
 
 
     BEST FIT (BF) 

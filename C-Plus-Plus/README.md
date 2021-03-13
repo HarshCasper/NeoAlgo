@@ -40,6 +40,7 @@
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
+- [Prefix Sum Array](cp/prefix_sum.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)

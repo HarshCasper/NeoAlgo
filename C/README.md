@@ -12,6 +12,7 @@
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
+- [Adjacent Element Product](cp/Adjacent_Element_Product.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
 - [Anagram Program](cp/anagram_program.c)
 - [Binary Search](search/BinarySearch.c)
@@ -25,7 +26,7 @@
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
-- [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
+- [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
@@ -35,6 +36,7 @@
 - [Suduko Solver](cp/SudukoSolver.c)
 - [Stock Span Problem](cp/Stock_Span.c)
 - [Bulb Switcher problem](cp/bulbSwitch.c)
+- [Luhn's Algorithm](cp/LuhnsAlgo.c)
 
 ## Cryptography
 
@@ -65,9 +67,13 @@
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
+- [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Finding a pair of element](ds/Finding_a_pair_of_element.c)
+
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
+- [Iterative-Binary Search](search/IterativeBinarySearch.c)
 - [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)
@@ -90,6 +96,7 @@
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
+- [Shaker Sort](sort/shaker_sort.c)
 
 ## Dynamic Programming
 
@@ -122,6 +129,7 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Neon Number](math/Neon_number.c) 
 
 ## Operating System
 

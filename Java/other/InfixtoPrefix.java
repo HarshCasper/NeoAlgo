@@ -1,12 +1,6 @@
 /**
  * Infix to Prefix Expression
  * 
- * Infix Expression : A * B + C / D
- * Prefix Expression : + * A B/ C D
- * 
- * Infix Expression : A+B*C
- * Prefix Expression : +A*BC
- * 
  * Algorithm Used:
  * First the gicen infix expression is reversed.
  * By reversing, every '(' becomes ')' and vice versa.

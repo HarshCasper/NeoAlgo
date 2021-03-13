@@ -91,9 +91,9 @@ Test run example -
 	Enter number of rows and columns : 3 5
 	Enter for 1th row : 2 1 0 2 1
 	Enter for 2th row : 1 0 1 2 1
-    Enter for 3th row : 1 0 0 2 1
+    	Enter for 3th row : 1 0 0 2 1
     
-    It takes 2 seconds.
+    	It takes 2 seconds.
 
 Time and Space Complexity - 
 	Time - O(R * C)

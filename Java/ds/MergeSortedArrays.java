@@ -1,30 +1,30 @@
 import java.util.*;
+/*
+    Description: 
+    Given two sorted arrays, the task is to merge them in a sorted manner.
+    There are two sorted arrays and after merging there will be only one array in sorted manner.
+*/
+
 public class MergeSortedArrays {
    public static void main(String[] args) {
       int A[] = {-2,3,5,8,9};
       int B[] = {1,2,3,4,5};
-      
-    // OR USED SCANNER FOR INPUT
-      
-     /* Scanner sc=  new Scanner(System.in);
-      int N = sc.nextInt(); //length of Array A
-      int A[] = new int[N];
-      for(int i=0;i<N;i++) {
-         A[i]  = sc.nextInt();
-      }
-      int M = sc.nextInt(); //length of Array B
-      int B[] = new int[M];
-      for(int i=0;i<M;i++) {
-         B[i]  = sc.nextInt();
-      }
-      */
-      
       System.out.println(Arrays.toString(solve(A,B)));   
-
    }
+   /*
+       function to merge the given sorted arrays. 
+   */
     public static int[] solve(final int[] A, final int[] B) {
-        int ARR[] = new int[A.length+B.length];
-        int pointer1=0,pointer2=0;
+       /* 
+          Declaring a new Array of the expected result size i,e sum of length of Array A and Array B 
+       */ 
+       int ARR[] = new int[A.length+B.length]; 
+       /*
+          Declaring two pointers p1 and p2
+          p1 points to first element of Array A
+          p2 points to first element of Array B
+       */ 
+       int pointer1=0,pointer2=0;
         int k=0;
         while(pointer1<A.length && pointer2<B.length) {
             if(A[pointer1]<B[pointer2]) {
@@ -43,3 +43,21 @@ public class MergeSortedArrays {
         return ARR;
     }
 }
+/*
+  Example: 
+  Input: 
+      A[] = {2,4,5,6}
+      B[] = {1,3,4,7}
+  Output:
+     [1,2,3,4,4,5,6,7]
+     
+   Explanation: 
+      After Merging A and B produces the output as described above.
+*/
+/*
+  Time and Space Complexity
+  M = length of Array A
+  N = length of Array B
+  Time Complexity O(M+N)
+  Space Complexity O(M+N)
+*/

@@ -22,14 +22,14 @@ void prefix_sum_array(int ar[] ,int N)
     }
     cout << endl;
     return;
-
 }
+
 int main()
 {
     cout << "Input array size\n";
-	int N;
-	cin >> N;
-	for(int i = 0; i < N; i++)
+    int N;
+    cin >> N;
+    for(int i = 0; i < N; i++)
     {
         cin >> ar[i];
     }

@@ -1,24 +1,20 @@
 /*
-Given a string S encode it according to the Dynamic Huffman Encoding Technique
+Given a string S encode it according to the Dynamic Huffman Encoding Technique.
+In Dynamic Huffman encoding technique we generate new code for each character dynamically i.e. it changes after we scan a new character.
 */
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-//A Dynamic Huffman Tree Node
-class TreeNode {
-    public :
-    //To store frequency of the character
+class TreeNode
+{
+public:
     int freq;
-    //To store the character
     char symbol;
-    //To store Parent Address of the Tree
-    TreeNode* parent;
-    //To store left node address
-    TreeNode* left;
-    //To store right node address
-    TreeNode* right;
-    //Constructor
-    TreeNode(){
+    TreeNode *parent;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode()
+    {
         //Intially Frequency of non character element is zero
         this->freq = 0;
         //Root is represented by '*'
@@ -30,61 +26,71 @@ class TreeNode {
 };
 
 //Function to print the corresponding Dynamic Huffman Tree during Dynamic encoding of each character
-void printTree(TreeNode* root){
+void printTree(TreeNode *root)
+{
     //Using queue to print Tree level order wise
-    queue<TreeNode*> q;
+    queue<TreeNode *> q;
     q.push(root);
     q.push(NULL);
-    while(!q.empty()){
-        TreeNode* curr = q.front();
+    while (!q.empty())
+    {
+        TreeNode *curr = q.front();
         q.pop();
         //Marking end of current level
-        if(curr==NULL){
-            cout<<endl;
-            if(!q.empty())
+        if (curr == NULL)
+        {
+            cout << endl;
+            if (!q.empty())
                 q.push(NULL);
             continue;
         }
         //Printing of symbol along with its frequency
-        cout<<curr->symbol<<curr->freq;
-        cout<<"  ";
+        cout << curr->symbol << curr->freq;
+        cout << "  ";
         //Pushing children of current node to the queue
-        if(curr->left!=NULL){
+        if (curr->left != NULL)
+        {
             q.push(curr->left);
         }
-        if(curr->right!=NULL){
+        if (curr->right != NULL)
+        {
             q.push(curr->right);
         }
     }
 }
 
 //Function to Return Reverse Level Order of the given tree to check Balancing.
-vector<TreeNode*> ReverseLevelOrder(TreeNode* root){
+vector<TreeNode *> ReverseLevelOrder(TreeNode *root)
+{
     //vector to store reverse level order
-    vector<TreeNode*> reverse_level_order;
+    vector<TreeNode *> reverse_level_order;
     //To help in reversing of level order
-    vector<TreeNode*> current;
+    vector<TreeNode *> current;
     //queue to store Treenode
-    queue<TreeNode*> q;
+    queue<TreeNode *> q;
     q.push(root);
     q.push(NULL);
-    while(!q.empty()){
-        TreeNode* curr = q.front();
+    while (!q.empty())
+    {
+        TreeNode *curr = q.front();
         q.pop();
-        if(curr==NULL){
-            //Inserting reverse level order at the end of current list 
-            current.insert(current.end(),reverse_level_order.begin(), reverse_level_order.end());
+        if (curr == NULL)
+        {
+            //Inserting reverse level order at the end of current list
+            current.insert(current.end(), reverse_level_order.begin(), reverse_level_order.end());
             reverse_level_order = current;
             current.clear();
-            if(!q.empty())
+            if (!q.empty())
                 q.push(NULL);
             continue;
         }
         current.push_back(curr);
-        if(curr->left!=NULL){
+        if (curr->left != NULL)
+        {
             q.push(curr->left);
         }
-        if(curr->right!=NULL){
+        if (curr->right != NULL)
+        {
             q.push(curr->right);
         }
     }
@@ -92,11 +98,14 @@ vector<TreeNode*> ReverseLevelOrder(TreeNode* root){
 }
 
 //Function to correct the tree
-void correctTree(TreeNode* root){
-    if(root==NULL){
+void correctTree(TreeNode *root)
+{
+    if (root == NULL)
+    {
         return;
     }
-    if(root->left==NULL&&root->right==NULL){
+    if (root->left == NULL && root->right == NULL)
+    {
         return;
     }
     //Correcting each subtree first
@@ -105,62 +114,74 @@ void correctTree(TreeNode* root){
 
     //Correcting the root
     int freq = 0;
-    if(root->left){
-        freq+=root->left->freq;
+    if (root->left)
+    {
+        freq += root->left->freq;
     }
-    if(root->right){
+    if (root->right)
+    {
         freq += root->right->freq;
     }
-    if(root->freq!=freq){
+    if (root->freq != freq)
+    {
         root->freq = freq;
     }
 }
 
 //Function to swap the tree nodes
-void swapTreeNode(TreeNode* root,TreeNode* a,TreeNode* b){
+void swapTreeNode(TreeNode *root, TreeNode *a, TreeNode *b)
+{
     //Getting each node parent
-    TreeNode* parentA = a->parent;
-    TreeNode* parentB = b->parent;
+    TreeNode *parentA = a->parent;
+    TreeNode *parentB = b->parent;
     //Swapping the parent
     a->parent = parentB;
     b->parent = parentA;
     //Chaning parent corresponding node
-    if(parentA->left == a){
+    if (parentA->left == a)
+    {
         parentA->left = b;
     }
-    else{
+    else
+    {
         parentA->right = b;
     }
-    if(parentB->left == b){
+    if (parentB->left == b)
+    {
         parentB->left = a;
     }
-    else{
+    else
+    {
         parentB->right = a;
     }
     correctTree(root);
 }
 
 //Function to get Code corresponding to each character
-void getCodes(TreeNode* n,string code){
-    if(n->left == NULL && n->right == NULL){
+void getCodes(TreeNode *n, string code)
+{
+    if (n->left == NULL && n->right == NULL)
+    {
         //If symbol is '*' that means it needs not to be coded
-        if(n->symbol=='*'){
+        if (n->symbol == '*')
+        {
             return;
         }
         //Printing code for the symbol
-		cout <<"'"<< n->symbol << "':" << code << " ";
-		return;
-	}
+        cout << "'" << n->symbol << "':" << code << " ";
+        return;
+    }
     //Adding "0" for left sub-tree
-	getCodes(n->left, code + "0");
+    getCodes(n->left, code + "0");
     //Adding "0" for right sub-tree
-	getCodes(n->right, code + "1");
+    getCodes(n->right, code + "1");
 }
 //Function to insert the corresponding Node to the tree
-TreeNode* insertIntoTree(TreeNode* insertion,TreeNode* node){
+TreeNode *insertIntoTree(TreeNode *insertion, TreeNode *node)
+{
     //Making the new TreeNode for addition of the next Node
-    TreeNode* newInsertion = new TreeNode();
-    //Incrementing Frequency of Parent by 1 for height balancing 
+    TreeNode *newInsertion = new TreeNode();
+    //Incrementing Frequency of Parent by 1 for height balancing
     insertion->freq++;
     //Inserting the corresponding node to right
     insertion->right = node;
@@ -171,24 +192,30 @@ TreeNode* insertIntoTree(TreeNode* insertion,TreeNode* node){
     //Making parent of next insertion point previous insertion point
     newInsertion->parent = insertion;
     // Increment Each Parent Frequency by 1
-    while(insertion->parent!=NULL){
+    while (insertion->parent != NULL)
+    {
         insertion->parent->freq++;
         insertion = insertion->parent;
     }
     return newInsertion;
 }
 //Function to Balance the Tree
-TreeNode* checkTree(TreeNode* root){
+TreeNode *checkTree(TreeNode *root)
+{
     //Reverse Level Order
-    vector<TreeNode*> seq = ReverseLevelOrder(root);
+    vector<TreeNode *> seq = ReverseLevelOrder(root);
     //Swap Tree Node of the corresponding sub-tree is not balanced
-    for(int i=0;i<seq.size()-1;i++){
-        if(seq[i]->freq>seq[i+1]->freq){
-            for(int j=seq.size()-1;j>i;j--){
-                if(seq[j]->freq < seq[i]->freq){
+    for (int i = 0; i < seq.size() - 1; i++)
+    {
+        if (seq[i]->freq > seq[i + 1]->freq)
+        {
+            for (int j = seq.size() - 1; j > i; j--)
+            {
+                if (seq[j]->freq < seq[i]->freq)
+                {
                     //Function to swap the Tree nodes
-                    swapTreeNode(root,seq[i],seq[j]);
-                    TreeNode* temp = seq[i];
+                    swapTreeNode(root, seq[i], seq[j]);
+                    TreeNode *temp = seq[i];
                     seq[i] = seq[j];
                     seq[j] = temp;
                     i--;
@@ -201,40 +228,45 @@ TreeNode* checkTree(TreeNode* root){
 }
 
 //Function to encode the string according to Dynamic Huffman
-void dynamic_huffman(string input){
+void dynamic_huffman(string input)
+{
     //Intializing root
-    TreeNode* root = new TreeNode();
+    TreeNode *root = new TreeNode();
     //Insertion is equal to root as we will intially insert character to root
-    TreeNode* insertion = root;
+    TreeNode *insertion = root;
     //Map to track apperance of each character in string
-    unordered_map<char,int> apperance;
+    unordered_map<char, int> apperance;
     //This will map character to its corresponding TreeNode
-    unordered_map<char,TreeNode*> node;
+    unordered_map<char, TreeNode *> node;
 
     //For loop to iterate over each character in string
-    for(int i=0;i<input.size();i++){
+    for (int i = 0; i < input.size(); i++)
+    {
         //If this is the first ever apperance of the given character
-        if(apperance[input[i]]==0){
+        if (apperance[input[i]] == 0)
+        {
             //Creating a new TreeNode for the current character
-            TreeNode* current = new TreeNode();
+            TreeNode *current = new TreeNode();
             //Making its frequency 1
             current->freq = 1;
             //Storing it's symbol
             current->symbol = input[i];
             //Inserting it to the tree
-            insertion = insertIntoTree(insertion,current);
+            insertion = insertIntoTree(insertion, current);
             //Updating the map to Map this character to current TreeNode
             node[input[i]] = current;
             //Marking that the character is visited
             apperance[input[i]]++;
         }
-        else{
+        else
+        {
             //Getting the TreeNode Corresponding to the given character
-            TreeNode* current = node[input[i]];
+            TreeNode *current = node[input[i]];
             //Incrementing the frequency by 1
             current->freq++;
             //Updating each parent frequency by 1 to balance the tree later on
-            while(current->parent!=NULL){
+            while (current->parent != NULL)
+            {
                 current->parent->freq++;
                 current = current->parent;
             }
@@ -242,27 +274,26 @@ void dynamic_huffman(string input){
 
         //Balancing the Tree
         root = checkTree(root);
-        //Printing the Tree level order wise 
+        //Printing the Tree level order wise
         printTree(root);
         //Printing code corresponding to each character
-        cout<<"Codes:\t";
-        getCodes(root,"");
-        cout<<endl<<endl;
+        cout << "Codes:\t";
+        getCodes(root, "");
+        cout << endl
+             << endl;
     }
-
 }
-int main(){
+int main()
+{
     string input;
-    cout<<"Enter the input string:\t";
-    getline(cin,input);
+    cout << "Enter the input string:\t";
+    getline(cin, input);
     dynamic_huffman(input);
     return 0;
 }
 
-//Time complexity : O(n^2)
-
-//Input : "Dynamic"
-/*
+/*Time complexity : O(n^2)
+Input : "Dynamic"
 Output:
 *1
 *0  D1        

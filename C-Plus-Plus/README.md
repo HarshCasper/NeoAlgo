@@ -57,6 +57,7 @@
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
+- [Replace Pi using recursion](cp/replace_pi.cpp)
 
 ## Data Structures
 

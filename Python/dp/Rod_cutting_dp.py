@@ -18,6 +18,8 @@ INT_MIN = -32767
 
 # Returns the best obtainable price for a rod of length n and
 # price[] as prices of different pieces
+
+
 def cutRod(price, n):
     val = [0 for x in range(n+1)]
     val[0] = 0

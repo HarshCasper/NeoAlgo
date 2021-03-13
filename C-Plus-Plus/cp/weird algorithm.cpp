@@ -31,11 +31,27 @@ int main(){
     cin>>n;
     while(true)
     {
-        cout << n << " ";         
-        if (n == 1) break;       // breaking here coz finally we have to reach here
-        if (n%2 == 0) n /= 2;    // main condition that if n is even then change it to its half otherwise multiply by 3 and add 1
+        cout << n << " "; 
+        // breaking here coz finally we have to reach here
+        if (n == 1) break; 
+        // main condition that if n is even then change it to its half otherwise multiply by 3 and add 1
+        if (n%2 == 0) n /= 2;    
         else n = n*3+1;
     }
     cout << "\n";               
     return 0;
 }
+
+
+
+/***
+
+Time complexity of this program O(n)
+
+Input:
+3
+
+Output:
+3 10 5 16 8 4 2 1
+
+*****/

@@ -32,6 +32,15 @@ Return: string (Output string with balanced parenthesis)
 
 
 def remove_parenthesis(string):
+    '''
+    Returns a string after removing minimum number of parentheses to make it balanced.
+
+    Parameters:
+            string (str): A string input
+
+    Returns:
+            op_str (str): A valid parentheses string
+    '''
     stack = []
     indx = []
     for (i, s) in enumerate(string):
@@ -65,8 +74,9 @@ def remove_parenthesis(string):
 
 
 if __name__ == '__main__':
-    # Output: he((l)l)o
-    remove_parenthesis('he((l)l)o)')
+    inp_str = input().strip() 
+    op_str = remove_parenthesis(inp_str)
+    print(op_str)
     # Time Complexity: O(n)
     # Testcases
     # (1) Input: (()))() Output: (())()

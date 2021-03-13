@@ -11,12 +11,13 @@
 
 ## Algorithms
 
-- [Kadane's Algorithm](Algorithms/kadanes_Java.java)
+- [Kadane's Algorithm](/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
 - [MinMax Algorithm](Algorithms/Min_Max_Algorithm_implementation.java)
 - [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
+- [Implementation of Mod Power function algorithm using bit in Java](Algorithms/BitPowerFunction.java)
 
 ## Greedy Algorithms
 

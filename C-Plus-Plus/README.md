@@ -23,6 +23,7 @@
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
+- [Even Pair Sum](cp/EvenPairSum.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
@@ -76,7 +77,6 @@
 - [Queue Linked List](ds/QueueLinkedList.cpp)
 - [Red Black Tree](ds/RED-BLACK-TREE.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
-- [Singly Linked List](../Python/ds/SinglyLinkedList.py)
 - [Singly Linked List](ds/singly_linked_list.cpp)
 - [Stack using Array](ds/Stack_using_Array.cpp)
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
@@ -164,6 +164,7 @@
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
+- [Previous Greater Element](stack/Previous_Greater_Element.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 
@@ -270,3 +271,4 @@ _add list here_
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
+- [Set Clear and Check bits](other/check_set_clear_bit.cpp)

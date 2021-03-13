@@ -17,6 +17,10 @@
 - [Armstrong Number](Algorithms/Armstrong.js)
 - [Longest Increaing Subsequnce](Algorithms/LongestIncreasingSubsequenceDP.js)
 
+## Backtracking
+
+- [N-Queens](Backtracking/N-Queens.js)
+
 ## Data Structures
 
 - [AVL Tree](./ds/AVLTree.js)

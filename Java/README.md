@@ -106,6 +106,7 @@ _add list here_
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 - [Queue](ds/Queuell.java)
 - [Segment Tree](ds/SegmentTree.java)
+- [Sparse Matrices](ds/SparseMatrices.java)
 - [Sparse Matrix](ds/SparseMatrix.java)
 - [Stack ~ Linked List Implementation](ds/Stack.java)
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
@@ -114,6 +115,8 @@ _add list here_
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
+- [Balanced Brackets](ds/balancedBrackets.java)
+
 
 
 ## Graphs

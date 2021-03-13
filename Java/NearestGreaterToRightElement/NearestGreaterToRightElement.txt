@@ -1,3 +1,12 @@
+
+// This program is done with time complexity of O(n) . we'll make a stack and push last element of given array in stack the we'll go from last index to index 0 . 
+
+//check if stack is empty  implies no Nearest Greater element in right and print -1
+//if stack is not empty 
+              //  check peek element in stack is less than the element of array
+                     //if yes,  pop  element from stack till the peek elemnt is greater than array element
+                     //else, peek element of stack is the nearest greater element of that array element
+//push that element in stack
 import java.io.*;
 import java.util.*;
 
@@ -15,41 +24,41 @@ public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     int n = Integer.parseInt(br.readLine());
-    int[] a = new int[n];
+    int[] a = new int[n];    // Array in which Nearest greatest element in right is to be find
     for(int i = 0; i < n; i++){
        a[i] = Integer.parseInt(br.readLine());
     }
 
-    int[] nge = solve(a);
-    display(nge);
+    int[] nge = solve(a);        // calling function solve to fing Nearest greatest element in right for each element in array "a"
+    display(nge);                // calling display function to diaplay our answer
  }
 
- public static int[] solve(int[] arr){
-   int[] nge=new int[arr.length];
+ public static int[] solve(int[] arr){         // solve function to get Nearest greatest element in right for each element in array "a" 
+   int[] nge=new int[arr.length];              // array to store Nearest greatest element in right for each element in array "arr". 
    
-   Stack<Integer> st =new Stack<>();
+   Stack<Integer> st =new Stack<>();           // Created a stack to store elements
    
-   st.push(arr[arr.length-1]);
-   nge[arr.length-1]=-1;
-   for(int i=arr.length-2; i>=0;i--){
-       while(st.size()>0 && arr[i]>=st.peek()){
+   st.push(arr[arr.length-1]);                 //at first we push last elemnt of given array in stack
+   nge[arr.length-1]=-1;                       //for last element of given array there will be no Nearest greatest element in right so we print -1. 
+   for(int i=arr.length-2; i>=0;i--){          // run reverse for loop 
+       while(st.size()>0 && arr[i]>=st.peek()){  //this while loop will run till size should be greater than zero implies stack  is not empty and peek element is greter than arr[i]
            st.pop();
-       }
+     
        
-       if(st.size()==0)
+       if(st.size()==0)                             // if stack is empty there will be no nearest greatest elemnt to right of arr[i]
       {
-          nge[i]=-1;
+          nge[i]=-1;                                // in this case we'll print -1
           
       }
     
-    else{
+    else{                                           // else the peek element will be the Nearest greater element to right to arr[i]
         nge[i]=st.peek();
     }
     
-    st.push(arr[i]);
+    st.push(arr[i]);                                // push the element in stack
   
  }
  
- return nge;
+ return nge;                                      // return the "nge " array which store the nearest geater element to right of each elemnet of array "arr" 
 }
 }

@@ -4,13 +4,13 @@ Problem Statement
     Given 2 strings a and b. String b has one more char added and shuffled. Find the char added in the string b.
 Implementation 
     a. Using Hashmap (Slow approach and extra space)
-    b. Using Bits Manipulation (Fast Approach and no extra space)
+    b. Using Bits Manipulation (Efficient Approach and no extra space)
 */
 
 #include<bits/stdc++.h>
 using namespace std;
 
-// Fast Approach
+// Efficient Approach (Space - O(1) and time - O(N))
 char bits_diff(string a, string b)
 {
     char xorr = 0;
@@ -21,7 +21,7 @@ char bits_diff(string a, string b)
     return xorr ^ b[i];
 }
 
-// Slow Approach
+// Space - O(N) and Time - O(M+N) where m and n are the size of the 2 strings
 char map_diff(string a, string b) {
     unordered_map<char,int> mp1, mp2;
     for(auto x:a) 

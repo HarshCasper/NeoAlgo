@@ -11,7 +11,7 @@ void replacepi(char a[], int i)
     {
         return;
     }
-
+    //checks if the current and the next part of the string is "pi"
     if (a[i] == 'p' and a[i + 1] == 'i')
     {
         //Shifting the replacement of 3.14
@@ -28,6 +28,7 @@ void replacepi(char a[], int i)
             j--;
         }
 
+        //replacing "pi" with 3.14
         a[i] = '3';
         a[i + 1] = '.';
         a[i + 2] = '1';
@@ -41,6 +42,7 @@ void replacepi(char a[], int i)
     }
 }
 
+//Time Complexity :O(n)
 int main()
 {
     char a[1000];

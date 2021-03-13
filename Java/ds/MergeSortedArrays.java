@@ -1,10 +1,9 @@
-import java.util.*;
 /*
     Description: 
     Given two sorted arrays, the task is to merge them in a sorted manner.
     There are two sorted arrays and after merging there will be only one array in sorted manner.
 */
-
+import java.util.*;
 public class MergeSortedArrays {
    public static void main(String[] args) {
       int A[] = {-2,3,5,8,9};

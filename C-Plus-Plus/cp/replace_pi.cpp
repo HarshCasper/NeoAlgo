@@ -1,8 +1,5 @@
 /* Problem statement: 
-You are given a string, you have to replace all the occurrences of "pi" int the string into 3.14.
-Example :
-string : api
-Output : a3.14 */
+You are given a string, you have to replace all the occurrences of "pi" int the string into 3.14. */
 #include <bits/stdc++.h>
 using namespace std;
 void replacepi(char a[], int i)

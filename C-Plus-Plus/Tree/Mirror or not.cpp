@@ -56,11 +56,11 @@ int main()
     return 0;
 }
 
-Input -     1                            1
-           / \                          / \
-          2   4                        4   2
-             / \                      / \
-            3   5                    5   3
+// Input -     1                            1
+//            / \                          / \
+//           2   4                        4   2
+//              / \                      / \
+//             3   5                    5   3
 
 
-Output =  Yes
+// Output =  Yes

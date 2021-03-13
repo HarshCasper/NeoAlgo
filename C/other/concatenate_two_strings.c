@@ -26,6 +26,5 @@ int main() {
   return 0;
 }
 //The two strings str1 and str2 will be concatenated and the result will be  stored in s1.
-/*
-OUTPUT: After concatenation, Final string will be:Hey,Open Source is amazing Start contributing
-*/
+
+//OUTPUT: After concatenation, Final string will be:Hey,Open Source is amazing Start contributing

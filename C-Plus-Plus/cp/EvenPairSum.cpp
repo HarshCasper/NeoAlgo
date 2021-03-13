@@ -1,6 +1,6 @@
-/*Two positive integers A and B are given. Find the number of pairs 
+/*
+Two positive integers A and B are given. Find the number of pairs 
 of positive integers (X,Y) such that 1=X=A, 1=Y=B and X+Y is even.
-
 Input
 The first line of the input contains a single integer T denoting the
 number of test cases.The description of T test cases follows.
@@ -9,22 +9,7 @@ integers A and B.
 Output
 For each test case, print a single line containing one integer-the number
 of valid pairs.
-Constraints
-1=T=1,000
-1=A,B=109
-
-Example Input
-4
-1 1
-2 3
-4 6
-8 9
-Example Output
-1
-3
-12
-36*/
-
+*/
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -32,10 +17,11 @@ using namespace std;
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-	int t; //t=test case
-	cin>>t;
-	while(t--)
-	{
+    //t=test case
+    int t; 
+    cin>>t;
+    while(t--)
+         {
 	    long long c,d;
 	    long long ans=0;
 	    cin>>c>>d;
@@ -77,6 +63,19 @@ int main(){
 	
 	return 0;
 }
-/*time complexity- O(t)
+/*
+Example Input
+4
+1 1
+2 3
+4 6
+8 9
+Example Output
+1
+3
+12
+36
+
+time complexity- O(t)
 //t is no. of test cases
 */

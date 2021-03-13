@@ -116,7 +116,7 @@ _add list here_
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
-
+-[Trie](ds/Trie.java)
 
 
 ## Graphs

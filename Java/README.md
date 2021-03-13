@@ -175,6 +175,7 @@ _add list here_
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
 - [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
+- [Substring Palindrome](search/PalindromicSubstring.java)
 
 ## Sorting
 

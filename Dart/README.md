@@ -7,19 +7,4 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Kotlin language
-
-## Sorting Algorithms
-
-- [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
-- [Selection Sort](sort/SelectionSort/src/SelectionSort.kt)
-- [Insertion Sort](sort/InsertionSort/src/InsertionSort.kt)
-- [Merge Sort](sort/MergeSort/src/MergeSort.kt)
-- [Radix Sort](sort/RadixSort/src/RadixSort.kt)
-
-## Maths
-
-- [Areas 2D](Maths/Areas2D.kt)
-- [Areas 3D](Maths/Areas3D.kt)
-- [Armstrong Number](Maths/Armstrong.kt)
-- [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
+# Codes in the Dart language

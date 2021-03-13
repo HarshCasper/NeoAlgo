@@ -16,10 +16,18 @@ public class BitPowerFunction {
 	    System.out.println((ans+MOD)%MOD);  
     }
 	 public static void main(String...p){
-		 System.out.println("TEST");
 		 Scanner sc=new Scanner(System.in);
-		 int x=sc.nextInt();
-		 int y=sc.nextInt();
-		 pow(x,y);
+//Use Scanner for user input 
+		 
+//		 int x=sc.nextInt();
+//		 int y=sc.nextInt();
+
+		 pow(9,2);
 	 }
 }
+
+//TC : O(31)=~ O(1)
+// SC: O(1)
+
+
+

@@ -62,3 +62,16 @@ This project follows the [MIT License](/LICENSE).
 ## Slack 
 
 [![Slack](https://img.shields.io/badge/chat-on_slack-purple.svg?style=for-the-badge&logo=slack)](https://join.slack.com/t/tesseractcodi-bxq5968/shared_invite/zt-ju6c0nqq-KgkTvFyxjNVbDRBIjADanw)
+
+## Contributors !! 
+### Credit goes to these people !! ✨:
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/TesseractCoding/NeoAlgo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TesseractCoding/NeoAlgo" />
+</a>
+		</td>
+	</tr>
+</table>

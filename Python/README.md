@@ -232,6 +232,7 @@
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
+- [Noble Integer](math/Noble_Integer.py)
 ## Blockchain
 
 _add list here_

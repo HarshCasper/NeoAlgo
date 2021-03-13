@@ -70,6 +70,7 @@
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
+- [Reverse Linked List](ds/reverse_linked_list.c)
 
 ## Searching
 

@@ -46,6 +46,7 @@ _add list here_
 
 - [Stack](dp/stack.go)
 - [Longest Substring without Repeating Characters](./dp/longest_substring.go)
+- [Longest Common Subsequence](./dp/longest_common_subsequence.go)
 - [Coin Change](./dp/coin_change_problem.go)
 
 ## Machine Learning

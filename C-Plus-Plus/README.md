@@ -119,6 +119,7 @@
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
 - [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
+- [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 
 ## Searching
 

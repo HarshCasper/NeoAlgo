@@ -37,7 +37,7 @@ bool is_magic(int num)
 int main()
 {
     int num;
-    cout << "Enter the Number to check whether it is Magic Number or Not:";
+    cout << "Enter the Number to check whether it is Magic Number or Not:" << endl;
     cin >> num;
     if (is_magic(num))
         cout << num << " is Magic Number." << endl;

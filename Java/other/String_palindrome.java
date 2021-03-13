@@ -1,10 +1,8 @@
+//PROGRAM TO CHECK  whether the string is a Palindrome or not IN JAVA.
 
-/*PROGRAM TO CHECK  whether the string is a Palindrome or not IN JAVA.
-
-This is a program to check if the user entered string is palindrome or not .
-  A palindrome is a string that is the same irrespective of wheather you read it in forward or backward direction.
-  For example, "dad" is the same whether you read it in forward or reverse direction.
-*/
+/*This is a program to check if the user entered string is palindrome or not . 
+ * A palindrome is a string that is the same irrespective of wheather you read it in forward or backward direction.
+ *  For example, "dad" is the same whether you read it in forward or reverse direction.*/
 
 import java.util.Scanner;
 
@@ -17,17 +15,14 @@ public class String_palindrome {
 
          //reversing the string and storing it in the variable reverse_string. 
 		for (int i = length - 1; i >= 0; i--) {
-
 			reverse_string = reverse_string + string.charAt(i);
-
 		}
 
 		if (string.equals(reverse_string)) {
 
 			System.out.println(string + " is a palindrome string");
 
-		} 
-		else {
+		} else {
 			System.out.println(string + " is not a palindrome string");
 		}
 
@@ -42,7 +37,7 @@ public class String_palindrome {
 		System.out.println("Enter a string:");
 		string = sc.nextLine();
 
-		checkpalindrome(string,"");
+		checkpalindrome(string, "");
 
 	}
 }
@@ -67,7 +62,4 @@ public class String_palindrome {
  * 
  * is a palindrome string
  */
-
-
-
 

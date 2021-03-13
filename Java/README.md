@@ -15,10 +15,13 @@
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
+- [MinMax Algorithm](Algorithms/Min_Max_Algorithm_implementation.java)
+- [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
 
 ## Greedy Algorithms
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
+- [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 
 ## Blockchain
 
@@ -103,6 +106,7 @@ _add list here_
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 - [Queue](ds/Queuell.java)
 - [Segment Tree](ds/SegmentTree.java)
+- [Sparse Matrices](ds/SparseMatrices.java)
 - [Sparse Matrix](ds/SparseMatrix.java)
 - [Stack ~ Linked List Implementation](ds/Stack.java)
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
@@ -111,6 +115,8 @@ _add list here_
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
+- [Balanced Brackets](ds/balancedBrackets.java)
+
 
 
 ## Graphs
@@ -156,6 +162,7 @@ _add list here_
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Unique BST](dp/Unique_BST.java)
+- [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
 
 ## Blockchain
 

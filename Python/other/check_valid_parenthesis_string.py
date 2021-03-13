@@ -74,9 +74,9 @@ def remove_parenthesis(string):
 
 
 if __name__ == '__main__':
-    inp_str = input().strip() 
-    op_str = remove_parenthesis(inp_str)
-    print(op_str)
+    inp_str = input().strip()
+    output_str = remove_parenthesis(inp_str)
+    print(output_str)
     # Time Complexity: O(n)
     # Testcases
     # (1) Input: (()))() Output: (())()

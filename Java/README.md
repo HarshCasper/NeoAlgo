@@ -236,4 +236,5 @@ _add list here_
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
+- [Infix to Prefix Expression](other/InfixtoPrefix.java)
 

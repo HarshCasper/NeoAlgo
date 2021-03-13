@@ -169,6 +169,7 @@
 - [Previous Greater Element](stack/Previous_Greater_Element.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
+- [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 
 ## Heap based problems
 

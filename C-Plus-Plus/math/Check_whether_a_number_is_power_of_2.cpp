@@ -25,11 +25,11 @@ int main()
 }
 /*
 Standard Input and Output
-1.
+
 Enter the number
 64
 The Number is power of 2
-2.
+
 Enter the number
 34
 No. the number is not power of 2

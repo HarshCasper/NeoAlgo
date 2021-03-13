@@ -22,8 +22,7 @@ def monkey_sort(arr):
 
 	while not is_sorted(arr):
 		random.shuffle(arr)
-		print("The unordered lists that we get by trying to sort the elements by shuffling them")
+		print("	Unordered lists by sorting the elements by shuffling them")
 		print(arr)
 	print("\nThe final sorted list:")
 	print(arr)
-	

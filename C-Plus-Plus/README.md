@@ -57,9 +57,11 @@
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
+- [Replace Pi using recursion](cp/replace_pi.cpp)
 
 ## Data Structures
 
+- [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
@@ -167,6 +169,7 @@
 - [Previous Greater Element](stack/Previous_Greater_Element.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
+- [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 
 ## Heap based problems
 
@@ -252,6 +255,7 @@ _add list here_
 
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
+- [Dynamic Huffman](other/DynamicHuffman.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
@@ -265,6 +269,7 @@ _add list here_
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
+- [Sliding Window Technique](other/Calculate_max_sum_of_k_consecutive_elements.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)

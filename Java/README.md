@@ -126,6 +126,7 @@ _add list here_
 - [Dijkstra's Algorithm](graphs/Dijkstra.java)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
+- [Paths From Source To Destination](graphs/Paths_From_Source_To_Destination.java)
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
 - [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
@@ -236,4 +237,5 @@ _add list here_
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
+- [Adjacent Element Product](other/AdjacentElementProduct.java)
 

@@ -43,6 +43,7 @@
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
+- [Vernam Cipher](cryptography/Vernam_Cipher.c)
 
 ## Data Structures
 
@@ -115,6 +116,7 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
+- [Adjacency List](graphs/Adjacency_List.c)
 
 ## Machine Learning
 

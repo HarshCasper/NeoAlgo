@@ -45,10 +45,10 @@ public class MergeSortedArrays {
 /*
   Example: 
   Input: 
-      A[] = {2,4,5,6}
-      B[] = {1,3,4,7}
+      A[] = {-2,3,5,8,9}
+      B[] = {1,2,3,4,5}
   Output:
-     [1,2,3,4,4,5,6,7]
+     [-2,1,2,3,3,4,5,5,8,9]
      
    Explanation: 
       After Merging A and B produces the output as described above.

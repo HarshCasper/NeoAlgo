@@ -24,7 +24,7 @@ sums = 0
 if number > 0 :
 
     while temp > 0:
-        remainder = temp%10
+        remainder = temp % 10
         sums = sums + factorial(remainder)
         temp = temp // 10
 
@@ -44,7 +44,3 @@ else :
 # TestCase 2:
 # Enter a number greater than zero : 145
 # Number 145 is a Strong Number
-
-
-
-

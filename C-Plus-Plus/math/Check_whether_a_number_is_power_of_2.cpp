@@ -34,7 +34,6 @@ Enter the number
 34
 No. the number is not power of 2
 
-
 Time Complexity : O(1)
 Space Complexity : O(1)
 

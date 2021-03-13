@@ -39,8 +39,7 @@ int main()
     long long total_sum;
     vector<int> array;
     cin >> n; 
-  
-    // reading the elements to the array
+
     for (int i = 0; i < n; i++) {
         cin >> value;
         array.push_back(value);

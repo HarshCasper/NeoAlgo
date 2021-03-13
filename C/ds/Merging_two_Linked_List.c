@@ -1,7 +1,7 @@
 /*
 
-This program is about merging two Linkedlist. Here user going to enter values of
-first and second linkedlist. It will merge the
+This program is about merging two Linked list. Here the user is going to enter values of
+first and second linked list. It will merge the
 two linkedlists into one linkedlist by comparing the each and every node values
 and convert into one linkelist in the ascending order.
 

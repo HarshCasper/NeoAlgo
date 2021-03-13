@@ -2,11 +2,13 @@
  * Infix to Prefix Expression
  * 
  * Algorithm Used:
- * First the gicen infix expression is reversed.
+ * First the given infix expression is reversed.
  * By reversing, every '(' becomes ')' and vice versa.
  * Then, we obtain the postfix of the reversed expression.
  * Now, we reverse this postfix expression to obtain the Prefix expression.
  * 
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(n)
  * Author: iamvs-2002
  */
 
@@ -128,7 +130,6 @@ public class InfixtoPrefix
         for (i = result.length()-1; i >=0 ; i--) { 
             arr[result.length()-i-1] = result.charAt(i);
         }
-        //finally, arr contains the prefix expression.
         return String.valueOf(arr);
     }
 }
@@ -148,4 +149,3 @@ public class InfixtoPrefix
  * Prefix Expression: +*A  B / C  D
  * 
  */
-

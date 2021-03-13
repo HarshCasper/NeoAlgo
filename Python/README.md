@@ -27,6 +27,7 @@
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+- [Singly Linked List](ds/SinglyLinkedList.py)
 
 
 ## Competitive Programming
@@ -56,6 +57,8 @@
 - [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [House Robber](cp/house_robber.py)
+- [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
+
 
 ## Cryptography
 
@@ -101,6 +104,7 @@
 - [Shell Sort](sort/Shell_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
 - [Sleep Sort](sort/Sleep_sort.py)
+- [Bucket Sort](sort/Bucket_sort.py)
 
 ## Backtracking
 
@@ -231,5 +235,6 @@ _add list here_
 - [Longest substring without repeating character](other/longest_Substring.py)
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
+- [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

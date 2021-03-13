@@ -1,0 +1,53 @@
+/* C Program to check whether a number is Neon or not.
+ A Krishnamurthy number is a number whose sum of the factorial of digits is equal to the number itself.
+ */
+#include<stdio.h>
+void krishnamurthy(int num)
+{
+  int temp, sum, a, fact;
+
+  temp = num;
+  sum = 0;
+
+  while(temp!=0)
+  {
+    a = temp % 10;
+    fact = 1;
+
+    // finding factorial of the currentDigit
+    for(int i=1; i<=a; i++)
+    {
+      fact *= i;
+    }
+
+    sum += fact;
+    temp /= 10;
+  }
+
+  if(sum == num)
+  {
+    printf("%d is Krishnamurthy Number.",num);
+  }
+  else
+  {
+    printf("%d is not a Krishnamurthy Number.",num);
+  }
+}
+int main()
+{
+int num;
+  printf("Enter an Integer ");
+  scanf("%d",&num);
+  krishnamurthy(num);
+}
+/* Sample Input/output
+Example 1-
+Enter an integer 145
+145 is Krishnamurthy Number.
+Example 2-
+Enter a number 65
+65 is not a Krishnamurthy Number.
+
+Space Complexity O(1)
+Time Complexity  O(log(n))
+*/

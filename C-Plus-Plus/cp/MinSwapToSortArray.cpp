@@ -16,11 +16,11 @@ int main()
         int j=a[i],temp;
     	if((i+1)!=a[i])
     	{
-	    	temp=a[i];
-	    	a[i]=a[j-1];
+	    temp=a[i];
+	    a[i]=a[j-1];
             a[j-1]=temp;
-	    	swap++;
-		}
+	    swap++;
+	}
     }
     cout<<swap;
     return 0;

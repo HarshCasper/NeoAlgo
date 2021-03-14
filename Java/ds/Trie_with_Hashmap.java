@@ -40,8 +40,7 @@ class Trie{
         for(char c : word.toCharArray()){
             if(currentnode!=null && currentnode.nodes.containsKey(c)){
                 currentnode.nodes.get(c);
-            }
-            else{
+            } else{
                 return false;
             }
         }
@@ -59,35 +58,34 @@ class Trie{
 }
 
 class Trie_with_Hashmap{
-   public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    Trie head = new Trie();
-    Scanner scan = new Scanner(System.in);       
-    char ch;
-    System.out.println("\nInsert and Search Operations on Trie");
-    System.out.println("--------------------------------------");
-    do  {  
-        System.out.println("1. insert ");
-        System.out.println("2. search");
-        int choice = scan.nextInt();            
-        switch (choice)
-            {
-            case 1 : 
+        Trie head = new Trie();
+        Scanner scan = new Scanner(System.in);       
+        char ch;
+        System.out.println("\nInsert and Search Operations on Trie");
+        System.out.println("--------------------------------------");
+        do  {  
+            System.out.println("1. insert ");
+            System.out.println("2. search");
+            int choice = scan.nextInt();            
+            switch (choice){
+            case 1: 
                 System.out.print("Enter string to insert : ");
                 head.insert( scan.next() );                     
                 break;                          
-            case 2 : 
+            case 2: 
                 //Search function returns 'true' if string is present in Trie
                 System.out.print("Enter string to search : ");
                 System.out.println("Search result : "+ head.search( scan.next() ));
                 break;                                          
-            default : 
+            default: 
                 System.out.println("Invalid choice \n ");
                 break;   
             }
             System.out.print("\nDo you want to continue (Type y or n) : ");
             ch = scan.next().charAt(0);                                    
-        } while (ch == 'Y'|| ch == 'y');               
+        }while (ch == 'Y'|| ch == 'y');               
     }  
 }
 /*  

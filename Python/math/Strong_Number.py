@@ -10,20 +10,23 @@ In the end if number and the sum obtained is equal then it is a Strong number
 otherwise not
 """
 
+
 def factorial(n) :
-    p = 1 
+    p = 1
     for i in range(1 , n + 1) :
         p = p * i
     return p
+
+
 number = int(input("Enter a number greater than zero : "))
 temp = number
 sums = 0
-if(number > 0) :
+if number > 0 :
     while temp > 0 :
         remainder = temp % 10
         sums = sums + factorial(remainder)
         temp = temp // 10
-    if(sums == number) :
+    if sums == number :
         print('Number' , number , 'is a Strong Number')
     else :
         print('Number' , number , 'is not a Strong Number')

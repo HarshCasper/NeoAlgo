@@ -1,23 +1,27 @@
-/* Trie is also called as 'Prefix Tree'. It is a tree data structure which is commonly used
-*  to store the strings/words. 
-*  The popoular applications of this data stucture are autocomplete and spellcheck.
-*/
+/*  Trie is also called as 'Prefix Tree'. It is a tree data structure which is commonly used to store the strings/words. 
+    The popoular applications of this data stucture are autocomplete and spellcheck.
 
+    Problem Statement: 
+    Designing a data structure which supports addition of new words and finds if a string matches any previously added string.
+        
+    Solution:
+    1. Define a TrieNode class using a HashMap.
+    2. Initialization of root node in Trie Class.
+    3. void insert(String word) takes word from user and adds into the Trie.
+    4. boolean search(String word) checks if the word entered by user matches to the previously added strings.
+*/
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
 //Class to define Trie node operations
 class Trie{
     private TrieNode root;
-
     public Trie(){
         root = new TrieNode(false);
     }
-
-    /*Insertion of word into Trie*/
+    //Insertion of word into Trie
     public void insert(String word){
         TrieNode currentnode = root;
         for(char c :word.toCharArray()){
@@ -30,7 +34,7 @@ class Trie{
         currentnode.isEnd = true;
     }
 
-    /*Searching word in a Trie*/
+    //Searching word in a Trie
     public boolean search(String word){
         TrieNode currentnode = root;
         for(char c : word.toCharArray()){
@@ -44,27 +48,20 @@ class Trie{
         return currentnode.isEnd;
     }
 
-    /* Creation of node using Hashmap
-    * Hashmap : It stores elements in key/value pairs.
-    */
+    //Creation of node using Hashmap (stores elements in key/value pairs).
     class TrieNode{
         Map<Character,TrieNode> nodes = new HashMap<>();
         boolean isEnd = false;
-
         TrieNode(boolean isEnd){
             this.isEnd = isEnd;
         }
     }
-
-
 }
 
 class Trie_with_Hashmap{
    public static void main(String[] args) {
 
-    //Trie object
     Trie head = new Trie();
-
     Scanner scan = new Scanner(System.in);       
     char ch;
     System.out.println("\nInsert and Search Operations on Trie");
@@ -98,13 +95,19 @@ class Trie_with_Hashmap{
     }  
 }
 
-/*
+/*  
 *       Insert and Search Operations on Trie
 *       --------------------------------------
 *       1. insert
 *       2. search
 *       1
 *       Enter string to insert : init
+*       
+*       Do you want to continue (Type y or n) : y
+*       1. insert 
+*       2. search
+*       1
+*       Enter string to insert : initial
 *
 *       Do you want to continue (Type y or n) : y
 *       1. insert 
@@ -127,9 +130,7 @@ class Trie_with_Hashmap{
 *       Search result : false
 *
 *       Do you want to continue (Type y or n) : n
-*/ 
-
-/*
+*       -------------------------------------------
 *       Time complexity:  O(M)      ...M is maximum length of string
 *       Space Complexity: O(N*M*C)  ...N is number of strings and C is char size 
 */

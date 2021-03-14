@@ -17,7 +17,7 @@ node* newnode(int data)
 // calculating the height of the binary tree.
 int height (node * p)
 {
-    if(p==NULL)
+    if(p==NULL) 
     return 0;
     int left=height(p->left);
     int right=height(p->right);

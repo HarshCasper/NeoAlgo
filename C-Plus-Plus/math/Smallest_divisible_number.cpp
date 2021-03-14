@@ -37,7 +37,7 @@ Input : n = 4
 Output : 12
 Explanation : 12 is the smallest numbers divisible by all numbers from 1 to 4
 
-##Time Complexity:O(n)
+##Time Complexity:O(nlogn)
 ##Space Complexity:O(1)								 
 
 */

@@ -150,7 +150,11 @@
 
 - [Coin Change Problem](dp/CoinChange.py)
 
+## Recursion
+
+- [Crossword Puzzle](Recursion/CrosswordPuzzle.py)
 ## Blockchain
+
 
 _add list here_
 

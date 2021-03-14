@@ -50,6 +50,7 @@
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
+- [Submatrix sum](cp/Submatrix_sum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)

@@ -1,4 +1,8 @@
-//toggle kth bit from the right//
+/*
+Toggle kth bit from the right.
+i.e.For a given number n, if k-th bit from right is 0, then toggle it to 1
+and if it is 1 then, toggle it to 0.
+*/
 
 #include <iostream>
 using namespace std;

@@ -152,7 +152,7 @@
 
 ## Recursion
 
-- [Crossword Puzzle](Recursion/CrosswordPuzzle.py)
+- [Crossword Puzzle](cp/CrosswordPuzzle.py)
 ## Blockchain
 
 

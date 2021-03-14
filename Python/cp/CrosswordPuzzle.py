@@ -1,11 +1,12 @@
-# Crossword Puzzle Problem
-# Steps:
-# 1. Check the cell to be '-' of first character of the word
-# 2. Check if that particular word can be filled in That place horizontally or vertically
-# 3. If the word can be filled , fill it!
-# 4. If the word cannot be filled, Backtrack and remove the previous word filled and fill it in some other position
-# 5. Repeat the process until and unless all the words are filled that is index == words.length.
-
+"""
+Crossword Puzzle Problem
+Steps:
+1. Check the cell to be '-' of first character of the word
+2. Check if that particular word can be filled in That place horizontally or vertically
+3. If the word can be filled , fill it!
+4. If the word cannot be filled, Backtrack and remove the previous word filled and fill it in some other position
+5. Repeat the process until and unless all the words are filled that is index == words.length.
+"""
 def solveCrossword(crossword, words, index, wordfill):
     if(index==len(words)):
         printCrossword(crossword)
@@ -127,29 +128,29 @@ for i in range(len(words)):
 
 solveCrossword(crossword, words, 0, wordfill)
 
-#Testcase:-
-
-# Input:
-# +-++++++++
-# +-++++++++
-# +-++++++++
-# +-----++++
-# +-+++-++++
-# +-+++-++++
-# +++++-++++
-# ++------++
-# +++++-++++
-# +++++-++++
-# LONDON;DELHI;ICELAND;ANKARA
-
-# Output:
-# +L++++++++
-# +O++++++++
-# +N++++++++
-# +DELHI++++
-# +O+++C++++
-# +N+++E++++
-# +++++L++++
-# ++ANKARA++
-# +++++N++++
-# +++++D++++
+"""
+Testcase:-
+Input:
++-++++++++
++-++++++++
++-++++++++
++-----++++
++-+++-++++
++-+++-++++
++++++-++++
+++------++
++++++-++++
++++++-++++
+LONDON;DELHI;ICELAND;ANKARA
+Output:
++L++++++++
++O++++++++
++N++++++++
++DELHI++++
++O+++C++++
++N+++E++++
++++++L++++
+++ANKARA++
++++++N++++
++++++D++++
+"""

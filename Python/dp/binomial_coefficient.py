@@ -31,9 +31,6 @@ def binomialCoefTabulation(n,k):
             else:
                 dp2[row][col]=dp2[row-1][col-1]+dp2[row-1][col]
     print("Tabulation: {}C{} = {}".format(n,k,binomialCoeffMemorization(n,k,dp)))
-
-            
-    
 n,k=map(int,input("Enter the value of n and k : ").split())
 dp=[[-1 for row in range(k+1)] for col in range(n+1)]
 #print(dp)

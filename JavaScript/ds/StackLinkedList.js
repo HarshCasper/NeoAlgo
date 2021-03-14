@@ -106,7 +106,7 @@ let value;
 
 // Asking user input for performing operations on Stack
 do {
-  console.log("\nWelcome to the Linked List Show");
+  console.log("\nWelcome to the Stack Linked List Show");
   console.log("Follow the instructions to get in the show");
   console.log("0. To exit without doing anything".yellow);
   console.log("1. Display the stack".display);
@@ -155,7 +155,7 @@ do {
 
 /*
 
-Welcome to the Linked List Show
+Welcome to the Stack Linked List Show
 Follow the instructions to get in the show
 0. To exit without doing anything
 1. Display the stack
@@ -166,7 +166,7 @@ Follow the instructions to get in the show
 Enter your choice - 1
 Stack Elements []
 
-Welcome to the Linked List Show
+Welcome to the Stack Linked List Show
 Follow the instructions to get in the show
 0. To exit without doing anything
 1. Display the stack

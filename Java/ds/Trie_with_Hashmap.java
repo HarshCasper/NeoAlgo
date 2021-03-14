@@ -66,13 +66,11 @@ class Trie_with_Hashmap{
     char ch;
     System.out.println("\nInsert and Search Operations on Trie");
     System.out.println("--------------------------------------");
-    do    
-        {
-            System.out.println("1. insert ");
-            System.out.println("2. search");
- 
-            int choice = scan.nextInt();            
-            switch (choice)
+    do  {  
+        System.out.println("1. insert ");
+        System.out.println("2. search");
+        int choice = scan.nextInt();            
+        switch (choice)
             {
             case 1 : 
                 System.out.print("Enter string to insert : ");
@@ -87,14 +85,11 @@ class Trie_with_Hashmap{
                 System.out.println("Invalid choice \n ");
                 break;   
             }
- 
             System.out.print("\nDo you want to continue (Type y or n) : ");
-            ch = scan.next().charAt(0);   
-                                 
+            ch = scan.next().charAt(0);                                    
         } while (ch == 'Y'|| ch == 'y');               
     }  
 }
-
 /*  
 *       Insert and Search Operations on Trie
 *       --------------------------------------

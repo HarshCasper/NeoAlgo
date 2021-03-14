@@ -15,10 +15,13 @@
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
+- [MinMax Algorithm](Algorithms/Min_Max_Algorithm_implementation.java)
+- [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
 
 ## Greedy Algorithms
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
+- [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 
 ## Blockchain
 
@@ -70,6 +73,7 @@ _add list here_
 - [Implement Queue using Stack](cp/Queue_using_Stack.java)
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
+- [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
 
 ## Cryptography
 
@@ -91,16 +95,19 @@ _add list here_
 ## Data Structures
 
 - [Binary Tree](ds/Binary_Tree.java)
+- [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
+- [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 - [Queue](ds/Queuell.java)
 - [Segment Tree](ds/SegmentTree.java)
+- [Sparse Matrices](ds/SparseMatrices.java)
 - [Sparse Matrix](ds/SparseMatrix.java)
 - [Stack ~ Linked List Implementation](ds/Stack.java)
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
@@ -109,6 +116,7 @@ _add list here_
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
+- [Balanced Brackets](ds/balancedBrackets.java)
 
 ## Graphs
 
@@ -117,6 +125,7 @@ _add list here_
 - [Dijkstra's Algorithm](graphs/Dijkstra.java)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
+- [Paths From Source To Destination](graphs/Paths_From_Source_To_Destination.java)
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
 - [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
@@ -141,6 +150,7 @@ _add list here_
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [Neon number](Neon_number.java)
 
 ## Dynamic Programming
 
@@ -153,6 +163,7 @@ _add list here_
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Unique BST](dp/Unique_BST.java)
+- [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
 
 ## Blockchain
 
@@ -168,6 +179,7 @@ _add list here_
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
+- [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
 
 ## Sorting
 
@@ -225,4 +237,5 @@ _add list here_
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
+- [Adjacent Element Product](other/AdjacentElementProduct.java)
 

@@ -1,6 +1,8 @@
 //toggle kth bit from the right//
+
 #include <iostream>
 using namespace std;
+
 int main()
 {
   int n,k;
@@ -10,10 +12,14 @@ int main()
   cout<<ans;
   return 0;
 }
-/*input:
+/*
+  input:
     6 2
   ouput:
     4
   constraint:
     n is positive  
-*/	  
+*/	
+/*
+  time-complexity: O(1)
+*/ 

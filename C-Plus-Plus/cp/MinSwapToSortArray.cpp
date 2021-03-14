@@ -14,15 +14,16 @@ int main()
     for(i=0;i<n-1;i++)
     {
         int j=a[i],temp;
-	if((i+1)!=a[i])
-	{
-	    temp=a[i];
-	    a[i]=a[j-1];
-	    a[j-1]=temp;
-	    swap++;
-	}
+    	if((i+1)!=a[i])
+    	{
+	    	temp=a[i];
+	    	a[i]=a[j-1];
+            a[j-1]=temp;
+	    	swap++;
+		}
     }
     cout<<swap;
+    return 0;
 }
 /*
 input:

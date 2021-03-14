@@ -1,5 +1,6 @@
 /*
 To find whether the given string is a palindrome or not.
+A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam or racecar.
 */
 
 
@@ -92,3 +93,5 @@ Test case 3:
 Input : 12345
 
 Output : Not palindrome
+*/
+

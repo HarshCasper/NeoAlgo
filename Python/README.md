@@ -116,7 +116,7 @@
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
 
 ## Dynamic Programming
-
+- [Binomial Coefficient](dp/binomial_coefficient.py)
 - [Coin Change Problem](dp/CoinChange.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)

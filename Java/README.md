@@ -73,6 +73,15 @@ _add list here_
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 - [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
+- [Count Occurrences of Anagrams](cp/CountAnagrams.java)
+- [First Negative Number in Every Window of Size K](cp/FirstNegativeNumber.java)
+- [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
+- [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
+- [Maximum Sum Subarray of Size K](cp/MaximumSumSubarray.java)
+- [Longest Substring with K Distinct Characters](cp/LongestSubstringDistinctChar.java)
+- [Length of Longest Substring Without Repeating Characters](cp/LongestSubstringNoRepeatingChar.java)
+- [Longest Subarray Having Sum K](cp/LongestSubarraySum.java)
+- [Minimum Window Substring](cp/SmallestSubstringAllChar.java)
 
 ## Cryptography
 

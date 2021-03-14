@@ -23,20 +23,20 @@ def binomialCoeffMemorization(n,k,dp):
         dp[n][k]=binomialCoeffMemorization(n-1,k-1,dp)+binomialCoeffMemorization(n-1,k,dp)
     return dp[n][k]
 def binomialCoefTabulation(n,k):
-    dp2=[[-1 for i in range(k+1)] for j in range(n+1)]
-    for i in range(n+1):
-        for j in range(k+1):
-            if(j<=i):
-                if(j==0 or i==j):
-                    dp2[i][j]=1;
+    dp2=[[-1 for row in range(k+1)] for col in range(n+1)]
+    for row in range(n+1):
+        for col in range(k+1):
+            if(col<=row):
+                if(col==0 or row==col):
+                    dp2[row][col]=1;
             else:
-                dp2[i][j]=dp2[i-1][j-1]+dp2[i-1][j];
+                dp2[row][col]=dp2[row-1][col-1]+dp2[row-1][col];
     print("Tabulation: {}C{} = {}".format(n,k,binomialCoeffMemorization(n,k,dp)))
 
             
     
 n,k=map(int,input("Enter the value of n and k : ").split())
-dp=[[-1 for i in range(k+1)] for j in range(n+1)]
+dp=[[-1 for row in range(k+1)] for col in range(n+1)]
 #print(dp)
 print("Memorization: {}C{} = {}".format(n,k,binomialCoeffMemorization(n,k,dp)))
 binomialCoefTabulation(n,k)

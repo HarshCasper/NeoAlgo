@@ -150,7 +150,7 @@ void DisplayTime(int at[],int bt[],int ct[],int wt[],int tat[],int rt[],int N)
 	printf("\nAverage turn around time = %2.3f ",total_tat/N);
 }
 
-void main()
+int main()
 {
     int N,MAX=0;
     printf("Enter the no. of processes: ");
@@ -182,6 +182,7 @@ void main()
     printf("\n\nTotal time to complete all processes: %d",total_time);
     TimeCalculations(at,bt,ct,tat,wt,rt,gc,total_time,N);   
     DisplayTime(at,bt,ct,wt,tat,rt,N);
+    return 0;
 }
 
 /*

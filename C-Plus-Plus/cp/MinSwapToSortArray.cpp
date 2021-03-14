@@ -17,7 +17,7 @@ int min_swap_needed(int a[],int n)
     	  {
 	          temp=a[i];
 	          a[i]=a[j-1];
-            a[j-1]=temp;
+            	  a[j-1]=temp;
 	          swap++;
     	  }
     }

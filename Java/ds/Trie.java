@@ -1,15 +1,13 @@
-/*
-Author: A.M.Samara simha reddy
-language: java
-DS: Trie
-*/
 
+/*
+Trie is an efficient datastructure for searching a word in least time.
+Tries brings down the optimal search complexity to length of the key, but the space complexity
+is a lot more than that required for other datastructures. Tries uses the concept of hashing to store characters of 
+the word as keys and stores the pointer to next node as a value in hashmap.
+*/
 import java.util.*;
-import java.lang.*;
 
 public class Trie {
-    // TrieNode class to represent the node present in the Trie.
-    // TrieNode consists of HashMap and a boolean datatypes.
     class TrieNode {
         HashMap<Character, TrieNode> map;
         boolean endofword;
@@ -25,13 +23,6 @@ public class Trie {
     Trie() {
         root = new TrieNode();
     }
-    /*
-     * to add an element into the trie, we will if the character of the string
-     * already present in hashmap. If character already present we will move to the
-     * next TrieNode linked with the character key, else we will create a new
-     * TrieNode and add it into the hashmap by keeping character as the key and
-     * TrieNode as the value.
-     */
 
     void addelement(String element) {
         TrieNode temp = root;
@@ -53,12 +44,6 @@ public class Trie {
         temp.endofword = true;
     }
 
-    /*
-     * searching is done same as adding the element into Trie. If the character is
-     * not present we simply return false, else if all the characters are present we
-     * will check whether the last character is end of the word in trie or not. If
-     * yes then we will print Found else Not Found.
-     */
     boolean search(String element) {
         TrieNode temp = root;
         int i, n = element.length();
@@ -74,10 +59,6 @@ public class Trie {
         return temp.endofword;
     }
 
-    /*
-     * Main function contains code to initialise the Trie datastructure and
-     * inserting elements into Trie.
-     */
     public static void main(String[] args) {
         Trie t = new Trie();
         Scanner sc = new Scanner(System.in);
@@ -91,7 +72,6 @@ public class Trie {
             t.addelement(word);
             inputs[i] = word;
         }
-
         System.out.println("Please enter number of words you want to search in trie M:");
         int m = sc.nextInt();
         for (i = 0; i < m; i++) {
@@ -102,8 +82,19 @@ public class Trie {
             } else {
                 System.out.println("Not Found");
             }
-
         }
-
     }
 }
+/*
+ * Sample Input: Please enter the size of the input Array N: 5 Please enter the
+ * words in next N lines samara simha reddy attunuru narasimha Please enter
+ * number of words you want to search in trie M: 5 Enter the word to search in
+ * trie: samara Found Enter the word to search in trie: samar Not Found Enter
+ * the word to search in trie: simhas Not Found Enter the word to search in
+ * trie: simha Found Enter the word to search in trie: nara Not Found
+ * 
+ * Time complexity: O(M) for searching a word of length M.
+ * 
+ * Space complexity: O(C*key_length*N) where N is number of keys and C is the
+ * size of the domain. eg: for alphabets C=26.
+ */

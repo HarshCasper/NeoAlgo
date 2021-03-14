@@ -1335,6 +1335,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "BeAgarwal",
+      "name": "Shubham Agarwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46283159?v=4",
+      "profile": "http://beagarwal.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",

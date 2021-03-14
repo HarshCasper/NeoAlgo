@@ -37,12 +37,12 @@ void parenthcheck(string s)
                 		//Stack contains open parenthesis, one of which has been balanced
 				//Pop one parenthesis out
                 		if ((s[i]==')' && oper.top()=='(') || (s[i]==']' && oper.top()=='[') || (s[i]=='}' && oper.top()=='{'))
-                    		oper.pop();
+                    			oper.pop();
                 		else
                 		{
-                    		/*Stack contains no open parenthesis. So closed parenthesis cannot be balanced*/
-                    		cout<<"Unbalanced Parenthesis";
-                    		return;
+                    			/*Stack contains no open parenthesis. So closed parenthesis cannot be balanced*/
+                    			cout<<"Unbalanced Parenthesis";
+                    			return;
                 		}
         		}
         	}

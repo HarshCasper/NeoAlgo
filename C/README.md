@@ -72,6 +72,7 @@
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
+- [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
 
 ## Searching
 
@@ -100,6 +101,7 @@
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
 - [Shaker Sort](sort/shaker_sort.c)
+- [Sort using Binary Search Tree](sort/BST_Sort.c)
 
 ## Dynamic Programming
 

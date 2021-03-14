@@ -174,7 +174,7 @@ _add list here_
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
 - [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
-
+- [Sublist Search in List](search/Sublist_Search.java)
 ## Sorting
 
 - [BeadSort](sort/BeadSort.java)

@@ -4,11 +4,6 @@
 	marks off multiples of primes, the Sieve of Atkin does some preliminary work
 	and then marks off multiples of squares of primes, thus achieving a better 
 	theoretical asymptotic complexity.
-
-	Sample input :
- 	43
- 	Sample output:
- 	2 3 5 7 11 13 17 19 23 29 31 37 41
  	
  	We are going to check the following condition and according to that we
  	decide prime numbers
@@ -87,6 +82,10 @@ int main()
 
 
 /*
-Time Complexity -O(n/(log(logn)))
-Space Complexity-O(n^0.5)
+	Sample input :
+ 	43
+ 	Sample output:
+ 	2 3 5 7 11 13 17 19 23 29 31 37 41
+	Time Complexity -O(n/(log(logn)))
+	Space Complexity-O(n^0.5)
 */

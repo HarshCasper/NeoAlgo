@@ -10,6 +10,7 @@ Edit by: @Mohim-Singla
 #include<iostream>
 #include <stack>
 using namespace std;
+
 /*Function for Parenthesis matching.*/
 void parenthcheck(string s)
 {
@@ -24,8 +25,8 @@ void parenthcheck(string s)
         	}
 		else if (s[i]==')' || s[i]==']' || s[i]=='}')
      		{
-           		/*Closed parenthesis encountered must be balanced by an open parenthesis already
-			present in the stack*/
+           		//Closed parenthesis encountered must be balanced by an open parenthesis already
+			//present in the stack
             		if (oper.empty())
             		{
                 		cout<<"Unbalanced Parenthesis";
@@ -33,8 +34,8 @@ void parenthcheck(string s)
             		}
             		else
             		{
-                		/*Stack contains open parenthesis, one of which has been balanced
-				Pop one parenthesis out*/
+                		//Stack contains open parenthesis, one of which has been balanced
+				//Pop one parenthesis out
                 		if ((s[i]==')' && oper.top()=='(') || (s[i]==']' && oper.top()=='[') || (s[i]=='}' && oper.top()=='{'))
                     		oper.pop();
                 		else
@@ -60,6 +61,7 @@ void parenthcheck(string s)
 		cout<<"Unbalanced Parenthesis";
     	}
 }
+
 /*Main Function*/
 int main()
 {

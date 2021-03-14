@@ -2,7 +2,7 @@
 Author - @Suvraneel 
         Suvraneel Bhuin
 
-* Implementation of a Priority Queue using arrays in C++ *
+* Implementation of a dynamic, menu-driven Priority Queue using arrays in C++ *
 ******************************************************************************/
 
 #include <iostream>
@@ -94,7 +94,7 @@ void pop()
 	size -= 1; 
 }
 
-// Main Driver Code 
+// Main Driver Code (menu-driven)
 int main() 
 { 
     //main method

@@ -91,5 +91,5 @@ We can apply Binary Search now, we can use ‘high/2’ as low and ‘high’ as
 The result n must lie between ‘high/2’ and ‘high’.
 
 ##Time Conplexity:O(log n)
-##Space Complexity:O(n)
+##Space Complexity:O(1)
 */

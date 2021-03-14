@@ -6,19 +6,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void rec(string s , int l , int r){
+void rec(string s , int left_index , int right_index){
     // here l is starting index and r is last index of string
-    if( l == r ) {
+    if( left_index == right_index ) {
         // this is base case where recursion is going to stop
         cout<<s<<"  ";
         
     }
     // here my approach is to fix a character and find all permutation of next all character 
     // and fixing of characters is done by swaping
-    for(int i = l ; i <= r ; i++) {
-        swap(s[l] , s[i]) ;
-        rec(s , l+1 , r) ; // after fixing of characters we find all permutation of rest all characters by calling same function
-        swap(s[l] , s[i]) ;  // here we get again initial string and again this process is start
+    for(int i = left_index ; i <= right_index ; i++) {
+        swap(s[left_index] , s[i]) ;
+        rec(s , left_index + 1 , right_index) ; // after fixing of characters we find all permutation of rest all characters by calling same function
+        swap(s[left_index] , s[i]) ;  // here we get again initial string and again this process is start
     }
 }
 

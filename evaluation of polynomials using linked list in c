@@ -1,0 +1,80 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<math.h>
+
+
+struct node *create();
+float evaluate(struct node *);
+float traversal(struct node *);
+
+
+struct node
+{
+  int coeff, expo;
+  char variable;
+  struct node *next;
+};
+void main()
+ {
+  struct node *h;
+
+
+  clrscr();
+  h = create();
+  printf("\nThe Result of your polynomial is :%f",traversal(h));
+
+
+  getch();
+ }
+
+
+struct node *create()
+{
+  int again;
+  struct node *temp, *first, *newnode;
+  first=(struct node*)malloc(sizeof(struct node));
+printf("\nEnter coefficient and exponent of the node:\n");
+  scanf("%d %s %d",&(first->coeff),&(first->variable),&(first->expo));
+  first->next = NULL;
+  temp = first;
+
+
+  printf("\nDo you want to create next node?(YES=1)/(NO=0)\n");
+  scanf("%d",&again);
+  while(again)
+   {
+ newnode=(struct node *)malloc(sizeof(struct node));
+ printf("Enter coefficient,variable and exponent of next node\n");
+ scanf("%d %s %d",&newnode->coeff,&newnode->variable,&newnode->expo);
+ newnode->next = NULL;
+
+
+ temp->next=newnode;
+ temp=newnode;
+
+
+ printf("\nDo you want to create next node?(YES=1)/(NO=0)\n");
+ scanf("%d",&again);
+   }
+
+
+ return(first);
+}
+
+
+float traversal(struct node *first)
+{
+ struct node *temp;
+ float sum,x;
+ sum=0;
+ temp=first;
+ while(temp!= NULL)
+  {
+  x=evaluate(temp);
+  temp=temp->next;
+  sum=sum+x;
+  }
+ return(sum);
+}
+

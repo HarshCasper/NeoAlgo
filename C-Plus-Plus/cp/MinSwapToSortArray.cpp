@@ -15,14 +15,15 @@ int min_swap_needed(int a[],int n)
         int j=a[i],temp;
     	if((i+1)!=a[i])
     	{
-	    temp=a[i];
-	    a[i]=a[j-1];
+	        temp=a[i];
+	        a[i]=a[j-1];
             a[j-1]=temp;
-	    swap++;
+	        swap++;
     	}
     }
     return swap;
 }
+
 int main()
 {
     int n;

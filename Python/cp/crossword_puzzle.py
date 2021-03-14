@@ -14,7 +14,7 @@ def solveCrossword(crossword, words, index, wordfill):
         return
     for i in range(10):
         for j in range(10):
-            if(crossword[i][j]=='-' or crossword[i][j]==words[index][0]):
+            if(crossword[i][j]=='-' or crossword[i][j]==words[index][0]):  #Consider merging these comparisons with "in" to "crossword[i][j] in ('-', words[index][0])"
                 #try to insert it vertically
                 inserted=insertVerticalIfPossible(i,j,crossword,words,index,wordfill)
                 if(inserted):
@@ -29,24 +29,24 @@ def solveCrossword(crossword, words, index, wordfill):
                 if (inserted):
                     removeHorizontally(i, j, crossword, words, index, wordfill)
 
-def removeHorizontally(i, j, crossword, words, index, wordfill):
-    for x in range(len(words[index])):
-        if(wordfill[index][x]):
-            crossword[i][j]='-'
-        wordfill[index][x]=False
-        j+=1
+def removeHorizontally(i1, j1, crossword1, words1, index1, wordfill1):
+    for x1 in range(len(words1[index1])):
+        if(wordfill1[index1][x]):
+            crossword1[i1][j1]='-'
+        wordfill1[index1][x1]=False
+        j1+=1
 
-def insertHorizontalIfPossible(i, j, crossword, words, index, wordfill):
-    word=words[index]
+def insertHorizontalIfPossible(i2, j2, crossword2, words2, index2, wordfill2):
+    word=words2[index2]
 
     wordIndex=0
-    initial_j=j
-    while(j<10):
-        if(crossword[i][j]=='+'):
-            return False
-        elif(crossword[i][j]=='-'):
+    initial_j=j2
+    while(j2<10):
+        # if(crossword[i][j]=='+'):
+        #     return False
+        if(crossword[i2][j2]=='-'):
             wordIndex+=1
-        elif(crossword[i][j]==word[wordIndex]):
+        elif(crossword2[i2][j2]==word[wordIndex]):
             wordIndex+=1
         else:
             return False
@@ -54,58 +54,58 @@ def insertHorizontalIfPossible(i, j, crossword, words, index, wordfill):
 
         if(wordIndex==len(word)):
             for x in range(len(word)):
-                if(crossword[i][initial_j]==word[x]):
+                if(crossword2[i2][initial_j]==word[x]):
                     wordIndex+=1
                 else:
-                    crossword[i][initial_j]=word[x]
-                    wordfill[index][x]=True
+                    crossword2[i2][initial_j]=word[x]
+                    wordfill2[index2][x]=True
                 initial_j+=1
             return True
-        j+=1
+        j2+=1
     return False
 
 
 
-def insertVerticalIfPossible(i, j, crossword, words, index, wordfill):
-    word=words[index]
+def insertVerticalIfPossible(i3, j3, crossword3, words3, index3, wordfill3):
+    word=words3[index3]
 
     wordIndex=0
-    initial_i=i
-    while(i<10):
-        if(crossword[i][j]=='+'):
-            return False
-        elif(crossword[i][j]=='-'):
+    initial_i=i3
+    while(i3<10):
+        # if(crossword[i][j]=='+'):
+        #     return False
+        if(crossword3[i3][j3]=='-'):
             wordIndex+=1
-        elif(crossword[i][j]==word[wordIndex]):
+        elif(crossword3[i3][j3]==word[wordIndex]):
             wordIndex+=1
         else:
             return False
 
 
         if(wordIndex==len(word)):
-            for x in range(len(word)):
-                if(crossword[initial_i][j]==word[x]):
+            for x3 in range(len(word)):
+                if(crossword3[initial_i][j3]==word[x3]):
                     wordIndex+=1
                 else:
-                    crossword[initial_i][j]=word[x]
-                    wordfill[index][x]=True
+                    crossword3[initial_i][j3]=word[x3]
+                    wordfill3[index3][x]=True
                 initial_i+=1
             return True
-        i+=1
+        i3+=1
     return False
 
-def removeVertically(i, j, crossword, words, index, wordfill):
-    for x in range(len(words[index])):
-        if(wordfill[index][x]):
-            crossword[i][j]='-'
-        wordfill[index][x]=False
-        i+=1
+def removeVertically(i4, j4, crossword4, words4, index4, wordfill4):
+    for x4 in range(len(words[index4])):
+        if(wordfill4[index4][x]):
+            crossword4[i4][j4]='-'
+        wordfill4[index4][x4]=False
+        i4+=1
 
 
 def printCrossword(crossword):
-    for i in range(10):
-        for j in range(10):
-            print(crossword[i][j],end='')
+    for i5 in range(10):
+        for j5 in range(10):
+            print(crossword[i5][j5],end='')
         print()
 
 # -------------------------------Driver Code-------------------------------
@@ -113,21 +113,21 @@ def printCrossword(crossword):
 if __name__ == "__main__":
     #For taking user input
     crossword_temp=[]
-    for i in range(10):
+    for _ in range(10):
         #Inputting the 10 lines of crossword
         crossword_temp.append(input())
 
     #converting strings to character Array beacuse strings in python are immutable
     crossword=[[0 for i in range(10)] for j in range(10)]
-    for i in range(10):
-        for j in range(10):
-            crossword[i][j]=crossword_temp[i][j]
+    for i6 in range(10):
+        for j6 in range(10):
+            crossword[i6][j6]=crossword_temp[i6][j6]
     #Take input words separated by ';'
     words=list(map(str,input().split(';')))
 
-    wordfill=[False for i in range(len(words))]
-    for i in range(len(words)):
-        wordfill[i]=[False]*len(words[i])
+    wordfill=[False for _ in range(len(words))]
+    for i7 in range(len(words)):
+        wordfill[i7]=[False]*len(words[i7])
 
     solveCrossword(crossword, words, 0, wordfill)
 

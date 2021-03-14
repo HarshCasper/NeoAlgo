@@ -7,40 +7,46 @@ And output contain frequency and all the reoccurrence of that character in strin
 #include<string>
 using namespace std;
 
-int main() {
-    string S, k, a, m;
-    int i, j, c, max;
-    //getting user input as string        
-    cin >> S; 
-    //initialising m with character "a"                                
-    m = "a";                         
-    max = 0;                     
-    for(j = 0; j < S.size(); j++) {
+void Lexicographically_largest_palindrome_subsequence(string String) {
+    string  assign, maxAscii;
+    int i, j, counter, maxFrequency;
+    //initialising maxAscii with character "a"                                
+    maxAscii = "a";                         
+    maxFrequency = 0;                     
+    for(j = 0; j < String.size(); j++) {
         //initialising c with 0         
-        c = 0;                             
-        for(i = 0; i < S.size(); i++) {
+        counter = 0;                             
+        for(i = 0; i < String.size(); i++) {
             //assigning value of element with index 'i' to a           
-            a = S[i];
+            assign = String[i];
             //this is for getting the lexicographically largest element (the one with largest ascii value)                  
-            if(a >= m)                       
-            	m = a;                     
+            if(assign >= maxAscii)                       
+            	maxAscii = assign;                     
         }
     }   
-    for(i = 0; i < S.size(); i++) {
-        a = S[i];                           
-        if(a == m) {
+    for(i = 0; i < String.size(); i++) {
+        assign = String[i];                           
+        if(assign == maxAscii) {
             //increament c when we find our lexicographically largest character in string more than one time                  
-            c++;
+            counter++;
             //for finding maximum frequency of character                              
-            if(c > max) 
-                max = c;                    
+            if(counter > maxFrequency) 
+                maxFrequency = counter;                    
         } 
     }
-    cout << max << " ";
-    for(i = 0; i < max; i++) {  
+    cout << maxFrequency << " ";
+    for(i = 0; i < maxFrequency; i++) {  
         //printing subsequence of lexicographically largest character as output                        
-        cout << m; 
+        cout << maxAscii; 
     }
+    return ;
+}
+int main() {
+    string inputString;
+    //getting user input as string        
+    cin >> inputString;
+    //calling function to perform the task
+    Lexicographically_largest_palindrome_subsequence(inputString);
     return 0;
 }
 

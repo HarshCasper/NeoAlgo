@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -14,6 +14,7 @@
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
+- [Array Manipulation](cp/Array_Manipulation.cpp)
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)

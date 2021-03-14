@@ -44,7 +44,7 @@ void binomialCoefTabulation(int n,int k){
 int main()
 {
     int n,k;
-    cout<<"Enter the value of n and k : "
+    cout<<"Enter the value of n and k : ";
     cin>>n>>k;
     vector<vector<int>>dp(n+1,vector<int>(k+1,-1));
     cout << "Memorization: Value of C(" << n << ", " << k << ") is "

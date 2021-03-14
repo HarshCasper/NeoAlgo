@@ -27,6 +27,7 @@
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+- [Singly Linked List](ds/SinglyLinkedList.py)
 
 
 ## Competitive Programming
@@ -200,6 +201,7 @@
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
+- [Strong Number](math/Strong_Number.py)
 
 ## Blockchain
 
@@ -234,5 +236,6 @@ _add list here_
 - [Longest substring without repeating character](other/longest_Substring.py)
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
+- [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

@@ -94,6 +94,7 @@
 ## Competitive Programming
 
 - [Anagram Checker](cp/anagram_checker.py)
+- [Crossword Puzzle](cp/Crossword_Puzzle.py)
 - [Find Least positive number](cp/findingLeastPositiveNumber.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
 - [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
@@ -150,9 +151,7 @@
 
 - [Coin Change Problem](dp/CoinChange.py)
 
-## Recursion
 
-- [Crossword Puzzle](cp/CrosswordPuzzle.py)
 ## Blockchain
 
 

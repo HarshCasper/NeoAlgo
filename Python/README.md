@@ -44,6 +44,7 @@
 - [Delete a node from linked list](cp/delete_node.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [Search Insert Position](cp/search_insert_position.py)
+- [Crossword Puzzle](cp/Crossword_Puzzle.py)
 
 ## Cryptography
 - [Affine Cipher](cryptography/AffineCipher.py)
@@ -94,7 +95,6 @@
 ## Competitive Programming
 
 - [Anagram Checker](cp/anagram_checker.py)
-- [Crossword Puzzle](cp/Crossword_Puzzle.py)
 - [Find Least positive number](cp/findingLeastPositiveNumber.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
 - [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)

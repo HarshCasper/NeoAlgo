@@ -1,3 +1,6 @@
+/* if you are given two nodes of a tree , this program will calculate 
+   the Lowest Common Ancestor(LCA) of those two nodes
+*/
 #include <bits/stdc++.h>
 using namespace std;
 vector<long long int> adj[100005];

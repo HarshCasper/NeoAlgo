@@ -42,6 +42,10 @@ _add list here_
 - [Stack](./ds/Stack.go)
 - [Stack using Queue](./ds/stack_using_queue.go)
 
+## Graphs
+
+- [Breadth First Search](./graphs/breadth_first_search.go)
+
 ## Dynamic Programming
 
 - [Stack](dp/stack.go)

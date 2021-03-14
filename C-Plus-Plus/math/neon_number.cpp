@@ -15,10 +15,11 @@ int square(int z)
 //Function that prints the sum of digits of a number
 int sum_of_digits(int y)
 {
-    int s = 0;
+    int s = 0,v;
     while (y != 0)
     {
-        s = s + (y % 10);
+	v=y%10;
+        s = s + v;
         y = y / 10;
     }
     return s;

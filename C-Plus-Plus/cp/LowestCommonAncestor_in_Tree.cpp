@@ -64,7 +64,9 @@ int main()
    where every query contains two nodes and we need to print the LCA between them.
     */
     int total_no_node;
+    cout<<"Enter the Total number of nodes in a tree\n";
     cin >> total_no_node;
+    cour<<"Enter the parent node of every node starting fron 2\n";
     for (int i = 2; i <= total_no_node; i++)
     {
         int node1;
@@ -84,6 +86,7 @@ int main()
         int node1, node2;
         cin >> node1 >> node2;
         int lca = LCA(node1, node2);
+        cout<<"LCA of Numbers "<<node1<<" and "<<node2<<" is : ";
         cout << lca << "\n";
     }
 

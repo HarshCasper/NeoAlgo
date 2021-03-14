@@ -39,6 +39,7 @@ _add list here_
 - [Bubble Sort](sort/BubbleSort.cs)
 - [Insertion Sort](sort/InsertionSort.cs)
 - [Quick Sort](sort/QuickSort.cs)
+- [Merge Sort](sort/MergeSort.cs)
 
 ## Machine Learning
 

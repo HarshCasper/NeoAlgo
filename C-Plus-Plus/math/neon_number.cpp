@@ -18,7 +18,7 @@ int sum_of_digits(int y)
     int s = 0,v;
     while (y != 0)
     {
-	v=y%10;
+	  v=y%10;
         s = s + v;
         y = y / 10;
     }

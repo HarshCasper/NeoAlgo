@@ -24,36 +24,36 @@ void parenthcheck(string s)
         	}
 		else if (s[i]==')' || s[i]==']' || s[i]=='}')
      		{
-           	/*Closed parenthesis encountered must be balanced by an open parenthesis already
-		present in the stack*/
-            	if (oper.empty())
-            	{
-                	cout<<"Unbalanced Parenthesis";
-                	return;
-            	}
-            	else
-            	{
-                	/*Stack contains open parenthesis, one of which has been balanced
-			Pop one parenthesis out*/
-                	if ((s[i]==')' && oper.top()=='(') || (s[i]==']' && oper.top()=='[') || (s[i]=='}' && oper.top()=='{'))
-                    	oper.pop();
-                	else
-                	{
-                    	/*Stack contains no open parenthesis. So closed parenthesis cannot be balanced*/
-                    	cout<<"Unbalanced Parenthesis";
-                    	return;
-                	}
-            	}
-        }
-        else
-        {
-            	continue;
-        }
+           		/*Closed parenthesis encountered must be balanced by an open parenthesis already
+			present in the stack*/
+            		if (oper.empty())
+            		{
+                		cout<<"Unbalanced Parenthesis";
+                		return;
+            		}
+            		else
+            		{
+                		/*Stack contains open parenthesis, one of which has been balanced
+				Pop one parenthesis out*/
+                		if ((s[i]==')' && oper.top()=='(') || (s[i]==']' && oper.top()=='[') || (s[i]=='}' && oper.top()=='{'))
+                    		oper.pop();
+                		else
+                		{
+                    		/*Stack contains no open parenthesis. So closed parenthesis cannot be balanced*/
+                    		cout<<"Unbalanced Parenthesis";
+                    		return;
+                		}
+        		}
+        	}
+        	else
+        	{
+            		continue;
+        	}
 	}
     	/*Check if we have open parenthesis remaining*/
     	if (oper.empty())
     	{
-        cout<<"Balanced Parenthesis";
+        	cout<<"Balanced Parenthesis";
     	}
     	else
     	{

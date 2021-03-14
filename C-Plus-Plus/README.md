@@ -134,6 +134,7 @@
 - [Bead Sort](sort/Bead_Sort.cpp)
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
+- [Circle Sort](sort/circle_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
 - [Counting Sort](sort/counting_sort.cpp)

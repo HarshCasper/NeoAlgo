@@ -1,8 +1,8 @@
 /*
 Check for balanced parenthesis
 ==============================
-Given an expression containing parenthesis, check if it is well-formed or balanced. Abalanced parenthesis means for every opening bracket there must be equivalent closing 
-brackets.
+Given an expression containing parenthesis, check if it is well-formed or balanced.
+A balanced parenthesis means for every opening bracket there must be equivalent closing brackets.
 Application: Stack data structure
 Author: @gargvader
 Edit by: @Mohim-Singla
@@ -10,23 +10,22 @@ Edit by: @Mohim-Singla
 #include<iostream>
 #include <stack>
 using namespace std;
-//Function for Parenthesis matching.
+/*Function for Parenthesis matching.*/
 void parenthcheck(string s)
 {
-	//Initializing a vector "oper"
+	/*Initializing a vector "oper"*/
 	stack<char> oper;
 	for(int i=0;i<s.length();i++)
 	{
-		// Open parenthesis is always pushed into the stack        
-       		if (s[i]=='(' || s[i]=='[' || s[i]=='{')
+		/*Open parenthesis is always pushed into the stack*/
+		if (s[i]=='(' || s[i]=='[' || s[i]=='{')
        		{
          		oper.push(s[i]);
         	}
-		d
-       		else if (s[i]==')' || s[i]==']' || s[i]=='}')
+		else if (s[i]==')' || s[i]==']' || s[i]=='}')
      		{
-           	// Closed parenthesis encountered must be balanced by an open parenthesis already
-		// present in the stack
+           	/*Closed parenthesis encountered must be balanced by an open parenthesis already
+		present in the stack*/
             	if (oper.empty())
             	{
                 	cout<<"Unbalanced Parenthesis";
@@ -34,13 +33,13 @@ void parenthcheck(string s)
             	}
             	else
             	{
-                	// Stack contains open parenthesis, one of which has been balanced
-			// Pop one parenthesis out
+                	/*Stack contains open parenthesis, one of which has been balanced
+			Pop one parenthesis out*/
                 	if ((s[i]==')' && oper.top()=='(') || (s[i]==']' && oper.top()=='[') || (s[i]=='}' && oper.top()=='{'))
                     	oper.pop();
                 	else
                 	{
-                    	// Stack contains no open parenthesis. So closed parenthesis cannot be balanced
+                    	/*Stack contains no open parenthesis. So closed parenthesis cannot be balanced*/
                     	cout<<"Unbalanced Parenthesis";
                     	return;
                 	}
@@ -51,7 +50,7 @@ void parenthcheck(string s)
             	continue;
         }
 	}
-    	// Check if we have open parenthesis remaining
+    	/*Check if we have open parenthesis remaining*/
     	if (oper.empty())
     	{
         cout<<"Balanced Parenthesis";
@@ -61,14 +60,14 @@ void parenthcheck(string s)
 		cout<<"Unbalanced Parenthesis";
     	}
 }
-// Main Function
-int main() 
+/*Main Function*/
+int main()
 {
-	// Input the string
+	/*Input the string*/
 	string s;
 	cout<<"enter string: ";
 	cin>>s;
-	//Calling out the function
+	/*Calling out the function*/
 	parenthcheck(s);
 }
 /*

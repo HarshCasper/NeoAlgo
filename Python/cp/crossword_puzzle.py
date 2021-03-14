@@ -16,13 +16,13 @@ def solveCrossword(crossword0, words0, index0, wordfill0):
         for j0 in range(10):
             if crossword0[i0][j0] in ('-', words0[index0][0]):
                 # try to insert it vertically
-                inserted = insertVerPossible(i0, j0, crossword0, words0, index0, wordfill0)
+                inserted = insertVerPoss(i0, j0, crossword0, words0, index0, wordfill0)
                 if inserted:
                     solveCrossword(crossword0, words0, index0+1, wordfill0)
                 if inserted:
                     removeVertically(i0, j0, crossword0, words0, index0, wordfill0)
                 # try to insert it horizontally
-                inserted = insertHorPossible(i0, j0, crossword0, words0, index0, wordfill0)
+                inserted = insertHorPoss(i0, j0, crossword0, words0, index0, wordfill0)
                 if inserted:
                     solveCrossword(crossword0, words0, index0 + 1, wordfill0)
                 if inserted:
@@ -37,11 +37,11 @@ def removeHorizontally(i1, j1, crossword1, words1, index1, wordfill1):
         j1 = j1+1
 
 
-def insertHorPossible(i2, j2, crossword2, words2, index2, wordfill2):
+def insertHorPoss(i2, j2, crossword2, words2, index2, wordfill2):
     word = words2[index2]
     wordIndex = 0
     initial_j = j2
-    while j2<10:
+    while j2 < 10:
         # if(crossword[i][j]=='+'):
         #     return False
         if crossword[i2][j2] == '-':
@@ -50,7 +50,7 @@ def insertHorPossible(i2, j2, crossword2, words2, index2, wordfill2):
             wordIndex = wordIndex+1
         else:
             return False
-        if wordIndex==len(word):
+        if wordIndex == len(word):
             for x2 in enumerate(word):
                 if crossword2[i2][initial_j] == word[x2]:
                     wordIndex = wordIndex+1
@@ -63,11 +63,11 @@ def insertHorPossible(i2, j2, crossword2, words2, index2, wordfill2):
     return False
 
 
-def insertVerPossible(i3, j3, crossword3, words3, index3, wordfill3):
+def insertVerPoss(i3, j3, crossword3, words3, index3, wordfill3):
     word = words3[index3]
     wordIndex = 0
     initial_i = i3
-    while i3<10:
+    while i3 < 10:
         # if(crossword[i][j]=='+'):
         #     return False
         if crossword3[i3][j3] == '-':

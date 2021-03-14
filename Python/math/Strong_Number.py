@@ -35,6 +35,7 @@ else :
 
 # Time Complexity : O(log n)
 # Space Complexity : O(1)
+
 # TestCase 1:
 # Enter a number greater than zero : 65
 # Number 65 is not a Strong Number

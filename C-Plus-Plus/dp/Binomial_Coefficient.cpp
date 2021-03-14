@@ -27,13 +27,13 @@ int binomialCoeffMemorization(int n,int k,vector<vector<int>>&dp){
 }
 void binomialCoefTabulation(int n,int k){
     vector<vector<int>>dp2(n+1,vector<int>(k+1,-1));
-    for(int i=0;i<=n;i++){
-        for(int j=0;j<=k;j++){
-            if(j<=i){
-            if(j==0||i==j)
-            dp2[i][j]=1;
+    for(int row=0;row<=n;row++){
+        for(int col=0;col<=k;col++){
+            if(col<=row){
+            if(col==0||row==col)
+            dp2[row][col]=1;
             else{
-                dp2[i][j]=dp2[i-1][j-1]+dp2[i-1][j];
+                dp2[row][col]=dp2[row-1][col-1]+dp2[row-1][col];
             }
             }
         }
@@ -47,8 +47,7 @@ int main()
     cout<<"Enter the value of n and k : ";
     cin>>n>>k;
     vector<vector<int>>dp(n+1,vector<int>(k+1,-1));
-    cout << "Memorization: Value of C(" << n << ", " << k << ") is "
-         << binomialCoeffMemorization(n, k,dp) << endl;
+    cout << "Memorization: Value of C(" << n << ", " << k << ") is "<< binomialCoeffMemorization(n, k,dp) << endl;
     binomialCoefTabulation(n,k);
     return 0;
 }

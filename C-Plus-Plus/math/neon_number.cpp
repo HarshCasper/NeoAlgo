@@ -7,18 +7,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//Function that prints the square of a number
-int square(int z)
-{
-    return z * z;
-}
 //Function that prints the sum of digits of a number
 int sum_of_digits(int y)
 {
     int s = 0,v;
     while (y != 0)
     {
-	  v=y%10;
+        v=y%10;
         s = s + v;
         y = y / 10;
     }
@@ -26,7 +21,7 @@ int sum_of_digits(int y)
 }
 bool Neon(int n)
 {
-    int sq = square(n);
+    int sq = pow(n,2);
     int result = sum_of_digits(sq);
     //If sum of digits become equal to the number
     if (result == n)
@@ -48,12 +43,9 @@ int main()
 }
 
 /*
-		Input: 1 10000
-		
-		Output: 1 9
-		
+		Input: 1 10000	
+		Output: 1 9		
 */
-
 /*
 		Time Complexity:O(nlogn) //where n is the range of a to b.
 		Space Complexity:O(1)

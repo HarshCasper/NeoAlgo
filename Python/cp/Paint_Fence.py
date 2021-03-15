@@ -5,12 +5,16 @@ Problem:
 Given a fence with n posts and k colors, find out the number of ways of painting the fence 
 such that at most 2 adjacent posts have the same color.
 
+Time Complexity  O(n)
+
+
 Input:
 n : number of posts
 k : number of colors
 
 Output:
 result: number of ways of painting considering the condition above
+
 
 """
 

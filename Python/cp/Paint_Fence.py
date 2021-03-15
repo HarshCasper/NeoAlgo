@@ -66,4 +66,3 @@ if __name__ == "__main__":
 # Enter k,Number of Colors
 # 3
 # Number of Possiblities: 180
-

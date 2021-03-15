@@ -8,7 +8,7 @@ if __name__ == '__main__':
     # The numbers for password
     digit_1 = string.digits
     # The symbols for password
-    symbol1 = string.punctuation     
+    symbol1 = string.punctuation
     password_len = int(input(("Entre lenght of the Password That You Want:")))
     if password_len < 4:  # Condtions for not printing password
         print("Make your password strong. please entre greater to 4")

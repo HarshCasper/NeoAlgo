@@ -38,6 +38,7 @@ _add list here_
 - [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
 - [Queue using Stack](./ds/queue_using_stack.go)
 - [Singly Linked List](./ds/singly_linked_list.go)
+- [Singly Linked List ~ Reversable](./ds/singly_linked_list_reversed.go)
 - [Stack](./ds/Stack.go)
 - [Stack using Queue](./ds/stack_using_queue.go)
 
@@ -45,6 +46,8 @@ _add list here_
 
 - [Stack](dp/stack.go)
 - [Longest Substring without Repeating Characters](./dp/longest_substring.go)
+- [Longest Common Subsequence](./dp/longest_common_subsequence.go)
+- [Coin Change](./dp/coin_change_problem.go)
 
 ## Machine Learning
 

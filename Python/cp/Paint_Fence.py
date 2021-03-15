@@ -48,8 +48,8 @@ if __name__ == "__main__":
         print("Number of Possiblities:", result)
 
 
-"""
-Sample Input/Output:
+
+""" Sample Input/Output:
 
 Enter n,Number of Posts
 3
@@ -67,5 +67,5 @@ Enter n,Number of Posts
 5
 Enter k,Number of Colors
 3
-Number of Possiblities: 180
-"""
+Number of Possiblities: 180 """
+

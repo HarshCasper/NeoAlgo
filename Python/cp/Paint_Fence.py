@@ -22,9 +22,8 @@ result: number of ways of painting
 
 
 def paint_fence(n, k):
-    if n<2 or k<(n/2) :
-        return -1       # Here Number of posts is not enough or
-                        # Number of colors are not enough to obey the condition
+    if n < 2 or k < (n/2) :
+        return -1       # n is not enough or k is not enough to obey the condition
     total = [0]*(n-1)
     same = [0]*(n-1)
     diff = [0]*(n-1)
@@ -35,7 +34,7 @@ def paint_fence(n, k):
     for i in range(1, n-1):
         same[i] = diff[i-1]
         diff[i] = total[i-1]*(k-1)
-        total[i] = same[i]+diff[i]    
+        total[i] = same[i]+diff[i]
     return total[n-2]
 
 

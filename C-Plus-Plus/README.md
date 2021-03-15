@@ -236,6 +236,16 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 
+## Sliding Window
+
+- [Maximum sum subarray of size k](sliding_window/max_sum_subarray_of_size_k.cpp)
+- [1st negative number in every window size of k](sliding_window/1st_negative_no_in_every_window_of_size_k.cpp)
+- [Count occurence of Anagram](sliding_window/count_occurences_of_anagrams.cpp)
+- [Maximum of all subarray of size k](sliding_window/maximum_of_all_subarray_of_size_k.cpp)
+- [Largest subarray of sum k](sliding_window/largest_subarray_of_sum_k.cpp)
+- [largest substring with k distinct character](sliding_window/longest_substring_with_k_unique_characters.cpp)
+- [length of largest substring with no repeating characters](sliding_window/length_of_longest_substring_with_no_repeating_characters.cpp)
+
 ## Blockchain
 
 _add list here_

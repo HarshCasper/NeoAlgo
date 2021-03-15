@@ -41,9 +41,11 @@
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
+- [Prefix Sum Array](cp/prefix_sum.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
+- [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
@@ -51,15 +53,20 @@
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
 - [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
+- [Replace Pi using recursion](cp/replace_pi.cpp)
+- [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
+- [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
 
 ## Data Structures
 
+- [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
@@ -87,12 +94,15 @@
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
+- [Priority Queue using Array](ds/priorityQ_array.cpp)
+
 
 ## Graphs
 
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
+- [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
@@ -155,6 +165,7 @@
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
+- [Wiggle Sort](sort/wiggle_sort.cpp)
 
 ## Stack based problems
 
@@ -167,6 +178,7 @@
 - [Previous Greater Element](stack/Previous_Greater_Element.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
+- [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 
 ## Heap based problems
 
@@ -187,6 +199,7 @@ _add list here_
 - [Armstrong Number](math/armstrong_number.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Catalan number](math/catalan_num.cpp)
+- [Difference_of_Two_Strings](math/Difference_of_Two_Strings.cpp)
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
@@ -199,6 +212,7 @@ _add list here_
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
+- [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 
 ## Dynamic Programming
 
@@ -252,6 +266,7 @@ _add list here_
 
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
+- [Dynamic Huffman](other/DynamicHuffman.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
@@ -265,6 +280,7 @@ _add list here_
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
+- [Sliding Window Technique](other/Calculate_max_sum_of_k_consecutive_elements.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)

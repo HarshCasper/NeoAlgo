@@ -29,13 +29,15 @@ _add list here_
 
 ## Competitive programming
 
-* [Dutch National Flag](cp/DutchFlag.java)
-* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
-* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
-* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
-* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
-* [Target Sum Triplets](cp/target_sum_triplets.java)
-* [ZigZag](cp/Zig_Zag.java)
+- [Reverse words in String](cp/Reverse_words_in_String.java)
+- [Anagram String](cp/Anagram.java)
+- [Dutch National Flag](cp/DutchFlag.java)
+- [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+- [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+- [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+- [Target Sum Triplets](cp/target_sum_triplets.java)
+- [ZigZag](cp/Zig_Zag.java)
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
@@ -101,6 +103,7 @@ _add list here_
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
+- [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
@@ -113,11 +116,10 @@ _add list here_
 - [Implementation of Stack using Queue](ds/StackUsingQueue.java)
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
+- [Trie Insert and Search String](ds/Trie_with_Hashmap.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
-
-
 
 ## Graphs
 
@@ -151,6 +153,7 @@ _add list here_
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [Neon number](Neon_number.java)
 
 ## Dynamic Programming
 
@@ -238,4 +241,5 @@ _add list here_
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
-
+- [Infix to Prefix Expression](other/InfixtoPrefix.java)
+- [Infix to Postfix Expression](other/InfixToPostfix.java)

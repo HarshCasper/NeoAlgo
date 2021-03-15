@@ -203,6 +203,7 @@ _add list here_
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 - [Shell Sort](sort/ShellSort.java)
 - [Sleep Sort](sort/SleepSort.java)
+- [Comb Sort](sort/CombSort_implementation_in_java.java)
 
 ## Machine Learning
 

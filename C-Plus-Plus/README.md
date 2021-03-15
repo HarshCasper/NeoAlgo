@@ -11,6 +11,7 @@
 
 ## Competitive Programming
 
+- [Cosmic number](cp/cosmic number.cpp)
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)

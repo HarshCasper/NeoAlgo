@@ -102,6 +102,7 @@
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
+- [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)

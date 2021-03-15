@@ -73,6 +73,7 @@
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Avl Tree](ds/Avl_Tree.c)
 
 ## Searching
 
@@ -135,7 +136,7 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
-- [Neon Number](math/Neon_number.c) 
+- [Neon Number](math/Neon_number.c)
 
 ## Operating System
 

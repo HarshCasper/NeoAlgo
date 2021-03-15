@@ -104,6 +104,7 @@
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 - [Depth First Search Algorithm](graphs/DFS.cpp)
 - [Depth Of Tree](graphs/Depth_of_tree.cpp)
+- [Detect Cycle of an Undirected Graph](graphs/Detect_cycle_of_a_undirected_graph.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
 - [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)

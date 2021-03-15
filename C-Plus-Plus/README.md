@@ -45,6 +45,7 @@
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
+- [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
@@ -61,6 +62,7 @@
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
+- [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
 
 ## Data Structures
 
@@ -100,6 +102,7 @@
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
+- [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)

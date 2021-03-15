@@ -254,6 +254,9 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 
+## Sliding Window
+- [Maximum sum subarray of size k](sliding_window/max_sum_subarray_of_size_k.cpp)
+
 ## Blockchain
 
 _add list here_

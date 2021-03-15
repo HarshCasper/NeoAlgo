@@ -29,7 +29,6 @@ bool canplacecows(int stalls[], int n, int c, int min_sep)
 	return false;
 }
 
-// Time Complexity : O(nlogn)
 int main()
 {
 	int stalls[100];
@@ -74,4 +73,7 @@ Output : 3
 2) Input :
 6 4
 1 3 5 7 8 10
-Output : 2  */
+Output : 2 
+
+Time Complexity : O(nlogn)
+*/

@@ -66,6 +66,9 @@ public class FirstNegativeNumber {
         System.out.println("Enter size of window: ");
 	    int K = Integer.parseInt(buf.readLine()); 
 	    
+        //Printing output String 
+        System.out.println("String of first negative number for each subarray of size "
+                        + K + ": "); 
         System.out.println(findFirstNegativeNumber(numArray, K)); 
 	}
 }
@@ -85,6 +88,7 @@ public class FirstNegativeNumber {
     Enter size of window: 
     3
     OUTPUT
+    String of first negative number for each subarray of size 3:
     -1 -1 -1 0 -3 -3 -3 -1
 
     INPUT
@@ -95,6 +99,7 @@ public class FirstNegativeNumber {
     Enter size of window: 
     5
     OUTPUT
+    String of first negative number for each subarray of size 5:
     -1 -2 -2 -2 -2 
 
  */

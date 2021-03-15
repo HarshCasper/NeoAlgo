@@ -102,6 +102,9 @@
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
+- [Linear Probing](ds/linear-probing.cpp)
+- [Quadratic Probing](ds/quadratic-probing.cpp)
+- [Double Hashing](ds/double-hashing.cpp)
 
 
 ## Graphs

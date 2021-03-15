@@ -1,35 +1,32 @@
-/*
-    Here I use recursion to find all permutation of a string.
-    This method is useful for small length's strings because its time complaxity is in terms of n!  
-    and for non repeated character in string.
-*/
+/* Here I use recursion to find all permutation of a string.
+This method is useful for for non repeated character in string and small length's strings because its time complaxity is in terms of n! .  */
+
 #include<bits/stdc++.h>
 using namespace std;
 
-void rec(string s , int left_index , int right_index){
-    // here l is starting index and r is last index of string
+void recursion (string s , int left_index , int right_index){
     if( left_index == right_index ) {
-        // this is base case where recursion is going to stop
-        cout<<s<<"  ";
-        
+       cout<<s<<"  ";
     }
     // here my approach is to fix a character and find all permutation of next all character 
     // and fixing of characters is done by swaping
     for(int i = left_index ; i <= right_index ; i++) {
         swap(s[left_index] , s[i]) ;
-        rec(s , left_index + 1 , right_index) ; // after fixing of characters we find all permutation of rest all characters by calling same function
-        swap(s[left_index] , s[i]) ;  // here we get again initial string and again this process is start
+        recursion(s , left_index + 1 , right_index) ; 
+        swap(s[left_index] , s[i]) ;  
     }
 }
 
 int main() {
     string S ;
     cin>>S;
-    rec(S , 0 , S.size() - 1 ) ;
-
+    recursion(S , 0 , S.size() - 1 ) ;
 }
 
-/*
+/*  Sample input : ab 
+    sample output : ab , ba
+
+    Test cases
     Input_1:xyz
     Output_1 : xyz  xzy  yxz  yzx  zyx  zxy
 
@@ -44,10 +41,7 @@ int main() {
               dbeca  dcbae  dcbea  dcabe  dcaeb  dceab  dceba  dacbe  daceb  dabce  dabec  
               daebc  daecb  decab  decba  deacb  deabc  debac  debca  ebcda  ebcad  ebdca  
               ebdac  ebadc  ebacd  ecbda  ecbad  ecdba  ecdab  ecadb  ecabd  edcba  edcab  
-              edbca  edbac  edabc  edacb  eacdb  eacbd  eadcb  eadbc  eabdc  eabcd 
-*/
+              edbca  edbac  edabc  edacb  eacdb  eacbd  eadcb  eadbc  eabdc  eabcd  */
 
-/*
-    Time complaxity : O(n * n!) where n is length of string
-    Space complaxity : o(n * n!)
-*/
+/* Time complaxity : O(n * n!) where n is length of string
+    Space complaxity : o(n * n!) */

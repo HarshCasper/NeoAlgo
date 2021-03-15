@@ -73,6 +73,7 @@ _add list here_
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 - [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
+- [Count Occurrences of Anagrams](cp/CountAnagrams.java)
 
 ## Cryptography
 

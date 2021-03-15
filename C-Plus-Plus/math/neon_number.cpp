@@ -42,7 +42,6 @@ int main()
         if (Neon(i) == true)
             cout << i << " ";
 }
-
 /*
 		Input: 1 10000	
 		Output: 1 9		

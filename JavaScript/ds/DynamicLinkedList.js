@@ -90,6 +90,28 @@ class LinkedList {
     }
   }
 
+// Removing the element node form linked list
+  remove(index) {
+    if (index === 1) {
+      this.head = this.head.next;
+      this.length--;
+      return;
+    }
+
+    // Traversing to that particular node element
+    let currentNode = this.traverseToIndex(index - 1);
+    if (index === this.length) {
+      currentNode.next = null;
+      this.length--;
+      return this;
+    }
+
+    currentNode.next = currentNode.next.next;
+    this.length--;
+
+    return this;
+  }
+
 // Displaying all the nodes of linked list
   printList() {
     const array = [];
@@ -119,6 +141,7 @@ do {
   console.log("2. Append element in the Linked List".insert);
   console.log("3. Prepend element in the Linked List".insert);
   console.log("4. Insert at any position in the Linked List".insert);
+  console.log("5. Delete element from Linked List".delete);
 
   choice = +prompt("Enter your choice - ");
 
@@ -151,6 +174,19 @@ do {
         return console.log("You know this is wrong, Bbye!\n".wrong);
       myLinkedList.insert(index, value);
       console.log("After Insertion Linked List - ", myLinkedList.printList());
+      break;
+    
+    case 5:
+      if (myLinkedList.length === 0) {
+        return console.log("404, you can't remove anything from void".wrong);
+      }
+  
+      index = +prompt("Enter position of element - ");
+      if (index <= 0 || index > myLinkedList.length)
+        return console.log("You know this is wrong, Bbye!\n".wrong);
+  
+      myLinkedList.remove(index);
+      console.log("After Deletion Linked List - ", myLinkedList.printList());
       break;
 
     default:

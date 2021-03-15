@@ -3,7 +3,8 @@
 // If the key and array element at index are equal then the key is present at position index + 1.        
 // If the key is less than array element at index, then search the left sub-tree to index.
 // If the given key is greater than the array element at index, then search the right sub-tree to index.  
-// If the key is not found, repeat the steps from Step 1 to Step 5 as long as index = 0, that is, Fibonacci number >= array_size. After each iteration the size of array array_size is reduced.
+// If the key is not found, repeat the steps from Step 1 to Step 5 as long as index = 0, that is, Fibonacci number >= array_size. 
+// After each iteration the size of array array_size is reduced.
 
 package Java;
 import java.util.*;

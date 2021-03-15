@@ -34,12 +34,19 @@ void bfs(queue<int>& q, vector<bool>& visited, vector<int>& parent, vector<int> 
         // mark it visited by assigning true value
         if (!visited[i])
         {
+            // set current as parent of this vertex
             parent[i] = current;
+            
+            // Mark this vertex visited
             visited[i] = true;
+            
+            // Push to the end of queue
             q.push(i);
         }
     }
 }
+
+// Print the path from source to target
 void printShortestPath(vector<int>& parentF, vector<int>& parentB, int sv, int tv, int inode)
 {
     vector<int> path;

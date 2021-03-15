@@ -36,14 +36,14 @@ int main()
     cin >> a >> b;
 
     // Printing Neon Numbers according to the range
-    cout<<"Neon numbers in between "<<a<<" to "<<b<<" are : \n";
+    cout<<"Neon numbers in between "<<a<<" to "<<b<<" are : ";
     for (int i = a; i <= b; i++)
         if (Neon(i) == true)
             cout << i << " ";
 }
 /*
-		Input: 1 10000	
-		Output: 1 9		
+   Input: Enter the range:1 10000
+   Output: Neon numbers in between 1 to 10000 are : 1 9
 */
 /*
 		Time Complexity:O(nlogn) //where n is the range of a to b.

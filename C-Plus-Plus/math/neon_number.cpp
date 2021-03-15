@@ -46,6 +46,6 @@ int main()
    Output: Neon numbers in between 1 to 10000 are : 1 9
 */
 /*
-		Time Complexity:O(nlogn) //where n is the range of a to b.
-		Space Complexity:O(1)
+   Time Complexity:O(nlogn) //where n is the range of a to b.
+   Space Complexity:O(1)
 */

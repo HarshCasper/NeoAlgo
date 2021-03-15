@@ -193,6 +193,7 @@ _add list here_
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
+- [Happy Number](math/Happy_Number.cpp)
 
 ## Dynamic Programming
 

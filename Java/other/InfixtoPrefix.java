@@ -7,8 +7,6 @@
  * Then, we obtain the postfix of the reversed expression.
  * Now, we reverse this postfix expression to obtain the Prefix expression.
  * 
- * Time Complexity: O(n^2)
- * Space Complexity: O(n)
  * Author: iamvs-2002
  */
 
@@ -148,4 +146,6 @@ public class InfixtoPrefix
  * A * B + C / D
  * Prefix Expression: +*A  B / C  D
  * 
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(n)
  */

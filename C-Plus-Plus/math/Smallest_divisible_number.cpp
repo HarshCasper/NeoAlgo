@@ -26,7 +26,7 @@ int main()
 	long long n;
 	cout<<"Enter the number:";
 	//Taking input
-    cin>>n;             
+	cin>>n;             
 	cout << lcm(n); 
 	return 0; 
 } 

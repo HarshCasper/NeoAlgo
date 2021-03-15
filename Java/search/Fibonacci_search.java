@@ -1,12 +1,9 @@
-/*
-* Find a Fibonacci number that is greater than or equal to the size of the array in which we are searching for the key.
-* Compare the key with the predecessor of the Fibonacci number obtained in Step 1 and store it in index.
-* If the key and array element at index are equal then the key is present at position index + 1.        
-* If the key is less than array element at index, then search the left sub-tree to index.
-* If the given key is greater than the array element at index, then search the right sub-tree to index.  
-* If the key is not found, repeat the steps from Step 1 to Step 5 as long as index = 0, that is, Fibonacci number >= array_size. After each iteration the size of array array_size is reduced.
-                
-*/
+// Find a Fibonacci number that is greater than or equal to the size of the array in which we are searching for the key.
+// Compare the key with the predecessor of the Fibonacci number obtained in Step 1 and store it in index.
+// If the key and array element at index are equal then the key is present at position index + 1.        
+// If the key is less than array element at index, then search the left sub-tree to index.
+// If the given key is greater than the array element at index, then search the right sub-tree to index.  
+// If the key is not found, repeat the steps from Step 1 to Step 5 as long as index = 0, that is, Fibonacci number >= array_size. After each iteration the size of array array_size is reduced.
 
 package Java;
 import java.util.*;
@@ -83,6 +80,6 @@ public class FibonacciSearch {
 
   COMPLEXITY
   Time complexity O(log n) 
- 
+  Space Complexity O(1)
  */
 

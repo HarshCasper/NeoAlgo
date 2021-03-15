@@ -37,7 +37,7 @@ int main()
     cin >> a >> b;
 
     // Printing Neon Numbers according to the range
-    cout<<"Neon numbers from "<<a<<" to "<<b<<" are : \n";
+    cout<<"Neon numbers in between "<<a<<" to "<<b<<" are : \n";
     for (int i = a; i <= b; i++)
         if (Neon(i) == true)
             cout << i << " ";

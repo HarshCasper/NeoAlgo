@@ -9,7 +9,7 @@ Enter edge 2 : 2 3
 Enter edge 3 : 1 2
 Enter edge 4 : 1 3
 Output:
-Non Cyclic
+Cyclic
 */
 // Time Complexity : O(n+e)
 #include<iostream>

@@ -172,6 +172,7 @@ _add list here_
 ## Searching
 
 - [Binary Search](search/Binary_search.java)
+- [Fibonacci Search](search/Fibonacci_search.java)
 - [Interpolation Search](search/Interpolation_search.java)
 - [Ternary Search](search/TernarySearch.java)
 - [Jump Search](search/jumpSearch.java)

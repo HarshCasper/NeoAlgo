@@ -25,7 +25,8 @@ int main()
 { 
 	long long n;
 	cout<<"Enter the number:";
-    cin>>n;             //Taking input
+	//Taking input
+    cin>>n;             
 	cout << lcm(n); 
 	return 0; 
 } 
@@ -33,9 +34,13 @@ int main()
 /*
 ##Example :
 
-Input : n = 4
-Output : 12
+1.Input : Enter the number: 4
+  Output: 12
+
 Explanation : 12 is the smallest numbers divisible by all numbers from 1 to 4
+
+2.Input : Enter the number: 6
+  Output: 60
 
 ##Time Complexity:O(nlogn)
 ##Space Complexity:O(1)								 

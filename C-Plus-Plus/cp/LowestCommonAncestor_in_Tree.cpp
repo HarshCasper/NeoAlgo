@@ -1,5 +1,8 @@
 /* if you are given two nodes of a tree , this program will calculate 
    the Lowest Common Ancestor(LCA) of those two nodes
+   Definition of LCA : 
+   Let T be a rooted tree. The lowest common ancestor between two nodes n1 and n2 is defined 
+   as the shared ancestor of n1 and n2 that is located farthest from the root T. 
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -82,8 +85,10 @@ int main()
     // Assuming 1 to the root node , as root node has no parent so we
     // consider it as 0.
     calculate_parent_and_height_node(1, 0);
+    cout<<"Enter Total Number of queries\n";
     int query;
     cin >> query;
+   cout<<"Enter two nodes for each query \n";
     while (query-- > 0)
     {
         int node1, node2;
@@ -97,17 +102,21 @@ int main()
 }
 
 /* SAMPLE INPUT :
+    Enter the Total number of nodes in a tree
     5 
+    Enter the parent node of every node starting fron 2
     1 1 3 3
+    Enter Total Number of queries
     3
+    Enter two nodes for each query
     4 5
     2 5
     1 4
 */
 /* Sample OUPUT :
-   3
-   1
-   1
+   LCA of Numbers 4 and 5 is 3
+   LCA of Numbers 2 and 5 is 1
+   LCA of Numbers 1 and 4 is 1
 */
 /* Time complexity Ansalysis : 
    Building of Tree takes O(N) time Complexity 

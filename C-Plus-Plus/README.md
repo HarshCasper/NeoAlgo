@@ -222,6 +222,7 @@ _add list here_
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
+- [Number is sparse or not](math/Number_is_sparse_or_not.cpp)
 
 ## Dynamic Programming
 

@@ -16,7 +16,6 @@ int main()
 		cin >> x;
 		arr[i] = x;
 	}
-
 	cout << nobleint(arr, num);
 	return 0;
 }
@@ -40,7 +39,6 @@ int nobleint(int arr[], int num)
 			break;
 		}
 	}
-
 	if (x == 0)
 		return (-1);
 }
@@ -54,5 +52,9 @@ Enter the elements:7 3 9 81
 Enter the number of elements:3
 Enter the elements:2 2 2
 -1
+
+Complexities
+Time Complexity:O(nlogn)
+Space Complexity:O(1)
 */
 

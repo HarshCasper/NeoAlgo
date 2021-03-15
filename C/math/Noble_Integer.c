@@ -55,5 +55,9 @@ Enter the elements:7 3 9 81
 Enter the number of elements:3
 Enter the elements:2 2 2
 -1
+
+Complexities
+Time Complexity:O(n^2)
+Space Complexity:O(1)
 */
 

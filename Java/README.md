@@ -116,7 +116,7 @@ _add list here_
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
-- [Trie](ds/Trie.java)
+
 
 
 ## Graphs
@@ -236,4 +236,4 @@ _add list here_
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
-
+- [Swapping nodes in a linkedlist](other/swap_nodes.java)

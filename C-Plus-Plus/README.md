@@ -204,6 +204,7 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
+- [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)

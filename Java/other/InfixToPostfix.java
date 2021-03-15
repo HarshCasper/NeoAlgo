@@ -1,5 +1,10 @@
 /**
- * Infix to Prefix Expression
+ * Infix to Postfix Expression
+ *
+ * This program converts an infix expression entered by the user
+ * into the Postfix expression.
+ * The program uses a stack to keep the track of the operators and
+ * paranthesis of the input expression.
  *
  * Author: iamvs-2002
  */
@@ -25,11 +30,6 @@ public class InfixToPostfix
 
     static int priority(char c)
     {
-        /**
-         * '+' and '-' have priority=1
-         * '*' and '/' have priority=2
-         * '^' has priority=3
-         */
         switch (c)
         {
             case '+':
@@ -49,7 +49,6 @@ public class InfixToPostfix
 
     private String infixtopostfix(String expression)
     {
-        //initially an empty string
         String result = "";
 
         Stack<Character> stack = new Stack<>();
@@ -58,7 +57,6 @@ public class InfixToPostfix
         for (i = 0; i < expression.length() ; i++) 
         {
             char c = expression.charAt(i);
-            //check if char is operator or operand
             if(priority(c)>0)
             {
                 //if the topmost operator in the stack has a priority greater than or equal to c
@@ -79,17 +77,14 @@ public class InfixToPostfix
                     result = result + stack.peek();
                     stack.pop();
                 }
-                //removing '(' from stack
                 char x = stack.pop();
             }
             else if(c=='(')
             {
-                //character is starting bracket '('
                 stack.push(c);
             }
             else
             {
-                //if the character is an operand, add it to the result string
                 result = result + c;
             }
         }
@@ -97,7 +92,6 @@ public class InfixToPostfix
         while (!stack.isEmpty())  
 			result = result + stack.pop();
 
-        //the result string is now a postfix expression
         return result;
     }
 }
@@ -111,10 +105,6 @@ public class InfixToPostfix
  * Kindly enter the infix expression:
  * ab+
  * Postfix Expression: ab  +
- *
- * Kindly enter the infix expression:
- * a+b
- * Postfix Expression: ab+
  *
  * Time Complexity: O(n^2)
  * Space Complexity: O(n)

@@ -63,7 +63,7 @@ void DHDelete(int D[],int s,int x,int p)
 
 //Main Function
 //Space Complexity: O(n) - Array for the hash table.
-//Time Complexity: O(m) ; Where m is the size of hashtable the algorithm will scan to allocate the elements at the correct position.
+//Time Complexity: O(m) ; Where m is the size of hashtable the algorithm will scan to allocate the elements their correct position.
 int main()
 {
     int n,x;

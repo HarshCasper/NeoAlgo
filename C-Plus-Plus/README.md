@@ -50,7 +50,7 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
-
+- [Binary Coded String](cp/Binary_Coded_String.cpp)
 ## Data Structures
 
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)

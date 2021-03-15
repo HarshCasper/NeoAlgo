@@ -41,7 +41,8 @@ bool Graph::dfsUtil(int s,bool visited[],int parent){
 			if(dfsUtil(i,visited,s))
 			return true;
 		}
-		else if(i!=parent){
+		else if(i!=parent)//If true then Loop exists
+		{
 			// cout<<i<<" ";
 			return true;
 		}

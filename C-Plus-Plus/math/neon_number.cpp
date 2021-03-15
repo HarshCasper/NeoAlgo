@@ -6,7 +6,6 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-
 //Function that prints the sum of digits of a number
 int sum_of_digits(int y)
 {

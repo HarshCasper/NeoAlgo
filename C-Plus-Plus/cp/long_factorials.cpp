@@ -7,14 +7,16 @@ The carry is forwarded as basic maths and in the end the complete result gets st
 
 //The length of vector should be >= length of the resultant factorial
 
-// Time Complexity = O(N)
+
 
 #include <vector>
 #include <iostream>
-
 using namespace std;
 
-
+/*The function takes a number and muiltiplies the number in the school's old fashioned way 
+where we muiltiply the complete digit by one digit and then add the results to get the final 
+resultant. The carry is carried forwarded and in the end the final result gets stored in the 
+array/vector. */
 void factorial(int val)
 {
     int carry = 0;       
@@ -49,6 +51,8 @@ int main() {
 /*Sample test cases 
 1. Input: 5
    Output: 120
-2. Input: 50
-   Output: 30414093201713378043612608166064768844377641568960512000000000000 
+
+2
+
+// Time Complexity = O(N)
  */

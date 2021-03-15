@@ -238,9 +238,7 @@ _add list here_
 
 ## Sliding Window
 
-
 - [1st negative number in every window size of k](sliding_window/1st_negative_no_in_every_window_of_size_k.cpp)
-
 
 ## Blockchain
 

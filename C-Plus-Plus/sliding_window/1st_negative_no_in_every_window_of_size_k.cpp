@@ -13,11 +13,16 @@ Brute force:-
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+	//declaring a variable n to store size of array
 	int n;
+	//taking array size as input
 	cin>>n;
+	//declaring an array
 	int arr[n];
+	//taking array element as input
 	for(int i=0;i<n;i++)
 		cin>>arr[i];
+	//taking window size as input
 	int k;
 	cin>>k;
 	//dynamic array for storing negative elements
@@ -56,8 +61,10 @@ int main(){
 		}
 
 	}
+	//printing elements of dynamic array ans
 	for(int i=0;i<ans.size();i++)
 		cout<<ans[i]<<" ";
+	    //new line
 		cout<<endl;
 	return 0;
 }

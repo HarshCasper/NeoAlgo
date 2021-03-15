@@ -237,8 +237,7 @@ _add list here_
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 
 ## Sliding Window
-
-- [1st negative number in every window size of k](sliding_window/1st_negative_no_in_every_window_of_size_k.cpp)
+- [Maximum sum subarray of size k](sliding_window/max_sum_subarray_of_size_k.cpp)
 
 ## Blockchain
 

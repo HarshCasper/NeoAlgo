@@ -5,8 +5,7 @@ int Hash(int x,int s)
 {
     return x%s;
 }
-
-
+//Function to insert element in HashTable.
 void LinearProbe(int L[],int s,int x)
 {
     int index=Hash(x,s);
@@ -19,9 +18,7 @@ void LinearProbe(int L[],int s,int x)
     }
     L[index]=x;
 }
-
-
-
+//Function to search for an element.
 void LPSearch(int L[],int s,int x)
 {
     int index= Hash(x,s);
@@ -39,8 +36,7 @@ void LPSearch(int L[],int s,int x)
     }
     cout<<"Element not found "<<endl;
 }
-
-
+//Function to Delete an element from Hashtable.
 void LPDelete(int L[],int s,int x)
 {
     int index= Hash(x,s);
@@ -60,7 +56,9 @@ void LPDelete(int L[],int s,int x)
     cout<<"Element not found hence cant be deleted "<<endl;
 
 }
-
+//Main function
+//Space Complexity: O(n) - space for hashtable.
+//Time Complexity: O(m) - The algorithm will scan an auxiliary array of size m to allocate the elements at the correct position
 int main()
 {
     int n,x;
@@ -105,8 +103,5 @@ int main()
     {
         cout<<L[i]<<endl;
     }
-
-
-
     return 0;
 }

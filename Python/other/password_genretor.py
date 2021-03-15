@@ -3,13 +3,10 @@ import random
 if __name__ == '__main__':
     # The lower case for password
     accsi_1 = string.ascii_lowercase
-
     # the upper case for password
     accsi_2 = string.ascii_uppercase
-
     # The numbers for password
     digit_1 = string.digits
-    
     # The symbols for password
     symbol1 = string.punctuation     
     password_len = int(input(("Entre lenght of the Password That You Want:")))

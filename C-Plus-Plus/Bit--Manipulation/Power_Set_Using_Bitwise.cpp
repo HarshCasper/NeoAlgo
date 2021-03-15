@@ -1,3 +1,7 @@
+//Power Set Using Bitwise
+//Time Complexity: O(n2^n)
+
+
 #include <iostream>
 #include <cmath>
 using namespace std;

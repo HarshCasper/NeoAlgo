@@ -1,5 +1,4 @@
-// C++ program to swap even and 
-// odd bits of a given number 
+//Swap Even and Odd Bits
 #include <bits/stdc++.h> 
 using namespace std; 
 

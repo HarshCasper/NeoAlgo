@@ -1,4 +1,5 @@
 // Only one odd ocurring number
+//Using Xor Operation as Xor of two numbers gives zero
 
 #include<bits/stdc++.h>
 using namespace std;

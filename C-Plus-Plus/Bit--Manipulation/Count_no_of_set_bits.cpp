@@ -1,5 +1,6 @@
-//Count No of bits
-//check if the kth bit is set or not
+//Count No of Set Bits
+//Simple Method
+
 
 #include<bits/stdc++.h>
 using namespace std;

@@ -1,4 +1,4 @@
-// Only two odd ocurring number
+// Two ocurring number
 
 #include<bits/stdc++.h>
 using namespace std;

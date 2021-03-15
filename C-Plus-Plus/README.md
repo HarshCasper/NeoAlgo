@@ -238,6 +238,18 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 
+## Bit - Manipulation
+
+- [Check Kth Bit is Set or Not](Bit--Manipulation/Check_kth_bit_is_set_or_not.cpp)
+- [Count Number of Set Bits](Bit--Manipulation/Count_no_of_set_bits.cpp)
+- [Brian_Kernighan's Algorithm](Bit--Manipulation/Brian_Kernighan's_Algorithm.cpp)
+- [Power of 2](Bit--Manipulation/Power_of_2.cpp)
+- [One odd occuring](Bit--Manipulation/One_odd_occuring.cpp)
+- [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
+- [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
+- [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
+
+
 ## Blockchain
 
 _add list here_

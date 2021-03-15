@@ -1,4 +1,4 @@
-//check if the kth bit is set or not
+//Check if the kth bit is set or not
 
 #include<bits/stdc++.h>
 using namespace std;

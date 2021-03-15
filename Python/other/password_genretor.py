@@ -9,19 +9,18 @@ if __name__ == '__main__':
 
     # The numbers for password
     digit_1 = string.digits
+    
     # The symbols for password
-    symbol = string.punctuation     
-
+    symbol1 = string.punctuation     
     password_len = int(input(("Entre lenght of the Password That You Want:")))
     if password_len < 4:  # Condtions for not printing password
         print("Make your password strong. please entre greater to 4")
     else:
-        all_string_type = accsi_1 + accsi_2 + digit_1 + symbol
+        all_string_type = accsi_1 + accsi_2 + digit_1 + symbol1
         temp = random.sample(all_string_type, password_len)
         password = "".join(temp)
         print("Your password is:")
         print(password)
-
 
 # Sample input
 # Entre lenght of the Password That You Want: 10

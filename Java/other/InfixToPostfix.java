@@ -1,12 +1,5 @@
 /**
  * Infix to Prefix Expression
- * 
- * Algorithm Used:
- * First the given infix expression is taken as an input.
- * Then, we obtain the Postfix of the infix expression.
- * 
- * Time Complexity: O(n^2)
- * Space Complexity: O(n)
  *
  * Author: iamvs-2002
  */
@@ -122,4 +115,7 @@ public class InfixToPostfix
  * Kindly enter the infix expression:
  * a+b
  * Postfix Expression: ab+
+ *
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(n)
  */

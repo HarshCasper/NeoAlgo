@@ -1,5 +1,5 @@
-/* Here I use recursion to find all permutation of a string.
-This method is useful for for non repeated character in string and small length's strings because its time complaxity is in terms of n! .  */
+// Here I use recursion to find all permutation of a string.
+// This method is useful for  non repeated character containing string and small length's strings because its time complaxity is in terms of n! .  
 
 #include<bits/stdc++.h>
 using namespace std;

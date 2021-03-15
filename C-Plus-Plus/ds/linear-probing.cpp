@@ -58,7 +58,7 @@ void LPDelete(int L[],int s,int x)
 }
 //Main function
 //Space Complexity: O(n) - space for hashtable.
-//Time Complexity: O(m) - The algorithm will scan an auxiliary array of size m to allocate the elements at the correct position
+//Time Complexity: O(m) - The algorithm will scan an auxiliary array of size m to allocate the elements their correct position
 int main()
 {
     int n,x;

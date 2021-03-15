@@ -55,6 +55,7 @@
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
+- [Sort Color](cp/Sort_Color.cpp)
 
 ## Data Structures
 

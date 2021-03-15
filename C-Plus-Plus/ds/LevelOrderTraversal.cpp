@@ -50,11 +50,12 @@ struct child
 //Main Function starts
  int main()
  {
-     child* root = new child(1);
-     root->LeftPtr = new child(2);
-     root->RightPtr = new child(3);
+     child* root = new child(5);
+     root->LeftPtr = new child(6);
+     root->RightPtr = new child(7);
      
-     root->LeftPtr->LeftPtr = new child(4);
+     root->LeftPtr->LeftPtr = new child(8);
+     root->RightPtr->RightPtr=new child(9);
      
      cout<<"Elements after In Order Traversal:"<<endl;
      inorder(root);
@@ -66,12 +67,17 @@ struct child
  }
  //Main Function ends
 
- /*Examples:
-     1
-    /  \
-   2    3
-  /   /   \
- 4   NULL NULL
+ /*
+ Examples:
+      5
+    /    \
+   6      7
+  /\     /  \
+ 8  NULL NULL 9
   Output:
-   Inorder: 4 2 1 3
-   Levelorder: 1 2 3 4
+   Inorder: 8 6 5 7 9
+   Levelorder: 5 6 7 8 9
+   
+   Time Complexity: O(n)
+   
+   */

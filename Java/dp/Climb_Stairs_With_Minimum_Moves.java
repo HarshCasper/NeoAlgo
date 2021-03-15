@@ -1,3 +1,4 @@
+// Problem Link- https://www.pepcoding.com/resources/online-java-foundation/dynamic-programming-and-greedy/climb-stairs-with-minimum-moves-official/ojquestion
 /* You are given a number n (the number of stairs in a staircase)
  * You are on the 0th step and are required to climb to the top.
  * You are given n numbers, where ith element's value represents till how far from the step you could jump to in a single move.
@@ -51,3 +52,7 @@ public class Main {
  * Sample input- 10 3 3 0 2 1 2 4 2 0 0 
  * Sample Output- 4
  */
+
+ /* Time Complexity: O(N) 
+  * Auxiliary Space: O(N)
+*/

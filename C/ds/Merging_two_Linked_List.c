@@ -1,49 +1,51 @@
 /*
 
-This program is about merging two Linked list. Here the user is going to enter values of
-first and second linked list. It will merge the
-two linkedlists into one linkedlist by comparing the each and every node values
-and convert into one linkelist in the ascending order.
+This program is about merging two Linked list. Here the user is going to enter
+values of first and second linked list.
+It will merge the two linked lists into one linked list by comparing the each
+and every node values and convert into one linked list.
 
 */
 #include <stdio.h>
+#include <stdlib.h>
+
 struct Node {
   int data;
   struct Node *next;
 } *first = NULL, *second = NULL, *third = NULL;
-//Creating first linkedlist
-void Create(int A[], int n) {
+
+void Create(int Array1[], int size) {
   int i;
-  struct Node *t, *last;
+  struct Node *temp, *last;
   first = (struct Node *)malloc(sizeof(struct Node));
-  first->data = A[0];
+  first->data = Array1[0];
   first->next = NULL;
   last = first;
-  for (i = 1; i < n; i++) {
-    t = (struct Node *)malloc(sizeof(struct Node));
-    t->data = A[i];
-    t->next = NULL;
-    last->next = t;
-    last = t;
+  for (i = 1; i < size; i++) {
+    temp = (struct Node *)malloc(sizeof(struct Node));
+    temp->data = Array1[i];
+    temp->next = NULL;
+    last->next = temp;
+    last = temp;
   }
 }
-//creating second linkedlist
-void Create2(int A[], int n) {
+
+void Create2(int Array2[], int size) {
   int i;
-  struct Node *t, *last;
+  struct Node *temp, *last;
   second = (struct Node *)malloc(sizeof(struct Node));
-  second->data = A[0];
+  second->data = Array2[0];
   second->next = NULL;
   last = second;
-  for (i = 1; i < n; i++) {
-    t = (struct Node *)malloc(sizeof(struct Node));
-    t->data = A[i];
-    t->next = NULL;
-    last->next = t;
-    last = t;
+  for (i = 1; i < size; i++) {
+    temp = (struct Node *)malloc(sizeof(struct Node));
+    temp->data = Array2[i];
+    temp->next = NULL;
+    last->next = temp;
+    last = temp;
   }
 }
-//Displaying the linkedlist
+
 void Display(struct Node *p) {
   while (p != NULL) {
     printf("%d ", p->data);
@@ -51,9 +53,11 @@ void Display(struct Node *p) {
   }
   printf("\n");
 }
+
 void Merge(struct Node *p, struct Node *q) {
   struct Node *last;
-  //Merging the two linkedlists and pointing to third pointer
+  /*Merging the two linkedlists and making it as third linkedlist
+  if the condition satisfies*/
   if (p->data < q->data) {
     third = last = p;
     p = p->next;
@@ -76,35 +80,36 @@ void Merge(struct Node *p, struct Node *q) {
       last->next = NULL;
     }
   }
-  // Checking whether any node is left in first linkedlist 
+  /* Checking whether any node is left in the first and second linkedlist
+  if so merging those nodes as well. */
   if (p)
     last->next = p;
-  // Checking whether any node is left in second linkedlist
   if (q)
     last->next = q;
 }
+
 int main() {
-  struct Node *t;
-  int *A, *B;
-  int n;
+  int *Array1, *Array2;
+  int size;
   printf("Enter the size of the array: \n");
-  scanf("%d", &n);
-  A = (int *)malloc(n * sizeof(int));
-  B = (int *)malloc(n * sizeof(int));
+  scanf("%d", &size);
+  Array1 = (int *)malloc(size * sizeof(int));
+  Array2 = (int *)malloc(size * sizeof(int));
   printf("Enter first LL Elements: \n");
-  for (int i = 0; i < n; i++) {
-    scanf("%d", &A[i]);
+  for (int i = 0; i < size; i++) {
+    scanf("%d", &Array1[i]);
   }
-  Create(A, n);
+  Create(Array1, size);
   printf("Enter second LL Elements: \n");
-  for (int i = 0; i < n; i++) {
-    scanf("%d", &B[i]);
+  for (int i = 0; i < size; i++) {
+    scanf("%d", &Array2[i]);
   }
-  Create2(B, n);
+  Create2(Array2, size);
   Merge(first, second);
   Display(third);
   return 0;
 }
+
 // Output:-
 /*
 Enter the size of the array:
@@ -123,5 +128,8 @@ Enter second LL Elements:
 5
 
 1 2 2 3 4 4 5 7 8 9
+
+Time Complexity:- O(m+n)
+Space Complexity:- O(1)
 
 */

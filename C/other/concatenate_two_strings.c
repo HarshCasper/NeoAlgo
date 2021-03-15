@@ -1,12 +1,11 @@
 // The best way to concatenate two strings in C programming is by using the strcat() function.But,in this example, we will concatenate two strings manually.
 #include <stdio.h>
-#include <string.h>     //header file
+#include <string.h> 
 
 int main() {
   char str1[100] = "Hey,Open Source is amazing", str2[] = " Start contributing";
   int length, j;
 
-  // store length of str1 in the length variable
   length = 0;
   while (str1[length] != '\0') {
     ++length;

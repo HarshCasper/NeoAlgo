@@ -1,6 +1,6 @@
 /* Question:
 Given a undirected graph, check whether the graph contains a cycle or not. Your function should print "Cyclic" if the given graph 
-contains at least one cycle, else print "Non Cyclic".
+contains at least one cycle, else print "Non-Cyclic".
 Input:
 Enter the number of vertices : 4
 Enter the number of edges : 4

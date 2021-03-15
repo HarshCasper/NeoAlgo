@@ -96,6 +96,7 @@ _add list here_
 
 - [Binary Tree](ds/Binary_Tree.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
+- [Cycle Detection in Linked List using Floyd’s Cycle-Finding Algorithm](ds/cycleDetectionLinkedList.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)

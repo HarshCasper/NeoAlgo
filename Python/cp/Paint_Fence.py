@@ -46,9 +46,7 @@ if __name__ == "__main__":
         print("Painting is not possible following the condition")
     else:
         print("Number of Possiblities:", result)
-
-
-''' 
+    '''
 Sample Input/Output:
 
 Enter n,Number of Posts
@@ -69,5 +67,5 @@ Enter n,Number of Posts
 5
 Enter k,Number of Colors
 3
-Number of Possiblities: 180 
+Number of Possiblities: 180
 '''

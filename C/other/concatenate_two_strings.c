@@ -17,10 +17,11 @@ int main() {
 
   str1[length] = '\0';
 
-  printf("After concatenation, Final string will be: ");
+  printf("After concatenation, Final string will be:\n ");
   puts(str1);
 
   return 0;
 }
 
-//OUTPUT: After concatenation, Final string will be:Hey,Open Source is amazing Start contributing
+//OUTPUT: After concatenation, Final string will be:
+//Hey,Open Source is amazing Start contributing

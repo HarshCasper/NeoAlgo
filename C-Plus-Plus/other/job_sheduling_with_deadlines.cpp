@@ -73,7 +73,12 @@ void JSD_algo(int jobs[],int p[],int d[],int n)
      cout<<"\nmax profit:"<<profit;
 }
 
-/* ans:
+/* 
+Time complexity:O(n^2) becase we are using loop inside a loop .(nxn)
+space complexity:O(1)
+
+
+ans:
 sheduled jobs:
 2 5 3 1
 max profit:319

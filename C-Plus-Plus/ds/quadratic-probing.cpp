@@ -5,8 +5,7 @@ int Hash(int x,int s)
 {
     return x%s;
 }
-
-
+//Function to insert in hashtable.
 void QuadProbe(int Q[],int s,int x)
 {
     int index= Hash(x,s);
@@ -19,7 +18,7 @@ void QuadProbe(int Q[],int s,int x)
     }
     Q[index]=x;
 }
-
+//Function to Search for an element in hashtable.
 void QPSearch(int Q[],int s,int x)
 {
     int index= Hash(x,s);
@@ -37,8 +36,7 @@ void QPSearch(int Q[],int s,int x)
     }
     cout<<"Element not found "<<endl;
 }
-
-
+//Function to Delete an element from Hashtable.
 void QPDelete(int Q[],int s,int x)
 {
     int index= Hash(x,s);
@@ -58,8 +56,9 @@ void QPDelete(int Q[],int s,int x)
     cout<<"Element not found hence cant be deleted "<<endl;
 
 }
-
-
+//Main Function
+//Space Complexity: O(n)
+//Time Complexity: O(m) - The algorithm would iterate through the array of size m to allocate the elements their proper positions.
 int main()
 {
     int n,x;

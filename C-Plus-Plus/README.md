@@ -223,6 +223,7 @@ _add list here_
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Number is sparse or not](math/Number_is_sparse_or_not.cpp)
+- [Brian Kerningam's Algorithm](math/Brian_Kerningam_Algorith.cpp)
 
 ## Dynamic Programming
 

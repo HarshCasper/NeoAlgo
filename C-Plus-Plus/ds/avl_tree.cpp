@@ -1,3 +1,13 @@
+/* 
+AVL Trees: These are self-balancing trees where the difference between the heights
+of left and right subtree(for any node) is not more than 1 and less than -1. This concept
+came about so as to ensure that the opeations on BST doesn't become of the order of O(n)
+as it becomes more and more skewed. In other words, AVL trees ensures that the balance of 
+the tree is maintained, thus maintaining the order of the operations on it as O(log n).
+properties of AVL:
+ (1) It is a BST and (2) No duplicate nodes allowed 
+ (3) |height of left subtree - height of right subtree| <=1
+*/
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
@@ -36,14 +46,30 @@ int find_height(Node* current_node){
     return(1+height);
 }
 
-//current node here is the critical node which has a balance factor either
+//critical node is a node which has a balance factor either
 // greater than  1 or less than -1.
 
 int find_balance_factor(Node* node){
     return(find_height(node->left)-find_height(node->right));
 }
 
-Node* right_rotate(Node* critical_node){//right rotation
+
+/*
+right rotation can be illustrated as follows:
+
+   (critical_node)                                     (next_node)
+    /                       (right rotation)           /          \
+ (next_node)             ====================>        x        (critical_node)        
+  /    \                                                        /                     
+ x      y                                                      y
+
+   Steps performed for above transformation:
+    (i)   store the right node(i.e. y here) of the (next_node) to a temporary node (temp).
+    (ii)  assign (critical_node) as (next_node)'s right child.
+    (iii) assign node stored in temp as the left node of (critical_node).
+    (iv)  update the height and balance factor of the next_node and critical_node.
+*/
+Node* right_rotate(Node* critical_node){
     Node* next = critical_node->left;
     Node* temp = next->right;
     next->right=critical_node;
@@ -57,6 +83,22 @@ Node* right_rotate(Node* critical_node){//right rotation
     critical_node->bf = find_balance_factor(critical_node);
     return(next);
 }
+
+/*
+Left rotation can be illustrated as follows:
+
+   (critical_node)                                          (next_node)
+                \               (left rotation)            /           \
+              (next_node)    ====================>     (critical_node)  z      
+                /    \                                             \           
+               y      z                                             y          
+
+   Steps performed for above transformation:
+    (i)   store the left node(i.e. y here) of the (next_node) to a temporary node (temp).
+    (ii)  assign (critical_node) as (next_node)'s left child.
+    (iii) assign node stored in temp as the right node of (critical_node).
+    (iv)  update the height and balance factor of the next_node and critical_node.
+*/
 
 Node* left_rotate(Node* critical_node){
     Node* next = critical_node->right;
@@ -73,7 +115,13 @@ Node* left_rotate(Node* critical_node){
     return(next);
 }
 
-//finds the parent node of the given node
+/*
+finds the parent node of the given node. It keeps
+traversing the tree until it reaches the given node.
+It traverses as:
+ -> if(root->data > node->data) then node is to be searched in the left subtree.
+ -> if(root->data < node->data) then node is to be searched in the right subtree.
+*/
 Node* find_parent_node(Node* root, Node* node){
     Node* parent=NULL;
     while(root!=node){
@@ -397,6 +445,15 @@ int main()
     }
     return 0;
 }
+/* 
+Time Complexities:
+ (1) insertion operation: O(log n)
+ (2) deletion operation: O(log n)
+ (3) finding critical node: O(log n)
+ (4) finding parent node: O(log n)
+ (5) finding height of the tree: O(log n)
+*/
+
 /*
 Test Case 1:
   (insertion)
@@ -427,6 +484,7 @@ Test Case 1:
   after deleting node with key value = 12
     11(-1) 7(1) 4(0) 53(1) 16(-1) 20(0) 60(0)
 */
+
 /*
 The AVL Tree example used in this code:
                        14
@@ -475,6 +533,7 @@ after deleting 17 it should look like this:
                     8         20
 
  */
+
 //Other cases that you could try:
 //vector<int>data={10,20,30,40,50,25};
 //vector<int>data={33,13,53,9,21,61,8,11};

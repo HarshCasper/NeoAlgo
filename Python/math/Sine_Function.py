@@ -1,6 +1,5 @@
 #Sine Algorithm
 #Written by XZANATOL
-#Algorithm is a contribution to Neo-Algo at https://github.com/TesseractCoding/NeoAlgo
 
 """
 Algorithm that explains how to calculate the Sine of an angle

@@ -9,8 +9,7 @@ int prime(int p,int x)
 {
     return p-(x%p);
 }
-
-
+//Function to insert element in the hash table
 void DoubleHashing(int D[],int s,int x,int p)
 {
     int index=Hash(x,s);
@@ -24,8 +23,7 @@ void DoubleHashing(int D[],int s,int x,int p)
     D[index]=x;
 
 }
-
-
+//Function to search for an element.
 void DHSearch(int D[],int s,int x,int p)
 {
     int index= Hash(x,s);
@@ -43,7 +41,7 @@ void DHSearch(int D[],int s,int x,int p)
     }
     cout<<"Element not found "<<endl;
 }
-
+//Function to delete an element from the Hash Table.
 void DHDelete(int D[],int s,int x,int p)
 {
     int index= Hash(x,s);
@@ -63,11 +61,14 @@ void DHDelete(int D[],int s,int x,int p)
     cout<<"Element not found "<<endl;
 }
 
-
+//Main Function
+//Space Complexity: O(n) - Array for the hash table.
+//Time Complexity: O(m) ; Where m is the size of hashtable the algorithm will scan to allocate the elements at the correct position.
 int main()
 {
     int n,x;
     cout << "Hello world!" << endl;
+    //Enter number of elements you want to insert.
     cout<<"Enter number of elements "<<endl;
     cin>>n;
     int s=2*n;
@@ -79,6 +80,7 @@ int main()
         p--;
     }
     int L[s]={0},Q[s]={0},D[s]={0};
+    //Enter the elements that you want to insert.
     cout<<"Enter elements "<<endl;
     for(int i=0;i<n;i++)
     {
@@ -108,8 +110,5 @@ int main()
     {
         cout<<D[i]<<endl;
     }
-
-
-
     return 0;
 }

@@ -220,6 +220,7 @@ _add list here_
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
+- [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 
 ## Dynamic Programming

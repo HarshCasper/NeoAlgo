@@ -54,3 +54,12 @@ int main()
      } 
      return 0;
 }
+/* SAMPLE
+Testcase 1
+INPUT   5 3 4
+OUTPUT  It is a pythagoras triplet
+Testcase 2
+INPUT   5 6 2
+OUTPUT  It is not a pythagoras triplet  
+Time Complexity is O(1)  
+Space Complexity is O(1)   */

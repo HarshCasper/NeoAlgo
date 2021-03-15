@@ -28,14 +28,15 @@
 _add list here_
 
 ## Competitive programming
-
-* [Dutch National Flag](cp/DutchFlag.java)
-* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
-* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
-* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
-* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
-* [Target Sum Triplets](cp/target_sum_triplets.java)
-* [ZigZag](cp/Zig_Zag.java)
+- [Reverse words in String](cp/Reverse_words_in_String.java)
+- [Anagram String](cp/Anagram.java)
+- [Dutch National Flag](cp/DutchFlag.java)
+- [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+- [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+- [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+- [Target Sum Triplets](cp/target_sum_triplets.java)
+- [ZigZag](cp/Zig_Zag.java)
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
@@ -239,4 +240,3 @@ _add list here_
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
-

@@ -3,7 +3,7 @@
 #include <string.h>     //header file
 
 int main() {
-  char str1[100] = "Hey,Open Source is amazing", str2[] = " Start contributing";   //It's important to note that the length of str1 should be sufficient to hold the string after concatenation.
+  char str1[100] = "Hey,Open Source is amazing", str2[] = " Start contributing";
   int length, j;
 
   // store length of str1 in the length variable
@@ -12,12 +12,10 @@ int main() {
     ++length;
   }
 
-  // concatenate str2 to str1
   for (j = 0; str2[j] != '\0'; ++j, ++length) {
     str1[length] = str2[j];
   }
 
-  // terminating the str1 string
   str1[length] = '\0';
 
   printf("After concatenation, Final string will be: ");
@@ -25,6 +23,5 @@ int main() {
 
   return 0;
 }
-//The two strings str1 and str2 will be concatenated and the result will be  stored in s1.
 
 //OUTPUT: After concatenation, Final string will be:Hey,Open Source is amazing Start contributing

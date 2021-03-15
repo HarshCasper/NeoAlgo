@@ -83,3 +83,4 @@ Input:  txt[] =  "AABAACAADAABAABA"
 Output: Pattern found at index 0
         Pattern found at index 9
         Pattern found at index 12*/
+// time complexity O(n)

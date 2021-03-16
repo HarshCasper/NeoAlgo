@@ -80,7 +80,7 @@ child*buildTree()
               if(t->LeftPtr)
               q.push(t->LeftPtr);
           
-	      if(t->RightPtr)
+	        if(t->RightPtr)
               q.push(t->RightPtr);
          
               q.pop();

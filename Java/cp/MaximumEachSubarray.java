@@ -65,6 +65,9 @@ public class MaximumEachSubarray {
         System.out.println("Enter size of window: ");
 	    int K = Integer.parseInt(buf.readLine()); 
 	    
+        //Output is a String in which the first integer is maximum for 1st K-sized window, 
+        //the second integer is maximum for 2nd K-sized window, and so on.
+        System.out.println("String of maximum integers in all K-sized subarrays: ");
         System.out.println(findMaxEachSubarray(numArray, K));
     }
 
@@ -85,6 +88,7 @@ public class MaximumEachSubarray {
     Enter size of window: 
     4
     OUTPUT
+    String of maximum integers in all K-sized subarrays:
     12 5 7 7 9 9 18 
 
     INPUT
@@ -95,6 +99,7 @@ public class MaximumEachSubarray {
     Enter size of window: 
     3
     OUTPUT
+    String of maximum integers in all K-sized subarrays:
     3 3 5 5 6 7
 
  */

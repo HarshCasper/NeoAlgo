@@ -160,6 +160,38 @@
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
 - [Depth First Search](graphs/DFS.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
+- [Rotten Oranges](graphs/Rotten_Oranges.py)
+
+## Competitive Programming
+
+- [Anagram Checker](cp/anagram_checker.py)
+- [Find Least positive number](cp/findingLeastPositiveNumber.py)
+- [KMP Algorithm](cp/KMP_Algorithm.py)
+- [Longest Common Prefix](cp/longest_Common_Prefix.py)
+- [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
+- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
+- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+- [Target sum triplet](cp/Target_Sum_Triplet.py)
+- [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+- [Maximum sum rectangle](cp/max_sum.py)
+- [Search Insert Position](cp/search_insert_position.py)
+- [Maximum Water Container](cp/Maximum_Water_Container.py)
+- [Smallest sum subarray](cp/smallest_sum_array.py)
+- [Delete a node from linked list](cp/delete_node.py)
+- [Stable Marriage Problem](cp/stable_marriage_problem.py)
+- [Rain Water Harvesting](cp/rainwater_harvesting.py)
+- [House Robber](cp/house_robber.py)
+
+
+## Cryptography
+
+- [Affine Cipher](cryptography/AffineCipher.py)
+- [Caesar Cipher](cryptography/Caesar_Cipher.py)
+- [Vigenere Cipher](cryptography/vigenere_cipher.py)
+- [RSA Algorithm](cryptography/RSA_Algorithm.py)
+- [XOR Cipher](cryptography/XOR_cipher.py)
+- [AES Algorithm](cryptography/AES.py)
 - [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
 - [Knight Walk](graphs/Knight_Walk.py)
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)

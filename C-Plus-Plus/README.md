@@ -49,6 +49,7 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [Time taken to rot all Oranges](graphs/Rotten_Oranges.cpp)
 
 ## Data Structures
 
@@ -82,7 +83,6 @@
 
 ## Graphs
 
-- [Time taken to rot all Oranges](graphs/Rotten_Oranges.cpp)
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)

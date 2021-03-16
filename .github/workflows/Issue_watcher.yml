@@ -1,0 +1,18 @@
+name: check
+ 
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@main
+      - name: Run Action
+        uses: anushkrishnav/Issue-Police@main
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          author: '${{github.actor}}'
+          repo: TesseractCoding/NeoAlgo

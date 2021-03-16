@@ -89,6 +89,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/Bubble_Sort.py)
+- [Optimized Bubble Sort](sort/Optimized_Bubble_Sort.py)
 - [Selection Sort](sort/Selection_Sort.py)
 - [Insertion Sort](sort/insertion.py)
 - [Quick Sort](sort/QuickSort.py)

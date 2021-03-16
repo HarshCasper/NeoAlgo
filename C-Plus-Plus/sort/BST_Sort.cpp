@@ -75,20 +75,16 @@ int main()
     int n, data;
     //Accept the no. of elements and elements as user input
     scanf("%d", &n);
-
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &data);
         root = insertIntoTree(root, data);
     }
-
     printf("\nSorted list : ");
     inorder(root);
     printf("\n");
-
     return 0;
 }
-
 /*
     Sample input:
     7
@@ -97,7 +93,6 @@ int main()
     Sample output:
     1 2 3 4 5 6 7
 */
-
 /*
     Time complexity : O(n)
     Space complexity : O(n)

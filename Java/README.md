@@ -147,6 +147,7 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Sum of Digit in a Number](math/SumOfDigit.java)
 - [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
@@ -157,6 +158,7 @@ _add list here_
 
 ## Dynamic Programming
 
+- [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
@@ -175,6 +177,7 @@ _add list here_
 ## Searching
 
 - [Binary Search](search/Binary_search.java)
+- [Fibonacci Search](search/Fibonacci_search.java)
 - [Interpolation Search](search/Interpolation_search.java)
 - [Ternary Search](search/TernarySearch.java)
 - [Jump Search](search/jumpSearch.java)
@@ -243,3 +246,4 @@ _add list here_
 - [String Palindrome](other/Palindrome.java)
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
 - [Infix to Prefix Expression](other/InfixtoPrefix.java)
+- [Infix to Postfix Expression](other/InfixToPostfix.java)

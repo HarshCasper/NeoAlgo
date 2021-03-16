@@ -38,31 +38,31 @@ struct child{
 
 child*buildTree()
 {
-    int d;
-    cin>>d;
+     int d;
+     cin>>d;
 	
-    //  Base Case
-    if(d==-1){
-    return NULL;
-    }
+     //  Base Case
+     if(d==-1){
+     return NULL;
+     }
 
-    //  Recursive Case 
-    child*root=new child(d);
+     //  Recursive Case 
+     child*root=new child(d);
 
-    //  Inserting value into left Subtree
-    root->LeftPtr=buildTree();
+     //  Inserting value into left Subtree
+     root->LeftPtr=buildTree();
 
-    //  Inserting value into Right Subtree
-    root->RightPtr=buildTree();
+     //  Inserting value into Right Subtree
+     root->RightPtr=buildTree();
 
-    return root;
-}
+     return root;
+ }
 
-//  Function for implementing level order traversal using Queue
+ //  Function for implementing level order traversal using Queue
  
  void levelOrder(child*root)
  { 
-     //  Base Case
+         //  Base Case
 	 if(root==NULL)
          return;
     
@@ -102,6 +102,15 @@ int main()
     return 0;
 
 }
-  
+ 
+/*
+
+Output:
+
+Enter the values of nodes of the tree  :  3 4 6 -1 -1 7 -1 -1 5 -1 -1  
+    
+Level Order Traversal for the following Tree will be   :  3 4 5 6 7
+
+*/
 
   

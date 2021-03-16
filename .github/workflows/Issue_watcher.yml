@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@main
       - name: Run Action
-        uses: Issue-Watcher@main
+        uses: anushkrishnav/Issue-Watcher@main
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
           author: '${{github.actor}}'

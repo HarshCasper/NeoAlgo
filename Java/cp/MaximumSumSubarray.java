@@ -42,8 +42,10 @@ public class MaximumSumSubarray {
 
         if(K > length || K <= 0)
             System.out.println("Invalid input"); 
-        else
+        else {
+            System.out.println("Maximum sum of a subarray of size " + K + ":"); 
             System.out.println(maximumSum(numArray, K));
+        }
     }
 
 }
@@ -60,6 +62,7 @@ public class MaximumSumSubarray {
     Enter array elements: 
     1 7 -2 4 5 2 1 6 11 -4
     OUTPUT
+    Maximum sum of a subarray of size 3:
     18
 
     INPUT
@@ -68,6 +71,7 @@ public class MaximumSumSubarray {
     Enter array elements:
     2 4 0 1 5 2 9 3
     OUTPUT
+    Maximum sum of a subarray of size 4:
     19
 
  */

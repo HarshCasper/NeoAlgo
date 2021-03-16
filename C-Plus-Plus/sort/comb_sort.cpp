@@ -11,25 +11,25 @@ using namespace std;
 // Comb sort
 void comb_sort(int arr[], int n)
 {
-    int gap = n, flag= 1;
+    int flag= 1, space = n; 
     
-    while (gap > 1 || flag == 1) 
+    while (space > 1 || flag == 1) 
     {
         // Here empirically found shrink factor 1.3 is used.
-        gap = (gap * 10) / 13;
+        space = (space * 10) / 13;
         
-        //Assigning gap its minimum value of 1
-        if(gap < 1)
-            gap = 1;
+        //Assigning space its minimum value of 1
+        if(space < 1)
+            space = 1;
     
         flag = 0;
         
-        // Compare elements with the gap value
-        for (int i = 0; i < (n - gap); i++) 
+        // Compare elements with the space value
+        for (int i = 0; i < (n - space); i++) 
         {
-            if (arr[i] > arr[i + gap]) 
+            if (arr[i] > arr[i + space]) 
             {
-                swap(arr[i],arr[i+gap]);
+                swap(arr[i],arr[i+space]);
                 flag= 1;
             }
         }

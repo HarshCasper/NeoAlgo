@@ -1,7 +1,5 @@
-/*
-Given an array of integers which represents the preorder traversal of a Binary Search Tree 
-Construct the BST and return its root.
-*/
+//Given an array of integers which represents the preorder traversal of a Binary Search Tree 
+//Construct the BST and return its root.
 
 #include <iostream>
 #include <stack>

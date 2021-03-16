@@ -87,7 +87,7 @@
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
-- [Generate BST from given preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
+- [BST from preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
 
 ## Graphs
 

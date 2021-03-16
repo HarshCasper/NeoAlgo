@@ -36,7 +36,7 @@
 - [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
-- 
+-
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [Min Swap To Sort Array](cp/MinSwapToSortArray.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
@@ -83,6 +83,7 @@
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
 - [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
+- [Detect Cycle in Linked List ](ds/Detect_Cycle_In_LinkedList.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
@@ -198,7 +199,6 @@
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 
-
 ## Machine Learning
 
 _add list here_
@@ -274,6 +274,7 @@ _add list here_
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 
 ## Computational Geometry
+
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
 ## Other

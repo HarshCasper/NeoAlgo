@@ -36,7 +36,6 @@
 - [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
-- 
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [Min Swap To Sort Array](cp/MinSwapToSortArray.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
@@ -67,6 +66,7 @@
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
 
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
+- [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 
@@ -83,6 +83,8 @@
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
 - [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
+- [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.cpp)
+- [Detect Cycle in Linked List ](ds/Detect_Cycle_In_LinkedList.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
@@ -101,8 +103,11 @@
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
+- [BST from preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
-
+- [Linear Probing](ds/linear-probing.cpp)
+- [Quadratic Probing](ds/quadratic-probing.cpp)
+- [Double Hashing](ds/double-hashing.cpp)
 
 ## Graphs
 
@@ -151,6 +156,8 @@
 - [Staircase Search](search/Staircase_Search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
 - [Fibonacci Search](search/fibonacci_search.cpp)
+- [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
+- [Sublist Search](search/sublist_Search.cpp)
 
 ## Sorting
 
@@ -195,7 +202,6 @@
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 
-
 ## Machine Learning
 
 _add list here_
@@ -218,8 +224,11 @@ _add list here_
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
+- [Magic Number](math/magic_number.cpp)
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
+- [Neon Number](math/neon_number.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
+- [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 
@@ -257,6 +266,17 @@ _add list here_
 ## Sliding Window
 - [Maximum sum subarray of size k](sliding_window/max_sum_subarray_of_size_k.cpp) 
 
+## Bit - Manipulation
+
+- [Check Kth Bit is Set or Not](Bit--Manipulation/Check_kth_bit_is_set_or_not.cpp)
+- [Count Number of Set Bits](Bit--Manipulation/Count_no_of_set_bits.cpp)
+- [Brian_Kernighan's Algorithm](Bit--Manipulation/Brian_Kernighan's_Algorithm.cpp)
+- [Power of 2](Bit--Manipulation/Power_of_2.cpp)
+- [One odd occuring](Bit--Manipulation/One_odd_occuring.cpp)
+- [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
+- [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
+- [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
+
 ## Blockchain
 
 _add list here_
@@ -272,6 +292,7 @@ _add list here_
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 
 ## Computational Geometry
+
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
 ## Other

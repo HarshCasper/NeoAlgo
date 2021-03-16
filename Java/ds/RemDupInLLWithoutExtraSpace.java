@@ -1,5 +1,9 @@
 /* Java Program to Remove Duplicates from a Unsorted Linked List 
-Without using any Extra Space*/
+Without using any Extra Space i.e while finding Duplicates we can't
+use any Data Structure to store values.
+Then we can use two pointers approach :current and runner ,current iterates through the linked list
+and runner check all subsequent nodes for every current and try to find duplicates in the list.
+*/
 
 import java.util.*;
 
@@ -102,4 +106,5 @@ List after deleting duplicates:
   
 Time complexity: O(n^2) for finding duplicates
 Space complexity: O(n)
+
  */

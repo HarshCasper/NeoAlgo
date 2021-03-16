@@ -11,6 +11,7 @@
 
 ## Competitive Programming
 
+- [Time taken to rot all Oranges](cp/Rotten_Oranges.cpp)
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
@@ -64,11 +65,10 @@
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
-
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
-
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
+- [Peak element](cp/Peak_element.cpp)
 
 ## Data Structures
 
@@ -165,6 +165,7 @@
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
+- [Comb sort](sort/comb_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
 - [Counting Sort](sort/counting_sort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)

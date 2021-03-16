@@ -78,6 +78,7 @@
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Circular Linkedlist](ds/Circular_LinkedList.cpp)
+- [Validating BST] (ds/Check_for_Binary_search_tree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)

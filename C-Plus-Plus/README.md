@@ -178,6 +178,7 @@
 - [Sleep Sort](sort/sleep_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
 - [Wiggle Sort](sort/wiggle_sort.cpp)
+- [Quotient-Remainder Sort](sort/Quotient-Remainder_Sort.cpp)
 
 ## Stack based problems
 

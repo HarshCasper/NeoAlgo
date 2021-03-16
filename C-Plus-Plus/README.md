@@ -123,6 +123,7 @@
 - [Staircase Search](search/Staircase_Search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
 - [Fibonacci Search](search/fibonacci_search.cpp)
+- [Minimum element in sorted and rotated array](search/Minimum_element_in_rotated_sorted_array.cpp)
 
 ## Sorting
 

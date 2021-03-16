@@ -1,5 +1,55 @@
 //Power Set Using Bitwise
 //Time Complexity: O(n2^n)
+//Space Complexity: O(1)
+
+/*Sample Input:
+Example 1:- abc
+Example 2:- pqrst
+
+Sample Output:
+Example 1:-
+a
+b
+ab
+c
+ac
+bc
+abc 
+Example 2:-
+p
+q
+pq
+r
+pr
+qr
+pqr
+s
+ps
+qs
+pqs
+rs
+prs
+qrs
+pqrs
+t
+pt
+qt
+pqt
+rt
+prt
+qrt
+pqrt
+st
+pst
+qst
+pqst
+rst
+prst
+qrst
+pqrst
+
+
+*/
 
 
 #include <iostream>

@@ -1,6 +1,21 @@
 // Only one odd ocurring number
 //Using Xor Operation as Xor of two numbers gives zero
+//Time Complexity: O(n) 
+//Space Complexity: O(1)
 
+/*Sample Input:
+Example 1:- 
+Enter number of elements
+5
+1 1 2 3 3
+Example 2:-
+Enter number of elements
+7
+71 4 9 71 9 7 7
+Sample Output:
+Example 1:- 2
+Example 2:- 4
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int main()

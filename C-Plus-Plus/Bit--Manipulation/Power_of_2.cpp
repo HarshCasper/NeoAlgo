@@ -1,4 +1,19 @@
 //Power of 2 (Naive Approach)
+//Time Complexity : O(logn)
+//Space Complexity: O(1)
+
+/*Sample Input:
+Example 1:- 
+Enter number
+5
+Example 2:-
+Enter number
+32
+
+Sample Output:
+Example 1:- No
+Example 2:- Yes
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int main()

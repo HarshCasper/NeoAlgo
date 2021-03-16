@@ -1,5 +1,23 @@
 // Two ocurring number
+//Time Complexity: O(n) 
+//Space Complexity: O(1)
 
+/*Sample Input:
+Example 1:- 
+Enter number of elements
+8
+2 2 3 8 4 4 1 1
+Example 2:-
+Enter number of elements
+7
+1 1 2 2 5 3 3
+
+Sample Output:
+Example 1:- 
+3 8
+Example 2:-
+5 0
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int main()

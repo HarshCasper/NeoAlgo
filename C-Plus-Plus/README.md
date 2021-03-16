@@ -49,7 +49,7 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
-- [Time taken to rot all Oranges](graphs/Rotten_Oranges.cpp)
+- [Time taken to rot all Oranges](cp/Rotten_Oranges.cpp)
 
 ## Data Structures
 

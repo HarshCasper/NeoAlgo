@@ -1,6 +1,4 @@
-/*
- * Jump Game :
- *
+/* Jump Game :
  * We need to find the minimum number of jumps to reach the end of the array starting from the first element of the array,
  * jumps value would be (-1) if we are not able to reach the end of the array
  *
@@ -27,124 +25,82 @@
  *
  *  5. we have used checks-- so that we can iterate the for loop till the checks == 0 and find the maximum
  *     value for max_Jump_Reach and afterwards we will update checks by (max_Jump_Reach - i)
- *
- *
  */
- 
-package NeoAlgo;
 
 import java.util.Scanner;
 
-
-
 public class JumpGame {
 
-// jumpGame method
+	// jumpGame method
 	public static int jumpGame(int array[]) {
 
-
-//Initializing max_Jump_Reach, checks, jumps
-
-
+		//Initializing max_Jump_Reach, checks, jumps
 		int max_Jump_Reach = array[0];
 		int checks = array[0];
 		int jumps = 1;
 
-
-
-// If array has only 1 element then it is already at last element so return 0
-
+		// If array has only 1 element then it is already at last element so return 0
 		if (array.length <= 1) {
 			return 0;
 		}
 
-
-// If first element is 0 then we can't jump to any other element in the array
-
+		// If first element is 0 then we can't jump to any other element in the array
 		if (array[0] == 0) {
-	 	  return -1;
+			return -1;
 		}
 
-
-// Traverse array
-
+		// Traverse array
 		for (int i = 1; i < array.length; i++) {
 
-// Check if we reached last element or not
-
+			// Check if we reached last element or not
 			if (i == array.length - 1) {
 				return jumps;
 			}
 
-// Update max_Jump_Reach
-
+			// Update max_Jump_Reach
 			max_Jump_Reach = Math.max(max_Jump_Reach, i + array[i]);
-
-// Decreasing checks by 1
 
 			checks--;
 
-// No more checks left
-
 			if (checks == 0) {
 				jumps++;
-
 				if (i >= max_Jump_Reach) {
 					return -1;
 				}
-
-// Initialize checks again
-
+				// Initialize checks again
 				checks = max_Jump_Reach - i;
 			}
-
 		}
 		return -1;
 	}
 
-
-// main method
-
-
+	// main method
 	public static void main(String[] args) {
-
 		try {
-
-// Using Scanner to get the input
 
 			Scanner sc = new Scanner(System.in);
 
-// Number of elements we want to put in array
-
+			// Number of elements we want to put in array
 			int number = sc.nextInt();
-
 			int[] array = new int[number];
 
-
-// Putting values in array using for loop
-
+			// Putting values in array using for loop
 			for(int i = 0 ; i < array.length ; i++) {
 				array[i] = sc.nextInt();
 			}
 
-// Initializing the value returned by jumpGame method to jumps
-
+			// Initializing the value returned by jumpGame method to jumps
 			int jumps = JumpGame.jumpGame(array);
-
-// Printing Jumps
 
 			System.out.println("minimum number of Jumps required : "+jumps);
 
 		}catch(Exception e) {
 
 		}
-
 	}
-
 }
 
-/*
- * Test Cases :
+/* Test Cases :
  *  1.  Input : 7
  *              2 1 3 4 1 2 3
  *     Output : minimum number of Jumps required : 3
@@ -157,17 +113,8 @@ public class JumpGame {
  *              0
  *     Output : minimum number of Jumps required : 0
  *
-*/
-
-
-/*
- * Time Complexity :
  *
- *                Average Time Complexity is O(n);
+ * Time Complexity is O(n)
  *
- * Space Complexity :
- *
- *     Space Complexity is O(n)
- *     Space Complexity includes both Auxiliary and input space
- *
- * */
+ * Space Complexity is O(n)
+ */

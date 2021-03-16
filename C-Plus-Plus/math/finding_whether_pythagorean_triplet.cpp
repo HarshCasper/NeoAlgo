@@ -1,27 +1,22 @@
 /* C++ program to find whether the given numbers form a pythagoras triplet or not
-   In this program user will provide 3 integer input and the program will check whether the given input is pythagorian triplet or not. */
+   In this program user will provide 3 integer input and the program will check whether the given input is pythagorean triplet or not. 
+   pythagoras formula => (height^2) + (base^2) = (hypotenuse^2)
+   */
    
 #include<bits/stdc++.h>
 using namespace std;
-int max(int a, int b, int c)
-{   // function to check the largest number among the three numbers given
-    if(a>=b && a>=c)
-    return a;
-    else if(b>=a && b>=c)
-    return b;
-    else
-    return c;
-}
 int main()
 {
-     int a,b,c;
-     cin>>a>>b>>c;
-     int m=max(a,b,c);
-     /* calling max function to get the largest side of triangle as largest side is the hypotenuse
-        after finding the hypotenuse formula is ((a^2 + b^2) = c^2) where c is the largest side. */
-     if(m==a)
+     int side_1,side_2,side_3;
+     // where side_1,side_2 and side_3 are the three sides of the triangle
+     cout<<"Enter three sides of the triangle :";
+     cin>>side_1>>side_2>>side_3;
+     int m = max(side_1,side_2);
+     m = max(m, side_3);
+     /* calling in-built max function to get the largest side of triangle as largest side is the hypotenuse */
+     if(m==side_1)
      {
-         if((a*a) == ((b*b)+(c*c)))
+         if((side_1*side_1) == ((side_2*side_2)+(side_3*side_3)))
          {
              cout<<"It is a pythagoras triplet";
          }
@@ -30,9 +25,9 @@ int main()
              cout<<"It is not a pythagoras triplet";
          }
      }
-     else if(m==b)
+     else if(m==side_2)
      {
-         if((b*b) == ((a*a)+(c*c)))
+         if((side_2*side_2) == ((side_1*side_1)+(side_3*side_3)))
          {
              cout<<"It is a pythagoras triplet";
          }
@@ -43,7 +38,7 @@ int main()
      } 
      else
      {
-         if((c*c) == ((a*a)+(b*b)))
+         if((side_3*side_3) == ((side_2*side_2)+(side_1*side_1)))
          {
              cout<<"It is a pythagoras triplet";
          }

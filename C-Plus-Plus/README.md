@@ -213,7 +213,7 @@ _add list here_
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
-- [Finding Whether Pythagorean Triplet](finding_whether_pythagoras_triplet.cpp)
+- [Finding Whether Pythagorean Triplet](finding_whether_pythagorean_triplet.cpp)
 
 
 ## Dynamic Programming

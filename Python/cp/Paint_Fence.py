@@ -6,9 +6,6 @@ Given a fence with n posts and k colors
 Find out the number of ways of painting the fence
 such that at most 2 adjacent posts have the same color.
 
-
-
-
 Input:
 n : number of posts
 k : number of colors
@@ -17,10 +14,7 @@ Output:
 result: number of ways of painting
         considering the condition above
 
-
 """
-
-
 def paint_fence(n, k):
     if n < 2 or k < (n/2) :
         return -1       # n is not enough or k is not enough to obey the condition
@@ -69,3 +63,4 @@ if __name__ == "__main__":
 
 # Time Complexity  O(n)
 # Space Complexity O(n)
+

@@ -1,7 +1,9 @@
-//Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering
-//of vertices such that for every directed edge uv, vertex u comes before v in
-//the ordering. Topological Sorting for a graph is not possible if the graph is
-//not a DAG.
+/*
+  Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering
+  of vertices such that for every directed edge uv, vertex u comes before v in
+  the ordering. Topological Sorting for a graph is not possible if the graph is
+  not a DAG.
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -13,6 +15,7 @@ bool *visited;
 // Number of Test Cases (Vertices)
 int n;
 
+// function to Create and represent a graph by storing data.
 void createGraph()
 {
     int x, y;
@@ -25,6 +28,7 @@ void createGraph()
     }
 }
 
+// A recursive function used by topoSortFun.
 void topoSortFun(int i)
 {
     visited[i] = true;
@@ -37,6 +41,7 @@ void topoSortFun(int i)
     s.push(i);
 }
 
+// The function to do Topological Sort. It uses recursive topoSortFun(). 
 void topoSort()
 {
     memset(visited, false, sizeof(visited));

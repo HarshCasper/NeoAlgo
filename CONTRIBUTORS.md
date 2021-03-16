@@ -197,6 +197,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/aish2002"><img src="https://avatars.githubusercontent.com/u/56962523?v=4?s=100" width="100px;" alt=""/><br /><sub><b>aish2002</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=aish2002" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/nivedita-singh-195b6818a/"><img src="https://avatars.githubusercontent.com/u/66518355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nivedita Singh</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Nivedita967" title="Code">💻</a></td>
+    <td align="center"><a href="https://bhavya092.github.io/Portfolio/"><img src="https://avatars.githubusercontent.com/u/64348567?v=4?s=100" width="100px;" alt=""/><br /><sub><b>bhavya092</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=bhavya092" title="Code">💻</a></td>
+    <td align="center"><a href="https://saumyaportfolio.herokuapp.com/"><img src="https://avatars.githubusercontent.com/u/57553757?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saumya Srivastava</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=saumyasrivastava08" title="Code">💻</a></td>
   </tr>
 </table>
 

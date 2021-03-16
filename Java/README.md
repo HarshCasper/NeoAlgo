@@ -120,6 +120,7 @@ _add list here_
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
+- [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
 
 ## Graphs
 
@@ -158,6 +159,7 @@ _add list here_
 
 ## Dynamic Programming
 
+- [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
@@ -176,6 +178,7 @@ _add list here_
 ## Searching
 
 - [Binary Search](search/Binary_search.java)
+- [Fibonacci Search](search/Fibonacci_search.java)
 - [Interpolation Search](search/Interpolation_search.java)
 - [Ternary Search](search/TernarySearch.java)
 - [Jump Search](search/jumpSearch.java)
@@ -204,6 +207,7 @@ _add list here_
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 - [Shell Sort](sort/ShellSort.java)
 - [Sleep Sort](sort/SleepSort.java)
+- [Comb Sort](sort/CombSort_implementation.java)
 
 ## Machine Learning
 

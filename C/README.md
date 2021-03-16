@@ -89,6 +89,7 @@
 ## Sorting
 
 - [Bead Sort](sort/beadSort.c)
+- [Heap Sort](sort/HeapSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)
@@ -156,6 +157,7 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Concatenate two strings](other/concatenate_two_strings.c)
 
 ## CP
 

@@ -23,43 +23,43 @@
 
 // Efficent Approach
 
-#include<bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
 int findXOR(int n)
 {
-    // If remainder is 0
-    if(n%4==0)
+  // If remainder is 0
+  if (n % 4 == 0)
     return n;
-    
-    
-    // If remainder is 1
-    if(n%4==1)
+
+  // If remainder is 1
+  if (n % 4 == 1)
     return 1;
-    
-    // If Remainder is 2
-    if(n%4==2)
-    return n+1;
-    
-    // If Remainder is 3
-    if(n%4==3)
+
+  // If Remainder is 2
+  if (n % 4 == 2)
+    return n + 1;
+
+  // If Remainder is 3
+  if (n % 4 == 3)
     return 0;
 }
 
 int main()
 {
-     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    
-    int n;   //input
-    cin>>n;
-    
-    int answer= findXOR(n);
-    
-    // output
-    cout<<answer<<"\n";
-    
-    return 0;
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+
+  int n; //input
+  cin >> n;
+
+  int answer = findXOR(n);
+
+  // output
+  cout << answer << "\n";
+
+  return 0;
 }
 
 /* 

@@ -35,7 +35,7 @@
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
-- 
+-
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
@@ -63,6 +63,7 @@
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
+- [XOR of all the number from 1 to n](cp\XOR_of_all_number_1_to_n.cpp)
 
 ## Data Structures
 
@@ -95,7 +96,6 @@
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
-
 
 ## Graphs
 
@@ -170,6 +170,7 @@
 ## Stack based problems
 
 -[Infix to Postfix Conversiion](../C/stack/Infix_to_Postfix.c)
+
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
@@ -187,7 +188,6 @@
 - [K Closest Points to Origin](heap/K_Closest_Points_to_Origin.cpp)
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
-
 
 ## Machine Learning
 
@@ -225,8 +225,8 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
-- [Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)
-- [[Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)]
+- [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
+- [[Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)]
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
@@ -260,6 +260,7 @@ _add list here_
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 
 ## Computational Geometry
+
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
 ## Other

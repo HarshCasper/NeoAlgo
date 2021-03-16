@@ -1,12 +1,11 @@
-/* Java Program to Remove Duplicates from a Unsorted Linked List 
-Without using any Extra Space i.e while finding Duplicates we can't
-use any Data Structure to store values.
-Then we can use two pointers approach :current and runner ,current iterates through the linked list
-and runner check all subsequent nodes for every current and try to find duplicates in the list.
-*/
+//Java Program to Remove Duplicates from a Unsorted Linked List 
+//Without using any Extra Space i.e while finding Duplicates we can't
+//use any Data Structure to store values.
+//Then we can use two pointers approach :current and runner ,current iterates through the linked list
+//and runner check all subsequent nodes for every current and try to find duplicates in the list.
 
 import java.util.*;
-
+//class structure for Linked List
 public class RemDupInLLWithoutExtraSpace {
   static Node head;
   class Node {
@@ -16,7 +15,8 @@ public class RemDupInLLWithoutExtraSpace {
       this.data = data;
     }
   }
-
+  
+  //insert new node at the beginning
   public void insert_At_beginning(int data) {
     Node ptr = new Node(data);
     if (head != null) {
@@ -27,12 +27,14 @@ public class RemDupInLLWithoutExtraSpace {
       head = ptr;
     }
   }
+
   //check whether a Linked List is empty or not
   public boolean isEmpty() {
     if (head == null)
       return true;
     return false;
   }
+
   public void display() {
     Node ctr = head;
     if (!isEmpty()) {

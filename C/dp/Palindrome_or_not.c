@@ -2,11 +2,6 @@
 To find whether the given string is a palindrome or not.
 A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam or racecar.
 */
-<<<<<<< HEAD
-
-
-=======
->>>>>>> cdf3620e (Updated palindrome or not #3001)
 #include<stdio.h>
 #include<conio.h>
 struct Node
@@ -74,43 +69,18 @@ void main()
     else
         printf("Not palindrome");
 }
-<<<<<<< HEAD
-
-
-/*
-Test case 1:
-
-Input : malayalam
-
-Output : Palindrome
-_____________________
-
-Test case 2:
-
-Input : 123454321
-
-Output : Palindrome
-_____________________
-
-Test case 3:
-
-Input : 12345
-
-Output : Not palindrome
-*/
-
-=======
 /*
 Test case 1:
 Input : malayalam
 Output : Palindrome
 _____________________
+
 Test case 2:
 Input : 123454321
 Output : Palindrome
 _____________________
+
 Test case 3:
 Input : 12345
 Output : Not palindrome
 */
->>>>>>> cdf3620e (Updated palindrome or not #3001)

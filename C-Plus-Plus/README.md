@@ -65,6 +65,7 @@
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
 
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
+- [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 
 ## Data Structures
 

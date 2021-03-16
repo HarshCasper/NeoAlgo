@@ -75,6 +75,7 @@
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)
 
+- [Merging two Linked List](ds/Merging_two_Linked_List.c)
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)

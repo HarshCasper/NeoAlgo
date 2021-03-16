@@ -1,5 +1,5 @@
 /*
- Given an array of integers which represents the preorder traversal of a Binary Search Tree 
+Given an array of integers which represents the preorder traversal of a Binary Search Tree 
 Construct the BST and return its root.
 */
 
@@ -26,9 +26,11 @@ Node* CreateNode (int val){
 //Iterative solution using stack which runs in O(n) time
 Node* BstFromPreorder (int pre[], int size){
     stack <Node*> stk;
-    Node *root = CreateNode (pre[0]);     //First element of preorder traversal is always the root
-    Node *p = root;                      
-    int count = 1;                        //count maintains number of nodes in tree
+    //First element of preorder traversal is always the root
+    Node *root = CreateNode (pre[0]);     
+    Node *p = root;
+    //count maintains number of nodes in tree                      
+    int count = 1;                        
     //Iterate through the rest of pre[] array
     while (count < size){
         if (pre[count] < p->data)  
@@ -80,7 +82,7 @@ int main ()
         cin >> pre[i];
     }
     Node *root = BstFromPreorder(pre, size);  
-    cout<<"Inorder traversal of the constructed tree: \n"; //Inorder traversal printed to view the constructed BST 
+    cout<<"Inorder traversal of the constructed tree: \n"; 
     Inorder(root);  
     return 0;  
 }
@@ -88,6 +90,7 @@ int main ()
 /*
 Time Complexity : O(n)
 Space Complexity : O(n)
+
 Sample Input:
 Enter the number of nodes in tree:8
 Enter a valid preorder traversal :30 20 10 15 25 40 50 45

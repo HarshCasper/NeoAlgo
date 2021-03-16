@@ -156,6 +156,7 @@
 - [Tenary Search](search/TernarySearch.cpp)
 - [Fibonacci Search](search/fibonacci_search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
+- [A* Search](search/A_Star_Search.cpp)
 
 ## Sorting
 

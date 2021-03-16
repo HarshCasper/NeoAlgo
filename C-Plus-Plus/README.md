@@ -244,6 +244,7 @@ _add list here_
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
+- [Job Scheduling with Maximum Profit](dp/JobSchedulingWithMaxProfit.cpp)
 
 ## Blockchain
 

@@ -15,7 +15,7 @@ long long lcm(long long n)
 { 
 	long long ans = 1;	 
 	for (long long i = 1; i <= n; i++) 
-		ans = (ans * i)/(gcd(ans, i)); 
+		ans = (ans  *  i) /  (gcd(ans, i)); 
 	return ans; 
 } 
 // Driver program to test the above function 

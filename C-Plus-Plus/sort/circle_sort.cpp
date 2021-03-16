@@ -1,6 +1,4 @@
 // C++ program to implement Circle  Sort
-// Time Complexity: O(n*log(n))
-// Space Complexity: O(n)
 
 #include<bits/stdc++.h> 
 using namespace std; 
@@ -82,6 +80,9 @@ int main()
 }
 
 /*
+
+Time Complexity: O(n*log(n))
+Space Complexity: O(n)
 
 SAMPLE INPUT AND OUTPUT
 

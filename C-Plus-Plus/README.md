@@ -66,6 +66,7 @@
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
+- [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 
 ## Data Structures
@@ -154,6 +155,7 @@
 - [Staircase Search](search/Staircase_Search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
 - [Fibonacci Search](search/fibonacci_search.cpp)
+- [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
 
 ## Sorting
@@ -162,6 +164,7 @@
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
+- [Comb sort](sort/comb_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
 - [Counting Sort](sort/counting_sort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
@@ -259,6 +262,18 @@ _add list here_
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
+
+## Bit - Manipulation
+
+- [Check Kth Bit is Set or Not](Bit--Manipulation/Check_kth_bit_is_set_or_not.cpp)
+- [Count Number of Set Bits](Bit--Manipulation/Count_no_of_set_bits.cpp)
+- [Brian_Kernighan's Algorithm](Bit--Manipulation/Brian_Kernighan's_Algorithm.cpp)
+- [Power of 2](Bit--Manipulation/Power_of_2.cpp)
+- [One odd occuring](Bit--Manipulation/One_odd_occuring.cpp)
+- [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
+- [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
+- [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
+
 
 ## Blockchain
 

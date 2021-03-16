@@ -1,12 +1,12 @@
- //package mypack;
+ package mypack;
  import java.util.Scanner;
  public class tribonacci 
  {
     public static void main(String [] args)
     {
 	/*Approach : A term is the sum of preceding three terms in this series. The sum of three preceding variables will be stored in "sum" variable.
-	The first of the three variable terms will be overrided by second variable term which in turn will be overrided by third one and the third term will be 
-	overrided by the sum. This process will continue till n terms.*/ 
+	  The first of the three variable terms will be overrided by second variable term which in turn will be overrided by third one and the third term will be 
+	  overrided by the sum. This process will continue till n terms.*/ 
 
         Scanner scan = new Scanner(System.in);
         long num;int first=0,second=0,third=1,sum=0,count=0;

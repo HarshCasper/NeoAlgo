@@ -4,10 +4,10 @@
 	Given a binary tree with unique values,print all the elements in 
       a level Order i.e in a BFS( Breadth First Search) order.
     
-	Sample Input 1:
+      Sample Input 1:
       Enter the values of nodes of the tree  :  1 2 3 4 5 6 -1 -1 -1 -1 -1 -1 -1  
     
-	Sample Output 1:
+      Sample Output 1:
       Level Order Traversal for the following Tree will be   :  1 2 3 4 5 6
 	
 	

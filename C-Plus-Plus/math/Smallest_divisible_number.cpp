@@ -4,9 +4,8 @@
 using namespace std; 
 
 // Function returns the gcd of first n numbers 
-long long gcd(long long a,long long b ){
-
-
+long long gcd(long long a,long long b )
+{
     if (a == 0)
         return b;
     return gcd(b % a, a);
@@ -19,7 +18,6 @@ long long lcm(long long n)
 		ans = (ans * i)/(gcd(ans, i)); 
 	return ans; 
 } 
-
 // Driver program to test the above function 
 int main() 
 { 

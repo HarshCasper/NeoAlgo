@@ -69,6 +69,8 @@ public class LongestSubstringDistinctChar {
         System.out.println("Enter number of distinct characters: ");
 	    int K = Integer.parseInt(buf.readLine()); 
 	    
+        //Printing output
+        System.out.println("Longest substring with " + K + " distinct characters: "); 
         System.out.println(findLongestSubstring(str, K)); 
     }
 
@@ -87,6 +89,7 @@ public class LongestSubstringDistinctChar {
     Enter number of distinct characters: 
     3
     OUTPUT
+    Longest substring with 3 distinct characters: 
     xyzzxx
 
     INPUT
@@ -95,6 +98,7 @@ public class LongestSubstringDistinctChar {
     Enter number of distinct characters: 
     4
     OUTPUT
+    Longest substring with 4 distinct characters: 
     -1
 
  */

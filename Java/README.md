@@ -156,6 +156,7 @@ _add list here_
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
 - [Neon number](Neon_number.java)
+- [Roots of Quadratic Equation](Quadratic_Equation.java)
 
 ## Dynamic Programming
 

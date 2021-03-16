@@ -1,11 +1,10 @@
-package linkedList;
 //Java program to find middle of LinkedList
 
 /*Possible Approaches: 
-					   i) Traverse List: Traverse list to find it's length, then scan list to locate 							n/2 node from the beginning.
-					   ii) Two - Pointer Approach: It is the efficient approach (only one scan). 
-					   		Use 2 pointers. Move one at twice the speed of second. 
-					   		When first pointer reaches the end of list, second pointer will point the 							middle node of the LinkedList.
+i) Traverse List: Traverse list to find it's length, then scan list to locate n/2 node from the beginning.
+ii) Two - Pointer Approach: It is the efficient approach (only one scan). Use 2 pointers. Move one at twice the speed of second. 
+When first pointer reaches the end of list, second pointer will point the middle node of the LinkedList.
+
 Using the 2 pointer approach to find the middle element with Time Complexity: O(n) Space Complexity: O(1)					   		
 **/
 public class MiddleOfLinkedList {
@@ -76,14 +75,26 @@ public class MiddleOfLinkedList {
         MiddleOfLinkedList list = new MiddleOfLinkedList();
         
         // Creating a linked list
-        Node head = new Node(1);
+        Scanner sc = new Scanner(System.in);
+        
+        //size of linked list
+        System.out.println("Enter the size of Linked List:");
+        int n = sc.nextInt();
+        System.out.println("Enter the data of Linked List:");
+        //Input for the Linked list
+        int num = sc.nextInt();
+        Node head = new Node(num);
         list.addToTheLast(head);
-        list.addToTheLast(new Node(2));
-        list.addToTheLast(new Node(3));
-        list.addToTheLast(new Node(4));
-        list.addToTheLast(new Node(5));
+        Node tail = head;
+        //Linked List created
+        for(int i=0; i<n-1; i++)
+        {
+            num = sc.nextInt();
+            tail.next = new Node(num);
+            tail = tail.next;
+        }
  
-        list.printList();
+        list.printList();  //prints list
         
         // finding the middle element of the LinkedList
         Node middle = list.findMiddleNode(head);
@@ -94,6 +105,12 @@ public class MiddleOfLinkedList {
 }
 
 /*OUTPUT
+  Enter the size of Linked List:
+  5
+  Enter the data of Linked List:
+  1 2 3 4 5
   1 2 3 4 5 
   Middle node is: 3
+  
+  Time Complexity: O(n) Space Complexity: O(1)
  */

@@ -124,8 +124,8 @@ int main()
 /**
 Eg. :
 Input: 
-7
-10 20 15 2 23 90 67
+Enter the number of elements in the array : 7
+Enter the elements of the array : 10 20 15 2 23 90 67
 
 Output: 
 Peak element (Recursive approach) : 90

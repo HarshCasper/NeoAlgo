@@ -52,6 +52,7 @@ public class LongestSubarraySum {
         System.out.println("Enter sum: ");
 	    int K = Integer.parseInt(buf.readLine()); 
 	    
+        System.out.print("Length of longest subarray having sum " + K + ": "); 
         System.out.println(findLongestSubarray(numArray, K)); 
     }
 
@@ -71,7 +72,7 @@ public class LongestSubarraySum {
     Enter sum: 
     4
     OUTPUT
-    3
+    Length of longest subarray having sum 4: 3
 
     INPUT
     Enter length of array of integers:
@@ -81,6 +82,6 @@ public class LongestSubarraySum {
     Enter sum:
     -5
     OUTPUT
-    5
+    Length of longest subarray having sum -5: 5
 
  */

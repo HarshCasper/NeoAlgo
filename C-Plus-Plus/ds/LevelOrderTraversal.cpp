@@ -111,6 +111,6 @@ Level Order Traversal for the following Tree will be:
 7
 
 Time Complexity:- O(n)
-Space Complecity:- O(n) 
+Space Complexity:- O(n) 
 
 */

@@ -48,7 +48,6 @@ int main(){
     else{
         cout<<"Number of Possiblities: "<<result<<"\n";
     }
-
     return 0;
 }
 

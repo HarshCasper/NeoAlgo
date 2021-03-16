@@ -210,6 +210,7 @@
 * [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 * [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
 * [Logically Weighted Regression](ml/Logically_weighted_regression.py)
+* [Lasso Regression](https://github.com/divyanshu887/NeoAlgo/blob/c08a6dbe7b5b8d05240668331bccef3440e386e2/Python/ml/Lasso_Regression.ipynb)
 
 ## Mathematics
 

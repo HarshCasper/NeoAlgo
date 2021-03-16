@@ -61,6 +61,8 @@
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
+- [Check if binary tree is symmetric or not](cp/Check_Binary_Tree_Symmetric_or_not.cpp)
+- 
 
 ## Data Structures
 

@@ -74,8 +74,9 @@
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)
-
+- [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)

@@ -1,8 +1,5 @@
 // C++ program to implement Comb  Sort
 
-// Time Complexity: O(n^2), though in average works better than bubble sort
-// Space Complexity: O(n)
-
 /*
 Comb sort is an improvised Bubble sort. Bubble sort removes its inversion one by one whereas In Comb sort,
 more than one inversion is removed by one swap and hence it is more efficient than Bubble sort.
@@ -70,6 +67,10 @@ int main()
 }
 
 /*
+
+Time Complexity: O(n^2), though in average works better than bubble sort
+Space Complexity: O(n)
+
 SAMPLE INPUT AND OUTPUT
 
 SAMPLE 1

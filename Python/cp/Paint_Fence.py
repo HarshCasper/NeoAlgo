@@ -16,6 +16,7 @@ result: number of ways of painting
 
 """
 
+
 def paint_fence(n, k):
     if n < 2 or k < (n/2) :
         return -1       # n is not enough or k is not enough to obey the condition

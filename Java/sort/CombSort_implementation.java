@@ -7,7 +7,7 @@
 
 import java.util.Scanner;
 
-public class CombSort_implementation_in_java {
+public class CombSort_implementation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the size of the array:- ");

@@ -223,6 +223,7 @@ _add list here_
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Magic Number](math/magic_number.cpp)
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
+- [Neon Number](math/neon_number.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
 - [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)

@@ -91,4 +91,17 @@ int main()
     cout << "Enter two strings: ";
     cin >> str_1 >> str_2;
     longest_common_sub(str_1,str_2);
+    /*
+    Time Complexity - O(lengthOfStr1*lengthofStr2) as in the above approach the dp matrix of dimensions [lengthOfStr1][lengthofStr2]
+                      is firstly filled completely - first traversal and second traversal - to find the subsequence.
+    SAMPLE INPUT - 
+    1) Enter two strings: QWERTYHU   WROPYHUI
+       Length of the longest common subsequence is 5
+       Longest common subsequence is WRYHU
+       
+    2) Enter two strings: CODING   ENCODING
+       Length of the longest common subsequence is 6
+       Longest common subsequence is CODING
+          
+    */
 }

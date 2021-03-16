@@ -120,7 +120,7 @@ _add list here_
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
-- [Remove Duplicate in a Unsorted Linked list without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
+- [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
 
 ## Graphs
 

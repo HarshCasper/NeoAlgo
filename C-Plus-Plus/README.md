@@ -158,6 +158,7 @@
 - [Selection Sort](sort/selection_sort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
+- [Topological Sort](sort/Topological_Sort.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
 

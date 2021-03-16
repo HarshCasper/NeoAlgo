@@ -29,13 +29,15 @@ _add list here_
 
 ## Competitive programming
 
-* [Dutch National Flag](cp/DutchFlag.java)
-* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
-* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
-* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
-* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
-* [Target Sum Triplets](cp/target_sum_triplets.java)
-* [ZigZag](cp/Zig_Zag.java)
+- [Reverse words in String](cp/Reverse_words_in_String.java)
+- [Anagram String](cp/Anagram.java)
+- [Dutch National Flag](cp/DutchFlag.java)
+- [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+- [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+- [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+- [Target Sum Triplets](cp/target_sum_triplets.java)
+- [ZigZag](cp/Zig_Zag.java)
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
@@ -101,6 +103,7 @@ _add list here_
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
+- [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
@@ -113,11 +116,11 @@ _add list here_
 - [Implementation of Stack using Queue](ds/StackUsingQueue.java)
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
+- [Trie Insert and Search String](ds/Trie_with_Hashmap.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
-
-
+- [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
 
 ## Graphs
 
@@ -145,6 +148,7 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Sum of Digit in a Number](math/SumOfDigit.java)
 - [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
@@ -155,6 +159,7 @@ _add list here_
 
 ## Dynamic Programming
 
+- [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
@@ -173,6 +178,7 @@ _add list here_
 ## Searching
 
 - [Binary Search](search/Binary_search.java)
+- [Fibonacci Search](search/Fibonacci_search.java)
 - [Interpolation Search](search/Interpolation_search.java)
 - [Ternary Search](search/TernarySearch.java)
 - [Jump Search](search/jumpSearch.java)
@@ -201,6 +207,7 @@ _add list here_
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 - [Shell Sort](sort/ShellSort.java)
 - [Sleep Sort](sort/SleepSort.java)
+- [Comb Sort](sort/CombSort_implementation.java)
 
 ## Machine Learning
 
@@ -239,4 +246,5 @@ _add list here_
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
-
+- [Infix to Prefix Expression](other/InfixtoPrefix.java)
+- [Infix to Postfix Expression](other/InfixToPostfix.java)

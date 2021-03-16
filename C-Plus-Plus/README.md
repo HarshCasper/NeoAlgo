@@ -33,10 +33,11 @@
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
+- [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
-- 
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
+- [Min Swap To Sort Array](cp/MinSwapToSortArray.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)
@@ -45,6 +46,7 @@
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
+- [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
@@ -52,6 +54,7 @@
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
 - [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)
@@ -59,11 +62,18 @@
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
+- [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
+- [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
+
+- [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
+
+- [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
+- [AVL Tree](ds/avl_tree.cpp)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
@@ -72,6 +82,8 @@
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
 - [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
+- [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.cpp)
+- [Detect Cycle in Linked List ](ds/Detect_Cycle_In_LinkedList.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
@@ -90,12 +102,18 @@
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
+- [BST from preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
+- [Priority Queue using Array](ds/priorityQ_array.cpp)
+- [Linear Probing](ds/linear-probing.cpp)
+- [Quadratic Probing](ds/quadratic-probing.cpp)
+- [Double Hashing](ds/double-hashing.cpp)
 
 ## Graphs
 
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
+- [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
@@ -137,6 +155,7 @@
 - [Staircase Search](search/Staircase_Search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
 - [Fibonacci Search](search/fibonacci_search.cpp)
+- [Sublist Search](search/sublist_Search.cpp)
 
 ## Sorting
 
@@ -159,6 +178,7 @@
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
+- [Wiggle Sort](sort/wiggle_sort.cpp)
 
 ## Stack based problems
 
@@ -181,7 +201,6 @@
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 
-
 ## Machine Learning
 
 _add list here_
@@ -197,14 +216,20 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
+- [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
+- [Magic Number](math/magic_number.cpp)
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
+- [Neon Number](math/neon_number.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
+- [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
+- [Happy Number](math/Happy_Number.cpp)
+- [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 
 ## Dynamic Programming
 
@@ -252,6 +277,7 @@ _add list here_
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 
 ## Computational Geometry
+
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
 ## Other

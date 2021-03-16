@@ -54,44 +54,8 @@ child*buildTree()
  {
     cout<<"Input the values of nodes of the tree"<<endl;
     child*root=buildTree();
- /* How to input a tree 
- for example :
- 1.     1
-       /
-      2
-     /
-    3
-   /
-  4 
- /
-5
-Then you will give input in this way:
-    1
-    2
-    3
-    4
-    5
-   -1
-   -1
-   -1
-   -1
-   -1
-   -1
-
-2.       3
-        / \
-	   4   5
-	   
-	   Then you will give output in this way:
-	     3
-       4
-       6
-      -1
-      -1
-      -1
-      -1      
-*/       cout<<"Level Order Traversal for the following Tree will be:"<<endl;
- levelOrder(root);
+    cout<<"Level Order Traversal for the following Tree will be:"<<endl;
+    levelOrder(root);
  
     return 0;
 
@@ -99,19 +63,7 @@ Then you will give input in this way:
  //Main Function ends
 
  /*
- Examples:
-      5
-    /    \
-   6      7
-  /\     /  \
- 8  NULL NULL 9
-  Output:
-   Levelorder 5 
-              6
-			  7
-			  8 
-			  9
-   
+    
    Time Complexity: O(n)
    
         1

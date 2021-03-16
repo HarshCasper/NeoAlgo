@@ -254,6 +254,9 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 
+## Sliding Window
+- [First Negative Number in Every window of size k](sliding_window/1st_negative_no_in_every_window_of_size_k.cpp)
+
 ## Blockchain
 
 _add list here_

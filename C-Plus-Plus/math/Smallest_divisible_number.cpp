@@ -10,6 +10,7 @@ long long gcd(long long a,long long b )
         return b;
     return gcd(b % a, a);
 }
+
 // Function returns the lcm of first n numbers 
 long long lcm(long long n) 
 { 
@@ -22,8 +23,7 @@ long long lcm(long long n)
 int main() 
 { 
 	long long n;
-	cout<<"Enter the number:";
-	//Taking input
+	cout<< "Enter the number: ";
 	cin>>n;             
 	cout << lcm(n); 
 	return 0; 

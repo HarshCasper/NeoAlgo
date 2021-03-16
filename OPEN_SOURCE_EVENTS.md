@@ -4,7 +4,7 @@ Open source is a term that originally referred to open source software (OSS). Op
 
 ### ✨ HakinCodes Contributor's Hack ✨
   
-  <a href="https://hakincodes.tech/ch20.html"><img src="https://i.imgur.com/P3g5Olx.png" style="width:200px; height:200px;"></img></a>
+  <a href="https://hakincodes.tech/ch20.html"><img src="https://i.imgur.com/hTG3Zks.png" style="width:200px; height:200px;"></img></a>
 
 **Contributor's Hack** is an Open-Source Program organized by **HakinCodes** that unites students, developers, engineers, and innovators from different places and culture to be a part of one and a half months of learning and contributing to Open-Source Projects for building their skills and learning how to collaborate and work together in a dev community.
 

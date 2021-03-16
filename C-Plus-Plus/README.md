@@ -165,6 +165,7 @@
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
+- [Comb sort](sort/comb_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
 - [Counting Sort](sort/counting_sort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)

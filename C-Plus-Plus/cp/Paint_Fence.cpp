@@ -19,7 +19,7 @@ result: number of ways of painting
 #include <iostream>
 using namespace std;
 
-int paint_fence(int n, int k){
+int paint_fence(int n, int k){          //function uses permutation logic to output number of possible ways of painting
     if(n<2 || k<(n/2)){
         return -1;
     }
@@ -50,7 +50,6 @@ int main(){
     }
 
     return 0;
-    
 }
 
 
@@ -76,3 +75,4 @@ Number of Possiblities: 180
 
 Time Complexity  O(n)
 Space Complexity O(n) */
+

@@ -28,7 +28,9 @@
  *  5. we have used checks-- so that we can iterate the for loop till the checks == 0 and find the maximum
  *     value for max_Jump_Reach and afterwards we will update checks by (max_Jump_Reach - i)
  *
- * */
+ *
+ */
+ 
 package NeoAlgo;
 
 import java.util.Scanner;
@@ -37,104 +39,68 @@ import java.util.Scanner;
 
 public class JumpGame {
 
-
-	public int jumpGame(int array[]) {
-
+// jumpGame method
+	public static int jumpGame(int array[]) {
 
 
 //Initializing max_Jump_Reach, checks, jumps
 
 
-		int max_Jump_Reach = array[0]; // iterates 1 time
-
-		int checks = array[0]; // // iterates 1 time
-
-		int jumps = 1; // iterates 1 time
+		int max_Jump_Reach = array[0];
+		int checks = array[0];
+		int jumps = 1;
 
 
 
 // If array has only 1 element then it is already at last element so return 0
 
-		if (array.length <= 1) { // iterates 1 time
-
-			return 0; // iterates 1 time
-
-		}  // Starts from Line 57
-
+		if (array.length <= 1) {
+			return 0;
+		}
 
 
 // If first element is 0 then we can't jump to any other element in the array
 
-		if (array[0] == 0) { // iterates 1 time
-
-			return -1; // iterates 1 time
-
-		}  // Starts from Line 67
-
+		if (array[0] == 0) {
+	 	  return -1;
+		}
 
 
 // Traverse array
 
-
-		for (int i = 1; i < array.length; i++) { // iterates (n+1) time as condition is checked (n+1) times
-
+		for (int i = 1; i < array.length; i++) {
 
 // Check if we reached last element or not
 
-
-			if (i == array.length - 1) { // iterates n times
-
-				return jumps; // iterates n times
-
-			}  // Starts from Line 84
-
+			if (i == array.length - 1) {
+				return jumps;
+			}
 
 // Update max_Jump_Reach
 
-
-			max_Jump_Reach = Math.max(max_Jump_Reach, i + array[i]); // iterates n times
-
+			max_Jump_Reach = Math.max(max_Jump_Reach, i + array[i]);
 
 // Decreasing checks by 1
 
-
-			checks--; // iterates n times
-
+			checks--;
 
 // No more checks left
 
+			if (checks == 0) {
+				jumps++;
 
-			if (checks == 0) { // iterates n times
-
-				jumps++; // iterates n times
-
-
-				if (i >= max_Jump_Reach) { // iterates n times
-
-					return -1; // iterates n times
-
-				}  // Starts from Line 111
-
-
+				if (i >= max_Jump_Reach) {
+					return -1;
+				}
 
 // Initialize checks again
 
+				checks = max_Jump_Reach - i;
+			}
 
-				checks = max_Jump_Reach - i; // iterates n times
-
-
-
-			}  // Starts from Line 106
-
-
-		}  // Starts from Line 78
-
-
-		return -1;// iterates 1 time
-
-
-	}  // Starts from Line 40
-
+		}
+		return -1;
+	}
 
 
 // main method
@@ -142,57 +108,40 @@ public class JumpGame {
 
 	public static void main(String[] args) {
 
-
 		try {
 
 // Using Scanner to get the input
 
-			Scanner sc = new Scanner(System.in); // iterates 1 time
-
+			Scanner sc = new Scanner(System.in);
 
 // Number of elements we want to put in array
 
-			int number = sc.nextInt(); // iterates 1 time
+			int number = sc.nextInt();
 
-
-			int[] array = new int[number]; // iterates 1 time
-
+			int[] array = new int[number];
 
 
 // Putting values in array using for loop
 
-
-			for(int i = 0 ; i < array.length ; i++) { // iterates (n+1) times
-
-				array[i] = sc.nextInt(); // iterates n times
-
-			}  // Starts from Line 164
-
-
-// Creating new object
-
-			JumpGame object = new JumpGame(); // iterates 1 time
-
+			for(int i = 0 ; i < array.length ; i++) {
+				array[i] = sc.nextInt();
+			}
 
 // Initializing the value returned by jumpGame method to jumps
 
-			int jumps = object.jumpGame(array); // iterates 1 time
-
+			int jumps = JumpGame.jumpGame(array);
 
 // Printing Jumps
 
-			System.out.println("minimum number of Jumps required : "+jumps); // iterates 1 time
-
+			System.out.println("minimum number of Jumps required : "+jumps);
 
 		}catch(Exception e) {
 
+		}
 
-		}  // Starts from Line 186
+	}
 
-	}  // Starts from Line 142
-
-}  // Starts from Line 37
-
+}
 
 /*
  * Test Cases :
@@ -207,21 +156,18 @@ public class JumpGame {
  *  3.  Input : 1
  *              0
  *     Output : minimum number of Jumps required : 0
- * */
+ *
+*/
 
 
 /*
  * Time Complexity :
- *     By calculating every statement's iteration we got a function T(n)
- *     i.e T(n) = 12n + 16;
- *     and for larger values of n our function only depends on 'n'
- *     therefore,
+ *
  *                Average Time Complexity is O(n);
  *
  * Space Complexity :
- *     Auxiliary Space Complexity is O(1)
- *     Auxiliary Space Complexity is the extra space used by the algorithm not including space used by the input
  *
  *     Space Complexity is O(n)
  *     Space Complexity includes both Auxiliary and input space
+ *
  * */

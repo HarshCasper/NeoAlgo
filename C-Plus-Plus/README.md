@@ -155,6 +155,7 @@
 - [Staircase Search](search/Staircase_Search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
 - [Fibonacci Search](search/fibonacci_search.cpp)
+- [Sublist Search](search/sublist_Search.cpp)
 
 ## Sorting
 

@@ -1,8 +1,5 @@
 // C++ program to implement Pigeon Hole  Sort
 
-// Time Complexity: O(n+range), where 'range' is statistical range of the given input values
-// Space Complexity: O(n)
-
 #include <bits/stdc++.h> 
 using namespace std; 
 
@@ -71,6 +68,9 @@ int main()
 }
 
 /*
+
+Time Complexity: O(n+range), where 'range' is statistical range of the given input values
+Space Complexity: O(n)
 
 SAMPLE INPUT AND OUTPUT
 

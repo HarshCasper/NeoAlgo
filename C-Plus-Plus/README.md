@@ -85,6 +85,7 @@
 - [Singly Linked List](ds/singly_linked_list.cpp)
 - [Stack using Array](ds/Stack_using_Array.cpp)
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
+- [Searching in BST](ds/BSTSearching.cpp)
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Vector](ds/Vector.cpp)

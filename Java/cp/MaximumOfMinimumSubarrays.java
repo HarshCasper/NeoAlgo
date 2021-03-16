@@ -81,6 +81,8 @@ public class MaximumOfMinimumSubarrays {
 
         int arr[] = findMaximumOfMinimums(numArray, len); 
         //Printing the obtained array values as a String
+        System.out.println("String of maximum of the minimums of every window" +
+                            " size from 1 to " + len + ":");
         String result = "";
         for(int i=0; i<len; i++)
             result += (arr[i] + " "); 
@@ -101,6 +103,7 @@ public class MaximumOfMinimumSubarrays {
     Enter array of integers: 
     4 7 3 5 0 8 4 10 10 0
     OUTPUT
+    String of maximum of the minimums of every window size from 1 to 10:
     10 10 4 4 0 0 0 0 0 0
 
     INPUT
@@ -109,6 +112,7 @@ public class MaximumOfMinimumSubarrays {
     Enter array of integers: 
     3 3 4 2 4
     OUTPUT
+    String of maximum of the minimums of every window size from 1 to 10:
     4 3 3 2 2 
 
  */

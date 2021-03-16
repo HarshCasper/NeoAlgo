@@ -11,7 +11,7 @@
         Level Order Traversal for the following Tree will be   :  1 2 3 4 5 6
 	        
 	@author : hritikgupta92
-    @created : 16-03-2021
+        @created : 16-03-2021
         
 */
 
@@ -27,7 +27,7 @@ struct child{
     child*RightPtr;
  
     child(int value)
-	{
+    {
         data=value;
         LeftPtr=NULL;
         RightPtr=NULL;
@@ -39,23 +39,23 @@ struct child{
 child*buildTree()
 {
     int d;
-	cin>>d;
+    cin>>d;
 	
-	//  Base Case
-	if(d==-1){
-		return NULL;
+    //  Base Case
+    if(d==-1){
+    return NULL;
     }
 
-	//  Recursive Case 
-	child*root=new child(d);
+    //  Recursive Case 
+    child*root=new child(d);
 
-	//  Inserting value into left Subtree
-	root->LeftPtr=buildTree();
+    //  Inserting value into left Subtree
+    root->LeftPtr=buildTree();
 
-	//  Inserting value into Right Subtree
-	root->RightPtr=buildTree();
+    //  Inserting value into Right Subtree
+    root->RightPtr=buildTree();
 
-	return root;
+    return root;
 }
 
 //  Function for implementing level order traversal using Queue
@@ -64,7 +64,7 @@ child*buildTree()
  { 
      //  Base Case
 	 if(root==NULL)
-     return;
+         return;
     
 	 queue<child*>q;
     
@@ -72,18 +72,19 @@ child*buildTree()
 	 q.push(root);
       
 	 //  Recursive Case 
-     while(!q.empty())
-     {
-          child*t=q.front();
-          cout<<t->data<<endl;
+         while(!q.empty())
+         {
+              child*t=q.front();
+              cout<<t->data<<endl;
            
-		   if(t->LeftPtr)
-           q.push(t->LeftPtr);
-           if(t->RightPtr)
-           q.push(t->RightPtr);
+              if(t->LeftPtr)
+              q.push(t->LeftPtr);
+          
+	      if(t->RightPtr)
+              q.push(t->RightPtr);
          
-		   q.pop();
-     }
+              q.pop();
+         }
       
  }
   
@@ -92,13 +93,14 @@ int main()
     //  Input Values here
     cout<<"Enter the values of nodes of the tree: "<<endl;
      
-	child*root=buildTree();
+    child*root=buildTree();
     
-	cout<<"Level Order Traversal for the following Tree will be:"<<endl;
+    cout<<"Level Order Traversal for the following Tree will be:"<<endl;
      
-	levelOrder(root);
+    levelOrder(root);
      
-	return 0;
+    return 0;
+
 }
   
 

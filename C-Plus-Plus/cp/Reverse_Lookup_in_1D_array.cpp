@@ -22,8 +22,9 @@ where, M = 10^9 + 7
 using namespace std;
 const long long M = 1e9 + 7;
 
-// function subset_sums() calculates the total sum of all subsets. 
-// contribution variable denotes the contribution given by each element in the array.     
+/* function subset_sums() calculates the total sum of all subsets. 
+   contribution variable denotes the contribution given by each element in the array.    
+*/
 long long subset_sums(vector<int>& array, int n){
     long long sum = 0, contribution;
     for (int i = 0; i < n; i++) {
@@ -64,6 +65,3 @@ Output:
 Time Complexity : O(n)
 Space Complexity : O(1)
 */
-
-
-

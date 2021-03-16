@@ -26,7 +26,7 @@
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
-- [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
+- [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
@@ -43,6 +43,7 @@
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
+- [Vernam Cipher](cryptography/Vernam_Cipher.c)
 
 ## Data Structures
 
@@ -68,6 +69,11 @@
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Stack Using Queue](ds/StackUsingQueue.c)
+- [Finding a pair of element](ds/Finding_a_pair_of_element.c)
+- [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
+- [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Hash Table using Linear Probing](ds/Hash_Table.c)
 
 ## Searching
 
@@ -78,6 +84,7 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Jump Search](search/JumpSearch.c)
 
 ## Sorting
 
@@ -95,6 +102,8 @@
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
+- [Shaker Sort](sort/shaker_sort.c)
+- [Sort using Binary Search Tree](sort/BST_Sort.c)
 
 ## Dynamic Programming
 
@@ -111,6 +120,7 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
+- [Adjacency List](graphs/Adjacency_List.c)
 
 ## Machine Learning
 
@@ -127,10 +137,12 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Neon Number](math/Neon_number.c) 
 
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 
 ## Other
 

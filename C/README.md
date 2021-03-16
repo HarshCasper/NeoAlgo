@@ -73,6 +73,7 @@
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Hash Table using Linear Probing](ds/Hash_Table.c)
 
 ## Searching
 
@@ -83,6 +84,7 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Jump Search](search/JumpSearch.c)
 
 ## Sorting
 
@@ -140,6 +142,7 @@ _add list here_
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 
 ## Other
 

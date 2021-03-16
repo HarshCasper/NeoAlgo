@@ -1,4 +1,5 @@
-/* Find number of subsets with given difference between their sums 
+/* 
+   Find number of subsets with given difference between their sums 
  
    This approach uses dynamic programming and subset sum problem to find the count 
    of subsets whose difference is given. To count the subsets with a given a sum, we need a sum in this problem

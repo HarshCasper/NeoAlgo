@@ -73,5 +73,5 @@ Enter k,Number of Colors
 Number of Possiblities: 180
 
 Time Complexity  O(n)
-Space Complexity O(n) */
-
+Space Complexity O(n) 
+*/

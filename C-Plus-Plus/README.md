@@ -72,6 +72,7 @@
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
+- [Singly Linked List Operations Using Unique Key](ds/SLL_Operations_Using_Unique_Key.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 - [AVL Tree](ds/avl_tree.cpp)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)

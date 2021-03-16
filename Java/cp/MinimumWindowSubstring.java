@@ -77,6 +77,9 @@ public class MinimumWindowSubstring {
         System.out.println("Enter a String pattern: ");
         String pattern = buf.readLine().trim(); 
 
+        //Printing output
+        System.out.println("Smallest substring in text, containing all " +
+                            "characters in pattern: ");
         System.out.println(findSmallestSubstring(str, pattern)); 
     }
 
@@ -95,6 +98,7 @@ public class MinimumWindowSubstring {
     Enter a String pattern: 
     zsk
     OUTPUT
+    Smallest substring in text, containing all characters in pattern: 
     skz
 
     INPUT
@@ -103,6 +107,7 @@ public class MinimumWindowSubstring {
     Enter a String pattern: 
     gtyn
     OUTPUT
+    Smallest substring in text, containing all characters in pattern: 
     ntryg
 
  */

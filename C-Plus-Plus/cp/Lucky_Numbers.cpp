@@ -1,4 +1,7 @@
 /*
+
+Link to problem: https://github.com/TesseractCoding/NeoAlgo/blob/master/C-Plus-Plus/cp/Lucky_Numbers.cpp
+
 The numbers of all offices in the new building of the Tax Office of IT City will have lucky numbers.
 
 Lucky number is a number that consists of digits 7 and 8 only. 
@@ -18,7 +21,7 @@ Logic of the below code:
 
 Any lucky number can only consist of '7' or '8' which means each digit in a number can be either '7' or '8'. 
 Each digit in a number has therefore 2 choices('7' or '8').
-
+  
 So for the length n the amount of lucky numbers of the length exactly n is 2^n. 
 But in the problem we need the amount of lucky numbers of length not greater than n. 
 Let's sum up them.

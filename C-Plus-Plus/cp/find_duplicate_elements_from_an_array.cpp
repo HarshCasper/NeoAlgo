@@ -1,15 +1,18 @@
 /*
-Given an array of N elements , find all duplicate elements from it. In Competitive Programming, some times we need to do this to solve our problem.
+Given an array of N elements, each element's occurrence in the array can be more than once. Find all elements whose occurrence is more than 1.
+Formally find all duplicate elements of the array. This can be done with the help of map and set data structure.
 */
 
 #include <bits/stdc++.h>
 using namespace std;
+
 int ar[100009];
 
 void dupicate_elements(int ar[] ,int N)
 {
     /* we will insert the array elements into the map. if current element already in the map,
-    then definitely that element's occurrence is more than 1. Hence it is duplicate and will insert in the set*/
+    then definitely that element's occurrence is more than 1. 
+    Hence it is duplicate and will insert in the set*/
     map < int, int > unique_elements;
     set < int > duplicates;
     for(int i = 0; i < N; i++)
@@ -28,12 +31,13 @@ void dupicate_elements(int ar[] ,int N)
     cout << endl;
     return;
 }
+
 int main()
 {
     cout << "Input array size\n";
-	int N;
-	cin >> N;
-	for(int i = 0; i < N; i++)
+    int N; 
+    cin >> N;
+    for(int i = 0; i < N; i++)
     {
         cin >> ar[i];
     }

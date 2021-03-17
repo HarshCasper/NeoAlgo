@@ -44,6 +44,7 @@
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
 - [Vernam Cipher](cryptography/Vernam_Cipher.c)
+- [Rail Fence Cipher](cryptography/railFenceCipher.c)
 
 ## Data Structures
 

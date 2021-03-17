@@ -64,6 +64,7 @@
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
+- [Sort Color](cp/Sort_Color.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)

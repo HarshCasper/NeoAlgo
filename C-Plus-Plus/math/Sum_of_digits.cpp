@@ -3,21 +3,28 @@
 #include <iostream>
 using namespace std;
 
-int main()
+// Function to calculate the sum of digits
+int sum_of_digits(int N)
 {
-    int N, sum_of_digits = 0;
-    cout << "Enter any integer:";
-    cin >> N;
+    int sum = 0;
     while(N != 0)
     {
         // Adding the last digit of the number to the sum
         int rem = N % 10;
-        sum_of_digits += rem;
+        sum += rem;
         // Removing the last digit
         N = N / 10;
     }
+    return sum;
+}
 
-    cout << "Sum of the digits of a number:" << sum_of_digits << endl;
+int main()
+{
+    int N;
+    cout << "Enter any integer:";
+    cin >> N;
+    
+    cout << "Sum of the digits of a number:" << sum_of_digits(N) << endl;
     return 0;
 }
 

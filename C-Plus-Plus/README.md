@@ -69,6 +69,7 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
+- [First Negative Number in Every window of size k](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 
 ## Data Structures
 
@@ -262,9 +263,6 @@ _add list here_
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
-
-## Sliding Window
-- [First Negative Number in Every window of size k](sliding_window/1st_negative_no_in_every_window_of_size_k.cpp)
 
 ## Bit - Manipulation
 

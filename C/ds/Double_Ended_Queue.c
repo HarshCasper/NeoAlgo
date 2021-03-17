@@ -165,6 +165,8 @@ int main()
     3 2 1 5
 */
 /*
-    Time Complexity: O(1)
+    Time Complexity of insertion and deletion operations: O(1)
+    Time Complexity of display function : O(n)
+    Time complexity of random access by index : O(1)
     Space complexity: O(1)
 */

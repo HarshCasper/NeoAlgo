@@ -2,13 +2,14 @@
 Problem statement :
 An array of integers of size 'n' and a number 'k' is given.
 We have to detemine the maximum sum of subarray of size k
- => Input format:
-    size of array (n)
-    n elemnts of array
-    k
 
- => Output format:
-    maximum sum
+=> Input format:
+   size of array (n)
+   n elemnts of array
+   k
+   
+=> Output format:
+   maximum sum
 */
 
 #include<bits/stdc++.h>
@@ -38,7 +39,7 @@ int max_sum_subarray(int n,int arr[],int k){
             i++;
             j++;
         }
-       }
+    }
     return maxx;
 }
 
@@ -55,16 +56,15 @@ int main(){
 }
 
 /*
+Test case 1:
+Input:-
+7
+2 5 1 8 2 9 1
+3
 
-  Test case 1:
-    Input:-
-    7
-    2 5 1 8 2 9 1
-    3
+Output:
+19
 
-    Output:
-    19
-
-    Time complexity: O(n)
-    Space complexity: O(1)
+Time complexity: O(n)
+Space complexity: O(1)
 */

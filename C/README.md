@@ -43,6 +43,7 @@
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
+- [Vernam Cipher](cryptography/Vernam_Cipher.c)
 
 ## Data Structures
 
@@ -71,7 +72,11 @@
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Reverse Linked List](ds/reverse_linked_list.c)
+- [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
+- [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Hash Table using Linear Probing](ds/Hash_Table.c)
 
+- [Merging two Linked List](ds/Merging_two_Linked_List.c)
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
@@ -81,10 +86,12 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Jump Search](search/JumpSearch.c)
 
 ## Sorting
 
 - [Bead Sort](sort/beadSort.c)
+- [Heap Sort](sort/HeapSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)
@@ -98,7 +105,9 @@
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
+- [Three Way Merge Sort](sort/three_way_merge_sort.c)
 - [Shaker Sort](sort/shaker_sort.c)
+- [Sort using Binary Search Tree](sort/BST_Sort.c)
 
 ## Dynamic Programming
 
@@ -115,6 +124,7 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
+- [Adjacency List](graphs/Adjacency_List.c)
 
 ## Machine Learning
 
@@ -136,6 +146,7 @@ _add list here_
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 
 ## Other
 
@@ -149,6 +160,7 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Concatenate two strings](other/concatenate_two_strings.c)
 
 ## CP
 

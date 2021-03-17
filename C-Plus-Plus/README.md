@@ -49,6 +49,7 @@
 - [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
+- [Reverse a String using Stack](cp/Reverse_string_using_stack.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
@@ -60,6 +61,7 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
+- [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
@@ -74,6 +76,7 @@
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
+- [Level Order Tree Traversal](ds/LevelOrderTraversal.cpp)
 - [AVL Tree](ds/avl_tree.cpp)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
@@ -139,9 +142,8 @@
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
 - [Breadth First Search](graphs/BFS1.cpp)
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
-- [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
-- [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
-- [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
+- [Childern Sum Property](graphs/Childern_Sum_Property.cpp)
+
 
 ## Searching
 
@@ -162,6 +164,7 @@
 ## Sorting
 
 - [Bead Sort](sort/Bead_Sort.cpp)
+- [Binary Search Tree Sort](sort/BST_Sort.cpp)
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
@@ -179,6 +182,7 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
+- [Three Way Merge Sort](sort/three_way_merge_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
 - [Wiggle Sort](sort/wiggle_sort.cpp)
 
@@ -192,8 +196,10 @@
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 - [Previous Greater Element](stack/Previous_Greater_Element.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
+- [Infix to Postfix conversion](stack/infixToPostfix.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
+
 
 ## Heap based problems
 
@@ -250,6 +256,7 @@ _add list here_
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
+- [Number of subsets with given difference](dp/subsets_with_given_diff.cpp)
 - [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)
 - [Partition Problem](dp/Partition_Problem.cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)

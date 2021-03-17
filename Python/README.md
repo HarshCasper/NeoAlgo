@@ -27,6 +27,7 @@
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+- [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
 
 
@@ -70,7 +71,6 @@
 - [Burrows Wheeler transform (BWT)](cryptography/Burrows_Wheeler_transform.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
 - [AES Algorithm](cryptography/AES.py)
-
 
 ## Searching
 
@@ -129,17 +129,17 @@
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
-- [Dice Throw Problem](dp/Dice_Throw.py)	
+- [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
 
-## Pathfinding Algorithms 
+## Pathfinding Algorithms
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
-- [A*(Astar) in Maze](Pathfinding/2D_Astar.py)
+- [A\*(Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
 
@@ -200,16 +200,16 @@
 
 ## Machine Learning
 
-* [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
-* [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
-* [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
-* [Linear Regression](ml/Linear_Regression.ipynb)
-* [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
-* [Logistic Regression](ml/Logistic_Regression.ipynb)
-* [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
-* [Principal Component Analysis](ml/principal_component_analysis.ipynb)
-* [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
-* [Logically Weighted Regression](ml/Logically_weighted_regression.py)
+- [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
+- [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
+- [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
+- [Linear Regression](ml/Linear_Regression.ipynb)
+- [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
+- [Logistic Regression](ml/Logistic_Regression.ipynb)
+- [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
+- [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+- [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
+- [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 
 ## Mathematics
 
@@ -236,6 +236,7 @@
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
+- [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 
 ## Blockchain

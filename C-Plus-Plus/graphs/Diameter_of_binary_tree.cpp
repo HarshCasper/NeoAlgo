@@ -87,7 +87,6 @@ Input Tree:- 1
          3  6
            /
          10
-         
-      Output:-Diameter of the above tree is:-5
+  Output:-Diameter of the above tree is:-5
 
 */

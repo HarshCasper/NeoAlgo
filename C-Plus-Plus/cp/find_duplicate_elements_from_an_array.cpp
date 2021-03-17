@@ -17,7 +17,7 @@ void dupicate_elements(int ar[] ,int N)
     set < int > duplicates;
     for(int i = 0; i < N; i++)
     {
-        if(unique_elements[ar[i]] == 0)
+        if(!unique_elements[ar[i]])
             unique_elements[ar[i]]++;
        else
        {

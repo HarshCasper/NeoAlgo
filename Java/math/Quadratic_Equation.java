@@ -8,12 +8,11 @@ import java.util.*;
 import java.io.*;
 
 public class Quadratic_Equation {
-
-  public static void main(String[] args) {
-
+  public static void quadraticroots()
+  {
     // value a, b, and c
     double a, b, c;
-    double x, y;
+    double root1, root2;
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter coefficients of the equation:");
     System.out.print("Enter a: ");
@@ -38,10 +37,10 @@ public class Quadratic_Equation {
     if (discriminant > 0) {
 
       // two real and distinct roots
-      x = (-b + Math.sqrt(discriminant)) / (2 * a);
-      y = (-b - Math.sqrt(discriminant)) / (2 * a);
+      root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+      root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
       System.out.println("Roots are real and distinct");
-      System.out.format("root1 = %.2f and root2 = %.2f", x, y);
+      System.out.format("root1 = %.2f and root2 = %.2f", root1, root2);
     }
 
     // check if determinant is equal to 0
@@ -50,9 +49,9 @@ public class Quadratic_Equation {
       // two real and equal roots
       // discriminant is equal to 0
 
-      x = y = -b / (2 * a);
+      root1 = root2 = -b / (2 * a);
       System.out.println("Equal roots");
-      System.out.format("root1 = root2 = %.2f;", x);
+      System.out.format("root1 = root2 = %.2f;", root1);
     }
 
     // if discriminant is less than zero
@@ -65,6 +64,11 @@ public class Quadratic_Equation {
       System.out.format("root1 = %.2f+%.2fi", real, imaginary);
       System.out.format("\nroot2 = %.2f-%.2fi", real, imaginary);
     }
+
+  }
+
+  public static void main(String[] args) {
+    quadraticroots();
 
   }
 }

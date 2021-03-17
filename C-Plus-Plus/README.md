@@ -245,7 +245,7 @@ _add list here_
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
 ## Other
-- [Add Two Numbers](other/AddTwoNumbers.cpp)
+- [Add Two Numbers](other/addTwoLinkedLists.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)

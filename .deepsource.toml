@@ -13,7 +13,7 @@ name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_paths = ["github.com/TesseractCoding/NeoAlgo"]
+  import_paths = ["github.com/SrishtiSingh2001/NeoAlgo"]
 
 [[analyzers]]
 name = "javascript"

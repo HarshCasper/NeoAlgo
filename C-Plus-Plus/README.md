@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -11,6 +11,7 @@
 
 ## Competitive Programming
 
+- [Time taken to rot all Oranges](cp/Rotten_Oranges.cpp)
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
@@ -23,6 +24,7 @@
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
+- [Even Pair Sum](cp/EvenPairSum.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
@@ -32,32 +34,50 @@
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
+- [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
-- 
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
+- [Min Swap To Sort Array](cp/MinSwapToSortArray.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
+- [Prefix Sum Array](cp/prefix_sum.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
+- [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
+- [Reverse a String using Stack](cp/Reverse_string_using_stack.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
 - [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
+- [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
+- [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
+- [Ticket Auction](cp/tkt_auction.cpp)
+- [Replace Pi using recursion](cp/replace_pi.cpp)
+- [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
+- [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
+- [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
+- [Painting Fence Algorithm](cp/Paint_Fence.cpp)
+- [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
+- [Peak element](cp/Peak_element.cpp)
 
 ## Data Structures
 
+- [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
+- [Level Order Tree Traversal](ds/LevelOrderTraversal.cpp)
+- [AVL Tree](ds/avl_tree.cpp)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
@@ -66,6 +86,8 @@
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
 - [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
+- [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.cpp)
+- [Detect Cycle in Linked List ](ds/Detect_Cycle_In_LinkedList.cpp)
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
@@ -74,7 +96,6 @@
 - [Queue Linked List](ds/QueueLinkedList.cpp)
 - [Red Black Tree](ds/RED-BLACK-TREE.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
-- [Singly Linked List](../Python/ds/SinglyLinkedList.py)
 - [Singly Linked List](ds/singly_linked_list.cpp)
 - [Stack using Array](ds/Stack_using_Array.cpp)
 - [Stack using Linked List](ds/Stack_using_LinkedList.cpp)
@@ -84,12 +105,19 @@
 - [Ancestors in Binary Search Tree](ds/ancestors_of_given_number_BST.cpp)
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
+- [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
+- [BST from preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
+- [Priority Queue using Array](ds/priorityQ_array.cpp)
+- [Linear Probing](ds/linear-probing.cpp)
+- [Quadratic Probing](ds/quadratic-probing.cpp)
+- [Double Hashing](ds/double-hashing.cpp)
 
 ## Graphs
 
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
+- [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
@@ -114,7 +142,8 @@
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
 - [Breadth First Search](graphs/BFS1.cpp)
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
-- [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
+- [Childern Sum Property](graphs/Childern_Sum_Property.cpp)
+
 
 ## Searching
 
@@ -129,13 +158,17 @@
 - [Staircase Search](search/Staircase_Search.cpp)
 - [Tenary Search](search/TernarySearch.cpp)
 - [Fibonacci Search](search/fibonacci_search.cpp)
+- [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
+- [Sublist Search](search/sublist_Search.cpp)
 
 ## Sorting
 
 - [Bead Sort](sort/Bead_Sort.cpp)
+- [Binary Search Tree Sort](sort/BST_Sort.cpp)
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
+- [Comb sort](sort/comb_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
 - [Counting Sort](sort/counting_sort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
@@ -149,17 +182,24 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
+- [Three Way Merge Sort](sort/three_way_merge_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
+- [Wiggle Sort](sort/wiggle_sort.cpp)
 
 ## Stack based problems
 
--[Infix to Postfix Conversiion](stack/Infix_to_Postfix.c)
+-[Infix to Postfix Conversiion](../C/stack/Infix_to_Postfix.c)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
+- [Previous Greater Element](stack/Previous_Greater_Element.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
+- [Infix to Postfix conversion](stack/infixToPostfix.cpp)
+- [Next smallest element to the right](stack/nextSmallestToRight.cpp)
+- [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
+
 
 ## Heap based problems
 
@@ -167,7 +207,7 @@
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
 - [K Closest Points to Origin](heap/K_Closest_Points_to_Origin.cpp)
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
-
+- [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 
 ## Machine Learning
 
@@ -179,16 +219,25 @@ _add list here_
 - [Armstrong Number](math/armstrong_number.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Catalan number](math/catalan_num.cpp)
+- [Difference_of_Two_Strings](math/Difference_of_Two_Strings.cpp)
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
+- [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
+- [Magic Number](math/magic_number.cpp)
+- [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
+- [Neon Number](math/neon_number.cpp)
+- [Krishnamurthy Number](math/krishnamurthy_number.cpp)
+- [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
+- [Happy Number](math/Happy_Number.cpp)
+- [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 
 ## Dynamic Programming
 
@@ -207,6 +256,8 @@ _add list here_
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
 - [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
+- [Number of subsets with given difference](dp/subsets_with_given_diff.cpp)
+- [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)
 - [Partition Problem](dp/Partition_Problem.cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
 - [String permutations](dp/string_permutations.cpp)
@@ -214,10 +265,23 @@ _add list here_
 - [Unique BST](dp/Unique_BST.cpp)
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
+- [K-Tree](dp/K-Tree.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
+
+## Bit - Manipulation
+
+- [Check Kth Bit is Set or Not](Bit--Manipulation/Check_kth_bit_is_set_or_not.cpp)
+- [Count Number of Set Bits](Bit--Manipulation/Count_no_of_set_bits.cpp)
+- [Brian_Kernighan's Algorithm](Bit--Manipulation/Brian_Kernighan's_Algorithm.cpp)
+- [Power of 2](Bit--Manipulation/Power_of_2.cpp)
+- [One odd occuring](Bit--Manipulation/One_odd_occuring.cpp)
+- [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
+- [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
+- [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
+
 
 ## Blockchain
 
@@ -234,12 +298,14 @@ _add list here_
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 
 ## Computational Geometry
+
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
 ## Other
 
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
+- [Dynamic Huffman](other/DynamicHuffman.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
@@ -253,9 +319,11 @@ _add list here_
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
+- [Sliding Window Technique](other/Calculate_max_sum_of_k_consecutive_elements.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
+- [Set Clear and Check bits](other/check_set_clear_bit.cpp)

@@ -72,6 +72,7 @@
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
+- [Priority_Queue_using_Linked_List] (ds/Priority_Queue_using_Linked_List.c)
 
 ## Searching
 

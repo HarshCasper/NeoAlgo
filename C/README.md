@@ -67,6 +67,8 @@
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
+- [Implementation of maxHeap](ds/maxheap.c)
+- [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
 - [Stack Using Queue](ds/StackUsingQueue.c)
@@ -75,8 +77,8 @@
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)
-
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)

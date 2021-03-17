@@ -284,6 +284,13 @@ _add list here_
 - [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
 - [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
+- [Calculate Ones Complement](Bit--Manipulation/onescomplement.cpp)
+- [Subset of Set](Bit--Manipulation/Subset_of_set.cpp)
+- [Program_to_find_only_2_unique_elements_in_array](Bit--Manipulation/Program_to_find_only_2_unique_elements_in_array.cpp)
+- [find_one_unique_element_in_array_all_other_elements_repeated_twice](Bit--Manipulation/find_one_unique_element_in_array_all_other_elements_repeated_twice.cpp)
+- [count 1s and 0s in binary form of number](Bit--Manipulation/count1s0s_in_binary_form_of_number.cpp)
+- [bit manipulation basics get set clear update bit](Bit--Manipulation/bit_manipulation_basics_get_set_clear_update_bit.cpp)
+- [binary representation using bitwise operation and recursion](Bit--Manipulation/binary_representation_using_bitwise_operation_and_recursion.cpp)
 
 
 ## Blockchain

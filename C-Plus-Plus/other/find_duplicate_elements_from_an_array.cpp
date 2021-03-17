@@ -45,8 +45,8 @@ int main()
 
 /*
 Standard Input and Output
-Input array size
 
+Enter the size of the array
 12
 1 5 2 1 4 3 1 7 2 8 9 5
 Duplicate elements are : 1 2 5

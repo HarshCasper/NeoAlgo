@@ -29,7 +29,7 @@ int main()
 	cout<<"Enter a string you want to reverse: ";
 	cin>>s;
 	reverse(s);
-    cout<<"String After Reverse: ";
+      cout<<"String After Reverse: ";
 	cout<<s;
 	return 0;
 }

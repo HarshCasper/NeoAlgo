@@ -71,6 +71,7 @@
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
+- [Reverse Linked List](ds/reverse_linked_list.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)

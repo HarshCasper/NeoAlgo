@@ -43,15 +43,15 @@ int main()
     }
     dupicate_elements(ar , N);
 }
+
 /*
 Standard Input and Output
 Input array size
-7
-10 4 16 34 23 5 90
-Input array size
+
 12
 1 5 2 1 4 3 1 7 2 8 9 5
 Duplicate elements are : 1 2 5
+
 Time Complexity : O(logN)
 Space Complexity : O(N)
 */

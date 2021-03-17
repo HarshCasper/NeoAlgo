@@ -53,6 +53,7 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
+- [Tower Of Hanoi](cp/tower_of_hanoi.cpp)
 
 ## Data Structures
 

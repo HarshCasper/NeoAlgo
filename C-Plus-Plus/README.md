@@ -49,6 +49,7 @@
 - [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
+- [Reverse a String using Stack](cp/Reverse_string_using_stack.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
@@ -163,6 +164,7 @@
 ## Sorting
 
 - [Bead Sort](sort/Bead_Sort.cpp)
+- [Binary Search Tree Sort](sort/BST_Sort.cpp)
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)

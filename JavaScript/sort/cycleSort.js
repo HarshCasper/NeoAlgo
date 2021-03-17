@@ -1,7 +1,12 @@
 /*CYCLE SORT:
-Cycle sort is an in-place unstable sorting Algorithm that is optimal in terms of the total number of writes to the original array.
-Consider a list with n elements. For an element item, we find the index at which it should occur in the sorted list by counting the smaller elements in a. If the element is already at the correct position, the iteration is skipped, otherwise
-we will write it to its intended position. If that position is inhabited by a different element , it should also be moved to its correct position. This process must be continued until an element is moved to the original position. This completes a cycle. Such n cycles are executed.
+	* an in-place unstable sorting Algorithm.
+	* Optimal in terms of the total number of writes to original array.
+	* Algorithm:
+		STEP 1: For arr[i], find it's original_index in the sorted list by counting the smaller elements in arr.
+		STEP 2: If element == arr[original_index], the iteration is skipped Else write it to original_index.
+		STEP 3: If original_index is inhabited by a different element, repeat the above steps. 
+		This is continued until an element is moved to the original position.This is a cycle.
+		Such n cycles are executed.
 */
 
 //importing readline module for dynamic input 
@@ -74,4 +79,3 @@ EXPECTED: [1,2,3,4,8,9,10,10]
     Space Complexity - O(1)
 
 */
-

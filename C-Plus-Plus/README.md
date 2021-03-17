@@ -89,6 +89,7 @@
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
+- [Priority_Queue_using_Linked_List] (ds/Priority_Queue_using_Linked_List.cpp)
 
 ## Graphs
 

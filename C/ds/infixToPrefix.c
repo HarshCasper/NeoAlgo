@@ -17,26 +17,32 @@ stack * createStack(int size) {
 }
 
 int isEmpty(stack *s) {
+    /* tells whether the stack is empty or not */
     return  s -> top == -1;
 }
 
 int isFull(stack *s) {
+    /* tells whether a stack is full or not */
     return s -> top == s -> capacity - 1;
 }
 
 void push(stack *s, int data) {
+    /* push a given element into the stack */
     s -> arr[ ++ s -> top] = data;
 }
 
 char pop(struct stack *s) {
+    /* to pop the top element from stack */
     return s -> arr[s -> top --];
 }
 
 char peek(struct stack *s) {
+    /* to get the top element of stack */
     return s -> arr[s -> top];
 }
 
 int precedence(char ch) {
+    /* gives the precedence of operators */
     switch(ch) {
         case '+':
         case '-': return 1;
@@ -48,6 +54,7 @@ int precedence(char ch) {
 }
 
 stack * infToPost(char infixExp[100]) {
+    /* To reverse a given infix expression and convert to postfix expression */
     int index = 0;
     int contains = 0; /* using a variable to see if the operator stack contains a '(' at any time */
     int len = strlen(infixExp);
@@ -103,6 +110,7 @@ stack * infToPost(char infixExp[100]) {
 }
 
 void displayInReverse(stack *s) {
+    /* to display the stack in reverse order */
     for (int i = s -> top ; i >= 0; i --) {
             printf("%c", s -> arr[i]);
     }
@@ -110,16 +118,16 @@ void displayInReverse(stack *s) {
 }
 
 void infToPre(char infixExp[100]) {
+    /* converts a given infix expression to infix expression */
     stack *postfixExp = infToPost(infixExp);
-    printf("The Prefix expression is:\n");
     displayInReverse(postfixExp); /* reversing finally to get prefix of the given expression */
 }
 
 int main() {
     char infixExp[100];
-    printf("*****\nNOTE: \n1. Assuming there is a space between any two operators or operands\n2. Operands can be either variables or single digited numbers \n*****\n");
     printf("Enter the Infix expression:\n");
     fgets(infixExp, 100, stdin);
+    printf("The Prefix expression is:\n");
     infToPre(infixExp);
     return 0;
 }

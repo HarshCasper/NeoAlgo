@@ -1,3 +1,11 @@
+"""
+BogoSort is also known as permutation sort, and/or stupid sort.
+Imagine throwing a pile of cards, and then search for 2 pre-determined cards.
+You pick 2 cards, match them if they are the ones you need, if not, you throw them back in the pile.
+Pick 2 cards again, match them till you get the required pair. Yes it is stupid, slow and depends upon Luck.
+
+The algorithm successively generates permutations of its input until it finds one that is sorted.
+"""
 import time
 import random
 
@@ -90,9 +98,8 @@ Obtained the sorted list (after 7 round):
 [1, 2, 3, 4]
 
 Process finished with exit code 0
-"""
 
-"""
+_____________________________________________
 Time Complexity:
 Worst Case : O(∞) [no upper bound]
 Average Case: O(n*n!)

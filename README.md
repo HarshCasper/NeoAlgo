@@ -18,6 +18,7 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 - [C](/C/README.md)
 - [C-Plus-Plus](/C-Plus-Plus/README.md)
 - [C-Sharp](/C-Sharp/README.md)
+- [Dart](/Dart/README.md)
 - [Go](/Go/README.md)
 - [JavaScript](/JavaScript/README.md)
 - [Java](/Java/README.md)

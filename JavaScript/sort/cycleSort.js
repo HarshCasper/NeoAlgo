@@ -62,7 +62,9 @@ const cycleSort = (arr) => {
 
 //Reading input from console as a string and converting it to array 
 rl.question('Enter array elements comma separated: ', (input) => {
-    console.log(cycleSort(input.split(",")));
+    let numbers = input.split(",");
+    numbers = numbers.map( (x) => parseInt(x));
+    console.log(cycleSort(numbers));
 	rl.close();
 });
 

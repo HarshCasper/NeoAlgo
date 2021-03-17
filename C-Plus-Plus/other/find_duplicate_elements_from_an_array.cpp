@@ -6,8 +6,6 @@ Formally find all duplicate elements of the array. This can be done with the hel
 #include <bits/stdc++.h>
 using namespace std;
 
-int ar[100009];
-
 void dupicate_elements(int ar[] ,int N)
 {
     /* we will insert the array elements into the map. if current element already in the map,
@@ -34,9 +32,10 @@ void dupicate_elements(int ar[] ,int N)
 
 int main()
 {
-    cout << "Input array size\n";
+    cout << "Enter the size of the array\n";
     int N; 
     cin >> N;
+    int ar[N + 1];
     for(int i = 0; i < N; i++)
     {
         cin >> ar[i];

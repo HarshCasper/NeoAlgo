@@ -185,6 +185,7 @@
 - [Three Way Merge Sort](sort/three_way_merge_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
 - [Wiggle Sort](sort/wiggle_sort.cpp)
+- [Binary Insertion Sort](sort/Binary_Insertion_Sort.cpp)
 
 ## Stack based problems
 

@@ -122,15 +122,13 @@ public class DeleteElementLL {
 		 
 		   DeleteElementLL list = new DeleteElementLL();
 		   
-		   list.createList(3);
-		   list.createList(5);
-		   list.createList(8);
-		   list.createList(2);
-		   list.createList(10);
-		   list.createList(7);
-		   list.createList(21);
-		   list.createList(6);
-		   list.createList(1);
+		    Scanner input = new Scanner(System.in);
+		   System.out.println("Enter the number of elements you want to insert in the List: ");
+		   int n = input.nextInt();
+		   System.out.println("Enter the elements of the List: ");
+		   for(int i=0; i<n; i++) {
+			   list.createList(input.nextInt());
+		   }
 		   
 		   System.out.print("Initial List: ");
 		   list.displayList();
@@ -143,7 +141,6 @@ public class DeleteElementLL {
 		   System.out.print("List after deletion from the End: ");
 		   list.displayList();
 		 
-		   Scanner input = new Scanner(System.in);
 		   System.out.println("Enter the position of the element you want to delete: ");
 		   int position = input.nextInt(); 
 		   input.close();
@@ -157,6 +154,10 @@ public class DeleteElementLL {
 }
 
 /*
+  Enter the number of elements you want to insert in the List: 
+  9
+  Enter the elements of the List: 
+  3 5 8 2 10 7 21 6 1
   Initial List: 3 5 8 2 10 7 21 6 1 
   List after deletion from the Beginning: 5 8 2 10 7 21 6 1 
   List after deletion from the End: 5 8 2 10 7 21 6 

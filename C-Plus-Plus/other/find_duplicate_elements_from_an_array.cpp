@@ -32,10 +32,11 @@ void dupicate_elements(int ar[] ,int N)
 
 int main()
 {
-    cout << "Enter the size of the array\n";
+    cout << "Enter the size of the array : ";
     int N; 
     cin >> N;
     int ar[N + 1];
+    cout << "Enter array elements :\n";
     for(int i = 0; i < N; i++)
     {
         cin >> ar[i];
@@ -46,8 +47,8 @@ int main()
 /*
 Standard Input and Output
 
-Enter the size of the array
-12
+Enter the size of the array : 12
+Enter array elements
 1 5 2 1 4 3 1 7 2 8 9 5
 Duplicate elements are : 1 2 5
 

@@ -48,6 +48,7 @@
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
+- [Reverse individual words of a string using stacks](ds/reverseWordsOfString.c)
 - [Preorder Traversal](ds/Preordertraversal.c)
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)

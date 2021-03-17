@@ -98,18 +98,4 @@ vector<vector<int>> merge_interval(vector<vector<int>> interval)
      2,8
      10,12
 
-
-  2) Input:
-     5   ...N
-     3 5
-     6 8
-     7 10
-     13 14
-     15 18
-
-     Output:
-     3,5
-     6,10
-     13,14
-     15,18
 */

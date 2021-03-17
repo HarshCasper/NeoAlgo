@@ -2,7 +2,11 @@
  *
  * A sequence is given A1,A2,…,An (atleast 3 elements you need to give)
  * Find the maximum value of the expression |Ax − Ay|+|Ay − Az|+|Az − Ax| over all triples of pairwise distinct valid indices (x,y,z).
- *
+
+ * Example :
+ *          input : 5
+ *                  3 4 6 7 1
+ *         output : Result = 12
  *
  * Approach :
  * 1. We need to sort the given array
@@ -17,7 +21,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 class MaximumFunction {
-
 	//main method
 	public static void main(String[] args) {
 		try {
@@ -30,7 +33,6 @@ class MaximumFunction {
 			for(long t = 0 ; t<e ; t++) {
 				m[(int)t] = sc.nextLong();
 			}
-
 			//sorting the array
 			Arrays.sort(m);
 
@@ -54,9 +56,8 @@ class MaximumFunction {
  *            7 5 3 9 1 2 7 3 8 9
  *   output : Result = 16
  *
+ * Time Complexity - O(n)
  *
- * Time Complexity O(n)
- *
- * Space Complexity O(n)
+ * Space Complexity - O(n)
  *
  */

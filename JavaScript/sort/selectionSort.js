@@ -1,9 +1,16 @@
-/*
-SELECTION SORT:
-    Selection sort is a simple inplace sorting algorithm.
-    Time Complexity - O(n^2)
-    Space Complexity - O(1) 
+/*SELECTION SORT: 
+    * inplace comparison-based sorting algorithm.
+    * list is divided into two parts, the sorted part at the left end and the unsorted part at the right end. 
+    * The smallest element from the unsorted array is found and swapped with the leftmost element.
+      ie, added to the sorted array. 
+    * This process continues moving unsorted array boundary by one element to the right.
 */
+
+//importing readline module for dynamic input 
+var readline = require('readline');
+//initialising inputstream and outstream to process.stdin and process.stdout respectively.
+var rl = readline.createInterface(
+    process.stdin, process.stdout);
 
 const selectionSort = (arr) => {
     let n = arr.length;
@@ -25,8 +32,25 @@ const selectionSort = (arr) => {
     }
     return arr;
 }
-//For  dynamic input use the below line.
-//var arr = prompt("Enter numbers to sort comma separated: ").split(",");
-var arr = [9, 8, 7, 6, 5, 4, 3];
-console.log(selectionSort(arr));
-//Expected output : [3,4,5,6,7,8,9]
+
+//Reading input from console as a string and converting it to array 
+rl.question('Enter array elements comma separated: ', (input) => {
+    let numbers = input.split(",");
+    numbers = numbers.map( (x) => parseInt(x));
+    console.log(selectionSort(numbers));
+    rl.close();
+});
+
+/*
+CASE 1:
+input = [1, 8, 7, 61, 5, 4, 11];
+EXPECTED: [1,4,5,7,8,11,61]
+
+CASE 2:
+input = [1,8,3,9,10,10,2,4];
+EXPECTED: [1,2,3,4,8,9,10,10]
+
+    Time Complexity - O(n^2)
+    Space Complexity - O(1)
+
+*/

@@ -1,6 +1,6 @@
 /*
 
-Link to problem: https://github.com/TesseractCoding/NeoAlgo/blob/master/C-Plus-Plus/cp/Lucky_Numbers.cpp
+Link to problem: https://codeforces.com/problemset/problem/630/C
 
 The numbers of all offices in the new building of the Tax Office of IT City will have lucky numbers.
 

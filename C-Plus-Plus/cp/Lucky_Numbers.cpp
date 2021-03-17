@@ -24,6 +24,9 @@ But in the problem we need the amount of lucky numbers of length not greater tha
 Let's sum up them.
 2^1 = 2, 2^1 + 2^2 = 2 + 4 = 6, 2^1 + 2^2 + 2^3 = 2 + 4 + 8 = 14, 2^1 + 2^2 + 2^3 + 2^4 = 2 + 4 + 8 + 16 = 30. 
 
+Time complexity : O(N)
+Space Complexity: O(1)
+
 */
     #include <iostream>
     using namespace std;
@@ -31,7 +34,7 @@ Let's sum up them.
     {
     int n;//store the number of digits
     long long a=1, sum=0;
-	
+	int i;
     cin>>i;
     /*Loop to increse the number of digits from 1 to n*/
 	for(int k=1; k<=i; k++)

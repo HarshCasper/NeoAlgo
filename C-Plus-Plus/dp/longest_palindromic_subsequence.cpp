@@ -65,19 +65,25 @@ int main() {
 
 	// Input The String
 	string s;
+	cout << "Enter The String " << '\n';
 	cin >> s;
 
-	cout << "Longest Palindrmoic Subsequence of " << s << " is: " << lps(s) << '\n';
-
-	/*
-	    Try Running with input
-	    s = "vavbhhb"
-
-	    Output
-	    -> there are tow palindromic subsequences vav, bhhb
-	    -> longest is bhhb therefore the ans is 4
-	*/
+	cout << "Length of Longest Palindrmoic Subsequence for " << s << " is: " << lps(s) << '\n';
 
 	return 0;
 }
+
+
+	/*
+
+		Time Complexity: O(N^2)
+		Space Complexity O(N^2)
+
+	    Sample Input:
+	    s = "vavbhhb"
+		Output: 4
+	    Explanation:
+	    -> there are two palindromic subsequences vav, bhhb
+	    -> longest is bhhb therefore the ans is 4
+	*/
 

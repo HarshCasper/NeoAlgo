@@ -1,37 +1,52 @@
-# Queue implementation using List in Python
+class Queue:
+    """
+    Queue implementation using a list. Front of the queue is the first
+    elememt and back of the queue is the last element.
+    """
 
-class Queue :
-  def __init__(self):
-    self.items =[]
-    
-  def print_queue(self):
-    print ("\nQueue: ", self.items)
-    print ("Length of Queue: ", len(self.items))
-    self.print_top()
-    
-  def print_top(self):
-    try:
-      print ("Topmost element in the Queue: ", self.items[0], "\n")
-    except IndexError:
-      print ("Topmost element in the Queue: NULL\n")
-      
-  def enqueue(self, item):
-    self.items.insert(0,item)
-    print ("Enqueued value: ", item)
-  
-  def dequeue(self):
-    print ('Dequeued value: ',self.items.pop())
-  
-if __name__ == '__main__' :
-  q = Queue()
-  q.print_queue()
-  q.enqueue(10)
-  q.enqueue(20)
-  q.enqueue(30)
-  q.enqueue(40)
-  q.enqueue(50)
-  q.print_queue()
-  q.dequeue()
-  q.dequeue()
-  q.dequeue()
-  q.print_queue()
+    def __init__(self):
+        self._items = []
+
+    def __str__(self):
+        return f"front --> {self._items} <-- rear"
+
+    def __len__(self):
+        return len(self._items)
+
+    def get_front(self):
+        return self._items[0]
+
+    def get_rear(self):
+        return self._items[-1]
+
+    def is_empty(self):
+        return len(self._items) == 0
+
+    def enqueue(self, item):
+        """
+        Add an element to the rear of the queue.
+        """
+        self._items.append(item)
+
+    def dequeue(self):
+        """
+        Remove the element at the end of the front of the queue and return it.
+
+        Raises:
+            IndexError: If queue is empty.
+        """
+        return self._items.pop(0)
+
+
+if __name__ == "__main__":
+    q = Queue()
+
+    print(f"Initialized : {q}")
+
+    for elm in range(5):
+        q.enqueue(elm)
+        print(f"Enqueued '{elm}': {q}")
+
+    for _ in range(3):
+        q.dequeue()
+        print(f"Dequeued    : {q}")

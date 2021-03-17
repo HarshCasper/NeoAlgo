@@ -60,6 +60,7 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
+- [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
@@ -139,9 +140,8 @@
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
 - [Breadth First Search](graphs/BFS1.cpp)
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
-- [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
-- [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
-- [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
+- [Childern Sum Property](graphs/Childern_Sum_Property.cpp)
+
 
 ## Searching
 
@@ -192,8 +192,10 @@
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 - [Previous Greater Element](stack/Previous_Greater_Element.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
+- [Infix to Postfix conversion](stack/infixToPostfix.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
+
 
 ## Heap based problems
 

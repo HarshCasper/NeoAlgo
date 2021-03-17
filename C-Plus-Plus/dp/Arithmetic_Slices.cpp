@@ -1,13 +1,23 @@
+/*
+An integer array is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.
+
+For example, [1,3,5,7,9], [7,7,7,7], and [3,-1,-5,-9] are arithmetic sequences.
+Given an integer array nums, return the number of arithmetic subarrays of nums.
+*/
 
 #include<iostream>
 #include<vector>
 
 using namespace std;
 
+//Function takes array and the size of the array as an input, it returns the number of arthemetic slices present in the input array//
 int numberOfArithmeticSlices(int A[],int size) {
     if(size<3) return 0;
     vector<int> res (size,0);
     
+    /*Since as per the problem minimum size of the arthemetic slice can be 3, we start the loop from the 2nd element and check the previous elements.
+    We basically check for a continuous AP if the sequence continues, we change the res[i] value to res[1-1] + 1, if the AP breaks at any point we simply leave that index value at 0.
+    Thus restarting the sequence when another continuous AP is found.*/
     for(int i = 2;i<size;i++)
     {
         if(A[i]-A[i-1] == A[i-1]-A[i-2])
@@ -23,6 +33,8 @@ int numberOfArithmeticSlices(int A[],int size) {
         }
     }
     int ans = 0;
+    
+    /* Adding the values at all the indices we get the total number of arthemetic slices. */
     for(int i = 0;i<res.size();i++)
     {
         ans = ans+res[i];

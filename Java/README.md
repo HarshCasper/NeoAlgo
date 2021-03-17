@@ -76,6 +76,7 @@ _add list here_
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 - [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
+- [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Paint Fence Algorithm](cp/Paint_Fence.java)
 
 ## Cryptography

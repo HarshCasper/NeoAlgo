@@ -1,4 +1,12 @@
-//AIM :: To implement Priority Queue (PQ) using Linked List (LL).
+/* 
+AIM :: To implement Priority Queue (PQ) using Linked List (LL).
+
+            WHAT IS PRIORITY QUEUE ?
+A priority queue is an abstract data type that behaves similarly to the normal queue except that each element has some priority, 
+i.e., the element with the highest priority would come first in a priority queue. 
+The priority of the elements in a priority queue will determine the order in which elements are removed from the priority queue.
+
+*/
 
 #include <iostream>
 #include <stdlib.h> // for using malloc (DMA)
@@ -19,7 +27,7 @@ void display(); // for display
 
 int main()
 {
-    int ch;
+    int choice; //for storing the choice of user after viewing the options
     cout << "\n\t\tPQ IMPLEMENTATION" << endl;
 
     while (true)
@@ -27,9 +35,9 @@ int main()
         // give the menu to user
         cout << "\n1. ENQ\n2. DEQ\n3. DISPLAY\n4. EXIT" << endl;
         cout << "Enter your choice :: ";
-        cin >> ch;
+        cin >> choice;
 
-        switch (ch)
+        switch (choice)
         {
         case 1:
             enq();
@@ -58,32 +66,32 @@ int main()
 void enq()
 {
     //creating new node
-    PQ *ptr = (PQ *)malloc(sizeof(PQ));
-    ptr->next = NULL;
+    PQ *new_node = (PQ *)malloc(sizeof(PQ));
+    new_node->next = NULL;
 
     //ask user to enter the data and priority of that data
     cout << "Enter the data :: ";
-    cin >> ptr->data; // storing data into data field
+    cin >> new_node->data; // storing data into data field of newly created node
 
-    cout << "Enter priority of " << ptr->data << " :: ";
-    cin >> ptr->prior; // storing priority of that data
+    cout << "Enter priority of " << new_node->data << " :: ";
+    cin >> new_node->prior; // storing priority of that data
 
-    // if linked list is empty
-    if (front == NULL || ptr->prior <= front->prior) // then insert at begin
-    {
-        ptr->next = front;
-        front = ptr;
+    // if linked list is empty or priority is less than first position
+    if (front == NULL || new_node->prior <= front->prior)
+    { // then insert at begin
+        new_node->next = front;
+        front = new_node;
     }
     else
     {
         PQ *temp = front;
         //traverse till the appropriate position
-        while (temp->next != NULL && temp->next->prior <= ptr->prior)
+        while (temp->next != NULL && temp->next->prior <= new_node->prior)
             temp = temp->next;
 
         //inseting node at it's appropriate position
-        ptr->next = temp->next;
-        temp->next = ptr;
+        new_node->next = temp->next;
+        temp->next = new_node;
     }
     display(); // display the result
 }
@@ -95,9 +103,12 @@ void deq()
     else
     {
         PQ *temp = front;
+
+        //every time deleting the first
         front = front->next;
         temp->next = NULL;
         free(temp);
+
         display();
     }
 }
@@ -108,22 +119,26 @@ void display()
         cout << "QUEUE UNDERFLOW" << endl;
     else
     {
-        PQ *TD = front, *TP = front;
+        //temp_data to store and display the data of queue while traversing
+        PQ *temp_data = front;
+
+        //temp_priority to store and display the priority of data that are being displayed
+        PQ *temp_priority = front;
 
         // displaying data in queue
         cout << "\nDATA     :: ";
-        while (TD != NULL)
+        while (temp_data != NULL)
         {
-            cout << TD->data << "    ";
-            TD = TD->next;
+            cout << temp_data->data << "    ";
+            temp_data = temp_data->next;
         }
 
         // displaying priority of all the data in the queue
         cout << "\nPRIORITY :: ";
-        while (TP != NULL)
+        while (temp_priority != NULL)
         {
-            cout << TP->prior << "     ";
-            TP = TP->next;
+            cout << temp_priority->prior << "     ";
+            temp_priority = temp_priority->next;
         }
     }
 }

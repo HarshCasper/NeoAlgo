@@ -159,6 +159,21 @@ int main() {
 }
 
 /*
+Sample I/O:
+capacity of minHeap: 10
+insert 5
+display: 5
+insert 3
+display: 3 5
+insert 2
+display: 2 5 3
+extract: 2
+display: 3 5
+search 2: Not found
+insert and extract 2: 2
+display: 3 5 
+exit
+
 Time Complexities:
 
 insert - O(log(n))

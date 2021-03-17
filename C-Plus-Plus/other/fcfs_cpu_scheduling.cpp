@@ -1,14 +1,18 @@
 /* 
-Given n processes with their burst times, the task is to find average waiting time and average turn around time using FCFS scheduling algorithm.
-First in, first out (FIFO), also known as first come, first served (FCFS), is the simplest scheduling algorithm. 
+Given n processes with their burst times, the task is to find average waiting time and 
+average turn around time using FCFS scheduling algorithm.
+First in, first out (FIFO), also known as first come, first served (FCFS), 
+is the simplest scheduling algorithm. 
 FIFO simply queues processes in the order that they arrive in the ready queue.
-In this, the process that comes first will be executed first and next process starts only after the previous gets fully executed.
+In this, the process that comes first will be executed first and next process 
+starts only after the previous gets fully executed.
 Here we are considering that arrival time for all processes is 0.
 */
 #include<bits/stdc++.h> 
 using namespace std; 
 //this function computes the waiting time for all the processes
-void findWaitingTime(int process[], int numOfProcess, int burst_time[], int wait_time[]) 
+void findWaitingTime(int process[], int numOfProcess, 
+                            int burst_time[], int wait_time[]) 
 { 
     //As first process that comes need not to wait so 
     //waiting time for process 1 will be 0 i.e. wt[0] = 0.
@@ -20,8 +24,10 @@ void findWaitingTime(int process[], int numOfProcess, int burst_time[], int wait
 	}	
 } 
 
-//this function computes the turn around time for all the processes
-void findTurnAroundTime( int process[], int numOfProcess, int burst_time[], int wait_time[], int turn_around_time[]) 
+//this function computes the turn around time 
+//for all the processes
+void findTurnAroundTime( int process[], int numOfProcess, int burst_time[], 
+                                                    int wait_time[], int turn_around_time[]) 
 { 
     //turnaround time = waiting_time + burst_time 
 	for (int i = 0; i < numOfProcess ; i++) {
@@ -33,10 +39,12 @@ void findavgTime( int process[], int numOfProcess, int burst_time[])
 { 
 	int wait_time[numOfProcess], turn_around_time[numOfProcess], total_wt = 0, total_tat = 0; 
     
-    //waiting time is calculated by passing the required data as a parameter to this function
+    //waiting time is calculated by passing the required data 
+	//as a parameter to this function
 	findWaitingTime(process, numOfProcess, burst_time, wait_time); 
 	
-    //waiting time is calculated by passing the required data as a parameter to this function
+    //waiting time is calculated by passing the required data 
+	//as a parameter to this function
 	findTurnAroundTime(process, numOfProcess, burst_time, wait_time, turn_around_time); 
 
 	cout << "Processes "<< " Burst time "
@@ -50,11 +58,14 @@ void findavgTime( int process[], int numOfProcess, int burst_time[])
 		cout << " " << i+1 << "\t\t" << burst_time[i] <<"\t "
 			<< wait_time[i] <<"\t\t " << turn_around_time[i] <<endl; 
 	} 
-
+	
+    //waiting time = total_waiting_time / no_of_processes.
 	cout << "Average waiting time = "
-		<< (float)total_wt / (float)numOfProcess;   //waiting time = total_waiting_time / no_of_processes.
+		<< (float)total_wt / (float)numOfProcess;   
+		
+    //average turnaround time = total_turn_around_time / no_of_processes.		
 	cout << "\nAverage turn around time = "
-		<< (float)total_tat / (float)numOfProcess;  //average turnaround time = total_turn_around_time / no_of_processes.
+		<< (float)total_tat / (float)numOfProcess;  
 } 
 
 //driver code
@@ -65,7 +76,8 @@ int main()
     cout<<"Enter the Total no. of processes: ";
     cin>>numOfProcess;
     
-    //the processes are numbered from 1 to N in the order they enter
+    //the processes are numbered from 1 to N in 
+	//the order they enter
 	int process[numOfProcess]; 
 	for(int i =0; i<numOfProcess; i++){
 		process[i]=i;
@@ -78,7 +90,9 @@ int main()
 		cin>>burst_time[i];
 	}
     
-	findavgTime(process, numOfProcess, burst_time); //the function then calculates the average waiting and average burst time
+    //the function then calculates the average waiting 
+	//and average burst time
+	findavgTime(process, numOfProcess, burst_time); 
 	return 0; 
 } 
 

@@ -215,6 +215,7 @@ _add list here_
 - [Painter Partition problem](other/PainterPartition.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
+- [Remove the key element from the array](other/remove_element_from_array.java)
 - [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)

@@ -9,6 +9,7 @@
    So we need to calculate this value (left_height + right_height + 1) for each node and update the result. 
    
 */
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -17,6 +18,7 @@ struct  Tree {
     int data;
     Tree* left, *right;
 };
+
 struct Tree* CreateNode(int data)
 {
     struct Tree* node = new Tree;
@@ -26,6 +28,7 @@ struct Tree* CreateNode(int data)
  
     return (node);
 }
+
 int height(struct Tree* node)
 {
      //  case 1:- when Tree is empty
@@ -36,6 +39,7 @@ int height(struct Tree* node)
     //Case 2:- height would be 1+max(height of left tree,height of right tree)
     return 1 + max(height(node->left), height(node->right));
 }
+
 int Diameter(struct Tree* node)
 {
     //  case 1:- when Tree is empty
@@ -56,6 +60,7 @@ int Diameter(struct Tree* node)
     */
     return max(leftheight + rightdiameter + 1, max(leftdiameter, rightdiameter));
 }
+
 int main()
 {  
     //Creating a random binary tree 
@@ -75,13 +80,14 @@ Time _Complexity:O(n^2)
 Space_Complexity:O(1)
 
 Input Output Analysis:-
-Input Tree:-  1
+Input Tree:- 1
             / \
-          4    9
-        / \
-      3   6
-         /
+           4   9
+          / \  
+         3  6
+           /
          10
-      Output:-5
+         
+      Output:-Diameter of the above tree is:-5
 
 */

@@ -91,6 +91,7 @@ _add list here_
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [LCS](dp/LCS.java)
+- [FirstFit BestFit WorstFit ](dp/MemoryAllocations.java)
 - [Flood Fill Algorithm](dp/flood_fill.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 

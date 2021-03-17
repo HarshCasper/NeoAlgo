@@ -24,7 +24,7 @@
 - [Count of string P in string S](cp/CountofPinS.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
-- [Find duplicate numbers from an array](cp/find_duplicate_elements_from_an_array.cpp)
+- [Find duplicate elements from an array](cp/find_duplicate_elements_from_an_array.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
 - [Infix to Postfix](cp/infix_to_postfix.cpp)

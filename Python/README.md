@@ -236,6 +236,7 @@
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
+- [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 
 ## Blockchain

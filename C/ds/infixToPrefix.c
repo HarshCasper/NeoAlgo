@@ -1,3 +1,10 @@
+/*
+Given an infix expression, the aim is to convert it into prefix expression.
+In order to do this, we first reverse the expression, and find it's postfix expression.
+(Postfix expression can be found with the help of an operator stack, and precedence of operators)
+The reverse of this resulting expression gives us the final infix expression.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>

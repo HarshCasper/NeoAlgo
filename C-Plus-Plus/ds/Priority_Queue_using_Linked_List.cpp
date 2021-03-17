@@ -1,24 +1,4 @@
-/*
-Program by :: Anand Dasani 
-Date :: 17-March-2021
-AIM :: To implement Priority Queue (PQ) using Linked List (LL).
-
-                                ALGO
-1. Take  data from the user 
-2. Take priority of that data from the user 
-3. According to priority traverse the linked list 
-    (a) if linked list is empty then insert the node at the beginning 
-    (b) else insert that data at it's appropriate place 
-4. Deletion will be done by front only 
-    (a) if linked list is empty then so error message "PQ UNDERFLOW"
-    (b) else delete the first node everytime user want the deq 
-5. Exit 
-
-TIME COMPLEXITY
-    INSERTION :: O(n)
-    DELETION :: O(n)
-    DISPLAY  :: O(n)
-*/
+//AIM :: To implement Priority Queue (PQ) using Linked List (LL).
 
 #include <iostream>
 #include <stdlib.h> // for using malloc (DMA)
@@ -191,4 +171,10 @@ PRIORITY :: 2
 Enter your choice :: 4
 
 Exiting...
+
+
+TIME COMPLEXITY
+    INSERTION :: O(n)
+    DELETION :: O(n)
+    DISPLAY  :: O(n)
 */

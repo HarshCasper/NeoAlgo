@@ -159,6 +159,21 @@ int main() {
 }
 
 /*
+Sample I/O:
+Heap capacity: 10
+insert 5
+display: 5
+insert 8
+display: 8 5
+insert 11
+display: 11 5 8
+extract: 11
+display: 8 5
+search 11: Not found!
+insert and extract 15: 15
+display: 8 5
+exit
+
 Time Complexities:
 
 insert - O(log(n))

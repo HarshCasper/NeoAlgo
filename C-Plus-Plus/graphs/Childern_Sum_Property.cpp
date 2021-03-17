@@ -6,7 +6,6 @@ of the left child and right child should be equal to the value
 of their node if both children are present else if only one child 
 is present then the value of the child should be equal to its node value.
 
-Time Complexity : O(n)
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -115,6 +114,8 @@ int main() {
     return 0;
 }
 /*
+Time Complexity : O(n) 
+
 TestCases : 
 -------------------
 Input :-
@@ -125,3 +126,4 @@ Input :-
 str : 9 8 4 4 4 2 2
 Output : 0
 */
+

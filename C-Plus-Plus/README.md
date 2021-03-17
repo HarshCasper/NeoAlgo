@@ -281,8 +281,8 @@ _add list here_
 - [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
 - [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
-
-
+- [finding_missing_element](Bit--Manipulation/finding_missing _element.cpp)
+- [finding_repeated_elements](Bit--Manipulation/finding_repeated_elements.cpp)
 ## Blockchain
 
 _add list here_

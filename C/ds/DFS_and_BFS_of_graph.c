@@ -54,7 +54,6 @@ void main()
     for (i = 0; i < n; i++)
         for (j = 0; j < n; j++)
             scanf("%d", &a[i][j]);
-
     printf("\nEnter the starting vertex :");
     scanf("%d", &v);
     //logic for bfs traversal

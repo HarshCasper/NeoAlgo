@@ -13,16 +13,30 @@ import random
 
 
 def is_sorted(data) -> bool:
-	# Determine whether the data is sorted
+	"""
+	Takes in any data (here array), and returns a boolean expression:
+	True if the array is sorted
+	False if the array is not sorted
+	"""
 
-    return all(data[i] <= data[i + 1] for i in range(len(data) - 1))
+	return all(data[i] <= data[i + 1] for i in range(len(data) - 1))
 
 
 def monkey_sort(arr):
+	""" Takes in an array, returns the array in sorted form """
 
 	while not is_sorted(arr):
 		random.shuffle(arr)
-		print("	Unordered lists by sorting the elements by shuffling them")
+		print("Unordered lists by sorting the elements by shuffling them")
 		print(arr)
 	print("\nThe final sorted list:")
-	print(arr)
+	return(arr)
+
+if __name__ == "__main__" :
+    number_of_elements = int(input("Enter the number of elements : "))
+    print("Enter the elements:")
+    unsorted_array=list(map(int, input().split()))
+
+    # calling the monkey_sort function
+    sorted_array = monkey_sort(unsorted_array)
+    print(sorted_array)

@@ -172,6 +172,7 @@ _add list here_
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Unique BST](dp/Unique_BST.java)
 - [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
+- [Matrix Chain Multiplication to find the minimum cost](dp/MatrixChainMultiplication.java)
 
 ## Blockchain
 

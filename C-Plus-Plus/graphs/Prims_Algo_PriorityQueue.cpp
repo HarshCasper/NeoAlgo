@@ -1,19 +1,11 @@
-//Prims Algorithm to find Minimum Spanning of a Graph using Priority Queue 
-
-#pragma GCC optimize("O3")
-#pragma GCC optimize("Ofast")
-#pragma GCC optimize("unroll-loops")
-#pragma GCC optimize("no-stack-protector")
-#pragma GCC optimize("fast-math")
-#pragma GCC optimize("trapv")
-#pragma GCC target("sse4")
+/*Prims Algorithm to find Minimum Spanning of a Graph using Priority Queue.
+It is  greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. 
+A minimum spanning tree (MST) or minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight.*/
 
 #include <bits/stdc++.h>
 using namespace std;
-#define deb(x) cout << #x << " is " << x << "\n"
 #define int long long
 #define mod 1000000007
-#define PI acos(-1) 
 #define inf INT_MAX
 
 void addEdge(vector<pair<int, int>> adjList[], int u, int v, int wt)
@@ -48,15 +40,14 @@ void primsMinSpammingTree(vector<pair<int, int>>  adjList[], int vertices)
  
         isMST[u] = true;      // Include vertex in MST
  
-                                       // Traverse all adjacent vertices of u
+      // Traverse all adjacent vertices of u
         for (auto x : adjList[u])
         {
            
             int v = x.first;                               // vertex label of current adjacent of u
             int weight = x.second;                          // weight of current adjacent of u
  
-                                                           // If v is not in MST and weight of (u,v) is smaller
-                                                           // than current key of v
+        // If v is not in MST and weight of (u,v) is smaller than current key of v
             if (isMST[v] == false && key[v] > weight)
             {
                 // Updating key of v
@@ -95,16 +86,12 @@ int32_t main()
     return 0;
 }
 
-/*
-     Time Complexity: O(edgesLog(Vertices))
-     Space Complexity: O(Vertices)
 
-*/
 /* Test case1 : 
 	Input :
-    9      // number of vertices
-    14    //count of edges of graph
-    0 1 4 //source vertex, destination vertex, weight
+    9           number of vertices
+    14          count of edges of graph
+    0 1 4       source vertex, destination vertex, weight
     0 7 8
     1 2 8
     1 7 11
@@ -154,5 +141,10 @@ Test case2 :
   3          1         2
   4          3         2
   5          4         6
+
+
+
+   Time Complexity: O(edgesLog(Vertices))
+   Space Complexity: O(Vertices)
 */
  

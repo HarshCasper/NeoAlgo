@@ -15,6 +15,7 @@
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
+- [Array Manipulation](cp/Array_Manipulation.cpp)
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
@@ -64,6 +65,7 @@
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
+- [Sort Color](cp/Sort_Color.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
@@ -168,6 +170,7 @@
 - [Binary Search Tree Sort](sort/BST_Sort.cpp)
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
+- [Circle Sort](sort/circle_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
 - [Comb sort](sort/comb_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
@@ -176,6 +179,7 @@
 - [In Place Merge Sort](sort/in_place_merge_sort.cpp)
 - [Insertion Sort](sort/insertion.cpp)
 - [Merge Sort](sort/Merge_Sort.cpp)
+- [Pigeon hole Sort](sort/pigeon_hole_sort.cpp)
 - [Quick Sort](sort/Quick_Sort.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
 - [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
@@ -305,6 +309,7 @@ _add list here_
 
 ## Other
 
+- [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Dynamic Huffman](other/DynamicHuffman.cpp)

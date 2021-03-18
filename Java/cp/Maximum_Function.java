@@ -1,35 +1,35 @@
 /*
-  Maximum Function (in Java) :
-     A sequence is given A1,A2,…,An (atleast 3 elements you need to give)
-     Find the maximum value of the expression |Ax − Ay|+|Ay − Az|+|Az − Ax|
-     over all triples of pairwise distinct valid indices (x,y,z).
+Maximum Function (in Java) :
+   A sequence is given A1,A2,…,An (atleast 3 elements you need to give)
+   Find the maximum value of the expression |Ax − Ay|+|Ay − Az|+|Az − Ax|
+   over all triples of pairwise distinct valid indices (x,y,z).
 
-  Approach :
-    1. We need to sort the given array
-    2. To find maximum difference of two elements we will subtract 1st element with the last element of the array (|Ax − Ay|)
-    3. Next, we can take middle element as 2nd element of the array (Az)
-    4. That means, Ax = 1st element of the sorted array, Ay = last element, Az = 2nd element
-    5. Therefore, adding |Ax − Ay|+|Ay − Az|+|Az − Ax| will give maximum result everytime
- */
+Approach :
+  1. We need to sort the given array
+  2. To find maximum difference of two elements we will subtract 1st element with the last element of the array (|Ax − Ay|)
+  3. Next, we can take middle element as 2nd element of the array (Az)
+  4. That means, Ax = 1st element of the sorted array, Ay = last element, Az = 2nd element
+  5. Therefore, adding |Ax − Ay|+|Ay − Az|+|Az − Ax| will give maximum result everytime
+*/
 import java.util.Arrays;
 import java.util.Scanner;
 
-class MaximumFunction {
+class MAXFUN {
 	//main method
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 
-		long e = sc.nextLong();
-		long[] m = new long[(int)e];
+		long n = sc.nextLong();
+		long[] array = new long[(int)n];
 		//putting elements in the array
-		for(long t = 0 ; t<e ; t++) {
-			m[(int)t] = sc.nextLong();
+		for(long t = 0 ; t<n ; t++) {
+			array[(int)t] = sc.nextLong();
 		}
 		//sorting the array
-		Arrays.sort(m);
+		Arrays.sort(array);
 		//calculating max
-		long max = Math.abs(m[0]-m[1]) + Math.abs(m[1]-m[(int)e-1]) + Math.abs(m[(int)e-1]-m[0]);
+		long max = Math.abs(array[0]-array[1]) + Math.abs(array[1]-array[(int)n-1]) + Math.abs(array[(int)n-1]-array[0]);
 		//printing max
 		System.out.println("Result = "+max);
 	}

@@ -69,7 +69,7 @@
 
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 
--[Permutation of string](cp/PERMUTATION_OF_STRING.cpp)
+-[Permutation_of_string_issue3244](cp/Permutation_of_string_issue3244.cpp)
 
 ## Data Structures
 

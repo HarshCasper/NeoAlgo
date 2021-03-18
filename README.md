@@ -1,3 +1,3 @@
 This is contributed by shubhgupta9.
-This is a DNF sort code with explaination and tome and space complexity.
+This is a code for checking weather a graph is connected or not in C++.
 Happy coding :)

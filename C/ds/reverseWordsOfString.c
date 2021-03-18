@@ -1,3 +1,13 @@
+/*
+Reversing individual words of a string using stacks
+Algorithm/Approach:
+We iterate through the string character-by-character.
+If the current character is not a space, or not a newline character or not a null character,
+we push it into the stack
+Otherwise, we pop the elements from the stack until it's empty. 
+(Because a space or newline or null character marks the end of a word.)
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -30,10 +40,12 @@ stack* createStack(int size) {
 void push(stack* s, char data) {
     s->arr[++s->top] = data;
 }
+/* push a given element into the stack */
 
 char pop(stack* s) {
     return s->arr[s->top--];
 }
+/* to pop the top element from stack */
 
 void reverseWords(char sentence[100], int length) {
     stack* s = createStack(length);

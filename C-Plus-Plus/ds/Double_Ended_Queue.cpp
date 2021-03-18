@@ -119,7 +119,10 @@ void display()
 int main()
 {
     int q, t, n;
+    printf("1. Insert at front\n2. Insert at rear\n3. Delete from front\n");
+    printf("4. Delete from rear\n5. Display Dequeue\n");
     //input no of queries
+    printf("\nEnter the number of queries: ");
     scanf("%d", &q);
     dq.front = -1;
     dq.rear = -1;
@@ -127,21 +130,26 @@ int main()
     //menu driven program to insert,delete or display dequeue
     while (q--)
     {
+        printf("Enter a choice: ");
         scanf("%d", &t);
         switch (t)
         {
         case 1:
+            printf("Enter the value to be inserted: ");
             scanf("%d", &n);
             enqueue_front(n);
             break;
         case 2:
+            printf("Enter the value to be inserted: ");
             scanf("%d", &n);
             enqueue_rear(n);
             break;
         case 3:
+            printf("Enter the value to be deleted: ");
             printf("%d\n", delete_front());
             break;
         case 4:
+            printf("Enter the value to be deleted: ");
             printf("%d\n", delete_rear());
             break;
         case 5:
@@ -152,23 +160,24 @@ int main()
     return 0;
 }
 /*
-    Sample Input:
-    7
-    1
-    2
-    2
-    1
-    1
-    3
-    1
-    4
-    2
-    5
-    3
-    5
-    Sample Output:
-    4
-    3 2 1 5
+    Sample Input/Output:
+    1. Insert at front
+    2. Insert at rear
+    3. Delete from front
+    4. Delete from rear
+    5. Display Dequeue
+
+    Enter the number of queries: 5
+    Enter a choice: 1
+    Enter the value to be inserted: 3
+    Enter a choice: 2
+    Enter the value to be inserted: 1
+    Enter a choice: 1
+    Enter the value to be inserted: 5
+    Enter a choice: 1
+    Enter the value to be inserted: 4
+    Enter a choice: 5
+    4 5 3 1
 */
 /*
     Time Complexity of insertion and deletion operations: O(1)

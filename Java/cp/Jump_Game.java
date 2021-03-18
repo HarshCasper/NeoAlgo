@@ -71,19 +71,19 @@ public class JumpGame {
 	// main method
 	public static void main(String[] args) {
 
-			Scanner sc = new Scanner(System.in);
-			// Number of elements we want to put in array
-			int number = sc.nextInt();
-			int[] array = new int[number];
+		Scanner sc = new Scanner(System.in);
+		// Number of elements we want to put in array
+		int number = sc.nextInt();
+		int[] array = new int[number];
 
-			// Putting values in array using for loop
-			for(int i = 0 ; i < array.length ; i++) {
-				array[i] = sc.nextInt();
-			}
-			// Initializing the value returned by jumpGame method to jumps
-			int jumps = JumpGame.jumpGame(array);
+		// Putting values in array using for loop
+		for(int i = 0 ; i < array.length ; i++) {
+			array[i] = sc.nextInt();
+		}
+		// Initializing the value returned by jumpGame method to jumps
+		int jumps = JumpGame.jumpGame(array);
 
-			System.out.println("minimum number of Jumps required : "+jumps);
+		System.out.println("minimum number of Jumps required : "+jumps);
 	}
 }
 /*

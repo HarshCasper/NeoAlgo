@@ -31,8 +31,6 @@ _add list here_
 
 ## Cryptography
 
-_add list here_
-
 ## Data Structures
 
 - [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)

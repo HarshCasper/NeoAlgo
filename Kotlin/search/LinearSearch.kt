@@ -1,20 +1,20 @@
-//This is a program that allows us to do linear search in kotlin
+/* Linear search algorithm is an algorithm which checks if an element is present in the given list by comparing it with every element in the list.
+   Linear search is the simplest search algorithm; it is a special case of brute-force search and in worst-case, cost is proportional to the number of elements in the list. Hence name is Linear search.
+   This is a linear search algorithm in Kotlin.
+*/
 
 import java.util.*
 fun main(){
 
-   val scan = Scanner(System.`in`)
-   
+   val scan = Scanner(System.`in`) 
    print("Enter the number of elements :")
    //Here we take the size of the input array/List
    val array = IntArray(scan.nextInt())
-   
    print("Enter the elements :")
    //Taking the elements and storing them in array
    for(element in array.indices){
      array[element] = scan.nextInt()
    } 
-    
    print("Enter the number you want to search for :")
    //The number we want to search for
    val number = scan.nextInt()
@@ -35,7 +35,6 @@ fun main(){
    }
 
 }
-
 /*
 
   Sample I/O :

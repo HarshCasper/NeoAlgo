@@ -201,3 +201,4 @@ Sample Run:
   Resultant Sum Polynomial =      10x^6 + 5x^4 + 9x^3 + 6x^1 + 12
   Resultant Product Polynomial =  60x^9 + 50x^7 + 68x^6 + 10x^5 + 55x^4 + 57x^3 + 8x^2 + 34x^1 + 35
 */
+

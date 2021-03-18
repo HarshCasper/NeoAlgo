@@ -69,6 +69,8 @@
 
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 
+- [Matrix Transpose](cp/matrix_transpose.cpp)
+
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)

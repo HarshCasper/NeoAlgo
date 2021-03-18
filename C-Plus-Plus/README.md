@@ -49,6 +49,7 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [K Palindrome](cp/K_palindrome.cpp)
 
 ## Data Structures
 

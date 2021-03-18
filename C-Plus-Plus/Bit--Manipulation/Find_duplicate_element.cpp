@@ -15,9 +15,9 @@ for (int i = 0; i < n; i++)
 {  
 for (int j = i+1; j < n; j++)  
 {  
-int res = arr[i] ^ arr[j];  
+int xor = arr[i] ^ arr[j];  
 
-if (res == 0)  
+if (xor == 0)  
 {  
 cout<< "Repeated Element in array = "<<arr[i]<<endl;  
 }  

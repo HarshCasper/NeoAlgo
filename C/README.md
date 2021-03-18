@@ -44,6 +44,7 @@
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
 - [Vernam Cipher](cryptography/Vernam_Cipher.c)
+- [Columnar Cipher](cryptography/Columnar_Cipher.c)
 
 ## Data Structures
 

@@ -283,6 +283,7 @@ _add list here_
 - [Brian_Kernighan's Algorithm](Bit--Manipulation/Brian_Kernighan's_Algorithm.cpp)
 - [Power of 2](Bit--Manipulation/Power_of_2.cpp)
 - [One odd occuring](Bit--Manipulation/One_odd_occuring.cpp)
+- [Rotate Bits](Bit--Manipulation/rotate_bits.cpp)
 - [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
 - [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)

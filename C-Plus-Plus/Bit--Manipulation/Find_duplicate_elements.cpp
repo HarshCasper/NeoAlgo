@@ -1,4 +1,7 @@
-//finding duplicate element (twice ocurring)
+//finding duplicate elements 
+/*elements occuring twice in array is considered duplicate
+here and rest occur only once
+*/
 
 #include <iostream>
 using namespace std;
@@ -15,11 +18,11 @@ for (int i = 0; i < n; i++)
 {  
 for (int j = i+1; j < n; j++)  
 {  
-int res = arr[i] ^ arr[j];  
+int t = arr[i] ^ arr[j];  
 
-if (res == 0)  
+if (t == 0)  
 {  
-cout<< "Repeated Element in array = "<<arr[i]<<endl;  
+cout<< "Duplicate Element in array = "<<arr[i]<<endl;  
 }  
 }  
 }  

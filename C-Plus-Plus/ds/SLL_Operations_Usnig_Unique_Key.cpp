@@ -1,5 +1,7 @@
 /*
-This is singly linked list implementation in which a unique key is alloted while entering the new node to the linked list, and you cannot give same key to the different node. In this code you can give duplicate data still it work fine.
+This is singly linked list implementation in which 
+a unique key has to be given while entering the new node to the linked list,
+and you cannot give same key to the different node.
 */
 
 #include <iostream>
@@ -8,7 +10,7 @@ using namespace std;
 class Node
 {
 public:
-	int key;
+	int key; //key = index of particular node in linked list
 	int data;
 	Node *next;
 
@@ -219,7 +221,7 @@ int main()
 		cout << "4 Delete the node " << endl;
 		cout << "5 Update or make correction in the node " << endl;
 		cout << "6 Print the node " << endl;
-		cout << "7 Clear the screen\n" << endl;
+		cout << "7 Clear the screen\n"<< endl;
 
 		cin >> option;
 		Node *n1 = new Node();
@@ -312,3 +314,4 @@ Time complexity - O(n)
 
 Space complexity - O(n)
 */
+

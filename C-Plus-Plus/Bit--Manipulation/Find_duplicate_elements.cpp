@@ -18,9 +18,15 @@ for (int i = 0; i < n; i++)
 {  
 for (int j = i+1; j < n; j++)  
 {  
+<<<<<<< HEAD:C-Plus-Plus/Bit--Manipulation/Find_duplicate_elements.cpp
 int t = arr[i] ^ arr[j];  
 
 if (t == 0)  
+=======
+int xor = arr[i] ^ arr[j];  
+
+if (xor == 0)  
+>>>>>>> 0344d37fdf42c1505aa04675f9716d3069955ff0:C-Plus-Plus/Bit--Manipulation/Find_duplicate_element.cpp
 {  
 cout<< "Duplicate Element in array = "<<arr[i]<<endl;  
 }  

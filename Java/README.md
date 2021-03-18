@@ -76,6 +76,7 @@ _add list here_
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 - [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
+- [Length of Longest Substring Without Repeating Characters](cp/LongestSubstringNoRepeatingChar.java)
 - [Longest Substring with K Distinct Characters](cp/LongestSubstringDistinctChar.java)
 - [Maximum Sum Subarray of Size K](cp/MaximumSumSubarray.java)
 - [First Negative Number in Every Window of Size K](cp/FirstNegativeNumber.java)

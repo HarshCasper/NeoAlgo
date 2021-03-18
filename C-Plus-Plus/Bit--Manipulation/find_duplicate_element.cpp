@@ -1,7 +1,31 @@
+#include <iostream>
+using namespace std;
+
+
+int main(){
+int n;
+cin>>n; 
+int arr[n]  ;  
+for(int i=0;i<n ; i++){
+cin>>arr[i];
+}  
+for (int i = 0; i < n; i++)  
+{  
+for (int j = i+1; j < n; j++)  
+{  
+int res = arr[i] ^ arr[j];  
+
+if (res == 0)  
+{  
+cout<< "Repeated Element in array = "<<arr[i]<<endl;  
+}  
+}  
+}  
+return 0;  
+}
 //finding duplicate element (twice ocurring)
 // Time Complexity - O(n^2)
 // Space Complexity - O(n^2)
-
 /*Sample Input:
 
 Example 1:- 
@@ -23,33 +47,3 @@ Repeated Element in array = 4
 Repeated Element in array = 2
 
 */
-
-
-#include <iostream>
-using namespace std;
-
-
-int main(){
-    int n;
-    
-    cin>>n;  
-    int arr[n]  ;  
-    
-    for(int i=0;i<n ; i++){
-        cin>>arr[i];
-    }  
-
-    for (int i = 0; i < n; i++)  
-    {  
-        for (int j = i+1; j < n; j++)  
-        {  
-            int res = arr[i] ^ arr[j];  
-
-            if (res == 0)  
-            {  
-                cout<< "Repeated Element in array = "<<arr[i]<<endl;  
-            }  
-        }  
-    }  
-    return 0;  
-}  

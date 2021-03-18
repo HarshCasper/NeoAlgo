@@ -46,7 +46,7 @@ int graph[number][number] = {
   {3,37,36,18,25,2,9,29,43}
 };
 cout <<"Weight of ele,"<< " "<<"Edge of graph" <<"\n";
-// iterate while loop till all edges are lesser than num-1
+/* iterate while loop till all edges are lesser than num-1 */
   while ( number - 1 > all_edges) {
     row = 0,coloumn = 0;
     operation(array,row,coloumn,graph);

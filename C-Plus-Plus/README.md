@@ -209,6 +209,7 @@ _add list here_
 
 ## Dynamic Programming
 
+- [Binomial Coefficient](dp/Binomial_Coefficient.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 - [Edit distance](dp/edit_distance.cpp)
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)

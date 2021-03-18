@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -29,6 +29,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Jump Game](cp/Jump_Game.java)
 - [Reverse words in String](cp/Reverse_words_in_String.java)
 - [Anagram String](cp/Anagram.java)
 - [Dutch National Flag](cp/DutchFlag.java)
@@ -76,6 +77,16 @@ _add list here_
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 - [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
+- [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
+- [Paint Fence Algorithm](cp/Paint_Fence.java)
+- [Minimum Window Substring](cp/MinimumWindowSubstring.java)
+- [Length of Longest Substring Without Repeating Characters](cp/LongestSubstringNoRepeatingChar.java)
+- [Longest Substring with K Distinct Characters](cp/LongestSubstringDistinctChar.java)
+- [Maximum Sum Subarray of Size K](cp/MaximumSumSubarray.java)
+- [First Negative Number in Every Window of Size K](cp/FirstNegativeNumber.java)
+- [Count Occurrences of Anagrams](cp/CountAnagrams.java)
+- [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
+- [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 
 ## Cryptography
 
@@ -91,6 +102,7 @@ _add list here_
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [LCS](dp/LCS.java)
+- [FirstFit BestFit WorstFit ](dp/MemoryAllocations.java)
 - [Flood Fill Algorithm](dp/flood_fill.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 
@@ -99,6 +111,7 @@ _add list here_
 - [Binary Tree](ds/Binary_Tree.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
+- [Delete node from LinkedList](ds/DeleteElementLL.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
@@ -120,6 +133,7 @@ _add list here_
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
+- [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
 
 ## Graphs
 
@@ -235,9 +249,11 @@ _add list here_
 - [Painter Partition problem](other/PainterPartition.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
+- [Remove the key element from the array](other/remove_element_from_array.java)
 - [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
+- [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)

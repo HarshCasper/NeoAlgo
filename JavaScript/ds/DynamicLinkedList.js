@@ -112,6 +112,29 @@ class LinkedList {
     return this;
   }
 
+// Reverse the linked list
+  reverse() {
+    if (!this.head.next) {
+      return this.head;
+    }
+
+    let first = this.head;
+    this.tail = this.head;
+    let second = first.next;
+
+    while (second) {
+      const temp = second.next;
+      second.next = first;
+      first = second;
+      second = temp;
+    }
+
+    this.head.next = null;
+    this.head = first;
+
+    return this;
+  }
+
 // Displaying all the nodes of linked list
   printList() {
     const array = [];
@@ -142,6 +165,7 @@ do {
   console.log("3. Prepend element in the Linked List".insert);
   console.log("4. Insert at any position in the Linked List".insert);
   console.log("5. Delete element from Linked List".delete);
+  console.log("6. Reverse a Linked List".display);
 
   choice = +prompt("Enter your choice - ");
 
@@ -188,6 +212,15 @@ do {
       myLinkedList.remove(index);
       console.log("After Deletion Linked List - ", myLinkedList.printList());
       break;
+    
+    case 6:
+      if (myLinkedList.length === 0) {
+        return console.log("Can't revert, Empty Linked List".wrong);
+      }
+  
+      myLinkedList.reverse();
+      console.log("Reversal of Linked List - ", myLinkedList.printList());
+      break;
 
     default:
       console.log("You know this is wrong, Bbye!\n".wrong);
@@ -207,9 +240,21 @@ Follow the instructions to get in the show
 2. Append element in the Linked List
 3. Prepend element in the Linked List
 4. Insert anywhere in between the Linked List
+5. Delete element from Linked List
+6. Reverse a Linked List
 Enter your choice - 2
 Enter Value to Append element - 43
 After Append Linked List -  [10, 43]
+
+0. To exit without doing anything
+1. Display the Linked List
+2. Append element in the Linked List
+3. Prepend element in the Linked List
+4. Insert anywhere in between the Linked List
+5. Delete element from Linked List
+6. Reverse a Linked List
+Enter your choice - 6
+Reversal of Linked List -  [43, 10]
 
 */
 

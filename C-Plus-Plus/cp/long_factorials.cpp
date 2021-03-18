@@ -48,12 +48,9 @@ int main() {
     return 0;
 }
 
-/*Sample test cases 
-1. Input: 5
-   Output: 120
-
-2. Input: 15
+/*Sample test case 
+1. Input: 15
    Output: 1307674368000
 
-// Time Complexity = O(N)
+Time Complexity = O(N)
  */

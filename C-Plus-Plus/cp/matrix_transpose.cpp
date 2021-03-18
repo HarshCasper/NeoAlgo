@@ -7,7 +7,6 @@
 
 #include<iostream>
 using namespace std;
-
 void transpose(int frows, int fcolumns, int **finput_matrix, int **ftranspose_matrix)	//Function that computes transpose
 {
 	int i = 0;

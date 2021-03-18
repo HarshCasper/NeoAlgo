@@ -1,6 +1,5 @@
 //Converting Integer number to its Roman form
-//Input : Enter a number : 15
-//Output : Roman number of 15 is XV
+//Whenever user type any integer value, they will get the roman value for a particular integer value.
 
 package main
 
@@ -22,11 +21,13 @@ func calIntToRoman(number int) string {
 
 	j := 1
 
-	//storing integer value, help to convert it's respective roman number
+	//storing integer value
+	// help to convert it's respective roman number
 	intValue := [13]int{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1}
 	romanValue := [13]string{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"}
 
-	//iterating integer and roman value, it number cantains perticular integer value, adds it's roman value
+	//iterating integer and roman value
+	//the number contains perticular integer value, based on that adds it's roman value
 	for i := 0; i < 13; i++ {
 		if number >= intValue[i] {
 			f := number / intValue[i]
@@ -40,3 +41,7 @@ func calIntToRoman(number int) string {
 	}
 	return result
 }
+
+//Sample Input/Output
+//Input : Enter a number : 15
+//Output : Roman number of 15 is XV

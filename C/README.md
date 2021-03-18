@@ -67,12 +67,18 @@
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
+- [Implementation of maxHeap](ds/maxheap.c)
+- [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
+- [Reverse Linked List](ds/reverse_linked_list.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Hash Table using Linear Probing](ds/Hash_Table.c)
+- [Double Ended Queue](ds/Double_Ended_Queue.c)
+- [Merging two Linked List](ds/Merging_two_Linked_List.c)
 
 ## Searching
 
@@ -83,10 +89,12 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Jump Search](search/JumpSearch.c)
 
 ## Sorting
 
 - [Bead Sort](sort/beadSort.c)
+- [Heap Sort](sort/HeapSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)
@@ -100,6 +108,7 @@
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
+- [Three Way Merge Sort](sort/three_way_merge_sort.c)
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 
@@ -140,6 +149,7 @@ _add list here_
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 
 ## Other
 
@@ -153,6 +163,7 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Concatenate two strings](other/concatenate_two_strings.c)
 
 ## CP
 

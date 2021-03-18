@@ -179,6 +179,7 @@
 - [In Place Merge Sort](sort/in_place_merge_sort.cpp)
 - [Insertion Sort](sort/insertion.cpp)
 - [Merge Sort](sort/Merge_Sort.cpp)
+- [Pigeon hole Sort](sort/pigeon_hole_sort.cpp)
 - [Quick Sort](sort/Quick_Sort.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
 - [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)

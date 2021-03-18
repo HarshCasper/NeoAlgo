@@ -1,9 +1,27 @@
-// This is a code to compute transpose of given matrix
+/*
+ * Matrix is a 2-D array.
+ * The transpose of a matrix is simply a flipped version of the original matrix.
+ * We can transpose a matrix by switching its rows with its columns.
+ * This code gives output as transpose of input matrix.
+ * */
 
 #include<iostream>
 using namespace std;
 
-void transpose(int frows, int fcolumns, int **finput_matrix, int **ftranspose_matrix);
+void transpose(int frows, int fcolumns, int **finput_matrix, int **ftranspose_matrix)	//Function that computes transpose
+{
+	int i = 0;
+	int j = 0;
+	for (i = 0; i < fcolumns; ++i)
+	{
+		for (j = 0; j < frows; ++j)
+		{
+			//According to definition of transpose, each element of transpose is assigned.
+			ftranspose_matrix[i][j] = finput_matrix[j][i];
+		}
+	}
+}
+
 int main(void)
 {
 	int **input_matrix = NULL;
@@ -26,9 +44,7 @@ int main(void)
 		input_matrix[i] = new int[columns];
 	}
 
-	cout
-			<< "Enter the elements of matrix in row wise manner separated by space : "
-			<< endl;
+	cout << "Enter the elements of matrix in row wise manner separated by space : " << endl;
 	//Taking user input as each element of matrix.
 	for (i = 0; i < rows; ++i)
 	{
@@ -58,8 +74,8 @@ int main(void)
 		}
 		cout << endl;
 	}
-
 	cout << endl;
+
 	//Display the transpose on the screen.
 	cout << "The transpose of above matrix is : " << endl;
 	for (i = 0; i < columns; ++i)
@@ -83,21 +99,28 @@ int main(void)
 		delete[] transpose_matrix[i];
 	}
 	delete[] transpose_matrix;
-
 	return 0;
 }
 
-void transpose(int frows, int fcolumns, int **finput_matrix, int **ftranspose_matrix)	//Function that computes transpose
-{
-	int i = 0;
-	int j = 0;
-	for (i = 0; i < fcolumns; ++i)
-	{
-		for (j = 0; j < frows; ++j)
-		{
-			//According to definition of transpose, each element of transpose is assigned.
-			ftranspose_matrix[i][j] = finput_matrix[j][i];
-		}
-	}
-}
-
+/*
+ * Sample I/O :
+ * I/P :
+ * 2
+ * 3
+ * 1 2 3 4 5 6
+ *
+ * O/P :
+ * 1 4
+ * 2 5
+ * 3 6
+ *
+ * Explanation: Here, rows=2 & columns=3. On next line each element of matrix is entered in row wise manner separated by space.
+ * So input matrix is :   1 2 3
+ *                        4 5 6
+ * The code gives output as its transpose.
+ *
+ *
+ * Time Complexity : theta(mn)        where m = number of rows, n = number of columns
+ * Space Complexity: Transpose matrix require extra storage same as input matrix. So space complexity becomes theta(mn)
+ *
+ 

@@ -14,7 +14,7 @@ Approach :
 import java.util.Arrays;
 import java.util.Scanner;
 
-class MAXFUN {
+class MaximumFunction {
 	//main method
 	public static void main(String[] args) {
 

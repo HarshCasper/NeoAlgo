@@ -1,3 +1,10 @@
+/*
+We can use binary search to reduce the number of comparisons in normal insertion sort.
+Binary Insertion Sort uses binary search to find the proper location to insert the selected item at each iteration. 
+In normal insertion sort, it takes O(n) comparisons (at nth iteration) in the worst case.
+We can reduce it to O(log n) by using binary search.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define int               long long int

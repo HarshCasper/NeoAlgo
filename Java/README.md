@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -108,6 +108,7 @@ _add list here_
 - [Binary Tree](ds/Binary_Tree.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
+- [Delete node from LinkedList](ds/DeleteElementLL.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)

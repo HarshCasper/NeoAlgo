@@ -1,13 +1,13 @@
-// Created by shubhgupta9
-//C++ implementation of DNF sort or Dutch National Flag sort
+/*
+Created by shubhgupta9
+C++ implementation of DNF sort or Dutch National Flag sort
 
-//code for the algorithm goes here:-
+Code for the algorithm goes here:-
 
-/* This algorithm is used to sort an array of 3 numbers, in our example code we will be taking 
+This algorithm is used to sort an array of 3 numbers, in our example code we will be taking 
 a default unsorted array which consists of 0s,1s and 2s.
 */
 
-#include<iostream>
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -20,12 +20,12 @@ void swap(int arr[],int a,int b)
     arr[b] = temp;
 }
 
-//sorting algo 
+//Sorting algo 
 void DNF(int arr[],int n)
 {
-    int low = 0; // will signify from where the 1s will be starting 
-    int mid = 0; // denotes the unknown region 
-    int high = n-1; // will signify from where the 2s will be starting
+    int low = 0; // Will signify from where the 1s will be starting 
+    int mid = 0; // Denotes the unknown region 
+    int high = n-1; // Will signify from where the 2s will be starting
     while(mid<=high)
     {
         if(arr[mid]==0)
@@ -45,7 +45,7 @@ void DNF(int arr[],int n)
     }
 }
 
-//main code
+//Main Code
 int main()
 {
     int arr[] = {1,0,2,1,0,1,2,1,2};
@@ -58,13 +58,13 @@ int main()
 }
 
 /*
-example input:-
+Example Input:-
 1 0 2 1 0 1 2 1 2 
 
-example output:-
+Example Output:-
 0 0 1 1 1 1 2 2 2
 
-time complexity: O(n)
-space compexity: O(1)
+Time Complexity: O(n)
+Space Compexity: O(1)
 
 */

@@ -111,6 +111,8 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+- [Flattening binary tree into Linkedlist in-place](ds/linkedlisttree.cpp)
+
 
 ## Graphs
 

@@ -1,7 +1,7 @@
 /*
   Jump Game :
-  We need to find the minimum number of jumps to reach the end of the array starting from the first
-  element of the array, jumps value would be (-1) if we are not able to reach the end of the array
+      We need to find the minimum number of jumps to reach the end of the array starting from the first
+      element of the array, jumps value would be (-1) if we are not able to reach the end of the array
 
   Example : array = {2,3,0,1,4,1,1,2,0,3,5}
             minimum jumps = 5  {2 to 3, 3 to 4, 4 to 2, 2 to 3, 3 to 5}
@@ -25,11 +25,9 @@
    5. We have used checks-- so that we can iterate the for loop till the checks == 0 and find the maximum
       value for max_Jump_Reach and afterwards we will update checks by (max_Jump_Reach - i)
  */
-
 import java.util.Scanner;
 
 public class JumpGame {
-
 	// jumpGame method
 	public static int jumpGame(int array[]) {
 
@@ -42,12 +40,10 @@ public class JumpGame {
 		if (array.length <= 1) {
 			return 0;
 		}
-
 		// If first element is 0 then we can't jump to any other element in the array
 		if (array[0] == 0) {
 			return -1;
 		}
-
 		// Traverse array
 		for (int i = 1; i < array.length; i++) {
 
@@ -55,7 +51,6 @@ public class JumpGame {
 			if (i == array.length - 1) {
 				return jumps;
 			}
-
 			// Update max_Jump_Reach
 			max_Jump_Reach = Math.max(max_Jump_Reach, i + array[i]);
 
@@ -75,10 +70,8 @@ public class JumpGame {
 
 	// main method
 	public static void main(String[] args) {
-		try {
 
 			Scanner sc = new Scanner(System.in);
-
 			// Number of elements we want to put in array
 			int number = sc.nextInt();
 			int[] array = new int[number];
@@ -87,20 +80,14 @@ public class JumpGame {
 			for(int i = 0 ; i < array.length ; i++) {
 				array[i] = sc.nextInt();
 			}
-
 			// Initializing the value returned by jumpGame method to jumps
 			int jumps = JumpGame.jumpGame(array);
 
 			System.out.println("minimum number of Jumps required : "+jumps);
-
-		}catch(Exception e) {
-
-		}
 	}
 }
-
 /*
-  Test Cases :
+- Test Cases :
    1.  Input : 7
                2 1 3 4 1 2 3
       Output : minimum number of Jumps required : 3
@@ -113,8 +100,10 @@ public class JumpGame {
                0
       Output : minimum number of Jumps required : 0
 
+- Complexity Analysis :
+    * Time Complexity : O(n)
+		  We are using only one for loop, so it iterates maximum 'n' times while traversing for loop
 
-  Time Complexity is O(n)
-
-  Space Complexity is O(n)
+    * Space Complexity : O(n)
+		 Auxiliary space : O(1)  +  input space : O(n)
 */

@@ -78,6 +78,7 @@
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
+- [Singly Linked List Operations Using Unique Key](ds/SLL_Operations_Usnig_Unique_Key.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 - [Level Order Tree Traversal](ds/LevelOrderTraversal.cpp)
 - [AVL Tree](ds/avl_tree.cpp)
@@ -244,6 +245,7 @@ _add list here_
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
 - [Neon Number](math/neon_number.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
+- [Smallest Divisible Number](math/Smallest_divisible_number.cpp)
 - [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)

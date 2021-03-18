@@ -1,3 +1,4 @@
+
 /* Definition: 
 A binomial coefficient C(n, k) can be defined as the coefficient of x^k 
 in the expansion of (1 + x)^n.
@@ -44,7 +45,7 @@ void binomialCoefTabulation(int n,int k){
 int main()
 {
     int n,k;
-    cout<<"Enter the value of n and k : ";
+    cout<<"Enter the value of n and k (n must be greater than or equal to k): ";
     cin>>n>>k;
     vector<vector<int>>dp(n+1,vector<int>(k+1,-1));
     cout << "Memorization: Value of C(" << n << ", " << k << ") is "<< binomialCoeffMemorization(n, k,dp) << endl;

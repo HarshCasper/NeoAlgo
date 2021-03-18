@@ -76,6 +76,8 @@ _add list here_
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 - [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
+- [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
+- [Paint Fence Algorithm](cp/Paint_Fence.java)
 - [Minimum Window Substring](cp/MinimumWindowSubstring.java)
 - [Length of Longest Substring Without Repeating Characters](cp/LongestSubstringNoRepeatingChar.java)
 - [Longest Substring with K Distinct Characters](cp/LongestSubstringDistinctChar.java)

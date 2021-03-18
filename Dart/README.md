@@ -7,4 +7,6 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Dart language
+# Dart 
+
+This Sub-Directory will consist of the codes in the Dart Programming language.

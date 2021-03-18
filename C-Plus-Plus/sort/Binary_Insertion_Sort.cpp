@@ -31,33 +31,31 @@ bool comp(pair<pii,pii> x, pair<pii,pii> y){
     if(x.ff.ff<y.ff.ff) return true;
     else return false;
 }
+//searching element in array a by binary search algoritm
 int binarySearch(int a[], int element, int low, int high)
 {
-    if (high <= low)
-        return (element > a[low]) ? 
-                (low + 1) : low;
- 
+    if (high <= low){
+        return (element > a[low]) ? (low + 1) : low;
+    }
     int mid = (low + high) / 2;
- 
-    if (element == a[mid])
+    if (element == a[mid]){
         return mid + 1;
- 
-    if (element > a[mid])
+    } 
+    if (element > a[mid]){
         return binarySearch(a, element, mid + 1, high);
-        
-        
+    }
     return binarySearch(a, element, low, mid - 1);
 }
- 
+// sorting using insertion sort
 void insertionSort(int arr[], int n)
 {
+    // initializing variables
     int i, place, j, k, selected;
- 
     for (i = 1; i < n; ++i) 
     {
         j = i - 1;
         selected = arr[i];
- 
+        
         // location where selected sould be inseretd
         place = binarySearch(a, selected, 0, j);
  
@@ -77,15 +75,24 @@ signed main()
     int arr[] = { 35, 23, 12, 17, 12, 72, 31, 46, 180, 88, 54 };
     int n = sizeof(a) / sizeof(a[0]), i;
  
-    //Apply Sort
+    //Applying Sort
+    //calling sort function
     insertionSort(a, n);
- 
-    cout<<"Sorted Array is :-"<<endl;
-    
-    for (i = 0; i < n; i++) cout<<arr[i]<<" ";
- 
+    cout<<"Sorted Array is :-";
+    for (i = 0; i < n; i++){ 
+        cout<<arr[i]<<" ";
+    }
     return 0;
 }
+/* Sample Input
+arr = 35 23 12 17 12 72 31 46 180 88 54
+*/
+/* Sample Output
+Sorted Array is:- 12 12 17 23 31 35 46 54 72 88 180
+*/
+
+// Time Complexity -O(n^2)
+//Space Complexity -O(n)
 
 
 

@@ -3,15 +3,16 @@ There is no inorder successor of the last node in inorder traversal of the BST.
 Inorder predecessor of a node is the previous node in inorder traversal of the BST.
 There is no inorder predecessor of the first node in inorder traversal of the BST.
 */
+
 #include<stdio.h>
 #include<stdlib.h>
-//structure of tree
 struct tree
 {
     struct tree *lptr;
     int data;
     struct tree *rptr;
 };
+
 //Insert function of BST
 void insert(struct tree **b,int n)
 {
@@ -25,11 +26,12 @@ void insert(struct tree **b,int n)
     else
     {
         if((*b)->data>n)
-        insert(&((*b)->lptr),n);
+            insert(&((*b)->lptr),n);
         else
-        insert(&((*b)->rptr),n);
+            insert(&((*b)->rptr),n);
     }
 }
+
 //Inorder display function using recursion
 void inorder(struct tree *b)
 {
@@ -40,6 +42,7 @@ void inorder(struct tree *b)
         inorder(b->rptr);
     }
 }
+
 //Function to find inorder predecessor of a node
 int in_pre(struct tree *b,int node)
 {
@@ -48,7 +51,7 @@ int in_pre(struct tree *b,int node)
     while(x!=NULL && x->data!=node)
     {
         if(x->data>node)
-        x=x->lptr;
+            x=x->lptr;
         else
         {
             flag=1;
@@ -72,10 +75,11 @@ int in_pre(struct tree *b,int node)
         return 0;
     }
     else if(flag==1)
-    printf("Predecessor of %d is %d\n",node,pre);
+        printf("Predecessor of %d is %d\n",node,pre);
     else
-    printf("Predecessor of %d does not exist\n",node);
+        printf("Predecessor of %d does not exist\n",node);
 }
+
 //Function to find inorder successor of a node
 int in_succ(struct tree *b,int node)
 {
@@ -106,9 +110,9 @@ int in_succ(struct tree *b,int node)
         return 0;
     }
     else if(f==1)
-    printf("Successor of %d is %d\n",node,xsucc);
+        printf("Successor of %d is %d\n",node,xsucc);
     else
-    printf("Successor of %d does not exist\n",node);
+        printf("Successor of %d does not exist\n",node);
 }
 int main()
 {
@@ -132,7 +136,7 @@ int main()
             case 2:
             {
                 if(root==NULL)
-                printf("Tree is empty\n");
+                    printf("Tree is empty\n");
                 else
                 {
                     printf("In-order Display: ");
@@ -144,7 +148,7 @@ int main()
             case 3:
             {
                 if(root==NULL)
-                printf("Tree is empty\n");
+                    printf("Tree is empty\n");
                 else
                 {
                     printf("Enter the node for which you want inorder predecessor: ");
@@ -156,7 +160,7 @@ int main()
             case 4:
             {
                 if(root==NULL)
-                printf("Tree is empty\n");
+                    printf("Tree is empty\n");
                 else
                 {
                     printf("Enter the node for which you want inorder successor: ");
@@ -174,19 +178,15 @@ int main()
     return 0;
 }
 /*
-Menu:
-1.Insert                                2.Inorder display
-3.Inorder Predecessor of a node         4.Inorder Successor of a node
-Enter your choice: 1
-Enter data: 14
-Do you want to continue:(Y/y) y
+Time Complexity:
+Insertion - O(n)
+Inorder display - O(n)
+Inorder predecessor function - O(h)
+Inorder successor function - O(h)
 
-Menu:
-1.Insert                                2.Inorder display
-3.Inorder Predecessor of a node         4.Inorder Successor of a node
-Enter your choice: 1
-Enter data: 9
-Do you want to continue:(Y/y) y
+Space Complexity: O(n)
+
+Sample Output: 
 
 Menu:
 1.Insert                                2.Inorder display
@@ -205,22 +205,22 @@ Do you want to continue:(Y/y) y
 Menu:
 1.Insert                                2.Inorder display
 3.Inorder Predecessor of a node         4.Inorder Successor of a node
-Enter your choice: 1 
-Enter data: 18
+Enter your choice: 1
+Enter data: 9
 Do you want to continue:(Y/y) y
 
 Menu:
 1.Insert                                2.Inorder display
 3.Inorder Predecessor of a node         4.Inorder Successor of a node
 Enter your choice: 1
-Enter data: 15
+Enter data: 14
 Do you want to continue:(Y/y) y
 
 Menu:
 1.Insert                                2.Inorder display
 3.Inorder Predecessor of a node         4.Inorder Successor of a node
 Enter your choice: 2
-In-order Display: 3  5  9  14  15  18
+In-order Display: 3  5  9  14  
 Do you want to continue:(Y/y) y
 
 Menu:
@@ -235,7 +235,7 @@ Menu:
 1.Insert                                2.Inorder display
 3.Inorder Predecessor of a node         4.Inorder Successor of a node
 Enter your choice: 4
-Enter the node for which you want inorder successor: 5
-Successor of 5 is 9
+Enter the node for which you want inorder successor: 9
+Successor of 9 is 14
 Do you want to continue:(Y/y) n
 */

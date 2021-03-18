@@ -80,8 +80,7 @@ cout<<root->val<<" ";
 inorder_output(root->right);
 }
 
-
-TreeNode* insert_value(TreeNode* root,int val,queue<TreeNode*> &t)
+TreeNode* insert_value(TreeNode* root,int val,queue<TreeNode*> &t) //code for inserting the required value to every node of tree to be formed.
 {   TreeNode* temp=node(val);
 if(val==-1)
 {
@@ -101,6 +100,7 @@ temp=NULL;
     t.push(temp);
     return root;
 }
+
 TreeNode* form_tree(vector<int>v)  //code for creating tree
 {
 TreeNode* root=NULL;

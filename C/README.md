@@ -12,6 +12,7 @@
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
+- [Adjacent Element Product](cp/Adjacent_Element_Product.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
 - [Anagram Program](cp/anagram_program.c)
 - [Binary Search](search/BinarySearch.c)
@@ -25,7 +26,7 @@
 - [Sum of Triplet](cp/sum_of_triplet.c)
 - [Calculate Double Factorial](cp/doublefactorial.c)
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
-- [Longest substring without repeating characters](cp/Longest_substring_without_repeating_chars.cpp)
+- [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
@@ -35,12 +36,14 @@
 - [Suduko Solver](cp/SudukoSolver.c)
 - [Stock Span Problem](cp/Stock_Span.c)
 - [Bulb Switcher problem](cp/bulbSwitch.c)
+- [Luhn's Algorithm](cp/LuhnsAlgo.c)
 
 ## Cryptography
 
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
+- [Vernam Cipher](cryptography/Vernam_Cipher.c)
 
 ## Data Structures
 
@@ -65,19 +68,34 @@
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
 - [Iterative preorder traversal](ds/Iterative_preorder.c)
+- [Implementation of maxHeap](ds/maxheap.c)
+- [Implementation of minHeap](ds/minHeap.c)
+- [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
+- [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Stack Using Queue](ds/StackUsingQueue.c)
+- [Finding a pair of element](ds/Finding_a_pair_of_element.c)
+- [Reverse Linked List](ds/reverse_linked_list.c)
+- [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
+- [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Hash Table using Linear Probing](ds/Hash_Table.c)
+- [Double Ended Queue](ds/Double_Ended_Queue.c)
+- [Merging two Linked List](ds/Merging_two_Linked_List.c)
 
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)
+- [Iterative-Binary Search](search/IterativeBinarySearch.c)
 - [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Jump Search](search/JumpSearch.c)
 
 ## Sorting
 
 - [Bead Sort](sort/beadSort.c)
+- [Heap Sort](sort/HeapSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)
@@ -91,6 +109,9 @@
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
+- [Three Way Merge Sort](sort/three_way_merge_sort.c)
+- [Shaker Sort](sort/shaker_sort.c)
+- [Sort using Binary Search Tree](sort/BST_Sort.c)
 
 ## Dynamic Programming
 
@@ -107,6 +128,7 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
+- [Adjacency List](graphs/Adjacency_List.c)
 
 ## Machine Learning
 
@@ -123,6 +145,12 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Neon Number](math/Neon_number.c) 
+
+## Operating System
+
+- [Banker's Algorithm](operating_system/bankers.c)
+- [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 
 ## Other
 
@@ -136,6 +164,7 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Concatenate two strings](other/concatenate_two_strings.c)
 
 ## CP
 

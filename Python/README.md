@@ -27,6 +27,7 @@
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+- [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
 
 
@@ -58,6 +59,7 @@
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
+- [Fence Painting Algorithm](cp/Paint_Fence.py)
 
 
 ## Cryptography
@@ -69,7 +71,6 @@
 - [Burrows Wheeler transform (BWT)](cryptography/Burrows_Wheeler_transform.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
 - [AES Algorithm](cryptography/AES.py)
-
 
 ## Searching
 
@@ -89,6 +90,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/Bubble_Sort.py)
+- [Optimized Bubble Sort](sort/Optimized_Bubble_Sort.py)
 - [Selection Sort](sort/Selection_Sort.py)
 - [Insertion Sort](sort/insertion.py)
 - [Quick Sort](sort/QuickSort.py)
@@ -127,17 +129,17 @@
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
-- [Dice Throw Problem](dp/Dice_Throw.py)	
+- [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
 
-## Pathfinding Algorithms 
+## Pathfinding Algorithms
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
-- [A*(Astar) in Maze](Pathfinding/2D_Astar.py)
+- [A\*(Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
 
@@ -159,6 +161,38 @@
 - [Detect Negative Cycle](graphs/Negative_Cycle.py)
 - [Depth First Search](graphs/DFS.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
+- [Rotten Oranges](graphs/Rotten_Oranges.py)
+
+## Competitive Programming
+
+- [Anagram Checker](cp/anagram_checker.py)
+- [Find Least positive number](cp/findingLeastPositiveNumber.py)
+- [KMP Algorithm](cp/KMP_Algorithm.py)
+- [Longest Common Prefix](cp/longest_Common_Prefix.py)
+- [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
+- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
+- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
+- [Target sum triplet](cp/Target_Sum_Triplet.py)
+- [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
+- [Maximum sum rectangle](cp/max_sum.py)
+- [Search Insert Position](cp/search_insert_position.py)
+- [Maximum Water Container](cp/Maximum_Water_Container.py)
+- [Smallest sum subarray](cp/smallest_sum_array.py)
+- [Delete a node from linked list](cp/delete_node.py)
+- [Stable Marriage Problem](cp/stable_marriage_problem.py)
+- [Rain Water Harvesting](cp/rainwater_harvesting.py)
+- [House Robber](cp/house_robber.py)
+
+
+## Cryptography
+
+- [Affine Cipher](cryptography/AffineCipher.py)
+- [Caesar Cipher](cryptography/Caesar_Cipher.py)
+- [Vigenere Cipher](cryptography/vigenere_cipher.py)
+- [RSA Algorithm](cryptography/RSA_Algorithm.py)
+- [XOR Cipher](cryptography/XOR_cipher.py)
+- [AES Algorithm](cryptography/AES.py)
 - [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
 - [Knight Walk](graphs/Knight_Walk.py)
 - [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
@@ -166,16 +200,16 @@
 
 ## Machine Learning
 
-* [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
-* [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
-* [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
-* [Linear Regression](ml/Linear_Regression.ipynb)
-* [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
-* [Logistic Regression](ml/Logistic_Regression.ipynb)
-* [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
-* [Principal Component Analysis](ml/principal_component_analysis.ipynb)
-* [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
-* [Logically Weighted Regression](ml/Logically_weighted_regression.py)
+- [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
+- [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
+- [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
+- [Linear Regression](ml/Linear_Regression.ipynb)
+- [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
+- [Logistic Regression](ml/Logistic_Regression.ipynb)
+- [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
+- [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+- [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
+- [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 
 ## Mathematics
 
@@ -201,6 +235,9 @@
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
+- [Sine Function](math/Sine_Function.py)
+- [Arctan Function](math/Arctan.py)
+- [Strong Number](math/Strong_Number.py)
 
 ## Blockchain
 

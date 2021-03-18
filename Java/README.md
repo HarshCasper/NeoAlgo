@@ -141,6 +141,7 @@ _add list here_
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 
 ## Dynamic Programming
 

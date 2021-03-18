@@ -1371,6 +1371,33 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "saumyasrivastava08",
+      "name": "Saumya Srivastava",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57553757?v=4",
+      "profile": "https://saumyaportfolio.herokuapp.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "XZANATOL",
+      "name": "XZANATOL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64689436?v=4",
+      "profile": "https://www.linkedin.com/in/xzanatol/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "neha-b2001",
+      "name": "Neha Binwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67039214?v=4",
+      "profile": "https://github.com/neha-b2001",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",

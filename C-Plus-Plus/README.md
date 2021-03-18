@@ -114,6 +114,7 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+- [Priority_Queue_using_Linked_List] (ds/Priority_Queue_using_Linked_List.cpp)
 
 ## Graphs
 
@@ -145,8 +146,11 @@
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
 - [Breadth First Search](graphs/BFS1.cpp)
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
+- [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
+- [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
+- [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
+- [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
 - [Childern Sum Property](graphs/Childern_Sum_Property.cpp)
-
 
 ## Searching
 

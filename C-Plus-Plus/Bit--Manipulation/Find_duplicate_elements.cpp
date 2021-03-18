@@ -8,28 +8,28 @@ using namespace std;
 
 int main(){
     
-int n;
-cin>>n; 
+    int n;
+    cin>>n; 
 
-int arr[n] ;  
+    int arr[n] ;  
 
-for(int i=0;i<n ; i++){
-cin>>arr[i];
+    for(int i=0;i<n ; i++){
+    cin>>arr[i];
 }
 
-for (int i = 0; i < n; i++){ 
+        for (int i = 0; i < n; i++){ 
     
-for (int j = i+1; j < n; j++){  
+            for (int j = i+1; j < n; j++){  
 
-int x = arr[i] ^ arr[j];  
+                int x = arr[i] ^ arr[j];  
 
-if (x == 0){  
-cout<< "Duplicate Element in array = "<<arr[i]<<endl;  
-}
+                if (x == 0){  
+                cout<< "Duplicate Element in array = "<<arr[i]<<endl;  
+                }
 
-} 
+            } 
 
-}  
+        }   
 return 0;  
 }  
 

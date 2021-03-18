@@ -113,7 +113,6 @@
 - [Double Hashing](ds/double-hashing.cpp)
 - [Flattening binary tree into Linkedlist in-place](ds/linkedlisttree.cpp)
 
-
 ## Graphs
 
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)

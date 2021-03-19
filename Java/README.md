@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -29,6 +29,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Jump Game](cp/Jump_Game.java)
 - [Reverse words in String](cp/Reverse_words_in_String.java)
 - [Anagram String](cp/Anagram.java)
 - [Dutch National Flag](cp/DutchFlag.java)
@@ -77,6 +78,8 @@ _add list here_
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 - [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
 - [Longest Subarray Having Sum K](cp/LongestSubarraySum.java)
+- [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
+- [Paint Fence Algorithm](cp/Paint_Fence.java)
 - [Minimum Window Substring](cp/MinimumWindowSubstring.java)
 - [Length of Longest Substring Without Repeating Characters](cp/LongestSubstringNoRepeatingChar.java)
 - [Longest Substring with K Distinct Characters](cp/LongestSubstringDistinctChar.java)
@@ -109,6 +112,7 @@ _add list here_
 - [Binary Tree](ds/Binary_Tree.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
+- [Delete node from LinkedList](ds/DeleteElementLL.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)

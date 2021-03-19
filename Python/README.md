@@ -238,6 +238,7 @@
 - [Sine Function](math/Sine_Function.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
+- [Noble Integer](math/Noble_Integer.py)
 
 ## Blockchain
 

@@ -15,6 +15,7 @@
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)
 - [ArraySub](cp/ARRAYSUB.cpp)
+- [Array Manipulation](cp/Array_Manipulation.cpp)
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
@@ -36,6 +37,7 @@
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
+- [Lucky Numbers](cp/Lucky_Numbers.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [Min Swap To Sort Array](cp/MinSwapToSortArray.cpp)
@@ -63,6 +65,7 @@
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
+- [Sort Color](cp/Sort_Color.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
@@ -75,6 +78,7 @@
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
+- [Singly Linked List Operations Using Unique Key](ds/SLL_Operations_Usnig_Unique_Key.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
 - [Level Order Tree Traversal](ds/LevelOrderTraversal.cpp)
 - [AVL Tree](ds/avl_tree.cpp)
@@ -111,9 +115,11 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+- [Priority_Queue_using_Linked_List] (ds/Priority_Queue_using_Linked_List.cpp)
 
 ## Graphs
 
+- [Adjacency List Representation](graphs/Adjacency_List.cpp)
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
@@ -142,8 +148,11 @@
 - [Right view of Tree](graphs/right_view_of_tree.cpp)
 - [Breadth First Search](graphs/BFS1.cpp)
 - [ZigZag traversal of Tree](graphs/zigzag_tree_traversal.cpp)
+- [Kahn's Algorithm](graphs/kahns_algorithm.cpp)
+- [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
+- [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
+- [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
 - [Childern Sum Property](graphs/Childern_Sum_Property.cpp)
-
 
 ## Searching
 
@@ -167,6 +176,7 @@
 - [Binary Search Tree Sort](sort/BST_Sort.cpp)
 - [Bubble Sort](sort/Bubble_Sort.cpp)
 - [Bucket Sort](sort/bucket_sort.cpp)
+- [Circle Sort](sort/circle_sort.cpp)
 - [Cocktail shaker sort](sort/Cocktail_shaker_sort.cpp)
 - [Comb sort](sort/comb_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
@@ -175,6 +185,7 @@
 - [In Place Merge Sort](sort/in_place_merge_sort.cpp)
 - [Insertion Sort](sort/insertion.cpp)
 - [Merge Sort](sort/Merge_Sort.cpp)
+- [Pigeon hole Sort](sort/pigeon_hole_sort.cpp)
 - [Quick Sort](sort/Quick_Sort.cpp)
 - [Radix Sort](sort/radix_sort.cpp)
 - [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
@@ -229,12 +240,14 @@ _add list here_
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Noble Integer](math/Noble_Integer.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Magic Number](math/magic_number.cpp)
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
 - [Neon Number](math/neon_number.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
+- [Smallest Divisible Number](math/Smallest_divisible_number.cpp)
 - [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
@@ -304,11 +317,13 @@ _add list here_
 
 ## Other
 
+- [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Dynamic Huffman](other/DynamicHuffman.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
+- [Find duplicate elements from an array](other/find_duplicate_elements_from_an_array.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Generate all Subsets](other/subsets.cpp)
@@ -328,3 +343,4 @@ _add list here_
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
 - [Set Clear and Check bits](other/check_set_clear_bit.cpp)
+- [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)

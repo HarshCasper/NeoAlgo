@@ -111,6 +111,7 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+- [Searching a word in Trie](ds/searching_a_word_in_trie.cpp)
 
 ## Graphs
 

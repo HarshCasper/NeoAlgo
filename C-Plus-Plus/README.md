@@ -69,7 +69,6 @@
 
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 
-- [Matrix Transpose](cp/matrix_transpose.cpp)
 
 ## Data Structures
 
@@ -232,6 +231,7 @@ _add list here_
 - [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
+- [Matrix Transpose](math/matrix_transpose.cpp)
 
 ## Dynamic Programming
 

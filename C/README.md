@@ -60,6 +60,7 @@
 - [Circular Queue](ds/circularqueue.c)
 - [Post Order Traversal](ds/Postorder.c)
 - [Detect Middle Element of the LinkedList](ds/middle_element_of_linkedlist.c)
+- [Detect Loop/Cycle in a LinkedList](ds/detectLoopLL.c)
 - [Postorder Traversal](ds/Postorder.c)
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)

@@ -10,7 +10,7 @@ Approach :
   3. Next, we can take middle element as 2nd element of the array (Az)
   4. That means, Ax = 1st element of the sorted array, Ay = last element, Az = 2nd element
   5. Therefore, adding |Ax − Ay|+|Ay − Az|+|Az − Ax| will give maximum result everytime
-*/
+ */
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -20,7 +20,9 @@ class MaximumFunction {
 
 		Scanner sc = new Scanner(System.in);
 
+		//Input the number of elements you want in the array
 		long n = sc.nextLong();
+		//Creating array of n Elements
 		long[] array = new long[(int)n];
 		//putting elements in the array
 		for(long t = 0 ; t<n ; t++) {
@@ -36,18 +38,14 @@ class MaximumFunction {
 }
 /*
  - Test Cases :
-   1.  Input : 5
-               3 4 6 7 1
-      Output : Result = 12
-
-   2.  Input : 10
+   1.  Input : 10
                7 5 3 9 1 2 7 3 8 9
       Output : Result = 16
 
  - Complexity Analysis :
-   * Time Complexity : O(n)
+ * Time Complexity : O(n)
        We are using only one for loop, so it iterates maximum 'n' times while traversing for loop
 
-   * Space Complexity : O(n)
+ * Space Complexity : O(n)
        Auxiliary space : O(1)  +  input space : O(n)
  */

@@ -18,7 +18,7 @@
 
         Scanner scan = new Scanner(System.in);
 	    
-	long num,first=0,second=0,third=1,sum=0,count=0;
+	 long num,first=0,second=0,third=1,sum=0,count=0;
 	    
         System.out.println("Enter the number upto which the series is to be printed");
         num=scan.nextLong();

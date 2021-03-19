@@ -19,7 +19,7 @@ int find_celebrity(int person[][9000], int n)
 {
     int low = 0;
     int high = n - 1;
-    
+
     /* While loop to check if there is a column with value as 1 only except the diagonal value. 
        We start checking from the last column indexin the first row. */
     while (1)

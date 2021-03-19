@@ -85,3 +85,19 @@ int main() {
     
     return 0;
 }
+
+/*
+
+Sample I/O:
+Enter the size of linked list:
+5
+Enter the elements of the linked list:
+1
+2
+3
+4
+5
+No loop detected in the linked list!
+A loop has been detected in the linked list!
+
+*/

@@ -94,7 +94,7 @@ int in_succ(struct tree *b,int node)
             x=x->lptr;
         }
         else
-        x=x->rptr;
+            x=x->rptr;
     }
     if(x==NULL)
     {
@@ -105,7 +105,7 @@ int in_succ(struct tree *b,int node)
     {
         x=x->rptr;
         while(x->lptr!=NULL)
-        x=x->lptr;
+            x=x->lptr;
         printf("Successor of %d is %d\n",node,x->data);
         return 0;
     }
@@ -181,8 +181,8 @@ int main()
 Time Complexity:
 Insertion - O(n)
 Inorder display - O(n)
-Inorder predecessor function - O(h)
-Inorder successor function - O(h)
+Inorder predecessor function - O(n)
+Inorder successor function - O(n)
 
 Space Complexity: O(n)
 

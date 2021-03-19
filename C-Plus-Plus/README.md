@@ -167,6 +167,7 @@
 - [Fibonacci Search](search/fibonacci_search.cpp)
 - [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
+- [KMP Algoritm](search/KMP_string_matching_algo.cpp)
 
 ## Sorting
 

@@ -70,6 +70,7 @@
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
 - [Iterative preorder traversal](ds/Iterative_preorder.c)
+- [Iterative Postorder Traversal](ds/iterative_postorder.c)
 - [Iterative inorder traversal](ds/Iterative_inorder.c)
 - [Implementation of maxHeap](ds/maxheap.c)
 - [Implementation of minHeap](ds/minHeap.c)

@@ -52,7 +52,7 @@ function test() {
   target = 310;
   jumpSearch(target); // Found 310
 
-  taarget = 125;
+  target = 125;
   jumpSearch(target); // Not Found
 }
 

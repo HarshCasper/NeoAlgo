@@ -321,6 +321,7 @@ _add list here_
 - [Dynamic Huffman](other/DynamicHuffman.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
+- [Find duplicate elements from an array](other/find_duplicate_elements_from_an_array.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Generate all Subsets](other/subsets.cpp)

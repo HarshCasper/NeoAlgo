@@ -4,7 +4,7 @@ which means that if we change the values inside the function that will affect th
 
 //Code for Call by reference
 
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 void swap(int &a, int &b)
@@ -15,12 +15,9 @@ void swap(int &a, int &b)
 
 int main(){
     int x , y;
-    cout<<"Enter the value of x and y\n";
     cin>>x>>y;
-    cout<<"The value of x is "<<x<<" and the value of y is "<<y<<endl;
     swap(x, y); 
-    cout<<"After Swap\n";
-    cout<<"The value of x is "<<x<<" and the value of y is "<<y<<endl; 
+    cout<<x<<" "<<y<<endl; 
     return 0;
 }
 

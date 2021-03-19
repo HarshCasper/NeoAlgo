@@ -282,6 +282,7 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
+- [DP Solution of Pascal's Triangle](dp/pascal's_triangle.cpp)
 
 ## Bit - Manipulation
 

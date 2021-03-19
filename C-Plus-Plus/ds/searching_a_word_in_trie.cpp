@@ -85,8 +85,10 @@ int main()
 	T.Addword("adf");
 	T.Addword("not");
 	T.Addword("nott");
-
-	char word[1000];
+	
+	int n;
+	cin>>n;
+	char word[n];
 	cin >> word;
 
 

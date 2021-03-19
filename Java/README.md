@@ -113,6 +113,7 @@ _add list here_
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
+- [Check if a binary tree is symmetric or not](ds/SymmetricBT.java)
 
 
 ## Graphs

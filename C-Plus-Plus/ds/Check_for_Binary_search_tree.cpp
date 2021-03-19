@@ -1,5 +1,8 @@
 /*
 Validating BST: This program check if the given tree is BST or not.
+BST: A tree with following conditions:
+1. At max 2 childern.
+2. Value stored in left child < Value of Parent node < Value of right child. (Must be valid for every node)
 
 Author: @Mohim-Singla
 */
@@ -103,6 +106,8 @@ int main()
 }
 
 /*
+
+---------------------------
 Test case:
 Input:
 A BST
@@ -111,7 +116,9 @@ A non-BST
 Output:
 True
 False
+---------------------------
 
 Time complexity: O(nlogn)
 Space complexity: O(n)
+
 */

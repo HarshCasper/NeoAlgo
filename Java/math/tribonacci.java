@@ -1,13 +1,15 @@
  package mypack;
 /*    Tribonacci Series:
- 
-  Tribonacci series is a generalisatoin of Fibonacci series where the current element(greater than 0) is the sum of preceding three elements,
-  Let T be the Tribonacci series upto n terms then, T(n)=T(n-1)+T(n-2)+T(n-3).  */
 
-/*    Approach:
-
+   Tribonacci series is a generalisatoin of Fibonacci series where the current element(greater than 0)
+   is the sum of preceding three elements,
+   i.e. T(n)=T(n-1)+T(n-2)+T(n-3). 
+  
+      Approach:
+      
    The sum of three preceding variables will be stored in "sum" variable.
-   Variable "first" will be overrided by "second" which in turn will be overrided by "third" which will be overrided by "sum".
+   Variable "first" will be overrided by "second" which in turn will be overrided by "third" which
+   will be overrided by "sum".
    This process will continue till n terms.  */ 
 
  import java.util.Scanner;

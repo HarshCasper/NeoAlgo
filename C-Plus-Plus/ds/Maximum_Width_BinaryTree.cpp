@@ -4,7 +4,6 @@
 #include <string.h>
 using namespace std;
 
-
 struct Node
 {
     int data;
@@ -33,7 +32,6 @@ Node* buildTree(string str)
     // Creating vector of strings from input 
     // string after spliting by space
     vector<string> v;
-    
     istringstream iss(str);
     for(string str; iss >> str; )
         v.push_back(str);
@@ -48,7 +46,7 @@ Node* buildTree(string str)
     // Starting from the second element
     int i = 1;
     while(!queue.empty() && i < v.size()) {
-            
+        
         // Get and remove the front of the queue
         Node* currNode = queue.front();
         queue.pop();
@@ -58,7 +56,7 @@ Node* buildTree(string str)
             
         // If the left child is not null
         if(currVal != "N") {
-                
+         
             // Create the left child for the current node
             currNode->left = newNode(stoi(currVal));
                 
@@ -86,7 +84,6 @@ Node* buildTree(string str)
     
     return root;
 }
-
 
 /* Function to get the maximum width of a binary tree*/
 // follows level order traversal
@@ -146,7 +143,6 @@ int main()
    
     return 0;
 }
-
 
 /* Test Cases
   

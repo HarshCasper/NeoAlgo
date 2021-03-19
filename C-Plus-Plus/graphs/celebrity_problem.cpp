@@ -15,15 +15,13 @@ using namespace std;
 
 /* If a celeb is present in the party, then his/her id'th column would be filled with 1 as values 
    except for the diagonal element and td'th row would be filled with 0s. */
-int find_celebrity(int person[][9000], int n)
-{
+int find_celebrity(int person[][9000], int n) {
     int low = 0;
     int high = n - 1;
 
     /* While loop to check if there is a column with value as 1 only except the diagonal value. 
        We start checking from the last column indexin the first row. */
-    while (1)
-    {
+    while (1) {
         if (low == high)
             break;
 
@@ -33,40 +31,34 @@ int find_celebrity(int person[][9000], int n)
         else
             high--;
     }
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         if (low == i)
             continue;
         /* Check if low'th index is a celeb or not by checking
            if he/she knows anyone or anyone knows the celeb */
-        if (person[low][i] == 1 or person[i][low] == 0)
+        if (person[low][i] == 1 || person[i][low] == 0)
             return -1;
     }
     return low;
 }
 
-int main()
-{
+int main() {
     int n;
     cout << "How many people are present in the party? ";
     cin >> n;
     int person[n][9000];
     cout << "Enter thier co-relation graph: ";
-    //Input the co-relation matrix
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
+    // Input the co-relation matrix
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
             cin >> person[i][j];
         }
     }
     int celeb = find_celebrity(person, n);
-    if (celeb >= 0)
-    {
-        cout << "Celebrity is present at the " << celeb << "th index of the given co-relation graph";
-    }
-    else
-    {
+    if (celeb >= 0) {
+        cout << "Celebrity is present at the " << celeb;
+        cout << "th index of the given co-relation graph";
+    } else {
         cout << "Celebrity is not present in the party.";
     }
 }

@@ -44,6 +44,7 @@
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
 - [Vernam Cipher](cryptography/Vernam_Cipher.c)
+- [Columnar Cipher](cryptography/Columnar_Cipher.c)
 
 ## Data Structures
 
@@ -144,12 +145,14 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Noble Integer](math/Noble_Integer.c)
 - [Neon Number](math/Neon_number.c) 
 
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
+
 
 ## Other
 

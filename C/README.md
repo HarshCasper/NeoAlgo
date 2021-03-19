@@ -69,6 +69,7 @@
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
+- [Iterative inorder traversal](ds/Iterative_inorder.c)
 - [Implementation of maxHeap](ds/maxheap.c)
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)

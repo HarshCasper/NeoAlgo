@@ -100,4 +100,7 @@ Enter the elements of the linked list:
 No loop detected in the linked list!
 A loop has been detected in the linked list!
 
+Time Complexity: O(n)
+Space complexity: O(1)
+
 */

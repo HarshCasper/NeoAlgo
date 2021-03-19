@@ -40,6 +40,7 @@
 - [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
 - [Manacher Algorithm](./search/ManacherAlgorithm.js)
 - [Ternary Search](./search/ternary_search.js)
+- [Jump Search](./search/JumpSearch.js)
 
 ## Sorting
 

@@ -1,7 +1,7 @@
  package mypack;
 /*    Tribonacci Series:
 
-   Tribonacci series is a generalisatoin of Fibonacci series where the current element(greater than 0)
+   Tribonacci series is a generalisation of Fibonacci series where current element(greater than 0)
    is the sum of preceding three elements,
    i.e. T(n)=T(n-1)+T(n-2)+T(n-3). 
   

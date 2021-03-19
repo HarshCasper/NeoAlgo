@@ -2,16 +2,15 @@
 the subset of the edges of that graph which. form a tree that includes every vertex. 
 has the minimum sum of weights among all the trees that can be formed from the graph.
 (issue-3304)*/
-#include <iostream>
-#include <cstring>
+#include<bits/stdc++.h> 
 /*This includes functions like strlen and strcpy,It's the C++ version of header from C*/
 using namespace std;
-int operation(int array[] , int row, int coloumn, int graph[9][9]); 
-#define number 9
+int operation(int array[] , int row, int coloumn, int graph[4][4]); 
+#define number 4
 /* separate function is declared to form process and output
 which takes 2 for loops with min val of vertex displays output 
 in 2 columns where Weight of ele and Edge of graph*/
-int operation(int array[], int row, int coloumn, int graph[9][9]) {
+int operation(int array[], int row, int coloumn, int graph[4][4]) {
         int least_val = 100;
         for (int index_x = 0 ; index_x < number; index_x ++) {
       if (array[index_x]) {
@@ -33,18 +32,15 @@ pointed by ptr to the specified value faster than loop*/
   memset(array, false, sizeof(array));
   all_edges = 0;
   array[0] = true;
+ cout<<"enter the elements into graph array "<< endl ;
+ /* taking the inputs for graph in form of loop
+ which is of having number(of rows and coloumns) */
   int row , coloumn; 
-int graph[number][number] = {
-  {5, 7, 85, 2, 1, 58, 45,1,7},
-  {54 , 0, 75, 9, 2, 46 ,17,4,5},
-  {63, 16, 0, 41, 66 , 48,36,48,84},
-  {7, 9, 5, 0,65, 1,3,87,59 },
-  {6, 72, 76, 75,48,95,49,46,47},
-  {19, 25,65,39,17,24,28,12,14},
-  {76,89,94,15,14,28,27,78,74},
-  {1,75,48,75,48,63,15,4,8},
-  {3,37,36,18,25,2,9,29,43}
-};
+int graph[number][number];
+        for (int i =0; i< number ; i++){
+    for(int j=0 ; j< number ; j++){
+        cin>>graph[i][j];
+    } }
 cout <<"Weight of ele,"<< " "<<"Edge of graph" <<"\n";
 /* iterate while loop till all edges are lesser than num-1 */
   while ( number - 1 > all_edges) {
@@ -54,26 +50,17 @@ cout <<"Weight of ele,"<< " "<<"Edge of graph" <<"\n";
     }
   return 0;
 }
-/* input: {
-  {5, 7, 85, 2, 1, 58, 45,1,7},
-  {54 , 0, 75, 9, 2, 46 ,17,4,5},
-  {63, 16, 0, 41, 66 , 48,36,48,84},
-  {7, 9, 5, 0,65, 1,3,87,59 },
-  {6, 72, 76, 75,48,95,49,46,47},
-  {19, 25,65,39,17,24,28,12,14},
-  {76,89,94,15,14,28,27,78,74},
-  {1,75,48,75,48,63,15,4,8},
-  {3,37,36,18,25,2,9,29,43}
-};
-output :Weight of ele, Edge of graph                                                                                                                                                         
-1  0 - 4                                                                                                                                                                             
-1  0 - 7                                                                                                                                                                             
-2  0 - 3                                                                                                                                                                             
-1  3 - 5                                                                                                                                                                             
-3  3 - 6                                                                                                                                                                             
-5  3 - 2                                                                                                                                                                             
-7  0 - 1                                                                                                                                                                             
-5  1 - 8 
+/* input:
+enter the elements into graph array                                                                                                                                                  
+1 4 78 15                                                                                                                                                                            
+1 75 48 6                                                                                                                                                                            
+45 7 8 36                                                                                                                                                                            
+2 4 67 59   
+output:
+Weight of ele, Edge of graph                                                                                                                                                         
+4  0 - 1                                                                                                                                                                             
+6  1 - 3                                                                                                                                                                             
+48  1 - 2 
 time_complexity_O(ElogV) where v no of vertices and e no of edges
 
 */

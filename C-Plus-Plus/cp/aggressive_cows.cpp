@@ -14,8 +14,6 @@ bool canplacecows(int stalls[], int n, int c, int min_sep)
 	int cnt = 1;
 	for (int i = 1; i < n; i++)
 	{
-		/* Checking if the placing of cows is greater
-		ie the next cows placed aren't next to each other */
 		if (stalls[i] - last_cow >= min_sep)
 		{
 			last_cow = stalls[i];
@@ -33,37 +31,34 @@ bool canplacecows(int stalls[], int n, int c, int min_sep)
 int main()
 {
 	int stalls[100], n, cows;
-	//User input : 3
+	cout<<"Enter the the total no of stalls and cows: ";
 	cin >> n >> cows;
 
-	//User input : 1 2 4 8 9
 	for (int i = 0; i < n; ++i)
 	{
 		cin >> stalls[i];
 	}
 
-	int s = 0;
-	int e = stalls[n - 1] - stalls[0];
+	int start = 0;
+	int end = stalls[n - 1] - stalls[0];
 	int ans = 0;
-	while (s <= e)
+	while (start <= end)
 	{
-		int mid = (s + e) / 2;
+		int mid = (start + end) / 2;
 		bool canplacecow = canplacecows(stalls, n, cows, mid);
 		
-		//Checking if it is possible to place the cows far from each other
 		if (canplacecow)
 		{
 			ans = mid;
-			s = mid + 1;
+			start = mid + 1;
 		}
 		else
 		{
-			e = mid - 1;
+			end = mid - 1;
 		}
 	}
 
-	//Output message : 3
-	cout << ans << "\n";
+	cout << "the largest minimum distance: " << ans << "\n";
 	return 0;
 }
 /* Example :
@@ -74,4 +69,5 @@ Output : 3
 
 Time Complexity : O(nlog n)
 Space Complexity : O(n)
+
 */

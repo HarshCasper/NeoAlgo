@@ -88,3 +88,10 @@ if array at that index is greater than the array then Second Player will be the 
 if not the we will take the sum of difference of index and array at that index.
 sum will be odd then first will win otherwise second will win
 */
+
+/*Time complexity: 0.06 sec using above algo, "MAX time complexity can be 1 sec "
+Memory used: 6.5 MB uisng above algo, MAx space complexity for his problem is: 50000 Bytes"
+*/
+
+/* PROBLEM LINK: https://www.codechef.com/MARCH21C/problems/SPACEARR
+*/

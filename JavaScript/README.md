@@ -28,6 +28,7 @@
 - [Dynamic Linked List](./ds/DynamicLinkedList.js)
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
+- [Queue using Linked List](./ds/QueueLinkedList.js)
 - [Stack](./ds/Stack.js)
 - [Stack using Linked List](./ds/StackLinkedList.js)
 - [Hash Table](./ds/Hash.js)

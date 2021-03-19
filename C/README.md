@@ -44,6 +44,8 @@
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
 - [Vernam Cipher](cryptography/Vernam_Cipher.c)
+- [Columnar Cipher](cryptography/Columnar_Cipher.c)
+- [Keyword Cipher](cryptography/Keyword_Cipher.c)
 
 ## Data Structures
 
@@ -67,6 +69,9 @@
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
+- [Iterative preorder traversal](ds/Iterative_preorder.c)
+- [Iterative Postorder Traversal](ds/iterative_postorder.c)
+- [Iterative inorder traversal](ds/Iterative_inorder.c)
 - [Implementation of maxHeap](ds/maxheap.c)
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
@@ -77,6 +82,8 @@
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)
+- [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
+- [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
 
 ## Searching
@@ -143,12 +150,16 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Neon Number](math/Neon_number.c)
+- [Strong Number](math/strong_number.c) 
+- [Noble Integer](math/Noble_Integer.c)
 - [Neon Number](math/Neon_number.c) 
 
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
+
 
 ## Other
 

@@ -238,6 +238,7 @@ _add list here_
 - [Armstrong Number](math/armstrong_number.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Catalan number](math/catalan_num.cpp)
+- [Counting divisors using sieve of Eratosthenes](maths/counting_divisors_using_sieve_of_eratosthenes.cpp)
 - [Difference_of_Two_Strings](math/Difference_of_Two_Strings.cpp)
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)

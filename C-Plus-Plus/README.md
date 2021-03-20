@@ -137,6 +137,7 @@
 - [Depth First Search Algorithm](graphs/DFS.cpp)
 - [Depth Of Tree](graphs/Depth_of_tree.cpp)
 - [Detect Negative Cycle in Graph](graphs/DetectNegativeCycle.cpp)
+- [Diagonal Traversal](graphs/Diagonal_traversal.cpp)
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
 - [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)

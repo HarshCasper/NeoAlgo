@@ -116,14 +116,18 @@
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
+- [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+
 
 ## Graphs
 
+- [Adjacency List Representation](graphs/Adjacency_List.cpp)
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
 - [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
+- [Celebrity Problem](graphs/celebrity_problem.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
@@ -137,6 +141,7 @@
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kosaraju Algorithm](graphs/Kosaraju_Algorithm.cpp)
 - [Kruskal's Algorithm](graphs/kruskal_Algorithm.cpp)
+- [Min and Max element in BST](graphs/min_and_max_in_BST.cpp)
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
@@ -291,6 +296,7 @@ _add list here_
 - [Brian_Kernighan's Algorithm](Bit--Manipulation/Brian_Kernighan's_Algorithm.cpp)
 - [Power of 2](Bit--Manipulation/Power_of_2.cpp)
 - [One odd occuring](Bit--Manipulation/One_odd_occuring.cpp)
+- [Rotate Bits](Bit--Manipulation/rotate_bits.cpp)
 - [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
 - [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)

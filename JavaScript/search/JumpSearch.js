@@ -7,8 +7,8 @@ Time Complexity : O(√n)
 
 */
 
-// Declaring the sorted array to perform searching
-let array = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 111, 245, 250, 310];
+// Prompt node package for taking user input
+const prompt = require("prompt-sync")({ sigint: true });
 
 function jumpSearch(number) {
   // Number of steps to jump
@@ -40,21 +40,54 @@ function jumpSearch(number) {
   return console.log("Not found");
 }
 
-/*
- *   @Test
-*/
+/* Workflow of user input */
 
-function test() {
-  // Tests
-  let target = 13;
-  jumpSearch(target); // Found 13
+// Take array length as input
+let arrayLength = +prompt("Enter array length - ");
+// Check whether the entered value is number or not
 
-  target = 310;
-  jumpSearch(target); // Found 310
+if (isNaN(arrayLength)) return console.log("Only numbers are allowed");
 
-  target = 125;
-  jumpSearch(target); // Not Found
+let array = [];
+
+// Take array items
+for (let i = 1; i <= arrayLength; i++) {
+  array.push(+prompt(`Enter ${i} element - `));
+  
+  // Check whether the entered value is number or not 
+  if (array.includes(NaN)) return console.log("Only numbers are allowed");
 }
 
-test();
+console.log("Your array - ", array);
 
+// Sort the given array ( Jump Search works for sorted array only )
+array.sort((a, b) => {
+  return a - b;
+});
+
+// Ask the key/number to search in provided array
+let key = +prompt("Enter number to search - ");
+if (isNaN(key)) return console.log("It should be a number");
+
+// Call the algorithm
+jumpSearch(key);
+
+/*
+
+Sample i/o
+
+> node JumpSearch
+
+Enter array length - 5
+Enter 1 element - 23
+Enter 2 element - 45
+Enter 3 element - 87
+Enter 4 element - 12
+Enter 5 element - 54
+Your array -  [ 23, 45, 87, 12, 54 ]
+Enter number to search - 54
+Found 54
+
+Enter number to search - 14
+Not Found
+*/

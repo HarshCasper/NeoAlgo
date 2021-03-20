@@ -13,7 +13,7 @@ closest to target value.
 import java.util.*; 
 import java.util.Arrays; 
 
-class Three_sum_closest_to_target
+class 3sum_closest_to_target
 {
     //function to find the closest sum
     public int 3sumClosest(int arr[], int target)

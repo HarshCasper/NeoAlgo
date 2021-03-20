@@ -5,7 +5,7 @@ goal is to compute total water trapped after raining*/
 #include<bits/stdc++.h>
 using namespace std;
 
-class Solution {
+class Trapwater {
 public:
     int trap(vector<int>& height){
     	int n = height.size();
@@ -41,15 +41,18 @@ public:
 };
 
 int main(){
-	int n, val;
+	int n,h;
 	vector<int> height;
+	// Taking input of number of buildings
 	cin >> n;
 	while(n--){
+		// input the height of each building
 		cin >> val;
-		height.push_back(val);
+		height.push_back(h);
 	}
-	Solution sol;
-	int result = sol.trap(height);
+	Trapwater t;
+	int result = t.trap(height);
+	// display the amount of water trapped
 	cout << result;
 }
 
@@ -62,11 +65,11 @@ arr[n] = {2,3,1,0,5}
 
 Sample Output -
 
-Maximum water that can be accumulated is 5
+5
 
 Explanation -
 
-Two units of water can be stored at indexe 2 and 
+Two units of water can be stored at index 2 and 
 3 units at index 3
 
 Time Complexity : O(n)

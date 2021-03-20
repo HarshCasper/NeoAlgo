@@ -218,7 +218,7 @@ _add list here_
 - [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
-
+- [Three Sum Problem](other/three_Sum_problem.java)
 - [Three sum closest to target](other/Three_sum_closest_to_target.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)

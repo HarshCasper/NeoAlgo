@@ -1,3 +1,4 @@
+// TIME COMPLEXITY OF TUG OF WAR IS O(N^2) and SPACE COMPLEXITY IS O(1)
 #include<iostream>
 #include <bits/stdc++.h>
 using namespace std;

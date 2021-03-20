@@ -1,32 +1,7 @@
-
-/*
- * Finding Median of Two sorted arrays: 
- * 
- * Time Complexity: O(NlogN)
- * Space Complexity: O(1)
- * 
- * example:
- * Input1:
- * first sorted list: [1,2,3]
- * second sorted list: [4]
- * 
- * output 1: median : (2+3)/2 = 2.5
- *  
- *  
- *  Input2: 
- * first sorted list: [1,4,9,10]
- * second sorted list: [2,3,7]
- * 
- * output2: 4.0
- * 
- * 
- * */
-
-
-
 import java.util.ArrayList;
 import java.util.List;
-public class MedianOfSortedArrays{
+import java.util.Scanner;
+public class MedianOfArray {
 	public static double findMedianSortedArrays(final List<Integer> a, final List<Integer> b) {
 		int i, n = a.size(), m = b.size();
 		int low = 0, high = 0;
@@ -120,13 +95,46 @@ public class MedianOfSortedArrays{
 			return index2 - index + 1;
 	}
 	public static void main(String[] args) {
-		List<Integer> a=new ArrayList<Integer>();
-		List<Integer> b=new ArrayList<Integer>();
-		a.add(1);
-		a.add(2);
-		a.add(3);
-		b.add(4);
-		findMedianSortedArrays(a,b);
+		Scanner sc=new Scanner(System.in);
+		//Size of First List
+		int n=sc.nextInt();
+		
+		//Size of Second List
+		int m=sc.nextInt();
+		int i;
+		List<Integer> firstList=new ArrayList<Integer>();
+		for(i=0;i<n;i++) {
+		  int val=sc.nextInt();	
+		  firstList.add(val);
+		}
+		
+		List<Integer> secondList=new ArrayList<Integer>();
+		for(i=0;i<n;i++) {
+		  int val=sc.nextInt();	
+		  secondList.add(val);
+		 }
+		findMedianSortedArrays(firstList,secondList);
 	}
-
 }
+/*
+ * Finding Median of Two sorted arrays: 
+ * 
+ * Time Complexity: O(NlogN)
+ * Space Complexity: O(1)
+ * 
+ * Sample Input:
+ * 
+ * Input1:
+ * first sorted list: [1,2,3]
+ * second sorted list: [4]
+ * 
+ * output 1: median : (2+3)/2 = 2.5
+ *  
+ * Input2: 
+ * first sorted list: [1,4,9,10]
+ * second sorted list: [2,3,7]
+ * 
+ * output2: 4.0
+ * 
+ * 
+ * */

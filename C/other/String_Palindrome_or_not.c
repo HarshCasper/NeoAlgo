@@ -3,7 +3,6 @@ To find whether the given string is a palindrome or not.
 A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam or racecar.
 */
 
-
 #include<stdio.h>
 #include<conio.h>
 struct Node
@@ -15,6 +14,7 @@ struct Node
 struct Node *head,*ptr;
 void insert(char data)
 {
+    //allocate dynamic memory
     struct Node *newnode=(struct Node*)malloc(sizeof(struct Node));
     if(newnode==NULL)
     {
@@ -29,7 +29,7 @@ void insert(char data)
     else
     {
         ptr=head;
-        while(ptr->next!=NULL)
+        while(ptr->next!=NULL)  
            ptr=ptr->next;
         ptr->next=newnode;
         newnode->prev=ptr;
@@ -72,26 +72,11 @@ void main()
         printf("Not palindrome");
 }
 
-
 /*
 Test case 1:
-
 Input : malayalam
-
 Output : Palindrome
-_____________________
 
-Test case 2:
-
-Input : 123454321
-
-Output : Palindrome
-_____________________
-
-Test case 3:
-
-Input : 12345
-
-Output : Not palindrome
+Time complexity : O(n)
+Space complexity : O(n)
 */
-

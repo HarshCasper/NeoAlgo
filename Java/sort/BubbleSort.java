@@ -14,6 +14,7 @@ public class BubbleSort {
                  }
                           
              }
+                 if(sorted) break;
          }  
   
     }  

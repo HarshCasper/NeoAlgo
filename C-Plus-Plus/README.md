@@ -302,6 +302,7 @@ _add list here_
 - [Rotate Bits](Bit--Manipulation/rotate_bits.cpp)
 - [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
 - [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
+- [Reverse Bits](Bit--Manipulation/reverse_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
 
 

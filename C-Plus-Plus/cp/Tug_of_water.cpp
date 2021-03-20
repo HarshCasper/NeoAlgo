@@ -1,4 +1,4 @@
-// TIME COMPLEXITY OF TUG OF WAR IS O(N^2) and SPACE COMPLEXITY IS O(1)
+
 #include<iostream>
 #include <bits/stdc++.h>
 using namespace std;
@@ -112,3 +112,4 @@ int main()
 	Output: set1: {{ 4, -7, -10, 87, 54 } set2: {1, 8, 6, 16, 100 }
    
     */
+    // TIME COMPLEXITY OF TUG OF WAR IS O(N^2) and SPACE COMPLEXITY IS O(1)

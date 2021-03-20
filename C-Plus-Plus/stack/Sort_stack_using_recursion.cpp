@@ -1,15 +1,25 @@
 /*
 Problem Statement:
  Given a stack, sort the given stack using recursion such that the greatest element is on the top. 
+*/
 
-Input: 
-The first line of input contains a single integer n-number of the element in the stack. The second line contains n space-separated integers: ith integer represent ith stack element.
+/*
+Input:
+
+The first line of input contains a single integer n--number of the element in the stack. 
+The second line contains n space-separated integers: ith integer represent ith stack element.
 
 Output:
-Print sorted stack.
 
-Expected Time Complexity: O(N*N)
-Expected Auixilliary Space: O(N) recursive.
+Print sorted stack.
+*/
+
+/*
+For example-
+
+Input: n=4
+       3 2 4 1
+Output: 4 3 2 1      
 
 */
 
@@ -21,7 +31,7 @@ using namespace std;
 
 void printStack(stack<int> st)
 {
-    while(!st.empty())
+    while(!st.empty()) 
     {
         int x=st.top();
          st.pop();
@@ -29,7 +39,7 @@ void printStack(stack<int> st)
          cout<<x<<" ";
     }
     
-    cout<<"\n";
+      return;
 }
 
 void insert(stack<int> &st, int temp)
@@ -93,14 +103,22 @@ int main()
     // function to print stack element
      printStack(st);
      
+    cout<<endl;
+
     return 0;
 }
+
+/*
+  Time Complexity: O(N*N)
+  Space complexity: O(N)
+
+*/
 
 /*
    Test Case:
 
   Input:  10 
-         9 2 5 6 0 1 7 3 4 8
+          9 2 5 6 0 1 7 3 4 8
   OutPut: 9 8 7 6 5 4 3 2 1 0
 
   Input: 5

@@ -43,12 +43,16 @@
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
+- [Vernam Cipher](cryptography/Vernam_Cipher.c)
+- [Columnar Cipher](cryptography/Columnar_Cipher.c)
+- [Keyword Cipher](cryptography/Keyword_Cipher.c)
 
 ## Data Structures
 
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
+- [Infix To prefix](ds/infixToPrefix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
 - [Preorder Traversal](ds/Preordertraversal.c)
 - [Queue All Functionality](ds/queue_all_functionality.c)
@@ -66,8 +70,23 @@
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
+- [Iterative preorder traversal](ds/Iterative_preorder.c)
+- [Iterative Postorder Traversal](ds/iterative_postorder.c)
+- [Iterative inorder traversal](ds/Iterative_inorder.c)
+- [Implementation of maxHeap](ds/maxheap.c)
+- [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Stack Using Queue](ds/StackUsingQueue.c)
+- [Finding a pair of element](ds/Finding_a_pair_of_element.c)
+- [Reverse Linked List](ds/reverse_linked_list.c)
+- [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
+- [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Hash Table using Linear Probing](ds/Hash_Table.c)
+- [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
+- [Double Ended Queue](ds/Double_Ended_Queue.c)
+- [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Priority Queue using Linked List] (ds/Priority_Queue_using_Linked_List.c)
 
 ## Searching
 
@@ -78,10 +97,12 @@
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
+- [Jump Search](search/JumpSearch.c)
 
 ## Sorting
 
 - [Bead Sort](sort/beadSort.c)
+- [Heap Sort](sort/HeapSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)
@@ -95,7 +116,9 @@
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
+- [Three Way Merge Sort](sort/three_way_merge_sort.c)
 - [Shaker Sort](sort/shaker_sort.c)
+- [Sort using Binary Search Tree](sort/BST_Sort.c)
 
 ## Dynamic Programming
 
@@ -112,6 +135,7 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
+- [Adjacency List](graphs/Adjacency_List.c)
 
 ## Machine Learning
 
@@ -128,10 +152,16 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Neon Number](math/Neon_number.c)
+- [Strong Number](math/strong_number.c) 
+- [Noble Integer](math/Noble_Integer.c)
+- [Neon Number](math/Neon_number.c) 
 
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
+
 
 ## Other
 
@@ -145,6 +175,7 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Concatenate two strings](other/concatenate_two_strings.c)
 
 ## CP
 

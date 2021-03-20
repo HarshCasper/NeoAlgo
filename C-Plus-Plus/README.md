@@ -56,6 +56,7 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
+- [Tug Of War](cp/Tug_of_water.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
 - [Two Pointers Method](cp/two_pointers_method.cpp)

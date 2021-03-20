@@ -14,26 +14,36 @@ Approach : Take n strings as input using loop.
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    //n stores the no. of string
-    int n; 
-    cin>>n; 
-    //f_str contains the final string  
+//within concat_str(...) final string is calculated
+void concat_str(vector<string> str,int size)
+{
     string f_str="";
-    //loop for taking n strings from user and updating the final string 
-    for(int i=0;i<n;i++)
+    for(int i=0;i<size;i++)
+    {   //append(...) adds each string into f_str
+        f_str.append(str[i]);
+    }
+    //final output
+    cout<<f_str;
+}
+
+int main() 
+{
+    vector<string> s;
+    //n stores the no. of string
+	  int n; 
+	  cin>>n; 
+    //loop for taking n strings from user 
+	  for(int i=0;i<n;i++)
     {
         string a;
         cin>>a;
-        //f_str.append() appends the string each time a new string is entered 
-        f_str.append(a);
+        s.push_back(a);
     }
-    cout<<f_str;
-    return 0;
+    concat_str(s,n);
+	  return 0;
 }
 
 /*
-
 Time Complexity : O(n*m), where m is maximum length of string a
 Space Complexity : O(k), where k is final length of f_str
 
@@ -45,3 +55,4 @@ Input : 4
         "String."
 Output : "ThisisConcatenatedString."
 */
+

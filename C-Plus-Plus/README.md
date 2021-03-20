@@ -277,7 +277,7 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
-
+- [Trapping rainwater ](dp/trapping_rainwater.cpp)
 ## Bit - Manipulation
 
 - [Check Kth Bit is Set or Not](Bit--Manipulation/Check_kth_bit_is_set_or_not.cpp)

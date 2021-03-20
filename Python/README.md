@@ -132,7 +132,7 @@
 - [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
-
+- [Trapping Rainwater Problem](dp/trapping_rainwater.py)
 ## Pathfinding Algorithms
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)

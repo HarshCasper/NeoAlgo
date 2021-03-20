@@ -61,13 +61,93 @@ def area_circle(radius):
 
 def main():
     print("Areas of various geometric shapes: \n")
-    print(f"Rectangle: {area_rectangle(10, 20)=}")
-    print(f"Square: {area_square(10)=}")
-    print(f"Triangle: {area_triangle(10, 10)=}")
-    print(f"Parallelogram: {area_parallelogram(10, 20)=}")
-    print(f"Trapezium: {area_trapezium(10, 20, 30)=}")
-    print(f"Circle: {area_circle(20)=}")
+    print("enter the shape of your choice:")
+    again = True
 
-
+    while(again):
+        print("menu:")
+        print("1. Rectangle")
+        print("2. Square")
+        print("3. Triangle")
+        print("4. Parallelogram")
+        print("5. Trapezium")
+        print("6. Circle")
+        choice = int(input())
+        if(choice == 1):
+            print("Enter sides of rectangle:", end=" ")
+            l, b = input().split()
+            l = int(l)
+            b = int(b)
+            print("Rectangle with sides "+str(l)+" and "+str(b)+" is:", end="")
+            print(str(area_rectangle(l, b)))
+            print("you wnat to continue (1/0)", end=" ")
+            again_choice = int(input())
+            if(again_choice):
+                again = True
+            else:
+                again = False
+        elif(choice == 2):
+            print("Enter side of square:", end=" ")
+            l = int(input())
+            print("Square with side "+str(l)+" is: "+str(area_square(l)))
+            print("you wnat to continue (1/0)", end=" ")
+            again_choice = int(input())
+            if(again_choice):
+                again = True
+            else:
+                again = False
+        elif(choice == 3):
+            print("Enter base and height of triangle:", end=" ")
+            b, h = input().split()
+            h = int(h)
+            b = int(b)
+            print("Triangle of height "+str(h)+",base "+str(b)+" is:", end="")
+            print(str(area_triangle(h, b)))
+            print("you wnat to continue (1/0)", end=" ")
+            again_choice = int(input())
+            if(again_choice):
+                again = True
+            else:
+                again = False
+        elif(choice == 4):
+            print("Enter base and height of parallelogram:", end=" ")
+            b, h = input().split()
+            h = int(h)
+            b = int(b)
+            print("Parallelogram of height "+str(h)+",base "+str(b)":", end="")
+            print(str(area_parallelogram(h, b)))
+            print("you wnat to continue (1/0)", end=" ")
+            again_choice = int(input())
+            if(again_choice):
+                again = True
+            else:
+                again = False
+        elif(choice == 5):
+            print("Enter bases and height of trapezium:", end="")
+            b1, b2, h = input().split()
+            b1 = int(b1)
+            b2 = int(b2)
+            h = int(h)
+            print("Trapezium with bases "+str(b1)+" and "+str(b2), end=" ")
+            print("and height "+str(h)+" is: "+str(area_trapezium(b1, b2, h)))
+            print("you wnat to continue (1/0)", end=" ")
+            again_choice = int(input())
+            if(again_choice):
+                again = True
+            else:
+                again = False
+        elif(choice == 6):
+            print("Enter radius of circle:", end=" ")
+            r = int(input())
+            print("Circle with radius "+str(r)+" is: "+str(area_circle(r)))
+            print("you wnat to continue (1/0)", end=" ")
+            again_choice = int(input())
+            if(again_choice):
+                again = True
+            else:
+                again = False
+        else:
+            print("please enter valid choice")
+            again = True
 if __name__ == "__main__":
     main()

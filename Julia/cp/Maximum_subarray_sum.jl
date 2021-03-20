@@ -8,25 +8,25 @@ the least time complexity.=#
 ## Function
 
 function maxSubArray(array)
-    best=0
-    sum=0
+    best = 0
+    sum = 0
     for i in array
-        sum=max(i,sum+i)
-        best=max(sum,best)
+        sum = max(i, sum + i)
+        best = max(sum, best)
     end
     return best
 end
 
 ## Input
 
-n=readline()
-n=parse(Int64,n)
-arr=Int64[]
-for i in 1:n
-    temp=readline()
-    temp=parse(Int64,temp)
-    push!(arr,temp)
-end 
+n = readline()
+n = parse(Int64, n)
+arr = Int64[]
+for i = 1:n
+    temp = readline()
+    temp = parse(Int64, temp)
+    push!(arr, temp)
+end
 
 ## Calling the function
 
@@ -42,4 +42,3 @@ Output:
 
 Time complexity: O(N)
 =#
-

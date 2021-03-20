@@ -69,11 +69,11 @@ Space Complexity: O(m*n)
 
 SAMPLE INPUT AND OUTPUT
 
-Enter the length of the first string? 4
-Enter the first string: hari
+Enter the length of the first string? 8
+Enter the first string: cucumber
 
-Enter the length of the second string? 4
-Enter the second string: pary
-The length of the longest common substring is: 2
+Enter the length of the second string? 6
+Enter the second string: cuckoo
+The length of the longest common substring is: 3
 
 */

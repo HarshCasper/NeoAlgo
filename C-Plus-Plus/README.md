@@ -243,6 +243,7 @@ _add list here_
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
+- [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)

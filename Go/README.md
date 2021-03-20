@@ -46,6 +46,7 @@ _add list here_
 
 - [Stack](dp/stack.go)
 - [Longest Substring without Repeating Characters](./dp/longest_substring.go)
+- [Longest Common Subsequence](./dp/longest_common_subsequence.go)
 - [Coin Change](./dp/coin_change_problem.go)
 
 ## Machine Learning
@@ -59,6 +60,7 @@ _add list here_
 - [Areas of 2D](./math/Areas2D.go)
 - [Areas of 3D](./math/Areas3D.go)
 - [IntegerToRoman](./math/IntegerToRoman.go)
+- [Sieve of Eratosthenes](./math/sieve_of_eratosthenes.go)
 
 ## Other
 

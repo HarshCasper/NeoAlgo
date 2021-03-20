@@ -50,10 +50,10 @@ class MaximumFunction {
        Output : Result = 16
 
  - Complexity Analysis :
- * Time Complexity : O(n)
+    * Time Complexity : O(n)
          We are using only one for loop, so it iterates maximum 'n' times while traversing for loop
 
- * Space Complexity : O(n)
+    * Space Complexity : O(n)
          Auxiliary space : O(1)  +  input space : O(n)
  */
-   
+ 

@@ -30,17 +30,17 @@ int main()
 {
     vector<string> s;
     //n stores the no. of string
-	  int n; 
-	  cin>>n; 
+    int n; 
+    cin>>n; 
     //loop for taking n strings from user 
-	  for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         string a;
         cin>>a;
         s.push_back(a);
     }
     concat_str(s,n);
-	  return 0;
+    return 0;
 }
 
 /*

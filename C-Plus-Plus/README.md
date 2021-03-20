@@ -111,6 +111,7 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+- [Descenidng Priority Queue] (ds/Descending_priority_queue.cpp)
 
 ## Graphs
 

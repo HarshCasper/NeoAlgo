@@ -48,6 +48,7 @@ let arrayLength = +prompt("Enter array length - ");
 
 if (isNaN(arrayLength)) return console.log("Only numbers are allowed");
 
+// Globally declared array 
 let array = [];
 
 // Take array items
@@ -90,4 +91,6 @@ Found 54
 
 Enter number to search - 14
 Not Found
+
 */
+

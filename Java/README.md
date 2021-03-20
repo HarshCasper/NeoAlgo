@@ -29,7 +29,9 @@ _add list here_
 
 ## Competitive programming
 
+- [Maximum Function](cp/Maximum_Function.java)
 - [Jump Game](cp/Jump_Game.java)
+- [Remove Duplicate word from String](cp/Duplicate_word.java)
 - [Reverse words in String](cp/Reverse_words_in_String.java)
 - [Anagram String](cp/Anagram.java)
 - [Dutch National Flag](cp/DutchFlag.java)
@@ -77,6 +79,7 @@ _add list here_
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 - [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
+- [Longest Subarray Having Sum K](cp/LongestSubarraySum.java)
 - [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Paint Fence Algorithm](cp/Paint_Fence.java)
 - [Minimum Window Substring](cp/MinimumWindowSubstring.java)
@@ -167,7 +170,7 @@ _add list here_
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
-- [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
 
 ## Dynamic Programming

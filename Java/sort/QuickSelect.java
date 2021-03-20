@@ -1,16 +1,4 @@
-// time complexity O(n);
-// find kth smallest element;
-/*
-Sample Input
-5 -> no. of elements
-elements -> 
-7 
--2 
-4 
-1 
-3
-3
-*/
+// This algorihtm is used to find kth smallest element in an unsorted array.
 
 import java.util.Scanner;
 class QuickSelect{
@@ -48,10 +36,27 @@ class QuickSelect{
     }
 
     public static void main(String[] args){
-        int[] arr = {8,5,1,3,7,2,9,6};
         Scanner scn = new Scanner(System.in);
+        int n = sc.nextInt();
+		
+		int arr[] = new int[n];
+		for(int i = 0; i < n; i++)
+			arr[i] = sc.nextInt();
+        
         int k = scn.nextInt();
+        
         int sel = quickSelect(arr, k-1, 0, arr.length-1); // passing k-1 because kth smallest would be at k-1 index
         System.out.println(sel);
     }
 }
+
+/*
+* Sample Input
+    no. of elements -> 5
+    elements -> 7, -2, 4, 1, 3
+    k -> 3
+
+* output -> 3
+
+* time Complexity -> O(n)
+*/

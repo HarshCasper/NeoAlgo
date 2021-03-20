@@ -178,10 +178,6 @@ _add list here_
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
 - [String Palindrome](dp/String_Palindrome_or_not.c)
-<<<<<<< HEAD
-=======
-- [Concatenate two strings](other/concatenate_two_strings.c)
->>>>>>> a4fca13ebfdc580da26b2727b376b1d2dab7e1de
 
 ## CP
 

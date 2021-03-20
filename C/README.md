@@ -52,6 +52,7 @@
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
+- [Infix To prefix](ds/infixToPrefix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
 - [Preorder Traversal](ds/Preordertraversal.c)
 - [Queue All Functionality](ds/queue_all_functionality.c)

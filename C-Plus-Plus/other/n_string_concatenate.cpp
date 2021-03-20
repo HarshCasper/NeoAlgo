@@ -14,15 +14,14 @@ Approach : Take n strings as input using loop.
 #include <bits/stdc++.h>
 using namespace std;
 
-//within concat_str(...) final string is calculated
+//within concat_str(...) final string is calculated sing append()
 void concat_str(vector<string> str,int size)
 {
     string f_str="";
     for(int i=0;i<size;i++)
-    {   //append(...) adds each string into f_str
+    {   
         f_str.append(str[i]);
     }
-    //final output
     cout<<f_str;
 }
 
@@ -55,4 +54,3 @@ Input : 4
         "String."
 Output : "ThisisConcatenatedString."
 */
-

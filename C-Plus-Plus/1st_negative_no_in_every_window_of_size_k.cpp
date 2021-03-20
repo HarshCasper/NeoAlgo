@@ -1,14 +1,14 @@
-/*
-Problem Statement:
-An array and a positive integer window_size(k) is given,we need to find 1st negative integer for each and every window(contiguous subarray) of size k
+/*Problem Statement:
+Given an array and a positive integer k, the task is to find 1st negative integer for each and every window(contiguous subarray) of size k.
 
 Input format:-
- size(n)
- array elements
- window_size(k)
+size(n)
+array elements
+window_size(k)
+ 
 Output format:-
- size-window_size+1 elements
-*/
+n-k+1 elements*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -68,8 +68,8 @@ int main()
     printFirstNegativeInteger(size_of_array, window_size, arr);
     return 0;
 }
-/*
- Test cases:
+
+/* Test cases:
   Input 1:-
   8
   12 3 -7 8 -15 39 15 20
@@ -77,6 +77,5 @@ int main()
   Output 1:-
   -7 -7 -7 -15 -15 0
 
-  Time complexity: O(n)
-  Space complexity: O(k)
-*/
+ Time complexity: O(n)
+ Space complexity: O(k)*/

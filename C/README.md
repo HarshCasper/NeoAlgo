@@ -85,6 +85,7 @@
 - [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Priority Queue using Linked List] (ds/Priority_Queue_using_Linked_List.c)
 
 ## Searching
 

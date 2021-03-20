@@ -14,10 +14,8 @@ Ex- Linked_List={1,2,3,4,3,2,1},size=7
         ...
         ...
         Palindrome(If all elements from array are matched)
-
 */
-
-#include <malloc.h>
+#include <bits/stdc++.h>
 #include <stdio.h>
 
 // structure of a node in a linked list

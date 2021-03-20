@@ -150,6 +150,7 @@ _add list here_
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
 - [String Palindrome](dp/String_Palindrome_or_not.c)
+- [Concatenate two strings](other/concatenate_two_strings.c)
 
 ## CP
 

@@ -200,6 +200,7 @@
 - [Three Way Merge Sort](sort/three_way_merge_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
 - [Wiggle Sort](sort/wiggle_sort.cpp)
+- [Quotient-Remainder Sort](sort/Quotient-Remainder_Sort.cpp)
 
 ## Stack based problems
 

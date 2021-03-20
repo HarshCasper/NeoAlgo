@@ -46,6 +46,7 @@
 - [Vernam Cipher](cryptography/Vernam_Cipher.c)
 - [Columnar Cipher](cryptography/Columnar_Cipher.c)
 - [Keyword Cipher](cryptography/Keyword_Cipher.c)
+- [Rail Fence Cipher](cryptography/railFenceCipher.c)
 
 ## Data Structures
 

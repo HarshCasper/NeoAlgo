@@ -7,7 +7,7 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Python language
+# Python Programming Language
 
 ## Data Structures
 

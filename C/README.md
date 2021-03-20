@@ -52,6 +52,7 @@
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
+- [Infix To prefix](ds/infixToPrefix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
 - [Preorder Traversal](ds/Preordertraversal.c)
 - [Queue All Functionality](ds/queue_all_functionality.c)
@@ -65,6 +66,7 @@
 - [Circular Queue](ds/circularqueue.c)
 - [Post Order Traversal](ds/Postorder.c)
 - [Detect Middle Element of the LinkedList](ds/middle_element_of_linkedlist.c)
+- [Detect Loop/Cycle in a LinkedList](ds/detectLoopLL.c)
 - [Postorder Traversal](ds/Postorder.c)
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
@@ -85,6 +87,7 @@
 - [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Priority Queue using Linked List] (ds/Priority_Queue_using_Linked_List.c)
 
 ## Searching
 
@@ -121,6 +124,7 @@
 ## Dynamic Programming
 
 - [EditDistance in Dp](dp/EditDistanceDP.c)
+- [Longest Common Substring](dp/length_longest_common_substring.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)

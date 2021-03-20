@@ -31,6 +31,7 @@ _add list here_
 
 - [Maximum Function](cp/Maximum_Function.java)
 - [Jump Game](cp/Jump_Game.java)
+- [Remove Duplicate word from String](cp/Duplicate_word.java)
 - [Reverse words in String](cp/Reverse_words_in_String.java)
 - [Anagram String](cp/Anagram.java)
 - [Dutch National Flag](cp/DutchFlag.java)

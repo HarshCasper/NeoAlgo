@@ -1,3 +1,6 @@
+//this program checks if a binary tree is symmetric or not through checking
+//if a binary tree has mirror image of itself with O(n) time complexity
+
 import java.util.*;
 
 public class SymmetricBT{
@@ -89,3 +92,10 @@ public class SymmetricBT{
     }
     
 }
+
+//input - 
+//example 1 : [3,9,20,-1,-1,15,7]
+//output - if tree is symmetric :- true  
+//         else :- false
+//Time Complexity :- O(N)
+//Space Complexity :- O(1)

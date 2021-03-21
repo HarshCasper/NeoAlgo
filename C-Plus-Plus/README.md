@@ -90,7 +90,7 @@
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
-- [Inverse of an Array](https://github.com/Op-panda/NeoAlgo/blob/Op-panda-3043/C-Plus-Plus/ds/inverse%20of%20an%20array.cpp)
+
 ## Graphs
 
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)

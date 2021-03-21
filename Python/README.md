@@ -73,6 +73,7 @@
 - [AES Algorithm](cryptography/AES.py)
 - [Keyword Cipher](cryptography/Keyword_Cipher.py)
 - [Vernam Cipher](cryptography/Vernam_Cipher.py)
+- [Columnar Cipher](cryptography/Columnar_Cipher.py)
 
 ## Searching
 

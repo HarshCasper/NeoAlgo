@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -29,13 +29,18 @@ _add list here_
 
 ## Competitive programming
 
-* [Dutch National Flag](cp/DutchFlag.java)
-* [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
-* [Rabin Karp Algorithm](cp/Rabin_Karp.java)
-* [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
-* [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
-* [Target Sum Triplets](cp/target_sum_triplets.java)
-* [ZigZag](cp/Zig_Zag.java)
+- [Maximum Function](cp/Maximum_Function.java)
+- [Jump Game](cp/Jump_Game.java)
+- [Remove Duplicate word from String](cp/Duplicate_word.java)
+- [Reverse words in String](cp/Reverse_words_in_String.java)
+- [Anagram String](cp/Anagram.java)
+- [Dutch National Flag](cp/DutchFlag.java)
+- [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
+- [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+- [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
+- [Remove Duplicate Element Without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)
+- [Target Sum Triplets](cp/target_sum_triplets.java)
+- [ZigZag](cp/Zig_Zag.java)
 - [Aggressive Cows](cp/AggressiveCows.java)
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
@@ -74,6 +79,17 @@ _add list here_
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)
 - [Longest Pallindrome Substring](cp/Longest_Pallindromicsubstring)
 - [N-Queens_Problem_Efficient](cp/N_Queens_Problem_Efficient.java)
+- [Longest Subarray Having Sum K](cp/LongestSubarraySum.java)
+- [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
+- [Paint Fence Algorithm](cp/Paint_Fence.java)
+- [Minimum Window Substring](cp/MinimumWindowSubstring.java)
+- [Length of Longest Substring Without Repeating Characters](cp/LongestSubstringNoRepeatingChar.java)
+- [Longest Substring with K Distinct Characters](cp/LongestSubstringDistinctChar.java)
+- [Maximum Sum Subarray of Size K](cp/MaximumSumSubarray.java)
+- [First Negative Number in Every Window of Size K](cp/FirstNegativeNumber.java)
+- [Count Occurrences of Anagrams](cp/CountAnagrams.java)
+- [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
+- [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 
 ## Cryptography
 
@@ -89,6 +105,7 @@ _add list here_
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [LCS](dp/LCS.java)
+- [FirstFit BestFit WorstFit ](dp/MemoryAllocations.java)
 - [Flood Fill Algorithm](dp/flood_fill.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 
@@ -97,10 +114,12 @@ _add list here_
 - [Binary Tree](ds/Binary_Tree.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
+- [Delete node from LinkedList](ds/DeleteElementLL.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
+- [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
@@ -113,11 +132,11 @@ _add list here_
 - [Implementation of Stack using Queue](ds/StackUsingQueue.java)
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
+- [Trie Insert and Search String](ds/Trie_with_Hashmap.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
-
-
+- [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
 
 ## Graphs
 
@@ -145,16 +164,18 @@ _add list here_
 - [Segmented_Sieve](math/Segmented_Sieve.java)
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
+- [Sum of Digit in a Number](math/SumOfDigit.java)
 - [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
-- [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
 
 ## Dynamic Programming
 
+- [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
@@ -173,6 +194,7 @@ _add list here_
 ## Searching
 
 - [Binary Search](search/Binary_search.java)
+- [Fibonacci Search](search/Fibonacci_search.java)
 - [Interpolation Search](search/Interpolation_search.java)
 - [Ternary Search](search/TernarySearch.java)
 - [Jump Search](search/jumpSearch.java)
@@ -201,6 +223,7 @@ _add list here_
 - [Merge Sort Using Recursion](sort/MergeSortRecursion.java)
 - [Shell Sort](sort/ShellSort.java)
 - [Sleep Sort](sort/SleepSort.java)
+- [Comb Sort](sort/CombSort_implementation.java)
 
 ## Machine Learning
 
@@ -229,9 +252,11 @@ _add list here_
 - [Painter Partition problem](other/PainterPartition.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
+- [Remove the key element from the array](other/remove_element_from_array.java)
 - [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
+- [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
@@ -239,4 +264,5 @@ _add list here_
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
-
+- [Infix to Prefix Expression](other/InfixtoPrefix.java)
+- [Infix to Postfix Expression](other/InfixToPostfix.java)

@@ -1,4 +1,7 @@
-// This is a code of circular queue
+// This is a code of circular queue data structure. It is a linear data structure, which obeys the principal
+// of First in First Out(FIFO). Circular queue data structure is a updated version of linear queue data structure,
+// which have some advantages over linear queue. The following code shows the implementation of circular queue data structure,
+// in a very clean and understandable way.
 
 #include<iostream>
 #include<stdlib.h>
@@ -21,9 +24,7 @@ class CircularQueue{
     int arr[max];
 
     // Initializing a default constructor of the class
-
     CircularQueue(){
-
     front = -1;
     rear = -1;
         for(int i = 0; i < max; i++){
@@ -32,30 +33,19 @@ class CircularQueue{
     }
 
     // Defining the isFull function to check whether the queue is full or not
-
     bool isFull(){
         if ((rear + 1) % max == front)
-
             return true;
-
-
         else
-
             return false;
-
     }
 
     // Defining the isEmpty function to check whether the queue is empty or not
     bool isEmpty(){
         if (front == -1 && rear == -1)
-
             return true;
-
-
         else
-
             return false;
-
     }
 
     // Defining the enqueue function, to insert an item in the queue
@@ -64,12 +54,10 @@ class CircularQueue{
         {
             cout << "Queue is full" << endl;
         }
-
         else if (isEmpty()){
             front=rear=0;
             arr[rear] = item;
         }
-
         else {
             rear = (rear + 1) % 5;
             arr[rear] = item;
@@ -78,7 +66,6 @@ class CircularQueue{
     }
 
     // Defining the dequeue function, to delete item from the queue
-
     int dequeue(){
       int x = 0;       
         if(front == rear){
@@ -86,7 +73,6 @@ class CircularQueue{
           front = rear = -1;
           return x;
         }
-
         else
         {
             x = arr[front];
@@ -97,7 +83,6 @@ class CircularQueue{
     }
 
     // Defing display function to display the whole queue
-
     void display(){
             for (int i = 0; i < 5; i++)
             {
@@ -107,15 +92,12 @@ class CircularQueue{
 };
 
 // Testing the above functions:
-
 int main()
 {
     // Declaring an object to the class
-
     CircularQueue Q1;
-
+    
     // A menu driven program to check all the defined functions in the class
-
     while (1)
     {
         cout << "1. Insert an element in the queue - enqueue" << endl;
@@ -130,7 +112,6 @@ int main()
         cin >> n;
 
         switch(n){
-
             case 1:
                 int item;
                 cout << "Enter the item" << endl;
@@ -183,5 +164,9 @@ int main()
     return 0;
 }
 
-// NOTE:- 1)  The time complexity of all the operations is O(1), that is constant time
-        // 2) The time complexity of display function is O(n), where n is the number of Elements in the queue 
+// The time complexities of different operations in circular queue data structure is:-
+
+//  1) The time complexity of enqueue operation is O(1), that is constant time.
+//  2) The time complexity of dequeue operation is O(1), that is constant time. 
+//  3) The time complexity for checking whether the queue is empty of full is O(1), that is constant time.
+//  4) The time complexity of display function is O(n), where n is the number of Elements in the queue.

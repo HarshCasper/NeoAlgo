@@ -90,6 +90,7 @@
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
+- [Inverse of an Array](C-Plus-Plus/ds/inverse of an array.cpp)
 
 ## Graphs
 

@@ -58,7 +58,7 @@
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
-
+- [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)

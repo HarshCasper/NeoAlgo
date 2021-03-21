@@ -40,6 +40,7 @@ _add list here_
 - [Longest Substring without Repeating characters](cp/LongestSubstring_without_repeating_characters.java)
 - [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.java)
+- [Remove the key element from array](cp/remove_element_from_array.java)
 - [Remove outermost parenthesis](cp/Remove_Outermost_parentheses.java)
 - [Remove Duplicate Element from an array using extra space](cp/RemoveDuplicateElement.java)
 - [Remove Duplicate Element from an array without using Extra Space](cp/RemoveDuplicateElementWithoutExtraSpace.java)

@@ -72,6 +72,7 @@
 - [XOR Cipher](cryptography/XOR_cipher.py)
 - [AES Algorithm](cryptography/AES.py)
 - [Keyword Cipher](cryptography/Keyword_Cipher.py)
+- [Vernam Cipher](cryptography/Vernam_Cipher.py)
 
 ## Searching
 

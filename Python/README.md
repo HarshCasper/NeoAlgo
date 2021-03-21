@@ -71,6 +71,8 @@
 - [Burrows Wheeler transform (BWT)](cryptography/Burrows_Wheeler_transform.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
 - [AES Algorithm](cryptography/AES.py)
+- [Keyword Cipher](cryptography/Keyword_Cipher.py)
+- [Vernam Cipher](cryptography/Vernam_Cipher.py)
 
 ## Searching
 
@@ -238,6 +240,7 @@
 - [Sine Function](math/Sine_Function.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
+- [Noble Integer](math/Noble_Integer.py)
 
 ## Blockchain
 

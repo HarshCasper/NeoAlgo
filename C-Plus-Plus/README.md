@@ -67,7 +67,7 @@
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
-- [Prims Algorithm](ds/prims algo.cpp)
+- [Prims Algorithm](ds/prims_algo.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Queue](ds/queue.cpp)
 - [Queue Linked List](ds/QueueLinkedList.cpp)

@@ -1,7 +1,7 @@
 /*
 Problem: The input is n x n square matrix. The output is minimum number of operations required to convert input
-         matrix into the matrix in which sum of elements of each row & column is equal. One operation means
-         incrementing any value of cell of matrix by 1. Also, the converted matrix is displayed on screen.
+matrix into the matrix in which sum of elements of each row & column is equal. One operation means incrementing any value of 
+cell of matrix by 1. Also, the converted matrix is displayed on screen.
 For Ex: I/P = 2
 1 2
 3 4
@@ -13,9 +13,9 @@ In above example, input matrix is converted so that sum of each row and column o
 operations required to do so are 4.
 
 Solution: In find_min_steps function, first the sum of individual row and column is stored in 2 arrays, one for
-          storing sum of rows & other for sum of columns. The maximum of both the arrays is calculated(i.e
-          maximum of sum of cells in individual rows & columns.) By iterating over the matrix and performing
-          addition wherever required the sum of all individual rows & columns is made equal to maximum sum.
+storing sum of rows & other for sum of columns. The maximum of both the arrays is calculated(i.e maximum of sum of cells 
+in individual rows & columns.) By iterating over the matrix and performing addition wherever required the sum of all 
+individual rows & columns is made equal to maximum sum.
 */
 
 #include<iostream>
@@ -151,9 +151,9 @@ O/P:
 7  8  9
 
 Explanation: Here, matrix size is 3 i.e 3x3 matrix.n next line each element of matrix is entered in row wise manner
-             separated by space. So input matrix is :   1 2 3
-                                                        4 5 6
-                                                        7 8 9
+separated by space. So input matrix is :   1 2 3
+                                           4 5 6
+                                           7 8 9
 Maximum sum in this matrix is of last row i.e 7+8+9 = 24. So sum of each row and column is made equal to 24 by
 performing addition. The minimum number of operations needed to convert input matrix is 27.
 

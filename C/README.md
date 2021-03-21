@@ -89,7 +89,7 @@
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
 - [Priority Queue using Linked List] (ds/Priority_Queue_using_Linked_List.c)
-
+- [AVL Tree full Implementation]  (ds/AVL_tree_implementation.c)
 ## Searching
 
 - [Binary Search](search/BinarySearch.c)

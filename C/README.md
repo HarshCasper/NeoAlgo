@@ -69,7 +69,6 @@
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
 - [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
-- [Sorting a stack](ds/stack_sort.c)
 
 ## Searching
 

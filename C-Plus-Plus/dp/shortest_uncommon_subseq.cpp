@@ -54,8 +54,13 @@ int shortestSeq(char *S, char *T)
 
 int main()
 {
-    char S[] = "babab";
-    char T[] = "babba";
+    char S[100];
+    char T[100];
+    cout<<"Enter first string\n";
+    cin>>S;
+    cout<<"Enter second string\n";
+    cin>>T;
+    
     int m = strlen(S), n = strlen(T);
     cout << "Length of shortest subsequence is : "
          << shortestSeq(S, T) << endl;

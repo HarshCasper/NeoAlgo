@@ -34,7 +34,6 @@
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
-- 
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
@@ -68,6 +67,7 @@
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
+- [Prims Algorithm](ds/prims algo.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Queue](ds/queue.cpp)
 - [Queue Linked List](ds/QueueLinkedList.cpp)

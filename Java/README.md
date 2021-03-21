@@ -266,3 +266,4 @@ _add list here_
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
 - [Infix to Prefix Expression](other/InfixtoPrefix.java)
 - [Infix to Postfix Expression](other/InfixToPostfix.java)
+- [Union of two Unsorted Arrays](other/UnionUnsortedArray.java)

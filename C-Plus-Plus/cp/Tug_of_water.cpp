@@ -91,23 +91,17 @@ int main()
     }
     return 0;
 }
-
- // TIME COMPLEXITY OF TUG OF WAR IS O(N^2) and SPACE COMPLEXITY IS O(1)
-
-/*  
-    T=3
-	N=3
-    1 2 3
-    Output:  set1: {1, 2} set2: {3}
-    
-	N=4
-    1 2 3 4
-    Output: set1: {1, 4} set2: {2, 3}
-    
-	N=10
-    1 4 8 6 -7 -10 87 54 16 100
-    
-	Output: set1: {{ 4, -7, -10, 87, 54 } set2: {1, 8, 6, 16, 100 }
-   
-    */
+/*
+TIME COMPLEXITY OF TUG OF WAR IS O(N^2) and SPACE COMPLEXITY IS O(1)  
+T=3
+N=3
+1 2 3
+Output:  set1: {1, 2} set2: {3}
+N=4
+1 2 3 4
+Output: set1: {1, 4} set2: {2, 3}
+N=10
+1 4 8 6 -7 -10 87 54 16 100
+Output: set1: {{ 4, -7, -10, 87, 54 } set2: {1, 8, 6, 16, 100 }
+*/
    

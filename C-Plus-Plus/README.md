@@ -122,6 +122,7 @@
 - [Ascending Priority Queue] (ds/Ascending_priority_queue.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+- [Inverse of an array](C-Plus-Plus/ds/inverse of an array.cpp)
 
 
 ## Graphs

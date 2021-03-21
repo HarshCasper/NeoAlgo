@@ -37,6 +37,7 @@
 - [Stock Span Problem](cp/Stock_Span.c)
 - [Bulb Switcher problem](cp/bulbSwitch.c)
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
+- [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 
 ## Cryptography
 

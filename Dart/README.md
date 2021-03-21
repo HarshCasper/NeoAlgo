@@ -8,3 +8,7 @@
 </p>
 
 # Codes in the Dart language
+
+## Maths
+
+- [2D Areas](maths/Areas2D.dart)

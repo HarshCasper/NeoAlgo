@@ -13,7 +13,8 @@ import string
     It counts each character once. It returns the list.'''
 def find_unique_char(key):
 
-    unique = list()
+ 
+    unique = []
     for i in key:
         if((i not in unique) and i != " "):
             unique.append(i)
@@ -22,16 +23,17 @@ def find_unique_char(key):
 ''' This function forms the padding. It takes output of the above
     function and then appends remaining of [a-z] in the list
     and returns the list.'''
-def find_pad(keyword):
+def find_pad(pad_key):
+
 
     # Calls the above function
-    key = find_unique_char(keyword)
+    key = find_unique_char(pad_key)
 
-    #This contains all character from a to z
+    # This contains all character from a to z
     ALPHABET = string.ascii_lowercase
 
     for i in ALPHABET:
-        if(i not in key):
+        if i not in key:
             key.append(i)
     return key
 
@@ -40,6 +42,7 @@ def find_pad(keyword):
     by calling above function.'''
 def encrypt_plaintext(message, key):
 
+    
     ALPHABET = string.ascii_lowercase
     enc = ""
     pad = find_pad(key)
@@ -48,30 +51,31 @@ def encrypt_plaintext(message, key):
          Find index of each character in normal [a-z].
          Replaces it by the character present at the
          same index of pad.'''
-    for i in range(len(message)):
-        if(message[i] != " "):
-            if(message[i].islower()):
-                index = ALPHABET.index(message[i])
+    for i, j in enumerate(message):
+        if j != " ":
+            if j.islower():
+                index = ALPHABET.index(j)
                 enc += pad[index]
             else:
-                index = ALPHABET.index(message[i].lower())
+                index = ALPHABET.index(j.lower())
                 enc += pad[index].upper()
         else:
             enc += " "
     return enc
 
 
-#Calling the driver function
+# Calling the driver function
 if __name__ == '__main__':
 
-    #Taking plaintext as input from the user
+    # Taking plaintext as input from the user
     plaintext = input("Enter a message you want to encrypt    : ")
 
-    #Taking keyword as input from the user
-    keyword   = input("Enter a keyword to encrypt the message : ")
+    # Taking keyword as input from the user
+    keyword = input("Enter a keyword to encrypt the message : ")
 
-    #Calling the function and printing the encrypted message
-    print("Encrypted plaintext is                 :", encrypt_plaintext(plaintext, keyword.lower()))
+    # Calling the function and printing the encrypted message
+    encrypt = encrypt_plaintext(plaintext, keyword.lower())
+    print("Encrypted plaintext is                 :", encrypt)
 
 
 '''
@@ -85,4 +89,3 @@ Sample I/O:
        Enter a keyword to encrypt the message : KeyStrong
        Encrypted plaintext is                 : Gp ykf Tfylxip kfx DtmMkot
 '''
-

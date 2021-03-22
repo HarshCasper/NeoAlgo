@@ -18,3 +18,11 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+   Output
+    
+   The given array: [-13, -3, -25, -20, -3, -16, -23, -12, -5, -22, -15, -4, -7]
+   The maximum subarray sum is -3
+
+'''

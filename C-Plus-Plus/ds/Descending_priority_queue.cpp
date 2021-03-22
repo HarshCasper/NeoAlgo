@@ -16,17 +16,22 @@ void enq(int *, int &, int &, int); // for insertion
 void deq(int *, int &, int &, int); // for deletion
 void display(int *, int, int);      // for display
 
-int q_full(int, int);  // for checking queue is full or not
-int q_empty(int, int); // for checking queue is empty or not
+// for checking queue is full or not
+int q_full(int, int);
+// for checking queue is empty or not
+int q_empty(int, int);
 
 int main()
 {
     int size = 100, choice;
     int Q[size];
 
-    //initially front and rear will be at -1
-    int front = -1; // deletion will be done from front end
-    int rear = -1;  // insertion will be done from rear end
+    /*
+    Initially front and rear will be at -1
+    deletion will be done from front end & insertion will be done from rear end
+    */
+    int front = -1;
+    int rear = -1;
 
     cout << "\t\t\nDESCENDING PRIORITY QUEUE" << endl;
 
@@ -74,14 +79,16 @@ void enq(int Q[], int &front, int &rear, int size)
         cout << "Enter the data :: ";
         cin >> data;
 
-        if (front == -1) // means inserting for first time
+        //inserting for first time
+        if (front == -1)
             front++;
 
         //find the appropriate place for the data given by the user
         for (temp = rear; temp >= 0 && data > Q[temp]; temp--)
             Q[temp + 1] = Q[temp];
 
-        Q[temp + 1] = data; // insert data at it's right place
+        // insert data at it's right place
+        Q[temp + 1] = data;
         rear++;
 
         display(Q, front, rear);
@@ -97,9 +104,9 @@ void deq(int Q[], int &front, int &rear, int size)
         //storing data which is to be deleted
         int data = Q[front];
 
-        //if front and rear is equal means there was only one element left
+        //if front and rear is equal means there was only one element left ,So now reset front and rear
         if (front == rear)
-            front = rear = -1; // reset front and rear
+            front = rear = -1;
         else
             front++;
 

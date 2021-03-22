@@ -2,8 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct Point
-{
+struct Point {
     int x;
     int y;
 };
@@ -12,9 +11,7 @@ struct Point
 We can calculate the area formed by the three points, and if the area is
 zero then they lie on a same line. 
 */
-bool check_collinear(Point a, Point b, Point c)
-{
-
+bool check_collinear(Point a, Point b, Point c) {
     int area = 0;
 
     /*
@@ -31,8 +28,7 @@ bool check_collinear(Point a, Point b, Point c)
         return false;
 }
 
-int main()
-{
+int main() {
     int x, y;
     Point a, b, c;
     cout << "\nEnter the first co-ordinates:  ";
@@ -42,12 +38,9 @@ int main()
     cout << "Enter the third co-ordinates:  ";
     cin >> c.x >> c.y;
 
-    if (check_collinear(a, b, c))
-    {
+    if (check_collinear(a, b, c)) {
         cout << "\nThe given points are collinear" << endl;
-    }
-    else
-    {
+    } else {
         cout << "\nThe given points are not collinear" << endl;
     }
     return 0;

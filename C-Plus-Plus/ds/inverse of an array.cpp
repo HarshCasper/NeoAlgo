@@ -16,7 +16,7 @@ QUESTION-->
 Input:
 1)First line contains t, number of test cases.
 2)Second line contains size of the original array.
-3)Third line contains elements of the array.
+3)Third line contains elements of the original array.
 
 Output:
 1)contains t outputs, inverse array of each original array. */

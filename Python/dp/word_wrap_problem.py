@@ -88,14 +88,14 @@ def solveWordWrap(arr, n, M):
 
 
 # Driver Code
-n = int(input("Entre the length of the array "))
+n1 = int(input("Entre the length of the array "))
 arr1 = []
-for z in range(0, n):
+for z in range(0, n1):
     x = int(input())
     arr1.append(x)
-M = int(input("Entre the length of the  alphabets that you want in one line "))
+g = int(input("Entre the length of the  alphabets that you want in one line "))
 
-solveWordWrap(arr1, n, M)
+solveWordWrap(arr1, n1, g)
 
 
 # __________________________***___________________________

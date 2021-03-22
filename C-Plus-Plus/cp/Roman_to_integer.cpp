@@ -16,7 +16,7 @@
     #include <bits/stdc++.h>  //Header File
     using namespace std;
     
-    int value(char r)   //Function that change roman charcater into intiger
+    int value(char r)   //Function that change roman charcater into integer
     {
         if(r=='I')
             return 1;

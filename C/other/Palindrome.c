@@ -3,49 +3,76 @@ C Program to check whether a number is Palindrome or not
 An integer is a palindrome if the reverse of that number is equal to the original number.
 Example of Palindromes are 11,44,101,121,
 */
+ #include <stdio.h>
+#include <stdlib.h>
 
-#include <stdio.h>
-#include <unistd.h>
+typedef struct node{
+    short num;
+    struct node *next;
+    struct node *prev;
+} node;
 
-void main()
-{
-	int rev = 0, rem = 0, n, num ;
-	printf("\n Enter a number:\t");
-	scanf("%d", &n);
-	num = n;
-	printf("\n Reverse of %d is ", n);
-	while (n > 0)
-	{
-		rem = n % 10;
-		rev = rev * 10 + rem;
-		n = n / 10;
-	}
+typedef node* ptrNode;
+typedef enum {false,true} bool;
 
-	printf("%d", rev);
-	if (rev == num)
-	{
-		printf("\n %d is a palindrome", num);
-	}
-	else
-	{
-		printf("\n %d is not a palindrome", num);
-	}
+//Init a new Node
+ptrNode getNode(short n){
+    ptrNode newNode = (ptrNode)malloc(sizeof(node));
+    newNode->next = newNode->prev = NULL;
+    newNode->num = n;
+    return newNode;
+}
 
-	getchar();
+//Append a new value
+void appendNode(ptrNode *s, ptrNode *e, short n){
+    ptrNode newNode = getNode(n);
+
+    if(*s){
+        (*e)->next = newNode;
+        newNode->prev = *e;
+        *e = newNode;
+    }else
+        *s = *e = newNode;
+}
+
+//Verify for palindrome list
+bool verifyPalindromeDoubleLinkList(ptrNode s, ptrNode e){
+    while(s!=e && e->next!=s){
+        if(s->num!=e->num)
+            return false;
+        s=s->next;
+        e=e->prev;
+    }
+    return true;
+}
+
+//memory deallocation
+void freeMemory(ptrNode *s, ptrNode *e){
+    ptrNode temp;
+    while(*s){
+        temp = *s;
+        *s=(*s)->next;
+        free(temp);
+    }
+    *e=*s;
+}
+
+int main(){
+    ptrNode start = NULL, end = NULL;//Start and End double linked list
+    long n; //number to test
+
+    printf("Insert a number:\n");
+    scanf("%ld",&n);
+    for(int k = n; k; k/=10)
+        appendNode(&start,&end,(short)(k%10));
+
+    printf("\n\n%ld %s palindrome", n, (verifyPalindromeDoubleLinkList(start,end))?"is":"isn't");
+    freeMemory(&start,&end);
+
+    return EXIT_SUCCESS;
 }
 
 /*
-Sample Case:
-Example 1:
-Enter a number: 121
-Reverse of 121 is 121
-121 is a palindrome
-
-Example 2:
-Enter a number: 123
-Reverse of 123 is 321
-321 is not a palindrome
-
 Time Complexity: O(n)
 Space Complexity: O(1)
 */

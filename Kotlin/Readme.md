@@ -22,3 +22,9 @@
 - [Areas 2D](Maths/Areas2D.kt)
 - [Areas 3D](Maths/Areas3D.kt)
 - [Armstrong Number](Maths/Armstrong.kt)
+- [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
+
+## Searching Algorithms
+
+- [Binary Search](search/BinarySearch.kt)
+

@@ -229,7 +229,7 @@
 - [K Closest Points to Origin](heap/K_Closest_Points_to_Origin.cpp)
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
-- [Reconstruct Itinerary- Hashamp problem](heap/Reconstruct_Itinerary.cpp)
+- [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
 
 ## Machine Learning
 

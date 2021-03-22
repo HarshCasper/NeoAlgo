@@ -78,6 +78,7 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
+- [Check T-Prime](cp/check_T_prime.cpp)
 
 
 ## Data Structures

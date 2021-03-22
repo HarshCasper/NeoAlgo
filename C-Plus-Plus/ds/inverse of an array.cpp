@@ -39,21 +39,18 @@ for(int i=0 ; i<n; i++)
     {
     cin>>ori[i];           
     }
-
 for(int i=0 ; i<n; i++)
 /* j is temporary variable, after storing values of original array in j,
-At inverse array we store corresponding indices of original array. */
+At inverse array, we store corresponding indices of original array values. */
     {    
     int j = ori[i];         
     inv[j] = i;         
     }
-
 for(int i=0; i<n; i++)
 //output the inverse array
     {
     cout<<inv[i]<<" ";      
     }
-
 }
 return 0;
 }

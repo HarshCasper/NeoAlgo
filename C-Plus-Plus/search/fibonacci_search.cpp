@@ -1,114 +1,162 @@
-/*
-                                              Fibonacci Search
-Search for an element in a Sorted Array
 
-fibonacci series generalisation:
-F(0) = 0
-F(1) = 1
-F(2) = F(1) + F(0) = 0+1 = 1 
-F(n) = F(n-1)+F(n-2) for n>=2
+/*
+Fibonacci search is an efficient search algorithm based on:
+--> divide and conquer principle that can find an element in the given sorted array. */
+/*
+Algorithm --->
+
+Let the length of given array be n [0...n-1] and the element to be searched be x.
+
+Then we use the following steps to find the element with minimum steps:
+
+1) Find the smallest Fibonacci number greater than or equal to n.
+Let this number be c [ Fibonacci number].
+Let the two Fibonacci numbers preceding it be a and b respectively.
+
+While the array has elements to be checked:
+-> Compare x with the last element of the range covered by a.
+-> If x matches, return index value
+-> Else if x is less than the element, move the third Fibonacci variable two Fibonacci down,
+indicating removal of approximately two-third of the unsearched array.
+
+-> Else x is greater than the element, move the third Fibonacci variable one Fibonacci down.
+Reset offset to index. Together this results into removal of approximately front one-third of the unsearched array.
+
+Since there might be a single element remaining for comparison, check if b is '1'.
+If Yes, compare x with that remaining element. If match, return index value.
+
+From the above algorithm it is clear if we have to search the larger section of the array,
+then the time taken will be more and will result into worst case and it's complexity wil be O(log n).
+If on the very first search, we get our element then it will be considered as the best case and complexcity will be O(1).
+When we consider the average case then case left and lies between the best and worst i,
+when we have to search the element on the smaller section of the array and hence we get our average case complexity as O(log n).
+
+According to the algorithm we will first sort the array.
+Output is based on Sorted array.
+
+QUESTION-->
+1) You are given 't' test cases to check.
+2) You are given a memory space of array size, 10.
+3) You are asked to enter elements in the array.
+4) You can input as much elements in the array less than or equal to 10.
+5) The array should be sorted if Unsorted.
+6) You have to chose an element and find its position in the sorted array.
+7) if element not found, print -1.
 */
 
 #include<bits/stdc++.h>
 using namespace std;
 
-int fibonacciSearch(int arr[], int n, int element) {
-   // Initializing fibonacci no 
-   int fibM2 = 0; //(m-2)th fibonacci no.
-   int fibM1 = 1; //(m-1)th fibonacci no. 
-   int fibM = fibM1 + fibM2; //mth fibonacci no.
+// function created to find the min value between x and y
+int min(int x, int y) { return (x <= y) ? x : y; }
 
-   /*finding smallest fibonacci no. greater than or equal to 
-     n in Fibonacci sereies and storing it in fibM */
+//function created returns index of x if present,  else returns -1.
+int FibonacciSearch(int arr[], int x, int n){
+// a,b,c are variables that stores the fibonacci numbers sequentially.
+int a = 0;
+int b = 1;
+int c = a + b;
 
-   while (fibM < n) {
-      fibM2 = fibM1;
-      fibM1 = fibM;
-      fibM = fibM1 + fibM2;
-   }
+// until c does not become equal to or greater than n , loop executes.
+while(c < n){
 
-   // to mark range elminated from front 
-   int offset = -1;
+a = b;
+b = c;
+c = a + b;
+}
+// Marks the eliminated range from front
+int offset = -1;
 
-   /* until there are elements to be inspected 
-      we compare arr[fibM2] with element when fibM becomes 1 
-      then fibM1 becomes 1 and fibM2 becomes 0 */
+// checking if c is at valid location.
+while (c > 1) {
+// i will be assigned the value of min() used.
+int i = min(offset + a, n - 1);
 
-   while (fibM > 1) {
 
-      // Check if fibM2 is valid location
-      int i = min(offset + fibM2, n - 1);
+/*If x is greater than the value at index ,c cut the subarray array from offset to i*/
+if (arr[i] < x) {
 
-      /*
-        when element is greater than value at index fibM2 ,
-        we move 3 fibonacci variable ,1 fibonacci down reset offset to i.
-        we drop approx front 1/3 of remaining array 
-      */
-      if (arr[i] < element) {
-         fibM = fibM1;
-         fibM1 = fibM2;
-         fibM2 = fibM - fibM1;
-         offset = i;
-      }
-      /*
-        when element is less than value at index fibM2 ,
-        we move 3 fibonacci variable ,2 fibonacci down
-        we drop approx rear 2/3 of remaining array 
-      */
-      else if (arr[i] > element) {
-         fibM = fibM2;
-         fibM1 = fibM1 - fibM2;
-         fibM2 = fibM - fibM1;
-      }
-      // if found return index 
-      else return i;
-   }
-   // check for last array element 
-   if (fibM1 && arr[offset + 1] == element)
-      return offset + 1;
-
-   // element not found return -1
-   return -1;
+c = b;
+b = a;
+a = c - b;
+offset = i;
+}
+/*If x is greater than the value at index ,c
+cut the subarray after i+1. */
+else if (arr[i] > x) {
+c = a;
+b = b - a;
+a = c - b;
 }
 
-int main() {
-   int n; 
-   cout << "Enter Size Of Arrary:" << "\n";
-   cin >> n;
 
-   int arr[n]; 
-   cout << "Enter Elements In Array" << "\n";
-
-   for (int i = 0; i < n; i++) {
-      cin >> arr[i];
-   }
-
-   int element; 
-   cout << "Enter The Element To Be Searched" << "\n";
-   cin >> element;
-   // Call fibonacci search function 
-   int index = fibonacciSearch(arr, n, element); 
-
-   if (index == -1)
-      cout << "Element Not Found" << "\n"; 
-   else
-      cout << "Element Found At Array Index : " << index; 
-
-   return 0;
+else
+//if element found, return index.
+return i;
 }
+//comparing the last element with x
+if (b && arr[offset + 1] == x)
+return offset + 1;
+// if not then return -1.
+return -1;
+}
+
+
+int main(){
+int t; cin>>t;
+while(t--){
+int l;
+cout<<"\nEnter the number of elements in array which should be less than 10";
+cin>>l;
+//array defined
+int arr[10];
+cout<<"Enter elements in array";
+for(int i=0;i<l;i++)
+{
+cin>>arr[i];
+}
+//sorting the array
+sort(arr, arr + l);
+
+int n = sizeof(arr)/sizeof(arr[0]);
+int x;
+cout<<"\nEnter element to be searched :" ;
+cin>>x;
+cout<<"Found at index:"<<FibonacciSearch(arr, x, n);
+}
+return 0;
+}
+
+
+
+/* complexities */
+/*
+Worst case time complexity:  O(log n)
+Average case time complexity:  O(log n)
+Best case time complexity:  O(1)
+Space complexity:  O(1)   */
+
 
 /*
-Sample I/O:
-Enter Size Of Arrary:
+sample input :
+3
+7
+100 90 30 15 60 120 10
+30
 5
-Enter Elements In Array
-1 6 10 11 78   
-Enter The Element To Be Searched
-78
-Element Found At Array Index : 4
-
-Algorithm Analysis:
-Time Complexity : O(log(n))
-Auxiliary Space : O(1) 
-
+40 60 22 10 45
+22
+2
+40 60
+45
 */
+
+/*
+sample output:
+2
+1
+-1
+             
+*/
+
+

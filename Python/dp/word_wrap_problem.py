@@ -10,6 +10,8 @@
 # l[] and M is line width (maximum no.
 # of characters that can fit in a line)
 INF = 2147483647
+
+
 def printSolution(p, q):
     k = 0
     if p[q] == 1:
@@ -87,13 +89,13 @@ def solveWordWrap(arr, n, M):
 
 # Driver Code
 n = int(input("Entre the length of the array "))
-arr = []
+arr1 = []
 for z in range(0, n):
     x = int(input())
-    arr.append(x)
+    arr1.append(x)
 M = int(input("Entre the length of the  alphabets that you want in one line "))
 
-solveWordWrap(arr, n, M)
+solveWordWrap(arr1, n, M)
 
 
 # __________________________***___________________________

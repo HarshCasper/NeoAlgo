@@ -175,6 +175,7 @@ _add list here_
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+-[Word Break Problem](backtracking/Word_break.cpp)
 
 ## Dynamic Programming
 
@@ -219,8 +220,6 @@ _add list here_
 
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
 
-## Backtracking
--[Word Break Problem](backtracking/Word_break.cpp)
 
 ## Other
 

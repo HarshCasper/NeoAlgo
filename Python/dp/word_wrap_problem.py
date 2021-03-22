@@ -10,20 +10,18 @@
 # l[] and M is line width (maximum no.
 # of characters that can fit in a line)
 INF = 2147483647
-
-
-def printSolution(p, n):
+def printSolution(p, q):
     k = 0
-    if p[n] == 1:
+    if p[q] == 1:
         k = 1
     else:
-        k = printSolution(p, p[n] - 1) + 1
+        k = printSolution(p, p[q] - 1) + 1
     print('Line number ', k, ': From word no. ',
-          p[n], 'to ', n)
+          p[q], 'to ', q)
     return k
 
 
-def solveWordWrap(l, n, M):
+def solveWordWrap(arr, n, M):
     # For simplicity, 1 extra space is
     # used in all below arrays
 
@@ -51,10 +49,10 @@ def solveWordWrap(l, n, M):
     # extra spaces if words from word number
     # i to j are placed in a single line
     for i in range(n + 1):
-        extras[i][i] = M - l[i - 1]
+        extras[i][i] = M - arr[i - 1]
         for j in range(i + 1, n + 1):
             extras[i][j] = (extras[i][j - 1] -
-                            l[j - 1] - 1)
+                            arr[j - 1] - 1)
 
         # Calculate line cost corresponding
     # to the above calculated extra
@@ -64,14 +62,14 @@ def solveWordWrap(l, n, M):
     for i in range(n + 1):
         for j in range(i, n + 1):
             if extras[i][j] < 0:
-                lc[i][j] = INF;
+                lc[i][j] = INF
             elif j == n and extras[i][j] >= 0:
                 lc[i][j] = 0
             else:
                 lc[i][j] = (extras[i][j] *
                             extras[i][j])
 
-            # Calculate minimum cost and find
+    # Calculate minimum cost and find
     # minimum cost arrangement. The value
     # c[j] indicates optimized cost to
     # arrange words from word number 1 to j.
@@ -88,18 +86,14 @@ def solveWordWrap(l, n, M):
 
 
 # Driver Code
-#l = [3, 2, 2, 5]
-#n = len(l)
-#M = 6
-n = int(input("Entre the lenght of the array "))
-import array as arr
-l = []
-for i in range(0, n):
+n = int(input("Entre the length of the array "))
+arr = []
+for z in range(0, n):
     x = int(input())
-    l.append(x)
-M = int(input("Entre the length of the  alphabets that you want in one line"))
+    arr.append(x)
+M = int(input("Entre the length of the  alphabets that you want in one line "))
 
-solveWordWrap(l, n, M)
+solveWordWrap(arr, n, M)
 
 
 # __________________________***___________________________
@@ -107,17 +101,17 @@ solveWordWrap(l, n, M)
 # Space complexity o(n^2)
 
 # Sample Input
-#Entre the lenght of the array 5
-#2
-#2
-#3
-#3
-#5
-#Entre the length of the  alphabets that you want in one line6
+# Entre the lenght of the array 5
+# 2
+# 2
+# 3
+# 3
+# 5
+# Entre the length of the  alphabets that you want in one line6
 
 # Sample output
 
-#Line number  1 : From word no.  1 to  2
-#Line number  2 : From word no.  3 to  3
-#Line number  3 : From word no.  4 to  4
-#Line number  4 : From word no.  5 to  5
+# Line number  1 : From word no.  1 to  2
+# Line number  2 : From word no.  3 to  3
+# Line number  3 : From word no.  4 to  4
+# Line number  4 : From word no.  5 to  5

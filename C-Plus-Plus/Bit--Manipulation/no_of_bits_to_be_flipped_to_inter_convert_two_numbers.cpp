@@ -7,14 +7,11 @@ Inorder to compare the individual bits of given the numbers, we can compute the 
 set bits in thier XOR, as we know that XOR operation yields set bits, only when two same
 bits are XORed.
 */
-int get_num_flips(int n1, int n2)
-{
-
+int get_num_flips(int n1, int n2) {
     int count = 0, n = n1 ^ n2;
 
     // Loop till 'n' becomes zero
-    while (n)
-    {
+    while (n) {
         // If the lsb is set, increase the count by 1
         if (n & 1)
             count++;
@@ -25,13 +22,13 @@ int get_num_flips(int n1, int n2)
     return count;
 }
 
-int main()
-{
+int main() {
     int n1, n2;
     cout << "\nEnter the two numbers: ";
     cin >> n1 >> n2;
 
-    cout << "Number of flips required to inter-convert the given numbers is " << get_num_flips(n1, n2);
+    cout << "Number of flips required to inter-convert the given numbers is ";
+    cout << get_num_flips(n1, n2);
     return 0;
 }
 

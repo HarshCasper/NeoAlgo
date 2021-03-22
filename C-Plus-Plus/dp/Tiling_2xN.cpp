@@ -6,14 +6,12 @@
 
 /* Algorithm =>
     Approach used : Dynamic Programming
-
     Test cases handled explicitly:
     Case 1: if n == 1 , only 1 configuration of tile is possible
     Case 2: if n == 2 , only 2 configurations are possible
     Case 3: if n > 2, then we got 2 possible subcases:
         Subcase 1: if we place length wise, call dp[i-2];
         Subcase 2: if we place width wise, call dp[i-1];
-
     at last return, dp[n] for number of ways. */
 
 #include <iostream>
@@ -35,19 +33,17 @@ long long numberOfWays(long long n){
 
 int main(){
     long long n;
+    cout << "Enter the length of the floor: " << endl;
     cin >> n;
-    cout << numberOfWays(n) << endl;
+    cout << "Number of ways to tile floor of size 2 x " << n << " are: " << numberOfWays(n) << endl;
 }
 
 /*  Sample Input:
         n=3
-
     Sample Output:
         3
-
     Expected Time Complexity:
         O(n)
-
     Expected Space Complexity:
         O(n)
 */

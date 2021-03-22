@@ -36,7 +36,7 @@
         
     }
     
-    int roman_To_Int(string S)   //Function that change roman string into intiger
+    int roman_To_Int(string S)   //Function that change roman string into integer
     {
         int c=0;
         for(int i=0;i<S.length();i++)   //for analyse the string
@@ -58,16 +58,16 @@
             else
                 c+=s1;
         }
-        return c;    //return intiger value
+        return c;    //return integer value
     }
     int main()
     { 
         string S;  //taking string
         cout<<"Enter string";
         cin>>S;   //input string of roman characters
-        int r;   //for taking the value of intiger
-       r=roman_To_Int(S);//calling function for converting roman string into intiger value
-       cout<<"Roman to Intiger is : "<<r;   //print intiger value
+        int r;   //for taking the value of integer
+       r=roman_To_Int(S);//calling function for converting roman string into integer value
+       cout<<"Roman to Integer is : "<<r;   //print integer value
        return 0;
     }
 

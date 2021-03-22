@@ -25,12 +25,12 @@ public class NextGreaterElement {
 
 		INNER_LOOP :	for(int j = i + 1 ; j < n ; j++) {
                           //Checking condition
-					          if(array[i] < array[j]) {
-							          new_array[i] = array[j];
-						 	          continue OUTER_LOOP;
-						        }
-					       }
-				      new_array[i] = -1;
+	        if(array[i] < array[j]) {
+		         new_array[i] = array[j];
+		         continue OUTER_LOOP;
+			       }
+		       }
+	     new_array[i] = -1;
      }
  }
 	//main method
@@ -52,7 +52,6 @@ public class NextGreaterElement {
 		for(int i = 0 ; i < n ; i++) {
 			array[i] = sc.nextInt();
 		}
-
 		//Calling next_greater_element method
 		NextGreaterElement.next_greater_element(array, n, new_array);
 

@@ -1,19 +1,12 @@
-/*C program to find whether a linked list is palindrome or not
-Using two pointers approach i.e slow(moves at x speed)pointer and fast(moves at
-2x speed)pointer By storing first half of the linked list in an array and then
-comparing each element from the other half of the linked list
-with the elements of array in reverse order till it get exhausted.
+/* C program to find whether a linked list is palindrome or not.
+We need to detect whether the  front half of the list is the reverse of the second half.
+By reversing the front half of the list and for that stack can be used.
 
-Note:when no of elements are odd in Linked List skip the middle element
-Ex- Linked_List={1,2,3,4,3,2,1},size=7
-        Storing the first half in an array
-        arr=[1,2,3]
+We know the size of the linked list,we can iterate onto the first half of the elements in a for loop ,
+pushing each element onto a stack.Now ,we iterate the rest of linked list.At each step we compare
+the node to the top of the stack.If we complete the iteration without finding the difference,then the 
+linked list is palindrome
 
-        Linked_List[4]==arr[2]
-        Linked_List[5]==arr[1]
-        ...
-        ...
-        Palindrome(If all elements from array are matched)
 */
 #include <bits/stdc++.h>
 #include <stdio.h>

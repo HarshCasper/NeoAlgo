@@ -9,6 +9,10 @@
 
 # Codes in the C# language
 
+## Graph
+- [DFS Traversal of Graph](graphs/DFS.cs)
+- [BFS Traversal of Graph](graphs/BFS.cs)
+
 ## Blockchain
 
 _add list here_

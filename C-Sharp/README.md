@@ -12,6 +12,7 @@
 ## Graph
 - [DFS Traversal of Graph](graphs/DFS.cs)
 - [BFS Traversal of Graph](graphs/BFS.cs)
+- [Adjacency Matrix Representation of Graph](graphs/AdjacencyMatrix.cs)
 
 ## Blockchain
 

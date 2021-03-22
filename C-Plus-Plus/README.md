@@ -205,6 +205,7 @@
 - [Wave Sort](sort/wave_sort.cpp)
 - [Wiggle Sort](sort/wiggle_sort.cpp)
 - [Quotient-Remainder Sort](sort/Quotient-Remainder_Sort.cpp)
+- [Binary-Insertion Sort](sort/Binary_Insertion_Sort.cpp)
 
 ## Stack based problems
 

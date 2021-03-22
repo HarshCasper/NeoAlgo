@@ -124,7 +124,6 @@
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
 - [Inverse of an array](C-Plus-Plus/ds/inverse of an array.cpp)
 
-
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)

@@ -1,15 +1,17 @@
 '''
-In Columnar Cipher, we are given a plaintext and a key. The plaintext is written out in rows
-and the ciphertext is formed by reading out columns one by one according to the order of the
-key given. Key is converted to its corresponding numerical(Ex A-0, B-1, C-2, ...... , Z-25).
-Cipher text is formed by reading the columns corresponding to the lowest numerical value in 
-the key to highest numerical value.
+In Columnar Cipher, we are given a plaintext and a key. The plaintext
+is written out in rows and the ciphertext is formed by reading out
+columns one by one according to the order of the key given. Key is
+converted to its corresponding numerical(Ex A-0, B-1, C-2, ...... , Z-25).
+Cipher text is formed by reading the columns corresponding to the lowest
+numerical value in the key to highest numerical value.
 '''
 
+
+def key_to_pad(keyword):
 ''' This function takes key as argument. It then sorts
     the key according to alphabetical order and return 
     the relative position of each keyword.'''
-def key_to_pad(keyword):
     
     sorted_keyword = sorted(keyword)
     pad = []
@@ -18,10 +20,11 @@ def key_to_pad(keyword):
     return pad
 
 
+
+def matrix_plaintext(plaintext, keyword):
 ''' This funcion takes plaintext and keyword as input.
     It forms a matrix where plaintext characters are
     stored in row wise fashion.'''
-def matrix_plaintext(plaintext, keyword):
 
     ''' To form a completely filled matrix, we check if plaintext
         is a multiple of keyword or not. If it is not, the we add
@@ -56,11 +59,12 @@ def matrix_plaintext(plaintext, keyword):
     return plaintext, matrix
 
 
+
+def encryption(plaintext, keyword):
 ''' This is the actual encrption function. It takes plaintext
     and keyword as input. It then forms ciphertext by reading
     the matrix in a column wise fashion. It used the relative
     order of key to decide the order of chosing columns.'''
-def encryption(plaintext, keyword):
 
     order = key_to_pad(keyword)
 

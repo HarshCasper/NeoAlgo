@@ -90,6 +90,7 @@ _add list here_
 - [Count Occurrences of Anagrams](cp/CountAnagrams.java)
 - [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
+- [Rat In A Maze](cp/RatInAMaze.java)
 
 ## Cryptography
 

@@ -6,40 +6,23 @@
  * Output:
  * A single line telling whether a number is T-prime or not.
  *
- * Example:
- * Input:
- * 3
- * Output:
- * 3 is not T-prime.
- * 
- * Input:
- * 49
- * Output:
- * 49 is T-prime;
- *
 */
 
 #include<bits/stdc++.h>
 
 using namespace std;
 
-int main() {
-
-    //To deal with large numbers
-    long long int num; 
-    cout<< "Enter the number: "<<endl;
-    cin>>num;
-
+int Check_T_Prime(int n) {
     //Because 2 and 3 are prime(2 factors) and 1 having only 1 factor.
-    if (num <= 3) {
-        cout<<num<<" is not T-prime. "<<endl;
+    if (n <= 3) {
+        return 0;
     }
     else{
-        long long int square_root = sqrt(num);
+        long long int square_root = sqrt(n);
         int perfect_square_prime = 0 ,i;
 
         //to check if number is perfect square or not.
-        if (square_root*square_root == num) { 
+        if (square_root*square_root == n) { 
 
             for (i = 2; i <= sqrt(square_root); i++) { 
 
@@ -57,14 +40,50 @@ int main() {
             
             //If it is perfect square and square root of perfect square is prime.
             if (perfect_square_prime == 0)
-            cout<<num<<" is T-prime. "<<endl;
+            return 1;
             //If it is perfect square and square root of perfect square not prime.
             else
-            cout<<num<<" is not T-prime. "<<endl;
+            return 0;
         }  
         
         //If it is not perfect square and square root of perfect square not prime.
         else
-            cout<<num<<" is not T-prime. "<<endl;
+            return 0;
     }
 }
+
+
+int main() {
+
+    //To deal with large numbers
+    long long int num; 
+    cout<< "Enter the number: "<<endl;
+    cin>>num;
+
+    int result = Check_T_Prime( num );
+
+    if( result == 1 )
+        cout<<num<<" is T-prime. "<<endl;
+        
+    else
+        cout<<num<<" is not T-prime. "<<endl;
+}
+
+
+/*
+ * Example:
+ * Input:
+ * 3
+ * Output:
+ * 3 is not T-prime.
+ * 
+ * Input:
+ * 49
+ * Output:
+ * 49 is T-prime;
+*/
+
+/*
+*Time complexity : O(sqrt(n)) 
+*Space complexity : O(1)
+*/

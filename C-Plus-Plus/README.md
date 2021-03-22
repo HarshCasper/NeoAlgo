@@ -27,6 +27,7 @@
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
 - [Even Pair Sum](cp/EvenPairSum.cpp)
 - [Factorial of Very Large Numbers](cp/Factorial_of_very_large_numbers.cpp)
+- [Find First and Last position index of an element in an array](cp/find_first_and_last_position_index_of_a_number_in_array.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
@@ -118,9 +119,9 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+- [Ascending Priority Queue] (ds/Ascending_priority_queue.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
-
 
 ## Graphs
 
@@ -297,6 +298,7 @@ _add list here_
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
+- [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 
 ## Bit - Manipulation
 
@@ -361,4 +363,5 @@ _add list here_
 - [Set Clear and Check bits](other/check_set_clear_bit.cpp)
 - [Iterative approach to print all subsets](other/subsets_iterative.cpp)
 - [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)
-
+- [Concatenate given strings](other/n_string_concatenate.cpp)
+- [Trapping Rainwater](other/trappingRainwater.cpp)

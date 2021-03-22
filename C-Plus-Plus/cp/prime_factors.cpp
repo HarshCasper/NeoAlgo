@@ -2,6 +2,7 @@
  For example, if the input is 12 then output will be 2 2 3 , if input is 28 then output will be (2,2,7).
  Two concepts are used here. Firstly , through sieve of erathosthenes we will find all the prime numbers till n.
  Then we will check which prime numbers can divide n and for how many times*/
+
 #include<iostream>
 #include <cmath>
 using namespace std;

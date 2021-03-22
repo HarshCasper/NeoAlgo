@@ -64,6 +64,7 @@
 - [Burrows Wheeler transform (BWT)](cryptography/Burrows_Wheeler_transform.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
 - [AES Algorithm](cryptography/AES.py)
+- [Playfair Cipher](cryptography/Playfair_Cipher.py)
 
 
 ## Searching

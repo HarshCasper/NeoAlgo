@@ -24,7 +24,7 @@ class Graph:
 
     def breadth_first_search(self, first, last):
         found, fringe = False, deque([first])
-        visited, came_from = set([first]), {first: None}
+        visited, came_from = [first], {first: None}
         print('{:11s} | {}'.format('Expand Node', 'Fringe'))
         print('--------------------')
         print('{:11s} | {}'.format('-', first))

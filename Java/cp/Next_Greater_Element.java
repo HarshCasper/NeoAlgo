@@ -21,18 +21,18 @@ public class NextGreaterElement {
 	//next_greater_element method
 	public static void next_greater_element(int[] array, int n, int[] new_array) {
 
-	OUTER_LOOP :	for(int i = 0 ; i < n ; i++) {
+    OUTER_LOOP : for(int i = 0 ; i < n ; i++) {
 
-		INNER_LOOP :	for(int j = i + 1 ; j < n ; j++) {
-                          //Checking condition
-	            if(array[i] < array[j]) {
-		             new_array[i] = array[j];
-		             continue OUTER_LOOP;
-			           }
-		           }
-	       new_array[i] = -1;
-     }
- }
+	  INNER_LOOP : for(int j = i + 1 ; j < n ; j++) {
+                     //Checking condition
+     				 if(array[i] < array[j]) {
+	     				new_array[i] = array[j];
+	     				continue OUTER_LOOP;
+	     				}
+     				}
+				new_array[i] = -1;
+				}
+	}
 	//main method
 	public static void main(String[] args) {
 

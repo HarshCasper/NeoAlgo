@@ -98,6 +98,14 @@ int main()
         cout << ans[i] << " -> ";
     }
 }
+/*------ CODE COMPLEXITY------
+1. Firstly, making of adjacency list takes O(n) time
+2. Then we enter the while loop, in which we traverse over every airport once and perform some 
+   constant check-> O(2*n)
+3. reverse the whole answer vector which also takes O(n) time
+
+in whole TC of the code = O(n) + O(2*n) + O(n) = O(n) 
+*/
 
 /*-----SAMPLE INPUT-------
         

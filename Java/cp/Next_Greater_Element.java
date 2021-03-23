@@ -25,13 +25,13 @@ public class NextGreaterElement {
 
 	  INNER_LOOP : for(int j = i + 1 ; j < n ; j++) {
                      //Checking condition
-   		 if(array[i] < array[j]) {
-  	  		new_array[i] = array[j];
-	   			continue OUTER_LOOP;
-	 				}
-				}
-		new_array[i] = -1;
-		}
+   	  	 if(array[i] < array[j]) {
+  	    		new_array[i] = array[j];
+	   		  	continue OUTER_LOOP;
+	 			  	}
+				  }
+		  new_array[i] = -1;
+		  }
 	}
 	//main method
 	public static void main(String[] args) {

@@ -1,5 +1,8 @@
 /*
 This code is for Rotating an NxN 2D array in 90 degrees anticlockwise direction.
+
+The time complexity of the code is O(N2) for an N × N matrix 
+and doesn’t require any extra space therefore the space complexity is O(1).
 */
 
 #include <bits/stdc++.h>

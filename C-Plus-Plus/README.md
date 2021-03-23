@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -35,6 +35,7 @@
 - [Josephus Problem](cp/Josephus.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
+- [Long Factorials using Vectors](cp/long_factorials.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
@@ -77,6 +78,7 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
+- [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
 
 ## Data Structures
 
@@ -122,6 +124,7 @@
 - [Ascending Priority Queue] (ds/Ascending_priority_queue.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+- [Descending Priority Queue](ds/Descending_priority_queue.cpp)
 
 ## Graphs
 
@@ -213,6 +216,7 @@
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+- [Maximum possible length of balanced bracket sequence](stack/maximum_size_of_balanced_bracket_sequence.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 - [Previous Greater Element](stack/Previous_Greater_Element.cpp)

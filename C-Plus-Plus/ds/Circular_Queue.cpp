@@ -1,7 +1,9 @@
-// This is a code of circular queue data structure. It is a linear data structure, which obeys the principal
-// of First in First Out(FIFO). Circular queue data structure is a updated version of linear queue data structure,
-// which have some advantages over linear queue. The following code shows the implementation of circular queue data structure,
-// in a very clean and understandable way.
+/*
+This is a code of circular queue data structure. It is a linear data structure, which obeys the principal
+ of First in First Out(FIFO). Circular queue data structure is a updated version of linear queue data structure,
+ which have some advantages over linear queue. The following code shows the implementation of circular queue data structure,
+ in a very clean and understandable way.
+*/
 
 #include<iostream>
 #include<stdlib.h>
@@ -15,9 +17,12 @@ using namespace std;
 // Writing a class where all the basic functions of the circular queue presides
 
 class CircularQueue{
-    // Defining all the variables as public variables.
-    // (It is not necessory of define the variables as public,
-    //  you can define the variables as private also)
+    /*
+    Defining all the variables as public variables.
+     (It is not necessory of define the variables as public,
+      you can define the variables as private also)
+    */
+    
     public:
     int front;
     int rear;
@@ -164,9 +169,11 @@ int main()
     return 0;
 }
 
-// The time complexities of different operations in circular queue data structure is:-
+/*
+ The time complexities of different operations in circular queue data structure is:-
 
-//  1) The time complexity of enqueue operation is O(1), that is constant time.
-//  2) The time complexity of dequeue operation is O(1), that is constant time. 
-//  3) The time complexity for checking whether the queue is empty of full is O(1), that is constant time.
-//  4) The time complexity of display function is O(n), where n is the number of Elements in the queue.
+  1) The time complexity of enqueue operation is O(1), that is constant time.
+  2) The time complexity of dequeue operation is O(1), that is constant time. 
+  3) The time complexity for checking whether the queue is empty of full is O(1), that is constant time.
+  4) The time complexity of display function is O(n), where n is the number of Elements in the queue.
+*/

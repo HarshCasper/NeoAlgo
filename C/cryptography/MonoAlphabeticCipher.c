@@ -3,9 +3,7 @@
    Example if a is there we replace it with B to Z .....so on.*/
 
 #include<stdio.h>
-#include<stdlib.h>
 #include<string.h>
-#include<time.h>
 
 void monoalphebaticcipher(char input[100],int size){
      

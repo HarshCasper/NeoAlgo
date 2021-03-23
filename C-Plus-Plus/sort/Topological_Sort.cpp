@@ -62,10 +62,13 @@ void display()
 }
 int main()
 {
+    cout<<"Enter number of node you want to add: ";
     cin >> n;
     visited = new bool[n];
+    cout<<"Enter nodes of graph: ";
     createGraph();
     topoSort();
+    cout<<"Graph after topological sort: ";
     display();
 }
 

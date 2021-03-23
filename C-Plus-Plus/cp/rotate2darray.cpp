@@ -2,11 +2,11 @@
 This code is for Rotating an NxN 2D array in 90 degrees anticlockwise direction.
 */
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 //function to rotate the user  matrix anticlockwise
-void rotate(int a[][1000], int n)
+void rotatematrix(int a[][1000], int n)
 {
   //reversing each row
   for (int row = 0; row < n; row++)
@@ -20,7 +20,7 @@ void rotate(int a[][1000], int n)
       end_col--;
     }
   }
-  //taking transpose 
+  //taking transpose
   for (int i = 0; i < n; i++)
   {
     for (int j = 0; j < n; j++)
@@ -32,15 +32,15 @@ void rotate(int a[][1000], int n)
     }
   }
 }
-void display(int a[1000][1000], int n){
-    for (int i = 0; i < n; i++)
+void display(int a[1000][1000], int n)
+{
+  for (int i = 0; i < n; i++)
   {
     for (int j = 0; j < n; j++)
     {
       cout << a[i][j];
     }
   }
-
 }
 
 int main()
@@ -49,7 +49,7 @@ int main()
   int n;
   //input order of matrix
   cin >> n;
-  //input the matrix data 
+  //input the matrix data
   for (int i = 0; i < n; i++)
   {
     for (int j = 0; j < n; j++)
@@ -58,7 +58,7 @@ int main()
     }
   }
 
-  rotate(a, n);
+  rotatematrix(a, n);
   display(a, n);
 }
 /*EXECUTION:

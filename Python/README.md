@@ -30,6 +30,7 @@
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
 * [Bubble Sort](sort/Bubble_Sort.py)
+* [Comb Sort](sort/comb_sort.py)
 * [Heap Sort](sort/Heap_sort.py)
 * [Insertion Sort](sort/insertion.py)
 * [Merge Sort](sort/Merge_Sort.py)

@@ -50,7 +50,7 @@ Sample Explanation
 As n=4 we have original array, a=[0,1,2,3] Now we can have different derangements as:
 [1, 0, 3, 2], [1, 2, 3, 0], [1, 3, 0, 2],[2, 3, 0, 1], [2, 0, 3, 1], [2, 3,1, 0], [3, 0, 1, 2], [3, 2, 0, 1] and [3, 2, 1, 0]
 
-Time complexity : 
-Space Complexity : 
+Time complexity : O(n)
+Space Complexity : O(n)
 
 '''

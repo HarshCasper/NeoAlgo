@@ -135,6 +135,30 @@ class LinkedList {
     return this;
   }
 
+  // Sort the linked list using bubble sort algorithm in ascending order
+  bubbleSort() {
+    let firstNode, secondNode;
+    firstNode = this.head;
+
+    while (firstNode !== null) {
+      secondNode = this.head;
+
+      while (secondNode !== null) {
+        if (firstNode.value < secondNode.value) {
+          let temp = secondNode.value;
+          secondNode.value = firstNode.value;
+          firstNode.value = temp;
+        }
+
+        secondNode = secondNode.next;
+      }
+
+      firstNode = firstNode.next;
+    }
+
+    return this;
+  }
+
 // Displaying all the nodes of linked list
   printList() {
     const array = [];
@@ -166,6 +190,7 @@ do {
   console.log("4. Insert at any position in the Linked List".insert);
   console.log("5. Delete element from Linked List".delete);
   console.log("6. Reverse a Linked List".display);
+  console.log("7. Sort the Linked List using Bubble Sort".insert);
 
   choice = +prompt("Enter your choice - ");
 
@@ -221,6 +246,16 @@ do {
       myLinkedList.reverse();
       console.log("Reversal of Linked List - ", myLinkedList.printList());
       break;
+    
+    case 7:
+      if (myLinkedList.length === 0) {
+        console.log("Linked List is Empty");
+      } else {
+        myLinkedList.bubbleSort();
+        console.log("After sorting Linked List - ", myLinkedList.printList());
+      }
+  
+      break;
 
     default:
       console.log("You know this is wrong, Bbye!\n".wrong);
@@ -242,6 +277,7 @@ Follow the instructions to get in the show
 4. Insert anywhere in between the Linked List
 5. Delete element from Linked List
 6. Reverse a Linked List
+7. Sort the Linked List using Bubble Sort
 Enter your choice - 2
 Enter Value to Append element - 43
 After Append Linked List -  [10, 43]
@@ -253,8 +289,20 @@ After Append Linked List -  [10, 43]
 4. Insert anywhere in between the Linked List
 5. Delete element from Linked List
 6. Reverse a Linked List
+7. Sort the Linked List using Bubble Sort
 Enter your choice - 6
 Reversal of Linked List -  [43, 10]
+
+0. To exit without doing anything
+1. Display the Linked List
+2. Append element in the Linked List
+3. Prepend element in the Linked List
+4. Insert anywhere in between the Linked List
+5. Reverse a Linked List
+6. Delete element from Linked List
+7. Sort the Linked List using Bubble Sort
+Enter your choice - 7
+After sorting -  [ 10, 43 ]
 
 */
 

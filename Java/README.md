@@ -130,7 +130,7 @@ _add list here_
 - [Sparse Matrices](ds/SparseMatrices.java)
 - [Sparse Matrix](ds/SparseMatrix.java)
 - [Stack ~ Linked List Implementation](ds/Stack.java)
-- [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
+- [Stack Implementation-of-queue-using-stack](ds/Stackll.java) 
 - [Implementation of Stack using Queue](ds/StackUsingQueue.java)
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)

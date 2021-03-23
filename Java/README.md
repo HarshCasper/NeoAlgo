@@ -115,7 +115,7 @@ _add list here_
 
 - [Binary Tree](ds/Binary_Tree.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
-- [Find the LCA(Least Common Ancestor) in a Binary Search Tree](https://github.com/Jassi10000/NeoAlgo/blob/Jassi10000/Java/ds/LCAofaBST.java)
+- [Node to Root Path in a Binary Tree](https://github.com/Jassi10000/NeoAlgo/blob/298419ee98ccc42ef36e489a7af15776a49a2f85/Java/ds/NodetoRootPath.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
 - [Huffman ENcoder](ds/Huffman.java)

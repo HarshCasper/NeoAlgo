@@ -240,6 +240,7 @@
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
 - [Trailing Zeros](math/Trailing_Zeros.py)
+
 ## Blockchain
 
 _add list here_

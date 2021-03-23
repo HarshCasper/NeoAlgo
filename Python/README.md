@@ -71,7 +71,10 @@
 - [Burrows Wheeler transform (BWT)](cryptography/Burrows_Wheeler_transform.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
 - [AES Algorithm](cryptography/AES.py)
+- [Playfair Cipher](cryptography/Playfair_Cipher.py)
 - [Keyword Cipher](cryptography/Keyword_Cipher.py)
+- [Vernam Cipher](cryptography/Vernam_Cipher.py)
+- [Columnar Cipher](cryptography/Columnar_Cipher.py)
 
 ## Searching
 
@@ -140,7 +143,7 @@
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
-- [A\*(Astar) in Maze](Pathfinding/2D_Astar.py)
+- [A* (Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
 

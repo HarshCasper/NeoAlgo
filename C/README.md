@@ -46,6 +46,7 @@
 - [Vernam Cipher](cryptography/Vernam_Cipher.c)
 - [Columnar Cipher](cryptography/Columnar_Cipher.c)
 - [Keyword Cipher](cryptography/Keyword_Cipher.c)
+- [Rail Fence Cipher](cryptography/railFenceCipher.c)
 
 ## Data Structures
 
@@ -78,6 +79,7 @@
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Reverse Linked List](ds/reverse_linked_list.c)

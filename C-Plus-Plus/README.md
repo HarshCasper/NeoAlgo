@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -35,6 +35,7 @@
 - [Josephus Problem](cp/Josephus.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
+- [Long Factorials using Vectors](cp/long_factorials.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
@@ -78,7 +79,7 @@
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
-
+- [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
 
 ## Data Structures
 
@@ -100,6 +101,7 @@
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
+- [Prims Algorithm](ds/prims_algo.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Queue](ds/queue.cpp)
 - [Queue Linked List](ds/QueueLinkedList.cpp)
@@ -120,9 +122,10 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+- [Ascending Priority Queue] (ds/Ascending_priority_queue.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
-
+- [Descending Priority Queue](ds/Descending_priority_queue.cpp)
 
 ## Graphs
 
@@ -213,6 +216,7 @@
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+- [Maximum possible length of balanced bracket sequence](stack/maximum_size_of_balanced_bracket_sequence.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 - [Previous Greater Element](stack/Previous_Greater_Element.cpp)
@@ -228,6 +232,7 @@
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
 - [K Closest Points to Origin](heap/K_Closest_Points_to_Origin.cpp)
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
+- [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 
 ## Machine Learning
@@ -298,6 +303,8 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
+- [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
+- [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 
 ## Bit - Manipulation
 
@@ -362,4 +369,5 @@ _add list here_
 - [Set Clear and Check bits](other/check_set_clear_bit.cpp)
 - [Iterative approach to print all subsets](other/subsets_iterative.cpp)
 - [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)
-
+- [Concatenate given strings](other/n_string_concatenate.cpp)
+- [Trapping Rainwater](other/trappingRainwater.cpp)

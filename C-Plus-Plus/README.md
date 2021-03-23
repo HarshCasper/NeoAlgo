@@ -80,6 +80,7 @@
 - [Peak element](cp/Peak_element.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+- [Maximum Sum Subarray of Size k](cp/max_sum_subarray_of_size_k.cpp)
 
 ## Data Structures
 

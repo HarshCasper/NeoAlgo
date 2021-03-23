@@ -1,20 +1,11 @@
-
-/**
- * copyright 2020 @author omkarlanghe
- * @file
- * Implementation of Binary search algorithm.
-*/
 #include <iostream>
 #include <algorithm>
+using namespace std;
 
-bool binary_search(int *, int, int, int);
-
-/**
- * Function which returns true if element found in an array, else returns false.
-*/
+//Function which returns true if element found in an array, else returns false.
 bool binary_search(int *arr, int search_element, int lb, int ub) {
     while (lb <= ub) {
-        int mid = ((lb + ub) / 2);
+        int mid = lb + (ub - lb) / 2;
         if (arr[mid] == search_element) {
             return (true);
         } else if (arr[mid] > search_element) {
@@ -30,34 +21,36 @@ bool binary_search(int *arr, int search_element, int lb, int ub) {
 int main() {
     int t, n, search_element;
     int *arr = nullptr;
-    std::cout << "Enter the number of test cases : " << std::endl;
-    std::cin >> t;
+    cout << "Enter the number of test cases : " << std::endl;
+    cin >> t;
 
     while (t--) {
-        std::cout << "Enter the size of an array : " << std::endl;
-        std::cin >> n;
+        cout << "Enter the size of an array : " << std::endl;
+        cin >> n;
 
-        arr = new int[n]; // dynamic memory allocation
+        // dynamic memory allocation
+        arr = new int[n];
 
-        std::cout << "Enter the elements in an array : " << std::endl;
+        cout << "Enter the elements in an array : " << std::endl;
         for (int i = 0 ; i < n ; i++) {
-            std::cin >> arr[i];
+            cin >> arr[i];
         }
 
-        std::sort(arr, arr + n);
+        sort(arr, arr + n);
 
-        std::cout << "Enter the element to search : " << std::endl;
-        std::cin >> search_element;
+        cout << "Enter the element to search : " << std::endl;
+        cin >> search_element;
 
         // call to binary search function
         bool result = binary_search(arr, search_element, 0, n);
 
         if(result) {
-            std::cout << "Element found." << std::endl;
+            cout << "Element found." << std::endl;
         } else {
-            std::cout << "Element not found." << std::endl;
+            cout << "Element not found." << std::endl;
         }
-        delete[] arr; // free memory after use
+        // free memory after use
+        delete[] arr;
     }
     return 0;
 }

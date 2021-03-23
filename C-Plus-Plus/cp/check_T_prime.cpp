@@ -37,13 +37,12 @@ int Check_T_Prime(int n) {
                     break;
                 }
             }
-            
             //If it is perfect square and square root of perfect square is prime.
             if (perfect_square_prime == 0)
-            return 1;
+                return 1;
             //If it is perfect square and square root of perfect square not prime.
             else
-            return 0;
+                return 0;
         }  
         
         //If it is not perfect square and square root of perfect square not prime.
@@ -62,9 +61,10 @@ int main() {
 
     int result = Check_T_Prime( num );
 
+    //If functions returns 1 it is T-Prime.
     if( result == 1 )
-        cout<<num<<" is T-prime. "<<endl;
-        
+        cout<<num<<" is T-prime. "<<endl;  
+    //If function returns 0 it is not T-prime. 
     else
         cout<<num<<" is not T-prime. "<<endl;
 }

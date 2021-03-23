@@ -244,6 +244,7 @@ _add list here_
 
 ## Other
 
+- [3 sum closest to target](other/3sum_closest_to_target.java)
 - [All possible codes](other/LetterCodeRecursion.java)
 - [Find the numbers](other/FindNumbers.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)

@@ -80,6 +80,7 @@
 - [Peak element](cp/Peak_element.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+- [Longest substring with k distinct characters](cp/longest_substring_with_k_unique_characters.cpp)
 
 ## Data Structures
 

@@ -23,7 +23,7 @@ int main()
 }
 /*Piyush Kumar
    Time Complexity - O(n^2)
-   Space Complexity - O(n^2) auxilaary space
+   Space Complexity - O(n^2) auxiliary space
    Sample Input - 4 
    Sample Output - 
        1

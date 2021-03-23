@@ -20,12 +20,12 @@ public class RatInAMaze{
     static boolean solution = false;
 	
     //check if position maze[i][j] is free and lies on the grid
-	boolean safestate(int[][] maze, int m, int n, int i, int j){
+	private static boolean safestate(int[][] maze, int m, int n, int i, int j){
 		if(i >= m || j>= n || maze[i][j]!=1) return false;
 		return true;
 	}
 
-	void CheeseFinder(int[][] maze, int m, int n, boolean[][] visited, int i, int j){
+	private static void CheeseFinder(int[][] maze, int m, int n, boolean[][] visited, int i, int j){
 		//base case
         if(i == m-1 && j == n-1){
             solution=true; 
@@ -41,7 +41,7 @@ public class RatInAMaze{
 		return;
 	}
 
-	boolean canGetCheese(int[][] maze){
+	public static boolean canGetCheese(int[][] maze){
 		solution = false;
 		int m = maze.length;
 		int n = maze[0].length;

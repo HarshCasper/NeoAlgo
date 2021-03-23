@@ -144,6 +144,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Neon Number](math/Neon_number.c) 
+- [Tower_Of_Hanoi](math/Tower_Of_Hanoi.c)
 
 ## Operating System
 

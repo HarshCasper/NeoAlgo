@@ -85,8 +85,8 @@ void main()
 	s->arr = (int*) malloc((s->size) *(sizeof(int)));
 	s->top = -1;
 	int op;
-	char c;
-	do {
+	char c = 'Y';
+	while (c == 'y' || c == 'Y') {
 		printf("\nEnter an option:\n1.push()\t2.pop()\n3.display()\t4.sort()\n");
 		printf("Enter your choice: ");
 		scanf("%d", &op);
@@ -142,7 +142,7 @@ void main()
 
 		printf("Do you want to continue : ");
 		scanf(" %c", &c);
-	} while (c == 'y' || c == 'Y');
+	} 
 }
 
 /*

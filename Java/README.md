@@ -110,6 +110,7 @@ _add list here_
 - [Flood Fill Algorithm](dp/flood_fill.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Make String Palindrome](dp/Make_string_palindrome_using_DP.java)
+- [Optimal Binary Search Tree](dp/Optimal_Binary_Search_tree_using_DP.java)
 
 ## Data Structures
 

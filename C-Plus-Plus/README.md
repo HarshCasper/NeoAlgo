@@ -338,6 +338,7 @@ _add list here_
 ## Computational Geometry
 
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
+- [Convex Hull (Graham Scan Algorithm)](computational_geometry/Convex_Hull_Graham_Scan.cpp)
 
 ## Other
 

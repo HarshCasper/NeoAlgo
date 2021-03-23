@@ -80,6 +80,7 @@
 - [Peak element](cp/Peak_element.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+- [ Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 
 ## Data Structures
 

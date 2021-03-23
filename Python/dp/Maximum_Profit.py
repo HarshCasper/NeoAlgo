@@ -77,14 +77,19 @@ for _ in range(int(input())):
 	
 	
 '''
+Case : 1
 Sample Input :
-1
+2
 6
 [90, 80, 70, 60, 50]
+6
+[10, 22, 5, 75, 65, 80]
 Sample Output :
 0
+87
 Reason :
-No possible earn only loss if transactions takes place
+1)No possible earn only loss if transactions takes place
+2)Buy at 10, sell at 22, Buy at 5 and sell at 80. [12+75]
 
 Time complexity : O(N)
 Space Complexity : O(N)

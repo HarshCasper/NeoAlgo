@@ -34,6 +34,7 @@
 ## Competitive Programming
 
 - [Anagram Checker](cp/anagram_checker.py)
+- [Anagram Problem](cp/anagram_problem.py)
 - [Find Least positive number](cp/findingLeastPositiveNumber.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
 - [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)

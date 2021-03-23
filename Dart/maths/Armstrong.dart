@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'dart:io';
 
+// checks if num is armstrong or not
 bool isArmstrong(int num) {
   bool isArmNum = false;
   int result = 0;
@@ -21,7 +22,6 @@ bool isArmstrong(int num) {
   return isArmNum;
 }
 
-
 // Main Function, Entry Point of Program
 void main() {
   print("Enter a number:");
@@ -34,10 +34,8 @@ void main() {
     print("$num is not an Armstrong Number");
   }
 }
-
 /**
  * Sample input/output:
- * 
  * Enter Number: 
  * 153
  * 153 is an Armstrong Number

@@ -30,6 +30,7 @@
 - [Find First and Last position index of an element in an array](cp/find_first_and_last_position_index_of_a_number_in_array.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
+- [Find Single Occurring element from an array](cp/find_single_occuring_element.cpp)
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Josephus Problem](cp/Josephus.cpp)

@@ -1,8 +1,7 @@
 from collections import deque
 
+
 class Graph:
-
-
     def __init__(self, directed=True):
         self.edges = {}
         self.directed = directed
@@ -25,7 +24,7 @@ class Graph:
 
     def breadth_first_search(self, first, last):
         found, fringe = False, deque([first]) 
-        visited, came_from = set([first]), {first: None}
+        visited, came_from = {[first]}, {first: None}
         print('{:11s} | {}'.format('Expand Node', 'Fringe'))
         print('--------------------')
         print('{:11s} | {}'.format('-', first))
@@ -44,8 +43,8 @@ class Graph:
         if found: 
             print() 
             return came_from
-         
-        print('No path from {} to {}'.format(first, last))
+    
+    print('No path from {} to {}'.format(first, last))
 
     @staticmethod
     def print_path(came_from, reach):
@@ -53,7 +52,7 @@ class Graph:
         if parent:
             Graph.print_path(came_from, parent)
         else: 
-            print(reach, end=''); 
+            print(reach, end='') 
             return
         print(' =>', reach, end='')
 
@@ -74,6 +73,7 @@ graph.add_edge('E', 'H')
 graph.add_edge('G', 'H')
 start, goal = 'A', 'H'
 traced_path = graph.breadth_first_search(start, goal)
+
 if traced_path: 
     print('Path:', end=' ')
     Graph.print_path(traced_path, goal) 

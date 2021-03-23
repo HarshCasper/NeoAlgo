@@ -21,8 +21,8 @@ for other values of n:
 hence we come to a relation as follows: 
 count_derangement(n) = (n - 1) * [count_derangement(n - 1) + count_derangement(n - 2)]
 
-argument: integer
-return: integer 
+argument: integer (value of n)
+return: integer (total number of derangements)
 
 '''
 def derangements(n):

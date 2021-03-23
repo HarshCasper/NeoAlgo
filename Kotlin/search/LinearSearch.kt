@@ -18,9 +18,9 @@ fun linearsearch(array:IntArray,number:Int){
        print("The number given is not there in the given List")
    }
 }   
-
+   
 fun main(){
-
+   
    val scan = Scanner(System.`in`)
    print("Enter the number of elements :")
    //Here we take the size of the input array/List

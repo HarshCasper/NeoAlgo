@@ -8,18 +8,18 @@ Here it is implemented using hashing which gives the most optimal solution
 using namespace std;
 
 /* Function to find combination of 4 elements that sum to given sum */
-void findFourElements(int a[], int n, int sum) {
+void findFourElements(int arr[], int n, int sum) {
 	/* Store sums of all pairs in a hash table */
-	unordered_map<int, pair<int, int> >ump;
+	map<int, pair<int, int> >ump;
 	for (int i = 0; i < n - 1; i++) {
 		for (int j = i + 1; j < n; j++)
-			ump[a[i] + a[j]] = {i, j};
+			ump[arr[i] + arr[j]] = {i, j};
 	}
 
 	/* Traverse through all pairs and search for X - (current pair sum) */
 	for (int i = 0; i < n - 1; i++) {
 		for (int j = i + 1; j < n; j++) {
-			int X = a[i] + a[j];
+			int X = arr[i] + arr[j];
 
 			/* If X - sum is present in hash table */
 			if (ump.find(sum - X) != ump.end()) {
@@ -28,15 +28,15 @@ void findFourElements(int a[], int n, int sum) {
 				pair<int, int>p = ump[sum - X];
 				if (p.first != i && p.first != j
 				        && p.second != i && p.second != j) {
-					cout << a[i] << "," << a[j] << ","
-					     << a[p.first] << "," << a[p.second];
+				    
+					cout <<"The 4 numbers that sum to the given sum are: "<< arr[i] << "," << arr[j] << ","
+					     << arr[p.first] << "," << arr[p.second];
 					return ;
 				}
 			}
 		}
 	}
 }
-
 //Drivers Code
 int main() {
 	int n; // Size of array
@@ -45,11 +45,12 @@ int main() {
 	int sum;
 	cout<<"Enter the required Sum: ";
 	cin >> sum;
-	int a[n]; 
+	int arr[n]; //Initialising Array of size n
 	cout<<"Enter the elements of the Array: ";
 	for (int i = 0; i < n; i++)
-		cin >> a[i];
-	findFourElements(a, n, sum);
+		cin >> arr[i];
+	 //Function to find the 4 numbers that sum upto given sum
+	findFourElements(arr, n, sum);
 	return 0;
 }
 

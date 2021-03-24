@@ -104,6 +104,7 @@ _add list here_
 - [Segment Tree](ds/SegmentTree.java)
 - [Sparse Matrix](ds/SparseMatrix.java)
 - [Stack ~ Linked List Implementation](ds/Stack.java)
+- [Reverse Array Using Stack](ds/ReverseArrayUsingStack.java)
 - [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
 - [Implementation of Stack using Queue](ds/StackUsingQueue.java)
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)

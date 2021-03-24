@@ -186,7 +186,7 @@ _add list here_
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
-- [Smallest Prime Factor](math/smallest_prime_factor.cpp)
+- [Smallest Prime Factor of Number](math/smallest_prime_factor.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)

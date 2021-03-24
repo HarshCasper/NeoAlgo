@@ -48,6 +48,7 @@
 - [Columnar Cipher](cryptography/Columnar_Cipher.c)
 - [Keyword Cipher](cryptography/Keyword_Cipher.c)
 - [Rail Fence Cipher](cryptography/railFenceCipher.c)
+- [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
 
 ## Data Structures
 

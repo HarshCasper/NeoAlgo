@@ -274,6 +274,7 @@ _add list here_
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
+- [Find if given number is even or odd without arithmetic operators](math/Find_Even_Or_Odd_without_arithmetic_operators.cpp)
 
 ## Dynamic Programming
 

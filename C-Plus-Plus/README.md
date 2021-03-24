@@ -148,6 +148,7 @@
 - [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
+- [Havel Hakimi](graphs/Havel-Hakimi.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kosaraju Algorithm](graphs/Kosaraju_Algorithm.cpp)
 - [Kruskal's Algorithm](graphs/kruskal_Algorithm.cpp)

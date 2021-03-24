@@ -75,6 +75,7 @@
 - [Keyword Cipher](cryptography/Keyword_Cipher.py)
 - [Vernam Cipher](cryptography/Vernam_Cipher.py)
 - [Columnar Cipher](cryptography/Columnar_Cipher.py)
+- [Rail Fence Cipher](cryptography/Rail_Fence_Cipher.py)
 
 ## Searching
 

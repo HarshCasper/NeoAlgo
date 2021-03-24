@@ -65,7 +65,7 @@ int main()
     }
   }
 
-  cout << "the matrix 2to be rotated:" << endl;
+  cout << "the matrix to be rotated:" << endl;
   //calling the function for displaying the initial matrix
   display(a, n);
   //calling the function for rotating the matrix
@@ -104,7 +104,7 @@ please enter the elements of your matrix to be Rotated:
 8
 9
 1
-the matrix 2to be rotated:
+the matrix to be rotated:
 234
 567
 891

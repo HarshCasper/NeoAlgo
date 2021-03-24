@@ -39,7 +39,7 @@ def main():
     for _ in range(int(input())):
         n=int(input())
         print(derangements(n))
- if __name__=='__main__':
+if __name__=='__main__':
     main()
 '''
 Sample Input

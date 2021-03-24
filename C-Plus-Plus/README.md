@@ -226,6 +226,7 @@
 - [Infix to Postfix conversion](stack/infixToPostfix.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
+- [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
 
 
 ## Heap based problems

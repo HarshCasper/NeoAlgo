@@ -1,6 +1,4 @@
 /*
-Author - Nikitha Reddy [Github ID - Nikitha2309]
-
 Introduction 
 Given a number determine whether it is even or odd, without using Arithmetic Operators
     

@@ -39,7 +39,7 @@ void display(int a[10][10], int n)
   {
     for (int j = 0; j < n; j++)
     {
-      cout << a[i][j];
+      cout << a[i][j]<<" ";
     }
     cout<<endl;
   }
@@ -85,11 +85,11 @@ please enter the elements of your matrix to be Rotated:
 3
 4
 the matrix to be rotated:
-12
-34
+1 2
+3 4
 the matrix after rotation:
-24
-13
+2 4
+1 3
 
 SAMPLE OUTPUT-2:
 enter the order for your square matrix:
@@ -105,13 +105,13 @@ please enter the elements of your matrix to be Rotated:
 9
 1
 the matrix to be rotated:
-234
-567
-891
+2 3 4
+5 6 7
+8 9 1
 the matrix after rotation:
-471
-369
-258
+4 7 1
+3 6 9
+2 5 8
 
 The time complexity of the code is O(N2) for an N × N matrix 
 and it doesn’t require any extra space therefore the space complexity is O(1).

@@ -40,6 +40,7 @@
 - [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
 - [Manacher Algorithm](./search/ManacherAlgorithm.js)
 - [Ternary Search](./search/ternary_search.js)
+- [Jump Search](./search/JumpSearch.js)
 
 ## Sorting
 
@@ -48,6 +49,8 @@
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)
 - [Merge Sort](./sort/MergeSort.js)
+- [Cycle Sort](./sort/CycleSort.js)
+- [Selection Sort](./sort/selectionSort.js)
 
 ## Machine Learning
 

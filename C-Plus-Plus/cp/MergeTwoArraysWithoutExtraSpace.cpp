@@ -1,11 +1,7 @@
 /*
 Given two sorted arrays arr1[] and arr2[] of sizes n and m in non-decreasing order. Merge them in sorted order without 
 using any extra space.
-Input: array1[] = {1, 4, 9, 10, 17, 25};
-       array2[] = {2, 3, 8, 12};
-Output: array1[] = {1, 2, 3, 4, 8, 9}
-        array2[] = {10, 12, 17, 25} 
- */
+*/
 
 
 #include <bits/stdc++.h>
@@ -110,6 +106,12 @@ int main()
 	return 0;
 }
 
+/*
+Input: array1[] = {1, 4, 9, 10, 17, 25};
+       array2[] = {2, 3, 8, 12};
+Output: array1[] = {1, 2, 3, 4, 8, 9}
+        array2[] = {10, 12, 17, 25} 
+ */
 /*   Time Complexity: O(m+n)
      Space Complexity: O(1)
 */

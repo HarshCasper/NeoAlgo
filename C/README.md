@@ -92,6 +92,7 @@
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
 - [Priority Queue using Linked List] (ds/Priority_Queue_using_Linked_List.c)
+- [Sorting the elements of a stack](ds/stack_sort.c)
 
 ## Searching
 

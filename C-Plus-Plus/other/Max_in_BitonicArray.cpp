@@ -62,7 +62,7 @@ int main()
 /*
 
     Time Complexity: O(Logn)
-    Auxilary Space  Complexity:
+    Auxilary Space  Complexity:O(1)
 
     Testcase '1':
     Input: arr[N] = {8, 10, 20, 80, 100, 200, 400, 500, 3, 2, 1}

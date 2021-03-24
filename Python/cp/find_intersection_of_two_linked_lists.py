@@ -1,39 +1,15 @@
-# Introduction 
-# There are two singly linked lists in a system
-# Write a program to get the point where two linked list merge. 
-# If they do not merge , print that the given lists do not merge
-# Example :
-#     Input :
-#         Enter the values of each node of Linked List 1 in order : 1 2 3 4 5 6 7
-#         Enter the values of each node of Linked List 2 in order : 5 4 3 4 5 6 7 
-#     Output :
-#         Example : ( Output to the above input example ) 
-#         Linked List 1 = 1->2->3->4->5->6->7->None
-#         Linked List 2 = 5->4->3->4->5->6->7->None
-#         The intersection point is 3
-
-# Purpose
-# To write the driver code that takes input and a 
-# function that finds the intersection of given two linked lists
-
-# Method
-# Calculate size of both given linked lists by counting no.of nodes 
-# and find difference between them , say d.
-# Now traverse the bigger list from the first node till d nodes 
-# so that from here onwards both the lists have equal no of nodes.
-# Then traverse both the lists in parallel till we come across a common node.
+'''
+Introduction 
+There are two singly linked lists in a system
+Write a program to get the point where two linked list merge. 
+If they do not merge , print that the given lists do not merge
         
-# Time/Space Complexity
-# Time Complexity : O(m+n)
-#   where m and n are size of two linked lists
-# Space Complexity : O(1)
-#   No additinal space is required
-
-# Argument/Return Type
-# Input are taken as two lists , 
-# contaning the data of each node of a Linked List inorder seperated by space 
-# Data of the interection node is printed as out put , if they intersect
-# If the given Linked Lists do not intersect, a statement which says that is printed
+Argument/Return Type
+Input are taken as two lists , 
+contaning the data of each node of a Linked List inorder seperated by space 
+Data of the interection node is printed as out put , if they intersect
+If the given Linked Lists do not intersect, a statement which says that is printed
+'''
 
 
 # Code / Solution
@@ -166,18 +142,26 @@ if __name__ == '__main__':
         print("The lists do not intersect.")            
         # If node is NONE , print that the given lists do not intersect
 
-# Sample Test Case      
+'''
+Sample Test Case      
 
-# Input Format : 
-# Example :
-# Enter the values of each node of Linked List 1 in order : 1 2 3 4 5 6 7
-# Enter the values of each node of Linked List 2 in order : 5 4 3 4 5 6 7   
+Input Format : 
+Example :
+Enter the values of each node of Linked List 1 in order : 1 2 3 4 5 6 7
+Enter the values of each node of Linked List 2 in order : 5 4 3 4 5 6 7   
 
-# Output Format :
-# Example : ( Output to the above input example ) 
-# Linked List 1 = 1->2->3->4->5->6->7->None
-# Linked List 2 = 5->4->3->4->5->6->7->None
-# The intersection point is 3
+Output Format :
+Example : ( Output to the above input example ) 
+Linked List 1 = 1->2->3->4->5->6->7->None
+Linked List 2 = 5->4->3->4->5->6->7->None
+The intersection point is 3
 
-# Corner Test Cases Result
-# Code works fine for all corner test cases tested , including null linked lists.
+Corner Test Cases Result
+Code works fine for all corner test cases tested , including null linked lists.
+
+Time/Space Complexity
+Time Complexity : O(m+n)
+  where m and n are size of two linked lists
+Space Complexity : O(1)
+  No additional space is required
+'''

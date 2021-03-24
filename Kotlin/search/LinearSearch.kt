@@ -6,9 +6,9 @@
 import java.util.*
 
 fun linearsearch(array:IntArray,number:Int){
-   //we use this variable to check if number is present or not
+   
    var i = 0 
-   //Here we iterate through the array and check if the number is there in the given list/array
+   //we iterate through the array
    for( index in array.indices ){ 
       if( array[index] == number){
          //print the number and at what index it is present
@@ -23,21 +23,19 @@ fun linearsearch(array:IntArray,number:Int){
 }     
       
 fun main(){
-      
-   //using the scanner obj to take system input
+   
    val scan = Scanner(System.`in`)
    print("Enter the number of elements :")
-   //Here we take the size of the input array/List
+   //Taking input from user
    val array = IntArray(scan.nextInt())
    print("Enter the elements :")
-   //Taking the elements and storing them in array
    for(element in array.indices){
      array[element] = scan.nextInt()
    } 
    print("Enter the number you want to search for :")
-   //The number we want to search for
    val number = scan.nextInt()
    scan.close()
+   //calling linearsearch function
    linearsearch(array,number)
 }
 /*

@@ -28,7 +28,7 @@
 _add list here_
 
 ## Competitive programming
-
+- [Day on particular date according to calendar](cp/Day_on_date.java)
 - [Maximum Function](cp/Maximum_Function.java)
 - [Jump Game](cp/Jump_Game.java)
 - [Remove Duplicate word from String](cp/Duplicate_word.java)

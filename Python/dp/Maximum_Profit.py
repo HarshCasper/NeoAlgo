@@ -67,12 +67,16 @@ def maxProfit(price, n):
 	return result
 
 # Driver function
-for _ in range(int(input())):
-    price = []
-    length=int(input())
-    price=list(map(int,input().split()))
-    print ("Maximum profit is", maxProfit(price,length),"\n")
+def main():
+    for _ in range(int(input())):
+        price = []
+        length=int(input())
+        price=list(map(int,input().split()))
+        print ("Maximum profit is", maxProfit(price,length),"\n")
 
+	
+if __name__=="__main__":
+    main()
 	
 	
 	

@@ -10,7 +10,9 @@ slowing down by small values at the end of a list.
 
 Time Complexity :
 Worst case complexity is O(n^2)
-Best Case complexity is O(n)
+Best Case complexity is O(n log n)
+
+Space Complexity: O(1)
 
 Argument/ Return Type:
 arr : Unorded list

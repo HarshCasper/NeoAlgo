@@ -7,8 +7,6 @@ An efficient solution to find the maximum element
 in bitonic array is by using binary search.
 Given an array of integers which is initially increasing
 and then decreasing, find the maximum value in the array.
-
-Time Complexity: O(Logn)
 */
 
 #include<bits/stdc++.h>
@@ -51,27 +49,33 @@ int findMax(int arr[],int low,int high){
 //Drivers' Code
 int main()
 {
-	int n;
-	cin>>n;
-	int arr[n];
-	for(int i=0;i<n;i++)
+	int size;
+   cout<<"Enter the size of the Array:";
+	cin>>size;
+	int arr[size]; //declaring the array 
+	cout<<"Enter the elements of the Array:";
+	for(int i=0;i<size;i++)
 	  cin>>arr[i];
-	cout<<"The maximum element is: "<<findMax(arr,0,n-1);
+	cout<<"The maximum element is: "<<findMax(arr,0,size-1)<<endl;
 	return 0;
 }
 /*
-Testcase '1':
-Input: arr[N] = {8, 10, 20, 80, 100, 200, 400, 500, 3, 2, 1}
-Output: 500
 
-Testcase '2':
-Corner case (No decreasing part)
-Input: arr[] = {10, 20, 30, 40, 50}
-Output: 50
+    Time Complexity: O(Logn)
+    Auxilary Space  Complexity:
 
-Testcase '3':
-Corner case (No increasing part)
-Input: arr[] = {120, 100, 80, 20, 0}
-Output: 120
+    Testcase '1':
+    Input: arr[N] = {8, 10, 20, 80, 100, 200, 400, 500, 3, 2, 1}
+    Output: 500
+
+    Testcase '2':
+    Corner case (No decreasing part)
+    Input: arr[] = {10, 20, 30, 40, 50}
+    Output: 50
+
+    Testcase '3':
+    Corner case (No increasing part)
+    Input: arr[] = {120, 100, 80, 20, 0}
+    Output: 120
 */
 

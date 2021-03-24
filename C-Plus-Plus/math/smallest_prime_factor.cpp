@@ -70,8 +70,6 @@ int main()
         int smallest_prime_factor = get_smallest_prime_factor(number);
         cout << "Smallest prime factor for this number is : " << endl;
         cout << smallest_prime_factor << endl;
-
-
     }
 }
 

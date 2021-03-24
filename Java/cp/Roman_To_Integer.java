@@ -18,7 +18,6 @@ class Solution {
         return 0;
     }
 
-    public static void main(String...ar){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Roman Numeral");
         String s= sc.next();

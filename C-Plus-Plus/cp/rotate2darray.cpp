@@ -6,7 +6,7 @@ This code is for Rotating an NxN 2D array in 90 degrees anticlockwise direction.
 using namespace std;
 
 //function to rotate the user  matrix anticlockwise
-void rotatematrix(int a[][1000], int n)
+void rotatematrix(int a[][10], int n)
 {
   //reversing each row
   for (int row = 0; row < n; row++)
@@ -32,7 +32,8 @@ void rotatematrix(int a[][1000], int n)
     }
   }
 }
-void display(int a[1000][1000], int n)
+//function for displaying the rotated 2darray/matrix
+void display(int a[10][10], int n)
 {
   for (int i = 0; i < n; i++)
   {
@@ -40,16 +41,22 @@ void display(int a[1000][1000], int n)
     {
       cout << a[i][j];
     }
+    cout<<endl;
   }
 }
 
+//driver function
 int main()
 {
-  int a[1000][1000];
+  int a[10][10];
+  //'n' here is declared for the order of your matrix
   int n;
-  //input order of matrix
+  //taking input for the order of matrix
+  cout << "enter the order for your square matrix:" << endl;
   cin >> n;
-  //input the matrix data
+
+  //taking input for the matrix data
+  cout << "please enter the elements of your matrix to be Rotated:" << endl;
   for (int i = 0; i < n; i++)
   {
     for (int j = 0; j < n; j++)
@@ -58,26 +65,53 @@ int main()
     }
   }
 
+  cout << "the matrix 2to be rotated:" << endl;
+  //calling the function for displaying the initial matrix
+  display(a, n);
+  //calling the function for rotating the matrix
   rotatematrix(a, n);
+  cout << "the matrix after rotation:" << endl;
+  //calling the function for displaying the rotated matrix
   display(a, n);
 }
-/*EXECUTION:
-SAMPLE INPUT:
-3
-4
-3
-2
-6
-5
-4
-7
-6
-5
+/*EXECUTION:-
 
-SAMPLE OUTPUT:
-245
-356
-467
+SAMPLE OUTPUT-1:
+enter the order for your square matrix:
+2
+please enter the elements of your matrix to be Rotated:
+1
+2
+3
+4
+the matrix to be rotated:
+12
+34
+the matrix after rotation:
+24
+13
+
+SAMPLE OUTPUT-2:
+enter the order for your square matrix:
+3
+please enter the elements of your matrix to be Rotated:
+2
+3
+4
+5
+6
+7
+8
+9
+1
+the matrix 2to be rotated:
+234
+567
+891
+the matrix after rotation:
+471
+369
+258
 
 The time complexity of the code is O(N2) for an N × N matrix 
 and it doesn’t require any extra space therefore the space complexity is O(1).

@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include<string.h>
 using namespace std;
 
 //This function is used for checking whether a word is present in our array or not
@@ -38,14 +39,18 @@ void BreakWords(string str){
 }
 
 int main() {
-
-    BreakWords("microsofthiring");
+    string s;
+    cin>>s;
+    BreakWords(s);
     return 0;
 }
 
 //eg.
-//input - ilovecoding
-//output - i love coding
-
+//input - microsofthiring
+//output - 
+// micro soft hi ring
+// micro soft hiring
+// microsoft hi ring
+// microsoft hiring
 //Time Complexity - O(n2)
 //Space Complexity - O(1)

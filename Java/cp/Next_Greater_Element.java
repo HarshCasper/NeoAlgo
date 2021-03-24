@@ -12,7 +12,7 @@
   		3. If (array[i] < array[j]) is false for every element of the array then we initialize new_array by -1
   		4. After traversing the whole array we get the new_array[] and printing it gives us the
            result
-*/
+ */
 
 import java.util.Scanner;
 
@@ -21,17 +21,17 @@ public class NextGreaterElement {
 	//next_greater_element method
 	public static void next_greater_element(int[] array, int n, int[] new_array) {
 
-  OUTER_LOOP : for(int i = 0 ; i < n ; i++) {
+		OUTER_LOOP : for(int i = 0 ; i < n ; i++) {
 
-  INNER_LOOP : for(int j = i + 1 ; j < n ; j++) {
-                     //Checking condition
-   	  	 if(array[i] < array[j]) {
-  	    		new_array[i] = array[j];
-	   		  	continue OUTER_LOOP;
-	 			  	}
-				  }
-		  new_array[i] = -1;
-		  }
+			INNER_LOOP : for(int j = i + 1 ; j < n ; j++) {
+				//Checking condition
+				if(array[i] < array[j]) {
+					new_array[i] = array[j];
+					continue OUTER_LOOP;
+				}
+			}
+	new_array[i] = -1;
+		}
 	}
 	//main method
 	public static void main(String[] args) {
@@ -69,9 +69,10 @@ public class NextGreaterElement {
      Output : Result : 34 54 62 62 -1
 
  - Complexity Analysis :
-    *  Time Complexity : O(n^2)
+ *  Time Complexity : O(n^2)
            We are using nested loops, so it iterates maximum 'n^2' times while traversing for loop
 
-    *  Space Complexity : O(n)
+ *  Space Complexity : O(n)
            Auxiliary space : O(n)  +  input space : O(n)
-*/
+ */
+  

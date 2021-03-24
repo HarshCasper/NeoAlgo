@@ -265,6 +265,7 @@ _add list here_
 
 - [Check Kth Bit is Set or Not](Bit--Manipulation/Check_kth_bit_is_set_or_not.cpp)
 - [Count Number of Set Bits](Bit--Manipulation/Count_no_of_set_bits.cpp)
+- [Max_XOR_of_Two_Array](Bit--Manipulation/Max_XOR_of_Two_Array.cpp)
 - [Brian_Kernighan's Algorithm](Bit--Manipulation/Brian_Kernighan's_Algorithm.cpp)
 - [Power of 2](Bit--Manipulation/Power_of_2.cpp)
 - [One odd occuring](Bit--Manipulation/One_odd_occuring.cpp)

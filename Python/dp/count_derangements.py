@@ -35,9 +35,12 @@ def derangements(n):
         d[i]=(i-1)*(d[i-1]+d[i-2])
     return d[n]
 #Driver code 
-for _ in range(int(input())):
-    n=int(input())
-    print(derangements(n))
+def main():
+    for _ in range(int(input())):
+        n=int(input())
+        print(derangements(n))
+ if __name__=='__main__':
+    main()
 '''
 Sample Input
 1

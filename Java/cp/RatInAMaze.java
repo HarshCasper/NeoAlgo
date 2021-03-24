@@ -86,4 +86,7 @@ Sample 2
 0 1 0 1
 
 0    (Output)
+
+Time Complexity = O(2^(n^2))
+Space Complexity = O(n^2)
 */

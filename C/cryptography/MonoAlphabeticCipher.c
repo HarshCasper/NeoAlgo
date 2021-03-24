@@ -5,17 +5,14 @@
 #include<stdio.h>
 #include<string.h>
 
+//this is the encription function
 void monoalphebaticcipher(char input[100],int size){
      
-     //this where we store output 
      char output[size-1]; 
-     //this is the list which we use to cipher 
      char cipherer[26] = {'Z','Y','X','W','V','U','T','S','R','Q','P','O','N','M','L','K','J','I','H','G','F','E','D','C','B','A'};     
-     //the list we use to check which alphebatic we recieved in plain text
      char list[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o','p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};  
-     //we use this char to compare the space charecter
      char space = ' ';
-     //this is where we iterate and check what alphabetic is in input and then replace ii with its corresponding cipher
+     //iterate through input and cipher the plane text as output
      for(int i=0;i<size-1;i++){     
          for(int j=0;j<26;j++){
              if(input[i]==list[j])
@@ -25,7 +22,6 @@ void monoalphebaticcipher(char input[100],int size){
          } 
      } 
   
-     //printing out the cipher text
      printf("The Cipher text :");
      for(int j=0;j<size-1;j++)
          printf("%c",output[j]);  
@@ -33,12 +29,12 @@ void monoalphebaticcipher(char input[100],int size){
 
 int main(void){
 
-     //we store input here
      char input[100];
      printf("Give the plain text here in small letters :");
-     //we take input here
+     //Taking input from user
      fgets(input,100,stdin);
      int size = strlen(input);
+     //calling monoalphabeticcipher
      monoalphebaticcipher(input,size);
      return 0;
 }

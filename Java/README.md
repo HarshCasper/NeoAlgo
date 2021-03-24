@@ -174,6 +174,7 @@ _add list here_
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
+- [Chinese Remainder Theorem](math/Chinese_Remainder_Theorem.java)
 
 ## Dynamic Programming
 

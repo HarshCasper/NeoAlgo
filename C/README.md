@@ -108,6 +108,7 @@
 - [Bead Sort](sort/beadSort.c)
 - [Heap Sort](sort/HeapSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
+- [Circle Sort](sort/circle_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)

@@ -36,3 +36,15 @@ class Solution {
         
     }
 }
+
+/*
+   Time Complexity is O(n)
+   Space Complexity is O(n)
+
+   
+   Input: s = "III"
+   Output: 3  
+
+  
+ */ 
+

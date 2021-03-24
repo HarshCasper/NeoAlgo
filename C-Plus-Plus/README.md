@@ -30,6 +30,7 @@
 - [Find First and Last position index of an element in an array](cp/find_first_and_last_position_index_of_a_number_in_array.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
+- [Find Single Occurring element from an array](cp/find_single_occuring_element.cpp)
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Josephus Problem](cp/Josephus.cpp)
@@ -78,6 +79,7 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
+- [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
 
 ## Data Structures
@@ -91,6 +93,7 @@
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Circular Linkedlist](ds/Circular_LinkedList.cpp)
+- [Diameter of Binary Tree](ds/Diameter_BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
@@ -121,7 +124,7 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
-- [Ascending Priority Queue] (ds/Ascending_priority_queue.cpp)
+- [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
 - [Descending Priority Queue](ds/Descending_priority_queue.cpp)
@@ -231,6 +234,7 @@
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
 - [K Closest Points to Origin](heap/K_Closest_Points_to_Origin.cpp)
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
+- [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 
 ## Machine Learning
@@ -316,6 +320,7 @@ _add list here_
 - [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
 - [Reverse Bits](Bit--Manipulation/reverse_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 
 ## Blockchain
 
@@ -334,6 +339,7 @@ _add list here_
 ## Computational Geometry
 
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
+- [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.cpp)
 
 ## Other
 

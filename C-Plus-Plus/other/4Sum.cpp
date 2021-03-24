@@ -37,13 +37,16 @@ void findFourElements(int a[], int n, int sum) {
 	}
 }
 
-
+//Drivers Code
 int main() {
-	int n;
+	int n; // Size of array
+	cout<<"Enter the size of array: ";
 	cin >> n;
 	int sum;
+	cout<<"Enter the required Sum: ";
 	cin >> sum;
-	int a[n];
+	int a[n]; 
+	cout<<"Enter the elements of the Array: ";
 	for (int i = 0; i < n; i++)
 		cin >> a[i];
 	findFourElements(a, n, sum);

@@ -1,22 +1,27 @@
 /*
-C Program to check whether a number is Palindrome or not
-An integer is a palindrome if the reverse of that number is equal to the original number.
-Example of Palindromes are 11,44,101,121,
+Check palindrome words using double linked list in C
+
+Input:
+aabbaa
+
+Output:
+aabbaa is palindrome
 */
- #include <stdio.h>
+
+#include <stdio.h>
 #include <stdlib.h>
 
-typedef struct node{
-    short num;
+   struct node{
+    char num;
     struct node *next;
     struct node *prev;
 } node;
 
-typedef node* ptrNode;
+typedef struct node* ptrNode;
 typedef enum {false,true} bool;
 
 //Init a new Node
-ptrNode getNode(short n){
+ptrNode getNode(char n){
     ptrNode newNode = (ptrNode)malloc(sizeof(node));
     newNode->next = newNode->prev = NULL;
     newNode->num = n;
@@ -24,7 +29,7 @@ ptrNode getNode(short n){
 }
 
 //Append a new value
-void appendNode(ptrNode *s, ptrNode *e, short n){
+void appendNode(ptrNode *s, ptrNode *e, char n){
     ptrNode newNode = getNode(n);
 
     if(*s){
@@ -59,20 +64,15 @@ void freeMemory(ptrNode *s, ptrNode *e){
 
 int main(){
     ptrNode start = NULL, end = NULL;//Start and End double linked list
-    long n; //number to test
+    char n[100]; //number to test
 
-    printf("Insert a number:\n");
-    scanf("%ld",&n);
-    for(int k = n; k; k/=10)
-        appendNode(&start,&end,(short)(k%10));
+    printf("Insert a string:\n");
+    scanf("%s",n);
+    for(char* k =n; *k!='\0'; k++)
+        appendNode(&start,&end,*k);
 
-    printf("\n\n%ld %s palindrome", n, (verifyPalindromeDoubleLinkList(start,end))?"is":"isn't");
+    printf("\n\n%s %s palindrome", n, (verifyPalindromeDoubleLinkList(start,end))?"is":"isn't");
     freeMemory(&start,&end);
 
     return EXIT_SUCCESS;
 }
-
-/*
-Time Complexity: O(n)
-Space Complexity: O(1)
-*/

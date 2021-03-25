@@ -1,3 +1,19 @@
+/*
+ *         Description
+ *      
+ *   Problem:  Finding median of two sorted array
+ *  
+ * we will have two sorted arrays of size N and M respectively and element in array, which can be duplicated.
+ * we will find median of array without merging the two arrays.
+ * example:  A = [1, 5, 8]
+ *           B = [1,2, 3,9]
+ *          merged : [1,2,3,4,5]  (If we merge, we have to use extra space)
+ *          output : 3.0
+ *          
+ *  If we merge the job is so simple. In this case TC O(N+M) , SC O(N+M)
+ *  but we will apply binary search which will do it in TC O(log(max-min)*(logm+logn)), SC O(1).    
+ * 
+ */
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

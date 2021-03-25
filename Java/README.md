@@ -29,6 +29,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Next Greater Element](cp/Next_Greater_Element.java)
 - [Maximum Function](cp/Maximum_Function.java)
 - [Jump Game](cp/Jump_Game.java)
 - [Remove Duplicate word from String](cp/Duplicate_word.java)
@@ -110,6 +111,7 @@ _add list here_
 - [Flood Fill Algorithm](dp/flood_fill.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Make String Palindrome](dp/Make_string_palindrome_using_DP.java)
+- [Optimal Binary Search Tree](dp/Optimal_Binary_Search_tree_using_DP.java)
 
 ## Data Structures
 
@@ -131,7 +133,7 @@ _add list here_
 - [Sparse Matrices](ds/SparseMatrices.java)
 - [Sparse Matrix](ds/SparseMatrix.java)
 - [Stack ~ Linked List Implementation](ds/Stack.java)
-- [Stack](ds/Stackll.java) Implementation-of-queue-using-stack
+- [Stack Implementation-of-queue-using-stack](ds/Stackll.java)
 - [Implementation of Stack using Queue](ds/StackUsingQueue.java)
 - [Tree Traversal(preorder traversal)](ds/preOrderTraversal.java)
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
@@ -175,6 +177,7 @@ _add list here_
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
+- [Roots of Quadratic Equation](Quadratic_Equation.java)
 
 ## Dynamic Programming
 

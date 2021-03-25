@@ -122,17 +122,19 @@ class DoublyLinkedList {
     return this;
   }
 
+  // Removing the element node form doubly linked list
   remove(index) {
-    if (this.length === 1) {
+    if (this.length === 1) { // If length of doublyLL is one
       this.head = null;
       this.tail = this.head;
-    } else if (index === 1) {
+    } else if (index === 1) { // If entered position is one 
       this.head = this.head.next;
       this.head.prev = null;
-    } else if (index === this.length) {
+    } else if (index === this.length) { // If entered postion is equal to the length of doublyLL
       this.tail = this.tail.prev;
       this.tail.next = null;
-    } else {
+    } else { // for the rest of cases
+      //Traverse to that particular index of element 
       let currentNode = this.traverseToIndex(index - 1);
       currentNode.next.next.prev = currentNode;
       currentNode.next = currentNode.next.next;

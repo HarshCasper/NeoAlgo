@@ -49,6 +49,7 @@
 - [Keyword Cipher](cryptography/Keyword_Cipher.c)
 - [Rail Fence Cipher](cryptography/railFenceCipher.c)
 - [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
+- [Hill Cipher](cryptography/Hill_Cipher.c)
 
 ## Data Structures
 

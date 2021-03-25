@@ -25,9 +25,9 @@
 
 using namespace std;
 
-typedef struct point                    //structure for the coordinates
+typedef struct point      //structure for the coordinates
 {
-   double x,y;                         // comparison is done first on y coordinate and then on x coordinate.
+   double x,y;           // comparison is done first on y coordinate and then on x coordinate.
 } 
 point;
 

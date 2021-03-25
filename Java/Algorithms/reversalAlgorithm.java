@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class ReversalAlgorithm {
 
-	/* In this algorithm, arrays are divided into subarrays and reversed individually, and joined together. In the 
-		final step, the array is reversed to get the rotated array. */
+	/* In this algorithm, arrays are divided into subarrays and reversed individually, and joined together. In the final step, the array is reversed to get the rotated array. */
 
 	private static void leftReversal(int[] array, int k) {
 		if (k == 0) 
@@ -85,5 +84,3 @@ Output:
 3 4 5 6 7 1 2 -> after left rotation of original array
 1 2 3 4 5 6 7 -> after right rotation of left rotated array
 */
-
-

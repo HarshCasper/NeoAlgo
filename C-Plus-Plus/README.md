@@ -21,6 +21,7 @@
 - [Check Anagrams](cp/check_anagrams.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
+- [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
@@ -218,8 +219,6 @@
 
 ## Stack based problems
 
--[Infix to Postfix Conversiion](../C/stack/Infix_to_Postfix.c)
-
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
@@ -257,6 +256,7 @@ _add list here_
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
+- [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
@@ -309,6 +309,7 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
+- [Tiling 2 x N](dp/Tiling_2xN.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 
@@ -354,6 +355,7 @@ _add list here_
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Dynamic Huffman](other/DynamicHuffman.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
+- [Distinct Subsets of a Set](other/distinct_subsets_of_set.cpp)
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find duplicate elements from an array](other/find_duplicate_elements_from_an_array.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)

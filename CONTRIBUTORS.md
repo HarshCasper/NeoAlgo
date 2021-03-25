@@ -206,6 +206,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://suvraneel.github.io"><img src="https://avatars.githubusercontent.com/u/63473496?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Suvraneel Bhuin</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Suvraneel" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/somya51p"><img src="https://avatars.githubusercontent.com/u/64978837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Somya Prajapati</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=somya51p" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kavyasree-123"><img src="https://avatars.githubusercontent.com/u/61260505?v=4?s=100" width="100px;" alt=""/><br /><sub><b>devara khurma venkata kavyasree</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=kavyasree-123" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/SaloniSwagata"><img src="https://avatars.githubusercontent.com/u/48403803?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saloni Swagata</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=SaloniSwagata" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Amanduttbhagat"><img src="https://avatars.githubusercontent.com/u/71687328?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Amanduttbhagat</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Amanduttbhagat" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kotwani2883"><img src="https://avatars.githubusercontent.com/u/56580582?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Palak Kotwani</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=kotwani2883" title="Code">💻</a></td>
   </tr>
 </table>
 

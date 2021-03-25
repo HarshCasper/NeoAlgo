@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -30,11 +30,13 @@
 - [Find First and Last position index of an element in an array](cp/find_first_and_last_position_index_of_a_number_in_array.cpp)
 - [Find number of digits in an integer](cp/find_no_of_digits_in_int.cpp)
 - [Find leftmost non repeating character in string](cp/Leftmostnonrepeatingchar.cpp)
+- [Find Single Occurring element from an array](cp/find_single_occuring_element.cpp)
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
 - [Josephus Problem](cp/Josephus.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
+- [Long Factorials using Vectors](cp/long_factorials.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
@@ -77,6 +79,9 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
+- [Aggressive cows](cp/aggressive_cows.cpp)
+- [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
+- [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
 
 
 ## Data Structures
@@ -90,7 +95,9 @@
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Circular Linkedlist](ds/Circular_LinkedList.cpp)
+- [Diameter of Binary Tree](ds/Diameter_BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
+- [Double Ended Queue](ds/Double_Ended_Queue.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
 - [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
@@ -99,6 +106,7 @@
 - [Linked List](ds/LinkedList.cpp)
 - [Max and Min heap Implementation](ds/max_min_heap.cpp)
 - [Nodes At A Distance K From A Given Target Node In A Binary Tree](ds\K_Distance_Nodes_Binary_Tree.cpp)
+- [Prims Algorithm](ds/prims_algo.cpp)
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Queue](ds/queue.cpp)
 - [Queue Linked List](ds/QueueLinkedList.cpp)
@@ -119,12 +127,18 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+- [Flattening binary tree into Linkedlist in-place](ds/linkedlisttree.cpp)
+- [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 <<<<<<< HEAD
 =======
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+<<<<<<< HEAD
 
 >>>>>>> 7a23ced16819da3d93d5f7035639a98ceedcb205
+=======
+- [Descending Priority Queue](ds/Descending_priority_queue.cpp)
+>>>>>>> 2a8a7c9f6f16aaaf3a10dab8ebff1e75d75ad6c8
 
 ## Graphs
 
@@ -212,9 +226,11 @@
 ## Stack based problems
 
 -[Infix to Postfix Conversiion](../C/stack/Infix_to_Postfix.c)
+
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
+- [Maximum possible length of balanced bracket sequence](stack/maximum_size_of_balanced_bracket_sequence.cpp)
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 - [Previous Greater Element](stack/Previous_Greater_Element.cpp)
@@ -222,7 +238,7 @@
 - [Infix to Postfix conversion](stack/infixToPostfix.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
-
+- [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
 
 ## Heap based problems
 
@@ -230,6 +246,7 @@
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
 - [K Closest Points to Origin](heap/K_Closest_Points_to_Origin.cpp)
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
+- [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 
 ## Machine Learning
@@ -279,8 +296,7 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
-- [Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)
-- [[Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)]
+- [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
@@ -300,6 +316,8 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
+- [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
+- [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 
 ## Bit - Manipulation
 
@@ -313,7 +331,7 @@ _add list here_
 - [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
 - [Reverse Bits](Bit--Manipulation/reverse_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
-
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 
 ## Blockchain
 
@@ -332,6 +350,7 @@ _add list here_
 ## Computational Geometry
 
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
+- [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.cpp)
 
 ## Other
 
@@ -364,4 +383,6 @@ _add list here_
 - [Set Clear and Check bits](other/check_set_clear_bit.cpp)
 - [Iterative approach to print all subsets](other/subsets_iterative.cpp)
 - [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)
-
+- [Concatenate given strings](other/n_string_concatenate.cpp)
+- [Trapping Rainwater](other/trappingRainwater.cpp)
+- [4Sum](other/4Sum.cpp)

@@ -60,6 +60,7 @@
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
+- [Find Intersection of Two Given Linked Lists](cp/find_intersection_of_two_linked_lists.py)
 
 
 ## Cryptography
@@ -71,7 +72,11 @@
 - [Burrows Wheeler transform (BWT)](cryptography/Burrows_Wheeler_transform.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
 - [AES Algorithm](cryptography/AES.py)
+- [Playfair Cipher](cryptography/Playfair_Cipher.py)
 - [Keyword Cipher](cryptography/Keyword_Cipher.py)
+- [Vernam Cipher](cryptography/Vernam_Cipher.py)
+- [Columnar Cipher](cryptography/Columnar_Cipher.py)
+- [Rail Fence Cipher](cryptography/Rail_Fence_Cipher.py)
 
 ## Searching
 
@@ -108,6 +113,7 @@
 - [Topological Sort](sort/topological_sort.py)
 - [Sleep Sort](sort/Sleep_sort.py)
 - [Bucket Sort](sort/Bucket_sort.py)
+- [Wiggle Sort](sort/Wiggle_sort.py)
 
 ## Backtracking
 
@@ -133,6 +139,8 @@
 - [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
+- [Count Derangements](dp/count_derangements.py)
+- [Maximum Profit](dp/Maximum_Profit.py)
 
 ## Pathfinding Algorithms
 
@@ -140,7 +148,7 @@
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
-- [A\*(Astar) in Maze](Pathfinding/2D_Astar.py)
+- [A* (Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
 

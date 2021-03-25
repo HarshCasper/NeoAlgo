@@ -271,6 +271,7 @@ _add list here_
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
+- [Sieve of Eratosthenes Boolean Method](math/sieve_of_eratosthenes_boolean_method)
 
 ## Dynamic Programming
 

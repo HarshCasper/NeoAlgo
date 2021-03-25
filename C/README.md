@@ -37,6 +37,7 @@
 - [Stock Span Problem](cp/Stock_Span.c)
 - [Bulb Switcher problem](cp/bulbSwitch.c)
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
+- [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 
 ## Cryptography
 
@@ -47,6 +48,7 @@
 - [Columnar Cipher](cryptography/Columnar_Cipher.c)
 - [Keyword Cipher](cryptography/Keyword_Cipher.c)
 - [Rail Fence Cipher](cryptography/railFenceCipher.c)
+- [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
 
 ## Data Structures
 
@@ -90,6 +92,7 @@
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
 - [Priority Queue using Linked List] (ds/Priority_Queue_using_Linked_List.c)
+- [Sorting the elements of a stack](ds/stack_sort.c)
 
 ## Searching
 

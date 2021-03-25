@@ -29,10 +29,8 @@ using namespace std;
         return maxi;    //maximum sum of subarrays
     }
 
-
 int main()
 {
-
         int N;               // length of array
         cin>>N;
         vector<int> A(N);

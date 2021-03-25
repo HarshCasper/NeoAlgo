@@ -285,7 +285,6 @@ _add list here_
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
-- [[Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)]
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
@@ -370,4 +369,8 @@ _add list here_
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
 - [Set Clear and Check bits](other/check_set_clear_bit.cpp)
+- [Iterative approach to print all subsets](other/subsets_iterative.cpp)
+- [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)
+- [Concatenate given strings](other/n_string_concatenate.cpp)
+- [Trapping Rainwater](other/trappingRainwater.cpp)
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)

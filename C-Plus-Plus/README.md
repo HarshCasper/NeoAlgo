@@ -79,6 +79,7 @@
 - [Ancestors in Binary Search Tree](ds/ancestors_of_given_number_BST.cpp)
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
+- [Linear Probing in hashtable](ds/linear_probing.cpp)
 
 ## Graphs
 

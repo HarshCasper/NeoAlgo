@@ -1,12 +1,16 @@
 /* This Program is to check the Orientation of three given points on a 2-D plane
      i.e, a) Counter-Clockwise
           b) Clockwise
-          c) Collinear */
+          c) Collinear
+ Based on the slope, we can categorize the orientation of the three points.
+ If the slope of line segment (a,b)> slope of line segment (b,c), then the orientation is clockwise or right turn
+ and vice versa for counter - clockwise or left turn.
+ When the three points are collinear, the slope of both the lines are equal*/
 
 
 
 
-#include<iostream>  //header files for the code
+#include<iostream>  
 #include<cstdio>
 using namespace std;
 
@@ -32,7 +36,8 @@ int CheckOrientation(int x1, int y1, int x2, int y2, int x3, int y3) {
 int main()
 {
     int x1, y1, x2, y2, x3, y3;
-    cout << "Input the desired values for point a, point b, point c to check their Orientation \n";  // To input the desired values
+     //To input the desired values.
+    cout << "Input the desired values for point a, point b, point c to check their Orientation \n";
     cout << "Input x and y values for point a" << endl;
     cin >> x1 >> y1;
     cout << "Input x and y values for point b" << endl;
@@ -40,8 +45,8 @@ int main()
     cout << "Input x and y values for point c." << endl;
     cin >> x3 >> y3;
 
-
-    int result = CheckOrientation(x1, y1, x2, y2, x3, y3);                   //calling the function for checking the orientation
+//calling the function for checking the Orientation.
+    int result = CheckOrientation(x1, y1, x2, y2, x3, y3);                   
     if (result > 0) {
         cout << "Orientation : Counter-Clockwise." << endl;
     }
@@ -68,14 +73,4 @@ Sample Input :Input the desired values for point a, point b, point c to check th
                 4 4
                 Input x and y values for point c
                 1 1
- Sample Output : Orientation : Collinear
-
-   Test Case 2:
-Sample Input :Input the desired values for point a, point b, point c to check their Orientation
-                  Input x and y values for point a
-                  0 0
-                  Input x and y values for point b
-                  4 4
-                  Input x and y values for point c
-                 -1 1
- Sample Output : Orientation : Counter-Clockwise */
+ Sample Output : Orientation : Collinear */

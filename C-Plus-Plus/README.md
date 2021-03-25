@@ -277,6 +277,7 @@ _add list here_
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
+- [Unique Number](math/Unique_Number.cpp)
 
 ## Dynamic Programming
 

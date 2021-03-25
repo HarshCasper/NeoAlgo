@@ -65,9 +65,6 @@ void print(HashTable ht)
 
 int main()
 {
-
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-
     HashTable ht = (int *)malloc(sizeof(int) * SIZE);
     for (int i = 0; i < SIZE; i++)
         *(ht + i) = 0;

@@ -1,14 +1,14 @@
-// C++ program to sort integers w.r.t the number of set bits present in thier binary equivalence
+// C++ program to sort integers by the number of set bits present in their binary equivalence
 /*
 Given an integer array of numbers, We have to sort these integers in the ascending order by the 
-number of set bits(1's) present in thier binary equivalence. In case two integers have equal 
+number of set bits(1's) present in their binary equivalence. In case two integers have equal 
 number of set bits we have to sort them in ascending order of magnitude.
 */
 
 #include <bits/stdc++.h>
 using namespace std;
 
-/* We modify the compare method to sort the numbers w.r.t thier number of set bits */
+/* We modify the compare method to sort the numbers w.r.t their number of set bits */
 static bool compare(const int &a, const int &b)
 {
     /* count stores the number of set bits
@@ -27,7 +27,7 @@ static bool compare(const int &a, const int &b)
         count_b_1++;
     }
 
-    // If thier counts are equal, check thier magnitude.
+    // If their counts are equal, check their magnitude.
     if (count_a_1 == count_b_1)
         return a < b;
     return count_a_1 < count_b_1;

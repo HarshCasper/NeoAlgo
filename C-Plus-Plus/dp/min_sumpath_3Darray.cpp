@@ -1,13 +1,12 @@
-// From a 3-D array arr[l][m][n],
-//  finding the minimum path sum from the first cell of array to the last cell of array. We can only traverse to adjacent element.
+/*From a 3-D array arr[l][m][n],
+ finding the minimum path sum from the first cell of array to the last cell of array. We can only traverse to adjacent element.
 
-// Examples:
+Examples:
 
-// Input : arr[][][]= { {{1, 2}, {3, 4}},
-//                      {{4, 8}, {5, 2}} };
-// Output : 9
-// Explanation : arr[0][0][0] + arr[0][0][1] +
-//               arr[0][1][1] + arr[1][1][1]
+Input : arr[][][]= { {{1, 2}, {3, 4}},
+                     {{4, 8}, {5, 2}} };
+Output : 9
+Explanation : arr[0][0][0] + arr[0][0][1] + arr[0][1][1] + arr[1][1][1] */
 
 
 #include<bits/stdc++.h>
@@ -90,7 +89,7 @@ int main()
 }
 
 
-// Output :
-// 20
-// Time Complexity : O(l*m*n)
-// Auxiliary Space : O(l*m*n)
+/* Output :20
+
+Time Complexity : O(l*m*n)
+Auxiliary Space : O(l*m*n) */

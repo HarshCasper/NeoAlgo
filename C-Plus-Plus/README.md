@@ -218,6 +218,8 @@
 
 ## Stack based problems
 
+
+
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
@@ -230,7 +232,6 @@
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
-
 
 ## Heap based problems
 
@@ -288,8 +289,7 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
-- [Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)
-- [[Maximum Subarray Sum (Constant Space)](dp/Max_subarray_sum_constant_space(DP).cpp)]
+- [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
@@ -325,7 +325,6 @@ _add list here_
 - [Reverse Bits](Bit--Manipulation/reverse_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
-
 
 ## Blockchain
 
@@ -379,3 +378,4 @@ _add list here_
 - [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)
 - [Concatenate given strings](other/n_string_concatenate.cpp)
 - [Trapping Rainwater](other/trappingRainwater.cpp)
+- [4Sum](other/4Sum.cpp)

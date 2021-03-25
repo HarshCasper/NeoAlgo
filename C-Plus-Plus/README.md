@@ -21,6 +21,7 @@
 - [Check Anagrams](cp/check_anagrams.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
+- [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
@@ -79,8 +80,10 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
+- [Aggressive cows](cp/aggressive_cows.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+
 
 ## Data Structures
 
@@ -95,6 +98,7 @@
 - [Circular Linkedlist](ds/Circular_LinkedList.cpp)
 - [Diameter of Binary Tree](ds/Diameter_BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
+- [Double Ended Queue](ds/Double_Ended_Queue.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
 - [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
@@ -124,6 +128,7 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+- [Flattening binary tree into Linkedlist in-place](ds/linkedlisttree.cpp)
 - [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
@@ -214,8 +219,6 @@
 
 ## Stack based problems
 
--[Infix to Postfix Conversiion](../C/stack/Infix_to_Postfix.c)
-
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
@@ -227,6 +230,7 @@
 - [Infix to Postfix conversion](stack/infixToPostfix.cpp)
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
+- [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
 
 ## Heap based problems
 
@@ -304,6 +308,7 @@ _add list here_
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
+- [Tiling 2 x N](dp/Tiling_2xN.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 
@@ -318,6 +323,7 @@ _add list here_
 - [Two odd occuring](Bit--Manipulation/Two_odd_occuring.cpp)
 - [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
 - [Reverse Bits](Bit--Manipulation/reverse_bits.cpp)
+- [Sort integers by the number of set bits present in them](Bit--Manipulation/sort_integers_by_their_number_of_set_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 

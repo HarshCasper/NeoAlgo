@@ -29,6 +29,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Next Greater Element](cp/Next_Greater_Element.java)
 - [Maximum Function](cp/Maximum_Function.java)
 - [Jump Game](cp/Jump_Game.java)
 - [Remove Duplicate word from String](cp/Duplicate_word.java)
@@ -175,6 +176,7 @@ _add list here_
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
+- [Roots of Quadratic Equation](Quadratic_Equation.java)
 
 ## Dynamic Programming
 

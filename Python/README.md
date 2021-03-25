@@ -60,6 +60,7 @@
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
+- [Find Intersection of Two Given Linked Lists](cp/find_intersection_of_two_linked_lists.py)
 
 
 ## Cryptography
@@ -75,6 +76,7 @@
 - [Keyword Cipher](cryptography/Keyword_Cipher.py)
 - [Vernam Cipher](cryptography/Vernam_Cipher.py)
 - [Columnar Cipher](cryptography/Columnar_Cipher.py)
+- [Rail Fence Cipher](cryptography/Rail_Fence_Cipher.py)
 
 ## Searching
 
@@ -137,6 +139,8 @@
 - [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
+- [Count Derangements](dp/count_derangements.py)
+- [Maximum Profit](dp/Maximum_Profit.py)
 
 ## Pathfinding Algorithms
 

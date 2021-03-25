@@ -7,63 +7,49 @@
     <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
 </p>
 
-# Codes in the Golang language
-
-## Blockchain
-
-_add list here_
-
-## Sorting
-
-* [Bubble Sort](./sort/bubbleSort.go)
-* [Counting Sort](./sort/countingSort.go)
-* [Insertion Sort](./sort/insertionSort.go)
-* [Merge Sort](./sort/mergeSort.go)
-* [Merge Sort Sequential](./sort/merge_sort_sequential.go)
-* [Merge Sort Parallel](./sort/merge_sort_parallel.go)
-* [Quick Sort](./sort/quickSort.go)
-* [Selection Sort](./sort/selectionSort.go)
-* [Radix Sort](./sort/radixSort.go)
-
-## Competitive Programming
-
-- [Target Sum Triplets](./cp/target_sum_triplets.go)
-
-## Cryptography
-
-_add list here_
-
-## Data Structures
-
-- [Inorder Tree Traversal](ds/inorder_traversal_binarytree.go)
-- [Queue using Stack](./ds/queue_using_stack.go)
-- [Singly Linked List](./ds/singly_linked_list.go)
-- [Singly Linked List ~ Reversable](./ds/singly_linked_list_reversed.go)
-- [Stack](./ds/Stack.go)
-- [Stack using Queue](./ds/stack_using_queue.go)
+# Codes in the Go language
+## Counting
+- [Target Sum Triplets](cp/target_sum_triplets)
 
 ## Dynamic Programming
+- [Coin Change](dp/coin_change)
+- [Longest Common Subsequence](dp/longest_common_subsequence)
+- [Longest Substring](dp/longest_substring)
+- [Stack](dp/stack)
 
-- [Stack](dp/stack.go)
-- [Longest Substring without Repeating Characters](./dp/longest_substring.go)
-
-## Machine Learning
-
-_add list here_
+## Data Structures
+- [Binary Tree](ds/binary_tree)
+- [Inorder Traversal Binary Tree](ds/binary_tree/inorder_traversal_binary_tree)
+- [Singly Linked List](ds/linked_list/singly_linked_list)
+- [Singly Linked List Reversed](ds/linked_list/singly_linked_list_reversed)
+- [Queue](ds/queue)
+- [Queue using Stack](ds/queue/queue_using_stack)
+- [Stack using Queue](ds/stack/stack_using_queue)
 
 ## Mathematics
+- [Areas](math/areas)
+- [Areas 2D](math/areas/2D)
+- [Areas 3D](math/areas/3D)
+- [Armstrong Number](math/armstrong_number)
+- [Integer to Roman](math/integer_to_roman)
+- [Karatsuba Multiplication](math/karatsuba_multiplication)
+- [Sieve of Eratosthenes](math/sieve_of_eratosthenes)
 
-- [Karatsuba Multiplication](./math/karatsuba_multiplication.go)
-- [Armstrong Number](./math/armstrong_number.go)
-- [Areas of 2D](./math/Areas2D.go)
-- [Areas of 3D](./math/Areas3D.go)
+## Others
+- [Tower of Hanoi](other/tower_of_hanoi)
 
-## Other
+## Search
+- [Binary Search](search/binary_search)
+- [Interpolation Search](search/interpolation_search)
+- [Linear Search](search/linear_search)
 
-* [Tower of Hanoi](./other/Tower_of_Hanoi.go)
-
-## Searching
-
-- [Binary Search](./search/binary_search.go)
-- [Linear Search](./search/linear_search.go)
-- [Interpolation Search](./search/interpolation_search.go)
+## Sorting
+- [Bubble Sort](sort/bubble_sort
+- [Counting Sort](sort/counting_sort)
+- [Insertion Sort](sort/insertion_sort)
+- [Merge Sort (Parallel)](sort/merge_parallel_sort)
+- [Merge Sort (Sequential)](sort/merge_sequential_sort)
+- [Merge Sort](sort/merge_sort)
+- [Quick Sort](sort/quick_sort)
+- [Radix Sort](sort/radix_sort)
+- [Selection Sort](sort/selection_sort)

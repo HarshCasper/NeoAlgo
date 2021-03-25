@@ -62,7 +62,7 @@ int does_exist(HashTable *t, int value)
     }
     return 0;
 }
-
+// Main function
 int main()
 {
     HashTable *t = (HashTable *)malloc(sizeof(HashTable) * 11);

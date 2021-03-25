@@ -1,12 +1,24 @@
+/* Program to find the union of two unsorted array */
+
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class UnionUnsortedArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int[] array1 = {1,5,6,2,3,4,4};
-		int[] array2 = {1,8,2,9,5,6,7};
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter n:");
+		int n = sc.nextInt();
+		int[] array1 = new int[n];
+		int[] array2 = new int[n];
+		System.out.println("Enter array1 elements:");
+		for(int i = 0 ; i < n ; i++)
+			array1[i] = sc.nextInt();
+		System.out.println("Enter array1 elements:");
+		for(int i = 0 ; i < n ; i++)
+			array2[i] = sc.nextInt();
+
 		Map<Integer, Integer> map = new HashMap<Integer,Integer>();
 		// insert elements of array1 in the map
 		for(int i = 0 ; i < array1.length ; i++)
@@ -20,6 +32,15 @@ public class UnionUnsortedArray {
 	}
 }
 
-//Output:
-//Union of two unsorted array : 1 2 3 4 5 6 7 8 9 
+/*
+Input:
+Enter n:
+4
+Enter array1 elements:
+9 -3 -6 0
+Enter array2 elements:
+-1 -3 -6 1
 
+Output:
+Union of two unsorted array : 0 -1 1 -3 -6 9 
+*/

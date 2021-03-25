@@ -28,6 +28,7 @@
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
 - [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
+- [Prefix Sum of Array](cp/prefix_sum.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
@@ -37,6 +38,7 @@
 - [Stock Span Problem](cp/Stock_Span.c)
 - [Bulb Switcher problem](cp/bulbSwitch.c)
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
+- [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 
 ## Cryptography
 
@@ -46,6 +48,9 @@
 - [Vernam Cipher](cryptography/Vernam_Cipher.c)
 - [Columnar Cipher](cryptography/Columnar_Cipher.c)
 - [Keyword Cipher](cryptography/Keyword_Cipher.c)
+- [Rail Fence Cipher](cryptography/railFenceCipher.c)
+- [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
+- [Hill Cipher](cryptography/Hill_Cipher.c)
 
 ## Data Structures
 
@@ -78,7 +83,9 @@
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
-- [Stack Using Queue](ds/StackUsingQueue.c)
+- [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
+- [Stack Using Queue](ds/StackUsingQueue.c) 
+- [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Reverse Linked List](ds/reverse_linked_list.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
@@ -87,7 +94,8 @@
 - [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
-- [Priority Queue using Linked List] (ds/Priority_Queue_using_Linked_List.c)
+- [Priority Queue using Linked List](ds/Priority_Queue_using_Linked_List.c)
+- [Sorting the elements of a stack](ds/stack_sort.c)
 
 ## Searching
 
@@ -105,6 +113,7 @@
 - [Bead Sort](sort/beadSort.c)
 - [Heap Sort](sort/HeapSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
+- [Circle Sort](sort/circle_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)
@@ -157,7 +166,8 @@ _add list here_
 - [Neon Number](math/Neon_number.c)
 - [Strong Number](math/strong_number.c) 
 - [Noble Integer](math/Noble_Integer.c)
-- [Neon Number](math/Neon_number.c) 
+- [Neon Number](math/Neon_number.c)
+- [Magic Number](math/Magic_Number.c) 
 
 ## Operating System
 

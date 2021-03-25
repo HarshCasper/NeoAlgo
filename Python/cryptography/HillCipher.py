@@ -1,3 +1,9 @@
+'''This code is an implementation of Hill Cipher. It
+   is a polygraphic substitution cipher. It forms a 
+   nxn matrix of key and nx1 matrix(s) of the plaintext
+   and then multiplies the two matrices to obtains the
+   matrix of ciphertext.'''
+
 import sys
 
 #This function builds key-Martix given the key

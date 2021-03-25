@@ -91,8 +91,6 @@ _add list here_
 - [Count Occurrences of Anagrams](cp/CountAnagrams.java)
 - [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
-- [Roman To Integer](cp/Roman_To_Integer.java)
-
 
 ## Cryptography
 

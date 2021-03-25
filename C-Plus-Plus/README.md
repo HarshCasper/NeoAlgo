@@ -127,6 +127,7 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
+<<<<<<< HEAD
 - [Flattening binary tree into Linkedlist in-place](ds/linkedlisttree.cpp)
 - [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
@@ -134,6 +135,10 @@
 =======
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
 <<<<<<< HEAD
+=======
+- [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
+- [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+>>>>>>> 5af4d944df1925546c07aa0ac99c3b70ea772fb6
 
 >>>>>>> 7a23ced16819da3d93d5f7035639a98ceedcb205
 =======

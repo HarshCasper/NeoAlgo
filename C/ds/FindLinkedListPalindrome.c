@@ -1,11 +1,11 @@
 /* C program to find whether a linked list is palindrome or not.
-We need to detect whether the  front half of the list is the reverse of the second half.
+We need to detect whether the front half of the list is the reverse of the second half.
 By reversing the front half of the list and for that stack can be used.
 
-We know the size of the linked list,we can iterate onto the first half of the elements in a for loop ,
-pushing each element onto a stack.Now ,we iterate the rest of linked list.At each step we compare
-the node to the top of the stack.If we complete the iteration without finding the difference,then the 
-linked list is palindrome
+We know the size of the linked list, we can iterate onto the first half of the elements in a for loop,
+pushing each element onto a stack. Now, we iterate the rest of the linked list. At each step, we compare
+the node to the top of the stack. If we complete the iteration without finding the difference, 
+then the linked list is a palindrome.
 
 */
 #include <bits/stdc++.h>

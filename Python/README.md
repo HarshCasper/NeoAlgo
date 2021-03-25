@@ -248,6 +248,7 @@
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
+- [Happy Number](math/Happy_Number.py)
 
 ## Blockchain
 

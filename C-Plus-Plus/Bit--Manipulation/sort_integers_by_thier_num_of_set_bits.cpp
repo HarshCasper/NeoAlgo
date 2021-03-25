@@ -1,4 +1,10 @@
-// C++ program to sort integers w.r.t the number of set bits in its binary equivalence
+// C++ program to sort integers w.r.t the number of set bits present in thier binary equivalence
+/*
+Given an integer array of numbers, We have to sort these integers in the ascending order by the 
+number of set bits(1's) present in thier binary equivalence. In case two integers have equal 
+number of set bits we have to sort them in ascending order of magnitude.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

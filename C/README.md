@@ -48,6 +48,8 @@
 - [Columnar Cipher](cryptography/Columnar_Cipher.c)
 - [Keyword Cipher](cryptography/Keyword_Cipher.c)
 - [Rail Fence Cipher](cryptography/railFenceCipher.c)
+- [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
+- [Hill Cipher](cryptography/Hill_Cipher.c)
 
 ## Data Structures
 
@@ -91,6 +93,7 @@
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
 - [Priority Queue using Linked List] (ds/Priority_Queue_using_Linked_List.c)
+- [Sorting the elements of a stack](ds/stack_sort.c)
 
 ## Searching
 
@@ -108,6 +111,7 @@
 - [Bead Sort](sort/beadSort.c)
 - [Heap Sort](sort/HeapSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
+- [Circle Sort](sort/circle_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)

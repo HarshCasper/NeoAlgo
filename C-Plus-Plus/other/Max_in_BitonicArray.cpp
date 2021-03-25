@@ -65,17 +65,20 @@ int main()
     Auxilary Space  Complexity:O(1)
 
     Testcase '1':
-    Input: arr[N] = {8, 10, 20, 80, 100, 200, 400, 500, 3, 2, 1}
-    Output: 500
+    Enter the size of the Array:11
+    Enter the elements of the Array:8 10 20 80 100 200 400 500 3 2 1
+    The maximum element is: 500
 
     Testcase '2':
     Corner case (No decreasing part)
-    Input: arr[] = {10, 20, 30, 40, 50}
-    Output: 50
+    Enter the size of the Array:5
+    Enter the elements of the Array:10 20 30 40 50
+    The maximum element is: 50
 
     Testcase '3':
     Corner case (No increasing part)
-    Input: arr[] = {120, 100, 80, 20, 0}
-    Output: 120
+    Enter the size of the Array:5
+    Enter the elements of the Array:120 100 80 20 0
+    The maximum element is: 120
 */
 

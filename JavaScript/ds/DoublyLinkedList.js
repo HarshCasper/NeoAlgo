@@ -122,6 +122,26 @@ class DoublyLinkedList {
     return this;
   }
 
+  remove(index) {
+    if (this.length === 1) {
+      this.head = null;
+      this.tail = this.head;
+    } else if (index === 1) {
+      this.head = this.head.next;
+      this.head.prev = null;
+    } else if (index === this.length) {
+      this.tail = this.tail.prev;
+      this.tail.next = null;
+    } else {
+      let currentNode = this.traverseToIndex(index - 1);
+      currentNode.next.next.prev = currentNode;
+      currentNode.next = currentNode.next.next;
+    }
+
+    this.length--;
+    return this;
+  }
+
   // Displaying all the nodes of doubly linked list
   printList() {
     let array = [];
@@ -152,6 +172,7 @@ do {
   console.log("2. Append element in the Doubly Linked List".insert);
   console.log("3. Prepend element in the Doubly Linked List".insert);
   console.log("4. Insert anywhere in between the Doubly Linked List".insert);
+  console.log("5. Delete element from Doubly Linked List".delete);
 
   choice = +prompt("Enter your choice - ");
 
@@ -196,6 +217,19 @@ do {
       );
       break;
 
+    case 5:
+      if (myDoublyLinkedList.length === 0) {
+        return console.log("404, you can't remove anything from void".wrong);
+      }
+  
+      index = +prompt("Enter position of element - ");
+      if (index <= 0 || index > myDoublyLinkedList.length)
+        return console.log("You know this is wrong, Bbye!\n".wrong);
+  
+      myDoublyLinkedList.remove(index);
+      console.log( "After Deletion Doubly Linked List - ", myDoublyLinkedList.printList());
+      break;
+
     default:
       console.log("You know this is wrong, Bbye!\n".wrong);
       return;
@@ -216,6 +250,7 @@ Follow the instructions to get in the show
 2. Append element in the Doubly Linked List
 3. Prepend element in the Doubly Linked List
 4. Insert anywhere in between the Doubly Linked List
+5. Delete element from Doubly Linked List
 Enter your choice - 1
 Doubly Linked List -  [ 22 ]
 
@@ -226,9 +261,22 @@ Follow the instructions to get in the show
 2. Append element in the Doubly Linked List
 3. Prepend element in the Doubly Linked List
 4. Insert anywhere in between the Doubly Linked List
+5. Delete element from Doubly Linked List
 Enter your choice - 3
 Enter Value to Prepend element - 23
 After Prepend Doubly Linked List -  [ 23, 22 ]
+
+Welcome to the Doubly Linked List Show
+Follow the instructions to get in the show
+0. To exit without doing anything
+1. Display the Doubly Linked List
+2. Append element in the Doubly Linked List
+3. Prepend element in the Doubly Linked List
+4. Insert anywhere in between the Doubly Linked List
+5. Delete element from Doubly Linked List
+Enter your choice - 5
+Enter position of element - 2
+After Deletion Doubly Linked List -  [ 23 ]
 
 */
 

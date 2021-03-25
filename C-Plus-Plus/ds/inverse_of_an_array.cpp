@@ -32,10 +32,6 @@ int main()
 
 
 
-
-
-
-
 /*
 time complexity -: O(n)
  

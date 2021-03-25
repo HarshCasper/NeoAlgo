@@ -26,7 +26,7 @@ void prefix_sum_array(int ar[] ,int N)
 
 int main()
 {
-    printf("Input array size\n");
+    printf("Enter the size of array \n");
     int N;
     scanf("%d", &N);
     int ar[N + 1];
@@ -40,7 +40,7 @@ int main()
 /*
 Standard Input and Output
 
-Input array size
+Enter the size of array 
 7
 Enter array elements
 10 4 16 34 23 5 90

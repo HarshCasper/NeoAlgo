@@ -2,8 +2,9 @@
 # Written by XZANATOL
 
 """
-An algorithm that demonstrates how to approximately calculate then natural algorithm of \
-a value and show how this logarithm is dependent on Inverse hyperbolic functions.
+An algorithm that demonstrates how to approximately calculate the \
+natural algorithm of a value and show how this logarithm is \
+dependent on Inverse hyperbolic functions.
 """
 
 
@@ -19,13 +20,11 @@ def artanh(val):
     """Returns Inverse Hyperbolic Tan of x"""
     val, neg_flag = conv_if_neg(val)  # artanh(-x) = -1 * artanh(x)
     if val > 1:  # Domain: [-1,1]
-        return "Domain error"
-    
+        return "Domain error" 
     # Taylor series
     res = 0
-    for i in range(1,92,2):
+    for i in range(1, 92, 2):
         res += val**i/i
-        
     if neg_flag:  # Check negative flag
         res *= -1
     return res  # Radian angle
@@ -42,7 +41,7 @@ def ln(x):
 if __name__ == "__main__":
     x = float(input("ln(x), x? > "))
     # ln(x) domain: ]0,inf[
-    if x<=0:
+    if x <= 0:
         print("Domain error, x must be bigger than 0")
     else:
         print(ln(x))
@@ -82,4 +81,3 @@ Explain: Accuracy here is controlled by the developer so if the program was buil
          using 300 Taylor terms, then the program will have a fixed time complexity of the \
          time needed to calculate these 300 terms.
 """
-    

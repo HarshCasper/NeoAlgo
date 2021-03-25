@@ -120,6 +120,7 @@
 - [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
+- [Stooge Sort](sort/stooge_sort.c)
 - [Bucket Sort](sort/bucketSort.c)
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)

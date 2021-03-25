@@ -4,7 +4,15 @@ INVERSE OF AN ARRAY
 If the array elements are swapped with their corresponding indices,
 the array finally results is inverse of an array. 
 */
+#include <bits/stdc++.h>
+using namespace std;
 
+// ALGORITHM -->
+// create two arrays, ori and inv.
+// give input for ori array.
+// create a temporary variable then, and store the element from the original array.
+// In inv array for each value of temp, store the index of ori array.
+// Display the inverse array.
 
 int main()
 {
@@ -29,7 +37,6 @@ int main()
     }
     return 0;
 }
-
 /*
 time complexity -: O(n)
  

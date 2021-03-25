@@ -8,3 +8,7 @@
 </p>
 
 # Codes in the Dart language
+
+## Maths
+
+- [Armstrong number](maths/Armstrong.dart)

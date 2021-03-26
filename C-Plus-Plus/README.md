@@ -41,6 +41,7 @@
 - [NQueens](cp/NQueens.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
+- [Product of Array Except itself](cp/product_of_array_except_itself.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)

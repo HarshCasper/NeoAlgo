@@ -65,6 +65,7 @@
 - [Tug Of War](cp/Tug_of_water.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
+- [Transpose a matrix in place](cp/transpose.cpp)
 - [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)

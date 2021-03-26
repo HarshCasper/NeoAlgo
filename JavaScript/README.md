@@ -43,6 +43,7 @@
 - [Ternary Search](./search/ternary_search.js)
 - [Jump Search](./search/JumpSearch.js)
 - [Interpolation Search](./search/InterpolationSearch.js)
+- [Exponential Search](./search/ExponentialSearch.js)
 
 ## Sorting
 

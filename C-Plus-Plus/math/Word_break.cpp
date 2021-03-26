@@ -1,3 +1,4 @@
+// A backtracking problem for checking whether a given string can be segmented into space seperated words in dictionary
 #include <iostream>
 #include<string.h>
 using namespace std;
@@ -13,7 +14,6 @@ int presentInArray(string &word){
     }
     return false;
 }
-
 
 //this function is used for storing all the words with spaces
 void breakingwords(string str, int n, string ans){
@@ -45,12 +45,14 @@ int main() {
     return 0;
 }
 
-//eg.
-//input - microsofthiring
-//output - 
-// micro soft hi ring
-// micro soft hiring
-// microsoft hi ring
-// microsoft hiring
-//Time Complexity - O(n2)
-//Space Complexity - O(1)
+/*
+eg.
+input - microsofthiring
+output - 
+micro soft hi ring
+micro soft hiring
+microsoft hi ring
+microsoft hiring
+Time Complexity - O(n2)
+Space Complexity - O(1)
+*/

@@ -51,6 +51,7 @@
 - [Rail Fence Cipher](cryptography/railFenceCipher.c)
 - [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
 - [Hill Cipher](cryptography/Hill_Cipher.c)
+- [Playfair Cipher](cryptography/PlayFairCipher.c)
 
 ## Data Structures
 
@@ -94,6 +95,7 @@
 - [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Finding Linked List Palindrome](ds/FindLinkedListPalindrome.c)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_Linked_List.c)
 - [Sorting the elements of a stack](ds/stack_sort.c)
 
@@ -122,11 +124,13 @@
 - [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
+- [Stooge Sort](sort/stooge_sort.c)
 - [Bucket Sort](sort/bucketSort.c)
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
 - [Three Way Merge Sort](sort/three_way_merge_sort.c)
+- [Pigeon Hole Sort](sort/pigeon_hole_sort.c)
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 

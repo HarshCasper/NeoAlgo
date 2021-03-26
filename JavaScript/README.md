@@ -68,7 +68,7 @@ _add list here_
 
 ## Competitive Programming
 
-_add list here_
+- [Sliding Window Maximum](./cp/SlidingWindowMaximum.js)
 
 ## Dynamic Programming
 

@@ -88,7 +88,6 @@
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
 
-
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
@@ -226,6 +225,7 @@
 
 ## Stack based problems
 
+- [Infix to Postfix Conversion](../C/stack/Infix_to_Postfix.c)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
@@ -247,6 +247,7 @@
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
+- [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
 
 ## Machine Learning
 

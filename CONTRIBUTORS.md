@@ -226,6 +226,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Rohit-83"><img src="https://avatars.githubusercontent.com/u/64372031?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rohit Kumar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Rohit-83" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Puja-Kumari-909"><img src="https://avatars.githubusercontent.com/u/71400981?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Puja Kumari</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Puja-Kumari-909" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hridhi"><img src="https://avatars.githubusercontent.com/u/57177761?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hridhi</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=hridhi" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/RuchiGitHu"><img src="https://avatars.githubusercontent.com/u/71754179?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ruchi Sahu</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=RuchiGitHu" title="Code">💻</a></td>
   </tr>
 </table>
 

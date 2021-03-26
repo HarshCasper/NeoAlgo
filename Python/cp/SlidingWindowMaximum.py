@@ -60,10 +60,10 @@ def findMaxInSubarray(nums, n , k) :
     # returning the answer
     return ans
 
+
 # DRIVER CODE
 
 if __name__ == "__main__":
-
 
     size = int(input('enter the size of the array : '))
 
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     print('The maximum values of each subarray of length k : ')
     print(*findMaxInSubarray(numsArr, size, windowLen))
 
-'''Time Complexity
+ProblemDetails = '''Time Complexity
 O(n) is the overall time complexity of the algorithm
 O(k) is the overall space complexity of the algorithm since there can  only be k
 elements in the window

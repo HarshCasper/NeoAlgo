@@ -125,6 +125,7 @@ _add list here_
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
 - [string palidrome using two pointer](ds/StringPalindrome.java)
+- [string palidrome using Hashing](ds/PalindromicSubstring.java)
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)

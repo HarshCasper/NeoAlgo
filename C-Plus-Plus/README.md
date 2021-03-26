@@ -287,3 +287,4 @@ _add list here_
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
 - [Set Clear and Check bits](other/check_set_clear_bit.cpp)
+- [job sheduling algorithm](other/job_sheduling_with_deadlines.cpp)

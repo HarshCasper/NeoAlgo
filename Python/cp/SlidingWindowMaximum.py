@@ -13,8 +13,8 @@ Constraints:
 
 from collections import deque
 
-def findMaxInSubarray(nums, n , k) :
 
+def findMaxInSubarray(nums, n , k) :
 
     '''
     paramaters:
@@ -49,10 +49,9 @@ def findMaxInSubarray(nums, n , k) :
     for i in range(k, n):
 
         # checking the window bounds
-        if (window[0] <= i-k):
+        if window[0] <= i-k:
             # remove an element from front
             window.popleft()
-        
         while (window and nums[window[-1]] <= nums[i]):
             window.pop()
         window.append(i)
@@ -65,6 +64,7 @@ def findMaxInSubarray(nums, n , k) :
 
 if __name__ == "__main__":
 
+
     size = int(input('enter the size of the array : '))
 
     numsArr = [int(i) for i in input('enter the elements of the array : ').split()]
@@ -74,8 +74,7 @@ if __name__ == "__main__":
     print('The maximum values of each subarray of length k : ')
     print(*findMaxInSubarray(numsArr, size, windowLen))
 
-'''
-Time Complexity
+'''Time Complexity
 O(n) is the overall time complexity of the algorithm
 O(k) is the overall space complexity of the algorithm since there can  only be k
 elements in the window
@@ -100,6 +99,4 @@ enter the size of the window : 3
 
 Output:
 The maximum values of each subarray of length k :
-3 4 5 5 5 4 3
-
-'''
+3 4 5 5 5 4 3'''

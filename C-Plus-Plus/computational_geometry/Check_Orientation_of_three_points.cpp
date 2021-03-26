@@ -7,9 +7,6 @@
  and vice versa for counter - clockwise or left turn.
  When the three points are collinear, the slope of both the lines are equal*/
 
-
-
-
 #include<iostream>  
 #include<cstdio>
 using namespace std;

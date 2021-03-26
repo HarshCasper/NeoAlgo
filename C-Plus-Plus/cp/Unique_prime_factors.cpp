@@ -1,5 +1,6 @@
 //This is a use of Sieve of Eratosthenes algorithm.
-//In this We can find all unique prime factor of any number n.
+//In this We can find all unique prime factor of any number n.For example if n is 12 then output will be 2,3
+//In this first we store all prime factor of numbers till n and then print prime factors of n.
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -19,7 +20,7 @@ void unique_prime(int num) {
       arr[j]=0;
     }
   }
-  //now print vector when key is n
+  //print vector when key is n
   for(int i=0 ; i < (m[num].size()) ; i++){
     cout<<m[num][i]<<"  ";
   }

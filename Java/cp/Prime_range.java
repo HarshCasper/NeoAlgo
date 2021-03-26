@@ -8,22 +8,22 @@
     {
         public  Prime(int first_range, int second_range)
         {
-	         for(int i=first_range;i<=second_range;i++)
-           {
-		           if(i%2==1 && i%i==0 || i==2)
-               {
-			             System.out.println(i);
-	             }
-	         }
+	    for(int i=first_range;i<=second_range;i++)
+            {
+                if(i%2==1 && i%i==0 || i==2)
+                {
+                    System.out.println(i);
+	        }
+	    }
         }
-	  public static void main(String[] args)
-		{
+    public static void main(String[] args)
+    {
     Scanner scan=new Scanner(System.in);
     System.out.println("Please enter range..");
     int first_range=scan.nextInt();
     int second_range=scan.nextInt();
     Prime out=new Prime(first_range,second_range);
-  	}
+    }
     }
 
     /*

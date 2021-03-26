@@ -34,6 +34,7 @@
 - [Find Single Occurring element from an array](cp/find_single_occuring_element.cpp)
 - [Infix to Postfix](cp/infix_to_postfix.cpp)
 - [Intersection of Y-shaped linked list](cp/Intersection_Point_of_Y_shaped_LinkedList.cpp)
+- [Interval List Intersection](cp/Interval_List_Intersection.cpp)
 - [Josephus Problem](cp/Josephus.cpp)
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
@@ -67,6 +68,7 @@
 - [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
 - [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
@@ -84,6 +86,7 @@
 - [Aggressive cows](cp/aggressive_cows.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+
 
 
 ## Data Structures

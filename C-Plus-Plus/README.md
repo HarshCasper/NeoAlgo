@@ -133,6 +133,7 @@
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
 - [Descending Priority Queue](ds/Descending_priority_queue.cpp)
+- [Invert a given binary Tree](ds/Invert_Binary_Tree.cpp)
 
 ## Graphs
 
@@ -382,3 +383,4 @@ _add list here_
 - [Concatenate given strings](other/n_string_concatenate.cpp)
 - [Trapping Rainwater](other/trappingRainwater.cpp)
 - [4Sum](other/4Sum.cpp)
+- [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)

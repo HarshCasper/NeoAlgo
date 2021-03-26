@@ -68,14 +68,15 @@ int main()
     cout<<"Enter nodes of graph: ";
     createGraph();
     topoSort();
-    cout<<"Graph after topological sort: ";
+    cout<<"Graph after topological sort: \n";
     display();
 }
 
 /*
 Test Case:
 Input:
-6
+Enter number of node you want to add: 6
+Enter nodes of graph: 
 5 2 
 5 0 
 4 0 
@@ -84,6 +85,7 @@ Input:
 3 1 
 
 Output:
+Graph after topological sort: 
 5 4 2 3 1 0 
 
 Time Complexity: O(V + E) – where V is the number of vertices and E is the number of edges.

@@ -13,7 +13,8 @@ Constraints:
 
 from collections import deque
 
-def findMaxInSubarray(nums, n ,k) :
+def findMaxInSubarray(nums, n , k) :
+
 
     '''
     paramaters:
@@ -32,15 +33,15 @@ def findMaxInSubarray(nums, n ,k) :
 
     # first k elements
     for i in range(k):
-        
+
         # pop all the elements that are smaller than the current
         # element which are present towards its left (lower indices)
         while (window and (nums[i] >= nums[window[-1]])):
             window.pop()
-        #adding the current element
+        # adding the current element
         window.append(i)
 
-    #storing the current answer
+    # storing the current answer
     ans.append(nums[window[0]])
 
     # getting the answer for rest of he array
@@ -48,7 +49,7 @@ def findMaxInSubarray(nums, n ,k) :
     for i in range(k, n):
 
         # checking the window bounds
-        if (window[0] <= (i-k)):
+        if (window[0] <= i-k):
             # remove an element from front
             window.popleft()
         
@@ -63,17 +64,17 @@ def findMaxInSubarray(nums, n ,k) :
 # DRIVER CODE
 
 if __name__ == "__main__":
-    
-    n = int(input('enter the size of the array : '))
 
-    nums = [int(i) for i in input('enter the elements of the array : ').split()]
+    size = int(input('enter the size of the array : '))
 
-    k = int(input('enter the size of the window : '))
+    numsArr = [int(i) for i in input('enter the elements of the array : ').split()]
+
+    windowLen = int(input('enter the size of the window : '))
 
     print('The maximum values of each subarray of length k : ')
-    print(*findMaxInSubarray(nums, n, k))
+    print(*findMaxInSubarray(numsArr, size, windowLen))
 
-"""
+'''
 Time Complexity
 O(n) is the overall time complexity of the algorithm
 O(k) is the overall space complexity of the algorithm since there can  only be k
@@ -83,12 +84,12 @@ Test Cases:
 
 TC-1
 Input:
-enter the size of the array : 6 
-enter the elements of the array : 10 5 2 7 8 7              
+enter the size of the array : 6
+enter the elements of the array : 10 5 2 7 8 7
 enter the size of the window : 3
 
 Output:
-The maximum values of each subarray of length k : 
+The maximum values of each subarray of length k :
 10 7 8 8
 
 TC-2
@@ -98,6 +99,7 @@ enter the elements of the array : 1 2 3 4 5 4 3 2 1
 enter the size of the window : 3
 
 Output:
-The maximum values of each subarray of length k : 
+The maximum values of each subarray of length k :
 3 4 5 5 5 4 3
-"""
+
+'''

@@ -1,9 +1,20 @@
 /*Problem Statement: 
-You are given a number n, your job is to find al the n balanced parenthesis
+You are given a number n, your job is to find all the n balanced parenthesis
 combinations possible */
 
 #include <bits/stdc++.h>
 using namespace std;
+
+/*Function description : 
+At any index i, 
+BASE CASE : 
+The combination of brackets can at maximum reach 2*n length
+therefore, if index reaches 2*n then print combination
+RECURSIVE CASE:
+1) If an open bracket is to be generated in the combination then,
+	count of(open) bracket should be less than n
+2) If a closed bracket is to be generated in the combination then,
+	count of(close) bracket should be less than count of(open) bracket */
 
 void FindValidParenthesis(char *out, int n, int index, int open, int close)
 {

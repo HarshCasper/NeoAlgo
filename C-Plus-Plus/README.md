@@ -134,6 +134,7 @@
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
 - [Descending Priority Queue](ds/Descending_priority_queue.cpp)
 - [Invert a given binary Tree](ds/Invert_Binary_Tree.cpp)
+- [Binary Search Tree Validation](ds/Binary_Search_Tree_Validation.cpp)
 
 ## Graphs
 

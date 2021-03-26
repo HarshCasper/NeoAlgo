@@ -13,3 +13,8 @@
 
 - [2D Areas](maths/Areas2D.dart)
 - [Armstrong number](maths/Armstrong.dart)
+
+## Sorting
+
+- [Bubble Sort](sort/bubbleSort.dart)
+- [Selection Sort](sort/selectionSort.dart)

@@ -114,6 +114,7 @@
 - [Sleep Sort](sort/Sleep_sort.py)
 - [Bucket Sort](sort/Bucket_sort.py)
 - [Wiggle Sort](sort/Wiggle_sort.py)
+- [Counting Sort](sort/Counting_Sort.py)
 
 ## Backtracking
 

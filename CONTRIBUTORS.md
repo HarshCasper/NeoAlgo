@@ -229,6 +229,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/RuchiGitHu"><img src="https://avatars.githubusercontent.com/u/71754179?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ruchi Sahu</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=RuchiGitHu" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Tanya170620"><img src="https://avatars.githubusercontent.com/u/72141481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tanya Tanushree</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Tanya170620" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/tanya12181"><img src="https://avatars.githubusercontent.com/u/74418163?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tanya12181</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=tanya12181" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sumitgsh"><img src="https://avatars.githubusercontent.com/u/43777569?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SUMIT GHOSH</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=sumitgsh" title="Code">💻</a></td>
   </tr>
 </table>
 

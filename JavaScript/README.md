@@ -53,6 +53,7 @@
 - [Merge Sort](./sort/MergeSort.js)
 - [Cycle Sort](./sort/CycleSort.js)
 - [Selection Sort](./sort/selectionSort.js)
+- [Cocktail Shaker Sort](./cocktail_Shaker_Sort.js)
 
 ## Machine Learning
 

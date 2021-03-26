@@ -237,3 +237,6 @@ _add list here_
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
 - [Swapping nodes in a linkedlist](other/swap_nodes.java)
+- [Adjacent Element Product](other/AdjacentElementProduct.java)
+- [Infix to Prefix Expression](other/InfixtoPrefix.java)
+- [Infix to Postfix Expression](other/InfixToPostfix.java)

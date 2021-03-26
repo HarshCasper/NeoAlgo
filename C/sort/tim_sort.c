@@ -126,6 +126,8 @@ int main()
 }
 
 /*
+Time Complexity: O(n*log(n)), where 'n' is the number of elements to sort
+Space Complexity- O(n)
 
 SAMPLE INPUT AND OUTPUT
 

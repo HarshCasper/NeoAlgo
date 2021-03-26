@@ -152,7 +152,7 @@ int main()
 {
     struct Node* head = NULL;
  
-    cout<<"Enter no of integers you want to insert in the linked list: ";
+    cout<<"Enter no. of integers you want to insert in the linked list: ";
     int n;
     cin>>n;
     for(int i=0;i<n;i++)
@@ -168,3 +168,18 @@ int main()
  
     return 0;
 }
+
+
+//Example:
+//INPUT:
+//Enter no. of integers you want to insert in the linked list: 7
+//0
+//1
+//2
+//5
+//30
+//20
+//12
+
+//OUTPUT:
+//12 30 20

@@ -81,6 +81,7 @@
 - [Tim Sort](ds/Tim_Sort.cpp)
 - [Trie Implementation](ds/Trie_implementation.cpp)
 - [Vector](ds/Vector.cpp)
+- [Vector-sorting](ds/Vector-sort.cpp)
 - [Ancestors in Binary Search Tree](ds/ancestors_of_given_number_BST.cpp)
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)

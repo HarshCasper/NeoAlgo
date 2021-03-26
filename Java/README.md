@@ -129,6 +129,7 @@ _add list here_
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 - [Queue](ds/Queuell.java)
+- [Reverse alternate k nodes in a linked list](ds/Reverse_alternate_k_Nodes.java)
 - [Segment Tree](ds/SegmentTree.java)
 - [Sparse Matrices](ds/SparseMatrices.java)
 - [Sparse Matrix](ds/SparseMatrix.java)

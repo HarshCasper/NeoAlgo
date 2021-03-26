@@ -139,6 +139,8 @@
 - [Invert a given binary Tree](ds/Invert_Binary_Tree.cpp)
 - [Binary Search Tree Validation](ds/Binary_Search_Tree_Validation.cpp)
 - [Maximum Element of Binary Tree](ds/Maximum_Element_of_Binary_Tree.cpp)
+- [Maximum Sum Level Of Binary Tree](ds/Max_Sum_Level_Of_Binary_Tree.cpp)
+- [Symmetric Binary Tree or Not](ds/Symmetric_Binary_Tree.cpp)
 
 ## Graphs
 

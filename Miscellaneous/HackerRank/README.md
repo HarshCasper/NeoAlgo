@@ -36,3 +36,4 @@
 | TheHurdleRace            | [Problem](https://www.hackerrank.com/challenges/the-hurdle-race/problem)                                                                           | [Solution](TheHurdleRace.py)           | Python3  |
 | Time Conversion          | [Problem](https://www.hackerrank.com/challenges/time-conversion)                                                                                   | [Solution](TimeConversion.py)          | Python3  |
 | Compare the triplets     | [Problem](hackerrank.com/challenges/compare-the-triplets/problem)                                                                                  | [Solution](Compare_the_Triplets.py)    | Python3  |
+| Queue using Two Stacks   | [Problem](https://www.hackerrank.com/challenges/queue-using-two-stacks/problem?isFullScreen=false)                                                                        | [Solution](Queue_using_Two_Stacks.cpp)  |   C++   |

@@ -34,6 +34,7 @@
 ## Competitive Programming
 
 - [Anagram Checker](cp/anagram_checker.py)
+- [Anagram Problem](cp/anagram_problem.py)
 - [Find Least positive number](cp/findingLeastPositiveNumber.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
 - [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
@@ -77,6 +78,7 @@
 - [Vernam Cipher](cryptography/Vernam_Cipher.py)
 - [Columnar Cipher](cryptography/Columnar_Cipher.py)
 - [Rail Fence Cipher](cryptography/Rail_Fence_Cipher.py)
+- [Hill Cipher](cryptography/HillCipher.py)
 
 ## Searching
 
@@ -96,6 +98,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/Bubble_Sort.py)
+- [Bogo Sort](sort/Bogo_sort.py)
 - [Optimized Bubble Sort](sort/Optimized_Bubble_Sort.py)
 - [Selection Sort](sort/Selection_Sort.py)
 - [Insertion Sort](sort/insertion.py)
@@ -248,7 +251,12 @@
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
+<<<<<<< HEAD
 - [Natural Logarithm](math/Natural_Logarithm_Algorithm.py)
+=======
+- [Happy Number](math/Happy_Number.py)
+- [Magic Number](math/Magic_Number.py)
+>>>>>>> 53f43cf279f04ab5f30212c23fd06935ced40093
 
 ## Blockchain
 

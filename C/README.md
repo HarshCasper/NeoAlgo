@@ -138,6 +138,7 @@
 
 ## Dynamic Programming
 
+- [Cutting a Rod](dp/cutting_a_rod.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 - [Longest Common Substring](dp/length_longest_common_substring.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)

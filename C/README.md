@@ -128,6 +128,7 @@
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
 - [Three Way Merge Sort](sort/three_way_merge_sort.c)
+- [Pigeon Hole Sort](sort/pigeon_hole_sort.c)
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 

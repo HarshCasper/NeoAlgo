@@ -55,8 +55,8 @@ def firstNegativeNumber(nums, n, k):
             ans.append(nums[window[0]])
     return ans
 
-# DRIVER CODE
 
+# DRIVER CODE
 if __name__ == "__main__":
 
     size = int(input('enter the size of the array : '))

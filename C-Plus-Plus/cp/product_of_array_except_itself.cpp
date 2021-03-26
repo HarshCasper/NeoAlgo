@@ -30,16 +30,17 @@ vector < int > get_Product_Except_Self(vector < int > &ar)
 int main()
 {
     cout << "Enter the size of the vector : \n";
-	int N;
-	cin >> N;
-	vector < int > ar(N , 0);
-	cout << "Enter vector elements :\n";
-	for (int i = 0; i < N; i++) {
-		cin >> ar[i];
-	}
-	vector < int > Product_Except_Self = get_Product_Except_Self(ar);
-	cout << "The New vector is :\n";
-	for(auto i : Product_Except_Self)
+    int N; 
+    cin >> N;
+    vector < int > ar(N , 0);
+    cout << "Enter vector elements :\n";
+    for (int i = 0; i < N; i++) 
+    {
+	cin >> ar[i];
+    }
+    vector < int > Product_Except_Self = get_Product_Except_Self(ar);
+    cout << "The New vector is :\n";
+    for(auto i : Product_Except_Self)
     {
         cout << i << ' ';
     }

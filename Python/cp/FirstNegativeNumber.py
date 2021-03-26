@@ -1,6 +1,6 @@
 '''
 Author: Guru Charan
-Given an array of numbers, write a program to find the first occurrence 
+Given an array of numbers, write a program to find the first occurrence
 of a negative number in every sublist of size k .
 If there is no negative number in that sublist, consider the answer to be 0
 for that particular sublist
@@ -9,6 +9,7 @@ for that particular sublist
 from collections import deque
 
 def firstNegativeNumber(nums, n, k):
+
 
     '''
     Function returns an array of values which correspond to the first negative number in
@@ -59,6 +60,7 @@ def firstNegativeNumber(nums, n, k):
 
 if __name__ == "__main__":
 
+
     size = int(input('enter the size of the array : '))
 
     numsArr = [int(i) for i in input('enter the elements of the array : ').split()]
@@ -68,7 +70,7 @@ if __name__ == "__main__":
     print('The first negative values of each subarray of length k : ')
     print(*firstNegativeNumber(numsArr, size, windowLen))
 
-'''
+ProblemDetails='''
 Time Complexity
 O(n) is the overall time complexity of the algorithm
 O(k) is the overall space complexity of the algorithm since there can  only be k

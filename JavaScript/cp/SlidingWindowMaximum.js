@@ -70,7 +70,7 @@ const slidingWindowMaximum = (nums, k) => {
 }
 
 
-console.log(slidingWindowMaximum(nums = [3, 2, 1, 2, 3, 7, 1, 3, 1, 5, 3], k = 4))
+console.log(slidingWindowMaximum([3, 2, 1, 2, 3, 7, 1, 3, 1, 5, 3], 4))
 /* Answer = [3, 3, 7, 7, 7, 7, 5, 5 ] */
 
 /* 
@@ -98,3 +98,4 @@ Output:
 Time Complexity : O(N)
 Space Complexity : O(K)
 */
+

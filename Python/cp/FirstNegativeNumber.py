@@ -8,8 +8,8 @@ for that particular sublist
 
 from collections import deque
 
-def firstNegativeNumber(nums, n, k):
 
+def firstNegativeNumber(nums, n, k):
 
     '''
     Function returns an array of values which correspond to the first negative number in
@@ -20,7 +20,6 @@ def firstNegativeNumber(nums, n, k):
     k:  size of the window
 
     '''
-
     # this window will contain the indices of negative numbers
     window = deque()
     # this array/ list will contain the first negative
@@ -60,7 +59,6 @@ def firstNegativeNumber(nums, n, k):
 
 if __name__ == "__main__":
 
-
     size = int(input('enter the size of the array : '))
 
     numsArr = [int(i) for i in input('enter the elements of the array : ').split()]
@@ -70,7 +68,7 @@ if __name__ == "__main__":
     print('The first negative values of each subarray of length k : ')
     print(*firstNegativeNumber(numsArr, size, windowLen))
 
-ProblemDetails='''
+ProblemDetails = '''
 Time Complexity
 O(n) is the overall time complexity of the algorithm
 O(k) is the overall space complexity of the algorithm since there can  only be k

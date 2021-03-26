@@ -68,6 +68,7 @@
 - [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
 - [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
+- [Stock Span Problem Linear Solution](cp/Stock_span.cpp)
 
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)

@@ -91,6 +91,7 @@
 - [Reverse Linked List](ds/reverse_linked_list.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Open Hashing](ds/Open_hashing.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)
 - [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
@@ -192,6 +193,7 @@ _add list here_
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
+- [String Palindrome](other/String_Palindrome_or_not.c)
 
 ## CP
 

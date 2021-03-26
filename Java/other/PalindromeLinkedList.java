@@ -1,7 +1,8 @@
-// This program is to check if a singly linked list is a palindrome or not.
-// And, A singly linked list is a linked list that can be traversed in only one direction from head to the last node, i.e Unidirectional essentially.
-// A string is said to be palindrome if it reads the same backward as forward. 
-// eg. racecar, madam etc.
+/* This program is to check if a singly linked list is a palindrome or not.
+ And, A singly linked list is a linked list that can be traversed in only one direction from head to the last node, i.e Unidirectional essentially.
+ A string is said to be palindrome if it reads the same backward as forward. 
+ eg. racecar, madam etc.
+*/
 
 import java.util.*;
 
@@ -144,9 +145,8 @@ public class Main
   }
 }
 
-// Time Complexity = O(n) //This represents the number of operations to be performed by an algorithm to complete its task.
-// Space Complexity = O(1) //This represents the total space taken by the algorithm with respect to the input size.
-/*
+/* Time Complexity = O(n) //This represents the number of operations to be performed by an algorithm to complete its task.
+ Space Complexity = O(1) //This represents the total space taken by the algorithm with respect to the input size.
 Output:
 Enter the string:                                                                                                         
 racecar                                                                                                                   

@@ -395,3 +395,4 @@ _add list here_
 - [Trapping Rainwater](other/trappingRainwater.cpp)
 - [4Sum](other/4Sum.cpp)
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
+- [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)

@@ -87,8 +87,6 @@
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
 
-
-
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
@@ -320,6 +318,7 @@ _add list here_
 - [Tiling 2 x N](dp/Tiling_2xN.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
+- [Scramble String](dp/ScrambleString.cpp)
 
 ## Bit - Manipulation
 

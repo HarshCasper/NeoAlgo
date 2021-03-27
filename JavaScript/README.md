@@ -32,6 +32,7 @@
 - [Stack](./ds/Stack.js)
 - [Stack using Linked List](./ds/StackLinkedList.js)
 - [Hash Table](./ds/Hash.js)
+- [Circular Linked List](./ds/circularLinkedList.js)
 
 ## Searching
 

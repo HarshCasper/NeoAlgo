@@ -75,3 +75,24 @@ if (isNaN(key)) return console.log("It should be a number");
 // Call the algorithm
 exponentialSearch(key);
 
+/*
+
+Sample i/o
+
+> node ExponentialSearch
+
+Enter array length - 5
+Enter 1 element - 84
+Enter 2 element - 56
+Enter 3 element - 78
+Enter 4 element - 98
+Enter 5 element - 63
+Your array -  [ 84, 56, 78, 98, 63 ]
+Enter number to search - 12
+Not Found
+
+Enter number to search 98
+Found 98
+
+*/
+

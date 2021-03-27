@@ -147,7 +147,6 @@
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
 
-
 ## Pathfinding Algorithms
 
 - [BFS in Maze](Pathfinding/2D_BFS.py)

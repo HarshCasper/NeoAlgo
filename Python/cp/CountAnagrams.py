@@ -41,7 +41,7 @@ def countAnagrams(target, text):
         window[text[i+k]] += 1
     # computing the answer for the last window
     if window & required == required:
-            answer += 1
+        answer += 1
     return answer
 
 
@@ -51,7 +51,8 @@ if __name__ == "__main__":
     s1 = input('Enter the target string : ')
     s2 = input('Enter the text string : ')
 
-    print('The number of anagrams of "{}" in "{}" are: '.format(s1,s2), countAnagrams(s1,s2))
+    print('The number of anagrams of "{}" in "{}" are: '.format(s1, s2))
+    print(countAnagrams(s1, s2))
 
 problemDetails = '''
 Time Complexity:
@@ -60,7 +61,7 @@ additional time complexity : O(k) where k is length of the target string
 since n > k : overall time complexity of the code => O(n)
 
 Space complexity:
-O(1) is the overall space complexity of this code, since the length of the 
+O(1) is the overall space complexity of this code, since the length of the
 window cannot excede 26 ( alphabet)
 
 Test cases:

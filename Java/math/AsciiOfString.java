@@ -1,8 +1,10 @@
-//AIM :: to print the ASCII CODE of each character of entered string
-
+/*
+AIM :: Take a string form the user.
+	   Consider each individual character and print the corresponding ASCII code of that character.
+*/
 import java.util.Scanner;
 
-public class ASCII_code_of_each_character_of_string {
+public class AsciiOfString {
 
     public static void main(String[] args) {
 
@@ -18,7 +20,7 @@ public class ASCII_code_of_each_character_of_string {
 }
 
 /*
-TEST CASE 1
+TEST CASE
 
 Enter the string :: ANAND
 A = 65
@@ -27,13 +29,5 @@ A = 65
 N = 78
 D = 68
 
-TEST CASE 2
-
-Enter the string :: anand
-a = 97
-n = 110
-a = 97
-n = 110
-d = 100
-
  */
+

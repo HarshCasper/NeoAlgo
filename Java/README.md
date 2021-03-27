@@ -158,7 +158,7 @@ _add list here_
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
 - [Neon number](Neon_number.java)
-- [ASCII_code_of_each_character_of_string](math/ASCII_code_of_each_character_of_string.java)
+- [Ascii of string](math/AsciiOfString.java)
 
 ## Dynamic Programming
 

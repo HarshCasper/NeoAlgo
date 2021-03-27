@@ -1,23 +1,3 @@
-/* 
-INPUT:
-5 3
-1 2 3 3 3
-1 2 3
-UNION
-1 2 3
-INTERSECTION
-1 2 3
-
-INPUT:
-5 3
-1 2 1 1 1
-1 1 1
-UNION
-1 2 
-INTERSECTION
-1 
-*/
-
 using namespace std;
 #include<iostream>
 #include<algorithm>
@@ -147,3 +127,24 @@ int main ()
 return 0;
 }
 
+/* 
+INPUT:
+5 3
+1 2 3 3 3
+1 2 3
+UNION
+1 2 3
+INTERSECTION
+1 2 3
+
+INPUT:
+5 3
+1 2 1 1 1
+1 1 1
+UNION
+1 2 
+INTERSECTION
+1 
+
+Time Complexity: O(n1+n2)
+*/

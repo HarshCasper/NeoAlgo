@@ -9,8 +9,8 @@
 
 */
 
-#include <bits/stdc++.h>
 #include <stdio.h>
+#include <malloc.h>
 
 typedef struct Node {
   int value;
@@ -95,9 +95,7 @@ int pop() {
      */
     if (stack1->value == peek()) {
       temp = stack2;
-
       stack2 = stack2->next;
-      free(temp);
     }
     temp = stack1;
     tempVal = temp->value;
@@ -113,14 +111,14 @@ int findMin() { peek(); }
 int main() {
   int size, i;
   printf("Enter the size of the Stack:");
-  scanf("%d", &size);
+  scanf("%d",&size);
 
   printf("\nEnter the elements of the Stack:\n");
   for (i = 0; i < size; i++) {
     push();
   }
 
-  printf("\n%d is popped from the stack:", pop());
+  printf("\n%d is popped from the stack", pop());
   printf("\nSmallest element in the Current Stack: %d", peek());
 
   return 0;

@@ -9,7 +9,7 @@
 
 */
 
-#include <malloc.h>
+#include <bits/stdc++.h>
 #include <stdio.h>
 
 typedef struct Node {

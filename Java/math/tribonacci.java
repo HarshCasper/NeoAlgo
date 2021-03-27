@@ -1,4 +1,3 @@
- package mypack;
 /*    Tribonacci Series:
 
    Tribonacci series is a generalisation of Fibonacci series where current element(greater than 0)
@@ -38,8 +37,8 @@
             else    //Applicable to all the terms other than the first three terms of the series.
             {
             	sum=first+second+third;	
-            		System.out.print(", "+sum);
-		    //Storing the values of succeeding terms in respective variables.
+            	System.out.print(", "+sum);
+		//Storing the values of succeeding terms in respective variables.
             	first=second;
 		second=third;
 		third=sum;  

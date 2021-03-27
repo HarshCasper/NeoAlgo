@@ -29,6 +29,8 @@ _add list here_
 
 ## Competitive programming
 
+- [Meetings](cp/Meetings.java)
+- [Next Greater Element](cp/Next_Greater_Element.java)
 - [Maximum Function](cp/Maximum_Function.java)
 - [Jump Game](cp/Jump_Game.java)
 - [Remove Duplicate word from String](cp/Duplicate_word.java)
@@ -100,6 +102,7 @@ _add list here_
 - [Rail Fence Cipher](cryptography/RailFenceCipher.java)
 - [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
 - [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
+- [Vernam Cipher](cryptography/vernamCipher.java)
 
 ## Dynamic Programming
 
@@ -123,6 +126,7 @@ _add list here_
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
+- [Middle Of LinkedList](ds/MiddleOfLinkedList.java) 
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
@@ -139,6 +143,7 @@ _add list here_
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
 - [Balanced Brackets](ds/balancedBrackets.java)
+- [Median of Two Sorted Arrays](ds/MedianOfSortedArrays.java)
 - [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
 
 ## Graphs

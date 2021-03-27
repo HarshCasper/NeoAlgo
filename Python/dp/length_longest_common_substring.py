@@ -5,6 +5,7 @@ Given two strings, we have to find the length of the longest common substring in
 The problem can be solved using Dynamic Programming
 """
 
+
 def lengthoflongestcommonsubstring(S1, S2):
     # Build a 2D matrix in Bottom-Up manner. Every element
     # dp[i][j] contains the length of the longest common substring
@@ -19,7 +20,7 @@ def lengthoflongestcommonsubstring(S1, S2):
         for j in range(0, m + 1):
 
             # length of LCS when one of the string is empty is zero
-            if i == 0 or j == 0:
+            if 0 in (i, j):
                 dp[i][j] = 0
 
             # If the elements of both the strings match, then

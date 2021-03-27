@@ -13,3 +13,7 @@
 
 - [2D Areas](maths/Areas2D.dart)
 - [Armstrong number](maths/Armstrong.dart)
+
+## Searching
+
+- [Linear Search](search/linearSearch.dart)

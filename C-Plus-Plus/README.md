@@ -403,3 +403,4 @@ _add list here_
 - [Trapping Rainwater](other/trappingRainwater.cpp)
 - [4Sum](other/4Sum.cpp)
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
+- [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)

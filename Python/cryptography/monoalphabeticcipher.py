@@ -3,7 +3,6 @@
     by the same ciphertext letter and the same letter can be replaced by letter itself.
     Example if a is there we replace it with B to Z .....so on.'''
 
-
 '''This is the encryption function which takes planetext
    as input and returns us the ciphertext list.''' 
 def monoalphabeticcipher(plaintext,size):

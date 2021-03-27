@@ -68,7 +68,7 @@ _add list here_
 
 ## Competitive Programming
 
-_add list here_
+- [Count Anagrams](./cp/CountAnagrams.js)
 
 ## Dynamic Programming
 

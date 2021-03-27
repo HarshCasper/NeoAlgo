@@ -3,7 +3,6 @@ You can either climb 1, 2, or 3 stairs at a time, but you can only climb 3 stair
 Return the number of ways to climb to the nth stair.
 */
 
-
 const FlightOfStairs = (n, k) => {
     const memo = new Array(n + 1);
     for (let i = 0; i < n + 1; i++)

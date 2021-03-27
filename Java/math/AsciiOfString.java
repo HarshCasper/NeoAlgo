@@ -29,5 +29,8 @@ A = 65
 N = 78
 D = 68
 
+TIME COMPLEXITY  :: O(n)
+SPACE COMPLEXITY :: O(1)
+
  */
 

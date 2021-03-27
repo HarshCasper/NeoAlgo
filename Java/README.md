@@ -182,6 +182,7 @@ _add list here_
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
+- [Happy Number](maths/HappyNumber.java)
 
 ## Dynamic Programming
 

@@ -37,4 +37,9 @@ return 0;
 }
 /*Time Complexity : O(n * n)
 Auxiliary Space : O(1)
-*/
+
+Sample input
+aaggarwal
+
+Sample output
+agrwl

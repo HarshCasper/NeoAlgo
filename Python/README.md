@@ -143,6 +143,7 @@
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
 - [Count Derangements](dp/count_derangements.py)
+- [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
 
 ## Pathfinding Algorithms

@@ -143,6 +143,8 @@
 - [Maximum Sum Level Of Binary Tree](ds/Max_Sum_Level_Of_Binary_Tree.cpp)
 - [Symmetric Binary Tree or Not](ds/Symmetric_Binary_Tree.cpp)
 - [Height of Binary Tree without using Recusrsion](ds/Height_Of_Binary_Tree_Non_Recursive.cpp)
+- [Print all Root to Leaf paths of Given Binary Tree](ds/Binary_Tree_Print_All_Root_To_Leaf_Paths.cpp)
+- [Maximum Root to Leaf Path sum of a Binary Tree](ds/Binary_Tree_Max_Root_To_Leaf_Path_Sum.cpp)
 
 ## Graphs
 
@@ -277,6 +279,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [N queens](math/n_queen.cpp)
 - [Word Break Problem](math/Word_break.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
@@ -324,6 +327,7 @@ _add list here_
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
+- [Job Scheduling with Maximum Profit](dp/JobSchedulingWithMaxProfit.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
 - [Tiling 2 x N](dp/Tiling_2xN.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
@@ -403,4 +407,5 @@ _add list here_
 - [Trapping Rainwater](other/trappingRainwater.cpp)
 - [4Sum](other/4Sum.cpp)
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
+- [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)

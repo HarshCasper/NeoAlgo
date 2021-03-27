@@ -295,6 +295,7 @@ _add list here_
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Automorphic Number](math/automorphic_number.cpp)
+- [Unique Number](math/Unique_Number.cpp)
 
 ## Dynamic Programming
 

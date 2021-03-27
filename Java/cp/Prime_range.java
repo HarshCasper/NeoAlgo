@@ -10,14 +10,23 @@
         {
 	         for(int i=first_range;i<=second_range;i++)
            {
-		           if(i%2==1 && i%i==0 || i==2)
+               int put=1;
+               for(int j=2;j<i/2;j++)
                {
-			             System.out.println(i);
-	             }
-	         }
-        }
-	  public static void main(String[] args)
-		{
+                   if(i%j==0)
+                   {
+                     put=0;
+                     break;
+                   }
+                }
+                if(put==1)
+                {
+                  System.out.println(i);
+                 }
+	          }
+         }
+    public static void main(String[] args)
+    {
     Scanner scan=new Scanner(System.in);
     System.out.println("Please enter range..");
     int first_range=scan.nextInt();
@@ -32,14 +41,16 @@
 
     Input :
     Please enter range..
-    70
-    80
+    20
+    50
 
     Output:
-    71
-    73
-    75
-    77
-    79
+    23
+    29
+    31
+    37
+    41
+    43
+    47
 
     */

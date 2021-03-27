@@ -42,6 +42,7 @@
 - [Manacher Algorithm](./search/ManacherAlgorithm.js)
 - [Ternary Search](./search/ternary_search.js)
 - [Jump Search](./search/JumpSearch.js)
+- [Interpolation Search](./search/InterpolationSearch.js)
 
 ## Sorting
 

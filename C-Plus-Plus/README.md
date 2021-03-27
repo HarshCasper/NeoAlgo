@@ -53,6 +53,7 @@
 - [Painter Partition](cp/painter_partition.cpp)
 - [Prefix Sum Array](cp/prefix_sum.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
+- [Product of Array Except itself](cp/product_of_array_except_itself.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
@@ -83,12 +84,11 @@
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
 - [Boyer Moore Algorithm for Pattern Searching](cp/Boyer_Moore_Algorithm.cpp)
+- [Topological Sort on DAG](cp/Topological_sort.cpp)
 - [Check T-Prime](cp/check_T_prime.cpp)
 - [Aggressive cows](cp/aggressive_cows.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
-
-
 
 ## Data Structures
 
@@ -141,6 +141,11 @@
 - [Invert a given binary Tree](ds/Invert_Binary_Tree.cpp)
 - [Binary Search Tree Validation](ds/Binary_Search_Tree_Validation.cpp)
 - [Maximum Element of Binary Tree](ds/Maximum_Element_of_Binary_Tree.cpp)
+- [Maximum Sum Level Of Binary Tree](ds/Max_Sum_Level_Of_Binary_Tree.cpp)
+- [Symmetric Binary Tree or Not](ds/Symmetric_Binary_Tree.cpp)
+- [Height of Binary Tree without using Recusrsion](ds/Height_Of_Binary_Tree_Non_Recursive.cpp)
+- [Print all Root to Leaf paths of Given Binary Tree](ds/Binary_Tree_Print_All_Root_To_Leaf_Paths.cpp)
+- [Maximum Root to Leaf Path sum of a Binary Tree](ds/Binary_Tree_Max_Root_To_Leaf_Path_Sum.cpp)
 
 ## Graphs
 
@@ -220,6 +225,7 @@
 - [Shell Sort](sort/ShellSort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
+- [Stooge Sort](sort/stooge_sort.cpp)
 - [Three Way Merge Sort](sort/three_way_merge_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
 - [Wiggle Sort](sort/wiggle_sort.cpp)
@@ -227,6 +233,7 @@
 
 ## Stack based problems
 
+- [Infix to Postfix Conversion](../C/stack/Infix_to_Postfix.c)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)
@@ -248,6 +255,7 @@
 - [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
+- [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
 
 ## Machine Learning
 
@@ -286,6 +294,7 @@ _add list here_
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
+- [Automorphic Number](math/automorphic_number.cpp)
 
 ## Dynamic Programming
 
@@ -355,13 +364,17 @@ _add list here_
 ## Computational Geometry
 
 - [Convex Hull (Jarvis' Algorithm)](computational_geometry/Convex_Hull_Jarvis_Algorithm.cpp)
+- [Convex Hull (Graham Scan Algorithm)](computational_geometry/Convex_Hull_Graham_Scan.cpp)
 - [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.cpp)
+- [Check Orientation of Three points](computational_geometry/Check_Orientation_of_three_points.cpp)
+
 
 ## Other
 
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
+- [Check whether a string is Subsequence](other/whether_string_is_subsequence.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Dynamic Huffman](other/DynamicHuffman.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
@@ -393,3 +406,5 @@ _add list here_
 - [Trapping Rainwater](other/trappingRainwater.cpp)
 - [4Sum](other/4Sum.cpp)
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
+- [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
+- [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)

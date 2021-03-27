@@ -102,6 +102,8 @@ _add list here_
 - [Rail Fence Cipher](cryptography/RailFenceCipher.java)
 - [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
 - [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
+- [Vernam Cipher](cryptography/vernamCipher.java)
+- [Key Word Cipher](cryptography/KeyWord.java)
 
 ## Dynamic Programming
 
@@ -125,6 +127,7 @@ _add list here_
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
+- [Middle Of LinkedList](ds/MiddleOfLinkedList.java) 
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)

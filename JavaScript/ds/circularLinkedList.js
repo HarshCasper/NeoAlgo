@@ -198,10 +198,9 @@ function circularLinkedList() {
     
   }
 
-
 /*
 Time Complexity: 
-#	       Access	  Search	  Insert	Delete
+#	       Access	  Search	  Insert	    Delete
 Average 	Θ(N)	   Θ(N)	      Θ(1)	     Θ(1)
 
 Space Complexity: Worst	O(N)

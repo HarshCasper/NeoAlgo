@@ -56,7 +56,7 @@ public class OnePlustoWhole
         int[] res=new OnePlustoWhole().onePlus(arr, size);
         for(int i=0; i<res.length; i++)
         {
-            System.out.println(res[i]+" ");
+            System.out.print(res[i]+" ");
         }
     }
 }

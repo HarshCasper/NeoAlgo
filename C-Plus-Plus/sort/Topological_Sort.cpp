@@ -52,6 +52,7 @@ void topoSort()
             topoSortFun(i);
     }
 }
+
 void display()
 {
     for (int i = 0; i < n; i++)
@@ -60,6 +61,7 @@ void display()
         s.pop();
     }
 }
+
 int main()
 {
     cout<<"Enter number of node you want to add: ";

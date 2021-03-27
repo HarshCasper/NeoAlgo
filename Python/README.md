@@ -131,6 +131,7 @@
 
 - [Coin Change Problem](dp/CoinChange.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
+- [Longest Common Substring](dp/length_longest_common_substring.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 - [Unique BST with N nodes](dp/Unique_BST.py)
@@ -145,6 +146,7 @@
 - [Count Derangements](dp/count_derangements.py)
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
+
 
 ## Pathfinding Algorithms
 

@@ -152,15 +152,15 @@ Input Binary Tree :
          11              11                    
      /       \        /   \               
     5       NULL    NULL   5             
-   / \      /  \    / \   /  \            
-  4 NULL    9  8    8  9 NULL  4         
+   / \                    /  \            
+  4 NULL                 NULL  4         
 
 
 Input Format : 
 Example :
 Enter total no.of nodes of the input Tree ( including NULL nodes ) : 15
 Enter value of each node of the tree in level order ( if a node is NULL , enter -1 ) with spaces
-10 11 11 5 -1 -1 5 4 -1 9 8 8 9 -1 4
+10 11 11 5 -1 -1 5 4 -1 -1 -1 -1 -1 -1 4
 
 Output Format :
 Example : ( Output to the above input example ) 

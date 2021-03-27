@@ -227,8 +227,6 @@
 
 ## Stack based problems
 
-<<<<<<< HEAD
-=======
 - [Infix to Postfix Conversion](../C/stack/Infix_to_Postfix.c)
 >>>>>>> 53f43cf279f04ab5f30212c23fd06935ced40093
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)

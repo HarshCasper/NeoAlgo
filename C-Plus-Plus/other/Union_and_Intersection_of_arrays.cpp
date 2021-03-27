@@ -1,7 +1,8 @@
 using namespace std;
 #include<iostream>
 #include<algorithm>
-#include<vector>
+
+/* The array are unsorted */
 
 void Intersection(int arr1[], int arr2[], int n1, int n2)
 {

@@ -8,6 +8,7 @@
     {
         public  Prime(int first_range, int second_range)
         {
+
 	         for(int i=first_range;i<=second_range;i++)
            {
                int put=1;
@@ -32,7 +33,7 @@
     int first_range=scan.nextInt();
     int second_range=scan.nextInt();
     Prime out=new Prime(first_range,second_range);
-  	}
+    }
     }
 
     /*

@@ -145,6 +145,7 @@ _add list here_
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Neon Number](math/Neon_number.c) 
 - [Tower_Of_Hanoi](math/Tower_Of_Hanoi.c)
+- [Decimal To Binary] (math/DecimalToBinary.c)
 
 ## Operating System
 

@@ -6,8 +6,7 @@ using namespace std;
 
 // The preprocessing function for Boyer Moore's
 // bad character heuristic
-void badCharHeuristic(string str, int size,
-                      int badchar[NO_OF_CHARS])
+void badCharHeuristic(string str, int size,int badchar[NO_OF_CHARS])
 {
     int i;
 
@@ -89,3 +88,27 @@ int main()
     search(txt, pat);
     return 0;
 }
+
+
+
+/*
+Time Complexity:The Bad Character Heuristic may take O(mn)
+time in worst case. The worst case occurs when all 
+characters of the text and pattern are same.
+For example, txt[] = “AAAAAAAAAAAAAAAAAA” and pat[] = “AAAAA”.
+
+where n is the length of text and 
+      m is the length of pattern to be searched
+
+Test Cases:
+Input:  txt[] = "THIS IS A TEST TEXT"
+        pat[] = "TEST"
+Output: Pattern found at index 10
+
+Input:  txt[] =  "AABAACAADAABAABA"
+        pat[] =  "AABA"
+Output: Pattern found at index 0
+        Pattern found at index 9
+        Pattern found at index 12
+
+*/

@@ -2,7 +2,7 @@ def array_rotation():
     save = []
     rest_arr = []
     for i in arr:
-        if i == d or i < d:
+        if i == Start_element or i < Start_element:
             save.append(i)
         else:
             rest_arr.append(i)
@@ -10,7 +10,14 @@ def array_rotation():
     rest_arr.extend(save)
     print('rest arry =', rest_arr)
 
-arr = list(input().split())
-d = input()
-n = input()
+arr = list(input("Enter the no. elements:\n").split())
+Start_element = input("Stating from which element:\n")
+ending_element = input("Enter the ending element:\n")
 array_rotation()
+
+'''
+>> Time & Space Complexity is O(n) 
+>>
+
+
+'''

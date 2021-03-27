@@ -253,6 +253,7 @@
 - [Noble Integer](math/Noble_Integer.py)
 - [Happy Number](math/Happy_Number.py)
 - [Magic Number](math/Magic_Number.py)
+- [Trailing Zeroes in Factorial](math/Trailing_Zeroes.py)
 
 ## Blockchain
 

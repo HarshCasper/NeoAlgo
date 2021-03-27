@@ -13,6 +13,7 @@ For example: A list of characters is sorted in increasing order of their ASCII v
 - [Insertion Sort](sort/insertion.py)
 - [Quick Sort](sort/QuickSort.py)
 - [Heap Sort](sort/Heap_sort.py)
+- [Merge Sort](sort/merge_sort.py)
 - [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 - [Merge Sort Parallel](sort/Parallel_MergeSort.py)
 - [Cocktail sort](sort/cocktail_sort.py)

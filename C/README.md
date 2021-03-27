@@ -99,6 +99,7 @@
 - [Finding Linked List Palindrome](ds/FindLinkedListPalindrome.c)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_Linked_List.c)
 - [Sorting the elements of a stack](ds/stack_sort.c)
+- [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
 
 ## Searching
 

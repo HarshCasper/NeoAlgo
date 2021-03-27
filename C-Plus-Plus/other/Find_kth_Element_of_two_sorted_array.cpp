@@ -1,10 +1,41 @@
-// Find kth Element of two sorted array.
+/* Find kth Element of two sorted array.
 
-// Algorithm
-// 1) All two arrays are push into the vector.
-// 2) Then, sort the vector
-// 3) After Print the vector of (k - 1) index Element.
+  Given two sorted arrays of size m and n respectively,
+  your task is to finding the element that would be
+  at the k’th position of the final sorted array.
 
+  Examples 1 : 
+
+  Input 1 : Array 1 - 2 3 6 7 9
+            Array 2 - 1 4 8 10
+            k = 5
+
+  Output 1 : 6
+
+  Explanation: The final sorted array would be -
+               1, 2, 3, 4, 6, 7, 8, 9, 10
+               The 5th element of this array is 6.
+
+
+  Examples 2 : 
+    
+  Input 2 : Array 1 - 100 112 256 349 770
+            Array 2 - 72 86 113 119 265 445 892
+            k = 7
+
+  Output 2 : 256
+
+  Explanation: Final sorted array is -
+               72, 86, 100, 112, 113, 119, 256, 265, 349, 445, 770, 892
+               The 7th element of this array is 256.
+
+  Algorithm :-
+
+  1) All two arrays are push into the vector.
+  2) Then, sort the vector
+  3) After Print the vector of (k - 1) index Element.
+
+*/
 
 //CODE :-
 #include<bits/stdc++.h>

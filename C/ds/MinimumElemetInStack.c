@@ -127,6 +127,9 @@ int main() {
 }
 
 /*
+  Time complexity: O(1) for finding the minimum
+  Space complexity: O(n)
+  
   Sample input/output:
   Enter the size of the Stack:5
 
@@ -139,7 +142,5 @@ int main() {
 
   -5 is popped from the stack:
   Smallest element in the Current Stack: 2
-
-  Time complexity: O(1) for finding the minimum
-  Space complexity: O(n)
+  
  */

@@ -9,27 +9,7 @@ between the time durations of the jobs.
 Input is three arrays: BeginTime , EndTime , Profit
 Output is an integer of Maximum profit of subset of Jobs
 
-For example,
-Example #1:
-Input: startTime = [1,1], endTime = [5,6], profit = [12,17]
-Output: 17
-Explanation: 
-We can choose the job with maximum profit i.e. second job .
-Thus the output is 17
-
-Example #2:
-Input: startTime = [2,7], endTime = [7,12], profit = [2,8]
-Output: 10
-Explanation: 
-We can complete both the jobs with maximum profit= 
-				profit by first job + profit by second job
-as their time ranges does not clash with each other
-Thus the output is 10
-
 */
-
-// *********Code Starts******************
-
 // Including the libraries
 #include<bits/stdc++.h>
 using namespace std;
@@ -66,17 +46,15 @@ profits for jobs without overlapping the job duration
 
 int Optimal_profit_Rec(Jobs job[], int job_curr)
 {
-	// Base cases
 	if(job_curr < 0)
 		return 0;
 	if (job_curr == 1) 
 		return job[job_curr-1].profit;
 
-	// Either include the activity 
 	int include,exclude;
 	
-	//a) to include the current job:
-	/* We need to find the last job(nearest_job) that
+	/*a) to include the current job:
+	 We need to find the last job(nearest_job) that
 	 doesn't overalp with current job(job_curr).
 	 we can find that using linear search.
 	  Then we will recursively find the result for all jobs till that job(nearest_job) and
@@ -108,14 +86,15 @@ int Optimal_profit_Rec(Jobs job[], int job_curr)
 	// Return maximum profit from two available options
 	return max(include , exclude );
 }
+
+/*main body*/
 int main()
 {
-	/* N : Number of jobs */
+	
 	int N;
 	cout << "Enter the number of Jobs:";
 	cin >> N;
 
-	// Declaring an array of jobs
 	Jobs job[N];
 
 	cout << "Enter the credentials of Jobs in the order BeginTime , EndTime , Profit:\n";
@@ -139,7 +118,7 @@ int main()
 	// Sort the jobs according to their ending time
 	sort(job, job+N, sort_Order);
 	
-	cout << "The maximum profit is for the optimal job selection is:" << Optimal_profit_Rec(job, N);
+	cout << "The maximum profit for the optimal job selection is:" << Optimal_profit_Rec(job, N);
 	return 0;
 }
 
@@ -148,5 +127,23 @@ int main()
 	Since it is a recursive solution
 	 Time Complexity -> O(N*2^N)  
 	 Space Complexity -> occupies space in call stack	
-	 
+
+Sample Test Cases :
+
+Example #1:
+Input: startTime = [1,1], endTime = [5,6], profit = [12,17]
+Output: 17
+Explanation: 
+We can choose the job with maximum profit i.e. second job .
+Thus the output is 17
+
+Example #2:
+Input: startTime = [2,7], endTime = [7,12], profit = [2,8]
+Output: 10
+Explanation: 
+We can complete both the jobs with maximum profit= 
+				profit by first job + profit by second job
+as their time ranges does not clash with each other
+Thus the output is 10
+
 */

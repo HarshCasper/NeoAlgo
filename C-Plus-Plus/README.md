@@ -228,7 +228,6 @@
 ## Stack based problems
 
 - [Infix to Postfix Conversion](../C/stack/Infix_to_Postfix.c)
->>>>>>> 53f43cf279f04ab5f30212c23fd06935ced40093
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)
 - [Largest rectangular area under histogram](stack/Largest_rect_area_under_histogram.cpp)

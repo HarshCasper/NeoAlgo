@@ -290,6 +290,7 @@ _add list here_
 - [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
+- [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Automorphic Number](math/automorphic_number.cpp)

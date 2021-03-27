@@ -403,4 +403,4 @@ _add list here_
 - [Trapping Rainwater](other/trappingRainwater.cpp)
 - [4Sum](other/4Sum.cpp)
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
--[Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
+- [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)

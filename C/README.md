@@ -15,7 +15,6 @@
 - [Adjacent Element Product](cp/Adjacent_Element_Product.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
 - [Anagram Program](cp/anagram_program.c)
-- [Binary Search](search/BinarySearch.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Finding possible codes using recursion ](cp/possible_code_recursion.c)
 - [Linear Search](search/linear_search.c)
@@ -28,6 +27,7 @@
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
 - [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
+- [Prefix Sum of Array](cp/prefix_sum.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
 - [Z Algorithm](cp/zalgorithm.c)
@@ -37,6 +37,7 @@
 - [Stock Span Problem](cp/Stock_Span.c)
 - [Bulb Switcher problem](cp/bulbSwitch.c)
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
+- [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 
 ## Cryptography
 
@@ -44,12 +45,19 @@
 - [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
 - [Vigenere Cipher Algorithm](cryptography/Vigenere_Cipher.c)
 - [Vernam Cipher](cryptography/Vernam_Cipher.c)
+- [Columnar Cipher](cryptography/Columnar_Cipher.c)
+- [Keyword Cipher](cryptography/Keyword_Cipher.c)
+- [Rail Fence Cipher](cryptography/railFenceCipher.c)
+- [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
+- [Hill Cipher](cryptography/Hill_Cipher.c)
+- [Playfair Cipher](cryptography/PlayFairCipher.c)
 
 ## Data Structures
 
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
+- [Infix To prefix](ds/infixToPrefix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
 - [Preorder Traversal](ds/Preordertraversal.c)
 - [Queue All Functionality](ds/queue_all_functionality.c)
@@ -63,25 +71,39 @@
 - [Circular Queue](ds/circularqueue.c)
 - [Post Order Traversal](ds/Postorder.c)
 - [Detect Middle Element of the LinkedList](ds/middle_element_of_linkedlist.c)
+- [Detect Loop/Cycle in a LinkedList](ds/detectLoopLL.c)
 - [Postorder Traversal](ds/Postorder.c)
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
 - [Evaluation Of Postfix Expression](ds/EvaluationOfPostfixExpression.c)
+- [Iterative preorder traversal](ds/Iterative_preorder.c)
+- [Iterative Postorder Traversal](ds/iterative_postorder.c)
+- [Iterative inorder traversal](ds/Iterative_inorder.c)
 - [Implementation of maxHeap](ds/maxheap.c)
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
-- [Stack Using Queue](ds/StackUsingQueue.c)
+- [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
+- [Stack Using Queue](ds/StackUsingQueue.c) 
+- [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Reverse Linked List](ds/reverse_linked_list.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Open Hashing](ds/Open_hashing.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)
+- [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
+- [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Finding Linked List Palindrome](ds/FindLinkedListPalindrome.c)
+- [Priority Queue using Linked List](ds/Priority_Queue_using_Linked_List.c)
+- [Sorting the elements of a stack](ds/stack_sort.c)
+- [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
+- [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
 
 ## Searching
 
-- [Binary Search](search/BinarySearch.c)
+- [Binary Search](search/Binary_search.c)
 - [Iterative-Binary Search](search/IterativeBinarySearch.c)
 - [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
@@ -95,6 +117,7 @@
 - [Bead Sort](sort/beadSort.c)
 - [Heap Sort](sort/HeapSort.c)
 - [Bubble Sort](sort/bubble_sort.c)
+- [Circle Sort](sort/circle_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
 - [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)
@@ -103,17 +126,22 @@
 - [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
+- [Stooge Sort](sort/stooge_sort.c)
 - [Bucket Sort](sort/bucketSort.c)
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
 - [Three Way Merge Sort](sort/three_way_merge_sort.c)
+- [Tim Sort](sort/tim_sort.c)
+- [Pigeon Hole Sort](sort/pigeon_hole_sort.c)
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 
 ## Dynamic Programming
 
+- [Cutting a Rod](dp/cutting_a_rod.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
+- [Longest Common Substring](dp/length_longest_common_substring.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
@@ -145,11 +173,17 @@ _add list here_
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Neon Number](math/Neon_number.c) 
 - [Decimal To Binary] (math/DecimalToBinary.c)
+- [Neon Number](math/Neon_number.c)
+- [Strong Number](math/strong_number.c) 
+- [Noble Integer](math/Noble_Integer.c)
+- [Neon Number](math/Neon_number.c)
+- [Magic Number](math/Magic_Number.c) 
 
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
+
 
 ## Other
 
@@ -164,6 +198,7 @@ _add list here_
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
+- [String Palindrome](other/String_Palindrome_or_not.c)
 
 ## CP
 

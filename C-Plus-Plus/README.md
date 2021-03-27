@@ -143,6 +143,7 @@
 - [Maximum Sum Level Of Binary Tree](ds/Max_Sum_Level_Of_Binary_Tree.cpp)
 - [Symmetric Binary Tree or Not](ds/Symmetric_Binary_Tree.cpp)
 - [Height of Binary Tree without using Recusrsion](ds/Height_Of_Binary_Tree_Non_Recursive.cpp)
+- [Print all Root to Leaf paths of Given Binary Tree](ds/Binary_Tree_Print_All_Root_To_Leaf_Paths.cpp)
 
 ## Graphs
 

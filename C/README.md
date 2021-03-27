@@ -102,7 +102,7 @@
 
 ## Searching
 
-- [Binary Search](search/BinarySearch.c)
+- [Binary Search](search/Binary_search.c)
 - [Iterative-Binary Search](search/IterativeBinarySearch.c)
 - [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)

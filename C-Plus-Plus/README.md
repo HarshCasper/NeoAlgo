@@ -88,6 +88,7 @@
 - [Aggressive cows](cp/aggressive_cows.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+- [Search in rotated and sorted array](cp/search_in_rotated_and_sorted_array.cpp)
 
 ## Data Structures
 

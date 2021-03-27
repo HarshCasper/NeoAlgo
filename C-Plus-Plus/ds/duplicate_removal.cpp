@@ -30,7 +30,8 @@ return str;
 // Driver code
 int main()
 {
-char str[]= "warofwarrior";
+char str[1000];
+cin>>str;
 int n = sizeof(str) / sizeof(str[0]);
 cout << removeDuplicate(str, n);
 return 0;

@@ -78,7 +78,7 @@ int main()
         {
             int value;
             scanf("%d", &value);
-            insert_to_table(t, value);
+            Chaining(t, value);
         }
         break;
 

@@ -1,4 +1,5 @@
-//This problem is of placing n queens on n*n chessboard which is solved using backtracking so no two queens ca attack each other
+//This problem is of placing n queens on n*n chessboard which is solved using backtracking so no two queens can attack each other
+// like we place n queens in n*n chessboard in such a way so that no two queens should be placed in same row, same column and same diagonal
 #include <iostream>
 using namespace std;
 

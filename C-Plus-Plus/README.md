@@ -213,6 +213,12 @@ _add list here_
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
 - [Krishnamurthy Number](math/krishnamurthy_number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
+- [Converting Binary Number to Decimal Number](math/binarytodeci.cpp)
+- [Converting Octal Number to Decimal Number](math/octaltodeci.cpp)
+- [Converting Hexadecimal Number to Decimal Number](math/hexadecitodeci.cpp)
+- [Converting Decimal Number to Binary Number](math/decitobinary.cpp)
+- [Converting Decimal Number to Octal Number](math/decitooctal.cpp)
+- [Converting Decimal Number to Hexadecimal Number](math/decitohexadeci.cpp)
 
 ## Dynamic Programming
 

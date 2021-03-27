@@ -279,6 +279,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [N queens](math/n_queen.cpp)
 - [Word Break Problem](math/Word_break.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)

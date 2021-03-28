@@ -8,24 +8,23 @@
     {
         public  Prime(int first_range, int second_range)
         {
-
-	         for(int i=first_range;i<=second_range;i++)
-           {
-               int put=1;
-               for(int j=2;j<i/2;j++)
-               {
-                   if(i%j==0)
-                   {
-                     put=0;
-                     break;
-                   }
+            for(int i=first_range;i<=second_range;i++)
+            {
+                int put=1;
+                for(int j=2;j<i/2;j++)
+                {
+                    if(i%j==0)
+                    {
+                        put=0;
+                        break;
+                    }
                 }
                 if(put==1)
                 {
-                  System.out.println(i);
-                 }
-	          }
-         }
+                    System.out.println(i);
+                }
+            }
+        }
     public static void main(String[] args)
     {
     Scanner scan=new Scanner(System.in);

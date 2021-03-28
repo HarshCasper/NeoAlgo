@@ -184,6 +184,7 @@ _add list here_
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
+- [Tribonacci series upto n terms](math/tribonacci.java)
 - [HappyNumber](math/HappyNumber.java)
 - [MagicNumber](math/Magicnumber.java)
 
@@ -264,6 +265,7 @@ _add list here_
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [One plus to the whole](other/OnePlustoWhole.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)

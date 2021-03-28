@@ -204,7 +204,6 @@
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
-- [Childern Sum Property](graphs/Childern_Sum_Property.cpp)
 
 ## Searching
 

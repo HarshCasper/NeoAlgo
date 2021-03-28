@@ -170,6 +170,88 @@ int main()
 }
 
 /*
+  Sample Input/Output:
+  
+  1. Insert an element in the queue - enqueue
+  2. Delete element from the queue - Dequeue
+  3. Display items in the queue
+  4. To check whether the queue is empty or not
+  5. To check whether the queue is full or not
+  6. Exit
+  Enter your choice
+  1
+  Enter the item
+  10
+  1. Insert an element in the queue - enqueue
+  2. Delete element from the queue - Dequeue
+  3. Display items in the queue
+  4. To check whether the queue is empty or not
+  5. To check whether the queue is full or not
+  6. Exit
+  Enter your choice
+  1
+  Enter the item
+  20
+  1. Insert an element in the queue - enqueue
+  2. Delete element from the queue - Dequeue
+  3. Display items in the queue
+  4. To check whether the queue is empty or not
+  5. To check whether the queue is full or not
+  6. Exit
+  Enter your choice
+  3
+  The Queue is
+  10
+  20
+  0
+  0
+  0
+  1. Insert an element in the queue - enqueue
+  2. Delete element from the queue - Dequeue
+  3. Display items in the queue
+  4. To check whether the queue is empty or not
+  5. To check whether the queue is full or not
+  6. Exit
+  Enter your choice
+  2
+  The dequeued value is: 10
+  1. Insert an element in the queue - enqueue
+  2. Delete element from the queue - Dequeue
+  3. Display items in the queue
+  4. To check whether the queue is empty or not
+  5. To check whether the queue is full or not
+  6. Exit
+  Enter your choice
+  2
+  The dequeued value is: 20
+  1. Insert an element in the queue - enqueue
+  2. Delete element from the queue - Dequeue
+  3. Display items in the queue
+  4. To check whether the queue is empty or not
+  5. To check whether the queue is full or not
+  6. Exit
+  Enter your choice
+  4
+  Queue is Empty
+  1. Insert an element in the queue - enqueue
+  2. Delete element from the queue - Dequeue
+  3. Display items in the queue
+  4. To check whether the queue is empty or not
+  5. To check whether the queue is full or not
+  6. Exit
+  Enter your choice
+  5
+  Queue is not Full
+  1. Insert an element in the queue - enqueue
+  2. Delete element from the queue - Dequeue
+  3. Display items in the queue
+  4. To check whether the queue is empty or not
+  5. To check whether the queue is full or not
+  6. Exit
+  Enter your choice
+  6 
+*/
+/*
  The time complexities of different operations in circular queue data structure is:-
 
   1) The time complexity of enqueue operation is O(1), that is constant time.

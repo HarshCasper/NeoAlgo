@@ -169,6 +169,7 @@
 - [Kth Smallest Element of Binary Tree](ds/Binary_Tree_Kth_Smallest_Element.cpp)
 - [Zig Zag Level Order Traversal Of a Binary Tree](ds/Zig_Zag_Level_Order_Traversal_Binary_Tree.cpp)
 - [Vertical Level Sums of a Binary Tree](ds/Vertical_Level_Sums_Of_Binary_Tree.cpp)
+- [Sum of Elements of given N ary Tree](ds/Sum_Of_Elements_Of_N_ary_Tree.cpp)
 
 ## Graphs
 

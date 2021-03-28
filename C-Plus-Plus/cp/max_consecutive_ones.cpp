@@ -44,23 +44,14 @@ int main()
     cout << "Maximum Consecutive Ones in this array is : ";
     cout << max_consecutive_ones << endl;
 }
-
 /*
 Standard Input and Output
 
-1.
 Enter the size of the array :
 6
 Enter array elements :
 1 1 0 1 1 1
 Maximum Consecutive Ones in this array is : 3
-
-2.
-Enter the size of the array :
-8
-Enter array elements :
-1 1 1 1 0 0 0 1
-Maximum Consecutive Ones in this array is : 4
 
 Time Complexity : O( N )
 Space Complexity : O( 1 )

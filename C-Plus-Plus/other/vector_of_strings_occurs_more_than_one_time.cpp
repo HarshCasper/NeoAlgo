@@ -35,11 +35,11 @@ vector < string > get_duplicate_string( vector < string > vec_string, int Number
 int main()
 {
     cout << "Enter the number of strings : \n";
-	int Number;
-	cin >> Number;
-	vector < string > vec_string;
-	cout << "Enter the strings :\n";
-	for(int i = 1; i <= Number; i++)
+    int Number;
+    cin >> Number;
+    vector < string > vec_string;
+    cout << "Enter the strings :\n";
+    for(int i = 1; i <= Number; i++)
     {
         string s;
         cin >> s;
@@ -47,7 +47,7 @@ int main()
     }
     vector < string > duplicate_string = get_duplicate_string(vec_string, Number);
     cout << "Duplicate Strings are : ";
-	for(auto i : duplicate_string)
+    for(auto i : duplicate_string)
     {
         cout << i << ' ';
     }

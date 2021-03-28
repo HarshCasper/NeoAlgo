@@ -14,3 +14,5 @@
 - [Contiguous Sub Array with Maximum Sum](cp/Maximum_subarray_sum.jl)
 - [Finding Prime numbers using Sieve](cp/Sieve_of_Eratosthenes.jl)
 - [Prime Factorization using Sieve](cp/Prime_factorization.jl)
+- [Finding Factorials using Recursion](cp/factorials.jl)
+- [Finding GCD using Euclid's Algorithm](cp/GCD.jl)

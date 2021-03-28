@@ -3,9 +3,7 @@ This code gets the values of binary tree from the user and then convert the bina
 The formed Doubly linked list will have elements in the same order as that of inorder traversal of binary tree. 
 */
 
-#include <iostream>
-#include <vector>
-#include <queue>
+#include <bits/stdc++.h>
 using namespace std;
 
 struct TreeNode{
@@ -21,7 +19,8 @@ TreeNode* newNode(int n){
 	t->right = NULL;
 }
 
-TreeNode* insert(TreeNode* t, queue<TreeNode* > &q, int v){		//This function inserts node into the binary tree
+//This function inserts node into the binary tree
+TreeNode* insert(TreeNode* t, queue<TreeNode* > &q, int v){		
 	TreeNode* temp = newNode(v);
 	if(v==-1){
 		temp = NULL;
@@ -40,7 +39,8 @@ TreeNode* insert(TreeNode* t, queue<TreeNode* > &q, int v){		//This function ins
 	return t;
 }
 
-TreeNode* make_tree(vector<int> v){		//This function converts given vector into Binary Tree
+//This function converts given vector into Binary Tree
+TreeNode* make_tree(vector<int> v){		
 	queue<TreeNode* > q;
 	TreeNode* t = NULL;
 	for(int i=0;i<v.size();i++){
@@ -49,7 +49,8 @@ TreeNode* make_tree(vector<int> v){		//This function converts given vector into 
 	return t;
 }
 
-void print_elements(TreeNode* &T){		//This function prints all the elements of doubly linked list
+//This function prints all the elements of doubly linked list
+void print_elements(TreeNode* &T){		
 	TreeNode* temp = T;
 	cout<<"The elements of doubly linked list are: ";
 	while(temp!=NULL){
@@ -58,7 +59,8 @@ void print_elements(TreeNode* &T){		//This function prints all the elements of d
 	}
 }
 
-void to_dll(TreeNode* T, TreeNode* &temp){		//This function converts Binary tree to doubly linked list
+//This function converts Binary tree to doubly linked list
+void to_dll(TreeNode* T, TreeNode* &temp){		
 	if(T==NULL){
 		return;
 	}
@@ -95,20 +97,15 @@ int main(){
 }
 
 /*
-Time Complexity : O(N);
+Time Complexity : O(N)
+Space Complexity : O(N)
+
 Here if we give following binary tree as input:
-	5
+    5
    / \
   6   8
  / \ / \
 3  4 9  2 
 The output will be - 3 6 4 5 9 8 2
-
-Suppose if input binary tree is:
-    9
-   / \
-  8   2
- /   / 
-5    4 
-The output will be - 5 8 9 4 2
 */
+

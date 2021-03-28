@@ -1,8 +1,9 @@
-#include <stdio.h>
 /*Quick Sort is a divide and conquer algorithm which works on the basic principle 
 of finding a pivot element and dividing the elements in two parts that is, elements
 smaller than pivot are kept on one side and the element larger than the pivot element 
 are placed on the other side of the pivot element.*/
+
+#include <stdio.h>
 
 int partitionArray(int a[], int low, int high){
 
@@ -25,7 +26,7 @@ int partitionArray(int a[], int low, int high){
     a[i + 1] = a[high];
     a[high] = temp;
     //returning the correct position of the index
-    return (i+1);
+    return (i + 1);
 }
 void quickSort(int a[], int low, int high){
     if(low < high){
@@ -38,6 +39,7 @@ void quickSort(int a[], int low, int high){
         quickSort(a, indexPos + 1, high);
     }
 }
+
 void printArray(int a[], int size){
     printf("The sorted array: ");
     int  i;

@@ -1,4 +1,4 @@
-// C Program to find the Sum of Digits of a number
+// C Program to find the Sum of Digits of a given number
 #include <stdio.h>
 
 int sum_of_digits(int num)
@@ -45,10 +45,4 @@ SAMPLE 1
 
 Enter the number: 1231
 The sum of the digits of the given number is: 7
-
-SAMPLE 2
-
-Enter the number: -987
-The sum of the digits of the given number is: 24
-
 */

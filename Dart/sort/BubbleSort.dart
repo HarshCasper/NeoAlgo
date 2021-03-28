@@ -5,6 +5,7 @@ isSorted checks if the list is already sorted.
  */
 import 'dart:io';
 
+// the function which runs the bubble sort algorithm
 List bubbleSort(List arr) {
   int len = arr.length;
   int temp = 0;
@@ -42,6 +43,7 @@ void main() {
     print(arr[i]);
   }
 }
+
 /**
  * Sample input/output
  * Enter the size of list:

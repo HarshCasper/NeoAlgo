@@ -155,6 +155,7 @@
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
+- [Tree Sort](sort/Tree_Sort.cpp)
 
 ## Stack based problems
 

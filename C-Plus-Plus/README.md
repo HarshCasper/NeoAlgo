@@ -99,6 +99,7 @@
 - [Maximum Sum Subarray of Size k](cp/max_sum_subarray_of_size_k.cpp)
 - [Maximum of all subarray of size k](cp/maximum_of_all_subarray_of_size_k.cpp)
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
+-[Rain Water Trapping Problem](cp/rain_water_trapping.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
 ## Data Structures

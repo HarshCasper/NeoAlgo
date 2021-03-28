@@ -21,15 +21,16 @@ After that we add the substring of the remaining longer string to resultant stri
 #include<bits/stdc++.h>
 using namespace std;
 
+/* A function that will take 2 string as input and return the resultant merged string formed alternatively from the inputted strings */
 string mergeAlternately(string word1, string word2) {
-
-    /* This function will take 2 string as input and return the resultant merged string formed alternatively from the inputted strings */
-
     string ans="";
-    int less=min(word1.length(),word2.length());    // takes the size of the smallest string among word1 and word2
+
+    /* A variable that will take the size of the smallest string among word1 and word2 */
+    int less=min(word1.length(),word2.length());    
     int i=0,j=0; 
 
-    while(i<less || j<less){    // alternatively add word by word from each string to resultant string
+    /* Loop to alternatively add word by word from each string to resultant string */
+    while(i<less || j<less){    
         if(j>=i){
             ans+=word1[i];
             i++;
@@ -40,7 +41,8 @@ string mergeAlternately(string word1, string word2) {
         }
     }
 
-    if(word1.length()!=word2.length()){     // if both strings are of unequal sizes then add the rest of substring to the resultant string
+    /* If both strings are of unequal sizes then add the rest of substring to the resultant string */
+    if(word1.length()!=word2.length()){     
         if(word1.length()>less){
             ans+=word1.substr(less,word1.length());
         }

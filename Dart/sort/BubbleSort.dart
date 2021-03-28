@@ -1,4 +1,9 @@
-// function to sort the list
+/**
+Function to sort list using bubble sort technique.
+We use only one extra temporary variable so space
+complexity is O(1). Best case time complexity (if the list
+is already sorted) is O(n).
+ */
 import 'dart:io';
 
 List bubbleSort(List arr) {
@@ -39,15 +44,10 @@ void main() {
   }
 }
 /**
- * Space complexity: O(1)
- * Time complexity: O(n^2) {worst} / O(n) {best}
+ * Sample input/output
  * Enter the size of list:
- * 10
- * Enter the numbers:
- * 9
- * 8
- * 7
  * 6
+ * Enter the numbers:
  * 5
  * 4
  * 3
@@ -61,8 +61,7 @@ void main() {
  * 3
  * 4
  * 5
- * 6
- * 7
- * 8
- * 9
+ *
+ * Space complexity: O(1)
+ * Time complexity: O(n^2) {worst} / O(n) {best}
  */

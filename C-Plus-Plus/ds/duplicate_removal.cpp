@@ -1,6 +1,10 @@
-// CPP program to remove duplicate character
-// from character array and print in sorted
-// order
+/* CPP program to remove duplicate character
+ from character array and print it.
+ Step1:- Traverse through all the characters
+ Step2:-check if it is present in it(if it is present then break the loop).
+ Step3:-If it is not present then add it to the result.
+        and then print it.
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -23,18 +27,18 @@ for (int i=0; i<n; i++) {
 	if (j == i)
 		str[index++] = str[i];
 }
-
+	
 return str;
 }
 
 // Driver code
 int main()
 {
-char str[1000];
-cin>>str;
-int n = sizeof(str) / sizeof(str[0]);
-cout << removeDuplicate(str, n);
-return 0;
+	char str[1000];
+	cin>>str;
+	int n = sizeof(str) / sizeof(str[0]);
+	cout << removeDuplicate(str, n);
+	return 0;
 }
 /*Time Complexity : O(n * n)
 Auxiliary Space : O(1)

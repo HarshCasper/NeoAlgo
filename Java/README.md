@@ -167,6 +167,7 @@ _add list here_
 - [Count Number Of Digits](math/countDigits)
 - [Euler's Totient Function](math/Euler's_Totient_function.java)
 - [Iterative](math/countDigits/iterative.java)
+- [Perfect Number](math/PerfectNumber.java)
 - [Recursive](math/countDigits/recursive.java)
 - [String Method](math/countDigits/stringmethod.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)

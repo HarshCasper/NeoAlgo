@@ -69,7 +69,6 @@
 - [Two Pointers Method](cp/Two_Pointers_Method.cpp)
 - [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
-
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
@@ -88,6 +87,7 @@
 - [Aggressive cows](cp/aggressive_cows.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+- [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
 
 ## Data Structures

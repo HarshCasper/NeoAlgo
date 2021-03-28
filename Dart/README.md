@@ -11,4 +11,8 @@
 
 ## Maths
 
+<<<<<<< HEAD
+=======
+- [2D Areas](maths/Areas2D.dart)
+>>>>>>> 398f86410e131792c641a8f6fdb14ddad3eb73cf
 - [Armstrong number](maths/Armstrong.dart)

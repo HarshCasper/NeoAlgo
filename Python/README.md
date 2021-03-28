@@ -11,6 +11,48 @@
 
 ## Data Structures
 
+* [Queue](ds/Queue.py)
+* [Stacks](ds/Stacks.py)
+* [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+* [Reverse Linked List](ds/Reverse_linked_list.py)
+
+## Searching
+* [Bilinear Search](search/bilinear.py)
+* [Binary Search](search/binarysearch.py)
+* [Breadth First Search](search/bfs.py)
+* [Depth First Search](search/dfs.py)
+* [Linear Search](search/Linear_Search.py)
+* [Random Search Las vegas version](search/random_search_las_vegas.py)
+* [Sublinear Search](search/Sublinear_search.ipynb)
+* [Exponential Search](search/exponential_search.py)
+
+## Sorting
+* [Bead Sort](sort/Bead_Sort.py)
+* [Bubble Sort](sort/Bubble_Sort.py)
+* [Comb Sort](sort/comb_sort.py)
+* [Heap Sort](sort/Heap_sort.py)
+* [Insertion Sort](sort/insertion.py)
+* [Merge Sort](sort/Merge_Sort.py)
+* [Quick Sort](sort/QuickSort.py)
+* [Radix Sort](sort/Radix_Sort.py)
+* [Selection Sort](sort/Selection_Sort.py)
+* [Topological Sort](sort/topological_sort.py)
+* [Intro Sort](sort/IntroSort.py)
+* [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
+* [Merge Sort Parallel](sort/Parallel_MergeSort.py)
+* [Wiggle Sort](sort/wiggle_sort.py)
+
+## Graphs
+* [Depth of Tree](graphs/Depth_Of_Tree.py)
+* [Height of Tree](graphs/height_of_given_tree.py)
+* [Prim's Algorithm](graphs/Prim_Algorithm.py)
+* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
+* [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+- [Binary Tree (Post order transversal)](ds/Binary_tree_post_order.py)
+- [Circular Linked List](ds/Circular_LinkedList.py)
+- [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
+- [Linked List Intersection](ds/linkedListIntersection.py)
 - [Palindrome using doubly linked list](ds/Palindrome-doublylinkedlist.py)
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
@@ -34,6 +76,7 @@
 ## Competitive Programming
 
 - [Anagram Checker](cp/anagram_checker.py)
+- [Anagram Problem](cp/anagram_problem.py)
 - [Find Least positive number](cp/findingLeastPositiveNumber.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
 - [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
@@ -60,6 +103,7 @@
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
+- [Find Intersection of Two Given Linked Lists](cp/find_intersection_of_two_linked_lists.py)
 
 
 ## Cryptography
@@ -71,7 +115,13 @@
 - [Burrows Wheeler transform (BWT)](cryptography/Burrows_Wheeler_transform.py)
 - [XOR Cipher](cryptography/XOR_cipher.py)
 - [AES Algorithm](cryptography/AES.py)
+- [Playfair Cipher](cryptography/Playfair_Cipher.py)
 - [Keyword Cipher](cryptography/Keyword_Cipher.py)
+- [Vernam Cipher](cryptography/Vernam_Cipher.py)
+- [Columnar Cipher](cryptography/Columnar_Cipher.py)
+- [Rail Fence Cipher](cryptography/Rail_Fence_Cipher.py)
+- [Hill Cipher](cryptography/HillCipher.py)
+- [Monoalphabetic Cipher](cryptography/monoalphabeticcipher.py)
 
 ## Searching
 
@@ -91,6 +141,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/Bubble_Sort.py)
+- [Bogo Sort](sort/Bogo_sort.py)
 - [Optimized Bubble Sort](sort/Optimized_Bubble_Sort.py)
 - [Selection Sort](sort/Selection_Sort.py)
 - [Insertion Sort](sort/insertion.py)
@@ -108,6 +159,7 @@
 - [Topological Sort](sort/topological_sort.py)
 - [Sleep Sort](sort/Sleep_sort.py)
 - [Bucket Sort](sort/Bucket_sort.py)
+- [Wiggle Sort](sort/Wiggle_sort.py)
 
 ## Backtracking
 
@@ -122,6 +174,7 @@
 
 - [Coin Change Problem](dp/CoinChange.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
+- [Longest Common Substring](dp/length_longest_common_substring.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 - [Unique BST with N nodes](dp/Unique_BST.py)
@@ -133,6 +186,9 @@
 - [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
+- [Count Derangements](dp/count_derangements.py)
+- [Subset Sum](dp/subset_sum.py)
+- [Maximum Profit](dp/Maximum_Profit.py)
 
 ## Pathfinding Algorithms
 
@@ -140,7 +196,7 @@
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
-- [A\*(Astar) in Maze](Pathfinding/2D_Astar.py)
+- [A* (Astar) in Maze](Pathfinding/2D_Astar.py)
 
 ## Graphs
 
@@ -240,6 +296,8 @@
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
+- [Happy Number](math/Happy_Number.py)
+- [Magic Number](math/Magic_Number.py)
 
 ## Blockchain
 

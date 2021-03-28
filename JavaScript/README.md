@@ -26,6 +26,7 @@
 - [AVL Tree](./ds/AVLTree.js)
 - [Linked List](./ds/LinkedList.js)
 - [Dynamic Linked List](./ds/DynamicLinkedList.js)
+- [Doubly Linked List](./ds/DoublyLinkedList.js)
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Queue using Linked List](./ds/QueueLinkedList.js)
@@ -41,6 +42,8 @@
 - [Manacher Algorithm](./search/ManacherAlgorithm.js)
 - [Ternary Search](./search/ternary_search.js)
 - [Jump Search](./search/JumpSearch.js)
+- [Interpolation Search](./search/InterpolationSearch.js)
+- [Exponential Search](./search/ExponentialSearch.js)
 
 ## Sorting
 

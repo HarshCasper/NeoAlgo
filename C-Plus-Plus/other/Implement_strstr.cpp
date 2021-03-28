@@ -1,3 +1,10 @@
+/* 
+Implement strstr in C++.
+Basically it takes two string as a input.Checks if first string has the occurance of second string.
+If second string is present in first string, it will return the starting index of occurance.
+else return -1
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -5,6 +12,7 @@ using namespace std;
 //if not found return -1
 int strstr(string s1,string s2){
 
+  //For every index of s1,checking if it is the starting index of s2
   for(int i=0;i<s1.size();i++)
   {
     int j;
@@ -34,3 +42,22 @@ int main(){
 
   return 0;
 }
+
+/*
+
+Time Complexity: O(|s1|*|s2|)
+Space Complexity: O(1)
+
+Input1:
+neoalgo abc
+
+Output1:
+Not Found 
+
+Input2:
+neoalgo algo
+
+Output2:
+s2 found in s1 at index 3
+
+*/

@@ -13,7 +13,6 @@ class HappyNumber{
    static int sumOfSquares(int n){
       
        int sum = 0;
-
        while(n != 0){
            /*Taking mod of number with 10 each time
             gives its units place digit. We add its
@@ -59,7 +58,6 @@ class HappyNumber{
 
    }
 
-   
    public static void main(String[] args){
      
        Scanner scan = new Scanner(System.in);
@@ -77,9 +75,7 @@ class HappyNumber{
        }
        else
           System.out.println("The given number "+n+" is not happy number!");  
-   
    }
-
 
 }
 
@@ -96,4 +92,3 @@ class HappyNumber{
    Enter the number :67
    The given number 67 is not happy number!     
 */
-

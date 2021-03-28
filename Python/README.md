@@ -162,6 +162,7 @@
 - [Bucket Sort](sort/Bucket_sort.py)
 - [Tree Sort](sort/Tree_Sort.py)
 - [Wiggle Sort](sort/Wiggle_sort.py)
+- [Counting Sort](sort/Counting_Sort.py)
 
 ## Backtracking
 

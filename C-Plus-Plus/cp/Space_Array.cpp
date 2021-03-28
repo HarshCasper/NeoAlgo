@@ -18,27 +18,31 @@ using namespace std;
 int Game(int arr[],int n)
 {
 	int sum = 0, c = 0;
-		for (int i = 0; i < n; i++) {
-			//Cheking if index is graeter or less than element of array  at that position
-			if (arr[i] > (i + 1)) { 
-				 // true, increase value of c  i.e. count
-				c = 1;                   
-				break;
-			}
-			//if not,take the sum of difference of index and array at that index.
-			sum += abs(arr[i] - (i + 1));    
-		}
-		//c is 1 i.e. arrayy is greater than element of array
-		if (c == 1) 
-		{
-			//second player wins.
-			cout << "Second" << endl;       
-		}
-		else {
-			if (sum % 2 == 0)   // if sum is even.               
-				cout << "Second" << endl;  // second is winner.
-			else
-				cout << "First" << endl;  // otherwise first will win.
+        for (int i = 0; i < n; i++) {
+	//Cheking if index is graeter or less than element of array  at that position
+	    if (arr[i] > (i + 1))
+	    { 
+        // true, increase value of c  i.e. count
+		c = 1;                   
+		break;
+	     }
+	//if not,take the sum of difference of index and array at that index.
+	    sum += abs(arr[i] - (i + 1));    
+	}
+	//c is 1 i.e. arrayy is greater than element of array
+	if (c == 1) 
+	{
+	//second player wins.
+	    cout << "Second" << endl;       
+	}
+	else {
+	    // if sum is even.
+	  if (sum % 2 == 0)    
+	   // second is winner.
+	    cout << "Second" << endl;  
+	  else
+          // otherwise first will win.
+	    cout << "First" << endl;  
 		}
 }
 //Driver Code

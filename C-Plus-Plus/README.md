@@ -136,6 +136,8 @@
 - [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+- [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
+- [Iterative inorder traversal](ds/iterative_inorder.cpp)
 - [Descending Priority Queue](ds/Descending_priority_queue.cpp)
 - [Invert a given binary Tree](ds/Invert_Binary_Tree.cpp)
 - [Binary Search Tree Validation](ds/Binary_Search_Tree_Validation.cpp)

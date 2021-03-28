@@ -32,7 +32,7 @@
            	 System.out.print(", "+0);
             else if(count==3)
             	System.out.print(", "+1);
-            else    //Applicable to all the terms other than the first three terms of the series.
+            else    
             {
             	sum=first+second+third;	
             	System.out.print(", "+sum);

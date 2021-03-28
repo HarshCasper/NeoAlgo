@@ -1,8 +1,7 @@
 /**
 Function to sort list using bubble sort technique.
-We use only one extra temporary variable so space
-complexity is O(1). Best case time complexity (if the list
-is already sorted) is O(n).
+We use one extra temporary variable to help us out in swapping. 
+isSorted checks if the list is already sorted.
  */
 import 'dart:io';
 

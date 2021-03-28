@@ -88,4 +88,7 @@ Enter decimal number: 10
 DECIMAL :: 10
 BINARY  :: 1010
 
+TIME COMPLEXITY  :: O(n)
+SPACE COMPLEXITY :: O(1)
+
 */

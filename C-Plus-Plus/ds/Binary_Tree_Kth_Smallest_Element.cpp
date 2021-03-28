@@ -71,7 +71,7 @@ struct Node* createTree(vector<int>v)
     return a[0];
 }
 
-//Traverse all nodes of a tree in pre order fashion 
+//Traverse all nodes of a tree in level order fashion 
 // and maintain k smallest elements
 int kthSmallest(struct Node* root,int k)
 {

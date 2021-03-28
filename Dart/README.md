@@ -13,3 +13,7 @@
 
 - [2D Areas](maths/Areas2D.dart)
 - [Armstrong number](maths/Armstrong.dart)
+- [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
+## Sorting
+
+- [Bubble Sort](sort/BubbleSort.dart)

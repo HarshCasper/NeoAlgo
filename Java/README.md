@@ -93,6 +93,7 @@ _add list here_
 - [Count Occurrences of Anagrams](cp/CountAnagrams.java)
 - [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
+- [Rat In A Maze](cp/RatInAMaze.java)
 
 ## Cryptography
 
@@ -102,6 +103,9 @@ _add list here_
 - [Rail Fence Cipher](cryptography/RailFenceCipher.java)
 - [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
 - [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
+- [Vernam Cipher](cryptography/vernamCipher.java)
+- [Key Word Cipher](cryptography/KeyWord.java)
+- [Hill Cipher](cryptography/HillCipher.java)
 
 ## Dynamic Programming
 
@@ -125,6 +129,7 @@ _add list here_
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
+- [Middle Of LinkedList](ds/MiddleOfLinkedList.java) 
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
@@ -179,6 +184,8 @@ _add list here_
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
+- [HappyNumber](math/HappyNumber.java)
+- [MagicNumber](math/Magicnumber.java)
 
 ## Dynamic Programming
 

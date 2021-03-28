@@ -144,7 +144,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Neon Number](math/Neon_number.c) 
-- [Decimal To Binary] (math/DecimalToBinary.c)
+- [Decimal To Binary](math/DecimalToBinary.c)
 
 ## Operating System
 

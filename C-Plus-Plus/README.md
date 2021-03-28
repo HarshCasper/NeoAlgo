@@ -87,6 +87,7 @@
 - [Aggressive cows](cp/aggressive_cows.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+- [Maximum Sum Subarray of Size k](cp/max_sum_subarray_of_size_k.cpp)
 - [Maximum of all subarray of size k](cp/maximum_of_all_subarray_of_size_k.cpp)
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)

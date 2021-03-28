@@ -1,5 +1,4 @@
 /*
-
 One plus to whole
 
 For a given array arr[] of decimal digits, all of which are non-negative numbers.
@@ -7,7 +6,6 @@ The digits are stored such that the most significant is at the head of the list,
 and each element of the array contaians single digit only.
 It is assumed that none of the numbers have its most significant digit equal to 0.
 Your task is to increment the interger so formed by one and return it.
-
 */
 
 import java.util.*;
@@ -62,30 +60,14 @@ public class OnePlustoWhole
 }
 
 /*
+EXAMPLE:-
 
-EXAMPLES:-
-
-Example 1:
 Input--
 Enter the number of elements of array: 5
 Enter the elements for array: [1, 2, 2, 5, 6]
 Output--
 The incremented number is: [1, 2, 2, 5, 7]
 
-Example 2:
-Input--
-Enter the number of elements of array: 4
-Enter the elements for array: [9, 9, 9, 9]
-Output--
-The incremented number is: [1, 0, 0, 0, 0]
-
-Example 3:
-Input--
-Enter the number of elements of array: 1
-Enter the elements for array: [0]
-Output--
-The incremented number is: [1]
-
-TIME COMPLEXCITY --> 0(N)
-
+TIME COMPLEXCITY --> O(N)
+SPACE COMPLEXITY --> O(N)
 */

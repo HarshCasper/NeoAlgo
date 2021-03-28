@@ -84,6 +84,7 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
+- [Boyer Moore Algorithm for Pattern Searching](cp/Boyer_Moore_Algorithm.cpp)
 - [Topological Sort on DAG](cp/Topological_sort.cpp)
 - [Check T-Prime](cp/check_T_prime.cpp)
 - [Aggressive cows](cp/aggressive_cows.cpp)
@@ -137,6 +138,7 @@
 - [Ancestors in Binary Search Tree](ds/ancestors_of_given_number_BST.cpp)
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
+- [Merge two sorted Linked Lists](ds/Merge_sorted_lists.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
 - [BST from preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
@@ -205,7 +207,6 @@
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
-- [Childern Sum Property](graphs/Childern_Sum_Property.cpp)
 
 ## Searching
 
@@ -319,6 +320,7 @@ _add list here_
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Matrix Addition](math/matrix_addition.cpp)
+- [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)

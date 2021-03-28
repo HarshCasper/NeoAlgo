@@ -104,6 +104,7 @@
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
 - [Find Intersection of Two Given Linked Lists](cp/find_intersection_of_two_linked_lists.py)
+- [Hailstone Sequence](cp/Hailstone_sequence.py)
 
 
 ## Cryptography
@@ -159,6 +160,7 @@
 - [Topological Sort](sort/topological_sort.py)
 - [Sleep Sort](sort/Sleep_sort.py)
 - [Bucket Sort](sort/Bucket_sort.py)
+- [Tree Sort](sort/Tree_Sort.py)
 - [Wiggle Sort](sort/Wiggle_sort.py)
 
 ## Backtracking

@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -60,16 +60,17 @@
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Reverse a String using Stack](cp/Reverse_string_using_stack.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
+- [Space Array](cp/Space_Array.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
+- [Subarray of length two](cp/Subarray_of_length_two.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Tug Of War](cp/Tug_of_water.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Two Pointers Method](cp/Two_Pointers_Method.cpp)
 - [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
-- [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
-
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
@@ -88,6 +89,16 @@
 - [Aggressive cows](cp/aggressive_cows.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+- [Longest substring with k distinct characters](cp/longest_substring_with_k_unique_characters.cpp)
+- [Longest subarray of sum k](cp/largest_subarray_of_sum_k.cpp)
+- [Minimum Window Substring](cp/minimum_window_substring.cpp)
+- [Length of longest substring with no repeating characters](cp/length_of_longest_substring_with_no_repeating_characters.cpp)
+- [Maximum of Minimum for every window size](cp/max_of_min_subarray.cpp)
+- [Maximum Sum Subarray of Size k](cp/max_sum_subarray_of_size_k.cpp)
+- [Maximum of all subarray of size k](cp/maximum_of_all_subarray_of_size_k.cpp)
+- [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
+- [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
+- [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
 
 ## Data Structures
 
@@ -150,7 +161,9 @@
 - [Print all Root to Leaf paths of Given Binary Tree](ds/Binary_Tree_Print_All_Root_To_Leaf_Paths.cpp)
 - [Maximum Root to Leaf Path sum of a Binary Tree](ds/Binary_Tree_Max_Root_To_Leaf_Path_Sum.cpp)
 - [Common Ancestors of Given Nodes of a Binary Tree](ds/Common_Ancestors_Of_Nodes_Of_Binary_Tree.cpp)
+- [Maximum Leaf to Leaf Path Sum of a Binary Tree](ds/Max_Leaf_To_Leaf_Path_Sum_Of_Binary_Tree.cpp)
 - [Spiral order traversal of binary tree](ds/Spiral_order_traversal_of_binary_tree.cpp)
+
 
 ## Graphs
 
@@ -237,6 +250,7 @@
 - [Wave Sort](sort/wave_sort.cpp)
 - [Wiggle Sort](sort/wiggle_sort.cpp)
 - [Quotient-Remainder Sort](sort/Quotient-Remainder_Sort.cpp)
+- [Binary-Insertion Sort](sort/Binary_Insertion_Sort.cpp)
 
 ## Stack based problems
 
@@ -287,6 +301,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Sudoku Solver](math/sudoku_solver.cpp)
 - [N queens](math/n_queen.cpp)
 - [Word Break Problem](math/Word_break.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
@@ -303,6 +318,7 @@ _add list here_
 - [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
+- [Reordered Power of 2](math/reorderedPowerOf2.cpp)
 - [Automorphic Number](math/automorphic_number.cpp)
 
 ## Dynamic Programming
@@ -346,6 +362,7 @@ _add list here_
 
 - [Check Kth Bit is Set or Not](Bit--Manipulation/Check_kth_bit_is_set_or_not.cpp)
 - [Count Number of Set Bits](Bit--Manipulation/Count_no_of_set_bits.cpp)
+- [Max_XOR_of_Two_Array](Bit--Manipulation/Max_XOR_of_Two_Array.cpp)
 - [Brian_Kernighan's Algorithm](Bit--Manipulation/Brian_Kernighan's_Algorithm.cpp)
 - [Power of 2](Bit--Manipulation/Power_of_2.cpp)
 - [One odd occuring](Bit--Manipulation/One_odd_occuring.cpp)
@@ -413,6 +430,7 @@ _add list here_
 - [Iterative approach to print all subsets](other/subsets_iterative.cpp)
 - [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)
 - [Concatenate given strings](other/n_string_concatenate.cpp)
+- [Decimal to Gray code Conversion](other/Decimal_to_gray.cpp)
 - [Trapping Rainwater](other/trappingRainwater.cpp)
 - [4Sum](other/4Sum.cpp)
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)

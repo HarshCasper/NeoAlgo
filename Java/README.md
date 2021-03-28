@@ -93,6 +93,7 @@ _add list here_
 - [Count Occurrences of Anagrams](cp/CountAnagrams.java)
 - [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
+- [Rat In A Maze](cp/RatInAMaze.java)
 
 ## Cryptography
 
@@ -104,6 +105,7 @@ _add list here_
 - [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
 - [Vernam Cipher](cryptography/vernamCipher.java)
 - [Key Word Cipher](cryptography/KeyWord.java)
+- [Hill Cipher](cryptography/HillCipher.java)
 
 ## Dynamic Programming
 

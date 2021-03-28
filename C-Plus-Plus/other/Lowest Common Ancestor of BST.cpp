@@ -78,3 +78,9 @@ int main() {
     cout << getLCA(root, a, b);
     delete root;
 }
+/*INPUT
+8 5 10 2 6 -1 -1 -1 -1 -1 7 -1 -1
+2 10
+OUTPUT
+8
+*/

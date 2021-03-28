@@ -7,8 +7,8 @@ using namespace std;
 
 // to check whether we can place a particular number in the given cell or not
 bool isSafe(int mat[][9], int i, int j, int n, int number){
-    // we will check row and column of a cell whether given number is present or not
-    // if present then we will return false
+    /* we will check row and column of a cell whether given number is present or not
+     if present then we will return false */
     for(int x=0;x<n;x++){
         if(mat[x][j] == number || mat[i][x] == number){
             return false;

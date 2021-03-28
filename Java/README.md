@@ -105,6 +105,8 @@ _add list here_
 - [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
 - [Vernam Cipher](cryptography/vernamCipher.java)
 - [Key Word Cipher](cryptography/KeyWord.java)
+- [Hill Cipher](cryptography/HillCipher.java)
+- [Vigenere Cipher](cryptography/VigenereCipher.java)
 
 ## Dynamic Programming
 
@@ -183,6 +185,10 @@ _add list here_
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
+- [Transpose of Matrix](math/Matrix_Transpose.java)
+- [Tribonacci series upto n terms](math/tribonacci.java)
+- [HappyNumber](math/HappyNumber.java)
+- [MagicNumber](math/Magicnumber.java)
 
 ## Dynamic Programming
 
@@ -261,6 +267,7 @@ _add list here_
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [One plus to the whole](other/OnePlustoWhole.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)

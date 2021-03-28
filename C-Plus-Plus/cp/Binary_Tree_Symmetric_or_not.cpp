@@ -23,14 +23,16 @@ TreeNode* newNode(int n){
 	return t;
 }
 
-int height(TreeNode* A){		//this function calculate the height of the Binary Tree   
+//this function calculate the height of the Binary Tree  
+int height(TreeNode* A){		 
 	if(A==NULL){
 		return 0;
 	}
 	return 1 + max(height(A->left),height(A->right));
 }
 
-void level_order(TreeNode* A, int h, vector<int> &v){ 		//This gives us the vector of values of all the nodes at the given height 
+//This gives us the vector of values of all the nodes at the given height
+void level_order(TreeNode* A, int h, vector<int> &v){ 		 
 	if(A==NULL){
 		v.push_back(INT_MIN);
 		return;
@@ -43,10 +45,11 @@ void level_order(TreeNode* A, int h, vector<int> &v){ 		//This gives us the vect
 	level_order(A->right,h-1,v);
 }
 
-bool is_level_palindrome(TreeNode* A, int h){		// This function checks if all the levels of given binary tree forms palindrome
+// This function checks if particular level of given binary tree forms palindrome
+bool is_level_palindrome(TreeNode* A, int h){		
 	vector<int> v;
 	level_order(A,h,v);
-	for(int i=0;i<v.size()-1;i++){
+	for(int i=0;i<v.size()/2;i++){
 		if(v[i]!=v[v.size()-1-i]){
 			return false;
 		}
@@ -54,7 +57,8 @@ bool is_level_palindrome(TreeNode* A, int h){		// This function checks if all th
 	return true;
 }
 
-bool Check_Symmetry(TreeNode* A){		//This function checks if given binary tree is symmetrical   
+//This function checks if given binary tree is symmetrical
+bool Check_Symmetry(TreeNode* A){		   
 	int h = height(A);
 	for(int i=1;i<=h;i++){
 		if(!is_level_palindrome(A,i)){
@@ -85,20 +89,16 @@ int main(){
 }
 
 /*
-Time Complexity : O(N);
+Time Complexity : O(2^N)
+Space Complexity : O(N)
+
 Here we have given following binary tree as input:
-	5
+    5
    / \
   6   6
  / \ / \
 3  8 8  3 
 This binary tree is symmetric, so output should be - "Given binary tree is symmetric."
-
-Suppose if input binary tree is:
-    10
-   / \
-  6   6
- /   / 
-4    4 
-This binary tree is not symmetric, so output will be - "Given binary tree is not symmetric."
 */
+
+

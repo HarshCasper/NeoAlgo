@@ -53,7 +53,6 @@ int main()
 Example :
 1)Input = a a b c c .
 Output = a -1 b b b
-
 2)Input: s d d g .
 Output: s s s s 
 

@@ -1,11 +1,9 @@
 /*
-
 Insert Position
 
 For a given sorted array of distinct integers arr[]
 and a key value, your task is to return the index where 
 it would best fit or be inserted in the order.
-
 */
 
 import java.util.*;
@@ -64,9 +62,7 @@ public class InsertPosition
 
 /*
 
-EXAMPLES:-
-
-Example 1:
+Example:
 Input--
 Enter the number of elements of array: 5
 Enter the key value to be inserted: 2
@@ -74,23 +70,8 @@ Enter the elements for array in sorted order: [1, 4, 5, 8, 9]
 Output--
 Position at which the key value should be inserted is: 1
 
-Example 2:
-Input--
-Enter the number of elements of array: 3
-Enter the key value to be inserted: 4
-Enter the elements for array in sorted order: [1, 2, 3]
-Output--
-Position at which the key value should be inserted is: 3
-
-Example 1:
-Input--
-Enter the number of elements of array: 1
-Enter the key value to be inserted: 1
-Enter the elements for array in sorted order: [0]
-Output--
-Position at which the key value should be inserted is: 1
-
 TIME COMPLEXITY--> O(N)
+SPACE COMPLEXITY--> O(1)
 
 */
 

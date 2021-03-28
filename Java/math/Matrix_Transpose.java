@@ -12,26 +12,21 @@ import java.util.Scanner;
 
 public class Matrix_Transpose 
 {
-
 	public static void transpose(int[][] a,int[][] b, int n , int m) //Function for the transpose
 	{
-		
 		int i=0, j=0;
 		
-	    for(i=0;i<m;i++)
-    	{
-	    	
-	    	for(j=0;j<n;j++)
-	    	{
-	    		//Each element of the transpose is assigned
-	    		b[i][j]=a[j][i]; 
-	    	}
-    	}
+	    	for(i=0;i<m;i++)
+    		{
+	    		for(j=0;j<n;j++)
+	    		{
+				//Each element of the transpose is assigned
+				b[i][j]=a[j][i]; 
+	    		}
+    		}
 	}
-    
 	
 	public static void main(String[] args) 
-	
 	{
 		//To read inputs from the users Scanner is used
 		Scanner sc = new Scanner(System.in);
@@ -51,40 +46,37 @@ public class Matrix_Transpose
         
 		System.out.println("Enter matrix elements:");
 		
-	    for(i=0;i<n;i++)
+	    	for(i=0;i<n;i++)
 		{
 			for(j=0;j<m;j++)
 			{
-			//Taking user inputs(elements) of the matrix
+			        //Taking user inputs(elements) of the matrix
 				a[i][j]=sc.nextInt();
 			}
-			
+
 			System.out.println();
 		}
 	    
-	    System.out.println("Given Matrix elements are:");
-	    for(i=0;i<n;i++)
+	     	System.out.println("Given Matrix elements are:");
+	    	for(i=0;i<n;i++)
 		{
 			for(j=0;j<m;j++)
 			{
 				//To display elements of the matrix that are taken from user
 				System.out.print(a[i][j]+" ");
 			}
-			
+
 			System.out.println();
 		}
-	    
-	    
-	   transpose(a, b , n , m); // Function call to calculate the transpose
-	   System.out.println("Transpose of Matrix:");
-	   for(i=0;i<m;i++)
+	   	transpose(a, b , n , m); // Function call to calculate the transpose
+	        System.out.println("Transpose of Matrix:");
+	        for(i=0;i<m;i++)
 	   	{
 		   	for(j=0;j<n;j++)
 		   	{
 		   		//Printing the elements of the matrix after transpose calculation
 		   		System.out.print(b[i][j]+" ");
 		   	}
-		   	
 		   	System.out.println();
 	   	}
 	}

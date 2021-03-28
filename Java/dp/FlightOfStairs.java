@@ -1,7 +1,9 @@
 /*Problem link: https://binarysearch.com/problems/A-Flight-of-Stairs-Sequel
-You are given positive integers n and k. You are currently at stair 0 and want to climb to stair n. You can either climb 1, 2, or 3 stairs at a time, but you can only climb 3 stairs at most k times.
 
-Return the number of ways to climb to the nth stair. The answer is guaranteed to fit in a 32-bit signed integer.
+Problem Statement:
+You are given positive integers n and k and you are currently at stair 0 and want to climb to stair n. 
+You can either climb 1, 2, or 3 stairs at a time, but you can only climb 3 stairs at most k times.
+Return the number of ways to climb to the nth stair.
 */
 
 import java.util.Scanner;

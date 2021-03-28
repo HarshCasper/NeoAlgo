@@ -32,16 +32,17 @@ int get_max_consecutive_ones(int ar[] , int N)
 int main()
 {
     cout << "Enter the size of the array : \n";
-	int N;
-	cin >> N;
-	int ar[N + 1];
-	cout << "Enter array elements :\n";
-	for (int i = 0; i < N; i++) {
-		cin >> ar[i];
-	}
-	int max_consecutive_ones = get_max_consecutive_ones(ar , N);
-	cout << "Maximum Consecutive Ones in this array is : ";
-	cout << max_consecutive_ones << endl;
+    int N;
+    cin >> N;
+    int ar[N + 1];
+    cout << "Enter array elements :\n";
+    for (int i = 0; i < N; i++) 
+    {
+	 cin >> ar[i];
+    }
+    int max_consecutive_ones = get_max_consecutive_ones(ar , N);
+    cout << "Maximum Consecutive Ones in this array is : ";
+    cout << max_consecutive_ones << endl;
 }
 
 /*

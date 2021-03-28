@@ -4,6 +4,8 @@ INVERSE OF AN ARRAY
 If the array elements are swapped with their corresponding indices,
 the array finally results is inverse of an array. 
 */
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -14,8 +16,20 @@ using namespace std;
 // In inv array for each value of temp, store the index of ori array.
 // Display the inverse array.
 
+void inverse(int a[], int n, int b[])
+{
+    for (int i = 0; i < n; i++)
+    {
+        int temp = a[i];
+        b[temp] = i;
+    }
+    for (int i = 0; i < n; i++)
+        cout << b[i] << " ";
+}
+
 int main()
 {
+    // Driver code begins
     int t, n;
     cin >> t;
     while (t--)
@@ -27,16 +41,12 @@ int main()
         for (int i = 0; i < n; i++)
             cin >> ori[i];
 
-        for (int i = 0; i < n; i++)
-        {
-            int temp = ori[i];
-            inv[temp] = i;
-        }
-        for (int i = 0; i < n; i++)
-            cout << inv[i] << " ";
+        inverse(ori, n, inv);
     }
     return 0;
 }
+// Driver code ends
+
 
 /*
 time complexity -: O(n)

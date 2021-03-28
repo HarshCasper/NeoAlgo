@@ -170,6 +170,7 @@
 - [Sudoku Solver](backtracking/sudokuSolver.py)
 - [Subset Sum](backtracking/Subset_Sum.py)
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
+- [M Coloring Problem](backracking/M-coloring.py)
 
 ## Dynamic Programming
 

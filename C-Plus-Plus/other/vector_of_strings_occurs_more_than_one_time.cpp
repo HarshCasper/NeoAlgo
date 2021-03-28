@@ -53,13 +53,11 @@ int main()
     }
     cout << endl;
 }
-
 /*
 Standard Input and Output
 
 Enter the number of strings :
 6
-
 Enter the strings :
 tom
 lucius
@@ -67,9 +65,7 @@ ginny
 harry
 ginny
 harry
-
 Duplicate Strings are : ginny harry
-
 
 Time Complexity : O(log N)
 Space Complexity : O(N)

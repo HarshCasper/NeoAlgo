@@ -5,12 +5,12 @@
 # m is number of students.
 # Returns minimum difference between maximum
 # and minimum values of distribution.
+
+
 def findMinDiff(arr, n, m):
-
-
     # if there are no chocolates or number
     # of students is 0
-    if (m == 0 or n == 0):
+    if m == 0 or n == 0:
         return 0
 
     # Sort the given packets
@@ -18,7 +18,7 @@ def findMinDiff(arr, n, m):
 
     # Number of students cannot be more than
     # number of packets
-    if (n < m):
+    if n < m:
         return -1
 
     # Largest number of chocolates

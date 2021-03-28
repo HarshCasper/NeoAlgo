@@ -8,8 +8,7 @@ struct min_max
 	int maximum;
 };
 
-struct min_max find(int arr[], int low,
-								int high)
+struct min_max find(int arr[], int low,int high)
 {
 	struct min_max minmax, ml, mr;	
 	int mid;
@@ -72,8 +71,7 @@ int main()
 	}
 	int arr_size=sizeof(arr)/sizeof(arr[0]);
 	
-	struct min_max minmax = find(arr, 0,
-							arr_size - 1);
+	struct min_max minmax = find(arr, 0,arr_size - 1);
 							
 	cout << "Minimum element is "
 		<< minmax.minimum << endl;

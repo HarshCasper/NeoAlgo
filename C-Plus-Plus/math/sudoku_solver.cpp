@@ -1,5 +1,7 @@
-// this is a backtracking problem which is used for solving sudoku
-// in sudoku there should be no repetition of number int same row, same column and same grid which of 3*3 size
+/* 
+this is a backtracking problem which is used for solving sudoku
+in sudoku there should be no repetition of number int same row, same column and same grid which of 3*3 size
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -45,8 +47,9 @@ bool sudoku_solver(int mat[][9], int i, int j, int n){
         return true;
     }
 
-    // if all the columns of a particular row is filled then we will move to next row
-    // and will start from the 0th column
+    /*
+    if all the columns of a particular row is filled then we will move to next row
+    and will start from the 0th column  */
     if(j == n){
        return sudoku_solver(mat,i+1,0,n);
     }
@@ -56,8 +59,8 @@ bool sudoku_solver(int mat[][9], int i, int j, int n){
        return sudoku_solver(mat,i,j+1,n);
     }
 
-    //recursive case
-    //fill the current cell with possible options
+    /* recursive case
+    fill the current cell with possible options */
     for(int number=1;number<=n;number++){
         if(isSafe(mat,i,j,n,number)){
             // assume that it is correct not at correct position

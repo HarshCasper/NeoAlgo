@@ -19,6 +19,7 @@ result: stack of disks moved from one rod to
 #function for tower of hanoi
 #we have three rods source , auxilary and target
 #putting n_disk from source rod  to the target rod using auxiallary rod
+
 def tower_of_hanoi(n_disks, source, auxiliary, target):
     
     #if only one disk is on the rod
@@ -39,17 +40,19 @@ if __name__ == "__main__":
     n_disks = int(input('Enter the number of disks: '))
     tower_of_hanoi(n_disks, 'X', 'Y', 'Z') 
 
-# Sample Input/Output
+""" 
+Sample Input/Output
 
-#Enter the number of disks: 3
+Enter the number of disks: 3
 
-#Move disk 1 from rod X to rod Z.
-#Move disk 2 from rod X to rod Y.
-#Move disk 1 from rod Z to rod Y.
-#Move disk 3 from rod X to rod Z.
-#Move disk 1 from rod Y to rod X.
-#Move disk 2 from rod Y to rod Z.
-#Move disk 1 from rod X to rod Z.
+Move disk 1 from rod X to rod Z.
+Move disk 2 from rod X to rod Y.
+Move disk 1 from rod Z to rod Y.
+Move disk 3 from rod X to rod Z.
+Move disk 1 from rod Y to rod X.
+Move disk 2 from rod Y to rod Z.
+Move disk 1 from rod X to rod Z.
 
-# number of moves  2n - 1.
-# Time Complexity  O(2^n)
+number of moves  2n - 1.
+Time Complexity  O(2^n)  
+"""

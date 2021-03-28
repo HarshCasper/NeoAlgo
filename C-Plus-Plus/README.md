@@ -66,8 +66,8 @@
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Tug Of War](cp/Tug_of_water.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
+- [Two Pointers Method](cp/Two_Pointers_Method.cpp)
 - [Toggle Kth Bit From Right](cp/ToggleKthBitFromRight.cpp)
-- [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)
 
 - [First occurence of 1](cp/first1_binsearch.cpp)

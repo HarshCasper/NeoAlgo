@@ -84,11 +84,13 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
+- [Boyer Moore Algorithm for Pattern Searching](cp/Boyer_Moore_Algorithm.cpp)
 - [Topological Sort on DAG](cp/Topological_sort.cpp)
 - [Check T-Prime](cp/check_T_prime.cpp)
 - [Aggressive cows](cp/aggressive_cows.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+- [Generate all n balanced parenthesis combinations](cp/generate_valid_parenthesis.cpp)
 - [Longest substring with k distinct characters](cp/longest_substring_with_k_unique_characters.cpp)
 - [Longest subarray of sum k](cp/largest_subarray_of_sum_k.cpp)
 - [Minimum Window Substring](cp/minimum_window_substring.cpp)
@@ -99,7 +101,6 @@
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
-
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
@@ -137,6 +138,7 @@
 - [Ancestors in Binary Search Tree](ds/ancestors_of_given_number_BST.cpp)
 - [Binary Search Tree to Greater Sum Tree](ds/BST_to_Greater_Sum_Tree.cpp)
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
+- [Merge two sorted Linked Lists](ds/Merge_sorted_lists.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
 - [BST from preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
@@ -157,11 +159,14 @@
 - [Maximum Element of Binary Tree](ds/Maximum_Element_of_Binary_Tree.cpp)
 - [Maximum Sum Level Of Binary Tree](ds/Max_Sum_Level_Of_Binary_Tree.cpp)
 - [Symmetric Binary Tree or Not](ds/Symmetric_Binary_Tree.cpp)
+- [Vertical Order Traversal Of Binary Tree](ds/vertical_order_traversal_BinaryTree.cpp)
 - [Height of Binary Tree without using Recusrsion](ds/Height_Of_Binary_Tree_Non_Recursive.cpp)
 - [Print all Root to Leaf paths of Given Binary Tree](ds/Binary_Tree_Print_All_Root_To_Leaf_Paths.cpp)
 - [Maximum Root to Leaf Path sum of a Binary Tree](ds/Binary_Tree_Max_Root_To_Leaf_Path_Sum.cpp)
 - [Common Ancestors of Given Nodes of a Binary Tree](ds/Common_Ancestors_Of_Nodes_Of_Binary_Tree.cpp)
 - [Maximum Leaf to Leaf Path Sum of a Binary Tree](ds/Max_Leaf_To_Leaf_Path_Sum_Of_Binary_Tree.cpp)
+- [Kth Smallest Element of Binary Tree](ds/Binary_Tree_Kth_Smallest_Element.cpp)
+- [Zig Zag Level Order Traversal Of a Binary Tree](ds/Zig_Zag_Level_Order_Traversal_Binary_Tree.cpp)
 
 ## Graphs
 
@@ -201,7 +206,6 @@
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
-- [Childern Sum Property](graphs/Childern_Sum_Property.cpp)
 
 ## Searching
 
@@ -286,6 +290,7 @@ _add list here_
 - [Armstrong Number](math/armstrong_number.cpp)
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Catalan number](math/catalan_num.cpp)
+- [Check if a Number is a Palindrome](math/check_palindrome.cpp)
 - [Counting divisors using sieve of Eratosthenes](maths/counting_divisors_using_sieve_of_eratosthenes.cpp)
 - [Difference_of_Two_Strings](math/Difference_of_Two_Strings.cpp)
 - [Double factorial](math/double_factorial.cpp)
@@ -314,8 +319,10 @@ _add list here_
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Matrix Addition](math/matrix_addition.cpp)
+- [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
+- [Reordered Power of 2](math/reorderedPowerOf2.cpp)
 - [Automorphic Number](math/automorphic_number.cpp)
 
 ## Dynamic Programming

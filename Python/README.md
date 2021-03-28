@@ -160,6 +160,7 @@
 - [Topological Sort](sort/topological_sort.py)
 - [Sleep Sort](sort/Sleep_sort.py)
 - [Bucket Sort](sort/Bucket_sort.py)
+- [Tree Sort](sort/Tree_Sort.py)
 - [Wiggle Sort](sort/Wiggle_sort.py)
 
 ## Backtracking

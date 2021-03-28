@@ -268,6 +268,7 @@
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
+- [Reverse a stack](stack/Reverse_a_Stack.cpp)
 
 ## Heap based problems
 

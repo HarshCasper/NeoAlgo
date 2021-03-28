@@ -15,8 +15,7 @@
  {
     public static void main(String [] args)
     { 
-
-        Scanner scan = new Scanner(System.in);
+         Scanner scan = new Scanner(System.in);
 	    
 	  long num,first=0,second=0,third=1,sum=0,count=0;
 	    
@@ -55,3 +54,4 @@
  Space Complexity: O(1)
  Time Complexity: O(n)
  */
+

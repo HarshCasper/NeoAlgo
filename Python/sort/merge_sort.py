@@ -9,9 +9,6 @@ element and merging those sublists in a manner that results into a sorted list.
 Methodology:
 Given two sorted integer arrays A and B, merge B into A as one sorted array.
 
-Time Complexity:  O(n)
-Space Complexity: O(1)
-
 Note:
 You may assume that A has enough space (size that is greater or equal to m + n)
 to hold additional elements from B.
@@ -19,33 +16,71 @@ The number of elements initialized in A and B are m and n respectively.
 
 """
 
+# function merge_sort takes a list and two variables start and end as arguments
+def merge_sort(alist, start, end):
+    '''
+    The function merge_sort will sort the list from indexes start to end – 1 inclusive.
+    '''
 
-class Solution:
-    """
-    @param A  a list of integers
-    @param m  an integer, length of A
-    @param B  a list of integers
-    @param n  an integer, length of B
-    @return nothing
-    """
+    #  If end – start is not greater than 1, then return.
+    if end - start > 1:
+        # Otherwise, set mid equal to the floor of (start + end)/2.
+        mid = (start + end)//2
 
-    def merge(self, A, m, B, n):
-        last, i, j = m + n - 1, m - 1, n - 1
+        # Call merge_sort with the same list and with start = start and end = mid as arguments.
+        merge_sort(alist, start, mid)
 
-        while i >= 0 and j >= 0:
-            if A[i] > B[j]:
-                A[last] = A[i]
-                last, i = last - 1, i - 1
-            else:
-                A[last] = B[j]
-                last, j = last - 1, j - 1
+        # Call merge_sort with the same list and with start = mid and end = end as arguments.
+        merge_sort(alist, mid, end)
 
-        while j >= 0:
-                A[last] = B[j]
-                last, j = last - 1, j - 1
+        # Call the function merge_list, passing the list and the variables start, mid and end as arguments.
+        merge_list(alist, start, mid, end)
 
-if __name__ == "__main__":
-    A = [1, 3, 5, 0, 0, 0, 0]
-    B = [2, 4, 6, 7]
-    Solution().merge(A, 3, B, 4)
-    print A
+
+def merge_list(alist, start, mid, end):
+    '''
+    The function merge_list takes a list and three numbers, start, mid and end
+    as arguments and assuming the list is sorted from indexes start to mid – 1
+    and from mid to end – 1, merges them to create a new sorted list from
+    indexes start to end – 1.
+    '''
+    left = alist[start:mid]
+    right = alist[mid:end]
+    k = start
+    i = 0
+    j = 0
+    while (start + i < mid and mid + j < end):
+        if (left[i] <= right[j]):
+            alist[k] = left[i]
+            i = i + 1
+        else:
+            alist[k] = right[j]
+            j = j + 1
+        k = k + 1
+    if start + i < mid:
+        while k < end:
+            alist[k] = left[i]
+            i = i + 1
+            k = k + 1
+    else:
+        while k < end:
+            alist[k] = right[j]
+            j = j + 1
+            k = k + 1
+
+alist = input('Enter the list of numbers: ').split()
+alist = [int(x) for x in alist]
+merge_sort(alist, 0, len(alist))
+print('Sorted list: ', end='')
+print(alist)
+
+'''
+Sample Input:
+Enter the list of numbers: 5 3 2 1 0
+
+Sample Output:
+Sorted list: [0, 1, 2, 3, 5]
+
+Time Complexity:  O(n)
+Space Complexity: O(1)
+'''

@@ -139,7 +139,6 @@
 - [Descending Priority Queue](ds/Descending_priority_queue.cpp)
 - [Remove all Fibonacci Nodes from a Circular Singly Linked List](ds/Removing_fibonacci_nodes_in_circular_LL.cpp)
 - [Invert a given binary Tree](ds/Invert_Binary_Tree.cpp)
-- [Binary Search Tree Validation](ds/Binary_Search_Tree_Validation.)
 - [Binary Search Tree Validation](ds/Binary_Search_Tree_Validation.cpp)
 - [Maximum Element of Binary Tree](ds/Maximum_Element_of_Binary_Tree.cpp)
 

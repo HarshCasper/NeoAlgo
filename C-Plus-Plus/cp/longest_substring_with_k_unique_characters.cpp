@@ -23,18 +23,16 @@ int kUniqueChar(string str, int k)
         //unique elements less than required increase window size
         if (charCount.size() < k)
             end++;
-        //if unique element equals to required we need to check
-        //if on increasing the window size whether repetitive
-		// element is present or not
-        //if present then update it as ans
-        //increase window size
+        /*if unique element equals to required we need to check
+          if on increasing the window size whether repetitive element is present or not
+          if present then update it as ans and increase window size*/
         else if (charCount.size() == k) {
             ans = max(ans, end - start + 1);
             end++;
         }
         else if (charCount.size() > k) {
-            // If there are more than k unique characters in
-            // current window, remove from left side
+            /*If there are more than k unique characters in
+              current window, remove element from left side*/
             while (charCount.size() > k) {
                 charCount[str[start]]--;
                 // If occurence of character becomes 0,then we will remove it from map
@@ -42,8 +40,8 @@ int kUniqueChar(string str, int k)
                     charCount.erase(str[start]);
                 start++;
             }
-            //move forward
-            //increment end
+            /*move forward
+              increment end*/
             end++;
         }
     }

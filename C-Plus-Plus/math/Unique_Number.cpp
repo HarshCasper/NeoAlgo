@@ -9,17 +9,15 @@ Unique elements of nums.
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
 int uniqueNum(int n){
     int i, j, k, arr[100], ctr=0, sum=0;
     
-    cout<<"Enter the elements : ";
+    cout<<"Enter the elements : "<<endl;
     for(i=0;i<n;i++){
         cin>>arr[i];
     }
     
-    cout<<"Unique elements in the array are: ";
+    cout<<"Unique elements in the array are: "<<endl;
     for(i=0; i<n; i++){
         ctr=0;
         for(j=0,k=n; j<k+1; j++){
@@ -36,22 +34,19 @@ int uniqueNum(int n){
      }
     }
     cout<<endl;
-    cout<<"Sum of Unique elements : "<<sum;
+    cout<<"Sum of Unique elements : "<<sum<<endl;
 }
 
 
 int main(){
     int n;
     
-    cout<<"Enter the number of elements in the array: ";
+    cout<<"Enter the number of elements in the array: "<<endl;
     cin>>n;
     
     uniqueNum(n);
-    
     return 0;
 }
-
-
 
 /*
 

@@ -15,29 +15,32 @@ Print 1 if it is possible to colour vertices and 0 otherwise.
 Method:
 Backtracking 
 
-Intuition: 
+Intuition:  We consider all the different combinations of the colors for the given graph using backtacking 
 
 Argument: Array,int,int
 Return: Boolean
 '''
 def isSafe(graph,v,n,temp,color):
+    #This check wheather if it saf to color the given node with temp color i.e checking if the adjacent nodes are different from temp 
     for i in range(v):
         if (graph[n][i]==1 and color[i]==temp):
             return False
     return True
 def check(graph,m,v,n,color):
-    if(n==v):
+    #This function iteratively checks different combinations.
+    if(n==v):# base case : if all the nodes are traversed return 
         return True
     for i in range(1,m+1):
-        if(isSafe(graph,v,n,i,color)):
+        if(isSafe(graph,v,n,i,color)):#checking if it is safe to color 
             color[n]=i
             if(check(graph,m,v,n+1,color)):
                 return True
             color[n]=0
     return False
 def graphcoloring(graph,M,V):
-    color=[0]*(V+1)
+    color=[0]*(V+1) # assigning colors to different nodes 
     return check(graph,M,V,0,color)
+#driver code 
 def main():
     for _ in range(int(input())):
         V=int(input())
@@ -77,6 +80,6 @@ Sample Output:
 1
 0
 
-Time Complexity: O()
-Space complexity: O()
+Time Complexity: O(M*V)
+Space complexity: O(V)
 '''

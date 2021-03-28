@@ -185,6 +185,7 @@ _add list here_
 - [Neon number](Neon_number.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
 - [HappyNumber](math/HappyNumber.java)
+- [MagicNumber](math/Magicnumber.java)
 
 ## Dynamic Programming
 

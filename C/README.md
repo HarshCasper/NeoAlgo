@@ -15,7 +15,6 @@
 - [Adjacent Element Product](cp/Adjacent_Element_Product.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
 - [Anagram Program](cp/anagram_program.c)
-- [Binary Search](search/BinarySearch.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Finding possible codes using recursion ](cp/possible_code_recursion.c)
 - [Linear Search](search/linear_search.c)
@@ -99,10 +98,12 @@
 - [Finding Linked List Palindrome](ds/FindLinkedListPalindrome.c)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_Linked_List.c)
 - [Sorting the elements of a stack](ds/stack_sort.c)
+- [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
+- [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
 
 ## Searching
 
-- [Binary Search](search/BinarySearch.c)
+- [Binary Search](search/Binary_search.c)
 - [Iterative-Binary Search](search/IterativeBinarySearch.c)
 - [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
@@ -135,6 +136,7 @@
 - [Pigeon Hole Sort](sort/pigeon_hole_sort.c)
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
+- [Comb Sort](sort/comb.c)
 
 ## Dynamic Programming
 

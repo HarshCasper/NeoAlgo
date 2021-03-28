@@ -233,6 +233,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/ayushjha952"><img src="https://avatars.githubusercontent.com/u/60105854?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ayush Jha</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=ayushjha952" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/deepali-sukhija-1a63071bb/"><img src="https://avatars.githubusercontent.com/u/64724041?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DEEPALI-SUK</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=DEEPALI-SUK" title="Code">💻</a></td>
+    <td align="center"><a href="https://personal-portfolio-git-master-javeed3157.vercel.app/"><img src="https://avatars.githubusercontent.com/u/73298565?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SHAIK JAVEED SUHAIL</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=javeed3157" title="Code">💻</a></td>
+    <td align="center"><a href="https://gotocoders.wordpress.com/"><img src="https://avatars.githubusercontent.com/u/68695162?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sushant Gaurav</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=imsushant12" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Meghag5"><img src="https://avatars.githubusercontent.com/u/65459236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Megha gupta</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Meghag5" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/rohanbabbar04"><img src="https://avatars.githubusercontent.com/u/77425744?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rohan Babbar </b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=rohanbabbar04" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/deepika-sukhija-97ab261ba"><img src="https://avatars.githubusercontent.com/u/64724039?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DEEPIKA-SUK</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=DEEPIKA-SUK" title="Code">💻</a></td>
   </tr>
 </table>
 

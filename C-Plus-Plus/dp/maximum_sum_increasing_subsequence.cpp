@@ -26,11 +26,7 @@ int max_sum_increasing_subsequence(int arr[], int n)
                 dp[i] = dp[j] + arr[i];
 
     //Now Find the maximum element in the 'dp' array
-    for (int i = 0; i < n; i++)
-    {
-        if (max_sum < dp[i])
-            max_sum = dp[i];
-    }
+    max_sum = *max_element(arr, arr + n);
 
     return max_sum;
 }

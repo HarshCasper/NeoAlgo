@@ -60,6 +60,7 @@
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Reverse a String using Stack](cp/Reverse_string_using_stack.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
+- [Space Array](cp/Space_Array.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
 - [Subarray of length two](cp/Subarray_of_length_two.cpp)
@@ -89,6 +90,8 @@
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
 - [Longest substring with k distinct characters](cp/longest_substring_with_k_unique_characters.cpp)
+- [Longest subarray of sum k](cp/largest_subarray_of_sum_k.cpp)
+- [Minimum Window Substring](cp/minimum_window_substring.cpp)
 - [Length of longest substring with no repeating characters](cp/length_of_longest_substring_with_no_repeating_characters.cpp)
 - [Maximum of Minimum for every window size](cp/max_of_min_subarray.cpp)
 - [Maximum Sum Subarray of Size k](cp/max_sum_subarray_of_size_k.cpp)
@@ -158,6 +161,7 @@
 - [Print all Root to Leaf paths of Given Binary Tree](ds/Binary_Tree_Print_All_Root_To_Leaf_Paths.cpp)
 - [Maximum Root to Leaf Path sum of a Binary Tree](ds/Binary_Tree_Max_Root_To_Leaf_Path_Sum.cpp)
 - [Common Ancestors of Given Nodes of a Binary Tree](ds/Common_Ancestors_Of_Nodes_Of_Binary_Tree.cpp)
+- [Maximum Leaf to Leaf Path Sum of a Binary Tree](ds/Max_Leaf_To_Leaf_Path_Sum_Of_Binary_Tree.cpp)
 
 ## Graphs
 
@@ -295,6 +299,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Sudoku Solver](math/sudoku_solver.cpp)
 - [N queens](math/n_queen.cpp)
 - [Word Break Problem](math/Word_break.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
@@ -421,6 +426,7 @@ _add list here_
 - [Iterative approach to print all subsets](other/subsets_iterative.cpp)
 - [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)
 - [Concatenate given strings](other/n_string_concatenate.cpp)
+- [Decimal to Gray code Conversion](other/Decimal_to_gray.cpp)
 - [Trapping Rainwater](other/trappingRainwater.cpp)
 - [4Sum](other/4Sum.cpp)
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)

@@ -417,3 +417,4 @@ _add list here_
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
 - [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
+- [Implement strstr](other/Implement_strstr.cpp)

@@ -81,16 +81,24 @@ void to_doubly_linked_list(TreeNode* T){
 }
 
 int main(){
-	int n;		//number of nodes of binary tree
-	cin>>n;
-	vector<int> v;
-	while(n){		//asking user for elements of Binary tree
-		int x;
-		cin>>x;
-		v.push_back(x);
-		n--;
+	cout<<"Enter number of nodes of binary tree: ";
+	int node;		//number of nodes of binary tree
+	cin>>node;
+	
+	cout<<"Enter the values of nodes level by level and enter -1 if node is NULL: "
+	vector<int> binary_tree_values;
+	
+	while(node){		//asking user for elements of Binary tree
+		int node_value;
+		cin>>node_value;
+		binary_tree_values.push_back(node_value);
+		node--;
 	}
-	TreeNode* T = make_tree(v);
+	
+	cout<<"Making binary tree from the vector"<<endl;
+	TreeNode* T = make_tree(binary_tree_values);
+	
+	cout<<"Converting Binary tree to doubly linked list"<<endl;
 	to_doubly_linked_list(T);
 	
 	return 0;
@@ -106,6 +114,10 @@ Here if we give following binary tree as input:
   6   8
  / \ / \
 3  4 9  2 
+i.e,
+if input is -
+7
+5 6 8 3 4 9 2
 The output will be - 3 6 4 5 9 8 2
 */
 

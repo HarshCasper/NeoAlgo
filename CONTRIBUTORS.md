@@ -240,6 +240,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/rohanbabbar04"><img src="https://avatars.githubusercontent.com/u/77425744?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rohan Babbar </b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=rohanbabbar04" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/deepika-sukhija-97ab261ba"><img src="https://avatars.githubusercontent.com/u/64724039?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DEEPIKA-SUK</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=DEEPIKA-SUK" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/shivanshugarg12800"><img src="https://avatars.githubusercontent.com/u/43763389?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shivanshu Garg</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=shivanshugarg12800" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->

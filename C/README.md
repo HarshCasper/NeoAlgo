@@ -136,6 +136,7 @@
 - [Pigeon Hole Sort](sort/pigeon_hole_sort.c)
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
+- [Comb Sort](sort/comb.c)
 
 ## Dynamic Programming
 

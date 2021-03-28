@@ -106,6 +106,7 @@ _add list here_
 - [Vernam Cipher](cryptography/vernamCipher.java)
 - [Key Word Cipher](cryptography/KeyWord.java)
 - [Hill Cipher](cryptography/HillCipher.java)
+- [Vigenere Cipher](cryptography/VigenereCipher.java)
 
 ## Dynamic Programming
 

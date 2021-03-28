@@ -1,4 +1,4 @@
-/** 
+/*
 
 Problem:
 You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. 
@@ -16,7 +16,7 @@ Explanation:
 First we alternatively add both the strings to the resultant string till the length of the smallest string (both strings can also be equal length). 
 After that we add the substring of the remaining longer string to resultant string if the length of both strings are not equal.
 
-**/
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

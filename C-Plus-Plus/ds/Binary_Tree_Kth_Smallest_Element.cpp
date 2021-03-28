@@ -1,5 +1,4 @@
 /*
-
 Introduction 
 Given a Binary Tree , Find its k th smallest element
 
@@ -8,10 +7,7 @@ Input of total no.of nodes is taken
 Input of key values of nodes of tree are taken in level order form 
 Incase of a null node , -1 is taken as input
 Function to find and return kth smallest element
-
 */
-
-//  Code / Solution
 
 #include <bits/stdc++.h> 
 using namespace std;
@@ -116,7 +112,6 @@ int kthSmallest(struct Node* root,int k)
       return heap.top();
 }
     
-
 // Driver code
 int main()
 {
@@ -166,7 +161,6 @@ Input Binary Tree :
 
   4 NULL    6  7    8  9 NULL  4         
 
-
 Input Format : 
 Example :
 Enter total no.of nodes of the input Tree ( including NULL nodes ) : 15
@@ -177,27 +171,6 @@ Enter the value of k : 2
 Output Format :
 Example : ( Output to the above input example ) 
 Hence the kth smallest value of Tree for given value of k is 2
-
-Sample Test Case 2  
-Input Binary Tree :                   
-
-                  12                                
-          /               \                          
-         9                 17                    
-     /       \          /      \               
-    8       10         NULL    18                                
-
-
-Input Format : 
-Example :
-Enter total no.of nodes of the input Tree ( including NULL nodes ) : 7      
-Enter value of each node of the tree in level order ( if a node is NULL , enter -1 ) with spaces
-12 9 17 8 10 -1 18
-Enter the value of k : 7
-
-Output Format :
-Example : ( Output to the above input example ) 
-Given Tree has less than k nodes for given value of k
 
 Time/Space Complexity
 Time Complexity : O(n) 

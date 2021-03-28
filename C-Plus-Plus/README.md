@@ -81,6 +81,7 @@
 - [Peak element](cp/Peak_element.cpp)
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
+- [Rain Water Trapping Problem](cp/rain_water_trapping.cpp)
 
 ## Data Structures
 

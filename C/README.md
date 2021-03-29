@@ -167,6 +167,7 @@ _add list here_
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
+- [Sum of Digits](math/sum_of_digits.c)
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Happy Number](math/happy_number.c)

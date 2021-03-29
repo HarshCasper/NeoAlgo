@@ -22,6 +22,7 @@
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
+- [Policmen_Thief](Greedy_Algorithms/Policemen_Thief.java)
 
 ## Blockchain
 
@@ -199,6 +200,7 @@ _add list here_
 
 ## Searching
 
+- [Armstong Number](search/ArmstongNumber.java)
 - [Binary Search](search/Binary_search.java)
 - [Fibonacci Search](search/Fibonacci_search.java)
 - [Interpolation Search](search/Interpolation_search.java)

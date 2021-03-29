@@ -10,8 +10,8 @@ import java.util.Scanner;
     static void return_good(int first,int last)
     {
        for(int count=first;count<last;count++)
-	    {
-	        int current=count,sum=0;
+	 {
+	    int current=count,sum=0;
 
              while(current!=0)
              {

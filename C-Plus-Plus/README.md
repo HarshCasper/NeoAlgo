@@ -398,6 +398,7 @@ _add list here_
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 - [Keyword Cipher](cryptography/KeywordCipher.cpp)
+- [Hill Cipher](cryptography/HillCipher.cpp)
 
 ## Computational Geometry
 

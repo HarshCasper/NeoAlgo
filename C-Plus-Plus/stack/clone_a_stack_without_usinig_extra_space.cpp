@@ -24,13 +24,7 @@ void clonestack(stack<int> st, stack<int> &cloned)
 }
 int main()
 {
-	ios_base::sync_with_stdio(false); cin.tie(NULL);
-
-#ifndef ONLINE_JUDGE
-	freopen("input1.txt", "r", stdin);
-	freopen("error.txt", "w", stderr);
-	freopen("output.txt", "w", stdout);
-#endif
+	
 	stack<int> source, dest;
 	source.push(1);
 	source.push(2);

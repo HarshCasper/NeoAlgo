@@ -7,31 +7,35 @@
 import java.util.Scanner;
  public class good_number 
  {
-     public static void main(String [] args)
-     {
-         Scanner scan=new Scanner(System.in);
-         int start,end,sum,current;
-
-         System.out.println("Enter the Range");
-         start=scan.nextInt();
-         end=scan.nextInt();
-
-         for(int count=start;count<end;count++)
-         {
-             current=count;
-             sum=0;
+    static void return_good(int first,int last)
+    {
+       for(int count=first;count<last;count++)
+	    {
+	        int current=count,sum=0;
 
              while(current!=0)
              {
                  sum=sum+current%10;
                  current/=10;
                  if((current!=0) && (current%10<=sum))
-                 	break;
+                  break;
              }
 
-             if(current==0)
-                 System.out.print(count+"  ");
+            if(current==0)
+                System.out.print(count+"  ");
          }
+    }
+    
+     public static void main(String [] args)
+     {
+         Scanner scan=new Scanner(System.in);
+         int start,end;
+
+         System.out.println("Enter the Range");
+         start=scan.nextInt();
+         end=scan.nextInt();
+         
+         return_good(start,end);
      }
  }
 

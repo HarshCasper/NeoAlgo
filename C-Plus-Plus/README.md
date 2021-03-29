@@ -346,6 +346,7 @@ _add list here_
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
+- [Minimum Spanning tree using Prim's algo](dp/MST.cpp)
 - [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
 - [Number of subsets with given difference](dp/subsets_with_given_diff.cpp)
 - [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)

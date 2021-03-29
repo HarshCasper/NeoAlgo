@@ -59,13 +59,27 @@ class BinarySearchTree {
     }
 }
 
-let b = new BinarySearchTree();
-let arr = [5, 1, 4, 3, 2]; // elements to be inserted into the binary search tree
-for (let i = 0; i < arr.length; i++) {
-    b.insert(arr[i]);//inserting the elements to the binary search tree
-}
+/*
+install readline-sync module to get user input 
+To install use the command : npm install readline-sync
+*/
+const readline = require("readline-sync");
+console.log("Enter the nodes to insert");
+let n = Number(readline.question());
 
+let b = new BinarySearchTree();
+console.log("Enter the values of nodes to insert\n")
+for (let i = 0; i < n; i++) {
+    console.log("Enter the value for node " + (i + 1));
+    b.insert(Number(readline.question()));
+}
 let root = b.root;
 console.log("The inorder traversal for the binary search tree ")
 b.recursive_inorder(root);
+
+/*
+Time complexity : O(n)
+Space complexity : O(n)
+*/
+
 

@@ -51,6 +51,7 @@
 - [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
 - [Hill Cipher](cryptography/Hill_Cipher.c)
 - [Playfair Cipher](cryptography/PlayFairCipher.c)
+- [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform.c)
 
 ## Data Structures
 
@@ -63,6 +64,7 @@
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
+- [Rabin karp](ds/rabin_karp_algo.c)
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 - [Delete a linked list node function](ds/List_deletenode_func.c)
@@ -143,6 +145,7 @@
 - [Cutting a Rod](dp/cutting_a_rod.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 - [Longest Common Substring](dp/length_longest_common_substring.c)
+- [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
@@ -167,8 +170,10 @@ _add list here_
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
+- [Sum of Digits](math/sum_of_digits.c)
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
+- [Find factorial of a Number](math/factorial.c)
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
@@ -177,6 +182,7 @@ _add list here_
 - [Noble Integer](math/Noble_Integer.c)
 - [Neon Number](math/Neon_number.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Palindrome](math/Palindrome.c)
 
 ## Operating System
 

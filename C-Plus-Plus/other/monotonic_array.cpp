@@ -6,6 +6,8 @@ Increasing then decreasing.
 Decreasing then increasing.
 */
 
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -30,7 +32,6 @@ void check(int a[], int n)
 		cout << "Decreasing then increasing";
 }
 
-// Driver code
 int main()
 {
     int n;
@@ -50,6 +51,7 @@ n =5
 
 Input: a[] = {1, 2, 3, 4, 5}
 Output: Increasing
+
 
 n = 4 
 

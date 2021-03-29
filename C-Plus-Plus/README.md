@@ -239,6 +239,7 @@ _add list here_
 ## Other
 
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
+- [Count Max Possible Subsequence](other/max_possible_subsequence.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)

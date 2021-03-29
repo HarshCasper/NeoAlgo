@@ -19,34 +19,38 @@ during the for loop I will check the difference i+p-1'th term to the i'th term
 when I get the lease min I will change the min value to it.
 At the end will return the 'm'(min(max(nums)-min(nums)))"""
 
-# input list
-nums = [int(num) for num in input("Enter the list items : ").split()]
+# function for the sum
+def eval(nums,k):
 
-# input the k
-k = int(input("Enter the number of items to be removed : "))
+    nums = sorted(nums)
 
-nums = sorted(nums)
+    # storing initial len(nums)-k
+    p = len(nums) - k
 
-# storing initial len(nums)-k
-p = len(nums) - k
+    # initial max is stored in m
+    m = nums[-1] - nums[0]
 
-# initial max is stored in m
-m = nums[-1] - nums[0]
+    i=0
 
-i = 0
+    while i < len(nums) - p + 1:
 
-# iteration loop
-while i < len(nums) - p + 1:
+        # Actual process
+        if nums[i + p - 1] - nums[i] < m:
+            m = nums[i + p - 1] - nums[i]
 
-    # Actual process
+        i += 1
+    return m
 
-    if nums[i + p - 1] - nums[i] < m:
-        m = nums[i + p - 1] - nums[i]
+if __name__ == "__main__":
 
-    i += 1
+    # input list
+    nums = [int(num) for num in input("Enter the list items : ").split()]
 
-# printing max possible from list
-print("The manimum Possible difference is : " , m)
+    # input the k
+    k = int(input("Enter the number of items to be removed : "))
+
+    # printing max possible from list
+    print("The manimum Possible difference is : " , eval(nums,k))
 
 TestCase = """
 Input:-

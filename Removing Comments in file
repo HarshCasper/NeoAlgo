@@ -1,0 +1,69 @@
+/* It is to remove all the comments 
+   in the file using command line argument */
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+string rem(string p) 
+{ 
+    int n = p.length(); 
+    string res; 
+    
+    for (int i=0; i<n; i++) 
+    { 
+        //to find single line comment
+        if (p[i] =='/'&& p[i+1] == '/')
+        {
+          for(i=i+1;i<n;i++)
+            if (p[i] =='\n')
+            break;
+        }
+        /* to find multiline comments */
+        else if (p[i] =='/'&& p[i+1] == '*')
+        {
+            i=1;
+             while(i<n)
+	     	{
+             if (p[i-1] =='*'&& p[i] == '/')
+             break;
+             i++;
+        }
+    }
+  
+      
+    else  res += p[i]; 
+    } 
+    return res; 
+} 
+  
+//main function using command line arguments
+int main(int argc,char*argv[]) 
+{ 
+    
+     string line; 
+	 ifstream in_file (argv[1]); 
+     ofstream out_file (argv[2]); 
+     
+    if(in_file && out_file){ 
+
+        while(getline(in_file,line)) 
+
+        { 
+		 string str=rem(line); 
+        cout<<str; 
+		 out_file << str<< "\n"; 
+        }
+
+    }
+    else
+    { //checking the error in opening  file
+    	cout<<"Error in opening";
+    	exit(100);
+	}
+  //closing both file
+    in_file.close();
+    out_file.close();
+    return 0; 
+}

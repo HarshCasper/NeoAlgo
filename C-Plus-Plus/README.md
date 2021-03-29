@@ -170,6 +170,7 @@
 - [Zig Zag Level Order Traversal Of a Binary Tree](ds/Zig_Zag_Level_Order_Traversal_Binary_Tree.cpp)
 - [Vertical Level Sums of a Binary Tree](ds/Vertical_Level_Sums_Of_Binary_Tree.cpp)
 - [Sum of Elements of given N ary Tree](ds/Sum_Of_Elements_Of_N_ary_Tree.cpp)
+- [Check if given two Binary Trees are structurally identical or not](ds/Structurally_Identical_Binary_Trees.cpp)
 
 ## Graphs
 
@@ -394,6 +395,7 @@ _add list here_
 - [Simple Columnar with Multiple Rounds Transposition Technique](cryptography/Simple_Columnar_Transposition_multiple_rounds.cpp)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
+- [Keyword Cipher](cryptography/KeywordCipher.cpp)
 
 ## Computational Geometry
 

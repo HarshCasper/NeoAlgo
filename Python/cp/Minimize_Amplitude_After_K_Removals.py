@@ -49,16 +49,17 @@ while i < len(nums) - p + 1:
     i += 1
 
 # printing max possible from list
-print("The manimum Possible difference is : ",m)
+print("The manimum Possible difference is : " , m)
 
-"""
-ST-1:- Input:-
+"""ST-1:- 
+
+Input:-
 
 nums = [84, 45, 2, 1, 894, 156, 68, 48]
 k = 4
 
 output:-
-39"""
+39
 
-# Time Complexity:  O(nlogn)
-# Space Complexity: O(1)
+Time Complexity:  O(nlogn)
+Space Complexity: O(1)"""

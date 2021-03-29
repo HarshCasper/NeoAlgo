@@ -7,7 +7,6 @@ The problem can be solved using Dynamic Programming
 */
 
 #include <stdio.h>
-#include <algorithm>
 
 int max_sum_increasing_subsequence(int arr[], int n)
 {
@@ -28,7 +27,11 @@ int max_sum_increasing_subsequence(int arr[], int n)
                 dp[i] = dp[j] + arr[i];
 
     //Now Find the maximum element in the 'dp' array
-    max_sum = *(std::max_element(dp, dp + n));
+    for (int i = 0; i < n; i++)
+    {
+        if (max_sum < dp[i])
+            max_sum = dp[i];
+    }
 
     return max_sum;
 }

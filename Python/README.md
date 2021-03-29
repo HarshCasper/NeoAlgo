@@ -55,7 +55,7 @@
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
-- [Minimize Amplitude After K Removals.py](cp/Minimize_Amplitude_After_K_Removals.py.py)
+- [Minimize Amplitude After K Removals.py](cp/Minimize_Amplitude_After_K_Removals.py)
 
 
 ## Cryptography

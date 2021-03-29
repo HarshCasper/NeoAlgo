@@ -64,7 +64,7 @@ install readline-sync module to get user input
 To install use the command : npm install readline-sync
 */
 const readline = require("readline-sync");
-console.log("Enter the nodes to insert");
+console.log("Enter the number of nodes to insert");
 let n = Number(readline.question());
 
 let b = new BinarySearchTree();
@@ -78,8 +78,28 @@ console.log("The inorder traversal for the binary search tree ")
 b.recursive_inorder(root);
 
 /*
+Sample I/O :
+Enter the number of nodes to insert
+5
+Enter the values of nodes to insert
+
+Enter the value for node 1
+4
+Enter the value for node 2
+2
+Enter the value for node 3
+3
+Enter the value for node 4
+5
+Enter the value for node 5
+1
+The inorder traversal for the binary search tree
+1
+2
+3
+4
+5
+
 Time complexity : O(n)
 Space complexity : O(n)
 */
-
-

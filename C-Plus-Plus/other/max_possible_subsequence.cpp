@@ -9,6 +9,7 @@ at different positions in the string.
 using namespace std;
 
 /* From this get_count_max_possible_subsequence() function we will count max different subsequence's can be created */
+
 int get_count_max_possible_subsequence(string word1, string word2, string text)
 {
     int size_of_text = text.size();
@@ -36,17 +37,18 @@ int get_count_max_possible_subsequence(string word1, string word2, string text)
     }
     return count_max_possible_subsequence;
 }
+
 int main()
 {
+	string text, word1, word2;
+	
         cout << "Enter the two words : \n";
-	string word1;
-	cin >> word1;
-	string word2;
-	cin >> word2;
+	cin >> word1 >> word2;
 	cout << "Enter the string : \n";
-	string text;
 	cin >> text;
+	
 	int count_max_possible_subsequence = get_count_max_possible_subsequence(word1, word2, text);
+	
 	cout << "Maximum possible subsequence can be created is : ";
 	cout << count_max_possible_subsequence << endl;
 }

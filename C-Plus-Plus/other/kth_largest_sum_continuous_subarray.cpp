@@ -58,7 +58,6 @@ int kthLargestSum(int arr[], int n, int k)
 	return Q.top();
 }
 
-// Driver program to test above function
 int main()
 {
     int n;
@@ -75,5 +74,24 @@ int main()
 	cout << kthLargestSum(a, n, k);
 	return 0;
 }
+
+/*
+
+n= 3 
+
+Input: a[] = {20, -5, -1} 
+         k = 3
+Output: 14
+
+
+Explanation: All sum of contiguous 
+subarrays are (20, 15, 14, -5, -6, -1) 
+so the 3rd largest sum is 14.
+
+Time complexity: O(n^2 log (k)) 
+Auxiliary Space : O(k)
+
+*/
+
 
 

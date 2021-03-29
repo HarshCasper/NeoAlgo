@@ -49,10 +49,10 @@ if __name__ == "__main__":
     list1 = [int(num) for num in input("Enter the list items : ").split()]
 
     # input the l
-    l = int(input("Enter the number of items to be removed : "))
+    inp = int(input("Enter the number of items to be removed : "))
 
     # printing max possible from list
-    print("The manimum Possible difference is : " , evaluate(list1 , l))
+    print("The manimum Possible difference is : " , evaluate(list1 , inp))
 
 
 TestCase = """

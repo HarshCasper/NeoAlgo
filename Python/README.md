@@ -305,6 +305,7 @@
 - [Next Prime Number](math/Next_Prime_Number.py)
 - [Happy Number](math/Happy_Number.py)
 - [Magic Number](math/Magic_Number.py)
+- [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [Largest Histogram](math/Largest_histogram.py)
 
 ## Blockchain

@@ -37,7 +37,7 @@ int get_count_max_possible_subsequence(string word1, string word2, string text)
 }
 int main()
 {
-    cout << "Enter the two words : \n";
+        cout << "Enter the two words : \n";
 	string word1;
 	cin >> word1;
 	string word2;

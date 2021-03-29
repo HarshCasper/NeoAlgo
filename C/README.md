@@ -51,6 +51,7 @@
 - [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
 - [Hill Cipher](cryptography/Hill_Cipher.c)
 - [Playfair Cipher](cryptography/PlayFairCipher.c)
+- [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform.c)
 
 ## Data Structures
 

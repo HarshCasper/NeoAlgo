@@ -49,6 +49,7 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
+- [Sum of Matrix's Principal and Secondary Diagonal](cp/matrix's_principal_seconday_diagonal_sum.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)

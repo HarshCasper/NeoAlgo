@@ -13,6 +13,7 @@
 
 - [Activity Selection](cp/Activity_selection.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
+- [Arrays Duplicate Elements](cp/arrays_duplicate_elements.c)
 - [Anagram Program](cp/anagram_program.c)
 - [Binary Search](search/BinarySearch.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)

@@ -19,6 +19,10 @@ during the for loop I will check the difference i+p-1'th term to the i'th term
 when I get the lease min I will change the min value to it.
 At the end will return the 'm'(min(max(nums)-min(nums)))"""
 
+nums=[]
+
+k=0
+
 
 # function for the sum
 def evaluate(nums , k) :

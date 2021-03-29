@@ -1,4 +1,4 @@
-def nenumtPermutation(array):
+def nenumbertPermutation(array):
         """
         Function for next Permutation
         """
@@ -13,9 +13,9 @@ def nenumtPermutation(array):
         if pointer == -1:
             return array.reverse()
         
-        for num in range(length - 1, pointer, -1):
-            if array[pointer] < array[num]:
-                array[pointer], array[num] = array[num], array[pointer]
+        for number in range(length - 1, pointer, -1):
+            if array[pointer] < array[number]:
+                array[pointer], array[number] = array[number], array[pointer]
                 break
         
         array[pointer + 1:] = reversed(array[pointer + 1:])
@@ -29,14 +29,13 @@ def main():
     array = list(map(int, input().rstrip().split()))
     
     #function call for checking if strings are anagram
-    print(nenumtPermutation(array))
+    print(nenumbertPermutation(array))
 
 main()
 
 """
-Input: nums = [1,1,5]
+Input: numbers = [1,1,5]
 Output: [1,5,1]
-
-Input: nums = [3,2,1]
+Input: numbers = [3,2,1]
 Output: [1,2,3]
 """

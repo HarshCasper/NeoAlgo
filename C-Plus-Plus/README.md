@@ -174,6 +174,7 @@
 - [Vertical Level Sums of a Binary Tree](ds/Vertical_Level_Sums_Of_Binary_Tree.cpp)
 - [Sum of Elements of given N ary Tree](ds/Sum_Of_Elements_Of_N_ary_Tree.cpp)
 - [Check if given two Binary Trees are structurally identical or not](ds/Structurally_Identical_Binary_Trees.cpp)
+- [Shortest Distance between two nodes of BST](ds/Shortest_Distance_Between_Nodes_Of_BST.cpp)
 
 ## Graphs
 

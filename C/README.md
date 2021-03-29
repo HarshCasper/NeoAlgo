@@ -181,6 +181,7 @@ _add list here_
 - [Noble Integer](math/Noble_Integer.c)
 - [Neon Number](math/Neon_number.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Matrix Addition](math/matrix_addition.c)
 - [Palindrome](math/Palindrome.c)
 
 ## Operating System

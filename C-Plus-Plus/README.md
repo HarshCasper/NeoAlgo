@@ -45,6 +45,7 @@
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Lucky Numbers](cp/Lucky_Numbers.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
+- [Maximum Scores](cp/MaxScore.cpp)
 - [Merge_Intervals](cp/Merge_Intervals.cpp)
 - [Merge String Alternatively](cp/Merge_string_alternatively.cpp)
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)

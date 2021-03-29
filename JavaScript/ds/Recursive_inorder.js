@@ -52,8 +52,8 @@ class BinarySearchTree {
 
     recursive_inorder(node) {
         if (node !== null) {
-            console.log(node.data);
             this.recursive_inorder(node.left);
+            console.log(node.data);
             this.recursive_inorder(node.right);
         }
     }

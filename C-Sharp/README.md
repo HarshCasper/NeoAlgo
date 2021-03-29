@@ -9,6 +9,9 @@
 
 # Codes in the C# language
 
+## Graphs 
+- [DFS Implementation of Graph](graphs/DFS.cs)
+
 ## Blockchain
 
 _add list here_

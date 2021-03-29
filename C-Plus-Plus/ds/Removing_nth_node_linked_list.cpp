@@ -1,7 +1,5 @@
 /*Given a linked list. The task is to remove the Nth node from the end of the linked list. (issue #4495)*/
 
-
-// CPP approach
 #include <bits/stdc++.h>
 using namespace std;
   

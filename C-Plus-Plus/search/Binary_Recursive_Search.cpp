@@ -80,11 +80,8 @@ Enter 10 elements followed by spaces: -11 -6 -3 2 4 6 8 10 12 20
 Enter the element you want to search: 4
 The element 4 is present at index 4.
 
-Time Complexity:
-
-T(n) = T(n/2) + c
-Solving the recurrence, T(n) = O(logn).
-O - Thetha
-The algorithm runs in O(logn).
+Here, O is Thetha
+Time Complexity: O(logn)
+Space Complexity: O(n)
 */
 

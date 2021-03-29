@@ -177,6 +177,7 @@ _add list here_
 - [Noble Integer](math/Noble_Integer.c)
 - [Neon Number](math/Neon_number.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Palindrome](math/Palindrome.c)
 
 ## Operating System
 

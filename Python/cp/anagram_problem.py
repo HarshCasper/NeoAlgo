@@ -50,12 +50,4 @@ Enter 1st string: bhuj
 Enter 2nd srring: ghuj
 The two given strings are not Anagram.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 """
-=======
-"""
->>>>>>> master
-=======
-"""
->>>>>>> 53f43cf279f04ab5f30212c23fd06935ced40093

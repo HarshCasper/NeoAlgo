@@ -1,7 +1,7 @@
 # Minimize Amplitude After K Removals
 
 
-# You are given a list of integers nums, and an integer k. 
+# You are given a list of integers nums, and an integer k.
 # Given that you must remove k elements in nums,
 # return the minimum max(nums) - min(nums) value we can achieve.
 
@@ -46,7 +46,7 @@ while i < len(nums) - p + 1:
     if nums[i + p - 1] - nums[i] < m:
         m = nums[i + p - 1] - nums[i]
 
-    i+=1
+    i += 1
 
 # printing max possible from list
 print(m)

@@ -2,7 +2,9 @@
 You are given a rod of length N inches and an array of prices that contains prices of all pieces of size smaller than N. 
 Determine the maximum value obtainable by cutting up the rod and selling the pieces.
 */
+
 import java.util.Scanner;
+
 class Helper {
     // this method - getValue() will return the final answer to main method 
     public int getValue(int price[], int n) {

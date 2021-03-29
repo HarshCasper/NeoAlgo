@@ -38,10 +38,7 @@ i = 0
 # iteration loop
 while i < len(nums) - p + 1:
 
-    """
-    checking the ith term to pth term
-    for every index and if greater
-    changing the max value """
+    #checking the ith term to pth term for every index and if greater changing the max value
 
     if nums[i + p - 1] - nums[i] < m:
         m = nums[i + p - 1] - nums[i]
@@ -51,7 +48,8 @@ while i < len(nums) - p + 1:
 # printing max possible from list
 print("The manimum Possible difference is : " , m)
 
-"""ST-1:- 
+"""
+ST-1:-
 
 Input:-
 

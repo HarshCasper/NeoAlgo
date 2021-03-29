@@ -3,7 +3,57 @@
 
 
 /* Function to implement BFS in JS. */
+// Queue DS
+class Queue {
+    constructor(maxSize) {
+       // Set default max size if not provided
+       if (isNaN(maxSize)) {
+          maxSize = 10;
+        }
+       this.maxSize = maxSize;
+       // Init an array that'll contain the queue values.
+       this.container = [];
+    }
+    // Helper function to display all values while developing
+    display() {
+       console.log(this.container);
+    }
+    // Checks if queue is empty
+    isEmpty(){
+       return this.container.length === 0;
+    }
+    // checks if queue is full
+    isFull() {
+       return this.container.length >= this.maxSize;
+    }
+ }
 
+ // Graph ds
+ class Graph {
+    constructor() {
+       this.edges = {};
+       this.nodes = [];
+    }
+    addNode(node) {
+       this.nodes.push(node);
+       this.edges[node] = [];
+    }
+    addEdge(node1, node2) {
+       this.edges[node1].push(node2);
+       this.edges[node2].push(node1);
+    }
+    addDirectedEdge(node1, node2) {
+       this.edges[node1].push(node2);
+    }
+    display() {
+       let graph = ""; this.nodes.forEach(node => {
+          graph += node + "->" + this.edges[node].join(", ") + "\n";
+       });
+       console.log(graph);
+    }
+ }
+
+ 
 const BFS = (node) => {
     // Create a Queue and add our initial node in it
     let q = new Queue(this.nodes.length);

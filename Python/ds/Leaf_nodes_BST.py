@@ -8,6 +8,7 @@
     Leaf node is a node which does not have left or right child
     No. of leaf nodes varies with the order in which the nodes are inserted
 '''
+
 # Declare treeNode with data , rc (right child) and lc (left child )
 class treeNode:
     def __init__(self, item):
@@ -59,19 +60,21 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
 '''
     Sample input:
-        Enter the number of elements: 7 
-        Enter the numbers: 
-        6
-        2
-        10
-        1
-        4
-        8
-        11
+    Enter the number of elements: 7 
+    Enter the numbers: 
+    6
+    2
+    10
+    1
+    4
+    8
+    11
+    
     Sample output:
-        No. of leaf nodes in the binary search tree = 4
+    No. of leaf nodes in the binary search tree = 4
 
     Time complexity : O(n)
     Space complexity : O(n)

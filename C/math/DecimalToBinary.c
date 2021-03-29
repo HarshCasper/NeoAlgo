@@ -12,15 +12,41 @@ AIM :: To take any decimal number from the user
 int stack[SIZE];
 int top = -1;
 
-//for insertion
-void push(int);
+//function to check whether stack is empty or not by returning 1 for empty and 0 for non-empty
+int isEmpty()
+{
+    if (top == -1)
+        return 1;
 
-//for deletion
-int pop();
+    return 0;
+}
 
-//to check stack is empty or full
-int isEmpty();
-int isFull();
+//function to check whether stack is full or not by returning 1 for full and 0 for not-full
+int isFull()
+{
+    if (top == SIZE - 1)
+        return 1;
+
+    return 0;
+}
+
+//function to insert value into the stack
+void push(int r)
+{
+    if (isFull())
+        printf("\nSTACK OVERFLOW\n");
+    else
+        stack[++top] = r;
+}
+
+//function for delete value from the stack
+int pop()
+{
+    if (isEmpty())
+        printf("\nSTACK UNDERFLOW\n");
+    else
+        return stack[top--];
+}
 
 int main()
 {
@@ -46,38 +72,6 @@ int main()
         printf("%d", pop());
 
     return 0;
-}
-
-int isEmpty()
-{
-    if (top == -1)
-        return 1;
-
-    return 0;
-}
-
-int isFull()
-{
-    if (top == SIZE - 1)
-        return 1;
-
-    return 0;
-}
-
-void push(int r)
-{
-    if (isFull())
-        printf("\nSTACK OVERFLOW\n");
-    else
-        stack[++top] = r;
-}
-
-int pop()
-{
-    if (isEmpty())
-        printf("\nSTACK UNDERFLOW\n");
-    else
-        return stack[top--];
 }
 
 /*

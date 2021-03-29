@@ -130,7 +130,7 @@ _add list here_
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
-- [Middle Of LinkedList](ds/MiddleOfLinkedList.java) 
+- [Middle Of LinkedList](ds/MiddleOfLinkedList.java)
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
@@ -164,6 +164,7 @@ _add list here_
 
 ## Mathematics
 
+- [Java BigInteger class](math/Big_Integer.java)
 - [Count Number Of Digits](math/countDigits)
 - [Euler's Totient Function](math/Euler's_Totient_function.java)
 - [Iterative](math/countDigits/iterative.java)

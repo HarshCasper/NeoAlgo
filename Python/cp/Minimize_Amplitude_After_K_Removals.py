@@ -48,7 +48,7 @@ while i < len(nums) - p + 1:
 # printing max possible from list
 print("The manimum Possible difference is : " , m)
 
-"""Test Case=
+"""Test Case for the given sum
 Input:-
 
 nums = [84, 45, 2, 1, 894, 156, 68, 48]
@@ -58,4 +58,4 @@ output:-
 39
 
 Time Complexity:  O(nlogn)
-Space Complexity: O(1)"""
+Space Complexity: O(1) """

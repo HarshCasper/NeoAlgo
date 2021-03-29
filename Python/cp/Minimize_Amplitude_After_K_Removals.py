@@ -20,7 +20,7 @@ when I get the lease min I will change the min value to it.
 At the end will return the 'm'(min(max(nums)-min(nums)))"""
 
 # function for the sum
-def eval(nums,k):
+def evaluate(nums,k):
 
     nums = sorted(nums)
 
@@ -30,7 +30,7 @@ def eval(nums,k):
     # initial max is stored in m
     m = nums[-1] - nums[0]
 
-    i=0
+    i = 0
 
     while i < len(nums) - p + 1:
 
@@ -41,6 +41,7 @@ def eval(nums,k):
         i += 1
     return m
 
+
 if __name__ == "__main__":
 
     # input list
@@ -50,7 +51,8 @@ if __name__ == "__main__":
     k = int(input("Enter the number of items to be removed : "))
 
     # printing max possible from list
-    print("The manimum Possible difference is : " , eval(nums,k))
+    print("The manimum Possible difference is : " , evaluate(nums,k))
+
 
 TestCase = """
 Input:-

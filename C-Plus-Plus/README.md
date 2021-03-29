@@ -46,6 +46,7 @@
 - [Lucky Numbers](cp/Lucky_Numbers.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Merge_Intervals](cp/Merge_Intervals.cpp)
+- [Merge String Alternatively](cp/Merge_string_alternatively.cpp)
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [Min Swap To Sort Array](cp/MinSwapToSortArray.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
@@ -74,6 +75,7 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
+- [Sum of Matrix Principal and Secondary Diagonal](cp/matrix's_principal_secondary_diagonal_sum.cpp)
 - [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
 - [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 - [Sort Color](cp/Sort_Color.cpp)
@@ -102,6 +104,7 @@
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
+
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
@@ -171,6 +174,7 @@
 - [Vertical Level Sums of a Binary Tree](ds/Vertical_Level_Sums_Of_Binary_Tree.cpp)
 - [Sum of Elements of given N ary Tree](ds/Sum_Of_Elements_Of_N_ary_Tree.cpp)
 - [Check if given two Binary Trees are structurally identical or not](ds/Structurally_Identical_Binary_Trees.cpp)
+- [Shortest Distance between two nodes of BST](ds/Shortest_Distance_Between_Nodes_Of_BST.cpp)
 
 ## Graphs
 
@@ -226,6 +230,7 @@
 - [Fibonacci Search](search/fibonacci_search.cpp)
 - [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
+- [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
 
 ## Sorting
 
@@ -411,6 +416,7 @@ _add list here_
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
+- [Count Max Possible Subsequence](other/max_possible_subsequence.cpp)
 - [Check whether a string is Subsequence](other/whether_string_is_subsequence.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Dynamic Huffman](other/DynamicHuffman.cpp)

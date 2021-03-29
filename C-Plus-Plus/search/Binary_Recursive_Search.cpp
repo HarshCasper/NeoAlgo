@@ -61,6 +61,9 @@ int main() {
 
 	// Call search function to find the index
 	int index = search(array, 0, length - 1, element);
+	
+	// New line
+	cout << endl;
 
 	// If index is -1, the element is not present
 	if(index == -1) {
@@ -78,6 +81,7 @@ int main() {
 Enter the length of array: 10
 Enter 10 elements followed by spaces: -11 -6 -3 2 4 6 8 10 12 20
 Enter the element you want to search: 4
+
 The element 4 is present at index 4.
 
 Here, O is Thetha

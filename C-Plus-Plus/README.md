@@ -103,6 +103,7 @@
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
+
 ## Data Structures
 
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
@@ -406,7 +407,6 @@ _add list here_
 - [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.cpp)
 - [Check Orientation of Three points](computational_geometry/Check_Orientation_of_three_points.cpp)
 
-
 ## Other
 
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
@@ -448,3 +448,4 @@ _add list here_
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
 - [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
+- [Allocate minimum number of pages](other/AllocateMinPages.cpp)

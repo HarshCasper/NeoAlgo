@@ -38,20 +38,20 @@ int get_principal_secondary_diagonal_sum(int N)
 int main()
 {
     cout << "Enter the size of the matrix : \n";
-	int N;
-	cin >> N;
-	cout << "Enter matrix elements :\n";
-	for (int i = 0; i < N; i++)
+    int N;
+    cin >> N;
+    cout << "Enter matrix elements :\n";
+    for (int i = 0; i < N; i++)
     {
         for(int j = 0; j < N; j++)
         {
             cin >> ar[i][j];
         }
 
-	}
-	int principal_secondary_diagonal_sum  = get_principal_secondary_diagonal_sum(N);
-	cout << "Sum of Principal and Secondary Diagonal of this matrix is : ";
-	cout << principal_secondary_diagonal_sum << endl;
+     }
+     int principal_secondary_diagonal_sum  = get_principal_secondary_diagonal_sum(N);
+     cout << "Sum of Principal and Secondary Diagonal of this matrix is : ";
+     cout << principal_secondary_diagonal_sum << endl;
 }
 
 /*

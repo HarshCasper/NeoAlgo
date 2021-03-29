@@ -23,6 +23,7 @@
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Stack](./ds/Stack.js)
+- [Recursive inorder traversal in binary search tree](./ds/Recursive_inorder.js)
 
 ## Searching
 

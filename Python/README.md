@@ -60,6 +60,7 @@
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
+- [Dutch national flag problem](cp/Sort_An_Arraysof0s1sand2s.py)
 
 
 ## Cryptography
@@ -107,6 +108,8 @@
 - [Topological Sort](sort/topological_sort.py)
 - [Sleep Sort](sort/Sleep_sort.py)
 - [Bucket Sort](sort/Bucket_sort.py)
+
+
 
 ## Backtracking
 

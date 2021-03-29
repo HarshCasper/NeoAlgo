@@ -48,8 +48,7 @@ while i < len(nums) - p + 1:
 # printing max possible from list
 print("The manimum Possible difference is : " , m)
 
-""" ST-1
-
+"""Sample Test case
 Input:-
 
 nums = [84, 45, 2, 1, 894, 156, 68, 48]

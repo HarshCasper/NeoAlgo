@@ -1,5 +1,6 @@
 /*
-Given a N * N square matrix.
+Given a N * N square matrix. A matrix has two diagonals. One diagonal is principal which starts from the first row, first column
+another diagonal is secondary which starts from the first row, last column
 Find the sum of it's principal and secondary diagonal elements.
 */
 
@@ -7,6 +8,7 @@ Find the sum of it's principal and secondary diagonal elements.
 using namespace std;
 int ar[500][500];
 
+/* From this get_principal_secondary_diagonal_sum() function we will compute matrix's principal,secondary diagonal sum */
 int get_principal_secondary_diagonal_sum(int N)
 {
     int principal_secondary_diagonal_sum = 0;

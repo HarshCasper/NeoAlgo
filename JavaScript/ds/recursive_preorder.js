@@ -57,13 +57,46 @@ class BinarySearchTree {
     }
 }
 
-let b = new BinarySearchTree();
-let arr = [5, 1, 4, 3, 2]; // elements to be inserted into the binary search tree
-for (let i = 0; i < arr.length; i++) {
-    b.insert(arr[i]);//inserting the elements to the binary search tree
-}
 
+const readline = require("readline-sync");
+console.log("Enter the number of nodes to insert");
+let n = Number(readline.question());
+
+let b = new BinarySearchTree();
+console.log("Enter the values of nodes to insert\n")
+for (let i = 0; i < n; i++) {
+    console.log("Enter the value for node " + (i + 1));
+    b.insert(Number(readline.question()));
+}
 let root = b.root;
 console.log("The preorder traversal for the binary search tree ")
 b.recursive_preorder(root);
+
+/*
+Sample I/O:
+
+Enter the number of nodes to insert
+5
+Enter the values of nodes to insert
+
+Enter the value for node 1
+4
+Enter the value for node 2
+3
+Enter the value for node 3
+5
+Enter the value for node 4
+1
+Enter the value for node 5
+2
+The preorder traversal for the binary search tree
+4
+3
+1
+2
+5
+
+Time complexity : O(n)
+Space complexity : O(n)
+*/
 

@@ -230,6 +230,7 @@
 - [Fibonacci Search](search/fibonacci_search.cpp)
 - [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
+- [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
 
 ## Sorting
 

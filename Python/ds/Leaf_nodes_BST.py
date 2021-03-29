@@ -9,14 +9,11 @@
     No. of leaf nodes varies with the order in which the nodes are inserted
 '''
 # Declare treeNode with data , rc (right child) and lc (left child )
-
-
 class treeNode:
     def __init__(self, item):
         self.data = item
         self.lc = None
         self.rc = None
-
 
 # to insert a node into BST
 def insertIntoTree(root, data):
@@ -44,7 +41,6 @@ def leaf_nodes(root):
                 leaf_nodes(root.lc)
             if root.rc is not None:
                 leaf_nodes(root.rc)
-
     return leaf_nodes.count
 
 # driver code
@@ -61,10 +57,8 @@ def main():
     leaf_nodes.count = 0
     print("\nNo. of leaf nodes in the binary search tree = " +str(leaf_nodes(root)))
 
-
 if __name__ == "__main__":
     main()
-
 '''
     Sample input:
         Enter the number of elements: 7 

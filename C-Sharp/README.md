@@ -57,3 +57,4 @@ _add list here_
 
 - [Unique Number III](other/Unique_Number_III.cs)
 - [Prime Factorization using Sieve](other/prime_factor_sieve.cs)
+- [Count Inversions](other/CountInversions.cs)

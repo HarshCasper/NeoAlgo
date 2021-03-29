@@ -47,7 +47,6 @@
 - [Search Insert Position](cp/search_insert_position.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
-- [Sum of Matrix Principal and Secondary Diagonal](cp/matrix's_principal_seconday_diagonal_sum.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
@@ -55,6 +54,7 @@
 - [Z Algorithm](cp/zalgorithm.cpp)
 - [First occurence of 1](cp/first1_binsearch.cpp)
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
+- [Sum of Matrix Principal and Secondary Diagonal](cp/matrix's_principal_secondary_diagonal_sum.cpp)
 
 ## Data Structures
 

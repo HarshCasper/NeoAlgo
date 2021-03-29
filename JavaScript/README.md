@@ -89,7 +89,7 @@ _add list here_
 
 ## Graphs
 
-- [BFS Algo](./graphs/BFS.js)
+- [BFS Algo](./graphs/Bfs.js)
 
 ## Other
 

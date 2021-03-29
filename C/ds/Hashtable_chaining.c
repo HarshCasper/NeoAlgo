@@ -1,8 +1,10 @@
-//Hashtable chaining is a collision resolution technique in hashtables
-//The chaining method uses a hashtable as an array of pointers ; each pointer points a linked list.
-//For a given key value , the hash address is calculated . It then searches the linked list pointed by
-//the pointers at that location. If the element is found it returns the pointer to the node containing
-//that key value else inserts the element at the end of that list.
+/*
+Hashtable chaining is a collision resolution technique in hashtables
+The chaining method uses a hashtable as an array of pointers ; each pointer points a linked list.
+For a given key value , the hash address is calculated . It then searches the linked list pointed by
+the pointers at that location. If the element is found it returns the pointer to the node containing
+that key value else inserts the element at the end of that list.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 //structure for the hashtable
@@ -105,61 +107,62 @@ int main()
     }
     return 0;
 }
+/*
+Sample I/O :
+Enter your choice
+1.insert into hashtable
+2.check whether the element is in the hashtable
+3.print hashtable
+4.Exit
+1
 
-// Sample I/O :
-// Enter your choice
-// 1.insert into hashtable
-// 2.check whether the element is in the hashtable
-// 3.print hashtable
-// 4.Exit
-// 1
+Enter the value to be inserted
+1
+Enter your choice
+1.insert into hashtable
+2.check whether the element is in the hashtable
+3.print hashtable
+4.Exit
+1
 
-// Enter the value to be inserted
-// 1
-// Enter your choice
-// 1.insert into hashtable
-// 2.check whether the element is in the hashtable
-// 3.print hashtable
-// 4.Exit
-// 1
+Enter the value to be inserted
+2
+Enter your choice
+1.insert into hashtable
+2.check whether the element is in the hashtable
+3.print hashtable
+4.Exit
+1
 
-// Enter the value to be inserted
-// 2
-// Enter your choice
-// 1.insert into hashtable
-// 2.check whether the element is in the hashtable
-// 3.print hashtable
-// 4.Exit
-// 1
+Enter the value to be inserted
+3
+Enter your choice
+1.insert into hashtable
+2.check whether the element is in the hashtable
+3.print hashtable
+4.Exit
+2
 
-// Enter the value to be inserted
-// 3
-// Enter your choice
-// 1.insert into hashtable
-// 2.check whether the element is in the hashtable
-// 3.print hashtable
-// 4.Exit
-// 2
+Enter the value to check whether the element is in the hashtable
+3
 
-// Enter the value to check whether the element is in the hashtable
-// 3
+The element is in the hashtable
+Enter your choice
+1.insert into hashtable
+2.check whether the element is in the hashtable
+3.print hashtable
+4.Exit
+3
+1 -> 1
+2 -> 2
+3 -> 3
+Enter your choice
+1.insert into hashtable
+2.check whether the element is in the hashtable
+3.print hashtable
+4.Exit
+4
 
-// The element is in the hashtable
-// Enter your choice
-// 1.insert into hashtable
-// 2.check whether the element is in the hashtable
-// 3.print hashtable
-// 4.Exit
-// 3
-// 1 -> 1
-// 2 -> 2
-// 3 -> 3
-// Enter your choice
-// 1.insert into hashtable
-// 2.check whether the element is in the hashtable
-// 3.print hashtable
-// 4.Exit
-// 4
-
-// Time Complexity = O(n)
-// Space Complexity = O(n)
+Time Complexity = O(n)
+Space Complexity = O(n)
+*/

@@ -7,8 +7,7 @@ BST: A tree with following conditions:
 Author: @Mohim-Singla
 */
 
-#include <iostream>
-#include <stdlib.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 

@@ -24,7 +24,7 @@ end
 #=
 Sample Test Case
 Input: 
-    n = 4294967296
+    Enter a number : 4294967296
 Output:
     Its a power of 2
 Time complexity: O( 1 ) 

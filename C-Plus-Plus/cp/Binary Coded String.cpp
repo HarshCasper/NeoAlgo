@@ -64,6 +64,11 @@ int main()
 }
 
 /*
+Time Complexity=O(N)
+Space Complexity=O(2^K)
+where N is the length of the given string
+and K is the given integer.
+
 Sample Input Output
 Input: s = "00110", k = 2
 Output: true

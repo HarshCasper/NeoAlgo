@@ -5,7 +5,7 @@ Problem Link:https://www.codechef.com/problems/MAXSCOR
 *Chapter i will be worth Mi marks in the exam, and shall take Ti minutes to study. 
 *Person can study the chapters in any order but needs to study them completely and at most once.
 *He knows that he will forget the first chapter that he will prepare (due to lack of sleep) 
- and won’t be able to score any marks in it. 
+ and wonâ€™t be able to score any marks in it. 
 *Find the maximum marks that person can score in the exam.
 
 **Input:
@@ -24,14 +24,14 @@ using namespace std;
 //Function Code
 void find(int arr[],int T[],int n,int t)
 {
-	   //variable to store max score
+	        //variable to store max score
 		int x=0,
 		//initializing it to Max value possible
 		min=INT_MAX;
 		//checking condition 
 		for(int i=0;i<n;i++)
 		{
-			//if time is still left
+	        //if time is still left
 		if(t>0)
 		{
 		x+=arr[i];
@@ -69,9 +69,6 @@ int main()
 	    find(arr,T,n,t);		
 	}
 }
-
-
-
 /*
 Sample Input:
 3
@@ -88,12 +85,10 @@ Sample Input:
 3 3
 2 4
 1 5
-
 Smaple Output:
 2
 2
 9
-
 Time Complexity: 1 sec
 Space Complexity: 50000 Bytes
 */

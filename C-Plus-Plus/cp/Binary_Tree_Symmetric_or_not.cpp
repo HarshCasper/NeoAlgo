@@ -100,5 +100,3 @@ Here we have given following binary tree as input:
 3  8 8  3 
 This binary tree is symmetric, so output should be - "Given binary tree is symmetric."
 */
-
-

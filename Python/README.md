@@ -26,6 +26,7 @@
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
+* [Binary Search Iterative](search/binarysearch_iterative.py)
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)

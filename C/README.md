@@ -14,6 +14,7 @@
 - [Activity Selection](cp/Activity_selection.c)
 - [Adjacent Element Product](cp/Adjacent_Element_Product.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
+- [Arrays Duplicate Elements](cp/arrays_duplicate_elements.c)
 - [Anagram Program](cp/anagram_program.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Finding possible codes using recursion ](cp/possible_code_recursion.c)

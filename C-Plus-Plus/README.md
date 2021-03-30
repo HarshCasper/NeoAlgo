@@ -337,6 +337,7 @@ _add list here_
 
 ## Dynamic Programming
 
+- [Buy Sell Stock K times](dp/buy_sell_stock_k_time.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 - [Edit distance](dp/edit_distance.cpp)
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)

@@ -7,7 +7,7 @@ using namespace std;
 void maxheapify(int arr[], int i, int n)
 {   
     int r = 2*i + 2;
-    int l = 2*i + 1;
+    int l = 2*i + 2;
 	
 	int larg = i;
 	

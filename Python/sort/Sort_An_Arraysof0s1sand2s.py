@@ -20,7 +20,7 @@ def sort012(arr,n):
 
 arr = list(map(int,input("Enter the Number:\n").split()))
 n = len(arr)
-print(sort012(arr,n))
+print(,sort012(arr,n))
 
 '''
 Time Complexity is O(n)
@@ -31,7 +31,7 @@ Enter the Number:
 0 2 1 2 0
 
 Output:
-0 0 1 2 2
+[0, 0, 1, 2, 2]
 
 Explanation:
 0s 1s and 2s are segregated 

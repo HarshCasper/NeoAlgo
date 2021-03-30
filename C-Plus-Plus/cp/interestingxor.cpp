@@ -12,13 +12,8 @@ Constraints
 1≤T≤105
 1≤C≤109
 
-Example Input
-2
-13
-10
-
-Time complexity of this function is O(n)
- */
+*/
+ 
 
 #include <bits/stdc++.h>
 
@@ -52,7 +47,6 @@ int main()
         string str;
         cin >> N;
         str = decimalToBinary(N);
-        //used to calculate length of string
         j = str.length();
         //logic part
         for (int i = 1; i < j; i++)
@@ -76,8 +70,14 @@ int main()
     return 0;
 }
 
-/*
-Example Output
-70
-91
-*/
+
+// Example Input
+// 2
+// 13
+// 10
+
+// Example Output
+// 70
+// 91
+
+// Time complexity of this function is O(n)

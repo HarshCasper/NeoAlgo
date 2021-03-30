@@ -177,6 +177,7 @@
 - [Check if given two Binary Trees are structurally identical or not](ds/Structurally_Identical_Binary_Trees.cpp)
 - [Shortest Distance between two nodes of BST](ds/Shortest_Distance_Between_Nodes_Of_BST.cpp)
 - [Floor value of a given number in the given BST](ds/Floor_of_a_number_in_BST.cpp)
+- [Searching in BST](ds/Searching_in_BST.cpp)
 
 ## Graphs
 

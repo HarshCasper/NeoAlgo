@@ -328,6 +328,7 @@ _add list here_
 - [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
+- [Decimal to Hexadecimal Conversion](math/decimal_to_hexadecimal.cpp)
 - [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
@@ -413,7 +414,6 @@ _add list here_
 - [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.cpp)
 - [Check Orientation of Three points](computational_geometry/Check_Orientation_of_three_points.cpp)
 
-
 ## Other
 
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
@@ -456,3 +456,4 @@ _add list here_
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
 - [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
+- [Allocate minimum number of pages](other/AllocateMinPages.cpp)

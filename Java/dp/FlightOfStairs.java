@@ -33,24 +33,31 @@ public class FlightOfStairs{
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of n");
         int n = sc.nextInt();
+        System.out.println("Enter the value of k");
         int k = sc.nextInt();
 
         /*array to initiate memoization*/
         int[][] memo = new int[n+1][k+1];
 
         /*passing arguments to the function and displaying answer*/
-        System.out.println(ans(memo, n, k));
+        System.out.println("The answer is: "+ans(memo, n, k));
         sc.close();
     }
 }
 
 /*
 Sample Input :
-n = 4
-k = 1
+Enter the value of n
+4
+Enter the value of k
+1
 Output :
-7
+The answer is: 7
+*/
+
+/*
 Time complexity: O(n*k) 
 Space complexity: O(n*k)
  */

@@ -175,6 +175,7 @@ _add list here_
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Remove Invalid Parentheses](math/remove_invalid_parentheses.cpp)
 
 ## Dynamic Programming
 

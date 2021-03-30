@@ -5,7 +5,7 @@ using namespace std;
 void decimal_to_hexadecimal(int n)
 {
   int i=0;
-  char ans[20];
+  string ans="";
   int last_digit=0;
   char x;
   while(n)
@@ -38,14 +38,20 @@ int main()
 
 /* Testcases:
 
-  INPUT::463
-  OUTPUT::1CF
+  INPUT-
+  ENTER THE DECIMAL NUMBER::463
+  OUTPUT-
+  The Required Hexadecimal Number is::1CF
 
-  INPUT::100
-  OUTPUT::64
+  INPUT-
+  ENTER THE DECIMAL NUMBER::100
+  OUTPUT-
+  The Required Hexadecimal Number is::64
 
-  INPUT::516042
-  OUTPUT::7DFCA
+  INPUT-
+  ENTER THE DECIMAL NUMBER::516042
+  OUTPUT-
+  The Required Hexadecimal Number is::7DFCA
 
   Time Complexity- O(n);
   Space Complexity- O(1);

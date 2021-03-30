@@ -3,7 +3,6 @@ Searches for occurrences of a word W within a main text string S
 */
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
 
 int Knutt_Morris_Prat(char[], char[]);
 int main()

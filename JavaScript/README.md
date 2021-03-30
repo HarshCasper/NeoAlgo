@@ -66,6 +66,7 @@ _add list here_
 - [Double Factorial](./math/DoubleFactorial.js)
 - [Armstrong Number](./math/ArmstrongNumbers.js)
 - [Binary Exponentiation](./math/bin_exp.js)
+- [Factorial](./math/Factorial.js)
 
 ## Competitive Programming
 

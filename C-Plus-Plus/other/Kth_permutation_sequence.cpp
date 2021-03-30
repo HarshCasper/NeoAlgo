@@ -61,7 +61,7 @@ int main()
         cin>>n;
         // k is the kth - permutation in the set of n!
         int k;
-        cout<<"Enter the number of k: ";
+        cout<<"Enter the number k: ";
         cin>>k;
         string ans = Solve(n,k);
         cout<<"The kth permutation is: '"<<ans<<"'"<<endl;

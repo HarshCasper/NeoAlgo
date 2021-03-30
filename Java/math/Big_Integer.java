@@ -7,20 +7,32 @@
     import java.math.BigInteger;
     public class Big_Integer
     {
-        public static void main(String[] args)
+        Big_Integer(BigInteger first, BigInteger second)
         {
+        BigInteger addition=first.add(second);
+        Big_Integer obj1=new Big_Integer(addition);
+        BigInteger multipilication=first.multiply(second);
+        Big_Integer obj2=new Big_Integer(multipilication);
+        }
+        Big_Integer(addition)
+        {
+        System.out.println("Addition is : ");
+        System.out.println(addition);
+        }
+        Big_Integer(multipilication)
+        {
+        System.out.println("multipilication is : ");
+        System.out.println(multipilication);
+        }
+    public static void main(String[] args)
+    {
         Scanner scan=new Scanner(System.in);
         System.out.println("Please enter first big integer");
         BigInteger first=scan.nextBigInteger();
         System.out.println("Please enter second big integer");
         BigInteger second=scan.nextBigInteger();
-        BigInteger addition=first.add(second);
-        BigInteger multipilication=first.multiply(second);
-        System.out.println("Addition is : ");
-        System.out.println(addition);
-        System.out.println("multipilication is : ");
-        System.out.println(multipilication);
-        }
+        Big_Integer obj=new Big_Integer(first,second);
+    }
     }
     /*
     Time complexity is O(1)

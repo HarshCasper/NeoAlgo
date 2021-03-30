@@ -159,6 +159,7 @@
 - [Stock Span Problem](stack/Stock_span_problem.cpp)
 - [Evaluate string expression BODMAS](stack/string_expression_evaluation_bodmas.cpp)
 - [Next greatest element to the right](stack/next_greatest_right.cpp)
+- [Checking if a lonked list is palindromic or not](stack/palindromic_list.cpp)
 
 ## Heap based problems
 

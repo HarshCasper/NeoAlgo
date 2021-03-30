@@ -78,6 +78,7 @@
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Ascending Priority Queue](ds/AscendingPQ.c)
 
 ## Searching
 
@@ -144,7 +145,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Neon Number](math/Neon_number.c) 
-- [Tower_Of_Hanoi](math/Tower_Of_Hanoi.c)
+
 
 ## Operating System
 

@@ -328,6 +328,7 @@ _add list here_
 - [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
+- [Decimal to Hexadecimal Conversion](math/decimal_to_hexadecimal.cpp)
 - [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)

@@ -183,7 +183,8 @@ _add list here_
 - [Magic Number](math/Magic_Number.c) 
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
-- [K-th Largest Number](math/k_largest.c)
+- [K-th Smallest Number](math/k_smallest.c)
+
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)

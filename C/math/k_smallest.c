@@ -1,7 +1,7 @@
-/*  K-TH LARGEST NUMBER
-    To find the k-th largest number from an array of distinct numbers
-    * The array is sorted in descending order
-    * arr[k-1] gives the k-th largest number
+/*  K-TH SMALLEST NUMBER
+    To find the k-th smallest number from an array of distinct numbers
+    * The array is sorted in ascending order
+    * arr[k-1] gives the k-th smallest number
 */
 
 #include <stdio.h>
@@ -13,7 +13,7 @@ void merge(int *ar, int l, int mid, int r)
     int i = l, j = mid + 1, k = 0, c[r - l + 1];
     while (i <= mid && j <= r)
     {
-        if (ar[i] >= ar[j])
+        if (ar[i] <= ar[j])
             c[k++] = ar[i++];
         else
             c[k++] = ar[j++];
@@ -44,8 +44,8 @@ void merge_sort(int *ar, int l, int r)
     }
 }
 
-//to find the k-th largest number
-int k_largest(int *ar, int k)
+//to find the k-th smallest number
+int k_smallest(int *ar, int k)
 {
     return ar[k - 1];
 }
@@ -64,7 +64,7 @@ int main()
     printf("Enter the value of k: ");
     scanf("%d", &k);
     merge_sort(ar, 0, n - 1);
-    printf("%d", k_largest(ar, k));
+    printf("%d", k_smallest(ar, k));
     return 0;
 }
 
@@ -75,7 +75,7 @@ int main()
     Enter the value of k: 3
 
     Sample Output:
-    5
+    3
 
     Time Complexity: O(n^2)
     Space complexity: O(n)

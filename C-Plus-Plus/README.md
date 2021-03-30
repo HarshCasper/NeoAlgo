@@ -58,6 +58,7 @@
 - [Product of Array Except itself](cp/product_of_array_except_itself.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
+- [Minimum number of swaps](cp/Minimum number of swaps.txt)
 - [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Reverse a String using Stack](cp/Reverse_string_using_stack.cpp)

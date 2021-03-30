@@ -9,8 +9,6 @@ Intution: If num1 = 7(0111) and num2 = 8(1000), the bit differance between
 
 Return  : Differnce in binary representation between two numbers.
 
-Repl.it Link : https://replit.com/@batul02/Hammingdistance#main.py
-
 """
 
 def hamming_distance(num1, num2):

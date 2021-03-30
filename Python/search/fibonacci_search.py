@@ -1,6 +1,14 @@
 # Fibonacci search implementation in Python3
 
 """
+Purpose:
+Fibonacci Search is a comparison-based technique that uses Fibonacci numbers to search an element in a sorted array.
+
+Similarities with binary search:
+- worked for sorted arrays
+- a divide a conquer algorithm
+
+Return type:
 Returns the index of a key in a sorted array or returns -1 if it is not contained
 """
 
@@ -10,11 +18,6 @@ def FibonacciSearch(arr, x, n):
     arr: A sorted array in which we're going to search for the key
     x: The number to be searched for
     n: Size of the array
-
-    Output-
-    Single integer
-    The index of the key if it exists in the array.
-    else -1
     """
 
     # initialize fibonacci numbers
@@ -22,7 +25,7 @@ def FibonacciSearch(arr, x, n):
     m1 = 1  # (m-1)'th Fibonacci No.
     m = m2 + m1  # m'th Fibonacci
 
-    # m is going to store the smallest
+    # m: store the smallest
     # fibonacci Number greater than or equal to n
     while m < n:
         m2 = m1
@@ -85,12 +88,12 @@ else:
 """
 Sample input:
 Enter the array in space seperated format:
-43 21 65 77 99
+10 22 35 40 45 50 80 82 85 90 100
 Enter the element which is to be searched:
-65
+85
 
 Sample output:
-Found at index: 2
+Found at index: 8
 
 Worst case time complexity: O(log n)
 Best case time complexity:	O(1)

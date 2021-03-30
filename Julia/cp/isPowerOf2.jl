@@ -9,18 +9,23 @@ end
 
 ## Input
 
+println("Enter the number : ")
 n = readline()
 n = parse(Int64, n)
 
 ## Calling the function
 
-isPowerOfTwo(n)
+if (isPowerOfTwo(n))
+    println("Its a power of 2")
+else
+    println("Its not a power of 2")
+end
 
 #=
 Sample Test Case
 Input: 
     n = 4294967296
 Output:
-    true
+    Its a power of 2
 Time complexity: O( 1 ) 
 =#

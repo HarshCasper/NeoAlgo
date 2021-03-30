@@ -180,9 +180,9 @@ _add list here_
 - [Neon Number](math/Neon_number.c)
 - [Strong Number](math/strong_number.c) 
 - [Noble Integer](math/Noble_Integer.c)
-- [Neon Number](math/Neon_number.c)
 - [Magic Number](math/Magic_Number.c) 
 - [Palindrome](math/Palindrome.c)
+- [Decimal to Binary](math/DecimalToBinary.c)
 
 ## Operating System
 

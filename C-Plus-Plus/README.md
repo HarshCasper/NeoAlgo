@@ -413,7 +413,7 @@ _add list here_
 - [Convex Hull (Graham Scan Algorithm)](computational_geometry/Convex_Hull_Graham_Scan.cpp)
 - [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.cpp)
 - [Check Orientation of Three points](computational_geometry/Check_Orientation_of_three_points.cpp)
-- [Find Union of the lengths of line segments](computational_geometry//Klee's_Algorithm.cpp)
+- [Find Union of the lengths of line segments](computational_geometry/Klee's_Algorithm.cpp)
 
 ## Other
 

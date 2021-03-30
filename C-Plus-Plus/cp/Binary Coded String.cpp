@@ -15,38 +15,36 @@ s consists of 0's and 1's only.
 using namespace std;
 
 bool hasAllCodes(string s, int k) {
-        int X,Y,Z,i;
-        X=s.length();
-        Y=pow(2,k);
-        int A[2022600]={0};
-        Z=0;
-        for(i=0;i<k;i++)
-        {
-            if(i!=0  &&  Z!=0)
-            Z=(Z<<1);
-            if(s[i]=='1')
-            {
-                Z++;
-            }
-        }
-        A[Z]=1;
-        for(i=k;i<X;i++)
-        {
-            if(Z>=(pow(2,k-1)))
-                Z-=(pow(2,k-1));
-            if(Z!=0)
-                Z=(Z<<1);
-            if(s[i]=='1')
-                Z++;
-            A[Z]=1;
-        }
-        for(i=0;i<Y;i++)
-        {
-            if(A[i]==0)
-                return false;
-        }
-        return true;
+    int X,Y,Z,i;
+    X=s.length();
+    Y=pow(2,k);
+    int A[2022600]={0};
+    Z=0;
+    for(i=0;i<k;i++)
+    {
+        if(i!=0  &&  Z!=0)
+        Z=(Z<<1);
+        if(s[i]=='1')
+        Z++;
     }
+    A[Z]=1;
+    for(i=k;i<X;i++)
+    {
+        if(Z>=(pow(2,k-1)))
+        Z-=(pow(2,k-1));
+        if(Z!=0)
+        Z=(Z<<1);
+        if(s[i]=='1')
+        Z++;
+        A[Z]=1;
+    }
+    for(i=0;i<Y;i++)
+    {
+        if(A[i]==0)
+        return false;
+    }
+    return true;
+}
 int main()
 {
     string S;
@@ -57,20 +55,24 @@ int main()
     cin>>K;
     bool Ans=hasAllCodes(S,K);
     if(Ans==true)
-        cout<<"Yes"<<endl;
+    cout<<"Yes"<<endl;
     else
-        cout<<"No"<<endl;
+    cout<<"No"<<endl;
     return 0;
 }
 
 /*
 Time Complexity=O(N)
 Space Complexity=O(2^K)
-where N is the length of the given string
-and K is the given integer.
+where N is the length of the given 
+string and K is the given integer.
 
 Sample Input Output
-Input: s = "00110", k = 2
-Output: true
+Input:
+Enter an String
+00110
+Enter the integer
+2
+Output:
+Yes
 */
-

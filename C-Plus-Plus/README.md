@@ -285,7 +285,6 @@
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
 - [K Closest Points to Origin](heap/K_Closest_Points_to_Origin.cpp)
-- [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)

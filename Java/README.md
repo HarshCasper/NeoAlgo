@@ -184,6 +184,7 @@ _add list here_
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
+- [Ascii of string](math/AsciiOfString.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
 - [Transpose of Matrix](math/Matrix_Transpose.java)
 - [Tribonacci series upto n terms](math/tribonacci.java)

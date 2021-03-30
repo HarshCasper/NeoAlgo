@@ -37,8 +37,10 @@ int main(){
   
 }
 
-/* Sample Input:5446
-   Sample output: 2  7  389
+/* Sample Input
+   Enter the number:5446
+   Sample output
+   All Unique prime factors of 5446 are: 2  7  389 
 */
 /* Time complaxity : O(n*n)
    Space Complaxity : O(n*n)

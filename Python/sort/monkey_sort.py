@@ -40,3 +40,26 @@ if __name__ == "__main__" :
     # calling the monkey_sort function
     sorted_array = monkey_sort(unsorted_array)
     print(sorted_array)
+
+"""
+Sample Input:
+Enter the number of elements : 4
+Enter the elements:
+1 4 2 3
+
+Sample Output:
+Unordered lists by sorting the elements by shuffling them
+[1, 4, 3, 2]
+Unordered lists by sorting the elements by shuffling them
+[1, 2, 3, 4]
+
+The final sorted list:
+[1, 2, 3, 4]
+
+Time Complexity:
+    Worst Case:
+    Average Case:
+    Best Case:
+Space Complexity: O(1)
+"""
+

@@ -22,8 +22,8 @@ struct Node
     Node* right;
 };
  
-// Function to create a node with 'value' as the data stored in it. 
-// Both the children of this new Node are initially null.
+/* Function to create a node with 'value' as the data stored in it. 
+  Both the children of this new Node are initially null. */
 struct Node* newNode(int value)
 {
     Node* n = new Node;
@@ -49,9 +49,9 @@ struct Node* createTree(vector<int>v)
         else 
           a[i] = newNode(v[i]);
     }
-    //Interlink all created nodes to create a tree
-    //Use two pointers using int to store indexes
-    //One to keep track of parent node and one for children nodes
+    /*Interlink all created nodes to create a tree
+      Use two pointers using int to store indexes
+      One to keep track of parent node and one for children nodes */
     for(int i=0,j=1;j<n;i++) 
     {
         //If the parent node is NULL , advance children pointer twice
@@ -60,8 +60,8 @@ struct Node* createTree(vector<int>v)
           j=j+2;
           continue;
         } 
-        //Connect the two children nodes to parent node
-        //First left and then right nodes
+        /* Connect the two children nodes to parent node
+           First left and then right nodes */
         a[i]->left = a[j++];
         if(j<n) 
           a[i]->right = a[j++];
@@ -80,9 +80,9 @@ bool AreQuasiIsomorphic(struct Node* root1, struct Node* root2)
     if(!root1 || !root2)
       return false;
 
-    //else recursively find if their subtrees are quasi isomorphic
-    //Left with left and right with right
-    //or left with right and right with left
+    /* else recursively find if their subtrees are quasi isomorphic
+      Left with left and right with right
+      or left with right and right with left */
     return ( AreQuasiIsomorphic(root1->left,root2->left) && AreQuasiIsomorphic(root1->right,root2->right) ) ||
            ( AreQuasiIsomorphic(root1->left,root2->right) && AreQuasiIsomorphic(root1->right,root2->left) );
 }

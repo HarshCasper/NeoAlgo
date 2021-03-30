@@ -24,50 +24,50 @@ using namespace std;
 //Function Code
 void find(int arr[],int T[],int n,int t)
 {
-	        //variable to store max score
-		int x=0,
-		//initializing it to Max value possible
-		min=INT_MAX;
-		//checking condition 
-		for(int i=0;i<n;i++)
-		{
-	        //if time is still left
-		if(t>0)
-		{
-		x+=arr[i];
-		t-=T[i];
-		if(arr[i]<min)
-		min=arr[i];	
-		}	
-		}
-		//we will start with chapter having lowest score so that less mark will be deducted.
-		//Max Score after decreasing chapter with first chapter score
-		x=x-min;
-		cout<<x<<endl;
+//variable to store max score
+int x=0;
+//initializing it to Max value possible
+min=INT_MAX;
+//checking condition 
+for(int i=0;i<n;i++)
+{
+ //if time is still left
+  if(t>0)
+  {
+   x+=arr[i];
+   t-=T[i];
+  if(arr[i]<min)
+    min=arr[i];	
+  }	
+}
+//we will start with chapter having lowest score so that less mark will be deducted.
+//Max Score after decreasing chapter with first chapter score
+x=x-min;
+cout<<x<<endl;
 }
 //Driver Code
 int main()
 {
-	int t;
-	//no of test cases
-	cin>>t;
-	while(t--)
-	{
-		int n,t;
-		//no of chapters left
-		cin>>n;
-		//time left before exam
-		cin>>t;
-		int T[n],arr[n];
-		for(int i=0;i<n;i++)
-		{   //making array of chapters
-			cin>>arr[i];
-			//Making array of Time 
-			cin>>T[i];
-		}
-		//function to find max score.
-	    find(arr,T,n,t);		
-	}
+    int t;
+//no of test cases
+   cin>>t;
+while(t--)
+{
+   int n,t;
+//no of chapters left
+  cin>>n;
+//time left before exam
+  cin>>t;
+int T[n],arr[n];
+for(int i=0;i<n;i++)
+{   //making array of chapters
+   cin>>arr[i];
+   //Making array of Time 
+   cin>>T[i];		
+}
+//function to find max score.
+find(arr,T,n,t);		
+}
 }
 /*
 Sample Input:
@@ -89,6 +89,6 @@ Smaple Output:
 2
 2
 9
-Time Complexity: 1 sec
-Space Complexity: 50000 Bytes
+Time Complexity:O(n) 1 sec
+Space Complexity:O(n) 50000 Bytes
 */

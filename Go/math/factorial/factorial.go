@@ -59,5 +59,8 @@ b)
 Enter a number to find its factorial: 11
 Factorial of 11 is 39916800
 
+Time Complexity - O(n)
+Space Complexity - O(1)
+
 */
 

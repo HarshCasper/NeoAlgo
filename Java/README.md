@@ -108,6 +108,7 @@ _add list here_
 - [Key Word Cipher](cryptography/KeyWord.java)
 - [Hill Cipher](cryptography/HillCipher.java)
 - [Vigenere Cipher](cryptography/VigenereCipher.java)
+- [Playfair Cipher](cryptography/PlayFairCipher.java)
 
 ## Dynamic Programming
 

@@ -12,30 +12,30 @@ public class InsertPosition
 {
     public int searchPosition(int[] arr, int key)
     {
-        int leftptr=0;
-        int rightptr=arr.length-1;
+        int leftptr = 0;
+        int rightptr = arr.length - 1;
 
         while(leftptr < rightptr)
         {
-            int mid = (leftptr+rightptr)/2;
-            if(arr[mid]==key)
+            int mid = (leftptr + rightptr) / 2;
+            if(arr[mid] == key)
             {
                 return mid;
             }
-            else if(arr[mid]>key)
+            else if(arr[mid] > key)
             {
-                leftptr=mid+1;
+                leftptr = mid + 1;
             }
             else
             {
-                rightptr=mid-1;
+                rightptr = mid - 1;
             }
         }
 
         return leftptr;
     }
 
-    //DRIVER METHOD
+    //DRIVER CODE
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -74,4 +74,3 @@ TIME COMPLEXITY--> O(N)
 SPACE COMPLEXITY--> O(1)
 
 */
-

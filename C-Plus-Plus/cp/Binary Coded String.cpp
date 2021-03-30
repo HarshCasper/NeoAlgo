@@ -14,37 +14,45 @@ s consists of 0's and 1's only.
 #include<bits/stdc++.h>
 using namespace std;
 
-bool hasAllCodes(string s, int k) {
-    int X,Y,Z,i;
-    X=s.length();
-    Y=pow(2,k);
+/*
+This Function will check all string 
+of length k present in given string 
+s or not.
+*/
+
+bool hasAllCodes(string s, int k) 
+{
+    int length,totalBinaryString,Z,i;
+    length=s.length();
+    totalBinaryString=pow(2,k);
     int A[2022600]={0};
     Z=0;
     for(i=0;i<k;i++)
     {
         if(i!=0  &&  Z!=0)
-        Z=(Z<<1);
+            Z=(Z<<1);
         if(s[i]=='1')
-        Z++;
+            Z++;
     }
     A[Z]=1;
-    for(i=k;i<X;i++)
+    for(i=k;i<length;i++)
     {
         if(Z>=(pow(2,k-1)))
-        Z-=(pow(2,k-1));
+            Z-=(pow(2,k-1));
         if(Z!=0)
-        Z=(Z<<1);
+            Z=(Z<<1);
         if(s[i]=='1')
-        Z++;
+            Z++;
         A[Z]=1;
     }
-    for(i=0;i<Y;i++)
+    for(i=0;i<totalBinaryString;i++)
     {
         if(A[i]==0)
-        return false;
+            return false;
     }
     return true;
 }
+
 int main()
 {
     string S;
@@ -55,9 +63,9 @@ int main()
     cin>>K;
     bool Ans=hasAllCodes(S,K);
     if(Ans==true)
-    cout<<"Yes"<<endl;
+        cout<<"Yes"<<endl;
     else
-    cout<<"No"<<endl;
+        cout<<"No"<<endl;
     return 0;
 }
 
@@ -76,3 +84,4 @@ Enter the integer
 Output:
 Yes
 */
+

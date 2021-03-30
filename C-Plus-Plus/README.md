@@ -368,11 +368,8 @@ _add list here_
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 - [Job Scheduling with Maximum Profit](dp/JobSchedulingWithMaxProfit.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
-<<<<<<< HEAD
-- [DP Solution of Pascal's Triangle](dp/pascal's_triangle.cpp)
-=======
+- [Pascal's Triangle using DP](dp/pascal's_triangle.cpp)
 - [Tiling 2 x N](dp/Tiling_2xN.cpp)
->>>>>>> 40095bd128312756e179b1af30d1807532d2d351
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 

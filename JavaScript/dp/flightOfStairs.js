@@ -3,7 +3,6 @@ You can either climb 1, 2, or 3 stairs at a time, but you can only climb 3 stair
 Return the number of ways to climb to the nth stair.
 */
 
-// const prompt = require("prompt-sync")({ sigint: true });
 const FlightOfStairs = (n, k) => {
     const memo = new Array(n + 1);
     for (let i = 0; i < n + 1; i++)
@@ -12,7 +11,7 @@ const FlightOfStairs = (n, k) => {
     }
 
     /*passing to the utility function*/
-    console.log(solveUtil(n, k, memo));
+    console.log("The answer is ",solveUtil(n, k, memo));
 };
 
 const solveUtil = (n, k, memo) =>{
@@ -35,16 +34,22 @@ const solveUtil = (n, k, memo) =>{
     return memo[n][k];
 };
 
-let N=prompt("Enter value of N:");
-let K=prompt("Enter value of K:");
+let N=prompt("Enter value of n:");
+let K=prompt("Enter value of k:");
 FlightOfStairs(parseInt(N),parseInt(K));
 
 /*
-Input
-n = 4
-k = 1
-Output
-7
+Input:
+Enter value of n:
+4
+Enter value of k:
+1
+
+Output:
+The answer is 7
+*/
+
+/*
 Time complexity: O(n*k)
 Space complexity: O(n*k)
 */

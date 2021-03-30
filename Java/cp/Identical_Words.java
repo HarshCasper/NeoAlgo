@@ -6,7 +6,7 @@
 
 - Example :
      Input : words ordws rsdow
-    Output : Possible
+    Output : They are Identical
 
 - Approach :
   1. After taking the 3-input Strings we will check if their lengths are equal or not, if not then
@@ -15,8 +15,8 @@
   2. We will use string_sort method to sort the string by converting it to character array and then
      using Arrays.sort() method
 
-  3. After all 3 Strings sorted we will check if they are equal or not, if equal then "Possible" and if not
-     then "Not Possible"
+  3. After all 3 Strings sorted we will check if they are equal or not, if equal then "They are Identical"
+     and if not then "They are not Identical"
 */
 
 import java.util.Arrays;
@@ -51,19 +51,21 @@ public class Identical_Words {
 			String s3 = Identical_Words.string_sort(third_string);
 			//Checking if Strings are equal or not
 			if(s1.equals(s2) && s1.equals(s3)) {
-				System.out.println("Possible");
+				//if this condition satisfies then print "They are Identical"
+				System.out.println("They are Identical");
 			}else {
-				System.out.println("Not Possible");
+				//else print "They are not Identical"
+				System.out.println("They are not Identical");
 			}
 		}else {
-			System.out.println("Not Possible");
+			System.out.println("They are not Identical");
 		}
 	}
 }
 /*
 - Test Cases :
       Input : Enter Strings : identical inticalde lacitdeni
-     Output : Possible
+     Output : They are Identical
 
 - Complexity Analysis :
   * Time Complexity : O(nlog(n))

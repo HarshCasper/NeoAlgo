@@ -34,6 +34,7 @@
 - [Integer to Roman](math/integer_to_roman)
 - [Karatsuba Multiplication](math/karatsuba_multiplication)
 - [Sieve of Eratosthenes](math/sieve_of_eratosthenes)
+- [Factorial](math/factorial)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

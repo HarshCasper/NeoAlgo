@@ -285,7 +285,6 @@
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
 - [Merge K sorted arrays](heap/Merge_k_sorted_arrays.cpp)
 - [K Closest Points to Origin](heap/K_Closest_Points_to_Origin.cpp)
-- [Top K frequent elements](heap/Top_K_frequent_elements.cpp)
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
@@ -369,6 +368,7 @@ _add list here_
 - [Unbounded Knapsack](dp/unbounded_knapsack.cpp)
 - [Job Scheduling with Maximum Profit](dp/JobSchedulingWithMaxProfit.cpp)
 - [Print Longest Common Subsequence](dp/Print_Longest_Common_Subsequence.cpp)
+- [Pascal's Triangle using DP](dp/pascal's_triangle.cpp)
 - [Tiling 2 x N](dp/Tiling_2xN.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
@@ -403,6 +403,7 @@ _add list here_
 - [Vigenere Cipher](cryptography/Vigenere_Cipher.cpp)
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 - [Keyword Cipher](cryptography/KeywordCipher.cpp)
+- [Hill Cipher](cryptography/HillCipher.cpp)
 
 ## Computational Geometry
 

@@ -15,9 +15,13 @@ int numberOfArithmeticSlices(int A[],int size) {
     if(size<3) return 0;
     vector<int> res (size,0);
     
-    /*Since as per the problem minimum size of the arthemetic slice can be 3, we start the loop from the 2nd element and check the previous elements.
-    We basically check for a continuous AP if the sequence continues, we change the res[i] value to res[1-1] + 1, if the AP breaks at any point we simply leave that index value at 0.
-    Thus restarting the sequence when another continuous AP is found.*/
+    /*
+    -> Starting the loop from 2nd element in the array and check for an AP between 1st 2nd and 3rd element.
+    -> If AP exists between these elements we check if there is a continuation of this AP from before by checking the previous index of the result Array.
+    -> If the previous index is not zero that means it is a coninuation and hence we add the value of the previous index with one.
+    -> We make the current value in the result index equal to the previous value + 1.
+    -> In case it is not a continuation and the previous value is 0 in the result array we simple add 1 to the current value(0) and the current value becomes 1.
+    */
     for(int i = 2;i<size;i++)
     {
         if(A[i]-A[i-1] == A[i-1]-A[i-2])

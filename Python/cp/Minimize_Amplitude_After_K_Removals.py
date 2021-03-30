@@ -48,7 +48,7 @@ if __name__ == "__main__":
     # input list
     list1 = [int(num) for num in input("Enter the list items : ").split()]
 
-    # input the l
+    # input the inp
     inp = int(input("Enter the number of items to be removed : "))
 
     # printing max possible from list

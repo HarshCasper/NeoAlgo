@@ -16,13 +16,11 @@ using namespace std;
 
 // Writing a class where all the basic functions of the circular queue presides
 
-class CircularQueue{
+class CircularQueue
+{
     /*
     Defining all the variables as public variables.
-     (It is not necessory of define the variables as public,
-      you can define the variables as private also)
-    */
-    
+    (It is not necessory of define the variables as public,you can define the variables as private also)*/       
     public:
     int front;
     int rear;
@@ -72,7 +70,7 @@ class CircularQueue{
 
     // Defining the dequeue function, to delete item from the queue
     int dequeue(){
-      int x = 0;       
+        int x = 0;       
         if(front == rear){
           x = arr[front];
           front = rear = -1;
@@ -252,8 +250,7 @@ int main()
   6 
 */
 /*
- The time complexities of different operations in circular queue data structure is:-
-
+ The time complexities of different operations in a circular queue data structure are:-
   1) The time complexity of enqueue operation is O(1), that is constant time.
   2) The time complexity of dequeue operation is O(1), that is constant time. 
   3) The time complexity for checking whether the queue is empty of full is O(1), that is constant time.

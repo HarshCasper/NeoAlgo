@@ -9,6 +9,10 @@
 
 # Codes in the C language
 
+## Bit--Manipulation
+
+- [Swap even and odd bits](Bit--Manipulation/Swap_even_and_odd_bits.c)
+
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
@@ -84,7 +88,7 @@
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
 - [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
-- [Stack Using Queue](ds/StackUsingQueue.c) 
+- [Stack Using Queue](ds/StackUsingQueue.c)
 - [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Reverse Linked List](ds/reverse_linked_list.c)
@@ -171,16 +175,15 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Neon Number](math/Neon_number.c)
-- [Strong Number](math/strong_number.c) 
+- [Strong Number](math/strong_number.c)
 - [Noble Integer](math/Noble_Integer.c)
 - [Neon Number](math/Neon_number.c)
-- [Magic Number](math/Magic_Number.c) 
+- [Magic Number](math/Magic_Number.c)
 
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
-
 
 ## Other
 

@@ -57,9 +57,9 @@ The final sorted list:
 [1, 2, 3, 4]
 
 Time Complexity:
-    Worst Case:
-    Average Case:
-    Best Case:
+    Worst Case: infinite!
+    Average Case: O(N*N!)
+    Best Case: O(N)
 Space Complexity: O(1)
 """
 

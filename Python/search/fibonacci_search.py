@@ -21,51 +21,51 @@ def FibonacciSearch(arr, x, n):
     """
 
     # initialize fibonacci numbers
-    m2 = 0  # (m-2)'th Fibonacci No.
-    m1 = 1  # (m-1)'th Fibonacci No.
-    m = m2 + m1  # m'th Fibonacci
+    Fibm2 = 0  # (m-2)'th Fibonacci No.
+    Fibm1 = 1  # (m-1)'th Fibonacci No.
+    Fibm = Fibm2 + Fibm1  # Fibm'th Fibonacci
 
-    # m: store the smallest
+    # Fibm: store the smallest
     # fibonacci Number greater than or equal to n
-    while m < n:
-        m2 = m1
-        m1 = m
-        m = m2 + m1
+    while Fibm < n:
+        Fibm2 = Fibm1
+        Fibm1 = Fibm
+        Fibm = Fibm2 + Fibm1
 
     # marks the eliminated range from front
     offset = -1
 
     # while there are elements to be inspected.
-    # Note: we compare arr[m2] with x.
-    # when m becomes 1, m2 becomes 0
-    while m > 1:
+    # Note: we compare arr[Fibm2] with x.
+    # when Fibm becomes 1, Fibm2 becomes 0
+    while Fibm > 1:
 
-        # Check if m2 is a valid location
-        i = min(offset + m2, n - 1)
+        # Check if Fibm2 is a valid location
+        i = min(offset + Fibm2, n - 1)
 
         # if x is greater than the value at
-        # index m2, cut the subarray array
+        # index Fibm2, cut the subarray array
         # from offset to i
         if arr[i] < x:
-            m = m1
-            m1 = m2
-            m2 = m - m1
+            Fibm = Fibm1
+            Fibm1 = Fibm2
+            Fibm2 = Fibm - Fibm1
             offset = i
 
         # if x is less than the value at
-        # index m2, cut the subarray
+        # index Fibm2, cut the subarray
         # after i+1
         elif arr[i] > x:
-            m = m2
-            m1 = m1 - m2
-            m2 = m - m1
+            Fibm = Fibm2
+            Fibm1 = Fibm1 - Fibm2
+            Fibm2 = Fibm - Fibm1
 
-        # element found. return index
+        # element found, return index
         else:
             return i
 
     # comparing the last element with x
-    if m1 and arr[offset + 1] == x:
+    if Fibm1 and arr[offset + 1] == x:
         return offset + 1
 
     # element not found. return -1

@@ -27,11 +27,10 @@ sentence = input("Enter a sentence:\n")
 print("The sentence after reversing individual words is:")
 reverseWords(sentence)
 
-# Sample Input1: Get me food
-# Sample Output1: teG em doof
+'''
+Sample Input1: Get me food
+Sample Output1: teG em doof
 
-# Sample Input2: happy birthday
-# Sample Output2: yppah yadhtrib
-
-# Time complexity = O(n) [since each pop or push takes O(1) times]
-# Space Complexity = O(n)
+Time complexity = O(n) [since each pop or push takes O(1) times]
+Space Complexity = O(n)
+'''

@@ -73,6 +73,5 @@ Enter the values of the second matrix
 The resultant matrix is:
 4 4
 4 4
-
 */
 

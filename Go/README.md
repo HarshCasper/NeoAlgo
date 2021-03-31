@@ -41,6 +41,7 @@
 - [Neon Number](math/Neon_Number)
 - [Noble Integer](math/Noble_Integer)
 - [Sum of Digits](math/Sum_of_digits)
+- [Magic Number](math/Magic_Number.go)
 - [Strong Number](math/Strong_Number)
 
 

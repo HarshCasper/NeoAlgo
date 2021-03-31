@@ -10,7 +10,7 @@
 # Codes in the C++ language
 
 ## Competitive Programming
-
+- [Reverse The string using stack](cp/Reverse_string.cpp)
 - [Time taken to rot all Oranges](cp/Rotten_Oranges.cpp)
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)

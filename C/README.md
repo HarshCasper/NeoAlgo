@@ -207,6 +207,7 @@ _add list here_
 - [Palindrome](other/Palindrome.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
+- [Permutation of string](other/Permutation_of_string.c)
 
 ## CP
 

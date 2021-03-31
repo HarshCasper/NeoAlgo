@@ -141,6 +141,7 @@
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 - [Comb Sort](sort/comb.c)
+- [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
 
 ## Dynamic Programming
 

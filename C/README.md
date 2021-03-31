@@ -29,6 +29,7 @@
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
+- [Two Pointer Method](cp/two_pointers_method.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
 - [Boyer-Moore Voting Algorithm](cp/BoyerMooreVote.c)

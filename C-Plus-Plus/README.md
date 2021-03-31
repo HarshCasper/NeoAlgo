@@ -153,7 +153,7 @@
 - [Double Hashing](ds/double-hashing.cpp)
 - [Flattening binary tree into Linkedlist in-place](ds/linkedlisttree.cpp)
 - [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
-- [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_LinkedList.cpp)
+- [Priority Queue using Linked_List](ds/Priority_Queue_using_LinkedList.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
 - [Iterative postorder traversal](ds/iterative_postorder.cpp)
 - [Iterative preorder traversal](ds/iterative_preorder.cpp)

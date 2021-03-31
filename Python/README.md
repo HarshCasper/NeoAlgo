@@ -26,6 +26,7 @@
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
+* [Binary Search Iterative](search/binarysearch_iterative.py)
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
@@ -307,8 +308,12 @@
 - [Next Prime Number](math/Next_Prime_Number.py)
 - [Happy Number](math/Happy_Number.py)
 - [Magic Number](math/Magic_Number.py)
+- [Hamming Distance](math/Hamming_distance.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [AKS Primarility test](math/AKS_Primarility_Test.py)
+- [K-th Largest Number](math/K_largest.py)
+- [K-th Smallest Number](math/k_smallest.py)
+
 
 ## Blockchain
 

@@ -41,6 +41,8 @@
 - [Neon Number](math/Neon_Number)
 - [Noble Integer](math/Noble_Integer)
 - [Sum of Digits](math/Sum_of_digits)
+- [Strong Number](math/Strong_Number)
+
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

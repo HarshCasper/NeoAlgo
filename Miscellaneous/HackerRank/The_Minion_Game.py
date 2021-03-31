@@ -1,5 +1,6 @@
 # The Minion Game solution
-#!/bin/python3
+
+
 def minion_game(string):
     # Players, Scores
     Stuart, kevin = 0, 0
@@ -16,6 +17,8 @@ def minion_game(string):
         print("Stuart", Stuart)
     else:
         print("Draw")
+
+
 """
 Description:
 =============

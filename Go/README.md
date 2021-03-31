@@ -36,6 +36,7 @@
 - [Sieve of Eratosthenes](math/sieve_of_eratosthenes)
 - [Factorial](math/factorial)
 - [Kaprekar Number](math/Kaprekar_Number/kaprekarnumber.go)
+- [Palindrome](math/palindrome)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

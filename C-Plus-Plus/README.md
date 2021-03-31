@@ -18,6 +18,7 @@
 - [Array Manipulation](cp/Array_Manipulation.cpp)
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
+- [Binary_Coded_String](cp/Binary Coded String.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
@@ -176,6 +177,8 @@
 - [Check if given two Binary Trees are structurally identical or not](ds/Structurally_Identical_Binary_Trees.cpp)
 - [Shortest Distance between two nodes of BST](ds/Shortest_Distance_Between_Nodes_Of_BST.cpp)
 - [Floor value of a given number in the given BST](ds/Floor_of_a_number_in_BST.cpp)
+- [Print all node values of a given BST, which lies within the given range](ds\BST_Range_Print.cpp)
+- [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 
 ## Graphs
 
@@ -327,6 +330,7 @@ _add list here_
 - [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
+- [Decimal to Hexadecimal Conversion](math/decimal_to_hexadecimal.cpp)
 - [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
@@ -412,7 +416,6 @@ _add list here_
 - [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.cpp)
 - [Check Orientation of Three points](computational_geometry/Check_Orientation_of_three_points.cpp)
 
-
 ## Other
 
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
@@ -455,3 +458,4 @@ _add list here_
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
 - [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
+- [Allocate minimum number of pages](other/AllocateMinPages.cpp)

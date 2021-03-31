@@ -179,6 +179,7 @@
 - [Floor value of a given number in the given BST](ds/Floor_of_a_number_in_BST.cpp)
 - [Print all node values of a given BST, which lies within the given range](ds\BST_Range_Print.cpp)
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
+- [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 
 ## Graphs
 

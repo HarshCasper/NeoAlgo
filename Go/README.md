@@ -63,4 +63,4 @@
 
 ## Cryptography
 - [Caesar Cipher](cryptography/Caesar_Cipher.go)
-- [Vigenere Cipher](cryptographyVigenere_Cipher)
+- [Vigenere Cipher](cryptography/Vigenere_Cipher)

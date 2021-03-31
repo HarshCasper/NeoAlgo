@@ -235,7 +235,7 @@
 - [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
-- [Pair of nodes in the BST which sum to S](search/Create PairOfNodesInTheBSTWhichSumToS.cpp)
+- [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
 
 ## Sorting
 

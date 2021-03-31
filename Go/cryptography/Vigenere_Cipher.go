@@ -18,7 +18,7 @@ import (
 is shorter than the length of the plaintext.*/
 func keygen(key string, length int) string {
 
-	if(len(key) != length) {
+	if(len(key) < length) {
 		var pad string
 		for j := 0; j < len(key) ; j++ {
 			pad += string(key[j])

@@ -81,11 +81,11 @@ void to_doubly_linked_list(TreeNode* T){
 }
 
 int main(){
-	cout<<"Enter number of nodes of binary tree: ";
+	cout<<"Enter number of nodes of binary tree: "<<endl;
 	int node;		//number of nodes of binary tree
 	cin>>node;
 	
-	cout<<"Enter the values of nodes level by level and enter -1 if node is NULL: "
+	cout<<"Enter the values of nodes level by level and enter -1 if node is NULL: "<<endl;
 	vector<int> binary_tree_values;
 	
 	while(node){		//asking user for elements of Binary tree
@@ -95,10 +95,10 @@ int main(){
 		node--;
 	}
 	
-	cout<<"Making binary tree from the vector"<<endl;
+	cout<<"Making binary tree from the vector..."<<endl;
 	TreeNode* T = make_tree(binary_tree_values);
 	
-	cout<<"Converting Binary tree to doubly linked list"<<endl;
+	cout<<"Converting Binary tree to doubly linked list..."<<endl;
 	to_doubly_linked_list(T);
 	
 	return 0;
@@ -115,12 +115,18 @@ Here if we give following binary tree as input:
  / \ / \
 3  4 9  2 
 i.e,
+
 if input is -
+
+Enter number of nodes of binary tree: 
 7
+Enter the values of nodes level by level and enter -1 if node is NULL:
 5 6 8 3 4 9 2
+
 The output will be -
-Making binary tree from the vector
-Converting Binary tree to doubly linked list
+
+Making binary tree from the vector...
+Converting Binary tree to doubly linked list...
 The elements of doubly linked list are: 3 6 4 5 9 8 2
 */
 

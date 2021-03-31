@@ -1,7 +1,7 @@
 /*
 Given an integer n, using phone keypad find out and print all the possible strings that can be made using digits of input n.
 */
-#include<bits.stc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 void printKeypad_rec(int num, string output){
@@ -36,14 +36,14 @@ void printKeypad(int num){
 }
 
 int main(){
-    int num;
+    	int num;
+	cout<<"Enter the integer for which you want the combinations of keypad";
 	//take input of integer
-    cin >> num;
-
-    printKeypad(num);
+    	cin >> num;
+	cout<<"All the combinations of the keypad for given input integer are: "<<endl;
+    	printKeypad(num);
 	//prints all the combinations of the keypad for given input integer
-
-    return 0;
+    	return 0;
 }
 
 

@@ -2,46 +2,41 @@
 In this We can find all unique prime factor of any number n.For example if n is 12 then output will be 2,3
 In this first we store all prime factor of numbers till n and then print prime factors of n. */
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-void unique_prime(int num) {
-  int arr[num+1];
-  for(int i = 1 ; i <= num ; i++) {
-    arr[i]=1;
-  }
-  map<int ,vector<int>> m;
-  //now store all prime factor in vector of respective key in map
-  for(int i=2 ; i <= num ; i++) {
-    if(arr[i] == 0) {
-      continue;
-    }
-    for(int j=i ; j <= num ; j=j+i) {
-      m[j].push_back(i);
-      arr[j]=0;
+void unique_prime(int n){
+  int arr[n+1];
+  for(int i = 2 ; i <= n ; i++ ) {
+    arr[i]=0;
+  } 
+  //first find all prime factors till n by sieves method 
+  for(int i = 2 ; i <= sqrt(n) ; i++) {
+    if(arr[i]==0) {
+      for(int j = i*i ; j <=n ; j += i){
+        arr[j] = 1;
+      }
     }
   }
-  //print vector when key is n
-  cout<<"All Unique prime factors of "<<num<<" are: ";
-  for(int i=0 ; i < (m[num].size()) ; i++){
-    cout <<m[num][i]<<"  ";
+  //now check which prime number are factor of n
+  cout<<"All unique prime factors of "<<n<<" are: ";
+  for(int i=2; i<=n; i++){  
+    if(arr[i] == 0 && n%i == 0 ){cout << i <<"  ";}
   }
-  return;
 }
 
-int main(){
-  int n;
+int main() {
+  int num;
   cout<<"Enter the number: ";
-  cin>>n;
-  unique_prime(n);
-  
+  cin >> num;
+  unique_prime(num);
 }
 
 /* Sample Input
-   Enter the number:5446
+   Enter the number: 5446
    Sample output
    All Unique prime factors of 5446 are: 2  7  389 
 */
-/* Time complaxity : O(n*n)
-   Space Complaxity : O(n*n)
+/* Time complaxity : O(n + n(log(logn)))
+   Space Complaxity : O(n)
 */

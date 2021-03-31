@@ -1,6 +1,7 @@
-
-#include <iostream>
-#include <string>
+/*
+Given an integer n, using phone keypad find out and print all the possible strings that can be made using digits of input n.
+*/
+#include<bits.stc++.h>
 using namespace std;
 
 void printKeypad_rec(int num, string output){
@@ -36,9 +37,11 @@ void printKeypad(int num){
 
 int main(){
     int num;
+	//take input of integer
     cin >> num;
 
     printKeypad(num);
+	//prints all the combinations of the keypad for given input integer
 
     return 0;
 }
@@ -59,6 +62,6 @@ dc
 ec
 fc
 
-Time complexity: O(4n)
+Time complexity: O(4^n)
 Space complexity: O(1)
 */

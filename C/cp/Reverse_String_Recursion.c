@@ -1,4 +1,6 @@
-/*Program to input an string to obtain the reversal string and it's length using recursion.*/
+/*
+Program to input an string to obtain the reversal string and it's length using recursion.
+*/
 
 #include<stdio.h>
 #include<string.h>
@@ -22,13 +24,6 @@ void rev_str(char *str )
 	rev_str(str+1);
 	putchar(*str );
 }
-	
-int length(char *str )
-{
-	if(*str == '\0')
-	    return 0;
-	return (1 + length(str+1));
-}
 
 main( )
 {
@@ -42,11 +37,11 @@ main( )
 	rev_str(str);
 	printf("\n");
 	printf("The length of the string is : \n");
-	printf("%d\n",length(str));
+	printf("%d",strlen(str));
+	printf("\n");
 }	
 
 /*
-
 Enter the string :                                                                                                                                               
 string                                                                                                                                                           
 Your entered string is :                                                                                                                                         
@@ -55,4 +50,7 @@ The reversed string is :
 gnirts                                                                                                                                                           
 The length of the string is :                                                                                                                                    
 6
+
+Time Complexity : O(n)
+Space Complexity : o(1)
 */

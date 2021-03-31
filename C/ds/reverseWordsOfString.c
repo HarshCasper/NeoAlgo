@@ -76,11 +76,11 @@ int main() {
 }
 
 /*
-Sample Input1: Get me food
-Sample Output1: teG em doof
-
-Sample Input2: happy birthday
-Sample Output2: yppah yadhtrib
+Sample I/O:
+Enter a sentence:
+Get me food
+The sentence after reversing individual words is:
+teG em doof
 */
 
 /*

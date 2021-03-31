@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -107,6 +107,7 @@
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
+- [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 
 ## Data Structures
 

@@ -188,6 +188,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
+- [Number of Divisors](math/number_of_divisors.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 
 ## Dynamic Programming

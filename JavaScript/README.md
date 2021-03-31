@@ -34,6 +34,8 @@
 - [Stack using Linked List](./ds/StackLinkedList.js)
 - [Hash Table](./ds/Hash.js)
 - [Recursive preorder traversal in binary search tree](./ds/Recursive_preorder.js)
+- [Recursive inorder traversal in binary search tree](./ds/Recursive_inorder.js)
+
 
 ## Searching
 

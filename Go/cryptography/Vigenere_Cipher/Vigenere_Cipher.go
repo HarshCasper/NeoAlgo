@@ -90,12 +90,10 @@ func main() {
 	fmt.Scan(&key)
 
 	// Generating the ciphertext
-	var ciphertext string
-	ciphertext = encrypt(strings.ToLower(plaintext), strings.ToLower(key))
+	var ciphertext string = encrypt(strings.ToLower(plaintext), strings.ToLower(key))
 
 	// Formatting the ciphertext
-	var encrypted string
-	encrypted = format(plaintext, ciphertext)
+	var encrypted string = format(plaintext, ciphertext)
 	fmt.Print("\nEncrypted plaintext is: ", encrypted, "\n")
 }
 

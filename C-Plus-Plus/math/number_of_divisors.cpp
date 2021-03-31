@@ -10,8 +10,8 @@ Example square root of 10^9 is 31622 (approx), so iteration optimized a lot.
 #include <bits/stdc++.h>
 using namespace std;
 
-// this get_number_of_divisors_of_the_number will count the number of divisors of the number
-int get_number_of_divisors_of_the_number(int Number)
+// this get_number_of_divisors will count the number of divisors of the number
+int get_number_of_divisors(int Number)
 {
     int number_of_divisors = 0;
     int limit = (int) sqrt(Number);
@@ -21,33 +21,21 @@ int get_number_of_divisors_of_the_number(int Number)
         {
             /* Here i is a divisor of that number
             ( Number / i ) is also a divisor
-            Ex : 16
-            16 / 2 == 8
-            8 , 2 both are divisor of 16
-            so, we will increment the number_of_divisors by 2
             */
             number_of_divisors += 2;
-
         }
     }
+
     if(Number % limit == 0)
     {
         if(limit * limit == Number)
         {
-            /* means perfect square number
-            Ex : 16
-            4 * 4 == 16
-            */
+            //means perfect square number
             number_of_divisors++;
         }
         else
         {
-            /* Here i is a divisor of that number
-            ( Number / i ) is also a divisor
-            so, we will increment the number_of_divisors by 2
-            */
             number_of_divisors += 2;
-
         }
     }
     return number_of_divisors;
@@ -55,12 +43,12 @@ int get_number_of_divisors_of_the_number(int Number)
 
 int main()
 {
-        cout << "Enter the number : \n";
-	int Number;
-	cin >> Number;
-	int number_of_divisors_of_the_number = get_number_of_divisors_of_the_number(Number);
-	cout << "Number of Divisors of this Number is : ";
-	cout << number_of_divisors_of_the_number << endl;
+    cout << "Enter the number : \n";
+    int Number;
+    cin >> Number;
+    int number_of_divisors = get_number_of_divisors(Number);
+    cout << "Number of Divisors of this Number is : ";
+    cout << number_of_divisors << endl;
 }
 
 /*

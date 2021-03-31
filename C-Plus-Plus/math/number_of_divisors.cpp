@@ -55,7 +55,7 @@ int get_number_of_divisors_of_the_number(int Number)
 
 int main()
 {
-    cout << "Enter the number : \n";
+        cout << "Enter the number : \n";
 	int Number;
 	cin >> Number;
 	int number_of_divisors_of_the_number = get_number_of_divisors_of_the_number(Number);

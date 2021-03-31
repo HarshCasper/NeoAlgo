@@ -11,8 +11,8 @@ It can be proven that the node found to be farthest from root node, has to be on
 #include <bits/stdc++.h>
 using namespace std;
 
-//We maintain a visited array to keep track of what all nodes have already been visited
-//And an adjacency list(adj) can be formed using the given input array(A)
+/*We maintain a visited array to keep track of what all nodes have already been visited
+  And an adjacency list(adj) can be formed using the given input array(A)*/
 int visited[40010];
 vector<int> adj[40010];
 vector<int> A;
@@ -20,8 +20,8 @@ vector<int> A;
 //mx stores the answer at all times
 int mx;
 
-//DFS function runs a DFS from the source node (node), and keeps updating the max distance until all nodes are visited
-//nd stores the node which is found to be at farthest distance from the source node (node)
+/*DFS function runs a DFS from the source node (node), and keeps updating the max distance until all nodes are visited
+  nd stores the node which is found to be at farthest distance from the source node (node)*/
 void dfs(int node, int dist, int& nd)
 {
     if (dist > mx) {

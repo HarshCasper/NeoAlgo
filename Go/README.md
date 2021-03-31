@@ -44,7 +44,7 @@
 - [Magic Number](math/Magic_Number.go)
 - [Strong Number](math/Strong_Number)
 - [Armstrong Number](math/Armstrong_Number)
-
+- [Happy Number](math/Happy_Number)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

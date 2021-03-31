@@ -7,21 +7,23 @@ using namespace std;
 
 void unique_prime(int n){
   int arr[n+1];
-  for(int i = 2 ; i <= n ; i++ ) {
-    arr[i]=0;
-  } 
+  memset(arr , 1 , n+1);
   //first find all prime factors till n by sieves method 
   for(int i = 2 ; i <= sqrt(n) ; i++) {
-    if(arr[i]==0) {
+    if(arr[i]==0){
+      continue;
+    } 
       for(int j = i*i ; j <=n ; j += i){
-        arr[j] = 1;
-      }
+        arr[j] = 0;
+      
     }
   }
   //now check which prime number are factor of n
   cout<<"All unique prime factors of "<<n<<" are: ";
   for(int i=2; i<=n; i++){  
-    if(arr[i] == 0 && n%i == 0 ){cout << i <<"  ";}
+    if(arr[i] == 0 && n%i == 0 ) {
+      cout << i <<"  ";
+    }
   }
 }
 

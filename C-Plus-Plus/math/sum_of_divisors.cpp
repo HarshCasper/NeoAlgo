@@ -10,8 +10,8 @@ Example square root of 10^9 is 31622 (approx), so iteration optimized a lot.
 #include <bits/stdc++.h>
 using namespace std;
 
-// this get_sum_of_divisors_of_the_number will count the sum of divisors of the number
-long long int get_sum_of_divisors_of_the_number(int Number)
+// this get_sum_of_divisors will count the sum of divisors of the number
+long long int get_sum_of_divisors(int Number)
 {
     /* Sum of Divisors may not fit in int range
     so better take long long int */
@@ -23,29 +23,21 @@ long long int get_sum_of_divisors_of_the_number(int Number)
         {
             /* Here i is a divisor of that number
             ( Number / i ) is also a divisor
-            Ex : 16
-            16 / 2 == 8
-            8 , 2 both are divisor of 16
-             */
+            */
             sum_of_divisors += i;
             sum_of_divisors += (Number / i);
         }
     }
+
     if(Number % limit == 0)
     {
         if(limit * limit == Number)
         {
-            /* means perfect square number
-            Ex : 16
-            4 * 4 == 16
-            */
+            //means perfect square number
             sum_of_divisors += limit;
         }
         else
         {
-            /* Here i is a divisor of that number
-            ( Number / i ) is also a divisor
-            */
             sum_of_divisors += limit;
             sum_of_divisors += (Number / limit);
         }
@@ -55,12 +47,12 @@ long long int get_sum_of_divisors_of_the_number(int Number)
 
 int main()
 {
-        cout << "Enter the number : \n";
+    cout << "Enter the number : \n";
 	int Number;
 	cin >> Number;
-	long long int sum_of_divisors_of_the_number = get_sum_of_divisors_of_the_number(Number);
+	long long int sum_of_divisors = get_sum_of_divisors(Number);
 	cout << "Sum of Divisors of this Number is : ";
-	cout << sum_of_divisors_of_the_number << endl;
+	cout << sum_of_divisors << endl;
 }
 
 /*

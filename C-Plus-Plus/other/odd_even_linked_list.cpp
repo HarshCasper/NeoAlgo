@@ -1,87 +1,83 @@
 /* Program to rearrange a given linked list so that all odd indexed nodes are arranged first,
    followed by the even indexed nodes in one iteration through the linked list*/
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 class ListNode {
-    public:
-        int val;
-        ListNode *next;
- };
+public:
+    int val;
+    ListNode* next;
+};
 
-ListNode* odd_even_linked_list(ListNode* head) {
+ListNode* odd_even_linked_list(ListNode* head)
+{
 
     //if linked list has only 1 node, no rearrangement required
-    if(head->next==NULL)
-    {
+    if (head->next == NULL) {
         return head;
     }
 
     //Head of the LinkedList containing odd indexed elements
-    ListNode* head_odd= new ListNode();
+    ListNode* head_odd = new ListNode();
 
     //Head of the LinkedList containing even indexed elements
-    ListNode* head_even= new ListNode();
+    ListNode* head_even = new ListNode();
 
-    head_odd= head;
-    head_even= head->next;
+    head_odd = head;
+    head_even = head->next;
 
     //Counter for odd indexed nodes
-    ListNode* co= head_odd;
+    ListNode* counter_odd = head_odd;
     //Counter for even indexed nodes
-    ListNode* ce= head_even;
+    ListNode* counter_even = head_even;
 
-    while((co->next)!= NULL && (ce->next)!= NULL)
-    {
+    while ((counter_odd->next) != NULL && (counter_even->next) != NULL) {
         //pointer to next odd indexed element
-        co->next= co->next->next;
+        counter_odd->next = counter_odd->next->next;
         //pointer to next even indexed element
-        ce->next= ce->next->next;
-        co= co->next;
-        ce= ce->next;
+        counter_even->next = counter_even->next->next;
+        counter_odd = counter_odd->next;
+        counter_even = counter_even->next;
     }
 
     //join the 2 linked list
-    co->next= head_even;
+    counter_odd->next = head_even;
 
     return head;
 }
 
 int main()
 {
-    int n;
-    cin>>n;
+    int nodes;
+    cin >> nodes;
 
-    int x;
-    cin>>x;
+    int node_value;
+    cin >> node_value;
 
-    ListNode* head= new ListNode();
+    ListNode* head = new ListNode();
 
-    head->val= x;
-    head->next= NULL;
+    head->val = node_value;
+    head->next = NULL;
 
-    ListNode* temp= head;
+    ListNode* temp = head;
 
-    for(int i=1;i<n;i++)
-    {
-        cin>>x;
-        ListNode* new_node= new ListNode();
-        new_node->val= x;
-        temp->next= new_node;
-        new_node->next= NULL;
-        temp= temp->next;
+    for (int i = 1; i < nodes; i++) {
+        cin >> node_value;
+        ListNode* new_node = new ListNode();
+        new_node->val = node_value;
+        temp->next = new_node;
+        new_node->next = NULL;
+        temp = temp->next;
     }
 
-    ListNode* head_new= odd_even_linked_list(head);
-
+    ListNode* head_new = odd_even_linked_list(head);
 
     //print the rearranged linked list
-    temp= head_new;
-    while(temp!=NULL)
-    {
-        cout<<temp->val<<" ";
-        temp= temp->next;
+    temp = head_new;
+    while (temp != NULL) {
+        cout << temp->val << " ";
+        temp = temp->next;
     }
 }
 
@@ -97,4 +93,3 @@ int main()
 
     Time Complexity: O(n)  (We have traversed the linked list just once)
     Space Complexity: O(1) (No extra space is used)*/
-

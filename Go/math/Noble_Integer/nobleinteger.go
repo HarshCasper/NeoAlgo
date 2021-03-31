@@ -16,7 +16,7 @@ var number int
 var arr [100]int
 
 //This function helps us in finding the noble number
-func nobleInteger(arr [100]int) int{
+func nobleInteger() int{
 
     for i:=0;i<number;i++ {
 
@@ -55,7 +55,7 @@ func main(){
     }
 
     //calling the noble integer function 
-    nobleInteger(arr)
+    nobleInteger()
 
 }
 

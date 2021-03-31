@@ -183,6 +183,7 @@ _add list here_
 - [Strong Number](math/strong_number.c) 
 - [Noble Integer](math/Noble_Integer.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Matrix Addition](math/matrix_addition.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 

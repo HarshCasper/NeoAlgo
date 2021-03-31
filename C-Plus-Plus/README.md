@@ -18,7 +18,7 @@
 - [Array Manipulation](cp/Array_Manipulation.cpp)
 - [Array Right Rotation Naive Approach](cp/Array_Right_Rotate.cpp)
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
-- [Binary_Coded_String](cp/Binary Coded String.cpp)
+- [Binary_Coded_String](cp/Binary_Coded_String.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
@@ -83,6 +83,7 @@
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
+- [Check if given Binary Tree is symmetric or not](cp/Binary_Tree_Symmetric_or_not.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
@@ -179,6 +180,7 @@
 - [Floor value of a given number in the given BST](ds/Floor_of_a_number_in_BST.cpp)
 - [Print all node values of a given BST, which lies within the given range](ds\BST_Range_Print.cpp)
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
+- [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 
 ## Graphs
 
@@ -203,6 +205,7 @@
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kosaraju Algorithm](graphs/Kosaraju_Algorithm.cpp)
 - [Kruskal's Algorithm](graphs/kruskal_Algorithm.cpp)
+- [Largest distance between 2 nodes of a Tree](graphs/Largest_distance_between_2_nodes_in_a_tree.cpp)
 - [Min and Max element in BST](graphs/min_and_max_in_BST.cpp)
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
@@ -334,6 +337,7 @@ _add list here_
 - [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
+- [Mystery Number](math/mystery_number.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)
 - [Automorphic Number](math/automorphic_number.cpp)
@@ -435,6 +439,7 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Least Common Multiple](other/lcm.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
+- [Odd Even Linked List](other/odd_even_linked_list.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)

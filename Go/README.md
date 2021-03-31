@@ -38,6 +38,8 @@
 - [Kaprekar Number](math/Kaprekar_Number/kaprekarnumber.go)
 - [Palindrome](math/palindrome)
 - [Automorphic Number](math/Automorphic_Number/automorphicnumber.go)
+- [Neon Number](math/Neon_Number)
+- [Noble Integer](math/Noble_Integer)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)
@@ -57,3 +59,6 @@
 - [Quick Sort](sort/quick_sort)
 - [Radix Sort](sort/radix_sort)
 - [Selection Sort](sort/selection_sort)
+
+## Cryptography
+- [Caesar Cipher](cryptography/Caesar_Cipher.go)

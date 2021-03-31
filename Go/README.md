@@ -35,6 +35,7 @@
 - [Karatsuba Multiplication](math/karatsuba_multiplication)
 - [Sieve of Eratosthenes](math/sieve_of_eratosthenes)
 - [Factorial](math/factorial)
+- [Kaprekar Number](math/Kaprekar_Number/kaprekarnumber.go)
 - [Palindrome](math/palindrome)
 
 ## Others

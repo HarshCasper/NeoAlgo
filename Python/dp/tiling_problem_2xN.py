@@ -16,15 +16,16 @@ def numberOfWays(num):
  # temporary list to stores the number of ways to fill ixn grid
     ways = [None] * (num + 1)
     ways[1] = ways[2] = 1
-
+    
     # storing the ways in the temporary list using dynamic programming
-    for i in range(3, num+1):      
+    for i in range(3, num+1):
         ways[i] = ways[i-1] + ways[i-2]
     return ways[num]
 
-n = int(input())           # taking input from the user
+# taking input from the user
+n = int(input())
  # calling the function to calculate number of ways and printing it
-print("Number of ways is:", numberOfWays(n)) 
+print("Number of ways is:", numberOfWays(n))
 
 
 '''

@@ -8,6 +8,7 @@ and other from the end and they proceed towards each other simultaneously.
 
 #include <stdio.h>
 
+// this Pair_exist_by_Two_Pointer_Method will tell us whether pair exists or not
 int Pair_exist_by_Two_Pointer_Method(int ar[], int N, int X)
 {
     int i = 0, j = N - 1, cur_sum = 0;
@@ -37,12 +38,12 @@ int Pair_exist_by_Two_Pointer_Method(int ar[], int N, int X)
 int main()
 {
     int N, X;
-	printf("Enter array size and target value\n");
-	scanf("%d %d", &N, &X);
-	int ar[N + 1];
-	printf("Enter array elements \n");
-	int i;
-	for(i = 0; i < N; i++)
+    printf("Enter array size and target value\n");
+    scanf("%d %d", &N, &X);
+    int ar[N + 1];
+    printf("Enter array elements \n");
+    int i;
+    for(i = 0; i < N; i++)
     {
         scanf("%d", &ar[i]);
     }

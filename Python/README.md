@@ -26,6 +26,7 @@
 * [Random Search Las vegas version](search/random_search_las_vegas.py)
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
+* [Binary Search Iterative](search/binarysearch_iterative.py)
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
@@ -57,6 +58,7 @@
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
 - [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
+- [Reverse individual words of a string using stacks](ds/reverseWordsOfString.py)
 - [Tree (includes Traversals - in, pre, post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Trie](ds/Trie.py)
@@ -307,10 +309,9 @@
 - [Next Prime Number](math/Next_Prime_Number.py)
 - [Happy Number](math/Happy_Number.py)
 - [Magic Number](math/Magic_Number.py)
+- [Hamming Distance](math/Hamming_distance.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
-- [K-th Smallest Number](math/k_smallest.py)
-
 ## Blockchain
 
 _add list here_

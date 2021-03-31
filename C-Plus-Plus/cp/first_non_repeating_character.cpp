@@ -12,18 +12,8 @@ and increments its respective digit. Now, while the queue is not empty, if the
 frequency of that character is more than 1, it pops it out of the queue
 Else, it is the first occurance and therefore it prints it. */
 
-int main()
+void first_non_repeating(queue<char> q, int frequency[])
 {
-    queue<char> q;
-    int frequency[27] = { 0 };
-
-    char ch;
-    cin >> ch;
-    while (ch != '.')
-    {
-        q.push(ch);
-        frequency[ch - 'a']++;
-
         while (!q.empty())
         {
             int index = q.front() - 'a';
@@ -43,7 +33,20 @@ int main()
         {
             cout << "-1" << endl;
         }
+}
 
+int main()
+{
+    queue<char> q;
+    int frequency[27] = { 0 };
+
+    char ch;
+    cin >> ch;
+    while (ch != '.')
+    {
+        q.push(ch);
+        frequency[ch - 'a']++;
+        first_non_repeating(q,frequency);
         cin >> ch;
     }
 
@@ -55,7 +58,6 @@ Example :
 Output = a -1 b b b
 2)Input: s d d g .
 Output: s s s s 
-
 Time Complexity : O(n) 
 Space Complexity : O(1) */
 

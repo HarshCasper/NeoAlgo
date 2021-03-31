@@ -83,6 +83,7 @@
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
+- [Binary tree to doubly linked list](cp/Binary_Tree_to_Doubly_Linked_List.cpp)
 - [Check if given Binary Tree is symmetric or not](cp/Binary_Tree_Symmetric_or_not.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
@@ -106,6 +107,9 @@
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
+- [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
+- [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
+
 
 ## Data Structures
 
@@ -146,6 +150,7 @@
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Merge two sorted Linked Lists](ds/Merge_sorted_lists.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
+- [Circular Queue](ds/Circular_Queue.cpp)
 - [BST from preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
 - [Linear Probing](ds/linear-probing.cpp)
@@ -181,6 +186,7 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+
 
 ## Graphs
 
@@ -454,6 +460,8 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find Kth smallest element in a Sorted Matrix](other/Find_Kth_smallest_element_in_Sorted_Matrix.cpp)
+- [Find Common Element in row-wise sorted matrix](other/Find_Common_Element_in_matrix.cpp)
 - [Vector of Strings Occurs More than Once](other/vector_of_strings_occurs_more_than_one_time.cpp)
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
@@ -469,3 +477,4 @@ _add list here_
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
+

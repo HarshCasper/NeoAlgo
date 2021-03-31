@@ -134,6 +134,7 @@ _add list here_
 - [Find the Numbers](other/Find_the_numbers.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
+- [Sliding Window Technique](other/window_sliding_technique.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - [Remove outermost parentheses](other/remove_outermost_parentheses.c)
 - [Recursion count of substring](other/recursion_string.c)
@@ -141,7 +142,6 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
-- [Sliding Window Technique](other/window_sliding_technique.c)
 
 ## CP
 

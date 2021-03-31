@@ -94,7 +94,7 @@ struct Node* BuildBalancedBSTUtil(vector<int>v,int start,int end)
 
     if(start>end)
     {
-        //If start index is more than end index 
+        /*If start index is more than end index 
         assign a NULL node to the root */
         root = NULL;
     }

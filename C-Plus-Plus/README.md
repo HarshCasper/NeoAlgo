@@ -106,6 +106,7 @@
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
+- [Find the number which occurs odd number of times in a given array](cp/number_with_odd_occurrences.cpp)
 
 ## Data Structures
 

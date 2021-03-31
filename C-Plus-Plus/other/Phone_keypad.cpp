@@ -37,7 +37,7 @@ void printKeypad(int num){
 
 int main(){
     	int num;
-	cout<<"Enter the integer for which you want the combinations of keypad";
+	cout<<"Enter the integer for which you want the combinations of keypad: ";
 	//take input of integer
     	cin >> num;
 	cout<<"All the combinations of the keypad for given input integer are: "<<endl;
@@ -49,9 +49,10 @@ int main(){
 
 
 /*
-Sample input 1:
-32
-Sample output 1:
+Sample input: 
+Enter the integer for which you want the combinations of keypad: 32
+Sample output:
+All the combinations of the keypad for given input integer are: 
 da
 ea
 fa

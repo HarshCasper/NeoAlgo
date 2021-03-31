@@ -57,6 +57,7 @@ node * insert_at_pos(node *head,int value,int pos)
     else
     {
         node *ptr2 = head;
+       // int i;
         for(int i=2; i<=pos-1; i++)
         {
             ptr2 = ptr2->next;

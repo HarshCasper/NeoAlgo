@@ -21,3 +21,8 @@
 ## Dynamic Programming
 
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
+- [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
+
+## Sorting
+
+- [Selection Sort](sort/selection_sort.jl)

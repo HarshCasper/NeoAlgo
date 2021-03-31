@@ -7,6 +7,7 @@ This technique will allow us to solve this problem in O(N)
 
 #include <stdio.h>
 
+// This max_sum_by_sliding_window function will give us maximum sum
 int max_sum_by_sliding_window(int ar[] , int N , int K)
 {
     int sum = 0;
@@ -44,11 +45,11 @@ int max_sum_by_sliding_window(int ar[] , int N , int K)
 int main()
 {
     int N, K;
-	printf("Enter array size and value\n");
-	scanf("%d %d", &N, &K);
-	int ar[N + 1];
-	printf("Enter array elements \n");
-	for(int i = 0; i < N; i++)
+    printf("Enter array size and value\n");
+    scanf("%d %d", &N, &K);
+    int ar[N + 1];
+    printf("Enter array elements \n");
+    for(int i = 0; i < N; i++)
     {
         scanf("%d", &ar[i]);
     }

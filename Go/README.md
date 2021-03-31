@@ -40,9 +40,11 @@
 - [Automorphic Number](math/Automorphic_Number/automorphicnumber.go)
 - [Neon Number](math/Neon_Number)
 - [Noble Integer](math/Noble_Integer)
+- [Sum of Digits](math/Sum_of_digits)
 - [Magic Number](math/Magic_Number.go)
 - [Strong Number](math/Strong_Number)
 - [Armstrong Number](math/Armstrong_Number)
+
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

@@ -18,8 +18,8 @@ import (
 is shorter than the length of the plaintext.*/
 func keygen(key string, length int) string {
 
-	var pad string
 	if(len(key) != length) {
+		var pad string
 		for j := 0; j < len(key) ; j++ {
 			pad += string(key[j])
 		}
@@ -30,13 +30,14 @@ func keygen(key string, length int) string {
 		for i := 0; i < (length - len(key)); i++ {
 			pad += string(key[i % len(key)])
 		}
+		return pad
 	}
 	// Return the final key to be used
-	return pad
+	return key
 }
 
 // This is the encryption function
-func encrypt(plaintext string, key string) string {
+func encrypt(plaintext, key string) string {
 
 	/* Calling the above function to ensure that
 	the length of the key is same as length of
@@ -60,7 +61,7 @@ send plaintext in lowercase. So, the ciphertext we
 get is also in all lowercase. Here, we format the
 ciphertext so that wherever there is capital letter
 in the plaintext, same follows in the ciphertext.*/
-func format(plaintext string, ciphertext string) string {
+func format(plaintext, ciphertext string) string {
 
 	var enc string
 	/* Check wherever the plaintext is capital and

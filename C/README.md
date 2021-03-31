@@ -141,6 +141,7 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Sliding Window Technique](other/window_sliding_technique.c)
 
 ## CP
 

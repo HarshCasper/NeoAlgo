@@ -29,7 +29,6 @@ reverseWords(sentence)
 
 '''
 Sample I/O:
-Eter a sentence:
 Enter a sentence:
 Get me food
 The sentence after reversing individual words is:

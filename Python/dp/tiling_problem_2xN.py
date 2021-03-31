@@ -27,7 +27,6 @@ n = int(input())  # taking input from the user
 print("Number of ways is:", numberOfWays(n))
 
 
-
 # Test Case 1:
 # Input: 4
 # Output: Number of ways is: 3

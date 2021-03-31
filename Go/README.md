@@ -65,4 +65,6 @@
 
 ## Cryptography
 - [Caesar Cipher](cryptography/Caesar_Cipher.go)
+- [Vernam Cipher](cryptography/Vernam_Cipher)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher)
+

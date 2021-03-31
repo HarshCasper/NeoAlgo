@@ -28,8 +28,12 @@ print("The sentence after reversing individual words is:")
 reverseWords(sentence)
 
 '''
-Sample Input1: Get me food
-Sample Output1: teG em doof
+Sample I/O:
+Eter a sentence:
+Enter a sentence:
+Get me food
+The sentence after reversing individual words is:
+teG em doof
 
 Time complexity = O(n) [since each pop or push takes O(1) times]
 Space Complexity = O(n)

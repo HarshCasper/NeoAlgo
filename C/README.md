@@ -186,6 +186,7 @@ _add list here_
 - [Magic Number](math/Magic_Number.c) 
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
+- [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 

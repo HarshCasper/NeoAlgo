@@ -1,6 +1,6 @@
 """
 Tiling problem 2xN
-Problem Statement: Given a 2 x n board and tiles of dimension 2 x 1, count the number of ways to tile the given board using the 2 x 1 tiles.
+Problem Statement: Given a 2 x N board and tiles of dimension 2 x 1, count the number of ways to tile the given board using the 2 x 1 tiles.
                    A tile can either be placed horizontally, as a 1 x 2 tile or vertically, as 2 x 1 tile. 
 """
 

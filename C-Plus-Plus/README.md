@@ -234,4 +234,4 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
-- [Find Kth smallest element in a sorted Matrix](other/Find_Kth_smallest_element_in_sorted_Matrix.cpp)
+- [Find Kth smallest element in a Sorted Matrix](other/Find_Kth_smallest_element_in_Sorted_Matrix.cpp)

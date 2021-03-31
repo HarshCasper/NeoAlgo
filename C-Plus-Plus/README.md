@@ -148,6 +148,7 @@
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Merge two sorted Linked Lists](ds/Merge_sorted_lists.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
+- [Circular Queue](ds/Circular_Queue.cpp)
 - [BST from preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
 - [Linear Probing](ds/linear-probing.cpp)
@@ -183,6 +184,7 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+
 
 ## Graphs
 

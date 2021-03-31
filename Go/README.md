@@ -34,6 +34,13 @@
 - [Integer to Roman](math/integer_to_roman)
 - [Karatsuba Multiplication](math/karatsuba_multiplication)
 - [Sieve of Eratosthenes](math/sieve_of_eratosthenes)
+- [Factorial](math/factorial)
+- [Kaprekar Number](math/Kaprekar_Number/kaprekarnumber.go)
+- [Palindrome](math/palindrome)
+- [Automorphic Number](math/Automorphic_Number/automorphicnumber.go)
+- [Neon Number](math/Neon_Number)
+- [Noble Integer](math/Noble_Integer)
+- [Strong Number](math/Strong_Number)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)
@@ -53,3 +60,6 @@
 - [Quick Sort](sort/quick_sort)
 - [Radix Sort](sort/radix_sort)
 - [Selection Sort](sort/selection_sort)
+
+## Cryptography
+- [Caesar Cipher](cryptography/Caesar_Cipher.go)

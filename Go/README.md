@@ -38,6 +38,7 @@
 - [Kaprekar Number](math/Kaprekar_Number/kaprekarnumber.go)
 - [Palindrome](math/palindrome)
 - [Automorphic Number](math/Automorphic_Number/automorphicnumber.go)
+- [Neon Number](math/Neon_Number)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

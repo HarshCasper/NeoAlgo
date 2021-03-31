@@ -196,7 +196,6 @@
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kosaraju Algorithm](graphs/Kosaraju_Algorithm.cpp)
 - [Kruskal's Algorithm](graphs/kruskal_Algorithm.cpp)
-- [Largest distance between 2 nodes of a tree](graphs/Largest_distance_between_2_nodes_in_a_tree.cpp)
 - [Min and Max element in BST](graphs/min_and_max_in_BST.cpp)
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)

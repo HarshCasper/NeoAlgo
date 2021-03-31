@@ -13,7 +13,7 @@ def numberOfWays(num):
         return 0
     if num < 2:
         return 1
-# temporary list to stores the number of ways to fill ixn grid
+# temporary list to stores the number of ways to fill 2xi grid
     ways = [None] * (num + 1)
     ways[1] = ways[2] = 1
 # storing the ways in the temporary list using dynamic programming

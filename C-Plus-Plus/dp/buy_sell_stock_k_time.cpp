@@ -90,9 +90,6 @@ int main() {
     for (int i = 0; i < n; i++)
         cin >> P[i];
 
-
     solve(n,k,P); // Calling the function to output the answer.
-
-
 
 }

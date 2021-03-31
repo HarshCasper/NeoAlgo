@@ -36,3 +36,4 @@
 | TheHurdleRace            | [Problem](https://www.hackerrank.com/challenges/the-hurdle-race/problem)                                                                           | [Solution](TheHurdleRace.py)           | Python3  |
 | Time Conversion          | [Problem](https://www.hackerrank.com/challenges/time-conversion)                                                                                   | [Solution](TimeConversion.py)          | Python3  |
 | Compare the triplets     | [Problem](hackerrank.com/challenges/compare-the-triplets/problem)                                                                                  | [Solution](Compare_the_Triplets.py)    | Python3  |
+| The Minion Game     | [Problem](https://www.hackerrank.com/challenges/the-minion-game/)                                                                                  | [Solution](The_Minion_Game.py)    | Python3  |

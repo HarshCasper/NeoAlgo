@@ -23,6 +23,10 @@
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
 
+## Mathematics
+
+- [N'th Catalan Number](math/catalan_number.jl)
+
 ## Sorting
 
 - [Insertion Sort](sort/insertion_sort.jl)

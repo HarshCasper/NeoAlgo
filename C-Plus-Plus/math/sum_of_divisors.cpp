@@ -55,7 +55,7 @@ long long int get_sum_of_divisors_of_the_number(int Number)
 
 int main()
 {
-    cout << "Enter the number : \n";
+        cout << "Enter the number : \n";
 	int Number;
 	cin >> Number;
 	long long int sum_of_divisors_of_the_number = get_sum_of_divisors_of_the_number(Number);

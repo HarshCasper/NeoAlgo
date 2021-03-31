@@ -311,8 +311,6 @@
 - [Hamming Distance](math/Hamming_distance.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
-- [K-th Smallest Number](math/k_smallest.py)
-
 ## Blockchain
 
 _add list here_

@@ -118,6 +118,9 @@ i.e,
 if input is -
 7
 5 6 8 3 4 9 2
-The output will be - 3 6 4 5 9 8 2
+The output will be -
+Making binary tree from the vector
+Converting Binary tree to doubly linked list
+The elements of doubly linked list are: 3 6 4 5 9 8 2
 */
 

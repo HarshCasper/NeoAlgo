@@ -55,7 +55,7 @@
 - [Linear Search](search/linear_search)
 
 ## Sorting
-- [Bubble Sort](sort/bubble_sort
+- [Bubble Sort](sort/bubble_sort)
 - [Counting Sort](sort/counting_sort)
 - [Insertion Sort](sort/insertion_sort)
 - [Merge Sort (Parallel)](sort/merge_parallel_sort)

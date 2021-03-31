@@ -1,6 +1,6 @@
 // C program to implement Matrix Addition
 #include <stdio.h>
-
+void add_matrix(int [][10],int [][10],int [][10],int,int);
 int main()
 {
     int r1, c1, r2, c2;
@@ -15,17 +15,7 @@ int main()
         printf("Given Matrices cannot be added!!!");
         return 0;
     }
-    int A[r1][c1], B[r2][c2], C[r1][c1];
-    //Initialize the resultant matrix with value 0
-    for (int i = 0; i < r1; i++)
-    {
-        for (int j = 0; j < c1; j++)
-        {
-            C[i][j] = 0;
-        }
-    }
-
-    // Input the values of the matrices
+    int A[10][10], B[10][10], C[10][10];
     printf("Enter the values of the first matrix\n");
     for (int i = 0; i < r1; i++)
     {
@@ -38,7 +28,17 @@ int main()
         for (int j = 0; j < c2; j++)
             scanf("%d", &B[i][j]);
     }
-
+    add_matrix(A,B,C,r1,c2);
+    printf("The resultant matrix is:\n");
+    for (int i = 0; i < r2; i++)
+    {
+        for (int j = 0; j < c2; j++)
+            printf("%d ", C[i][j]);
+        printf("\n");
+    }
+}
+void add_matrix(int A[][10],int B[][10],int C[][10],int r1,int c2)
+{
     for (int i = 0; i < r1; i++)
     {
         for (int j = 0; j < c2; j++)
@@ -47,16 +47,6 @@ int main()
             C[i][j] = A[i][j] + B[i][j];
         }
     }
-
-    printf("The resultant matrix is:\n");
-    for (int i = 0; i < r2; i++)
-    {
-        for (int j = 0; j < c2; j++)
-            printf("%d ", C[i][j]);
-        printf("\n");
-    }
-
-    return 0;
 }
 
 /*
@@ -78,3 +68,4 @@ The resultant matrix is:
 4 4
 
 */
+

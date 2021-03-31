@@ -181,6 +181,7 @@
 - [Print all node values of a given BST, which lies within the given range](ds\BST_Range_Print.cpp)
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
+- [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 
 ## Graphs
 
@@ -439,6 +440,7 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Least Common Multiple](other/lcm.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
+- [Palindrome Linked List](other/palindrome_linked_list.cpp)
 - [Odd Even Linked List](other/odd_even_linked_list.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
@@ -464,3 +466,4 @@ _add list here_
 - [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
+- [Phone Keypad](other/Phone_keypad.cpp)

@@ -18,7 +18,7 @@ int reverse(int n)
     return rev;
 }
 
-bool solve(int n)
+bool check_mystery_num(int n)
 {
     /* Let us iterate from 1 upto n/2, to check if there is any pair, such that thier
        sum equals the given number and check if the pair are reverse of each other  */
@@ -37,7 +37,7 @@ int main()
     int n;
     cout << "Enter the number: ";
     cin >> n;
-    bool res = solve(n);
+    bool res = check_mystery_num(n);
     if (res)
     {
         cout << "The given number " << n << " is a Mystery Number.";

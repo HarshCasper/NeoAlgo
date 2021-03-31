@@ -37,6 +37,7 @@
 - [Factorial](math/factorial)
 - [Kaprekar Number](math/Kaprekar_Number/kaprekarnumber.go)
 - [Palindrome](math/palindrome)
+- [Automorphic Number](math/Automorphic_Number/automorphicnumber.go)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

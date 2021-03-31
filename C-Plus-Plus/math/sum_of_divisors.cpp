@@ -48,11 +48,11 @@ long long int get_sum_of_divisors(int Number)
 int main()
 {
     cout << "Enter the number : \n";
-	int Number;
-	cin >> Number;
-	long long int sum_of_divisors = get_sum_of_divisors(Number);
-	cout << "Sum of Divisors of this Number is : ";
-	cout << sum_of_divisors << endl;
+    int Number;
+    cin >> Number;
+    long long int sum_of_divisors = get_sum_of_divisors(Number);
+    cout << "Sum of Divisors of this Number is : ";
+    cout << sum_of_divisors << endl;
 }
 
 /*

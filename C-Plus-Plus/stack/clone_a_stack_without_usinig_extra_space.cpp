@@ -1,35 +1,33 @@
 // Below is the implementation of
 // Cloning a stack into destination stack without using extra space
-
-
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-typedef unsigned long int ul;
-typedef long long int ll;
-typedef unsigned long long int  ull;
+// This Function takes takes two stakes as input and
+// copy data of first stack to the second stack  
 
-
-
-void clonestack(stack<int> st, stack<int> &cloned)
+void clonestack(stack<int> st, stack<int> &cloned) 
 {
-	if (st.size() > 0)
+	if (st.size() > 0) //this is the base case when the source stack is empty
 	{
-		int x = st.top();
+		int x = st.top();  //stores the top of the stack
 		st.pop();
 
-		clonestack(st, cloned);
+		clonestack(st, cloned); //this will copy element of rest of stack
 
-		cloned.push(x);
+		cloned.push(x); // now put the current element on the top
 	}
 }
 int main()
 {
-	
 	stack<int> source, dest;
-	source.push(1);
-	source.push(2);
-	source.push(3);
-	source.push(4);
+	cout<<"Enter the no. of elements\n";
+	int n,element;
+	cin>>n;
+	cout<<"Enter the elements of stack\n";
+	for(int i=0;i<n;i++){
+		cin>>element;
+		source.push(element);
+	}
 	clonestack(source, dest);
 	cout << "Source Stack : ";
 	while (!source.empty()) {
@@ -42,7 +40,6 @@ int main()
 		cout << dest.top() << " ";
 		dest.pop();
 	}
-	// cerr << "time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs" << endl;
 	return 0;
 }
 

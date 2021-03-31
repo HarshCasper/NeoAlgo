@@ -198,7 +198,7 @@
 - [Count Derangements](dp/count_derangements.py)
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
-- [Tiling Problem](dp/tiling_problem.py)
+- [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 
 ## Pathfinding Algorithms
 

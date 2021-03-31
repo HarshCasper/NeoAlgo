@@ -71,7 +71,8 @@ void solve(int n, int k, int P[]){
             dp[transaction][day] = max;
         }
     }
-
+    cout<<endl;
+    
     cout << dp[k][n - 1] << endl;
 
 
@@ -90,6 +91,27 @@ int main() {
     for (int i = 0; i < n; i++)
         cin >> P[i];
 
+<<<<<<< HEAD
+    cout << dp[k][n - 1] << endl;
+
+
+}
+
+
+
+
+int main() {
+
+    int n, k;
+    cin >> n >> k; // taking inputs for number of days and the number of transactions.
+
+    int P[n];
+
+    for (int i = 0; i < n; i++)
+        cin >> P[i];
+
+=======
+>>>>>>> c733b13aa7e4728a5b78f40398b46fb05ceb71ca
     solve(n,k,P); // Calling the function to output the answer.
 
 }

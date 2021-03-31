@@ -13,8 +13,6 @@ Given n and k, return the kth permutation sequence in the string type.
 
 */
 
-
-
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -17,3 +17,8 @@
 - [Finding Factorials using Recursion](cp/factorials.jl)
 - [Finding GCD using Euclid's Algorithm](cp/GCD.jl)
 - [Checking if a number is a power of 2](cp/isPowerOf2.jl)
+
+## Dynamic Programming
+
+- [Longest Common Substring](dp/length_longest_common_substring.jl)
+- [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)

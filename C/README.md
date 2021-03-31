@@ -61,6 +61,7 @@
 - [Infix to postfix](ds/infix_to_postfix.c)
 - [Infix To prefix](ds/infixToPrefix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
+- [Reverse individual words of a string using stacks](ds/reverseWordsOfString.c)
 - [Preorder Traversal](ds/Preordertraversal.c)
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
@@ -184,6 +185,7 @@ _add list here_
 - [Noble Integer](math/Noble_Integer.c)
 - [Magic Number](math/Magic_Number.c) 
 - [Matrix Addition](math/matrix_addition.c)
+- [Matrix Multiplication](math/matrix_multiplication.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 

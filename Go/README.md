@@ -35,6 +35,7 @@
 - [Karatsuba Multiplication](math/karatsuba_multiplication)
 - [Sieve of Eratosthenes](math/sieve_of_eratosthenes)
 - [Factorial](math/factorial)
+- [Palindrome](math/palindrome)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

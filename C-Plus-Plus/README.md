@@ -108,7 +108,7 @@
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
-- [Find all unique prime factor of any natural number n](cp/Unique_prime_factors.cpp)
+- [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 
 
 ## Data Structures

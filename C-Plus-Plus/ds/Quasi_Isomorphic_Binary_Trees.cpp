@@ -1,6 +1,9 @@
 /*
 Introduction 
-Given two Binary Trees , Check whether they are structurally identical or not.
+Given two Binary Trees , Check whether they are  quasi isomorphic or not.
+Two trees say Tree1 and Tree2 are quasi-isomorphic if Tree1 can be transformed into Tree2 by
+swapping the left and right children of some of the nodes of root1 ,structurally.
+Data values of node's doesn't matter in this case.
 
 Argument/Return Type
 Input of total no.of nodes is taken
@@ -19,8 +22,8 @@ struct Node
     Node* right;
 };
  
-// Function to create a node with 'value' as the data stored in it. 
-// Both the children of this new Node are initially null.
+/* Function to create a node with 'value' as the data stored in it. 
+  Both the children of this new Node are initially null. */
 struct Node* newNode(int value)
 {
     Node* n = new Node;
@@ -46,9 +49,9 @@ struct Node* createTree(vector<int>v)
         else 
           a[i] = newNode(v[i]);
     }
-    //Interlink all created nodes to create a tree
-    //Use two pointers using int to store indexes
-    //One to keep track of parent node and one for children nodes
+    /*Interlink all created nodes to create a tree
+      Use two pointers using int to store indexes
+      One to keep track of parent node and one for children nodes */
     for(int i=0,j=1;j<n;i++) 
     {
         //If the parent node is NULL , advance children pointer twice
@@ -57,8 +60,8 @@ struct Node* createTree(vector<int>v)
           j=j+2;
           continue;
         } 
-        //Connect the two children nodes to parent node
-        //First left and then right nodes
+        /* Connect the two children nodes to parent node
+           First left and then right nodes */
         a[i]->left = a[j++];
         if(j<n) 
           a[i]->right = a[j++];
@@ -66,8 +69,8 @@ struct Node* createTree(vector<int>v)
     return a[0];
 }
 
-//Function to check whether given two binary trees are structurally identical or not
-bool IsStructurallyIdentical(struct Node* root1, struct Node* root2)
+//Function to check whether given two binary trees are quasi isomorphic
+bool AreQuasiIsomorphic(struct Node* root1, struct Node* root2)
 {
     //If both are null nodes , return true
     if(!root1 && !root2)
@@ -77,8 +80,11 @@ bool IsStructurallyIdentical(struct Node* root1, struct Node* root2)
     if(!root1 || !root2)
       return false;
 
-    //else recursively find if their subtrees are structurally identical
-    return IsStructurallyIdentical(root1->left,root2->left) && IsStructurallyIdentical(root1->right,root2->right);
+    /* else recursively find if their subtrees are quasi isomorphic
+      Left with left and right with right
+      or left with right and right with left */
+    return ( AreQuasiIsomorphic(root1->left,root2->left) && AreQuasiIsomorphic(root1->right,root2->right) ) ||
+           ( AreQuasiIsomorphic(root1->left,root2->right) && AreQuasiIsomorphic(root1->right,root2->left) );
 }
                 
 // Driver code
@@ -116,10 +122,10 @@ int main()
     struct Node* root2=createTree(v2);
 
     //Call the function and print the result
-    if(IsStructurallyIdentical(root1,root2))
-      cout<<"Hence the given two trees are structurally identical";
+    if(AreQuasiIsomorphic(root1,root2))
+      cout<<"Hence the given two trees are Quasi Isomorphic";
     else
-      cout<<"Hence the given two trees are not structurally identical";
+      cout<<"Hence the given two trees are not Quasi Isomorphic";
     
     return 0; 
 }
@@ -128,28 +134,27 @@ int main()
 Input:
 0 <= node->key < 1000000000
 if node is NULL , -1 is entered as it's key
+Sample Test Case 
 
-Sample Test Case 1  
 Input Binary Tree 1:                    Input Binary Tree 1: 
                1                                       10                          
            /         \                             /         \                   
-         2              11                       22            3                  
+         2             3                        11             12                 
      /       \        /   \                  /       \        /   \               
-    3        NULL      NULL    13           13        NULL   NULL    1                        
-
+    4        NULL    NULL  5               NULL       13     14   NULL  
 
 Input Format : 
 Example :
 Enter total no.of nodes of the 1st input Tree ( including NULL nodes ) : 7
 Enter value of each node of the 1 st Tree  in level order ( if a node is NULL , enter -1 ) with spaces
-1 2 11 3 -1 -1 13
+1 2 3 4 -1 -1 5
 Enter total no.of nodes of the 2nd input Tree ( including NULL nodes ) : 7
 Enter value of each node of the 2nd Tree  in level order ( if a node is NULL , enter -1 ) with spaces
-10 22 3 13 -1 -1 1
+10 11 12 -1 13 14 -1
 
 Output Format :
 Example : ( Output to the above input example ) 
-Hence the given two trees are structurally identical
+Hence the given two trees are Quasi Isomorphic
 
 Time/Space Complexity
 Time Complexity : O(n) 

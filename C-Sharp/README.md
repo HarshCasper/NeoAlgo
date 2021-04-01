@@ -22,7 +22,7 @@ _add list here_
 - [Vigenere Cipher](cryptography/vigenere_cipher.cs)
 
 ## Data Structures
-
+- [Binary Search Tree](dp/BinarySearchTree.cs)
 _add list here_
 
 ## Dynamic Programming

@@ -2,7 +2,7 @@
 Stack data structure is used to construct the binary tree.
 Queue is used to print level order traversal of the binary tree.
 
-this algorithm  is a 3 step process --repeat until queue is empty!!
+This algorithm  is a 3 step process --repeat until queue is empty!!
         1. remove a node
         2. print/save the value
         3. add the children in the queue

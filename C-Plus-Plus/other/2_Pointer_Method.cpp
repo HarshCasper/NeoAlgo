@@ -17,15 +17,15 @@ bool twoPointerSum(int a[], int n, int x){
             return true;
         }
 
-        // If sum of elements at current
-        // pointers is less, we move towards
-        // higher values by doing i++
+        /* If sum of elements at current
+        pointers is less, we move towards
+        higher values by doing i++ */
         else if (a[i] + a[j] < x)
             i++;
 
-        // If sum of elements at current
-        // pointers is more, we move towards
-        // lower values by doing j--
+        /* If sum of elements at current
+        pointers is more, we move towards
+        lower values by doing j-- */
         else
             j--;
     }
@@ -49,6 +49,22 @@ int main()
     else{
         cout<<"There is no two values in the array whose sum is "<<x;
     }
-    cout<<endl;
+
     return 0;
 }
+
+//Sample Input-1
+//5
+//1 2 3 4 5
+//7
+//Sample Output-1
+//The values whose sum is 7 are 2 and 5
+//
+//Sample Input-2
+//5
+//1 2 3 4 5
+//10
+//Sample Output-2
+//There is no two values in the array whose sum is 10
+
+cout<<endl;

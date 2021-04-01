@@ -71,6 +71,7 @@
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 - [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
+- [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
 
 
 ## Competitive Programming

@@ -107,9 +107,9 @@
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
+- [Next greater element](cp/next_greater_element.cpp)
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
-
 
 ## Data Structures
 

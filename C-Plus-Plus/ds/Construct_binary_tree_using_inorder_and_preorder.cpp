@@ -18,9 +18,10 @@ Inorder : [2, 1, 3]
 #include <bits/stdc++.h>
 using namespace std;
 // structure to define the tree
-struct TreeRoot{
+struct TreeRoot
+{
     // data varible of type int to store the integer data in the node.
-    int data; 
+    int data;
     // left pointer of the same type as of node to point at left subtree of the node.
     struct TreeRoot *left;
     // right pointer of the same type as of node to point at right subtree of the node.
@@ -34,62 +35,63 @@ struct TreeRoot{
     }
 };
 
-void postorder(TreeRoot* root){
-    if(root == NULL)
+void postorder(TreeRoot *root)
+{
+    if (root == NULL)
     {
         return;
     }
     postorder(root->left);
     postorder(root->right);
-    cout<<root->data<<" ";
+    cout << root->data << " ";
 }
 
-TreeRoot* buildTree(vector<int> &preorder, vector<int> &inorder, int start, int end)
+TreeRoot *buildTree(vector<int> &preorder, vector<int> &inorder, int start, int end)
 {
     // a static variable to keep the track of preorder vector.
     static int index = 0;
-    if(start > end)
+    if (start > end)
         return NULL;
     // to store the value at given index in preorder vector.
     int current = preorder[index];
     // after storing the value increment the index.
     index++;
     // creating the node of the current element.
-    TreeRoot* node = new TreeRoot(current);
+    TreeRoot *node = new TreeRoot(current);
     // a varible to find the position of the element in the inorder vector.
-    if(start == end)
+    if (start == end)
         return node;
     int position;
-    for(int i = start;i <= end;i++)
+    for (int i = start; i <= end; i++)
     {
-        if(inorder[i]==current)
+        if (inorder[i] == current)
             position = i;
     }
     // creating the left sub-tree.
-    node -> left = buildTree(preorder, inorder, start, position - 1);
+    node->left = buildTree(preorder, inorder, start, position - 1);
     // creating the right sub-tree.
-    node -> right = buildTree(preorder, inorder, position + 1, end);
+    node->right = buildTree(preorder, inorder, position + 1, end);
     // return node.
     return node;
 }
 
 int main()
 {
-    cout<<"Enter the number of node in the tree: ";
+    cout << "Enter the number of node in the tree: ";
     int nodes;
-    cin>>nodes;
+    cin >> nodes;
     vector<int> preorder(nodes);
-    cout<<"Enter the elements of the prorder: ";
-    for(auto &it: preorder)
-        cin>>it;
-    cout<<"Enter the elements of the inorder: ";
+    cout << "Enter the elements of the prorder: ";
+    for (auto &it : preorder)
+        cin >> it;
+    cout << "Enter the elements of the inorder: ";
     vector<int> inorder(nodes);
-    for(auto &it: inorder)
-        cin>>it;
+    for (auto &it : inorder)
+        cin >> it;
     // a tree is built by passing the preorder, inorder the location of first and last elements of the vectors.
-    TreeRoot* root = buildTree(preorder, inorder, 0, nodes - 1);
+    TreeRoot *root = buildTree(preorder, inorder, 0, nodes - 1);
     // passed this tree to postorder function to print its postorder traversal
-    cout<<"The postorder traversal of the created tree is: ";
+    cout << "The postorder traversal of the created tree is: ";
     postorder(root);
     return 0;
 }

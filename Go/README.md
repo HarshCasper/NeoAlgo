@@ -45,6 +45,7 @@
 - [Strong Number](math/Strong_Number)
 - [Armstrong Number](math/Armstrong_Number)
 - [Happy Number](math/Happy_Number)
+- [Catalan Number](math/Catalan_Number)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

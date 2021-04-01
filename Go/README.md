@@ -70,7 +70,7 @@
 - [Selection Sort](sort/selection_sort)
 
 ## Cryptography
-- [Caesar Cipher](cryptography/Caesar_Cipher.go)
+- [Caesar Cipher](cryptography/Caesar_Cipher)
 - [Vernam Cipher](cryptography/Vernam_Cipher)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher)
 - [Keyword Cipher](cryptography/Keyword_Cipher)

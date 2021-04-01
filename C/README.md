@@ -29,6 +29,7 @@
 - [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
 - [Prefix Sum of Array](cp/prefix_sum.c)
+- [Reverse String using Recursion](cp/Reverse_String_Recursion.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
 - [Two Pointer Method](cp/two_pointers_method.c)

@@ -6,12 +6,6 @@ is encountered you need to keep printing the first non repeating character. */
 #include <bits/stdc++.h>
 using namespace std;
 
-/*Program description: 
-First it takes the input from the user, It pushes the character into the queue
-and increments its respective digit. Now, while the queue is not empty, if the 
-frequency of that character is more than 1, it pops it out of the queue
-Else, it is the first occurance and therefore it prints it. */
-
 void first_non_repeating(queue<char> q, int frequency[])
 {
         while (!q.empty())

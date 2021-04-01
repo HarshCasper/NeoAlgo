@@ -15,24 +15,32 @@
 
 int Factorial ( int n )
 {
-    if ( n == 1 || n == 0 )
+    int i,f=1;
+    if(n==0)
     {
-        return 1;
+        return 0;
     }
-    return n * Factorial( n - 1 );
+    else
+    {
+    for( i = 1 ; i <= n ; i++ )
+    {
+        f = f * i;
+    }
+        
+    }return f;
 }
 
 int Krishnamurthy_No ( int num )
 {
-    int digit, sum = 0 ,copy = num;
+    int digit, sum = 0 ;
 
     //Running a loop till we have extracted all the digits from the copy of the given number
     
-    while ( copy > 0 ) 
+    while (num > 0 ) 
     {
-        digit = copy % 10;
-        sum = sum + Factorial ( digit );
-        copy = copy / 10;
+        digit = num % 10;
+        sum += Factorial ( digit );
+        num /= 10;
     }
     return sum;
 }

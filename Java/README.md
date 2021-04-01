@@ -29,6 +29,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Nth Term](cp/Nth_Term.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
 - [Next Greater Element](cp/Next_Greater_Element.java)

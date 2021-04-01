@@ -30,6 +30,7 @@
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Queue using Linked List](./ds/QueueLinkedList.js)
+- [Queue using Two Stacks](./ds/QueueStack.js)
 - [Stack](./ds/Stack.js)
 - [Stack using Linked List](./ds/StackLinkedList.js)
 - [Hash Table](./ds/Hash.js)

@@ -31,6 +31,7 @@
 - [Prefix Sum of Array](cp/prefix_sum.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
+- [Two Pointer Method](cp/two_pointers_method.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
 - [Boyer-Moore Voting Algorithm](cp/BoyerMooreVote.c)
@@ -146,7 +147,7 @@
 
 - [Cutting a Rod](dp/cutting_a_rod.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
-- [Longest Common Substring](dp/length_longest_common_substring.c)
+- [Longest Common Substring](dp/longest_common_substring.c)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
@@ -186,6 +187,7 @@ _add list here_
 - [Magic Number](math/Magic_Number.c) 
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
+- [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 
@@ -200,6 +202,7 @@ _add list here_
 - [Find the Numbers](other/Find_the_numbers.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
+- [Sliding Window Technique](other/window_sliding_technique.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - [Remove outermost parentheses](other/remove_outermost_parentheses.c)
 - [Recursion count of substring](other/recursion_string.c)

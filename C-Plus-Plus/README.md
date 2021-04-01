@@ -83,6 +83,7 @@
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
+- [Binary tree to doubly linked list](cp/Binary_Tree_to_Doubly_Linked_List.cpp)
 - [Check if given Binary Tree is symmetric or not](cp/Binary_Tree_Symmetric_or_not.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
@@ -107,6 +108,8 @@
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
 - [Next greater element](cp/next_greater_element.cpp)
+- [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
+- [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 
 ## Data Structures
 
@@ -147,6 +150,7 @@
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Merge two sorted Linked Lists](ds/Merge_sorted_lists.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
+- [Circular Queue](ds/Circular_Queue.cpp)
 - [BST from preorder traversal](ds/BST_from_Preorder_Traversal.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
 - [Linear Probing](ds/linear-probing.cpp)
@@ -154,11 +158,10 @@
 - [Double Hashing](ds/double-hashing.cpp)
 - [Flattening binary tree into Linkedlist in-place](ds/linkedlisttree.cpp)
 - [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
-- [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
+- [Priority Queue using Linked List](ds/Priority_Queue_using_LinkedList.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
 - [Iterative postorder traversal](ds/iterative_postorder.cpp)
 - [Iterative preorder traversal](ds/iterative_preorder.cpp)
-- [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Iterative inorder traversal](ds/iterative_inorder.cpp)
 - [Descending Priority Queue](ds/Descending_priority_queue.cpp)
 - [Invert a given binary Tree](ds/Invert_Binary_Tree.cpp)
@@ -183,6 +186,7 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+
 
 ## Graphs
 
@@ -318,14 +322,17 @@ _add list here_
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
+- [Sum of Divisors](math/sum_of_divisors.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Remove Invalid Parentheses](math/remove_invalid_parentheses.cpp)
 - [Sudoku Solver](math/sudoku_solver.cpp)
 - [N queens](math/n_queen.cpp)
 - [Word Break Problem](math/Word_break.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
+- [Number of Divisors](math/number_of_divisors.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Magic Number](math/magic_number.cpp)
 - [Converting decimal number to binary](math/Convert_decimal_to_binary.cpp)
@@ -346,6 +353,7 @@ _add list here_
 
 ## Dynamic Programming
 
+- [Arithmetic Slices](dp/Arithmetic_Slices.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 - [Edit distance](dp/edit_distance.cpp)
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)
@@ -382,6 +390,7 @@ _add list here_
 - [Tiling 2 x N](dp/Tiling_2xN.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
+- [House Robber Problem](dp/House_Robber_Problem.cpp)
 
 ## Bit - Manipulation
 
@@ -454,6 +463,8 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find Kth smallest element in a Sorted Matrix](other/Find_Kth_smallest_element_in_Sorted_Matrix.cpp)
+- [Find Common Element in row-wise sorted matrix](other/Find_Common_Element_in_matrix.cpp)
 - [Vector of Strings Occurs More than Once](other/vector_of_strings_occurs_more_than_one_time.cpp)
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
@@ -469,3 +480,4 @@ _add list here_
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
+

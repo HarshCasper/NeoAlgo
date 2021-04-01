@@ -40,8 +40,13 @@
 - [Automorphic Number](math/Automorphic_Number/automorphicnumber.go)
 - [Neon Number](math/Neon_Number)
 - [Noble Integer](math/Noble_Integer)
+- [Sum of Digits](math/Sum_of_digits)
 - [Magic Number](math/Magic_Number.go)
 - [Strong Number](math/Strong_Number)
+- [Armstrong Number](math/Armstrong_Number)
+- [Happy Number](math/Happy_Number)
+- [Catalan Number](math/Catalan_Number)
+- [Decimal to Binary](math/Decimal_to_Binary)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)
@@ -50,9 +55,11 @@
 - [Binary Search](search/binary_search)
 - [Interpolation Search](search/interpolation_search)
 - [Linear Search](search/linear_search)
+- [Recursive Binary Search](search/Binary_Recursive_Search)
+- [Jump Search](search/Jump_Search)
 
 ## Sorting
-- [Bubble Sort](sort/bubble_sort
+- [Bubble Sort](sort/bubble_sort)
 - [Counting Sort](sort/counting_sort)
 - [Insertion Sort](sort/insertion_sort)
 - [Merge Sort (Parallel)](sort/merge_parallel_sort)
@@ -64,3 +71,6 @@
 
 ## Cryptography
 - [Caesar Cipher](cryptography/Caesar_Cipher.go)
+- [Vernam Cipher](cryptography/Vernam_Cipher)
+- [Vigenere Cipher](cryptography/Vigenere_Cipher)
+

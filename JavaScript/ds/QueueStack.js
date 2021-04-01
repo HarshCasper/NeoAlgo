@@ -169,7 +169,7 @@ class Queue {
 }
 
 // Instantiating the Queue class
-myQueue = new Queue();
+const myQueue = new Queue();
 
 let choice = 0;
 let value;

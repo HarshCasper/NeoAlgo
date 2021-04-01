@@ -95,6 +95,7 @@ _add list here_
 - [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 - [Rat In A Maze](cp/RatInAMaze.java)
+- [Median of two sorted arrays](cp/Median_of_2_sorted_array.java)
 
 ## Cryptography
 

@@ -61,6 +61,7 @@
 - [Infix to postfix](ds/infix_to_postfix.c)
 - [Infix To prefix](ds/infixToPrefix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
+- [Reverse individual words of a string using stacks](ds/reverseWordsOfString.c)
 - [Preorder Traversal](ds/Preordertraversal.c)
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
@@ -145,7 +146,7 @@
 
 - [Cutting a Rod](dp/cutting_a_rod.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
-- [Longest Common Substring](dp/length_longest_common_substring.c)
+- [Longest Common Substring](dp/longest_common_substring.c)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
@@ -183,6 +184,9 @@ _add list here_
 - [Strong Number](math/strong_number.c) 
 - [Noble Integer](math/Noble_Integer.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Matrix Addition](math/matrix_addition.c)
+- [Matrix Multiplication](math/matrix_multiplication.c)
+- [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 

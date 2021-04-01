@@ -36,7 +36,7 @@ int main()
         else
               {printf("Invalid expression\n");}
 
-                return 0;
+        return 0;
 
 }
 
@@ -137,15 +137,9 @@ char pop()
 Enter an algebraic expression : (((5+7)*6)/2)
 Balanced Parentheses
 Valid expression
-
-Press any key to continue . . .
-
     2.
 Enter an algebraic expression : [a(b+c}]
 Mismatched parentheses are : ( and }
 Invalid expression
-
-Press any key to continue . . .
-
 
 */

@@ -29,6 +29,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
 - [Next Greater Element](cp/Next_Greater_Element.java)
 - [Maximum Function](cp/Maximum_Function.java)
@@ -106,6 +107,8 @@ _add list here_
 - [Vernam Cipher](cryptography/vernamCipher.java)
 - [Key Word Cipher](cryptography/KeyWord.java)
 - [Hill Cipher](cryptography/HillCipher.java)
+- [Vigenere Cipher](cryptography/VigenereCipher.java)
+- [Playfair Cipher](cryptography/PlayFairCipher.java)
 
 ## Dynamic Programming
 
@@ -118,6 +121,8 @@ _add list here_
 - [Make String Palindrome](dp/Make_string_palindrome_using_DP.java)
 - [Optimal Binary Search Tree](dp/Optimal_Binary_Search_tree_using_DP.java)
 - [Rod Cutting Problem](dp/Rod_Cutting.java)
+- [Flight of stairs](dp/FlightOfStairs.java)
+
 
 ## Data Structures
 
@@ -130,7 +135,7 @@ _add list here_
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
-- [Middle Of LinkedList](ds/MiddleOfLinkedList.java) 
+- [Middle Of LinkedList](ds/MiddleOfLinkedList.java)
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
@@ -184,7 +189,12 @@ _add list here_
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
+- [Ascii of string](math/AsciiOfString.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
+- [Transpose of Matrix](math/Matrix_Transpose.java)
+- [Tribonacci series upto n terms](math/tribonacci.java)
+- [HappyNumber](math/HappyNumber.java)
+- [MagicNumber](math/Magicnumber.java)
 
 ## Dynamic Programming
 
@@ -217,6 +227,7 @@ _add list here_
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
 - [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
+- [Recursive Binary Search](search/BinarySearchRecursive.java)
 
 ## Sorting
 
@@ -260,9 +271,11 @@ _add list here_
 - [Find the numbers](other/FindNumbers.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
+- [Insert Position](other/InsertPosition.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [One plus to the whole](other/OnePlustoWhole.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)

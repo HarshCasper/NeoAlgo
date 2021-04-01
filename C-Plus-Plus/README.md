@@ -108,6 +108,8 @@
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
+- [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
+
 
 ## Data Structures
 
@@ -350,6 +352,7 @@ _add list here_
 
 ## Dynamic Programming
 
+- [Arithmetic Slices](dp/Arithmetic_Slices.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 - [Edit distance](dp/edit_distance.cpp)
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)

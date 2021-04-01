@@ -57,6 +57,8 @@ TreeRoot* buildTree(vector<int> &preorder, vector<int> &inorder, int start, int 
     // creating the node of the current element.
     TreeRoot* node = new TreeRoot(current);
     // a varible to find the position of the element in the inorder vector.
+    if(start == end)
+        return node;
     int position;
     for(int i = start;i <= end;i++)
     {

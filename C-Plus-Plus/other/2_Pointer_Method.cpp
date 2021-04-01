@@ -1,3 +1,8 @@
+/*Below code is an implementation of 2 Pointer Method in C++.
+Two pointers is really an easy and effective technique which
+is typically used for searching pairs in a sorted array.
+Given a sorted array A(sorted in ascending order), having N integers,
+find if there exists any pair of elements (A[i], A[j]) such that their sum is equal to X.*/
 #include <iostream>
 #include<algorithm>
 using namespace std;
@@ -44,5 +49,6 @@ int main()
     else{
         cout<<"There is no two values in the array whose sum is "<<x;
     }
+    cout<<endl;
     return 0;
 }

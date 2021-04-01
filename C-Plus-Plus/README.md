@@ -430,7 +430,7 @@ _add list here_
 - [Check Orientation of Three points](computational_geometry/Check_Orientation_of_three_points.cpp)
 
 ## Other
-
+- [2 Pointer Method](other/2_Pointer_Method.cpp)
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)

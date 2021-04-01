@@ -1,5 +1,4 @@
-﻿/*Given the head pointer to a linked list of length n and an integer k, we have to reverse every alternate k nodes in the linked list.
- */
+﻿//Given the head pointer to a linked list of length n and an integer k, we have to reverse every alternate k nodes in the linked list.
 
 
 import java.util.*;

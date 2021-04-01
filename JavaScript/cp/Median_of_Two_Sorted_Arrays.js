@@ -2,6 +2,9 @@
 /*Given two sorted arrays nums1 and nums2 of size m and n 
 respectively, return the median of the two sorted arrays.*/
  
+ // Prompt node package for taking user input
+const prompt = require("prompt-sync")({ sigint: true });
+
 
 var findMedianSortedArrays = function(nums1, nums2) {
     //concatenate and sort the arrays
@@ -21,18 +24,18 @@ var findMedianSortedArrays = function(nums1, nums2) {
         return( mid ) / 2;
     }
 };
-var size1 = prompt("Enter size of first array: ");
-var size2 = prompt("Enter size of second array: ");
-var arr1 = new Array[size1];
-var arr2 = new Array[size2];
-prompt("Enter elements in first array: ")
-for(var i = 0;i<size1;i++){
-    arr1[i] = prompt();
-}
-prompt("Enter elements in second array: ")
-for(var i = 0;i<size2;i++){
-    arr2[i] = prompt();
-}
+let size1 = +prompt("Enter array 1 length:  ");
+let size2 = +prompt("Enter array 2 length:  ");
+
+let arr1 = [];
+let arr2 = [];
+
+// Take array items
+for (let i = 1; i <= size1; i++) {
+  arr1.push(+prompt(`Enter ${i} element - `));
+
+for (let i = 1; i <= size2; i++) {
+  arr2.push(+prompt(`Enter ${i} element - `));
 console.log(findMedianSortedArrays(arr1,arr2));
 /*
 Time complexity: O(n)

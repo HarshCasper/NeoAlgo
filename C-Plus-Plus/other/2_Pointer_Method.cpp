@@ -44,6 +44,5 @@ int main()
     else{
         cout<<"There is no two values in the array whose sum is "<<x;
     }
-
     return 0;
 }

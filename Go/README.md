@@ -45,6 +45,8 @@
 - [Strong Number](math/Strong_Number)
 - [Armstrong Number](math/Armstrong_Number)
 - [Happy Number](math/Happy_Number)
+- [Catalan Number](math/Catalan_Number)
+- [Decimal to Binary](math/Decimal_to_Binary)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)
@@ -53,6 +55,8 @@
 - [Binary Search](search/binary_search)
 - [Interpolation Search](search/interpolation_search)
 - [Linear Search](search/linear_search)
+- [Recursive Binary Search](search/Binary_Recursive_Search)
+- [Jump Search](search/Jump_Search)
 
 ## Sorting
 - [Bubble Sort](sort/bubble_sort)
@@ -66,7 +70,8 @@
 - [Selection Sort](sort/selection_sort)
 
 ## Cryptography
-- [Caesar Cipher](cryptography/Caesar_Cipher.go)
+- [Caesar Cipher](cryptography/Caesar_Cipher)
 - [Vernam Cipher](cryptography/Vernam_Cipher)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher)
+- [Keyword Cipher](cryptography/Keyword_Cipher)
 

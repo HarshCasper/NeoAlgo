@@ -49,6 +49,7 @@ func main() {
    fmt.Scan(&number)
 
    var catalan int
+   catalan = 0 
    // calling the catalannumber function 
    catalan = catalannumber(number)
 

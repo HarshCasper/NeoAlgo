@@ -308,7 +308,6 @@
 - [Happy Number](math/Happy_Number.py)
 - [Magic Number](math/Magic_Number.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
-- [AKS Primarility test](math/AKS_Primarility_Test.py)
 
 ## Blockchain
 

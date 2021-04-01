@@ -17,8 +17,7 @@ int match(char a,char b);
 int check(char []);
 
 //main
-int main()
-{
+int main(){
         //declaration
         char exp[MAX];
         int valid;
@@ -41,8 +40,7 @@ int main()
 }
 
 //function to check parenthesis
-int check(char exp[] )
-{
+int check(char exp[] ){
         //declaration
         int i,n;
         char temp;
@@ -50,24 +48,20 @@ int check(char exp[] )
         /*loop for traversing through the expression
         storing(pushing) parenthesis into stack
         poping if the match of that parenthesis is found*/
-        for(i=0;i <n;i++)
-        {
+        for(i=0;i <n;i++){
                 if(exp[i]=='(' || exp[i]=='{' || exp[i]=='[')
                         push(exp[i]);
-                if(exp[i]==')' || exp[i]=='}' || exp[i]==']')
-                {         //stack empty
-                        if(top==-1)
-                        {
+                if(exp[i]==')' || exp[i]=='}' || exp[i]==']') { 
+                       //stack empty
+                        if(top==-1){
                                 //when there are more parenthesis on the right
                                 printf("Right parentheses are more than left parentheses\n");
                                 return 0;
                         }
-                        else
-                        {
+                        else{
                                 temp=pop();
                                 //calling function match to match parenthesis
-                                if(!match(temp, exp[i]))
-                                {
+                                if(!match(temp, exp[i])){
                                         //to print the parenthesis  which gets mismatched
                                         printf("Mismatched parentheses are : ");
                                         printf("%c and %c\n",temp,exp[i]);
@@ -78,14 +72,12 @@ int check(char exp[] )
         }
 
         //if stack is empty
-        if(top==-1)
-        {
+        if(top==-1){
                 //if stack gets empty
                 printf("Balanced Parentheses\n");
                 return 1;
         }
-        else
-        {
+        else{
                 //if stack isn't empty
                 printf("Left parentheses more than right parentheses\n");
                 return 0;
@@ -93,8 +85,7 @@ int check(char exp[] )
 }
 
 //function to match parenthesis
-int match(char a,char b)
-{
+int match(char a,char b){
         //if a=[ and b=]
         if(a=='[' && b==']')
               {  return 1;}
@@ -108,10 +99,8 @@ int match(char a,char b)
 }
 
 //function to push element into stack
-void push(char item)
-{
-        if(top==(MAX-1))
-        {
+void push(char item){
+        if(top==(MAX-1)){
                 //printing message if stack is full
                 printf("Stack Overflow\n");
                 return;
@@ -121,10 +110,8 @@ void push(char item)
 }
 
 //function to pop element from stack
-char pop()
-{
-        if(top==-1)
-        {
+char pop(){
+        if(top==-1){
                 //printing message if stack is empty
                 printf("Stack Underflow\n");
                 exit(1);

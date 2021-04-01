@@ -1,5 +1,11 @@
 import java.util.*;
-//Recursive method for level traversal
+/*
+---There are basically two functions in this code.
+---One prints all nodes at a given level and the other
+prints level order traversal considering the subtrees individually.
+---The below code is based on Recursive method for level order traversal.
+*/
+//
 class Node
 {
     int data;
@@ -118,3 +124,4 @@ Time Complexity: O(n^2) in worst case.
  
 Space Complexity: O(n) in worst case. 
 */
+

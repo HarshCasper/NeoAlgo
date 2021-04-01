@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -326,6 +326,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Remove Invalid Parentheses](math/remove_invalid_parentheses.cpp)
 - [Sudoku Solver](math/sudoku_solver.cpp)
 - [N queens](math/n_queen.cpp)
 - [Word Break Problem](math/Word_break.cpp)
@@ -352,6 +353,7 @@ _add list here_
 
 ## Dynamic Programming
 
+- [Arithmetic Slices](dp/Arithmetic_Slices.cpp)
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 - [Edit distance](dp/edit_distance.cpp)
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)

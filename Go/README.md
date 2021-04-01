@@ -55,6 +55,7 @@
 - [Binary Search](search/binary_search)
 - [Interpolation Search](search/interpolation_search)
 - [Linear Search](search/linear_search)
+- [Recursive Binary Search](search/Binary_Recursive_Search)
 - [Jump Search](search/Jump_Search)
 
 ## Sorting

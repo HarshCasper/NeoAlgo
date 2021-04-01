@@ -15,15 +15,10 @@
 import java.util.Scanner;
 
 public class Nth_Term {
-	//main method
-	public static void main(String[] args) {
 
-		Scanner sc  = new Scanner(System.in);
-
-		//Enter N (i.e the Nth term you want to find)
-		System.out.print("Enter N : ");
-		int n = sc.nextInt();
-
+	//term method
+	public static void term(int n) {
+		//array of size n
 		long[] array = new long[n];
 		//for loop
 		for(int i = 0 ; i<n ; i++) {
@@ -39,6 +34,18 @@ public class Nth_Term {
 		//Output the Nth term of the sequence
 		System.out.println("The "+ n + "th term of the sequence is : " + array[n-1]);
 	}
+	//main method
+	public static void main(String[] args) {
+
+		Scanner sc  = new Scanner(System.in);
+
+		//Enter N (i.e the Nth term you want to find)
+		System.out.print("Enter N : ");
+		int n = sc.nextInt();
+
+		//calling term method
+		Nth_Term.term(n);
+	}
 }
 /*
 - Test Case :
@@ -51,5 +58,4 @@ public class Nth_Term {
 
  * Space Complexity : O(n)
 		 Auxiliary space : O(n)  +  input space : O(1)
- */
-  
+*/

@@ -28,6 +28,7 @@
 - [Palindrome Number](math/check_palindrome.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Mystery Number](math/mystery_number.jl)
+- [Sum of Digits](math/sum_of_digits.jl)
 
 ## Searching
 

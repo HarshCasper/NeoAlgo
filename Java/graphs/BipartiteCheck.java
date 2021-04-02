@@ -62,6 +62,7 @@ public class BipartiteCheck {
                 queue.add(i);
 
                 while(!queue.isEmpty()) {
+                    //extract the vertex at the front of the queue
                     int at = queue.poll();
 
                     //add all uncolored neighboring vertices to the queue
@@ -79,7 +80,7 @@ public class BipartiteCheck {
             }
         }
 
-        //return the result
+        //return the result 
         return isBipartite;
     }
 }

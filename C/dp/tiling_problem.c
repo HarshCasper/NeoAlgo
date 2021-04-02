@@ -19,7 +19,7 @@ int NoOfWays(int n){
 
 		//Adding the solutions that we get by placing first tile vertically and by placing first tile horizontally 
 		else
-			tiles[i] = (tiles[i-1] + tiles[i-2]);
+			tiles[i] = tiles[i-1] + tiles[i-2];
 	}
 	//returning the ways in which floor of size 2Xn can be tiled
 	return tiles[n];
@@ -51,6 +51,7 @@ Output: 1
 Input: 8
 Output: 21
 
-TIME COMPLEXITY: O(n)
-SPACE COMPLEXITY: O(n)
+TIME COMPLEXITY: O(n), due to the single for loop used
+SPACE COMPLEXITY: O(n), due to the additional dp array created
+where 'n' denotes the breadth of the floor as entered by the user
 */

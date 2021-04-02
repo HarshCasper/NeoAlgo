@@ -15,7 +15,6 @@
 - [Adjacent Element Product](cp/Adjacent_Element_Product.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
 - [Anagram Program](cp/anagram_program.c)
-- [Binary Search](search/BinarySearch.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Finding possible codes using recursion ](cp/possible_code_recursion.c)
 - [Linear Search](search/linear_search.c)
@@ -51,6 +50,8 @@
 - [Rail Fence Cipher](cryptography/railFenceCipher.c)
 - [MonoAlphabetic Cipher](cryptography/MonoAlphabeticCipher.c)
 - [Hill Cipher](cryptography/Hill_Cipher.c)
+- [Playfair Cipher](cryptography/PlayFairCipher.c)
+- [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform.c)
 
 ## Data Structures
 
@@ -63,6 +64,7 @@
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
 - [Queue Implementation with Linked List](ds/QueueImplementationWithList.c)
+- [Rabin karp](ds/rabin_karp_algo.c)
 - [Singly Linked List Implementation](ds/singly_linked_list.c)
 - [Spiral Matrix](ds/Spiral_Matrix.c)
 - [Delete a linked list node function](ds/List_deletenode_func.c)
@@ -90,16 +92,20 @@
 - [Reverse Linked List](ds/reverse_linked_list.c)
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
+- [Open Hashing](ds/Open_hashing.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)
 - [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Finding Linked List Palindrome](ds/FindLinkedListPalindrome.c)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_Linked_List.c)
 - [Sorting the elements of a stack](ds/stack_sort.c)
+- [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
+- [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
 
 ## Searching
 
-- [Binary Search](search/BinarySearch.c)
+- [Binary Search](search/Binary_search.c)
 - [Iterative-Binary Search](search/IterativeBinarySearch.c)
 - [Fibonacci Search](search/Fibonacci_Search.c)
 - [Interpolation Search](search/Interpolation.c)
@@ -122,18 +128,24 @@
 - [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Selection Sort](sort/selection_sort.c)
 - [Shell Sort](sort/ShellSort.c)
+- [Stooge Sort](sort/stooge_sort.c)
 - [Bucket Sort](sort/bucketSort.c)
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
 - [Three Way Merge Sort](sort/three_way_merge_sort.c)
+- [Tim Sort](sort/tim_sort.c)
+- [Pigeon Hole Sort](sort/pigeon_hole_sort.c)
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
+- [Comb Sort](sort/comb.c)
 
 ## Dynamic Programming
 
+- [Cutting a Rod](dp/cutting_a_rod.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 - [Longest Common Substring](dp/length_longest_common_substring.c)
+- [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
@@ -158,16 +170,19 @@ _add list here_
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
+- [Sum of Digits](math/sum_of_digits.c)
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
+- [Find factorial of a Number](math/factorial.c)
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Neon Number](math/Neon_number.c)
 - [Strong Number](math/strong_number.c) 
 - [Noble Integer](math/Noble_Integer.c)
-- [Neon Number](math/Neon_number.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Palindrome](math/Palindrome.c)
+- [Decimal to Binary](math/DecimalToBinary.c)
 
 ## Operating System
 
@@ -188,6 +203,7 @@ _add list here_
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
+- [String Palindrome](other/String_Palindrome_or_not.c)
 
 ## CP
 

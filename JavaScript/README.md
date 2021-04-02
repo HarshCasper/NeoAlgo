@@ -9,6 +9,23 @@
 
 # Codes in the Javascript language
 
+## Contents
+
+- [Algorithms](#algorithms)
+- [Backtracking](#backtracking)
+- [Data Structures](#data-structures)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Machine Learning](#machine-learning)
+- [Mathematics](#mathematics)
+- [Competitive Programming](#competitive-programming)
+- [Dynamic Programming](#dynamic-programming)
+- [Blockchain](#blockchain)
+- [Cryptography](#cryptography)
+- [Graphs](#graphs)
+- [Other](#other)
+
+
 ## Algorithms
 
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.js)

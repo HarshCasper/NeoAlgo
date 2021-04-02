@@ -8,6 +8,18 @@
 </p>
 
 # Codes in the Go language
+
+## Contents
+
+- [Counting](#counting)
+- [Dynamic Programming](#dynamic-programming)
+- [Data Structures](#data-structures)
+- [Mathematics](#mathematics)
+- [Others](#others)
+- [Search](#search)
+- [Sorting](#sorting)
+- [Cryptography](#cryptography)
+
 ## Counting
 - [Target Sum Triplets](cp/target_sum_triplets)
 

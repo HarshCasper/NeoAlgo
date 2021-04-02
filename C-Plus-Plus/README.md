@@ -9,6 +9,25 @@
 
 # Codes in the C++ language
 
+## Contents
+
+- [Competitive Programming](#competitive-programming)
+- [Data Structures](#data-structures)
+- [Graphs](#graphs)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Stack based problems](#stack-based-problems)
+- [Heap based problems](#heap-based-problems)
+- [Machine Learning](#machine-learning)
+- [Mathematics](#mathematics)
+- [Dynamic Programming](#dynamic-programming)
+- [Bit - Manipulation](#bit---manipulation)
+- [Blockchain](#blockchain)
+- [Cryptography](#cryptography)
+- [Computational Geometry](#computational-geometry)
+- [Other](#other)
+
+
 ## Competitive Programming
 
 - [Time taken to rot all Oranges](cp/Rotten_Oranges.cpp)

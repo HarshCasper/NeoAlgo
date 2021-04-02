@@ -9,6 +9,19 @@
 
 # Codes in the C# language
 
+## Contents
+
+- [Blockchain](#blockchain)
+- [Competitive Programming](#competitive-programming)
+- [Cryptography](#cryptography)
+- [Data Structures](#data-structures)
+- [Dynamic Programming](#dynamic-programming)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Machine Learning](#machine-learning)
+- [Mathematics](#mathematics)
+- [Other](#other)
+
 ## Blockchain
 
 _add list here_

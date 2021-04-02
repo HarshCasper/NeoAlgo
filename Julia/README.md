@@ -9,6 +9,14 @@
 
 # Codes in the Julia language
 
+## Contents
+
+- [Competitive Programming](#competitive-programming)
+- [Dynamic Programming](#dynamic-programming)
+- [Mathematics](#mathematics)
+- [Searching](#searching)
+- [Sorting](#sorting)
+
 ## Competitive Programming
 
 - [Contiguous Sub Array with Maximum Sum](cp/Maximum_subarray_sum.jl)

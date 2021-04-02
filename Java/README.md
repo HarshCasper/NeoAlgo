@@ -9,6 +9,24 @@
 
 # Codes in the Java language
 
+## Contents
+
+- [Algorithms](#algorithms)
+- [Greedy Algorithms](#greedy-algorithms)
+- [Blockchain](#blockchain)
+- [Competitive Programming](#competitive-programming)
+- [Cryptography](#cryptography)
+- [Dynamic Programming](#dynamic-programming)
+- [Data Structures](#data-structures)
+- [Graphs](#graphs)
+- [Mathematics](#mathematics)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Machine Learning](#machine-learning)
+- [Operating System](#operating-system)
+- [Other](#other)
+
+
 ## Algorithms
 
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)

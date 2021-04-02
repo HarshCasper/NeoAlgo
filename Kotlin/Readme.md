@@ -9,6 +9,12 @@
 
 # Codes in the Kotlin language
 
+## Contents
+
+- [Sorting Algorithms](#sorting-algorithms)
+- [Maths](#maths)
+- [Searching Algorithms](#searching-algorithms)
+
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)

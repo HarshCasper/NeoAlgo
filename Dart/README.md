@@ -9,6 +9,11 @@
 
 # Codes in the Dart language
 
+## Contents
+
+- [Maths](#maths)
+- [Sorting](#sorting)
+
 ## Maths
 
 - [2D Areas](maths/Areas2D.dart)

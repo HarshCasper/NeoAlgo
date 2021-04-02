@@ -9,6 +9,22 @@
 
 # Codes in the Python language
 
+## Contents
+
+- [Data Structures](#data-structures)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Graphs](#graphs)
+- [Competitive Programming](#competitive-programming)
+- [Cryptography](#cryptography)
+- [Backtracking](#backtracking)
+- [Dynamic Programming](#dynamic-programming)
+- [Pathfinding Algorithms](#pathfinding-algorithms)
+- [Machine Learning](#machine-learning)
+- [Mathematics](#mathematics)
+- [Blockchain](#blockchain)
+- [Other](#other)
+
 ## Data Structures
 
 * [Queue](ds/Queue.py)

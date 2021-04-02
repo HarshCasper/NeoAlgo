@@ -9,6 +9,21 @@
 
 # Codes in the C language
 
+## Contents
+
+- [CP](#cp)
+- [Cryptography](#cryptography)
+- [Data Structures](#data-structures)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Dynamic Programming](#dynamic-programming)
+- [Graphs](#graphs)
+- [Machine Learning](#machine-learning)
+- [Mathematics](#mathematics)
+- [Operating System](#operating-system)
+- [Other](#other)
+- [Blockchain](#blockchain)
+
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)

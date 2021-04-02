@@ -19,7 +19,7 @@ import (
 
 /* This function repeatedly divides a give number
     till its divisible by the second number*/
-func divisible(x int,y int) int {
+func divisible(x,y int) int {
 
      var r int
      r = x % y

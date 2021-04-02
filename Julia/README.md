@@ -25,11 +25,13 @@
 
 ## Mathematics
 
+- [Palindrome Number](math/check_palindrome.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Mystery Number](math/mystery_number.jl)
 
 ## Searching
 
+- [Binary Search](search/binary_search.jl)
 - [Linear Search](search/linear_search.jl)
 
 ## Sorting

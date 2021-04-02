@@ -78,3 +78,5 @@
 - [Keyword Cipher](cryptography/Keyword_Cipher)
 - [Columnar Cipher](cryptography/Columnar_Cipher)
 - [Hill Cipher](cryptography/Hill_Cipher)
+- [RailFence Cipher](cryptography/RailFence_Cipher) 
+- [Monoalphabetic Cipher](cryptography/Monoalphabetic_Cipher)

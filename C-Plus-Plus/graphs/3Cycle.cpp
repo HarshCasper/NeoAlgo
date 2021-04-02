@@ -6,6 +6,25 @@ Given a graph with N vertices (numbered from 0 to N-1) and M undirected edges, t
 #include <iostream>
 using namespace std;
 
+void count(int V, int** edges){
+    int count=0;
+    for(int i=0;i<V;i++){
+        for(int j=0;j<V;j++){
+           
+            if(edges[i][j]==1){
+              for(int k=0;k<V;k++){
+                  
+                  if(edges[j][k]==1&&edges[i][k]==1){
+                     count++;
+                   
+                  }
+              }
+          }
+        }
+    }
+    cout<< count/6;
+}
+
 int main() {
     
     int V,E;
@@ -23,23 +42,8 @@ int main() {
         edges[f][s]=1;
         edges[s][f]=1;
     }
+    count(V, edges);
     
-    int count=0;
-    for(int i=0;i<V;i++){
-        for(int j=0;j<V;j++){
-           
-            if(edges[i][j]==1){
-              for(int k=0;k<V;k++){
-                  
-                  if(edges[j][k]==1&&edges[i][k]==1){
-                     count++;
-                   
-                  }
-              }
-          }
-        }
-    }
-    cout<< count/6;
     return 0;
 }
 

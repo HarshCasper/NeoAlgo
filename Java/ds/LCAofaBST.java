@@ -1,5 +1,8 @@
+import java.io.*;
+import java.util.*;
 import java.util.Scanner;
 
+//this defined the basic Node class and creates left and right pointers
 class Node {
     Node left;
     Node right;
@@ -12,7 +15,9 @@ class Node {
     }
 }
 
+// this class contains functions that will help find out the Least Common Ancestor in a Binary Search Tree
 class LCAofaBST {
+    // function to find out the Least Common Ancestor in a Binary Search Tree
     public static Node lca(Node root, int d1, int d2) {
         // Write your code here.
         if (d1 > root.data && d2 > root.data) {
@@ -23,7 +28,7 @@ class LCAofaBST {
             return root;
         }
     }
-
+    // function to insert nodes in a binary search tree , does navigation also along the way
     public static Node insertNode(Node root, int data) {
         if (root == null) {
             return new Node(data);
@@ -58,6 +63,7 @@ class LCAofaBST {
 
 // Time Complexity : O(n)
 // Space Complexity : O(1)
+    
 
 // Sample Test Cases :
 

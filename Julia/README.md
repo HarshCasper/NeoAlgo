@@ -26,6 +26,11 @@
 ## Mathematics
 
 - [N'th Catalan Number](math/catalan_number.jl)
+- [Mystery Number](math/mystery_number.jl)
+
+## Searching
+
+- [Linear Search](search/linear_search.jl)
 
 ## Sorting
 

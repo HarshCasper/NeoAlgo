@@ -16,18 +16,17 @@ def insertNode(root, val):
     if root is None:
         return BSTNode(val)
 
+    # if the value to insert already exists in the tree
+    if root.val == val:
+        return root
+
+    # if the value to insert should be inserted to the left subtree
+    if val < root.val:
+        root.left = insertNode(root.left, val)
+
+    # if the value to insert should be inserted to the right subtree
     else:
-        # if the value to insert already exists in the tree
-        if root.val == val:
-            return root
-
-        # if the value to insert should be inserted to the left subtree
-        if val < root.val:
-            root.left = insertNode(root.left, val)
-
-        # if the value to insert should be inserted to the right subtree
-        else:
-            root.right = insertNode(root.right, val)
+        root.right = insertNode(root.right, val)
 
     return root
 
@@ -44,12 +43,11 @@ def searchNode(root, val):
         return True
 
     # if the value might exist in the right subtree
-    elif val > root.val:
+    if val > root.val:
         return searchNode(root.right, val)
 
     # if the value might exist in the left subtree
-    else:
-        return searchNode(root.left, val)
+    return searchNode(root.left, val)
 
 
 def inorderSuccessor(node):
@@ -144,8 +142,8 @@ if __name__ == '__main__':
 
         elif op == 3:
             print("Enter the value to delete: ", end="")
-            val = int(input())
-            bst = deleteNode(bst, val)
+            x = int(input())
+            bst = deleteNode(bst, x)
             print()
 
         elif op == 4:

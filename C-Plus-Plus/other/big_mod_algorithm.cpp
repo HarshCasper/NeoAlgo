@@ -45,16 +45,16 @@ long long int get_new_number_by_bigmod(long long int base, long long int power, 
 int main()
 {
     cout << "Enter the base number and power number : ";
-	long long int base , power;
-	scanf("%lld %lld", &base, &power);
-	cout << "Enter the mod number: ";
-	long long int mod_number;
-	scanf("%lld", &mod_number);
+    long long int base , power;
+    scanf("%lld %lld", &base, &power);
+    cout << "Enter the mod number: ";
+    long long int mod_number;
+    scanf("%lld", &mod_number);
 
-	long long int new_number = get_new_number_by_bigmod(base, power, mod_number);
+    long long int new_number = get_new_number_by_bigmod(base, power, mod_number);
 
-	cout << "After applying Bigmod algorithm the new number is : \n";
-	cout << new_number << endl;
+    cout << "After applying Bigmod algorithm the new number is : \n";
+    cout << new_number << endl;
 }
 
 /*

@@ -32,6 +32,7 @@ public class RussianPeasant {
         }
 
         System.out.println("Product:" + result);
+        scanner.close();
     }
 }
 /*

@@ -3,45 +3,49 @@ C Program to check whether a number is Palindrome or not
 An integer is a palindrome if the reverse of that number is equal to the original number.
 Example of Palindromes are 11,44,101,121,
 */
-#include <stdio.h>
 
-int reverse_num(int);
-int main()
+#include <stdio.h>
+#include <unistd.h>
+
+void main()
 {
-	int n, rev;
-	printf("\n Enter a number:");
+	int rev = 0, rem = 0, n, num ;
+	printf("\n Enter a number:\t");
 	scanf("%d", &n);
-	rev = reverse_num(n);
-	if (rev == n)
+	num = n;
+	printf("\n Reverse of %d is ", n);
+	while (n > 0)
 	{
-		printf("\n %d is a palindrome", n);
+		rem = n % 10;
+		rev = rev * 10 + rem;
+		n = n / 10;
+	}
+
+	printf("%d", rev);
+	if (rev == num)
+	{
+		printf("\n %d is a palindrome", num);
 	}
 	else
 	{
-		printf("\n %d is not a palindrome", n);
+		printf("\n %d is not a palindrome", num);
 	}
-	return 0;
-}
-int reverse_num(int num)
-{
-	int rev = 0;
-	int rem;
-	while (num > 0)
-	{
-		rem = num % 10;
-		rev = rev *10 + rem;
-		num = num / 10;
-	}
-	return rev;
+
+	getchar();
 }
 
 /*
-Sample Output
+Sample Case:
+Example 1:
 Enter a number: 121
+Reverse of 121 is 121
 121 is a palindrome
 
-Complexities
+Example 2:
+Enter a number: 123
+Reverse of 123 is 321
+321 is not a palindrome
+
 Time Complexity: O(n)
 Space Complexity: O(1)
 */
-

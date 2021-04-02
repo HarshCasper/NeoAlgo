@@ -1,5 +1,5 @@
 /*To know about what queue is and what is the workflow of this program see the README.md file of this folder*/
-#include<iostream>//Header file for input output operations
+#include<bits/stdc++.h>//Header file for all standard library
 using namespace std;
 struct Node //Structure of node of linked list
 {
@@ -103,3 +103,12 @@ int main()
 }
 /* Time complexity for both insertion and deletion is:- O(1)
    Space Complexity:- O(n)*/
+/* Test case
+Sample Input:
+1
+12
+Sample Output:
+New node with value 12 is inserted in Queue.
+*/
+
+

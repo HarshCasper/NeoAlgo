@@ -132,8 +132,7 @@ func main () {
      plaintext = scanner.Text()
 
      // copy of plaintext
-     var temp string
-     temp = plaintext
+     temp := plaintext
 
      /* calling the monoaplhabetic cipher function
         to encrypt the input string leaving pit 

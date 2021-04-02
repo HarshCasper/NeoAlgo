@@ -29,3 +29,7 @@
 - [Binary Search](search/BinarySearch.kt)
 - [Linear Search](search/LinearSearch.kt)
 - [StairCase Search](search/StairCaseSearch.kt)
+
+## Matrices
+
+- [Count Negatives in Sorted Matrix](Matrices/CountNegativesInSortedMatrix.kt)

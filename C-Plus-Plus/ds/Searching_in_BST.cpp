@@ -12,7 +12,7 @@ we will reduce the search space to n/4 and we will go on reducing like this till
 till our search space is reduced to only one node.
 */
 
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 class node{
@@ -47,10 +47,12 @@ node* Insert_into_bst(node* root, int data){
 
 	return root;
 }
+
 node* Create_BST(){
 
 	// root node
-	int data;				
+	int data;
+	cout<<"Enter the data for the node: "<<endl;
 	cin >> data;
 
 	node* root = nullptr;
@@ -62,7 +64,6 @@ node* Create_BST(){
 
 	return root;
 }
-
 
 bool search(node* root, int key){
 
@@ -77,20 +78,17 @@ bool search(node* root, int key){
 	}
 	else{
 		search(root->right, key);
-	}
-
-	
+	}	
 }
-
-
-
 
 int main(){
 
 	node* root = Create_BST();
-	int ele;
-	cin >> ele;
-    cout << boolalpha << search(root, ele);
+	int element;
+	cout<<"Enter the element to search: "<<endl;
+	cin >> element;
+	cout<<"The result is: ";
+        cout << boolalpha << search(root, element);
 	return 0;
 }
 
@@ -106,4 +104,3 @@ int main(){
 	Space Complexity: O(n), for recursive stack.
 
  */
- 

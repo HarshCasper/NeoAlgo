@@ -16,3 +16,20 @@
 - [Prime Factorization using Sieve](cp/Prime_factorization.jl)
 - [Finding Factorials using Recursion](cp/factorials.jl)
 - [Finding GCD using Euclid's Algorithm](cp/GCD.jl)
+- [Checking if a number is a power of 2](cp/isPowerOf2.jl)
+
+## Dynamic Programming
+
+- [Longest Common Substring](dp/length_longest_common_substring.jl)
+- [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
+
+## Mathematics
+
+- [N'th Catalan Number](math/catalan_number.jl)
+
+## Sorting
+
+- [Bubble Sort](sort/bubble_sort.jl)
+- [Insertion Sort](sort/insertion_sort.jl)
+- [Selection Sort](sort/selection_sort.jl)
+- [Quick Sort](sort/quick_sort.jl)

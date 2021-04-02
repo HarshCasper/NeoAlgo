@@ -234,3 +234,4 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find a Median of two Sorted arrays of equal size](other/Median_of_two_Sorted_arrays_of_equal_size.cpp)

@@ -32,6 +32,7 @@
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
+- [Sort Characters by their Occurrence](cp/sort_characters_by_their_occurrence.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - 
@@ -45,7 +46,6 @@
 - [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
-- [Sort Characters by their Occurrence](cp/sort_characters_by_their_occurrence.cpp)
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)

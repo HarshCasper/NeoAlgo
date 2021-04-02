@@ -32,7 +32,6 @@
 - [Kadane's Algorithm for max sum subArray](cp/Kadane_Alogorithm.cpp)
 - [Knuth–Morris–Pratt algorithm](cp/Knuth_Morris_Pratt.cpp)
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
-- [Sort Characters by their Occurrence](cp/sort_characters_by_their_occurrence.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - 
@@ -50,6 +49,7 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
+- [Sort Characters by Occurrence](cp/sort_characters_by_their_occurrence.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
 - [Two Pointers Method](cp/two_pointers_method.cpp)
 - [Z Algorithm](cp/zalgorithm.cpp)

@@ -9,6 +9,18 @@
 
 # Codes in the Q# language
 
+## Contents
+
+- [Data Structures](#data-structures)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Machine Learning](#machine-learning)
+- [Mathematics](#mathematics)
+- [Dynamic Programming](#dynamic-programming)
+- [Blockchain](#blockchain)
+- [Cryptography](#cryptography)
+- [Other](#other)
+
 ## Data Structures
 
 _add list here_

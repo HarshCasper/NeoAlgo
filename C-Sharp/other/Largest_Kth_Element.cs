@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+* The Problem is finding the largest Kth item in Two Separated sorted Arrays
+* Complexity O(log(N))
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -63,17 +67,38 @@ namespace NeoAlgo
             int res = KElement(arr1, 0, N, arr2, 0, M, s);
             return res;
         }
-        /*
-         * The Problem is finding the largest Kth item in Two Separated sorted Arrays
-         * Complexity O(log(N))
-         */
+       
         static void Main(string[] args)
         {
-            int[] A1 = { 1, 2, 3, 4, 5 };
-            int[] A2 = { 7, 9, 15, 17 };
+            Console.WriteLine("Enter Size of First Array: ");
+            int N;
+            N = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Size of Second Array: ");
+            int M;
+            M = int.Parse(Console.ReadLine());
+            int[] A1 = new int[N];
+            int[] A2 = new int[M];
+            Console.WriteLine("Enter Elements of First Sorted Array: ");
+            for (int i = 0; i < N; i++)
+            {
+                A1[i] = int.Parse(Console.ReadLine());
+            }
+            
+            Console.WriteLine("Enter Elements of Second Sorted Array: ");
+            for (int i = 0; i < M; i++)
+            {
+                A2[i] = int.Parse(Console.ReadLine());
+            }
             Console.WriteLine("Enter the Kth Item: ");
             int k = int.Parse(Console.ReadLine());
-            Console.WriteLine("The number is: " + GetKthItem(A1, A2, A1.Length, A2.Length, k)); ;
+            Console.WriteLine("The number is: " + GetKthItem(A1, A2, N, M, k)); ;
+            /*
+             * Ex: A1: 1 5 7
+             *     A2: 2 6 10
+             *     k = 3
+             *     Output = 7
+             *     Complexity O(Log(N))
+            */
         }
     }
 }

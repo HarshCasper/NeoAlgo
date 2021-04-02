@@ -120,6 +120,7 @@ _add list here_
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Make String Palindrome](dp/Make_string_palindrome_using_DP.java)
 - [Optimal Binary Search Tree](dp/Optimal_Binary_Search_tree_using_DP.java)
+- [Finding_shortest_path_for_multistaged_graph](dp/Finding_shortest_path_for_multistaged_graph.java)
 - [Flight of stairs](dp/FlightOfStairs.java)
 
 ## Data Structures

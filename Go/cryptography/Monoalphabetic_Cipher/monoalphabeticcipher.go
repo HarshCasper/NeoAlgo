@@ -135,7 +135,7 @@ func main () {
      temp := plaintext
 
      /* calling the monoaplhabetic cipher function
-        to encrypt the input string leaving pit 
+        to encrypt the input string leaving out 
         the space in to small letters*/
      monoaplhabeticcipher()
 

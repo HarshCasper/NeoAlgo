@@ -1,4 +1,4 @@
-<p align="center">
+<p  align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -34,7 +34,7 @@
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
-- 
+- [Sort Characters by Occurrence](cp/sort_characters_by_their_occurrence.cpp)
 - [Minimum Spanning Tree](cp/minimum_spanning_tree.cpp)
 - [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
@@ -45,7 +45,7 @@
 - [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)
-- [Sort Characters by Occurrence](cp/sort_characters_by_their_occurrence.cpp)
+- 
 - [Spiral Matrix](cp/Spiral_Matrix.cpp)
 - [String to Integer](cp/String_to_int.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)

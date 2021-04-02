@@ -125,6 +125,7 @@ _add list here_
 ## Data Structures
 
 - [Binary Tree](ds/Binary_Tree.java)
+- [Level order traversal of a tree](ds/LevelOrderTraversalRecursion.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)

@@ -1,5 +1,5 @@
 /*
-motto:
+description:
 to find all subarray with sum equal to zero with the help of hash function
 */
 #include <bits/stdc++.h>

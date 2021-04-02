@@ -31,27 +31,29 @@ long long maxBeauty(int n, int k, vector<int> &B){
 
 int main(){
     
-        int N, K;
-        cin >> N >> K;              // size of array and max sum required
-        vector<int> B(N);
-        for(int i = 0; i < N; i++){
-            cin >> B[i];                 // input array
+        int totalFlowers, k;
+        cout << "Enter total number of flowers and maximum flowers to be plucked ";
+        cin >> totalFlowers >> k;                          // size of array and max flowers required
+        vector<int> Beauty(totalFlowers);
+        cout<< " Enter beauty of each flower : " ;
+        for(int i = 0; i < totalFlowers; i++){
+            cin >> Beauty[i];                                    // input array
         }
-        long long ans =maxBeauty(N, K, B);
-        cout << ans << endl;
+        long long answer =maxBeauty(totalFlowers , k , Beauty);
+        cout << " maximum sum of beauty by k flowers : " << answer << endl;
     
 }    
     
 /*
 
 Input:
-N = 3
+totalFlowers = 3
 K = 2
-B[] = {1, 1000000, 1}
+Beauty[] = {1, 1000000, 1}
 
 Output: 2
 
-Time Complexity: O(N*K)
-Auxiliary Space: O(N*K)
+Time Complexity: O(totalFlowers*K)
+Auxiliary Space: O(totalFlowers*K)
 
 */

@@ -77,7 +77,7 @@
 - [Vigenere Cipher](cryptography/Vigenere_Cipher)
 - [Keyword Cipher](cryptography/Keyword_Cipher)
 - [Columnar Cipher](cryptography/Columnar_Cipher)
-
 - [RailFence Cipher](cryptography/RailFence_Cipher) 
+- [Monoalphabetic Cipher](cryptography/Monoalphabetic_Cipher)
 
 

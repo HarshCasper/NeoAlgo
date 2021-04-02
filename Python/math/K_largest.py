@@ -1,23 +1,26 @@
-''' K-TH LARGEST NUMBER 
+''' K-TH LARGEST NUMBER
     To find the k-th largest number from an array of distinct numbers
     * The array is sorted in descending order
     * arr[k-1] gives the k-th largest number
 '''
+
 
 # to sort the array- Bubble Sort
 def sort_arr(arr):
     n = len(arr)
     for i in range(0, n-1):
         for j in range(0, n-i-1):
-            if(arr[j] < arr[j+1]):
+            if arr[j] < arr[j+1]:
                 temp = arr[j]
                 arr[j] = arr[j+1]
                 arr[j+1] = temp
     return arr
 
+
 #to find k-th largest element
 def k_largest(arr, k):
     return arr[k-1]
+
 
 #driver code
 def main():
@@ -26,8 +29,10 @@ def main():
     k = int(input("Enter the value of k: "))
     print(k_largest(sort_arr(arr), k))
 
+
 if __name__ == '__main__':
     main()
+
 
 '''
     Sample Input:

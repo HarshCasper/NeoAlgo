@@ -47,11 +47,11 @@ int main(){
 /*
 
 Input:
-totalFlowers = 3
-K = 2
-Beauty[] = {1, 1000000, 1}
+Enter total number of flowers and maximum flowers to be plucked : 3  2
+Enter beauty of each flower : 1  1000000  1
 
-Output: 2
+Output: 
+maximum sum of beauty by k flowers : 2
 
 Time Complexity: O(totalFlowers*K)
 Auxiliary Space: O(totalFlowers*K)

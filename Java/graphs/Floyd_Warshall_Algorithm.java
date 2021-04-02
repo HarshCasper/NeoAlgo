@@ -1,51 +1,63 @@
-import java.util.Scanner;
-
 /**
- * @author Anshika Agrawal
- * @since 02-04-2021
+The Floyd Warshall Algorithm is used to find minimum distances between every pair of vertices in a given edge weighted directed Graph.
+The Floyd-Warshall algorithm is an example of dynamic programming. 
+It breaks the problem down into smaller subproblems, then combines the answers to those subproblems to solve the big, initial problem. 
  */
+
+import java.util.Scanner;
 
 public class FloydWarshall {
 
+	public static void display (int v, int[][] answerMatrix) {
+
+		System.out.println("Matrix displaying minimum costs between the pairs of vertices.");
+		
+		//display final matrix after all the updations of shortest cost path from vertex i to j
+		// value at i,j represents minimum cost from vertex i to vertex j.
+		for (int i=0; i<v; i++) {
+			for (int j=0; j<v; j++) {
+				System.out.print (answerMatrix[i][j] + " ");
+			}
+			System.out.println();
+		}
+	}
+
+	public static void floydWarshallAlgorithm (int v, int[][] graph) {
+
+		// answer matrix where we will be storing minimum cost between two pair of vertices.
+		int[][] answerMatrix=new int[v][v];
+		
+		//just copy down values of graph into ans matrix.
+		for (int i=0; i<v; i++) {
+			for (int j=0; j<v; j++) {
+				answerMatrix[i][j] = graph[i][j];
+			}
+		}
+		
+		//update the matrix by keeping each vertex as a main rout part once.
+		for (int k=0; k<v; k++) {
+			//k represents that we are keeping kth vertex constant.
+			//means that path from i to j must pass from k.
+			
+			for (int i=0; i<v; i++) {
+				for (int j=0; j<v; j++) {
+					
+					int oc = answerMatrix[i][j];    //old cost, already present at i,j
+					int nc = answerMatrix[i][k] + answerMatrix[k][j];   //new cost, cost from i to k plus cost from k to j. 
+					// Since we are assuming that path from to j passes through k.
+					
+					if (nc<oc) {
+						answerMatrix[i][j] = nc;
+					}
+				}
+			}
+			
+		}
+
+		display (v, ans);
+	}
+
 	public static void main(String[] args) {
-		
-        /**
-        
-        Lets assume the Graph given below.
-		
-		Vertex 1 => Vertex 2 : cost=3
-		Vertex 1 => Vertex 3 : no direct edge
-		Vertex 1 => Vertex 4 : cost=7
-		Vertex 2 => Vertex 1 : cost=8
-		Vertex 2 => Vertex 3 : cost=2
-		Vertex 2 => Vertex 4 : no direct edge
-		Vertex 3 => Vertex 1 : cost=5
-		Vertex 3 => Vertex 2 : no direct edge
-		Vertex 3 => Vertex 4 : cost=1
-		Vertex 4 => Vertex 1 : cost=2
-		Vertex 4 => Vertex 2 : no direct edge
-		Vertex 4 => Vertex 3 : no direct edge
-
-        matrix representation of the graph :
-		
-        graph = {
-            {0,3,10000,7},
-            {8,0,2,10000},
-            {5,10000,0,1},
-            {2,10000,10000,0}
-        }
-		
-		graph[i][j] represents the cost of edge from ith vertex to jth vertex
-		10000 cost represents that there is no edge between i and j and so cost is infinite.
-		
-		we have taken 10000 as an infinite value because in case we need to add some value
-		to check for minimum cost then value goes out of range of Integer.
-		but in case of 10000, there is no risk of reaching out of range.
-		
-		values at diagonals should be 0 because i==j means cost from a vertex to same vertex. 
-
-        */
-
 
 		Scanner sc=new Scanner(System.in);
 		
@@ -62,50 +74,27 @@ public class FloydWarshall {
 			}
 		}
 		
-        // answer matrix where we will be stroing minimum cost between two pair of vertices.
-		int[][] ans=new int[v][v];
-		
-		//just copy down values of graph into ans matrix.
-		for (int i=0; i<v; i++) {
-			for (int j=0; j<v; j++) {
-				ans[i][j]=graph[i][j];
-			}
-		}
-		
-		
-		//update the matrix by keeping each vertex as a main rout part once.
-		for (int k=0; k<v; k++) {
-			//k represents that we are keeping kth vertex constant.
-			//means that path from i to j must pass from k.
-			
-			for (int i=0; i<v; i++) {
-				for (int j=0; j<v; j++) {
-					
-					int oc=ans[i][j]; //old cost, already present at i,j
-					int nc=ans[i][k] + ans[k][j]; //new cost, cost from i to k plus cost from k to j. 
-					// Since we are assuming that path from to j passes through k.
-					
-					if (nc<oc) {
-						ans[i][j]=nc;
-					}
-				}
-			}
-			
-		}
-		
-
-        System.out.println("Matrix displaying minimum costs between the pairs of vertices.");
-		
-		//display final matrix after all the updations of shortest cost path from vertex i to j
-		// value at i,j represents minimum cost from vertex i to vertex j.
-		for (int i=0; i<v; i++) {
-			for (int j=0; j<v; j++) {
-				System.out.print (ans[i][j]+" ");
-			}
-			System.out.println();
-		}
-		
-
+        floydWarshallAlgorithm (v, graph);  
 	}
-
 }
+
+/**
+Sample Test case 1 :
+
+4
+0 3 10000 7
+8 0 2 10000
+5 10000 0 1
+2 10000 10000 0
+
+Output :
+
+0 3 5 6 
+5 0 2 3 
+3 6 0 1 
+2 5 7 0 
+
+Time Complexity : O(V^3)
+Space Complexity : O(V^2)
+
+*/

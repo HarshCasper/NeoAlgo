@@ -105,7 +105,7 @@ func keyTable() {
 
 /* This function searches for the characters of the digraph in key matrix
    generated and gives their position*/
-func search(x string,y string) {
+func search(x,y string) {
 
      //replacing j with i   
      if(x == "j'") {

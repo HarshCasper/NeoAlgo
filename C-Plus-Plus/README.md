@@ -451,6 +451,7 @@ _add list here_
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find duplicate elements from an array](other/find_duplicate_elements_from_an_array.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
+- [Bigmod Algorithm](other/big_mod_algorithm.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp)

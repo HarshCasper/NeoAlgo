@@ -95,12 +95,12 @@ int main()
     return 0;
 }
 
-SAMPLE INPUT
-7
-1 2 3 4 5 6 7
-3
-
-SAMPLE OUTPUT
-Cycle is Present
+//SAMPLE INPUT
+//7
+//1 2 3 4 5 6 7
+//3
+//
+//SAMPLE OUTPUT
+//Cycle is Present
 
 cout<<endl;

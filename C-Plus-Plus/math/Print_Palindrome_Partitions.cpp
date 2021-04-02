@@ -26,18 +26,18 @@ void Palindrome(string str){
     printPalindrome(str,str.size(),"");
 }
  
-// Result store the current word with spaces
-// between words
+/* Result store the current word with spaces
+ between words */
 void printPalindrome(string str, int n, string result){
     //Process all words one by one
     for(int i=1;i<=n;i++){
         // Extract substring from 0 to i in word
         string word = str.substr(0,i);
          
-        // If dictionary conatins this word, then
-        // we check for remaining string. Otherwise
-        // we ignore this word (there is no else for
-        // this if) and try next
+        /* If dictionary conatins this word, then
+         we check for remaining string. Otherwise
+         we ignore this word (there is no else for
+         this if) and try next */
         if(isPalindrome(word)){
             // If no more elements are there, print it
             if(i==n){

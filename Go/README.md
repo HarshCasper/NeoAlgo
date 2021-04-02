@@ -47,6 +47,7 @@
 - [Happy Number](math/Happy_Number)
 - [Catalan Number](math/Catalan_Number)
 - [Decimal to Binary](math/Decimal_to_Binary)
+- [Ugly Number](math/Ugly_Number)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

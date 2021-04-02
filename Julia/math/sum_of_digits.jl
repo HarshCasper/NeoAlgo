@@ -2,12 +2,12 @@
 
 # Extracting Each digits
 function sum_of_digits(num)
-    cnt = 0
+    sum = 0
     while(num != 0)
-        cnt = cnt + (num % 10)
+        sum = sum + (num % 10)
         num = num ÷ 10
     end
-    return cnt
+    return sum
 end
 
 print("Enter the number: ")

@@ -16,6 +16,7 @@
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
+* [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -70,6 +71,7 @@
 - [Linked List Intersection](ds/linkedListIntersection.py)
 - [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
+- [Binary Search Tree](ds/BinarySearchTree.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 - [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)

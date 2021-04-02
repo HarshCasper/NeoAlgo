@@ -2,7 +2,7 @@
 It uses 2 pointer slow and fast(which travels at speed twice that of slow).
 If they meet at any position while traversing the linked list then a cycle is
 present otherwise cycle is not present */
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class node{
@@ -71,7 +71,7 @@ int main()
 {
     node* head = NULL;
     int n;
-    //cout<<"Enter the number of nodes:";
+    cout<<"Enter the number of nodes:";
     cin>>n;
     for(int i=0;i<n;i++){
        int x;
@@ -79,7 +79,7 @@ int main()
        insertAtTail(head,x);
     }
     int pos;
-    //cout<<"Enter the position where you want to make a cycle";
+    cout<<"Enter the position where you want to make a cycle:";
     cin>>pos;
 
     //cycle is created at position pos
@@ -95,12 +95,18 @@ int main()
     return 0;
 }
 
-//SAMPLE INPUT
-//7
-//1 2 3 4 5 6 7
-//3
-//
-//SAMPLE OUTPUT
-//Cycle is Present
+/*
+SAMPLE INPUT
+7
+1 2 3 4 5 6 7
+3
+SAMPLE OUTPUT
+Enter the number of nodes:
+Enter the position where you want to make a cycle:
+Cycle is Present
+
+Time Complexity  O(N)
+Space Complexity O(1)
+*/
 
 cout<<endl;

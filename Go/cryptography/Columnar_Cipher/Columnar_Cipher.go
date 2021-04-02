@@ -14,11 +14,11 @@ import (
 )
 
 //Sort function, returns sorted integer array
-func sort(array []int, len int) {
+func sort(array []int, length int) {
 
 	//Bubble sort is used here
-	for i := 0; i < len - 1; i++ {
-		for j := 0; j < len - 1 - i; j++ {
+	for i := 0; i < length - 1; i++ {
+		for j := 0; j < length - 1 - i; j++ {
 			if(array[j] > array[j + 1]) {
 				var temp int = array[j]
 				array[j] = array[j + 1]
@@ -104,8 +104,7 @@ func encrypt(plaintext, key string) string {
 	}
 
 	var count int = 0
-	columns := make([]int, length_key)
-	columns = order(key)
+	var columns []int = order(key)
 
 	var cnt int = 0
 

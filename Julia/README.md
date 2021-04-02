@@ -32,4 +32,5 @@
 - [Bubble Sort](sort/bubble_sort.jl)
 - [Insertion Sort](sort/insertion_sort.jl)
 - [Selection Sort](sort/selection_sort.jl)
+- [Comb Sort](sort/comb_sort.jl)
 - [Quick Sort](sort/quick_sort.jl)

@@ -103,6 +103,7 @@ class LinkedList:
             print(current.data, end=" ")
             current = current.next
 
+
 OBJ = LinkedList()
 print("Input :")
 OBJ.insert_node_at_end(1)

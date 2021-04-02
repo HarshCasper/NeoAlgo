@@ -158,6 +158,7 @@ _add list here_
 - [Breadth First Search](graphs/BFS.java)
 - [Depth First Search](graphs/DFS.java)
 - [Dijkstra's Algorithm](graphs/Dijkstra.java)
+- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.java)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
 - [Paths From Source To Destination](graphs/Paths_From_Source_To_Destination.java)

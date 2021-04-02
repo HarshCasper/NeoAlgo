@@ -30,6 +30,7 @@
 
 ## Searching
 
+- [Binary Search](search/binary_search.jl)
 - [Linear Search](search/linear_search.jl)
 
 ## Sorting

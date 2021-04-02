@@ -43,7 +43,6 @@
 * [Intro Sort](sort/IntroSort.py)
 * [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 * [Merge Sort Parallel](sort/Parallel_MergeSort.py)
-* [Wiggle Sort](sort/wiggle_sort.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
@@ -111,6 +110,7 @@
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
 - [Count the number of anagrams](cp/CountAnagrams.py)
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
+- [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 
 
 ## Cryptography

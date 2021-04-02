@@ -25,11 +25,20 @@
 
 ## Mathematics
 
+- [Palindrome Number](math/check_palindrome.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
+- [Mystery Number](math/mystery_number.jl)
+
+## Searching
+
+- [Binary Search](search/binary_search.jl)
+- [Linear Search](search/linear_search.jl)
 
 ## Sorting
 
 - [Bubble Sort](sort/bubble_sort.jl)
+- [Circle Sort](sort/circle_sort.jl)
 - [Insertion Sort](sort/insertion_sort.jl)
 - [Selection Sort](sort/selection_sort.jl)
+- [Comb Sort](sort/comb_sort.jl)
 - [Quick Sort](sort/quick_sort.jl)

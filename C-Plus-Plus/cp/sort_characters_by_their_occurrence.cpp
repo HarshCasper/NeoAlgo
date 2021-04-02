@@ -48,11 +48,11 @@ string get_string_sort_characters_by_their_occurrence(string s)
 int main()
 {
     cout << "Enter the string : ";
-	string s;
-	cin >> s;
-	string new_string = get_string_sort_characters_by_their_occurrence(s);
-	cout << "The New String based on the occurrence of each characters is : \n";
-	cout << new_string << endl;
+    string s;
+    cin >> s;
+    string new_string = get_string_sort_characters_by_their_occurrence(s);
+    cout << "The New String based on the occurrence of each characters is : \n";
+    cout << new_string << endl;
 }
 
 /*

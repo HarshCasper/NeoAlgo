@@ -13,23 +13,21 @@ proper order or the end is reached, it starts a new iteration.
 """
 
 def gnomeSort(nums):
-    if len(nums) <= 1:
-        return nums
-
-    i = 1
-
-    while i < len(nums):
-        if nums[i - 1] <= nums[i]:
-            i += 1
-        else:
+    for i in range(1, len(nums)):
+        while (i != 0 and nums[i] < nums[i - 1]):
             nums[i - 1], nums[i] = nums[i], nums[i - 1]
             i -= 1
-            if (i == 0):
-                i = 1
 
 user_input = input("Enter the numbers separated by a comma: ").strip()
-nums = [int(item) for item in user_input.split(',')]
+
+# in one line: nums = [int(item) for item in user_input.split(',')]
+nums = user_input.split(',')
+sequence = []
+for item in nums:
+    sequence.append(int(item))
+
 gnomeSort(nums)
+
 print("Sorted nums of numbers using gnome sort method:", nums)
 
 """

@@ -1,8 +1,12 @@
 /*
----There are basically two functions in this code.
----One prints all nodes at a given level and the other
+Introduction 
+Any binary tree can be represented using multiple traversal techniques.One of them is level order traversal.
+In this traversal, we print the nodes of a tree,level by level,one after another.
+This could be implemented using recursion or queue data structure.
+Here,this code is based on recursion.
+There are basically two functions in this code.One prints all nodes at a given level and the other
 prints level order traversal considering the subtrees individually.
----The below code is based on Recursive method for level order traversal.
+At the end,it prints the level order traversal of the given binary tree.
 */
 import java.util.*;
 class Node

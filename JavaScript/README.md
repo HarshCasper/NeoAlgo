@@ -71,7 +71,7 @@ _add list here_
 
 ## Competitive Programming
 
-_add list here_
+- [Median of two sorted arrays](./cp/Median_of_Two_Sorted_Arrays.js)
 
 ## Dynamic Programming
 

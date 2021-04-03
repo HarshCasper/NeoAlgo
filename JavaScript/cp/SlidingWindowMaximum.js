@@ -69,9 +69,18 @@ const slidingWindowMaximum = (nums, k) => {
     return array;
 }
 
+//Using the readline() function of JavaScript to take input from the user
+console.log("Enter the elements of the array and the window length k");
 
-console.log(slidingWindowMaximum(nums = [3, 2, 1, 2, 3, 7, 1, 3, 1, 5, 3], k = 4))
-/* Answer = [3, 3, 7, 7, 7, 7, 5, 5 ] */
+//list is input array
+let list = readline()
+    .split(" ")
+    .map((x) => parseInt(x));
+
+let n = list.length-1;
+let k = list[n];
+
+console.log(slidingWindowMaximum(list.slice(0, n), k));
 
 /* 
 Example 1:

@@ -51,10 +51,10 @@ int get_connected_components(int nodes)
 int main()
 {
     cout << "Enter the nodes and edges of the graph :\n";
-	int nodes, edges;
-	cin >> nodes >> edges;
-	cout << "Enter the start and end points that have edges \n";
-	for(int i = 1; i <= edges; i++)
+    int nodes, edges;
+    cin >> nodes >> edges;
+    cout << "Enter the start and end points that have edges \n";
+    for(int i = 1; i <= edges; i++)
     {
         int point1, point2;
         cin >> point1 >> point2;

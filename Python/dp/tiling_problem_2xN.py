@@ -27,7 +27,8 @@ if __name__ == '__main__':
     print("Number of ways is:", numberOfWays(n))
 
 
-'''Test Case 1:
+'''
+Test Case 1:
 Input: 4
 Output: Number of ways is: 3
 
@@ -36,4 +37,5 @@ Input: 10
 Output: Number of ways is: 55
 
 Time Complexity: O(n)
-Space Complexity: O(n)'''
+Space Complexity: O(n)
+'''

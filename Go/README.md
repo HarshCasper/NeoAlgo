@@ -49,6 +49,7 @@
 - [Decimal to Binary](math/Decimal_to_Binary)
 - [Ugly Number](math/Ugly_Number)
 - [Fibonacci Number](math/Fibonacci)
+- [Mystery Number](math/Mystery_Number)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

@@ -29,6 +29,7 @@
 - [Armstrong Number](math/armstrong_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
+- [Number of Digits](math/number_of_digits.jl)
 - [Magic Number](math/magic_number.jl)
 - [Mystery Number](math/mystery_number.jl)
 - [Neon Number](math/neon_number.jl)

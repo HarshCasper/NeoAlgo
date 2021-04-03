@@ -95,6 +95,7 @@ _add list here_
 - [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 - [Rat In A Maze](cp/RatInAMaze.java)
+- [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
 
 ## Cryptography
 
@@ -125,6 +126,7 @@ _add list here_
 ## Data Structures
 
 - [Binary Tree](ds/Binary_Tree.java)
+- [Level order traversal of a tree](ds/LevelOrderTraversalRecursion.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)

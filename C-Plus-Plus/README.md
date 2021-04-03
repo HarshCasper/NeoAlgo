@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -22,6 +22,7 @@
 - [Check Anagrams](cp/check_anagrams.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
+- [Combination Sum](cp/Combination_Sum.cpp)
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
@@ -54,6 +55,7 @@
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
+- [Plucking Flowers](cp/Plucking_Flowers.cpp)
 - [Prefix Sum Array](cp/prefix_sum.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Product of Array Except itself](cp/product_of_array_except_itself.cpp)
@@ -68,6 +70,7 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Subarray of length two](cp/Subarray_of_length_two.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
+- [Sort Characters by Occurrence](cp/sort_characters_by_their_occurrence.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Tug Of War](cp/Tug_of_water.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
@@ -107,12 +110,14 @@
 - [First Negative Integer in Every k sized window](cp/1st_negative_no_in_every_window_of_size_k.cpp)
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
+- [First non repeating character in a running stream](cp/first_non_repeating_character.cpp)
+- [Next greater element](cp/next_greater_element.cpp)
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
-
+- [Plus One Problem](cp/Plus_One.cpp)
 
 ## Data Structures
-
+- [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Singly Linked List Operations Using Unique Key](ds/SLL_Operations_Usnig_Unique_Key.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
@@ -291,6 +296,8 @@
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
+- [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
+- [Check palindrome using stack](stack/CheckPalindrome.cpp)
 
 ## Heap based problems
 
@@ -326,6 +333,8 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Print Pallindrome Partitions](math/Print_Palindrome_Partitions.cpp)
+- [Remove Invalid Parentheses](math/remove_invalid_parentheses.cpp)
 - [Sudoku Solver](math/sudoku_solver.cpp)
 - [N queens](math/n_queen.cpp)
 - [Word Break Problem](math/Word_break.cpp)
@@ -349,6 +358,7 @@ _add list here_
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)
 - [Automorphic Number](math/automorphic_number.cpp)
+- [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
 
 ## Dynamic Programming
@@ -390,6 +400,7 @@ _add list here_
 - [Tiling 2 x N](dp/Tiling_2xN.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
+- [House Robber Problem](dp/House_Robber_Problem.cpp)
 
 ## Bit - Manipulation
 
@@ -444,6 +455,7 @@ _add list here_
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find duplicate elements from an array](other/find_duplicate_elements_from_an_array.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
+- [Bigmod Algorithm](other/big_mod_algorithm.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp)
@@ -462,6 +474,8 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find a Median of two Sorted arrays of equal size](other/Median_of_two_Sorted_arrays_of_equal_size.cpp)
+- [Find a Median of two Sorted arrays of different size](other/Median_of_two_Sorted_arrays_of_different_size.cpp)
 - [Find Kth smallest element in a Sorted Matrix](other/Find_Kth_smallest_element_in_Sorted_Matrix.cpp)
 - [Find Common Element in row-wise sorted matrix](other/Find_Common_Element_in_matrix.cpp)
 - [Vector of Strings Occurs More than Once](other/vector_of_strings_occurs_more_than_one_time.cpp)

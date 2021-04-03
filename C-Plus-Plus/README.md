@@ -115,6 +115,7 @@
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Minimum cost to generate n cells in the container starting from one cell](cp/min_cost_to_generate_n_cells.cpp)
 
 ## Data Structures
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)

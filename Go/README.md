@@ -82,4 +82,5 @@
 - [Monoalphabetic Cipher](cryptography/Monoalphabetic_Cipher)
 - [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher)
 - [PlayFair Cipher](cryptography/PlayFair_Cipher)
+- [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform)
 

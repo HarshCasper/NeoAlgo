@@ -25,6 +25,7 @@
 
 ## Mathematics
 
+- [Armstrong Number](math/armstrong_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Magic Number](math/magic_number.jl)
@@ -35,6 +36,7 @@
 ## Searching
 
 - [Binary Search](search/binary_search.jl)
+- [Jump Search](search/jump_search.jl)
 - [Linear Search](search/linear_search.jl)
 - [Ternary Search](search/ternary_search.jl)
 

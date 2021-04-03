@@ -121,6 +121,7 @@
 - [Double Hashing](ds/double-hashing.cpp)
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+- [Inversion Vector of a Singly Linked List](ds/inversion_vector.cpp)
 
 
 ## Graphs

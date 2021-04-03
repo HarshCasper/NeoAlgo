@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -55,6 +55,7 @@
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
+- [Plucking Flowers](cp/Plucking_Flowers.cpp)
 - [Prefix Sum Array](cp/prefix_sum.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Product of Array Except itself](cp/product_of_array_except_itself.cpp)
@@ -331,6 +332,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Print Pallindrome Partitions](math/Print_Palindrome_Partitions.cpp)
 - [Remove Invalid Parentheses](math/remove_invalid_parentheses.cpp)
 - [Sudoku Solver](math/sudoku_solver.cpp)
 - [N queens](math/n_queen.cpp)

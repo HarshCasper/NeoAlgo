@@ -8,7 +8,6 @@
 import java.util.*;
 public class Solution 
 {
-
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -19,10 +18,8 @@ public class Solution
         int end = sc.nextInt();
         //Created new String to store the result
         String s = S;
-       
         //substring will start from start index, ended at end
         s = S.substring(start,end+1);
-      
         //Display the result
         System.out.println(s);
 	 

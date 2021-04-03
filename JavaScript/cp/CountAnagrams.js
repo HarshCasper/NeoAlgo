@@ -52,8 +52,14 @@ const countAnagrams = (word, text) => {
     return ans;
 }
 
-/* Printing the number of anagrams of the word "for" in the text "trfororfideriorofrufrx" */
-console.log(countAnagrams("for", "trfororfideriorofrufrx"))
+console.log("Enter the word to be found and the string");
+
+/* List stores the word and the text */
+let list = readline()
+    .split(" ")
+    .map((element) => element);
+
+console.log(countAnagrams(list[0], list[1]));
 /* Answer = 5 */
 
 /* 

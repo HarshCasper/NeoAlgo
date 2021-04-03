@@ -71,7 +71,7 @@ int main()
 {
     node* head = NULL;
     int n;
-    cout<<"Enter the number of nodes:";
+    cout<<"Enter the number of nodes:"<<endl;
     cin>>n;
     for(int i=0;i<n;i++){
        int x;
@@ -79,7 +79,7 @@ int main()
        insertAtTail(head,x);
     }
     int pos;
-    cout<<"Enter the position where you want to make a cycle:";
+    cout<<"Enter the position where you want to make a cycle:"<<endl;
     cin>>pos;
 
     //cycle is created at position pos
@@ -87,10 +87,10 @@ int main()
 
     //detect a cycle
     if(detectCycle(head)){
-       cout<<"Cycle is present";
+       cout<<"Cycle is present"<<endl;
     }
     else{
-       cout<<"Cycle is not present";
+       cout<<"Cycle is not present"<<endl;
     }
     return 0;
 }
@@ -103,10 +103,9 @@ SAMPLE INPUT
 SAMPLE OUTPUT
 Enter the number of nodes:
 Enter the position where you want to make a cycle:
-Cycle is Present
+Cycle is present
 
 Time Complexity  O(N)
 Space Complexity O(1)
 */
 
-cout<<endl;

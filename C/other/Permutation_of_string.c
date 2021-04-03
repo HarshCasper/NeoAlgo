@@ -10,11 +10,13 @@ int main()
     char *s;
     // dynamically creating string length
     s=(char*)malloc(sizeof(char)*1000);
+	printf("Enter a string");
     // getting string
     gets(s);
     // changing size to the length of string+1 to store null at end
     s=realloc(s,strlen(s)+1);
 	//calling permutation
+	printf("The Permutation of string are: \n");
     permutation(s,0,strlen(s)-1);
 return 0;
 }
@@ -61,5 +63,5 @@ Output: 1(abc)
         4(bca)
         5(cba)
         6(cab)
-Time Complexity: O(n!)
+Time Complexity: O(n*n!)
 */

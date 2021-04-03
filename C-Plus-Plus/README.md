@@ -469,6 +469,7 @@ _add list here_
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
 - [Sliding Window Technique](other/Calculate_max_sum_of_k_consecutive_elements.cpp)
+- [Smallest Period of a String](other/smallest_period_string.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)

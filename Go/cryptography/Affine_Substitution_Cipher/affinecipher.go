@@ -32,26 +32,19 @@ var ciphertext string
 /* We use this list of alphabets to check what letter we have
    in plaintext*/
 var list string = "abcdefghijklmnopqrstuvwxyz"
-
 var a int = 17
 var b int = 20
-
 var cipherer string
+var output string
 
 // Using this function we build the cipherer
 func buildcipherer() {
-
      var res int
      for i:=0;i<26;i++ {
-
          res = (a*i + b)%26
          cipherer += string(list[res])
-
      }
-
 }
-
-var output string
 
 /*
  This function formats the given ciphertext according to
@@ -64,23 +57,15 @@ var output string
  in the ciphertext.*/
 func format(temp string) {
 
-
     /* Checking if the given letter in plaintext is capital 
        or not and changint it to capttal if it was*/
     for i:=0; i < len(temp); i++ {
-
        if (unicode.IsUpper (rune(temp[i]) ) ) {
-
            output += strings.ToUpper(string(ciphertext[i]))
-
        }else {
-
           output += string(ciphertext[i])
-
        }
-
     }
-
 }
 
 /* This is the function where we cipher the plaintext using 
@@ -94,15 +79,10 @@ func monoaplhabeticcipher() {
       /* Here we replace all the space charecter with underscore
          for out convinence*/
       for k:=0;k<len(plaintext);k++ {
-
           if(string(plaintext[k]) == " ") {
-
 		temporary += string("_")
-
           }else {
-
 		temporary += string(plaintext[k])
-
           }
       }
 
@@ -111,28 +91,18 @@ func monoaplhabeticcipher() {
       /* If the inputted plaintext had space we give sapce in
          the cipher text also */
       for i:=0 ;i < len(plaintext); i++ {
-
           if(string(plaintext[i]) == "_") {
-
                 ciphertext += " "
-
           }else {
                 /* We replace the letter with corresponding letter 
                    from the cipherer */
                 for j:=0 ; j<26 ; j++ {
-
                      if( string(plaintext[i]) == string(list[j]) ) {
-
                           ciphertext += string(cipherer[j])
-
                      }
-
                 }
-
           }
-
       }
-
 }
 
 // driver function
@@ -186,4 +156,3 @@ func main () {
      The cipher text is : Jkzzy Eyxzt  
 
 */
-

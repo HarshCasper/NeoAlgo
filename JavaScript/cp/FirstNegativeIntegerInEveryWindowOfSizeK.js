@@ -49,9 +49,18 @@ const firstNegativeIntegerInEveryWindowOfSizeK = (array, k) => {
     return ans;
 }
 
-/* Printing the first negative integer in every window of size k */
-console.log(firstNegativeIntegerInEveryWindowOfSizeK([12, -1, -7, 8, -15, 30, 16, 28], 3))
-/* Answer = [ -1, -1, -7, -15, -15, 0 ] */
+//Using the readline() function of JavaScript to take input from the user
+console.log("Enter the elements of the array and the length of the window k");
+
+  //list is input array
+let list = readline()
+    .split(" ")
+    .map((x) => parseInt(x));
+
+let n = list.length-1;
+let k = list[n];
+
+console.log(firstNegativeIntegerInEveryWindowOfSizeK(list.slice(0, n), k));
 
 /*
 Example 1:

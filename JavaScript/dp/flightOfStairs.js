@@ -34,16 +34,16 @@ const solveUtil = (n, k, memo) =>{
     return memo[n][k];
 };
 
-let N=prompt("Enter value of n:");
-let K=prompt("Enter value of k:");
-FlightOfStairs(parseInt(N),parseInt(K));
+/*taking arguments using command line arguments*/
+console.log("Enter the values of n and k: ");
+var arguments = process.argv;
+FlightOfStairs(parseInt(arguments[2]),parseInt(arguments[3]));
 
+  
 /*
 Input:
-Enter value of n:
-4
-Enter value of k:
-1
+Enter the values of n and k: 
+4 1
 
 Output:
 The answer is 7

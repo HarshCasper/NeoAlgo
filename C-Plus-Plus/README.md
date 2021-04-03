@@ -307,7 +307,7 @@
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
-
+- [Kth Smallest Element in an array](heap/KthSmallest.cpp)
 ## Machine Learning
 
 _add list here_
@@ -492,4 +492,3 @@ _add list here_
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
-

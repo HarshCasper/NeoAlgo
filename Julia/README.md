@@ -27,12 +27,16 @@
 
 - [Palindrome Number](math/check_palindrome.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
+- [Magic Number](math/magic_number.jl)
 - [Mystery Number](math/mystery_number.jl)
+- [Neon Number](math/neon_number.jl)
+- [Sum of Digits](math/sum_of_digits.jl)
 
 ## Searching
 
 - [Binary Search](search/binary_search.jl)
 - [Linear Search](search/linear_search.jl)
+- [Ternary Search](search/ternary_search.jl)
 
 ## Sorting
 

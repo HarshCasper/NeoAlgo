@@ -46,10 +46,7 @@ console.log(gcdValueOfTwoNumbersUsingEuclideanAlgorithm); // prints 5
 // Most optimized way of finding GCD using Euclidean Algorithm
 // Recursive approach
 function gcdUsingrecursiveWay(numberA, numberB){
-    if(numberB == 0)
-       return numberA;
-    else
-      return gcdUsingrecursiveWay(numberB, numberA%numberB);   
+      return numberB == 0 ? numberA : gcdUsingrecursiveWay(numberB, numberA%numberB);   
 }
 
 

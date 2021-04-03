@@ -1,12 +1,13 @@
 //Strong number is a special number whose sum of factorial of digits is equal to the original number.
 //For example: 145 is strong number. Since, 1! + 4! + 5! = 145
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int main()
 {
     long long int num, n, factorial=1, sum=0;
     int i, digit;
+    cout<<"Enter a number to check whether it is a strong number or not: ";
     cin>>num;
     n=num;
     for(n=num; n>0; n=n/10)

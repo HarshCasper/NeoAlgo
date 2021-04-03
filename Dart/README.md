@@ -18,6 +18,7 @@
 ## Search
 
 - [Binary Search](search/BinarySearch.dart)
+
 ## Sorting
 
 - [Bubble Sort](sort/BubbleSort.dart)

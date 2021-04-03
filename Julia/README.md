@@ -25,6 +25,7 @@
 
 ## Mathematics
 
+- [Armstrong Number](math/armstrong_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Magic Number](math/magic_number.jl)

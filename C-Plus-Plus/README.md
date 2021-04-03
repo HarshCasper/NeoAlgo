@@ -400,6 +400,7 @@ _add list here_
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Count ways to reach nth stair Problem](dp/Ways_toReach_nthstair.cpp)
 
 ## Bit - Manipulation
 

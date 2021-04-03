@@ -107,6 +107,7 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.cpp)
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)

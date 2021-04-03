@@ -60,7 +60,6 @@ let list = readline()
     .map((element) => element);
 
 console.log(countAnagrams(list[0], list[1]));
-/* Answer = 5 */
 
 /* 
 Example 1:

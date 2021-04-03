@@ -35,6 +35,7 @@
 
 - [Binary Search](search/binary_search.jl)
 - [Linear Search](search/linear_search.jl)
+- [Ternary Search](search/ternary_search.jl)
 
 ## Sorting
 

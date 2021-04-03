@@ -21,19 +21,21 @@ def numberOfWays(num):
         ways[i] = ways[i-1] + ways[i-2]
     return ways[num]
 
+if __name__ == '__main__':
+    n = int(input())  # taking input from the user
+    # calling the function to calculate number of ways and printing it
+    print("Number of ways is:", numberOfWays(n))
 
-n = int(input())  # taking input from the user
-# calling the function to calculate number of ways and printing it
-print("Number of ways is:", numberOfWays(n))
 
+'''
+Test Case 1:
+Input: 4
+Output: Number of ways is: 3
 
-# Test Case 1:
-# Input: 4
-# Output: Number of ways is: 3
+Test Case 2:
+Input: 10
+Output: Number of ways is: 55
 
-# Test Case 2:
-# Input: 10
-# Output: Number of ways is: 55
-
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+Time Complexity: O(n)
+Space Complexity: O(n)
+'''

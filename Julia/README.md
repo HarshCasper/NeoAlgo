@@ -21,3 +21,26 @@
 ## Dynamic Programming
 
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
+- [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
+
+## Mathematics
+
+- [Palindrome Number](math/check_palindrome.jl)
+- [N'th Catalan Number](math/catalan_number.jl)
+- [Magic Number](math/magic_number.jl)
+- [Mystery Number](math/mystery_number.jl)
+- [Sum of Digits](math/sum_of_digits.jl)
+
+## Searching
+
+- [Binary Search](search/binary_search.jl)
+- [Linear Search](search/linear_search.jl)
+
+## Sorting
+
+- [Bubble Sort](sort/bubble_sort.jl)
+- [Circle Sort](sort/circle_sort.jl)
+- [Insertion Sort](sort/insertion_sort.jl)
+- [Selection Sort](sort/selection_sort.jl)
+- [Comb Sort](sort/comb_sort.jl)
+- [Quick Sort](sort/quick_sort.jl)

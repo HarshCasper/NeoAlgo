@@ -115,6 +115,7 @@
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Groups Anagrams](cp/Group_Anagrams.cpp)
 
 ## Data Structures
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)
@@ -192,6 +193,7 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Searching in BST](ds/Searching_in_BST.cpp)
 
 ## Graphs
 
@@ -213,6 +215,7 @@
 - [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
+- [Number of Connected Components](graphs/number_of_connected_components.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kosaraju Algorithm](graphs/Kosaraju_Algorithm.cpp)
 - [Kruskal's Algorithm](graphs/kruskal_Algorithm.cpp)
@@ -221,6 +224,7 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.cpp)
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)

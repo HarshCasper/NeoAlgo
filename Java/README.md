@@ -22,7 +22,7 @@
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
-
+- [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
 ## Blockchain
 
 _add list here_
@@ -154,6 +154,7 @@ _add list here_
 - [Balanced Brackets](ds/balancedBrackets.java)
 - [Median of Two Sorted Arrays](ds/MedianOfSortedArrays.java)
 - [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
+- [Double Ended Queue in Java](ds/DEQueue.java)
 
 ## Graphs
 

@@ -1,36 +1,46 @@
-/*palindrome number is the number which when reversed remains the same number*/
-#include <iostream>
+// C++ program to check if a number is a palindrome or not
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-     int n, num, digit, rev = 0;
-     cout << "Enter a positive number: ";
-     cin >> num;
-     n = num;//storing original value of num
-     do
-     {
-         digit = num % 10;
-         rev = (rev * 10) + digit;
-         num = num / 10;
-     } while (num != 0);
+    int num, temp, rev = 0;
+    cout << "Enter the number:  ";
+    cin >> num;
+    temp = num;
+    /*To check if a number is palindrome, we reverse the number
+    and then compare it with the given number */
+    while (temp)
+    {
+        int rem = temp % 10;
+        rev = rev * 10 + rem;
+        temp = temp / 10;
+    }
+    if (rev == num)
+    {
+        cout << "The given number is a palindrome number";
+    }
+    else
+    {
+        cout << "The given number is not a palindrome number";
+    }
+    return 0;
+}
 
-     if (n == rev)
-         cout << " The number is a palindrome.";
-     else
-         cout << " The number is not a palindrome.";
-    return 0;}
 /*
-      sample input 1
-      Enter a positive number: 232
-      sample output 1
-      The number is a palindrome.
-      sample input 2
-      Enter a positive number: 456
-      sample output 2
-      The number is not a palindrome.
-      sample input 3
-      Enter a positive number: 12321
-      sample output 3
-      The number is a palindrome.
+Time Complexity: O(log(num)), where 'num' is the given number
+Space Complexity: O(1)
+
+SAMPLE INPUT AND OUTPUT
+
+SAMPLE 1
+
+Enter the number:  14321
+The given number is not a palindrome number
+
+SAMPLE 2
+
+Enter the number:  43234
+The given number is a palindrome number
+
 */

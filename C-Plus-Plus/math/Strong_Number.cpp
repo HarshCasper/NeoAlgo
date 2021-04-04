@@ -35,9 +35,9 @@ Time Complexity: O(n*9)
 Space Complexity: O(1)
 
 sample 1:
-Input: 145
+Input: Enter a number to check whether it is a strong number or not:  145
 Output: 145 is a strong number.
 sample 2:
-Input: 2
+Input: Enter a number to check whether it is a strong number or not: 2
 output: 2 is not a strong number.
 */ 

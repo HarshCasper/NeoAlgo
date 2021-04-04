@@ -9,6 +9,7 @@ For example: A list of characters is sorted in increasing order of their ASCII v
 ## Sorting
 
 - [Bubble Sort](sort/Bubble_Sort.py)
+- [Comb Sort](sort/comb_sort.py)
 - [Selection Sort](sort/Selection_Sort.py)
 - [Insertion Sort](sort/insertion.py)
 - [Quick Sort](sort/QuickSort.py)

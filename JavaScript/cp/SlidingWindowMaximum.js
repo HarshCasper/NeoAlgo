@@ -70,16 +70,21 @@ const slidingWindowMaximum = (nums, k) => {
 }
 
 //Using the readline() function of JavaScript to take input from the user
-console.log("Enter the elements of the array and the window length k");
+console.log("Enter the elements of of the array along with the size of the window");
 
 //list is input array
 let list = readline()
     .split(" ")
     .map((x) => parseInt(x));
 
+// First n elements represent the elements in the array
 let n = list.length-1;
+
+// Last element of the list represents the size of the window k
 let k = list[n];
 
+/* Using list slicing and passing the first n elements to the
+ function as the first parameter and k as the second parameter */
 console.log(slidingWindowMaximum(list.slice(0, n), k));
 
 /* 
@@ -93,16 +98,6 @@ k = 2
 Output:
 
 [3, 2, 2, 3]
-
-Example 2:
-
-Input:
-
-nums = [3, 2, 1, 2, 3]
-k = 5
-
-Output:
-[3]
 
 Time Complexity : O(N)
 Space Complexity : O(K)

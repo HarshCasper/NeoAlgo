@@ -65,7 +65,7 @@ let k = list[n];
 
 /* Using list slicing and passing the first n elements to the
  function as the first parameter and k as the second parameter */
-console.log("Array of first negative integer in every window of size K is", 
+console.log("Array of first negative integer in every window of size ", k ," is ", 
 firstNegativeIntegerInEveryWindowOfSizeK(list.slice(0, n), k));
 
 /*

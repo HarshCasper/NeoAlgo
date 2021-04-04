@@ -85,7 +85,7 @@ let k = list[n];
 
 /* Using list slicing and passing the first n elements to the
  function as the first parameter and k as the second parameter */
-console.log(slidingWindowMaximum(list.slice(0, n), k));
+console.log("Array of maximum element in every window of size ", k, " is" ,slidingWindowMaximum(list.slice(0, n), k));
 
 /* 
 Example 1:

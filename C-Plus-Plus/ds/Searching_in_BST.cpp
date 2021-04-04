@@ -95,10 +95,14 @@ int main(){
 /* 
 	Test Case :
 
-	Input : 1 2 3 4 5 6 -1
+	Input :
+	Enter the data for the node:
+	1 2 3 4 5 6 -1
+	Enter the element to search:	
 	4
-
-	Outout : true
+	
+	Outout : 
+	The result is: true
 
 	Time Complexity: O(n), in worst case (when BST is a right skew tree).
 	Space Complexity: O(n), for recursive stack.

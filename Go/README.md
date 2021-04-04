@@ -47,6 +47,9 @@
 - [Happy Number](math/Happy_Number)
 - [Catalan Number](math/Catalan_Number)
 - [Decimal to Binary](math/Decimal_to_Binary)
+- [Ugly Number](math/Ugly_Number)
+- [Fibonacci Number](math/Fibonacci)
+- [Mystery Number](math/Mystery_Number)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)
@@ -74,4 +77,11 @@
 - [Vernam Cipher](cryptography/Vernam_Cipher)
 - [Vigenere Cipher](cryptography/Vigenere_Cipher)
 - [Keyword Cipher](cryptography/Keyword_Cipher)
+- [Columnar Cipher](cryptography/Columnar_Cipher)
+- [Hill Cipher](cryptography/Hill_Cipher)
+- [RailFence Cipher](cryptography/RailFence_Cipher) 
+- [Monoalphabetic Cipher](cryptography/Monoalphabetic_Cipher)
+- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher)
+- [PlayFair Cipher](cryptography/PlayFair_Cipher)
+- [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform)
 

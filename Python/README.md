@@ -32,6 +32,7 @@
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
 * [Bubble Sort](sort/Bubble_Sort.py)
+* [Gnome Sort](sort/gnome_sort.py)
 * [Comb Sort](sort/comb_sort.py)
 * [Heap Sort](sort/Heap_sort.py)
 * [Insertion Sort](sort/insertion.py)
@@ -73,6 +74,7 @@
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 - [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
+- [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
 
 
 ## Competitive Programming
@@ -200,6 +202,7 @@
 - [Count Derangements](dp/count_derangements.py)
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
+- [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 
 ## Pathfinding Algorithms
 

@@ -20,12 +20,26 @@
 
 ## Dynamic Programming
 
+- [Golomb Sequence](dp/golomb_sequence.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
 
 ## Mathematics
 
+- [Armstrong Number](math/armstrong_number.jl)
+- [Palindrome Number](math/check_palindrome.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
+- [Magic Number](math/magic_number.jl)
+- [Mystery Number](math/mystery_number.jl)
+- [Neon Number](math/neon_number.jl)
+- [Sum of Digits](math/sum_of_digits.jl)
+
+## Searching
+
+- [Binary Search](search/binary_search.jl)
+- [Jump Search](search/jump_search.jl)
+- [Linear Search](search/linear_search.jl)
+- [Ternary Search](search/ternary_search.jl)
 
 ## Sorting
 

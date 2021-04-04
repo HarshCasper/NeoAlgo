@@ -166,6 +166,7 @@
 - [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_LinkedList.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+- [Inversion Vector of a Singly Linked List](ds/inversion_vector.cpp)
 - [inverse of an array](C-Plus-Plus/ds/inverse_of_an_array.cpp)
 - [Iterative postorder traversal](ds/iterative_postorder.cpp)
 - [Iterative preorder traversal](ds/iterative_preorder.cpp)

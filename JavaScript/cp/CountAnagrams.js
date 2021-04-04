@@ -69,11 +69,12 @@ console.log("Number of substrings which contains the anagram ", list[0], " in ",
 Example 1:
 
 Input:
-ab
-aab
+
+ab aab
 
 Output:
-1
+
+Number of substrings which contains the anagram ab in aab is 1
 
 Time Complexity: O(N)
 Space Complexity: O(K)

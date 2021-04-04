@@ -92,12 +92,11 @@ Example 1:
 
 Input:
 
-nums = [3, 2, 1, 2, 3]
-k = 2
+3 2 1 2 3 2
 
 Output:
 
-[3, 2, 2, 3]
+Array of maximum element in every window of size 2 is [3, 2, 2, 3]
 
 Time Complexity : O(N)
 Space Complexity : O(K)

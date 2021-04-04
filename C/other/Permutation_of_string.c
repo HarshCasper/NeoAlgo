@@ -56,8 +56,8 @@ void swap(char *a,char *b)
 	//swapping done
 }
 /*Example:
-Input:  Enter a String abc
-Output: The Permutation of String are:
+Input:  Enter a string abc
+Output: The Permutation of string are:
         1(abc)
         2(acb)
         3(bac)

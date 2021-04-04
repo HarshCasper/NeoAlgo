@@ -52,14 +52,18 @@ const countAnagrams = (word, text) => {
     return ans;
 }
 
-console.log("Enter the word to be found and the string");
+
+console.log("Enter the word to be found and the text in which the word needs to be searched");
 
 /* List stores the word and the text */
 let list = readline()
     .split(" ")
     .map((element) => element);
 
-console.log(countAnagrams(list[0], list[1]));
+/* Only two elements are present in the list, the first one 
+represents the word to be searched and the second one 
+represents the text in which the word is searched in  */
+console.log("Number of substrings which contains the anagram = ", countAnagrams(list[0], list[1]));
 
 /* 
 Example 1:
@@ -70,15 +74,6 @@ aab
 
 Output:
 1
-
-Example 2:
-
-Input:
-abc
-bcabxabc
-
-Output:
-3
 
 Time Complexity: O(N)
 Space Complexity: O(K)

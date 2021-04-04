@@ -10,7 +10,6 @@ WHAT IS DESCENDING PRIORITY QUEUE ?
 */
 
 #include <stdio.h>
-#include <conio.h>
 #include <stdlib.h>
 #define size 5
 

@@ -165,6 +165,7 @@
 - [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_LinkedList.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+- [inverse of an array](C-Plus-Plus/ds/inverse_of_an_array.cpp)
 - [Iterative postorder traversal](ds/iterative_postorder.cpp)
 - [Iterative preorder traversal](ds/iterative_preorder.cpp)
 - [Iterative inorder traversal](ds/iterative_inorder.cpp)
@@ -191,7 +192,6 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
-
 
 ## Graphs
 

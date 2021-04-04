@@ -1,12 +1,9 @@
 /****************************************************************************
-Author - @Suvraneel 
-        Suvraneel Bhuin
+ Author: @Suvraneel Bhuin
 
-Create a singly linked list X of integers. A pair (xi,xj) is called an inversion of X if for i < j , xi > xj.
-The inversion vector of X is the sequence of integers d1, d2,.. dn such that dj is the number of elements greater than xj 
-and to its left in the sequence, so 0 <= dj < j. Compute the inversion vector for a given permutation.
-Ex: Given link list X : 4-> 3-> 5-> 2-> 1-> 7-> 8-> 6-> 9.
-Inversion of X: 0, 1, 0, 3, 4, 0, 0, 2, 0
+ Create a singly linked list X of integers. A pair (xi,xj) is called an inversion of X if for i < j , xi > xj. The inversion vector of X is the sequence of integers d1, d2,.. dn such that dj is the number of elements greater than xj and to its left in the sequence, so 0 <= dj < j. Compute the inversion vector for a given permutation.
+ Ex: Given link list X : 4-> 3-> 5-> 2-> 1->
+ Inversion of X: 0, 1, 0, 3, 4
  ***************************************************************************/
 
 #include <bits/stdc++.h>
@@ -19,59 +16,9 @@ typedef struct node
     struct node *next;
 }node;
 
-//function list
-node* create_node(int);
-void insert_node();
-void display();
-void inversion();
-
 //global nodes
 node *newnode, *ptr, *inv;
 node *first = NULL, *last = NULL;
-
-
-//main driver code
- int main()
- {
-    int choice;
-    cout << endl << "---------------------------------";
-    cout << endl << "1-Insert node";
-    cout << endl << "2-Display current list";
-    cout << endl << "3-Compute Inversion vector";
-    cout << endl << "4-Exit";
-    cout << endl << "---------------------------------";
-    while (1)
-    {
-        cout << endl << endl << "Enter your choice : ";
-        cin >> choice;
-
-        switch (choice)
-        {
-        case 1:
-            insert_node();
-            break;
-
-        case 2:
-            cout << endl << "Current List :\t";
-            display();
-            break;
-
-        case 3:
-            cout << endl << "Inversion vector :";
-            inversion();
-            break;
-
-        case 4:
-            cout << "Program was terminated";
-            exit(0);
-
-        default:
-            cout << endl << "Invalid Choice";
-            break;
-        }
-    }
-    return 0;
- }
 
 //creation of new node
 node* create_node(int val)
@@ -149,8 +96,51 @@ void display()
             cout << ptr->value << " -> ";
 }
 
+//main driver code
+ int main()
+ {
+    int choice;
+    cout << endl << "---------------------------------";
+    cout << endl << "1-Insert node";
+    cout << endl << "2-Display current list";
+    cout << endl << "3-Compute Inversion vector";
+    cout << endl << "4-Exit";
+    cout << endl << "---------------------------------";
+    while (1)
+    {
+        cout << endl << endl << "Enter your choice : ";
+        cin >> choice;
+
+        switch (choice)
+        {
+        case 1:
+            insert_node();
+            break;
+
+        case 2:
+            cout << endl << "Current List :\t";
+            display();
+            break;
+
+        case 3:
+            cout << endl << "Inversion vector :";
+            inversion();
+            break;
+
+        case 4:
+            cout << "Program was terminated";
+            exit(0);
+
+        default:
+            cout << endl << "Invalid Choice";
+            break;
+        }
+    }
+    return 0;
+ }
 /*
 Time Complexity of Inversion Vector = O(n^2)
+Space Complexity = O(n)
 
 Sample Run:
 ---------------------------------
@@ -180,29 +170,13 @@ Enter your choice : 1
 Enter value of the Node:        1
 1 inserted as node
 
-Enter your choice : 1
-Enter value of the Node:        7
-7 inserted as node
-
-Enter your choice : 1
-Enter value of the Node:        8
-8 inserted as node
-
-Enter your choice : 1
-Enter value of the Node:        6
-6 inserted as node
-
-Enter your choice : 1
-Enter value of the Node:        9
-9 inserted as node
-
 Enter your choice : 2
 
-Current List :  4 -> 3 -> 5 -> 2 -> 1 -> 7 -> 8 -> 6 -> 9 ->
+Current List :  4 -> 3 -> 5 -> 2 -> 1 ->
 
 Enter your choice : 3
 
-Inversion vector :   0   1   0   3   4   0   0   2   0
+Inversion vector :   0   1   0   3   4
 
 Enter your choice : 4
 Program was terminated

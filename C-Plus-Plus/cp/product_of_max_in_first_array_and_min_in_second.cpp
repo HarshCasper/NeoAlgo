@@ -1,8 +1,18 @@
 /*Given two arrays, the task is to calculate the product of max element of first array and min element of second array*/
 
+/*Given two arrays, the task is to calculate the product of max element of first array and min element of second array*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
+int find_product(int a[], int b[], int n, int m)
+    {
+        //main logic 
+        int num1=*max_element(a, a+ n);
+        int num2=*min_element(b, b+ m);
+        int r=num1*num2;
+        return r;
+    }
 //main function
 int main()
 {
@@ -13,12 +23,8 @@ int main()
     //calculating the number of elements in the two array
     int n = sizeof(a) / sizeof(a[0]);
     int m = sizeof(b) / sizeof(b[0]);
-    
-    //main logic 
-    int num1=*max_element(a, a+ n);
-    int num2=*min_element(b, b+ m);
-    int r=num1*num2;
-    cout<<r;
+    int prod=find_product(a,b,n,m);
+    cout<<prod;
     return 0;
 }
 
@@ -31,7 +37,7 @@ int main()
   is 2. The product of these two is 16.
   
   Input1 : a[] = { 7, -3, 5, -8, 4},  
-           b[] { 9, 8, 6, -4, 2}
+           b[] = { 9, 8, 6, -4, 2}
 
   Output : -28
   max element in first array 

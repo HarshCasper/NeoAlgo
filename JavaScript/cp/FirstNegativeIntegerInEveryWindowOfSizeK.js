@@ -73,12 +73,11 @@ Example 1:
 
 Input:
 
-nums = [-8, 2, 3, -6, 10]
-k = 2
+-8 2 3 -6 10 2
 
 Output:
 
-[-8, 0, -6, -6]
+Array of first negative integer in every window of size 2 is [-8, 0, -6, -6]
 
 Time Complexity: O(N)
 Space Complexity: O(K)

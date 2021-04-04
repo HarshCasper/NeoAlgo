@@ -1,5 +1,5 @@
 """
-CombSort Algorithm Implementation in Python 3
+CombSort Algorithm
 
 Purpose:
 Comb sort is a relatively simple sorting algorithm.
@@ -7,16 +7,6 @@ Comb sort improves on bubble sort algorithm.
 In bubble sort, distance (or gap) between two compared elements is always one.
 Comb sort improvement is that gap can be much more than 1, in order to prevent
 slowing down by small values at the end of a list.
-
-Time Complexity :
-Worst case complexity is O(n^2)
-Best Case complexity is O(n log n)
-
-Space Complexity: O(1)
-
-Argument/ Return Type:
-arr : Unorded list
-output : Return list in ascending order
 
 """
 
@@ -71,4 +61,10 @@ Enter the element one at a time: 12
 Sample output:
 The unsorted array you have given is: [7, 3, 9, 2, 12]
 The sorted array using combsort method is: [2, 3, 7, 9, 12]
+
+Time Complexity :
+Worst case complexity is O(n^2)
+Best Case complexity is O(n log n)
+
+Space Complexity: O(1)
 """

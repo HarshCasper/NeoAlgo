@@ -1,10 +1,18 @@
-﻿//Given the head pointer to a linked list of length n and an integer k, we have to reverse every alternate k nodes in the linked list.
+﻿/*Given the head pointer to a linked list of length n and an integer k, we have to reverse every alternate k nodes in the linked list.
 
+Approach:
+1.Reverse the first k nodes
+2.Link the next of head of the modified list to the (k+1)th node 
+3.Traverse the next k nodes to skip their reversal
+4.Since 2k nodes are already processed,recursively call the function for the rest n-2k nodes
+5.Return the new head of the list
+
+*/
 
 import java.util.*;
 public class Reverse_alternate_k_Nodes {
 
-    // creating the head of the list
+    //creating the head of the list
     static Node head;
 
     //class which defines the structure of each node in the list

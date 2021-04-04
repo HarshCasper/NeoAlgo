@@ -60,7 +60,7 @@
 - [Linear Search](search/linear_search)
 - [Recursive Binary Search](search/Binary_Recursive_Search)
 - [Jump Search](search/Jump_Search)
-- [Linear Search Recursive](search/linear_search)
+- [Linear Search Recursive](search/linear_search_recursive)
 
 ## Sorting
 - [Bubble Sort](sort/bubble_sort)

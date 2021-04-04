@@ -10,7 +10,6 @@ then, the smallest number, i.e., 1 is given as the highest priority in a Ascendi
 */
 
 #include <stdio.h>
-#include <conio.h>
 #include <stdlib.h>
 #define size 5
 

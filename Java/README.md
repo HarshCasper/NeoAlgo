@@ -22,13 +22,14 @@
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
-
+- [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
 ## Blockchain
 
 _add list here_
 
 ## Competitive programming
 
+- [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
 - [Next Greater Element](cp/Next_Greater_Element.java)
 - [Maximum Function](cp/Maximum_Function.java)
@@ -93,6 +94,8 @@ _add list here_
 - [Count Occurrences of Anagrams](cp/CountAnagrams.java)
 - [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
+- [Rat In A Maze](cp/RatInAMaze.java)
+- [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
 
 ## Cryptography
 
@@ -102,6 +105,11 @@ _add list here_
 - [Rail Fence Cipher](cryptography/RailFenceCipher.java)
 - [Simple Columnar Transposition Cipher](cryptography/SimpleColumnarTranspositionCipher.java)
 - [Simple Columnar Transposition Cipher With Multiple Rounds](cryptography/SimpleColumnarTranspositionWithMultipleRoundsCipher.java)
+- [Vernam Cipher](cryptography/vernamCipher.java)
+- [Key Word Cipher](cryptography/KeyWord.java)
+- [Hill Cipher](cryptography/HillCipher.java)
+- [Vigenere Cipher](cryptography/VigenereCipher.java)
+- [Playfair Cipher](cryptography/PlayFairCipher.java)
 
 ## Dynamic Programming
 
@@ -113,10 +121,12 @@ _add list here_
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Make String Palindrome](dp/Make_string_palindrome_using_DP.java)
 - [Optimal Binary Search Tree](dp/Optimal_Binary_Search_tree_using_DP.java)
+- [Flight of stairs](dp/FlightOfStairs.java)
 
 ## Data Structures
 
 - [Binary Tree](ds/Binary_Tree.java)
+- [Level order traversal of a tree](ds/LevelOrderTraversalRecursion.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
@@ -125,6 +135,7 @@ _add list here_
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
 - [Matrix Sorting](ds/MatrixSorting.java)
 - [Merge Two Sorted Arrays](ds/MergeSortedArrays.java)
+- [Middle Of LinkedList](ds/MiddleOfLinkedList.java)
 - [Queue Basic Functionalities](ds/queue.java)
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
@@ -143,6 +154,7 @@ _add list here_
 - [Balanced Brackets](ds/balancedBrackets.java)
 - [Median of Two Sorted Arrays](ds/MedianOfSortedArrays.java)
 - [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
+- [Double Ended Queue in Java](ds/DEQueue.java)
 
 ## Graphs
 
@@ -178,7 +190,12 @@ _add list here_
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
+- [Ascii of string](math/AsciiOfString.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
+- [Transpose of Matrix](math/Matrix_Transpose.java)
+- [Tribonacci series upto n terms](math/tribonacci.java)
+- [HappyNumber](math/HappyNumber.java)
+- [MagicNumber](math/Magicnumber.java)
 
 ## Dynamic Programming
 
@@ -211,6 +228,7 @@ _add list here_
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
 - [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
+- [Recursive Binary Search](search/BinarySearchRecursive.java)
 
 ## Sorting
 
@@ -254,9 +272,11 @@ _add list here_
 - [Find the numbers](other/FindNumbers.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
+- [Insert Position](other/InsertPosition.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [One plus to the whole](other/OnePlustoWhole.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)

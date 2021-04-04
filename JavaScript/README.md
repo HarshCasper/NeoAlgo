@@ -71,7 +71,9 @@ _add list here_
 
 ## Competitive Programming
 
-_add list here_
+- [Sliding Window Maximum](./cp/SlidingWindowMaximum.js)
+- [Count Anagrams](./cp/CountAnagrams.js)
+- [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
 
 ## Dynamic Programming
 

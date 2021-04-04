@@ -21,8 +21,7 @@ class Helper {
     int solve(int[] price , int[] size , int m , int n  )
     {
         // Create 2-D array to store the value of profit 
-        int dp[][] = new int[m+1][n+1] ;
-        
+        int dp[][] = new int[m+1][n+1] ;        
         for(int i = 0 ; i < m + 1; i++)
         {
             for(int j = 0 ; j < n + 1 ; j++)
@@ -30,12 +29,11 @@ class Helper {
                 // if size = 0 or there is 0 value for the size
                 if(i == 0 || j ==0 )
                 {
-                    dp[i][j] = 0;
-                    
+                    dp[i][j] = 0;                    
                 }
                 /*  if size is less than the current max size then 
                   get the max price from size or neglect if not needed
-                  */
+                */
                 else if(size[i-1] <= j )
                 {
                     dp[i][j] = Math.max(price[i-1] + dp[i][j - size[i-1] ] , dp[i-1][j] ) ;
@@ -48,8 +46,7 @@ class Helper {
             }
         }
         return dp[m][n];
-    }
-    
+    }    
 }
 // main class which contains main method
 public class Rod_Cutting {	
@@ -61,11 +58,11 @@ public class Rod_Cutting {
 	        	System.out.println("Enter length of rod");
 	            int n = sc.nextInt();
 	            int[] arr = new int[n];
-                // get values of price 
+                    // get values of price 
 	            System.out.println("Enter price of each length");
 	            for (int i = 0; i < n; i++) 
 	            	arr[i] = sc.nextInt();
-            //Creating object of another class 
+                    // Creating object of another class 
 	            Helper help = new Helper();
 	            System.out.println(help.getValue(arr, n));
 	        }
@@ -85,6 +82,3 @@ The maximum value we get is 22 by cutting in two pieces of lengths 2 and 6 . So 
 Time Complexity : O(N^2)
 Space Complexity : O(N)
 */
-
-
-

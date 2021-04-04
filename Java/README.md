@@ -22,7 +22,7 @@
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
-
+- [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
 ## Blockchain
 
 _add list here_
@@ -95,6 +95,7 @@ _add list here_
 - [Maximum of All Subarrays of Size K](cp/MaximumEachSubarray.java)
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 - [Rat In A Maze](cp/RatInAMaze.java)
+- [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
 
 ## Cryptography
 
@@ -108,6 +109,7 @@ _add list here_
 - [Key Word Cipher](cryptography/KeyWord.java)
 - [Hill Cipher](cryptography/HillCipher.java)
 - [Vigenere Cipher](cryptography/VigenereCipher.java)
+- [Playfair Cipher](cryptography/PlayFairCipher.java)
 
 ## Dynamic Programming
 
@@ -119,10 +121,12 @@ _add list here_
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Make String Palindrome](dp/Make_string_palindrome_using_DP.java)
 - [Optimal Binary Search Tree](dp/Optimal_Binary_Search_tree_using_DP.java)
+- [Flight of stairs](dp/FlightOfStairs.java)
 
 ## Data Structures
 
 - [Binary Tree](ds/Binary_Tree.java)
+- [Level order traversal of a tree](ds/LevelOrderTraversalRecursion.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
@@ -150,6 +154,7 @@ _add list here_
 - [Balanced Brackets](ds/balancedBrackets.java)
 - [Median of Two Sorted Arrays](ds/MedianOfSortedArrays.java)
 - [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
+- [Double Ended Queue in Java](ds/DEQueue.java)
 
 ## Graphs
 
@@ -223,6 +228,7 @@ _add list here_
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
 - [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
+- [Recursive Binary Search](search/BinarySearchRecursive.java)
 
 ## Sorting
 
@@ -266,6 +272,7 @@ _add list here_
 - [Find the numbers](other/FindNumbers.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
+- [Insert Position](other/InsertPosition.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)

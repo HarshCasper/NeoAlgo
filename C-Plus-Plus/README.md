@@ -284,6 +284,7 @@
 - [Wiggle Sort](sort/wiggle_sort.cpp)
 - [Quotient-Remainder Sort](sort/Quotient-Remainder_Sort.cpp)
 - [Binary-Insertion Sort](sort/Binary_Insertion_Sort.cpp)
+- [Tim Sort](sort/Tim_Sort.cpp)
 
 ## Stack based problems
 

@@ -1,4 +1,3 @@
-
 /**
  * Double Ended Queue is a linear data structure which follows both -
  * LIFO(Last In First Out) and FIFO(First In First Out).
@@ -28,7 +27,9 @@
  * To take input from the user, Scanner class has been instantiated.
  * 
  */
+
 import java.util.*;
+
 public class DEQueue
 {
     Scanner scanner = new Scanner(System.in);
@@ -45,17 +46,6 @@ public class DEQueue
 
     void pushfront(int value)
     {
-        /* Algorithm:
-         * 1. Check if the queue is full (no. of elements==size).
-         *      If true, queue is full, print "Overflow" and exit.
-         *      If false, queue is not full, go to Step 2.
-         * 2. Check if there is space in the front end of the queue (front==0).
-         *      If true, front end is full, print "Front full" and exit.
-         *      If false, front end is not full, go to Step 3.
-         * 3. Increment the number of elements by 1.
-         * 4. Decrement the front pointer by 1.
-         * 5. Assign the memory space pointed by front the value received as formal parameter.
-         */
         if(elements==dequeue.length)
         { 
             System.out.println("Overflow");
@@ -77,16 +67,6 @@ public class DEQueue
 
     void pushrear(int value)
     {
-        /* Algorithm:
-         * 1. Check if the queue is full (no. of elements==size).
-         *      If true, queue is full, print "Overflow" and exit.
-         *      If false, queue is not full, go to Step 2.
-         * 2. Increment the number of elements by 1.
-         * 3. Increment the rear pointer by 1.
-         * 4. Check if queue is empty (front==-1).
-         *      If true, change the pointer to point at the first element.
-         * 5. Assign the memory space pointed by front the value received as formal parameter.
-         */
         if(elements==dequeue.length)
         {
             System.out.println("Overflow");
@@ -105,17 +85,6 @@ public class DEQueue
 
     int popfront()
     {
-        /* Algorithm:
-         * 1. Check if the queue is empty (no. of elements==0).
-         *      If true, queue is empty, print "Underflow" and exit.
-         *      If false, queue is not empty, go to Step 2.
-         * 2. Assignt a temporary variable the value pinted by the front pointer.
-         * 3. Increment the front pointer by 1.
-         * 3. Decrement the number of elements by 1.
-         * 4. Check if queue is empty (no. of elements==0).
-         *      If true, reset the front and rear pointers to original value.
-         * 5. Return the value stored in temporary variable.
-         */
         int temp=0;
         if(elements==0)
         {
@@ -137,17 +106,6 @@ public class DEQueue
 
     int poprear()
     {
-        /* Algorithm:
-         * 1. Check if the queue is empty (no. of elements==0).
-         *      If true, queue is empty, print "Underflow" and exit.
-         *      If false, queue is not empty, go to Step 2.
-         * 2. Assignt a temporary variable the value pinted by the rear pointer.
-         * 3. Decrement the rear pointer by 1.
-         * 3. Decrement the number of elements by 1.
-         * 4. Check if queue is empty (no. of elements==0).
-         *      If true, reset the front and rear pointers to original value.
-         * 5. Return the value stored in temporary variable.
-         */
         int temp=0;
         if(elements==0)
         {
@@ -188,7 +146,8 @@ public class DEQueue
         // Driver code to call all the methods, until the user wishes
 
         System.out.println("Enter size of the dequeue: ");
-        int size = scanner.nextInt(); scanner.nextLine();
+        int size = scanner.nextInt(); 
+        scanner.nextLine();
 
         DEQueue ob = new DEQueue(size);
 
@@ -204,35 +163,38 @@ public class DEQueue
         while(flag!=0)
         {
             System.out.println("Enter your choice");
-            int choice = scanner.nextInt(); scanner.nextLine();
+            int choice = scanner.nextInt(); 
+            scanner.nextLine();
+            
             switch(choice)
             {
                 case 1:
                 System.out.println("Enter element to be inserted: ");
                 value = scanner.nextInt(); scanner.nextLine();
-                ob.pushfront(value);
+                    ob.pushfront(value);
                 break;
 
                 case 2:
                 System.out.println("Enter element to be inserted: ");
                 value = scanner.nextInt(); scanner.nextLine();
-                ob.pushrear(value);
+                    ob.pushrear(value);
                 break;
 
                 case 3:
-                ob.popfront();
+                    ob.popfront();
                 break;
 
                 case 4:
-                ob.poprear();
+                    ob.poprear();
                 break;
 
                 case 5:
-                ob.display();
+                    ob.display();
                 break;
             }
             System.out.println("Would you like to continue? Enter 1 for YES and 0 for NO:");
-            flag = scanner.nextInt(); scanner.nextLine();
+            flag = scanner.nextInt(); 
+            scanner.nextLine();
         }
     }
 }

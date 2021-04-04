@@ -10,7 +10,7 @@ int main()
     char *s;
     // dynamically creating string length
     s=(char*)malloc(sizeof(char)*1000);
-	printf("Enter a string");
+	printf("Enter a string ");
     // getting string
     gets(s);
     // changing size to the length of string+1 to store null at end
@@ -56,8 +56,9 @@ void swap(char *a,char *b)
 	//swapping done
 }
 /*Example:
-Input: abc
-Output: 1(abc)
+Input:  Enter a String abc
+Output: The Permutation of String are:
+        1(abc)
         2(acb)
         3(bac)
         4(bca)

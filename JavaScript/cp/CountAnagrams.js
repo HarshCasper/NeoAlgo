@@ -63,7 +63,7 @@ let list = readline()
 /* Only two elements are present in the list, the first one 
 represents the word to be searched and the second one 
 represents the text in which the word is searched in  */
-console.log("Number of substrings which contains the anagram = ", countAnagrams(list[0], list[1]));
+console.log("Number of substrings which contains the anagram ", list[0], " in ", list[1], " is ", countAnagrams(list[0], list[1]));
 
 /* 
 Example 1:

@@ -6,7 +6,7 @@
     Note : we need to the give the input as a 
            sorted array 
 
-    Here we us ethe fibonacci number starting 
+    Here we use the fibonacci number starting 
     form 0 and so on.....
 
     i.e, 0,1,1,2,3,5,8,13,21 ....

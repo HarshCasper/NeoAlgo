@@ -144,6 +144,31 @@ class DoublyLinkedList {
     return this;
   }
 
+  // Reverse the doubly linked list
+  reverse() {
+    // if only one node is present
+    if (!this.head.next) {
+      return this.head;
+    }
+
+    let first = this.head;
+    this.tail = this.head;
+    let second = first.next;
+
+    // Start looping & changing the prev & next pointer of nodes
+    while (second) {
+      const temp = second.next;
+      second.prev = second.next;
+      second.next = first;
+      first = second;
+      second = temp;
+    }
+
+    this.head.prev = this.head.next;
+    this.head.next = null;
+    this.head = first;
+  }
+
   // Displaying all the nodes of doubly linked list
   printList() {
     let array = [];
@@ -175,6 +200,7 @@ do {
   console.log("3. Prepend element in the Doubly Linked List".insert);
   console.log("4. Insert anywhere in between the Doubly Linked List".insert);
   console.log("5. Delete element from Doubly Linked List".delete);
+  console.log("6. Reverse the Doubly Linked List".display);
 
   choice = +prompt("Enter your choice - ");
 
@@ -232,6 +258,15 @@ do {
       console.log( "After Deletion Doubly Linked List - ", myDoublyLinkedList.printList());
       break;
 
+    case 6:
+      if (myDoublyLinkedList.length === 0) {
+        return console.log("404, well DLL is empty".wrong);
+      }
+  
+      myDoublyLinkedList.reverse();
+      console.log("Reversed Doubly Linked List - ", myDoublyLinkedList.printList());
+      break;
+
     default:
       console.log("You know this is wrong, Bbye!\n".wrong);
       return;
@@ -253,6 +288,7 @@ Follow the instructions to get in the show
 3. Prepend element in the Doubly Linked List
 4. Insert anywhere in between the Doubly Linked List
 5. Delete element from Doubly Linked List
+6. Reverse the Doubly Linked List
 Enter your choice - 1
 Doubly Linked List -  [ 22 ]
 
@@ -266,6 +302,7 @@ Follow the instructions to get in the show
 5. Delete element from Doubly Linked List
 Enter your choice - 3
 Enter Value to Prepend element - 23
+6. Reverse the Doubly Linked List
 After Prepend Doubly Linked List -  [ 23, 22 ]
 
 Welcome to the Doubly Linked List Show
@@ -278,7 +315,17 @@ Follow the instructions to get in the show
 5. Delete element from Doubly Linked List
 Enter your choice - 5
 Enter position of element - 2
+6. Reverse the Doubly Linked List
 After Deletion Doubly Linked List -  [ 23 ]
+
+( add few elements > 21, 45, 62, 12, 40 )
+
+Enter your choice - 1
+Doubly Linked List - [23, 21, 45, 62, 12, 40]
+
+Enter your choice - 6
+Reversed Doubly Linked List - [40, 12, 62, 45, 21, 23]
+
 
 */
 

@@ -72,12 +72,14 @@ int main()
         (t + i)->link = NULL;
     while (1)
     {
+        printf("Enter your choice\n1.insert into hashtable\n2.check whether the element is in the hashtable\n3.print hashtable\n4.Exit\n");
         int choice;
         scanf("%d", &choice);
         switch (choice)
         {
         case 1:
         {
+            printf("Enter the value to be inserted\n");
             int value;
             scanf("%d", &value);
             Chaining(t, value);
@@ -86,10 +88,16 @@ int main()
 
         case 2:
         {
+            printf("Enter the value to check whether the element is in the hashtable\n");
             int value;
             scanf("%d", &value);
             int exists = does_exist(t, value);
-            printf("%d\n", exists);
+            if(exists){
+                printf("The element exists in the hashtable\n");
+            }
+            else{
+                printf("The element doesn't exist in the hashtable\n");
+            }
         }
         break;
 
@@ -115,7 +123,6 @@ Enter your choice
 3.print hashtable
 4.Exit
 1
-
 Enter the value to be inserted
 1
 Enter your choice
@@ -124,7 +131,6 @@ Enter your choice
 3.print hashtable
 4.Exit
 1
-
 Enter the value to be inserted
 2
 Enter your choice
@@ -133,7 +139,6 @@ Enter your choice
 3.print hashtable
 4.Exit
 1
-
 Enter the value to be inserted
 3
 Enter your choice
@@ -142,10 +147,8 @@ Enter your choice
 3.print hashtable
 4.Exit
 2
-
 Enter the value to check whether the element is in the hashtable
 3
-
 The element is in the hashtable
 Enter your choice
 1.insert into hashtable
@@ -162,7 +165,7 @@ Enter your choice
 3.print hashtable
 4.Exit
 4
-
 Time Complexity = O(n)
 Space Complexity = O(n)
 */
+

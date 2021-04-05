@@ -2,10 +2,7 @@
 /*Given two sorted arrays nums1 and nums2 of size m and n 
 respectively, return the median of the two sorted arrays.*/
 
- // Prompt node package for taking user input
-const prompt = require("prompt-sync")({ sigint: true });
-
-
+//function to find median of sorted arrays
 var findMedianSortedArrays = function(arr1, arr2) {
     //concatenate and sort the arrays
   let arr3 = arr1.concat(arr2).sort(function(a, b){return a-b});
@@ -25,19 +22,24 @@ var findMedianSortedArrays = function(arr1, arr2) {
     }
 };
 
-let size1 = +prompt("Enter array 1 length:  ");
-let size2 = +prompt("Enter array 2 length:  ");
 
-let arr1 = [];
-let arr2 = [];
+var inputArray1 = [];
+var inputArray2 = [];
+var size = prompt("enter size: ");
+var size1 = prompt("enter size: ");//Maximum Array size
 
-// Take array items
-for (let i = 1; i <= size1; i++) {
-  arr1.push(+prompt(`Enter ${i} element - `));
+for(var i=0; i<size; i++) {
+	
+	//Taking Input from user
+	inputArray1[i] = prompt((i+1));
+}
+for(var i=0; i<size1; i++) {
+	
+	//Taking Input from user
+	inputArray2[i] = prompt((i+1));
+}
 
-for (let i = 1; i <= size2; i++) {
-  arr2.push(+prompt(`Enter ${i} element - `));
-console.log(findMedianSortedArrays(arr1,arr2));
+console.log(findMedianSortedArrays(inputArray1,inputArray2));
 /*
 Time complexity: O(n)
 Space complexity: O(n)

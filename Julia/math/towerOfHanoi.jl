@@ -34,5 +34,5 @@ Output:
     Move from C to A
     Move from C to B
     Move from A to B
+Time complexity: O(2^N)
 =#
-

@@ -17,14 +17,14 @@ public class Prime
         {
           put = 0;
           break;
-				}
-			}
+        }
+      }
       if (put == 1)
       {
         System.out.println(i);
-			}
-		}
-	}
+      }
+    }
+  }
 public static void main(String[] args)
 {
   Scanner scan = new Scanner(System. in );
@@ -32,7 +32,7 @@ public static void main(String[] args)
   int first_range = scan.nextInt();
   int second_range = scan.nextInt();
   Prime out = new Prime(first_range, second_range);
-	}
+}
 }
 
 /*

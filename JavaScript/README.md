@@ -33,6 +33,7 @@
 - [Stack](./ds/Stack.js)
 - [Stack using Linked List](./ds/StackLinkedList.js)
 - [Hash Table](./ds/Hash.js)
+- [Recursive postorder traversal of binary search tree](./ds/Recursive_postorder.js)
 
 ## Searching
 

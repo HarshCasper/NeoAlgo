@@ -89,18 +89,19 @@ public class BipartiteCheck {
 
 
 /* 
-    Sample Input: 
-    4
-    4
-    1 2
-    2 3
-    4 3
-    1 4
+Sample Input: 
+4
+4
+1 2
+2 3
+4 3
+1 4
     
-    Output: Is the graph Bipartite? true.
+Output: 
+Is the graph Bipartite? true.
     
-    Time Complexity: O(V + E) where V = vertices, E = edges
-    Space Complexity: O(E) + O(N) for color array + O(N) for queue
+Time Complexity: O(V + E) where V = vertices, E = edges
+Space Complexity: O(E) + O(N) for color array + O(N) for queue
 
 */ 
 

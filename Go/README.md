@@ -49,6 +49,9 @@
 - [Decimal to Binary](math/Decimal_to_Binary)
 - [Ugly Number](math/Ugly_Number)
 - [Fibonacci Number](math/Fibonacci)
+- [Mystery Number](math/Mystery_Number)
+- [Prime Number](math/Prime_Number)
+- [GCD](math/GCD)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)
@@ -59,6 +62,7 @@
 - [Linear Search](search/linear_search)
 - [Recursive Binary Search](search/Binary_Recursive_Search)
 - [Jump Search](search/Jump_Search)
+- [Fibonacci Search](search/Fibonacci_search)
 
 ## Sorting
 - [Bubble Sort](sort/bubble_sort)
@@ -77,3 +81,10 @@
 - [Vigenere Cipher](cryptography/Vigenere_Cipher)
 - [Keyword Cipher](cryptography/Keyword_Cipher)
 - [Columnar Cipher](cryptography/Columnar_Cipher)
+- [Hill Cipher](cryptography/Hill_Cipher)
+- [RailFence Cipher](cryptography/RailFence_Cipher) 
+- [Monoalphabetic Cipher](cryptography/Monoalphabetic_Cipher)
+- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher)
+- [PlayFair Cipher](cryptography/PlayFair_Cipher)
+- [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform)
+

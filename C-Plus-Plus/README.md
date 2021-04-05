@@ -501,4 +501,5 @@ _add list here_
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
+- [Activity Selection](other/ActivitySelection.cpp)
 

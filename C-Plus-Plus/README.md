@@ -511,4 +511,6 @@ _add list here_
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Gray inverse Code](other/Gray_Inverse_Code.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
+- [Activity Selection](other/ActivitySelection.cpp)
 - [job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
+

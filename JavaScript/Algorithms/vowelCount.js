@@ -9,7 +9,7 @@ function vowelCount(str){
     }
     return count;
 }
-const string="Javascript is necessary for web development"
+prompt("Enter string:")
 const count=vowelCount(str)
 console.log(count)
 /*

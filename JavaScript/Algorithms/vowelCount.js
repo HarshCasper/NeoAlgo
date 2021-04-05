@@ -1,6 +1,6 @@
 //Program to count the number of vowels in a sentence
 const vowels=["a","e","i","o","u","A","E","I","O","U"]
-vowelCount=(str)=>{
+function vowelCount(str){
     let count=0
     for(let character of str){
         if(vowels.includes(character)){
@@ -9,7 +9,7 @@ vowelCount=(str)=>{
     }
     return count;
 }
-const str=prompt("Enter string:")
+const string="Javascript is necessary for web development"
 const count=vowelCount(str)
 console.log(count)
 /*

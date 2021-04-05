@@ -16,6 +16,7 @@
 - [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 - [Armstrong Number](Algorithms/Armstrong.js)
 - [Longest Increaing Subsequnce](Algorithms/LongestIncreasingSubsequenceDP.js)
+- [Count number of vowels in a string](Algorithms/vowelCount.js)
 
 ## Backtracking
 

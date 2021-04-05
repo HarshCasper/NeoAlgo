@@ -106,6 +106,7 @@
 - [Sorting the elements of a stack](ds/stack_sort.c)
 - [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
 - [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
+- [Hashtable chaining](ds/hashtable_chaining.c)
 
 ## Searching
 

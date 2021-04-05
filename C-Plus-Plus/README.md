@@ -514,4 +514,4 @@ _add list here_
 - [Phone Keypad](other/Phone_keypad.cpp)
 - [Activity Selection](other/ActivitySelection.cpp)
 - [job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
-
+- [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)

@@ -1,9 +1,19 @@
-// This program is to find the Path from a Node of the Binary Tree to Root of that Binary Tree
-
+/* 
+  This program is to find the Path from a Node of the Binary Tree to Root of that Binary Tree
+  1. We are given a partially written BinaryTree class.
+  2. We are given an element.
+  3. We are required to complete the body of find and nodeToRoot function. The functions are expected to 
+      3.1. find -> return true or false depending on if the data is found in binary tree.
+      3.2. nodeToRoot -> returns the path from node (correspoding to data) to root in 
+      form of an arraylist (root being the last element)
+*/
+      
+    
 import java.io.*;
 import java.util.*;
 
 public class nodetorootpath_ {
+  // This class can be used as a reference to create a new Node in a Binary Tree
   public static class Node {
     int data;
     Node left;
@@ -26,6 +36,7 @@ public class nodetorootpath_ {
     }
   }
 
+  // This function pushes all Node values into a stack
   public static Node construct(Integer[] arr) {
     Node root = new Node(arr[0], null, null);
     Pair rtp = new Pair(root, 1);
@@ -66,6 +77,7 @@ public class nodetorootpath_ {
     return root;
   }
 
+  // This function will help to display the binary tree
   public static void display(Node node) {
     if (node == null) {
       return;

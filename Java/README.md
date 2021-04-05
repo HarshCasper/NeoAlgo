@@ -29,6 +29,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
 - [Next Greater Element](cp/Next_Greater_Element.java)

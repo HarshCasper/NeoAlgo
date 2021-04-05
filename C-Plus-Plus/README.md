@@ -115,6 +115,7 @@
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
 
 ## Data Structures

@@ -50,12 +50,17 @@ int main()
     cout<<"The Kth Smallest Element: "<<findkthsmallest(arr,n,k)<<endl;
     return 0;
 }
+
 /*
-    Test Case 1:
-                Enter the size of the array: 8
-                Enter k: 4
-                Enter array elements: 7 8 9 5 7 2 4 10
-                The Kth Smallest Element: 7
-      Time Complexity: O(nlogk)
-      Space Complexity: O(k)
+Sample Input:
+
+Enter the size of the array: 8
+Enter k: 4
+Enter array elements: 7 8 9 5 7 2 4 10
+
+Sample Output:
+The Kth Smallest Element: 7
+
+Time Complexity: O(nlogk)
+Space Complexity: O(k)
 */

@@ -30,8 +30,19 @@ class ExponentialSearchApp
  
  public static void main(String args[])
  {
-  int arr[] = {2, 3, 4, 10, 40};
-  int x = 10;
+   val scan = Scanner(System.`in`)
+   
+   print("Enter the number of elements :")              //Taking input from user
+   
+   val arr = IntArray(scan.nextInt())
+
+   print("Enter the elements :")
+   for(i in array.indices){
+     arr[i] = scan.nextInt()
+   } 
+   print("Enter the number you want to search for :")
+   val x = scan.nextInt()
+   scan.close()
   int result = exponentialSearch(arr, arr.length, x);
   
   System.out.println((result < 0) ? "Element is not present in array" :
@@ -39,7 +50,17 @@ class ExponentialSearchApp
  }
 }
 
-//Output =  Element is present at index 3
-//Time Complexity : O(Log n)
-//Auxiliary Space :Recursive Binary Search O(Log n) space.
-//Iterative Binary Search O(1) space.
+/*Sample Testcase:
+
+   Enter the number of elements :5
+   Enter the elements :1 3 7 9 12
+   Enter the number you want to search for : 7
+
+   Output: Element is present at index 3
+
+
+Time Complexity : O(Log n)
+Auxiliary Space :Recursive Binary Search O(Log n) space.
+Iterative Binary Search O(1) space.
+*/
+

@@ -51,6 +51,7 @@
 - [Fibonacci Number](math/Fibonacci)
 - [Mystery Number](math/Mystery_Number)
 - [Prime Number](math/Prime_Number)
+- [GCD](math/GCD)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

@@ -255,6 +255,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/deeqakkk"><img src="https://avatars.githubusercontent.com/u/78724676?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Deepak Verma</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=deeqakkk" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AsthaDad"><img src="https://avatars.githubusercontent.com/u/56781858?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AsthaDad</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=AsthaDad" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/pshivesh8"><img src="https://avatars.githubusercontent.com/u/53203340?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shivesh Pandey</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=pshivesh8" title="Code">💻</a></td>
+    <td align="center"><a href="https://aayushi-mittal.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/60853067?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aayushi Mittal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Aayushi-Mittal" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.hackerrank.com/ujjwalcomputerp1"><img src="https://avatars.githubusercontent.com/u/75884061?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ujjwal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=UG-SEP" title="Code">💻</a></td>
   </tr>
 </table>
 

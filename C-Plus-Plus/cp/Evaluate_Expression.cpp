@@ -1,16 +1,17 @@
-//Evaluate Expression-->
-/*In an internal software created by IIT Mandi, the access to services can only be accessed if the expression,
- shown on screen on login, is evaluated correctly.
- It was internally communicated to all the stakeholders that the actual expression will be of the form:*/
+/*Evaluate Expression
 
-// X = n1 ^ pow1 + n2 ^ pow2 + ... + nN ^ powN, where n1, n2 to nN are integers and pow1, pow2 to powN are one digit integers.
+In an internal software created by IIT Mandi, the access to services can only be accessed if the expression,
+shown on screen on login, is evaluated correctly.
+It was internally communicated to all the stakeholders that the actual expression will be of the form:
 
-/* The expression shown on the screen will be a bit different from the actual expression.
+X = n1 ^ pow1 + n2 ^ pow2 + ... + nN ^ powN, where n1, n2 to nN are integers and pow1, pow2 to powN are one digit integers.
+
+The expression shown on the screen will be a bit different from the actual expression.
 The expression on the screen will be of the form:
 
-X = A1 + A2 + …. + AN, where A1, A2 to AN are integers.*/
+X = A1 + A2 + …. + AN, where A1, A2 to AN are integers.
 
-/*For example, if the expression on the screen is of the form: X = 212 + 1253,
+For example, if the expression on the screen is of the form: X = 212 + 1253,
 then the actual expression will be of the form: X = 21^2+ 125^3 
 (since the last digit of each addend in expression screen will go to power in actual expression).
 
@@ -52,7 +53,6 @@ int main()
         cin >> digit;
         int ld = digit % 10;
         int num = digit / 10;
-
         sum += pow(num, ld);
     }
     cout << sum;

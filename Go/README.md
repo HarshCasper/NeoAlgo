@@ -50,6 +50,8 @@
 - [Ugly Number](math/Ugly_Number)
 - [Fibonacci Number](math/Fibonacci)
 - [Mystery Number](math/Mystery_Number)
+- [Prime Number](math/Prime_Number)
+- [GCD](math/GCD)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)
@@ -61,6 +63,7 @@
 - [Recursive Binary Search](search/Binary_Recursive_Search)
 - [Jump Search](search/Jump_Search)
 - [Linear Search Recursive](search/linear_search_recursive)
+- [Fibonacci Search](search/Fibonacci_search)
 
 ## Sorting
 - [Bubble Sort](sort/bubble_sort)

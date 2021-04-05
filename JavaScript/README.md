@@ -33,6 +33,7 @@
 - [Stack](./ds/Stack.js)
 - [Stack using Linked List](./ds/StackLinkedList.js)
 - [Hash Table](./ds/Hash.js)
+- [Recursive postorder traversal of binary search tree](./ds/Recursive_postorder.js)
 
 ## Searching
 
@@ -71,11 +72,13 @@ _add list here_
 
 ## Competitive Programming
 
-_add list here_
+- [Sliding Window Maximum](./cp/SlidingWindowMaximum.js)
+- [Count Anagrams](./cp/CountAnagrams.js)
+- [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
 
 ## Dynamic Programming
 
-_add list here_
+- [Flight of stairs](./dp/flightOfStairs.js)
 
 ## Blockchain
 

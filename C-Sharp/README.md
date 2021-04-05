@@ -45,6 +45,9 @@ _add list here_
 
 _add list here_
 
+## Graph
+- [Is Tree?](graphs/IsTree.cs)
+
 ## Mathematics
 
 - [Finding no of digits in an integer](math/Finding_no_of_digits_in_an_integer.cs)

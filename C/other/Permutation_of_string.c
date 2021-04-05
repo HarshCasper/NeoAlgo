@@ -65,4 +65,6 @@ Output: The Permutation of string are:
         5(cba)
         6(cab)
 Time Complexity: O(n*n!)
+Space Complexity: O(n*n!)
+
 */

@@ -57,6 +57,7 @@
 - [Cycle Sort](./sort/CycleSort.js)
 - [Selection Sort](./sort/selectionSort.js)
 - [Stooge Sort](./sort/StoogeSort.js)
+- [Tim Sort](./sort/TimSort.js)
 
 ## Machine Learning
 

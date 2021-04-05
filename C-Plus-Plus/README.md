@@ -467,6 +467,7 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp)
 - [Kth Permutation Sequence](other/Kth_permutation_sequence.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [MEX of an array](other/MEX_of_an_array.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
 - [Palindrome Linked List](other/palindrome_linked_list.cpp)
 - [Odd Even Linked List](other/odd_even_linked_list.cpp)

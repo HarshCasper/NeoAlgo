@@ -115,6 +115,7 @@
 - [Next greater element](cp/next_greater_element.cpp)
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
+- [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
@@ -200,6 +201,7 @@
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
+- [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
 
 ## Graphs
 
@@ -281,6 +283,7 @@
 - [Randomized Quick Sort](sort/Randomized_Quick_Sort.cpp)
 - [Selection Sort](sort/selection_sort.cpp)
 - [Shell Sort](sort/ShellSort.cpp)
+- [Single loop sorting](sort/Single_loop_sort.cpp)
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Topological Sort](sort/Topological_Sort.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
@@ -400,6 +403,8 @@ _add list here_
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [K-Tree](dp/K-Tree.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+
+- [Subset Sum using DP](dp/Subset_sum.cpp)
 - [Equal Sum Partition Problem](dp/Equal_sum_partition.cpp)
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
 - [Minimum number of insertions and deletions](dp/min_ins_del.cpp)
@@ -450,6 +455,7 @@ _add list here_
 - [Convex Hull (Graham Scan Algorithm)](computational_geometry/Convex_Hull_Graham_Scan.cpp)
 - [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.cpp)
 - [Check Orientation of Three points](computational_geometry/Check_Orientation_of_three_points.cpp)
+- [Find Union of the lengths of line segments](computational_geometry/Klee's_Algorithm.cpp)
 
 ## Other
 
@@ -504,6 +510,8 @@ _add list here_
 - [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
+- [Gray inverse Code](other/Gray_Inverse_Code.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
+- [Activity Selection](other/ActivitySelection.cpp)
 - [job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
-
+- [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)

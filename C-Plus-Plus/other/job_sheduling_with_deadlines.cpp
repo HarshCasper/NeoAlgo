@@ -13,29 +13,8 @@ Problem statement:
 select the subset of given n-jobs, such that the jobs which are selected must be completed
 within their deadlines and get maximum profit. 
 
-objective:
+Objective:
 to get max profit and sheduled jobs.
-
-eg:
-n=4,<j1,j2,j3,j4>
-<p1---p4>=<100,15,10,40>
-<d1---d4>=<2,1,2,1>
-solution:
- max profit=140(subset={j1,j4})
-
-explanation:
-understanding deadlines:
-d1=2 means that j1 should complete till t=2. so j1 has two options either it can be completed in t=2 or t=1.
-d2=1 means that j2 should complete till t=1. so j2 has only one option it should complete in t=1.
-
-general approach:
-
-1. select the job with max profit.
-2. shedule it in its last deadline(i.e, if d1=5 than 
-we will shedule j1 in t=5 not in t=4 or any less value.) (greedy approach.) 
-
-A key point to remember:
-the size of sub-job array can't exceed maximum deadline.
 */
 #include<iostream>
 #include<algorithm>

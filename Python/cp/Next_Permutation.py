@@ -1,4 +1,4 @@
-def nenumbertPermutation(array):
+def nextPermutation(array):
         """
         Function for next Permutation
         """
@@ -28,8 +28,7 @@ def main():
     print('Enter values of the array')
     array = list(map(int, input().rstrip().split()))
     
-    #function call for checking if strings are anagram
-    print(nenumbertPermutation(array))
+    print(nextPermutation(array))
 
 main()
 

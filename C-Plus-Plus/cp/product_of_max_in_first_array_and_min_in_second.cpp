@@ -9,41 +9,30 @@ Approach:
 */
 
 
-
 #include<bits/stdc++.h>
 using namespace std;
-
-int find_product(int arr1[], int arr2[], int no_of_ele_in_arr1, int no_of_ele_in_arr2)
-    {
-        
-        int num1=*max_element(arr1, arr1+ no_of_ele_in_arr1);
-        int num2=*min_element(arr2, arr2+ no_of_ele_in_arr2);
-        int r=num1*num2;
+int find_product(int arr1[], int arr2[], int no_of_ele_in_arr1, int no_of_ele_in_arr2) {
+        int num1 = *max_element(arr1, arr1+ no_of_ele_in_arr1);
+        int num2 = *min_element(arr2, arr2+ no_of_ele_in_arr2);
+        int r = num1*num2;
         return r;
     }
-
-int main()
-{
-    int no_of_ele_in_arr1,no_of_ele_in_arr2,arr1[no_of_ele_in_arr1],arr2[no_of_ele_in_arr2];
-    cout<<"enter the no. of elements in array 1"<<endl; 
-    cin>>no_of_ele_in_arr1;
-    cout<<"enter the elements of array 1"<<endl;
-    for(int i=0;i<no_of_ele_in_arr1;i++)
-    {
-        cin>>arr1[i];
+int main() {
+    int no_of_ele_in_arr1, no_of_ele_in_arr2, arr1[no_of_ele_in_arr1], arr2[no_of_ele_in_arr2];
+    cout << "enter the no. of elements in array 1\n"; 
+    cin >> no_of_ele_in_arr1;
+    cout << "enter the elements of array 1 \n";
+    for (int i = 0; i < no_of_ele_in_arr1; i++) {
+        cin >> arr1[i];
     }
-    
-    cout<<"enter the no. of elements in array 2"<<endl; 
-    cin>>no_of_ele_in_arr2;
-    cout<<"enter the elements of array 2"<<endl;
-    for(int i=0;i<no_of_ele_in_arr2;i++)
-    {
-        cin>>arr2[i];
+    cout << "enter the no. of elements in array 2 \n"; 
+    cin >> no_of_ele_in_arr2;
+    cout << "enter the elements of array 2\n";
+    for (int i = 0; i < no_of_ele_in_arr2; i++) {
+        cin >> arr2[i];
     }
-    
-    
-    int prod=find_product(arr1,arr2,no_of_ele_in_arr1,no_of_ele_in_arr2);
-    cout<<prod<<endl;
+    int prod = find_product(arr1 , arr2 , no_of_ele_in_arr1 , no_of_ele_in_arr2);
+    cout << prod <<endl;
     return 0;
 }
 

@@ -43,7 +43,8 @@ The actual expression evaluated will be as follows:
 #include <bits/stdc++.h>
 using namespace std;
 int main()
-{
+{   
+    // t is number of test cases
     int t;
     cin >> t;
     int digit;

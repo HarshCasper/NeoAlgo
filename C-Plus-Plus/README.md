@@ -129,6 +129,7 @@
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Circular Linkedlist](ds/Circular_LinkedList.cpp)
+- [Validating BST] (ds/Check_for_Binary_search_tree.cpp)
 - [Diameter of Binary Tree](ds/Diameter_BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Double Ended Queue](ds/Double_Ended_Queue.cpp)

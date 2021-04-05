@@ -1,28 +1,26 @@
-
-////Given two sorted arrays nums1 and nums2 of size m and n 
+//Given two sorted arrays nums1 and nums2 of size m and n 
 //respectively, return the median of the two sorted arrays
 #include<stdio.h>
 #include<stdlib.h>
 double findMedianSortedArrays(int* arr1, int n, int* arr2, int m);
 int main(){
-
   int n,m;
-  int sum=0, s=0;
   //accepting the sizes
+  printf("Enter sizes of both arrays: ");
   scanf("%d %d",&n,&m);
   int *arr1 = (int *) malloc(sizeof(int)*n);
   int *arr2 = (int *) malloc(sizeof(int)*m);
   //accepting the array elements
+  printf("Enter elements of first array: ");
   for(int i=0;i<n;i++){
     scanf("%d ",arr1+i);
-
   }
+  printf("Enter elements of second array: ");
   for(int i=0;i<m;i++){
     scanf("%d ",arr2+i);
-
   }
 //print the median
- printf("%f",findMedianSortedArrays(arr1, n, arr2, m));
+ printf("Median of two arrays is %f",findMedianSortedArrays(arr1, n, arr2, m));
  return 0;
 }
 
@@ -89,19 +87,24 @@ Space complexity: O(n)
 
 Example 1:
 Input:
+Enter sizes of both arrays:
 2 1
+Enter elements of first array:
 1 3
+Enter elements of second array:
 2
 Output:
-2.00000
+Median of two arrays is 2.00000
 
 Example 2:
 Input:
+Enter sizes of both arrays:
 5 3
+Enter elements of first array:
 1 5 7 8 9
+Enter elements of second array:
 2 4 4
 Output:
-4.50000
+Median of two arrays is 4.50000
 
 */
-

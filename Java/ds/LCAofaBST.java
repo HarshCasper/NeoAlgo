@@ -1,8 +1,13 @@
+/* 
+    Progam to find the Least Common Ancestor in a Binary Search Tree
+    1. We are given a partially written BST class.
+    2. We are required to complete the body of lca function. "lca" function is expected to find the lowest commong ancestor of d1 and d2.
+*/
 import java.io.*;
 import java.util.*;
 import java.util.Scanner;
 
-//this defined the basic Node class and creates left and right pointers
+//This class can be used as a reference to create a new Node in a Binary Tree
 class Node {
     Node left;
     Node right;

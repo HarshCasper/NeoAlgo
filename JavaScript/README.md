@@ -54,6 +54,7 @@
 - [Merge Sort](./sort/MergeSort.js)
 - [Cycle Sort](./sort/CycleSort.js)
 - [Selection Sort](./sort/selectionSort.js)
+- [Stooge Sort](./sort/StoogeSort.js)
 
 ## Machine Learning
 
@@ -66,14 +67,17 @@ _add list here_
 - [Double Factorial](./math/DoubleFactorial.js)
 - [Armstrong Number](./math/ArmstrongNumbers.js)
 - [Binary Exponentiation](./math/bin_exp.js)
+- [Fibonacci](./math/Fibonacci.js)
 
 ## Competitive Programming
 
-_add list here_
+- [Sliding Window Maximum](./cp/SlidingWindowMaximum.js)
+- [Count Anagrams](./cp/CountAnagrams.js)
+- [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
 
 ## Dynamic Programming
 
-_add list here_
+- [Flight of stairs](./dp/flightOfStairs.js)
 
 ## Blockchain
 

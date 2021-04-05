@@ -10,6 +10,7 @@ return their sum as the output.
 
 using namespace std;
 
+//function to sum up all the possible divisors of a natural number
 int divisorSum(int number)
 {
     int ans = 0;
@@ -34,6 +35,7 @@ int divisorSum(int number)
     return (ans + 1);
 }
 
+//driver code
 int main()
 {
     int number;

@@ -37,6 +37,7 @@
 - [Mystery Number](math/mystery_number.jl)
 - [Neon Number](math/neon_number.jl)
 - [Sum of Digits](math/sum_of_digits.jl)
+- [Tower of Hanoi](math/towerOfHanoi.jl)
 
 ## Searching
 

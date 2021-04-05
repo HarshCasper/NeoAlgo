@@ -1,5 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
 /*
   Following is the code to find the Kth smallest element in an array
   Approach:
@@ -9,6 +7,9 @@ using namespace std;
       3.  The top element of the heap after the traversal of the array
           is the Kth smallest element of the array.
 */
+
+#include<bits/stdc++.h>
+using namespace std;
 
 int findkthsmallest(int arr[],int n,int k)
 {
@@ -51,15 +52,10 @@ int main()
 }
 /*
     Test Case 1:
-                n=8
-                arr[]=7,8,9,5,7,2,4,10
-                k=4
-                Kth Smallest Element: 7
-    Test Case 2:
-                n=10
-                arr[]=120,110,115,130,46,15,23,48,69,75
-                k=10
-                Kth Smallest Element: 130
+                Enter the size of the array: 8
+                Enter k: 4
+                Enter array elements: 7 8 9 5 7 2 4 10
+                The Kth Smallest Element: 7
       Time Complexity: O(nlogk)
       Space Complexity: O(k)
 */

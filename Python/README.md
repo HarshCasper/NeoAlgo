@@ -355,5 +355,4 @@ _add list here_
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Minimize the Heights](other/Minimize_the_Heights.py)
 
-
 ## [Coding Template for Contribution](Code_Template.md)

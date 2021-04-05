@@ -71,11 +71,17 @@ _add list here_
 
 ## Competitive Programming
 
+
 - [Median of two sorted arrays](./cp/Median_of_Two_Sorted_Arrays.js)
+
+- [Sliding Window Maximum](./cp/SlidingWindowMaximum.js)
+- [Count Anagrams](./cp/CountAnagrams.js)
+- [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
+
 
 ## Dynamic Programming
 
-_add list here_
+- [Flight of stairs](./dp/flightOfStairs.js)
 
 ## Blockchain
 

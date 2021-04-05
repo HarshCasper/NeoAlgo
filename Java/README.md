@@ -22,7 +22,7 @@
 
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
-
+- [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
 ## Blockchain
 
 _add list here_
@@ -140,6 +140,7 @@ _add list here_
 - [Implementation of Heaps](ds/heapmain.java)
 - [Implementation of Queue using stack & vice-versa](ds/QueueandStack.java)
 - [Queue](ds/Queuell.java)
+- [Reverse alternate k nodes in a linked list](ds/Reverse_alternate_k_Nodes.java)
 - [Segment Tree](ds/SegmentTree.java)
 - [Sparse Matrices](ds/SparseMatrices.java)
 - [Sparse Matrix](ds/SparseMatrix.java)
@@ -154,6 +155,7 @@ _add list here_
 - [Balanced Brackets](ds/balancedBrackets.java)
 - [Median of Two Sorted Arrays](ds/MedianOfSortedArrays.java)
 - [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
+- [Double Ended Queue in Java](ds/DEQueue.java)
 
 ## Graphs
 

@@ -1767,6 +1767,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Aayushi-Mittal",
+      "name": "Aayushi Mittal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60853067?v=4",
+      "profile": "https://aayushi-mittal.github.io/portfolio/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "UG-SEP",
+      "name": "Ujjwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75884061?v=4",
+      "profile": "https://www.hackerrank.com/ujjwalcomputerp1",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoType": "github",

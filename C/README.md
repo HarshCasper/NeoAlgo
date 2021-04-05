@@ -166,6 +166,7 @@
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
+- [Dijsktra Algorithm](graphs/Dijkstra_Algorithm_Implementation.c)
 
 ## Machine Learning
 

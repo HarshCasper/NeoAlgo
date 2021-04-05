@@ -115,6 +115,7 @@
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
 
 ## Data Structures
@@ -466,6 +467,7 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp)
 - [Kth Permutation Sequence](other/Kth_permutation_sequence.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [MEX of an array](other/MEX_of_an_array.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
 - [Palindrome Linked List](other/palindrome_linked_list.cpp)
 - [Odd Even Linked List](other/odd_even_linked_list.cpp)

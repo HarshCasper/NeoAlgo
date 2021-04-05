@@ -32,6 +32,7 @@
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
 * [Bubble Sort](sort/Bubble_Sort.py)
+* [Gnome Sort](sort/gnome_sort.py)
 * [Comb Sort](sort/comb_sort.py)
 * [Heap Sort](sort/Heap_sort.py)
 * [Insertion Sort](sort/insertion.py)
@@ -43,7 +44,6 @@
 * [Intro Sort](sort/IntroSort.py)
 * [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 * [Merge Sort Parallel](sort/Parallel_MergeSort.py)
-* [Wiggle Sort](sort/wiggle_sort.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
@@ -74,6 +74,7 @@
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 - [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
+- [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
 
 
 ## Competitive Programming
@@ -201,6 +202,7 @@
 - [Count Derangements](dp/count_derangements.py)
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
+- [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 
 ## Pathfinding Algorithms
 
@@ -348,7 +350,9 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+
 
 ## [Coding Template for Contribution](Code_Template.md)

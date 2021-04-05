@@ -29,6 +29,7 @@
 - [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
 - [Prefix Sum of Array](cp/prefix_sum.c)
+- [Reverse String using Recursion](cp/Reverse_String_Recursion.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
 - [Two Pointer Method](cp/two_pointers_method.c)
@@ -100,11 +101,13 @@
 - [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Descending Priority Queue](ds/DescendingPQ)
 - [Finding Linked List Palindrome](ds/FindLinkedListPalindrome.c)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_Linked_List.c)
 - [Sorting the elements of a stack](ds/stack_sort.c)
 - [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
 - [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
+- [Hashtable chaining](ds/hashtable_chaining.c)
 
 ## Searching
 
@@ -142,6 +145,7 @@
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 - [Comb Sort](sort/comb.c)
+- [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
 
 ## Dynamic Programming
 
@@ -149,12 +153,14 @@
 - [EditDistance in Dp](dp/EditDistanceDP.c)
 - [Longest Common Substring](dp/longest_common_substring.c)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
+- [Longest Common Subsequence](dp/length_longest_common_subsequence.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
 - [Unique BST](dp/Unique_BST.c)
+- [Tiling_Problem](dp/tiling_problem.c)
 
 ## Graphs
 
@@ -212,6 +218,7 @@ _add list here_
 - [Palindrome](other/Palindrome.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
+- [Permutation of string](other/Permutation_of_string.c)
 
 ## CP
 

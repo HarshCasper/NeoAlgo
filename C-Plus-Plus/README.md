@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -22,6 +22,7 @@
 - [Check Anagrams](cp/check_anagrams.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
+- [Combination Sum](cp/Combination_Sum.cpp)
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
@@ -54,6 +55,7 @@
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
+- [Plucking Flowers](cp/Plucking_Flowers.cpp)
 - [Prefix Sum Array](cp/prefix_sum.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Product of Array Except itself](cp/product_of_array_except_itself.cpp)
@@ -68,6 +70,7 @@
 - [String to Integer](cp/String_to_int.cpp)
 - [Subarray of length two](cp/Subarray_of_length_two.cpp)
 - [Sub-array with given sum](cp/SubArrayWithGivenSum.cpp)
+- [Sort Characters by Occurrence](cp/sort_characters_by_their_occurrence.cpp)
 - [Suduko Solver](cp/SudukoSolver.cpp)
 - [Tug Of War](cp/Tug_of_water.cpp)
 - [Target Sum triplets](cp/target_sum_triplets.cpp)
@@ -108,12 +111,18 @@
 - [Rotating an NxN 2D array in 90 degrees anticlockwise direction](cp/rotate2darray.cpp)
 - [Count occurence of Anagram](cp/count_occurences_of_anagrams.cpp)
 - [Reconstruct Original Digits From English](cp/ReconstructOriginalDigitsFromEnglish.cpp)
+- [First non repeating character in a running stream](cp/first_non_repeating_character.cpp)
 - [Next greater element](cp/next_greater_element.cpp)
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
+- [Plus One Problem](cp/Plus_One.cpp)
+- [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
+- [Groups Anagrams](cp/Group_Anagrams.cpp)
 
 ## Data Structures
 
+- [Construct binary tree using inorder and preorder](ds/Construct_binary_tree_using_inorder_and_preorder.cpp)
+- [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Singly Linked List Operations Using Unique Key](ds/SLL_Operations_Usnig_Unique_Key.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
@@ -123,6 +132,7 @@
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Circular Linkedlist](ds/Circular_LinkedList.cpp)
+- [Validating BST] (ds/Check_for_Binary_search_tree.cpp)
 - [Diameter of Binary Tree](ds/Diameter_BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Double Ended Queue](ds/Double_Ended_Queue.cpp)
@@ -161,6 +171,8 @@
 - [Ascending Priority Queue](ds/Ascending_priority_queue.cpp)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_LinkedList.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
+- [Inversion Vector of a Singly Linked List](ds/inversion_vector.cpp)
+- [inverse of an array](C-Plus-Plus/ds/inverse_of_an_array.cpp)
 - [Iterative postorder traversal](ds/iterative_postorder.cpp)
 - [Iterative preorder traversal](ds/iterative_preorder.cpp)
 - [Iterative inorder traversal](ds/iterative_inorder.cpp)
@@ -187,7 +199,7 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
-
+- [Searching in BST](ds/Searching_in_BST.cpp)
 
 ## Graphs
 
@@ -209,6 +221,7 @@
 - [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
+- [Number of Connected Components](graphs/number_of_connected_components.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kosaraju Algorithm](graphs/Kosaraju_Algorithm.cpp)
 - [Kruskal's Algorithm](graphs/kruskal_Algorithm.cpp)
@@ -217,6 +230,7 @@
 - [Post-order (LRN) Tree Traversal](graphs/Postorder_Traversal.cpp)
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
+- [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.cpp)
 - [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
@@ -293,6 +307,8 @@
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
+- [Check palindrome using stack](stack/CheckPalindrome.cpp)
+
 ## Heap based problems
 
 - [Median in a running stream of integers](heap/Median_in_a_running_stream_of_integers.cpp)
@@ -327,6 +343,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
+- [Print Pallindrome Partitions](math/Print_Palindrome_Partitions.cpp)
 - [Remove Invalid Parentheses](math/remove_invalid_parentheses.cpp)
 - [Sudoku Solver](math/sudoku_solver.cpp)
 - [N queens](math/n_queen.cpp)
@@ -352,6 +369,7 @@ _add list here_
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)
 - [Automorphic Number](math/automorphic_number.cpp)
 - [Roman to Integer](math/Roman_To_Integer.cpp)
+- [Strong Number](math/Strong_Number.cpp)
 
 ## Dynamic Programming
 
@@ -447,11 +465,13 @@ _add list here_
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find duplicate elements from an array](other/find_duplicate_elements_from_an_array.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
+- [Bigmod Algorithm](other/big_mod_algorithm.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp)
 - [Kth Permutation Sequence](other/Kth_permutation_sequence.cpp)
 - [Least Common Multiple](other/lcm.cpp)
+- [MEX of an array](other/MEX_of_an_array.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
 - [Palindrome Linked List](other/palindrome_linked_list.cpp)
 - [Odd Even Linked List](other/odd_even_linked_list.cpp)
@@ -465,10 +485,13 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find a Median of two Sorted arrays of equal size](other/Median_of_two_Sorted_arrays_of_equal_size.cpp)
+- [Find a Median of two Sorted arrays of different size](other/Median_of_two_Sorted_arrays_of_different_size.cpp)
 - [Find Kth smallest element in a Sorted Matrix](other/Find_Kth_smallest_element_in_Sorted_Matrix.cpp)
 - [Find Common Element in row-wise sorted matrix](other/Find_Common_Element_in_matrix.cpp)
 - [Vector of Strings Occurs More than Once](other/vector_of_strings_occurs_more_than_one_time.cpp)
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
+- [Insert Usernames in Database](other/insert_usernames_in_database.cpp)
 - [Longest Subarray with equal number of 0 and 1](other/Longest_subarray_with_equal_0_1.cpp)
 - [Set Clear and Check bits](other/check_set_clear_bit.cpp)
 - [Iterative approach to print all subsets](other/subsets_iterative.cpp)
@@ -482,4 +505,5 @@ _add list here_
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
+- [job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 

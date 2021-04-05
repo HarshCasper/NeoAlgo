@@ -48,9 +48,8 @@ int main()
 	    user_names.push_back(name);
     }
     insert_usernames_in_database(user_names);
-
-
 }
+
 /*
 Standard Input and Output
 

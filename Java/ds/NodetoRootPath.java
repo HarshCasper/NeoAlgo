@@ -1,3 +1,5 @@
+// This program is to find the Path from a Node of the Binary Tree to Root of that Binary Tree
+
 import java.io.*;
 import java.util.*;
 
@@ -138,13 +140,15 @@ public class nodetorootpath_ {
 
 }
 
-// I/P:
-// 19
-// 50 25 12 n n 37 30 n n n 75 62 n 70 n n 87 n n
-// 30
-// O/P:
-// true
-// [30, 37, 25, 50]
+/* 
+  I/P:
+  19
+  50 25 12 n n 37 30 n n n 75 62 n 70 n n 87 n n
+  30
+  O/P:
+  true
+  [30, 37, 25, 50]
 
-// Worst Case Time Complexity : O(n)
-// Space Complexity : O(1)
+  Worst Case Time Complexity : O(n)
+  Space Complexity : O(1)
+*/

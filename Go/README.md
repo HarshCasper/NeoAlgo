@@ -50,6 +50,7 @@
 - [Ugly Number](math/Ugly_Number)
 - [Fibonacci Number](math/Fibonacci)
 - [Mystery Number](math/Mystery_Number)
+- [GCD](math/GCD)
 
 ## Others
 - [Tower of Hanoi](other/tower_of_hanoi)

@@ -195,6 +195,7 @@
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
+- [Lucky Numbers ( Number Theory)](math/Lucky Numbers.py)
 
 ## Blockchain
 

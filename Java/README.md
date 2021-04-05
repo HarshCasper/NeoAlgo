@@ -29,6 +29,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
 - [Next Greater Element](cp/Next_Greater_Element.java)
@@ -48,6 +49,7 @@ _add list here_
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
 - [Knuth–Morris–Pratt Algorithm](cp/KMP_Algorithm.java)
+- [Kth largest element in array](cp\Kth_largest_element_in_array.java)
 - [Longest Substring without Repeating characters](cp/LongestSubstring_without_repeating_characters.java)
 - [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.java)
@@ -121,6 +123,8 @@ _add list here_
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
 - [Make String Palindrome](dp/Make_string_palindrome_using_DP.java)
 - [Optimal Binary Search Tree](dp/Optimal_Binary_Search_tree_using_DP.java)
+- [Finding_shortest_path_for_multistaged_graph](dp/Finding_shortest_path_for_multistaged_graph.java)
+- [Rod Cutting Problem](dp/Rod_Cutting.java)
 - [Flight of stairs](dp/FlightOfStairs.java)
 
 ## Data Structures
@@ -155,6 +159,7 @@ _add list here_
 - [Balanced Brackets](ds/balancedBrackets.java)
 - [Median of Two Sorted Arrays](ds/MedianOfSortedArrays.java)
 - [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
+- [Merge In Between Linked Lists](ds/MergeInBetweenLinkedLists.java)
 - [Double Ended Queue in Java](ds/DEQueue.java)
 
 ## Graphs
@@ -168,6 +173,7 @@ _add list here_
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
 - [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
+- [Articulation_Point](graphs/Articulation_Point.java)
 
 ## Mathematics
 
@@ -193,6 +199,7 @@ _add list here_
 - [Neon number](Neon_number.java)
 - [Ascii of string](math/AsciiOfString.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
+- [Printing all Good Numbers ina a given range](math/good_number.java)
 - [Transpose of Matrix](math/Matrix_Transpose.java)
 - [Tribonacci series upto n terms](math/tribonacci.java)
 - [HappyNumber](math/HappyNumber.java)
@@ -296,3 +303,4 @@ _add list here_
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
 - [Infix to Prefix Expression](other/InfixtoPrefix.java)
 - [Infix to Postfix Expression](other/InfixToPostfix.java)
+- [Union of two Unsorted Arrays](other/UnionUnsortedArray.java)

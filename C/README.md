@@ -130,6 +130,7 @@
 - [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)
 - [Merge Sort in O(1) space complexity](<sort/mergesort_in_O(1)_space_complexity.c>)
+- [Modified Bubble Sort](sort/modified_bubble_sort.c)
 - [OddEven Sort](sort/oddevensort.c)
 - [Optimized Bubble Sort](sort/OPtimizBubble_Sort.c)
 - [Selection Sort](sort/selection_sort.c)

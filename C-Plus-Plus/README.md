@@ -200,6 +200,7 @@
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
+- [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
 
 ## Graphs
 

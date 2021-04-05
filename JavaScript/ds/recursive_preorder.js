@@ -57,28 +57,39 @@ class BinarySearchTree {
     }
 }
 
+const readline = require('readline');
+const rl = readline.createInterface({ input: process.stdin , output: process.stdout });
 
-const readline = require("readline-sync");
-console.log("Enter the number of nodes to insert");
-let n = Number(readline.question());
+const getLine = (function () {
+    const getLineGen = (async function* () {
+        for await (const line of rl) {
+            yield line;
+        }
+    })();
+    return async () => ((await getLineGen.next()).value);
+})();
 
-let b = new BinarySearchTree();
-console.log("Enter the values of nodes to insert\n")
-for (let i = 0; i < n; i++) {
-    console.log("Enter the value for node " + (i + 1));
-    b.insert(Number(readline.question()));
+const main =  async()=>{
+    console.log("Enter the number of nodes to insert");
+    let n = Number(await getLine());
+    let b = new BinarySearchTree();
+    console.log("Enter the values of nodes to insert\n")
+    for (let i = 0; i < n; i++) {
+        console.log("Enter the value for node " + (i + 1));
+        b.insert(Number(await getLine()));
+    }
+    let root = b.root;
+    console.log("The preorder traversal for the binary search tree ")
+    b.recursive_preorder(root);    
+    process.exit(0);
 }
-let root = b.root;
-console.log("The preorder traversal for the binary search tree ")
-b.recursive_preorder(root);
 
+main();
 /*
 Sample I/O:
-
 Enter the number of nodes to insert
 5
 Enter the values of nodes to insert
-
 Enter the value for node 1
 4
 Enter the value for node 2
@@ -95,8 +106,6 @@ The preorder traversal for the binary search tree
 1
 2
 5
-
 Time complexity : O(n)
 Space complexity : O(n)
 */
-

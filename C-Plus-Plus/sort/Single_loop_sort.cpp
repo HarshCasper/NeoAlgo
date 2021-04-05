@@ -13,8 +13,8 @@ int main ()
     int length;
     cout << "Enter the size of array: ";
     cin >> length;
-    //int *arr = new int[length];
-    int arr[length];
+    int *arr = new int[length];
+
     for(int i = 0; i < length; i++)
     {
         cout << "Array[" << i << "] : ";

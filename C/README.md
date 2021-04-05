@@ -14,6 +14,7 @@
 - [Activity Selection](cp/Activity_selection.c)
 - [Adjacent Element Product](cp/Adjacent_Element_Product.c)
 - [Array Mirror Inverse](cp/Array_Mirror_Inverse.c)
+- [Arrays Duplicate Elements](cp/arrays_duplicate_elements.c)
 - [Anagram Program](cp/anagram_program.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Finding possible codes using recursion ](cp/possible_code_recursion.c)
@@ -28,8 +29,10 @@
 - [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
 - [Prefix Sum of Array](cp/prefix_sum.c)
+- [Reverse String using Recursion](cp/Reverse_String_Recursion.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
 - [Catalan Number](cp/catalan_number.c)
+- [Two Pointer Method](cp/two_pointers_method.c)
 - [Z Algorithm](cp/zalgorithm.c)
 - [CP Sets Question](cp/cp_sets_question.c)
 - [Boyer-Moore Voting Algorithm](cp/BoyerMooreVote.c)
@@ -60,6 +63,7 @@
 - [Infix to postfix](ds/infix_to_postfix.c)
 - [Infix To prefix](ds/infixToPrefix.c)
 - [Paranthesis Checker](ds/paranchecker.c)
+- [Reverse individual words of a string using stacks](ds/reverseWordsOfString.c)
 - [Preorder Traversal](ds/Preordertraversal.c)
 - [Queue All Functionality](ds/queue_all_functionality.c)
 - [Queue implementation](ds/Queueimplementation.c)
@@ -102,6 +106,7 @@
 - [Sorting the elements of a stack](ds/stack_sort.c)
 - [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
 - [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
+- [Hashtable chaining](ds/hashtable_chaining.c)
 
 ## Searching
 
@@ -139,19 +144,22 @@
 - [Shaker Sort](sort/shaker_sort.c)
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 - [Comb Sort](sort/comb.c)
+- [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
 
 ## Dynamic Programming
 
 - [Cutting a Rod](dp/cutting_a_rod.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
-- [Longest Common Substring](dp/length_longest_common_substring.c)
+- [Longest Common Substring](dp/longest_common_substring.c)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
+- [Longest Common Subsequence](dp/length_longest_common_subsequence.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
 - [Unique BST](dp/Unique_BST.c)
+- [Tiling_Problem](dp/tiling_problem.c)
 
 ## Graphs
 
@@ -175,12 +183,16 @@ _add list here_
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Find factorial of a Number](math/factorial.c)
 - [Happy Number](math/happy_number.c)
+- [Lowest Prime Factor](math/lowest_prime_factor_of_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Neon Number](math/Neon_number.c)
 - [Strong Number](math/strong_number.c) 
 - [Noble Integer](math/Noble_Integer.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Matrix Addition](math/matrix_addition.c)
+- [Matrix Multiplication](math/matrix_multiplication.c)
+- [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 
@@ -195,6 +207,7 @@ _add list here_
 - [Find the Numbers](other/Find_the_numbers.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
+- [Sliding Window Technique](other/window_sliding_technique.c)
 - [Tower of Hanoi](other/Tower_Of_Hanoi.c)
 - [Remove outermost parentheses](other/remove_outermost_parentheses.c)
 - [Recursion count of substring](other/recursion_string.c)
@@ -204,6 +217,7 @@ _add list here_
 - [Palindrome](other/Palindrome.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
+- [Permutation of string](other/Permutation_of_string.c)
 
 ## CP
 

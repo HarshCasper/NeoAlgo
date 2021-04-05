@@ -61,22 +61,25 @@ class LCAofaBST {
     }
 }
 
-// Time Complexity : O(n)
-// Space Complexity : O(1)
-    
+/*
+    Time Complexity : O(n)
+    Space Complexity : O(1)
 
-// Sample Test Cases :
 
-// I/P :
-// 6
-// 60 50 70 30 52 65
-// 30 70
-// O/P :
-// 60
+    Sample Test Cases :
 
-// I/P :
-// 6
-// 50 40 70 30 41 69 75
-// 30 41
-// O/P :
-// 50
+    I/P :
+    6
+    60 50 70 30 52 65
+    30 70
+    O/P :
+    60
+
+    I/P :
+    6
+    50 40 70 30 41 69 75
+    30 41
+    O/P :
+    50
+
+*/

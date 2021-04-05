@@ -16,6 +16,7 @@
 - [Prime Factorization using Sieve](cp/Prime_factorization.jl)
 - [Finding Factorials using Recursion](cp/factorials.jl)
 - [Finding GCD using Euclid's Algorithm](cp/GCD.jl)
+- [Rainwater Trapping](cp/RainwaterTrapping.jl)
 - [Checking if a number is a power of 2](cp/isPowerOf2.jl)
 - [Knapsack](cp/knapsack.jl)
 

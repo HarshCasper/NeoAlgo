@@ -1,4 +1,4 @@
-/*Given two arrays:arr1[] and arr2[] of different sizes.
+/*Given two arrays:arr1[] and arr2[] of different size i.e.,no_of_ele_in_arr1 amd no_of_ele_in_arr2 respectively.
 Task :calculate the product of max element of first array i.e.,arr1[] and min element of second array i.e.,arr2[]
 
 Approach:
@@ -65,4 +65,4 @@ Time Complexity : O(n)
 Auxiliary Space : O(1) 
 
 */
-  
+

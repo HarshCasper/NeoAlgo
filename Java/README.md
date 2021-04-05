@@ -49,6 +49,7 @@ _add list here_
 - [Count The Reversals](cp/Count_The_Reversals.java)
 - [Count Distinct Elements in Every Window](cp/Distinct_Element.java)
 - [Knuth–Morris–Pratt Algorithm](cp/KMP_Algorithm.java)
+- [Kth largest element in array](cp\Kth_largest_element_in_array.java)
 - [Longest Substring without Repeating characters](cp/LongestSubstring_without_repeating_characters.java)
 - [Merge Overlaping Subintervals](cp/MergeOverlappingArray.java)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.java)

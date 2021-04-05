@@ -1,4 +1,4 @@
-// C program to find to the longest common substring along with its length
+// C program to find to the length of the longest common substring
 #include <stdio.h>
 
 // Helper function to find the maximum of two elements
@@ -11,7 +11,7 @@ int max(int a, int b)
 }
 
 // Length of Longest Common substring
-void lcs(char s1[], int n, char s2[], int m)
+int lcs(char s1[], int n, char s2[], int m)
 {
     /*
     Builds a 2D table in a bottom Up manner, storing info 
@@ -39,36 +39,12 @@ void lcs(char s1[], int n, char s2[], int m)
         }
     }
 
-    int index = ans;
-    char lcs[index+1];
-    lcs[index] = '\0';
-
-    int i = n, j = m;
-    while (i > 0 && j > 0)
-    {
-        if (s1[i-1] == s2[j-1])
-        {
-            lcs[index-1] = s1[i-1];
-            i--;
-            j--;
-            index--; 
-        }
-        else if (dp[i-1][j] > dp[i][j-1])
-        {
-            i--;
-        }
-        else
-        {
-            j--;
-        }
-        
-    }
-    printf("The length of the longest common substring is: %d and the substring is %s.", ans, lcs);
+    return ans;
 }
 
 int main()
 {
-    int n, m;
+    int n, m, ans;
     printf("\nEnter the length of the first string? ");
     scanf("%d", &n);
     char s1[n];
@@ -81,7 +57,8 @@ int main()
     printf("Enter the second string: ");
     scanf(" %s", s2);
 
-    lcs(s1, n, s2, m);
+    ans = lcs(s1, n, s2, m);
+    printf("The length of the longest common substring is: %d", ans);
     return 0;
 }
 
@@ -97,6 +74,6 @@ Enter the first string: cucumber
 
 Enter the length of the second string? 6
 Enter the second string: cuckoo
-The length of the longest common substring is: 3 and the substring is cuc.
+The length of the longest common substring is: 3
 
 */

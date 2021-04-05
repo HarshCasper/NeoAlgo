@@ -34,18 +34,8 @@ fun main(arg: Array<String>) {
 		println("$num is not a Palindrome Number")
 }
 
-/*Run 1:
+/*Sample Test Case:
 Enter Number  :
 12321
 12321 is a Palindrome Number
----
-Run 2:
-Enter Number  :
-343
-343 is a Palindrome Number
----
-Run 3:
-Enter Number  :
-2344
-2344 is not a Palindrome Number
 */

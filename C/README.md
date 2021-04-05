@@ -41,6 +41,7 @@
 - [Bulb Switcher problem](cp/bulbSwitch.c)
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
+- [Median of two sorted arrays](cp/Median of two sorted arrays.c)
 
 ## Cryptography
 

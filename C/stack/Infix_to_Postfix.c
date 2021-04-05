@@ -1,112 +1,167 @@
+/*INFIX TO POSTFIX CONVERSION USING STACK*/
+
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
-#include<strings.h>
+#define Max 10000
 
-//Definition of node
-struct Node{
+int j = 0;
+
+//Defining a satck.
+struct stack
+{
     char data;
-    struct Node *next;
-}*top=NULL;
+    struct stack *next;
+};
+struct stack *top;
 
-//function for 'Push(Adding to Queue)'
-void push(char x){
-    struct Node *t;
-    t=(struct Node*)malloc(sizeof(struct Node));
-
-    if(t==NULL)
-        printf("stack is full\n");
-    else{
-        t->data=x;
-        t->next=top;
-        top=t;
-    }
-}
-
-//Function for 'Pop(Removing from Queue)'
-char pop(){
-    struct Node *t;
-    char x=-1;
-
-    if(top==NULL)
-        printf("Stack is Empty\n");
-    else{
-        t=top;
-        top=top->next;
-        x=t->data;
-        free(t);
-    }
-    return x;
-}
-
-//Function to Display
-void Display(){
-    struct Node *p;
-    p=top;
-    while(p!=NULL){
-        printf("%d ",p->data);
-        p=p->next;
-    }
-    printf("\n");
-}
-
-//function to check Precedence of signs
-int pre(char x){
-    if(x=='+' || x=='-')
-        return 1;
-    else if(x=='*' || x=='/')
-        return 2;
-    return 0;
-}
-
-//function to check if character is operand or not
-int isOperand(char x){
-    if(x=='+' || x=='-' || x=='*' || x=='/')
-        return 0;
-    else
-        return 1;
-
-}
-
-//function to convert infix to postfix
-char * InToPost(char *infix){
-    int i=0,j=0;
-    char *postfix;
-    int len=strlen(infix);
-    postfix=(char *)malloc((len+2)*sizeof(char));
-
-    while(infix[i]!='\0')
+//Push operation of stack.
+void push(char c)
+{
+    struct stack *temp;
+    temp = (struct stack *)malloc(sizeof(struct stack));
+    if (temp == NULL)
     {
-        if(isOperand(infix[i]))
-            postfix[j++]=infix[i++];
-        else{
-            if(pre(infix[i])>pre(top->data))
-                push(infix[i++]);
-            else
-                postfix[j++]=pop();
+        printf("memory error\n");
+        return;
+    }
+
+    temp->data = c;
+
+    if (top == NULL)
+    {
+        temp->next = NULL;
+    }
+    else
+    {
+        temp->next = top;
+    }
+    top = temp;
+    return;
+}
+
+//Pop operatioj of stack.
+char pop()
+{
+    char c;
+    struct stack *temp;
+    if (top == NULL)
+    {
+        printf("Stack is empty.\n");
+        return -1;
+    }
+
+    temp = top;
+    c = top->data;
+    top = top->next;
+    free(temp);
+    return c;
+}
+
+//Function to check whether the character is an operator or not.
+int isOperator(char c)
+{
+    if (c == '+' || c == '-' || c == '*' || c == '/' || c == '^')
+        return 1;
+    else
+        return 0;
+}
+
+//Function to check the precedency of operator.
+int precedence(char o)
+{
+    if (o == '(')
+        return 0;
+    else if (o == '+' || o == '-')
+        return 1;
+    else if (o == '*' || o == '/')
+        return 2;
+    else
+        return 3;
+}
+
+//Function which takes infix expression as an arguement and return a postfix expression.
+char *infix_to_postfix(char infix[], int size)
+{
+    char *postfix;
+    int x = 0;
+    postfix = (char *)malloc((size) * sizeof(char));
+    while (x < size)
+    {
+        if (infix[x] == ')')
+        {
+            while (top->data != '(')
+            {
+                postfix[j++] = pop();
+            }
+            pop();
+            x++;
+            continue;
+        }
+        if (infix[x] == '(')
+        {
+            push('(');
+            x++;
+            continue;
+        }
+        if (isOperator(infix[x]))
+        {
+            if (top == NULL)
+            {
+                push(infix[x++]);
+                continue;
+            }
+
+            if (precedence(infix[x]) >= precedence(top->data) && top != NULL)
+            {
+                push(infix[x++]);
+                continue;
+            }
+            if (precedence(top->data) > precedence(infix[x]))
+            {
+                while (precedence(top->data) > precedence(infix[x]))
+                {
+                    postfix[j++] = pop();
+                    if (top == NULL)
+                        break;
+                }
+
+                push(infix[x++]);
+                continue;
+            }
+        }
+        else
+        {
+            postfix[j++] = infix[x++];
         }
     }
-    while(top!=NULL)
-        postfix[j++]=pop();
-    postfix[j]='\0';
+    while (top != NULL)
+    {
+        postfix[j++] = pop();
+    }
     return postfix;
 }
 
+//Main function.
 int main()
 {
-    char *infix="a+b*c-d/e";
-    push('#');
-    char *postfix=InToPost(infix);
-    printf("%s ",postfix);
+    char infix[Max], *postfix;
+    int size, i;
+
+    //Taking infix expression as input.
+    printf("Enter the infix expression : ");
+    scanf("%s", &infix);
+
+    //size of the given infix expression.
+    size = strlen(infix);
+
+    //Calling funtion to convert the expression.
+    postfix = infix_to_postfix(infix, size);
+
+    printf("Postfix of given expression is : ");
+
+    for (i = 0; i < j; i++)
+        printf("%c", postfix[i]);
+
     return 0;
 }
-
-/*
-Input is given as : 'a+b*c-d/e'
-
-Output is : 'abc*+de/-'
-
-*/
-/*
-Submitted by: Yuvraj Singh Tomar
-Github: 07yuvraj
-*/

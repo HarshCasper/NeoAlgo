@@ -27,12 +27,12 @@ Sample Test Case:
 Input: 
     Enter the number of discs: 3
 Output:
-    Move from A to B
     Move from A to C
-    Move from B to C
     Move from A to B
-    Move from C to A
     Move from C to B
-    Move from A to B
+    Move from A to C
+    Move from B to A
+    Move from B to C
+    Move from A to C
 Time complexity: O(2^N)
 =#

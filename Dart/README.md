@@ -22,3 +22,4 @@
 ## Sorting
 
 - [Bubble Sort](sort/BubbleSort.dart)
+- [Insertion Sort](sort/InsertionSort.dart)

@@ -24,6 +24,7 @@
 - [Armstrong Number](Maths/Armstrong.kt)
 - [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
 - [Palindrome Number](Maths/PalindromeNumber.kt)
+- [Tower of Hanoi](Maths/TowerOfHanoi.kt)
 
 ## Searching Algorithms
 

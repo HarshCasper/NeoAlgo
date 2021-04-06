@@ -7,14 +7,7 @@ Problem Statement: Given an unsorted array of positive integers. The elements ar
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	// input the size from user
-	int n;
-    cin >> n;
-    //input the array elements
-    int input[n];
-    for(int i = 0; i < n; i++)
-        cin >> input[i];
+void print_number(int input[], int n){
     int j = 0;
     while(j < n){
         //if below condition is true then the number is either in its desired position or is repeated
@@ -34,6 +27,18 @@ int main() {
             cout << "Missing number: " << i+1 << endl;
         }
     }
+}
+
+int main() {
+    // input the size from user
+    int n;
+    cin >> n;
+    //input the array elements
+    int input[n];
+    for(int i = 0; i < n; i++)
+        cin >> input[i];
+    //calling the function for repeated and missing number
+     print_number(input, n);
 	
 	return 0;
 }

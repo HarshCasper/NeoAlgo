@@ -10,6 +10,7 @@ ALGORITHM
 
 #include<bits/stdc++.h>
 using namespace std;
+
 void postfixToPrefix(string s)
 {
     stack<string> str;
@@ -41,14 +42,19 @@ void postfixToPrefix(string s)
 int main()
 {
     string s;
+    cout<<"Enter the postfix expression";
     cin>>s;
     postfixToPrefix(s);
 }
 /*
-Time Comlexity:O(n)
+Space Complexity : O(n)
+
+Time Comlexity : O(n)
+
 Example:
 Input:
 ABC/-A
+
 Output: 
 A-A/BC
 */

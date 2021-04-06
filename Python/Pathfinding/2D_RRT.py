@@ -13,10 +13,9 @@
 
 #have matplotlib and shapely installed
 import matplotlib.pyplot as plt
-import matplotlib.path as mpltPath
 import math
 import random
-from shapely.geometry import Point, MultiPoint
+from shapely.geometry import Point
 from shapely.geometry import Polygon, MultiPolygon, LineString
 
 
@@ -59,7 +58,7 @@ class Tree():
 
 #defining obstacles as a set of polygons
 def obst(arr):
-    ans = list()
+    ans = []
     for coord in arr:
         m = Polygon(coord)
         x,y = m.exterior.xy
@@ -83,12 +82,12 @@ def distance(pt1,pt2):
 
 #finding nearest neighbour
 def nearestNode(pt,root,mind):
-    if distance(root.data,pt)<mind:
+    if distance(root.data,pt) < mind:
         mind = distance(root.data,pt)
     ans = root
     for i in root.children:
         d = nearestNode(pt,i,mind)
-        if d[0]<mind:
+        if d[0] < mind:
             mind = d[0]
             ans = d[1]
     return (mind, ans)
@@ -120,10 +119,10 @@ def rrt(Qgoal,obstacles,lim):
     cnt = 0 
     graph = Tree() #Graph containing edges and vertices, initialized as empty
     
-    while cnt<lim:
+    while cnt < lim:
         
-        x  = random.random()*100
-        y  = random.random()*100
+        x = random.random()*100
+        y = random.random()*100
         p = Point(x,y)
         
         if IsInObstacle(obstacles,p):
@@ -132,7 +131,7 @@ def rrt(Qgoal,obstacles,lim):
         n = nearestNode(p,graph,10**6) #find nearest vertex
         line = LineString([n[1].data,p])
 
-        if n[0]>=2:
+        if n[0] >= 2:
             p = line.interpolate(2)
             x = p.x
             y = p.y
@@ -151,7 +150,7 @@ def rrt(Qgoal,obstacles,lim):
             graph.tb(last)
             plt.show()
             return graph
-        cnt+=1
+        cnt += 1
     graph.tb(last)
     plt.show()  
     return graph
@@ -168,8 +167,8 @@ def main():
     #number of iterations algorithm should run for
     lim = 5000 
 
-    graph = rrt(Qgoal,obstacles,lim)
+    rrt(Qgoal,obstacles,lim)
 
 # call the main method 
 if __name__ == "__main__": 
-	main()	 
+    main()	 

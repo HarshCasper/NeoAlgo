@@ -243,6 +243,7 @@ _add list here_
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
 - [Find the Numbers](other/find_the_numbers.cpp)
+- [Find Minimum Element in Rotated and Sorted Array](other/minimum_in_rotated_sorted_array.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)

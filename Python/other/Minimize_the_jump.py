@@ -1,43 +1,40 @@
-#Given an array arr[] denoting heights of len(arr) towers and a positive integer K, 
-#you have to modify the height of each tower either by increasing or decreasing them by K only once.
-#After modifying, height should be a non-negative integer. 
-#Find out what could be the possible minimum difference of the height of shortest and 
-#longest towers after you have modified each tower.
-
-def minimize_the_heights(arr,k):
-    # let's sort arrays
-    arr.sort()
+#Find Minimum number of jumps to reach end
+def min_jump(arr, n):
+    if n <= 1: 
+        return 0 #return zero values if the array less than one element
     
-    #possible minimun difference 
-    mindiff = arr[-1]-arr[0]
-    for i in range(1,len(arr)):
-        minval=min(arr[0]+k,arr[i]-k)
-        maxval=max(arr[i-1]+k,arr[-1]-k)
-        if minval<0:
-            continue
-        #comparing the minimum difference
-        mindiff=min(mindiff,maxval-minval)
-    #result 
-    return mindiff
+    #assigning the value 0    
+    left = 0
+    right = arr[0]
+    count = 1
 
-if __name__ == "__main__":          
-    arr = list(map(int, input("Enter the elements: ").split()))
-    k = int(input("Enter K: "))
-    print(minimize_the_heights(arr,k))
+    while right < n-1:
+        count += 1 #incresing the value 
+        jump = max(i + arr[i] for i in range(left, right + 1)) #by this checking all the arr and finding min values 
+        left, right = right, jump #swaping the values
+    return count
+
+arr = list(map(int, input("Enter the elements: ").split()))
+size = len(arr)
+print('Minimum number of jumps to reach',
+      'end is', min_jump(arr, size))
 
 '''
-Time Complexity: O(N*logN)
-Space Complexity: O(N)
+Time Complexity : O(N)
+Space Complexity : O(1)
 
 INPUT:
+    Enter the elements: 1 3 5 8 9 2 6 7 6 8 9
 
-Enter the elements: 3 9 12 16 20 
-Enter K: 3
+OUTPUT  
+    Minimum number of jumps to reach end is 3
 
-OUTPUT:
-11
+Output: 3 (1-> 3 -> 8 -> 9)
+Explanation: Jump from 1st element 
+to 2nd element as there is only 1 step, 
+now there are three options 5, 8 or 9. 
+If 8 or 9 is chosen then the end node 9 
+can be reached. So 3 jumps are made.
 
-Explanation:
-The array can be modified as {6, 12, 9, 13, 17}. 
-The difference between the largest and the smallest is 17-6 = 11.
 '''
+

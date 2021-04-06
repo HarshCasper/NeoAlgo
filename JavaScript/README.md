@@ -37,6 +37,7 @@
 - [Recursive preorder traversal in binary search tree](./ds/Recursive_preorder.js)
 - [Recursive inorder traversal in binary search tree](./ds/Recursive_inorder.js)
 - [Recursive postorder traversal of binary search tree](./ds/Recursive_postorder.js)
+- [Infix to Postfix Conversion in JavaScript](./ds/infixtopostfix.js)
 
 ## Searching
 

@@ -138,6 +138,7 @@
 - [Double Ended Queue](ds/Double_Ended_Queue.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
+- [Is Sudoku Valid](ds/Is_Sudoku_Valid.cpp)
 - [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.cpp)
 - [Detect Cycle in Linked List ](ds/Detect_Cycle_In_LinkedList.cpp)
@@ -200,6 +201,7 @@
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
+- [Sudoku Solver](ds/Sudoku_Solver.cpp)
 
 ## Graphs
 

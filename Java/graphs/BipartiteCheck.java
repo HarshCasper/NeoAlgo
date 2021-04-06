@@ -33,6 +33,7 @@ public class BipartiteCheck {
         }
 
         //build the graph from the edges.
+        System.out.println("Enter the source and destination of the edges: ");
         while(edges-- > 0) {
             int from = scanner.nextInt();
             int to = scanner.nextInt();
@@ -90,8 +91,8 @@ public class BipartiteCheck {
 
 /* 
 Sample Input: 
-4
-4
+Enter number of vertices and edges: 4 4
+Enter the source and destination of the edges: 
 1 2
 2 3
 4 3

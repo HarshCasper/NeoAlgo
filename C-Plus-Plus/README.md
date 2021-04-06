@@ -86,6 +86,7 @@
 
 ## Data Structures
 
+- [Queue all operations using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Singly Linked List Operations Using Unique Key](ds/SLL_Operations_Usnig_Unique_Key.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)

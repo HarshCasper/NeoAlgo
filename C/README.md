@@ -92,6 +92,7 @@
 - [Max_Min_HeapSort](sort/MAX_MIN_HeapSort.c)
 - [Radix Sort](sort/radix_sort.c)
 - [Counting Sort](sort/countingSort.c)
+- [Count Inversions](sort/Count_Inversions.c)
 
 ## Dynamic Programming
 

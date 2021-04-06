@@ -125,6 +125,7 @@ _add list here_
 
 - [Binary Tree](ds/Binary_Tree.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
+- [Level Order Traversal using Queue](ds/LevelOrderTraversalQueue.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
 - [Huffman ENcoder](ds/Huffman.java)

@@ -1,3 +1,15 @@
+/*
+ This project converts infix expression to postfix expression in JavaScript.
+
+ Infix expression:-  The expression of the form a op b. 
+ When an operator is in-between every pair of operands.
+
+ Postfix expression:-  An expression is called the postfix expression
+  if the operator appears in the expression after the operands. 
+  Simply of the form (operand1 operand2 operator). 
+
+*/
+
 var stackarr=[];
 var topp=-1;
 
@@ -24,12 +36,7 @@ function pop()
 // function operator for checking isoperator
 function operator(op)
 {
-    if(op=='+' || op=='-' || op=='^' || op=='*' || op=='/' || op=='(' || op==')')
-    {
-        return true;
-    }
-    else
-    return false;
+    return ((op=='+' || op=='-' || op=='^' || op=='*' || op=='/' || op=='(' || op==')')? true:false);
 }
 
 // function for precedency
@@ -103,9 +110,9 @@ function InfixtoPostfix(infixval)
         postfix[temp++]=pop();
     }
     var st="";
-    for(var i=0;i<postfix.length;i++)
+    for(var j=0;j<postfix.length;j++)
     {
-        st+=postfix[i];
+        st+=postfix[j];
     }    
 
     // Print postfix expression in console

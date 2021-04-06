@@ -106,11 +106,6 @@ int main()
 /* Time complexity for both insertion and deletion is:- O(1)
    Space Complexity:- O(n)*/
 /* Test case
-Sample Input
-
-/* Time complexity for both insertion and deletion is:- O(1)
-   Space Complexity:- O(n)*/
-/* Test case
 Sample Input:
 What do u want to do with Queue
 1. Insert a node

@@ -236,6 +236,11 @@ _add list here_
 - [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
 - [Sudoku Solver](other/SudokuSolver.c)
 
+
+## Stack
+- [Implementation of Stack using Arrays](stack/stack_using_array.c)
+
 ## Blockchain
+
 
 _add list here_

@@ -1,5 +1,17 @@
-#have matplotlib and shapely installed
+#Rapidly-exploring Random Trees
 
+#Purpose: A robot is attempting to navigate its path from the start point to a specified goal region, while avoiding the set of all obstacles.
+
+#Method: using tree structure
+
+#Intuition:
+#In RRT, points are randomly generated within a specified radius and connected to the nearest existing node in a tree. 
+#Each time a node is created, we check that it lies outside of the obstacles. 
+#Furthermore, chaining the node to its closest neighbor must also avoid obstacles. 
+#The algorithm ends when a node is generated within the goal region, or a limit is hit.
+
+
+#have matplotlib and shapely installed
 import matplotlib.pyplot as plt
 import matplotlib.path as mpltPath
 import math

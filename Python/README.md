@@ -211,6 +211,7 @@
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
 - [A* (Astar) in Maze](Pathfinding/2D_Astar.py)
+- [RRT Algorithm with Obstacles in Maze](Pathfinding/2D_RRT.py)
 
 ## Graphs
 

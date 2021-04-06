@@ -13,6 +13,7 @@ If all the three conditions are true, BSTs are identical
 Otherwise they are not
 '''
 
+
 # Class that defines a node of BST
 class BSTNode:
 	def __init__(self, data):
@@ -20,19 +21,20 @@ class BSTNode:
 		self.left = None
 		self.right = None
 
+
 def check_identical(bst1, bst2):
 	# if bst2 is None & bst1 is not, they are not identical
 	if bst1 and not bst2:
 		return False
-	
+
 	# if bst1 is None & bst2 is not, they are not identical
 	if bst2 and not bst1:
 		return False
-	
+
 	# if both bst1 & bst2 are None
 	if not bst1 and not bst2:
 		return True
-	
+
 	# if both bst1 & bst2 are not empty/None, check if they are identical
 	while bst1 and bst2:
 		# check if current node values are same
@@ -41,6 +43,7 @@ def check_identical(bst1, bst2):
 	  		return True
 		else:
 	  		return False
+
 
 def insert_node(root, value):
     # If root is empty, create a new node
@@ -60,6 +63,7 @@ def insert_node(root, value):
         root.right = insert_node(root.right, value)
 
     return root
+
 
 def main():
 	bst1 = None
@@ -98,6 +102,8 @@ def main():
 	else:
 		print("OPPSSS!! They are not identical!")
 	print('---------------------------')
+
+
 if __name__ == '__main__':
 	main()
 

@@ -36,7 +36,7 @@ function main() {
         }
         let obj = new Solution();
         let ans = obj.kadanesalgo(arr, N);
-        if(ans==-0)
+        if(ans==0)
             ans=0;
         console.log(ans);
     }

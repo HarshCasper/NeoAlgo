@@ -37,12 +37,8 @@ function pop()
 //function to check is operator or not
 function operator(op)
 {
-    if(op=='+' || op=='-' || op=='^' || op=='*' || op=='/' || op=='(' || op==')')
-    {
-        return true;
-    }
-    else
-    return false;
+    return ((op=='+' || op=='-' || op=='^' || op=='*' || op=='/' || op=='(' || op==')')? true:false);
+ 
 }
 
 // function for checking precedency
@@ -116,9 +112,9 @@ function InfixtoPrefix(infixval)
         prefix[temp++]=pop();
     }
     var st="";
-    for(var i=prefix.length-1;i>=0;i--)
+    for(var j=prefix.length-1;j>=0;j--)
     {
-        st+=prefix[i];
+        st+=prefix[j];
     }    
     console.log("Prefix Expression:- "+st);
  }

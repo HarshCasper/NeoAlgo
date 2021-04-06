@@ -23,6 +23,7 @@
 - [Areas 3D](Maths/Areas3D.kt)
 - [Armstrong Number](Maths/Armstrong.kt)
 - [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
+- [Palindrome Number](Maths/PalindromeNumber.kt)
 
 ## Searching Algorithms
 

@@ -16,33 +16,33 @@ Otherwise they are not
 
 # Class that defines a node of BST
 class BSTNode:
-	def __init__(self, data):
-		self.val = data
-		self.left = None
-		self.right = None
+    def __init__(self, data):
+        self.val = data
+        self.left = None
+        self.right = None
 
 
 def check_identical(bst1, bst2):
-	# if bst2 is None & bst1 is not, they are not identical
-	if bst1 and not bst2:
-		return False
+    # if bst2 is None & bst1 is not, they are not identical
+    if bst1 and not bst2:
+        return False
 
-	# if bst1 is None & bst2 is not, they are not identical
-	if bst2 and not bst1:
-		return False
+    # if bst1 is None & bst2 is not, they are not identical
+    if bst2 and not bst1:
+        return False
 
-	# if both bst1 & bst2 are None
-	if not bst1 and not bst2:
-		return True
+    # if both bst1 & bst2 are None
+    if not bst1 and not bst2:
+        return True
 
-	# if both bst1 & bst2 are not empty/None, check if they are identical
-	while bst1 and bst2:
-		# check if current node values are same
-		# check if left and right subtrees are also identical
-		if bst1.val == bst2.val and check_identical(bst1.left, bst2.left) and check_identical(bst1.right, bst2.right):
-	  		return True
-		else:
-	  		return False
+    # if both bst1 & bst2 are not empty/None, check if they are identical
+    while bst1 and bst2:
+        # check if current node values are same
+        # check if left and right subtrees are also identical
+        if bst1.val == bst2.val and check_identical(bst1.left, bst2.left) and check_identical(bst1.right, bst2.right):
+            return True
+        else:
+            return False
 
 
 def insert_node(root, value):
@@ -66,46 +66,46 @@ def insert_node(root, value):
 
 
 def main():
-	bst1 = None
-	bst2 = None
-	# Input Binary Search Tree I
-	res1 = input("Want to enter nodes in BST1? (y/n) ")
-	if res1 == 'y':
-		flag = True
-		while flag:
-			node_value = int(input("Enter node value: "))
-			bst1 = insert_node(bst1, node_value)
-			res = input("Want to add more? (y/n) ")
-			if res == "y":
-				flag = True
-			else:
-				flag = False
+    bst1 = None
+    bst2 = None
+    # Input Binary Search Tree I
+    res1 = input("Want to enter nodes in BST1? (y/n) ")
+    if res1 == 'y':
+        flag = True
+        while flag:
+            node_value = int(input("Enter node value: "))
+            bst1 = insert_node(bst1, node_value)
+            res = input("Want to add more? (y/n) ")
+            if res == "y":
+                flag = True
+            else:
+                flag = False
 
-	# Input Binary Search Tree 2
-	res2 = input("Want to enter nodes in BST2? (y/n) ")
-	if res2 == 'y':
-		flag = True
-		while flag:
-			node_value = int(input("Enter node value: "))
-			bst2 = insert_node(bst2, node_value)
-			res = input("Want to add more? (y/n) ")
-			if res == "y":
-				flag = True
-			else:
-				flag = False
+    # Input Binary Search Tree 2
+    res2 = input("Want to enter nodes in BST2? (y/n) ")
+    if res2 == 'y':
+        flag = True
+        while flag:
+            node_value = int(input("Enter node value: "))
+            bst2 = insert_node(bst2, node_value)
+            res = input("Want to add more? (y/n) ")
+            if res == "y":
+                flag = True
+            else:
+                flag = False
 
-	# Checking whether the input BSTs are identical or not
-	print("Checking if BSTs are identical ....")
-	print('---------------------------')
-	if check_identical(bst1, bst2):
-		print("YESSSS! They are identical!")
-	else:
-		print("OPPSSS!! They are not identical!")
-	print('---------------------------')
+    # Checking whether the input BSTs are identical or not
+    print("Checking if BSTs are identical ....")
+    print('---------------------------')
+    if check_identical(bst1, bst2):
+        print("YESSSS! They are identical!")
+    else:
+        print("OPPSSS!! They are not identical!")
+    print('---------------------------')
 
 
 if __name__ == '__main__':
-	main()
+    main()
 
 '''
 Input Sample:

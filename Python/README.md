@@ -17,6 +17,7 @@
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Loop detection in Linked List](ds/loop_detection_in_LL.py)
 ## Searching
 * [Bilinear Search](search/bilinear.py)
 * [Binary Search](search/binarysearch.py)

@@ -27,5 +27,6 @@
 ## Searching Algorithms
 
 - [Binary Search](search/BinarySearch.kt)
+  [Exponential Search](search/ExponentialSearch.kt)
 - [Linear Search](search/LinearSearch.kt)
 - [StairCase Search](search/StairCaseSearch.kt)

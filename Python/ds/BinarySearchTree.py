@@ -1,4 +1,16 @@
-# Implementation of Binary Search Tree
+'''
+    IMPLEMENTATION OF BINARY SEARCH TREE (BST)
+    Binary Search Tree is a special type of binary tree where:
+    1. The value of all the nodes in the left sub-tree is less than or equal to the value of the root.
+    2. The value of all the nodes in the right sub-tree is greater than value of the root.
+    3. This rule will be recursively applied to all the left and right sub-trees of the root.
+
+    This program contains the menu-based implementation of the basic operations on a BST:
+    1. Insert Node into BST
+    2. Search Node in BST
+    3. Delete Node in BST
+    4. Print BST (inorder way)
+'''
 
 
 class BSTNode:
@@ -152,3 +164,51 @@ if __name__ == '__main__':
             else:
                 print("Empty BST!")
             print()
+
+
+'''
+    Sample Input/Output:
+    1: Insert
+    2: Search
+    3: Delete
+    4: Print (Inorder)
+    5: Exit
+    Enter option: 1
+    Enter value to insert: 5
+
+    1: Insert
+    2: Search
+    3: Delete
+    4: Print (Inorder)
+    5: Exit
+    Enter option: 2
+    Enter element to search for: 5
+    The element is present!
+
+    1: Insert
+    2: Search
+    3: Delete
+    4: Print (Inorder)
+    5: Exit
+    Enter option: 3
+    Enter the value to delete: 5
+
+    1: Insert
+    2: Search
+    3: Delete
+    4: Print (Inorder)
+    5: Exit
+    Enter option: 4
+    Empty BST!
+
+    Time Complexity:
+        Insert: O(n)
+        Search: O(n)
+        Delete: O(n)
+        Print (Inorder): O(n)
+    Space Complexity:
+        Insert: O(n)
+        Search: O(n)
+        Delete: O(n)
+        Print (Inorder): O(n)
+'''

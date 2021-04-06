@@ -62,6 +62,7 @@
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
+- [Reverse array in o(n/2) time complexity](cp/Reverse_Array.cpp)
 - [Reverse words in Given String](cp/Reverse_Words_in_String.cpp)
 - [Reverse a String using Stack](cp/Reverse_string_using_stack.cpp)
 - [Search Insert Position](cp/search_insert_position.cpp)

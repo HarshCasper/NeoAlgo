@@ -16,6 +16,7 @@
 - [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 - [Armstrong Number](Algorithms/Armstrong.js)
 - [Longest Increaing Subsequnce](Algorithms/LongestIncreasingSubsequenceDP.js)
+- [Maximum Sum of Subarray](Algorithms/kadane's_algo.js)
 
 ## Backtracking
 
@@ -108,4 +109,4 @@ _add list here_
 
 - [Large Factorials](other/largeNumberFactorial.js)
 - [Remove outermost parenthesis](other/RemoveOuterParenthesis.js)
-- [Kadanes algorithm](other/kadane's_algo.js)
+

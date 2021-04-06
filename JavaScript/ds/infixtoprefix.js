@@ -1,3 +1,16 @@
+/*
+ This project converts infix expression to prefix expression in JavaScript.
+
+ Infix expression:-  The expression of the form a op b. 
+ When an operator is in-between every pair of operands.
+
+ Prefix expression:-  An expression is called the prefix expression
+  if the operator appears in the expression before the operands. 
+  Simply of the form (operand1 operand2 operator). 
+
+*/
+
+
 var stackarr=[];
 var topp=-1;
 

@@ -40,5 +40,4 @@ OUTPUT:
 Explanation:
 The array can be modified as {6, 12, 9, 13, 17}. 
 The difference between the largest and the smallest is 17-6 = 11.
-
 '''

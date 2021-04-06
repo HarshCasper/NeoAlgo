@@ -25,47 +25,47 @@ class LinkedList:
 	def __init__(self):
 		self.head = None
 		self.var = None
-		
-    # Function to create a linked list
+
+	# Function to create a linked list
 	def push(self, newval):
-	    newnode = Node(newval)
-	    if self.var:
-	        self.var.next = newnode
-	        self.var = newnode
-	    else:
-	        self.head = newnode
-	        self.var = newnode
-	    return newnode
-	  
-	# Function to create a Loop    
+		newnode = Node(newval)
+		if self.var:
+			self.var.next = newnode
+			self.var = newnode
+		else:
+			self.head = newnode
+			self.var = newnode
+		return newnode
+
+	# Function to create a loop
 	def CreateLoop(self, idx, last):
-	    temp = self.head
-	    if idx > 0:
-	        while idx >= 0:
-	            temp = temp.next
-	            idx -= 1
-	        last.next = temp
-	 
-	# Function for detecting loop using Floyd's cycle detection algorithm  
+		temp = self.head
+		if idx >= 0:
+			while idx > 0:
+				temp = temp.next
+				idx -= 1
+			last.next = temp
+
+	# Function for detecting loop using Floyd's cycle detection algorithm
 	def LoopDetect(self):
-	    slow = self.head
-	    fast = self.head
-	    while slow and fast and fast.next:
-	        slow = slow.next
-	        fast = fast.next.next
-	        if slow == fast:
-	            print("Loop Detected!")
-	            return
-	    print("Loop not found!")
-	    
-	    
-# Driver code
+		slow = self.head
+		fast = self.head
+		while slow and fast and fast.next:
+			slow = slow.next
+			fast = fast.next.next
+			if slow == fast:
+				print("Loop Detected!")
+				return
+		print("Loop not found!")
+
+
+# Driver Code
 n = int(input("Enter the size of linked list: "))
 ll = LinkedList()
 print("Enter elements:")
 for i in range(n):
-    # tail stores the last node of the linked list
-    tail = ll.push(int(input()))
+	# tail stores the last node of the linked list
+	tail = ll.push(int(input()))
 # if the user wants to enter a linked list with a loop, pos specifies the index
 # of the node which will be pointed by the tail
 # For no loop, pos will take -1

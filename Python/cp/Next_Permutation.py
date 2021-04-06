@@ -1,6 +1,8 @@
 def nextPermutation(array):
         """
         Function for next Permutation
+        It rearranges numbers into the lexicographically next greater permutation of numbers.
+        If such an arrangement is not possible, it will rearrange it as the lowest possible order (i.e., sorted in ascending order).
         """
         length = len(array)
         if length <= 2:
@@ -22,16 +24,12 @@ def nextPermutation(array):
         return array
 
 
-def main():
-
+if __name__ == "__main__":
     #User input for both the strings
     print('Enter values of the array')
     array = list(map(int, input().rstrip().split()))
-    
     print(nextPermutation(array))
-
-main()
-
+        
 """
 Input: numbers = [1,1,5]
 Output: [1,5,1]

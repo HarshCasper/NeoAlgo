@@ -316,6 +316,7 @@
 - [Hamming Distance](math/Hamming_distance.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
+- [Neon Number](math/Neon_number.py)
 ## Blockchain
 
 _add list here_

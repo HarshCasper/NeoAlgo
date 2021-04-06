@@ -119,6 +119,7 @@
 - [Plus One Problem](cp/Plus_One.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Busy Man](cp/busy_man.cpp)
 
 ## Data Structures
 

@@ -514,7 +514,7 @@ _add list here_
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Gray inverse Code](other/Gray_Inverse_Code.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
+- [pair-star](other/Pair-Star.cpp)
 - [Activity Selection](other/ActivitySelection.cpp)
 - [job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
-

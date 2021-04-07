@@ -27,7 +27,7 @@ void sort()
     {
         if (array[i] == 0)
         {
-		    counter_for_0++;
+	    counter_for_0++;
             continue;
         }
         counter_for_1++;
@@ -35,7 +35,7 @@ void sort()
     cout<<"Sorted array of 0's and 1's is: ";
     while (counter_for_0--)
     {
-	    cout << 0 << " "; 
+	cout << 0 << " "; 
     }
     while (counter_for_1--)
     {

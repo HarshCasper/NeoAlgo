@@ -3,7 +3,7 @@
 
 ## Function 
 
-function fibbonaci(n)
+function fibonaci(n)
     f = Int64[]
     push!(f, 0)
     push!(f, 1)
@@ -23,14 +23,14 @@ println("The $(n)th fibonaci number is ")
 
 ## Calling the function 
 
-fibbonaci(n)
+fibonaci(n)
 
 #=
 Sample Test Case:
 Input: 
     Enter the number: 5
 Output:
-    The 5th fibbonaci number is 3
+    The 5th fibonaci number is 3
 
 Time Complexity: O ( N )
 =#

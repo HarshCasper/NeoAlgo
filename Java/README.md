@@ -98,7 +98,8 @@ _add list here_
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 - [Rat In A Maze](cp/RatInAMaze.java)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
-- [RowWise_Sum]( Java/2d%20Array/RowWise_Sum.java)
+- [RowWise_Sum]( cp/RowWise_Sum.java)
+
 
 ## Cryptography
 

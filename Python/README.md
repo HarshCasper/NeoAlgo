@@ -320,7 +320,7 @@
 - [K-th Largest Number](math/K_largest.py)
 - [Transpose of matrix](math/Matrix_transpose.py)
 - [Neon Number](math/Neon_number.py)
-
+- [Matrix addition](math/Matrix_addition.py)
 ## Blockchain
 
 _add list here_

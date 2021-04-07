@@ -1,4 +1,4 @@
-#= Finding the Nth number in the Fibbonaci Sequence using Dynamic Programming
+#= Finding the Nth number in the Fibonaci Sequence using Dynamic Programming
 =#
 
 ## Function 
@@ -19,7 +19,7 @@ end
 print("Enter the number: ")
 n = readline()
 n = parse(Int64, n)
-println("The $(n)th fibbonaci number is ")
+println("The $(n)th fibonaci number is ")
 
 ## Calling the function 
 

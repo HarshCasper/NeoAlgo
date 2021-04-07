@@ -1,9 +1,9 @@
-#= Finding the Nth number in the Fibonaci Sequence using Dynamic Programming
+#= Finding the Nth number in the Fibonacci Sequence using Dynamic Programming
 =#
 
 ## Function 
 
-function fibonaci(n)
+function fibonacci(n)
     f = Int64[]
     push!(f, 0)
     push!(f, 1)
@@ -19,18 +19,18 @@ end
 print("Enter the number: ")
 n = readline()
 n = parse(Int64, n)
-println("The $(n)th fibonaci number is ")
+println("The $(n)th fibonacci number is ")
 
 ## Calling the function 
 
-fibonaci(n)
+fibonacci(n)
 
 #=
 Sample Test Case:
 Input: 
     Enter the number: 5
 Output:
-    The 5th fibonaci number is 3
+    The 5th fibonacci number is 3
 
 Time Complexity: O ( N )
 =#

@@ -31,7 +31,6 @@ void postfixToPrefix(string s)
             str.push(string(1,s[i]));
         }
     }
-    cout<<"Prefix expression: ";
     while(!str.empty())
     {
         cout<<str.top();
@@ -43,8 +42,9 @@ void postfixToPrefix(string s)
 int main()
 {
     string s;
-    cout<<"Enter the postfix expression";
+    cout<<"Enter the postfix expression:\n";
     cin>>s;
+    cout<<"Prefix expression:\n";
     postfixToPrefix(s);
 }
 
@@ -55,8 +55,10 @@ Time Comlexity : O(n)
 
 Example:
 Input:
-Enter the postfix expressionABC/-A
+Enter the postfix expression:
+ABC/-A
 
 Output: 
-Prefix Expression: A-A/BC
+Prefix Expression:
+A-A/BC
 */

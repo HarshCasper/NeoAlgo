@@ -234,3 +234,4 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find Common elements in three sorted arrays](other/Common_Element_in_three_Sorted_array.cpp)

@@ -239,7 +239,6 @@ _add list here_
 ## Other
 
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
-- [Nth Most Occurring Strings](other/most_occurrence_strings.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
 - [Divisors of a natural number](other/divisors_of_natural_number.cpp)
 - [Fast Fibonacci Last digit](other/Fast_fibonacci_last_digit.cpp)
@@ -249,6 +248,7 @@ _add list here_
 - [Kth largest element](other/Kth_largest_element.cpp.cpp)
 - [Least Common Multiple](other/lcm.cpp)
 - [Merging two sorted arrays without extra space](other/merge_2_sorted_arrays_without_extra_space.cpp)
+- [Nth Most Occurring Strings](other/most_occurrence_strings.cpp)
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)

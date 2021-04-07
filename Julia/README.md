@@ -25,6 +25,7 @@
 
 - [Cutting A Rod](dp/cutting_a_rod.jl)
 - [Golomb Sequence](dp/golomb_sequence.jl)
+- [Fibbonaci Number](dp/fibbonaci.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
 

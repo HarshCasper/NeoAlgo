@@ -521,3 +521,4 @@ _add list here_
 - [Activity Selection](other/ActivitySelection.cpp)
 - [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
+- [Remove Duplicates From Sorted Array using 2 pointes](other/RemoveDuplicatesFromSortedArray.cpp)

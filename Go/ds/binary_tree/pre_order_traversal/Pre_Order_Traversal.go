@@ -42,10 +42,8 @@ func new_node(value int) *Node {
 
 func main() {
 
-	// Declaring the root node
-	var root *Node
-	// Initializing the root node
-	root = new_node(1)
+	// Declaring the root node and initializing
+	var root *Node = new_node(1)
 
 	// Forming the rest of the tree
 	root.left = new_node(2)

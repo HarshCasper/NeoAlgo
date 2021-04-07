@@ -1,3 +1,5 @@
+/* Two stacks are kept: One is for pushing and popping elements as they come and go (elements stack), and the other is for keeping track of the maximum element (maximum elements stack).
+When the first element arrives, push it onto both of the stacks. As the elements may not be distinct, we need to keep track of their indices. So, declare a stack of pair<int,int> or use a structure.*/
 #include <iostream>
 #include <vector>
 #include <cstring>
@@ -51,3 +53,27 @@ int main()
     }
     return 0;
 }
+
+/*  Time Complexicity: O(n)             Space Complexicity: O(n)
+ 
+ TEST CASE:1
+ INPUT: 10              OUTPUT: 26
+        1 97                    91
+        2
+        1 20
+        2
+        1 26
+        1 20
+        2
+        3
+        1 91
+        3
+        
+ TEST CASE:2
+ INPUT: 4              OUTPUT: 83 
+        1 83
+        3
+        2
+        1 76
+    
+    */

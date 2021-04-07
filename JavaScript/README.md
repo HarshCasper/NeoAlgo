@@ -92,9 +92,6 @@ _add list here_
 
 _add list here_
 
-## Searching
-
-_add list here_
 
 ## Cryptography
 

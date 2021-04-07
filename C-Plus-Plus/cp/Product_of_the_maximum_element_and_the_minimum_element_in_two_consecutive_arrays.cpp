@@ -11,12 +11,14 @@ Approach:
 
 #include<bits/stdc++.h>
 using namespace std;
+
 int find_product(int arr1[], int arr2[], int no_of_ele_in_arr1, int no_of_ele_in_arr2) {
         int num1 = *max_element(arr1, arr1+ no_of_ele_in_arr1);
         int num2 = *min_element(arr2, arr2+ no_of_ele_in_arr2);
         int r = num1*num2;
         return r;
     }
+
 int main() {
     int no_of_ele_in_arr1, no_of_ele_in_arr2, arr1[no_of_ele_in_arr1], arr2[no_of_ele_in_arr2];
     cout << "enter the no. of elements in array 1\n"; 

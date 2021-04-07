@@ -258,6 +258,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://aayushi-mittal.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/60853067?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aayushi Mittal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Aayushi-Mittal" title="Code">💻</a></td>
     <td align="center"><a href="https://www.hackerrank.com/ujjwalcomputerp1"><img src="https://avatars.githubusercontent.com/u/75884061?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ujjwal</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=UG-SEP" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/somya1252"><img src="https://avatars.githubusercontent.com/u/55628578?v=4?s=100" width="100px;" alt=""/><br /><sub><b>somya1252</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=somya1252" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->

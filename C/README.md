@@ -101,6 +101,7 @@
 - [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Ascending Priority Queue](ds/AscendingPQ.c)
 - [Descending Priority Queue](ds/DescendingPQ)
 - [Finding Linked List Palindrome](ds/FindLinkedListPalindrome.c)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_Linked_List.c)
@@ -108,6 +109,7 @@
 - [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
 - [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
 - [Hashtable chaining](ds/hashtable_chaining.c)
+- [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
 
 ## Searching
 
@@ -187,8 +189,8 @@ _add list here_
 - [Lowest Prime Factor](math/lowest_prime_factor_of_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
-- [Neon Number](math/Neon_number.c)
 - [Strong Number](math/strong_number.c) 
+- [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
 - [Magic Number](math/Magic_Number.c) 
 - [Matrix Addition](math/matrix_addition.c)

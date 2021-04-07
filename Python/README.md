@@ -113,6 +113,7 @@
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
 - [Count the number of anagrams](cp/CountAnagrams.py)
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
+- [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 
 
@@ -317,7 +318,9 @@
 - [Hamming Distance](math/Hamming_distance.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
+- [Transpose of matrix](math/Matrix_transpose.py)
 - [Neon Number](math/Neon_number.py)
+- [Matrix addition](math/Matrix_addition.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
 
 ## Blockchain

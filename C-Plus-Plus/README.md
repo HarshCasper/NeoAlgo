@@ -261,6 +261,7 @@
 - [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
+- [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
 
 ## Sorting
 
@@ -311,6 +312,7 @@
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
+- [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
 
 ## Heap based problems
 
@@ -459,6 +461,7 @@ _add list here_
 
 ## Other
 
+- [Transpose of a Square Matrix](other/Transpose_Of_Square_Matrix.cpp)
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
@@ -514,7 +517,8 @@ _add list here_
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Gray inverse Code](other/Gray_Inverse_Code.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
-- [pair-star](other/Pair-Star.cpp)
+- [Sorting an array of zeroes and ones](other/Sorting_an_array_of_zeroes_and_ones.cpp)
+- [Pair-star](other/Pair-Star.cpp)
 - [Activity Selection](other/ActivitySelection.cpp)
-- [job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
+- [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)

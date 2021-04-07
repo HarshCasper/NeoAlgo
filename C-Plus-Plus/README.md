@@ -313,6 +313,7 @@
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
+- [Delete the same consecutive words in a sequence](stack/delete_same_consec.cpp)
 
 ## Heap based problems
 

@@ -312,6 +312,7 @@
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
+- [Maximum Element](C-Plus-Plus/stack/Max_element.cpp)
 
 ## Heap based problems
 

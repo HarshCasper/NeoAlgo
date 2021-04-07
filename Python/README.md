@@ -250,6 +250,7 @@
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
 - [Sort an Arrays of 0s, 1s, 2s](cp/Sort_An_Arraysof0s1sand2s.py)
+- [Activity Selection](cp/activity_selection.py)
 
 ## Cryptography
 

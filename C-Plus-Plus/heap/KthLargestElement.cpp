@@ -13,11 +13,10 @@ using namespace std;
         larger than top of the heap remained in the array.
     3. After traversing through all the elements it returns the top of heap that is the required output.
 */
+
 int findKthLargest(vector<int> &a, int k)
 {
-
-    //creating a min heap
-    priority_queue<int, vector<int>, greater<int>> heap;
+    priority_queue<int, vector<int>, greater<int>> heap;       //creating a min heap
 
     for (auto u : a) //iterating through vector
     {
@@ -25,27 +24,29 @@ int findKthLargest(vector<int> &a, int k)
             heap.push(u); //keep filling the heap till K
         else
         {
-            if (u > heap.top()) //checking if there is another element larger than top of the heap remaining in the vector array.
+            if (u > heap.top()) /*checking if there is another element larger
+                                  than top of the heap remaining in the vector array. */
             {
                 heap.pop();
                 heap.push(u);
             }
         }
     }
-    return heap.top(); //The element on the top of the heap after traversing the whole array will be the Kth Largest ELement.
+    return heap.top(); /*The element on the top of the heap after 
+                          traversing the whole array will be the Kth Largest ELement. */
 }
 
 int main()
 {
     cout << "Enter the size of the vector array: ";
-    int n, k;
-    cin >> n;
+    int size, k;
+    cin >> size;
     cout << "Enter the value of k: ";
     cin >> k;
     vector<int> vec;
     int ele;
     cout << "Enter vector array elements: ";
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < size; i++)
     {
         cin >> ele;
         vec.push_back(ele);

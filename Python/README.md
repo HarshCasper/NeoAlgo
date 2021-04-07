@@ -113,6 +113,7 @@
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
 - [Count the number of anagrams](cp/CountAnagrams.py)
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
+- [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 
 

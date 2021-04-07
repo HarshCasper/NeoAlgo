@@ -25,6 +25,7 @@
 - [Queue](ds/queue)
 - [Queue using Stack](ds/queue/queue_using_stack)
 - [Stack using Queue](ds/stack/stack_using_queue)
+- [Pre-Order Traversal](ds/binary_tree/pre_order_traversal)
 
 ## Mathematics
 - [Areas](math/areas)

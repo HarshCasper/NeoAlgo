@@ -1,6 +1,5 @@
 /*Find pair of nodes in the BST which sum to S. BST and an integer(sum) will be given as inputby the user.*/
 
-Checklist
 #include <iostream>
 #include <bits/stdc++.h>
 

@@ -11,9 +11,9 @@ def final_activities():
     # 2d list is used to enter the start and end time of jobs
     Activity = []
     print("Enter elements of matrix:")
-    for x in range(row):
+    for _ in range(row):
         arr = []
-        for y in range(0, 2):
+        for _ in range(0, 2):
             arr.append(int(input()))
         Activity.append(arr)
     # sorting the 2d list according to the second key

@@ -76,4 +76,7 @@ Enter elements of matrix:
 Following activities are selected :
 [[1, 2], [2, 3], [3, 4], [4, 6]]
 
+Time Complexity: O(nlogn), n = row, for sorting the list
+Space Complexity: O(2*n), n = row, for making the matrix "activity_selected"
+
 '''

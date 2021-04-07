@@ -261,6 +261,7 @@
 - [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
+- [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
 
 ## Sorting
 
@@ -320,7 +321,7 @@
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
-
+- [Kth Smallest Element in an array](heap/KthSmallest.cpp)
 ## Machine Learning
 
 _add list here_
@@ -485,10 +486,12 @@ _add list here_
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
+- [Rotate by one](other/Rotate_by_one.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
 - [Sliding Window Technique](other/Calculate_max_sum_of_k_consecutive_elements.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Sudoku Solver](other/sudoku.cpp)
+- [Sum of all the possible divisors of a natural number](other/sum_of_divisors.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Find a Median of two Sorted arrays of equal size](other/Median_of_two_Sorted_arrays_of_equal_size.cpp)
@@ -513,6 +516,7 @@ _add list here_
 - [Gray inverse Code](other/Gray_Inverse_Code.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
 - [Sorting an array of zeroes and ones](other/Sorting_an_array_of_zeroes_and_ones.cpp)
+- [Pair-star](other/Pair-Star.cpp)
 - [Activity Selection](other/ActivitySelection.cpp)
-- [job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
+- [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)

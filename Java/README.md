@@ -132,6 +132,7 @@ _add list here_
 - [Binary Tree](ds/Binary_Tree.java)
 - [Level order traversal of a tree](ds/LevelOrderTraversalRecursion.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
+- [Find the LCA(Least Common Ancestor) in a Binary Search Tree](ds/LCAofaBST.java)
 - [Node to Root Path in a Binary Tree](ds/NodetoRootPath.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
@@ -174,6 +175,7 @@ _add list here_
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
 - [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
+- [Bipartite Check](graphs/BipartiteCheck.java)
 - [Articulation_Point](graphs/Articulation_Point.java)
 
 ## Mathematics
@@ -305,3 +307,4 @@ _add list here_
 - [Infix to Prefix Expression](other/InfixtoPrefix.java)
 - [Infix to Postfix Expression](other/InfixToPostfix.java)
 - [Union of two Unsorted Arrays](other/UnionUnsortedArray.java)
+- [Repeating and missing number](other/Repeating_and_missing_number.java)

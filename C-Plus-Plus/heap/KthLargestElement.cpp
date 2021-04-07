@@ -3,10 +3,16 @@
 */
 
 #include <bits/stdc++.h>
-#include <queue>
-#include <vector>
 
 using namespace std;
+
+/*
+  The following function finds the Kth Largest element by using Min Heap.
+    1. It Keeps pushing the element to the heap till size k.
+    2. And when it exceeds the size k, It starts checking for another element
+        larger than top of the heap remained in the array.
+    3. After traversing through all the elements it returns the top of heap that is the required output.
+*/
 int findKthLargest(vector<int> &a, int k)
 {
 
@@ -19,7 +25,7 @@ int findKthLargest(vector<int> &a, int k)
             heap.push(u); //keep filling the heap till K
         else
         {
-            if (u > heap.top()) //checking if there is another larger element that top of the heap remaining in the vector array.
+            if (u > heap.top()) //checking if there is another element larger than top of the heap remaining in the vector array.
             {
                 heap.pop();
                 heap.push(u);

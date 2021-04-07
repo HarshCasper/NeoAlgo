@@ -132,6 +132,7 @@ _add list here_
 - [Binary Tree](ds/Binary_Tree.java)
 - [Level order traversal of a tree](ds/LevelOrderTraversalRecursion.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
+- [Find the LCA(Least Common Ancestor) in a Binary Search Tree](ds/LCAofaBST.java)
 - [Node to Root Path in a Binary Tree](ds/NodetoRootPath.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)

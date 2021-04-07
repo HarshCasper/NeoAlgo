@@ -1,10 +1,10 @@
-/*Given two arrays:arr1[] and arr2[] of different size i.e.,no_of_ele_in_arr1 amd no_of_ele_in_arr2 respectively.
-Task :calculate the product of max element of first array i.e.,arr1[] and min element of second array i.e.,arr2[]
+/*Given two arrays:arr1[] and arr2[] of different sizes i.e.,no_of_ele_in_arr1 and no_of_ele_in_arr2 respectively.
+Task :calculate the product of maximum element of first array i.e.,arr1[] and minimum element of second array i.e.,arr2[]
 
 Approach:
 -take two arrays as input.
 -using std library of cpp we will find the maximum element in array arr1 and minimum element in array arr2
--after getting the max and min element we will multiply them.
+-after getting the maximum and minimum element we will multiply them.
 -return the product.
 */
 

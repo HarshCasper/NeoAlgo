@@ -20,7 +20,7 @@ print('Minimum number of jumps to reach',
       'end is', min_jump(arr, size))
 
 '''
-Time Complexity : O(N)
+Time Complexity : O(N^N)
 Space Complexity : O(1)
 
 INPUT:

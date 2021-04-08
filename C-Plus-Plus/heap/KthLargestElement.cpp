@@ -7,11 +7,7 @@
 using namespace std;
 
 /*
-  The following function finds the Kth Largest element by using Min Heap.
-    1. It Keeps pushing the element to the heap till size k.
-    2. And when it exceeds the size k, It starts checking for another element
-        larger than top of the heap remained in the array.
-    3. After traversing through all the elements it returns the top of heap that is the required output.
+  The following function finds the Kth Largest element using Min Heap.
 */
 
 int findKthLargest(vector<int> &a, int k)

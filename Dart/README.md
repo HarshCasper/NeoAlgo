@@ -14,6 +14,12 @@
 - [2D Areas](maths/Areas2D.dart)
 - [Armstrong number](maths/Armstrong.dart)
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
+
+## Search
+
+- [Binary Search](search/BinarySearch.dart)
+
 ## Sorting
 
 - [Bubble Sort](sort/BubbleSort.dart)
+- [Insertion Sort](sort/InsertionSort.dart)

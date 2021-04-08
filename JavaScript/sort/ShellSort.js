@@ -31,7 +31,8 @@ function shellSort(arr) {
 	return arr;
 }
 
-function shellSortWithCustomGaps(arr) {
+function shellSortWithCustomGaps(arr) 
+{
 	let n = arr.length;
 
 	//Start with a really large gap, and then reduce the gap until there isn't any

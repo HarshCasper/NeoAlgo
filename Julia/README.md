@@ -19,6 +19,7 @@
 - [Rainwater Trapping](cp/RainwaterTrapping.jl)
 - [Checking if a number is a power of 2](cp/isPowerOf2.jl)
 - [Knapsack](cp/knapsack.jl)
+- [Print all subsequences of a string](cp/subsequence.jl)
 
 ## Dynamic Programming
 
@@ -37,11 +38,13 @@
 - [Mystery Number](math/mystery_number.jl)
 - [Neon Number](math/neon_number.jl)
 - [Sum of Digits](math/sum_of_digits.jl)
+- [Tower of Hanoi](math/towerOfHanoi.jl)
 
 ## Searching
 
 - [Binary Search](search/binary_search.jl)
 - [Fibonacci Search](search/fibonacci_search.jl)
+- [Interpolation Search](search/interpolation_search.jl)
 - [Jump Search](search/jump_search.jl)
 - [Linear Search](search/linear_search.jl)
 - [Ternary Search](search/ternary_search.jl)

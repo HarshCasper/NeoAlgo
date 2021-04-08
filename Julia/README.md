@@ -20,6 +20,7 @@
 - [Checking if a number is a power of 2](cp/isPowerOf2.jl)
 - [Knapsack](cp/knapsack.jl)
 - [Print all subsequences of a string](cp/subsequence.jl)
+- [Painting Fence](cp/painting_fence.jl)
 
 ## Dynamic Programming
 

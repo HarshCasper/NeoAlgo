@@ -20,6 +20,7 @@
 - [Checking if a number is a power of 2](cp/isPowerOf2.jl)
 - [Knapsack](cp/knapsack.jl)
 - [Print all subsequences of a string](cp/subsequence.jl)
+- [Painting Fence](cp/painting_fence.jl)
 
 ## Dynamic Programming
 
@@ -27,6 +28,7 @@
 - [Golomb Sequence](dp/golomb_sequence.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
+- [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.jl)
 
 ## Mathematics
 
@@ -34,6 +36,7 @@
 - [Palindrome Number](math/check_palindrome.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Number of Digits](math/number_of_digits.jl)
+- [Noble Integer](math/noble_integer.jl)
 - [Magic Number](math/magic_number.jl)
 - [Mystery Number](math/mystery_number.jl)
 - [Neon Number](math/neon_number.jl)

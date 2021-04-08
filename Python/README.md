@@ -18,6 +18,7 @@
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Sum of Linked List](ds/Sum_of_Linked_list.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)

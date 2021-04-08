@@ -1,97 +1,47 @@
-"""
-To get wiggle sort, 
-you want to put the number in the following way such that:
- 
-(1) elements smaller than the 'median' are put into the last even slots. 
-(2) elements larger than the 'median' are put into the first odd slots. 
-(3) the medians are put into the remaining slots.
-
-Purpose: Given an unsorted array nums, reorder it such that nums[0] < nums[1] > nums[2] < nums[3]....
-
-Time Complexity: O(nlogn)
-Space Complexity: O(n)
+"""  
+    WIGGLE SORT
+    This program accepts an array of unsorted numbers and
+    sorts the array such that arr[0]<arr[1]>arr[2]<arr[3]...
+    
 """
 
-"""
-Follow Up:
-Can you do it in O(n) time and/or in-place with O(1) extra space?
+# to wiggle sort the array
+def wiggle_sort(n, arr):
 
-Sorting and reorder solution. (92ms)
-"""
+    # arr is sorted and stored in second array res
 
-class Solution(object):
-    def wiggleSort(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: void Do not return anything, modify nums in-place instead.
-        """
-        nums.sort()
-        med = (len(nums) - 1) / 2
-        nums[::2], nums[1::2] = nums[med::-1], nums[:med:-1]
+    res = sorted(arr)
+    left = (n - 1) // 2
+    right = n - 1
 
-"""
-Time Complexity:  O(n) ~ O(n^2)
-Space Complexity: O(1)
+    # Elements in the left sub-array  are added to the even indices of arr
+    # Elements in the right sub-array are added to the odd indices of arr
 
-Tri Partition with virtual index solution.
-"""
+    for k in range(0, n, 2):
+        arr[k] = res[left]
+        left -= 1
+    for i in range(1, n, 2):
+        arr[i] = res[right]
+        right -= 1
+    print ('Wiggle sorted array:')
+    print (arr)
 
-from random import randint
-class Solution2(object):
-    def wiggleSort(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: void Do not return anything, modify nums in-place instead.
-        """
-        def findKthLargest(nums, k):
-            left, right = 0, len(nums) - 1
-            while left <= right:
-                pivot_idx = randint(left, right)
-                new_pivot_idx = partitionAroundPivot(left, right, pivot_idx, nums)
-                if new_pivot_idx == k - 1:
-                    return nums[new_pivot_idx]
-                elif new_pivot_idx > k - 1:
-                    right = new_pivot_idx - 1
-                else:  # new_pivot_idx < k - 1.
-                    left = new_pivot_idx + 1
-            
-        def partitionAroundPivot(left, right, pivot_idx, nums):
-            pivot_value = nums[pivot_idx]
-            new_pivot_idx = left
-            nums[pivot_idx], nums[right] = nums[right], nums[pivot_idx]
-            for i in xrange(left, right):
-                if nums[i] > pivot_value:
-                    nums[i], nums[new_pivot_idx] = nums[new_pivot_idx], nums[i]
-                    new_pivot_idx += 1
-            nums[right], nums[new_pivot_idx] = nums[new_pivot_idx], nums[right]
-            return new_pivot_idx
 
-        def reversedTriPartitionWithVI(nums, val):
-            def idx(i, N):
-                return (1 + 2 * (i)) % N
+# driver code
 
-            N = len(nums) / 2 * 2 + 1
-            i, j, n = 0, 0, len(nums) - 1
-            while j <= n:
-                if nums[idx(j, N)] > val:
-                    nums[idx(i, N)], nums[idx(j, N)] = nums[idx(j, N)], nums[idx(i, N)]
-                    i += 1
-                    j += 1
-                elif nums[idx(j, N)] < val:
-                    nums[idx(j, N)], nums[idx(n, N)] = nums[idx(n, N)], nums[idx(j, N)]
-                    n -= 1
-                else:
-                    j += 1
+if __name__ == '__main__':
+    arr = list(map(int, input('Enter the array: ').split()))
+    no_of_elements = len(arr)
+    wiggle_sort(no_of_elements, arr)
 
-        mid = (len(nums) - 1) / 2
-        findKthLargest(nums, mid + 1)
-        reversedTriPartitionWithVI(nums, nums[mid])
+'''   
+Sample output           
+Enter the array: 1 3 2 2 3 1
+Wiggle sorted array:
+[2,3,1,3,1,2]
 
-"""
-Example:
-(1) Given nums = [1, 5, 1, 1, 6, 4], one possible answer is [1, 4, 1, 5, 1, 6]. 
-(2) Given nums = [1, 3, 2, 2, 3, 1], one possible answer is [2, 3, 1, 3, 1, 2].
+Complexities
+Time Complexity : O(nlogn)   (Sorting takes O(n logn) and traversal takes O(n))
+Space Complexity : O(n)   (New array to store the wiggle sorted elements)
+'''
 
-Note:
-You may assume all input has valid answer.
-"""

@@ -122,6 +122,7 @@
 
 ## Data Structures
 
+- [kAppend in a LinkedList](ds/kAppend_LinkedList.cpp)
 - [kReverse in a LinkedList](ds/kReverse_LinkedList.cpp)
 - [Construct binary tree using inorder and preorder](ds/Construct_binary_tree_using_inorder_and_preorder.cpp)
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)

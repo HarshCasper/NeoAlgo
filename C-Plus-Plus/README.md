@@ -355,6 +355,7 @@ _add list here_
 - [Word Break Problem](math/Word_break.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
+- [Number of Digits](math/number_of_digits.cpp)
 - [Number of Divisors](math/number_of_divisors.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Magic Number](math/magic_number.cpp)

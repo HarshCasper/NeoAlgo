@@ -140,6 +140,7 @@ _add list here_
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [Matrix Addition](math/Matrix_addition.java)
 
 ## Dynamic Programming
 

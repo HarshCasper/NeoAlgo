@@ -74,7 +74,8 @@ ll.CreateLoop(pos, tail)
 ll.LoopDetect()
 
 
-'''TEST CASE:
+'''
+TEST CASE:
 Input:
 Enter the size of linked list: 5
 Enter elements:
@@ -89,4 +90,5 @@ Loop Detected!
 
 TIME COMPLEXITY: O(n), to traverse the linked list
 where 'n' denotes the length of the linked list.
-SPACE COMPLEXITY: O(1), no extra space used.'''
+SPACE COMPLEXITY: O(1), no extra space used.
+'''

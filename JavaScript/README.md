@@ -34,6 +34,8 @@
 - [Stack](./ds/Stack.js)
 - [Stack using Linked List](./ds/StackLinkedList.js)
 - [Hash Table](./ds/Hash.js)
+- [Recursive preorder traversal in binary search tree](./ds/Recursive_preorder.js)
+- [Recursive inorder traversal in binary search tree](./ds/Recursive_inorder.js)
 - [Recursive postorder traversal of binary search tree](./ds/Recursive_postorder.js)
 
 ## Searching
@@ -50,6 +52,7 @@
 ## Sorting
 
 - [Bubble Sort](./sort/BubbleSort.js)
+- [Brick Sort](./sort/BrickSort.js)
 - [Insertion Sort](./sort/insertion_sort.js)
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)
@@ -74,13 +77,11 @@ _add list here_
 
 ## Competitive Programming
 
-
 - [Median of two sorted arrays](./cp/Median_of_Two_Sorted_Arrays.js)
 
 - [Sliding Window Maximum](./cp/SlidingWindowMaximum.js)
 - [Count Anagrams](./cp/CountAnagrams.js)
 - [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
-
 
 ## Dynamic Programming
 
@@ -90,9 +91,6 @@ _add list here_
 
 _add list here_
 
-## Searching
-
-_add list here_
 
 ## Cryptography
 

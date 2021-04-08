@@ -16,7 +16,9 @@
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
+* [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+
 ## Searching
 * [Bilinear Search](search/bilinear.py)
 * [Binary Search](search/binarysearch.py)
@@ -76,7 +78,6 @@
 - [Singly Linked List](ds/SinglyLinkedList.py)
 - [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
 
-
 ## Competitive Programming
 
 - [Anagram Checker](cp/anagram_checker.py)
@@ -112,6 +113,7 @@
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
 - [Count the number of anagrams](cp/CountAnagrams.py)
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
+- [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 
 
@@ -316,6 +318,9 @@
 - [Hamming Distance](math/Hamming_distance.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
+- [Transpose of matrix](math/Matrix_transpose.py)
+- [Neon Number](math/Neon_number.py)
+- [Matrix addition](math/Matrix_addition.py)
 ## Blockchain
 
 _add list here_

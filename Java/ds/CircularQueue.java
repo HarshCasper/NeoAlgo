@@ -210,179 +210,50 @@ public class CircularQueue
     
     Enter number of elements: 
     5
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    1
+    -> Inserting an element
     Enter element: 
     14
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    1
+    -> Inserting an element
     Enter element: 
     50
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    1
+    -> Inserting an element
     Enter element: 
     -10
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    1
+    -> Inserting an element
     Enter element: 
     -78
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    1
+    -> Inserting an element
     Enter element: 
     45
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    3
-    Displaying the queue
+    -- Displaying the queue
     14 50 -10 -78 45 
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    1
+    -> Inserting an element
     Enter element: 
     60
     Overflow
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    2
+    <- Deleting an element
     Deleted element: 14
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    3
-    Displaying the queue
+    -- Displaying the queue
     50 -10 -78 45 
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    1
+    -> Inserting an element
     Enter element: 
     60
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    3
-    Displaying the queue
+    -- Displaying the queue
     50 -10 -78 45 60 
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    2
+    <- Deleting an element
     Deleted element: 50
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    2
+    <- Deleting an element
     Deleted element: -10
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    2
+    <- Deleting an element
     Deleted element: -78
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    2
+    <- Deleting an element
     Deleted element: 45
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    2
+    <- Deleting an element
     Deleted element: 60
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    2
+    <- Deleting an element
     Underflow
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    1
-    Choose from following: 
-    1. Insert an element
-    2. Delete an element
-    3. Display the elements: 
-    Enter choice: 
-    3
+    -- Displaying the queue
     Circular Queue is Empty
-    Do you wish to continue? Enter 1 for YES or 0 for NO: 
-    0
 */
    
  /**

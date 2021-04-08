@@ -43,6 +43,8 @@
 ## Searching
 
 - [Binary Search](search/binary_search.jl)
+- [Fibonacci Search](search/fibonacci_search.jl)
+- [Interpolation Search](search/interpolation_search.jl)
 - [Jump Search](search/jump_search.jl)
 - [Linear Search](search/linear_search.jl)
 - [Ternary Search](search/ternary_search.jl)

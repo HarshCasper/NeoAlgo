@@ -19,9 +19,6 @@ const getLine = (function () {
   return async () => (await getLineGen.next()).value;
 })();
 
-var number1;
-var number2;
-
 function gcd(number1, number2) {
   //Smaller of the two number
   var smaller_number = Math.min(number1, number2);
@@ -38,11 +35,11 @@ function gcd(number1, number2) {
 const main = async () => {
   //Taking Input of First Number
   console.log("Enter the First Number");
-  number1 = Number(await getLine());
+  var number1 = Number(await getLine());
 
   //Taking Input of Second Number
   console.log("Enter the Second Number");
-  number2 = Number(await getLine());
+  var number2 = Number(await getLine());
 
   //Calling gcd function
   gcd(number1, number2);

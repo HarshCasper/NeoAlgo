@@ -476,6 +476,7 @@ _add list here_
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [Bigmod Algorithm](other/big_mod_algorithm.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
+- [Find Minimum element in Rotated and Sorted Array](other/minimum_in_rotated_sorted_array.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp)
 - [Kth Permutation Sequence](other/Kth_permutation_sequence.cpp)

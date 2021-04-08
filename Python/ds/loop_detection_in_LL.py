@@ -56,7 +56,7 @@ class LinkedList:
             if slow == fast:
                 print("Loop Detected!")
                 return
-            print("Loop not found!")
+        print("Loop not found!")
 
 
 # Driver Code
@@ -74,22 +74,21 @@ ll.CreateLoop(pos, tail)
 ll.LoopDetect()
 
 
-# TEST CASES:
-# 1.
-# Input:
-# n = 5
-# 1 2 3 4 5
-# pos = 2
-# Output:
-# Loop Detected!
+'''
+TEST CASE:
+Input:
+Enter the size of linked list: 5
+Enter elements:
+8
+6
+1
+5
+7
+Index of node which is connected to tail, else enter -1: 2
+Output:
+Loop Detected!
 
-# 2.
-# n= 4
-# 6 8 2 1
-# pos = -1
-# Output:
-# Loop not found!
-
-# TIME COMPLEXITY: O(n), to traverse the linked list
-# where 'n' denotes the length of the linked list.
-# SPACE COMPLEXITY: O(1), no extra space used.
+TIME COMPLEXITY: O(n), to traverse the linked list
+where 'n' denotes the length of the linked list.
+SPACE COMPLEXITY: O(1), no extra space used.
+'''

@@ -47,7 +47,7 @@ function fibonacciSearch(array, key) {
 
   // Last element case
   if (fib1 && array[offSet + 1] === key)
-    return console.log(`Element ${array[i]} found at ${offSet + 2}`);
+    return console.log(`Element ${array[offSet + 1]} found at ${offSet + 2}`);
 
   return console.log("Element not found");
 }

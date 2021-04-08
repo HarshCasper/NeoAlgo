@@ -1,9 +1,5 @@
-/* We append the last K elements of a linked list to the front
-Here n = 7 and k = 3
-I/p: 7
-     1 2 2 1 8 5 6
-     3
-O/P: 8 5 6 1 2 2 1
+/* We append the last K elements of a linked list to the front. In this we take k number of elements from
+the end of the linkedlist and append them as it is without changing sequence to the front of the linkedlist.
 */
 #include <iostream>
 using namespace std;
@@ -103,3 +99,4 @@ The resultant LinkedList afer appending 3elements to the front is: 8 5 6 1 2 2 1
 Time Complexity:   O(n)
 Space Complexity : O(1)
 */
+cout<<endl;

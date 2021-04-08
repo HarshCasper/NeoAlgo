@@ -119,6 +119,7 @@
 - [Plus One Problem](cp/Plus_One.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Maximum element in each subarray of size k](cp/ma_element_in_k_size_subarray.cpp)
 
 ## Data Structures
 

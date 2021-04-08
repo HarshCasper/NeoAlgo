@@ -1,32 +1,68 @@
  
-class Solution {
+'use strict';
 
-    kadanesalgo(arr){
-        let maxh = 0, maxf = arr[0];
-        let N=arr.length;     
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
 
-        for(let i=0;i<N;i++) 
-        {
-            maxh+=arr[i];
-            //Storing max sum so far by choosing maximum between max 
-            //sum so far and max sum till current index.
-            maxf=Math.max(maxh,maxf);
+let inpStr = '';
+let curr = 0;
 
-            if(maxh<0)
-                maxh=0;
+process.stdin.on('data', inputStdin => {
+    inpStr += inputStdin;
+});
+
+process.stdin.on('end', _ => {
+    inpStr = inpStr.trim().split('\n').map(string => {
+        return string.trim();
+    });
+    
+    master();    
+});
+
+function lineread() {
+    return inpStr[curr++];
+}
+
+function master() {
+    console.log("INPUT TEST CASES");
+    let t = parseInt(lineread());
+    for(let i=0;i<t;i++)
+    {   
+        console.log("INPUT NUMBER OF ELEMENTS");
+        let line = lineread().split(' ');
+        let ele = parseInt(line[0]);
+        line = lineread().split(' ').map(x=>parseInt(x));
+        console.log("INPUT ARRAY ELEMENTS");
+        let a = new Array(ele);
+        for(let k=0;k<ele;k++){
+            a[k]=line[k];
         }
-
-        return maxf;
-    } 
+        let Ob = new Kadanes();
+        let sol = Ob.kadanesalgo(a,ele);
+        if(sol===0)
+            sol=0;
+        console.log(sol);
+    }
+    
 }
 
 
-var arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
-let obj = new Solution();
-let ans = obj.kadanesalgo(arr);
-if(ans===0)
-    ans=0;
-console.log(ans);
+
+class Kadanes {
+    
+    kadanesalgo(a,ele){
+        let mh = 0, mf = a[0];
+        for(let p=0;p<ele;p++) 
+        {
+            mh+=a[p];
+            mf=Math.max(mh,mf);
+            if(mh<0)
+                mh=0;
+        }
+        return mf;
+    } 
+}
+
 // solved example
 // Input:
 // N = 4
@@ -36,3 +72,16 @@ console.log(ans);
 // Explanation:
 // Max subarray sum is -1 
 // of element (-1)
+
+
+// Input:
+// N = 4
+// arr[] = {-1,-2,-3,-4}
+// Output:
+// -1
+// Explanation:
+// Max subarray sum is -1 
+// of element (-1)
+
+// Time Complexity: O(N)
+// Auxiliary Space: O(1)

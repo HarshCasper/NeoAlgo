@@ -20,6 +20,7 @@
 - [Checking if a number is a power of 2](cp/isPowerOf2.jl)
 - [Knapsack](cp/knapsack.jl)
 - [Print all subsequences of a string](cp/subsequence.jl)
+- [Painting Fence](cp/painting_fence.jl)
 
 ## Dynamic Programming
 
@@ -33,8 +34,10 @@
 
 - [Armstrong Number](math/armstrong_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
+- [Krishnamurthy Number](math/krishnamurthy_number.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Number of Digits](math/number_of_digits.jl)
+- [Noble Integer](math/noble_integer.jl)
 - [Magic Number](math/magic_number.jl)
 - [Mystery Number](math/mystery_number.jl)
 - [Neon Number](math/neon_number.jl)

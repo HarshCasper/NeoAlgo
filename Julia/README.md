@@ -27,6 +27,7 @@
 - [Golomb Sequence](dp/golomb_sequence.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
+- [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.jl)
 
 ## Mathematics
 

@@ -18,6 +18,7 @@
 ## Search
 
 - [Binary Search](search/BinarySearch.dart)
+- [Linear Search](search/LinearSearch.dart)
 
 ## Sorting
 

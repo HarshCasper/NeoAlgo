@@ -31,7 +31,7 @@ function shellSort  (arr) {
 	return arr;
 }
 
-function shellSort (arr) 
+function shell (arr) 
 {
 	let n = arr.length;
 

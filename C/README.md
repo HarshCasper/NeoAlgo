@@ -117,11 +117,11 @@ _add list here_
 
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
+- [Number of Divisors of a Number](math/number_of_divisors.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
-- [Number of Divisors of a Number](math/number_of_divisors.c)
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)

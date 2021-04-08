@@ -59,6 +59,7 @@ function shellSortWithCustomGaps(arr) {
 	return arr;
 }
 
+
 console.log("Before Sort: ", array, "\n")
 shellSort(array);
 console.log("After Sort: ", array, "\n")

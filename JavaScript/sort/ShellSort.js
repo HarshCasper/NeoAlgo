@@ -31,7 +31,7 @@ function shellSort  (arr) {
 	return arr;
 }
 
-function shellSortWithCustomGaps (arr) 
+function shellSort (arr) 
 {
 	let n = arr.length;
 

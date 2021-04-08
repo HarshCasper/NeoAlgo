@@ -4,7 +4,7 @@
 let array = [5, 7,2,3,4,1,6,58,-8,-1]
 let customGap = [700, 300, 132, 57, 23, 10, 4 , 1]
 
-function shellSort(arr) {
+function shellSort  (arr) {
 	let n = arr.length;
 
 	//Start with a really large gap, and then reduce the gap until there isn't any
@@ -31,7 +31,7 @@ function shellSort(arr) {
 	return arr;
 }
 
-function shellSortWithCustomGaps(arr) 
+function shellSortWithCustomGaps (arr) 
 {
 	let n = arr.length;
 

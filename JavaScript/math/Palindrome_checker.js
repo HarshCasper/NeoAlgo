@@ -3,6 +3,22 @@ Write a program to check whether a given number is palindrome or not.
 Palindrome is a number which reads the same backward as forward.
 */
 
+//In-Built readline module
+const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+const getLine = (function () {
+  const getLineGen = (async function* () {
+    for await (const line of rl) {
+      yield line;
+    }
+  })();
+  return async () => (await getLineGen.next()).value;
+})();
+
 function palindromechecker(no) {
   let temp = no;
   let reverse = 0;
@@ -17,7 +33,19 @@ function palindromechecker(no) {
   else console.log("Entered Number is not a Palindrome");
 }
 
-palindromechecker(131);
+const main = async () => {
+  //Taking Input of Number
+  console.log("Enter the Number");
+  var no = Number(await getLine());
+
+  //Calling palindrome checker function
+  palindromechecker(no);
+
+  //To close the program
+  process.exit(0);
+};
+
+main();
 
 /*
 

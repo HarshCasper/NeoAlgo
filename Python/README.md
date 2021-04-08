@@ -18,6 +18,7 @@
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Circular linked list into two halves](ds/Circular_linked_list_into_halves.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)

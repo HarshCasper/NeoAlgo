@@ -16,6 +16,7 @@
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
+- [Sum of Digits](math/SumOfDigits.dart)
 
 ## Search
 

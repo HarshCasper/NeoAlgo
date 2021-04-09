@@ -4,7 +4,7 @@ In this problem we have to find minimum difference of two subset.
 We have to divide array in two subsets in such a way that difference of both subsets 
 will become minimum.
 */
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int minimumSumPartition(int arr[], int sum, int N)
@@ -25,19 +25,13 @@ int minimumSumPartition(int arr[], int sum, int N)
     {
         for (int j = 1; j <= sum; j++)
         {
-            // if subset sum value less than sum then we will proceed further and we add value to it or we will leave it
             if (arr[i - 1] <= j)
                 DP[i][j] = DP[i-1][j-arr[i-1]] || DP[i-1][j];
-            else // if subset sum value grater than sum then we will proceed further
+            else 
                 DP[i][j] = DP[i-1][j];
         }
     }
-    
-    //i will check in last row from right where i get first true subset sum....it will give my answer
-
     int i = sum;
-
-    // till value of matrix of last row do not return true we will decrese value of i by 1
     while(! DP[N][i])
         i--;
     
@@ -46,37 +40,45 @@ int minimumSumPartition(int arr[], int sum, int N)
     
 }
 
-//Driver code
 int main()
 {
     int N, ans;
-  
-        cin >> N;
-        int arr[N], sum = 0;
-        
-        //We will find the total sum of array to find the range of the array
-        for (int i = 0; i < N; i++)
-        {
-            cin >> arr[i];
-            sum += arr[i];
-        }
-        
-       
-       ans = minimumSumPartition(arr, sum/2, N);
 
-       if (sum & 1)
-            ans++;
+    cout << "Enter the value of N: \n";
+    cin >> N;
+    int arr[N], sum = 0;
 
-        cout << ans << "\n";
+    //We will find the total sum of array to find the range of the array
+    cout << "Enter the value of array: \n";
+    for (int i = 0; i < N; i++)
+    {
+        cin >> arr[i];
+        sum += arr[i];
+    }
 
-    return 0;
+
+   ans = minimumSumPartition(arr, sum/2, N);
+
+   if (sum & 1)
+        ans++;
+
+   cout << ans << "\n";
+
+   return 0;
 }
 /*
-Input -
+Sample Output:
+
+Input:
+Enter the value of N:
 4
+Enter the value of array:
 1 6 5 11
-Output - 
+
+Output: 
 1
+
 Time Complexity - O(N*sum)
 Space Complexity - O(N*sum)
+
 */

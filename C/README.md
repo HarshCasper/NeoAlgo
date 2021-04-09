@@ -185,6 +185,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Sum of Digits](math/sum_of_digits.c)
 - [Armstrong Number](math/armstrong_number.c)
+- [Sum of Divisors of a Number](math/sum_of_divisors.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Find factorial of a Number](math/factorial.c)
 - [Happy Number](math/happy_number.c)

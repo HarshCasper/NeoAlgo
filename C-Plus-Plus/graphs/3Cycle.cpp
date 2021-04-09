@@ -9,14 +9,14 @@ V is the number of vertices in the input graph and E is the number of edeges in
 the input graph.
 */
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int getCycles(bool** graph, int v){
+int getCycles(bool** graph, int vertices){
     int cycleCount = 0;
-    for(int i=0; i<v-2; ++i){
-        for(int j=i+1; j<v-1; ++j){
-            for(int k=j+1; k<v; ++k){
+    for(int i=0; i<vertices-2; ++i){
+        for(int j=i+1; j<vertices-1; ++j){
+            for(int k=j+1; k<vertices; ++k){
                 if (graph[i][j] && graph[j][k] && graph[k][i]){
                     ++cycleCount;
                 }
@@ -25,26 +25,34 @@ int getCycles(bool** graph, int v){
     }
     return cycleCount;
 }
+
 int main()
 {
-    int v, e;
+    int vertices, edeges;
     
-    cin >> v >> e;
+    cout<<"Enter the number of vertices and number of edeges in the graph"<<endl;
     
-    bool** graph = new bool*[v];
+    cin >> vertices >> edeges;
     
-    for(int i=0; i<v; ++i){
-        graph[i] = new bool[v]();
+    bool** graph = new bool*[vertices];
+    
+    for(int i=0; i<vertices; ++i){
+        graph[i] = new bool[vertices]();
     }
     
-    for(int i=0, a, b; i<e; ++i){
+    cout<<"Enter the path vertices"<<endl;
+    
+    for(int i=0, a, b; i<edeges; ++i){
         cin >> a >> b;
         graph[a][b] = true;
         graph[b][a] = true;
     }
-    cout << getCycles(graph, v);
     
-    for(int i=0; i<v; ++i){
+    cout<<"The number of distinct 3-cycles in the graph is/are: ";
+    
+    cout << getCycles(graph, vertices);
+    
+    for(int i=0; i<vertices; ++i){
         delete[] graph[i];
     }
     
@@ -53,12 +61,15 @@ int main()
 
 /*
 Sample Input 1:
-3 3
+Enter the number of vertices and number of edeges in the graph                                                                                  
+3 3                                                                                                                                                                                                                                                                                            
+Enter the path vertices                                                                                                                         
 0 1
 1 2
 2 0
+
 Sample Output 1:
-1
+The number of distinct 3-cycles in the graph is/are: 1 
 
 Time Complexitiy: O(V^3)
 

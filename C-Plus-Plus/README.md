@@ -383,6 +383,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_number.cpp)
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
+- [Perfect Number](math/Perfect_Number.cpp)
 
 ## Dynamic Programming
 

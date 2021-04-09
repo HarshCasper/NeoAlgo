@@ -4,26 +4,26 @@ using System.Collections.Generic;
 
 namespace NeoAlgo
 {
-    /**
-     * This Program takes vertices and edges from the user, generates graph(adjacency list representation) and performs DFS on it.
-     * Time Complexity of DFS - O(V+E) where |V| represents number of vertices and |E| represents number of edges 
-     * Space Complexity of DFS - O(V) where |V| represnets number of vertices 
-     * 
-     * Example 1 : 
-     * 
-     * (Input)
-     * Supply Vertices of Graph Seperated by Space : a b c d
-     * Supply Number of Edges : 4
-     * Supply Space Seperated Start and End Vertex of Edge 1: a b
-     * Supply Space Seperated Start and End Vertex of Edge 2: a c
-     * Supply Space Seperated Start and End Vertex of Edge 3: a d
-     * Supply Space Seperated Start and End Vertex of Edge 4: b d
-     * 
-     * (Output) 
-     * a d c b
-     */
     class DFS
     {
+        /**
+        * This Program takes vertices and edges from the user, generates graph(adjacency list representation) and performs DFS on it.
+        * Time Complexity of DFS - O(V+E) where |V| represents number of vertices and |E| represents number of edges 
+        * Space Complexity of DFS - O(V) where |V| represnets number of vertices 
+        * 
+        * Example 1 : 
+        * 
+        * (Input)
+        * Supply Vertices of Graph Seperated by Space : a b c d
+        * Supply Number of Edges : 4
+        * Supply Space Seperated Start and End Vertex of Edge 1: a b
+        * Supply Space Seperated Start and End Vertex of Edge 2: a c
+        * Supply Space Seperated Start and End Vertex of Edge 3: a d
+        * Supply Space Seperated Start and End Vertex of Edge 4: b d
+        * 
+        * (Output) 
+        * a d c b
+        */
         static void Main()
         {
             bool isGraphGenerated = GenerateGraph(out Dictionary<string, Vertex> graph);

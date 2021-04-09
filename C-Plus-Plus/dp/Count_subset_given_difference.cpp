@@ -1,7 +1,10 @@
 /*
 This problem is solved using dp.
-In this problem we have to count whether two subset difference is equal to sum or not
-if equal then we will return true else we will return false.
+In this we will have array and difference.
+We have to divide array in two subsets in such a way that difference of both subsets 
+will become equal to given difference.
+if equal then we will increase count.
+and if there is no such subset then return 0 else return count
 */
 #include <bits/stdc++.h>
 using namespace std;

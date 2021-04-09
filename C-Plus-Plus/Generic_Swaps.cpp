@@ -7,30 +7,29 @@ using namespace std;
 
 // This is a function template
 // Calling the function by reference
-template <class X> void swap(X *a, X *b)
+template <class X> void swap(X *a,X *b)
 {
 	X temp;
-	
-	temp = *a;
-	*a = *b;
-	*b = temp;
+	 temp = *a;
+	 *a = *b;
+	 *b = temp;
 }
 
 int main(){
 	
 	int n,m;
-	cout<<"\n Enter two Integer :";
-	cin>>n>>m;
+	   cout<<"\n Enter two Integer :";
+	   cin >> n >> m;
 	
 	char a,b;
-	cout<<"\n Enter two Charcter :";
-	cin>>a>>b;
+	  cout<<"\n Enter two Charcter :";
+	  cin >> a >> b;
 	
 	swap(&n,&m);  //calling function to swap integer
 	swap(&a,&b); // calling function to  swap char
 	
-	cout<<"\n Swapped n,m :"<<n<<" "<<m<<endl;
-        cout<<"\n Swapped a,b :"<<a<<" "<<b<<endl;	
+	cout<<"\n Swapped n,m :"<< n <<" "<< m << endl;
+        cout<<"\n Swapped a,b :"<< a <<" "<< b << endl;	
     
     return 0;
 }

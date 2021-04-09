@@ -34,6 +34,7 @@
 ## Mathematics
 
 - [Armstrong Number](math/armstrong_number.jl)
+- [Automorphic Number](math/automorphic_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
 - [N'th Catalan Number](math/catalan_number.jl)

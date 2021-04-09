@@ -53,13 +53,18 @@ int main()
 }
 /*Example:
 1)Input:
+Enter total number of circles:
 4
+Enter the center and the radius respectively:
 1 1
+Enter the center and the radius respectively:
 2 1
+Enter the center and the radius respectively:
 3 1
+Enter the center and the radius respectively:
 4 1
 Output:
-2
+Minimum circles that are to be removed: 2
 Time Complexity: O(nlogn)
 Space Complexity: O(nlogn) 
 */

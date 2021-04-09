@@ -41,6 +41,7 @@
 - [Bulb Switcher problem](cp/bulbSwitch.c)
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
+- [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
 
 ## Cryptography
 
@@ -109,6 +110,7 @@
 - [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
 - [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
 - [Hashtable chaining](ds/hashtable_chaining.c)
+- [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
 
 ## Searching
 
@@ -191,6 +193,7 @@ _add list here_
 - [Strong Number](math/strong_number.c) 
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
+- [Number of Digits](math/number_of_digits.c)
 - [Magic Number](math/Magic_Number.c) 
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)

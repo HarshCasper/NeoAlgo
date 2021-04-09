@@ -31,3 +31,4 @@
   [Exponential Search](search/ExponentialSearch.kt)
 - [Linear Search](search/LinearSearch.kt)
 - [StairCase Search](search/StairCaseSearch.kt)
+- [Ternary Search](search/TernarySearch.kt)

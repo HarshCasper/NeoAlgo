@@ -201,7 +201,7 @@ _add list here_
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
-- [ Count the number of subset with a given difference](dp/Count_subset_given_difference.cpp)
+- [Count the number of subset with a given difference](dp/Count_subset_given_difference.cpp)
 
 ## Blockchain
 

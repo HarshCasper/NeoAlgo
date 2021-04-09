@@ -18,6 +18,7 @@
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Loop detection in Linked List](ds/loop_detection_in_LL.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)

@@ -100,7 +100,6 @@ _add list here_
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 
-
 ## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)

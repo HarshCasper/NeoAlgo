@@ -20,6 +20,7 @@
 ## Data Structures
 - [Binary Tree](ds/binary_tree)
 - [Inorder Traversal Binary Tree](ds/binary_tree/inorder_traversal_binary_tree)
+- [Post-order Traversal](ds/binary_tree/post_order_traversal)
 - [Singly Linked List](ds/linked_list/singly_linked_list)
 - [Singly Linked List Reversed](ds/linked_list/singly_linked_list_reversed)
 - [Queue](ds/queue)

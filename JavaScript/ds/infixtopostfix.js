@@ -67,8 +67,7 @@ function InfixtoPostfix(infixval)
 {
     var postfix=[];
     var temp=0;
-    push('@');
-   
+    push('@'); 
     
     for(var i=0;i<infixval.length;i++)
     {
@@ -85,7 +84,6 @@ function InfixtoPostfix(infixval)
             {
                 push(el);
             }
-  // compare precedency 
             else if(precedency(el)>precedency(stackarr[topp]))
             {
                 push(el);
@@ -124,26 +122,23 @@ function InfixtoPostfix(infixval)
 
  InfixtoPostfix("((a+b)*c)");
 
-
-
-
  /*
 OutPut:
 ab+c*
-
-Time Complexity:O(N)
-Space Complexity: O(N)
 
 Input:
 A+B*C/(E-F)
 
 Output:
-ABC*EF-/+
-
+Postfix Expression: ABC*EF-/+
 
 Input:
 a+b*(c^d-e)^(f+g*h)-i
 
 Output:
-abcd^e-fgh*+^*+i-
+Postfix Expression: abcd^e-fgh*+^*+i-
+
+Time Complexity:O(N)
+Space Complexity: O(N)
+
  */

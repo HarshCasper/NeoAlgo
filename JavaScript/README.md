@@ -74,6 +74,8 @@ _add list here_
 - [Armstrong Number](./math/ArmstrongNumbers.js)
 - [Binary Exponentiation](./math/bin_exp.js)
 - [Fibonacci](./math/Fibonacci.js)
+- [Palindrome Checker](./math/Palindrome_checker.js)
+- [GCD of two Numbers](./math/gcd_of_two_no.js)
 
 ## Competitive Programming
 

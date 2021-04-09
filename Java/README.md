@@ -223,6 +223,7 @@ _add list here_
 - [Unique BST](dp/Unique_BST.java)
 - [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
 - [Matrix Chain Multiplication to find the minimum cost](dp/MatrixChainMultiplication.java)
+- [Perfect Sum Problem](dp/PerfectSumProblem.java)
 
 ## Blockchain
 

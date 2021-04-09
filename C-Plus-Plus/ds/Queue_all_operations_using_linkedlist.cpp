@@ -1,41 +1,39 @@
-/*Queue is a data structure which works on FIFO principle i.e First In First Out. Element inserted first will also get deleted first.
-Insertion will always take place at front and Deletion from Rear. 
-You can understand Queue with the example of a Queue at Ticket counter. The people keep on adding in Queue from End and Exist from Beginning. */
+/*Queue is a data structure which works on FIFO principle i.e First In First Out. Element inserted first will also get deleted first.Insertion will always take place at front and Deletion from Rear. You can understand Queue with the example of a Queue at Ticket counter. The people keep on adding in Queue from End and Exist from Beginning. */
 #include<bits/stdc++.h>//Header file for all standard library
 using namespace std;
 struct Node //Structure of node of linked list
 {
  public:
-    int info;//Will store integer type data 
-    Node *next;//Since this progrm is implemented through linked list therfore to point the next node we have next pointer which will store the address of next adjacent node
-} * ptr, *save, *rear, *front, *NEW;//Some of the pointers of Node type
+    int info; 
+    Node *next;
+} * ptr, *save, *rear, *front, *NEW;
 Node *CN(int y) // For creating node
 {
-    ptr = new Node;// initializing a new node
-    ptr->info = y;// assinging the data entered by the user to info part of the node
-    ptr->next = NULL;// Putting Null in the next pointer of node 
+    ptr = new Node;
+    ptr->info = y;
+    ptr->next = NULL;
     return ptr;
 }
 void insert(Node *NEWPTR)// For inserting node
 {
-    if (front == NULL)// firstly we will check whether our front of queue is null if yes it means our queue doesn't contain any element so, we will insert our node
+    if (front == NULL)
     {
-      front = rear = NEWPTR;// Now our front and end both are at same point because there is only one node in Queue.                
+      front = rear = NEWPTR;                
   
     }
-    else // If the above condition is not true it means there are some elements in queue
+    else
     {
-        rear->next = NEWPTR;//So we know that insertion in queue take place from rear end therfore we will link the rear element of the queue to the new node which was null previously  
-        rear = NEWPTR;//Update the new node to be rear
+        rear->next = NEWPTR;  
+        rear = NEWPTR;
     }
 }
 void Delete() //for deleting a node
 {
 
-    if (front == NULL)//checking whether the front is null if yes it means queue is empty
-        cout << "\nUnderflow!!";//So underflow condition arises.
+    if (front == NULL)
+        cout << "\nUnderflow!!";
 
-    else// If the above condition is not true means queue has some nodes in it so we will delete them and we know deletion takes place from front of queue
+    else
     {
         ptr = front;
         front = front->next;
@@ -63,10 +61,8 @@ int main()
 {
     int a, x;
     char ch = 'y';
-
-    do// This is will generate a menu and perform the operation acc. to your choice. You will get clear when you will run this 
+    do 
     {
-
         cout << "\nWhat do u want to do with Queue\n1. Insert a node \n2. Delete a node \n3. Display\n Enter your choice:";
         cin >> a;
         switch (a)

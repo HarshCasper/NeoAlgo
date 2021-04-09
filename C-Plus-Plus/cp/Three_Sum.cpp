@@ -1,12 +1,11 @@
 /*
 Description :
     
-	Three Sum Problem - In this problem, user will provide an array and we
-	                    have find wether there is any "three" numbers are 
-						present in the array who's sum is equal to the target 
-						provided.If it is present then it will show true else 
-						it will show false.
-
+	TThree Sum Problem - In this problem, user will provide an array and we
+                         have find wether there is any "three" numbers are 
+                         present in the array who's sum is equal to the target 
+		                 provided. If it is present then it will show true else 
+                         it will show false.
 */
 
 
@@ -15,14 +14,17 @@ using namespace std;
 
 int main()
 {
-	int n; // n= size of an array
+	// n= size of an array
+	int n; 
 	cin>>n;
-	int target; //target = the number who's sum we have find.
+	//target = the number who's sum we have find.
+	int target; 
 	cin>>target;
 
-	vector<int> a(n); //n size of array
-
-	for(auto &i : a){ //taking input in the array
+    //n size of array
+	vector<int> a(n); 
+    //taking input in the array
+	for(auto &i : a){ 
 		cin>>i;
 	}
 	bool found = false;

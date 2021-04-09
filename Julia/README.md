@@ -56,6 +56,7 @@
 - [Jump Search](search/jump_search.jl)
 - [Linear Search](search/linear_search.jl)
 - [Ternary Search](search/ternary_search.jl)
+- [Ternary Search Recursive](search/ternary_search_recursive.jl)
 
 ## Sorting
 

@@ -63,4 +63,6 @@ Output:
     12
     1
 Time complexity: O(2^N)
+Space complexity: O(1)
 =#
+

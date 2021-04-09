@@ -117,16 +117,16 @@ public class PerfectSumProblem
     }
 }
 /*
-    Sample Input/Output:
-                        Input: Enter the number of elements you want in an array: 5
-                               Enter the elements of an array: 5 4 3 2 1
-                               Enter the Sum you want subsets for: 9
+  Sample Input/Output:
+  Input: Enter the number of elements you want in an array: 5
+         Enter the elements of an array: 5 4 3 2 1
+         Enter the Sum you want subsets for: 9
 
-                        Output: [4, 5]
-                                [2, 3, 4]
-                                [1, 3, 5]
+  Output: [4, 5]
+          [2, 3, 4]
+          [1, 3, 5]
 
-    Time and space complexity for this approach:
-    Time Complexity: 2^N
-    Auxiliary Space: O(1)
+  Time and space complexity for this approach:
+  Time Complexity: 2^N
+  Auxiliary Space: O(1)
 */

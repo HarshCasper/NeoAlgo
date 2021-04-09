@@ -33,6 +33,7 @@ int main()
 }
 
 /*
+
 Time Complexity: O(n)
 Space Complexity: O(1)
 
@@ -43,4 +44,5 @@ Output: 6 is a perfect number.
 sample 2:
 Input: Enter a number to check whether it is a perfect number or not: 7
 output: 7 is not a perfect number.
+
 */ 

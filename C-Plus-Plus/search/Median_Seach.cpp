@@ -45,6 +45,4 @@ enter the number of elements 5
 
 Output
 Median = 4
-
-
 */

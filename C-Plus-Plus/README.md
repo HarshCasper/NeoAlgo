@@ -122,7 +122,7 @@
 
 ## Data Structures
 
-- [Queue all operations using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
+- [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
 - [kReverse in a LinkedList](ds/kReverse_LinkedList.cpp)
 - [Construct binary tree using inorder and preorder](ds/Construct_binary_tree_using_inorder_and_preorder.cpp)
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)

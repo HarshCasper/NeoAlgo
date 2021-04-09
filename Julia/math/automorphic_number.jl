@@ -12,25 +12,21 @@ function check_automophic(num)
 
         # Check if they are equal
         if(lastNum != lastSquare)
-            return false
+            return "The given number $n is not an Automorphic Number."
         end
 
         num = num ÷ 10
         temp = temp ÷ 10
     end
 
-    return true
+    return "The given number $n is an Automorphic Number."
 end
 
 print("Enter the number: ")
 n = readline()
 n = parse(Int, n)
 res = check_automophic(abs(n))
-if res
-    println("The given number $n is an Automorphic Number.")
-else
-    println("The given number $n is not an Automorphic Number.")
-end
+print(res)
 
 
 """

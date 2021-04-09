@@ -28,6 +28,7 @@
 - [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
+- [Binary Tilt Tree](ds/Binarytree_Tilt.py)
 
 
 ## Competitive Programming

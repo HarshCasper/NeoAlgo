@@ -522,4 +522,4 @@ _add list here_
 - [Activity Selection](other/ActivitySelection.cpp)
 - [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
-- [Find repeating and missing number in array](other/repeated_missing.cpp)
+- [Repeating and Missing Number](other/repeated_missing.cpp)

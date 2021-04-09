@@ -28,7 +28,8 @@ _add list here_
 ## Dynamic Programming
 
 _add list here_
-
+## Graphs
+- [Topological Sorting](graphs/TopologicalSorting.cs)
 ## Searching
 
 - [Binary Search](search/BinarySearch.cs)

@@ -130,6 +130,7 @@
 - [Bubble Sort](sort/bubble_sort.c)
 - [Circle Sort](sort/circle_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
+- [Count Inversions](sort/Count_Inversions.c)
 - [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)
 - [Merge Sort in O(1) space complexity](<sort/mergesort_in_O(1)_space_complexity.c>)

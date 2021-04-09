@@ -1,8 +1,12 @@
 /**
-The Floyd Warshall Algorithm is used to find minimum distances between every pair of vertices in a given edge weighted directed Graph.
+
+The Floyd Warshall Algorithm is used to find minimum distances between
+every pair of vertices in a given edge weighted directed Graph.
 The Floyd-Warshall algorithm is an example of dynamic programming. 
-It breaks the problem down into smaller subproblems, then combines the answers to those subproblems to solve the big, initial problem. 
- */
+It breaks the problem down into smaller subproblems, then combines 
+the answers to those subproblems to solve the big, initial problem. 
+
+*/
 
 import java.util.Scanner;
 
@@ -44,10 +48,8 @@ public class Floyd_Warshall_Algorithm {
 			for (int i = 0; i < v; i++) {
 				for (int j = 0; j < v; j++) {
 
-					int oc = answerMatrix[i][j]; // old cost, already present at i,j
-					int nc = answerMatrix[i][k] + answerMatrix[k][j]; // new cost, cost from i to k plus cost from k to
-																		// j.
-					// Since we are assuming that path from to j passes through k.
+					int oc = answerMatrix[i][j];
+					int nc = answerMatrix[i][k] + answerMatrix[k][j];
 
 					if (nc < oc) {
 						answerMatrix[i][j] = nc;
@@ -91,6 +93,7 @@ Sample Test case 1 :
 
 Output :
 
+Matrix displaying minimum costs between the pairs of vertices.
 0 3 5 6 
 5 0 2 3 
 3 6 0 1 

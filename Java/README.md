@@ -163,6 +163,7 @@ _add list here_
 - [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
 - [Merge In Between Linked Lists](ds/MergeInBetweenLinkedLists.java)
 - [Double Ended Queue in Java](ds/DEQueue.java)
+- [Circular Queue](ds/CircularQueue.java)
 
 ## Graphs
 

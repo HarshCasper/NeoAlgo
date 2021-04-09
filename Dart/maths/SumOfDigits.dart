@@ -1,6 +1,6 @@
 import 'dart:io';
 
-// Calculate factorial of number
+// Find sum of digits of number 
 int sum_digits(int number) {
   int sum = 0;
 
@@ -18,14 +18,14 @@ void main() {
   print("Enter a number:");
   int input = int.parse(stdin.readLineSync()!);
 
-  // Call factorial function
+  // Call sum of digits function
   int sum_of_digits = sum_digits(input);
   print("Sum of digits in $input is $sum_of_digits");
 }
 /**
 Enter a number:
 401
-Sum of digits in 401 is 50
+Sum of digits in 401 is 5
 
 Enter a number:
 123

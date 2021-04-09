@@ -361,8 +361,8 @@ _add list here_
 - [Set Clear and Check bits](other/check_set_clear_bit.cpp)
 - [Iterative approach to print all subsets](other/subsets_iterative.cpp)
 - [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)
-
-## Hashing
-
 - [Print all the subarrays with sum as zero](hashing/print_subarrays_with_zero_sum.cpp)
+
+
+
 

@@ -1,5 +1,5 @@
 /*
- This project converts infix expression to prefix expression in JavaScript.
+ This code converts infix expression to prefix expression in JavaScript.
 
  Infix expression:-  The expression of the form a op b. 
  When an operator is in-between every pair of operands.
@@ -9,7 +9,6 @@
   Simply of the form (operand1 operand2 operator). 
 
 */
-
 
 var stackarr=[];
 var topp=-1;
@@ -69,8 +68,7 @@ function InfixtoPrefix(infixval)
 {
     var prefix=[];
     var temp=0;
-    push('@');
-   
+    push('@'); 
 
     for(var i=infixval.length-1;i>=0;i--)
     {
@@ -119,25 +117,24 @@ function InfixtoPrefix(infixval)
     console.log("Prefix Expression:- "+st);
  }
  InfixtoPrefix("((a+b)*c)");
- 
 
  /*
 OutPut:
-*+abc
-
-Time Complexity:O(N)
-Space Complexity: O(N)
+Prefix Expression: *+abc
 
 Input:
 A+B*C/(E-F)
 
 Output:
-+A*B/C-EF
-
+Prefix Expression: +A*B/C-EF
 
 Input:
 a+b*(c^d-e)^(f+g*h)-i
 
 Output:
-+a-*b^-^cde+f*ghi
+Prefix Expression: +a-*b^-^cde+f*ghi
+
+Time Complexity:O(N)
+Space Complexity: O(N)
+
  */

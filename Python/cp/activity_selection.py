@@ -51,16 +51,16 @@ Sample Input:
 Enter the number of rows: 
 4
 Enter elements of matrix row wise:
-elements of row 0
+Elements of row 0
 1
 2
-elements of row 1
+Elements of row 1
 2
 4
-elements of row 2
+Elements of row 2
 3
 5
-elements of row 3
+Elements of row 3
 4
 6
 

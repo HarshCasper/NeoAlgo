@@ -181,6 +181,7 @@ _add list here_
 
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
+- [Number of Divisors of a Number](math/number_of_divisors.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Sum of Digits](math/sum_of_digits.c)

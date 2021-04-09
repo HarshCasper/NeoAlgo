@@ -1,9 +1,9 @@
 /*
-Repeating and missing number
-Problem Statement: Given an unsorted array of positive integers. The elements are in the range 1 to n where n is the size of array,
-                   there is one number which is repeated and another number which is missing. Find these numbers and print them.
-		    The approach used is that checking if the current element is in its desired position or not. It is, then simply iterate
-		    for next, else put it in its desired position by comparing with its index number and swap it accordingly.
+Repeating and missing number:
+Given an unsorted array of positive integers. The elements are in the range 1 to n where n is the size of array,
+there is one number which is repeated and another number which is missing. Find these numbers and print them.
+The approach used is that checking if the current element is in its desired position or not. It is, then simply iterate
+for next, else put it in its desired position by comparing with its index number and swap it accordingly.
 */
 
 #include <bits/stdc++.h>

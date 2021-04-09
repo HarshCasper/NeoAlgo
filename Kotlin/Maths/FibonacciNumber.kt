@@ -4,28 +4,28 @@ The first two terms of the Fibonacci sequence is 0 followed by 1.
 
 The Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 */
-import java.util.Scanner                    //importing scanner
+import java.util.Scanner                    
 
 fun main(args: Array<String>) {
    
    val reader = Scanner(System.`in`)       
    print("Enter any number: ")  
-   var n :Int = reader.nextInt()            //Obtaining input from user
+   var number :Int = reader.nextInt()            
   
-    var i = 1
-    var t1 = 0
-    var t2 = 1
+    var index = 1
+    var term1 = 0
+    var term2 = 1
 
-    print("Fibonacci series upto $n : ")
+    print("Fibonacci series upto $number : ")
 
-    while (i <= n) {
-        print("$t1 + ")
+    while (index <= number) {
+        print("$term1 + ")
 
-        val sum = t1 + t2
-        t1 = t2                      //swapping the terms 
-        t2 = sum
+        val sum = term1 + term2
+        term1 = term2                      
+        term2 = sum
 
-        i++
+        index++
     }
 }
 

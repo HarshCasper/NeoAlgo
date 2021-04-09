@@ -24,7 +24,7 @@
 - [Armstrong Number](Maths/Armstrong.kt)
 - [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
 - [Palindrome Number](Maths/PalindromeNumber.kt)
-- [FibonacciNumber](Maths/FibonacciNumber.kt)
+- [Fibonacci Number](Maths/FibonacciNumber.kt)
 
 
 ## Searching Algorithms

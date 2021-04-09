@@ -39,6 +39,7 @@ function master() {
         }
         let Ob = new Kadanes();
         let sol = Ob.kadanesalgo(a,ele);
+        console.log("MAX SUM OF SUBARRAY IS : ");
         if(sol===0)
             sol=0;
         console.log(sol);
@@ -65,20 +66,11 @@ class Kadanes {
 
 // solved example
 // Input:
-// N = 4
-// arr[] = {-1,-2,-3,-4}
+// INPUT TEST CASES = 1
+//INPUT NUMBER OF ELEMENTS = 4
+// INPUT ARRAY ELEMENTS = -1 -2 -3 -4
 // Output:
-// -1
-// Explanation:
-// Max subarray sum is -1 
-// of element (-1)
-
-
-// Input:
-// N = 4
-// arr[] = {-1,-2,-3,-4}
-// Output:
-// -1
+//  MAX SUM OF SUBARRAY IS : -1
 // Explanation:
 // Max subarray sum is -1 
 // of element (-1)

@@ -7,6 +7,7 @@ string consists only two characters , one is '(' another is ')'
 #include <stdio.h>
 #include <string.h>
 
+//this balanced_bracket_sequence function will calculate maximum possible length of balanced bracket sequence
 int balanced_bracket_sequence(char s[], int string_size)
 {
     int max_possible_balanced_bracket_sequence = 0;
@@ -30,7 +31,6 @@ int balanced_bracket_sequence(char s[], int string_size)
                 first_bracket--;
             }
         }
-
     }
     return max_possible_balanced_bracket_sequence;
 }

@@ -1,5 +1,6 @@
 /*
-Repeating and missing number:
+Repeating and missing number
+
 Given an unsorted array of positive integers. The elements are in the range 1 to n where n is the size of array,
 there is one number which is repeated and another number which is missing. Find these numbers and print them.
 The approach used is that checking if the current element is in its desired position or not. It is, then simply iterate

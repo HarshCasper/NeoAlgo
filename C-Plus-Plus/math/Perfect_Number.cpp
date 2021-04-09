@@ -9,7 +9,7 @@ Hence 6 is a perfect number.
 #include <bits/stdc++.h>
 using namespace std;
 
-int sumOfDivisors(int n)
+int perfectnumber(int n)
 {
     int sum=0;
     for (int i = 1; i < n; i++)
@@ -25,7 +25,7 @@ int main()
     int n;
     cout<<"Enter a number to check whether it is a perfect number or not: ";
     cin >> n;
-    if (sumOfDivisors(n) == n)
+    if (perfectnumber(n) == n)
         cout << n << " is a perfect number." << endl;
     else
         cout << n << " is not a perfect number." << endl;

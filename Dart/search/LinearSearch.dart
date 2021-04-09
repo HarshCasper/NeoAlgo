@@ -39,6 +39,9 @@ void main() {
 }
 
 /**
+Time complexity: O(n)
+Space complexity: O(1)
+
 Enter List size:
 5
 Enter 5 elements:
@@ -50,7 +53,4 @@ Enter 5 elements:
 Enter Element to search:
 4
 4 found at index 3
-
-Time complexity: O(n)
-Space complexity: O(1)
  */

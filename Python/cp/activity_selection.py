@@ -7,10 +7,10 @@ number of activities among them. Note, activities are not sorted
 
 
 def final_activities():
-    row = int(input())
+    row = int(input("Enter the number of rows: "))
     # 2d list is used to enter the start and end time of jobs
     Activity = []
-    print("Enter elements of matrix:")
+    print("Enter elements of matrix row wise:")
     for _ in range(row):
         arr = []
         for _ in range(0, 2):
@@ -41,10 +41,10 @@ if __name__ == "__main__":
 
 
 '''
-Test Cases:
-1.
-Input:
+Sample Input:
+Enter the number of rows: 
 4
+Enter elements of matrix row wise:
 1
 2
 2
@@ -54,27 +54,9 @@ Input:
 4
 6
 
-Output:
-Enter elements of matrix:
+Sample Output:
 Following activities are selected :
 [[1, 2], [2, 4], [4, 6]]
-
-2.
-Input:
-4
-1
-2
-2
-3
-3
-4
-4
-6
-
-Output:
-Enter elements of matrix:
-Following activities are selected :
-[[1, 2], [2, 3], [3, 4], [4, 6]]
 
 Time Complexity: O(nlogn), n = row, for sorting the list
 Space Complexity: O(2*n), n = row, for making the matrix "activity_selected"

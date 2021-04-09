@@ -191,8 +191,4 @@ Enter elements of second array:
 Output:
 Median of two arrays is 4.50000
 
-<<<<<<< HEAD
 */
-=======
-*/
->>>>>>> 03474655996600f156b77ddedea9fab0d25ee83d

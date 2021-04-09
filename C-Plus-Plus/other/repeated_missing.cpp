@@ -49,8 +49,8 @@ int main() {
 /*
 Test Case :
 Input - 
-7
-4 2 3 6 1 1 7
+Enter the size of array: 7
+Enter the elements of array: 4 2 3 6 1 1 7
 Output - 
 Repeated number: 1
 Missing number: 5

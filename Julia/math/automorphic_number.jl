@@ -49,3 +49,4 @@ SAMPLE 2
 Enter the number: 25
 The given number 25 is an Automorphic Number.
 """
+

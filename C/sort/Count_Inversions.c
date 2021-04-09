@@ -9,7 +9,7 @@ Two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
 // answer stores the inversion count.
 int answer = 0;
 
-// Merge function helps us to caluculate the inversion count.
+// Merge function helps us to calculate the inversion count.
 void Merge(int input[], int start, int end, int mid)
 {
     // temp is an array, which finally stores the elements of input array in sorted manner.
@@ -55,30 +55,32 @@ void MergeSort(int input[], int start, int end)
     Merge(input, start, end, mid);
 }
 
-// driver code.
 int main()
 {
-    // n is the size of the input array.
-    int n;
-    scanf("%d", &n);
-    int input[n];
-    for (int i = 0; i < n; i++)
+    printf("Enter the size of the input array : ");
+    int SIZE;
+    scanf("%d", &SIZE);
+    int input[SIZE];
+    printf("Enter the elements of the input array\n");
+    for (int i = 0; i < SIZE; i++)
     {
         scanf("%d", &input[i]);
     }
-    MergeSort(input, 0, n - 1);
-    printf("%d", answer);
+    MergeSort(input, 0, SIZE - 1);
+    printf("Number of inversions in the input array are %d.", answer);
 }
 
 /*
-Time Complexity  : O(nlogn).
-Space Complexity : O(n).
+Time Complexity  : O(SIZE*log(SIZE)).
+Space Complexity : O(SIZE).
 
 Input:
+Enter the size of the input array
 5
+Enter the elements of the input array
 2 4 1 3 5
 Output:
-3
+Number of inversions in the input array are 3.
 
 */
 

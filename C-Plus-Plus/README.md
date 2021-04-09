@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -122,6 +122,7 @@
 
 ## Data Structures
 
+- [kReverse in a LinkedList](ds/kReverse_LinkedList.cpp)
 - [Construct binary tree using inorder and preorder](ds/Construct_binary_tree_using_inorder_and_preorder.cpp)
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
@@ -133,7 +134,7 @@
 - [Binary Tree Preorder Traversal](ds/BinaryTree_PreorderTraversal.cpp)
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Circular Linkedlist](ds/Circular_LinkedList.cpp)
-- [Validating BST] (ds/Check_for_Binary_search_tree.cpp)
+- [Validating BST](ds/Check_for_Binary_search_tree.cpp)
 - [Diameter of Binary Tree](ds/Diameter_BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Double Ended Queue](ds/Double_Ended_Queue.cpp)
@@ -261,6 +262,7 @@
 - [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
+- [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
 
 ## Sorting
 
@@ -311,6 +313,7 @@
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
+- [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
 
 ## Heap based problems
 
@@ -320,7 +323,7 @@
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
-
+- [Kth Smallest Element in an array](heap/KthSmallest.cpp)
 ## Machine Learning
 
 _add list here_
@@ -353,6 +356,7 @@ _add list here_
 - [Word Break Problem](math/Word_break.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
+- [Number of Digits](math/number_of_digits.cpp)
 - [Number of Divisors](math/number_of_divisors.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Magic Number](math/magic_number.cpp)
@@ -459,6 +463,7 @@ _add list here_
 
 ## Other
 
+- [Transpose of a Square Matrix](other/Transpose_Of_Square_Matrix.cpp)
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
@@ -473,6 +478,7 @@ _add list here_
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [Bigmod Algorithm](other/big_mod_algorithm.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
+- [Find Minimum element in Rotated and Sorted Array](other/minimum_in_rotated_sorted_array.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp)
 - [Kth Permutation Sequence](other/Kth_permutation_sequence.cpp)
@@ -485,12 +491,15 @@ _add list here_
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
+- [Rotate by one](other/Rotate_by_one.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
 - [Sliding Window Technique](other/Calculate_max_sum_of_k_consecutive_elements.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
 - [Sudoku Solver](other/sudoku.cpp)
+- [Sum of all the possible divisors of a natural number](other/sum_of_divisors.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Nth Most Occurring Strings](other/most_occurrence_strings.cpp)
 - [Find a Median of two Sorted arrays of equal size](other/Median_of_two_Sorted_arrays_of_equal_size.cpp)
 - [Find a Median of two Sorted arrays of different size](other/Median_of_two_Sorted_arrays_of_different_size.cpp)
 - [Find Kth smallest element in a Sorted Matrix](other/Find_Kth_smallest_element_in_Sorted_Matrix.cpp)
@@ -512,6 +521,8 @@ _add list here_
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Gray inverse Code](other/Gray_Inverse_Code.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
+- [Sorting an array of zeroes and ones](other/Sorting_an_array_of_zeroes_and_ones.cpp)
+- [Pair-star](other/Pair-Star.cpp)
 - [Activity Selection](other/ActivitySelection.cpp)
-- [job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
+- [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)

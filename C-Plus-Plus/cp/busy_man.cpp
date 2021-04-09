@@ -17,12 +17,13 @@ bool compare(pair<int, int> p1, pair<int, int> p2)
 
 int main()
 {
-    int t, n, s, e;
-    cin >> t;
+    int n, s, e;
     vector<pair<int, int> > v;
+    cout<<"Enter total number of activities: "<<endl;
     cin >> n;
     for (int i = 0; i < n; i++)
     {
+        cout<<"Enter starting and finishing time of each activity: "<<endl;
         cin >> s >> e;
         v.push_back(make_pair(s, e));
     }
@@ -42,7 +43,6 @@ int main()
     }
 
     cout << res << endl;
-    v.clear();
     return 0;
 }
 /*Example:
@@ -53,13 +53,7 @@ int main()
 6 9
 Output:
 1
-2)Input:
-4
-1 7
-5 8
-7 8
-1 8
-Output:
-2
 Time Complexity: O(nlogn)
-Space Complexity: O(n) */
+Space Complexity: O(n) 
+*/
+

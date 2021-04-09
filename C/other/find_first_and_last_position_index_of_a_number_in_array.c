@@ -5,6 +5,7 @@ We can do this with the help of Binary Search.
 
 #include <stdio.h>
 
+//this f_indx will give us first position of the number
 int f_indx(int ar[], int N , int value)
 {
     int low = 0;
@@ -26,6 +27,7 @@ int f_indx(int ar[], int N , int value)
     return low;
 }
 
+//this l_indx will give us last position of the number
 int l_indx(int ar[], int N , int value)
 {
     int low = 0;

@@ -57,7 +57,7 @@ void MergeSort(int input[], int start, int end)
 
 int main()
 {
-    printf("Enter the size of the input array : ");
+    printf("Enter the size of the input array\n");
     int SIZE;
     scanf("%d", &SIZE);
     int input[SIZE];

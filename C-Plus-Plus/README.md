@@ -138,7 +138,6 @@
 - [Double Ended Queue](ds/Double_Ended_Queue.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
 - [Heap Sort](ds/heap_sort.cpp)
-- [Is Sudoku Valid](ds/Is_Sudoku_Valid.cpp)
 - [Middle Element of a Linked List](ds/linked_list_middle_element.cpp)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.cpp)
 - [Detect Cycle in Linked List ](ds/Detect_Cycle_In_LinkedList.cpp)

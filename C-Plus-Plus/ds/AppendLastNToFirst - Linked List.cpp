@@ -62,12 +62,15 @@ Node *appendLastNToFirst(Node *head, int n) {
         return temp;
       } else {
          while( temp->next != NULL) {    
-        temp = temp->next;                    // finding the last node
+         // finding the last node
+        temp = temp->next;                   
     }
-    temp->next = head;                         // connecting the head to the last node
+     // connecting the head to the last node
+    temp->next = head;                         
     temp = head;
+    // finding the node that is supposed to be the new head
     for(int i = 1; i<=length-n-1; i++) {
-        temp = temp->next;                    // finding the node that is supposed to be the new head
+        temp = temp->next;                   
     }
     head = temp->next ;                       
     temp->next = NULL;
@@ -76,7 +79,8 @@ Node *appendLastNToFirst(Node *head, int n) {
 }
 int main()
 {
-	int t;                            // taking input for number of test cases
+	// taking input for number of test cases
+	int t;                            
 	cin >> t;
 	while (t--) {
 		Node *head = takeinput();

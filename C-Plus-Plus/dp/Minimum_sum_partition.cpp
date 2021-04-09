@@ -47,11 +47,8 @@ int minimumSumPartition(int arr[], int sum, int N)
 //Driver code
 int main()
 {
-    int T, N, ans;
-    cin >> T;
-
-    while (T--)
-    {
+    int N, ans;
+  
         cin >> N;
         int arr[N], sum = 0;
         
@@ -69,8 +66,6 @@ int main()
             ans++;
 
         cout << ans << "\n";
-       
-    }
 
     return 0;
 }

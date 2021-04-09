@@ -12,6 +12,7 @@
 ## Maths
 
 - [2D Areas](maths/Areas2D.dart)
+- [Ackermann Function using Recursions](maths/Ackermann_funciton.dart)
 - [Armstrong number](maths/Armstrong.dart)
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
 

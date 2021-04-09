@@ -34,13 +34,16 @@ int main(){
     return 0;
 }
 /*
+Time-Complexity = O(N)
+Space-Complexity = O(N)
+*/
+
+/*
 Input:
 1 2 or a b
 Output:
 2 1 or b a
 */
 
-/*
-Time-Complexity = O(N)
-Space-Complexity = O(N)
-*/
+
+

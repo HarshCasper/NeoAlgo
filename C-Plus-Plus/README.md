@@ -234,3 +234,4 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Reversing the first K elements of a Queue](other/Reversing_the_first_K_elements_of_a_Queue.cpp)

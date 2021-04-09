@@ -41,6 +41,7 @@
 - [Bulb Switcher problem](cp/bulbSwitch.c)
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
+- [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
 
 ## Cryptography
 
@@ -129,6 +130,7 @@
 - [Bubble Sort](sort/bubble_sort.c)
 - [Circle Sort](sort/circle_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
+- [Count Inversions](sort/Count_Inversions.c)
 - [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)
 - [Merge Sort in O(1) space complexity](<sort/mergesort_in_O(1)_space_complexity.c>)
@@ -192,6 +194,7 @@ _add list here_
 - [Strong Number](math/strong_number.c) 
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
+- [Number of Digits](math/number_of_digits.c)
 - [Magic Number](math/Magic_Number.c) 
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)

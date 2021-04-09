@@ -20,12 +20,14 @@
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Binary_Coded_String](cp/Binary_Coded_String.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
+- [Product of the maximum element and the minimum element in two consecutive arrays](cp/Product_of_the_maximum_element_and_the_minimum_element_in_two_consecutive_arrays.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Combination Sum](cp/Combination_Sum.cpp)
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
+- [Generic Function for Swapping](cp/Generic_Swaps.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
 - [Count Max Consecutive One's](cp/max_consecutive_ones.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
@@ -120,9 +122,13 @@
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
+- [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
+- [Busy Man](cp/busy_man.cpp)
 
 ## Data Structures
 
+- [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
+- [kReverse in a LinkedList](ds/kReverse_LinkedList.cpp)
 - [Construct binary tree using inorder and preorder](ds/Construct_binary_tree_using_inorder_and_preorder.cpp)
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
@@ -245,6 +251,7 @@
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
+- [3 Cycle](graphs/3Cycle.cpp)
 
 ## Searching
 
@@ -356,6 +363,7 @@ _add list here_
 - [Word Break Problem](math/Word_break.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
+- [Number of Digits](math/number_of_digits.cpp)
 - [Number of Divisors](math/number_of_divisors.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Magic Number](math/magic_number.cpp)
@@ -376,6 +384,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_number.cpp)
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
+- [Perfect Number](math/Perfect_Number.cpp)
 
 ## Dynamic Programming
 
@@ -477,6 +486,7 @@ _add list here_
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [Bigmod Algorithm](other/big_mod_algorithm.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
+- [Find Minimum element in Rotated and Sorted Array](other/minimum_in_rotated_sorted_array.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp)
 - [Kth Permutation Sequence](other/Kth_permutation_sequence.cpp)
@@ -497,6 +507,9 @@ _add list here_
 - [Sum of all the possible divisors of a natural number](other/sum_of_divisors.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find Common elements in three sorted arrays](other/Common_Element_in_three_Sorted_array.cpp)
+- [Find the length of the longest sub-sequence](other/Longest_Consecutive_Subsequence.cpp)
+- [Nth Most Occurring Strings](other/most_occurrence_strings.cpp)
 - [Find a Median of two Sorted arrays of equal size](other/Median_of_two_Sorted_arrays_of_equal_size.cpp)
 - [Find a Median of two Sorted arrays of different size](other/Median_of_two_Sorted_arrays_of_different_size.cpp)
 - [Find Kth smallest element in a Sorted Matrix](other/Find_Kth_smallest_element_in_Sorted_Matrix.cpp)

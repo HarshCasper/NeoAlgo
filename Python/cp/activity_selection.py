@@ -2,7 +2,11 @@
 Activity Selection Problem :
 Given "row" number of activities with start and end time,
 select activities in such manner that we can perform maximum
-number of activities among them. Note, activities are not sorted
+number of activities among them. Note, activities are not sorted.
+Approach used is greedy, sorting the activities according to their
+end time and then comparing it with start time of next one.
+If start time is greater than or equal to the previous activity
+end time then it can be completed and hence added in the solution matrix.
 '''
 
 
@@ -11,7 +15,9 @@ def final_activities():
     # 2d list is used to enter the start and end time of jobs
     Activity = []
     print("Enter elements of matrix row wise:")
-    for _ in range(row):
+    for x in range(row):
+        print("Elements of row", end = " ")
+        print(x)
         arr = []
         for _ in range(0, 2):
             arr.append(int(input()))
@@ -45,12 +51,16 @@ Sample Input:
 Enter the number of rows: 
 4
 Enter elements of matrix row wise:
+elements of row 0
 1
 2
+elements of row 1
 2
 4
+elements of row 2
 3
 5
+elements of row 3
 4
 6
 

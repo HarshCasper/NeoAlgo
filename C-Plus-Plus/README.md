@@ -20,6 +20,7 @@
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Binary_Coded_String](cp/Binary_Coded_String.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
+- [Product of the maximum element and the minimum element in two consecutive arrays](cp/Product_of_the_maximum_element_and_the_minimum_element_in_two_consecutive_arrays.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Combination Sum](cp/Combination_Sum.cpp)
@@ -122,6 +123,8 @@
 
 ## Data Structures
 
+- [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
+- [kReverse in a LinkedList](ds/kReverse_LinkedList.cpp)
 - [Construct binary tree using inorder and preorder](ds/Construct_binary_tree_using_inorder_and_preorder.cpp)
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
@@ -261,6 +264,7 @@
 - [Unbounded Binary Search](search/Unbounded_Binary_Search.cpp)
 - [Sublist Search](search/sublist_Search.cpp)
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
+- [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
 
 ## Sorting
 
@@ -311,6 +315,7 @@
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
+- [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
 
 ## Heap based problems
 
@@ -353,6 +358,7 @@ _add list here_
 - [Word Break Problem](math/Word_break.cpp)
 - [Noble Integer](math/Noble_Integer.cpp)
 - [Modular Exponentiation](math/modular_exponentiation.cpp)
+- [Number of Digits](math/number_of_digits.cpp)
 - [Number of Divisors](math/number_of_divisors.cpp)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.cpp)
 - [Magic Number](math/magic_number.cpp)
@@ -459,6 +465,7 @@ _add list here_
 
 ## Other
 
+- [Transpose of a Square Matrix](other/Transpose_Of_Square_Matrix.cpp)
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
@@ -473,6 +480,7 @@ _add list here_
 - [Find the Numbers](other/find_the_numbers.cpp)
 - [Bigmod Algorithm](other/big_mod_algorithm.cpp)
 - [First Missing Positive Number](other/First_Missing_Positive_Number.cpp)
+- [Find Minimum element in Rotated and Sorted Array](other/minimum_in_rotated_sorted_array.cpp)
 - [Generate all Subsets](other/subsets.cpp)
 - [Kth largest element](other/Kth_largest_element.cpp)
 - [Kth Permutation Sequence](other/Kth_permutation_sequence.cpp)
@@ -493,6 +501,9 @@ _add list here_
 - [Sum of all the possible divisors of a natural number](other/sum_of_divisors.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find Common elements in three sorted arrays](other/Common_Element_in_three_Sorted_array.cpp)
+- [Find the length of the longest sub-sequence](other/Longest_Consecutive_Subsequence.cpp)
+- [Nth Most Occurring Strings](other/most_occurrence_strings.cpp)
 - [Find a Median of two Sorted arrays of equal size](other/Median_of_two_Sorted_arrays_of_equal_size.cpp)
 - [Find a Median of two Sorted arrays of different size](other/Median_of_two_Sorted_arrays_of_different_size.cpp)
 - [Find Kth smallest element in a Sorted Matrix](other/Find_Kth_smallest_element_in_Sorted_Matrix.cpp)
@@ -514,7 +525,8 @@ _add list here_
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Gray inverse Code](other/Gray_Inverse_Code.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
-- [pair-star](other/Pair-Star.cpp)
+- [Sorting an array of zeroes and ones](other/Sorting_an_array_of_zeroes_and_ones.cpp)
+- [Pair-star](other/Pair-Star.cpp)
 - [Activity Selection](other/ActivitySelection.cpp)
-- [job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
+- [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)

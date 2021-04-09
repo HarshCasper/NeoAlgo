@@ -19,6 +19,7 @@
 * [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
 * [Identical BSTs](ds/identical_binary_tree.py)
+* [Loop detection in Linked List](ds/loop_detection_in_LL.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -114,6 +115,7 @@
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
 - [Count the number of anagrams](cp/CountAnagrams.py)
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
+- [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 
 
@@ -318,7 +320,9 @@
 - [Hamming Distance](math/Hamming_distance.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
+- [Transpose of matrix](math/Matrix_transpose.py)
 - [Neon Number](math/Neon_number.py)
+- [Matrix addition](math/Matrix_addition.py)
 ## Blockchain
 
 _add list here_
@@ -353,9 +357,11 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Minimum number of jumps](other/minimize_the_jump.py)
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+
 
 
 ## [Coding Template for Contribution](Code_Template.md)

@@ -23,14 +23,16 @@ bool compare(pair<int, int> a, pair<int, int> b)
 int main()
 {
     int ans = 1;
-    int n, c, r;
+    int n, center, radius;
+    cout<<"Enter total number of circles: "<<endl;
     cin >> n;
     vector<pair<int, int> > v;
 
     for (int i = 0; i < n; i++)
     {
-        cin >> c >> r;
-        v.push_back(make_pair(c, r));
+        cout<<"Enter the center and the radius respectively: "<<endl;
+        cin >> center >> radius;
+        v.push_back(make_pair(center, radius));
     }
 
     sort(v.begin(), v.end(), compare);
@@ -46,7 +48,7 @@ int main()
         }
     }
 
-    cout << (n - ans) <<endl;
+    cout <<"Minimum circles that are to be removed: "<< (n - ans) <<endl;
     return 0;
 }
 /*Example:
@@ -58,13 +60,5 @@ int main()
 4 1
 Output:
 2
-2)Input:
-4
-1 1 
-4 1
-5 2
-7 1
-Output:
-1 
 Time Complexity: O(nlogn)
 Space Complexity: O(nlogn) */

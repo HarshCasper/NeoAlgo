@@ -208,6 +208,7 @@ _add list here_
 - [Tribonacci series upto n terms](math/tribonacci.java)
 - [HappyNumber](math/HappyNumber.java)
 - [MagicNumber](math/Magicnumber.java)
+- [Matrix Addition](math/Matrix_addition.java)
 
 ## Dynamic Programming
 

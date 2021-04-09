@@ -7,8 +7,6 @@
  *	Another possible answer : [4, 1, 3, 2]
  */
 
-
-
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -20,7 +18,6 @@ vector<int> waveArray(int n, vector<int> a){
         swap(a[curr], a[curr + 1]);
     }
     return a;
-        
 }
 
 int main(){
@@ -42,16 +39,18 @@ int main(){
     cout << endl;
 }
 
-
-
-/* 	Sample Output:
+/* 	Space Complexity: O(1)
+ *  	Time Complexity: O(nlogn)
  *
+ *  	Sample Input and Output:  
  *  	Enter the size of the array: 5
- * 	Enter the elements of the array:
- * 	1
- * 	2
- * 	3
- * 	4
- * 	5
- * 	Wave Array: 2 1 4 3 5
- * */
+ *      Enter the elements of the array:
+ *      1
+ *      2
+ *      3
+ *      4
+ *      5
+ *      Output:
+ *      Wave Array: 2 1 4 3 5
+ */
+

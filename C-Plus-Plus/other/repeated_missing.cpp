@@ -2,6 +2,8 @@
 Repeating and missing number
 Problem Statement: Given an unsorted array of positive integers. The elements are in the range 1 to n where n is the size of array,
                    there is one number which is repeated and another number which is missing. Find these numbers and print them.
+		   The approach used is that checking if the current element is in its desired position or not. It is, then simply iterate
+		   for next, else put it in its desired position by comparing with its index number and swap it accordingly.
 */
 
 #include <bits/stdc++.h>
@@ -23,20 +25,21 @@ void print_number(int input[], int n){
     //after arranging the number in the sequence, printing the repeated and missing number
     for(int i = 0; i < n; i++){
         if(input[i] != i+1){
-            cout << "Repeated number: " << input[i] << endl;
+            cout << "\nRepeated number: " << input[i] << endl;
             cout << "Missing number: " << i+1 << endl;
         }
     }
 }
 
 int main() {
-    // input the size from user
+    cout << "Enter the size of array: ";
     int n;
     cin >> n;
-    //input the array elements
+    cout << "\n Enter the elements of array: ";
     int input[n];
     for(int i = 0; i < n; i++)
         cin >> input[i];
+
     //calling the function for repeated and missing number
      print_number(input, n);
 	
@@ -44,15 +47,7 @@ int main() {
 }
 
 /*
-Test Case 1:
-Input - 
-5
-1 2 2 4 5
-Output - 
-Repeated number: 2
-Missing number: 3
-
-Test Case 2:
+Test Case :
 Input - 
 7
 4 2 3 6 1 1 7

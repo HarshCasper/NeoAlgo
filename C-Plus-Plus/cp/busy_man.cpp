@@ -42,17 +42,21 @@ int main()
         }
     }
 
-    cout << res << endl;
+    cout <<"the maximum number of activities you can do are: "<< res << endl;
     return 0;
 }
 /*Example:
 1)Input:
+Enter total number of activities:
 3
+Enter starting and finishing time of each activity:
 3 9
+Enter starting and finishing time of each activity:
 2 8
+Enter starting and finishing time of each activity:
 6 9
 Output:
-1
+the maximum number of activities you can do are: 1
 Time Complexity: O(nlogn)
 Space Complexity: O(n) 
 */

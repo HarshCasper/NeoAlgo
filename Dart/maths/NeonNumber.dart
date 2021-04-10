@@ -34,6 +34,9 @@ void main() {
 }
 
 /**
+Space Complexity O(1)
+Time Complexity  O(log(n))
+
 Sample input/output:
 Enter a number :
 9

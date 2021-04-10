@@ -1,4 +1,6 @@
-﻿using System;
+﻿// This Program takes vertices and edges from the user, generates graph(adjacency list representation) and performs DFS on it.
+
+using System;
 using System.Linq;
 using System.Collections.Generic;
 
@@ -21,11 +23,13 @@ namespace NeoAlgo
             Console.ReadLine();
         }
 
+
         /// <summary>
         /// Given the vertices and edges input by user this function generates a graph and 
         /// </summary>
         /// <param name="graph">Dictionary representing the graph</param>
         /// <returns>true if graph is generated, false otherwise. Along with this it returns dictionary object representing graph</returns>
+        
         static bool GenerateGraph(out Dictionary<string, Vertex> graph)
         {
             graph = new Dictionary<string, Vertex>();
@@ -78,6 +82,7 @@ namespace NeoAlgo
         /// this method takes graph (dictionary object) as input and performs the DFS traversal
         /// </summary>
         /// <param name="graph">This dictionary represents graph</param>
+       
         static void GraphTraversal(Dictionary<string, Vertex> graph)
         {
             Stack<Vertex> traverseStack = new Stack<Vertex>();
@@ -103,11 +108,13 @@ namespace NeoAlgo
             }
         }
 
+
         /// <summary>
         /// In case of disconnected graph, for the generation of DFS forest(instead of single tree) this method find untraversed vertices 
         /// </summary>
         /// <param name="graph">Dictionary representing the graph</param>
         /// <returns></returns>
+
         static Vertex FindUntraversedVertex(Dictionary<string, Vertex> graph)
         {
             foreach (KeyValuePair<string, Vertex> graphVertice in graph)
@@ -120,10 +127,12 @@ namespace NeoAlgo
             return null;
         }
 
+
         /// <summary>
         /// Resetting states of all vertices to unvisited after DFS traversal
         /// </summary>
         /// <param name="graph"></param>
+       
         static void ResetGraph(Dictionary<string, Vertex> graph)
         {
             foreach (KeyValuePair<string, Vertex> graphVertex in graph)
@@ -139,6 +148,7 @@ namespace NeoAlgo
         /// Traversed determines whether the vertex has already been traversed or not
         /// Edges determines list of edges to denote edges adjacent to vertex. 
         /// </summary>
+      
         private class Vertex
         {
             internal string Value { get; set; }
@@ -153,9 +163,11 @@ namespace NeoAlgo
             }
         }
 
+
         /// <summary>
         /// Edge encapsulates end vertex of an edge
         /// </summary>
+  
         private class Edge
         {
             internal Vertex EndVertex { get; set; }
@@ -163,7 +175,6 @@ namespace NeoAlgo
     }
 
     /**
-        * This Program takes vertices and edges from the user, generates graph(adjacency list representation) and performs DFS on it.
         * Time Complexity of DFS - O(V+E) where |V| represents number of vertices and |E| represents number of edges 
         * Space Complexity of DFS - O(V) where |V| represnets number of vertices 
         * 
@@ -179,5 +190,5 @@ namespace NeoAlgo
         * 
         * (Output) 
         * a d c b
-        */
+     */
 }

@@ -18,8 +18,7 @@ if __name__ == '__main__':
     n = int(input())
     S = sum_of_digits(abs(n))
     print("The sum of digits of the given number is {}.".format(S))
-
-
+    
 '''    
 Time Complexity: O(log(num)), where "num" is the length of the given number
 Space Complexity: O(1)

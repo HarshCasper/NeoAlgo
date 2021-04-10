@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
     print("Fibonacci series upto $number : ")
 
     while (index <= number) {
-        print("$term1 + ")
+        print("$term1 , ")
 
         val sum = term1 + term2
         term1 = term2                      
@@ -32,7 +32,7 @@ fun main(args: Array<String>) {
 /*
 Sample Test case:
 Enter any number: 5
-Fibonacci series upto 5: 0 + 1 + 1 + 2 + 3
+Fibonacci series upto 5: 0 , 1 , 1 , 2 , 3
 */
 
 /*

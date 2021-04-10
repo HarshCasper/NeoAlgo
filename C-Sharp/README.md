@@ -22,7 +22,7 @@ _add list here_
 - [Vigenere Cipher](cryptography/vigenere_cipher.cs)
 
 ## Data Structures
-
+- [Binary Search Tree](dp/BinarySearchTree.cs)
 _add list here_
 
 ## Dynamic Programming
@@ -39,10 +39,14 @@ _add list here_
 - [Bubble Sort](sort/BubbleSort.cs)
 - [Insertion Sort](sort/InsertionSort.cs)
 - [Quick Sort](sort/QuickSort.cs)
+- [Merge Sort](sort/MergeSort.cs)
 
 ## Machine Learning
 
 _add list here_
+
+## Graph
+- [Is Tree?](graphs/IsTree.cs)
 
 ## Mathematics
 
@@ -56,3 +60,5 @@ _add list here_
 
 - [Unique Number III](other/Unique_Number_III.cs)
 - [Prime Factorization using Sieve](other/prime_factor_sieve.cs)
+- [Count Inversions](other/CountInversions.cs)
+- [Largest Kth Element](other/Largest_Kth_Element.cs)

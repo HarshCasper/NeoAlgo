@@ -6,20 +6,17 @@ class Solution:
 
 
     # function to find median of two arrays
-
     def findMedianSortedArrays(nums1, nums2):
         newlist = sorted(nums1 + nums2)
 
         # checking if length of merged array is even
-
         if len(newlist) % 2 != 1:
             first = newlist[len(newlist) // 2]
             second = newlist[len(newlist) // 2 - 1]
             return (first + second) / 2
 
         # checking if length of merged array is odd
-
-        else:  
+        if len(newlist) % 2 == 1:
             return newlist[len(newlist) // 2]
 
     nums1 = []
@@ -37,8 +34,8 @@ class Solution:
         y = int(input())
         nums2.append(y)
 
-    print('Median of two arrays is: ' + 
-        str(findMedianSortedArrays(nums1, nums2)))
+    print('Median of two arrays is: ' +
+          str(findMedianSortedArrays(nums1, nums2)))
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)

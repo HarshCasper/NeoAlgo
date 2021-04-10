@@ -260,6 +260,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/somya1252"><img src="https://avatars.githubusercontent.com/u/55628578?v=4?s=100" width="100px;" alt=""/><br /><sub><b>somya1252</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=somya1252" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Subhangini"><img src="https://avatars.githubusercontent.com/u/68437435?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Coder_Subhangini</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Subhangini" title="Code">💻</a></td>
+    <td align="center"><a href="http://wayetech.com/"><img src="https://avatars.githubusercontent.com/u/58946705?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diksha Joshi</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=dikshajoshi18" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nandita658"><img src="https://avatars.githubusercontent.com/u/65300305?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nandita658</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=nandita658" title="Code">💻</a></td>
   </tr>
 </table>
 

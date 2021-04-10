@@ -16,6 +16,7 @@
 - [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 - [Armstrong Number](Algorithms/Armstrong.js)
 - [Longest Increaing Subsequnce](Algorithms/LongestIncreasingSubsequenceDP.js)
+- [Kadane's Algorithm](Algorithms/kadane's_algo.js)
 
 ## Backtracking
 
@@ -74,6 +75,8 @@ _add list here_
 - [Armstrong Number](./math/ArmstrongNumbers.js)
 - [Binary Exponentiation](./math/bin_exp.js)
 - [Fibonacci](./math/Fibonacci.js)
+- [Palindrome Checker](./math/Palindrome_checker.js)
+- [GCD of two Numbers](./math/gcd_of_two_no.js)
 - [Transpose of a matrix](./math/Matrix_transpose.js)
 
 ## Competitive Programming

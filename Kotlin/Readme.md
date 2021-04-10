@@ -9,6 +9,10 @@
 
 # Codes in the Kotlin language
 
+## Bit Manipulation
+
+- [Bit Operations](BitManipulation/BasicBitOperations.kt)
+
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)

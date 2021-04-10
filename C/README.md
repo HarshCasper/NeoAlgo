@@ -134,6 +134,7 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 
 ## CP
 

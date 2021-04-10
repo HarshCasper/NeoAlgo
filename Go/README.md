@@ -16,6 +16,7 @@
 - [Longest Common Subsequence](dp/longest_common_subsequence)
 - [Longest Substring](dp/longest_substring)
 - [Stack](dp/stack)
+- [Factorial](dp/factorial)
 
 ## Data Structures
 - [Binary Tree](ds/binary_tree)

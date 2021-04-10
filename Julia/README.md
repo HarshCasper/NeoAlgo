@@ -32,6 +32,7 @@
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.jl)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.jl)
+- [Subset Sum Problem](dp/subset_sum.jl)
 
 ## Mathematics
 

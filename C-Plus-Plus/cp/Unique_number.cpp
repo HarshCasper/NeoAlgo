@@ -1,6 +1,8 @@
 /*
 Description : 
        Unique Number : In the given range, print all numbers having unique digits.
+                       e.g. In range 10 to 20 should print all numbers except 11.
+                       As "11" comprises of both same digit .
 */
 
 #include <bits/stdc++.h>

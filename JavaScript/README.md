@@ -49,6 +49,7 @@
 - [Jump Search](./search/JumpSearch.js)
 - [Interpolation Search](./search/InterpolationSearch.js)
 - [Exponential Search](./search/ExponentialSearch.js)
+- [Fibonacci Search](./search/FibonacciSearch.js)
 
 ## Sorting
 

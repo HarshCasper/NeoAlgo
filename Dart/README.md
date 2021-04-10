@@ -21,6 +21,7 @@
 
 - [Binary Search](search/BinarySearch.dart)
 - [Linear Search](search/LinearSearch.dart)
+- [Fibonacci Search](search/FibonacciSearch.dart)
 
 ## Sorting
 

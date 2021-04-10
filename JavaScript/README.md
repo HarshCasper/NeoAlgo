@@ -64,6 +64,7 @@
 - [Selection Sort](./sort/selectionSort.js)
 - [Stooge Sort](./sort/StoogeSort.js)
 - [Tim Sort](./sort/TimSort.js)
+- [Comb Sort](./sort/CombSort.js)
 
 ## Machine Learning
 

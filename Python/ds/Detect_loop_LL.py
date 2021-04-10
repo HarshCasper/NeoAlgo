@@ -2,25 +2,6 @@
 Given a linked list of N nodes. 
 Check if the linked list has a loop. 
 Linked list can contain self loop.
-
-Example:
-
-Input:
-N = 3
-value[] = {1,3,4}
-position = 2
-
-Output: True
-
-Explanation: In the above example N = 3.
-The linked list with nodes N = 3 is
-given. Then value of position = 2 is given which
-means last node is connected with 2nd
-node of linked list. Therefore, there
-exists a loop.
-
-Time Complexity: O(N).
-Space Complexity: O(1).
 '''
 
 class Node:
@@ -38,13 +19,16 @@ class LinkedList:
 
     # To insert a node at the last position (Pushing)
     def insert_at_end(self, new_data):
+        # If the linked list is empty
         if self.head is None:
             self.head = Node(new_data)
 
+        # Adding the new node at the end of the linked list
         else:
             new_node = Node(new_data)
             current = self.head
 
+            # Traversing the linked list till we reach the last node
             while current.next:
                 current = current.next
 
@@ -53,13 +37,20 @@ class LinkedList:
 
     #  Function to detect loop in linked list  
     def detect_loop(self):
+        # Initializing pointers at head of linked list
+
+        # traverses one node at a time
         one_step_p = self.head
+
+        # traverses two nodes at a time
         two_step_p = self.head
 
+        # Traversing till the two_step_p doesnt't approach the end of linked list
         while (two_step_p.next and two_step_p.next.next):
             one_step_p = one_step_p.next
             two_step_p = two_step_p.next.next
 
+            # if both pointers become equal, indicating the presence of a loop
             if one_step_p == two_step_p:
                 return 1
 
@@ -88,4 +79,14 @@ if __name__ == '__main__':
         print('Found Loop')
     else:
         print('No Loop')
+
+
+'''
+    For detect loop function:
+        Time Complexity: O(N).
+        Space Complexity: O(1).
+
+    OUTPUT:
+    Found loop
+'''
 

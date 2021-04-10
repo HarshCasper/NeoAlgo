@@ -16,6 +16,7 @@
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
+- [Neon number](maths/NeonNumber.dart)
 
 ## Search
 

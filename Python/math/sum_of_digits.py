@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
 
 '''    
-Time Complexity: O(log(num)), where 'num' is the length of the given number
+Time Complexity: O(log(num)), where "num" is the length of the given number
 Space Complexity: O(1)
 
 SAMPLE INPUT AND OUTPUT

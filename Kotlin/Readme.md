@@ -9,6 +9,10 @@
 
 # Codes in the Kotlin language
 
+## Bit Manipulation
+
+- [Bit Operations](BitManipulation/BasicBitOperations.kt)
+
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
@@ -31,3 +35,4 @@
   [Exponential Search](search/ExponentialSearch.kt)
 - [Linear Search](search/LinearSearch.kt)
 - [StairCase Search](search/StairCaseSearch.kt)
+- [Ternary Search](search/TernarySearch.kt)

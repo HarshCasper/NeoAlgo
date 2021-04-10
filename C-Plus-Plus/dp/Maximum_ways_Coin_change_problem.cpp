@@ -1,11 +1,10 @@
 /*
 Coin Change Problem Maximum Number of ways
 This problem is solved using dp.
-Given a value N, if we want to make change for N cents, 
+Given a value n which is total sum and m is size of coins array, 
 and we have infinite supply of each of S = { S1, S2, .. , Sm} valued coins,
- how many ways can we make the change? The order of coins doesn’t matter.
 In this problem we have to count whether the values of subset of array is equal to sum or not.
-if equal then we will return true else we will return false.
+if equal then we will increase count by 1 else we will return 0.
 */
 #include<bits/stdc++.h>
 using namespace std;
@@ -50,17 +49,17 @@ int main()
 {
     /* n is sum to which we have to make arr sum equal
     m is size of array */
-	int n,m;
+    int n,m;
     cout << "Enter the value of n and m: \n";
-	cin>>n>>m;
-	int arr[m];
+    cin>>n>>m;
+    int arr[m];
     cout << "Enter the value of array: \n";
-	for(int i=0;i<m;i++){
-		cin>>arr[i];
+    for(int i=0;i<m;i++){
+	cin>>arr[i];
     }
    
     // count by recalling function
-	cout<<count(arr,m,n)<<endl;
+    cout<<count(arr,m,n)<<endl;
     return 0;
 }  
 /*

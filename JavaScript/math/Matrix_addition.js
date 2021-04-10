@@ -5,7 +5,7 @@ stores it in two-dimensional array. Then, the program adds these two matrices an
 displays it on the screen.
 */
 
-function matrix_addition(a_1, n1, m1, a_2, n2, m2) {
+function matrix_addition(a_1, n1, m1, a_2) {
     //res is the result array
     let res = new Array(n1);
     for (let i = 0; i < n1; i++) {
@@ -65,7 +65,7 @@ const main = async () => {
             a_2[i][j] = Number(await getLine());
         }
     }
-    let res = matrix_addition(a_1, n1, m1, a_2, n2, m2);
+    let res = matrix_addition(a_1, n1, m1, a_2);
     let s = '';
     for (let i = 0; i < n1; i++) {
         for (let j = 0; j < m1; j++) {

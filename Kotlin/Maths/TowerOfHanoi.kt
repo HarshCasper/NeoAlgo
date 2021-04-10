@@ -12,7 +12,7 @@ class Hanoi(disks: Int) {
  
     init {
         println("Towers of Hanoi with $disks disks:\n")
-        move(disks, 'L', 'C', 'R')                     //The Idea is to shift one disk from the source to the destination.
+        move(disks, 'L', 'C', 'R')                     
         println("\nCompleted in $moves moves\n")
     }
  
@@ -20,7 +20,7 @@ class Hanoi(disks: Int) {
         if (n > 0) {
             move(n - 1, from, via, to)
             moves++
-            println("Move disk $n from $from to $to")    //printing and counting the moves
+            println("Move disk $n from $from to $to")    
             move(n - 1, via, to, from)
         }
     }
@@ -29,7 +29,7 @@ class Hanoi(disks: Int) {
 fun main(args: Array<String>) {
      val sc = Scanner(System.`in`)
                                                           
-    println("Enter Number: ")                                  // Taking input from user
+    println("Enter Number: ")                                  
     val num: Int = sc.nextInt()
     Hanoi(num);
 }

@@ -1,17 +1,12 @@
-/*Maximum Topology Short
+/*Problem Name: Maximum Topology Short
 
 First of all Lets Understand what is topology : 
 The arrangement of a network that comprises nodes and connecting lines via sender and receiver is referred to as network topology.
 
-
-Here is Problem statemet
+Here is Problem statemet :
 Lets assume a Boy  has a tree  named that tree G with N nodes (numbered 1 through N) and N−1 undirected edges.
  For each node (u) in the tree, he can assign directions to the edges in such a way that (u) is reachable from all the other nodes.
  Let C(u) be the number of valid topological orderings in the resulting directed acyclic graph.
-
-This way, the boy  obtains N pairs (C1,1),(C2,2),…,(CN,N) and he sorts all these pairs (Ci,i) in descending order 
-(first by C(i) and in the case of a tie by i).
-
 we have to find the maximum sorted pairs .
 */
 /*To Include All Pre Required Liabries*/
@@ -63,7 +58,7 @@ int Binomial(int Limit, int R, int p)
     int ans = ((Factorial[Limit] * Factorial_Number_Inverse[R]) % p * Factorial_Number_Inverse[Limit - R]) % p;
     return ans;
 }
-vector<vector<int>> akshay;  //Temp variable of vectore
+vector<vector<int>> akshay; 
 vector<int> p;
 vector<int> Temp_ways;
 vector<int> sub_tree;
@@ -144,7 +139,7 @@ int32_t main()
     AA.clear(), sub_tree.clear(), sub_tree.resize(n);
     getNode(0);
     int idx = 1;
-    //Sort of Vector
+   
     sort(AA.begin(), AA.end(), greater<pair<int, pair<int, int>>>());
     int k1, k2;
     if (AA[0].first != AA[1].first)
@@ -208,30 +203,14 @@ int32_t main()
 }
 
 
-/*  Example Test Cases
-
-consider the tree below:
-                    2
-            1                 3
-
-
-The sorted list of pairs is ((2,2),(1,3),(1,1)).
-
-
-
-*/
-/* Example input
-
+/*
+Time Complexity : O(N·log(N))
+Space Complexity : O( 1 )
+ Standard Input And Output
 4 2
 1 2
 2 3
 2 4 
 Output:
 4 2 
-
-For u=1, there are C1=2 possible topological orderings: (3,4,2,1) and (4,3,2,1)
-For u=2, there are C2=6 possible topological orderings: (3,4,1,2), (4,3,1,2), (3,1,4,2), (4,1,3,2), (1,3,4,2) and (1,4,3,2).
-For u=3, there are C3=2 possible topological orderings: (1,4,2,3) and (4,1,2,3).
-For u=4, there are C4=2 possible topological orderings: (3,1,2,4) and (1,3,2,4).
-The sorted list of pairs is ((6,2),(2,4),(2,3),(2,1)).
- The node for the 2-nd pair is 4 and the corresponding number of topological orderings modulo 109+7 is 2*/
+  */

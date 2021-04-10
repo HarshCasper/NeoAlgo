@@ -79,7 +79,7 @@ function InfixtoPrefix(infixval)
                 while (stackarr[topp] != ")") {
                   prefix[temp++] = pop();
                 }
-          pop();
+                pop();
             }
             else if(el==')')
             {
@@ -119,20 +119,23 @@ function InfixtoPrefix(infixval)
  InfixtoPrefix("((a+b)*c)");
 
  /*
+Input:
+Enter a valid Prefix Expression:- ((a+b)*c)
+
 OutPut:
-Prefix Expression: *+abc
+Prefix Expression:- *+abc
 
 Input:
-A+B*C/(E-F)
+Enter a valid Prefix Expression:- A+B*C/(E-F)
 
 Output:
-Prefix Expression: +A*B/C-EF
+Prefix Expression:- +A*B/C-EF
 
 Input:
-a+b*(c^d-e)^(f+g*h)-i
+Enter a valid Prefix Expression:- a+b*(c^d-e)^(f+g*h)-i
 
 Output:
-Prefix Expression: +a-*b^-^cde+f*ghi
+Prefix Expression:- +a-*b^-^cde+f*ghi
 
 Time Complexity:O(N)
 Space Complexity: O(N)

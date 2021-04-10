@@ -5,9 +5,11 @@ Print true if the path exists and false otherwise.
 
 #include <iostream>
 using namespace std;
-bool path(int V, int** mat, bool* visited, int v1, int v2){
-    
-    if(mat[v1][v2]==1){
+// create a boolean fucntion to check path which return true or false
+bool path(int V, int** mat, bool* visited, int v1, int v2){    
+	
+    //base case (check if the vertices are adjacent)
+    if(mat[v1][v2]==1){        
         return true;
     }  
     visited[v1]=true;
@@ -17,6 +19,7 @@ bool path(int V, int** mat, bool* visited, int v1, int v2){
             continue;
         }
         // visited[i]=true;
+	//If this adjacent node is the destination node, then return true
         if(mat[v1][i]==1){
 	    bool small=path(V, mat, visited, i, v2);
             if(small==true){
@@ -29,6 +32,7 @@ bool path(int V, int** mat, bool* visited, int v1, int v2){
 
 int main() {
     int V, E;
+    //take input of the vertices and edges of the graph
     cin >> V >> E;
     int** mat= new int*[V];
     for(int i=0; i<V; i++){
@@ -46,11 +50,14 @@ int main() {
     
     bool* visited= new bool[V];
     for(int i=0; i<V; i++){
+	// Mark all the vertices as not visited
         visited[i]=false;
     }
     int v1, v2;
+    //take input of the vertices v1 and v2, to check if a path exists between them
     cin>>v1>>v2;
     
+    //call the fucntion
     bool small=path(V, mat, visited, v1, v2);
     
     if(small){

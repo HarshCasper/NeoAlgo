@@ -14,10 +14,13 @@
 - [2D Areas](maths/Areas2D.dart)
 - [Armstrong number](maths/Armstrong.dart)
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
+- [Strong Number](maths/StrongNumber.dart)
+- [Factorial](maths/Factorial.dart)
 
 ## Search
 
 - [Binary Search](search/BinarySearch.dart)
+- [Linear Search](search/LinearSearch.dart)
 
 ## Sorting
 

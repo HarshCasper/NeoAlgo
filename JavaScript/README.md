@@ -16,6 +16,7 @@
 - [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 - [Armstrong Number](Algorithms/Armstrong.js)
 - [Longest Increaing Subsequnce](Algorithms/LongestIncreasingSubsequenceDP.js)
+- [Kadane's Algorithm](Algorithms/kadane's_algo.js)
 
 ## Backtracking
 
@@ -48,10 +49,13 @@
 - [Jump Search](./search/JumpSearch.js)
 - [Interpolation Search](./search/InterpolationSearch.js)
 - [Exponential Search](./search/ExponentialSearch.js)
+- [Fibonacci Search](./search/FibonacciSearch.js)
 
 ## Sorting
 
 - [Bubble Sort](./sort/BubbleSort.js)
+- [Brick Sort](./sort/BrickSort.js)
+- [Bucket Sort](./sort/BucketSort.js)
 - [Insertion Sort](./sort/insertion_sort.js)
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)
@@ -73,16 +77,16 @@ _add list here_
 - [Armstrong Number](./math/ArmstrongNumbers.js)
 - [Binary Exponentiation](./math/bin_exp.js)
 - [Fibonacci](./math/Fibonacci.js)
+- [Palindrome Checker](./math/Palindrome_checker.js)
+- [GCD of two Numbers](./math/gcd_of_two_no.js)
 
 ## Competitive Programming
-
 
 - [Median of two sorted arrays](./cp/Median_of_Two_Sorted_Arrays.js)
 
 - [Sliding Window Maximum](./cp/SlidingWindowMaximum.js)
 - [Count Anagrams](./cp/CountAnagrams.js)
 - [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
-
 
 ## Dynamic Programming
 
@@ -92,9 +96,6 @@ _add list here_
 
 _add list here_
 
-## Searching
-
-_add list here_
 
 ## Cryptography
 

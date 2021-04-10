@@ -1,11 +1,14 @@
-/* Below is the implementation of Cloning a stack into destination stack without using extra space */
+/* 
+Cloning stack without extra space:
+
+This Function takes takes two stakes as input and copy data of first stack to the second stack.
+It is a recursive code in which we store the top element of the stack in a temporary variable
+and call the function which clones rest of the stack and push the stored to the top of
+the stack.
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
-/* This Function takes takes two stakes as input and copy data of first stack to the second stack.
-   It is a recursive code in which we store the top element of the stack in a temporary variable
-   and call the function which clones rest of the stack and push the stored to the top of
-   the stack.
-*/
 void clonestack(stack<int> st, stack<int> &cloned)
 {
 	if (st.size() > 0)
@@ -43,16 +46,16 @@ int main()
 	return 0;
 
 	/*
-	INPUT
+	Sample Input/Output:
+	INPUT:  Enter the no. of elements
+		5
+		Enter the elements of stack
+		3 5 1 2 4
 
-	Enter the no. of elements
-	5
-	Enter the elements of stack
-	3 5 1 2 4
+	OUTPUT: Source Stack : 3 5 1 2 4
+		Cloned Stack : 3 5 1 2 4
 
-	OUTPUT
-
-	Source Stack : 3 5 1 2 4
-	Cloned Stack : 3 5 1 2 4
-
+	Time and space complexity for this approach:
+	  Time Complexity: O(N)
+	  Auxiliary Space: O(1)
 	*/

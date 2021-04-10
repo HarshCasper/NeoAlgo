@@ -16,6 +16,7 @@
 - [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 - [Armstrong Number](Algorithms/Armstrong.js)
 - [Longest Increaing Subsequnce](Algorithms/LongestIncreasingSubsequenceDP.js)
+- [Kadane's Algorithm](Algorithms/kadane's_algo.js)
 
 ## Backtracking
 
@@ -48,11 +49,13 @@
 - [Jump Search](./search/JumpSearch.js)
 - [Interpolation Search](./search/InterpolationSearch.js)
 - [Exponential Search](./search/ExponentialSearch.js)
+- [Fibonacci Search](./search/FibonacciSearch.js)
 
 ## Sorting
 
 - [Bubble Sort](./sort/BubbleSort.js)
 - [Brick Sort](./sort/BrickSort.js)
+- [Bucket Sort](./sort/BucketSort.js)
 - [Insertion Sort](./sort/insertion_sort.js)
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)

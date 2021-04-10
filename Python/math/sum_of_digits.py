@@ -10,6 +10,7 @@ def sum_of_digits(num):
         num = num // 10
     return s
 
+
 if __name__ == '__main__':
     # Input the number And
     # Call the function
@@ -33,6 +34,5 @@ The sum of digits of the given number is 3.
 SAMPLE 2
 
 Enter the number: 43258
-The sum of digits of the given number is 22. 
+The sum of digits of the given number is 22.
 '''
-

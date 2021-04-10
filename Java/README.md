@@ -23,7 +23,7 @@
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 - [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
--[Dijsktra](Greedy_Algorithms/Dijsktra.java)
+- [Dijsktra](Greedy_Algorithms/Dijsktra.java)
 ## Blockchain
 
 _add list here_

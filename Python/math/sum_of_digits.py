@@ -10,9 +10,9 @@ def sum_of_digits(num):
 
 
 print("Enter the number: ", end="")
-num = int(input())
-sum = sum_of_digits(abs(num))
-print("The sum of digits of the given number is {}.".format(sum))
+n = int(input())
+S = sum_of_digits(abs(n))
+print("The sum of digits of the given number is {}.".format(S))
 
 """
 Time Complexity: O(log(num)), where 'num' is the length of the given number

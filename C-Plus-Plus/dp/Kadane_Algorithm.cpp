@@ -51,4 +51,8 @@ int main()
 	cout << '\n';
 
 	return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 735b1e272d451a1e6247f6a692c72f6aa86bf600

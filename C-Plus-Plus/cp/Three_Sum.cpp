@@ -1,11 +1,11 @@
 /*
 Description :
     
-	TThree Sum Problem - In this problem, user will provide an array and we
-                         have find wether there is any "three" numbers are 
-                         present in the array who's sum is equal to the target 
-		                 provided. If it is present then it will show true else 
-                         it will show false.
+	Three Sum Problem - In this problem, user will provide an array and we
+                        have find wether there is any "three" numbers are 
+                        present in the array who's sum is equal to the target 
+		                provided. If it is present then it will show true else 
+                        it will show false.
 */
 
 
@@ -28,6 +28,7 @@ int main()
 		cin>>i;
 	}
 	bool found = false;
+	//sorting the array
 	sort(a.begin(),a.end());
 
 	for(int i=0;i<n;i++){   
@@ -46,10 +47,10 @@ int main()
 		}
 	}
 	if(found){
-		cout<<"True";
+		cout<<"True : Target value is present !";
 	}
 	else{
-		cout<<"False";
+		cout<<"False : Target value is not present !";
 	}
 }
 
@@ -60,12 +61,11 @@ Space Complexity : O(n)
 
 Test Cases :
 
-
- Test Case  1: 
+Test Case  1: 
     Input : 6 24 102 3 6 9 34 24
 	Output : True
 
- Test Case 2:
+Test Case 2:
     Input : 6 24 2 3 6 9 3 25
 	Output : False
 */

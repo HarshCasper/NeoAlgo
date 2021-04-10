@@ -184,6 +184,7 @@
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
 - [Childern Sum Property](graphs/Childern_Sum_Property.cpp)
+- [Center of Star Graph](graphs/Cenetr_of_Star_Graph.cpp)
 
 ## Searching
 

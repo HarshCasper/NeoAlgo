@@ -79,13 +79,25 @@ class FloydWarshallAlgorithm
         }
     }
     public static void main (String[] args)
-    {
-    // Below is the graph for which we have to find the shortest path
+    {/* Below is the graph which user will input
+         for which we have to find the shortest path*/
+        int n;
+        Scanner sc = new Scanner(System.in );
+        System.out.print("Enter size (N) of the 2D array representation for a graph of dimension NXN: ");
+        n = sc.nextInt();
+        System.out.print("Enter a NXN graph row wise (use 1111 for infinity): ");
+        int[][] graph = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++){
+                graph[i][j] = sc.nextInt();
+            }
+        }
+        /*Sample Input array:
         int graph[][] = { {0,   8,  INF, 15},
                           {INF, 0,   4, INF},
                           {INF, INF, 0,   2},
                           {INF, INF, INF, 0}
-                        };
+                        };*/
         FloydWarshallAlgorithm a = new FloydWarshallAlgorithm();
         // Printing the solution graph
         a.fWarshallFunction(graph);
@@ -93,10 +105,17 @@ class FloydWarshallAlgorithm
 }
 /*
  Sample Input/Output:
- Input: {0,   8,  INF, 15},
-         {INF, 0,   4, INF},
-         {INF, INF, 0,   2},
-         {INF, INF, INF, 0}
+ Input: Enter size (N) of the 2D array representation for a graph of dimension NXN: 4
+        Enter a NXN graph row wise (use INF for infinity):
+        0    8    1111  15
+        1111 0    4     1111
+        1111 1111 0     2
+        1111 1111 1111  0
+        The following matrix shows the shortest distances between every pair of vertices
+        0   8   12   14
+        INF 0   4   6
+        INF INF 0   2
+        INF INF INF 0
 
  Output: The following matrix shows the shortest distances between every pair of vertices
          0   8   12   14

@@ -23,6 +23,9 @@ void main() {
   print("Sum of digits in $input is $sum_of_digits");
 }
 /**
+Time Complexity: O(log(n))
+Space Complexity: O(1)
+
 Enter a number:
 401
 Sum of digits in 401 is 5

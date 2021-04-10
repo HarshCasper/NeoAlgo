@@ -78,7 +78,7 @@ function InfixtoPostfix(infixval)
                 while (stackarr[topp] != "(") {
                   postfix[temp++] = pop();
                 }
-          pop();
+                pop();
             }
             else if(el=='(')
             {
@@ -123,20 +123,23 @@ function InfixtoPostfix(infixval)
  InfixtoPostfix("((a+b)*c)");
 
  /*
+Input:
+Enter a valid Infix expression: ((a+b)*c)
+
 OutPut:
-ab+c*
+Postfix Expression:- ab+c*
 
 Input:
-A+B*C/(E-F)
+Enter a valid Infix expression: A+B*C/(E-F)
 
 Output:
-Postfix Expression: ABC*EF-/+
+Postfix Expression:- ABC*EF-/+
 
 Input:
-a+b*(c^d-e)^(f+g*h)-i
+Enter a valid Infix expression: a+b*(c^d-e)^(f+g*h)-i
 
 Output:
-Postfix Expression: abcd^e-fgh*+^*+i-
+Postfix Expression:- abcd^e-fgh*+^*+i-
 
 Time Complexity:O(N)
 Space Complexity: O(N)

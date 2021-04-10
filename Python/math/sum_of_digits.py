@@ -11,13 +11,16 @@ def sum_of_digits(num):
     return s
 
 if __name__ == '__main__':
+    # Input the number And
+    # Call the function
     print("Enter the number: ", end="")
     n = int(input())
     S = sum_of_digits(abs(n))
     print("The sum of digits of the given number is {}.".format(S))
 
-    
-""" Time Complexity: O(log(num)), where 'num' is the length of the given number
+
+'''    
+Time Complexity: O(log(num)), where 'num' is the length of the given number
 Space Complexity: O(1)
 
 SAMPLE INPUT AND OUTPUT
@@ -30,5 +33,6 @@ The sum of digits of the given number is 3.
 SAMPLE 2
 
 Enter the number: 43258
-The sum of digits of the given number is 22. """
+The sum of digits of the given number is 22. 
+'''
 

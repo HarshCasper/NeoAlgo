@@ -17,24 +17,25 @@ def findMedianSortedArrays(nums1, nums2):
         return newlist[len(newlist) // 2]
 
 # Driver's code
-# creating an empty lists
-nums1 = []
-nums2 = []
-n = int(input('Enter length of first array: '))
-m = int(input('Enter length of second array: '))
+if __name__ == "__main__":
+        # creating an empty lists
+        nums1 = []
+        nums2 = []
+        n = int(input('Enter length of first array: '))
+        m = int(input('Enter length of second array: '))
 
-print('Enter the elements of first array: ')
-for i in range(n):
-    x = int(input())
-    nums1.append(x)
+        print('Enter the elements of first array: ')
+        for i in range(n):
+            x = int(input())
+            nums1.append(x)
 
-print('Enter the elements of second array: ')
-for i in range(m):
-    y = int(input())
-    nums2.append(y)
+        print('Enter the elements of second array: ')
+        for i in range(m):
+            y = int(input())
+            nums2.append(y)
 
-print('Median of two arrays is: ' +
-      str(findMedianSortedArrays(nums1, nums2)))
+        print('Median of two arrays is: ' +
+            str(findMedianSortedArrays(nums1, nums2)))
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)

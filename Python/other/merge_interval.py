@@ -33,7 +33,9 @@ def merge(intervals):
   return intervals_stack
 
 if __name__ == '__main__':
-    interval = [[1, 3], [2, 6], [8, 10], [15, 18]]  
+    R = int(input("Enter the number of rows:"))
+    C = int(input("Enter the number of columns:"))
+    interval = [[int(input("Enter the elements: ")) for x in range (C)] for y in range(R)] 
     print("Overlapping interval: ",interval)
     print("Non-overlapping intervals: ",merge(interval))
 
@@ -42,9 +44,19 @@ Time complexity : O(n^2)
 Space complexity : O(n^2) 
 
 INPUT:-
-Overlapping interval:  [[1, 3], [2, 6], [8, 10], [15, 18]]
+Enter the number of rows:4
+Enter the number of columns:2
+Enter the elements: 1
+Enter the elements: 3
+Enter the elements: 2
+Enter the elements: 6
+Enter the elements: 8
+Enter the elements: 10
+Enter the elements: 15
+Enter the elements: 18
 
 OUTPUT:-
+Overlapping interval:  [[1, 3], [2, 6], [8, 10], [15, 18]]
 Non-overlapping intervals:  [[1, 6], [8, 10], [15, 18]]
 
 """

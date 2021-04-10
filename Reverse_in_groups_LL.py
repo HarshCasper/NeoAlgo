@@ -1,19 +1,6 @@
 '''
-Given a linked list of size N. 
-Reverse every k nodes (where k is an input to the function) in the linked list.
-
-Example:
-
-Input:
-LinkedList: 1->2->2->4->5->6->7->8
-K = 4
-
-Output: 4 2 2 1 8 7 6 5 
-
-Explanation: 
-The first 4 elements 1,2,2,4 are reversed first 
-and then the next 4 elements 5,6,7,8. Hence, the 
-resultant linked list is 4->2->2->1->8->7->6->5.
+    Given a linked list of size N. 
+    Reverse every k nodes (where k is an input to the function) in the linked list.
 '''
 
 class Node:
@@ -31,13 +18,16 @@ class LinkedList:
 
     # To insert a node at the last position (Pushing)
     def insert_at_end(self, new_data):
+        # If the linked list is empty
         if self.head is None:
             self.head = Node(new_data)
 
+        # Adding the new node at the end of the linked list
         else:
             new_node = Node(new_data)
             current = self.head
 
+            # Traversing the linked list till we reach the last node
             while current.next:
                 current = current.next
 
@@ -48,6 +38,7 @@ class LinkedList:
     def display(self):
         current = self.head
 
+        # Traversing the linked list
         while current.next is not None:
             print(f'{current.data} -> ', end=' ')
             current = current.next
@@ -55,7 +46,9 @@ class LinkedList:
         print(current.data)
 
     
+    # Function to reverse a linked list in groups of k
     def reversal(self, head, k):
+        # if LinkedList is empty
         if head is None:
             return None
 
@@ -63,7 +56,8 @@ class LinkedList:
         next = None
         prev = None
         count = 0
- 
+
+        # Initially traversing k elements through current pointer and reversing them
         while current is not None and count < k:
             next = current.next
             current.next = prev
@@ -71,9 +65,13 @@ class LinkedList:
             current = next
             count += 1
  
+        # If current pointer doesn't indicate the end of linked list,
+        # we recursively call the function to perform similar group wise reversal
+        # for the following groups of k elements 
         if next is not None:
             head.next = self.reversal(next, k)
- 
+
+        # We return the pointer pointing to the head of the new reversed linked list
         return prev
         
 
@@ -95,4 +93,28 @@ if __name__ == '__main__':
 
     print('The new linked list is: ')
     ll_obj.display()
+
+
+'''
+    For reversal function:
+        Time complexity: O(n)
+        Space complexity: O(1)
+
+    Sample input/output:
+
+    Enter number of elements to insert: 8
+    Enter element 0: 1
+    Enter element 1: 2
+    Enter element 2: 3
+    Enter element 3: 4
+    Enter element 4: 5
+    Enter element 5: 5
+    Enter element 6: 6
+    Enter element 7: 7
+    The linked list is: 
+    1 ->  2 ->  3 ->  4 ->  5 ->  5 ->  6 ->  7
+    Enter group size: 3
+    The new linked list is: 
+    3 ->  2 ->  1 ->  5 ->  5 ->  4 ->  7 ->  6
+'''
 

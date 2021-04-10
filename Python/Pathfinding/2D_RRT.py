@@ -22,10 +22,10 @@ from shapely.geometry import Point
 from shapely.geometry import Polygon, MultiPolygon, LineString
 
 
-#tree structure definition
+# tree structure definition
 class Tree():
 
-    def __init__(self, data = Point(0,0), children=None, par=None):
+    def __init__(self, data=Point(0,0), children=None, par=None):
         self.data = data
         self.children = []
         if children is not None:
@@ -46,7 +46,7 @@ class Tree():
     def __repr__(self):
         return '<tree node representation>'
 
-    #to trace final path
+    # to trace final path
     def tb(self,n):
         ax = []
         ay = []
@@ -59,7 +59,7 @@ class Tree():
         return ax,ay
 
 
-#defining obstacles as a set of polygons
+# defining obstacles as a set of polygons
 def obst(arr):
     ans = []
     for coord in arr:
@@ -68,18 +68,18 @@ def obst(arr):
     t = MultiPolygon(ans)
     return t
 
-#defining goal region as polygon
+# defining goal region as polygon
 def dgoal(coord):
     m = Polygon(coord)
     t = MultiPolygon([m])
     return t
 
-#distance between two points
+# distance between two points
 def distance(pt1,pt2):
     ans = math.sqrt((pt1.x - pt2.x) ** 2 + (pt1.y-pt2.y) ** 2)
     return ans
 
-#finding nearest neighbour
+# finding nearest neighbour
 def nearestNode(pt,root,mind):
     if distance(root.data,pt) < mind:
         mind = distance(root.data,pt)
@@ -92,14 +92,14 @@ def nearestNode(pt,root,mind):
     return (mind, ans)
 
 
-#check if point is within polygon
+# check if point is within polygon
 def IsInObstacle(arr,pt):
     for i in arr.geoms:
         if i.contains(pt):
             return True
     return False
 
-#linking new point to existing tree
+# linking new point to existing tree
 def chain(node,pt):
     last = Tree(pt)
     node.add_child(last)
@@ -120,7 +120,7 @@ def RRT(start,goal,obstacle_list):
     obstacles = obst(obstacle_list)
     
     cnt = 0 
-    graph = Tree(Point(start[0],start[1])) #Graph containing edges and vertices, initialized as empty
+    graph = Tree(Point(start[0],start[1])) 
     
     while cnt < 5000:
         
@@ -131,7 +131,7 @@ def RRT(start,goal,obstacle_list):
         if IsInObstacle(obstacles, p):
             continue
             
-        n = nearestNode(p, graph, 10**6) #find nearest vertex
+        n = nearestNode(p, graph, 10**6) 
         line = LineString([n[1].data,p])
 
         if n[0] >= 1:
@@ -152,7 +152,6 @@ def RRT(start,goal,obstacle_list):
         cnt += 1
 
     return graph.tb(last),Qgoal
-
 
 
 def visualize(path,obstacle_list,Qgoal):
@@ -178,9 +177,6 @@ def visualize(path,obstacle_list,Qgoal):
     plt.show()
 
 
-'''
-Driver code
-'''
 def main():
     
     obstacle_list = [
@@ -222,7 +218,6 @@ Here we have limited the number of iterations to 5000.
 The choice of where to place the next vertex that you will attempt to connect to is the sampling problem. 
 In simple cases, where search is low dimensional, uniform random placement works adequately. 
 
-Sampling based techniques for robot motion planning have become more widespread during the last decade.
 One problem with the RRT method is the nearest neighbour search time, which grows significantly 
 when adding a large number of vertices.
 Sampling strategies for RRTs are still an open research area.

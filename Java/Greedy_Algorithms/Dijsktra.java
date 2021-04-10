@@ -9,9 +9,9 @@ class dijsktra
     static int Ver;
     int minDistance(int dist[], Boolean sptSet[])
     {
-        // Initialize min value
+        // Minimum value intialized with maximum value
         int min = Integer.MAX_VALUE;
-        int  min_index = -1;
+        int  min_index = -1; //setting minimum index to -1 as array index starts from zero.
   
         for (int v = 0; v < Ver; v++)
             if (sptSet[v] == false && dist[v] <= min) {
@@ -27,59 +27,39 @@ class dijsktra
     {
         System.out.println("Vertex \t & Distance from Source");
         for (int i = 0; i < Ver; i++)
-            System.out.println(i + " \t\t " + dist[i]);
+            System.out.println(i + " \t\t " + dist[i]); //Prints the distance in the form of table
     }
   
-    // Function that implements Dijkstra's single source shortest path
-    // algorithm for a graph represented using adjacency matrix
-    // representation
+    //to implement dijkstra algorithm by finding the shortest distance
     void dijkstra(int graph[][], int src)
     {
-        int dist[] = new int[Ver]; // The output array. dist[i] will hold
-        // the shortest distance from src to i
-  
+        int dist[] = new int[Ver]; //This will have the shortest distance
         // sptSet[i] will true if vertex i is included in shortest
-        // path tree or shortest distance from src to i is finalized
         Boolean sptSet[] = new Boolean[Ver];
-  
-        // Initialize all distances as INFINITE and stpSet[] as false
         for (int i = 0; i < Ver; i++) {
-            dist[i] = Integer.MAX_VALUE;
+            dist[i] = Integer.MAX_VALUE;//all distance initalized as infinite
             sptSet[i] = false;
         }
-  
-        // Distance of source vertex from itself is always 0
-        dist[src] = 0;
+        dist[src] = 0; //since the sorce vertex will always have distance 0 from itself/
   
         // Find shortest path for all vertices
         for (int count = 0; count < Ver - 1; count++) {
             // Pick the minimum distance vertex from the set of vertices
-            // not yet processed. u is always equal to src in first
-            // iteration.
             int u = minDistance(dist, sptSet);
-  
             // Mark the picked vertex as processed
             sptSet[u] = true;
-  
-            // Update dist value of the adjacent vertices of the
-            // picked vertex.
             for (int v = 0; v < Ver; v++)
   
                 // Update dist[v] only if is not in sptSet, there is an
                 // edge from u to v, and total weight of path from src to
                 // v through u is smaller than current value of dist[v]
                 if (!sptSet[v] && graph[u][v] != 0 && dist[u] != Integer.MAX_VALUE && dist[u] + graph[u][v] < dist[v])
-                    dist[v] = dist[u] + graph[u][v];
+                    dist[v] = dist[u] + graph[u][v]; //updating the distance
         }
-  
-        // print the constructed distance array
-        printSolution(dist);
+        printSolution(dist);//calling the print function to print the distance form vertex.
     }
-  
-    // Driver method
-    public static void main(String[] args)
+    public static void main(String[] args) //main class
     {
-        /* Let us create the example graph discussed above */
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number of vertices");
         Ver=sc.nextInt();
@@ -89,7 +69,7 @@ class dijsktra
         {
             for(int j=0;j<Ver;j++)
             {
-                graph[i][j]=sc.nextInt();
+                graph[i][j]=sc.nextInt();//creation of graph
             }
         } 
         dijkstra t = new dijkstra();
@@ -115,3 +95,5 @@ Vertex 	 & Distance from Source
 1 		 9
 2 		 2
 */
+/*Explanation-Since the edges distance has been entered thus it calculates the shortest path distance form the source vertex which
+is being taken as 0,that is, the first vertex*/

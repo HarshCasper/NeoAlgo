@@ -80,7 +80,6 @@ _add list here_
 - [Stock Span Problem](cp/StockSpan.java)
 - [Wrapping Letters](cp/Main.java)
 - [Sort 2D Array](cp/Sort_2D_Array.java)
-- [Reverse array in o(n/2) time complexity](cp/ReverseArray.java)
 - [Reverse a string](cp/ReverseString.java)
 - [Implement Queue using Stack](cp/Queue_using_Stack.java)
 - [Implement Stack using Queue](cp/Stack_using_Queue.java)

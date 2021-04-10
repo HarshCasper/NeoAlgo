@@ -403,6 +403,7 @@ _add list here_
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [K-Tree](dp/K-Tree.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Staircase using dp](dp/Staircase.cpp)
 
 - [Subset Sum using DP](dp/Subset_sum.cpp)
 - [Equal Sum Partition Problem](dp/Equal_sum_partition.cpp)

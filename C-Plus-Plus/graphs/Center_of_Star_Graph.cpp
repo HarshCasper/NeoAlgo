@@ -1,5 +1,4 @@
-/* There is an undirected star graph consisting of n nodes labeled from 1 to n. A star graph is a graph where there is one center node and exactly n - 1 edges that connect 
-the center node with every other node. 
+/* A star graph is an undirected graph that has n nodes in which one is center node and  has exactly n - 1 edges.
 
     4
     |
@@ -9,9 +8,7 @@ the center node with every other node.
   
  Here 2 is the answer.
  
- Approach: Store the nodes in vector that are connected to partciular node, if size of that vector equals to nodes-1 then print it is the centre.
- 
-*/
+ Approach: Store the nodes in vector that are connected to partciular node, if size of that vector equals to nodes-1 then print it is the centre. */
 
 #include <iostream>
 #include<vector>

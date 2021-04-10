@@ -1,36 +1,32 @@
 /*
- Progarm to Toggle each bit of a number
- Given a number we want to toggle each bit of a number . We can easily
-  toggle all bits of a number by doing XOR of each of its bit by 1.
+ Progarm to Toggle kth bit of a number.
+ Given a number we want to toggle the kth  bit of a number . 
   
-  Ex:-6 (110)
-     after toggling each bit (001)=1
+  Ex:-6 (110) and k=2
+     after toggling  2nd bit our number would be (100) 4.
+ Approach:
+  firstly we will left shift the given number k-1 times.
+  After then we will xor the left shifted result with given number and return
  */
 #include <bits/stdc++.h>
 using namespace std;
-int  toggle_each_bit(int n)
+int  toggle_k_bit(int n,int k)
 {
-    int res=1;
-    while(res<=n)
-    {
-        //Toggling each bit by xoring with current set bit.
-          n = n ^ res;
-         //Moving set bit towards next bit.
-          res=res << 1;
-  
-    }
-    
-    return n;
+   int temp=1<<(k-1);
+   
+   return n^temp;
 }
 
 int main()
 {
-    int n;
+    int n,k;
     
-    cout<<"Enter the number you want to flipped all bits\n";
+    cout<<"Enter the number of which you want to flip the kth bit\n";
     cin>>n;
-   
-    cout<<"After Toggling each bit the number comes out to be = "<< toggle_each_bit(n)<<"\n";
+    cout<<"Enter the position k at which you want to flip the  bit\n";
+    cin>>k;
+
+    cout<<"After Toggling the kth bit the number comes out to be = "<< toggle_k_bit(n,k)<<"\n";
     
     
     return 0;
@@ -43,8 +39,11 @@ Space Complexity:-O(1)
 
 Input/Output:
 
-Enter the number you want to flipped all bits
-6
-After Toggling each bit the number comes out to be = 1
+Enter the number of which you want to flip the kth bit
+7
+Enter the position k at which you want to flip the bit
+1
+After Toggling the kth bit the number comes out to be = 6
 
 */
+

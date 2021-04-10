@@ -312,6 +312,7 @@
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
+- [Sum of Digits of a Number](math/sum_of_digits.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)

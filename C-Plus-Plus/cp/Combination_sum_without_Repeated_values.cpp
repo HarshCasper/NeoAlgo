@@ -1,7 +1,8 @@
-// The problem states that Given a array of distinct integer and a target value Return all the unique combination of array where chosen number sum to target. (You may return combination in ary order)
+/*
+The problem states that Given a array of distinct integer and a target value Return all the unique combination of array where chosen number sum to target. (You may return combination in ary order)
 
-// Note that Same element from given array should not occur more then one time
-
+Note that Same element from given array should not occur more then one time
+*/
 #include <bits/stdc++.h>
 using namespace std;
 void find(vector<int> arr,vector<vector<int>>& ans,vector<int>& r,int sum,int start)
@@ -32,7 +33,7 @@ void find(vector<int> arr,vector<vector<int>>& ans,vector<int>& r,int sum,int st
 int main()
 {
     int n;
-    cin>>n; // number of element in the given array
+    cin>>n;
     vector<int> arr; 
     for(int i=0;i<n;i++)
     {
@@ -41,7 +42,7 @@ int main()
         arr.push_back(x);
     }
     int target;
-    cin>>target; // target 
+    cin>>target;
     vector<vector<int>> answer=combinationSum2(arr,target);
     for(int i=0;i<answer.size();i++)
     {
@@ -54,14 +55,16 @@ int main()
     }
 }
 
+/*
+Test case 1:
+Input:
+7
+10 1 2 7 6 1 5
+8
 
-// Test case 1:
-// 7
-// 10 1 2 7 6 1 5
-// 8
-
-// Output:
-// [1,1,6,]
-// [1,2,5,]
-// [1,7,]
-// [2,6,]
+Output:
+[1,1,6,]
+[1,2,5,]
+[1,7,]
+[2,6,]
+*/

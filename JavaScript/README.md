@@ -51,7 +51,7 @@ _add list here_
 - [Double Factorial](./math/DoubleFactorial.js)
 - [Armstrong Number](./math/ArmstrongNumbers.js)
 - [Binary Exponentiation](./math/bin_exp.js)
-
+- [Matrix addition](./math/Matrix_addition.js)
 ## Competitive Programming
 
 _add list here_

@@ -7,9 +7,7 @@
  *	Another possible answer : [4, 1, 3, 2]
  */
 
-#include <iostream>
-#include <algorithm>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 vector<int> waveArray(int n, vector<int> a){
@@ -39,10 +37,9 @@ int main(){
     cout << endl;
 }
 
-/* 	Space Complexity: O(1)
- *  	Time Complexity: O(nlogn)
+/*
+ * 	Sample Output:
  *
- *  	Sample Input and Output:  
  *  	Enter the size of the array: 5
  *      Enter the elements of the array:
  *      1
@@ -52,5 +49,9 @@ int main(){
  *      5
  *      Output:
  *      Wave Array: 2 1 4 3 5
+ *
+ *      Time Complexity: O(nlogn)
+ *      Space Complexity: O(1)
+ *
  */
 

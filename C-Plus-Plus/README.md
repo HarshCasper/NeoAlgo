@@ -201,6 +201,7 @@ _add list here_
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Coin change problem maximum ways](dp/Maximum_ways_Coin_change_problem.cpp)
 
 ## Blockchain
 

@@ -16,10 +16,9 @@ The algorithm ends when a node is generated within the goal region, or a limit i
 """
 
 import matplotlib.pyplot as plt
-import matplotlib.path as mpltPath
 import math
 import random
-from shapely.geometry import Point, MultiPoint
+from shapely.geometry import Point
 from shapely.geometry import Polygon, MultiPolygon, LineString
 
 
@@ -62,7 +61,7 @@ class Tree():
 
 #defining obstacles as a set of polygons
 def obst(arr):
-    ans = list()
+    ans = []
     for coord in arr:
         m = Polygon(coord)
         ans.append(m)
@@ -125,8 +124,8 @@ def RRT(start,goal,obstacle_list):
     
     while cnt < 5000:
         
-        x  = random.random() * 10
-        y  = random.random() * 10
+        x = random.random() * 10
+        y = random.random() * 10
         p = Point(x,y)
         
         if IsInObstacle(obstacles, p):

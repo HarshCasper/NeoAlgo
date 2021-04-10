@@ -16,7 +16,11 @@
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
+* [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Identical BSTs](ds/identical_binary_tree.py)
+* [Loop detection in Linked List](ds/loop_detection_in_LL.py)
+
 ## Searching
 * [Bilinear Search](search/bilinear.py)
 * [Binary Search](search/binarysearch.py)
@@ -76,7 +80,6 @@
 - [Singly Linked List](ds/SinglyLinkedList.py)
 - [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
 
-
 ## Competitive Programming
 
 - [Anagram Checker](cp/anagram_checker.py)
@@ -112,6 +115,7 @@
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
 - [Count the number of anagrams](cp/CountAnagrams.py)
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
+- [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 
 
@@ -255,6 +259,7 @@
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
 - [Sort an Arrays of 0s, 1s, 2s](cp/Sort_An_Arraysof0s1sand2s.py)
+- [Activity Selection](cp/activity_selection.py)
 
 ## Cryptography
 
@@ -316,6 +321,9 @@
 - [Hamming Distance](math/Hamming_distance.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
+- [Transpose of matrix](math/Matrix_transpose.py)
+- [Neon Number](math/Neon_number.py)
+- [Matrix addition](math/Matrix_addition.py)
 ## Blockchain
 
 _add list here_
@@ -350,7 +358,11 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Minimum number of jumps](other/minimize_the_jump.py)
+- [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+
+
 
 ## [Coding Template for Contribution](Code_Template.md)

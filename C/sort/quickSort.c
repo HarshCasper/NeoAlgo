@@ -2,13 +2,7 @@
 of finding a pivot element and dividing the elements in two parts that is, elements
 smaller than pivot are kept on one side and the element larger than the pivot element 
 are placed on the other side of the pivot element.*/
-/*
-Space complexity: O(N log N)
-Time Complexity:
-Best Case: Ω(N log N)		
-Average Case: Θ(N log N)
-Worst Case: O(N^2)
-*/
+
 #include <stdio.h>
 int partitionArray(int[], int, int);
 void quickSort(int[], int, int);
@@ -80,4 +74,11 @@ void printArray(int a[], int size){
 Enter the size of the array: 5
 Enter the array elements : 4 6 8 3 1
 The sorted array: 1 3 4 6 8
+*/
+/*
+Space complexity: O(N log N)
+Time Complexity:
+Best Case: Ω(N log N)		
+Average Case: Θ(N log N)
+Worst Case: O(N^2)
 */

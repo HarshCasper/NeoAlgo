@@ -33,7 +33,7 @@ class FloydWarshallAlgorithm
            Add all vertices one by one
            to the set of intermediate
            vertices.
-          ---> Before start of an iteration,
+          - Before start of an iteration,
                we have shortest
                distances between all pairs
                of vertices such that
@@ -41,7 +41,7 @@ class FloydWarshallAlgorithm
                only the vertices in
                set {0, 1, 2, .. k-1} as
                intermediate vertices.
-          ----> After the end of an iteration,
+          - After the end of an iteration,
                 vertex no. k is added
                 to the set of intermediate
                 vertices and the set
@@ -64,8 +64,7 @@ class FloydWarshallAlgorithm
     
     void printResult(int dist[][])
     {
-        System.out.println("The following matrix shows the shortest "+
-                         "distances between every pair of vertices");
+        System.out.println("The following matrix shows the shortest distances between every pair of vertices");
         for (int i=0; i<V; ++i)
         {
             for (int j=0; j<V; ++j)
@@ -92,12 +91,6 @@ class FloydWarshallAlgorithm
                 graph[i][j] = sc.nextInt();
             }
         }
-        /*Sample Input array:
-        int graph[][] = { {0,   8,  INF, 15},
-                          {INF, 0,   4, INF},
-                          {INF, INF, 0,   2},
-                          {INF, INF, INF, 0}
-                        };*/
         FloydWarshallAlgorithm a = new FloydWarshallAlgorithm();
         // Printing the solution graph
         a.fWarshallFunction(graph);
@@ -111,12 +104,7 @@ class FloydWarshallAlgorithm
         1111 0    4     1111
         1111 1111 0     2
         1111 1111 1111  0
-        The following matrix shows the shortest distances between every pair of vertices
-        0   8   12   14
-        INF 0   4   6
-        INF INF 0   2
-        INF INF INF 0
-
+        
  Output: The following matrix shows the shortest distances between every pair of vertices
          0   8   12   14
          INF 0   4   6

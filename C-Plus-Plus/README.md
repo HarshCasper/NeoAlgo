@@ -124,6 +124,7 @@
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
+- [Divind Task to Students](cp/Dividing_task.cpp)
 
 ## Data Structures
 

@@ -234,3 +234,4 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Move all negative numbers to beginning and positive to the end](other/Move_all_Negative_no_to_beginning_and_Positive_to_end.cpp)

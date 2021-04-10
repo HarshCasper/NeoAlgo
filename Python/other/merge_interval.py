@@ -32,9 +32,10 @@ def merge(intervals):
    # result             
   return intervals_stack
 
-interval = [[1, 3], [2, 6], [8, 10], [15, 18]]  
-print("Overlapping interval: ",interval)
-print("Non-overlapping intervals: ",merge(interval))
+if __name__ == '__main__':
+    interval = [[1, 3], [2, 6], [8, 10], [15, 18]]  
+    print("Overlapping interval: ",interval)
+    print("Non-overlapping intervals: ",merge(interval))
 
 """
 Time complexity : O(n^2) 
@@ -45,5 +46,5 @@ Overlapping interval:  [[1, 3], [2, 6], [8, 10], [15, 18]]
 
 OUTPUT:-
 Non-overlapping intervals:  [[1, 6], [8, 10], [15, 18]]
- 
+
 """

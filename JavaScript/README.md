@@ -55,6 +55,7 @@
 
 - [Bubble Sort](./sort/BubbleSort.js)
 - [Brick Sort](./sort/BrickSort.js)
+- [Bucket Sort](./sort/BucketSort.js)
 - [Insertion Sort](./sort/insertion_sort.js)
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)

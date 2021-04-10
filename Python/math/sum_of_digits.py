@@ -1,8 +1,9 @@
 # Python program to Find the Sum of Digits of a Number
 
-# Extracting Each digits
+
 def sum_of_digits(num):
-    
+    # Extracting Each digits
+    # and compute thier sum in 's'
     s = 0
     while num != 0:
         s = s + (num % 10)

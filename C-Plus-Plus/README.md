@@ -115,6 +115,7 @@
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Print first letter of every word in the string](cp/First_letter_of_every_word_in_the_string.cpp)
 
 ## Data Structures
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)

@@ -509,6 +509,7 @@ _add list here_
 - [Sum of all the possible divisors of a natural number](other/sum_of_divisors.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Reversing the first K elements of a Queue](other/Reversing_the_first_K_elements_of_a_Queue.cpp)
 - [Find Common elements in three sorted arrays](other/Common_Element_in_three_Sorted_array.cpp)
 - [Find the length of the longest sub-sequence](other/Longest_Consecutive_Subsequence.cpp)
 - [Nth Most Occurring Strings](other/most_occurrence_strings.cpp)

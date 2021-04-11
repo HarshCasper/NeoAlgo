@@ -1,6 +1,5 @@
 // Minimum Sum Partition
-#include <iostream>
-#include <string>
+#include<bits/stdc++.h>
 using namespace std;
 
 /* Partition the Set into two subsets Set1, Set2 such that the

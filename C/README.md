@@ -118,6 +118,7 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
+- [Check whether a number is power of 2](math/Check_whether_a_number_is_power_of_2.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Armstrong Number](math/armstrong_number.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)

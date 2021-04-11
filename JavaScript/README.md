@@ -60,10 +60,11 @@
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)
 - [Merge Sort](./sort/MergeSort.js)
-- [Cycle Sort](./sort/CycleSort.js)
+- [Cycle Sort](./sort/cycleSort.js)
 - [Selection Sort](./sort/selectionSort.js)
 - [Stooge Sort](./sort/StoogeSort.js)
 - [Tim Sort](./sort/TimSort.js)
+- [Comb Sort](./sort/CombSort.js)
 
 ## Machine Learning
 

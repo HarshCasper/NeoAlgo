@@ -38,9 +38,9 @@ long staircase(int n)
 int main()
 {
 	int n;
-  cout<<"Enter the number of steps"<<endl;
+  	cout<<"Enter the number of steps"<<endl;
 	cin >> n;
-  cout<<"The total number of possible ways are:"<<endl;
+  	cout<<"The total number of possible ways are:"<<endl;
 	cout << staircase(n);
 }
 

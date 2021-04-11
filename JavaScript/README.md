@@ -60,10 +60,11 @@
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)
 - [Merge Sort](./sort/MergeSort.js)
-- [Cycle Sort](./sort/CycleSort.js)
+- [Cycle Sort](./sort/cycleSort.js)
 - [Selection Sort](./sort/selectionSort.js)
 - [Stooge Sort](./sort/StoogeSort.js)
 - [Tim Sort](./sort/TimSort.js)
+- [Comb Sort](./sort/CombSort.js)
 
 ## Machine Learning
 
@@ -87,6 +88,7 @@ _add list here_
 - [Sliding Window Maximum](./cp/SlidingWindowMaximum.js)
 - [Count Anagrams](./cp/CountAnagrams.js)
 - [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
+- [Two Sum](./cp/TwoSum.js)
 
 ## Dynamic Programming
 

@@ -210,6 +210,7 @@ _add list here_
 - [HappyNumber](math/HappyNumber.java)
 - [MagicNumber](math/Magicnumber.java)
 - [Matrix Addition](math/Matrix_addition.java)
+- [Mystery Number](math/MysteryNumber.java)
 
 
 ## Dynamic Programming
@@ -227,6 +228,7 @@ _add list here_
 - [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
 - [Matrix Chain Multiplication to find the minimum cost](dp/MatrixChainMultiplication.java)
 - [Perfect Sum Problem](dp/PerfectSumProblem.java)
+- [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
 
 ## Blockchain
 

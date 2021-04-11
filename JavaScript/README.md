@@ -81,6 +81,7 @@ _add list here_
 - [Fibonacci](./math/Fibonacci.js)
 - [Palindrome Checker](./math/Palindrome_checker.js)
 - [GCD of two Numbers](./math/gcd_of_two_no.js)
+- [Matrix addition](./math/Matrix_addition.js)
 
 ## Competitive Programming
 

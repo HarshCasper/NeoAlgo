@@ -17,6 +17,7 @@
 - [Longest Substring](dp/longest_substring)
 - [Stack](dp/stack)
 - [Factorial](dp/factorial)
+- [Fibonacci](dp/fibonacci)
 
 ## Data Structures
 - [Binary Tree](ds/binary_tree)

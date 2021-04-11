@@ -18,6 +18,8 @@
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
 - [Sum of Digits](math/SumOfDigits.dart)
+- [Neon number](maths/NeonNumber.dart)
+
 
 ## Search
 

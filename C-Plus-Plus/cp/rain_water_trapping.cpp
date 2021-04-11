@@ -16,6 +16,7 @@ using namespace std;
 // Function to return amount of water trapped
 void solve()
 {
+    cout<<"Enter number of Buildings: ";
     long long int no_of_buildings;
     //taking input of number of buildings
     cin>>no_of_buildings;
@@ -24,6 +25,7 @@ void solve()
     for(long long int i=0;i<no_of_buildings;i++){
         
         //Taking input of height of ith-building
+        cout<<"Height of building: ";
         cin>>height[i];
     }
 
@@ -53,13 +55,12 @@ void solve()
         total_water+=min(left_arr[i],right_arr[i])-height[i];
         // cout<<sum<<"\n";
     }
+    cout<<"Total water trapped between buildings: ";
     cout<<total_water<<endl;
 }
 // Driver Code
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
     // Calling void function
     solve();
     return 0;

@@ -66,6 +66,6 @@ Enter the number to be searched:
 47
 47 found at position: 4
 
-Time complexity: O(log n)
+Time complexity: O(log(log n))
 Space complexity: O(1)
  */

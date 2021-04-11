@@ -29,7 +29,7 @@ class Node {
   }
 }
 
-// Creating Linked List class to perform operations 
+// Creating Linked List class to perform operations
 class LinkedList {
   constructor(value) {
     this.head = {
@@ -41,7 +41,7 @@ class LinkedList {
     this.length = 1;
   }
 
- // Looping to a given index in Linked List
+  // Looping to a given index in Linked List
   traverseToIndex(index) {
     let counter = 1;
     let currentNode = this.head;
@@ -54,7 +54,7 @@ class LinkedList {
     return currentNode;
   }
 
-// Appending (at the end) node in linked list
+  // Appending (at the end) node in linked list
   append(value) {
     const newNode = new Node(value);
 
@@ -65,7 +65,7 @@ class LinkedList {
     return this;
   }
 
-// Prepending ( at the beginning ) of linked list
+  // Prepending ( at the beginning ) of linked list
   prepend(value) {
     const newNode = new Node(value);
 
@@ -76,7 +76,7 @@ class LinkedList {
     return this;
   }
 
-// Inserting node at a given position in linked list
+  // Inserting node at a given position in linked list
   insert(index, value) {
     if (index === 1) return this.prepend(value);
     else if (index > this.length) return this.append(value);
@@ -90,7 +90,7 @@ class LinkedList {
     }
   }
 
-// Removing the element node form linked list
+  // Removing the element node form linked list
   remove(index) {
     if (index === 1) {
       this.head = this.head.next;
@@ -112,7 +112,7 @@ class LinkedList {
     return this;
   }
 
-// Reverse the linked list
+  // Reverse the linked list
   reverse() {
     if (!this.head.next) {
       return this.head;
@@ -159,7 +159,42 @@ class LinkedList {
     return this;
   }
 
-// Displaying all the nodes of linked list
+  // Get the middle node of Linked List
+  getMidNode(start, last) {
+    if (start === null) return null;
+
+    let slowTraverse = start;
+    let fastTraverse = start.next;
+
+    while (fastTraverse !== last && fastTraverse.next !== null) {
+      fastTraverse = fastTraverse.next.next;
+      slowTraverse = slowTraverse.next;
+    }
+
+    return slowTraverse;
+  }
+
+  // Performing binary search
+  binarySearch(key) {
+    let startNode = this.head;
+    let lastNode = null;
+
+    do {
+      let mid = this.getMidNode(startNode, lastNode);
+
+      if (mid === null) return null;
+      if (mid.value === key) return console.log("Found ", mid.value);
+      else if (mid.value < key) {
+        startNode = mid.next;
+      } else {
+        lastNode = mid;
+      }
+    } while (lastNode === null || lastNode !== startNode);
+
+    return console.log("Not Found");
+  }
+
+  // Displaying all the nodes of linked list
   printList() {
     const array = [];
     let currentNode = this.head;
@@ -191,6 +226,7 @@ do {
   console.log("5. Delete element from Linked List".delete);
   console.log("6. Reverse a Linked List".display);
   console.log("7. Sort the Linked List using Bubble Sort".insert);
+  console.log("8. Search node using binary search".display);
 
   choice = +prompt("Enter your choice - ");
 
@@ -224,29 +260,29 @@ do {
       myLinkedList.insert(index, value);
       console.log("After Insertion Linked List - ", myLinkedList.printList());
       break;
-    
+
     case 5:
       if (myLinkedList.length === 0) {
         return console.log("404, you can't remove anything from void".wrong);
       }
-  
+
       index = +prompt("Enter position of element - ");
       if (index <= 0 || index > myLinkedList.length)
         return console.log("You know this is wrong, Bbye!\n".wrong);
-  
+
       myLinkedList.remove(index);
       console.log("After Deletion Linked List - ", myLinkedList.printList());
       break;
-    
+
     case 6:
       if (myLinkedList.length === 0) {
         return console.log("Can't revert, Empty Linked List".wrong);
       }
-  
+
       myLinkedList.reverse();
       console.log("Reversal of Linked List - ", myLinkedList.printList());
       break;
-    
+
     case 7:
       if (myLinkedList.length === 0) {
         console.log("Linked List is Empty");
@@ -254,7 +290,15 @@ do {
         myLinkedList.bubbleSort();
         console.log("After sorting Linked List - ", myLinkedList.printList());
       }
-  
+
+      break;
+
+    case 8:
+      value = +prompt("Enter Value to Search - ");
+      // Sort the linked list
+      myLinkedList.bubbleSort();
+
+      myLinkedList.binarySearch(value);
       break;
 
     default:
@@ -262,7 +306,6 @@ do {
       return;
   }
 } while (choice !== 0);
-
 
 // Sample I/O of the above program -
 
@@ -278,6 +321,7 @@ Follow the instructions to get in the show
 5. Delete element from Linked List
 6. Reverse a Linked List
 7. Sort the Linked List using Bubble Sort
+8. Search node using Binary Search
 Enter your choice - 2
 Enter Value to Append element - 43
 After Append Linked List -  [10, 43]
@@ -290,6 +334,7 @@ After Append Linked List -  [10, 43]
 5. Delete element from Linked List
 6. Reverse a Linked List
 7. Sort the Linked List using Bubble Sort
+8. Search node using Binary Search
 Enter your choice - 6
 Reversal of Linked List -  [43, 10]
 
@@ -301,8 +346,13 @@ Reversal of Linked List -  [43, 10]
 5. Reverse a Linked List
 6. Delete element from Linked List
 7. Sort the Linked List using Bubble Sort
+8. Search node using Binary Search
 Enter your choice - 7
 After sorting -  [ 10, 43 ]
 
-*/
+.... above text display
+Enter your choice - 8
+Enter Value to Search - 10
+Found 10
 
+*/

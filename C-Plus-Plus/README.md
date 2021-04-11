@@ -411,6 +411,7 @@ _add list here_
 - [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)
 - [Partition Problem](dp/Partition_Problem.cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Golomb Sequence](dp/golomb_sequence.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Unique BST](dp/Unique_BST.cpp)

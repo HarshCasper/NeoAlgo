@@ -14,6 +14,7 @@
 - [2D Areas](maths/Areas2D.dart)
 - [Armstrong number](maths/Armstrong.dart)
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
+- [Binary Exponentiation](math/Binary_Exponentiation.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
 

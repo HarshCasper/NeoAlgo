@@ -227,6 +227,7 @@ _add list here_
 - [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
 - [Matrix Chain Multiplication to find the minimum cost](dp/MatrixChainMultiplication.java)
 - [Perfect Sum Problem](dp/PerfectSumProblem.java)
+- [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
 
 ## Blockchain
 

@@ -7,6 +7,7 @@ Bitwise operations are best because they perform the operation in least possible
 #include <stdio.h>
 #include <math.h>
 
+// this number_is_power_of_2 will tell us whether a number is power of 2
 int number_is_power_of_2(int number)
 {
     /* if bitwise and of number and number - 1 is zero
@@ -36,9 +37,7 @@ int main()
 }
 
 /*
-
 Standard Input and Output
-
 Enter the number
 64
 

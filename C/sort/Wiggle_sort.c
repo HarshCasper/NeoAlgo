@@ -37,7 +37,7 @@ void merge_sort(int *ar, int l, int r)
 {
     if (l < r)
     {
-        int mid = (l + r-1) / 2;
+        int mid = l + (r-l) / 2;
         merge_sort(ar, l, mid);
         merge_sort(ar, mid + 1, r);
         merge(ar, l, mid, r);

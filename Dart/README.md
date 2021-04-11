@@ -17,6 +17,7 @@
 - [Automorphic Number](math/automorphic_number.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
+- [Sum of Digits](math/SumOfDigits.dart)
 
 ## Search
 

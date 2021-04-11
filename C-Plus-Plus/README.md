@@ -211,7 +211,7 @@
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
-- [Middle of Linked List](ds/Middle of the linked list.cpp)
+- [Middle of Linked List](ds/Middle_of_the_linked_list.cpp)
 
 ## Graphs
 

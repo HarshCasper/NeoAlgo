@@ -14,6 +14,7 @@
 - [Contiguous Sub Array with Maximum Sum](cp/Maximum_subarray_sum.jl)
 - [Finding Prime numbers using Sieve](cp/Sieve_of_Eratosthenes.jl)
 - [Prime Factorization using Sieve](cp/Prime_factorization.jl)
+- [Printing all the subsets of an Array](cp/subsetsOfArray.jl)
 - [Finding Factorials using Recursion](cp/factorials.jl)
 - [Finding GCD using Euclid's Algorithm](cp/GCD.jl)
 - [Rainwater Trapping](cp/RainwaterTrapping.jl)
@@ -26,13 +27,18 @@
 
 - [Cutting A Rod](dp/cutting_a_rod.jl)
 - [Golomb Sequence](dp/golomb_sequence.jl)
+- [Fibbonaci Number](dp/fibonacci.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
+- [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.jl)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.jl)
+- [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.jl)
+- [Subset Sum Problem](dp/subset_sum.jl)
 
 ## Mathematics
 
 - [Armstrong Number](math/armstrong_number.jl)
+- [Automorphic Number](math/automorphic_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
@@ -52,6 +58,7 @@
 - [Jump Search](search/jump_search.jl)
 - [Linear Search](search/linear_search.jl)
 - [Ternary Search](search/ternary_search.jl)
+- [Ternary Search Recursive](search/ternary_search_recursive.jl)
 
 ## Sorting
 
@@ -61,3 +68,7 @@
 - [Selection Sort](sort/selection_sort.jl)
 - [Comb Sort](sort/comb_sort.jl)
 - [Quick Sort](sort/quick_sort.jl)
+
+## Bit Manipulation
+
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.jl)

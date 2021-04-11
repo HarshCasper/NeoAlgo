@@ -41,6 +41,7 @@
 - [Bulb Switcher problem](cp/bulbSwitch.c)
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
+- [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
 
 ## Cryptography
 
@@ -129,6 +130,7 @@
 - [Bubble Sort](sort/bubble_sort.c)
 - [Circle Sort](sort/circle_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
+- [Count Inversions](sort/Count_Inversions.c)
 - [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)
 - [Merge Sort in O(1) space complexity](<sort/mergesort_in_O(1)_space_complexity.c>)
@@ -159,6 +161,7 @@
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
+- [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
 - [Unique BST](dp/Unique_BST.c)
@@ -179,10 +182,12 @@ _add list here_
 
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
+- [Number of Divisors of a Number](math/number_of_divisors.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Sum of Digits](math/sum_of_digits.c)
 - [Armstrong Number](math/armstrong_number.c)
+- [Sum of Divisors of a Number](math/sum_of_divisors.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Find factorial of a Number](math/factorial.c)
 - [Happy Number](math/happy_number.c)
@@ -209,6 +214,7 @@ _add list here_
 ## Other
 
 - [Find the Numbers](other/Find_the_numbers.c)
+- [Find First and Last position index of an element in an array](other/find_first_and_last_position_index_of_a_number_in_array.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Sliding Window Technique](other/window_sliding_technique.c)
@@ -227,6 +233,7 @@ _add list here_
 
 - [Activity Selection](cp/Activity_selection.c)
 - [Anagram Program](cp/anagram_program.c)
+- [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)

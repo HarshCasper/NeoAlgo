@@ -1,46 +1,37 @@
 /*
-Problem Desciption:
-The problem states that, there are N students in the class, i'th student has assign Ci number of task. Your task is to determine if it is possible to redistribute C1 + C2 + ... + Cn task among the student of class thus that i'th student would get i task.
+The Problem states that Given array arr[n] of integer where each element arr[i] represent number of task given to each student.Your task is to find if it possible to redistribute the task where i'th student assign i number of task. Example is it possible to assign 2 task to 2nd Student. 
 */
-
 #include <bits/stdc++.h>
 using namespace std;
-void solve()
+void solve(int arr[], int n)
 {
-    int n;
-    cin>>n;
-    vector<int> arr;
-    int sum_of_i_student=0;
-    int sum_of_task=0;
-    for(int i=1;i<=n;i++)
-    {
-        sum_of_i_student=sum_of_i_student+i;
-        int a;
-        cin>>a;
-        arr.push_back(a);
-        sum_of_task=sum_of_task+a;
-    }
-    if(sum_of_i_student==sum_of_task)cout<<"YES\n";
-    else cout<<"NO\n";
+  int sum_of_task = 0, sum_of_i = 0;
+  for (int i = 1; i <= n; i++)
+  {
+    sum_of_task = sum_of_task + arr[i];
+    sum_of_i += i;
+  }
+  if (sum_of_i == sum_of_task)
+    cout << "Yes It is possible\n";
+  else
+    cout << "No It is not Possible\n";
 }
 int main()
 {
-    int t;
-    cin>>t;
-    while(t--)
-    {
-        solve();
-    }
+  int n;
+  cin >> n;
+  int arr[n];
+  for (int i = 1; i <= n; i++)
+  {
+    cin >> arr[i];
+  }
+  solve(arr, n);
 }
-
-/* 
-Test case :
-2
+/*
+Test Case
+input:
 5
 7 4 1 1 2
-5
-1 1 1 1 1
-output
-YES
-NO
+output:
+Yes It is possible
 */

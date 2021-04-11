@@ -1,5 +1,5 @@
 /*
-The problem states that Given a array of integer and a target value. Return all the unique combination of array where chosen number sum to target. (You may return combination in ary order).
+The problem states that Given an array of integer and a target value. Return all the unique combination of array where chosen number sum to target. (You may return combination in ary order).
 (Note that each element in returned array should occur one time only)
 */
 #include <bits/stdc++.h>

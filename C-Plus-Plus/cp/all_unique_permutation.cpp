@@ -1,6 +1,7 @@
 /*Problem Statement:
-Given a collection of numbers that might contain duplicates, 
-return all possible unique permutations excluding the user input. */
+You are given a string containing numbers, the task is to print all the unique permutations 
+that are possible excluding the string that was entered by the user,that is the entered combination
+of characters entered as string shouldn't be printed. */
 #include<bits/stdc++.h>
 using namespace std;
 

@@ -1,5 +1,11 @@
-﻿//opological ordering of a directed graph is a linear ordering of its vertices such that for every directed edge uv from vertex u to vertex v,
-//u comes before v in the ordering. To perfom this sorting the graf must be Direct acyclic graph(DAG).
+/*
+Topological ordering of a directed graph is a linear ordering of its 
+vertices such that for every directed edge uv from vertex u to vertex v,
+u comes before v in the ordering. To perform this sorting the graph must 
+be Direct acyclic graph(DAG).
+
+*/
+
 using System;
 using System.Collections.Generic;
 

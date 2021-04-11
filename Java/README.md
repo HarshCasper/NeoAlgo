@@ -213,6 +213,7 @@ _add list here_
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
+- [Sum of pairwise bit differences](other/Pairwise_bitdiff_sum.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
 - [Search Insert Position](other/Search_insert_index.java)

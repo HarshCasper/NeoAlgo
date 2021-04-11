@@ -37,7 +37,7 @@ void merge_sort(int *ar, int l, int r)
 {
     if (l < r)
     {
-        int mid = (l + r) / 2;
+        int mid = (l + r-1) / 2;
         merge_sort(ar, l, mid);
         merge_sort(ar, mid + 1, r);
         merge(ar, l, mid, r);
@@ -72,15 +72,10 @@ void wiggle_sort(int n, int* arr)
         // right is decremented
         arr[k] = res[right--];
 
-    printf("[");
     for (int i = 0; i < n; i++)
     { //for printing the wiggle sorted array
-        printf("%d",arr[i]);
-        if (i != n - 1)
-            printf(", ");
+        printf("%d ",arr[i]);
     }
-    printf("]\n");
-
 }
 
 //driver code
@@ -102,13 +97,13 @@ int main()
      6
      1 3 2 2 3 1
      Sample output:
-     [2,3,1,3,1,2]
+     2 3 1 3 1 2
 
   2. Sample input:
      10
      1 4 6 2 3 7 9 2 1 0
      Sample Output:
-     [2, 9, 2, 7, 1, 6, 1, 4, 0, 3]
+     2 9 2 7 1 6 1 4 0 3
 */
 
 /*

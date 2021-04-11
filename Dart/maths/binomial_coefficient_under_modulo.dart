@@ -1,7 +1,8 @@
-import 'dart:io';
 /*
 This algorithm is used to calculate nCr under some mod.
+
 nCr = factorial(n)/(factorial(r)*factorial(n-r))
+
 nCr%mod = factorial(n)*inverse(factorial(r))%mod*inverse(factorial(n-r)%mod)%mod (here inverse is modinverse)
 
 We use Fermat's little theorem to calculate modinverse of a value
@@ -12,6 +13,8 @@ num^(p-2)=num^-1(mod p)
 
 So, to get inverse, we need to calulate (mod-2)th power of num under modulo mod.
 */
+
+import 'dart:io';
 
 int inverse(int val, int mod) {
   int power = mod - 2;
@@ -77,6 +80,6 @@ Sample I/O
 */
 
 /*
-Time Complexity: O(n)
-Space Complexity: O(1)
+  Time Complexity: O(n)
+  Space Complexity: O(1)
 */

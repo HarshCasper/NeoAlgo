@@ -14,9 +14,13 @@
 - [2D Areas](maths/Areas2D.dart)
 - [Armstrong number](maths/Armstrong.dart)
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
+- [Automorphic Number](math/automorphic_number.dart)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.dart)
-- [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
+- [Neon number](maths/NeonNumber.dart)
+- [Strong Number](maths/StrongNumber.dart)
+- [Sum of Digits](math/SumOfDigits.dart)
+
 
 ## Search
 

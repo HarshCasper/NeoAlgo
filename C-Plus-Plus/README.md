@@ -422,7 +422,6 @@ _add list here_
 - [Count the number of subset with a given difference](dp/Count_subset_given_difference.cpp)
 - [Coin change problem maximum ways](dp/Maximum_ways_Coin_change_problem.cpp)
 - [Minimum sum partition](dp/Minimum_sum_partition.cpp)
-
 - [Subset Sum using DP](dp/Subset_sum.cpp)
 - [Equal Sum Partition Problem](dp/Equal_sum_partition.cpp)
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)

@@ -210,7 +210,7 @@ _add list here_
 - [HappyNumber](math/HappyNumber.java)
 - [MagicNumber](math/Magicnumber.java)
 - [Matrix Addition](math/Matrix_addition.java)
-- [Perfect Number](math/Perfect_Number.java)
+
 
 ## Dynamic Programming
 

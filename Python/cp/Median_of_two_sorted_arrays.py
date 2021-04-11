@@ -24,15 +24,8 @@ if __name__ == "__main__":
     n = int(input('Enter length of first array: '))
     m = int(input('Enter length of second array: '))
 
-    print('Enter the elements of first array: ')
-    for i in range(n):
-        x = int(input())
-        nums1.append(x)
-
-    print('Enter the elements of second array: ')
-    for i in range(m):
-        y = int(input())
-        nums2.append(y)
+    nums1 = list(map(int,input("\nEnter elements of first array: ").strip().split()))[:n]
+    nums2 = list(map(int,input("\nEnter elements of second array: ").strip().split()))[:m]
 
     print('Median of two arrays is: ' +
         str(findMedianSortedArrays(nums1, nums2)))

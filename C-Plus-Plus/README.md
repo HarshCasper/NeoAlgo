@@ -125,6 +125,7 @@
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
+
 ## Data Structures
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)

@@ -30,8 +30,10 @@
 - [Fibbonaci Number](dp/fibonacci.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
+- [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.jl)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.jl)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.jl)
+- [Subset Sum Problem](dp/subset_sum.jl)
 
 ## Mathematics
 
@@ -56,6 +58,7 @@
 - [Jump Search](search/jump_search.jl)
 - [Linear Search](search/linear_search.jl)
 - [Ternary Search](search/ternary_search.jl)
+- [Ternary Search Recursive](search/ternary_search_recursive.jl)
 
 ## Sorting
 

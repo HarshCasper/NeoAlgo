@@ -128,4 +128,7 @@ Input-->
 Enter two binary numbers: 10101 11011
 Output-->
 The sum of binary numbers is : 110000
+
+TIME COMPLEXITY --> O(N), where N is the size of binary number
+SPACE COMPLEXITY --> )(1) 
 */

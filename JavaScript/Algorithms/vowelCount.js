@@ -9,7 +9,7 @@ function vowelCount(str){
     }
     return count;
 }
-prompt("Enter string:")
+const str=prompt("Enter string:")
 const count=vowelCount(str)
 console.log(count)
 /*

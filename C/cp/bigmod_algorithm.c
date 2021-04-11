@@ -58,7 +58,6 @@ int main()
 }
 
 /*
-
 Standard Input and Output
 
 Enter the base number and power number :

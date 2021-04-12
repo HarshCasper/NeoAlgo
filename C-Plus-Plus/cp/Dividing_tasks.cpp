@@ -20,8 +20,10 @@ void solve(int arr[], int n)
 int main()
 {
     int n;
+    cout<<"Enter number of Student:";
     cin >> n;
     int arr[n];
+    cout<<"Enter number of task assign to each:";
     for (int i = 1; i <= n; i++)
     {
         cin >> arr[i];
@@ -32,8 +34,8 @@ int main()
 
 /*
 Sample Input:
-5
-7 4 1 1 2
+Enter number of Student:5
+Enter number of task assign to each:7 4 1 1 2
 
 Sample Output:
 Yes It is possible

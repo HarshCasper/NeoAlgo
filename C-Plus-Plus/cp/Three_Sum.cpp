@@ -1,6 +1,5 @@
 /*
-Description :
-    
+Description :   
 	Three Sum Problem - In this problem, user will provide an array and we
                         have find wether there is any "three" numbers are 
                         present in the array who's sum is equal to the target 
@@ -8,59 +7,66 @@ Description :
                         it will show false.
 */
 
-
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
 	// n= size of an array
-	int n; 
-	cin>>n;
+	int n;
+	cout << "Enter the size of an array : " << endl;
+	cin >> n;
 	//target = the number who's sum we have find.
-	int target; 
-	cin>>target;
+	int target;
+	cout << "Enter the target you want to set : " cin >> target;
 
-    //n size of array
-	vector<int> a(n); 
-    //taking input in the array
-	for(auto &i : a){ 
-		cin>>i;
+	//n size of array
+	vector<int> a(n);
+	//taking input in the array
+	cout << "Enter " << n << " number of elements : " << emdl;
+	for (auto &i : a)
+	{
+		cin >> i;
 	}
 	bool found = false;
 	//sorting the array
-	sort(a.begin(),a.end());
+	sort(a.begin(), a.end());
 
-	for(int i=0;i<n;i++){   
-		int lo =i+1, hi = n-1;
-		while(lo<hi){
-			int current = a[i]+a[lo]+a[hi];
-			if(current == target){
+	for (int i = 0; i < n; i++)
+	{
+		int low = i + 1, high = n - 1;
+		while (low < high)
+		{
+			int current = a[i] + a[low] + a[high];
+			if (current == target)
+			{
 				found = true;
 			}
-			if(current<target){
-				lo++;
+			if (current < target)
+			{
+				low++;
 			}
-			else{
-				hi--;
+			else
+			{
+				high--;
 			}
 		}
 	}
-	if(found){
-		cout<<"True : Target value is present !";
+	if (found)
+	{
+		cout << "True : Target value is present !";
 	}
-	else{
-		cout<<"False : Target value is not present !";
+	else
+	{
+		cout << "False : Target value is not present !";
 	}
 }
-
 
 /*
 Time Complexity  : O(n2)
 Space Complexity : O(n)
 
 Test Cases :
-
 Test Case  1: 
     Input : 6 24 102 3 6 9 34 24
 	Output : True

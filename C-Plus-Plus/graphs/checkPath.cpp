@@ -19,7 +19,7 @@ bool path(int V, int** mat, bool* visited, int v1, int v2){
             continue;
         }
         // visited[i]=true;
-	 //If this adjacent node is the destination node, then return true
+	  //If this adjacent node is the destination node, then return true
         if(mat[v1][i]==1){
 	    bool small=path(V, mat, visited, i, v2);
             if(small==true){

@@ -56,6 +56,7 @@
 - [Fibonacci Number](math/Fibonacci)
 - [Mystery Number](math/Mystery_Number)
 - [Prime Number](math/Prime_Number)
+- [Perfect Number](math/Perfect_Number)
 - [GCD](math/GCD)
 
 ## Others

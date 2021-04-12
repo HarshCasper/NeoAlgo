@@ -1,4 +1,10 @@
-// Dart Program to find Binary Exponent Iteratively and Recursively.
+/*
+ 
+ * Dart Program to find Binary Exponent Iteratively and Recursively. 
+  
+ * Here we calculate a^b using two different methods: iteratively and recursively
+ 
+ */ 
 
 import 'dart:io';
 
@@ -36,7 +42,7 @@ void main() {
   print("Lets calculate Binary Exponent a^b");
   print("Enter a");
   int a = int.parse(stdin.readLineSync());
-  
+
   print("Enter b");
   int b = int.parse(stdin.readLineSync());
 
@@ -48,8 +54,8 @@ void main() {
     int resIterate = binExpo_iterate(a, b);
     int resRecurse = binExpo_recurse(a, b);
 
-    print(resIterate);
-    print(resRecurse);
+    print("a^b calculated iteratively: $resIterate");
+    print("a^b calculated recursively: $resRecurse");
   }
 }
 
@@ -61,8 +67,8 @@ Enter a
 3
 Enter b
 5
-243
-243
+a^b calculated iteratively: 243
+a^b calculated recursively: 243
 
 
 Time complexity = O(n)

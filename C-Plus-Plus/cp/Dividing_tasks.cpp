@@ -23,9 +23,10 @@ int main()
     cout<<"Enter number of Student:";
     cin >> n;
     int arr[n];
-    cout<<"Enter number of task assign to each:";
+    cout<<"Enter number of task assign to each\n";
     for (int i = 1; i <= n; i++)
     {
+        cout<<"Student "<<i<<":";
         cin >> arr[i];
     }
     solve(arr, n);
@@ -35,7 +36,12 @@ int main()
 /*
 Sample Input:
 Enter number of Student:5
-Enter number of task assign to each:7 4 1 1 2
+Enter number of task assign to each
+Student 1:7
+Student 2:4
+Student 3:1
+Student 4:1
+Student 5:2
 
 Sample Output:
 Yes It is possible

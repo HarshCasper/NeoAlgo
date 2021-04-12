@@ -323,7 +323,7 @@
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
-- [Reversing the stack recursively](stack/reverse_stack_recursively.cpp)
+- [Reversing the stack recursively](stack/Reverse_Stack_Recursively.cpp)
 
 ## Heap based problems
 

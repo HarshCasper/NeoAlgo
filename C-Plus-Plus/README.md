@@ -120,6 +120,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Print first letter of every word in the string](cp/Print_first_letter_of_every_word_in_the_string.cpp)
 - [Three Sum](cp/Three_Sum.cpp)
 - [Unique Number](cp/Unique_number.cpp)
 - [Palindrome Number](cp/Palindrome_number.cpp)

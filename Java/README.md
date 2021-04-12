@@ -214,6 +214,7 @@ _add list here_
 - [Matrix Addition](math/Matrix_addition.java)
 - [Mystery Number](math/MysteryNumber.java)
 - [Perfect Number](math/Perfect_Number.java)
+- [Matrix Multiplication](math/Matrix_multiplication.java)
 
 ## Dynamic Programming
 

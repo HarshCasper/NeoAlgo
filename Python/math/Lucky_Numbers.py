@@ -29,8 +29,7 @@ def lucky(nos):
 #Driver code
 if __name__ == "__main__":
         #User input
-        print("Enter a number :")
-        number=int(input())
+        number=int(input("Enter a number :"))
         #Function Call
         LuckyNos=lucky(number)               
         print("The list of all the lucky numbers upto",number," is :",LuckyNos)
@@ -40,14 +39,12 @@ SAMPLE INPUT AND OUTPUT
 
 SAMPLE 1:-
 
-Enter a number :
-25
+Enter a number :25
 The list of all the lucky numbers upto 25  is : [1, 3, 7, 9, 13, 15, 21, 25]
 
 SAMPLE 2:-
 
-Enter a number :
-150
+Enter a number :150
 The list of all the lucky numbers upto 130 is : [1, 3, 7, 9, 13, 15, 21, 25, 31, 33, 37, 43, 49, 51, 63, 67, 69, 73, 75, 79, 87, 93, 99, 105, 111, 115, 127, 129]
 
 Time Complexity : O(n^2)

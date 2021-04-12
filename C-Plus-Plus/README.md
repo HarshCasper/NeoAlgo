@@ -550,3 +550,4 @@ _add list here_
 - [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
 - [Repeating and Missing Number](other/repeated_missing.cpp)
+- [Triplet sum in array](other/Triplet_sum_in_array.cpp)

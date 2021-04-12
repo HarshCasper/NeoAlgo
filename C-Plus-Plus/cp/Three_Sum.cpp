@@ -63,7 +63,7 @@ int main()
 }
 
 /*
-Time Complexity  : O(n2)
+Time Complexity  : O(n*n)
 Space Complexity : O(n)
 
 Test Cases :
@@ -89,4 +89,3 @@ Test Case 2:
 
 	Output : False : Target value is not present !
 */
-

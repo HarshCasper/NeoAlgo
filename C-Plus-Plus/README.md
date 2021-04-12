@@ -128,7 +128,7 @@
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
-- [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
+- [Dividing tasks to Students](cp/Dividing_tasks.cpp)
 
 ## Data Structures
 
@@ -519,6 +519,7 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Find array is Subset of another array](other/Find_array_is_Subset_of_another_array.cpp)
+- [Reverse a number using stack](other/Reverse_a_number_using_stack.cpp)
 - [Move all negative numbers to beginning and positive to the end](other/Move_all_Negative_no_to_beginning_and_Positive_to_end.cpp)
 - [Reversing the first K elements of a Queue](other/Reversing_the_first_K_elements_of_a_Queue.cpp)
 - [Find Common elements in three sorted arrays](other/Common_Element_in_three_Sorted_array.cpp)

@@ -1,5 +1,7 @@
 /*
-The Problem states that Given array arr[n] of integer where each element arr[i] represent number of task given to each student.Your task is to find if it possible to redistribute the task where i'th student assign i number of task. Example is it possible to assign 2 task to 2nd Student. 
+The Problem states that Given array arr[n] of integer where each element arr[i] represent 
+number of task given to each student.Your task is to find if it possible to redistribute the 
+task where i'th student assign i number of task. Example is it possible to assign 2 task to 2nd Student. 
 */
 #include <bits/stdc++.h>
 using namespace std;

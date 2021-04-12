@@ -1,10 +1,10 @@
 /*
 Description :   
-	Three Sum Problem - In this problem, user will provide an array and we
-                        have find wether there is any "three" numbers are 
-                        present in the array who's sum is equal to the target 
-		                provided. If it is present then it will show true else 
-                        it will show false.
+Three Sum Problem - In this problem, user will provide an array and we
+                    have find wether there is any "three" numbers are 
+                    present in the array who's sum is equal to the target 
+		            provided. If it is present then it will show true else 
+                    it will show false.
 */
 
 #include <bits/stdc++.h>
@@ -68,11 +68,25 @@ Space Complexity : O(n)
 
 Test Cases :
 Test Case  1: 
-    Input : 6 24 102 3 6 9 34 24
-	Output : True
+    Input :
+	Enter the size of an array : 
+	6
+	Enter the target you want to set : 
+	24
+	Enter 6 number of elements : 
+	102 3 6 9 34 24
+
+	Output : True  : Target value is present !
 
 Test Case 2:
-    Input : 6 24 2 3 6 9 3 25
-	Output : False
+    Input :
+	Enter the size of an array : 
+	6
+	Enter the target you want to set : 
+	24
+	Enter 6 number of elements : 
+	2 3 6 9 3 25
+
+	Output : False : Target value is not present !
 */
 

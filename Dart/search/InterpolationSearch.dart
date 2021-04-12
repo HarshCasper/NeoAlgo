@@ -52,8 +52,9 @@ void main() {
   }
 }
 
-/**
-Time complexity: O(log(log n))
+/*
+
+Sample Output:
 
 Enter the size of list:
 6
@@ -68,5 +69,6 @@ Enter the number to be searched:
 47
 47 found at position: 4
 
+Time complexity: O(log(log n))
 Space complexity: O(1)
- */
+*/

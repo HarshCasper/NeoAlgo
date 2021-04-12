@@ -13,7 +13,7 @@ public class Sieve_of_Eratosthenes {
     public static void main(String[] args) {
         
 		Scanner sc=new Scanner(System.in);
-                System.out.print ("Enter value of n - ");
+	        System.out.print ("Enter value of n - ");
 		int n=sc.nextInt();
 		
 		boolean[] prime=new boolean[n+1];
@@ -29,15 +29,15 @@ public class Sieve_of_Eratosthenes {
 
 			if (prime[i]) {
 
-                        //making all the multiples of the ith
-                        //prime number upto n as composite number.
+                              //making all the multiples of the ith
+                              //prime number upto n as composite number.
 				for (int j=2; j*x<=n; j++) {
 					prime[j*x]=false;
 				}
 			}
 		}
 		
-                System.out.print ("Prime numbers upto "+n+" - ");
+              System.out.print ("Prime numbers upto "+n+" - ");
 
 		for (int i=2; i<=n; i++) {
 
@@ -46,9 +46,9 @@ public class Sieve_of_Eratosthenes {
                        if (prime[i]) {
                                System.out.print (i+", ");
                        }
-                }
+              }
 
-                System.out.println ("End.");
+              System.out.println ("End.");
 
 	}
 }

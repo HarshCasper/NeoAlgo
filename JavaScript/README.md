@@ -38,6 +38,7 @@
 - [Recursive preorder traversal in binary search tree](./ds/Recursive_preorder.js)
 - [Recursive inorder traversal in binary search tree](./ds/Recursive_inorder.js)
 - [Recursive postorder traversal of binary search tree](./ds/Recursive_postorder.js)
+- [Infix to Postfix Conversion](./ds/infixtopostfix.js)
 - [Infix to Prefix Conversion](./ds/infixtoprefix.js)
 
 ## Searching
@@ -66,6 +67,7 @@
 - [Stooge Sort](./sort/StoogeSort.js)
 - [Tim Sort](./sort/TimSort.js)
 - [Comb Sort](./sort/CombSort.js)
+- [Gnome Sort](./sort/GnomeSort.js)
 
 ## Machine Learning
 
@@ -81,6 +83,9 @@ _add list here_
 - [Fibonacci](./math/Fibonacci.js)
 - [Palindrome Checker](./math/Palindrome_checker.js)
 - [GCD of two Numbers](./math/gcd_of_two_no.js)
+- [Transpose of a matrix](./math/Matrix_transpose.js)
+- [Matrix Multiplication](./math/Matrix_multiplication.js)
+- [Matrix addition](./math/Matrix_addition.js)
 
 ## Competitive Programming
 
@@ -90,6 +95,7 @@ _add list here_
 - [Count Anagrams](./cp/CountAnagrams.js)
 - [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
 - [Two Sum](./cp/TwoSum.js)
+- [Reverse a String](./cp/ReverseString.js)
 
 ## Dynamic Programming
 

@@ -148,6 +148,7 @@ _add list here_
 - [Anagram Program](cp/anagram_program.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Max Consecutive Ones](cp/max_consecutive_ones.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 
 ## Cryptography

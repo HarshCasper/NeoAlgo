@@ -1,45 +1,52 @@
-//C Program to implement Matrix Transpose
+/*
+Matrix is a 2-D Array.
+The transpose of a matrix is formed by turning all the rows of a given matrix into column and vice-versa.
+The code gives output as Transpose of a given matrix.
+*/
 #include <stdio.h>
-void transpose(int r, int c, int matrix[r][c])
+//Function that computes Transpose of a Matrix
+void transpose(int row, int column, int matrix[row][column])
 {
-    //Taking input of matrix
+    //Taking input as number of rows and columns
     printf("Enter the values in matrix  -->\n");
-    for(int i = 0; i < r; i++)
-        for(int j = 0; j < c; j++)
-            scanf("%d", &matrix[i][j]);
+    for(int i = 0; i < row; i++)
+    for(int j = 0; j < column; j++)
+    scanf("%d", &matrix[i][j]);
     printf("Transpose of a matrix is -->\n");
-    for(int i = 0; i < c; i++)
-    {   for(int j = 0; j < r; j++)
+    for(int i = 0; i < column; i++)
+    {   for(int j = 0; j < row; j++)
         {
             //Taking the transpose of a matrix
             printf("%d\t", matrix[j][i]);
         }
-        printf("\n");
+            printf("\n");
     }
 }
 int main()
 {
-    int i, j , r, c ;
+    int row, column;
     printf("\nEnter the number of rows in matrix = ");
-    scanf("%d", &r);
+    scanf("%d", &row);
     printf("\nEnter the number of columns in matrix = ");
-    scanf("%d", &c);
-    int matrix[r][c];
-            transpose(r, c, matrix);
+    scanf("%d", &column);
+    int matrix[row][column];
+    //call the function that computes the Transpose
+    transpose(row, column, matrix);
     }
 
 /*
+Time Complexity : O(mn)  , where m = number of rows & n = number of columns
+Space Complexity : O(mn) , where m = number of rows & n = number of columns
 SAMPLE INPUT AND OUTPUT
-Enter the number of rows in matrix = 4
+Enter the number of rows in matrix = 3
 
 Enter the number of columns in matrix = 3
 Enter the values in matrix  -->
 1   2   3
 4   5   6
 7   8   9
-10  11  12
 Transpose of a matrix is -->
-1       4       7       10
-2       5       8       11
-3       6       9       12
+1       4       7
+2       5       8
+3       6       9
 */

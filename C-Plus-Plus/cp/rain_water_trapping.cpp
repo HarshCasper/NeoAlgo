@@ -22,10 +22,10 @@ void solve()
     cin>>no_of_buildings;
     // Making an array containing heights of buildings
     long long int height[no_of_buildings];
+    cout<<"Height of buildings: ";
     for(long long int i=0;i<no_of_buildings;i++){
         
         //Taking input of height of ith-building
-        cout<<"Height of building: ";
         cin>>height[i];
     }
 
@@ -67,11 +67,11 @@ int main()
 }
 /*
     Input:
-    5
-    3 0 2 0 4
+    Enter number of Buildings: 5
+    Height of buildings: 3 0 2 0 4
     ---------------
     Output:
-    7
+    Total water trapped between buidings: 7
     ---------------
     Time-Complexity: O(n)
     Space-Compleixty: O(1) 

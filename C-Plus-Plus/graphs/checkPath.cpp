@@ -74,6 +74,7 @@ int main() {
 Time Complexity: O(V+E)
 
 Space Complexity: O(V^2)
+where V is the number of vertices and E is the number of edges in the input graph
 
 Sample Input 1 :
 4 4
@@ -84,6 +85,4 @@ Sample Input 1 :
 1 3
 Sample Output 1 :
 true
-
-
 */

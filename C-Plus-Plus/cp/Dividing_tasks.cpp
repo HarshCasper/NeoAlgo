@@ -3,6 +3,7 @@ The Problem states that Given array arr[n] of integer where each element arr[i] 
 */
 #include <bits/stdc++.h>
 using namespace std;
+
 void solve(int arr[], int n)
 {
     int sum_of_task = 0, sum_of_i = 0;
@@ -26,12 +27,18 @@ int main()
         cin >> arr[i];
     }
     solve(arr, n);
+    
 }
+
 /*
-Test Case
-input:
+Sample Input:
 5
 7 4 1 1 2
-output:
+
+Sample Output:
 Yes It is possible
+
+Time-Complexity: O(n)
+Space-Complexity: O(1)
+
 */

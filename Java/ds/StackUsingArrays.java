@@ -109,7 +109,7 @@ public class StackUsingArrays
         System.out.println("Choose from the following: ");
         System.out.println("1. Insert an element");
         System.out.println("2. Delete an element");
-        System.out.println("3. Diplaying the stack");
+        System.out.println("3. Displaying the stack");
 
         int flag=1;
 
@@ -125,15 +125,15 @@ public class StackUsingArrays
                         System.out.println("Enter value: ");
                         int value = scanner.nextInt();
                         scanner.nextLine();
-                            ob.push(value);
+                        ob.push(value);
                         break;
 
                 case 2:
-                            ob.pop();
+                        ob.pop();
                         break;
 
                 case 3:
-                            ob.display();
+                        ob.display();
                         break;
             }
             
@@ -152,7 +152,7 @@ Enter size of stack:
 Choose from the following: 
 1. Insert an element
 2. Delete an element
-3. Diplaying the stack
+3. Displaying the stack
 Please enter your choice:
 1
 Enter value: 

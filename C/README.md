@@ -111,6 +111,7 @@
 - [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
 - [Hashtable chaining](ds/hashtable_chaining.c)
 - [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
+- [Check Binary Tree is BST or Not](ds/FindBinaryTreeBst.c)
 
 ## Searching
 
@@ -155,7 +156,9 @@
 
 - [Cutting a Rod](dp/cutting_a_rod.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
+- [Golomb Sequence](dp/golomb_sequence.c)
 - [Longest Common Substring](dp/longest_common_substring.c)
+- [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.c)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
@@ -184,6 +187,7 @@ _add list here_
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [Number of Divisors of a Number](math/number_of_divisors.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
+- [Check whether a number is power of 2](math/Check_whether_a_number_is_power_of_2.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Sum of Digits](math/sum_of_digits.c)
 - [Armstrong Number](math/armstrong_number.c)
@@ -237,6 +241,7 @@ _add list here_
 - [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Bigmod Algorithm](cp/bigmod_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 
 ## Cryptography

@@ -1,6 +1,9 @@
 /*
-Description : In a given string, the task is to create a string
-              with the first letter of every word in the string.
+Description: 
+        In a given string, the task is to create a string
+        with the first letter of every word in the string.
+        For example a given string is = "hey you" ,so output 
+        will be = "hy" (first letter of each word).
 */
 
 #include <bits/stdc++.h>
@@ -34,11 +37,9 @@ public:
 
 int main()
 {
-    //input string
     string input_string;
     cout << "Enter the string : " << endl;
     getline(cin, input_string);
-    //object of a class
     Solution ob;
     cout << "Resultant string : " << endl;
     cout << ob.firstAlphabet(input_string) << endl;
@@ -53,9 +54,18 @@ Space complexity : O(n)
 /*
 Test Cases :
     Test Case 1 :
-        Input : united public school
-        Output : ups
+        Input :
+        Enter the string : 
+        united public school
+        Output : 
+        Resultant string : 
+        ups
     Test Case 2 : 
-        Input : computer science
-        Output : cs
+        Input : 
+        Enter the string : 
+        computer science
+        Output :
+        Resultant string : 
+        cs
 */
+

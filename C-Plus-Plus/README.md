@@ -127,6 +127,7 @@
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
+-[Maximum element in each k sized subarray](cp/max_element_in_k_size_subarray.cpp)
 
 
 ## Data Structures

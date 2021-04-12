@@ -326,6 +326,7 @@
 - [Transpose of matrix](math/Matrix_transpose.py)
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
+- [Matrix Multiplication](math/Matrix_multiplication.py)
 ## Blockchain
 
 _add list here_

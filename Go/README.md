@@ -16,15 +16,19 @@
 - [Longest Common Subsequence](dp/longest_common_subsequence)
 - [Longest Substring](dp/longest_substring)
 - [Stack](dp/stack)
+- [Factorial](dp/factorial)
+- [Fibonacci](dp/fibonacci)
 
 ## Data Structures
 - [Binary Tree](ds/binary_tree)
 - [Inorder Traversal Binary Tree](ds/binary_tree/inorder_traversal_binary_tree)
+- [Post-order Traversal](ds/binary_tree/post_order_traversal)
 - [Singly Linked List](ds/linked_list/singly_linked_list)
 - [Singly Linked List Reversed](ds/linked_list/singly_linked_list_reversed)
 - [Queue](ds/queue)
 - [Queue using Stack](ds/queue/queue_using_stack)
 - [Stack using Queue](ds/stack/stack_using_queue)
+- [Pre-Order Traversal](ds/binary_tree/pre_order_traversal)
 
 ## Mathematics
 - [Areas](math/areas)
@@ -64,6 +68,7 @@
 - [Jump Search](search/Jump_Search)
 - [Linear Search Recursive](search/linear_search_recursive)
 - [Fibonacci Search](search/Fibonacci_search)
+- [Exponential Search](search/exponential_search)
 
 ## Sorting
 - [Bubble Sort](sort/bubble_sort)

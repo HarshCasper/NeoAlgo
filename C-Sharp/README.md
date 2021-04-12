@@ -9,6 +9,9 @@
 
 # Codes in the C# language
 
+## Graphs 
+- [DFS Implementation of Graph](graphs/DFS.cs)
+
 ## Blockchain
 
 _add list here_
@@ -28,7 +31,8 @@ _add list here_
 ## Dynamic Programming
 
 _add list here_
-
+## Graphs
+- [Topological Sorting](graphs/TopologicalSorting.cs)
 ## Searching
 
 - [Binary Search](search/BinarySearch.cs)

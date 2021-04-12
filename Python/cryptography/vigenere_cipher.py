@@ -1,6 +1,5 @@
 # Vigenere Cipher python code.
 
-
 def encrypt(msg, key):
     cipher = ""
     n = len(key)
@@ -24,22 +23,45 @@ def decrypt(cipher, key):
         j += 1
     return msg
 
+if __name__=='__main__':
+    
+    # Use uppercase only
+    choice = int(input("Choose 1 if you want to ENCRYPT or 2 if you want to DECRYPT: "))
 
-msg = input("Enter the plain All uppercase text: ")
-key = input("Enter the key All uppercase text: ")
+    if(choice == 1):
+        msg = input("Enter a plaintext message: ")
+        key = input("Enter a keyword: ")
 
-# encrypting the message
-cipher = encrypt(msg, key)
-print("The encrypted text is: ", cipher)
+        # encrypting the message
+        cipher = encrypt(msg, key)
+        print("\nEncrypted message: ", cipher)
 
-# decrypting the ciphar text
-original = decrypt(cipher, key)
-print("The decrypted(original) text is: ", msg)
+    elif(choice == 2):
+        cipher = input("Enter a ciphertext: ")
+        key = input("Enter a keyword: ")
+
+        # decrypting the ciphar text
+        original = decrypt(cipher, key)
+        print("\nDecrypted message: ", original)
+
+    else:
+        print("\nInvalid choice.")
 
 '''
-output:
-Enter the plain All uppercase text: VIGENERECIPHER
-Enter the key All uppercase text: SECRET
-The encrypted text is:  NMIVRXJIEZTAWV
-The decrypted(original) text is:  VIGENERECIPHER
+Sample I/O:
+
+1)
+Choose 1 if you want to ENCRYPT or 2 if you want to DECRYPT: 1
+Enter a plaintext message: NEOALGO
+Enter a keyword: MARS
+
+Encrypted message:  ZEFSXGF
+
+2)
+Choose 1 if you want to ENCRYPT or 2 if you want to DECRYPT: 2
+Enter a ciphertext: ZEFSXGF
+Enter a keyword: MARS
+
+Decrypted message: NEOALGO
+
 '''

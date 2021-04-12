@@ -111,6 +111,7 @@
 - [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
 - [Hashtable chaining](ds/hashtable_chaining.c)
 - [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
+- [Check Binary Tree is BST or Not](ds/FindBinaryTreeBst.c)
 
 ## Searching
 

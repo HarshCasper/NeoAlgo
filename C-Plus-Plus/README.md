@@ -423,6 +423,7 @@ _add list here_
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [K-Tree](dp/K-Tree.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Staircase using dp](dp/Staircase.cpp)
 - [Count the number of subset with a given difference](dp/Count_subset_given_difference.cpp)
 - [Coin change problem maximum ways](dp/Maximum_ways_Coin_change_problem.cpp)
 - [Minimum sum partition](dp/Minimum_sum_partition.cpp)

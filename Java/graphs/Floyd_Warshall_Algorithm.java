@@ -83,6 +83,10 @@ public class Floyd_Warshall_Algorithm {
 }
 
 /**
+ 
+Time Complexity : O(V^3)
+Space Complexity : O(V^2)
+
 Sample Test case 1 :
 
 4
@@ -98,8 +102,5 @@ Matrix displaying minimum costs between the pairs of vertices.
 5 0 2 3 
 3 6 0 1 
 2 5 7 0 
-
-Time Complexity : O(V^3)
-Space Complexity : O(V^2)
 
 */

@@ -128,6 +128,8 @@
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
+- [Divide & conquer to search in a row & column wise sorted matrix](cp/Divide_and_conquer_search_in_a_row_and_column_wise_sorted_matrix.cpp) 
+
 
 ## Data Structures
 

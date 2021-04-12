@@ -1,6 +1,6 @@
 """ Python program to find the Length of Longest Decreasing Subsequence
 
-In this problem, given an array we have to find the length of the longest decreasing subsequence that array can make.
+Given an array we have to find the length of the longest decreasing subsequence that array can make.
 The problem can be solved using Dynamic Programming.
 """
 
@@ -30,7 +30,7 @@ def length_longest_decreasing_subsequence(arr, n):
 
 print("What is the length of the array? ", end="")
 n = int(input())
-if (n <= 0):
+if n <= 0:
     print("No numbers present in the array!!!")
     exit()
 print("Enter the numbers: ", end="")

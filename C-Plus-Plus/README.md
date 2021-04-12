@@ -256,7 +256,6 @@
 - [Check Path in Graph](graphs/checkPath.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
 
-
 ## Searching
 
 - [Binary Search](search/Binary_Search.cpp)

@@ -185,6 +185,7 @@ _add list here_
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [Number of Divisors of a Number](math/number_of_divisors.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
+- [Check whether a number is power of 2](math/Check_whether_a_number_is_power_of_2.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Sum of Digits](math/sum_of_digits.c)
 - [Armstrong Number](math/armstrong_number.c)

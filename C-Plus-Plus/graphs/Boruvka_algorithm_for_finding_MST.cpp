@@ -123,17 +123,17 @@ void boruvkaAlgorithm()
             }
         }
     }
-    cout << MSTweight << endl;
+    cout << "Total weight of Minimum Spanning Tree for the given graph: " << MSTweight << endl;
 }
 int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    //Input number of nodes and edges
+    cout << "Input number of nodes and edges" << endl;
     cin >> n >> m;
 
-    //Input the graph edges between nodes and their costs(or weights)
+    cout << "Input source vertex, target vertex and weight for each edge" << endl;
     for (int i = 1; i <= m; i++) {
         cin >> g[i].v >> g[i].u >> g[i].cost;
     }
@@ -155,7 +155,7 @@ Input:
 4 3 40
 
 Output:
-17
+Total weight of Minimum Spanning Tree for the given graph: 17
 
 Time Complexity: O(E log V)
 {

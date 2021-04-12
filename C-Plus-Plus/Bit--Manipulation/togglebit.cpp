@@ -1,5 +1,5 @@
 /*
- Progarm to Toggle kth bit of a number.
+ Program to Toggle kth bit of a number.
  Given a number we want to toggle the kth  bit of a number . 
   
   Ex:-6 (110) and k=2
@@ -10,6 +10,7 @@
  */
 #include <bits/stdc++.h>
 using namespace std;
+
 int  toggle_k_bit(int n,int k)
 {
    int temp=1<<(k-1);

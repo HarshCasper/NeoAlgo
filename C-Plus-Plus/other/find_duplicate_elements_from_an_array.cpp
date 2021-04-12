@@ -4,30 +4,22 @@ Formally find all duplicate elements of the array. This can be done with the hel
 */
 
 #include <bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<unordered_map>
 using namespace std;
 
-void dupicate_elements(int ar[] ,int N)
-{
-    /* we will insert the array elements into the map. if current element already in the map,
-    then definitely that element's occurrence is more than 1. 
-    Hence it is duplicate and will insert in the set*/
-    map < int, int > unique_elements;
-    set < int > duplicates;
-    for(int i = 0; i < N; i++)
-    {
-        if(!unique_elements[ar[i]])
-            unique_elements[ar[i]]++;
-       else
-       {
-           // this is a duplicate
-           duplicates.insert(ar[i]);
-       }
-    }
-    cout << "Duplicate elements are : ";
-    for(auto i : duplicates)
-        cout << i << ' ';
-    cout << endl;
-    return;
+vector<int>removeDuplicates(int*a,int size){
+	vector<int>output;
+	unordered_map<int,bool>seen;
+	for(int i=0;i<size;i++){
+		if(seen.count(a[i])>0){
+			 continue;
+		}
+		seen[a[i]]=true;
+		output.push_back(a[i]);
+	}
+	return output;
 }
 
 int main()
@@ -41,17 +33,27 @@ int main()
     {
         cin >> ar[i];
     }
-    dupicate_elements(ar , N);
-}
+    vector<int>output=removeDuplicates(ar,ar.size());
+	for(int i=0;i<output.size();i++){
+		cout<<output[i]<<endl;
+	}
 
 /*
-Standard Input and Output
+Standard Input:
 
-Enter the size of the array : 12
-Enter array elements
-1 5 2 1 4 3 1 7 2 8 9 5
-Duplicate elements are : 1 2 5
+Enter the size of the array : 11
+Enter array elements :
+1 2 3 3 2 1 4 6 3 5 5
 
+Output:
+1
+2
+3
+4
+6
+5
+
+------------------------------------------------------------------------
 Time Complexity : O(logN)
 Space Complexity : O(N)
 

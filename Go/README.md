@@ -16,6 +16,8 @@
 - [Longest Common Subsequence](dp/longest_common_subsequence)
 - [Longest Substring](dp/longest_substring)
 - [Stack](dp/stack)
+- [Factorial](dp/factorial)
+- [Fibonacci](dp/fibonacci)
 
 ## Data Structures
 - [Binary Tree](ds/binary_tree)
@@ -66,6 +68,7 @@
 - [Jump Search](search/Jump_Search)
 - [Linear Search Recursive](search/linear_search_recursive)
 - [Fibonacci Search](search/Fibonacci_search)
+- [Exponential Search](search/exponential_search)
 
 ## Sorting
 - [Bubble Sort](sort/bubble_sort)

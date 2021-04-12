@@ -161,6 +161,7 @@
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
+- [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
 - [Unique BST](dp/Unique_BST.c)
@@ -213,6 +214,7 @@ _add list here_
 ## Other
 
 - [Find the Numbers](other/Find_the_numbers.c)
+- [Find First and Last position index of an element in an array](other/find_first_and_last_position_index_of_a_number_in_array.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Sliding Window Technique](other/window_sliding_technique.c)
@@ -223,6 +225,7 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
 - [Permutation of string](other/Permutation_of_string.c)
@@ -231,6 +234,7 @@ _add list here_
 
 - [Activity Selection](cp/Activity_selection.c)
 - [Anagram Program](cp/anagram_program.c)
+- [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)

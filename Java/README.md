@@ -211,6 +211,7 @@ _add list here_
 - [MagicNumber](math/Magicnumber.java)
 - [Matrix Addition](math/Matrix_addition.java)
 - [Mystery Number](math/MysteryNumber.java)
+- [Perfect Number](math/Perfect_Number.java)
 
 ## Dynamic Programming
 

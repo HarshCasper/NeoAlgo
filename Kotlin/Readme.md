@@ -28,6 +28,7 @@
 - [Armstrong Number](Maths/Armstrong.kt)
 - [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
 - [Palindrome Number](Maths/PalindromeNumber.kt)
+- [Happy Number](Maths/HappyNumber.kt)
 
 ## Searching Algorithms
 

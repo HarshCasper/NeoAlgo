@@ -238,6 +238,7 @@ _add list here_
 - [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Bigmod Algorithm](cp/bigmod_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 
 ## Cryptography

@@ -361,11 +361,13 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)
 - [Next premutation](other/Next_premutation.py)
 - [Minimum number of jumps](other/minimize_the_jump.py)
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
+
 
 ## [Coding Template for Contribution](Code_Template.md)

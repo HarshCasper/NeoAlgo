@@ -20,7 +20,7 @@ def golomb_sequence(n):
 
 print("Enter the value of n?, where you need the n'th number in the golomb sequence. ", end="")
 num = int(input())
-if (num <= 0):
+if num <= 0:
     print("The given value of n is invalid.")
     exit()
 res = golomb_sequence(num)

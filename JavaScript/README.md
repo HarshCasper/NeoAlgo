@@ -66,6 +66,7 @@
 - [Stooge Sort](./sort/StoogeSort.js)
 - [Tim Sort](./sort/TimSort.js)
 - [Comb Sort](./sort/CombSort.js)
+- [Gnome Sort](./sort/GnomeSort.js)
 
 ## Machine Learning
 

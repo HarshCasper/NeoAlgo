@@ -310,7 +310,7 @@
 - [Magic Number](math/Magic_Number.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
-- [K-th Smallest Number](math/k_smallest.py)
+- [Count of Digits](math/count_of_digits.py)
 
 ## Blockchain
 

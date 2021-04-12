@@ -98,6 +98,7 @@ _add list here_
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 - [Rat In A Maze](cp/RatInAMaze.java)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
+- [Trapping Rain Water](cp/Trapping_rain_water.java)
 
 ## Cryptography
 
@@ -209,6 +210,7 @@ _add list here_
 - [HappyNumber](math/HappyNumber.java)
 - [MagicNumber](math/Magicnumber.java)
 - [Matrix Addition](math/Matrix_addition.java)
+- [Mystery Number](math/MysteryNumber.java)
 
 ## Dynamic Programming
 
@@ -225,6 +227,7 @@ _add list here_
 - [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
 - [Matrix Chain Multiplication to find the minimum cost](dp/MatrixChainMultiplication.java)
 - [Perfect Sum Problem](dp/PerfectSumProblem.java)
+- [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
 
 ## Blockchain
 

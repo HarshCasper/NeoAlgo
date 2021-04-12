@@ -61,6 +61,7 @@
 - [Prefix Sum Array](cp/prefix_sum.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Product of Array Except itself](cp/product_of_array_except_itself.cpp)
+- [Rain Water Trapping Problem](cp/rain_water_trapping.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
@@ -119,6 +120,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Three Sum](cp/Three_Sum.cpp)
 - [Unique Number](cp/Unique_number.cpp)
 - [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
@@ -128,6 +130,9 @@
 - [Busy Man](cp/busy_man.cpp)
 - [Max Topology Short](cp/Max_Topology_short.cpp)
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
+
+- [Dividing tasks to Students](cp/Dividing_tasks.cpp)
+
 
 
 ## Data Structures
@@ -453,6 +458,7 @@ _add list here_
 - [Sort integers by the number of set bits present in them](Bit--Manipulation/sort_integers_by_their_number_of_set_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
+- [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
 
 ## Blockchain
 
@@ -483,6 +489,7 @@ _add list here_
 - [Transpose of a Square Matrix](other/Transpose_Of_Square_Matrix.cpp)
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
+- [Add two binary numbers](other/Add_two_binary_numbers.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
 - [Count Max Possible Subsequence](other/max_possible_subsequence.cpp)
 - [Check whether a string is Subsequence](other/whether_string_is_subsequence.cpp)

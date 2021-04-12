@@ -162,7 +162,6 @@ _add list here_
 - [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 - [Bipartite Check](graphs/BipartiteCheck.java)
-- [Hamiltonian Cycle Problem](graphs/HamiltonianCycle.java)
 
 ## Mathematics
 
@@ -206,6 +205,7 @@ _add list here_
 - [Unique BST](dp/Unique_BST.java)
 - [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
 - [Matrix Chain Multiplication to find the minimum cost](dp/MatrixChainMultiplication.java)
+- [Egg Dropping Problem](dp/EggDroppingProblem.java)
 
 ## Blockchain
 

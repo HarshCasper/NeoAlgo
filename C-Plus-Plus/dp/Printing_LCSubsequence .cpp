@@ -1,7 +1,7 @@
 /*
  This problem will be solved using dp.
  We will be given two strings and we have to find the longest
- common string b/w two and will have to return it's length.
+ common string b/w two and will have to print it's subsequence.
 */
 
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ Enter string X and string Y -
 abcdaf
 aebcf
 Output -
-Length of Longest Common Subsequence -
+Longest Common Subsequence -
 abcf
 Time Complexity - O(m*n)
 Space Complexity - O(m*n)

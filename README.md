@@ -23,7 +23,6 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 - [Julia](/Julia/README.md)
 - [Python](/Python/README.md)
 - [Q-Sharp](/Q-Sharp/README.md)
-- [Miscellaneous](/Miscellaneous)
 
 ## Contributing Guidelines
 

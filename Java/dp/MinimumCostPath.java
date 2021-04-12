@@ -4,26 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 public class Solution {
-//	Recursive function
-	public static int minCostPathRecursion(int[][] input) {
-        return minCostPathRecursion(input, 0, 0); // Helper function call
-	}	
-//	Helper function
-    private static int minCostPathRecursion(int[][] input, int i, int j) {
-        int m = input.length;
-        int n = input[0].length;
-        if(i<0 || j<0 || i > m-1 || j>n-1){
-            return Integer.MAX_VALUE;
-        }
-        if(i == m-1 && j == n-1){
-            return input[i][j]; // Base case
-        }
-        //Checking in different directions
-        int op1 = minCostPathRecursion(input, i, j+1); // check towards Right
-        int op2 = minCostPathRecursion(input, i+1, j+1); // check Diagonally
-        int op3 = minCostPathRecursion(input, i+1, j); // check towards down
-        return (input[i][j] + Math.min(op1, Math.min(op2, op3)));
-    }
 //    Dynamic Programming function
     public static int minCostPathDP(int[][] input) {
     	int m = input.length;
@@ -70,8 +50,7 @@ public class Solution {
 //    Main function
   public static void main(String[] args) throws NumberFormatException, IOException {
         int[][] mat = take2DInput();
-        System.out.println("Solution Dynamic Programming:" + minCostPathDP(mat));
-        System.out.println("Solution Recursion:" + minCostPathRecursion(mat));
+        System.out.println("Dynamic Programming Solution:" + minCostPathDP(mat));
   }
 }
 /*
@@ -92,10 +71,8 @@ Sample Output 2 :
 76
 
 Time Complexity:
-Recursion: O(2^n)
 Dynamic Programming: O(n^2)
   
 Space Complexity:
-Recursion: O(2^n)
 Dynamic Programming: O(m*n)
 */

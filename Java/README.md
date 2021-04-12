@@ -162,6 +162,7 @@ _add list here_
 - [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 - [Bipartite Check](graphs/BipartiteCheck.java)
+- [Hamiltonian Cycle Problem](graphs/HamiltonianCycle.java)
 
 ## Mathematics
 

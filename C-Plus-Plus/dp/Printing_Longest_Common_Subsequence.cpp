@@ -32,7 +32,6 @@ string longestSubsequence(string X,string Y,int m,int n){
     
     int i=m,j=n;
     string result;
-    
     /*
      We will start from last cell of the matrix and will check
      if character od X and Y are equal then we will add character to the the element and will decrease both row and column by 1

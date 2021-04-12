@@ -99,9 +99,7 @@ function InfixtoPostfix(infixval)
         }
         else{
             postfix[temp++]=el;
-        }
-
-        
+        } 
     }
     while(stackarr[topp]!='@')
     {
@@ -118,9 +116,38 @@ function InfixtoPostfix(infixval)
     console.log("Postfix Expression:- "+st);
  }
  
-//  Caling Function InfixtoPostfix
 
- InfixtoPostfix("((a+b)*c)");
+
+//In-Built readline module
+const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+const getLine = (function () {
+  const getLineGen = (async function* () {
+    for await (const line of rl) {
+      yield line;
+    }
+  })();
+  return async () => (await getLineGen.next()).value;
+})();
+
+const main = async () => {
+
+    //Taking Input of First Number
+    console.log("Enter the First Number");
+    var number1 = String(await getLine());
+    
+    //  Caling Function InfixtoPostfix
+    InfixtoPostfix(number1);
+
+    //To close the program
+    process.exit(0);
+  };
+  
+  main();
 
  /*
 Input:

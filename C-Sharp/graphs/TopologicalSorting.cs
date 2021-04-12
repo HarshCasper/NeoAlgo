@@ -93,7 +93,7 @@ namespace Topoplogical_Sorting
             }
             else
             {
-                Console.Write("Enter your sratr vertex: ");
+                Console.Write("Enter your start vertex: ");
                 int start = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine($"Topological sort from vertex {start}");
                 g.TopologicalSort(start);

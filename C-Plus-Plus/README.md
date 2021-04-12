@@ -341,6 +341,7 @@ _add list here_
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)
 - [Automorphic Number](math/automorphic_number.cpp)
+- [Reverse a Number](math/reverse_a_number.cpp)
 
 ## Dynamic Programming
 

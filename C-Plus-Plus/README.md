@@ -56,6 +56,7 @@
 - [Mos Algorithm](cp/MosAlgo.cpp)
 - [Next Largest Permutation](cp/NextPermutation.cpp)
 - [NQueens](cp/NQueens.cpp)
+- [Ones and Zeroes](cp/Ones_and_Zeroes.cpp)
 - [Painter Partition](cp/painter_partition.cpp)
 - [Plucking Flowers](cp/Plucking_Flowers.cpp)
 - [Prefix Sum Array](cp/prefix_sum.cpp)

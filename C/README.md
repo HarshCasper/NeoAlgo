@@ -204,6 +204,7 @@ _add list here_
 - [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
+- [Decimal to Octal](math/Decimal_to_Octal.c)
 
 ## Operating System
 

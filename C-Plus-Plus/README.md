@@ -201,6 +201,7 @@ _add list here_
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Shortest Common Superstring](dp/shortest_common_superstring.cpp)
 
 ## Blockchain
 

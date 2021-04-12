@@ -311,6 +311,7 @@
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
 - [K-th Smallest Number](math/k_smallest.py)
+- [Sum of Divisors](math/sum_of_divisors.py)
 
 ## Blockchain
 

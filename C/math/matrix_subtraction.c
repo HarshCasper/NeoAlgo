@@ -1,51 +1,56 @@
-//C program to implement Matrix Subtraction
+/*
+Matrix is a 2-D Array.
+The Subtraction of a matrix is possible by subtracting the element of another matrix having same order.
+This code gives the output as as difference between two input matrices.
+*/
 #include <stdio.h>
-void sub(int r1, int c1, int mat1[r1][c1], int mat2[r1][c1])
+//Function that computes Matrix Subtraction
+void subtract(int row_1, int column_1, int matrix_1[row_1][column_1], int matrix_2[row_1][column_1])
 {
-    int mat3[r1][c1];
-    for(int i = 0; i < r1; i++)
-        for(int j = 0; j < c1; j++)
+    int matrix_3[row_1][column_1];
+    for(int i = 0; i < row_1; i++)
+        for(int j = 0; j < column_1; j++)
         //Subtracting both the matrix
-            mat3[i][j] = mat1[i][j] - mat2[i][j];
-             printf("Matrix after subtraction is -->\n");
-    for(int i = 0; i < r1; i++)
-    {   for(int j = 0; j < c1; j++)
+            matrix_3[i][j] = matrix_1[i][j] - matrix_2[i][j];
+            printf("Matrix after subtraction is -->\n");
+    for(int i = 0; i < row_1; i++)
+    {   for(int j = 0; j < column_1; j++)
         {
-            printf("%d\t", mat3[i][j]);
+            printf("%d\t", matrix_3[i][j]);
         }
         printf("\n");
     }
 }
-//Taking the input of both matrices
-void input(int r1, int c1, int mat1[r1][c1], int mat2[r1][c1])
+//Function that takes input of both matrices
+void input(int row_1, int column_1, int matrix_1[row_1][column_1], int matrix_2[row_1][column_1])
 {
     printf("Enter the values in matrix 1 -->\n");
-    for(int i = 0; i < r1; i++)
-        for(int j = 0; j < c1; j++)
-            scanf("%d", &mat1[i][j]);
-    printf("\n\nEnter the values in matrix 2 -->\n");
-    for(int i = 0; i < r1; i++)
-        for(int j = 0; j < c1; j++)
-            scanf("%d", &mat2[i][j]);
-    printf("\n\n");
+    for(int i = 0; i < row_1; i++)
+        for(int j = 0; j < column_1; j++)
+            scanf("%d", &matrix_1[i][j]);
+            printf("\n\nEnter the values in matrix 2 -->\n");
+    for(int i = 0; i < row_1; i++)
+        for(int j = 0; j < column_1; j++)
+            scanf("%d", &matrix_2[i][j]);
+            printf("\n\n");
 }
 int main()
 {
-    int i, j , r1, r2, c1, c2;
+    int row_1, row_2, column_1, column_2;
     printf("\nEnter the number of rows in matrix 1 = ");
-    scanf("%d", &r1);
+    scanf("%d", &row_1);
     printf("\nEnter the number of columns in matrix 1 = ");
-    scanf("%d", &c1);
+    scanf("%d", &column_1);
     printf("\nEnter the number of rows in matrix 2 = ");
-    scanf("%d", &r2);
+    scanf("%d", &row_2);
     printf("\nEnter the number of columns in matrix 2 = ");
-    scanf("%d", &c2);
-    int mat1[r1][c1], mat2[r2][c2];
+    scanf("%d", &column_2);
+    int matrix_1[row_1][column_1], matrix_2[row_2][column_2];
     //If number of rows and columns of matrix 1 and matrix 2 are different then they cannot be subtracted
-            if (r1 == r2 && c1 == c2)
+            if (row_1 == row_2 && column_1 == column_2)
             {
-                input(r1, c1, mat1, mat2);
-                sub(r1, c1, mat1, mat2);
+                input(row_1, column_1, matrix_1, matrix_2);
+                subtract(row_1, column_1, matrix_1, matrix_2);
             }
             else
                 printf("Subtraction of the given matrices is not possible.");

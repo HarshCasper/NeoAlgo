@@ -134,6 +134,7 @@ _add list here_
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Find kth Largest / Smallest element in Unsorted array](other/kth_Largest_Smallest_element_in_Unsorted_array.c)
 
 ## CP
 

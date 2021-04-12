@@ -122,6 +122,7 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Pascal's triangle](math/Pascals_triangle.c)
 
 ## Other
 

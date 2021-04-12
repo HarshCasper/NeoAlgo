@@ -311,6 +311,7 @@
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
 - [K-th Smallest Number](math/k_smallest.py)
+- [Reverse a Number](math/reverse_a_number.py)
 
 ## Blockchain
 

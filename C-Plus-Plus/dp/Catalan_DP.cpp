@@ -38,6 +38,11 @@ int main() {
 	cout << "Enter a number: ";
 	cin >> number;
 
+	if(number < 0) {
+		cout << "\nPlease enter a non-negative number." << endl;
+		exit(0);
+	}
+
 	// Print the nth catalan number
 	cout << "\nCatalan number at index " << number << " is " << n_catalan(number) << endl;
 	return 0;
@@ -46,8 +51,14 @@ int main() {
 /*
 Sample I/O:
 
+1)
 Enter a number: 10
 
 Catalan number at index 10 is 16796
+
+2)
+Enter a number: -23
+
+Please enter a non-negative number.
 
 */

@@ -238,6 +238,7 @@ _add list here_
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
+- [Max Consecutive Ones](cp/max_consecutive_ones.c)
 - [Anagram Program](cp/anagram_program.c)
 - [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)

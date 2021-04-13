@@ -144,6 +144,13 @@ int main()
 }
 
 /*
+
+Time Complexity: O(E log V)
+{
+    E= Number of edges
+    V= Number of vertices
+}
+
 Example:
 
 Input:
@@ -157,10 +164,5 @@ Input:
 Output:
 Total weight of Minimum Spanning Tree for the given graph: 17
 
-Time Complexity: O(E log V)
-{
-    E= Number of edges
-    V= Number of vertices
-}
 */
 

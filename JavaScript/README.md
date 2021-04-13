@@ -68,6 +68,7 @@
 - [Tim Sort](./sort/TimSort.js)
 - [Comb Sort](./sort/CombSort.js)
 - [Gnome Sort](./sort/GnomeSort.js)
+- [WaveForm Sort](./sort/WaveFormSort.js)
 
 ## Machine Learning
 

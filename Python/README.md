@@ -18,6 +18,8 @@
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Identical BSTs](ds/identical_binary_tree.py)
+* [Loop detection in Linked List](ds/loop_detection_in_LL.py)
 * [Sum of Linked List](ds/Sum_of_Linked_list.py)
 
 ## Searching
@@ -116,6 +118,7 @@
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
 - [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
+- [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 
 
 ## Cryptography
@@ -206,6 +209,7 @@
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
+- [Catalan Number](dp/Catalan_DP.py)
 
 ## Pathfinding Algorithms
 
@@ -214,6 +218,7 @@
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
 - [A* (Astar) in Maze](Pathfinding/2D_Astar.py)
+- [RRT in Maze](Pathfinding/2D_RRT.py)
 
 ## Graphs
 
@@ -258,6 +263,7 @@
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
 - [Sort an Arrays of 0s, 1s, 2s](cp/Sort_An_Arraysof0s1sand2s.py)
+- [Activity Selection](cp/activity_selection.py)
 
 ## Cryptography
 
@@ -310,6 +316,7 @@
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
+- [Sum of Digits of a Number](math/sum_of_digits.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
@@ -322,6 +329,7 @@
 - [Transpose of matrix](math/Matrix_transpose.py)
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
+- [Matrix Multiplication](math/Matrix_multiplication.py)
 ## Blockchain
 
 _add list here_
@@ -356,11 +364,13 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)
+- [Next premutation](other/Next_premutation.py)
 - [Minimum number of jumps](other/minimize_the_jump.py)
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
-
+- [Merge Interval](other/merge_interval.py)
 
 
 ## [Coding Template for Contribution](Code_Template.md)

@@ -20,7 +20,6 @@
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
 * [Identical BSTs](ds/identical_binary_tree.py)
 * [Loop detection in Linked List](ds/loop_detection_in_LL.py)
-* [Sum of Linked List](ds/Sum_of_Linked_list.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -371,6 +370,7 @@ _add list here_
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
+- [Sum of Linked List](ds/Sum_of_Linked_list.py)
 
 
 ## [Coding Template for Contribution](Code_Template.md)

@@ -259,6 +259,7 @@
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
+- [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 
 ## Searching
 
@@ -440,6 +441,7 @@ _add list here_
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Catalan Number](dp/Catalan_DP.cpp)
 
 ## Bit - Manipulation
 

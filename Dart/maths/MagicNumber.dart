@@ -54,3 +54,4 @@ Enter a number :
 123
 123 is not a Magic Number
 */
+

@@ -13,16 +13,12 @@
 
 #include <iostream>
 #include<bits/stdc++.h>
-
-
 using namespace std;
-
 
 void solve(int n, int k, int P[]){
 
     int dp[k + 1][n];
     memset(dp, 0, sizeof dp); //very important to initialise 0 to avoid garbage values during comparison.
-
 
     /*
     *
@@ -51,15 +47,10 @@ void solve(int n, int k, int P[]){
     *          maximum profit made on the same day, and we store only the maximum profit made till today in our dp[][].
     *
     */
-
-
-
-
     for (int transaction = 1; transaction <= k; transaction++) {
         for (int day = 1; day < n; day++) {
 
             int max = dp[transaction][day - 1];
-
             for (int prevday = 0; prevday < day; prevday++) {
                 int prev_profit = dp[transaction - 1][prevday];
                 int curr_profit = P[day] - P[prevday];
@@ -74,8 +65,6 @@ void solve(int n, int k, int P[]){
     cout<<endl;
     
     cout << dp[k][n - 1] << endl;
-
-
 }
 
 
@@ -85,20 +74,12 @@ int main() {
 
     int n, k;
     cin >> n >> k; // taking inputs for number of days and the number of transactions.
-
     int P[n];
-
     for (int i = 0; i < n; i++)
         cin >> P[i];
 
-<<<<<<< HEAD
     cout << dp[k][n - 1] << endl;
-
-
 }
-
-
-
 
 int main() {
 
@@ -109,9 +90,6 @@ int main() {
 
     for (int i = 0; i < n; i++)
         cin >> P[i];
-
-=======
->>>>>>> c733b13aa7e4728a5b78f40398b46fb05ceb71ca
     solve(n,k,P); // Calling the function to output the answer.
 
 }

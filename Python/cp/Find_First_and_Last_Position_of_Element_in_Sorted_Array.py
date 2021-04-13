@@ -42,7 +42,7 @@ def Binary_Search(nums, target, flag=0):
     return pos
 
 
-def search_range(nums, target) :
+def search_range(nums, target):
     """
     Performs Binary Search on nums and returns a list of two elements:
     - [<First Positon of the target elemet>, <Last Positon of the target elemet>]
@@ -54,6 +54,7 @@ def search_range(nums, target) :
     if starting_position != -1:
         ending_position = Binary_Search(nums, target, 1)
     return [starting_position, ending_position]
+
 
 if __name__ == "__main__":
     list_of_nums = [int(x) for x in input().split()]

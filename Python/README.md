@@ -117,7 +117,7 @@
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
 - [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
-- [Find First and Last position index of an element in an array](cp/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.py)
+- [Find_First_and_Last_Position_of_Element_in_Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
 
 
 ## Cryptography

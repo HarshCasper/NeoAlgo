@@ -29,12 +29,13 @@ public class SubsetSumToTarget {
 					dp[i][j] = true;
 					
 				} else {
-					
-					boolean a = dp[i - 1][j]; // when ith element is not included
+					// when ith element is not included
+					boolean a = dp[i - 1][j]; 
 					boolean b = false;
 					
 					if (j >= ar[i - 1]) {
-						b = dp[i - 1][j - ar[i - 1]]; // when ith element is included.
+						// when ith element is included.
+						b = dp[i - 1][j - ar[i - 1]]; 
 					}
 
 					dp[i][j] = a || b;

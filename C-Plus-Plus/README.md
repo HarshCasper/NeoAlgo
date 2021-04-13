@@ -115,6 +115,7 @@
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Minimum number to form the sum even](cp/Minimum_number_to_form_the_sum_even.cpp)
 
 ## Data Structures
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)

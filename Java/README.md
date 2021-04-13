@@ -223,6 +223,7 @@ _add list here_
 - [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
+- [Longest common subsequence of Three Strings](dp/LCSThreeStrings.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [CoinChange DP](dp/Coin_Change.java)

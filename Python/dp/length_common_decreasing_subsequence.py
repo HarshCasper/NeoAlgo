@@ -27,16 +27,16 @@ def length_longest_decreasing_subsequence(arr, n):
     max_len = max(dp)
     return max_len
 
-
-print("What is the length of the array? ", end="")
-n = int(input())
-if n <= 0:
-    print("No numbers present in the array!!!")
-    exit()
-print("Enter the numbers: ", end="")
-arr = [int(x) for x in input().split(' ')]
-res = length_longest_decreasing_subsequence(arr, n)
-print("The length of the longest decreasing subsequence of the given array is {}".format(res))
+if __name__ == '__main__':
+    print("What is the length of the array? ", end="")
+    n = int(input())
+    if n <= 0:
+        print("No numbers present in the array!!!")
+        exit()
+    print("Enter the numbers: ", end="")
+    arr = [int(x) for x in input().split(' ')]
+    res = length_longest_decreasing_subsequence(arr, n)
+    print("The length of the longest decreasing subsequence of the given array is {}".format(res))
 
 
 """

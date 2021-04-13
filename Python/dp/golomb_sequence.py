@@ -17,14 +17,14 @@ def golomb_sequence(n):
         dp[i] = 1 + dp[back_index]
     return dp[n]
 
-
-print("Enter the value of n?, where you need the n'th number in the golomb sequence. ", end="")
-num = int(input())
-if num <= 0:
-    print("The given value of n is invalid.")
-    exit()
-res = golomb_sequence(num)
-print("The {}'th term in the golomb sequence is {}.".format(num, res))
+if __name__ == '__main__':
+    print("Enter the value of n?, where you need the n'th number in the golomb sequence. ", end="")
+    num = int(input())
+    if num <= 0:
+        print("The given value of n is invalid.")
+        exit()
+    res = golomb_sequence(num)
+    print("The {}'th term in the golomb sequence is {}.".format(num, res))
 
 """
 Time Complexity: O(n), where 'n' is the given number

@@ -46,7 +46,7 @@ import java.util.*;
 public class EggDroppingProblem {
     public static void main(String[] args) {
         //driver code;
-        Scanner Scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         //take the necessary input: vertices, edges
         System.out.println("Enter the number of floors: ");
@@ -96,11 +96,11 @@ public class EggDroppingProblem {
 
 /* 
 Sample Input: 
-Enter the number of floors:
-Enter the number of eggs: 
+Enter the number of floors: 14
+Enter the number of eggs: 3
     
 Output: 
-The critical floor is: 
+The critical floor is: 4
     
 Time Complexity: O(K * log(N)) where K = eggs we have and N = building height we are on.
 Space Complexity: O(K)

@@ -216,6 +216,7 @@
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
+- [Maximum width of the Binary Tree](ds/Width_of_BinaryTree.cpp)
 
 ## Graphs
 
@@ -338,6 +339,7 @@
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
+
 ## Machine Learning
 
 _add list here_

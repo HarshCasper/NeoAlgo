@@ -56,9 +56,9 @@ def search_range(nums, target) :
     return [starting_position, ending_position]
 
 if __name__ == "__main__":
-    nums = [int(x) for x in input().split()]
-    target = int(input())
-    print(search_range(nums, target))
+    list_of_nums = [int(x) for x in input().split()]
+    key = int(input())
+    print(search_range(list_of_nums, key))
 
 
 # Input: nums = [5,7,7,8,8,10], target = 8

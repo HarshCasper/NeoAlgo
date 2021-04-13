@@ -41,7 +41,6 @@ public class Sieve_of_Eratosthenes {
               }
 
               System.out.println ("End.");
-
 	}
 }
 

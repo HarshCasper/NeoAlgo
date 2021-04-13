@@ -228,6 +228,7 @@ _add list here_
 - [Recursion count of substring](other/recursion_string.c)
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
+- [MEX of an Array](other/MEX_of_an_array.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)

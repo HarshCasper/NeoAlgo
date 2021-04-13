@@ -117,6 +117,7 @@
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
 - [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
+- [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 
 
 ## Cryptography

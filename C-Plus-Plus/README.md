@@ -234,3 +234,4 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find the number of pairs of integers in the array whose sum is equal to k](other/Count_pairs_with_given_sum.cpp)

@@ -274,5 +274,6 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Count pair with given sum](other/count_with_given_sum.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

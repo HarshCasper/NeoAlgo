@@ -203,6 +203,7 @@ _add list here_
 - [Noble Integer](math/Noble_Integer.c)
 - [Number of Digits](math/number_of_digits.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
 - [Mystery Number](math/mystery_number.c)

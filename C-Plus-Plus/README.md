@@ -557,3 +557,4 @@ _add list here_
 - [Repeating and Missing Number](other/repeated_missing.cpp)
 - [Tower of Hanoi](other/Tower_of_hanoi.cpp)
 - [Repeating and Missing Number](other/repeated_missing.cpp)
+- [Generate IP Addresses](other/Generate_IP_Address.cpp)

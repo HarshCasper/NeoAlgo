@@ -1,8 +1,6 @@
 /**
-
 The Sieve of Eratosthenes is one of the most 
 efficient ways to find all primes smaller than n.
-
 */ 
 
 import java.util.Arrays;
@@ -17,9 +15,7 @@ public class Sieve_of_Eratosthenes {
 		int n=sc.nextInt();
 		
 		boolean[] prime=new boolean[n+1];
-
-                //initially considering all the numbers 
-                //upto n as prime except 0 and 1.
+	    
 		for (int i=2; i<=n; i++) {
 			prime[i]=true;
 		}
@@ -29,8 +25,6 @@ public class Sieve_of_Eratosthenes {
 
 			if (prime[i]) {
 
-                              //making all the multiples of the ith
-                              //prime number upto n as composite number.
 				for (int j=2; j*x<=n; j++) {
 					prime[j*x]=false;
 				}
@@ -41,8 +35,6 @@ public class Sieve_of_Eratosthenes {
 
 		for (int i=2; i<=n; i++) {
 
-                       //display only those ith values
-                       //that are prime number.
                        if (prime[i]) {
                                System.out.print (i+", ");
                        }

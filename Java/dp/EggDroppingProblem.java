@@ -39,7 +39,7 @@ So, the relation becomes this:
 We are not taking the maximum above because we try with one egg first. If it is broken, the target floor is below the current floor, else it's above. 
 So the number of detected floor is the sum of the two. (above + below + current)
 
-//the below code is contributed by Jahnavi Majji as a part of GSSoC'21
+//The below code is contributed by Jahnavi Majji as a part of GSSoC'21.
 */
 
 import java.util.*;

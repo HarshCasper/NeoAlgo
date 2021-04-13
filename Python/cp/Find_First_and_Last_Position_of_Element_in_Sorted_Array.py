@@ -9,16 +9,19 @@
 def Binary_Search(nums, target, flag=0):
     """
     Binary search follows divide and conquer approach in which,
-    the list is divided into two halves and the item is compared 
+    the list is divided into two halves and the item is compared
     with the middle element of the list. If the match is found then,
-    the location of middle element is returned otherwise, 
-    we search into either of the halves depending upon the result produced through the match.
+    the location of middle element is returned otherwise,
+    we search into either of the halves depending
+    upon the result produced through the match.
 
-    - Returns the initial found index position of the target value if flag is set to 0 (Default)
+    - Returns the initial found index position of the target value
+      if flag is set to 0 (Default)
     - Returns Starting Positon of the target value if flag is set to -1
-    - Returns Ending Positon of the target value if flag is set to 1 
+    - Returns Ending Positon of the target value if flag is set to 1
 
-    If the target is not present in the list of numbers, -1 is returned irrespective of the flag value
+    If the target is not present in the list of numbers,
+    -1 is returned irrespective of the flag value
 
     # Time Complexity: O(log n)
     # Space Complexity: O(1)
@@ -27,7 +30,8 @@ def Binary_Search(nums, target, flag=0):
     low, high = 0, len(nums) - 1
     while low <= high:
         mid = (low + high) // 2
-        if nums[mid] == target:  # Checking if target is at mid position
+        if nums[mid] == target:
+            # Checking if target is at mid position
             pos = mid
             if flag == -1:
                 high = mid - 1
@@ -35,7 +39,8 @@ def Binary_Search(nums, target, flag=0):
                 low = mid + 1
             else:
                 return pos
-        elif nums[mid] < target:  # Checking if target is greater than the number at mid position
+        elif nums[mid] < target:
+            # Checking if target is greater than the number at mid position
             low = mid + 1
         else:
             high = mid - 1

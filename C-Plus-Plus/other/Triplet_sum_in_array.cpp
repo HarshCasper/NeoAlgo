@@ -6,48 +6,39 @@ which sums up to the given integer X.
 
 */
 #include<bits/stdc++.h>
+
 using namespace std;
-int tripletSum()
-{
-    int size_of_array,sum,array[size_of_array],cnt=0;
-	cout<<"Enter size of array: ";
-	cin>>size_of_array;
-	cout<<"Enter the sum: ";
-	cin>>sum;
-	cout<<"Enter array elements: ";
-	for(int i=0;i<size_of_array;i++)
-	{
-		cin>>array[i];
-	}
-	int first_number,second_number,third_number;
-	for(first_number=0;first_number<size_of_array-2;first_number++)
-	{
-		 for(second_number=first_number+1;second_number<size_of_array-1;second_number++)
-        {
-            for(third_number=second_number+1;third_number<size_of_array;third_number++)
-            {
-                if(array[first_number]+array[second_number]+array[third_number]==sum)
-                {
-                    cnt++;
-                }
-               
-            }
+int tripletSum() {
+  int size_of_array, sum, array[size_of_array], cnt = 0;
+  cout << "Enter size of array: ";
+  cin >> size_of_array;
+  cout << "Enter the sum: ";
+  cin >> sum;
+  cout << "Enter array elements: ";
+  for (int i = 0; i < size_of_array; i++) {
+    cin >> array[i];
+  }
+  int first_number, second_number, third_number;
+  for (first_number = 0; first_number < size_of_array - 2; first_number++) {
+    for (second_number = first_number + 1; second_number < size_of_array - 1; second_number++) {
+      for (third_number = second_number + 1; third_number < size_of_array; third_number++) {
+        if (array[first_number] + array[second_number] + array[third_number] == sum) {
+          cnt++;
         }
-	}
-	if(cnt>=1)
-	{
-		cout<<"1"<<endl;
-	}
-	else
-	{
-		cout<<"0"<<endl;
-	}	
+
+      }
+    }
+  }
+  if (cnt >= 1) {
+    cout << "1" << endl;
+  } else {
+    cout << "0" << endl;
+  }
 }
 
-int main()
-{
-	tripletSum();
-	return 0;
+int main() {
+  tripletSum();
+  return 0;
 }
 /*
 Input:
@@ -60,4 +51,3 @@ Output:
 Space Complexity-O(1)
 Time Complexity-0(N^2)
 */
-

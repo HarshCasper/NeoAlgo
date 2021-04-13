@@ -336,6 +336,7 @@
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
+
 ## Machine Learning
 
 _add list here_
@@ -550,3 +551,4 @@ _add list here_
 - [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
 - [Repeating and Missing Number](other/repeated_missing.cpp)
+- [Tower of Hanoi](other/Tower_of_hanoi.cpp)

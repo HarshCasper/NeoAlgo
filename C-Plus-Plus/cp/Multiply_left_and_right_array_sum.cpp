@@ -9,12 +9,9 @@ using namespace std;
 
 int multiply(int arr[], int n)
 {
-    //initalizing both as 0
     int sum_1 = 0;
     int sum_2 = 0;
-    //will be used for storing result
     int result;
-    //half length
     int len = n / 2;
     for (int i = 0; i < len; i++)
     {
@@ -36,13 +33,11 @@ int main()
     cin >> n;
     //array of n size
     int a[n];
-    //taking input
     cout << "Enter " << n << " number of elements : " << endl;
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
     }
-    //function call
     cout << "Multiplication of left and right sub-array : " << endl;
     cout << multiply(a, n) << endl;
     return 0;
@@ -76,3 +71,4 @@ space Complexity : O(n)
     Multiplication of left and right sub-array : 
     2
  */
+

@@ -1,10 +1,10 @@
 /**
-To find Longest Common Subsequence of three
+To find the Longest Common Subsequence of three
 strings using Bottom Up approach.
 */
 
 public class LCSThreeStrings {
-    
+
 	private static void longestCommonSubsequeneceBottomUp(String a, String b, String c) {
 
 		int[][][] dp = new int[a.length() + 1][b.length() + 1][c.length() + 1];

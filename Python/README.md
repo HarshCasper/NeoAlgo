@@ -215,6 +215,7 @@
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
 - [A* (Astar) in Maze](Pathfinding/2D_Astar.py)
+- [RRT in Maze](Pathfinding/2D_RRT.py)
 
 ## Graphs
 
@@ -312,6 +313,7 @@
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
+- [Sum of Digits of a Number](math/sum_of_digits.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
@@ -324,6 +326,7 @@
 - [Transpose of matrix](math/Matrix_transpose.py)
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
+- [Matrix Multiplication](math/Matrix_multiplication.py)
 ## Blockchain
 
 _add list here_
@@ -358,11 +361,13 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)
+- [Next premutation](other/Next_premutation.py)
 - [Minimum number of jumps](other/minimize_the_jump.py)
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
-
+- [Merge Interval](other/merge_interval.py)
 
 
 ## [Coding Template for Contribution](Code_Template.md)

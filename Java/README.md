@@ -11,6 +11,7 @@
 
 ## Algorithms
 
+- [Two Pointer Algorithm](Algorithms/Two_pointer_Algorithm.java)
 - [Kadane's Algorithm](Algorithms/kadanes_Java.java)
 - [Russian Peasant Algorithm](Algorithms/RussianPeasant.java)
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
@@ -165,6 +166,7 @@ _add list here_
 - [Merge In Between Linked Lists](ds/MergeInBetweenLinkedLists.java)
 - [Double Ended Queue in Java](ds/DEQueue.java)
 - [Circular Queue](ds/CircularQueue.java)
+- [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 
 ## Graphs
 
@@ -210,6 +212,9 @@ _add list here_
 - [HappyNumber](math/HappyNumber.java)
 - [MagicNumber](math/Magicnumber.java)
 - [Matrix Addition](math/Matrix_addition.java)
+- [Mystery Number](math/MysteryNumber.java)
+- [Perfect Number](math/Perfect_Number.java)
+- [Matrix Multiplication](math/Matrix_multiplication.java)
 
 ## Dynamic Programming
 
@@ -295,6 +300,7 @@ _add list here_
 - [One plus to the whole](other/OnePlustoWhole.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
+- [Sum of pairwise bit differences](other/Pairwise_bitdiff_sum.java)
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
 - [Remove the key element from the array](other/remove_element_from_array.java)

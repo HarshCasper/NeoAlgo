@@ -520,6 +520,7 @@ _add list here_
 - [Sudoku Solver](other/sudoku.cpp)
 - [Sum of all the possible divisors of a natural number](other/sum_of_divisors.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
+-[Swap Three Variables Without Using Third Variable](other\Swap_three_variables_without_using_third_variable.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [Find array is Subset of another array](other/Find_array_is_Subset_of_another_array.cpp)
 - [Reverse a number using stack](other/Reverse_a_number_using_stack.cpp)

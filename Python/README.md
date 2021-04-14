@@ -332,6 +332,9 @@
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
 - [Matrix Multiplication](math/Matrix_multiplication.py)
+- [Lucky Numbers](math/Lucky_Numbers.py)
+
+
 ## Blockchain
 
 _add list here_

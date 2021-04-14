@@ -1,4 +1,7 @@
-// Program to convert decimal to octal
+/* Program to convert decimal number system to octal number system.
+Decimal number: The number with base 10 is called Decimal number.
+Octal Number: The number with base 8 is called Octal number. */
+
 #include<stdio.h>
 //Function which convert decimal to octal and print it
 void dec_to_oct(int n)

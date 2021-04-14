@@ -28,6 +28,7 @@
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Generic Function for Swapping](cp/Generic_Swaps.cpp)
+- [Adjacent Difference Algorithm](cp/adjacent.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
 - [Count Max Consecutive One's](cp/max_consecutive_ones.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
@@ -120,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Balanced Array](cp/Balanced_array.cpp)
 - [Multiply left and right array sum](cp/Multiply_left_and_right_array_sum.cpp)
 - [Print first letter of every word in the string](cp/Print_first_letter_of_every_word_in_the_string.cpp)
 - [Three Sum](cp/Three_Sum.cpp)
@@ -130,7 +132,13 @@
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
+- [All unique permutations](cp/all_unique_permutation.cpp)
+- [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
+- [Max Topology Short](cp/Max_Topology_short.cpp)
+- [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
+
+
 
 ## Data Structures
 
@@ -225,6 +233,7 @@
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
 - [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
+- [Boruvka's Algorithm for finding MST](graphs/Boruvka_algorithm_for_finding_MST.cpp)
 - [Celebrity Problem](graphs/celebrity_problem.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
@@ -329,6 +338,7 @@
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
+- [Next greatest element to the left](stack/nextGreatestToLeft.cpp)
 
 ## Heap based problems
 
@@ -393,6 +403,7 @@ _add list here_
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
+- [Fibonacci Recursive](math/fibonacci.cpp)
 
 ## Dynamic Programming
 
@@ -425,6 +436,7 @@ _add list here_
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [K-Tree](dp/K-Tree.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Shortest Common Superstring](dp/shortest_common_superstring.cpp)
 - [Staircase using dp](dp/Staircase.cpp)
 - [Count the number of subset with a given difference](dp/Count_subset_given_difference.cpp)
 - [Coin change problem maximum ways](dp/Maximum_ways_Coin_change_problem.cpp)

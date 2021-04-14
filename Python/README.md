@@ -18,6 +18,7 @@
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
 * [Identical BSTs](ds/identical_binary_tree.py)
 * [Loop detection in Linked List](ds/loop_detection_in_LL.py)
 
@@ -193,10 +194,12 @@
 - [Coin Change Problem](dp/CoinChange.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Common Substring](dp/length_longest_common_substring.py)
+- [Longest Decreasing Subsequence](dp/length_common_decreasing_subsequence.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 - [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
+- [Golomb Sequence](dp/golomb_sequence.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
@@ -329,6 +332,9 @@
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
 - [Matrix Multiplication](math/Matrix_multiplication.py)
+- [Lucky Numbers](math/Lucky_Numbers.py)
+
+
 ## Blockchain
 
 _add list here_

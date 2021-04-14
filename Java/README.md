@@ -129,6 +129,7 @@ _add list here_
 - [Finding_shortest_path_for_multistaged_graph](dp/Finding_shortest_path_for_multistaged_graph.java)
 - [Rod Cutting Problem](dp/Rod_Cutting.java)
 - [Flight of stairs](dp/FlightOfStairs.java)
+- [Egg Dropping Problem](dp/EggDroppingProblem.java)
 
 ## Data Structures
 
@@ -139,6 +140,7 @@ _add list here_
 - [Node to Root Path in a Binary Tree](ds/NodetoRootPath.java)
 - [Detect Loop in Linked List](DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
+- [Expression Tree from Postfix Expression](ds/Build_Expression_Tree.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
 - [Linked List ~ Reverse](ds/linkedListReverse.java)
@@ -234,6 +236,7 @@ _add list here_
 - [Matrix Chain Multiplication to find the minimum cost](dp/MatrixChainMultiplication.java)
 - [Perfect Sum Problem](dp/PerfectSumProblem.java)
 - [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
+- [Dice Throw Problem](dp/DiceThrow.java)
 
 ## Blockchain
 

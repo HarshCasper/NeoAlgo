@@ -49,6 +49,7 @@ void bubble_sort(int a[], int n)
 {
 
     int i, j;
+   
     for (i = 0; i < n - 1; i++)
     {
         j = i;
@@ -60,14 +61,16 @@ void bubble_sort(int a[], int n)
                 int temp = a[j];
                 a[j] = a[j + 1];
                 a[j + 1] = temp;
+              
             }
         }
+       
     }
 }
 
 void print_array(int a[], int n)
-{
-    for (int i = 0; i < n; i++)
+{    int i;
+    for ( i = 0; i < n; i++)
     {
         /* code */
         printf(" %d ", a[i]);

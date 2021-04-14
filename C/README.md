@@ -117,6 +117,7 @@
 - [Interpolation Search](search/Interpolation.c)
 - [Linear Search](search/linear_search.c)
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
+- [Recursive-Ternary Search](search/Recursive_Ternary_Search.c)
 - [Random Search Monte Carlo version](search/random_search.c)
 - [Jump Search](search/JumpSearch.c)
 

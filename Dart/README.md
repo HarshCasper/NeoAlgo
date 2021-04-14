@@ -15,6 +15,7 @@
 - [Armstrong number](maths/Armstrong.dart)
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
 - [Automorphic Number](math/automorphic_number.dart)
+- [Binary Exponentiation (Iterative and Recursive methods)](math/Binary_Exponentiation.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
 - [Sum of Digits](math/SumOfDigits.dart)

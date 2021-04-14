@@ -48,17 +48,19 @@ int main()
 return 0;	
 }
 /*
-INPUT :
+Time Complexity :-O(n)
+Space Complexity :-O(1)
+
+SAMPLE I/O :-
+INPUT:-
 n =5
 1 2 3 4 5  
 D=2
 Output:- 3 4 5 1 2  
 
+INPUT:-
 n =10
 1 2 3 4 5 6 7 8 9 10 
 D=3
 Output :- 4 5 6 7 8 9 10 1 2 3 
-
-Time Complexity :-O(n)
-Space Complexity :-O(1)
-*/
+s*/

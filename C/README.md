@@ -206,6 +206,7 @@ _add list here_
 - [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
+- [Matrix Transpose](math/matrix_transpose.c)
 - [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)

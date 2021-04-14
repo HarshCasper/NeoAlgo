@@ -209,6 +209,7 @@ _add list here_
 - [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
+- [Unique Number](math/Uniquenumber.c)
 
 ## Operating System
 

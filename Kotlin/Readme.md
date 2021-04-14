@@ -9,6 +9,10 @@
 
 # Codes in the Kotlin language
 
+## Bit Manipulation
+
+- [Bit Operations](BitManipulation/BasicBitOperations.kt)
+
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
@@ -23,8 +27,14 @@
 - [Areas 3D](Maths/Areas3D.kt)
 - [Armstrong Number](Maths/Armstrong.kt)
 - [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
+- [Palindrome Number](Maths/PalindromeNumber.kt)
+- [Fibonacci Number](Maths/FibonacciNumber.kt)
+
 
 ## Searching Algorithms
 
 - [Binary Search](search/BinarySearch.kt)
-
+  [Exponential Search](search/ExponentialSearch.kt)
+- [Linear Search](search/LinearSearch.kt)
+- [StairCase Search](search/StairCaseSearch.kt)
+- [Ternary Search](search/TernarySearch.kt)

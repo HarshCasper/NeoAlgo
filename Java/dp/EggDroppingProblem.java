@@ -17,7 +17,7 @@ When we drop an egg from a floor f, there can be two cases:
 1. The egg breaks 
     We only need to check for floors below f with the remaining eggs. So the problem reduces to (K - 1) eggs with (f - 1) floors
 2. The egg doesn’t break. 
-    We only need to check for floors above f with the remaining eggs. So the problem reduces to (K) floors and (N - f) eggs.
+    We only need to check for floors above f with the remaining eggs. So the problem reduces to (K) eggs and (N - f) floors.
 
 So, if we write the above 2 cases in a recursive relation, it will be as below:
 

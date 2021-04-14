@@ -214,6 +214,7 @@ _add list here_
 
 - [Banker's Algorithm](operating_system/bankers.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
+- [Priority Scheduling Algorithm](operating_system/priority_sjf.c)
 
 
 ## Other

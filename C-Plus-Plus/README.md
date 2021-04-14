@@ -578,4 +578,3 @@ _add list here_
 - [Repeating and Missing Number](other/repeated_missing.cpp)
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
 
-

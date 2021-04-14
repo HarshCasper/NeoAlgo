@@ -138,6 +138,7 @@
 - [Max Topology Short](cp/Max_Topology_short.cpp)
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
+- [Connecting Dots](cp/connecting_dots.cpp)
 
 ## Data Structures
 

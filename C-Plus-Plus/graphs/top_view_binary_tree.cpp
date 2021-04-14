@@ -1,7 +1,8 @@
 /*
 Top view of binary tree
 
-Given a binary tree, print the nodes in left to right manner as visible from above the tree. Input is given in order of root left child then right child.
+Given a binary tree, print the nodes in left to right manner as visible from above the tree.
+Input is given in order of root left child then right child.
 For e.g. 1 2 3 4 5 6 -1 -1 -1 -1 -1 -1 -1
 Tree looks like 
               1
@@ -17,7 +18,8 @@ so when viewed from the top , we would see the nodes 4, 2, 1 and 3.
 #include <bits/stdc++.h>
 using namespace std;
 
-// class for defining the the node, left and right child pointer along with a contructor for assigning the "key" to the node
+// class for defining the the node, left and right child pointer along 
+// with a constructor for assigning the "key" to the node.
 class node
 {
 public:

@@ -23,6 +23,7 @@
 - [Neon number](maths/NeonNumber.dart)
 - [Magic Number](maths/MagicNumber.dart)
 - [Happy Number](maths/HappyNumber.dart)
+- [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 
 ## Search
 

@@ -139,6 +139,7 @@
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
 - [Connecting Dots](cp/connecting_dots.cpp)
+- [Friends Pairing](cp/friends_pairing.cpp)
 
 ## Data Structures
 

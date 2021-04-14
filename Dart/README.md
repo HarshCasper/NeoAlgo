@@ -19,7 +19,8 @@
 - [Factorial](maths/Factorial.dart)
 - [Sum of Digits](math/SumOfDigits.dart)
 - [Neon number](maths/NeonNumber.dart)
-
+- [Magic Number](maths/MagicNumber.dart)
+- [Happy Number](maths/HappyNumber.dart)
 
 ## Search
 

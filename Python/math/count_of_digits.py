@@ -23,10 +23,10 @@ def count_of_digits(n):
     return cnt
 
 if __name__ == '__main__':
-    #Taking Input
+    # Taking Input
 
     n = int(input("Enter the number :"))
-    #Printing Output
+    # Printing Output
 
     print("The count of digits in the given number is: {} ".format(count_of_digits(n)))
 

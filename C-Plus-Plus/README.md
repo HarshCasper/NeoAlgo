@@ -24,7 +24,7 @@
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Combination Sum](cp/Combination_Sum.cpp)
-- [Combination Sum without Reating the Values](cp/Combination_sum_without_Repeated_values.cpp)
+- [Combination Sum without Repeating the Values](cp/Combination_sum_without_Repeated_values.cpp)
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)

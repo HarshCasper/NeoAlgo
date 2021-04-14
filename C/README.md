@@ -76,7 +76,6 @@
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
 - [Circular Queue](ds/circularqueue.c)
-- [Post Order Traversal](ds/Postorder.c)
 - [Detect Middle Element of the LinkedList](ds/middle_element_of_linkedlist.c)
 - [Detect Loop/Cycle in a LinkedList](ds/detectLoopLL.c)
 - [Inorder Traversal](ds/Inorder.c)

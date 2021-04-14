@@ -1,9 +1,13 @@
 /*
-The problem states that Given an array of integer and a target value. Return all the unique combination of array where chosen number sum to target. (You may return combination in ary order).
-(Note that each element in returned array should occur one time only)
+The problem states that Given an array of integer and a target value. 
+Return all the unique combination of array where chosen number sum to 
+target. You may return combination in any order. (Note that each element
+in returned array should occur one time only)
 */
+
 #include <bits/stdc++.h>
 using namespace std;
+
 void find(vector<int> arr, vector<vector<int>> &ans, vector<int> &r, int sum, int start)
 {
   if (sum < 0)
@@ -36,7 +40,9 @@ vector<vector<int>> combinationSum2(vector<int> &arr, int target)
 int main()
 {
   int n;
+  cout<<"Enter Number of elements in the array:";
   cin >> n;
+  cout<<"Enter elements of array:";
   vector<int> arr;
   for (int i = 0; i < n; i++)
   {
@@ -45,8 +51,10 @@ int main()
     arr.push_back(x);
   }
   int target;
+  cout<<"Enter target:";
   cin >> target;
   vector<vector<int>> answer = combinationSum2(arr, target);
+  cout<<"\nCombination Sum without Repeated Values are:\n";
   for (int i = 0; i < answer.size(); i++)
   {
     cout << "[";
@@ -61,13 +69,19 @@ int main()
 /*
 Test case 1:
 Input:
-7
-10 1 2 7 6 1 5
-8
+Enter Number of elements in the array:7
+Enter elements of array:10 1 2 7 6 1 5
+Enter target:8
 
 Output:
+
+Combination Sum without Repeated Values are:
 [1,1,6,]
 [1,2,5,]
 [1,7,]
 [2,6,]
+
+Time-Complexity : O(2^n)
+Space-Complexity: O(n)
+
 */

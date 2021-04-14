@@ -41,6 +41,8 @@
 - [Bulb Switcher problem](cp/bulbSwitch.c)
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
+- [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
+- [Trapping rain water](cp/Trapping_rain_water.c)
 
 ## Cryptography
 
@@ -75,9 +77,9 @@
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
 - [Circular Queue](ds/circularqueue.c)
-- [Post Order Traversal](ds/Postorder.c)
 - [Detect Middle Element of the LinkedList](ds/middle_element_of_linkedlist.c)
 - [Detect Loop/Cycle in a LinkedList](ds/detectLoopLL.c)
+- [Inorder Traversal](ds/Inorder.c)
 - [Postorder Traversal](ds/Postorder.c)
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
@@ -101,11 +103,16 @@
 - [Construction Of Binary Tree From Preorder And Inorder Traversals](ds/binary_tree_from_preorder_and_inorder.c)
 - [Double Ended Queue](ds/Double_Ended_Queue.c)
 - [Merging two Linked List](ds/Merging_two_Linked_List.c)
+- [Ascending Priority Queue](ds/AscendingPQ.c)
+- [Descending Priority Queue](ds/DescendingPQ)
 - [Finding Linked List Palindrome](ds/FindLinkedListPalindrome.c)
 - [Priority Queue using Linked List](ds/Priority_Queue_using_Linked_List.c)
 - [Sorting the elements of a stack](ds/stack_sort.c)
 - [Postfix to Prefix Conversion](ds/postfix_to_prefix.c)
 - [Finding Minimum Element in a Stack](ds/MinimumElemetInStack.c)
+- [Hashtable chaining](ds/hashtable_chaining.c)
+- [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
+- [Check Binary Tree is BST or Not](ds/FindBinaryTreeBst.c)
 
 ## Searching
 
@@ -117,6 +124,7 @@
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
 - [Jump Search](search/JumpSearch.c)
+- [Staircase Search](search/Staircase_Search.c)
 
 ## Sorting
 
@@ -125,6 +133,7 @@
 - [Bubble Sort](sort/bubble_sort.c)
 - [Circle Sort](sort/circle_sort.c)
 - [Insertion Sort](sort/InsertionSort.c)
+- [Count Inversions](sort/Count_Inversions.c)
 - [Matrix Sort](sort/MatrixSorting.c)
 - [Merge Sort](sort/MergeSort.c)
 - [Merge Sort in O(1) space complexity](<sort/mergesort_in_O(1)_space_complexity.c>)
@@ -144,20 +153,25 @@
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 - [Comb Sort](sort/comb.c)
 - [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
+- [Wiggle Sort](sort/Wiggle_sort.c)
 
 ## Dynamic Programming
 
 - [Cutting a Rod](dp/cutting_a_rod.c)
 - [EditDistance in Dp](dp/EditDistanceDP.c)
+- [Golomb Sequence](dp/golomb_sequence.c)
 - [Longest Common Substring](dp/longest_common_substring.c)
+- [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.c)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.c)
 - [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
+- [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
 - [Unique BST](dp/Unique_BST.c)
+- [Tiling_Problem](dp/tiling_problem.c)
 
 ## Graphs
 
@@ -174,22 +188,29 @@ _add list here_
 
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
+- [Number of Divisors of a Number](math/number_of_divisors.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
+- [Check whether a number is power of 2](math/Check_whether_a_number_is_power_of_2.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Sum of Digits](math/sum_of_digits.c)
 - [Armstrong Number](math/armstrong_number.c)
+- [Sum of Divisors of a Number](math/sum_of_divisors.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Find factorial of a Number](math/factorial.c)
 - [Happy Number](math/happy_number.c)
 - [Lowest Prime Factor](math/lowest_prime_factor_of_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
-- [Neon Number](math/Neon_number.c)
 - [Strong Number](math/strong_number.c) 
+- [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
+- [Number of Digits](math/number_of_digits.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
+- [Matrix Subtraction](math/matrix_subtraction.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
+- [Matrix Transpose](math/matrix_transpose.c)
 - [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
@@ -198,11 +219,13 @@ _add list here_
 
 - [Banker's Algorithm](operating_system/bankers.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
+- [Priority Scheduling Algorithm](operating_system/priority_sjf.c)
 
 
 ## Other
 
 - [Find the Numbers](other/Find_the_numbers.c)
+- [Find First and Last position index of an element in an array](other/find_first_and_last_position_index_of_a_number_in_array.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)
 - [Sliding Window Technique](other/window_sliding_technique.c)
@@ -211,17 +234,23 @@ _add list here_
 - [Recursion count of substring](other/recursion_string.c)
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
+- [MEX of an Array](other/MEX_of_an_array.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
+- [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
+- [Permutation of string](other/Permutation_of_string.c)
 
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
+- [Max Consecutive Ones](cp/max_consecutive_ones.c)
 - [Anagram Program](cp/anagram_program.c)
+- [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
+- [Bigmod Algorithm](cp/bigmod_algorithm.c)
 - [Sum of Triplet](cp/sum_of_triplet.c)
 
 ## Cryptography

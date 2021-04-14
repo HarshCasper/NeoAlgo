@@ -338,6 +338,7 @@
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
+- [Next greatest element to the left](stack/nextGreatestToLeft.cpp)
 
 ## Heap based problems
 

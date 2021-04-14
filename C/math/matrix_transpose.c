@@ -35,18 +35,25 @@ int main()
     }
 
 /*
-Time Complexity : O(mn)  , where m = number of rows & n = number of columns
-Space Complexity : O(mn) , where m = number of rows & n = number of columns
-SAMPLE INPUT AND OUTPUT
-Enter the number of rows in matrix = 3
 
+Sample Output:
+
+Enter the number of rows in matrix = 3
 Enter the number of columns in matrix = 3
+
 Enter the values in matrix  -->
 1   2   3
 4   5   6
 7   8   9
+
 Transpose of a matrix is -->
 1       4       7
 2       5       8
 3       6       9
+
+Time Complexity : O(mn)
+Space Complexity : O(mn)
+where,
+       m = number of rows
+       n = number of columns
 */

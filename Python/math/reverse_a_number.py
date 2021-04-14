@@ -3,7 +3,7 @@ Python program to reverse a number.
 The reverse of a number is a number that is obtained when a number is traversed from right to left.
 """
 
-#Function to do reverse 
+# Function to do reverse 
 
 def reverse(n):
     # Initializing rev as 0

@@ -2,15 +2,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// We will only store the last and second last number
-// as Fibonacci(n) = Fibonacci(n-1) + Fibonacci(n-2)
-// initially we will store first and second value i.e. 1
-// and run the loop from third place till the number given
+/*
+ Fibonacci(n) = Fibonacci(n-1) + Fibonacci(n-2). Rather than
+ string each value, we will only store the last and second
+ last number of the Fibonacci series.
+ Initially we will store first and second value i.e. 1
+ and run the loop from third place till the number given.
+*/
+
 int Fibonacci(int n)
 {
-    int a = 1 , b = 1 , sum , i;
+    int a=1, b=1, sum=0;
 
-    for(i=2 ; i<n ; i++)
+    for(int i=2; i<n; i++)
     {
         sum = a + b;
         a = b;
@@ -21,9 +25,9 @@ int Fibonacci(int n)
 
 int main()
 {
-    int n = 5;
-    cout<<"Fibonacci : "<<Fibonacci(5);
-
+    int n;
+    cin>>n;
+    cout<<"Fibonacci : "<<Fibonacci(n);
     return 0;
 }
 
@@ -31,7 +35,12 @@ int main()
     Time Complexity : O(n)
     Space Complexity : O(1)
 
-    Outputs:
-    when n=9 --> Fibonacci : 34
-    when n=5 --> Fibonacci : 5
+    Sample Inputs and Outputs:
+
+    (Input)  5
+    (Output) Fibonacci : 5
+
+    (Input)  9
+    (Output) Fibonacci : 34
 */
+

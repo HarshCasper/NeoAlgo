@@ -238,6 +238,7 @@ _add list here_
 - [Perfect Sum Problem](dp/PerfectSumProblem.java)
 - [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
 - [Dice Throw Problem](dp/DiceThrow.java)
+- [Longest Bitonic Subsequence](dp/LongestBitonicSubsequence.java)
 
 ## Blockchain
 

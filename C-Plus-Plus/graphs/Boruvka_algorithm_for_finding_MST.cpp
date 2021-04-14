@@ -13,13 +13,10 @@ We make use of a Union-Find data structure to keep track of the components.
 This program takes a connected, weighted, and undirected graph as input and prints the total weight of edges in MST.
 */
 
-typedef long long ll;
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-
+#include<bits/stdc++.h>
 using namespace std;
+
+typedef long long ll;
 
 const int N = (int)1e5 + 7;
 
@@ -145,24 +142,30 @@ int main()
 
 /*
 
-Time Complexity: O(E log V)
-{
-    E= Number of edges
-    V= Number of vertices
-}
+Sample Output:
 
-Example:
-
-Input:
-4 5
-1 2 10
-2 3 15
-1 3 5
-4 2 2
-4 3 40
+Input number of nodes and edges                                                                                                                 
+4 5                                                                                                                                             
+Input source vertex, target vertex and weight for each edge                                                                                     
+1 2 10                                                                                                                                          
+2 3 15                                                                                                                                          
+1 3 5                                                                                                                                          
+4 2 2                                                                                                                                           
+4 3 40 
 
 Output:
 Total weight of Minimum Spanning Tree for the given graph: 17
+
+Time Complexity: O(E log V)
+where,
+    E = Number of edges
+    V = Number of vertices
+    
+Space Complexity: O(N)
+where, N=1e5+7
+
+However, if global array size is not initially fixed to N, then
+Space Complexity: O(max(E,V))
 
 */
 

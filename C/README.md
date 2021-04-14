@@ -203,6 +203,7 @@ _add list here_
 - [Noble Integer](math/Noble_Integer.c)
 - [Number of Digits](math/number_of_digits.c)
 - [Magic Number](math/Magic_Number.c) 
+- [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
 - [Mystery Number](math/mystery_number.c)
@@ -227,6 +228,7 @@ _add list here_
 - [Recursion count of substring](other/recursion_string.c)
 - [Unique Number - III](other/UniqueNumberIII.c)
 - [Left most non-repeating character in given string](other/leftmost_nonrepeating_char.c)
+- [MEX of an Array](other/MEX_of_an_array.c)
 - [Nth Ugly Number](other/ugly_number.c)
 - [Palindrome](other/Palindrome.c)
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
@@ -237,6 +239,7 @@ _add list here_
 ## CP
 
 - [Activity Selection](cp/Activity_selection.c)
+- [Max Consecutive Ones](cp/max_consecutive_ones.c)
 - [Anagram Program](cp/anagram_program.c)
 - [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)

@@ -18,6 +18,7 @@
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
 * [Identical BSTs](ds/identical_binary_tree.py)
 * [Loop detection in Linked List](ds/loop_detection_in_LL.py)
 
@@ -117,6 +118,7 @@
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
 - [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
+- [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 
 
 ## Cryptography
@@ -207,6 +209,7 @@
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
+- [Catalan Number](dp/Catalan_DP.py)
 
 ## Pathfinding Algorithms
 
@@ -326,6 +329,7 @@
 - [Transpose of matrix](math/Matrix_transpose.py)
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
+- [Matrix Multiplication](math/Matrix_multiplication.py)
 ## Blockchain
 
 _add list here_
@@ -360,11 +364,13 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)
 - [Next premutation](other/Next_premutation.py)
 - [Minimum number of jumps](other/minimize_the_jump.py)
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
+
 
 ## [Coding Template for Contribution](Code_Template.md)

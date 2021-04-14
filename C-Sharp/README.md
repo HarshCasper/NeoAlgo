@@ -30,7 +30,10 @@ _add list here_
 
 ## Dynamic Programming
 
-_add list here_
+- [Partition Problem](dp/PartitionProblem.cs)
+
+## Graphs
+- [Topological Sorting](graphs/TopologicalSorting.cs)
 
 ## Searching
 

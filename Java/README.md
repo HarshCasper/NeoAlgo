@@ -17,6 +17,7 @@
 - [Z-Algorithm](Algorithms/ZAlgorithm.java)
 - [The Boyer–Moore majority vote algorithm](Algorithms/Moore_Algorithm.java)
 - [MinMax Algorithm](Algorithms/Min_Max_Algorithm_implementation.java)
+- [Sieve of Eratosthenes](Algorithms/Sieve_of_Eratosthenes.java)
 - [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
 
 ## Greedy Algorithms
@@ -166,12 +167,14 @@ _add list here_
 - [Merge In Between Linked Lists](ds/MergeInBetweenLinkedLists.java)
 - [Double Ended Queue in Java](ds/DEQueue.java)
 - [Circular Queue](ds/CircularQueue.java)
+- [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 
 ## Graphs
 
 - [Breadth First Search](graphs/BFS.java)
 - [Depth First Search](graphs/DFS.java)
 - [Dijkstra's Algorithm](graphs/Dijkstra.java)
+- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.java)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.java)
 - [Level Order Traversal of a Binary Tree Using Priority Queue](graphs/LevelOrderTraversalInQueue.java)
 - [Paths From Source To Destination](graphs/Paths_From_Source_To_Destination.java)
@@ -213,6 +216,7 @@ _add list here_
 - [Matrix Addition](math/Matrix_addition.java)
 - [Mystery Number](math/MysteryNumber.java)
 - [Perfect Number](math/Perfect_Number.java)
+- [Matrix Multiplication](math/Matrix_multiplication.java)
 
 ## Dynamic Programming
 

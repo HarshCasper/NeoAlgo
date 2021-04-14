@@ -20,11 +20,13 @@
 - [Sum of Digits](math/SumOfDigits.dart)
 - [Neon number](maths/NeonNumber.dart)
 - [Magic Number](maths/MagicNumber.dart)
+- [Happy Number](maths/HappyNumber.dart)
 
 ## Search
 
 - [Binary Search](search/BinarySearch.dart)
 - [Linear Search](search/LinearSearch.dart)
+- [Interpolation Search](search/InterpolationSearch.dart)
 - [Fibonacci Search](search/FibonacciSearch.dart)
 
 ## Sorting

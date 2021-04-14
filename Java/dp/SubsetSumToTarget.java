@@ -4,6 +4,8 @@ reach target by taking sum of any subset
 of the given set.
 */
 
+import java.util.Scanner;
+
 public class SubsetSumToTarget {
 
     private static boolean subsetSumBottomUP(int[] ar, int target) {

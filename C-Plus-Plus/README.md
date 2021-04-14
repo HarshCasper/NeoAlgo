@@ -201,6 +201,7 @@ _add list here_
 - [Zero One Knapsack](dp/Zero_One_Knapsack.cpp)
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Minimum number of deletion in a string to make it a palindrome](dp/Minimum_number_of_deletion _to_make_palindrome.cpp)
 
 ## Blockchain
 

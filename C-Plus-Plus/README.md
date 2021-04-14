@@ -120,6 +120,8 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Balanced Array](cp/Balanced_array.cpp)
+- [Multiply left and right array sum](cp/Multiply_left_and_right_array_sum.cpp)
 - [Print first letter of every word in the string](cp/Print_first_letter_of_every_word_in_the_string.cpp)
 - [Three Sum](cp/Three_Sum.cpp)
 - [Unique Number](cp/Unique_number.cpp)
@@ -258,6 +260,7 @@
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
+- [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 
 ## Searching
 
@@ -439,6 +442,7 @@ _add list here_
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Catalan Number](dp/Catalan_DP.cpp)
 
 ## Bit - Manipulation
 

@@ -3,6 +3,8 @@ To find the Longest Common Subsequence of three
 strings using Bottom Up approach.
 */
 
+import java.util.Scanner;
+
 public class LCSThreeStrings {
 
 	private static void longestCommonSubsequeneceBottomUp(String a, String b, String c) {

@@ -19,9 +19,6 @@ void permute(string in, int i)
     {
        swap(in[i],in[j]);
        permute(in,i+1);
-       /*Backtracking so that more permutations could
-       be generated*/
-       swap(in[i],in[j]);
     }
 
 

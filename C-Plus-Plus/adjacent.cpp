@@ -9,9 +9,9 @@ using namespace std;
  
 void adjacent_difference()
 {
-    int num;
-    cout << "Enter the no. of values :" << endl;
-    cin >> num;
+        int num;
+        cout << "Enter the no. of values :" << endl;
+        cin >> num;
 	vector<int> v(num), r(num);
 	
 	for(int i=0; i<num; i++)

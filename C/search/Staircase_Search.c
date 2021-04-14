@@ -9,18 +9,11 @@ Staircase Search is used to search for a key in a 2D Array whose row and column 
 		3. The key is equal to the current number, this means, the key is found.
 	* If the bounds of the 2D Array are reached, this means, the key is not found.
 */
-/*
-Time Complexity: O(max(n, m))
-Auxiliary Space: O(1)
-*/
 
-#include<stdio.h>     // For input/output
-#include<stdlib.h>    //Header file for malloc function
+#include<stdio.h>     
+#include<stdlib.h>    
 
 void staircase_search(int** matrix, int n, int m, int key) {
-
-	// int n = sizeof(a) / sizeof(a[0]);
-	// int m = sizeof(a[0]) / sizeof(a[0][0]);
 
 	int is_found=0;
 	// Start from top right corner
@@ -94,4 +87,9 @@ Enter the elements of te array:
 11 17 19 23 19
 Output:
 2 3
+*/
+
+/*
+Time Complexity: O(max(n, m))
+Auxiliary Space: O(1)
 */

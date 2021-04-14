@@ -7,17 +7,16 @@ using namespace std;
 
 //Function to merge two sorted arrays
 void merge(int arr1[], int arr2[], int n, int m) {
-	    int i=n-1, j=0;
-	    
-	    while(i>=0 && j<m){                         //Iterate through every element of arr1 and arr2 and compare elements of the arrays
-	        if(arr2[j]<arr1[i]){
+	int i=n-1, j=0;
+	while(i>=0 && j<m){                         //Iterate through every element of arr1 and arr2 and compare elements of the arrays
+		if(arr2[j]<arr1[i]){
 	           swap(arr1[i], arr2[j]);
 	        }
 	           i--;
-	            j++;
+	           j++;
 	    
-	    }
-	    sort(arr1, arr1+n);                         //sort the first array
+	}
+	sort(arr1, arr1+n);                         //sort the first array
         sort(arr2, arr2+m);                         //sort the second array
 }
 

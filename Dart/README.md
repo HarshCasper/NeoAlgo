@@ -37,3 +37,4 @@
 
 - [Bubble Sort](sort/BubbleSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
+- [Shell Sort](sort/Shell_Sort.dart)

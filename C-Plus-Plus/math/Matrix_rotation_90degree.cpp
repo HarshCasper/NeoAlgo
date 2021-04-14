@@ -28,8 +28,22 @@ void rotate(vector<vector<int>> &ans)
 }
 int main()
 {
-    vector<vector<int>> arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-
+    int m,n;
+    cout<<"Enter size of matrix(m n):";
+    cin>>m>>n;
+    cout<<"Enter "<<m*n<<" elements:";
+    vector<vector<int>> arr;
+    for(int i=0;i<m;i++)
+    {
+        vector<int> r;
+        for(int j=0;j<n;j++)
+        {
+            int a;
+            cin>>a;
+            r.push_back(a);
+        }
+        arr.push_back(r);
+    }
     cout << "Matrix Before Rotation:\n";
     for (int i = 0; i < arr.size(); i++)
     {
@@ -54,7 +68,8 @@ int main()
 }
 /*
 Sample Input: 
-{{1,2,3},{4,5,6},{7,8,9}}
+Enter size of matrix(m n):3 3
+Enter 9 elements:1 2 3 4 5 6 7 8 9
 
 Sample Output:
 Matrix Before Rotation:
@@ -65,5 +80,8 @@ Matrix After Rotation:
 [7 4 1 ]
 [8 5 2 ]
 [9 6 3 ]
+
+Time-Complexity: O(m+n)
+Space-Complexity: O(1)
 
 */

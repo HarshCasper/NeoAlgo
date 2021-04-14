@@ -12,20 +12,26 @@
 ## Maths
 
 - [2D Areas](maths/Areas2D.dart)
+- [Ackermann Function using Recursions](maths/Ackermann_funciton.dart)
 - [Armstrong number](maths/Armstrong.dart)
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
 - [Automorphic Number](math/automorphic_number.dart)
 - [Binomial Coefficient (under modulo)](math/binomial_coefficient_under_modulo.dart)
+- [Binary Exponentiation (Iterative and Recursive methods)](math/Binary_Exponentiation.dart)
+- [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Factorial](maths/Factorial.dart)
+- [Happy Number](maths/HappyNumber.dart)
+- [Magic Number](maths/MagicNumber.dart)
 - [Neon number](maths/NeonNumber.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Sum of Digits](math/SumOfDigits.dart)
-
 
 ## Search
 
 - [Binary Search](search/BinarySearch.dart)
 - [Linear Search](search/LinearSearch.dart)
+- [Interpolation Search](search/InterpolationSearch.dart)
+- [Fibonacci Search](search/FibonacciSearch.dart)
 
 ## Sorting
 

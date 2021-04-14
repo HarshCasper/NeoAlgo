@@ -40,6 +40,7 @@
 - [Armstrong Number](math/armstrong_number.jl)
 - [Automorphic Number](math/automorphic_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
+- [Perfect Number](math/perfect_number.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Number of Digits](math/number_of_digits.jl)
@@ -68,3 +69,7 @@
 - [Selection Sort](sort/selection_sort.jl)
 - [Comb Sort](sort/comb_sort.jl)
 - [Quick Sort](sort/quick_sort.jl)
+
+## Bit Manipulation
+
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.jl)

@@ -63,27 +63,28 @@ if __name__ == "__main__":
     key = int(input())
     print(search_range(list_of_nums, key))
 
-
-"""
-Input: 
-5 7 7 8 8 10 
+'''
+Sample Input-Output:
+Input:
+5 7 7 8 8 10
 8
 Output: [3,4]
-The target 8 is found first at index 3 
+The target 8 is found first at index 3
 and last at index 4 in the list of numbers
 
-Input: 
-5 7 7 8 8 10 
+Input:
+5 7 7 8 8 10
 6
 Output: [-1,-1]
 The target 6 is not found in the list of numbers
 
-Input: 
- 
+Input:
+
 0
 Output: [-1,-1]
 The given list of numbers is empty
 
 Time Complexity: O(log n)
 Space Complexity: O(1)
-"""
+
+'''

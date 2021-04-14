@@ -10,6 +10,7 @@ using namespace std;
 class Solution
 {
 public:
+    // function is being used to find that minimum number
     int minNum(long long int arr[], int n)
     {
         long sum = 0;
@@ -31,9 +32,11 @@ public:
 
 int main()
 {
+    //n = size of array
     int n;
     cout << "Enter the size of the array : " << endl;
     cin >> n;
+    // array size can be big so used long long
     long long a[n];
     cout << "Enter " << n << " number of elements : " << endl;
     for (int i = 0; i < n; i++)

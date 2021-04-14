@@ -24,12 +24,12 @@ int findkthMissing(int arr[],int size,int k){
 }
 
 int main(){
-	int size,k; /* size denotes the size of the array */
+	int size,k; 
 	cout<<"Enter the size of Array : ";
 	cin>>size;
-	int arr[size]; /* This denotes array of above mentioned size */
 	cout<<"Enter the value of k : ";
 	cin>>k;
+	int arr[size]; 
 	cout<<"Enter the elements of the array :";
 	for(int i=0;i<size;i++)
 	cin>>arr[i];

@@ -1,17 +1,23 @@
-/*  QUEUE USING STACKS
-    A queue can be implemented using 2 stacks.
-    Enqueue operation proceeds by:
-        popping second stack and pushing into first stack
-        till second stack becomes empty. New value is then
-        pushed into the first stack
-    Dequeue operation proceeds by:
-        popping first stack and pushing into second stack
-        till first stack becomes empty. Thus first element
-        appears at the top of second stack. Second stack is
-        then popped.
+/*  
+
+QUEUE USING STACKS
+A queue can be implemented using 2 stacks.
+
+Enqueue operation proceeds by:
+Popping second stack and pushing into first stack
+till second stack becomes empty. New value is then
+pushed into the first stack.
+
+Dequeue operation proceeds by:
+Popping first stack and pushing into second stack
+till first stack becomes empty. Thus first element
+appears at the top of second stack. Second stack is
+then popped.
 
 */
+
 #include <bits/stdc++.h>
+using namespace std;
 
 //structure for stack
 typedef struct Stack
@@ -132,25 +138,27 @@ int main()
     return 0;
 }
 /*
-    SAMPLE I/O:
-    Choose an option
-    1. Enqueue
-    2. Dequeue
-    3. Display
-    4. Exit
-    Option : 1
-    Enter the value : 1
-    Option : 1
-    Enter the value : 2
-    Option : 1
-    Enter the value : 3
-    Option : 2
-    Option : 1
-    Enter the value : 4
-    Option : 3
-    2 3 4
-    Option : 4
-*/
-/*  Time Complexity: O(n) for each operation
-    Space complexity : O(n)
+SAMPLE I/O:
+
+Choose an option
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Option : 1
+Enter the value : 1
+Option : 1
+Enter the value : 2
+Option : 1
+Enter the value : 3
+Option : 2
+Option : 1
+Enter the value : 4
+Option : 3
+2 3 4
+Option : 4
+
+Time Complexity: O(n) 
+Space complexity : O(n)
+
 */

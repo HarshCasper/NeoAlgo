@@ -4,46 +4,41 @@ The Sum of divisors refers to the sum of numbers in the range [1 to n] which per
 """
 
 import math
+# Function to get the sum of divisors
 
-#Function to get the sum of divisors
-
-def sum_of_divisors(n):
-
-    #Initializing i as 1 and sum as 0
+def sum_of_divisors(num):
+    # Initializing i as 1 and sum as 0
 
     i = 1
     sum = 0
     while True:
-        if i > math.sqrt(n):
+        if i > math.sqrt(num):
             break
+        # Adding i to sum if it is a factor
 
-        #Adding i to sum if it is a factor 
-
-        if n % i == 0 and i == math.sqrt(n):
+        if num % i == 0 and i == math.sqrt(num):
             sum += i
-
-        #Adding i and n/i to sum if i is a factor     
+        # Adding i and n/i to sum if i is a factor
         
-        elif n % i == 0:
+        elif num % i == 0:
             sum += i
-            sum += n // i
+            sum += num // i
         i += 1
     return sum
 
-#Taking Input
+if __name__ == '__main__':
+    # Taking Input
 
-n = int(input("Enter the number :"))
+    n = int(input("Enter the number :"))
+    # Printing Output
 
-#Printing Output
-
-print("The sum of the divisors is: {} ".format(sum_of_divisors(n)))
+    print("The sum of the divisors is: {} ".format(sum_of_divisors(n)))
 
 """
 Time Complexity - O(sqrt(n)), where 'n' is the number
 Space Complexity - O(1)
 
 SAMPLE INPUT AND OUTPUT
-
 SAMPLE I
 
 INPUT

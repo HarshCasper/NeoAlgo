@@ -42,7 +42,6 @@ public class KOrderedLCS {
 		}
 
 		System.out.println("Length of Longest Common Subsequence - " + dp[k][0][0]);
-
 	}
 
 	public static void main(String[] args) {

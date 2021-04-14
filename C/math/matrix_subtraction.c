@@ -47,12 +47,12 @@ int main()
   scanf("%d", &column_2);
   int matrix_1[row_1][column_1], matrix_2[row_2][column_2];
   if (row_1 == row_2 && column_1 == column_2)
-  {
-    input(row_1, column_1, matrix_1, matrix_2);
-    subtract(row_1, column_1, matrix_1, matrix_2);
-  }
-    else
-    printf("Subtraction of the given matrices is not possible.");
+{
+  input(row_1, column_1, matrix_1, matrix_2);
+  subtract(row_1, column_1, matrix_1, matrix_2);
+}
+  else
+  printf("Subtraction of the given matrices is not possible.");
 }
 
 /*

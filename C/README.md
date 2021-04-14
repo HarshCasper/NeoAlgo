@@ -205,6 +205,7 @@ _add list here_
 - [Magic Number](math/Magic_Number.c) 
 - [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
+- [Matrix Subtraction](math/matrix_subtraction.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
 - [Matrix Transpose](math/matrix_transpose.c)
 - [Mystery Number](math/mystery_number.c)

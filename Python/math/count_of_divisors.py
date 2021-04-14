@@ -26,10 +26,10 @@ def count_of_divisors(num):
     return cnt
 
 if __name__ == '__main__':
-    #Taking Input 
+    # Taking Input 
 
     n = int(input('Enter the number: '))
-    #Printing Output
+    # Printing Output
 
     print("The count of the divisors is: {} ".format(count_of_divisors(n)))
 

@@ -15,15 +15,16 @@
 - [Ackermann Function using Recursions](maths/Ackermann_funciton.dart)
 - [Armstrong number](maths/Armstrong.dart)
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
-- [Automorphic Number](math/automorphic_number.dart)
-- [Binary Exponentiation (Iterative and Recursive methods)](math/Binary_Exponentiation.dart)
+- [Automorphic Number](maths/automorphic_number.dart)
+- [Binary Exponentiation (Iterative and Recursive methods)](maths/Binary_Exponentiation.dart)
+- [Catalan number (Recursion)](maths\catalan_number.dart)
+- [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
-- [Sum of Digits](math/SumOfDigits.dart)
+- [Sum of Digits](maths/SumOfDigits.dart)
 - [Neon number](maths/NeonNumber.dart)
 - [Magic Number](maths/MagicNumber.dart)
 - [Happy Number](maths/HappyNumber.dart)
-- [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 
 ## Search
 

@@ -1,3 +1,9 @@
+/*
+Conversion of a decimal number to binary form can be achieved by continously dividing the number
+number by 2 until the quotient becomes zero. The remained obtained in each step is combined to form
+give the resultant binary form of the number
+*/
+
 import 'dart:io';
 
 // Function to return binary conversion of number

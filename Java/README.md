@@ -137,7 +137,7 @@ _add list here_
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
-- [Reverse of two number](math/ReverseOfTwoNumber.java)
+- [HCF of two number](math/HCFOfTwoNumber.java)
 
 ## Dynamic Programming
 

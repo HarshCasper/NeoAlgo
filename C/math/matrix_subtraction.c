@@ -4,6 +4,7 @@ The Subtraction of a matrix is possible by subtracting the element of another ma
 This code gives the output as as difference between two input matrices.
 */
 #include <stdio.h>
+
 //Function that computes Matrix Subtraction
 void subtract(int row_1, int column_1, int matrix_1[row_1][column_1], int matrix_2[row_1][column_1])
 {
@@ -21,6 +22,7 @@ void subtract(int row_1, int column_1, int matrix_1[row_1][column_1], int matrix
         printf("\n");
     }
 }
+
 //Function that takes input of both matrices
 void input(int row_1, int column_1, int matrix_1[row_1][column_1], int matrix_2[row_1][column_1])
 {
@@ -34,6 +36,7 @@ void input(int row_1, int column_1, int matrix_1[row_1][column_1], int matrix_2[
             scanf("%d", &matrix_2[i][j]);
             printf("\n\n");
 }
+
 int main()
 {
   int row_1, row_2, column_1, column_2;
@@ -47,10 +50,10 @@ int main()
   scanf("%d", &column_2);
   int matrix_1[row_1][column_1], matrix_2[row_2][column_2];
   if (row_1 == row_2 && column_1 == column_2)
-{
-  input(row_1, column_1, matrix_1, matrix_2);
-  subtract(row_1, column_1, matrix_1, matrix_2);
-}
+   {
+     input(row_1, column_1, matrix_1, matrix_2);
+     subtract(row_1, column_1, matrix_1, matrix_2);
+   }
   else
   printf("Subtraction of the given matrices is not possible.");
 }
@@ -58,6 +61,7 @@ int main()
 /*
 Time Complexity: O(r * c), where 'r' is the number of rows and 'c' is the number of columns
 Space Complexity: O(r * c)
+
 SAMPLE INPUT AND OUTPUT
 Enter the number of rows in matrix 1 = 2
 
@@ -70,13 +74,12 @@ Enter the values in matrix 1 -->
 4 5
 6 7
 
-
 Enter the values in matrix 2 -->
 2 3
 4 5
-
 
 Matrix after Subtraction is -->
 2       2
 2       2
 */
+

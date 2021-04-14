@@ -22,43 +22,17 @@ struct node *rt;
 }*root = NULL, *temp = NULL;
 //root & temp are made global so that we dont need to pass those again & again
 
-void insert();
-void search(struct node *t);
-void postorder(struct node *t);
-
-void main()
+// Function to search the appropriate position to insert the new node
+void search(struct node *t)
 {
-    int choice;
-    printf("\n------------------------------------");
-    printf("\n1 - Insert an element into tree");
-    printf("\n2 - Postorder Traversal");
-    printf("\n3 - Exit");
-    printf("\n------------------------------------");
-
-    while(1)
-    {
-        printf("\nEnter your choice : ");
-        scanf("%d", &choice);
-        switch (choice)
-        {
-            case 1:    
-            insert();
-            break;
-
-            case 2:
-            printf("Postorder Traversal :\n");
-            postorder(root);
-            break;
-
-            case 3:
-            printf("Program terminated\n");
-            exit(0);
-
-            default :     
-            printf("Invalid Choice entered");
-            break;    
-        }
-    }
+    if ((temp->key > t->key) && (t->rt != NULL))            //key > root node move down more right
+        search(t->rt);
+    else if ((temp->key > t->key) && (t->rt == NULL))       //if right node NULL, insert key
+        t->rt = temp;
+    else if ((temp->key < t->key) && (t->lt != NULL))       //key < root node move down more left */
+        search(t->lt);
+    else if ((temp->key < t->key) && (t->lt == NULL))       //if left node NULL, insert key
+        t->lt = temp;
 }
 
 /* To insert a node in the tree */
@@ -93,17 +67,39 @@ void postorder(struct node *t)
     printf("%d => ", t->key);                             //    V       (Visit)
 }
 
-// Function to search the appropriate position to insert the new node
-void search(struct node *t)
+void main()
 {
-    if ((temp->key > t->key) && (t->rt != NULL))            //key > root node move down more right
-        search(t->rt);
-    else if ((temp->key > t->key) && (t->rt == NULL))       //if right node NULL, insert key
-        t->rt = temp;
-    else if ((temp->key < t->key) && (t->lt != NULL))       //key < root node move down more left */
-        search(t->lt);
-    else if ((temp->key < t->key) && (t->lt == NULL))       //if left node NULL, insert key
-        t->lt = temp;
+    int choice;
+    printf("\n------------------------------------");
+    printf("\n1 - Insert an element into tree");
+    printf("\n2 - Postorder Traversal");
+    printf("\n3 - Exit");
+    printf("\n------------------------------------");
+
+    while(1)
+    {
+        printf("\nEnter your choice : ");
+        scanf("%d", &choice);
+        switch (choice)
+        {
+            case 1:    
+            insert();
+            break;
+
+            case 2:
+            printf("Postorder Traversal :\n");
+            postorder(root);
+            break;
+
+            case 3:
+            printf("Program terminated\n");
+            exit(0);
+
+            default :     
+            printf("Invalid Choice entered");
+            break;    
+        }
+    }
 }
 
 /*

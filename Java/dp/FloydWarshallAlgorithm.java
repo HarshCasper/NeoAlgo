@@ -77,8 +77,8 @@ class FloydWarshallAlgorithm
             System.out.println();
         }
     }
-    public static void main (String[] args)
-    {/* Below is the graph which user will input
+    public static void main (String[] args) {
+        /* Below is the graph which user will input
          for which we have to find the shortest path*/
         int n;
         Scanner sc = new Scanner(System.in );
@@ -99,7 +99,7 @@ class FloydWarshallAlgorithm
 /*
  Sample Input/Output:
  Input: Enter size (N) of the 2D array representation for a graph of dimension NXN: 4
-        Enter a NXN graph row wise (use INF for infinity):
+        Enter a NXN graph row wise (use 1111 for infinity):
         0    8    1111  15
         1111 0    4     1111
         1111 1111 0     2

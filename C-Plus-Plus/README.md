@@ -393,6 +393,7 @@ _add list here_
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
+- [Fibonacci Recursive](math/fibonacci.cpp)
 
 ## Dynamic Programming
 

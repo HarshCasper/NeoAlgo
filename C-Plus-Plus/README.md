@@ -24,10 +24,12 @@
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Combination Sum](cp/Combination_Sum.cpp)
+- [Combination Sum without Repeating the Values](cp/Combination_sum_without_Repeated_values.cpp)
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Generic Function for Swapping](cp/Generic_Swaps.cpp)
+- [Adjacent Difference Algorithm](cp/adjacent.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
 - [Count Max Consecutive One's](cp/max_consecutive_ones.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
@@ -131,9 +133,10 @@
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
+- [All unique permutations](cp/all_unique_permutation.cpp)
+- [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
 - [Max Topology Short](cp/Max_Topology_short.cpp)
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
-
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
 
 ## Data Structures
@@ -220,6 +223,7 @@
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
+- [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 
 ## Graphs
 
@@ -229,6 +233,7 @@
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
 - [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
+- [Boruvka's Algorithm for finding MST](graphs/Boruvka_algorithm_for_finding_MST.cpp)
 - [Celebrity Problem](graphs/celebrity_problem.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
@@ -333,6 +338,7 @@
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
+- [Next greatest element to the left](stack/nextGreatestToLeft.cpp)
 
 ## Heap based problems
 
@@ -391,6 +397,7 @@ _add list here_
 - [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
+- [Matrix Rotation 90 degree to right](math/Matrix_rotation_90degree.cpp)
 - [Mystery Number](math/mystery_number.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)
@@ -398,6 +405,7 @@ _add list here_
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
+- [Fibonacci Recursive](math/fibonacci.cpp)
 
 ## Dynamic Programming
 
@@ -564,3 +572,4 @@ _add list here_
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
 - [Repeating and Missing Number](other/repeated_missing.cpp)
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
+

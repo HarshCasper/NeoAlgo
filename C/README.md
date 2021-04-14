@@ -42,6 +42,7 @@
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
+- [Trapping rain water](cp/Trapping_rain_water.c)
 
 ## Cryptography
 
@@ -76,9 +77,9 @@
 - [Bellman Ford Algorithm](ds/bellman_ford.c)
 - [Implementation of Dijkstra's Algorithm](ds/Dijsktra.c)
 - [Circular Queue](ds/circularqueue.c)
-- [Post Order Traversal](ds/Postorder.c)
 - [Detect Middle Element of the LinkedList](ds/middle_element_of_linkedlist.c)
 - [Detect Loop/Cycle in a LinkedList](ds/detectLoopLL.c)
+- [Inorder Traversal](ds/Inorder.c)
 - [Postorder Traversal](ds/Postorder.c)
 - [Stack Implementation with Array](ds/StackImplementationWithArray.c)
 - [Stack Implementation with Linked List](ds/StackImplementationWithLinkedList.c)
@@ -151,6 +152,7 @@
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 - [Comb Sort](sort/comb.c)
 - [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
+- [Wiggle Sort](sort/Wiggle_sort.c)
 
 ## Dynamic Programming
 
@@ -205,7 +207,9 @@ _add list here_
 - [Magic Number](math/Magic_Number.c) 
 - [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
+- [Matrix Subtraction](math/matrix_subtraction.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
+- [Matrix Transpose](math/matrix_transpose.c)
 - [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
@@ -214,6 +218,7 @@ _add list here_
 
 - [Banker's Algorithm](operating_system/bankers.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
+- [Priority Scheduling Algorithm](operating_system/priority_sjf.c)
 
 
 ## Other

@@ -19,6 +19,7 @@
 - [Factorial](dp/factorial)
 - [Fibonacci](dp/fibonacci)
 - [Maximum Sub-array sum](dp/Max_SubArray_Sum)
+- [Golomb Sequence](dp/golomb_sequence)
 
 ## Data Structures
 - [Binary Tree](ds/binary_tree)

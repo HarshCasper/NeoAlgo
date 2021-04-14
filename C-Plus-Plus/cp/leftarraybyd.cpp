@@ -16,7 +16,6 @@ void reversearray(int arr[],int start ,int end)
 {
 	
 	while (start<end){
-		//swap function
 	swap(arr[start],arr[end]);            
 	start ++;
 	end --;
@@ -27,14 +26,13 @@ void leftrotate(int arr[],int d,int n)
 {
 	if(d==0 || d==n)
 	return ;
-	//if d is greater than n
 	d=d%n; 
 	reversearray(arr,0,d-1);
 	reversearray(arr,d,n-1);
 	reversearray(arr,0,n-1);
 }
 
-void printarray(int arr[],int n)  //function to print array
+void printarray(int arr[],int n)  
 {
 	for(int i=0;i<n;i++)
 	cout<<arr[i]<<" ";
@@ -44,7 +42,6 @@ int main()
 {
 	int arr[] ={1,2,3,4,5,6,7};
 	int d=2;
-	//computing size of array
 	int n = sizeof(arr)/sizeof(arr[0]); 
 	leftrotate(arr,d,n);
 	printarray(arr,n);

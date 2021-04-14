@@ -332,6 +332,7 @@
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
 - [Matrix Multiplication](math/Matrix_multiplication.py)
+- [Count of Divisors](math/count_of_divisors.py)
 - [Reverse a Number](math/reverse_a_number.py)
 - [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)

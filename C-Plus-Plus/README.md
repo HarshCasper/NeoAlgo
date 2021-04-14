@@ -428,7 +428,7 @@ _add list here_
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
-- [Minimum sum partition](dp/Minimum_sum_partition.cpp)
+- [Minimum Sum Partition](dp/Minimum_Sum_Partition_dp.cpp)
 - [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
 - [Number of subsets with given difference](dp/subsets_with_given_diff.cpp)
 - [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)
@@ -503,6 +503,7 @@ _add list here_
 
 ## Other
 
+- [Minimum sum partition](dp/Minimum_sum_partition_recursive.cpp)
 - [Transpose of a Square Matrix](other/Transpose_Of_Square_Matrix.cpp)
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)

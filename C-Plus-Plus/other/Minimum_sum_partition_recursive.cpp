@@ -1,4 +1,11 @@
 // Minimum Sum Partition
+/*
+This problem is solved using recursions.
+In this problem we have to find minimum difference of two subset.
+We have to divide array in two subsets in such a way that difference of both subsets 
+will become minimum.
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;

@@ -3,6 +3,9 @@
 A neon number is a number where the sum of digits of the square of the number is equal to the number.
 Below is the implementation to check whether the given number is Neon number or not. 
 
+Time Complexity - O(log n)
+Space Complexity - O(1)
+
 */
 
 // Prompt node package for taking user input
@@ -23,8 +26,8 @@ function checkNeonLoop(number) {
 
   // check is neon?
   if (number === neon)
-    return console.log("CheckNeonLoop result - Neon number!");
-  return console.log("CheckNeonLoop result - Not a Neon number");
+    return console.log("Using Loop result - Neon number!");
+  return console.log("Using Loop result - Not a Neon number");
 }
 
 // using built-in methods
@@ -40,8 +43,8 @@ function checkNeon(number) {
   }, 0);
 
   // check is neon?
-  if (getSum === number) return console.log("CheckNeon result - Neon number!");
-  return console.log("CheckNeon result - Not a Neon number");
+  if (getSum === number) return console.log("Using Built-In methods result - Neon number!");
+  return console.log("Using Built-In methods result - Not a Neon number");
 }
 
 let number = +prompt("Enter a number - ");
@@ -58,16 +61,16 @@ checkNeonLoop(number);
 
 /*
 
-node NeonNumber
+> node NeonNumber
 
+// Example 01
 Enter a number - 12
-CheckNeon result - Not a Neon number
-CheckNeonLoop result - Not a Neon number
+Using Built-In methods result - Not a Neon number
+Using Loop result - Not a Neon number
 
+// Example 02
 Enter a number - 9
-CheckNeon result - Neon number!
-CheckNeonLoop result - Neon number!
+Using Built-In methods result - Neon number!
+Using Loop result - Neon number!
 
 */
-
-

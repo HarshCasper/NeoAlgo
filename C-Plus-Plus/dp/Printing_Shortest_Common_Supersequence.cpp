@@ -90,7 +90,7 @@ abcdaf
 aebcf
 Output -
 Shortest Common Subsequence -
-abcf
+aebcdaf
 Time Complexity - O(m*n)
 Space Complexity - O(m*n)
 */

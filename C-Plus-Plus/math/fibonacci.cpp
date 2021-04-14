@@ -7,7 +7,9 @@ using namespace std;
 // This function returns the nth terms in fibonacci sequence
 int fibonacci(int number) {
 	// Base case for n = 0 and n = 1
-	if(number == 0 || number == 1) 
+	if(number == 0) 
+		return 0;
+	else if(number == 1) 
 		return 1;
 	// Recursively call the function for n-1 and n-2
 	return fibonacci(number - 1) + fibonacci(number - 2);
@@ -37,7 +39,7 @@ Sample I/O:
 1)
 Enter a number: 7
 
-The term at index 7 of the fibonacci sequence is 21
+The term at index 7 of the fibonacci sequence is 13
 
 2)
 Enter a number: -23

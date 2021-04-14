@@ -26,6 +26,7 @@ int Fibonacci(int n)
 int main()
 {
     int n;
+    cout<<"Enter number : ";
     cin>>n;
     cout<<"Fibonacci : "<<Fibonacci(n);
     return 0;
@@ -35,12 +36,14 @@ int main()
     Time Complexity : O(n)
     Space Complexity : O(1)
 
-    Sample Inputs and Outputs:
+    Sample Outputs:
+    
+    Test Case - 1:
+    Enter number : 5
+    Fibonacci : 5
 
-    (Input)  5
-    (Output) Fibonacci : 5
+    Test Case - 1:
+    Enter number : 9
+    Fibonacci : 34
 
-    (Input)  9
-    (Output) Fibonacci : 34
 */
-

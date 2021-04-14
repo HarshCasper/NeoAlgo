@@ -4,45 +4,40 @@ Count of divisors refers to the count of numbers in the range [1 to n] which per
 """
 
 import math
+# Function to calculate the count of divisors
 
-#Function to calculate the count of divisors
-
-def count_of_divisors(n):
+def count_of_divisors(num):
     i = 1
-
-    #Initializing cnt by 0
+    # Initializing cnt by 0
 
     cnt = 0
     while True:
-        if i > math.sqrt(n):
+        if i > math.sqrt(num):
             break
+        # Increasing cnt by 1 for i
 
-        #Increasing cnt by 1 for i
-
-        if n % i == 0 and i == math.sqrt(n):
+        if num % i == 0 and i == math.sqrt(num):
             cnt += 1
+        # Increasing cnt by 2 for i and n/i
 
-        #Increasing cnt by 2 for i and n/i
-
-        elif n % i == 0:
+        elif num % i == 0:
             cnt += 2
         i += 1
     return cnt
 
-#Taking Input 
+if __name__ == '__main__':
+    #Taking Input 
 
-n = int(input('Enter the number: '))
+    n = int(input('Enter the number: '))
+    #Printing Output
 
-#Printing Output
-
-print("The count of the divisors is: {} ".format(count_of_divisors(n)))
+    print("The count of the divisors is: {} ".format(count_of_divisors(n)))
 
 """
 Time Complexity - O(sqrt(n)), where 'n' is the number
 Space Complexity - O(1)
 
 SAMPLE INPUT AND OUTPUT
-
 SAMPLE I
 
 INPUT
@@ -52,3 +47,4 @@ OUTPUT
 The count of the divisors is: 9
 
 """
+

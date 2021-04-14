@@ -71,4 +71,22 @@ int main(){
 	}
 
 }
+/* sample output:
+enter the size of array you want:6
 
+enter the element of the array:12
+
+enter the element of the array:45
+
+enter the element of the array:65
+
+enter the element of the array:89
+
+enter the element of the array:98
+
+enter the element of the array:100
+
+enter the element want to search in the array:100
+
+element present at index 5
+*/

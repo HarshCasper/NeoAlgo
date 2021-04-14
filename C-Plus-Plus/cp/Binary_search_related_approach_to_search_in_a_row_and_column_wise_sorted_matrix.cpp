@@ -70,7 +70,7 @@ int main()
       {   mid=arr[i][j];
           if(mid == element)
           {
-            cout<<"Element found at : "<<i+1<<" "<<j+1<<"\n";
+            cout<<"The key "<<key<<" is found at position : "<<i+1<<" , "<<j+1;
             f=1;
             break;
           }
@@ -115,10 +115,35 @@ Hence found
    |
 12 22 32 42
 13 23 33 43
+*/
+
+
+/*
+Input:
+n:4
+m:4
+arr:
+10, 20, 30, 40 
+15, 25, 35, 45 
+27, 29, 37, 48 
+32, 33, 39, 50 
+
+key:48
+output:
+"The key 48 is found at position : 3 ,4"
+key:28
+output:
+"Not found"
+
+
+
+
+*/
+
 
 /*
 In worst case we would have to traverse from one corner to another hence the
 Time Complexity:O(n+m)
 Space Complexity:O(1)
-/*
+*/
 

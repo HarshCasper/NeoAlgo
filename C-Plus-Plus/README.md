@@ -398,6 +398,7 @@ _add list here_
 - [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
+- [Matrix Rotation 90 degree to right](math/Matrix_rotation_90degree.cpp)
 - [Mystery Number](math/mystery_number.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)

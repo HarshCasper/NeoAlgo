@@ -1,36 +1,57 @@
-/* The adjacent_difference algo produces a new sequence
- in which each element is difference between adjacent 
- elements in original sequence. */
-
-#include <iostream>
-#include <vector>
-#include <numeric>
-using namespace std;
-
-int main(){
-	
-	vector<int> v(10),r(10);
-	int i;
-	
-	for(i=0; i<10; i++)
-	 v[i] = i*2;
-	 cout << " Original sequence";
-	for(i=0; i<10; i++)
-	  cout << v[i] << " ";
-	cout<<endl;
-	
-	adjacent_difference(v.begin(),v.end(),r.begin());
-	
-	cout<<" Resulting sequence :";
-	for(i=0; i<10; i++)
-	 cout<< r[i] <<" ";
-}
 /* 
- Time-Complexity = O(N)
- Space-Complexity = O(N)
- */
+The adjacent_difference algo produces a new sequence
+in which each element is difference between adjacent 
+elements in original sequence. 
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
  
+void adjacent_difference()
+{
+    int num;
+    cout << "Enter the no. of values :" << endl;
+    cin >> num;
+	vector<int> v(num), r(num);
+	
+	for(int i=0; i<num; i++)
+	{
+		v[i] = i*2;
+	}
+
+	cout << "Original sequence :" << endl;
+	for(int i=0; i<num; i++)
+	{
+		cout << v[i] << " ";
+	}
+	cout << endl;
+	
+	adjacent_difference(v.begin(), v.end(), r.begin());
+	
+	cout<<"Resulting sequence :" << endl;
+	for(int i=0; i<num; i++)
+	{
+		cout<< r[i] <<" ";
+	}
+}
+ 
+int main()
+{
+	adjacent_difference();
+	return 0; 
+}
+	
 /*
-Input :- 0 2 4 6 8 10 12 14 16 18 
-Output :- 0 2 2 2 2 2 2 2 2 2 
+Sample Output:
+Enter the no. of values :                                                                                                                       
+5                                                                                                                                               
+Original sequence :                                                                                                                             
+0 2 4 6 8                                                                                                                                       
+Resulting sequence :                                                                                                                            
+0 2 2 2 2 
+*/
+
+/*
+Time-Complexity = O(N)
+Space-Complexity = O(N)
 */

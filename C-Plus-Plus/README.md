@@ -139,8 +139,6 @@
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
 
-
-
 ## Data Structures
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
@@ -352,6 +350,7 @@
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
+
 ## Machine Learning
 
 _add list here_
@@ -573,3 +572,5 @@ _add list here_
 - [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
 - [Repeating and Missing Number](other/repeated_missing.cpp)
+- [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
+

@@ -1,25 +1,9 @@
 /*
-kotlin program to check happy numbers
+A number is called happy if it leads to 1 after a sequence of steps
+wherein each step number is replaced by the sum of squares of its digit
+that is if we start with Happy Number and keep replacing it with digits square sum, we reach 1.
 
-A happy number is a number, if we reach to 1 after replacing the number by the squares of the digits of the number
-
-Following examples will help to understand better:-
-
-Input: n = 19
-Output: True
-19 is Happy Number,
-1^2 + 9^2 = 82
-8^2 + 2^2 = 68
-6^2 + 8^2 = 100
-1^2 + 0^2 + 0^2 = 1
-As we reached to 1, 19 is a Happy Number.
-
-Input: n = 20
-Output: False
-20 is not a happy number
-2^2 + 0^2 = 4
-4^2 = 16
-As we cannot reach to 1, 20 is not a happy number
+Examples of Happy numbers are:- 1, 7, 10, 13, 19, 23, 28, 31, 32, 44, 49, 68, 70,...
 */
 
 import java.util.*

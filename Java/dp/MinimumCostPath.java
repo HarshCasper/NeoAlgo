@@ -1,26 +1,21 @@
-// Description: Find out the minimum cost to reach from the cell (0, 0) to (m - 1, n - 1) for a given m x n array.
-
+/* Description: An integer matrix of size (M x N) has been given. Find out the minimum cost to reach from the cell (0, 0) to (M - 1, N - 1).
+The cost of a path is defined as the sum of each cell's values through which the route passes.
+*/
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 public class Solution {
-//    Dynamic Programming function
     public static int minCostPathDP(int[][] input) {
-    	int m = input.length;
+    	  int m = input.length;
         int n = input[0].length;
-        int storage[][] = new int[m][n]; // storage array
-//       Filling up storage array
-//       Base cases
+        int storage[][] = new int[m][n];
         storage[m-1][n-1] = input[m-1][n-1];
-        // Last row
         for(int j = n-2; j >= 0; j--) {
         	storage[m-1][j] = storage[m-1][j+1] + input[m-1][j];
         }
-        // Last column
         for(int i = m-2; i >=0; i--) {
         	storage[i][n-1] = storage[i+1][n-1] + input[i][n-1];
         }
-//        Complete array
         for(int i = m-2; i>=0; i--) {
          	for(int j = n-2; j >= 0; j--) {
         		storage[i][j] = input[i][j] + Math.min(storage[i][j+1], Math.min(storage[i+1][j+1], storage[i+1][j]));
@@ -28,7 +23,6 @@ public class Solution {
         }
         return storage[0][0];
     }
-//    Take input
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     public static int[][] take2DInput() throws IOException {
         String[] strRowsCols = br.readLine().trim().split("\\s");
@@ -47,32 +41,27 @@ public class Solution {
         }
         return mat;
     }
-//    Main function
+  //Drive Code
   public static void main(String[] args) throws NumberFormatException, IOException {
         int[][] mat = take2DInput();
-        System.out.println("Dynamic Programming Solution:" + minCostPathDP(mat));
+        System.out.println("Solution:" + minCostPathDP(mat));
   }
 }
 /*
-Sample Input 1 :
+Input format :
+The first line of the test case contains two integer values, 'M' and 'N', separated by a single space. They represent the 'rows' and 'columns' respectively, for the two-dimensional array/list.
+The second line onwards, the next 'M' lines or rows represent the ith row values.
+Each of the ith row constitutes 'N' column values separated by a single space.
+Output format :
+Print the minimum cost to reach the destination.
+Sample Input :
 3 4
 3 4 1 2
 2 1 8 9
 4 7 8 1
-Sample Output 1 :
+Sample Output :
 13
 
-Sample Input 2 :
-3 4
-10 6 9 0
--23 8 9 90
--200 0 89 200
-Sample Output 2 :
-76
-
-Time Complexity:
-Dynamic Programming: O(n^2)
-  
-Space Complexity:
-Dynamic Programming: O(m*n)
+Time Complexity: O(n^2)
+Space Complexity: O(m*n)
 */

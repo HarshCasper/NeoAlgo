@@ -345,6 +345,7 @@ _add list here_
 - [Count Inversions](other/Count_Inversion.py)
 - [Distinct Elements Count](other/Distinct_elements_count.py)
 - [Find frequency using Binary Search](other/find_freq_using_bs.py)
+- [Hourglass Pattern](other/hourglass_pattern.py)
 - [Kadane's Algorithm](other/Kadanes_Algorithm.py)
 - [Longest Substring](other/longest_Substring.py)
 - [Merging Sorted arrays](other/merge_sorted_arrays.py)

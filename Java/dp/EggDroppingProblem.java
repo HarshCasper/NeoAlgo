@@ -94,7 +94,6 @@ public class EggDroppingProblem {
     }
 }
 
-
 /* 
 Sample Input: 
 Enter the number of floors: 14
@@ -107,5 +106,3 @@ Time Complexity: O(K * log(N)) where K = eggs we have and N = building height we
 Space Complexity: O(K)
 
 */ 
-
-

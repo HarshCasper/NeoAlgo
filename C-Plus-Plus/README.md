@@ -430,6 +430,7 @@ _add list here_
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Shortest Common Supersequence](dp/Shortest_Common_Superseq.cpp)
 
 ## Bit - Manipulation
 

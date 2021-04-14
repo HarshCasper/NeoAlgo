@@ -2,19 +2,19 @@
     Takes an array of integers sorted in ascending order, a target value and
     finds the starting and ending position of a given target value.
 
-    Approach - Binary Search
-"""
+    Approach - Binary Search:
 
-
-def Binary_Search(nums, target, flag=0):
-    """
     Binary search follows divide and conquer approach in which,
     the list is divided into two halves and the item is compared
     with the middle element of the list. If the match is found then,
     the location of middle element is returned otherwise,
     we search into either of the halves depending
     upon the result produced through the match.
+"""
 
+
+def Binary_Search(nums, target, flag=0):
+    """
     - Returns the initial found index position of the target value
       if flag is set to 0 (Default)
     - Returns Starting Positon of the target value if flag is set to -1
@@ -22,9 +22,6 @@ def Binary_Search(nums, target, flag=0):
 
     If the target is not present in the list of numbers,
     -1 is returned irrespective of the flag value
-
-    # Time Complexity: O(log n)
-    # Space Complexity: O(1)
     """
     pos = -1
     low, high = 0, len(nums) - 1
@@ -67,11 +64,26 @@ if __name__ == "__main__":
     print(search_range(list_of_nums, key))
 
 
-# Input: nums = [5,7,7,8,8,10], target = 8
-# Output: [3,4]
+"""
+Input: 
+5 7 7 8 8 10 
+8
+Output: [3,4]
+The target 8 is found first at index 3 
+and last at index 4 in the list of numbers
 
-# Input: nums = [5,7,7,8,8,10], target = 6
-# Output: [-1,-1]
+Input: 
+5 7 7 8 8 10 
+6
+Output: [-1,-1]
+The target 6 is not found in the list of numbers
 
-# Input: nums = [], target = 0
-# Output: [-1,-1]
+Input: 
+ 
+0
+Output: [-1,-1]
+The given list of numbers is empty
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+"""

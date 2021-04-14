@@ -369,6 +369,7 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Count pair with given sum](other/count_pair_with_given_sum.py)
 - [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)
 - [Next premutation](other/Next_premutation.py)
 - [Minimum number of jumps](other/minimize_the_jump.py)

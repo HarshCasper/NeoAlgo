@@ -5,17 +5,17 @@ The reverse of a number is a number that is obtained when a number is traversed 
 
 #include <bits/stdc++.h>
 using namespace std;
-//Function to do reverse
+// Function to do reverse
 
 int reverse(int num) {
-  //Initializing rev as 0
+  // Initializing rev as 0
 
   int rev = 0;
   do {
-    //Adding the last digit
+    // Adding the last digit
 
     rev = rev * 10 + num % 10;
-    //Removing the last digit
+    // Removing the last digit
 
     num = num / 10;
   } while (num > 0);
@@ -25,11 +25,11 @@ int reverse(int num) {
 
 int main() {
   int num;
-  //Taking Input 
+  // Taking Input 
 
   cout << "Enter the number: ";
   cin >> num;
-  //Printing Output
+  // Printing Output
 
   cout << "The reverse of the given number is: " << reverse(num);
   return 0;

@@ -208,6 +208,7 @@ _add list here_
 - [Matrix Subtraction](math/matrix_subtraction.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
 - [Matrix Transpose](math/matrix_transpose.c)
+- [Symmetric Matrix](math/matrix_symmetric.c)
 - [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)

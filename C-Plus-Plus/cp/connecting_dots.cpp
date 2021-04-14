@@ -19,6 +19,7 @@ int connectDots(int a1[],int a2[],int white,int black)
     }
     return ans;
 }
+
 int main()
 {
     int white,black;
@@ -33,17 +34,21 @@ int main()
     {
         cin>>a2[j];
     }
-    cout<<"total length needed is: "<<connectDots(a1,a2,white,black)<<endl;
+    cout<<"Total length needed is: "<<connectDots(a1,a2,white,black)<<endl;
     return 0;
 }
-/*Example: 
+/*
+Example: 
+
 Input:-
 Enter total number of white and black dots:
 3 3
 3 4 1
 2 5 6
+
 Output:-
-total length needed is: 5
+Total length needed is: 5
+
 Time Complexity: O(nlogn)
 Space Complexity: O(n)
 */

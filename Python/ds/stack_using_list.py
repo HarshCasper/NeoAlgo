@@ -12,14 +12,14 @@ class Stack:
 
     #check if stack is empty
     def is_empty(self):
-        if self.stack==[]:
+        if self.stack == []:
             print("Stack is empty !")
         else:
             print("Stack not empty yet")
 
     #removing an element from top
     def pop(self):
-        if(self.stack==[]):
+        if self.stack == []:
             print("Underflow")
         else:
             value = self.stack.pop()
@@ -28,18 +28,18 @@ class Stack:
 
     #get the top element
     def peek(self):
-        if(self.stack==[]):
+        if self.stack == []:
             print("Underflow")
         else:
-            print("Top element is : " , self.stack[len(self.stack)-1])
+            print("Top element is : " , self.stack[-1])
 
     #display stack elements
     def display(self):
-        if(self.stack==[]):
+        if self.stack == []:
             print("Underflow")
         else:
             print("Stack elements are :")
-            for i in range (self.top, -1, -1):
+            for i in range(self.top, -1, -1):
                 print(self.stack[i])
 
 #executable code
@@ -49,22 +49,21 @@ if __name__ == '__main__':
     print("1. Push\n2. Pop\n3. Peek\n4. Empty\n5. Display\n6. Exit")
     while True:
         ch = int(input("Enter your choice : "))
-        if(ch==1):
+        if ch == 1:
             val = int(input("Enter a value : "))
             s.push(val)
-        elif(ch==2):
+        elif ch == 2:
             s.pop()
-        elif(ch==3):
+        elif ch == 3:
             s.peek()
-        elif(ch==4):
+        elif ch == 4:
             s.is_empty()
-        elif(ch==5):
+        elif ch == 5:
             s.display()
-        elif(ch==6):
+        elif ch == 6:
             break
         else:
             print("Wrong choice")
-
             
 """
 SAMPLE I/O:

@@ -36,24 +36,23 @@ void input(int row_1, int column_1, int matrix_1[row_1][column_1], int matrix_2[
 }
 int main()
 {
-    int row_1, row_2, column_1, column_2;
-    printf("\nEnter the number of rows in matrix 1 = ");
-    scanf("%d", &row_1);
-    printf("\nEnter the number of columns in matrix 1 = ");
-    scanf("%d", &column_1);
-    printf("\nEnter the number of rows in matrix 2 = ");
-    scanf("%d", &row_2);
-    printf("\nEnter the number of columns in matrix 2 = ");
-    scanf("%d", &column_2);
-    int matrix_1[row_1][column_1], matrix_2[row_2][column_2];
-    //If number of rows and columns of matrix 1 and matrix 2 are different then they cannot be subtracted
-            if (row_1 == row_2 && column_1 == column_2)
-            {
-                input(row_1, column_1, matrix_1, matrix_2);
-                subtract(row_1, column_1, matrix_1, matrix_2);
-            }
-            else
-                printf("Subtraction of the given matrices is not possible.");
+  int row_1, row_2, column_1, column_2;
+  printf("\nEnter the number of rows in matrix 1 = ");
+  scanf("%d", &row_1);
+  printf("\nEnter the number of columns in matrix 1 = ");
+  scanf("%d", &column_1);
+  printf("\nEnter the number of rows in matrix 2 = ");
+  scanf("%d", &row_2);
+  printf("\nEnter the number of columns in matrix 2 = ");
+  scanf("%d", &column_2);
+  int matrix_1[row_1][column_1], matrix_2[row_2][column_2];
+  if (row_1 == row_2 && column_1 == column_2)
+  {
+    input(row_1, column_1, matrix_1, matrix_2);
+    subtract(row_1, column_1, matrix_1, matrix_2);
+  }
+    else
+    printf("Subtraction of the given matrices is not possible.");
 }
 
 /*

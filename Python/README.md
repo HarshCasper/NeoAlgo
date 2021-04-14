@@ -18,6 +18,7 @@
 * [Reverse Linked List](ds/Reverse_linked_list.py)
 * [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
 * [Identical BSTs](ds/identical_binary_tree.py)
 * [Loop detection in Linked List](ds/loop_detection_in_LL.py)
 
@@ -117,6 +118,7 @@
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
 - [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
+- [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 
 
 ## Cryptography
@@ -192,10 +194,12 @@
 - [Coin Change Problem](dp/CoinChange.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Common Substring](dp/length_longest_common_substring.py)
+- [Longest Decreasing Subsequence](dp/length_common_decreasing_subsequence.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 - [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
+- [Golomb Sequence](dp/golomb_sequence.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
@@ -207,6 +211,7 @@
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
+- [Catalan Number](dp/Catalan_DP.py)
 
 ## Pathfinding Algorithms
 
@@ -327,6 +332,9 @@
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
 - [Matrix Multiplication](math/Matrix_multiplication.py)
+- [Count of Digits](math/count_of_digits.py)
+- [Lucky Numbers](math/Lucky_Numbers.py)
+
 ## Blockchain
 
 _add list here_
@@ -361,6 +369,7 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Count pair with given sum](other/count_pair_with_given_sum.py)
 - [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)
 - [Next premutation](other/Next_premutation.py)
 - [Minimum number of jumps](other/minimize_the_jump.py)

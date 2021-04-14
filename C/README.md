@@ -42,6 +42,7 @@
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
+- [Trapping rain water](cp/Trapping_rain_water.c)
 
 ## Cryptography
 

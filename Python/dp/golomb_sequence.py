@@ -1,6 +1,8 @@
-"""Python program to print the n'th term in the Golomb sequence
+"""
+Python program to print the n'th term in the Golomb sequence
 Golomb sequence is a non-decreasing integer sequence where n'th
-term is  equal to the number of times n appears in the sequence"""
+term is  equal to the number of times n appears in the sequence
+"""
 
 
 def golomb_sequence(n):

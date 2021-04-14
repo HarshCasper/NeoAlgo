@@ -24,6 +24,7 @@
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Combination Sum](cp/Combination_Sum.cpp)
+- [Combination Sum without Repeating the Values](cp/Combination_sum_without_Repeated_values.cpp)
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
@@ -137,8 +138,8 @@
 - [Max Topology Short](cp/Max_Topology_short.cpp)
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
-
-
+- [Connecting Dots](cp/connecting_dots.cpp)
+- [Friends Pairing](cp/friends_pairing.cpp)
 
 ## Data Structures
 
@@ -224,6 +225,7 @@
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
+- [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 
 ## Graphs
 
@@ -267,6 +269,7 @@
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
+- [Top view of Tree](graphs/top_view_binary_tree.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 
@@ -349,6 +352,7 @@
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
+
 ## Machine Learning
 
 _add list here_
@@ -396,6 +400,7 @@ _add list here_
 - [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
+- [Matrix Rotation 90 degree to right](math/Matrix_rotation_90degree.cpp)
 - [Mystery Number](math/mystery_number.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)
@@ -403,6 +408,7 @@ _add list here_
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
+- [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
 
 ## Dynamic Programming
@@ -569,3 +575,5 @@ _add list here_
 - [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
 - [Repeating and Missing Number](other/repeated_missing.cpp)
+- [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
+

@@ -332,8 +332,11 @@
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
 - [Matrix Multiplication](math/Matrix_multiplication.py)
+- [Sum of Divisors](math/sum_of_divisors.py)
+- [Count of Divisors](math/count_of_divisors.py)
+- [Reverse a Number](math/reverse_a_number.py)
+- [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
-
 
 ## Blockchain
 
@@ -369,6 +372,8 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Common Elements](other/common_elements.py)
+- [Count pair with given sum](other/count_pair_with_given_sum.py)
 - [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)
 - [Next premutation](other/Next_premutation.py)
 - [Minimum number of jumps](other/minimize_the_jump.py)
@@ -376,6 +381,5 @@ _add list here_
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
-
 
 ## [Coding Template for Contribution](Code_Template.md)

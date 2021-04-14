@@ -1,7 +1,7 @@
-/* WIGGLE SORT
-   This program accepts an array of unsorted numbers and
-   sorts the array such that arr[0]<arr[1]>arr[2]<arr[3]...
-
+/* 
+WIGGLE SORT
+This program accepts an array of unsorted numbers and
+sorts the array such that arr[0]<arr[1]>arr[2]<arr[3]...
 */
 
 #include<stdio.h>
@@ -82,31 +82,28 @@ void wiggle_sort(int n, int* arr)
 int main()
 {
     int element, i, no_of_elements;
+    printf("Enter the size of array: ");
     scanf("%d", &no_of_elements);
     int *arr=malloc(sizeof(int)*no_of_elements);
+    printf("Enter the array: ");
     for (int i = 0; i < no_of_elements; i++)
     { //The given array is stored in a vector arr
        scanf("%d",&arr[i]);
     }
+    printf("Wiggle sorted array:\n");
     //to wiggle sort arr
     wiggle_sort(no_of_elements, arr);
     return 0;
 }
 
-/*1. Sample input:
-     6
-     1 3 2 2 3 1
-     Sample output:
-     2 3 1 3 1 2
-
-  2. Sample input:
-     10
-     1 4 6 2 3 7 9 2 1 0
-     Sample Output:
-     2 9 2 7 1 6 1 4 0 3
-*/
-
 /*
-   Time Complexity : O(nlogn)   (Sorting takes O(n logn) and traversal takes O(n))
-   Space Complexity : O(n)   (New array to store the wiggle sorted elements)
+Sample input:
+Enter the size of array: 6
+Enter the array: 1 3 2 2 3 1
+Sample output:
+Wiggle sorted array:
+2 3 1 3 1 2
+
+Time Complexity : O(nlogn)   (Sorting takes O(n logn) and traversal takes O(n))
+Space Complexity : O(n)   (New array to store the wiggle sorted elements)
 */

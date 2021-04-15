@@ -4,7 +4,7 @@ Octal Number: The number with base 8 is called Octal number. */
 
 #include<stdio.h>
 //Function which convert decimal to octal and print it
-void dec_to_oct(int n)
+void conversion(int n)
 {
   //base case when the recursion will stop
      if(n==0)
@@ -36,7 +36,7 @@ else
         //providing better UI to user
         printf("The octal conversion of %d is: ",Num);
     //function to convert decimal to octal
-    dec_to_oct(Num);
+    conversion(Num);
     return 0;
 }
 /*

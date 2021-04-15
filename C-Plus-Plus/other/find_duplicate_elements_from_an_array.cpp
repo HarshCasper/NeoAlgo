@@ -3,10 +3,6 @@ Given an array of N elements, each element's occurrence in the array can be more
 Formally find all duplicate elements of the array. This can be done with the help of map and set data structure.
 */
 
-#include <bits/stdc++.h>
-#include<iostream>
-#include<vector>
-#include<unordered_map>
 using namespace std;
 
 vector<int>removeDuplicates(int*a,int size){

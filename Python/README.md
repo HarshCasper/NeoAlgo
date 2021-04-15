@@ -80,6 +80,7 @@
 - [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
 - [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
+- [Kosaraju's algorithm for Strong Connected Components](graphs/Kosaraju's_algorithm_for_SCC.py)
 
 ## Competitive Programming
 

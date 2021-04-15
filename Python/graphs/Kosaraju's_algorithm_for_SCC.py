@@ -1,3 +1,4 @@
+
 # Kosaraju-Sharir's algorithm is a linear time algorithm
 # to find the strongly connected components of a directed graph.
 
@@ -181,3 +182,4 @@ if __name__ == "__main__":
 # [8, 6, 7, 5, 3, 1, 2]
 
 # Complextiy = O(m+n)
+

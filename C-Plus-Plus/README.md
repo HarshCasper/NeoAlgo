@@ -412,6 +412,7 @@ _add list here_
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
+- [Chinese Remainder Theorem](math/Chinese_Remainder_Theorem.cpp)
 
 ## Dynamic Programming
 

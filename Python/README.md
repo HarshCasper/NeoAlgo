@@ -119,6 +119,7 @@
 - [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 - [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
+- [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
 
 
 ## Cryptography

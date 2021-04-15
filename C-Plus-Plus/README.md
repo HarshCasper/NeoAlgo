@@ -123,6 +123,7 @@
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
 - [Cyclically rotate of an array by one](cp/Cyclically_rotate_of_array_by_one.cpp)
+- [Minimum number to form the sum even](cp/Minimum_number_to_form_the_sum_even.cpp)
 - [Balanced Array](cp/Balanced_array.cpp)
 - [Multiply left and right array sum](cp/Multiply_left_and_right_array_sum.cpp)
 - [Print first letter of every word in the string](cp/Print_first_letter_of_every_word_in_the_string.cpp)
@@ -291,6 +292,7 @@
 - [Sublist Search](search/sublist_Search.cpp)
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
 - [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
+- [Sqrt Monotonic Binary Search](search/Sqrt_Monotonic_Binary_Search.cpp)
 
 ## Sorting
 

@@ -130,6 +130,7 @@ _add list here_
 - [Euler's Totient Function](math/Euler's_Totient_function.java)
 - [Iterative](math/countDigits/iterative.java)
 - [Recursive](math/countDigits/recursive.java)
+- [Check whether a number is power of 2](math/check_whether_a_number_is_power_of_2.java)
 - [String Method](math/countDigits/stringmethod.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)
 - [Complex numbers](math/Complex.java)

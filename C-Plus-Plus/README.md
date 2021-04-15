@@ -322,6 +322,7 @@
 - [Wiggle Sort](sort/wiggle_sort.cpp)
 - [Quotient-Remainder Sort](sort/Quotient-Remainder_Sort.cpp)
 - [Binary-Insertion Sort](sort/Binary_Insertion_Sort.cpp)
+- [3 Way Quick Sort](sort/3_way_quick_sort.cpp)
 
 ## Stack based problems
 

@@ -577,4 +577,5 @@ _add list here_
 - [Repeating and Missing Number](other/repeated_missing.cpp)
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
+- [Count pairs with given sum](other/Count_pairs_with_given_sum.cpp)
 

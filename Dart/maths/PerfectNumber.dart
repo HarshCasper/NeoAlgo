@@ -49,3 +49,4 @@ Enter a number:
 12
 12 is not a perfect number
 */
+

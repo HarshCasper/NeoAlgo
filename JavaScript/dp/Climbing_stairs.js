@@ -39,6 +39,8 @@ main();
 
 /*
 Sample I/O:
+
+Enter the number stairs
 5
 The number of ways to climb the stairs is : 8
 

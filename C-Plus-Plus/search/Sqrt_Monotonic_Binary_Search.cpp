@@ -1,62 +1,66 @@
-// In this algorithm we will find the square root of a number `n` upto `p` digits after decimal using the binary search algorithm.
+/* Cpp code for Sqrt Monotonic Binary Search,
+   In this algorithm we will find the square root of a number `num`
+   upto `p` digits after decimal using the binary search algorithm. */
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-// Function to find the square root of a number `n`
-float sqrt(int n, int p)
+/* Function to find the square root of a number `num` */
+float sqrt(int num, int p)
 {
-	int s = 0;		// s denotes the starting point
-	int e = n;		// e denotes the end point
-	float ans = -1; // ans will store the final answer
-	int mid;		// mid will store the middle element
-	while (s <= e)
+	int start = 0;	
+	int end = num;		
+	float ans = -1; 
+	int mid;	
+	while (start <= end)
 	{
-		// find the middle element
-		mid = (s + e) / 2;
+		/* find the middle element */
+		mid = (start + end) / 2;
 
-		// return `mid` if `n` is a perfect square
-		if (mid * mid == n)
+		/* return `mid` 
+		   if `num` is a perfect square */
+		if (mid * mid == num)
 			return mid;
 
-		// if `mid*mid` is less than `n`
-		else if (mid * mid < n)
+		/* if `mid*mid` is less than `num` */
+		else if (mid * mid < num)
 		{
-			// Change the starting point to mid+1
-			s = mid + 1;
-			// update the answer
+			/* change the starting point to mid+1 
+			   and update the answer */
+			start = mid + 1;
 			ans = mid;
 		}
 
-		// if `mid*mid` is more than `n`
-		// Change the end point to mid-1
+		/* if `mid*mid` is more than `num`,
+		   change the end point to mid-1 */
 		else
-			e = mid - 1;
+			end = mid - 1;
 	}
 
 	float temp = 0.1;
 
-	//This for loop will give `p` digits after the decimal to the `ans`
+	/* This for loop will give `p` digits 
+	   after the decimal to the `ans` */
 	for (int i = 1; i <= p; i++)
 	{
-		while (ans * ans <= n)
+		while (ans * ans <= num)
 			ans = ans + temp;
 
 		ans = ans - temp;
 		temp = temp / 10;
 	}
 
-	//return answer
+	/* return answer */
 	return ans;
 }
 
-//Driver Function
+/* Driver Function */
 int main()
 {
-	int n;
+	int num;
 	cout << "Enter the number : ";
-	cin >> n;
-	cout << "The square root of " << n << " is : " << sqrt(n, 3);
+	cin >> num;
+	cout << "The square root of " << num << " is : " << sqrt(num, 3);
 }
 
 /*

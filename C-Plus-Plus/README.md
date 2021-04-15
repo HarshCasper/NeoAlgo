@@ -412,6 +412,7 @@ _add list here_
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
+- [Interior angles of a triangle](math/Interior_angles_of_triangle.cpp)
 
 ## Dynamic Programming
 

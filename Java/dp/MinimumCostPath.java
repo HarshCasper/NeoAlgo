@@ -1,5 +1,8 @@
-/* Description: An integer matrix of size (M x N) has been given. Find out the minimum cost to reach from the cell (0, 0) to (M - 1, N - 1).
-The cost of a path is defined as the sum of each cell's values through which the route passes.
+/* 
+Description: An integer matrix of size (M x N) has been given. Find 
+out the minimum cost to reach from the cell (0, 0) to (M - 1, N - 1).
+The cost of a path is defined as the sum of each cell's values through
+which the route passes.
 */
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,6 +28,7 @@ public class Solution {
     }
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     public static int[][] take2DInput() throws IOException {
+        System.out.println("Enter the number of rows & columns: ");
         String[] strRowsCols = br.readLine().trim().split("\\s");
         int mRows = Integer.parseInt(strRowsCols[0]);
         int nCols = Integer.parseInt(strRowsCols[1]);
@@ -32,6 +36,7 @@ public class Solution {
             return new int[0][0];
         }
         int[][] mat = new int[mRows][nCols];
+        System.out.println("Enter The matrix elements: ");
         for (int row = 0; row < mRows; row++) {
             String[] strNums; 
             strNums = br.readLine().trim().split("\\s");
@@ -44,23 +49,23 @@ public class Solution {
   //Drive Code
   public static void main(String[] args) throws NumberFormatException, IOException {
         int[][] mat = take2DInput();
-        System.out.println("Solution:" + minCostPathDP(mat));
+        System.out.println("Minimum cost to reach the destination: " + minCostPathDP(mat));
   }
 }
 /*
-Input format :
-The first line of the test case contains two integer values, 'M' and 'N', separated by a single space. They represent the 'rows' and 'columns' respectively, for the two-dimensional array/list.
-The second line onwards, the next 'M' lines or rows represent the ith row values.
-Each of the ith row constitutes 'N' column values separated by a single space.
-Output format :
-Print the minimum cost to reach the destination.
 Sample Input :
 3 4
 3 4 1 2
 2 1 8 9
 4 7 8 1
 Sample Output :
-13
+Enter the number of rows & columns: 
+3 4
+Enter The matrix elements: 
+3 4 1 2
+2 1 8 9
+4 7 8 1
+Minimum cost to reach the destination: 13
 
 Time Complexity: O(n^2)
 Space Complexity: O(m*n)

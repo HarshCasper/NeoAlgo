@@ -22,6 +22,7 @@
 - [Neon number](maths/NeonNumber.dart)
 - [Magic Number](maths/MagicNumber.dart)
 - [Happy Number](maths/HappyNumber.dart)
+- [Perfect Number](maths/PerfectNumber.dart)
 
 ## Search
 

@@ -84,7 +84,7 @@ Standard Output:
 7
 
 Explanation:
-The following are the seven 4-worthy submatrices:
+The following are the seven successful submatrices for k=4:
 ⌈3   4⌉
 ⌊4   5⌋ with average 4; this matrix occurs only once
 ⌈4   5⌉

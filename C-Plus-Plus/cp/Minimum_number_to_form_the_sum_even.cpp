@@ -53,7 +53,7 @@ int main()
 
 /*
 Time complexity : O(n)
-Space complexity : On)
+Space complexity : O(n)
 */
 
 /*
@@ -68,15 +68,5 @@ Test Case 1 :
     Output :
     Minimum Number to be added in the array : 
     2
-Test Case 2 :
-    Input :
-    Enter the size of the array : 
-    9
-    Enter 9 number of elements : 
-    1 2 3 4 5 6 7 8 9
-
-    Output :
-    Minimum Number to be added in the array : 
-    1
 */
 

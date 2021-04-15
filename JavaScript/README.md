@@ -100,6 +100,8 @@ _add list here_
 ## Dynamic Programming
 
 - [Flight of stairs](./dp/flightOfStairs.js)
+- [Climbing stairs problem](./dp/Climbing_stairs.js)
+
 
 ## Blockchain
 

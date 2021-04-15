@@ -181,6 +181,7 @@ _add list here_
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 - [Edit distance](dp/edit_distance.cpp)
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)
+- [Factorial top to bottom](dp/factorial_top_down.cpp)
 - [Fibonacci bottom to top](dp/fibonacci_bottom_up.cpp)
 - [Fibonacci top to bottom](dp./../dp/fibonacci_top_down.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)

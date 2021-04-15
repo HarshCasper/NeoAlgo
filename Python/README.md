@@ -382,5 +382,6 @@ _add list here_
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
+- [Kth index removal](other/stringkth.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

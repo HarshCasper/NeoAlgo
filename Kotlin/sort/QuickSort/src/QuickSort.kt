@@ -1,4 +1,8 @@
-//Kotlin program to implement QuickSort using recursive approach
+//QuickSort Algortihm works on Divide and Conquer Algorithm. It creates two empty arrays to hold elements less than the pivot value and elements greater than the pivot value, and then recursively sort the sub arrays. There are two basic operations in the algorithm, swapping items in place and partitioning a section of the array.
+
+//Here QuickSort is implemented in Kotlin using recursive approach
+
+//Importing the Java.util package, it is needed because we are using the scanner object.
 import java.util.*
 
 //The function which will sort the given array in ascending order using QuickSort Algortihm
@@ -7,14 +11,19 @@ fun quicksort(items:List<Int>):List<Int>{
     if (items.count() < 2){
         return items
     }
+   
     //Vaiable pivot stores the index of middle element of the list
     val pivot = items[items.count()/2]
+    
     //Variable equalto stores the elements at the pivot index
     val equalto = items.filter { it == pivot }
+    
     //Variable lesser stores the list of element with indexes less than the pivot index
     val lesser = items.filter { it < pivot }
+   
     //Variable greater stores the list of element with indexes less than the pivot index
     val greater = items.filter { it > pivot }
+    
     //Calling the quicksort function recursively on the splitted arrays
     //This will get recursively called until left with multiple arrays with a single element and arranged in order
     return quicksort(lesser) + equalto + quicksort(greater)
@@ -57,17 +66,6 @@ Enter the List of numbers you want to Sort:
 Original List: 34	33	67	3	2	
 Ordered list: [2, 3, 33, 34, 45, 67]
 
-Second Testcase:
-Enter the length of the array
-7
-Enter the List of numbers you want to Sort:
-23
-55
-22
-90
-67
-54
-23
-Original List: 23	55	22	90	67	
-Ordered list: [22, 23, 23, 54, 55, 67, 90]
+Time Complexity: O(n log n)[Average]
+Space Complexity: O(log n)[Average] 
 */

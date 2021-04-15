@@ -8,7 +8,7 @@ Power Set P(S) for a set S of <n> elements is 2^n elements.
 Approach :
 
 Iterate i from 0 to 2^n (as P(S) will have 2^n elements) and:
-    
+
     - Find the binary equivalent of i.
 
     - Add the jth element from the array to the current subset when the jth
@@ -20,7 +20,7 @@ Iterate i from 0 to 2^n (as P(S) will have 2^n elements) and:
 
 def binary(num, size):
     """
-    num: int 
+    num: int
     size: int
 
     Takes in a number and returns it's binary equivalent.
@@ -37,7 +37,7 @@ def binary(num, size):
 
 def subsets(nums):
     """
-    nums: List[int] of unique elements 
+    nums: List[int] of unique elements
     Returns a list of all possible subsets
     """
     n = len(nums)

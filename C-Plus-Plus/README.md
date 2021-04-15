@@ -122,6 +122,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Minimum number to form the sum even](cp/Minimum_number_to_form_the_sum_even.cpp)
 - [Balanced Array](cp/Balanced_array.cpp)
 - [Multiply left and right array sum](cp/Multiply_left_and_right_array_sum.cpp)
 - [Print first letter of every word in the string](cp/Print_first_letter_of_every_word_in_the_string.cpp)

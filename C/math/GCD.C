@@ -27,7 +27,6 @@ int main()
 }
 
 /*
-
 time complexity O(N)
 space complexity O(1)
 
@@ -46,5 +45,4 @@ Input
 
 Output
 3
-
 */

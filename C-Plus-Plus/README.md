@@ -28,6 +28,7 @@
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
+- [Iterative Approach for Fibonacci](cp/Fibo.cpp)
 - [Generic Function for Swapping](cp/Generic_Swaps.cpp)
 - [Adjacent Difference Algorithm](cp/adjacent.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)

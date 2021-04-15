@@ -290,6 +290,7 @@
 - [Sublist Search](search/sublist_Search.cpp)
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
 - [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
+- [Sqrt Monotonic Binary Search](search/Sqrt_Monotonic_Binary_Search.cpp)
 
 ## Sorting
 

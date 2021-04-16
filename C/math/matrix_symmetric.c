@@ -8,9 +8,9 @@ The code gives output as it checks whether the matrix is symmetric or not.
 //Function to check whether the given matrix is Symmetric or not
 void symmetric(int row,int column){
     	int **matrix,flag = 0;
-       matrix = (int **)malloc(row * sizeof(int *));
+        matrix = (int **)malloc(row * sizeof(int *));
         for(int i = 0; i < row; i++)
-       matrix[i] = (int *)malloc(column * sizeof(int));
+        matrix[i] = (int *)malloc(column * sizeof(int));
         //enter the value of matrices
         printf("Enter matrix:\n");
         for(int i = 0; i < row; i++)

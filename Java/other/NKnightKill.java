@@ -2,7 +2,9 @@
 It is a backtracking problem in which there are N knights 
 that need to be placed on an N*N board in such a manner so 
 that no two knights can kill each other.
-The code will display all the possible positions of Knights.
+The code will display all the possible positions of Knights
+where - will represent a blank box and 
+X will represent a Knight in a box.
 */
 
 import java.util.Scanner;

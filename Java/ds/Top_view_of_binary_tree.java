@@ -13,6 +13,7 @@ The above input will have the following structure:
    6  1
 Output: The top view is: 4 3 5, as these are the nodes that will be visible from the top.
 */
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -22,7 +23,6 @@ class Node{
 	// hor represents the horizonatal distance, root node has 0 hor
 	int data, hor;
 	Node left, right;
-
 	public Node(int d){
 		data = d;
 		hor = 0;
@@ -33,12 +33,10 @@ class Node{
 
 class BinaryTree {
 
-    Scanner sc = new Scanner(System.in);
-    
+    Scanner sc = new Scanner(System.in);  
     public BinaryTree(){ 
     	Node root = null; 
     }
- 
     // A function that creates the binary tree and return its root
     public Node BuildTree(){
 		int d = sc.nextInt();
@@ -69,14 +67,12 @@ class BinaryTree {
             if (!mp.containsKey(root.hor)) {
                 mp.put(hor, root.data);
             }
- 
  			// On moving left, horizontal distance decrements
             if (root.left != null) {
             	root.left.hor = hor - 1;
                 q.add(root.left);
                                   
             }
-
             // On moving right, horizontal distance increments
             if (root.right != null) {
             	root.right.hor = hor + 1;
@@ -84,6 +80,7 @@ class BinaryTree {
             }
             root = q.poll();
         }
+		
         // Printing the top view
         for (Map.Entry<Integer, Integer>entry : mp.entrySet()) {
             System.out.print(entry.getValue() + " ");
@@ -99,7 +96,6 @@ class BinaryTree {
 		tree.TopView(root);
 	}
 }
-
 
 /*
 TEST CASE:

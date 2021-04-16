@@ -113,6 +113,7 @@
 - [Hashtable chaining](ds/hashtable_chaining.c)
 - [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
 - [Check Binary Tree is BST or Not](ds/FindBinaryTreeBst.c)
+- [Remove Duplicates From an Unsorted Linked List](ds/Remove_Duplicate_In_Linked_List.c)
 - [First Fit Memory allocation](ds/first_fit_memory.c)
 - [Adjacency Matrix in C](ds/Adjacency_matrix.c)
 

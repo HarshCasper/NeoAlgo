@@ -142,6 +142,7 @@
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
 - [Connecting Dots](cp/connecting_dots.cpp)
 - [Friends Pairing](cp/friends_pairing.cpp)
+- [Factorial of large numbers](cp/fact_large_numbers.cpp)
 
 ## Data Structures
 

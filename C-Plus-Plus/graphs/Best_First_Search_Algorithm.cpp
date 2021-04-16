@@ -10,56 +10,53 @@ It uses the concept of a priority queue (min heap) to store costs of nodes.
 using namespace std;
 
 //Function to implement best first search algorithm
-void bestFirstSearchAlgorithm(int sv, int tv, int n ,vector<vector<pair<int,int> >>graph)
+void bestFirstSearchAlgorithm(int sv, int tv, int n, vector<vector<pair<int, int> > > graph)
 {
 
     //array for keeping track of visited vertices
-	vector<bool> visited(n, false);
-	
+    vector<bool> visited(n, false);
+
     //min heap priority queue for storing cost of nodes
-	priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>> > pq;
-	
+    priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int> > > pq;
+
     //inserted source position in the priority queue
-	pq.push(make_pair(0, sv));
+    pq.push(make_pair(0, sv));
 
     //mark source vertex as visited
-	visited[sv] = true;
+    visited[sv] = true;
 
     //array to store path from the source to the target vertex
-    vector<int>path;
+    vector<int> path;
 
-	while (!pq.empty()) {
+    while (!pq.empty()) {
 
-		int temp = pq.top().second;
-		
-		path.push_back(temp);
-		pq.pop();
+        int temp = pq.top().second;
+
+        path.push_back(temp);
+        pq.pop();
 
         //If target vertex is found then exit from the loop
-		if (temp == tv)
-			break;
+        if (temp == tv)
+            break;
 
-		for (int i = 0; i < graph[temp].size(); i++) 
-        {
+        for (int i = 0; i < graph[temp].size(); i++) {
             //For each neighbouring vertex of temp
             // Continue if it is already visited
-			if (visited[graph[temp][i].second]) 
-             continue;
-             //Else mark it visited and insert it in the priority queue
-			else
-            {
-            visited[graph[temp][i].second] = true;
-			pq.push(graph[temp][i]);			
+            if (visited[graph[temp][i].second])
+                continue;
+            //Else mark it visited and insert it in the priority queue
+            else {
+                visited[graph[temp][i].second] = true;
+                pq.push(graph[temp][i]);
             }
-		}
-	}
-
-    cout<<"Path between source vertex and target vertex: "<<endl;
-    for(int i=0;i<path.size();i++)
-    {
-        cout<<path[i]<<" ";
+        }
     }
-    cout<<endl;
+
+    cout << "Path between source vertex and target vertex: " << endl;
+    for (int i = 0; i < path.size(); i++) {
+        cout << path[i] << " ";
+    }
+    cout << endl;
 }
 
 int main()
@@ -67,7 +64,7 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    vector<vector<pair<int,int> >>graph;
+    vector<vector<pair<int, int> > > graph;
 
     int vertices, edges;
 
@@ -75,24 +72,23 @@ int main()
     cin >> vertices >> edges;
 
     graph.resize(vertices);
-    
+
     cout << "Input edges: start vertex, end vertex and weight of edge between them" << endl;
-    for (int i = 0; i < edges; i++)
-    {
+    for (int i = 0; i < edges; i++) {
         int a, b, cost;
         cin >> a >> b >> cost;
-        graph[a].push_back(make_pair(cost,b));
-        graph[b].push_back(make_pair(cost,a));
+        graph[a].push_back(make_pair(cost, b));
+        graph[b].push_back(make_pair(cost, a));
     }
-    
-    int sv, tv;    
-    
-    cout<<"Input Source vertex and target vertex"<<endl;
+
+    int sv, tv;
+
+    cout << "Input Source vertex and target vertex" << endl;
     cin >> sv >> tv;
 
-	bestFirstSearchAlgorithm(sv,tv,vertices,graph);
+    bestFirstSearchAlgorithm(sv, tv, vertices, graph);
 
-	return 0;
+    return 0;
 }
 
 /*

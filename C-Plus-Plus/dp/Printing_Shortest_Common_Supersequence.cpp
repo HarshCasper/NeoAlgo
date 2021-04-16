@@ -84,6 +84,8 @@ int main() {
     return 0;
 }
 /*
+Time Complexity - O(m*n)
+Space Complexity - O(m*n)
 Input -
 Enter string X and string Y -
 abcdaf
@@ -91,6 +93,4 @@ aebcf
 Output -
 Shortest Common Subsequence -
 aebcdaf
-Time Complexity - O(m*n)
-Space Complexity - O(m*n)
 */

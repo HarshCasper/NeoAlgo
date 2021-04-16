@@ -402,6 +402,7 @@ _add list here_
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Decimal to Hexadecimal Conversion](math/decimal_to_hexadecimal.cpp)
 - [Matrix Addition](math/matrix_addition.cpp)
+- [Matrix Subtraction](math/matrix_subtraction.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Matrix Rotation 90 degree to right](math/Matrix_rotation_90degree.cpp)

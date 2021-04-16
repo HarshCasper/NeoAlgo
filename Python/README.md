@@ -339,6 +339,10 @@
 - [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
 
+## Bit Manipulation
+
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
+
 ## Blockchain
 
 _add list here_
@@ -382,5 +386,6 @@ _add list here_
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
+- [Kth index removal](other/stringkth.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

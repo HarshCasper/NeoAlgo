@@ -68,6 +68,7 @@ _add list here_
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
+- [Prefix Sum of Array](cp/prefix_sum.java)
 - [Prime Number without Recursion](cp/Prime.java)
 - [Suduko Solver](cp/SudukoSolver.java)
 - [Ugly Number With Recursion](cp/UglyRecursion.java)
@@ -330,3 +331,5 @@ _add list here_
 - [Pair programmers productivity problem](other/Pair_programmers_productivity_problem.java)
 - [Union of two Unsorted Arrays](other/UnionUnsortedArray.java)
 - [Repeating and missing number](other/Repeating_and_missing_number.java)
+- [Knights Tour](other/KnightsTour.java)
+

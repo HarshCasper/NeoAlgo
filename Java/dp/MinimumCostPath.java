@@ -53,18 +53,14 @@ public class Solution {
   }
 }
 /*
-Sample Input :
-3 4
-3 4 1 2
-2 1 8 9
-4 7 8 1
-Sample Output :
+Sample Input:
 Enter the number of rows & columns: 
 3 4
 Enter The matrix elements: 
 3 4 1 2
 2 1 8 9
 4 7 8 1
+Output :
 Minimum cost to reach the destination: 13
 
 Time Complexity: O(n^2)

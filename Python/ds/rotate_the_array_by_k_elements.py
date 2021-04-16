@@ -1,4 +1,3 @@
-import math
 
 '''
 it will rotate the array by k elements 

@@ -1,24 +1,24 @@
-// C# program for Fibonacci Search 
-// Time Complexity - O(log(n))
-// Space Complexity - O(1)
+/*
+C# program for Fibonacci Search 
+Time Complexity - O(log(n))
+Space Complexity - O(1)
+*/
 using System;
 
 class Fibonacci 
 {
-
     public static int min(int x, int y)
     {
         return (x <= y) ? x : y;
     }
 
     /* Returns index of x if present, else returns -1 */
-    public static int FibMonaccianSearch(int[] arr, int x,
-                                         int n)
+    public static int FibMonaccianSearch(int[] arr, int x, int n)
     {
         /* Initialize fibonacci numbers */
-        int fibMMm2 = 0; // (m-2)'th Fibonacci No.
-        int fibMMm1 = 1; // (m-1)'th Fibonacci No.
-        int fibM = fibMMm2 + fibMMm1; // m'th Fibonacci
+        int fibMMm2 = 0;
+        int fibMMm1 = 1; 
+        int fibM = fibMMm2 + fibMMm1; 
 
         while (fibM < n)
         {

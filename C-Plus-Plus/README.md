@@ -385,6 +385,7 @@ _add list here_
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
+- [Spiral order of Matrix](math/Spiral_order_of_matrix.cpp)
 
 ## Dynamic Programming
 

@@ -151,6 +151,7 @@ _add list here_
 - [Balanced Brackets](ds/balancedBrackets.java)
 - [Median of Two Sorted Arrays](ds/MedianOfSortedArrays.java)
 - [Remove Duplicate in a Unsorted Linked List without extra Space](ds/RemDupInLLWithoutExtraSpace.java)
+- [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 
 ## Graphs
 

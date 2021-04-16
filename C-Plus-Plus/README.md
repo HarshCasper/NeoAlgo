@@ -24,10 +24,12 @@
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Combination Sum](cp/Combination_Sum.cpp)
+- [Combination Sum without Repeating the Values](cp/Combination_sum_without_Repeated_values.cpp)
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Generic Function for Swapping](cp/Generic_Swaps.cpp)
+- [Adjacent Difference Algorithm](cp/adjacent.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
 - [Count Max Consecutive One's](cp/max_consecutive_ones.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
@@ -61,6 +63,7 @@
 - [Prefix Sum Array](cp/prefix_sum.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Product of Array Except itself](cp/product_of_array_except_itself.cpp)
+- [Rain Water Trapping Problem](cp/rain_water_trapping.cpp)
 - [Rain Water Harvesting](cp/Rainwaterharvesting.cpp)
 - [Rat In A Maze](cp/ratInAMaze.cpp)
 - [Remove Spaces from a string](cp/remove_spaces_from_a_string.cpp)
@@ -119,11 +122,25 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Minimum number to form the sum even](cp/Minimum_number_to_form_the_sum_even.cpp)
+- [Balanced Array](cp/Balanced_array.cpp)
+- [Multiply left and right array sum](cp/Multiply_left_and_right_array_sum.cpp)
+- [Print first letter of every word in the string](cp/Print_first_letter_of_every_word_in_the_string.cpp)
+- [Three Sum](cp/Three_Sum.cpp)
+- [Unique Number](cp/Unique_number.cpp)
+- [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
+- [All unique permutations](cp/all_unique_permutation.cpp)
+- [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
+- [Max Topology Short](cp/Max_Topology_short.cpp)
+- [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
+- [Dividing tasks to Students](cp/Dividing_tasks.cpp)
+- [Connecting Dots](cp/connecting_dots.cpp)
+- [Friends Pairing](cp/friends_pairing.cpp)
 - [Four Sum](cp/Four_Sum.cpp)
 
 ## Data Structures
@@ -210,6 +227,7 @@
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
+- [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 
 ## Graphs
 
@@ -219,6 +237,7 @@
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
 - [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
+- [Boruvka's Algorithm for finding MST](graphs/Boruvka_algorithm_for_finding_MST.cpp)
 - [Celebrity Problem](graphs/celebrity_problem.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
@@ -252,7 +271,9 @@
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
+- [Top view of Tree](graphs/top_view_binary_tree.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
+- [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 
 ## Searching
 
@@ -271,6 +292,7 @@
 - [Sublist Search](search/sublist_Search.cpp)
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
 - [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
+- [Sqrt Monotonic Binary Search](search/Sqrt_Monotonic_Binary_Search.cpp)
 
 ## Sorting
 
@@ -322,6 +344,7 @@
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
+- [Next greatest element to the left](stack/nextGreatestToLeft.cpp)
 
 ## Heap based problems
 
@@ -332,6 +355,7 @@
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
+
 ## Machine Learning
 
 _add list here_
@@ -379,6 +403,7 @@ _add list here_
 - [Matrix Addition](math/matrix_addition.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
+- [Matrix Rotation 90 degree to right](math/Matrix_rotation_90degree.cpp)
 - [Mystery Number](math/mystery_number.cpp)
 - [Integer to Roman](math/int_to_roman.cpp)
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)
@@ -386,6 +411,8 @@ _add list here_
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
+- [Reverse a Number](math/reverse_a_number.cpp)
+- [Fibonacci Recursive](math/fibonacci.cpp)
 
 ## Dynamic Programming
 
@@ -397,6 +424,7 @@ _add list here_
 - [Fibonacci top to bottom](dp./../dp/fibonacci_top_down.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
+- [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
@@ -409,6 +437,7 @@ _add list here_
 - [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)
 - [Partition Problem](dp/Partition_Problem.cpp)
 - [Rectangle Cutting Problem](dp/Rectangle_cutting.cpp)
+- [Golomb Sequence](dp/golomb_sequence.cpp)
 - [String permutations](dp/string_permutations.cpp)
 - [Wild Card Pattern Matching](dp/WildCardMatching.cpp)
 - [Unique BST](dp/Unique_BST.cpp)
@@ -416,7 +445,11 @@ _add list here_
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [K-Tree](dp/K-Tree.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
-
+- [Shortest Common Superstring](dp/shortest_common_superstring.cpp)
+- [Staircase using dp](dp/Staircase.cpp)
+- [Count the number of subset with a given difference](dp/Count_subset_given_difference.cpp)
+- [Coin change problem maximum ways](dp/Maximum_ways_Coin_change_problem.cpp)
+- [Minimum sum partition](dp/Minimum_sum_partition.cpp)
 - [Subset Sum using DP](dp/Subset_sum.cpp)
 - [Equal Sum Partition Problem](dp/Equal_sum_partition.cpp)
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
@@ -429,6 +462,7 @@ _add list here_
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Catalan Number](dp/Catalan_DP.cpp)
 
 ## Bit - Manipulation
 
@@ -445,6 +479,7 @@ _add list here_
 - [Sort integers by the number of set bits present in them](Bit--Manipulation/sort_integers_by_their_number_of_set_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
+- [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
 
 ## Blockchain
 
@@ -475,6 +510,7 @@ _add list here_
 - [Transpose of a Square Matrix](other/Transpose_Of_Square_Matrix.cpp)
 - [Add Two Linked Lists](other/addTwoLinkedLists.cpp)
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
+- [Add two binary numbers](other/Add_two_binary_numbers.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
 - [Count Max Possible Subsequence](other/max_possible_subsequence.cpp)
 - [Check whether a string is Subsequence](other/whether_string_is_subsequence.cpp)
@@ -508,6 +544,10 @@ _add list here_
 - [Sum of all the possible divisors of a natural number](other/sum_of_divisors.cpp)
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
+- [Find array is Subset of another array](other/Find_array_is_Subset_of_another_array.cpp)
+- [Reverse a number using stack](other/Reverse_a_number_using_stack.cpp)
+- [Move all negative numbers to beginning and positive to the end](other/Move_all_Negative_no_to_beginning_and_Positive_to_end.cpp)
+- [Reversing the first K elements of a Queue](other/Reversing_the_first_K_elements_of_a_Queue.cpp)
 - [Find Common elements in three sorted arrays](other/Common_Element_in_three_Sorted_array.cpp)
 - [Find the length of the longest sub-sequence](other/Longest_Consecutive_Subsequence.cpp)
 - [Nth Most Occurring Strings](other/most_occurrence_strings.cpp)
@@ -538,3 +578,6 @@ _add list here_
 - [Job sheduling with given deadlines](other/job_sheduling_with_deadlines.cpp)
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
 - [Repeating and Missing Number](other/repeated_missing.cpp)
+- [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
+- [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
+

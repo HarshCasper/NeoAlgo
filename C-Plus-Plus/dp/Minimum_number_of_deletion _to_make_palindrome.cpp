@@ -20,11 +20,13 @@ int minDeletion(string X, string Y, int m, int n) {
 
   for (int i = 1; i < m + 1; i++) {
     for (int j = 1; j < n + 1; j++) {
-      //if letters of both string are equal then we will decrease row and column both by 1
+      /* if letters of both string X and Y are equal 
+      then we will decrease row i.e i and column i.e j both by 1 */
       if (X[i - 1] == Y[j - 1]) {
         dp[i][j] = dp[i - 1][j - 1] + 1;
       }
-      //if letters of both string are not equal then first we will decrease row by 1 and then column by 1 and find maximum value b/w two
+      /* if letters of both string X and Y are not equal then first we will 
+      decrease row i.e i by 1 and then column i.e j by 1 and then find maximum value b/w two */
       else {
         dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
       }

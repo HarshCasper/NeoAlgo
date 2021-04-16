@@ -114,7 +114,7 @@
 - [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
 - [Check Binary Tree is BST or Not](ds/FindBinaryTreeBst.c)
 - [First Fit Memory allocation](ds/first_fit_memory.c)
-
+- [Best Fit Memory allocation](ds/best_fit_memory.c)
 ## Searching
 
 - [Binary Search](search/Binary_search.c)

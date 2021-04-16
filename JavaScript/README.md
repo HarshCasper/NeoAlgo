@@ -86,6 +86,7 @@ _add list here_
 - [Transpose of a matrix](./math/Matrix_transpose.js)
 - [Matrix Multiplication](./math/Matrix_multiplication.js)
 - [Matrix addition](./math/Matrix_addition.js)
+- [Neon Number](./math/NeonNumber.js)
 
 ## Competitive Programming
 

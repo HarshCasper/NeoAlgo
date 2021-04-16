@@ -15,14 +15,31 @@
 - [Z Algorithm](Algorithms/ZAlgorithm.js)
 - [Boyer Moore's Majority Vote Algorithm](Algorithms/BoyerMooreAlgorithm.js)
 - [Armstrong Number](Algorithms/Armstrong.js)
+- [Longest Increaing Subsequnce](Algorithms/LongestIncreasingSubsequenceDP.js)
+- [Kadane's Algorithm](Algorithms/kadane's_algo.js)
+
+## Backtracking
+
+- [N-Queens](Backtracking/N-Queens.js)
 
 ## Data Structures
 
 - [AVL Tree](./ds/AVLTree.js)
 - [Linked List](./ds/LinkedList.js)
+- [Dynamic Linked List](./ds/DynamicLinkedList.js)
+- [Doubly Linked List](./ds/DoublyLinkedList.js)
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
+- [Queue using Linked List](./ds/QueueLinkedList.js)
+- [Queue using Two Stacks](./ds/QueueStack.js)
 - [Stack](./ds/Stack.js)
+- [Stack using Linked List](./ds/StackLinkedList.js)
+- [Hash Table](./ds/Hash.js)
+- [Recursive preorder traversal in binary search tree](./ds/Recursive_preorder.js)
+- [Recursive inorder traversal in binary search tree](./ds/Recursive_inorder.js)
+- [Recursive postorder traversal of binary search tree](./ds/Recursive_postorder.js)
+- [Infix to Postfix Conversion](./ds/infixtopostfix.js)
+- [Infix to Prefix Conversion](./ds/infixtoprefix.js)
 
 ## Searching
 
@@ -31,14 +48,27 @@
 - [Knuth-Morris-Pratt(KMP) Algorithm](./search/KMPalgorithm.js)
 - [Manacher Algorithm](./search/ManacherAlgorithm.js)
 - [Ternary Search](./search/ternary_search.js)
+- [Jump Search](./search/JumpSearch.js)
+- [Interpolation Search](./search/InterpolationSearch.js)
+- [Exponential Search](./search/ExponentialSearch.js)
+- [Fibonacci Search](./search/FibonacciSearch.js)
 
 ## Sorting
 
 - [Bubble Sort](./sort/BubbleSort.js)
+- [Brick Sort](./sort/BrickSort.js)
+- [Bucket Sort](./sort/BucketSort.js)
 - [Insertion Sort](./sort/insertion_sort.js)
 - [Sleep Sort](./sort/sleepSort.js)
 - [Quick Sort](./sort/quicksort.js)
 - [Merge Sort](./sort/MergeSort.js)
+- [Cycle Sort](./sort/cycleSort.js)
+- [Selection Sort](./sort/selectionSort.js)
+- [Stooge Sort](./sort/StoogeSort.js)
+- [Tim Sort](./sort/TimSort.js)
+- [Comb Sort](./sort/CombSort.js)
+- [Gnome Sort](./sort/GnomeSort.js)
+- [WaveForm Sort](./sort/WaveFormSort.js)
 
 ## Machine Learning
 
@@ -51,22 +81,34 @@ _add list here_
 - [Double Factorial](./math/DoubleFactorial.js)
 - [Armstrong Number](./math/ArmstrongNumbers.js)
 - [Binary Exponentiation](./math/bin_exp.js)
+- [Fibonacci](./math/Fibonacci.js)
+- [Palindrome Checker](./math/Palindrome_checker.js)
+- [GCD of two Numbers](./math/gcd_of_two_no.js)
+- [Transpose of a matrix](./math/Matrix_transpose.js)
+- [Matrix Multiplication](./math/Matrix_multiplication.js)
+- [Matrix addition](./math/Matrix_addition.js)
+- [Neon Number](./math/NeonNumber.js)
 
 ## Competitive Programming
 
-_add list here_
+- [Median of two sorted arrays](./cp/Median_of_Two_Sorted_Arrays.js)
+
+- [Sliding Window Maximum](./cp/SlidingWindowMaximum.js)
+- [Count Anagrams](./cp/CountAnagrams.js)
+- [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
+- [Two Sum](./cp/TwoSum.js)
+- [Reverse a String](./cp/ReverseString.js)
 
 ## Dynamic Programming
 
-_add list here_
+- [Flight of stairs](./dp/flightOfStairs.js)
+- [Climbing stairs problem](./dp/Climbing_stairs.js)
+
 
 ## Blockchain
 
 _add list here_
 
-## Searching
-
-_add list here_
 
 ## Cryptography
 

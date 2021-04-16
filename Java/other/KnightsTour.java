@@ -68,7 +68,7 @@ public class KnightsTour {
     }
 }
 // There are N^2 Cells and for each, we have a maximum of 8 possible moves to choose from, so the worst running time is O(8N^2). 
-//It prints all the feasible solutions (possibilities). When moving first precedence is given to (r - 2, c + 1) and the knight has moved in clockwise direction further.
+// When moving first precedence is given to (r - 2, c + 1) and the knight has moved in clockwise direction further.
 /* Sample Input and Output-
 Input:
 5

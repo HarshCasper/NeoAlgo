@@ -10,9 +10,7 @@
  
  Approach: Store the nodes in vector that are connected to partciular node, if size of that vector equals to nodes-1 then print it is the centre. */
 
-#include <iostream>
-#include<vector>
-#include<climits>
+#include <bits/stdc++.h>
 using namespace std;
 
 int findCenter(vector<vector<int>>& edges)
@@ -21,7 +19,7 @@ int findCenter(vector<vector<int>>& edges)
         
         vector<int>l[n+1];
         
-        // Store th destintaion edges into source node vector
+        // Store the destintaion edges into source node vector
         for(int i=0;i<edges.size();i++)
         {
                 l[edges[i][0]].push_back(edges[i][1]);
@@ -61,6 +59,10 @@ int main()
 
 
 /* 
+
+First line contain no. of edges (n)
+Then 2*n line contains edges, where first line is source and second one is destination
+
 INPUT:
 3
 1
@@ -72,18 +74,7 @@ INPUT:
 OUTPUT:
 2
 
-INPUT:
-4
-1
-2
-5
-1
-1
-3
-1
-4
-OUTPUT:
-1
 
 Time Complexity: O(no_of_edges)
+Space Complexity: O(no_of_edges)
 */

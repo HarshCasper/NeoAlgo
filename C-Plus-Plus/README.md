@@ -344,6 +344,7 @@
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
 - [Next greatest element to the left](stack/nextGreatestToLeft.cpp)
+- [Maximum rectangle area in histogram](stack/maximum_rectangle_area_in_histogram.cpp)
 
 ## Heap based problems
 

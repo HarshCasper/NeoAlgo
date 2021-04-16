@@ -368,3 +368,4 @@ _add list here_
 - [Count of Set Bits in an Integer using Lookup Technique](other/count_of_set_bit_using_lookup_tech.cpp)
 - [Concatenate given strings](other/n_string_concatenate.cpp)
 - [Trapping Rainwater](other/trappingRainwater.cpp)
+- [Minimum number of swaps for bracket balancing](other/Minimum_number_of_swaps_for_bracket_balancing)

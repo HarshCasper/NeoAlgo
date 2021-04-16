@@ -68,6 +68,7 @@
 - [Tim Sort](./sort/TimSort.js)
 - [Comb Sort](./sort/CombSort.js)
 - [Gnome Sort](./sort/GnomeSort.js)
+- [WaveForm Sort](./sort/WaveFormSort.js)
 
 ## Machine Learning
 
@@ -86,6 +87,7 @@ _add list here_
 - [Transpose of a matrix](./math/Matrix_transpose.js)
 - [Matrix Multiplication](./math/Matrix_multiplication.js)
 - [Matrix addition](./math/Matrix_addition.js)
+- [Neon Number](./math/NeonNumber.js)
 
 ## Competitive Programming
 
@@ -100,6 +102,8 @@ _add list here_
 ## Dynamic Programming
 
 - [Flight of stairs](./dp/flightOfStairs.js)
+- [Climbing stairs problem](./dp/Climbing_stairs.js)
+
 
 ## Blockchain
 

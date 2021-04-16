@@ -206,6 +206,8 @@ _add list here_
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
+- [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [HCF of two number](math/HCFOfTwoNumber.java)
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](Neon_number.java)
 - [Ascii of string](math/AsciiOfString.java)
@@ -225,6 +227,7 @@ _add list here_
 - [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
+- [Longest common subsequence of Three Strings](dp/LCSThreeStrings.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [CoinChange DP](dp/Coin_Change.java)
@@ -236,7 +239,9 @@ _add list here_
 - [Matrix Chain Multiplication to find the minimum cost](dp/MatrixChainMultiplication.java)
 - [Perfect Sum Problem](dp/PerfectSumProblem.java)
 - [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
+- [Subset Sum to Target](dp/SubsetSumToTarget.java)
 - [Dice Throw Problem](dp/DiceThrow.java)
+
 
 ## Blockchain
 

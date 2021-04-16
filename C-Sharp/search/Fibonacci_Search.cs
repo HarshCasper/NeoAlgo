@@ -2,6 +2,10 @@
 C# program for Fibonacci Search 
 Time Complexity - O(log(n))
 Space Complexity - O(1)
+Fibonacci search -
+the Fibonacci search technique is a method of searching a sorted array 
+using a divide and conquer algorithm that narrows down possible locations
+with the aid of Fibonacci numbers.
 */
 using System;
 

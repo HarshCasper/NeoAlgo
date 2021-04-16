@@ -1,73 +1,59 @@
-/* Purpose: To check whether it is possible for a Knight to visit each
-         cell of the N*N chessboard without visiting any cell
-         twice starting from (X, Y) position.
-  Method: Backtracking Algorithm
-Intution: To visit each and every positions which are available from
-          the current position and recursively repeat this until
-          all the cells are covered
-
-
- */
-
+/* Purpose: To check whether it is possible for a Knight to visit each cell of the N*N chessboard without visiting any cell twice starting from (X, Y) position.
+   Method: Backtracking Algorithm
+   Intution: To visit each and every positions which are available from the current position and recursively repeat this until all the cells are covered */
 
 import java.io.*;
 import java.util.*;
-
 public class KnightsTour {
-
     public static void main(String[] args) throws Exception {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int[][] chess = new int[n][n];
         int r = scn.nextInt();
         int c = scn.nextInt();
-        
-        knight( chess, r, c, 1 );
-        
+             //call the function
+        knight( chess, r, c, 1 );      
     }
 
     public static void knight (int[][] chess, int r, int c, int jump) {
+             //base case of recursion when the jump becomes equal to the length of check board
          if( jump == chess.length * chess[0].length ){
+            //assign the jump number on the chess board
             chess[r][c] = jump;
+             //call to display the feasible answer
             displayBoard( chess );
+             //unvisit the cell
             chess[r][c] = 0;
             return;
         }
-        
+         //assign the jump number on the chess board
         chess[r][c] = jump;
-        
+         //recursive calls begins from here. It checks to see that the knight doesn't go out of the check board and also the cell should be unvisited
         if( r - 2 >= 0 && c + 1 < chess[0].length && chess[ r-2 ][c+1] == 0 ){
             knight( chess, r-2, c+1, jump+1 );
         }
-        
         if( r - 1 >= 0 && c + 2 < chess[0].length && chess[ r-1 ][c+2] == 0 ){
             knight( chess, r-1, c+2, jump+1 );
         }
-        
         if( r + 1 < chess.length && c + 2 < chess[0].length && chess[ r+1 ][c+2] == 0 ){
             knight( chess, r+1, c+2, jump+1 );
         }
-        
         if( r + 2 < chess.length && c + 1 < chess[0].length && chess[ r+2 ][c+1] == 0 ){
             knight( chess, r+2, c+1, jump+1 );
         }
-        
         if( r + 2 < chess.length && c - 1 >= 0 && chess[ r+2 ][c-1] == 0 ){
             knight( chess, r+2, c-1, jump+1 );
         }
-        
         if( r + 1 < chess.length && c - 2 >= 0 && chess[ r+1 ][c-2] == 0 ){
             knight( chess, r+1, c-2, jump+1 );
         }
-        
         if( r - 1 >= 0 && c - 2  >= 0 && chess[ r-1 ][c-2] == 0 ){
             knight( chess, r-1, c-2, jump+1 );
         }
-        
         if( r - 2 >= 0 && c - 1 >= 0 && chess[ r-2 ][c-1] == 0 ){
             knight( chess, r-2, c-1, jump+1 );
         }
-        
+        //unvisit the chess board. Backtracking here
         chess[r][c] = 0;
     }
 
@@ -78,34 +64,17 @@ public class KnightsTour {
             }
             System.out.println();
         }
-
         System.out.println();
     }
 }
-
-
-/* 
-
-
-There are N^2 Cells and for each, we have a maximum of 8 possible moves to choose from, so the worst running time is O(8N^2).
-
-It prints all the feasible solutions (possibilities). When moving from (r, c) to the possible 8 options, given first precedence to (r - 2, c + 1) and 
+/* There are N^2 Cells and for each, we have a maximum of 8 possible moves to choose from, so the worst running time is O(8N^2). It prints all the feasible solutions (possibilities). When moving from (r, c) to the possible 8 options, given first precedence to (r - 2, c + 1) and 
 moved in clockwise manner to explore other options.
-
-
-
-Sample Input and Output
-
-
+Sample Input and Output-
 Input:
-
 5
 2
 0
-
-
-
-
+Output is long since the number of possibilites is huge.
 Output:
 25 2 13 8 23 
 12 7 24 3 14 
@@ -441,6 +410,4 @@ Output:
 6 15 18 11 4 
 1 20 9 24 17 
 14 7 22 3 12 
-21 2 13 8 23 
-
-*/
+21 2 13 8 23  */

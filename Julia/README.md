@@ -51,6 +51,7 @@
 - [Reverse a Number](math/reverse_number.jl)
 - [Strong Number](math/strong_number.jl)
 - [Sum of Digits](math/sum_of_digits.jl)
+- [Sum of Divisors](math/sum_of_divisors.jl)
 - [Tower of Hanoi](math/towerOfHanoi.jl)
 
 ## Searching

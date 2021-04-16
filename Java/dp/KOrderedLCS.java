@@ -24,7 +24,6 @@ public class KOrderedLCS {
 						dp[i][j][l] = 1 + dp[i][j + 1][l + 1];
 						
 					} else {
-
 						int x = dp[i][j + 1][l];
 						int y = dp[i][j][l + 1];
 						int z = 0;
@@ -40,7 +39,6 @@ public class KOrderedLCS {
 				}
 			}
 		}
-
 		System.out.println("Length of Longest Common Subsequence - " + dp[k][0][0]);
 	}
 
@@ -72,4 +70,5 @@ Enter value of K - 2
 Output:
 
 Length of Longest Common Subsequence - 6
+
 */

@@ -6,10 +6,7 @@ Intution: To visit each and every positions which are available from
           the current position and recursively repeat this until
           all the cells are covered
 
-There are N^2 Cells and for each, we have a maximum of 8 possible moves to choose from, so the worst running time is O(8N^2).
 
-It prints all the feasible solutions (possibilities). When moving from (r, c) to the possible 8 options, given first precedence to (r - 2, c + 1) and 
-moved in clockwise manner to explore other options.
  */
 
 
@@ -88,6 +85,13 @@ public class KnightsTour {
 
 
 /* 
+
+
+There are N^2 Cells and for each, we have a maximum of 8 possible moves to choose from, so the worst running time is O(8N^2).
+
+It prints all the feasible solutions (possibilities). When moving from (r, c) to the possible 8 options, given first precedence to (r - 2, c + 1) and 
+moved in clockwise manner to explore other options.
+
 
 
 Sample Input and Output

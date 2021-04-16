@@ -60,7 +60,7 @@ void Graph::kruskal() {
   }
 }
 void Graph::print() {
-  cout << "Edge :"
+  cout << "Edge  :"
      << " Weight" << endl;
   for (int i = 0; i < T.size(); i++) {
     cout << T[i].second.first << " - " << T[i].second.second << " : "
@@ -69,23 +69,64 @@ void Graph::print() {
   }
 }
 int main() {
+    int src, dest, weight;
   Graph g(6);
-  g.AddWeightedEdge(0, 1, 4);
-  g.AddWeightedEdge(0, 2, 4);
-  g.AddWeightedEdge(1, 2, 2);
-  g.AddWeightedEdge(1, 0, 4);
-  g.AddWeightedEdge(2, 0, 4);
-  g.AddWeightedEdge(2, 1, 2);
-  g.AddWeightedEdge(2, 3, 3);
-  g.AddWeightedEdge(2, 5, 2);
-  g.AddWeightedEdge(2, 4, 4);
-  g.AddWeightedEdge(3, 2, 3);
-  g.AddWeightedEdge(3, 4, 3);
-  g.AddWeightedEdge(4, 2, 4);
-  g.AddWeightedEdge(4, 3, 3);
-  g.AddWeightedEdge(5, 2, 2);
-  g.AddWeightedEdge(5, 4, 3);
+  for(int i = 0;i<8;i++){
+    cout << "Source : ";
+    cin >> src;
+    cout << "Destination : ";
+    cin >> dest;
+    cout << "Weight : ";
+    cin >> weight;
+    g.AddWeightedEdge(src,dest,weight);
+    }
   g.kruskal();
   g.print();
   return 0;
 }
+
+/*
+Sample Input :
+Source : 0
+Destination : 1
+Weight : 4 
+Source : 0 
+Destination : 2 
+Weight : 4 
+Source : 1 
+Destination : 2 
+Weight : 2 
+Source : 2 
+Destination : 3 
+Weight : 3 
+Source : 2 
+Destination : 5 
+Weight : 2 
+Source : 2 
+Destination : 4 
+Weight : 4 
+Source : 3 
+Destination : 4 
+Weight : 3 
+Source : 5 
+Destination : 4 
+Weight : 3
+
+Sample Output:
+
+Edge : Weight
+
+1 - 2 : 2
+
+2 - 5 : 2
+
+2 - 3 : 3
+
+3 - 4 : 3
+
+0 - 1 : 4
+
+Let E denote the number of Edges and V denote the number of Vertices.
+Time Complexity: `O(E log V)`
+Space Complexity: `O(E+V)`
+*/

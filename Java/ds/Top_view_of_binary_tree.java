@@ -112,15 +112,15 @@ The top view of the given binary tree is:
 8 7 4 2 3 1
 Explanation:
 The structure of the tree is:
-			2
-		  /   \
-		 4     3
- 		/ \   /
-	   7   5 9
-	  /       \
-	 8         6
-	            \
-	             1
+	    2
+	  /   \
+	 4     3
+	/ \   /
+       7   5 9
+      /       \
+     8         6
+		\
+		 1
 Therefore, the nodes visible from the top are: 8 7 4 2 3 1
 
 TIME COMPLEXITY: O(n), due to the traversal of the whole tree, where 'n' denotes the number of nodes in the tree.

@@ -400,6 +400,7 @@ _add list here_
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Minimum Insertion Steps to make string a palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
 
 ## Bit - Manipulation
 
@@ -492,4 +493,3 @@ _add list here_
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
-

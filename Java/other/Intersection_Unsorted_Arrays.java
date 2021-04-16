@@ -65,7 +65,6 @@ public class Intersection_Unsorted_Arrays {
             for (int i: result)
                 System.out.print(i + " ");
         }
-
         sc.close();
     }
 }

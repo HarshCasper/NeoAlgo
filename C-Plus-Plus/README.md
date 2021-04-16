@@ -227,6 +227,8 @@
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
+- [Second Minimum Node In Binary Tree](ds/Second_minimum_node_in_binary_tree.cpp)
+
 
 ## Graphs
 

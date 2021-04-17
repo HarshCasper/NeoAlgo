@@ -10,8 +10,9 @@ import java.util.Scanner;
 public class Factorial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Number: ");
         int n = sc.nextInt();
-        System.out.println(fact(n));
+        System.out.println("Factorial of " +n+ " is: " + fact(n));
     }
     public static int fact(int n){
         if(n==0)
@@ -23,11 +24,11 @@ public class Factorial {
 
 /*
     Test Cases:
-    Input: 7
-    Output: 5040
+    Enter Number: 7
+    Factorial of 7 is: 5040
 
-    Input: 0
-    Output: 1
+    Enter Number: 0
+    Factorial of 0 is: 1
 
     Time Complexity: O(n)
     Space Complexity: O(n)

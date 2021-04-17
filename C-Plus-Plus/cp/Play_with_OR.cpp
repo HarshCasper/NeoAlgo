@@ -57,6 +57,7 @@ Test Case :
   10 11 1 2 3
 
   Output :
+  New array : 
   11 11 3 3 3
    
 */

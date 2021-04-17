@@ -439,7 +439,7 @@ _add list here_
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
-- [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
+- [Minimum Sum Partition using DP](dp/Minimum_Sum_Partition_dp.cpp)
 - [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
 - [Number of subsets with given difference](dp/subsets_with_given_diff.cpp)
 - [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)
@@ -459,7 +459,6 @@ _add list here_
 - [Staircase using dp](dp/Staircase.cpp)
 - [Count the number of subset with a given difference](dp/Count_subset_given_difference.cpp)
 - [Coin change problem maximum ways](dp/Maximum_ways_Coin_change_problem.cpp)
-- [Minimum sum partition](dp/Minimum_sum_partition.cpp)
 - [Subset Sum using DP](dp/Subset_sum.cpp)
 - [Equal Sum Partition Problem](dp/Equal_sum_partition.cpp)
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
@@ -591,4 +590,4 @@ _add list here_
 - [Repeating and Missing Number](other/repeated_missing.cpp)
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
-
+- [Minimum Sum Partition using Recursion](other/Minimum_Sum_Partition_recursion.cpp)

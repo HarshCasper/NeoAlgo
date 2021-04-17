@@ -338,7 +338,7 @@
 - [Reverse a Number](math/reverse_a_number.py)
 - [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
-- [Perfect Numbers less than n](math/Perfect_square.py)
+- [Perfect square less than n](math/Perfect_square.py)
 
 ## Bit Manipulation
 

@@ -1,33 +1,9 @@
-/*Quick Sort is a divide and conquer algorithm which works on the basic principle 
-of finding a pivot element and dividing the elements in two parts that is, elements
-smaller than pivot are kept on one side and the element larger than the pivot element 
-are placed on the other side of the pivot element.*/
+/*
+Quick sort algorithm starts by choosing a pivot element around which other elements are
+arranged by moving the elements smaller to the left while the larger elements are moved to the right.
+*/
 
 #include <stdio.h>
-int partitionArray(int[], int, int);
-void quickSort(int[], int, int);
-void printArray(int[], int);
-int main(){
-    //array to hold elements for sorting
-    int A[100];
-
-    int size,i,j;
-
-    printf("Enter the size of the array: ");
-    scanf("%d", &size);
-
-    //Entering the elements of the array
-    printf("Enter the array elements : ");
-    for(i = 0; i <size; i++){
-        scanf("%d",&A[i]);
-    }
-
-    printf("\n");
-
-    quickSort(A, 0, size - 1);
-
-    printArray(A, size);
-}
 
 int partitionArray(int a[], int low, int high){
 
@@ -70,6 +46,28 @@ void printArray(int a[], int size){
         printf("%d ",a[i]);
     }
 }
+int main(){
+    //array to hold elements for sorting
+    int A[100];
+
+    int size,i,j;
+
+    printf("Enter the size of the array: ");
+    scanf("%d", &size);
+
+    //Entering the elements of the array
+    printf("Enter the array elements : ");
+    for(i = 0; i <size; i++){
+        scanf("%d",&A[i]);
+    }
+
+    printf("\n");
+
+    quickSort(A, 0, size - 1);
+
+    printArray(A, size);
+}
+
 /*Sample Output:
 Enter the size of the array: 5
 Enter the array elements : 4 6 8 3 1

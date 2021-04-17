@@ -41,7 +41,7 @@ int main() {
     for(int i=0;i<n;i++)
     cin>>A[i];
     sort(A,A+n);
-    Min_xor(A,n)
+    Min_xor(A,n);
     return 0;
 }
 

@@ -52,8 +52,8 @@ public class SumofDivisors
     public static void main(String args[])  
     {
         Scanner scan = new Scanner(System.in);
-	    System.out.print("Enter the number : \n");
-	    long number = scan.nextLong();
+	System.out.print("Enter the number : \n");
+	long number = scan.nextLong();
         long sum_of_divisors = get_sum_of_divisors(number);
         
         System.out.print("Sum of Divisors of this Number is : ");

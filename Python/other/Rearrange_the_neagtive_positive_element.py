@@ -8,11 +8,11 @@ If there are more negative numbers, they too appear in the end of the array.
 
 Examples : 
 
-Input:  arr[] = {1, 2, 3, -4, -1, 4}
-Output: arr[] = {-4, 1, -1, 2, 3, 4}
+Input:  {1, 2, 3, -4, -1, 4}
+Output: {-4, 1, -1, 2, 3, 4}
 
-Input:  arr[] = {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8}
-output: arr[] = {-5, 5, -2, 2, -8, 4, 7, 1, 8, 0} 
+Input:  {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8}
+output: {-5, 5, -2, 2, -8, 4, 7, 1, 8, 0} 
 """
 
 def rearrange_list_with_order(arr):

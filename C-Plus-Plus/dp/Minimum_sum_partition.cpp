@@ -1,84 +1,75 @@
-/*
-This problem is solved using dp.
-In this problem we have to find minimum difference of two subset.
-We have to divide array in two subsets in such a way that difference of both subsets 
-will become minimum.
-*/
-#include <bits/stdc++.h>
+// Minimum Sum Partition
+#include <iostream>
+#include <string>
 using namespace std;
 
-int minimumSumPartition(int arr[], int sum, int N)
+/* Partition the Set into two subsets Set1, Set2 such that the
+  difference between the sum of elements in Set1 and the sum
+  of elements in Set2 is minimized */
+int minPartition(int Set[], int n, int Set1, int Set2)
 {
-    bool DP[N + 1][sum + 1];
+    /* Case 0. If list becomes empty, return the absolute
+       difference between two sets */
+    if (n < 0)
+        return abs(Set1 - Set2);
 
-    /* if j is 0 i.e. sum is 0 and i i.e. arr has whatever values it will always return true
-    because if sum is 0 then we don't need to find if subset of array is equal to sum or not */
-    for (int i = 0; i <= N; i++) 
-        DP[i][0] = true; 
-  
-    /* But if i is 0 i.e array has no value and sum has some value then we can nver make 
-    subset of array value equal to sum so it will always give false */
-    for (int i = 1; i <= sum; i++) 
-        DP[0][i] = false;
+    /* Case 1. Include current item in the subset Se1 and recur
+       for remaining items (n - 1) */
+    int inc = minPartition(Set, n - 1, Set1 + Set[n], Set2);
 
-    for (int i = 1; i <= N; i++)
-    {
-        for (int j = 1; j <= sum; j++)
-        {
-            if (arr[i - 1] <= j)
-                DP[i][j] = DP[i-1][j-arr[i-1]] || DP[i-1][j];
-            else 
-                DP[i][j] = DP[i-1][j];
-        }
-    }
-    int i = sum;
-    while(! DP[N][i])
-        i--;
-    
-    // then we will return minimum difference
-    return 2*sum - 2*i;
-    
+    /* Case 2. Exclude current item from subset Se1 and recur for
+       remaining items (n - 1) */
+    int exc = minPartition(Set, n - 1, Set1, Set2 + Set[n]);
+
+    //Returning included and excluded values
+    return min(inc, exc);
 }
 
+//Main Code
 int main()
 {
-    int N, ans;
 
-    cout << "Enter the value of N: \n";
-    cin >> N;
-    int arr[N], sum = 0;
+    //int Set[] = { 10, 20, 15, 5, 25};
 
-    //We will find the total sum of array to find the range of the array
-    cout << "Enter the value of array: \n";
-    for (int i = 0; i < N; i++)
+    int size;
+    std::cout << "Enter the number of elements you want in Set: ";
+    std::cin >> size;
+    int Set[size]; //Creating Set of size 'size'
+    std::cout << "Enter elements: " << std::endl;
+
+    for (int i = 0; i < size; i++) //Enter the elements in the Set
     {
-        cin >> arr[i];
-        sum += arr[i];
+        std::cin >> Set[i];
     }
+    // Number of elements
+    int n = sizeof(Set) / sizeof(Set[0]);
 
+    cout << "\nThe entered elements in the Set are: \n" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        cout << Set[i] << " ";
+    }
+    //Printing the minimum difference
+    cout << "\nThe minimum difference is " << minPartition(Set, n - 1, 0, 0);
 
-   ans = minimumSumPartition(arr, sum/2, N);
-
-   if (sum & 1)
-        ans++;
-
-   cout << ans << "\n";
-
-   return 0;
+    return 0;
 }
+
 /*
-Sample Output:
-
-Input:
-Enter the value of N:
-4
-Enter the value of array:
-1 6 5 11
-
-Output: 
+SAMPLE INPUT:
+5
 1
+2
+3
+4
+5
+SAMPLE OUTPUT:
+Enter the number of elements you want in Set: Enter elements: 
 
-Time Complexity - O(N*sum)
-Space Complexity - O(N*sum)
+The entered elements in the Set are: 
 
+1 2 3 4 5 
+The minimum difference is 1
+
+Time Complexity = O(n*sum) 
+Depends on the value of 'n' and 'sum'
 */

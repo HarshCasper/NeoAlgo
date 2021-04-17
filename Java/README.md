@@ -139,6 +139,7 @@ _add list here_
 - [Sieve of Atkin](math/sieveOfAtkin.java)
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 - [Armstrong number](math/ArmstrongNumber.java)
+- [Number of Divisors](math/number_of_divisors.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)

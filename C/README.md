@@ -113,6 +113,9 @@
 - [Hashtable chaining](ds/hashtable_chaining.c)
 - [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
 - [Check Binary Tree is BST or Not](ds/FindBinaryTreeBst.c)
+- [Remove Duplicates From an Unsorted Linked List](ds/Remove_Duplicate_In_Linked_List.c)
+- [First Fit Memory allocation](ds/first_fit_memory.c)
+- [Adjacency Matrix in C](ds/Adjacency_matrix.c)
 
 ## Searching
 
@@ -211,9 +214,11 @@ _add list here_
 - [Matrix Subtraction](math/matrix_subtraction.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
 - [Matrix Transpose](math/matrix_transpose.c)
+- [Symmetric Matrix](math/matrix_symmetric.c)
 - [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
+- [Pascal's triangle](math/Pascals_triangle.c)
 
 ## Operating System
 

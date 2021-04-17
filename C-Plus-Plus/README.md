@@ -122,6 +122,9 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Delete without head pointer](cp/Delete_without_head_pointer.cpp)
+- [Cyclically rotate of an array by one](cp/Cyclically_rotate_of_array_by_one.cpp)
+- [Minimum number to form the sum even](cp/Minimum_number_to_form_the_sum_even.cpp)
 - [Balanced Array](cp/Balanced_array.cpp)
 - [Multiply left and right array sum](cp/Multiply_left_and_right_array_sum.cpp)
 - [Print first letter of every word in the string](cp/Print_first_letter_of_every_word_in_the_string.cpp)
@@ -232,6 +235,7 @@
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
+- [Best First Search Algorithm](graphs/Best_First_Search_Algorithm.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
 - [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
@@ -290,6 +294,7 @@
 - [Sublist Search](search/sublist_Search.cpp)
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
 - [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
+- [Sqrt Monotonic Binary Search](search/Sqrt_Monotonic_Binary_Search.cpp)
 
 ## Sorting
 
@@ -369,6 +374,7 @@ _add list here_
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
+- [Factorial Space Optimized](math/factorial_space_optimized.cpp)
 - [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
@@ -398,6 +404,7 @@ _add list here_
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Decimal to Hexadecimal Conversion](math/decimal_to_hexadecimal.cpp)
 - [Matrix Addition](math/matrix_addition.cpp)
+- [Matrix Subtraction](math/matrix_subtraction.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Matrix Rotation 90 degree to right](math/Matrix_rotation_90degree.cpp)
@@ -417,6 +424,8 @@ _add list here_
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 - [Edit distance](dp/edit_distance.cpp)
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)
+- [Factorial top to bottom](dp/factorial_top_down.cpp)
+- [Factorial bottom to top](dp/factorial_bottom_up.cpp)
 - [Fibonacci bottom to top](dp/fibonacci_bottom_up.cpp)
 - [Fibonacci top to bottom](dp./../dp/fibonacci_top_down.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
@@ -442,6 +451,7 @@ _add list here_
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [K-Tree](dp/K-Tree.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Printing Shortest Common Supersequence](dp/Printing_Shortest_Common_Supersequence.cpp)
 - [Shortest Common Superstring](dp/shortest_common_superstring.cpp)
 - [Staircase using dp](dp/Staircase.cpp)
 - [Count the number of subset with a given difference](dp/Count_subset_given_difference.cpp)
@@ -475,6 +485,7 @@ _add list here_
 - [Reverse Bits](Bit--Manipulation/reverse_bits.cpp)
 - [Sort integers by the number of set bits present in them](Bit--Manipulation/sort_integers_by_their_number_of_set_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
+- [Find duplicate elements using XOR](Bit--Manipulation/Find_duplicate_elements_using_XOR.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 - [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
 
@@ -576,4 +587,5 @@ _add list here_
 - [Union and Intersection of arrays](other/Union_and_Intersection_of_arrays.cpp)
 - [Repeating and Missing Number](other/repeated_missing.cpp)
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
+- [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
 

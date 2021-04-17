@@ -312,6 +312,7 @@
 - [Comb sort](sort/comb_sort.cpp)
 - [Count Sort](sort/countsort.cpp)
 - [Counting Sort](sort/counting_sort.cpp)
+- [DNF Sort](sort/DNF_Sort.cpp)
 - [Heap Sort](sort/HeapSort.cpp)
 - [In Place Merge Sort](sort/in_place_merge_sort.cpp)
 - [Insertion Sort](sort/insertion.cpp)

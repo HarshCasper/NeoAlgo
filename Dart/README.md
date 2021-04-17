@@ -25,6 +25,7 @@
 - [Neon number](maths/NeonNumber.dart)
 - [Magic Number](maths/MagicNumber.dart)
 - [Happy Number](maths/HappyNumber.dart)
+- [Perfect Number](maths/PerfectNumber.dart)
 
 ## Search
 
@@ -38,3 +39,7 @@
 - [Bubble Sort](sort/BubbleSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
 - [Selection Sort](sort/Selection_sort.dart)
+
+## Cryptography
+
+- [Caesar Cipher](cryptography/CaesarCipher.dart)

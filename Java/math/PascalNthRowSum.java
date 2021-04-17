@@ -18,7 +18,7 @@ public class PascalNthRowSum {
 
 		Scanner sc=new Scanner(System.in);
 		
-                System.out.print ("Enter value of N - ");
+              System.out.print ("Enter value of N - ");
 		int n=sc.nextInt();
 		
 		int row= 1<<(n-1);

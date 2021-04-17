@@ -10,11 +10,11 @@ public class UniqueNumberBitmasking {
 		
 		Scanner sc=new Scanner (System.in);
 
-        System.out.print ("Enter size of array - ");
+              System.out.print ("Enter size of array - ");
 		int n=sc.nextInt();
 
 		int[] ar=new int[n];
-        System.out.print ("Enter elements in array - ");
+              System.out.print ("Enter elements in array - ");
 		for (int i=0; i<n; i++) {
 			ar[i]=sc.nextInt();
 		}

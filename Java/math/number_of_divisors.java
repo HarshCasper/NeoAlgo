@@ -48,8 +48,8 @@ public class NumberofDivisors
     public static void main(String args[])  
     {
         Scanner scan = new Scanner(System.in);
-	    System.out.print("Enter the number : \n");
-	    long number = scan.nextLong();
+	System.out.print("Enter the number : \n");
+	long number = scan.nextLong();
         long number_of_divisors = get_number_of_divisors(number);
         
         System.out.print("Number of Divisors of this Number is : ");

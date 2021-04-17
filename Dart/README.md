@@ -26,6 +26,7 @@
 - [Magic Number](maths/MagicNumber.dart)
 - [Happy Number](maths/HappyNumber.dart)
 - [Perfect Number](maths/PerfectNumber.dart)
+- [Harshad Number](maths/HarshadNumber.dart)
 
 ## Search
 

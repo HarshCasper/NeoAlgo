@@ -340,6 +340,7 @@
 - [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
 - [Perfect Number](math/Perfect_Number.py)
+- [Harshad Number](math/HarshadNumber.py)
 
 ## Bit Manipulation
 

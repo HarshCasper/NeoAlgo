@@ -25,6 +25,7 @@
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 - [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
+- [Dijsktra Algorithm](Greedy_Algorithms/Dijsktra.java)
 ## Blockchain
 
 _add list here_
@@ -224,6 +225,7 @@ _add list here_
 - [Mystery Number](math/MysteryNumber.java)
 - [Perfect Number](math/Perfect_Number.java)
 - [Matrix Multiplication](math/Matrix_multiplication.java)
+- [Factorial of a Number](math/Factorial.java)
 
 ## Dynamic Programming
 
@@ -233,6 +235,7 @@ _add list here_
 - [Longest common subsequence of Three Strings](dp/LCSThreeStrings.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
+- [K Ordered LCS](dp/KOrderedLCS.java)
 - [CoinChange DP](dp/Coin_Change.java)
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)

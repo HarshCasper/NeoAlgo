@@ -157,6 +157,7 @@ _add list here_
 - [Segment Tree](ds/SegmentTree.java)
 - [Sparse Matrices](ds/SparseMatrices.java)
 - [Sparse Matrix](ds/SparseMatrix.java)
+- [Span of an Array](ds/Span_of_an_array.java)
 - [Stack ~ Linked List Implementation](ds/Stack.java)
 - [Stack Implementation-of-queue-using-stack](ds/Stackll.java)
 - [Implementation of Stack using Queue](ds/StackUsingQueue.java)

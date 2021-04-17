@@ -232,6 +232,7 @@ _add list here_
 - [Print all codes of a string using recursion](cp/printallcodes_recursion.cpp)
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
+- [Rearranging an array in maximum minimum form](other/Rearrange_in_maxmin.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)

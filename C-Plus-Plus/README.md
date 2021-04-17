@@ -232,6 +232,7 @@
 - [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
+- [Ford Fulkerson Algorithm for maximum flow problem](graphs/Ford_Fulkerson_Algorithm.cpp)
 - [Number of Connected Components](graphs/number_of_connected_components.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kosaraju Algorithm](graphs/Kosaraju_Algorithm.cpp)

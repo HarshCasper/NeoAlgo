@@ -101,6 +101,7 @@ Node *appendLastNToFirst(Node *head, int n) {
 }
 int main()
 {
+	cout << " Enter the elements of the linked list"<< endl;
 	Node *head = takeinput();
 	int n;
 	cout << "Enter the number of last n nodes" << endl;
@@ -121,13 +122,14 @@ O(1)
 
 
 Sample input 1-
-2
+Enter the elements of the linked list
 1 2 3 4 5 -1
+Enter the number of last n nodes
 3
-10 20 30 40 50 60 -1
-5
+
 Sample output 1-
+the new linked list is
 3 4 5 1 2
-20 30 40 50 60 10
+
 
 */

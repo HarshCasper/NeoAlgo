@@ -1,9 +1,8 @@
 '''
 Its a simple python program to rotate array by k elements.
-Approch : First Select first k elements and puth them in seperate array.
-then move all the elements after position k to their left by k steps.
-After this we just put the elements which are in seperate array at the end.  
-it will rotate the array by k elements  inreverse order.
+Approch : First Select first k elements and puth them in seperate array , then move all the elements after position k to their left by k steps.
+After this we just put the elements which are in seperate array at the end in reverse order.  
+it will rotate the array by k elements.
 '''
 
 # function to totate the array A

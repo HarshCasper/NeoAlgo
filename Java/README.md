@@ -191,3 +191,4 @@ _add list here_
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
+- [MaxMinSum](other/max_min_sum.java)

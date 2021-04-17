@@ -49,5 +49,8 @@ enter the elements
 11
 9
 span of the array is 36
+
+Time complexity:o(n)
+space complexity:o(n)
 */
 

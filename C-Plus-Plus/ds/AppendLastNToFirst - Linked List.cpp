@@ -1,5 +1,5 @@
 /* 
-"Copyright [2021] <Anshika Dubey>"
+
 You have been given a singly linked list of integers along with an integer 'N'.
 Write a function to append the last 'N' nodes towards the front of the singly linked list and returns the new head to the list.
 
@@ -7,7 +7,9 @@ Write a function to append the last 'N' nodes towards the front of the singly li
 
 #include <bits/stdc++.h>
 using namespace std;
+
 // create a class node
+
 class Node {
 public:
 	int data;
@@ -17,7 +19,10 @@ public:
 		this->next = NULL;
 	}
 };
+
+
 // taking input from the user for linked list
+
 Node *takeinput() {
 	int data;
 	cin >> data;
@@ -35,7 +40,10 @@ Node *takeinput() {
 	}
 	return head;
 }
+
+
 //printing the linked list if head is given 
+
 void print(Node *head) {
 	Node *temp = head;
 	while (temp != NULL) {
@@ -44,9 +52,14 @@ void print(Node *head) {
 	}
 	cout << endl;
 }
+
+
 //finding the length of the linked list
+
 int length1(Node *head) {
+	
     // Write your code here
+	
     if(head == NULL)
         return 0;
     if(head->next == NULL)
@@ -54,7 +67,10 @@ int length1(Node *head) {
     Node* temp = head;
     return 1 + length1(temp->next);
 }
+
+
 // function to append last n elements of linked list at front
+
 Node *appendLastNToFirst(Node *head, int n) {
     Node * temp = head;
     int length = length1(temp);
@@ -62,13 +78,19 @@ Node *appendLastNToFirst(Node *head, int n) {
         return temp;
       } else {
          while( temp->next != NULL) {    
-         // finding the last node
+         
+        // finding the last node
+		 
         temp = temp->next;                   
     }
+	    
      // connecting the head to the last node
+	    
     temp->next = head;                         
     temp = head;
+	    
     // finding the node that is supposed to be the new head
+	    
     for(int i = 1; i<=length-n-1; i++) {
         temp = temp->next;                   
     }
@@ -79,16 +101,14 @@ Node *appendLastNToFirst(Node *head, int n) {
 }
 int main()
 {
-	// taking input for number of test cases
-	int t;                            
-	cin >> t;
-	while (t--) {
-		Node *head = takeinput();
-		int n;
-		cin >> n;
-		head = appendLastNToFirst(head, n);
-		print(head);
-	}
+	Node *head = takeinput();
+	int n;
+	cout << "Enter the number of last n nodes" << endl;
+	cin >> n;
+	head = appendLastNToFirst(head, n);
+	
+	cout << " the new linked list is" <<endl;
+	print(head);
 	return 0;
 }
 

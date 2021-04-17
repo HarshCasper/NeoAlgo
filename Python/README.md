@@ -119,6 +119,7 @@
 - [Next Permutation](cp/Next_Permutation.py)
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 - [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
+- [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
 
 
 ## Cryptography
@@ -338,6 +339,10 @@
 - [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
 
+## Bit Manipulation
+
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
+
 ## Blockchain
 
 _add list here_
@@ -381,5 +386,6 @@ _add list here_
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
+- [Kth index removal](other/stringkth.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

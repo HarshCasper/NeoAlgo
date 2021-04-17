@@ -4,19 +4,15 @@ In the sum_ll function we traversed through all the functions of the linked list
 the sum of every data element of every node in the linked list.
 """
 
-
 # A node class
 class Node:
-
     # To create a new node
     def __init__(self, data):
         self.data = data
         self.next = None
 
-
 # Class Linked list
 class LinkedList:
-
     # create a empty linked list
     def __init__(self):
         self.head = None
@@ -33,7 +29,6 @@ class LinkedList:
             while (temp.next != self.head):
                 temp = temp.next
             temp.next = newNode
-
         else:
             newNode.next = newNode  # For the first node
 
@@ -49,8 +44,7 @@ class LinkedList:
                 if (temp == self.head):
                     break
 
-                    # Function to calculate sum of a Linked list
-
+    # Function to calculate sum of a Linked list
     def sum_ll(self, head):
         sum_ = 0
         temp = self.head
@@ -60,7 +54,6 @@ class LinkedList:
                 temp = temp.next
 
         return sum_
-
 
 # Initialize lists as empty by creating Linkedlist objects
 head = LinkedList()
@@ -78,10 +71,13 @@ sum_ = head.sum_ll(head)
 print(f"\nSum of Linked List: {sum_}")
 
 """
-OUTPUT: 
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+SAMPLE INPUT/OUTPUT: 
 Entered Circular Linked List:
 20 30 40 50
 Sum of Linked List: 140
-Time Complexity: O(n)
-Space Complexity: O(n)
+
 """
+

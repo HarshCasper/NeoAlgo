@@ -6,38 +6,28 @@ Octal Number: The number with base 8 is called Octal number. */
 //Function which convert decimal to octal and print it
 void conversion(int n)
 {
-  //base case when the recursion will stop
-     if(n==0)
-        //returns nothing
-        return;
-        //the function will call itself by passing n/8
-           dec_to_oct(n/8);
-        //print the n%8 value ex. n=2 so the n%8=2
-        printf("%d",n%8);
-     //returns nothing
-        return;
+     if(n==0)                                                         /*base case when the recursion will stop */
+      return;                                                        /* returns nothing */
+      dec_to_oct(n/8);                                              /* the function will call itself by passing n/8 */
+      printf("%d",n%8);                                            /* print the n%8 value ex. n=2 so the n%8=2 */
+        return;                                                   /* returns nothing */
 }
 //driver code
 int main()
 {
-    //Initialize num variable
     int Num;
     printf("Enter a Number: ");
-    //taking input
-    scanf("%d",&Num);
-
-    if(Num<0){
-    //providing better UI to user
-    printf("The octal conversion of %d is: -",Num);
-    //converting no into a positive one
-    Num=Num*-1;
+    scanf("%d",&Num);     /* taking input */
+    if(Num<0)
+    {
+    printf("The octal conversion of %d is: -",Num);          /* providing better UI to user */
+    Num=Num*-1;                                             /* converting no into a positive one */
     }
 else
-        //providing better UI to user
-        printf("The octal conversion of %d is: ",Num);
-    //function to convert decimal to octal
-    conversion(Num);
+    printf("The octal conversion of %d is: ",Num);        /* providing better UI to user */
+    conversion(Num);                                     /* function to convert decimal to octal */
     return 0;
+
 }
 /*
 Example:

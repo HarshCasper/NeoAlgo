@@ -7,21 +7,26 @@
 */
 
 
-// Program 
+// Solution
+
     int numIdenticalPairs(vector<int>& nums) {
         int n = nums.size();
-        unordered_map<int ,int> umap; // creating an unordered map
+        // creating an unordered map
+        unordered_map<int ,int> umap;
+        // storing frequency of each element
         for(int i = 0;i<n;i++)
         {
-            umap[nums[i]]++; // storing frequency of each element
+            umap[nums[i]]++; 
         }
         int ans = 0;
         for(auto i:umap)
         {
             int y = i.second;
-            ans = ans + (y * (y-1)) / 2; //count the number of pairs and add to answer.
+            //count the number of pairs and add to answer.
+            ans = ans + (y * (y-1)) / 2; 
         }
-        return ans; // returing final answer
+        // returning final answer
+        return ans; 
     }
 /*
 
@@ -29,4 +34,6 @@ Input: nums = [1,2,3,1,1,3]
 Output: 4
 Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
 
+Time Complexity:O(n)
+Space Complexity:O(n)
 */

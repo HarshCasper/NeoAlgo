@@ -422,6 +422,7 @@ _add list here_
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
+- [Lucky Number](math/LuckyNumber.cpp)
 
 ## Dynamic Programming
 

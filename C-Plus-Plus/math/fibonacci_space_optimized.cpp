@@ -1,14 +1,13 @@
 //C++ Program to calculate Fibonacci numbers without using recursion
-#include <bits/stdc++.h>
-using namespace std;
-
 /*
- Fibonacci(n) = Fibonacci(n-1) + Fibonacci(n-2). Rather than
- string each value, we will only store the last and second
+ As we know, Fibonacci(n) = Fibonacci(n-1) + Fibonacci(n-2). Rather than
+ storing each value, we will only store the last and second
  last number of the Fibonacci series.
- Initially we will store first and second value i.e. 1
+ Initially we will store first and second value
  and run the loop from third place till the number given.
 */
+#include <bits/stdc++.h>
+using namespace std;
 
 int Fibonacci(int n)
 {

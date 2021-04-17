@@ -19,6 +19,7 @@
 - [Binary Exponentiation (Iterative and Recursive methods)](maths/Binary_Exponentiation.dart)
 - [Catalan number (Recursion)](maths\catalan_number.dart)
 - [Decimal to Binary conversion](maths/DecimalToBinary.dart)
+- [Decimal to Hexadecimal Conversion](maths/decimal_to_hexadecimal.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
 - [Sum of Digits](maths/SumOfDigits.dart)
@@ -38,6 +39,7 @@
 
 - [Bubble Sort](sort/BubbleSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
+- [Selection Sort](sort/Selection_sort.dart)
 
 ## Cryptography
 

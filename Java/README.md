@@ -226,6 +226,7 @@ _add list here_
 - [Perfect Number](math/Perfect_Number.java)
 - [Matrix Multiplication](math/Matrix_multiplication.java)
 - [Factorial of a Number](math/Factorial.java)
+- [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
 
 ## Dynamic Programming
 

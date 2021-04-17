@@ -2,17 +2,17 @@
 This is CP problem
 Description:
 Suppose company want to build thier own compiler.Compiler checks
-wheather given code expressions are valid or not.
+wheather given code expression is valid or not.
 
 Example : Valid : <<>>, <> ,<><>
           Invalid: ><, >><<< ,><><>
 
 You are an employee their and you have been assigned the task of 
-compiler wheather the code expression is valid or not.
+compiler , weather the code expression is valid or not.
 
 Given some expressions in form of string('<' and '>') which represent 
 some instruction to be analyzed by Compiler.Your task is to write a code
-for compiler to checko wheather given expression is valid or not if
+for compiler to check weather given expression is valid or not if
 valid return Compiled else Error
 */
 #include <bits/stdc++.h>

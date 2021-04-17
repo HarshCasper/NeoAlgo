@@ -21,27 +21,32 @@ using namespace std;
 int main()
 {
     int t;
-    cin>>t;
-    while(t--)
+    cin >> t;
+    while (t--)
     {
         string s;
-        cin>>s;
-        int c=0;
-        int ans=0;
+        cin >> s;
+        int c = 0;
+        int ans = 0;
         stack<char> st;
-        for(int i=0;i<s.size();i++)
+        for (int i = 0; i < s.size(); i++)
         {
-            if(st.empty() && s[i]=='>')break;
-            if(s[i]=='<')st.push('<');
-            else if(s[i]=='>' && !st.empty())
+            if (st.empty() && s[i] == '>')
+                break;
+            if (s[i] == '<')
+                st.push('<');
+            else if (s[i] == '>' && !st.empty())
             {
-                c+=2;
+                c += 2;
                 st.pop();
             }
-            if(st.empty())ans=max(ans,c);
+            if (st.empty())
+                ans = max(ans, c);
         }
-        if(ans!=0)cout<<"Compiled\n";
-        else cout<<"Error\n";
+        if (ans != 0)
+            cout << "Compiled\n";
+        else
+            cout << "Error\n";
     }
 }
 /*

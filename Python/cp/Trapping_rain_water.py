@@ -1,5 +1,7 @@
-# Given n non-negative integers representing an elevation map where the 
-# width of each bar is 1, compute how much water it can trap after raining.
+"""
+Given n non-negative integers representing an elevation map where the 
+width of each bar is 1, compute how much water it can trap after raining.
+"""
 
 # function to find the water trapped
 def trap(arr, n):
@@ -38,28 +40,19 @@ if __name__ == "__main__":
     print('Water trapped is is: ' +
         str(trap(arr, n)))
 
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+"""
+Time Complexity: O(n)
+Space Complexity: O(n)
 
-# Example 1:
+Example 1:
 
-# Input:
-# Enter number of elements: 
-# 12
-# Enter the elements: 
-# 0 1 0 2 1 0 1 3 2 1 2 1
+Input:
+Enter number of elements: 
+12
+Enter the elements: 
+0 1 0 2 1 0 1 3 2 1 2 1
 
-# Output:
-# Water it can trap is: 6
+Output:
+Water it can trap is: 6
 
-# Example 2:
-
-# Input:
-# Enter number of elements: 
-# 5
-# Enter the elements: 
-# 1 4 2 0 1
-
-# Output:
-# Water it can trap is: 1
-
+"""

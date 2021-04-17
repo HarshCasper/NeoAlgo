@@ -18,6 +18,7 @@
 - [Automorphic Number](maths/automorphic_number.dart)
 - [Binary Exponentiation (Iterative and Recursive methods)](maths/Binary_Exponentiation.dart)
 - [Catalan number (Recursion)](maths\catalan_number.dart)
+- [Check if a Number is a Palindrome](maths/check_palindrome.dart)
 - [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
@@ -26,7 +27,6 @@
 - [Magic Number](maths/MagicNumber.dart)
 - [Happy Number](maths/HappyNumber.dart)
 - [Perfect Number](maths/PerfectNumber.dart)
-- [Check if a Number is a Palindrome](maths/check_palindrome.dart)
 
 ## Search
 

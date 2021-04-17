@@ -42,6 +42,7 @@
 - [Luhn's Algorithm](cp/LuhnsAlgo.c)
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
+- [Trapping rain water](cp/Trapping_rain_water.c)
 
 ## Cryptography
 
@@ -112,6 +113,9 @@
 - [Hashtable chaining](ds/hashtable_chaining.c)
 - [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
 - [Check Binary Tree is BST or Not](ds/FindBinaryTreeBst.c)
+- [Remove Duplicates From an Unsorted Linked List](ds/Remove_Duplicate_In_Linked_List.c)
+- [First Fit Memory allocation](ds/first_fit_memory.c)
+- [Adjacency Matrix in C](ds/Adjacency_matrix.c)
 
 ## Searching
 
@@ -123,6 +127,7 @@
 - [Manacher's Algorithm](search/Manacher's_Algorithm.c)
 - [Random Search Monte Carlo version](search/random_search.c)
 - [Jump Search](search/JumpSearch.c)
+- [Staircase Search](search/Staircase_Search.c)
 
 ## Sorting
 
@@ -151,6 +156,7 @@
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 - [Comb Sort](sort/comb.c)
 - [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
+- [Wiggle Sort](sort/Wiggle_sort.c)
 
 ## Dynamic Programming
 
@@ -205,16 +211,20 @@ _add list here_
 - [Magic Number](math/Magic_Number.c) 
 - [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
+- [Matrix Subtraction](math/matrix_subtraction.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
 - [Matrix Transpose](math/matrix_transpose.c)
+- [Symmetric Matrix](math/matrix_symmetric.c)
 - [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
+- [Pascal's triangle](math/Pascals_triangle.c)
 
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
+- [Priority Scheduling Algorithm](operating_system/priority_sjf.c)
 
 
 ## Other

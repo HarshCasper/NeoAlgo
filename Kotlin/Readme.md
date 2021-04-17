@@ -29,7 +29,7 @@
 - [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
 - [Palindrome Number](Maths/PalindromeNumber.kt)
 - [Fibonacci Number](Maths/FibonacciNumber.kt)
-
+- [Happy Number](Maths/HappyNumber.kt)
 
 ## Searching Algorithms
 

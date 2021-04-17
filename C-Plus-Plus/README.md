@@ -145,6 +145,7 @@
 - [Friends Pairing](cp/friends_pairing.cpp)
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
+- [Construct tree from preorder and inorder traversals](cp/construct_tree_from_traversals.cpp)
 
 ## Data Structures
 

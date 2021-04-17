@@ -3,6 +3,8 @@ A number is said to be a Harshad Number if it is divisible by the sum of its dig
 For example: The number 84 is divisible by the sum (12) of its digits (8, 4).
 
 """
+
+
 def isHarshad(number) :
     copy = number
 
@@ -14,17 +16,17 @@ def isHarshad(number) :
         number = number // 10
 
     # Checking if Number is divisible by sum of digits
-    if (copy % sum_of_digits == 0) :
+    if copy % sum_of_digits == 0 :
         return True
-    else :
-        return False
+    return False
 
-number = int(input("Enter a number:"))
 
-if (isHarshad(number)):
-    print(number,"is a Harshad number")
+user_input = int(input("Enter a number:"))
+
+if isHarshad(user_input):
+    print(user_input, "is a Harshad number")
 else:
-    print(number,"is not a Harshad number")
+    print(user_input, "is not a Harshad number")
 
 """
 Space Complexity O(1)
@@ -38,4 +40,3 @@ Enter a number:123
 123 is not a Harshad number
 
 """
-

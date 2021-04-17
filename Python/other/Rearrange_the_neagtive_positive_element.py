@@ -51,4 +51,5 @@ Enter the list 1: 1 2 3 -4 -1 4
 
 OUTPUT:
 After rearrange with order [-4, 1, -1, 2, 3, 4]
+
 """

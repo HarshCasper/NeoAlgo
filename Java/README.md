@@ -26,6 +26,7 @@
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 - [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
 - [Dijsktra Algorithm](Greedy_Algorithms/Dijsktra.java)
+
 ## Blockchain
 
 _add list here_
@@ -103,6 +104,7 @@ _add list here_
 - [Rat In A Maze](cp/RatInAMaze.java)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
+- [Window String Problem](cp/windowString.java)
 
 ## Cryptography
 
@@ -247,7 +249,6 @@ _add list here_
 - [Subset Sum to Target](dp/SubsetSumToTarget.java)
 - [Dice Throw Problem](dp/DiceThrow.java)
 
-
 ## Blockchain
 
 _add list here_
@@ -292,6 +293,7 @@ _add list here_
 _add list here_
 
 ## Operating Systems
+
 - [Banker's Algorithm](Operating-System/banker.java)
 - [Memory Allocation in Operating Systems](Operating-System/alloc.java)
 - [Page Replacement Algorithms](Operating-System/allocate.java)
@@ -337,4 +339,3 @@ _add list here_
 - [Union of two Unsorted Arrays](other/UnionUnsortedArray.java)
 - [Repeating and missing number](other/Repeating_and_missing_number.java)
 - [Knights Tour](other/KnightsTour.java)
-

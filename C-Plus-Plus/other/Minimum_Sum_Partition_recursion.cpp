@@ -1,4 +1,4 @@
-// Minimum Sum Partition
+// Minimum Sum Partition using recusion
 #include <iostream>
 #include <string>
 using namespace std;

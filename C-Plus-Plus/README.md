@@ -453,6 +453,7 @@ _add list here_
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [K-Tree](dp/K-Tree.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Minimum number of deletion to make palindrome](dp/Minimum_number_of_deletion.cpp)
 - [Printing Shortest Common Supersequence](dp/Printing_Shortest_Common_Supersequence.cpp)
 - [Shortest Common Superstring](dp/shortest_common_superstring.cpp)
 - [Staircase using dp](dp/Staircase.cpp)

@@ -205,6 +205,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Strong Number](math/strong_number.c) 
+- [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
 - [Number of Digits](math/number_of_digits.c)

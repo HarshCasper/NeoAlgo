@@ -1,3 +1,4 @@
+
 /*
  This problem will be solved using dp.
  We will be given one strings and we have to print the
@@ -37,13 +38,14 @@ int minDeletion(string X, string Y, int m, int n) {
 }
 
 int main() {
+  cout<<"Enter string s1"<<endl;
   string s1;
   cin >> s1;
   string s2 = s1;
   reverse(s2.begin(), s2.end());
   int m = s1.length();
   int n = s2.length();
-  cout << minDeletion(s1, s2, m, n);
+  cout <<"Minimum number of deletion in a string to make it a palindrome "<< minDeletion(s1, s2, m, n);
   return 0;
 }
 /*
@@ -53,6 +55,7 @@ bbbab
 Output -  
 Minimum number of deletion in a string to make it a palindrome
 4
+
 Time Complexity - O(m*n)
 Space Complexity - O(m*n)
 */

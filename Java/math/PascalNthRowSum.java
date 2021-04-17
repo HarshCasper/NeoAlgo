@@ -1,6 +1,6 @@
 /**
 The program will find out the sum of Nth row
-in Pascal's Triangle using the concept of Bitmasking.
+in the Pascal's Triangle using the concept of Bitmasking.
 	1         -> 1st -> 1
 	1 1       -> 2nd -> 2
 	1 2 1     -> 3rd -> 4
@@ -31,3 +31,17 @@ public class PascalNthRowSum {
 	}
 }
 
+/**
+Time Complexity : O(1)
+Space Complexity : O(1)
+
+Input :
+
+Enter value of N - 5
+
+Output :
+
+Nth row sum - 16
+Sum of entire Pascal Triangle upto Nth row - 31
+
+*/

@@ -1,101 +1,69 @@
-// Matrix chain multiplication algorithm 
-#include <bits/stdc++.h> 
-using namespace std; 
+/*
+Question:- Given a sequence of matrices, find the most efficient way to multiple these matrices together. We have to find the way which costs minimum.
+How are we defining coat of matrix multiplication ?
+=> Let's asssume two matrices are there of order 10X30 and 30X20 so cost of multiplication of them will be 10*30*20 , we will take the common order element only once .
+*/
 
-// Matrix Ai has dimension p[i-1] x p[i] 
-// for i = 1..n we will have P[n+1] array of dimensions
-int *p= NULL;
-int n; //number of matrices
-int minMul=0; //min scalar multiplication
+#include <bits/stdc++.h>
 
-int **m=NULL;
-int **s=NULL;
+using namespace std;
 
-//function to take dimensions as input
-void input()
-{
-	cin>>n; //number of matrices
-	p=new int[n+1];
-	for(int i=0;i<=n;i++)
-		cin>>p[i];
-	
-	m=new int*[n];		// to store the number of scalar multiplications
-	for(int i = 1; i <= n; ++i)
-      m[i] = new int[n];
-	
-	s=new int*[n-1];		//to store the K for paranthesis
-	for(int i = 1; i <= n-1; ++i)
-      s[i] = new int[n-1];
+int t[1001][1001];
+int solve(int arr[], int i, int j) {
+  /*
+   If there is no element in the array then we don't have any matrix .
+   If there is only one element in the array then we can't find the order of the matrix as order of matrix at ith index is arr[i-1]*arr[i].
+   */
+  if (i >= j) {
+    return 0;
+  }
+
+  memset(t, -1, sizeof(t));
+  if (t[i][j] != -1) {
+    return t[i][j];
+  }
+
+  int ans = INT_MAX;
+  /* moving from first matrix which will be at index 1 and its order will be arr[0]*arr[1]
+    to last matrix which will be at index n-2 and its order will be arr[n-3]*arr[n-2] . */
+  for (int k = i; k < j; k++) {
+    /* splitting the problem into two parts and finding answers of both parts and adding cost of multiplying both answers in temp */
+    int temp = solve(arr, i, k) +
+      solve(arr, k + 1, j) + arr[i - 1] * arr[k] * arr[j];
+    // getting minimum of all costs.
+    ans = min(ans, temp);
+  }
+
+  return t[i][j] = ans;
 }
-void MatrixChainMultiply() 
-{ 
-  
-    //int m[n][n]; 	// to store the number of scalar multiplications
-	//int s[n-1][n-1];   //to store the K for paranthesis
-	
-    int i, j, k, L, q; 
-  
-    /* m[i, j] = Minimum number of scalar multiplications needed to compute the 
-    matrix A[i]A[i+1]...A[j] = A[i..j] where dimension of A[i] is p[i-1] x p[i] */
-  
-    // cost is zero when multiplying only one matrix. 
-    for (i = 1; i <= n; i++) 
-        m[i][i] = 0; 
-  
-    // L is chain length. 
-    for (L = 2; L <= n; L++)  
-    { 
-        for (i = 1; i <= n - L + 1; i++)  
-        { 
-            j = i + L - 1; 
-            m[i][j] = INT_MAX; 
-            for (k = i; k <= j - 1; k++)  
-            { 
-                // q = cost per scalar multiplications 
-                q = m[i][k] + m[k + 1][j] + p[i - 1] * p[k] * p[j]; 
-                if (q < m[i][j]) 
-                { 
-					m[i][j] = q;
-					s[i][j] = k;
-				}				
-            } 
-        } 
-    } 
-	
-    minMul = m[1][n]; 
-	cout<<"*************** Matrix Chain Multiplication ***************"<<endl<<endl;
-	cout<<"Minimum number of multiplications are: "<<minMul<<endl;
-} 
-void printOptimalParens(int i,int j)
-{
-	if(i==j)
-		cout<<"A"<<i;
-	else
-	{
-		cout<<"(";
-		printOptimalParens(i,s[i][j]);
-		printOptimalParens(s[i][j]+1,j);
-		cout<<")";
-	}
-}	
-// Driver Code 
-int main() 
-{ 
-	input();
-	MatrixChainMultiply(); 
-	cout<<"The way which give the minimum number of scalar multiplications is: ";
-	printOptimalParens(1,n);
-	cout<<endl;
-    return 0; 
-} 
-  
-/*Input
-Number of matrices=n= 4
-dimensions = 10 20 30 40 50
 
-Output
-*************** Matrix Chain Multiplication ***************
+int matrixMultiplication(int N, int arr[]) {
+  int i = 1, j = N - 1;
 
-Minimum number of multiplications are: 38000
-The way which give the minimum number of scalar multiplications is: (((A1A2)A3)A4)
+  return solve(arr, i, j);
+}
+
+int main() {
+  int N;
+  cout << "Size of array -" << endl;
+  cin >> N;
+  int arr[N + 1];
+  cout << "Input Array -" << endl;
+  for (int i = 0; i < N; i++) {
+    cin >> arr[i];
+  }
+  cout << "Minimum costs -" << endl;
+  cout << matrixMultiplication(N, arr);
+}
+/*
+Time Complexity: O(N3)
+Space Complexity: O(N2)
+Input:
+ Size of array -
+4
+ Input Array -
+arr = {10, 30, 5, 60}
+Output:
+Minimum costs -
+4500
 */

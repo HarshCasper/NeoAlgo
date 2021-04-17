@@ -72,9 +72,8 @@ public:
 //             [".","6",".",".",".",".","2","8","."],
 //             [".",".",".","4","1","9",".",".","5"],
 //             [".",".",".",".","8",".",".","7","9"]]
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png"  />
-</p>
+
+
 
 // Output: 
 //             [["5","3","4","6","7","8","9","1","2"],
@@ -87,9 +86,7 @@ public:
 //             ["2","8","7","4","1","9","6","3","5"],
 //             ["3","4","5","2","8","6","1","7","9"]]
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-20050714_solution.svg/250px-Sudoku-by-L2G-20050714_solution.svg.png"  />
-</p>
+
 
 // Explanation: The input board is shown above and the only valid solution is shown
 

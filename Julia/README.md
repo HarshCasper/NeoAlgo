@@ -30,14 +30,17 @@
 - [Fibbonaci Number](dp/fibonacci.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.jl)
+- [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.jl)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.jl)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.jl)
+- [Subset Sum Problem](dp/subset_sum.jl)
 
 ## Mathematics
 
 - [Armstrong Number](math/armstrong_number.jl)
 - [Automorphic Number](math/automorphic_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
+- [Perfect Number](math/perfect_number.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Number of Digits](math/number_of_digits.jl)
@@ -45,7 +48,10 @@
 - [Magic Number](math/magic_number.jl)
 - [Mystery Number](math/mystery_number.jl)
 - [Neon Number](math/neon_number.jl)
+- [Reverse a Number](math/reverse_number.jl)
+- [Strong Number](math/strong_number.jl)
 - [Sum of Digits](math/sum_of_digits.jl)
+- [Sum of Divisors](math/sum_of_divisors.jl)
 - [Tower of Hanoi](math/towerOfHanoi.jl)
 
 ## Searching
@@ -56,6 +62,7 @@
 - [Jump Search](search/jump_search.jl)
 - [Linear Search](search/linear_search.jl)
 - [Ternary Search](search/ternary_search.jl)
+- [Ternary Search Recursive](search/ternary_search_recursive.jl)
 
 ## Sorting
 
@@ -65,3 +72,7 @@
 - [Selection Sort](sort/selection_sort.jl)
 - [Comb Sort](sort/comb_sort.jl)
 - [Quick Sort](sort/quick_sort.jl)
+
+## Bit Manipulation
+
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.jl)

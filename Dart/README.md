@@ -17,7 +17,7 @@
 - [Armstrong number using Recursive approach](maths/ArmstrongRecursive.dart)
 - [Automorphic Number](maths/automorphic_number.dart)
 - [Binary Exponentiation (Iterative and Recursive methods)](maths/Binary_Exponentiation.dart)
-- [Catalan number (Recursion)](maths\catalan_number.dart)
+- [Catalan number (Recursion)](maths/catalan_number.dart)
 - [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
@@ -25,6 +25,7 @@
 - [Neon number](maths/NeonNumber.dart)
 - [Magic Number](maths/MagicNumber.dart)
 - [Happy Number](maths/HappyNumber.dart)
+- [Binomial Coefficient (under modulo)](maths/binomial_coefficient_under_modulo.dart)
 - [Perfect Number](maths/PerfectNumber.dart)
 
 ## Search

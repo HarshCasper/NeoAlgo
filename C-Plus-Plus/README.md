@@ -143,6 +143,7 @@
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
 - [Connecting Dots](cp/connecting_dots.cpp)
 - [Friends Pairing](cp/friends_pairing.cpp)
+- [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
 
 ## Data Structures

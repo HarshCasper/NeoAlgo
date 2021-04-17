@@ -3,18 +3,18 @@ number. A perfect number is a number which is equal to the sum of
 its divisors (excluding the number itself).'''
 
 # This function checks if a number is a perfect number
-def is_perfect(number):
+def is_perfect(n):
 
     # This variable stores the sum of divisors of number
     sum_of_divisors = 0
     # Iterate from 1 till the number
-    for i in range(1, number):
-        if(number % i == 0):
+    for i in range(1, n):
+        if(n % i == 0):
             # Add divisors
             sum_of_divisors += i
 
     # If the sum of divisors is equal to the number
-    if(sum_of_divisors == number):
+    if(sum_of_divisors == n):
         return 1
 
     # Else return -1
@@ -52,4 +52,8 @@ Enter a number to check if it's a perfect number: -16
 
 Please enter a positive number.
 
+Time Complexity - O(n)
+Space Complexity - O(1)
+
 '''
+

@@ -113,6 +113,9 @@
 - [Hashtable chaining](ds/hashtable_chaining.c)
 - [Find Route Between Two Nodes](ds/FindRouteBetwnTwoNode.c)
 - [Check Binary Tree is BST or Not](ds/FindBinaryTreeBst.c)
+- [Remove Duplicates From an Unsorted Linked List](ds/Remove_Duplicate_In_Linked_List.c)
+- [First Fit Memory allocation](ds/first_fit_memory.c)
+- [Adjacency Matrix in C](ds/Adjacency_matrix.c)
 
 ## Searching
 
@@ -153,6 +156,7 @@
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 - [Comb Sort](sort/comb.c)
 - [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
+- [Quick Sort](sort/quickSort.c)
 - [Wiggle Sort](sort/Wiggle_sort.c)
 
 ## Dynamic Programming
@@ -202,6 +206,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Strong Number](math/strong_number.c) 
+- [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
 - [Number of Digits](math/number_of_digits.c)
@@ -211,6 +216,7 @@ _add list here_
 - [Matrix Subtraction](math/matrix_subtraction.c)
 - [Matrix Multiplication](math/matrix_multiplication.c)
 - [Matrix Transpose](math/matrix_transpose.c)
+- [Symmetric Matrix](math/matrix_symmetric.c)
 - [Mystery Number](math/mystery_number.c)
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
@@ -241,7 +247,6 @@ _add list here_
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
-- [Permutation of string](other/Permutation_of_string.c)
 
 ## CP
 

@@ -1,9 +1,11 @@
 /* Java Program to Find Laplacian Matrix of an Undirected Graph
 FORMULA USED :
 Laplacian matrix = Degree matrix – Adjacency matrix
+
 BASIC DEFINITIONS:
 Adjacency matrix: Value can be either 0 or 1 according to graph vertices are connected to each other. 
 Degree matrix: Number of vertices adjacent to a vertex.
+
 NOTE:
 This code contains pre defined values. To get the user defined values, use Scanner class.
 */

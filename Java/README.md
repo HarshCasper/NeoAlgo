@@ -225,6 +225,7 @@ _add list here_
 - [Mystery Number](math/MysteryNumber.java)
 - [Perfect Number](math/Perfect_Number.java)
 - [Matrix Multiplication](math/Matrix_multiplication.java)
+- [Special Number](math/Special.java)
 
 ## Dynamic Programming
 

@@ -235,7 +235,7 @@
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 - [First Fit memory Allocation](ds/first_fit.cpp)
-
+- [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)

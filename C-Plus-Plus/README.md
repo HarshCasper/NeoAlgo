@@ -134,6 +134,7 @@
 - [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Reverse individual words in a sentence without stacks](cp/reverseWords.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)

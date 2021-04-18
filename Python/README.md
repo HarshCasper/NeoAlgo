@@ -342,6 +342,7 @@
 - [Lucky Numbers](math/Lucky_Numbers.py)
 - [Perfect square less than n](math/Perfect_square.py)
 - [Perfect Number](math/Perfect_Number.py)
+- [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 
 ## Bit Manipulation
 

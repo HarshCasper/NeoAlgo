@@ -208,3 +208,20 @@ const main = async () => {
   };
 
   main();
+
+/*
+ Input: 
+ 2+3*4
+ 
+ Output:
+ 14
+
+ Input:
+ 4+6*3-6
+
+ Output:
+ 16
+
+ Time Complexity: O(n)
+ Space Complexity: O(n)
+ */

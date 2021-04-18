@@ -387,5 +387,6 @@ _add list here_
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
 - [Kth index removal](other/stringkth.py)
+- [Count the occurence of number](other/search_many.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

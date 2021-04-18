@@ -185,7 +185,7 @@ _add list here_
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 - [Bipartite Check](graphs/BipartiteCheck.java)
 - [Articulation_Point](graphs/Articulation_Point.java)
-- [Laplacian matrix of Undirected graph](graphs/LaplacianMatrix.java)
+- [Laplacian matrix for Undirected graph](graphs/LaplacianMatrix.java)
 
 ## Mathematics
 

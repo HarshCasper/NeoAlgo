@@ -596,3 +596,4 @@ _add list here_
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
+- [Find the number of pairs of integers in the array whose sum is equal to k](other/Count_pairs_with_given_sum.cpp)

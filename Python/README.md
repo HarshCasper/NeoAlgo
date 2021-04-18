@@ -16,7 +16,14 @@
 * [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
 * [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 * [Reverse Linked List](ds/Reverse_linked_list.py)
+* [Binary Search Tree](ds/BinarySearchTree.py)
 * [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+* [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
+* [Identical BSTs](ds/identical_binary_tree.py)
+* [Loop detection in Linked List](ds/loop_detection_in_LL.py)
+* [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
+* [Stack using list](ds/stack_using_list.py)
+
 ## Searching
 * [Bilinear Search](search/bilinear.py)
 * [Binary Search](search/binarysearch.py)
@@ -32,6 +39,7 @@
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
 * [Bubble Sort](sort/Bubble_Sort.py)
+* [Gnome Sort](sort/gnome_sort.py)
 * [Comb Sort](sort/comb_sort.py)
 * [Heap Sort](sort/Heap_sort.py)
 * [Insertion Sort](sort/insertion.py)
@@ -43,7 +51,6 @@
 * [Intro Sort](sort/IntroSort.py)
 * [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 * [Merge Sort Parallel](sort/Parallel_MergeSort.py)
-* [Wiggle Sort](sort/wiggle_sort.py)
 
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
@@ -74,7 +81,8 @@
 - [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
 - [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
-
+- [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
+- [Sum of Linked List](ds/Sum_of_Linked_list.py)
 
 ## Competitive Programming
 
@@ -111,7 +119,11 @@
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
 - [Count the number of anagrams](cp/CountAnagrams.py)
 - [Hailstone Sequence](cp/Hailstone_sequence.py)
-
+- [Next Permutation](cp/Next_Permutation.py)
+- [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
+- [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
+- [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
+- [Trapping rain water](cp/Trapping_rain_water.py)
 
 ## Cryptography
 
@@ -186,10 +198,12 @@
 - [Coin Change Problem](dp/CoinChange.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Common Substring](dp/length_longest_common_substring.py)
+- [Longest Decreasing Subsequence](dp/length_common_decreasing_subsequence.py)
 - [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 - [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
+- [Golomb Sequence](dp/golomb_sequence.py)
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
@@ -200,6 +214,8 @@
 - [Count Derangements](dp/count_derangements.py)
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
+- [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
+- [Catalan Number](dp/Catalan_DP.py)
 
 ## Pathfinding Algorithms
 
@@ -208,6 +224,7 @@
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
 - [A* (Astar) in Maze](Pathfinding/2D_Astar.py)
+- [RRT in Maze](Pathfinding/2D_RRT.py)
 
 ## Graphs
 
@@ -252,6 +269,7 @@
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
 - [Sort an Arrays of 0s, 1s, 2s](cp/Sort_An_Arraysof0s1sand2s.py)
+- [Activity Selection](cp/activity_selection.py)
 
 ## Cryptography
 
@@ -304,6 +322,7 @@
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
+- [Sum of Digits of a Number](math/sum_of_digits.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
@@ -313,6 +332,22 @@
 - [Hamming Distance](math/Hamming_distance.py)
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
+- [Transpose of matrix](math/Matrix_transpose.py)
+- [Neon Number](math/Neon_number.py)
+- [Matrix addition](math/Matrix_addition.py)
+- [Matrix Multiplication](math/Matrix_multiplication.py)
+- [Sum of Divisors](math/sum_of_divisors.py)
+- [Count of Divisors](math/count_of_divisors.py)
+- [Reverse a Number](math/reverse_a_number.py)
+- [Count of Digits](math/count_of_digits.py)
+- [Lucky Numbers](math/Lucky_Numbers.py)
+- [Perfect square less than n](math/Perfect_square.py)
+- [Perfect Number](math/Perfect_Number.py)
+
+## Bit Manipulation
+
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
+
 ## Blockchain
 
 _add list here_
@@ -347,7 +382,15 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Common Elements](other/common_elements.py)
+- [Count pair with given sum](other/count_pair_with_given_sum.py)
+- [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)
+- [Next premutation](other/Next_premutation.py)
+- [Minimum number of jumps](other/minimize_the_jump.py)
+- [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+- [Merge Interval](other/merge_interval.py)
+- [Kth index removal](other/stringkth.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

@@ -31,19 +31,23 @@ def main():
     print()
 
 
+# Driver Code
 if __name__ == "__main__":
     main()
-# } Driver Code Ends
 
-
-# sample i/o
 '''
+Sample Input/Output:
+
 Enter the value of no of elements in array and K in one line
 5 2
 Enter the array in one line
 1 2 3 4 5
+
+Output:
 After rotating array by 2 elements the array is 
 3 4 5 1 2
+
+Time Complexity : O(n)
+Space Complexity : O(k)
+
 '''
-# Time Complexity : O(n) [Only one loop is running]
-#Space Complexity : O(k)

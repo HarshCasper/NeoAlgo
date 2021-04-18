@@ -41,6 +41,7 @@
 - [Bubble Sort](sort/BubbleSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
 - [Selection Sort](sort/Selection_sort.dart)
+- [Quick Sort](sort/Quick_Sort.dart)
 
 ## Cryptography
 

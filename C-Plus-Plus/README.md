@@ -122,6 +122,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Play With OR](cp/Play_with_OR.cpp)
 - [Delete without head pointer](cp/Delete_without_head_pointer.cpp)
 - [Cyclically rotate of an array by one](cp/Cyclically_rotate_of_array_by_one.cpp)
 - [Minimum number to form the sum even](cp/Minimum_number_to_form_the_sum_even.cpp)
@@ -133,6 +134,7 @@
 - [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Reverse individual words in a sentence without stacks](cp/reverseWords.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
@@ -232,7 +234,9 @@
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
-
+- [First Fit memory Allocation](ds/first_fit.cpp)
+- [Best Fit memory Allocation](ds/best_fit_memory.cpp)
+- [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 
 ## Graphs
 

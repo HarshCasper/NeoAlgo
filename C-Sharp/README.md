@@ -39,6 +39,7 @@ _add list here_
 
 - [Binary Search](search/BinarySearch.cs)
 - [Linear Search](search/LinearSearch.cs)
+- [Fibonacci Search](search/Fibonacci_Search.cs)
 
 ## Sorting
 

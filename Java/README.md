@@ -224,6 +224,7 @@ _add list here_
 - [Matrix Addition](math/Matrix_addition.java)
 - [Mystery Number](math/MysteryNumber.java)
 - [Perfect Number](math/Perfect_Number.java)
+- [Pthagorean Triplet](math/Pythagorean_triplet.java)
 - [Matrix Multiplication](math/Matrix_multiplication.java)
 - [Factorial of a Number](math/Factorial.java)
 - [Lucky Number](math/LuckyNumber.java)

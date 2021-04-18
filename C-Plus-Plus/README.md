@@ -595,4 +595,4 @@ _add list here_
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
-- [Majority_Element_Using_Binary_Search](other/Majority_Element_using_Binary_Search .cpp)
+- [Majority_Element_Using_Binary_Search](other/Majority_Element_using_Binary_Search.cpp)

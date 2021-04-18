@@ -6,7 +6,8 @@ Sum of its proper divisors = 1 + 2 + 3 = 6.
 Hence 6 is a perfect number.
 */
 
-let n = 6;
+const prompt = require("prompt-sync")({ sigint: true });
+let n = +prompt("Enter a number to check whether it is a perfect number or not: ");
 let sum = 0;
 
 for (let i = 1; i < n; i++) 

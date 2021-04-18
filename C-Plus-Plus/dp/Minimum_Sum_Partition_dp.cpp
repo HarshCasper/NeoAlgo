@@ -1,5 +1,5 @@
 /*
-This problem is solved using dp.
+Minimum Sum Partition using dp.
 In this problem we have to find minimum difference of two subset.
 We have to divide array in two subsets in such a way that difference of both subsets 
 will become minimum.

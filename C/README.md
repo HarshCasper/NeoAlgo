@@ -156,6 +156,7 @@
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 - [Comb Sort](sort/comb.c)
 - [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
+- [Quick Sort](sort/quickSort.c)
 - [Wiggle Sort](sort/Wiggle_sort.c)
 
 ## Dynamic Programming

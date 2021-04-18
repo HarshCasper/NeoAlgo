@@ -88,6 +88,7 @@ _add list here_
 - [Matrix Multiplication](./math/Matrix_multiplication.js)
 - [Matrix addition](./math/Matrix_addition.js)
 - [Neon Number](./math/NeonNumber.js)
+- [Happy Number](./math/HappyNumber.js)
 
 ## Competitive Programming
 

@@ -140,6 +140,7 @@
 - [Busy Man](cp/busy_man.cpp)
 - [All unique permutations](cp/all_unique_permutation.cpp)
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
+- [Maximum element in each k sized subarray](cp.max_element_in_k_size_subarray.ccp)
 
 
 =======

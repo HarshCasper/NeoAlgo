@@ -116,13 +116,9 @@
 - [Remove Duplicates From an Unsorted Linked List](ds/Remove_Duplicate_In_Linked_List.c)
 - [First Fit Memory allocation](ds/first_fit_memory.c)
 - [Adjacency Matrix in C](ds/Adjacency_matrix.c)
-<<<<<<< HEAD
-- [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
-
-=======
 - [Worst Fit Memory allocation](ds/worst_fit_memory.c)
 - [Best Fit Memory allocation](ds/best_fit_memory.c)
->>>>>>> master
+- [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 ## Searching
 
 - [Binary Search](search/Binary_search.c)

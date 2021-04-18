@@ -173,6 +173,7 @@ _add list here_
 - [Double Ended Queue in Java](ds/DEQueue.java)
 - [Circular Queue](ds/CircularQueue.java)
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
+- [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
 
 ## Graphs
 
@@ -188,6 +189,7 @@ _add list here_
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 - [Bipartite Check](graphs/BipartiteCheck.java)
 - [Articulation_Point](graphs/Articulation_Point.java)
+- [Laplacian matrix for Undirected graph](graphs/LaplacianMatrix.java)
 
 ## Mathematics
 
@@ -226,6 +228,7 @@ _add list here_
 - [Perfect Number](math/Perfect_Number.java)
 - [Matrix Multiplication](math/Matrix_multiplication.java)
 - [Factorial of a Number](math/Factorial.java)
+- [Lucky Number](math/LuckyNumber.java)
 
 ## Dynamic Programming
 
@@ -247,6 +250,7 @@ _add list here_
 - [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
 - [Subset Sum to Target](dp/SubsetSumToTarget.java)
 - [Dice Throw Problem](dp/DiceThrow.java)
+- [Word Wrap Problem](dp/WordWrapProblem.java)
 
 
 ## Blockchain

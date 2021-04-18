@@ -1,4 +1,4 @@
-/* 
+/*
 Cloning stack without extra space:
 
 This Function takes takes two stakes as input and copy data of first stack to the second stack.
@@ -44,18 +44,18 @@ int main()
 		dest.pop();
 	}
 	return 0;
+}
+/*
+Sample Input/Output:
+INPUT:  Enter the no. of elements
+	5
+	Enter the elements of stack
+	3 5 1 2 4
 
-	/*
-	Sample Input/Output:
-	INPUT:  Enter the no. of elements
-		5
-		Enter the elements of stack
-		3 5 1 2 4
+OUTPUT: Source Stack : 3 5 1 2 4
+	Cloned Stack : 3 5 1 2 4
 
-	OUTPUT: Source Stack : 3 5 1 2 4
-		Cloned Stack : 3 5 1 2 4
-
-	Time and space complexity for this approach:
-	  Time Complexity: O(N)
-	  Auxiliary Space: O(1)
-	*/
+Time and space complexity for this approach:
+  Time Complexity: O(N)
+  Auxiliary Space: O(1)
+*/

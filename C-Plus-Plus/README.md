@@ -122,6 +122,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Play With OR](cp/Play_with_OR.cpp)
 - [Delete without head pointer](cp/Delete_without_head_pointer.cpp)
 - [Cyclically rotate of an array by one](cp/Cyclically_rotate_of_array_by_one.cpp)
 - [Minimum number to form the sum even](cp/Minimum_number_to_form_the_sum_even.cpp)
@@ -133,6 +134,7 @@
 - [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Reverse individual words in a sentence without stacks](cp/reverseWords.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
@@ -228,9 +230,13 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Append Last N To First](ds/Append_Last_N_To_First.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
+- [First Fit memory Allocation](ds/first_fit.cpp)
+- [Best Fit memory Allocation](ds/best_fit_memory.cpp)
+- [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 
 ## Graphs
 
@@ -275,6 +281,7 @@
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
+- [Check Path in Graph](graphs/checkPath.cpp)
 - [Top view of Tree](graphs/top_view_binary_tree.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
@@ -419,6 +426,7 @@ _add list here_
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
+- [Lucky Number](math/LuckyNumber.cpp)
 
 ## Dynamic Programming
 
@@ -437,6 +445,7 @@ _add list here_
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.cpp)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
 - [Minimum Sum Partition using DP](dp/minimum_sum_partition_dp.cpp)

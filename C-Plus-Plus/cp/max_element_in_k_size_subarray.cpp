@@ -1,7 +1,9 @@
-/*Through this algorithm, we can find the maximum element in each of the k sized subarray.
+/*
+Through this algorithm, we can find the maximum element in each of the k sized subarray.
 The algorithm uses deque. Only the significant elements of the current window are stored in the deque in decreasing
 order. The elements which are lesser than any of the elements of the deque and are to the left of that particular element
-are insignificant. As the current window changes, significant values are updated. */
+are insignificant. As the current window changes, significant values are updated.
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -57,9 +59,17 @@ int main()
     return 0;
 }
 
-/*Time Complexity: O(n)
-  Space Complexity: O(n)
-  Sample Input: 10
-                5 6 7 4 1 2 5 8 9 3
-                4
-  Sample Output: 7 7 7 5 8 9 9 */ 
+/*
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+SAMPLE INPUT/OUTPUT:
+Enter size of array
+10
+Enter the elements of the array
+5 6 7 4 1 2 5 8 9 3
+Enter value of k:
+4
+output:
+7 7 7 5 8 9 9
+*/ 

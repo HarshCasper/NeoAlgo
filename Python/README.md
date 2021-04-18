@@ -21,6 +21,7 @@
 * [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
 * [Identical BSTs](ds/identical_binary_tree.py)
 * [Loop detection in Linked List](ds/loop_detection_in_LL.py)
+* [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
 * [Stack using list](ds/stack_using_list.py)
 
 ## Searching
@@ -339,11 +340,8 @@
 - [Reverse a Number](math/reverse_a_number.py)
 - [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
-<<<<<<< HEAD
 - [Perfect square less than n](math/Perfect_square.py)
-=======
 - [Perfect Number](math/Perfect_Number.py)
->>>>>>> e46c66505675d4612515f5dfd2d0b4d8123dd28b
 
 ## Bit Manipulation
 

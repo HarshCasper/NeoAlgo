@@ -116,7 +116,7 @@
 - [Remove Duplicates From an Unsorted Linked List](ds/Remove_Duplicate_In_Linked_List.c)
 - [First Fit Memory allocation](ds/first_fit_memory.c)
 - [Adjacency Matrix in C](ds/Adjacency_matrix.c)
-
+- [Worst Fit Memory allocation](ds/worst_fit_memory.c)
 ## Searching
 
 - [Binary Search](search/Binary_search.c)
@@ -247,7 +247,6 @@ _add list here_
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
-- [Permutation of string](other/Permutation_of_string.c)
 
 ## CP
 

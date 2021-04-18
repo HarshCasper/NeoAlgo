@@ -5,7 +5,7 @@ import java.io.*;
 
 import java.util.*;//impoting java packages
 
-public class sol{
+public class max_min_sum{
   
     public static void main(String[] args){
       

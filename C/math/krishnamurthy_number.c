@@ -2,10 +2,11 @@
 Krishnamurthy Number is a number whose sum of the factorial of digits
 is equal to the number itself. The Number is named after Jiddu Krishnamurti */
 
-// Helper function to return the factorial of a number
 #include <stdio.h>
 #include <stdbool.h>
 
+
+// Helper function to return the factorial of a number
 long int factorial(int num)
 {
     if (num == 1 || num == 0)

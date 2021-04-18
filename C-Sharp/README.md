@@ -11,6 +11,7 @@
 
 ## Graphs 
 - [DFS Implementation of Graph](graphs/DFS.cs)
+- [Kosaraju's algorithm for Strong Connectected Components](graphs/Kosaraju's_algorithm_for_SCC.cs)
 
 ## Blockchain
 

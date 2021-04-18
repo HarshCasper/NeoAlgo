@@ -39,6 +39,7 @@ int findCenter(vector<vector<int>>& edges)
 int main()
 {
     int src,dest,no_of_edges;
+    cout<<"Enter number of edges"<<endl;
     cin>>no_of_edges;
     vector<vector<int>>edges;
     
@@ -46,8 +47,10 @@ int main()
     {
         vector<int>temp;
         
+        cout<<"Enter source of edge"<<endl;
         cin>>src;
         temp.push_back(src);
+        cout<<"Enter destination of edge"<<endl;
         cin>>dest;
         temp.push_back(dest);
         
@@ -59,21 +62,23 @@ int main()
 
 
 /* 
-
-First line contain no. of edges (n)
-Then 2*n line contains edges, where first line is source and second one is destination
-
 INPUT:
+Enter number of edges
 3
+Enter source of edge
 1
+Enter destination of edge
 2
+Enter source of edge
 2
+Enter destination of edge
 3
+Enter source of edge
 4
+Enter destination of edge
 2
 OUTPUT:
 2
-
 
 Time Complexity: O(no_of_edges)
 Space Complexity: O(no_of_edges)

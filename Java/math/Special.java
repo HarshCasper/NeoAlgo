@@ -1,31 +1,40 @@
 /*
 The program is to check whether a given number is a special number or not.
 A special number is a number whose all digits are 1
+Example-11,111
 */
 import java.util.*;
 class special
 {
-    public static void main()
+     static void number(int x)
     {
-        Scanner sc=new Scanner(System.in);
-		/*Taking the number which is to be checked*/
-        System.out.println("Enter the number");
-        int n=sc.nextInt();
+
         int s=0,c=0;
-        while(n!=0)
+        while(x!=0)
         {
-            int b=n%10;
-			/*Calculating sum of digits*/
+            int b=x%10;
+	     /*sum of digits*/
             s=s+b;
-			/*Calculating count of digits*/
+         /*count of digits*/
             c++;
-            n=n/10;
+            x=x/10;
         }
-		/*If the sum of digits and count of digits is equal then special*/
+         /*If the sum of digits and count
+         of digits is equal 
+         then special*/
         if(s==c)
         System.out.println("The given number is special");
         else
         System.out.println("The given number is not special");
+    }
+    public static void main()
+    {
+        Scanner sc=new Scanner(System.in);
+	  /*Input number 
+        which is to be checked*/
+        System.out.println("Enter the number");
+        int n=sc.nextInt();
+        number(n);
     }
 }
 

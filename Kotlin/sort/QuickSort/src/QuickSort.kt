@@ -1,6 +1,8 @@
-//QuickSort Algortihm works on Divide and Conquer Algorithm. It creates two empty arrays to hold elements less than the pivot value and elements greater than the pivot value, and then recursively sort the sub arrays. There are two basic operations in the algorithm, swapping items in place and partitioning a section of the array.
-
-//Here QuickSort is implemented in Kotlin using recursive approach
+/*
+QuickSort Algortihm works on Divide and Conquer Algorithm. It creates two empty arrays to hold elements less than the pivot value and
+elements greater than the pivot value, and then recursively sort the sub arrays. There are two basic operations in the algorithm, 
+swapping items in place and partitioning a section of the array.
+*/
 
 //Importing the Java.util package, it is needed because we are using the scanner object.
 import java.util.*
@@ -63,9 +65,9 @@ Enter the List of numbers you want to Sort:
 3
 2
 45
-Original List: 34	33	67	3	2	
+Original List: 34	33	67	3	2   45	
 Ordered list: [2, 3, 33, 34, 45, 67]
 
-Time Complexity: O(n log n)[Average]
-Space Complexity: O(log n)[Average] 
+Time Complexity: O(n log n)
+Space Complexity: O(log n)
 */

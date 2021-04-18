@@ -343,6 +343,7 @@
 - [Lucky Numbers](math/Lucky_Numbers.py)
 - [Perfect square less than n](math/Perfect_square.py)
 - [Perfect Number](math/Perfect_Number.py)
+- [Nth term of GP.py](math/nth_term_of_GP.py)
 
 ## Bit Manipulation
 

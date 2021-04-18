@@ -21,6 +21,7 @@
 * [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
 * [Identical BSTs](ds/identical_binary_tree.py)
 * [Loop detection in Linked List](ds/loop_detection_in_LL.py)
+* [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)

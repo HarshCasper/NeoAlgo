@@ -17,22 +17,18 @@ def rotateArr(A, k, N):
     return A
 
 def main():
-    # test cases
-    T = int(input("Enter the no of Test Cases"))
-    while T > 0:
-        print("Enter the value of no of elements in array and K in one line")
-        nd = [int(x) for x in input().strip().split()]
-        N = nd[0]
-        k = nd[1]
-        print("Enter the array in one line")
-        A = [int(x) for x in input().strip().split()]
-        rotateArr(A, k, N)
-        print("After rotating array by ",K," elements the array is ")
-        # printing the result
-        for i in A:
-            print(i, end=" ")
-        print()
-        T -= 1
+    print("Enter the value of no of elements in array and K in one line")
+    nd = [int(x) for x in input().strip().split()]
+    N = nd[0]
+    k = nd[1]
+    print("Enter the array in one line")
+    A = [int(x) for x in input().strip().split()]
+    rotateArr(A, k, N)
+    print("After rotating array by ",k," elements the array is ")
+    # printing the result
+    for i in A:
+        print(i, end=" ")
+    print()
 
 
 if __name__ == "__main__":
@@ -42,8 +38,6 @@ if __name__ == "__main__":
 
 # sample i/o
 '''
-Enter the no of Test Cases
-2
 Enter the value of no of elements in array and K in one line
 5 2
 Enter the array in one line

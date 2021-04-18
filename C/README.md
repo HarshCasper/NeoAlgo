@@ -206,6 +206,7 @@ _add list here_
 - [Lowest Prime Factor](math/lowest_prime_factor_of_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Krishnamurthy Number](math/krishnamurthy_number.c)
 - [Strong Number](math/strong_number.c) 
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)

@@ -574,7 +574,7 @@ _add list here_
 - [Concatenate given strings](other/n_string_concatenate.cpp)
 - [Decimal to Gray code Conversion](other/Decimal_to_gray.cpp)
 - [Trapping Rainwater](other/trappingRainwater.cpp)
-- [Minimum number of swaps for bracket balancing](other/Minimum_number_of_swaps_for_bracket_balancing)
+- [Minimum number of swaps for bracket balancing](other/Minimum_number_of_swaps_for_bracket_balancing.cpp)
 - [4Sum](other/4Sum.cpp)
 - [Maximum ELement in a bitonic Array](other/Max_in_BitonicArray.cpp)
 - [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)

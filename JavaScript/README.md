@@ -53,6 +53,7 @@
 - [Interpolation Search](./search/InterpolationSearch.js)
 - [Exponential Search](./search/ExponentialSearch.js)
 - [Fibonacci Search](./search/FibonacciSearch.js)
+- [Quick Select](./search/quick_select.js)
 
 ## Sorting
 
@@ -106,11 +107,9 @@ _add list here_
 - [Flight of stairs](./dp/flightOfStairs.js)
 - [Climbing stairs problem](./dp/Climbing_stairs.js)
 
-
 ## Blockchain
 
 _add list here_
-
 
 ## Cryptography
 

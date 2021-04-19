@@ -384,6 +384,7 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Rearrange the negative and positive elements](other/Rearrange_the_neagtive_positive_element.py)
 - [Find if there is a subarray with 0 sum](other/Subarray_with_sum0.py)
 - [Common Elements](other/common_elements.py)
 - [Count pair with given sum](other/count_pair_with_given_sum.py)
@@ -395,5 +396,6 @@ _add list here_
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
 - [Kth index removal](other/stringkth.py)
+
 
 ## [Coding Template for Contribution](Code_Template.md)

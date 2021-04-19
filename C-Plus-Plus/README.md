@@ -122,6 +122,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Count Leaves in Binary Tree](cp/count_leaves_in_binaryTree.cpp)
 - [Play With OR](cp/Play_with_OR.cpp)
 - [Delete without head pointer](cp/Delete_without_head_pointer.cpp)
 - [Cyclically rotate of an array by one](cp/Cyclically_rotate_of_array_by_one.cpp)
@@ -149,6 +150,8 @@
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
 - [Ones and Zeroes](cp/Ones_and_Zeroes.cpp)
+- [Baised Standings](cp/baised_standings.cpp)
+
 ## Data Structures
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
@@ -387,6 +390,7 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Factorial Space Optimized](math/factorial_space_optimized.cpp)
+- [Fibonacci without Recursion](math/fibonacci_space_optimized.cpp)
 - [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
@@ -483,7 +487,9 @@ _add list here_
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Average Submatrix > K](dp/avg_submatrix_k.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
+- [Minimum Insertion Steps to make string palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
 
 ## Bit - Manipulation
 

@@ -24,7 +24,6 @@
 * [Right view of a binary tree](ds/Right_view_of_binary_tree.py)
 * [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
 * [Stack using list](ds/stack_using_list.py)
-* [Left view of a binary tree](ds/Left_view_of_binary_tree.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -85,6 +84,7 @@
 - [Singly Linked List](ds/SinglyLinkedList.py)
 - [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
 - [Sum of Linked List](ds/Sum_of_Linked_list.py)
+- [Left view of a binary tree](graphs/Left_view_of_binary_tree.py)
 
 ## Competitive Programming
 

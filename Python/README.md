@@ -344,6 +344,7 @@
 - [Lucky Numbers](math/Lucky_Numbers.py)
 - [Perfect square less than n](math/Perfect_square.py)
 - [Perfect Number](math/Perfect_Number.py)
+- [Harshad Number](math/HarshadNumber.py)
 
 ## Bit Manipulation
 

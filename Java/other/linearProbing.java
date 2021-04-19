@@ -48,10 +48,15 @@ static int[] linearProbing(int hashSize, int arr[], int arraySize)
 public static void main(String[] args) {
 	
 	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter hash size :");	
 	int hashSize = sc.nextInt();
+	
+	System.out.println("Enter array size :");	
 	int arraySize = sc.nextInt();
+	
 	int array[]=new int[arraySize];
 	
+	System.out.println("Enter elements of array :");
 	for(int i=0;i<arraySize;i++) {
 		array[i]=sc.nextInt();
 	}	
@@ -64,19 +69,27 @@ public static void main(String[] args) {
 }
 /*
 Sample input 1:
-8 4
+Enter hash size :
+8
+Enter array size :
+4
+Enter elements of array :
 15 48 98 63
 
 Output 1:
 48 63 98 -1 -1 -1 -1 15 
 
 Sample input 2:
-10 6
+Enter hash size :
+10
+Enter array size :
+6
+Enter elements of array :
 45 80 90 60 74 10
 
 Output 2:
 80 90 60 10 74 45 -1 -1 -1 -1 
  */
-
+//-1 shows cell is still empty 
 // Time complexity - O(n)
 // Space complexity - O(1)

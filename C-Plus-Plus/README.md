@@ -125,7 +125,7 @@
 - [Priority_Queue_using_Linked_List](ds/Priority_Queue_using_Linked_List.cpp)
 - [Maximum Width of Binary Tree](ds/Maximum_Width_BinaryTree.cpp)
 - [Descending Priority Queue](ds/Descending_priority_queue.cpp)
-
+- [QuickSort on Singly Linked List](ds/QuickSort_on_Singly_Linked_List.cpp)
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)

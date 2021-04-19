@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -122,6 +122,9 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Play With OR](cp/Play_with_OR.cpp)
+- [Delete without head pointer](cp/Delete_without_head_pointer.cpp)
+- [Cyclically rotate of an array by one](cp/Cyclically_rotate_of_array_by_one.cpp)
 - [Minimum number to form the sum even](cp/Minimum_number_to_form_the_sum_even.cpp)
 - [Balanced Array](cp/Balanced_array.cpp)
 - [Multiply left and right array sum](cp/Multiply_left_and_right_array_sum.cpp)
@@ -131,6 +134,7 @@
 - [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Reverse individual words in a sentence without stacks](cp/reverseWords.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
@@ -142,6 +146,8 @@
 - [Connecting Dots](cp/connecting_dots.cpp)
 - [Friends Pairing](cp/friends_pairing.cpp)
 - [Four Sum](cp/Four_Sum.cpp)
+- [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
+- [Building a Wall](cp/Build_wall.cpp)
 
 ## Data Structures
 
@@ -225,15 +231,20 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Append Last N To First](ds/Append_Last_N_To_First.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
+- [First Fit memory Allocation](ds/first_fit.cpp)
+- [Best Fit memory Allocation](ds/best_fit_memory.cpp)
+- [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)
 - [Bellman Ford's Algorithm](graphs/BellmanFord.cpp)
+- [Best First Search Algorithm](graphs/Best_First_Search_Algorithm.cpp)
 - [Breadth First Search Tree Traversal](graphs/bfs.cpp)
 - [Bidirectional Seach using BFS in undirected graph](graphs/Bidirectional_search_using_BFS_in_undirected_graph.cpp)
 - [Bridges in an Undirected Graph](graphs/Bridges.cpp)
@@ -271,9 +282,11 @@
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
+- [Check Path in Graph](graphs/checkPath.cpp)
 - [Top view of Tree](graphs/top_view_binary_tree.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
+- [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
 
 ## Searching
 
@@ -341,6 +354,7 @@
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
+- [Cloning stack without extra space ](stack\clone_a_stack_without_usinig_extra_space.cpp)
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
@@ -372,6 +386,7 @@ _add list here_
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
+- [Factorial Space Optimized](math/factorial_space_optimized.cpp)
 - [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
@@ -401,6 +416,7 @@ _add list here_
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
 - [Decimal to Hexadecimal Conversion](math/decimal_to_hexadecimal.cpp)
 - [Matrix Addition](math/matrix_addition.cpp)
+- [Matrix Subtraction](math/matrix_subtraction.cpp)
 - [Matrix Multiplication](math/matrix_multiplication.cpp)
 - [Matrix Transpose](math/matrix_transpose.cpp)
 - [Matrix Rotation 90 degree to right](math/Matrix_rotation_90degree.cpp)
@@ -413,6 +429,7 @@ _add list here_
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
+- [Lucky Number](math/LuckyNumber.cpp)
 
 ## Dynamic Programming
 
@@ -420,6 +437,8 @@ _add list here_
 - [Coin Change Problem](dp/Coin_Change_Problem.cpp)
 - [Edit distance](dp/edit_distance.cpp)
 - [Egg Dropping Problem](dp/Egg_Dropping.cpp)
+- [Factorial top to bottom](dp/factorial_top_down.cpp)
+- [Factorial bottom to top](dp/factorial_bottom_up.cpp)
 - [Fibonacci bottom to top](dp/fibonacci_bottom_up.cpp)
 - [Fibonacci top to bottom](dp./../dp/fibonacci_top_down.cpp)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshall.cpp)
@@ -429,9 +448,10 @@ _add list here_
 - [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.cpp)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.cpp)
 - [Maximum Square Matrix With All 1s](dp/maxSquareMatrixWithOnes.cpp)
-- [Minimum Sum Partition](dp/Minimum_Sum_Partition.cpp)
+- [Minimum Sum Partition using DP](dp/minimum_sum_partition_dp.cpp)
 - [Number Of Binary Trees](dp/number_of_binary_trees.cpp)
 - [Number of subsets with given difference](dp/subsets_with_given_diff.cpp)
 - [Palindrome_Partioning](dp/Palindrome_Partitioning.cpp)
@@ -445,11 +465,12 @@ _add list here_
 - [ZeroN Knapsack](dp/Zero_N_knapsack.cpp)
 - [K-Tree](dp/K-Tree.cpp)
 - [Sprague Grundy Theorem on Strings](dp/Sprague_Grundy_Theorem.cpp)
+- [Minimum number of deletion to make palindrome](dp/Minimum_number_of_deletion.cpp)
+- [Printing Shortest Common Supersequence](dp/Printing_Shortest_Common_Supersequence.cpp)
 - [Shortest Common Superstring](dp/shortest_common_superstring.cpp)
 - [Staircase using dp](dp/Staircase.cpp)
 - [Count the number of subset with a given difference](dp/Count_subset_given_difference.cpp)
 - [Coin change problem maximum ways](dp/Maximum_ways_Coin_change_problem.cpp)
-- [Minimum sum partition](dp/Minimum_sum_partition.cpp)
 - [Subset Sum using DP](dp/Subset_sum.cpp)
 - [Equal Sum Partition Problem](dp/Equal_sum_partition.cpp)
 - [Length of longest palindromic subsequence](dp/longest_palin_subseq.cpp)
@@ -478,6 +499,7 @@ _add list here_
 - [Reverse Bits](Bit--Manipulation/reverse_bits.cpp)
 - [Sort integers by the number of set bits present in them](Bit--Manipulation/sort_integers_by_their_number_of_set_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
+- [Find duplicate elements using XOR](Bit--Manipulation/Find_duplicate_elements_using_XOR.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 - [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
 
@@ -580,4 +602,4 @@ _add list here_
 - [Repeating and Missing Number](other/repeated_missing.cpp)
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
-
+- [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)

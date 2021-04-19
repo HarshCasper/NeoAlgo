@@ -47,7 +47,16 @@ Make sure your code works before submitting it :D
 
 ## Our Contributors
 
-[CONTRIBUTORS.md](https://github.com/TesseractCoding/NeoAlgo/blob/master/CONTRIBUTORS.md)
+This project is possible due to these amazing people✨
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/CONTRIBUTORS.md">
+  <img src="https://contrib.rocks/image?repo=TesseractCoding/NeoAlgo" />
+</a>
+		</td>
+	</tr>
+</table>
 
 ## Code of Conduct
 

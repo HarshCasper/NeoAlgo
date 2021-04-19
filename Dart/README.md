@@ -20,6 +20,7 @@
 - [Catalan number (Recursion)](maths/catalan_number.dart)
 - [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Decimal to Hexadecimal Conversion](maths/decimal_to_hexadecimal.dart)
+- [Double factorial](maths/double_factorial.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
 - [Sum of Digits](maths/SumOfDigits.dart)
@@ -29,6 +30,7 @@
 - [Binomial Coefficient (under modulo)](maths/binomial_coefficient_under_modulo.dart)
 - [Perfect Number](maths/PerfectNumber.dart)
 - [Harshad Number](maths/HarshadNumber.dart)
+
 
 ## Search
 

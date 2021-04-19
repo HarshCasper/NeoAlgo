@@ -4,6 +4,8 @@ present twice except one element. The program will
 find out that unique element.
  */
 
+import java.util.Scanner;
+
 public class UniqueNumberBitmasking {
 
     public static void main(String[] args) {

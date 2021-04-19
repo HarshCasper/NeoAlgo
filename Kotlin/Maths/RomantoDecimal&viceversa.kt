@@ -49,6 +49,6 @@ private enum class Symbol(val decimalValue: Int) {
 }
 
 fun main() {
-    println(2525.toRomanNumeral())
-    println("MMDLXXXIII".toDecimal())
+    println(3575.toRomanNumeral()) // Input the decimal number that you want to convert into roman.
+    println("MMDLXXXIII".toDecimal())  // Input the roman number that you want to convert into decimal.
 }

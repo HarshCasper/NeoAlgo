@@ -1,0 +1,89 @@
+/*
+Pigeonhole sorting is a sorting algorithm that is
+suitable for sorting lists of elements where the
+number of elements and the number of possible
+key values are approximately the same.
+ */
+
+import java.util.*;
+import java.lang.*;
+
+public class PigeonholeSort {
+    public static void pigeonhole_sort(int arr[], int n) {
+
+        /*
+        initially assuming the min and max values as the
+        the first element of input array
+         */
+        int min_value = arr[0];
+        int max_value = arr[0];
+        int range, i, j, index;
+
+        //finding out the min and max value
+        for (int a = 0; a < n; a++) {
+            if (arr[a] > max_value)
+                max_value = arr[a];
+            if (arr[a] < min_value)
+                min_value = arr[a];
+        }
+
+        //finding range from min and max value
+        range = max_value - min_value + 1;
+
+        //initially assigning null values to pigeonHole array
+        //size of array is equal to range
+        int[] pigeonHole = new int[range];
+        Arrays.fill(pigeonHole, 0);
+
+        //Traverse through input array and put every
+        //element in its respective pigeonhole
+        for (i = 0; i < n; i++) {
+            pigeonHole[arr[i] - min_value]++;
+        }
+
+        //index in sorted array
+        index = 0;
+
+        /*
+         Traverse through all pigeonholes one by one. For
+         every hole, take its elements and put in array.
+         */
+        for (j = 0; j < range; j++)
+            while (pigeonHole[j]-- > 0)
+                arr[index++] = j + min_value;
+    }
+
+    public static void main(String[] args)
+    {
+        PigeonholeSort sort = new PigeonholeSort();
+        int[] arr = { 12, 3, 8, 6, 4, 6, 9, 8 };
+        System.out.println("");
+
+        System.out.print("Original Array : ");
+        for (int i = 0; i < arr.length; i++)
+            System.out.print(arr[i] + " ");
+        System.out.println("");
+
+        System.out.println("");
+        System.out.print("Sorted order after performing Pigeonhole Sort : ");
+        sort.pigeonhole_sort(arr, arr.length);
+
+        for (int i = 0; i < arr.length; i++)
+            System.out.print(arr[i] + " ");
+        System.out.println("");
+    }
+}
+
+/*
+    Sample I/O:
+
+    Original Array : 12 3 8 6 4 6 9 8
+
+    Sorted order after performing Pigeonhole Sort : 3 4 6 6 8 8 9 12
+
+    Time complexity - O(k + n)
+
+    Space complexity - O(n)
+
+    (here value of k is equal to range(max_value - min_value + 1))
+ */

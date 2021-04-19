@@ -31,21 +31,22 @@ public class MaxConsecutiveOnes
             }
        }
        return max_consecutive_ones;
-    }
-   public static void main(String args[]) 
-	{
-		Scanner scan = new Scanner(System.in);
-		System.out.print("Enter the size of array \n");
-		int number = scan.nextInt();
+   }
+	
+   public static void main(String args[])  
+   {
+	Scanner scan = new Scanner(System.in);
+	System.out.print("Enter the size of array \n");
+	int number = scan.nextInt();
 		
-		int[] ar = new int[number];
-		System.out.println("Enter array elements \n"); 
-		for(int i = 0; i < number; i++)
-		{
-		    ar[i] = scan.nextInt();
-		}
-		scan.close();
-		int max_consecutive_ones = get_max_consecutive_ones(ar , number);
+	int[] ar = new int[number];
+	System.out.println("Enter array elements \n"); 
+	for(int i = 0; i < number; i++)
+	{
+           ar[i] = scan.nextInt();
+	}
+	scan.close();
+	int max_consecutive_ones = get_max_consecutive_ones(ar , number);
         System.out.print("Maximum Consecutive Ones in this array is : ");
         System.out.println(max_consecutive_ones);
 		

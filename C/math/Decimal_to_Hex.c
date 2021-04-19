@@ -47,6 +47,7 @@ int decToHex(int fdec , char fhex[])
 	//j contains the number of digits in hexadecimal number.
 	return j ;
 }
+
 int main(void)
 {
 	int dec = 0, i = 0, len = 0 ;

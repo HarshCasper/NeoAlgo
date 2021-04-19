@@ -50,3 +50,4 @@
 ## Cryptography
 
 - [Caesar Cipher](cryptography/CaesarCipher.dart)
+- [Vernam Cipher](cryptography/VernamCipher.dart)

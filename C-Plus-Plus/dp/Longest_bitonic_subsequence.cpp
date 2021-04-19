@@ -8,10 +8,11 @@ using namespace std;
 
 int longest_bitonic_subsequence(vector<int> v, int n)
 {
-    vector<int> v_i;
+    // v_increase tracks the longest increasing subsequence
+    vector<int> v_increase;
     for (int i = 0; i < n; i++)
     {
-        v_i.push_back(1);
+        v_increase.push_back(1);
     }
     for (int i = 1; i < n; i++)
     {
@@ -19,17 +20,18 @@ int longest_bitonic_subsequence(vector<int> v, int n)
         {
             if (v[i] > v[j])
             {
-                if (v_i[i] <= v_i[j])
+                if (v_increase[i] <= v_increase[j])
                 {
-                    v_i[i] = v_i[j] + 1;
+                    v_increase[i] = v_increase[j] + 1;
                 }
             }
         }
     }
-    vector<int> v_d;
+    // v_decrease tracks the longest decreasing subsequence
+    vector<int> v_decrease;
     for (int i = 0; i < n; i++)
     {
-        v_d.push_back(1);
+        v_decrease.push_back(1);
     }
     for (int i = n - 2; i >= 0; i--)
     {
@@ -37,9 +39,9 @@ int longest_bitonic_subsequence(vector<int> v, int n)
         {
             if (v[i] > v[j])
             {
-                if (v_d[i] <= v_d[j])
+                if (v_decrease[i] <= v_decrease[j])
                 {
-                    v_d[i] = v_d[j] + 1;
+                    v_decrease[i] = v_decrease[j] + 1;
                 }
             }
         }
@@ -47,7 +49,7 @@ int longest_bitonic_subsequence(vector<int> v, int n)
     int max = 0;
     for (int i = 1; i < n; i++)
     {
-        int temp = v_i[i] + v_d[i] - 1;
+        int temp = v_increase[i] + v_decrease[i] - 1;
         if (temp > max)
         {
             max = temp;
@@ -56,6 +58,7 @@ int longest_bitonic_subsequence(vector<int> v, int n)
     return max;
 }
 
+// Driver Code
 int main()
 {
     cout << "Enter the number of elements in the sequence" << endl;

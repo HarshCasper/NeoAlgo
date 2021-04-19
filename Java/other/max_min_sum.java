@@ -5,7 +5,7 @@ import java.io.*;
 
 import java.util.*;//impoting java packages
 
-public class max_min_sum{
+public class MaxMinSum{
   
     public static void main(String[] args){
       

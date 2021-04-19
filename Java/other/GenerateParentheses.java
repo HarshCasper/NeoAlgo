@@ -9,13 +9,24 @@ public class GenerateParentheses {
 
     static void parantheses(int i, int j, int n, String s) {
 		if (i==n && j==n) {
+			// n opening and n closing brackets
+			// have been included
 			System.out.println (s);
+			
 		} else if (i==n) {
+			// n opening brackets have been included
+			// now just need to add only closing ones
 			parantheses (i, j+1, n, s+')');
+			
 		} else if (j==n || j>i) {
+			// condition of failure when closing brackets 
+			// are more than the opening ones.
 			return;
+			
 		} else {
+			// adding closing bracket to string
 			parantheses (i, j+1, n, s+')');
+			// adding opening bracket to string
 			parantheses (i+1, j, n, s+'(');
 		}
 	}

@@ -21,15 +21,15 @@ public class UniqueNumberBitmasking {
 			ar[i]=sc.nextInt();
 		}
 	      
-	       /*
-	       We know that xor of two similar numbers is 0 and xor of any 
-	       number with 0 is number itself. Ex: 1^1=0, 0^1=1.
-	       We use this concept here by taking xor of all the elements of 
-	       the array. Since we know that all elements are present twice
-	       except one, so the xor of all elements that are repeated
-	       will become 0 and when the unique number comes
-	       xor of 0 and that number will result in that number itself.
-	       */
+	        /*
+	        We know that xor of two similar numbers is 0 and xor of any 
+	        number with 0 is number itself. Ex: 1^1=0, 0^1=1.
+	        We use this concept here by taking xor of all the elements of 
+	        the array. Since we know that all elements are present twice
+	        except one, so the xor of all elements that are repeated
+	        will become 0 and when the unique number comes
+	        xor of 0 and that number will result in that number itself.
+	        */
 
 		int xor=0;
 		for (int i=0; i<n; i++) {

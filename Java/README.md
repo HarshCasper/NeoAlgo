@@ -234,6 +234,8 @@ _add list here_
 - [Factorial of a Number](math/Factorial.java)
 - [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
 - [Lucky Number](math/LuckyNumber.java)
+- [Special Number](math/Special.java)
+
 
 ## Dynamic Programming
 

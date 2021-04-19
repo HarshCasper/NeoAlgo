@@ -78,9 +78,6 @@ int main(void){
 }
 
 /*
-Time Complexity: O(n*m)
-Space Complexity: O(n*m)
-
 Sample I/O:
 Enter number of rows, columns and the integer k
 3 3 4
@@ -98,4 +95,7 @@ The following are the seven successful submatrices for k=4:
 ⌊5   5⌋ with average 4.75; this matrix also occurs only once
 [4] with average 4; we find this matrix twice in A
 [5] with average 5; we find this matrix 3 times in A
+
+Time Complexity: O(n*m)
+Space Complexity: O(n*m)
 */

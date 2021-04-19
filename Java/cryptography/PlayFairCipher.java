@@ -129,6 +129,48 @@ class PlayFairCipher{
  
      }
 
+     static int mod(int x){
+      
+       if(x<0){
+         return 5+x;
+       }
+       else{
+         return (x % 5);
+       }
+  
+     }
+ 
+     static void decrypt(String plaintext,char[][] keyMatrix,int size1){
+          int i = 0;
+          int[] list = new int[4];
+          char[] plt = new char[size1];
+          //cipher the plain text with the key matrix we built
+          while(i<size1){
+                 search(keyMatrix,plaintext.charAt(i),plaintext.charAt(i+1),list);
+                 if(list[0] == list[2]){
+                     plt[i]   = keyMatrix[list[0]][mod(list[1]-1)];
+                     plt[i+1] = keyMatrix[list[0]][mod(list[3]-1)];
+                 }
+                 else if(list[1] == list[3]){
+                     plt[i]   = keyMatrix[mod(list[0]-1)][list[1]];
+                     plt[i+1] = keyMatrix[mod(list[2]-1)][list[1]]; 
+                 }
+                 else{
+                     plt[i]   = keyMatrix[list[0]][list[3]];
+                     plt[i+1] = keyMatrix[list[2]][list[1]]; 
+                 }
+                 i+=2;
+          }
+
+          //printing the decrypted text 
+          System.out.print("The decrypted text is :");
+          for(int k=0;k<size1;k++){
+              System.out.print(plt[k]);
+          }
+ 
+     }   
+
+
      //this function will encript the plain-text to cipher in playfail cipher
      static void playFairCipher(String plaintext,String key){
 
@@ -149,28 +191,63 @@ class PlayFairCipher{
          cipher(plaintext,keyMatrix,size1);    
      } 
 
+     static void playFairCipherdecrypt(String plaintext,String key){
+
+         char[][] keyMatrix = new char[5][5];
+         int size1 = plaintext.length();
+         int size2 = key.length();
+
+         //generate keytable
+         keyTable(key,size2,keyMatrix);
+         //cipher the plaintext
+         decrypt(plaintext,keyMatrix,size1);
+     }
+
      public static void main(String[] args){
         
          Scanner scan = new Scanner(System.in);
-         System.out.print("Enter plaintext in small letters here :");
-         
-         //we take the plaintext here
-         String plaintext = scan.nextLine(); 
-         System.out.print("Enter the key :");
-         
-         //we take the key here
-         String key = scan.nextLine();
-         scan.close();
+         System.out.print("Enter 1 for encrypting and 2 for decrypting : ");
+         char option = scan.nextLine().charAt(0); 
+
+         if(option == '1') {
        
-         //callint playfaircipher method 
-         playFairCipher(plaintext,key);   
+           System.out.print("Enter the key : ");
+           //we take the key here
+           String key = scan.nextLine();
+
+           System.out.print("Enter the plain text for encryption: ");
+           //we take the plaintext here
+           String plaintext = scan.nextLine(); 
+           scan.close();
+           playFairCipher(plaintext,key);   
+         }
+
+         else if(option == '2'){
+           
+           System.out.print("Enter the key : ");
+           //we take the key here
+           String key = scan.nextLine();
+
+           System.out.print("Enter the encrypted text for decryption: ");
+           //we take the plaintext here
+           String plaintext = scan.nextLine();
+           scan.close();
+           playFairCipherdecrypt(plaintext,key);
+         }
      }
 }
-/* 
-     Sample I/O :
-     
-     Enter plaintext in small letters here :hello
-     Enter the key :world
-     The cipher text is :kbekdv
+
+/*
+     Sample I/O:
+
+     Enter 1 for encrypting and 2 for decrypting : 1
+     Enter the key : monarchy
+     Enter the plain text for encryption: instruments    
+     The cipher text is :gatlmzclrqtx
+
+     Enter 1 for encrypting and 2 for decrypting : 2
+     Enter the key : monarchy
+     Enter the encrypted text for decryption: gatlmzclrqtx 
+     The decrypted text is :instrumentsz
 */
 

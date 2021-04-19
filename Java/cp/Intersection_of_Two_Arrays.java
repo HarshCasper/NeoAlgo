@@ -9,17 +9,18 @@
 	 		   Enter the elements in the 2nd array : 1 2 3
       output : The intersection of two arrays is : 1 2 3
                Intersection of both arrays is [1 2 3] as these elements are present in both the arrays
-*/
+ */
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Inter {
+public class Intersection_of_Two_Arrays {
 
 	//method intersection
 	public void intersection(int[] array1, int[] array2) {
 
 		int x = 0, y = 0;
+
 		//sorting 1st Array
 		Arrays.sort(array1);
 		//sorting 2nd Array
@@ -27,15 +28,14 @@ public class Inter {
 
 		//for loop
 		for(  ; x < array1.length && y < array2.length ;  ) {
+
 			//if array1[x] == array2[y] is true then print array2[y] and increment y and x
 			if(array1[x] == array2[y]) {
 				System.out.print(array2[y]+" ");
 				y = y+1;
 				x = x+1;
-			//else if array1[x] < array2[y] is true increment x
 			}else if(array1[x] < array2[y]) {
 				x = x+1;
-            //else if array1[x] > array2[y] is true increment y
 			}else if(array1[x] > array2[y]) {
 				y = y+1;
 			}
@@ -47,24 +47,28 @@ public class Inter {
 
 		Scanner sc = new Scanner(System.in);
 
-		//For 1st Array
-		//Input the number of elements you want in the array
+		//first array
+		//Input the number of elements you want in the first array
 		System.out.print("Enter the number of elements you want in the first array : ");
 		int first = sc.nextInt();
+
 		//Creating array
 		int[] array1 = new int[first];
+
 		//Putting elements in the array
 		System.out.print("Enter the elements in the 1st array : ");
 		for(int i = 0 ; i < first ; i++) {
 			array1[i] = sc.nextInt();
 		}
 
-		//For 2nd Array
-		//Input the number of elements you want in the array
+		//second array
+		//Input the number of elements you want in the second array
 		System.out.print("Enter the number of elements you want in the second array : ");
 		int second = sc.nextInt();
+
 		//Creating array
 		int[] array2 = new int[second];
+
 		//Putting elements in the array
 		System.out.print("Enter the elements in the 2nd array : ");
 		for(int i = 0 ; i < second ; i++) {
@@ -72,7 +76,8 @@ public class Inter {
 		}
 
 		//Creating object
-		Inter obj =new Inter();
+		Intersection_of_Two_Arrays obj =new Intersection_of_Two_Arrays();
+
 		System.out.print("The intersection of two arrays is : ");
 		//calling intersection method
 		obj.intersection(array1, array2);
@@ -92,5 +97,4 @@ public class Inter {
   	     We are using only one for loop, so it iterates maximum 'n' times while traversing for loop
  * Space Complexity : O(n)
 	  	 Auxiliary space : O(1)  +  input space : O(n)
-*/
-  
+ */

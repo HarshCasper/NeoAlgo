@@ -284,6 +284,7 @@ _add list here_
 - [Minimum number of swaps to sort an array of N unordered consecutive integers](sort/MinimumSwapsForNIntegers.java)
 - [Optimized Bubble Sort](sort/OptimizedBubbleSort.java)
 - [PancakeSort](sort/PancakeSort.java)
+- [Pigeonhole Sort](sort/PigeonholeSort.java)
 - [Quick Sort](sort/QuickSort.java)
 - [Selection Sort](sort/SelectionSort.java)
 - [Radix Sort](sort/RadixSort.java)

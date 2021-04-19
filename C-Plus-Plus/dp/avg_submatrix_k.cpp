@@ -1,17 +1,20 @@
-/******************************************************************************
-Author: @Suvraneel Bhuin
+/*
 
 Problem Statement:
 For a matrix of order n X m, with non-decreasing elements both along rows and columns, 
-A "successful submatrix for K" is a square submatrix of A, i.e. a submatrix with n row and n column, for any integer n, such that the average of all the integers in this submatrix is ≥ K.
+A "successful submatrix for K" is a square submatrix of A, i.e. a submatrix with n row 
+and n column, for any integer n, such that the average of all the integers in this submatrix is ≥ K.
 Find the number of such possible successful submatrices for given K.
 
 Algorithm:
 1. Preprocess matrix A such that every element in the auxiliary matrix contains the sum of all the elements 
 preceding it (row-wise & column-wise)... ie, aux[i][j] stores sum of elements from (0,0) to (i,j).
+
 2. Thereby, sum of the required submatrix can be found dynamically using : 
 aux(bottom_right) - aux(bottom_left) - aux(top_right) + aux(top_left)
-*******************************************************************************/
+
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long int ll;
@@ -86,15 +89,6 @@ Enter the matrix of order 3 X 3
 3 4 5
 4 5 5
 Number of successful submatrices for (k = 4) is =>  7
-
-Explanation:
-The following are the seven successful submatrices for k=4:
-⌈3   4⌉
-⌊4   5⌋ with average 4; this matrix occurs only once
-⌈4   5⌉
-⌊5   5⌋ with average 4.75; this matrix also occurs only once
-[4] with average 4; we find this matrix twice in A
-[5] with average 5; we find this matrix 3 times in A
 
 Time Complexity: O(n*m)
 Space Complexity: O(n*m)

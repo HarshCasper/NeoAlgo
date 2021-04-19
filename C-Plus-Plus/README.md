@@ -148,6 +148,7 @@
 - [Four Sum](cp/Four_Sum.cpp)
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
+- [Baised Standings](cp/baised_standings.cpp)
 
 ## Data Structures
 

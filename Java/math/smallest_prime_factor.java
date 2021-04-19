@@ -56,10 +56,11 @@ public class SmallestPrimeFactor
     public static void main(String args[])  
     {
         Scanner scan = new Scanner(System.in);
-	    System.out.print("Enter the number : \n");
-	    int number = scan.nextInt();
+	System.out.print("Enter the number : \n");
+	int number = scan.nextInt();
+	    
         /* if the number is even, we can say that the smallest prime factor
-         is 2 for any even number. because 2 is prime and it's a factor of
+        is 2 for any even number. because 2 is prime and it's a factor of
         every even number. */
         if(number % 2 == 0)
         {

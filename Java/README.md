@@ -131,6 +131,7 @@ _add list here_
 - [Iterative](math/countDigits/iterative.java)
 - [Recursive](math/countDigits/recursive.java)
 - [String Method](math/countDigits/stringmethod.java)
+- [Smallest Prime Factor](math/smallest_prime_factor.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)
 - [Complex numbers](math/Complex.java)
 - [Double Factorial](math/DoubleFactorial.java)
@@ -144,7 +145,6 @@ _add list here_
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
-- [Smallest Prime Factor](math/smallest_prime_factor.java)
 
 ## Dynamic Programming
 

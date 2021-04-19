@@ -28,6 +28,7 @@
 - [Happy Number](maths/HappyNumber.dart)
 - [Binomial Coefficient (under modulo)](maths/binomial_coefficient_under_modulo.dart)
 - [Perfect Number](maths/PerfectNumber.dart)
+- [Harshad Number](maths/HarshadNumber.dart)
 
 ## Search
 

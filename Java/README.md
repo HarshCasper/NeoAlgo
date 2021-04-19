@@ -173,6 +173,8 @@ _add list here_
 - [Double Ended Queue in Java](ds/DEQueue.java)
 - [Circular Queue](ds/CircularQueue.java)
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
+- [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
+- [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
 
 ## Graphs
 
@@ -188,6 +190,7 @@ _add list here_
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
 - [Bipartite Check](graphs/BipartiteCheck.java)
 - [Articulation_Point](graphs/Articulation_Point.java)
+- [Laplacian matrix for Undirected graph](graphs/LaplacianMatrix.java)
 
 ## Mathematics
 
@@ -197,6 +200,7 @@ _add list here_
 - [Recursive](math/countDigits/recursive.java)
 - [Check whether a number is power of 2](math/check_whether_a_number_is_power_of_2.java)
 - [String Method](math/countDigits/stringmethod.java)
+- [Sum of Divisors](math/sum_of_divisors.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)
 - [Complex numbers](math/Complex.java)
 - [Double Factorial](math/DoubleFactorial.java)
@@ -206,6 +210,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 - [Sum of Digit in a Number](math/SumOfDigit.java)
 - [Armstrong number](math/ArmstrongNumber.java)
+- [Number of Divisors](math/number_of_divisors.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
@@ -225,6 +230,12 @@ _add list here_
 - [Mystery Number](math/MysteryNumber.java)
 - [Perfect Number](math/Perfect_Number.java)
 - [Matrix Multiplication](math/Matrix_multiplication.java)
+- [Lucas Theorem](math/lucastheorem.java)
+- [Factorial of a Number](math/Factorial.java)
+- [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
+- [Lucky Number](math/LuckyNumber.java)
+- [Special Number](math/Special.java)
+
 
 ## Dynamic Programming
 
@@ -246,6 +257,7 @@ _add list here_
 - [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
 - [Subset Sum to Target](dp/SubsetSumToTarget.java)
 - [Dice Throw Problem](dp/DiceThrow.java)
+- [Word Wrap Problem](dp/WordWrapProblem.java)
 
 
 ## Blockchain

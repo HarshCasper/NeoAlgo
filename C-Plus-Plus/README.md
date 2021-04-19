@@ -484,6 +484,7 @@ _add list here_
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
+- [Minimum Insertion Steps to make string palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
 
 ## Bit - Manipulation
 

@@ -1,7 +1,7 @@
 // Java Program for Kadane's Algorithm.
 
 import java.util.*;
-public class Kadane {
+public class kadanes_Java {
 
    public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);

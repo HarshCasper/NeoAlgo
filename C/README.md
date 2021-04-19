@@ -224,6 +224,7 @@ _add list here_
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 - [Pascal's triangle](math/Pascals_triangle.c)
+- [Decimal to Hexadecimal conversion](math/Decimal_to_Hex.c)
 
 ## Operating System
 

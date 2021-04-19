@@ -20,6 +20,7 @@
 - [Insertion Sort](sort/InsertionSort/src/InsertionSort.kt)
 - [Merge Sort](sort/MergeSort/src/MergeSort.kt)
 - [Radix Sort](sort/RadixSort/src/RadixSort.kt)
+- [Quick Sort](sort/QuickSort/src/QuickSort.kt)
 
 ## Maths
 

@@ -118,6 +118,7 @@
 - [Adjacency Matrix in C](ds/Adjacency_matrix.c)
 - [Worst Fit Memory allocation](ds/worst_fit_memory.c)
 - [Best Fit Memory allocation](ds/best_fit_memory.c)
+- [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 ## Searching
 
 - [Binary Search](search/Binary_search.c)
@@ -203,9 +204,11 @@ _add list here_
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Find factorial of a Number](math/factorial.c)
 - [Happy Number](math/happy_number.c)
+- [Lucas Number](math/lucas_number.c)
 - [Lowest Prime Factor](math/lowest_prime_factor_of_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Krishnamurthy Number](math/krishnamurthy_number.c)
 - [Strong Number](math/strong_number.c) 
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)

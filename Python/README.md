@@ -21,6 +21,8 @@
 * [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
 * [Identical BSTs](ds/identical_binary_tree.py)
 * [Loop detection in Linked List](ds/loop_detection_in_LL.py)
+* [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
+* [Stack using list](ds/stack_using_list.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -80,6 +82,7 @@
 - [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
 - [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
+- [Sum of Linked List](ds/Sum_of_Linked_list.py)
 
 ## Competitive Programming
 
@@ -120,7 +123,7 @@
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 - [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 - [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
-
+- [Trapping rain water](cp/Trapping_rain_water.py)
 
 ## Cryptography
 
@@ -338,6 +341,8 @@
 - [Reverse a Number](math/reverse_a_number.py)
 - [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
+- [Perfect square less than n](math/Perfect_square.py)
+- [Perfect Number](math/Perfect_Number.py)
 
 ## Bit Manipulation
 
@@ -377,6 +382,7 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Find if there is a subarray with 0 sum](other/Subarray_with_sum0.py)
 - [Common Elements](other/common_elements.py)
 - [Count pair with given sum](other/count_pair_with_given_sum.py)
 - [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)

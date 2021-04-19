@@ -1,6 +1,14 @@
-// This program is for evaluating infix expression.
-// In this first we have to convert the infix expression into postfix expression.
-// Then evaluate postfix expression using stack
+/*
+Infix expression:-  The expression of the form a op b. 
+When an operator is in-between every pair of operands.
+
+Postfix expression:-  An expression is called the postfix expression
+if the operator appears in the expression after the operands. 
+
+This program is for evaluating infix expression.
+In this first we have to convert the infix expression into postfix expression.
+Then evaluate postfix expression using stack. Give an evaluated value.
+*/ 
 
 // creating stackarr 
 var stackarr=[];
@@ -197,7 +205,7 @@ const getLine = (function () {
 const main = async () => {
 
     //Taking infix expression as input
-    console.log("Enter the infix expression");
+    console.log("Enter the infix expression: ");
     var number1 = String(await getLine());
 
     // Caling Function InfixtoPostfix
@@ -211,16 +219,16 @@ const main = async () => {
 
 /*
  Input: 
- 2+3*4
+ Enter the infix expression: 2+3*4
  
  Output:
- 14
+ Evaluated value: 14
 
  Input:
- 4+6*3-6
+ Enter the infix expression: 4+6*3-6
 
  Output:
- 16
+ Evaluated value: 16
 
  Time Complexity: O(n)
  Space Complexity: O(n)

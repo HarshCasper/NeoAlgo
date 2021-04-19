@@ -23,8 +23,7 @@ def firstNotRepeatingCharacter(string):
 string = input("Enter a string: ")
 index = firstNotRepeatingCharacter(string)
 if index is None:
-    print('No non repeating character found.
-          All the characters are repeating.')
+    print('No non repeating character found.All the characters are repeating.')
 else:
     ind = string.find(index)
     print("Non Repeating character " +

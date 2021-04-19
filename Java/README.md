@@ -230,6 +230,7 @@ _add list here_
 - [Matrix Multiplication](math/Matrix_multiplication.java)
 - [Lucas Theorem](math/lucastheorem.java)
 - [Factorial of a Number](math/Factorial.java)
+- [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
 - [Lucky Number](math/LuckyNumber.java)
 
 ## Dynamic Programming

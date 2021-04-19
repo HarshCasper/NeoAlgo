@@ -35,12 +35,14 @@
 - [Linear Search](search/LinearSearch.dart)
 - [Interpolation Search](search/InterpolationSearch.dart)
 - [Fibonacci Search](search/FibonacciSearch.dart)
+- [Sentinel Search](search/Sentinel_Search.dart)
 
 ## Sorting
 
 - [Bubble Sort](sort/BubbleSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
 - [Selection Sort](sort/Selection_sort.dart)
+- [Shell Sort](sort/Shell_Sort.dart)
 
 ## Cryptography
 

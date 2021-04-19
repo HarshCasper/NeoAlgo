@@ -141,11 +141,10 @@ _add list here_
 - [Armstrong number](math/ArmstrongNumber.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
-- 
-- [Smallest Prime Factor](math/smallest_prime_factor.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
 - [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [Smallest Prime Factor](math/smallest_prime_factor.java)
 
 ## Dynamic Programming
 

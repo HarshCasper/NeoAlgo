@@ -17,7 +17,6 @@ vector<int>removeDuplicates(int*a,int size){
 	}
 	return output;
 }
-
 int main()
 {
     cout << "Enter the size of the array : ";
@@ -29,10 +28,11 @@ int main()
     {
         cin >> ar[i];
     }
-    vector<int>output=removeDuplicates(ar,ar.size());
+    vector<int>output=removeDuplicates(ar,N);
 	for(int i=0;i<output.size();i++){
 		cout<<output[i]<<endl;
 	}
+}
 
 /*
 Standard Input:

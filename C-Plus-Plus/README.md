@@ -608,3 +608,4 @@ _add list here_
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
+- [Pair Matching](C-Plus-Plus/other/matchingPair.cpp)

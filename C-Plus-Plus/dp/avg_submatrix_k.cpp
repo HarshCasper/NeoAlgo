@@ -1,7 +1,8 @@
 /******************************************************************************
 Author: @Suvraneel Bhuin
 
-For a matrix with non-decreasing elements both along rows (left to right) and columns (top to bottom), 
+Problem Statement:
+For a matrix of order n X m, with non-decreasing elements both along rows (left to right) and columns (top to bottom), 
 A "successful submatrix for K" is a square submatrix of A, i.e. a submatrix with n row and n column, for any integer n, such that the average of all the integers in this submatrix is ≥K.
 
 Algorithm:
@@ -14,12 +15,7 @@ using namespace std;
 typedef long long int ll;
 
 int main(void){
-   //fast.io
-   ios_base::sync_with_stdio(false);
-   cin.tie(NULL);
-   ll n, m, k, t;
-   cin>>t;
-   while(t--){
+   ll n, m, k;
       ll count=0;
       cin >> n >> m >> k;
       ll mat[n+1][m+1], aux[n+1][m+1], arr[n];
@@ -65,7 +61,6 @@ int main(void){
          }
       }
       cout << count << endl;
-   }
    return 0;
 }
 
@@ -74,7 +69,6 @@ Time Complexity: O(n*m)
 Space Complexity: O(n*m)
 
 Sample Input:
-1
 3 3 4
 2 2 3
 3 4 5

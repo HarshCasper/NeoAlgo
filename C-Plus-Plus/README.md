@@ -182,6 +182,7 @@
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Queue](ds/queue.cpp)
 - [Queue Linked List](ds/QueueLinkedList.cpp)
+- [Queue using Circular Array](ds/queue_using_circular_array.cpp)
 - [Red Black Tree](ds/RED-BLACK-TREE.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)

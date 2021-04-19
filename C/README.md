@@ -116,7 +116,8 @@
 - [Remove Duplicates From an Unsorted Linked List](ds/Remove_Duplicate_In_Linked_List.c)
 - [First Fit Memory allocation](ds/first_fit_memory.c)
 - [Adjacency Matrix in C](ds/Adjacency_matrix.c)
-
+- [Worst Fit Memory allocation](ds/worst_fit_memory.c)
+- [Best Fit Memory allocation](ds/best_fit_memory.c)
 ## Searching
 
 - [Binary Search](search/Binary_search.c)
@@ -156,6 +157,7 @@
 - [Sort using Binary Search Tree](sort/BST_Sort.c)
 - [Comb Sort](sort/comb.c)
 - [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
+- [Quick Sort](sort/quickSort.c)
 - [Wiggle Sort](sort/Wiggle_sort.c)
 
 ## Dynamic Programming
@@ -204,6 +206,7 @@ _add list here_
 - [Lowest Prime Factor](math/lowest_prime_factor_of_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Krishnamurthy Number](math/krishnamurthy_number.c)
 - [Strong Number](math/strong_number.c) 
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
@@ -246,7 +249,6 @@ _add list here_
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
-- [Permutation of string](other/Permutation_of_string.c)
 
 ## CP
 

@@ -67,6 +67,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/bubble_sort.jl)
+- [0,1,2 Sort](sort/012_sort.jl)
 - [Circle Sort](sort/circle_sort.jl)
 - [Insertion Sort](sort/insertion_sort.jl)
 - [Selection Sort](sort/selection_sort.jl)

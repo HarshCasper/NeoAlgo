@@ -28,10 +28,10 @@ Space Complexity: O(1)
 
 node JavaScript/math/Perfect_Number.js
 
-sample 1: if n=6
+sample 1: Enter a number to check whether it is a perfect number or not: 6
 Output: 6 is a perfect number.
 
-sample 2: if n=7
+sample 2: Enter a number to check whether it is a perfect number or not: 7
 output: 7 is not a perfect number.
 
 */

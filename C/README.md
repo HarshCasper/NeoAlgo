@@ -43,6 +43,7 @@
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
 - [Trapping rain water](cp/Trapping_rain_water.c)
+- [Print whether matrices are equal or not](cp/equal_matrices.c)
 
 ## Cryptography
 

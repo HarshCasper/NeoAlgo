@@ -7,18 +7,7 @@ import java.util.Scanner;
 
 public class GenerateParentheses {
 
-	public static void main(String[] args) {
-
-		Scanner sc=new Scanner (System.in);
-		
-		System.out.print ("Enter value of n- ");
-		int n=sc.nextInt();
-
-		System.out.println("Possible pairs - ");
-		parantheses (0, 0, n, "");
-    }
-
-	static void parantheses(int i, int j, int n, String s) {
+    static void parantheses(int i, int j, int n, String s) {
 		if (i==n && j==n) {
 			System.out.println (s);
 		} else if (i==n) {
@@ -30,6 +19,17 @@ public class GenerateParentheses {
 			parantheses (i+1, j, n, s+'(');
 		}
 	}
+
+	public static void main(String[] args) {
+
+		Scanner sc=new Scanner (System.in);
+		
+		System.out.print ("Enter value of n- ");
+		int n=sc.nextInt();
+
+		System.out.println("Possible pairs - ");
+		parantheses (0, 0, n, "");
+    }
 }
 
 /**

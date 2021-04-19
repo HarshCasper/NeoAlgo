@@ -127,12 +127,12 @@ _add list here_
 ## Mathematics
 
 - [Count Number Of Digits](math/countDigits)
+- [Smallest Prime Factor](math/smallest_prime_factor.java)
 - [Euler's Totient Function](math/Euler's_Totient_function.java)
 - [Iterative](math/countDigits/iterative.java)
 - [Recursive](math/countDigits/recursive.java)
 - [String Method](math/countDigits/stringmethod.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)
-- [Smallest Prime Factor](math/smallest_prime_factor.java)
 - [Complex numbers](math/Complex.java)
 - [Double Factorial](math/DoubleFactorial.java)
 - [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)

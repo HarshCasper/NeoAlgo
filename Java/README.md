@@ -173,6 +173,7 @@ _add list here_
 - [Double Ended Queue in Java](ds/DEQueue.java)
 - [Circular Queue](ds/CircularQueue.java)
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
+- [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
 
 ## Graphs
@@ -199,6 +200,7 @@ _add list here_
 - [Recursive](math/countDigits/recursive.java)
 - [Check whether a number is power of 2](math/check_whether_a_number_is_power_of_2.java)
 - [String Method](math/countDigits/stringmethod.java)
+- [Sum of Divisors](math/sum_of_divisors.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)
 - [Complex numbers](math/Complex.java)
 - [Double Factorial](math/DoubleFactorial.java)
@@ -208,6 +210,7 @@ _add list here_
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 - [Sum of Digit in a Number](math/SumOfDigit.java)
 - [Armstrong number](math/ArmstrongNumber.java)
+- [Number of Divisors](math/number_of_divisors.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
@@ -229,7 +232,10 @@ _add list here_
 - [Matrix Multiplication](math/Matrix_multiplication.java)
 - [Lucas Theorem](math/lucastheorem.java)
 - [Factorial of a Number](math/Factorial.java)
+- [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
 - [Lucky Number](math/LuckyNumber.java)
+- [Special Number](math/Special.java)
+
 
 ## Dynamic Programming
 

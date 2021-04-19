@@ -349,4 +349,5 @@ _add list here_
 - [Union of two Unsorted Arrays](other/UnionUnsortedArray.java)
 - [Repeating and missing number](other/Repeating_and_missing_number.java)
 - [Knights Tour](other/KnightsTour.java)
+- [Word Ladder](other/WordLadder.java)
 

@@ -298,6 +298,7 @@ _add list here_
 - [Shell Sort](sort/ShellSort.java)
 - [Sleep Sort](sort/SleepSort.java)
 - [Comb Sort](sort/CombSort_implementation.java)
+- [Bubble sort algorithm](sort/bubble_sort.java)
 
 ## Machine Learning
 

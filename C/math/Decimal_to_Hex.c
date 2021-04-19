@@ -3,7 +3,7 @@ Hexadecimal number is a number which has base value as 16.
 To convert a decimal number to hexadecimal number, we have to keep on dividing the decimal number by 16 & store the remainder in
 each division. According to remainder the hexadecimal digits are stored. The mapping of remainder to hex digit is same for
 remainder 0-9(i.e 0 in decimal is 0 in hexadecimal as well). For remainder 10-15, the corresponding hexadecimal digits are A-F.
-(i.e 10(in decimal) = A(in hex) & so no). Once all the remainders are calculated write those remainders in reverse order, this
+(i.e 10(in decimal) = A(in hex) & so on). Once all the remainders are calculated write those remainders in reverse order, this
 gives the equivalent hexadecimal number.
 
 In this problem, decimal number is given as input & we have to output its equivalent hexadecimal number.

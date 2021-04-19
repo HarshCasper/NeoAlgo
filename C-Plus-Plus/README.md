@@ -49,7 +49,6 @@
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
-- [Lucky Numbers](cp/Lucky_Numbers.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Merge_Intervals](cp/Merge_Intervals.cpp)
 - [Merge String Alternatively](cp/Merge_string_alternatively.cpp)

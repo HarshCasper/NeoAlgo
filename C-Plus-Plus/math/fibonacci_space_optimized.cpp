@@ -41,7 +41,7 @@ int main()
     Enter number : 5
     Fibonacci : 5
 
-    Test Case - 1:
+    Test Case - 2:
     Enter number : 9
     Fibonacci : 34
 

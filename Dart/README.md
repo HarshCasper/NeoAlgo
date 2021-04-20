@@ -18,8 +18,10 @@
 - [Automorphic Number](maths/automorphic_number.dart)
 - [Binary Exponentiation (Iterative and Recursive methods)](maths/Binary_Exponentiation.dart)
 - [Catalan number (Recursion)](maths/catalan_number.dart)
+- [Check if a Number is a Palindrome](maths/check_palindrome.dart)
 - [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Decimal to Hexadecimal Conversion](maths/decimal_to_hexadecimal.dart)
+- [Double factorial](maths/double_factorial.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
 - [Sum of Digits](maths/SumOfDigits.dart)
@@ -29,6 +31,7 @@
 - [Binomial Coefficient (under modulo)](maths/binomial_coefficient_under_modulo.dart)
 - [Perfect Number](maths/PerfectNumber.dart)
 - [Harshad Number](maths/HarshadNumber.dart)
+
 
 ## Search
 
@@ -41,6 +44,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/BubbleSort.dart)
+- [Bucket Sort](sort/BucketSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
 - [Selection Sort](sort/Selection_sort.dart)
 - [Shell Sort](sort/Shell_Sort.dart)

@@ -1,8 +1,8 @@
-"""
+'''
 The sieve of Eratosthenes is an algorithm for finding 
 all prime numbers up to any given limit. It is 
 computationally highly efficient algorithm.
-"""
+'''
 
 
 def sieve_of_eratosthenes(n):
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     main()
 
 
-"""
+'''
 Sample I/O:
 
 Enter the number upto which prime numbers are to be computed:
@@ -42,4 +42,4 @@ The number of prime numbers less than 30 is :
 
 Time complexity : O(n*(log(log(n))))
 Space complexity : O(n)
-"""
+'''

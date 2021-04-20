@@ -489,6 +489,7 @@ _add list here_
 - [Average Submatrix > K](dp/avg_submatrix_k.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
 - [Minimum Insertion Steps to make string palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.cpp)
 
 ## Bit - Manipulation
 

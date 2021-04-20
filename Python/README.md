@@ -125,6 +125,7 @@
 - [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 - [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
 - [Trapping rain water](cp/Trapping_rain_water.py)
+- [Generating Power Set](cp/Generating_Power_Set.py)
 
 ## Cryptography
 

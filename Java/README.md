@@ -26,6 +26,7 @@
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 - [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
 - [Dijsktra Algorithm](Greedy_Algorithms/Dijsktra.java)
+
 ## Blockchain
 
 _add list here_
@@ -175,6 +176,7 @@ _add list here_
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 - [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
+- [Implement Queue using Linked List](ds/Queue_LinkedList.java)
 
 ## Graphs
 
@@ -236,7 +238,6 @@ _add list here_
 - [Lucky Number](math/LuckyNumber.java)
 - [Special Number](math/Special.java)
 
-
 ## Dynamic Programming
 
 - [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)
@@ -258,7 +259,6 @@ _add list here_
 - [Subset Sum to Target](dp/SubsetSumToTarget.java)
 - [Dice Throw Problem](dp/DiceThrow.java)
 - [Word Wrap Problem](dp/WordWrapProblem.java)
-
 
 ## Blockchain
 
@@ -304,6 +304,7 @@ _add list here_
 _add list here_
 
 ## Operating Systems
+
 - [Banker's Algorithm](Operating-System/banker.java)
 - [Memory Allocation in Operating Systems](Operating-System/alloc.java)
 - [Page Replacement Algorithms](Operating-System/allocate.java)
@@ -351,4 +352,3 @@ _add list here_
 - [Repeating and missing number](other/Repeating_and_missing_number.java)
 - [Generate Parentheses](other/GenerateParentheses.java)
 - [Knights Tour](other/KnightsTour.java)
-

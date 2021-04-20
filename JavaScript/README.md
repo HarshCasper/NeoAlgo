@@ -41,6 +41,8 @@
 - [Infix to Postfix Conversion](./ds/infixtopostfix.js)
 - [Infix to Prefix Conversion](./ds/infixtoprefix.js)
 - [Postfix expression evaluator](./ds/postfixevaluator.js)
+- [Infix expression evaluator](./ds/infixevaluator.js)
+
 
 ## Searching
 

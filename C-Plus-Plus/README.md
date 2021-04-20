@@ -60,6 +60,7 @@
 - [Painter Partition](cp/painter_partition.cpp)
 - [Plucking Flowers](cp/Plucking_Flowers.cpp)
 - [Prefix Sum Array](cp/prefix_sum.cpp)
+- [Prefix Sum 2DArray](cp/Prefix_sum_2DArray.cpp)
 - [Print All Subsequences using Recursion](cp/PrintAllSubsequences.cpp)
 - [Product of Array Except itself](cp/product_of_array_except_itself.cpp)
 - [Rain Water Trapping Problem](cp/rain_water_trapping.cpp)

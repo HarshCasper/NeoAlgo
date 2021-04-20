@@ -232,8 +232,6 @@
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 
->>>>>>> c348b2789ab34b874cad7f5ec100b2ee83233bce
->>>>>>> ae2b0651ac8e26474a9e56f0ebb956412b0384dd
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)

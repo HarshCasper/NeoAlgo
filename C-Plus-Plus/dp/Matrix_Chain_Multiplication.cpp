@@ -57,14 +57,17 @@ int main() {
   cout << matrixMultiplication(N, arr);
 }
 /*
-Time Complexity: O(N3)
-Space Complexity: O(N2)
-Input:
- Size of array -
-4
- Input Array -
-arr = {10, 30, 5, 60}
-Output:
-Minimum costs -
+
+Input: 
+Size of array -                                                                                                                                 
+4                                                                                                                                               
+Input Array -                                                                                                                                   
+10 30 5 60  
+
+Output:                                                                                                                                    
+Minimum costs -                                                                                                                                 
 4500
+
+Time Complexity: O(N ^ 3)
+Space Complexity: O(N ^ 2)
 */

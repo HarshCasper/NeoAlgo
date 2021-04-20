@@ -70,29 +70,64 @@ class Tree_Sort {
 
 public class TreeSort {
     public static void main(String[] args) {
-        int[] arr = {12, 35, 1, 3, 13, 5, 72, 64, 2};
+        
+     int n;
+        Scanner sc=new Scanner(System.in);
         System.out.println();
-        //printing out input
-        System.out.println("Original array- "+ Arrays.toString(arr));
+
+        //Taking Array size from the user
+        System.out.print("Enter the size of array: ");
+        n=sc.nextInt();
+
+        int[] arr = new int[n];
         System.out.println();
+
+        //taking array input from the user using loop
+        System.out.println("Enter the elements of the array: ");
+        for(int i=0; i<n; i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+
+        //printing out the array elements using for loop
+        System.out.print("\nArray elements (before sorting): ");
+
+        for (int i=0; i<n; i++)
+        {
+            System.out.print(arr[i] + " ");
+        }
+
+        //passing root value for creating Binary tree
         Tree_Sort tree = new Tree_Sort(arr[0]);
+
+        //inserting values in tree
         for(int num : arr){
             tree.insert(num, tree.root);
         }
+
         //printing sorted array
-        System.out.println("Sorted Array");
+        System.out.print("Array elements (after sorting): ");
         tree.inOrder(tree.root);
         System.out.println();
+
     }
 }
 
 /*
 Sample I/O:
 
-Original array- [12, 35, 1, 3, 13, 5, 72, 64, 2]
+Enter the size of array: 5
 
-Sorted Array
-1 2 3 5 12 13 35 64 72
+Enter the elements of the array: 
+12
+45
+13
+2
+5
+
+Array elements (before sorting): 12 45 13 2 5 
+Array elements (after sorting): 2 5 12 13 45 
+
 
 Best Case Time complexity - O(NlogN)
 

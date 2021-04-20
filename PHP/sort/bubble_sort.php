@@ -7,25 +7,25 @@ function bubbleSort($arr)
 {
 	do
 	{
-        /*$isSwap checks if swapping has occured or not*/
+	/*$isSwap checks if swapping has occured or not*/
 		$isSwap = false;
 		for( $i = 0; $i < count($arr) - 1; $i++ )
 		{
-            /*if the next element is smaller than the current element,
-            swapping will occur*/
+		    /*if the next element is smaller than the current element,
+		    swapping will occur*/
 			if( $arr[$i] > $arr[$i + 1] )
 			{
-                $temp = $arr[$i];
-                $arr[$i] = $arr[$i + 1];
-                $arr[$i + 1] = $temp;
-                /*updating the value to true as swapping occured*/
+				$temp = $arr[$i];
+				$arr[$i] = $arr[$i + 1];
+				$arr[$i + 1] = $temp;
+				/*updating the value to true as swapping occured*/
 				$isSwap = true; 
 			}
 		}
 	}
 	while( $isSwap ); 
-    /*returning sorted array*/
-return $arr;
+	/*returning sorted array*/
+	return $arr;
 }
 
 /*declaration and initialization of $arr*/

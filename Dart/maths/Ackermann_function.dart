@@ -20,9 +20,9 @@ int Ackermann_Function(int m, int n) {
 
 void main() {
   print("Input first Number");
-  int m = int.parse(stdin.readLineSync());
+  int m = int.parse(stdin.readLineSync()!);
   print("Input second Number");
-  int n = int.parse(stdin.readLineSync());
+  int n = int.parse(stdin.readLineSync()!);
   int result = Ackermann_Function(m, n);
   print("Result: $result");
 }

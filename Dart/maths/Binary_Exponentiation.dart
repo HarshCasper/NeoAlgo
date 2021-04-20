@@ -41,10 +41,10 @@ int binExpo_recurse(int a, int b) {
 void main() {
   print("Lets calculate Binary Exponent a^b");
   print("Enter a");
-  int a = int.parse(stdin.readLineSync());
+  int a = int.parse(stdin.readLineSync()!);
 
   print("Enter b");
-  int b = int.parse(stdin.readLineSync());
+  int b = int.parse(stdin.readLineSync()!);
 
   if (a == 0 && b == 0) {
     print("Math Error");

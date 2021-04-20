@@ -30,7 +30,7 @@ int inverse(int val, int mod) {
 }
 
 int nCr(int n, int r, int mod) {
-  int facn, facr, facnr;
+  late int facn, facr, facnr;
   int curr_value = 1;
   for (int i = 1; i <= n; ++i) {
     curr_value = curr_value * i;
@@ -51,11 +51,11 @@ int nCr(int n, int r, int mod) {
 void main() {
   int n, r, mod;
   print("Enter value of n: ");
-  n =  int.parse(stdin.readLineSync());
+  n =  int.parse(stdin.readLineSync()!);
   print("Enter value of r: ");
-  r = int.parse(stdin.readLineSync());
+  r = int.parse(stdin.readLineSync()!);
   print("Enter value of mod: ");
-  mod = int.parse(stdin.readLineSync());
+  mod = int.parse(stdin.readLineSync()!);
   int nCrUnderMod = nCr(n, r, mod);
   print("nCr%mod = $nCrUnderMod");
 }

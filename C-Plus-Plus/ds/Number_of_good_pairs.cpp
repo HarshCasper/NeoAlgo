@@ -8,34 +8,44 @@
 */
 #include <bits/stdc++.h>
 using namespace std;
-int main()
+
+int numGoodPairs(vector<int> &nums) 
 {
-    int n;
-    cin >> n;
-    int nums[n];
-    for(int i = 0; i < n; i++)
-    {
-        cin >> nums[i];
-    }
+    int n = nums.size();
     unordered_map<int ,int> u_map;
-    for(int i = 0; i < n; i++)
+    for(int i = 0;i<n;i++)
     {
         u_map[nums[i]]++;
     }
     int ans = 0;
-    for(auto i:u_map)
+    for(auto i: u_map)
     {
         int y = i.second;
-        ans = ans+(y*(y-1)/2);
+        ans = ans + (y*(y-1))/2;
     }
-    cout << ans << "\n";
+    return ans;
+}
+    
+int main() 
+{
+    int n;
+    cout<<"Enter the size of the array : ";
+    cin >> n;
+    vector<int> nums(n);
+    cout<<"Enter the elements of the array : ";
+    for(int i = 0; i < n; i++)
+    {   
+        cin >> nums[i];
+    }
+    int number_of_good_pairs = numGoodPairs(nums);
+    cout<<"Number of Good Pairs in the array : "<<number_of_good_pairs<<"\n";
+    return 0;
 }
 /*
-Input:
-6
-1 2 3 1 1 3
-Output: 4
-Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
+Standard Input and Output
+Enter the size of the array : 6
+Enter the elements of the array : 1 2 3 1 1 3
+Number of Good Pairs in the array : 4
 
 Time Complexity:O(n)
 Space Complexity:O(n)

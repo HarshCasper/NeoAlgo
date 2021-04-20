@@ -1,5 +1,6 @@
 """
-The sieve of Eratosthenes is an algorithm for finding all prime numbers up to any given limit. 
+The sieve of Eratosthenes is an algorithm for finding 
+all prime numbers up to any given limit. 
 It is computationally highly efficient algorithm.
 """
 
@@ -8,7 +9,7 @@ def sieve_of_eratosthenes(n):
     sieve = [True for i in range(n + 1)]
     p = 2
     while p ** 2 <= n:
-        if sieve[p] == True:
+        if sieve[p]:
             i = p * p
             while i <= n:
                 sieve[i] = False
@@ -16,7 +17,7 @@ def sieve_of_eratosthenes(n):
         p += 1
     length = len(sieve)
     for i in range(2, length):
-        if sieve[i] == True:
+        if sieve[i]:
             print(i, end=" ")
 
 

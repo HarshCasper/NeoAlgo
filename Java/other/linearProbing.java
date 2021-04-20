@@ -16,30 +16,27 @@
 import java.util.*;
 public class linearProbing {
 	
-static int[] linearProbing(int hashSize, int arr[], int arraySize)
-    {
+static int[] linearProbing(int hashSize, int arr[], int arraySize){
     int hash_table[] = new int[hashSize];
     
-    for(int i = 0; i < hashSize; i++)
+    for(int i = 0; i < hashSize; i++) {
          hash_table[i] = -1;
+    }
     
-    for(int i=0;i<arraySize;i++)
-    {
-        if(hash_table[arr[i]%hashSize]==-1)
-        {
+    for(int i=0;i<arraySize;i++){
+        if(hash_table[arr[i]%hashSize]==-1){
             hash_table[arr[i]%hashSize]=arr[i];
         }
-        else
-        {
+        else{
             int counter=0;
             int k=(1+arr[i])%hashSize;
-            while(counter<hashSize&&hash_table[k]!=-1)
-            {
+            while(counter<hashSize&&hash_table[k]!=-1){
                  k=(k+1)%hashSize;
                  counter++;
             }
-            if(counter<hashSize)
+            if(counter<hashSize){
             hash_table[k]=arr[i];
+            }
         }
     }
     return hash_table;
@@ -78,18 +75,6 @@ Enter elements of array :
 
 Output 1:
 48 63 98 -1 -1 -1 -1 15 
-
-Sample input 2:
-Enter hash size :
-10
-Enter array size :
-6
-Enter elements of array :
-45 80 90 60 74 10
-
-Output 2:
-80 90 60 10 74 45 -1 -1 -1 -1 
  */
-//-1 shows cell is still empty 
 // Time complexity - O(n)
 // Space complexity - O(1)

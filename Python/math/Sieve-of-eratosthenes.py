@@ -1,7 +1,7 @@
 """
 The sieve of Eratosthenes is an algorithm for finding 
-all prime numbers up to any given limit. 
-It is computationally highly efficient algorithm.
+all prime numbers up to any given limit. It is 
+computationally highly efficient algorithm.
 """
 
 

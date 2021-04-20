@@ -4,7 +4,7 @@ Then print the respective minimum and maximum values as a single line of two spa
 //impoting java packages
 import java.io.*;
 import java.util.*;
-public class MaxMinSum{
+public class MaxMinSumLeavingOneElement{
   
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);

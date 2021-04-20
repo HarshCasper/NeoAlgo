@@ -18,8 +18,10 @@
 - [Automorphic Number](maths/automorphic_number.dart)
 - [Binary Exponentiation (Iterative and Recursive methods)](maths/Binary_Exponentiation.dart)
 - [Catalan number (Recursion)](maths/catalan_number.dart)
+- [Check if a Number is a Palindrome](maths/check_palindrome.dart)
 - [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Decimal to Hexadecimal Conversion](maths/decimal_to_hexadecimal.dart)
+- [Double factorial](maths/double_factorial.dart)
 - [Euclidean Algorithm to find GCD](maths/Euclidean_Algorithm_to_find_GCD.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
@@ -29,6 +31,8 @@
 - [Happy Number](maths/HappyNumber.dart)
 - [Binomial Coefficient (under modulo)](maths/binomial_coefficient_under_modulo.dart)
 - [Perfect Number](maths/PerfectNumber.dart)
+- [Harshad Number](maths/HarshadNumber.dart)
+
 
 ## Search
 
@@ -36,12 +40,15 @@
 - [Linear Search](search/LinearSearch.dart)
 - [Interpolation Search](search/InterpolationSearch.dart)
 - [Fibonacci Search](search/FibonacciSearch.dart)
+- [Sentinel Search](search/Sentinel_Search.dart)
 
 ## Sorting
 
 - [Bubble Sort](sort/BubbleSort.dart)
+- [Bucket Sort](sort/BucketSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
 - [Selection Sort](sort/Selection_sort.dart)
+- [Shell Sort](sort/Shell_Sort.dart)
 
 ## Cryptography
 

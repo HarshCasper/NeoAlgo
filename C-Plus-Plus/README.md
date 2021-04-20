@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -49,7 +49,6 @@
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
-- [Lucky Numbers](cp/Lucky_Numbers.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Merge_Intervals](cp/Merge_Intervals.cpp)
 - [Merge String Alternatively](cp/Merge_string_alternatively.cpp)
@@ -122,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Count Leaves in Binary Tree](cp/count_leaves_in_binaryTree.cpp)
 - [Play With OR](cp/Play_with_OR.cpp)
 - [Delete without head pointer](cp/Delete_without_head_pointer.cpp)
 - [Cyclically rotate of an array by one](cp/Cyclically_rotate_of_array_by_one.cpp)
@@ -145,8 +145,10 @@
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
 - [Connecting Dots](cp/connecting_dots.cpp)
 - [Friends Pairing](cp/friends_pairing.cpp)
+- [Four Sum](cp/Four_Sum.cpp)
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
+- [Baised Standings](cp/baised_standings.cpp)
 
 ## Data Structures
 
@@ -179,6 +181,7 @@
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Queue](ds/queue.cpp)
 - [Queue Linked List](ds/QueueLinkedList.cpp)
+- [Queue using Circular Array](ds/queue_using_circular_array.cpp)
 - [Red Black Tree](ds/RED-BLACK-TREE.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
@@ -285,6 +288,7 @@
 - [Top view of Tree](graphs/top_view_binary_tree.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
+- [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
 
 ## Searching
 
@@ -352,6 +356,7 @@
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
+- [Cloning stack without extra space ](stack\clone_a_stack_without_usinig_extra_space.cpp)
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
@@ -384,6 +389,7 @@ _add list here_
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Factorial Space Optimized](math/factorial_space_optimized.cpp)
+- [Fibonacci without Recursion](math/fibonacci_space_optimized.cpp)
 - [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
@@ -480,7 +486,9 @@ _add list here_
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Average Submatrix > K](dp/avg_submatrix_k.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
+- [Minimum Insertion Steps to make string palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
 
 ## Bit - Manipulation
 

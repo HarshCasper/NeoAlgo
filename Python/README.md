@@ -345,6 +345,7 @@
 - [Perfect square less than n](math/Perfect_square.py)
 - [Perfect Number](math/Perfect_Number.py)
 - [Harshad Number](math/HarshadNumber.py)
+- [Pronic Number](math/Pronic_numbers.py)
 
 ## Bit Manipulation
 

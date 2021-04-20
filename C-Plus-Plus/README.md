@@ -433,6 +433,7 @@ _add list here_
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Lucky Number](math/LuckyNumber.cpp)
+- [Pronic Number](math/Pronic_number.cpp)
 
 ## Dynamic Programming
 

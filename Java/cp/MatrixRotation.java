@@ -1,3 +1,9 @@
+/**
+Given a Matrix of dimensions n*n, the program will 
+print the matrix after rotating it with 90 degrees
+in both clockwise and anticlockwise directions.
+*/
+
 import java.util.Scanner;
 
 public class MatrixRotation {

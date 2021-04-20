@@ -9,6 +9,9 @@
 
 # Codes in the C# language
 
+## Graphs 
+- [DFS Implementation of Graph](graphs/DFS.cs)
+
 ## Blockchain
 
 _add list here_
@@ -22,17 +25,21 @@ _add list here_
 - [Vigenere Cipher](cryptography/vigenere_cipher.cs)
 
 ## Data Structures
-
+- [Binary Search Tree](dp/BinarySearchTree.cs)
 _add list here_
 
 ## Dynamic Programming
 
-_add list here_
+- [Partition Problem](dp/PartitionProblem.cs)
+
+## Graphs
+- [Topological Sorting](graphs/TopologicalSorting.cs)
 
 ## Searching
 
 - [Binary Search](search/BinarySearch.cs)
 - [Linear Search](search/LinearSearch.cs)
+- [Fibonacci Search](search/Fibonacci_Search.cs)
 
 ## Sorting
 
@@ -44,6 +51,9 @@ _add list here_
 ## Machine Learning
 
 _add list here_
+
+## Graph
+- [Is Tree?](graphs/IsTree.cs)
 
 ## Mathematics
 
@@ -58,3 +68,4 @@ _add list here_
 - [Unique Number III](other/Unique_Number_III.cs)
 - [Prime Factorization using Sieve](other/prime_factor_sieve.cs)
 - [Count Inversions](other/CountInversions.cs)
+- [Largest Kth Element](other/Largest_Kth_Element.cs)

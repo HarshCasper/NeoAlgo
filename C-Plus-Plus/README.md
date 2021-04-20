@@ -361,6 +361,7 @@
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
 - [Next greatest element to the left](stack/nextGreatestToLeft.cpp)
+- [Implementation of Deque](stack/deque_implementation.cpp)
 
 ## Heap based problems
 

@@ -56,30 +56,64 @@ public class PigeonholeSort {
     public static void main(String[] args)
     {
         PigeonholeSort sort = new PigeonholeSort();
-        int[] arr = { 12, 3, 8, 6, 4, 6, 9, 8 };
-        System.out.println("");
 
-        System.out.print("Original Array : ");
-        for (int i = 0; i < arr.length; i++)
+        int n;
+        Scanner sc=new Scanner(System.in);
+        System.out.println();
+
+        //Taking Array size from the user
+        System.out.print("Enter the size of array: ");
+        n=sc.nextInt();
+
+        int[] arr = new int[n];
+        System.out.println();
+
+        //taking array input from the user using loop
+        System.out.println("Enter the elements of the array: ");
+        for(int i=0; i<n; i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+
+        //printing out the array elements using for loop
+        System.out.print("\nArray elements (before sorting): ");
+
+        for (int i=0; i<n; i++)
+        {
             System.out.print(arr[i] + " ");
-        System.out.println("");
+        }
 
+        //printing sorted array
         System.out.println("");
-        System.out.print("Sorted order after performing Pigeonhole Sort : ");
+        System.out.print("Array elements (after sorting):: ");
         sort.pigeonhole_sort(arr, arr.length);
 
         for (int i = 0; i < arr.length; i++)
             System.out.print(arr[i] + " ");
         System.out.println("");
+
     }
 }
 
 /*
     Sample I/O:
 
-    Original Array : 12 3 8 6 4 6 9 8
+    Enter the size of array: 10
 
-    Sorted order after performing Pigeonhole Sort : 3 4 6 6 8 8 9 12
+    Enter the elements of the array:
+    12
+    3
+    10
+    9
+    10
+    4
+    4
+    7
+    6
+    3
+
+    Array elements (before sorting): 12 3 10 9 10 4 4 7 6 3
+    Array elements (after sorting):: 3 3 4 4 6 7 9 10 10 12
 
     Time complexity - O(k + n)
 

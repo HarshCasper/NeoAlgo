@@ -43,6 +43,7 @@
 ## Sorting
 
 - [Bubble Sort](sort/BubbleSort.dart)
+- [Bucket Sort](sort/BucketSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
 - [Selection Sort](sort/Selection_sort.dart)
 - [Shell Sort](sort/Shell_Sort.dart)

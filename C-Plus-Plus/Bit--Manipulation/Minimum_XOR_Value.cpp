@@ -1,8 +1,11 @@
 /*
-Given an integer array A of N integers, find the pair of integers in the array which have minimum XOR value. Report the minimum XOR value.
+Given an integer array A of N integers, find the pair of integers 
+in the array which have minimum XOR value. Report the minimum XOR value. 
 
-Explanation: According to the problem, we are given the size of the array and the numbers present in it. 
-So we have to find two such numbers that are the elements of the array and their xor is the minimum in value in comparison to all the possible pairs of the array.
+Explanation: According to the problem, we are given the size of the array 
+and the numbers present in it. So we have to find two such numbers that are 
+the elements of the array and their xor is the minimum in value in comparison 
+to all the possible pairs of the array.
 */
 
 #include<bits/stdc++.h>
@@ -46,18 +49,17 @@ int main() {
     return 0;
 }
 
-/*Sample Input :
+/*
+Sample Input :
 Example 1:
 Enter the size of array : 4
 Enter the array : [0, 2, 5, 7]
 Output 1:
 The Minimum xor value is : 2
 The corresponding elements are : 0 and 2
+*/
 
-Example 2:
-Enter the size of array : 5
-Enter the array : [0, 4, 7, 9, 8]
-Output 2:
-The Minimum xor value is : 1
-The corresponding elements are : 8 and 9
+/*
+Time Complexity : O(nlogn)
+Space Complexity : O(1)
 */

@@ -1,5 +1,6 @@
 """
-Problem Statement : Given a list of elements, return all possible subsets (the power set).
+Problem Statement :
+Given a list of elements, return all possible subsets (the power set).
 
 Description:
 Power Set P(S) of a set S is the set of all subsets of S.

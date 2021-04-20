@@ -19,6 +19,7 @@
 - [Factorial](dp/factorial)
 - [Fibonacci](dp/fibonacci)
 - [Maximum Sub-array sum](dp/Max_SubArray_Sum)
+- [Golomb Sequence](dp/golomb_sequence)
 
 ## Data Structures
 - [Binary Tree](ds/binary_tree)
@@ -57,6 +58,7 @@
 - [Mystery Number](math/Mystery_Number)
 - [Prime Number](math/Prime_Number)
 - [Perfect Number](math/Perfect_Number)
+- [Lucky Number](math/Lucky_Number)
 - [GCD](math/GCD)
 
 ## Others

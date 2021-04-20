@@ -20,6 +20,7 @@
 - [Insertion Sort](sort/InsertionSort/src/InsertionSort.kt)
 - [Merge Sort](sort/MergeSort/src/MergeSort.kt)
 - [Radix Sort](sort/RadixSort/src/RadixSort.kt)
+- [Quick Sort](sort/QuickSort/src/QuickSort.kt)
 
 ## Maths
 
@@ -29,7 +30,7 @@
 - [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
 - [Palindrome Number](Maths/PalindromeNumber.kt)
 - [Fibonacci Number](Maths/FibonacciNumber.kt)
-
+- [Happy Number](Maths/HappyNumber.kt)
 
 ## Searching Algorithms
 

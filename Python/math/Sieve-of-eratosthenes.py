@@ -1,9 +1,6 @@
 """
 The sieve of Eratosthenes is an algorithm for finding all prime numbers up to any given limit. 
-It is computationally highly efficient algorithm.Let us take the number `n = 100` , so we create list from `2` to `100` . According to the algorithm , we mark all the numbers which are divisible by `2` which are greater than or equal to the square of it . Then we move to the next number `3` , 
-we mark all the numbers which are divisible by `3`  which are greater than or equal to the square of it. 
-we continue this process until the square of the number is greater than `n`. 
-The numbers which are unmarked in the list are the prime numbers less than `n`.
+It is computationally highly efficient algorithm.
 """
 
 
@@ -17,7 +14,8 @@ def sieve_of_eratosthenes(n):
                 sieve[i] = False
                 i += p
         p += 1
-    for i in range(2, len(sieve)):
+    length = len(sieve)
+    for i in range(2, length):
         if sieve[i] == True:
             print(i, end=" ")
 

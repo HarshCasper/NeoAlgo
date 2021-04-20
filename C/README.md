@@ -225,6 +225,7 @@ _add list here_
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 - [Pascal's triangle](math/Pascals_triangle.c)
+- [Polynomial Addition](math/polynomial_addition.c)
 
 ## Operating System
 

@@ -68,6 +68,10 @@ int main()
     return 0;
 }
 
+/*
+Time complexity-O(Nlog(log(N)))
+Space complexity-O(N)
+*/
 
 /* 
   Sample Input:-

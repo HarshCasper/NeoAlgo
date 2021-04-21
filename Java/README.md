@@ -300,6 +300,7 @@ _add list here_
 - [Sleep Sort](sort/SleepSort.java)
 - [Comb Sort](sort/CombSort_implementation.java)
 - [Tree Sort](sort/TreeSort.java)
+- [Pigeonhole Sort](sort/PigeonholeSort.java)
 
 ## Machine Learning
 

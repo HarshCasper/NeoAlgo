@@ -8,28 +8,32 @@ starting with "2" and "1".
 
 using namespace std;
 
-void lucas(int n){
-    int x = 2;
-    int y = 1;
-    int z,count;
-    if (n==0)
-        cout<<x;
-    cout<<x<<" "<<y<<" ";
-    for (count = 2; count < n; count++)
-    {
-        z = x + y;
-        x = y;
-        y = z;
-        cout<<y<<" ";
+void lucas(int n) {
+  int x = 2;
+  int y = 1;
+  int z, count;
+  if (n == 0)
+    cout << " ";
+  else if (n == 1)
+    cout << x;
+  else {
+    cout << x << " " << y << " ";
+
+    for (count = 2; count < n; count++) {
+      z = x + y;
+      x = y;
+      y = z;
+      cout << y << " ";
     }
+  }
+
 }
-int main()
-{
-    int n;
-    cout<<"Enter the number of terms of Lucas Numbers you want to print: ";
-    cin>>n;
-    cout<<"The Lucas Series of "<<n<<" terms is: ";
-    lucas(n);
+int main() {
+  int n;
+  cout << "Enter the number of terms of Lucas Numbers you want to print: ";
+  cin >> n;
+  cout << "The Lucas Series of " << n << " terms is: ";
+  lucas(n);
 }
  
 /*

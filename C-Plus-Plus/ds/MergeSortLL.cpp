@@ -43,6 +43,7 @@ void print(Node * head) {
   cout << endl;
 }
 
+//function to calculate the mid point of linked list
 Node * midPoint(Node * head) {
   if (head == NULL || head -> next == NULL) {
     return head;
@@ -56,6 +57,7 @@ Node * midPoint(Node * head) {
   return slow;
 }
 
+//function to merge two sorted linked lists
 Node * merge(Node * head1, Node * head2) {
   Node * headnew = NULL;
   Node * tailnew = NULL;
@@ -91,6 +93,7 @@ Node * merge(Node * head1, Node * head2) {
   return headnew;
 }
 
+//merge sort function
 Node * mergeSort(Node * head) {
   if (head == NULL || head -> next == NULL)
     return head;
@@ -107,7 +110,9 @@ Node * mergeSort(Node * head) {
 }
 
 int main() {
+  cout << "Enter the elements of the Linked List" << endl;
   Node * head = takeinput();
+  cout << "The sorted linked list after applying merge sort is:" << endl;
   head = mergeSort(head);
   print(head);
   return 0;

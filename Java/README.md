@@ -178,6 +178,7 @@ _add list here_
 - [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
 - [Implement Queue using Linked List](ds/Queue_LinkedList.java)
+- [Clone Linked List with Next and Random Pointer](ds/clone-linkedlist-with-rnd-pointer)
 
 ## Graphs
 

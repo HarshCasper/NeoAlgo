@@ -66,7 +66,7 @@ int main()
         }
     }
     //for output
-    cout << "The rotated matrix by 90 degrees is: ";
+    cout << "The rotated matrix by 90 degrees is : ";
     rotateBy90Deg(matrix);
     printMatrix(matrix);
     return 0;
@@ -77,14 +77,14 @@ EXAMPLE--
 Input:
 Enter the order of matrix: 4
 Enter the elements of matrix: {[1, 2, 3, 4],
-                                [5, 6, 7, 8],
-                                [9, 10, 11, 12],
-                                [13, 24, 15, 16]}
+                               [5, 6, 7, 8],
+                               [9, 10, 11, 12],
+                               [13, 24, 15, 16]}
 Output:
-The rotated matrix by 90 degrees is: 4 8 12 16
-                                     3 7 11 16
-                                     2 6 10 14
-                                     1 5 9 13
+The rotated matrix by 90 degrees is : 4 8 12 16
+                                      3 7 11 16
+                                      2 6 10 14
+                                      1 5 9 13
 
 TIME COMPLEXITY --> O(n ^ 2); where n is order of the matrix
 SPACE COMPLEXITY --> 0(1)

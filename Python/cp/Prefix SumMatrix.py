@@ -4,7 +4,9 @@
     y0 = x0
     y1 = x0 + x1
     y2 = x0 + x1+ x2
-    and so on...'''
+    and so on...
+    Time Complexity= O(R*C)
+    Space Complexity= O(R*C)'''
 
 # Code for Prefix Sum Matrix[2D Array] in Python -
 r = int(input())    #no. of rows
@@ -51,6 +53,7 @@ A = [[ 10, 20, 30],
 prefixSum(A)
 
 '''output
+
     r=3
     c=3
     Ap= [[ 10, 30, 60],

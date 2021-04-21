@@ -434,6 +434,7 @@ _add list here_
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Lucky Number](math/LuckyNumber.cpp)
+- [Next Prime Number](math/next_prime_number.cpp)
 
 ## Dynamic Programming
 

@@ -355,3 +355,4 @@ _add list here_
 - [Generate Parentheses](other/GenerateParentheses.java)
 - [Blocked Maze](other/BlockedMaze.java)
 - [Knights Tour](other/KnightsTour.java)
+- [Word Ladder](other/WordLadder.java)

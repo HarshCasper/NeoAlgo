@@ -115,7 +115,7 @@
 - [Is Valid Sudoku](cp/Is_Valid_Sudoku.cpp)
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
-
+- [Doubling the value](cp/Doubling_the_value.cpp)
 ## Data Structures
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)

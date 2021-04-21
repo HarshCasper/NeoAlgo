@@ -1,7 +1,8 @@
 /*
-Question:- Given a sequence of matrices, find the most efficient way to multiple these matrices together. We have to find the way which costs minimum.
-How are we defining coat of matrix multiplication ?
-=> Let's asssume two matrices are there of order 10X30 and 30X20 so cost of multiplication of them will be 10*30*20 , we will take the common order element only once .
+Given a sequence of matrices, find the most efficient way to multiple these matrices together. 
+We have to find the way which costs minimum.
+Let's asssume two matrices are there of order 10X30 and 30X20 so cost of multiplication of them will be 10*30*20 ,
+we will take the common order element only once .
 */
 
 #include <bits/stdc++.h>
@@ -56,14 +57,17 @@ int main() {
   cout << matrixMultiplication(N, arr);
 }
 /*
+
 Input: 
 Size of array -                                                                                                                                 
 4                                                                                                                                               
 Input Array -                                                                                                                                   
 10 30 5 60  
+
 Output:                                                                                                                                    
 Minimum costs -                                                                                                                                 
 4500
+
 Time Complexity: O(N ^ 3)
 Space Complexity: O(N ^ 2)
 */

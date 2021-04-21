@@ -7,8 +7,7 @@ It is given that the rotation should be performed
 without using any extra space.
 */
 
-#include <bits/stdc++.h>
-#define order 4 
+#include <bits/stdc++.h> 
 
 using namespace std;
 
@@ -54,6 +53,9 @@ void printMatrix(int matrix[][order])
 int main()
 {
     //taking input
+    int order;
+    cout << "Enter the order of matrix: ";
+    cin >> order;
     int matrix[order][order];
     cout << "Enter the elements of matrix: ";
     for( int i = 0; i < order; i++)
@@ -73,6 +75,7 @@ int main()
 /*
 EXAMPLE--
 Input:
+Enter the order of matrix: 4
 Enter the elements of matrix: {[1, 2, 3, 4],
                                 [5, 6, 7, 8],
                                 [9, 10, 11, 12],

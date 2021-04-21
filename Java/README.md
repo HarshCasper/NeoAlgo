@@ -32,6 +32,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Intersection of Two Arrays](cp/Intersection_of_Two_Arrays.java)
 - [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
@@ -354,4 +355,4 @@ _add list here_
 - [Generate Parentheses](other/GenerateParentheses.java)
 - [Blocked Maze](other/BlockedMaze.java)
 - [Knights Tour](other/KnightsTour.java)
-
+- [Word Ladder](other/WordLadder.java)

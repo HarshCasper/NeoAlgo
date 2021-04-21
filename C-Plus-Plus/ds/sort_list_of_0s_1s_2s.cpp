@@ -65,24 +65,32 @@ void print() {
 
 int main() {
     int n;
+    cout<<"How many elements do you want to sort? ";
     cin>>n;
     int item;
+    cout<<"Enter "<<n<<" spaced integers: "<<endl;
     for(int i = 0; i < n; i++) {
         cin>>item;
         insert(item);
     }
+    cout<<"Sorted list is: ";
     sortlist();
     print();
 }
 /*
   Input:
-  n - number of elements in the list
-  n elements
-  Example:
+  The first line contains a single integer n - number of integers in the list
+  The next line contains n spaced integers
+  Output: 
+  Contains n spaced sorted integers
+  
+  Sample Input:
+  How many elements do you want to sort? 5
+  Enter 5 spaced integers:
   0 1 2 1 2
 
-  Output:
-  0 1 1 2 2
+  Sample Output:
+  Sorted list is: 0 1 1 2 2
 
   Complexity Analysis:
   Time Complexity: O(n);

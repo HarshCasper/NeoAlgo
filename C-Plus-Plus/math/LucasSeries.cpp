@@ -7,7 +7,6 @@ starting with "2" and "1".
 #include <bits/stdc++.h>
 
 using namespace std;
-
 void lucas(int n) {
   int x = 2;
   int y = 1;

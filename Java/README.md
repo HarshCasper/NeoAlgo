@@ -32,6 +32,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Intersection of Two Arrays](cp/Intersection_of_Two_Arrays.java)
 - [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
@@ -298,6 +299,7 @@ _add list here_
 - [Shell Sort](sort/ShellSort.java)
 - [Sleep Sort](sort/SleepSort.java)
 - [Comb Sort](sort/CombSort_implementation.java)
+- [Tree Sort](sort/TreeSort.java)
 
 ## Machine Learning
 
@@ -338,8 +340,10 @@ _add list here_
 - [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
+- [Unique Number in an Array using Bitmasking](other/UniqueNumberBitmasking.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
+- [Set Bits in an Integer using Bitmasking](other/SetBitsBitmasking.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
@@ -348,6 +352,7 @@ _add list here_
 - [Pair programmers productivity problem](other/Pair_programmers_productivity_problem.java)
 - [Union of two Unsorted Arrays](other/UnionUnsortedArray.java)
 - [Repeating and missing number](other/Repeating_and_missing_number.java)
+- [Generate Parentheses](other/GenerateParentheses.java)
+- [Blocked Maze](other/BlockedMaze.java)
 - [Knights Tour](other/KnightsTour.java)
 - [Word Ladder](other/WordLadder.java)
-

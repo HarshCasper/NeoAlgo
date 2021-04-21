@@ -217,6 +217,7 @@
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 - [Catalan Number](dp/Catalan_DP.py)
+- [Egg Dropping Problem](dp/Egg_Dropping_Problem.py)
 
 ## Pathfinding Algorithms
 

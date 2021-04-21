@@ -13,6 +13,10 @@
 
 - [Bit Operations](BitManipulation/BasicBitOperations.kt)
 
+## Competitive Programming
+
+- [ReverseString](cp/ReverseString.kt)
+
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)

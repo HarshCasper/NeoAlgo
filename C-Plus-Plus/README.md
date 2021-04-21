@@ -149,6 +149,7 @@
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
 - [Baised Standings](cp/baised_standings.cpp)
+- [Kth maximum and minimum number](cp/Kth_maximum_and_minimum_number.cpp)
 
 ## Data Structures
 

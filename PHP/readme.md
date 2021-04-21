@@ -12,3 +12,4 @@
 ## Sorting Algorithms
 
 - [Quick Sort](sort/quick_sort.php)
+- [Bubble Sort](sort/bubble_sort.php)

@@ -509,6 +509,7 @@ _add list here_
 - [Find duplicate elements using XOR](Bit--Manipulation/Find_duplicate_elements_using_XOR.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 - [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
+- [Minimum XOR value](Bit--Manipulation/Minimum_XOR_Value.cpp)
 
 ## Blockchain
 

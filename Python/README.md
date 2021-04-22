@@ -198,6 +198,7 @@
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)
+- [Cutting A Rod](dp/cutting_a_rod.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Common Substring](dp/length_longest_common_substring.py)
 - [Longest Decreasing Subsequence](dp/length_common_decreasing_subsequence.py)
@@ -354,6 +355,7 @@
 
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
 - [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
+- [Reverse bits of a Number](Bit--Manipulation/reverse_bits.py)
 
 ## Blockchain
 

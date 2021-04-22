@@ -98,7 +98,6 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
-- [Boyer Moore Algorithm for Pattern Searching](cp/Boyer_Moore_Algorithm.cpp)
 - [Topological Sort on DAG](cp/Topological_sort.cpp)
 - [Check T-Prime](cp/check_T_prime.cpp)
 - [Aggressive cows](cp/aggressive_cows.cpp)
@@ -440,6 +439,7 @@ _add list here_
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Lucky Number](math/LuckyNumber.cpp)
+- [Next Prime Number](math/next_prime_number.cpp)
 
 ## Dynamic Programming
 

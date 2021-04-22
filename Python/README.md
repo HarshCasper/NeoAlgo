@@ -198,6 +198,7 @@
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)
+- [Cutting A Rod](dp/cutting_a_rod.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Common Substring](dp/length_longest_common_substring.py)
 - [Longest Decreasing Subsequence](dp/length_common_decreasing_subsequence.py)

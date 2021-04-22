@@ -347,12 +347,9 @@
 - [Perfect square less than n](math/Perfect_square.py)
 - [Perfect Number](math/Perfect_Number.py)
 - [Harshad Number](math/HarshadNumber.py)
-<<<<<<< HEAD
 - [Special Number](math/special.py)
-=======
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
->>>>>>> 169bb7c48c3a71c5018d0c8dc7918019bbff5401
 
 ## Bit Manipulation
 

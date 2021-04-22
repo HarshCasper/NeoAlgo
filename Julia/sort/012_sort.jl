@@ -1,5 +1,6 @@
 #=Sorting an array of 0,1,2 without comparing elements with each other or using any classic sorting 
-algorithm=#
+algorithm
+=#
 
 ## Function
 

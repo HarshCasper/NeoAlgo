@@ -229,6 +229,7 @@ _add list here_
 - [Pascal's triangle](math/Pascals_triangle.c)
 - [Decimal to Hexadecimal conversion](math/Decimal_to_Hex.c)
 - [Polynomial Addition](math/polynomial_addition.c)
+- [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
 
 ## Operating System

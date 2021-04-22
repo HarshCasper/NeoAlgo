@@ -1,7 +1,6 @@
 // C++ Program to Merge two sorted arrays without using extra space
 
-//Time Complexity : O((n+m)log(n+m))
-//Space Complexity : O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -13,8 +12,7 @@ void merge(int arr1[], int arr2[], int n, int m) {
 	           swap(arr1[i], arr2[j]);
 	        }
 	           i--;
-	           j++;
-	    
+	           j++;	    
 	}
 	sort(arr1, arr1+n);                         //sort the first array
         sort(arr2, arr2+m);                         //sort the second array
@@ -27,7 +25,6 @@ int main() {
         int n, m, i;
         
         cin >> n;
-        cout<<endl;
         cout<<"Enter the size of the second array : ";
         cin >> m;
       
@@ -36,7 +33,6 @@ int main() {
         for (i = 0; i < n; i++) {
             cin >> arr1[i];
         }
-        cout<<endl;
         cout<<"Enter the elements of the second array : ";
         for (i = 0; i < m; i++) {
             cin >> arr2[i];
@@ -53,24 +49,31 @@ int main() {
     return 0;
 }  
 
-
 /*
 SAMPLE INPUT AND OUTPUT
 
 SAMPLE 1
-
+INPUT: 
 Enter the size of the first array : 4
 Enter the size of the first array : 5
 Enter the elements of the first array : 1 3 5 7
 Enter the elements of the first array : 0 2 6 8 9
+
+OUTPUT: 
 Sorted Array : 0 1 2 3 5 6 7 8 9
 
 SAMPLE 2
-
+INPUT:
 Enter the size of the first array : 6
 Enter the size of the first array : 4
 Enter the elements of the first array : 1 5 9 10 15 20
 Enter the elements of the first array : 2 3 8 13
+
+OUTPUT:
 Sorted Array : 1 2 3 5 8 9 10 13 15 20
 
 */
+
+//Time Complexity : O((n+m)log(n+m))
+//Space Complexity : O(1)
+

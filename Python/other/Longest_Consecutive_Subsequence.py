@@ -13,14 +13,6 @@ are 1, 2, 3, 4, 5, 6. These 6
 numbers form the longest consecutive
 subsquence.
 
-Example 2:
-Input: {1,9,3,10,4,20,2}
-Output: 4
-
-Explanation:
-1, 2, 3, 4 is the longest
-consecutive subsequence.
-
 """
 
 def LongestConsecutiveSubsequence(arr):

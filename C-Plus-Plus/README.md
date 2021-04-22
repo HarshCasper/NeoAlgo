@@ -501,6 +501,7 @@ _add list here_
 - [Interleaving strings](dp/Interleaving_strings.cpp)
 - [Minimum Insertion Steps to make string palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.cpp)
+- [Block Sum Matrix](dp/BlockSumMatrix.cpp)
 
 ## Bit - Manipulation
 

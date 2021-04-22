@@ -304,7 +304,8 @@ namespace SCC_
 - Longest Strongly Connected Components:
 - [8, 6, 7, 5, 3, 1, 2]
 
-- Complextiy = O(m+n)
+- Time Complextiy = O(m+n)S
+- Space Complextiy = O(n)
     
     */
 

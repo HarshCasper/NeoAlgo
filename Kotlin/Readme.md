@@ -9,6 +9,14 @@
 
 # Codes in the Kotlin language
 
+## Bit Manipulation
+
+- [Bit Operations](BitManipulation/BasicBitOperations.kt)
+
+## Competitive Programming
+
+- [ReverseString](cp/ReverseString.kt)
+
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
@@ -16,6 +24,7 @@
 - [Insertion Sort](sort/InsertionSort/src/InsertionSort.kt)
 - [Merge Sort](sort/MergeSort/src/MergeSort.kt)
 - [Radix Sort](sort/RadixSort/src/RadixSort.kt)
+- [Quick Sort](sort/QuickSort/src/QuickSort.kt)
 
 ## Maths
 
@@ -24,6 +33,11 @@
 - [Armstrong Number](Maths/Armstrong.kt)
 - [Armstrong Number with Recursive Approach](Maths/ArmstrongRecursive.kt)
 - [Palindrome Number](Maths/PalindromeNumber.kt)
+- [Fibonacci Number](Maths/FibonacciNumber.kt)
+- [Happy Number](Maths/HappyNumber.kt)
+- [Tower of Hanoi](Maths/TowerofHanoi.kt)
+- [Factorial](Maths/Factorial.kt)
+
 
 ## Searching Algorithms
 

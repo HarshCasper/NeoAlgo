@@ -3,7 +3,7 @@
 *  by means of a series of swaps in a single loop.
 *
 *  A run thorugh of the numbers is conducted, comparing each of the current numbers (initially
-*  the second element) to the numbers before them.
+*  the second element) to the number before them.
 *		If numbers are not in order,
 *			Numbers are swapped
 *			Move back to compare previous pair of numbers

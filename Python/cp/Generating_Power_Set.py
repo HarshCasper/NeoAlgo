@@ -64,13 +64,5 @@ if __name__ == "__main__":
 # Power Set: [[], [0], [-1], [-1, 0], [2], [2, 0], [2, -1], [2, -1, 0],
 # [1], [1, 0], [1, -1], [1, -1, 0], [1, 2], [1, 2, 0],
 # [1, 2, -1], [1, 2, -1, 0]]
-# Sample Input 3:(Empty)
-# Enter values seperated by space:
-# Sample Output 3:
-# Power Set: [[]]
-# Sample Input 4:
-# Enter values seperated by space: a b
-# Sample Output 4
-# Power Set: [[], ['b'], ['a'], ['a', 'b']]
 # Time Complexity: O(N * 2*N)
 # Space Complexity: O(2*N)

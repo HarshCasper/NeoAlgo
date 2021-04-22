@@ -118,6 +118,7 @@
 - [Adjacency Matrix in C](ds/Adjacency_matrix.c)
 - [Worst Fit Memory allocation](ds/worst_fit_memory.c)
 - [Best Fit Memory allocation](ds/best_fit_memory.c)
+- [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 ## Searching
 
 - [Binary Search](search/Binary_search.c)
@@ -173,6 +174,7 @@
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.c)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
 - [Unique BST](dp/Unique_BST.c)
@@ -203,6 +205,7 @@ _add list here_
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Find factorial of a Number](math/factorial.c)
 - [Happy Number](math/happy_number.c)
+- [Lucas Number](math/lucas_number.c)
 - [Lowest Prime Factor](math/lowest_prime_factor_of_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
@@ -223,6 +226,8 @@ _add list here_
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 - [Pascal's triangle](math/Pascals_triangle.c)
+- [Polynomial Addition](math/polynomial_addition.c)
+- [Special Number](math/special.c)
 
 ## Operating System
 

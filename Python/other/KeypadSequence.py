@@ -1,28 +1,24 @@
 '''
 - Phone Keypad Sequence:
-    Given a keypad as shown in the diagram, and an n digit number, list all words which are possible by pressing these numbers.
-
+    Given a keypad as shown in the diagram, and an n digit number, 
+    list all words which are possible by pressing these numbers.
 - Example: 
- 
     Input number: 23
 
     Output: ad ae af
             bd be bf
             cd ce cf
-
 - Approach :
-
-    1. As observed each digit can represent 3 to 4 different alphabets (except 0 and 1)
+    1. As observed each digit can represent 3 to 4 different 
+    alphabets (except 0 and 1)
     2. Map each number with its keypad string equivalent.
-    3. Use recrsive function to try all alphabets mapped to the current digit in alphabetic order, and again call the recursive function for the next digit and will pass on the current output string. 
-
+    3. Use recrsive function to try all alphabets mapped to the 
+    current digit in alphabetic order, and again call the recursive 
+    function for the next digit and will pass on the current output string. 
 '''
-
-# Top-down recursive function
 
 
 def findCombinations(keypad, input, index, result=""):
-
     # if we have processed every digit of the key, print the result
     if index == -1:
         print(result, end=' ')
@@ -39,9 +35,7 @@ def findCombinations(keypad, input, index, result=""):
     for i in range(length):
         findCombinations(keypad, input, index - 1, keypad[digit][i] + result)
 
-
 if __name__ == '__main__':
-
     keypad = [
         # 0 and 1 digit don't have any characters associated
         [],
@@ -58,23 +52,22 @@ if __name__ == '__main__':
 
     # input number in the form of a list (number cannot start from 0 or 1)
     input = [2, 3]
-
     findCombinations(keypad, input, len(input) - 1)
 
 
-'''
-- Output
-   ad ae af bd be bf cd ce cf
+# - Output
+#    ad ae af bd be bf cd ce cf
 
-- Complexity Analysis :
-    Time Complexity : O(4^n)
-        here as each digit of the number has 3 or 4 alphabets we have taken the upper bound
-        so that all cases can be incorporated in it.
+# - Complexity Analysis :
+#     Time Complexity : O(4^n)
+#         here as each digit of the number has 3 or 4 alphabets
+#         we have taken the upper bound
+#         so that all cases can be incorporated in it.
 
-    Space Complexity : 
-        O(1)
-        No extra space is needed
-    
-        NOTE: Each recursive approach consumes a definite amount of space called call stack for it's execution but for simplicity purpose I've not taken that into account.
+#     Space Complexity :
+#         O(1)
+#         No extra space is needed
 
-'''
+#         Note: Each recursive approach consumes a definite amount of
+#         space called call stack for it's execution but for simplicity
+#         purpose I've not taken that into account.

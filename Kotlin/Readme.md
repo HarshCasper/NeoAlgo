@@ -36,6 +36,8 @@
 - [Fibonacci Number](Maths/FibonacciNumber.kt)
 - [Happy Number](Maths/HappyNumber.kt)
 - [Tower of Hanoi](Maths/TowerofHanoi.kt)
+- [Factorial](Maths/Factorial.kt)
+
 
 ## Searching Algorithms
 

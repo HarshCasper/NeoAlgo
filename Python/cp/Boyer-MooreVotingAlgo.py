@@ -36,7 +36,11 @@ def majorityElement(A, n):
         else:
             c = c - 1
  
-    print (mx)
+    if (c > n//2):
+        print(mx)
+ 
+    else:
+        print("No Majority Element")
 
 # Driver code
 if __name__ == "__main__":

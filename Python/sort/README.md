@@ -25,3 +25,4 @@ For example: A list of characters is sorted in increasing order of their ASCII v
 - [Topological Sort](sort/topological_sort.py)
 - [Sleep Sort](sort/Sleep_sort.py)
 - [Counting Sort](sort/Counting_Sort.py)
+- [List Sort](sort/ListTuplesort.py)

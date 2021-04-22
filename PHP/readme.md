@@ -13,3 +13,8 @@
 
 - [Quick Sort](sort/quick_sort.php)
 - [Bubble Sort](sort/bubble_sort.php)
+
+## Math
+
+- [Ackermann Function](math/ackermann_function.php)
+

@@ -4,6 +4,7 @@ A special number is a number whose all digits are 1
 Example-11
 '''
 
+#Function to check special
 def special(n):
     c=s=0
     while(n!=0):

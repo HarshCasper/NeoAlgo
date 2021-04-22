@@ -18,8 +18,8 @@ Explanation : 201 in decimal format is equivalent to the C9 in hexadecimal.
 int decToHex(int fdec , char fhex[])
 {
 	int j = 0, remainder = 0;
+	
 	//This loop calculates the remainder & map it to hex number until the number is greater than 0.
-
 	while(fdec > 0)
 	{
 		remainder = fdec % 16 ;

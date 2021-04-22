@@ -62,6 +62,8 @@ void display(LLNode **head)
     }
     cout << endl;
 }
+
+//To get the last element of the linked list
 LLNode *getTail(LLNode *cur)
 {
     while (cur != NULL && cur->next != NULL)

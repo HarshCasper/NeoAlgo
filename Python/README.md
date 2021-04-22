@@ -208,6 +208,7 @@
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
+- [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)

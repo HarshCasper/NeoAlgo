@@ -149,7 +149,8 @@
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
 - [Baised Standings](cp/baised_standings.cpp)
-- [Find paths for robot](cp/robot_paths.cpp)
+- [Find total paths for robot](cp/robot_paths.cpp)
+- [Wine Selling](cp/wines_problem.cpp)
 
 ## Data Structures
 
@@ -160,6 +161,7 @@
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Singly Linked List Operations Using Unique Key](ds/SLL_Operations_Usnig_Unique_Key.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
+- [Number of Good Pairs](ds/Number_of_good_pairs.cpp)
 - [Level Order Tree Traversal](ds/LevelOrderTraversal.cpp)
 - [AVL Tree](ds/avl_tree.cpp)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
@@ -241,7 +243,7 @@
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
-
+- [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
@@ -430,6 +432,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_number.cpp)
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
+- [Lucas Number](math/LucasSeries.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
@@ -489,7 +492,9 @@ _add list here_
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
 - [Average Submatrix > K](dp/avg_submatrix_k.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
+- [Interleaving strings](dp/Interleaving_strings.cpp)
 - [Minimum Insertion Steps to make string palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.cpp)
 
 ## Bit - Manipulation
 
@@ -508,6 +513,7 @@ _add list here_
 - [Find duplicate elements using XOR](Bit--Manipulation/Find_duplicate_elements_using_XOR.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 - [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
+- [Minimum XOR value](Bit--Manipulation/Minimum_XOR_Value.cpp)
 
 ## Blockchain
 

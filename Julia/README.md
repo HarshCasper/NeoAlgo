@@ -42,6 +42,7 @@
 - [Palindrome Number](math/check_palindrome.jl)
 - [Perfect Number](math/perfect_number.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
+- [Lucas Number](math/lucas_number.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Number of Digits](math/number_of_digits.jl)
 - [Noble Integer](math/noble_integer.jl)

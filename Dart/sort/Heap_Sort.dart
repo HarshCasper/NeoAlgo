@@ -1,4 +1,14 @@
-// HEAP SORT
+/*
+HEAP SORT
+
+It is a sorting technique based on the heap data structure.
+
+Heap is a complete binary tree, in which every level except the last, is filled
+completely with its nodes, and nodes are far left.
+
+We implement this sorting in an array using Max Heap, in which the parent node 
+value is greater than it child node values. 
+*/
 
 import 'dart:io';
 

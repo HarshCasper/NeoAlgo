@@ -84,6 +84,7 @@
 - [Singly Linked List](ds/SinglyLinkedList.py)
 - [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
 - [Sum of Linked List](ds/Sum_of_Linked_list.py)
+- [Left view of a binary tree](graphs/Left_view_of_binary_tree.py)
 
 ## Competitive Programming
 
@@ -208,6 +209,7 @@
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
+- [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
@@ -345,10 +347,13 @@
 - [Perfect square less than n](math/Perfect_square.py)
 - [Perfect Number](math/Perfect_Number.py)
 - [Harshad Number](math/HarshadNumber.py)
+- [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
+- [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 
 ## Bit Manipulation
 
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
+- [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
 
 ## Blockchain
 

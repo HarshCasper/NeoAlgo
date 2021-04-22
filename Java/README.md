@@ -32,6 +32,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Intersection of Two Arrays](cp/Intersection_of_Two_Arrays.java)
 - [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
@@ -322,6 +323,7 @@ _add list here_
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Insert Position](other/InsertPosition.java)
+- [Keys and rooms for entry](other/Key_n_room.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
@@ -354,4 +356,4 @@ _add list here_
 - [Generate Parentheses](other/GenerateParentheses.java)
 - [Blocked Maze](other/BlockedMaze.java)
 - [Knights Tour](other/KnightsTour.java)
-
+- [Word Ladder](other/WordLadder.java)

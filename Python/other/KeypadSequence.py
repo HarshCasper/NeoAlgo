@@ -1,31 +1,31 @@
 '''
 - Phone Keypad Sequence:
-    Given a keypad as shown in the diagram, and an n digit number, 
+    Given a keypad as shown in the diagram, and an n digit number,
     list all words which are possible by pressing these numbers.
-- Example: 
+- Example:
     Input number: 23
 
     Output: ad ae af
             bd be bf
             cd ce cf
 - Approach :
-    1. As observed each digit can represent 3 to 4 different 
+    1. As observed each digit can represent 3 to 4 different
     alphabets (except 0 and 1)
     2. Map each number with its keypad string equivalent.
-    3. Use recrsive function to try all alphabets mapped to the 
-    current digit in alphabetic order, and again call the recursive 
-    function for the next digit and will pass on the current output string. 
+    3. Use recrsive function to try all alphabets mapped to the
+    current digit in alphabetic order, and again call the recursive
+    function for the next digit and will pass on the current output string.
 '''
 
 
-def findCombinations(keypad, input, index, result=""):
+def findCombinations(keypad, input_num, index, result=""):
     # if we have processed every digit of the key, print the result
     if index == -1:
         print(result, end=' ')
         return
 
     # stores the current digit
-    digit = input[index]
+    digit = input_num[index]
 
     # get the size of the list corresponding to the current digit
     length = len(keypad[digit])
@@ -33,7 +33,9 @@ def findCombinations(keypad, input, index, result=""):
     # one by one, replace the digit with each character in the corresponding
     # list and recur for the next digit
     for i in range(length):
-        findCombinations(keypad, input, index - 1, keypad[digit][i] + result)
+        findCombinations(keypad, input_num, index -
+                         1, keypad[digit][i] + result)
+
 
 if __name__ == '__main__':
     keypad = [
@@ -51,8 +53,8 @@ if __name__ == '__main__':
     ]
 
     # input number in the form of a list (number cannot start from 0 or 1)
-    input = [2, 3]
-    findCombinations(keypad, input, len(input) - 1)
+    input_num = [2, 3]
+    findCombinations(keypad, input_num, len(input_num) - 1)
 
 
 # - Output

@@ -361,4 +361,4 @@ _add list here_
 - [Blocked Maze](other/BlockedMaze.java)
 - [Knights Tour](other/KnightsTour.java)
 - [Word Ladder](other/WordLadder.java)
-
+- [Linear probing in java](other/linearProbing.java)

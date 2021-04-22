@@ -352,6 +352,7 @@
 ## Bit Manipulation
 
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
+- [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
 
 ## Blockchain
 

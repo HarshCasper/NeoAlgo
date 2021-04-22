@@ -84,6 +84,7 @@
 - [Singly Linked List](ds/SinglyLinkedList.py)
 - [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
 - [Sum of Linked List](ds/Sum_of_Linked_list.py)
+- [Left view of a binary tree](graphs/Left_view_of_binary_tree.py)
 
 ## Competitive Programming
 

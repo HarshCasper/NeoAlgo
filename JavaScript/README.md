@@ -17,6 +17,7 @@
 - [Armstrong Number](Algorithms/Armstrong.js)
 - [Longest Increaing Subsequnce](Algorithms/LongestIncreasingSubsequenceDP.js)
 - [Kadane's Algorithm](Algorithms/kadane's_algo.js)
+- [Floyd Warshall Algorithm](Algorithms/FloydWarshallAlgorithm.js)
 
 ## Backtracking
 

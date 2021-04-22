@@ -55,14 +55,14 @@ public static void main(String[] args) {
 	
 	System.out.println("Enter elements of array :");
 	for(int i=0;i<arraySize;i++) {
-		array[i]=sc.nextInt();
+	    array[i]=sc.nextInt();
 	}	
 	int hashTable[]= linearProbing(hashSize,array,arraySize);	
 	
 	for(int i=0;i<hashSize;i++) {
-		System.out.print(hashTable[i]+" ");
-		}		
-	}
+	    System.out.print(hashTable[i]+" ");
+	}		
+    }
 }
 /*
 Sample input 1:

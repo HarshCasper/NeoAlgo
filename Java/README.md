@@ -32,6 +32,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Intersection of Two Arrays](cp/Intersection_of_Two_Arrays.java)
 - [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
@@ -342,6 +343,7 @@ _add list here_
 - [Unique Number in an Array using Bitmasking](other/UniqueNumberBitmasking.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
+- [Set Bits in an Integer using Bitmasking](other/SetBitsBitmasking.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
@@ -351,5 +353,6 @@ _add list here_
 - [Union of two Unsorted Arrays](other/UnionUnsortedArray.java)
 - [Repeating and missing number](other/Repeating_and_missing_number.java)
 - [Generate Parentheses](other/GenerateParentheses.java)
+- [Blocked Maze](other/BlockedMaze.java)
 - [Knights Tour](other/KnightsTour.java)
-
+- [Word Ladder](other/WordLadder.java)

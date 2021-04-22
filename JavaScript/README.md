@@ -72,6 +72,7 @@
 - [Comb Sort](./sort/CombSort.js)
 - [Gnome Sort](./sort/GnomeSort.js)
 - [WaveForm Sort](./sort/WaveFormSort.js)
+- [Shaker Sort](./sort/ShakerSort.js)
 
 ## Machine Learning
 
@@ -91,6 +92,7 @@ _add list here_
 - [Matrix Multiplication](./math/Matrix_multiplication.js)
 - [Matrix addition](./math/Matrix_addition.js)
 - [Neon Number](./math/NeonNumber.js)
+- [Happy Number](./math/HappyNumber.js)
 - [Perfect Number](./math/Perfect_Number.js)
 
 ## Competitive Programming

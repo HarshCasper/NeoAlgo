@@ -1,4 +1,4 @@
-function floydWarshall(matrice) {
+const floydWarshall = (matrice) => {
     var temp = [];
     var temp2 = [];
     var temp3 = [];
@@ -18,19 +18,36 @@ function floydWarshall(matrice) {
       temp3.push(temp2);
       temp2 = [];
     }
-      return temp3;
-  }
+    return temp3;
+};
   
-  function sum(arr) {
-    return arr.reduce(function(a, b) {
-      return a + b;
-    }, 0);
-  }
-  
-  //Test Cases: 
+const sum = (arr) => {
+  return arr.reduce(function(a, b) {
+    return a + b;
+  }, 0);
+};
 
-  /* Test Case 1:
-  var matrice1 = [
+  //Test Case1:
+
+  var matrice2 = [
+    [1, 0, 1, 1], 
+    [1, 0, 1, 1], 
+    [0, 1, 1, 1], 
+    [0, 0, 1, 1]
+  ];
+
+  floydWarshall(matrice2);
+  
+ /*Output:
+    [
+    [1, 1, 1, 1], 
+    [1, 1, 1, 1], 
+    [1, 1, 1, 1], 
+    [0, 1, 1, 1]]
+ */ 
+
+  /* Test Case 2:
+  var matrice2 = [
     [1, 0, 1, 0, 0, 0, 0, 0],
     [1, 1, 0, 1, 0, 0, 0, 0],
     [1, 0, 1, 0, 0, 0, 0, 0],
@@ -52,20 +69,4 @@ function floydWarshall(matrice) {
     [1, 0, 1, 0, 1, 1, 1, 1],
     [0, 1, 0, 0, 1, 0, 1, 1]]
   */
-  
- /* Test Case 2:
-  var matrice2 = [
-    [1, 0, 1, 1], 
-    [1, 0, 1, 1], 
-    [0, 1, 1, 1], 
-    [0, 0, 1, 1]
-  ];
-
-  Output:
-  [
-    [1, 1, 1, 1], 
-    [1, 1, 1, 1], 
-    [1, 1, 1, 1], 
-    [0, 1, 1, 1]]
-*/
   

@@ -37,6 +37,7 @@
 - [Happy Number](Maths/HappyNumber.kt)
 - [Tower of Hanoi](Maths/TowerofHanoi.kt)
 - [Factorial](Maths/Factorial.kt)
+- [Floyd's Triangle](Maths/Floyd'sTriangle.kt)
 
 
 ## Searching Algorithms

@@ -22,6 +22,7 @@
 - [Check Anagrams](cp/check_anagrams.cpp)
 - [Product of the maximum element and the minimum element in two consecutive arrays](cp/Product_of_the_maximum_element_and_the_minimum_element_in_two_consecutive_arrays.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
+- [Algorithm for converting number in different base](cp/base.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)
 - [Combination Sum](cp/Combination_Sum.cpp)
 - [Combination Sum without Repeating the Values](cp/Combination_sum_without_Repeated_values.cpp)

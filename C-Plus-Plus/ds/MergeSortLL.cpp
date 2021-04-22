@@ -3,6 +3,7 @@
 */
 
 #include <bits/stdc++.h>
+using namespace std;
 
 class Node {
   public:
@@ -14,7 +15,7 @@ class Node {
   }
 };
 
-using namespace std;
+//function to take input from the user
 
 Node * takeinput() {
   int data;
@@ -34,6 +35,8 @@ Node * takeinput() {
   return head;
 }
 
+//function to print the linked list
+
 void print(Node * head) {
   Node * temp = head;
   while (temp != NULL) {
@@ -44,6 +47,7 @@ void print(Node * head) {
 }
 
 //function to calculate the mid point of linked list
+
 Node * midPoint(Node * head) {
   if (head == NULL || head -> next == NULL) {
     return head;
@@ -58,6 +62,7 @@ Node * midPoint(Node * head) {
 }
 
 //function to merge two sorted linked lists
+
 Node * merge(Node * head1, Node * head2) {
   Node * headnew = NULL;
   Node * tailnew = NULL;
@@ -94,6 +99,7 @@ Node * merge(Node * head1, Node * head2) {
 }
 
 //merge sort function
+
 Node * mergeSort(Node * head) {
   if (head == NULL || head -> next == NULL)
     return head;
@@ -124,7 +130,9 @@ Space Complexity: O(logn)
 where 'n' is the size of the singly linked list
 
 Sample Input:
+Enter the elements of the Linked List
 10 9 8 7 6 5 4 3 -1
 Sample Output:
+The sorted linked list after applying merge sort is:
 3 4 5 6 7 8 9 10 
 */

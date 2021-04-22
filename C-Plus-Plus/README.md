@@ -240,3 +240,4 @@ _add list here_
 - [Swap Two Nibbles](other/SwapTwoNibbles.cpp)
 - [Unique_Number_III](other/Unique_Number_III.cpp)
 - [KnapSack Fractional using Greedy Approach](other/knapsackfraction.cpp)
+- [Zig Zag Array(unsorted)](other/zig-zag_array_unsorted.cpp)

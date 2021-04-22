@@ -1,3 +1,7 @@
+/*
+	This is a java program to add to binary strings
+	and return the result in binary string itself
+*/
 import java.util.Scanner;
 
 public class AddBinaryStrings{
@@ -9,39 +13,51 @@ public class AddBinaryStrings{
 		String b = inp.nextLine();
 		System.out.println("\n" + a +" + "+ b + " = " + addBinary(a,b));
 	}
-
+	//This is the function responsible for adding the two binary strings
+	//passed as an argument in this function
 	public static String addBinary(String a, String b){
-		int carry = 0;	//creating a variable to store carry generated on adding
+		//creating a variable to store carry generated on adding
+		int carry = 0;
+		//Using StringBuilder will make our program's execution faster
 		StringBuilder ans = new StringBuilder();
 		int n = a.length();
 		int m = b.length();
-		int i = n-1;	//we will start from the end of the strings
-		int j = m-1;	//we will start from the end of the strings
+		//we will start from the end of the strings
+		int i = n-1;
+		int j = m-1;
 
 		while(i >= 0 || j >= 0){
 			int sum = carry;
-			if(j >= 0){	//if our string b still has some characters then we should add it in
-				sum += (b.charAt(j)-'0');	//adding the decimal values into sum
-											//by subtracting the ascii value of 0 from characters of string 
+			//if our string b still has some characters then we should add it in
+			if(j >= 0){	
+				//adding the decimal values into sum
+				//by subtracting the ascii value of 0 from characters of string 
+				sum += (b.charAt(j)-'0');
 				j--;
 			}
-			if(i >= 0){		//similar steps are followed for the string a
+			//similar steps are followed for the string a
+			if(i >= 0){
 				sum += (a.charAt(i)-'0');
 				i--;
 			}
-			carry = sum/2;	// we store the quotient of the sum generated into carry
-			sum = sum%2;	// and the remainder is stored in the sum itself
-			ans.append(sum);	// finally we append it into our ans StringBuilder
+			// we store the quotient of the sum generated into carry
+			carry = sum/2;
+			// and the remainder is stored in the sum itself
+			sum = sum%2;
+			// finally we append it into our ans StringBuilder
+			ans.append(sum);
 		}
-		if(carry > 0){	//there might be a case where the carry has a value > 0
-						// so to avoid it we append our carry if it is > 0
+		//there might be a case where the carry has a value > 0
+		// so to avoid it we append our carry if it is > 0
+		if(carry > 0){
 			ans.append(carry);
 		}
+		// we neeed to reverse our string builder 
+		//as we strated appending and adding from the end
+		ans = ans.reverse();
 
-		ans = ans.reverse();	// we neeed to reverse our string builder 
-								//as we strated appending and adding from the end
-
-		return ans.toString();	//finally we return the stringBuilder as a string
+		//finally we return the stringBuilder as a string
+		return ans.toString();
 	}
 }
 

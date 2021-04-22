@@ -52,6 +52,7 @@
 - [Shell Sort](sort/Shell_Sort.dart)
 - [Quick Sort](sort/Quick_Sort.dart)
 - [Merge Sort](sort/Merge_Sort.dart)
+- [Heap Sort](sort/Heap_Sort.dart)
 
 ## Cryptography
 

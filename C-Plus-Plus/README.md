@@ -98,7 +98,6 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
-- [Boyer Moore Algorithm for Pattern Searching](cp/Boyer_Moore_Algorithm.cpp)
 - [Topological Sort on DAG](cp/Topological_sort.cpp)
 - [Check T-Prime](cp/check_T_prime.cpp)
 - [Aggressive cows](cp/aggressive_cows.cpp)
@@ -239,14 +238,17 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Auto Complete - Using Trie](ds/Auto_complete.cpp)
 - [Append Last N To First](ds/Append_Last_N_To_First.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
+- [Remove all Duplicated from Sorted Linked List](ds/Remove_all_Duplicates_from_Linnkedlist.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 - [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
+
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
@@ -440,6 +442,7 @@ _add list here_
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Lucky Number](math/LuckyNumber.cpp)
+- [Next Prime Number](math/next_prime_number.cpp)
 
 ## Dynamic Programming
 
@@ -573,7 +576,7 @@ _add list here_
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
-- [Rotate by one](other/Rotate_by_one.cpp)
+- [Inplace rotation of matrix by 90 degree](other/Rotate_by_90.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
 - [Sliding Window Technique](other/Calculate_max_sum_of_k_consecutive_elements.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
@@ -619,3 +622,4 @@ _add list here_
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
 - [Zig Zag Array(unsorted)](other/zig-zag_array_unsorted.cpp)
+- [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)

@@ -33,6 +33,7 @@
 - [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.jl)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.jl)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.jl)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.jl)
 - [Subset Sum Problem](dp/subset_sum.jl)
 
 ## Mathematics
@@ -80,3 +81,5 @@
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.jl)
 - [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.jl)
 - [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.jl)
+- [Toggle Kth Bit](Bit--Manipulation/toggle_kth_bit.jl)
+

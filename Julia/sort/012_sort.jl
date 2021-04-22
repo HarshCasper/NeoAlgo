@@ -23,8 +23,11 @@ function sort(arr, n)
             high -= 1
         end
     end
-    return array
-end       
+    for i in arr
+        print("$i ")
+    end
+    println(" ")
+end
 
 ## Input 
 
@@ -32,7 +35,7 @@ print("Enter the number of elements in the array ")
 n = readline()
 n = parse(Int64, n)
 arr = Int64[]
-print("\n Enter the elements of the array \n")
+print("\n Enter the elements of the array (Enter just 0s,1s,2s) \n")
 for i = 1:n
     temp = readline()
     temp = parse(Int64, temp)
@@ -43,17 +46,17 @@ println("The sorted array is ")
 
 ## Calling the function
 
-sort(arr,n)
+sort(arr, n)
 
 #=
-Time Complexity: O(n)
-Space Complexity: O(1)
-
 SAMPLE INPUT AND OUTPUT
-
 Enter the number of elements in the array 5
 Enter the elements of the array 
 0 1 2 2 0
 The sorted array is 
 0 0 1 2 2
+
+
+Time Complexity: O(n)
+Space Complexity: O(1)
 =#

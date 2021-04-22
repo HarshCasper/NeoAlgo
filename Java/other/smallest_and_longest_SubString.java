@@ -12,24 +12,29 @@
         {
             String largest = "";
             String smallest = "";
-            int l = string.length();
+            int string_length = string.length();
             String store[] = new String[20];
-            char a = 'z';
-            int p = 0;
+            char last_char = 'z';
+            int start = 0;
+            /*
+             the idea here is to store the occurrence count against the ASCII
+             value of that character. For example, the occurrence of ‘A’ would
+             be stored in counter[65] because ASCII value of A is 65.
+            */
             for (int i = 57; i >= 0; i--)
             {
-                for (int j = 0; j <= l - k; j++)
+                for (int j = 0; j <= string_length - length; j++)
                 {
-                    char c = s.charAt(j);
-                    if (c == a)
+                    char current_char = string.charAt(j);
+                    if (current_char == last_char)
                     {
-                        store[p] = s.substring(j, j + k);
-                        smallest = store[p];
+                        store[start] = string.substring(j, j + length);
+                        smallest = store[start];
                         largest = store[0];
-                        p++;
+                        start++;
                     }
                 }
-                a--;
+                last_char--;
             }
             return "Smallest substring  "+smallest + "\n" +"largest String  "+ largest;
         }

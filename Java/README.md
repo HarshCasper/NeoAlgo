@@ -32,7 +32,6 @@ _add list here_
 
 ## Competitive programming
 
-- [Smallest and longest Substring with given length](cp/smallest_and_longest_SubString.java)
 - [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
@@ -309,6 +308,7 @@ _add list here_
 
 ## Other
 
+- [Smallest and longest Substring with given length](other/smallest_and_longest_SubString.java)
 - [3 sum closest to target](other/3sum_closest_to_target.java)
 - [All possible codes](other/LetterCodeRecursion.java)
 - [Find the numbers](other/FindNumbers.java)

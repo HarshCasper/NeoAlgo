@@ -68,19 +68,19 @@ int main()
     return 0;
 }
 
-/*
-Time complexity-O(Nlog(log(N)))
-Space complexity-O(N)
-*/
 
 /* 
-  Sample Input:-
-  num=27
-  Sample Output:-
-  27 has exactly four factors
+  Sample Input/Output:
   
-  Sample Input:-
-  num=109
-  Sample Output:-
-  109 does not have exactly four factors
+  Input: num=27
+  Output: 27 has exactly four factors
+  
+  Time complexity-O(Nlog(log(N)))
+  Space complexity-O(N)
+  
+  Input: num=109
+  Output:109 does not have exactly four factors
+
+  Time complexity-O(Nlog(log(N)))
+  Space complexity-O(N)
 */

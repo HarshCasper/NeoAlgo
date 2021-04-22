@@ -4,10 +4,7 @@ A number has exactly 4 factors if below given any condition is satisfied
  2.If the number is a product of two distinct prime numbers.
 */
 
-#include<iostream>
-#include<vector>
-#include<math.h>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 // maxi gives the range of numbers
@@ -72,12 +69,11 @@ int main()
 /* 
   Sample Input/Output:
   
+  Enter the number you want to check: 
   Input: num=27
   Output: 27 has exactly four factors
   
-  Time complexity-O(Nlog(log(N)))
-  Space complexity-O(N)
-  
+  Enter the number you want to check: 
   Input: num=109
   Output:109 does not have exactly four factors
 

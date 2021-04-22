@@ -241,7 +241,7 @@
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
-
+- [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)

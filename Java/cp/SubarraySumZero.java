@@ -2,27 +2,6 @@
 Given an array of positive and negative elements.
 We have to check if there exists a subarray whose
 sum is equal to 0 or not.
-This problem will take O(n^3) time complexity.
-But we can perform it in linear line time i.e in
-O(n) time complexity by the use of HashMaps.
-
-We take an array whose ith index will store the sum
-from 0th index upto ith index.
-Ex : ar[]={1,2,4,-6,7,-3}
-arrSum[]={1,3,7,1,8,5}
-
-We know that there is a subarray {2,4,-6} exists with sum=0
-from index 1 to index 3. 
-Therefore, sum of indices 1,2,3 = 0
-sumArr[3]-sumArr[0]=0
-i.e. summArr[3]=sumArr[0]
-
-This concludes that if there exists any subarray with
-sum=0, then there always exists this condition.
-To store all the sums calculated so that we can check them
-later, we use a HashMap, since the search time in HashMap 
-is of O(1). And calculating sum of the complete array
-will take O(n) time.
  */
 
 import java.util.HashMap;

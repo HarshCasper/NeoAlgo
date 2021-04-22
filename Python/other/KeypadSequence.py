@@ -30,9 +30,11 @@ keypad = [
     ['t', 'u', 'v'],
     ['w', 'x', 'y', 'z']
 ]
+# input number in the form of a list (number cannot start from 0 or 1)
+input_num = [2, 3]
 
 
-def findCombinations(input_num, index, result=""):
+def findCombinations(index, result=""):
     # if we have processed every digit of the key, print the result
     if index == -1:
         print(result, end=' ')
@@ -47,13 +49,11 @@ def findCombinations(input_num, index, result=""):
     # one by one, replace the digit with each character in the corresponding
     # list and recur for the next digit
     for i in range(length):
-        findCombinations(keypad, input_num, index -
+        findCombinations(index -
                          1, keypad[digit][i] + result)
 
 
-# input number in the form of a list (number cannot start from 0 or 1)
-input_num = [2, 3]
-findCombinations(input_num, len(input_num) - 1)
+findCombinations(len(input_num) - 1)
 
 
 # - Output

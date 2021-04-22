@@ -41,6 +41,7 @@ _add list here_
 - [Linear Search](search/LinearSearch.cs)
 - [Fibonacci Search](search/Fibonacci_Search.cs)
 - [Jump Search](search/JumpSearch.cs)
+- [Recursive Binary Search](search/RecursiveBinarySearch.cs)
 
 ## Sorting
 

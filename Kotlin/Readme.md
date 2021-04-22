@@ -13,6 +13,10 @@
 
 - [Bit Operations](BitManipulation/BasicBitOperations.kt)
 
+## Competitive Programming
+
+- [ReverseString](cp/ReverseString.kt)
+
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
@@ -31,6 +35,7 @@
 - [Palindrome Number](Maths/PalindromeNumber.kt)
 - [Fibonacci Number](Maths/FibonacciNumber.kt)
 - [Happy Number](Maths/HappyNumber.kt)
+- [Tower of Hanoi](Maths/TowerofHanoi.kt)
 
 ## Searching Algorithms
 

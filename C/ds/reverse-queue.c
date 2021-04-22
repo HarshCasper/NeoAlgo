@@ -6,11 +6,13 @@ Here stack and queue are implemented using linked list.
 
 #include <stdio.h>
 #include <stdlib.h>
+//Struct for the stack
 typedef struct Stack
 {
     int data;
     struct Stack *next;
 } Stack;
+//Struct for the queue
 typedef struct Queue
 {
     int data;
@@ -19,6 +21,7 @@ typedef struct Queue
 Stack *top = NULL;
 Queue *front = NULL;
 Queue *rear = NULL;
+//push function pushes an element onto the top of the stack
 void push(int n)
 {
     Stack *New = (Stack *)malloc(sizeof(Stack));
@@ -35,6 +38,7 @@ void push(int n)
         top->data = n;
     }
 }
+// pop function pops out an element from the top of the stack
 int pop()
 {
     if (top != NULL)
@@ -44,6 +48,7 @@ int pop()
         return ptr->data;
     }
 }
+//isStackEmpty function checks whether the stack is empty
 int isStackEmpty()
 {
     if (top == NULL)
@@ -52,6 +57,7 @@ int isStackEmpty()
     }
     return 0;
 }
+//isQueueEmpty function checks whether the queue is empty
 int isQueueEmpty()
 {
     if (front == NULL)
@@ -60,6 +66,7 @@ int isQueueEmpty()
     }
     return 0;
 }
+// The enqueue function inserts an element into the queue
 void enqueue(int n)
 {
     Queue *New = (Queue *)malloc(sizeof(Queue));
@@ -78,6 +85,7 @@ void enqueue(int n)
         rear->next = NULL;
     }
 }
+//dequeue function deletes an element from the queue
 int dequeue()
 {
     if (front != NULL)
@@ -87,6 +95,7 @@ int dequeue()
         return ptr->data;
     }
 }
+// printQueue function prints out the elements in the queue
 void printQueue()
 {
     Queue *ptr = front;
@@ -96,6 +105,7 @@ void printQueue()
         ptr = ptr->next;
     }
 }
+// reverseQueue function reverses the elements in the queue
 void reverseQueue()
 {
     while (!isQueueEmpty())
@@ -107,6 +117,8 @@ void reverseQueue()
         enqueue(pop());
     }
 }
+
+//Driver code
 int main()
 {
     int n;

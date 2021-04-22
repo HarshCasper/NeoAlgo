@@ -350,6 +350,7 @@ _add list here_
 - [Set Bits in an Integer using Bitmasking](other/SetBitsBitmasking.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
+- [Maximum Consecutive Ones](other/max_consecutive_ones.java)
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
 - [Infix to Prefix Expression](other/InfixtoPrefix.java)
 - [Infix to Postfix Expression](other/InfixToPostfix.java)
@@ -360,3 +361,4 @@ _add list here_
 - [Blocked Maze](other/BlockedMaze.java)
 - [Knights Tour](other/KnightsTour.java)
 - [Word Ladder](other/WordLadder.java)
+

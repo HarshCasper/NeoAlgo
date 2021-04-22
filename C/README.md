@@ -119,6 +119,7 @@
 - [Worst Fit Memory allocation](ds/worst_fit_memory.c)
 - [Best Fit Memory allocation](ds/best_fit_memory.c)
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
+- [Reverse Queue using stack](ds/reverse-queue.c)
 - [Prefix to Postfix](ds/prefix-to-postfix.c)
 ## Searching
 
@@ -227,6 +228,7 @@ _add list here_
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 - [Pascal's triangle](math/Pascals_triangle.c)
+- [Decimal to Hexadecimal conversion](math/Decimal_to_Hex.c)
 - [Polynomial Addition](math/polynomial_addition.c)
 - [Special Number](math/special.c)
 

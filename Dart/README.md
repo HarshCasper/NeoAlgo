@@ -22,6 +22,8 @@
 - [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Decimal to Hexadecimal Conversion](maths/decimal_to_hexadecimal.dart)
 - [Double factorial](maths/double_factorial.dart)
+- [Euler's Totient Function](maths/Euler's_Totient_function.dart)
+- [Euclidean Algorithm to find GCD](maths/Euclidean_Algorithm_to_find_GCD.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
 - [Sum of Digits](maths/SumOfDigits.dart)

@@ -238,14 +238,17 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Auto Complete - Using Trie](ds/Auto_complete.cpp)
 - [Append Last N To First](ds/Append_Last_N_To_First.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
+- [Remove all Duplicated from Sorted Linked List](ds/Remove_all_Duplicates_from_Linnkedlist.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 - [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
+
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
@@ -573,7 +576,7 @@ _add list here_
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
-- [Rotate by one](other/Rotate_by_one.cpp)
+- [Inplace rotation of matrix by 90 degree](other/Rotate_by_90.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
 - [Sliding Window Technique](other/Calculate_max_sum_of_k_consecutive_elements.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)

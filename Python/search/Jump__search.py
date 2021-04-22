@@ -12,18 +12,16 @@ def jump_search(arr, key):
     :return: The index of the key if it there, if it
     return -1 then the key is not in the array
     """
-    n = len(arr)         # Length of the array
-    jump = math.sqrt(n)  # Step length
+    n = len(arr)
+    # Step length
+    jump = math.sqrt(n)
     key_index = 0
-
     # Find the block where the key belong
     while arr[int(min(jump,n))-1] < key:
         key_index = jump
         jump = jump + math.sqrt(n)
         if key_index >= n:
             return -1
-
-
     # Searching linearly in the block that begin with key_index
     while arr[int(key_index)] < key:
         key_index = key_index + 1
@@ -31,21 +29,16 @@ def jump_search(arr, key):
         # or the end of array
         if key_index >= n:
             return -1
-
     # Finding the element
     if arr[int(key_index)] == key:
         return int(key_index)
-
     return -1
-
-
 # Take array from user
 arr = list(map(int,input("\nEnter the array : ").split()))
 # Take the key element from the user
 key = int(input("\nEnter a number to search : "))
 # Start searching on the Key
 index = jump_search(arr,key)
-
 # Print the index of the Key if it there
 if index == -1 :
     print("\nThis number is not in the array")
@@ -56,25 +49,10 @@ else:
 Sample of input/output:
 Example 1:
 """"""""
-IN:
-Enter the array : 1 2 3 4 5 6
+Input: Enter the array : 1 2 3 4 5 6
 Enter a number to search : 5
-OUT:
-The number 5 is in the index 4 of the array
+Output: The number 5 is in the index 4 of the array
 """"""
-Example 2:
-IN:
-Enter the array : 120 130 140 150 160
-Enter a number to search : 155
-OUT:
-This number is not in the array
-"""""""
-IN:
-Enter the array : 1 2 5 7 8 11 15 30
-Enter a number to search : 15
-OUT:
-The number 15 is in the index 6 of the array
-
 Space Complexity O(1)
 Time Complexity  O(√n)
 """

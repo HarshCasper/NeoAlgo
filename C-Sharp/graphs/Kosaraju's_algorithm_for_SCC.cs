@@ -285,6 +285,7 @@ namespace SCC_
 
 - Sample Input
 
+-Input
 - Enter graph manually or load text file(0: for manual, Any other key: load tex file): 0
 - Enter Number of nodes: 8
 - Enter Number of Edges: 11
@@ -299,6 +300,8 @@ namespace SCC_
 - Enter edge number 9: 7 8
 - Enter edge number 10: 4 3
 - Enter edge number 11: 4 6
+
+- Output
 - Length of at most Longest 5 Strongly Connected Components:
 - [7, 1]
 - Longest Strongly Connected Components:

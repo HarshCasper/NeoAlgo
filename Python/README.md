@@ -24,7 +24,7 @@
 * [Right view of a binary tree](ds/Right_view_of_binary_tree.py)
 * [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
 * [Stack using list](ds/stack_using_list.py)
-* [Max distance between same elements ](ds/MaxDistanceBetweenSameElements.py
+* [Max distance between same elements](ds/MaxDistanceBetweenSameElements.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)

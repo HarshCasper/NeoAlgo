@@ -228,6 +228,7 @@ _add list here_
 - [Pascal's triangle](math/Pascals_triangle.c)
 - [Polynomial Addition](math/polynomial_addition.c)
 - [Special Number](math/special.c)
+- [Pronic Number](math/Pronic_numbers.c)
 
 ## Operating System
 

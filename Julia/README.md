@@ -81,3 +81,5 @@
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.jl)
 - [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.jl)
 - [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.jl)
+- [Toggle Kth Bit](Bit--Manipulation/toggle_kth_bit.jl)
+

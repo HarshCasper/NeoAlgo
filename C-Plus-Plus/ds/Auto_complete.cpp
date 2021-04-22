@@ -2,18 +2,14 @@
 That means, find and print all the possible words which can be formed using the incomplete word w.
 Note : Order of words does not matter. */
 
-
 #include <iostream>
-
 #include <string>
-
 #include <vector>
-
 using namespace std;
 
 class TrieNode {
   public:
-    char data;
+  char data;
   TrieNode ** children;
   bool isTerminal;
 
@@ -153,8 +149,6 @@ int main() {
   t.autoComplete(vect, pattern); 
 }
 
-
-
 /*
 
 TIme Complexity - O(N*M)
@@ -175,6 +169,4 @@ no
 not
 note
 notes
-
-
 */

@@ -17,8 +17,22 @@
     function for the next digit and will pass on the current output string.
 '''
 
+keypad = [
+    # 0 and 1 digit don't have any characters associated
+    [],
+    [],
+    ['a', 'b', 'c'],
+    ['d', 'e', 'f'],
+    ['g', 'h', 'i'],
+    ['j', 'k', 'l'],
+    ['m', 'n', 'o'],
+    ['p', 'q', 'r', 's'],
+    ['t', 'u', 'v'],
+    ['w', 'x', 'y', 'z']
+]
 
-def findCombinations(keypad, input_num, index, result=""):
+
+def findCombinations(input_num, index, result=""):
     # if we have processed every digit of the key, print the result
     if index == -1:
         print(result, end=' ')
@@ -37,24 +51,9 @@ def findCombinations(keypad, input_num, index, result=""):
                          1, keypad[digit][i] + result)
 
 
-if __name__ == '__main__':
-    keypad = [
-        # 0 and 1 digit don't have any characters associated
-        [],
-        [],
-        ['a', 'b', 'c'],
-        ['d', 'e', 'f'],
-        ['g', 'h', 'i'],
-        ['j', 'k', 'l'],
-        ['m', 'n', 'o'],
-        ['p', 'q', 'r', 's'],
-        ['t', 'u', 'v'],
-        ['w', 'x', 'y', 'z']
-    ]
-
-    # input number in the form of a list (number cannot start from 0 or 1)
-    input_num = [2, 3]
-    findCombinations(keypad, input_num, len(input_num) - 1)
+# input number in the form of a list (number cannot start from 0 or 1)
+input_num = [2, 3]
+findCombinations(input_num, len(input_num) - 1)
 
 
 # - Output

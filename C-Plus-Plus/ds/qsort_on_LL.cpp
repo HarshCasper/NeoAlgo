@@ -13,7 +13,7 @@ greater than pivot, we will move it after tail
 else, keep it in same position.
 
 QuickSort Algorithm:
-We will call partition which will retuen pivot 
+We will call partition which will return pivot 
 element, then we will recursively traverse the
 left and right side linked list.
 

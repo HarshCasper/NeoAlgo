@@ -6,44 +6,39 @@ linked list/ stacks.
 
 #include<stdio.h>
 #include<stdlib.h>
-
-//We are creating a structure for Queue.
+/*We are creating a structure for Queue.*/
 struct node
 {
     int front,rear;
     int capacity;
     int *ptr;
 };
-
-//Creating an empty node of the queue
+/*Creating an empty node of the queue*/
 struct node* createqueue(int cap)
 {
     struct node *queue;
-    queue = (struct node*)malloc(sizeof(struct node));
-    queue->front = 0;
-    queue->rear = 0;
-    queue->capacity = cap;
-    queue->ptr = malloc(sizeof(int)*queue->capacity);
+    queue=(struct node*)malloc(sizeof(struct node));
+    queue->front=0;
+    queue->rear=0;
+    queue->capacity=cap;
+    queue->ptr=malloc(sizeof(int)*queue->capacity);
     return(queue);
 }
-
-//Checking if the Queue is empty or not
+/*Checking if the Queue is empty or not*/
 int isEmpty(struct node *queue)
 {
-    if(queue->rear == queue->front)
+    if(queue->rear==queue->front)
         return 1;
     return 0;
 }
-
-//Checking if the Queue is full or not
+/*Checking if the Queue is full or not*/
 int isFull(struct node *queue)
 {
-    if((queue->rear+1) % queue->capacity == queue->front)
+    if((queue->rear+1)%queue->capacity==queue->front)
         return 1;
     return 0;
 }
-
-//Inserting data into the queue
+/*Inserting data into the queue*/
 void enQueue(struct node *queue)
 {
     if(isFull(queue))
@@ -52,13 +47,12 @@ void enQueue(struct node *queue)
     {
         int data;
         printf("\nEnter data t be inserted : ");
-        scanf("%d" , &data);
-        queue->rear = (queue->rear+1) % queue->capacity;
-        queue->ptr[queue->rear] = data;
+        scanf("%d",&data);
+        queue->rear=(queue->rear+1)%queue->capacity;
+        queue->ptr[queue->rear]=data;
     }
 }
-
-//Deleting data from the queue
+/*Deleting data from the queue*/
 void deQueue(struct node *queue)
 {
     if(isEmpty(queue))
@@ -66,13 +60,12 @@ void deQueue(struct node *queue)
     else
     {
         int data;
-        queue->front = (queue->front+1) % queue->capacity;
-        data = queue->ptr[queue->front];
-        printf("\n%d is deleted from queue.\n" , data);
+        queue->front=(queue->front+1)%queue->capacity;
+        data=queue->ptr[queue->front];
+        printf("\n%d is deleted from queue.\n",data);
     }
 }
-
-//Traversing queue and printing data
+/*Traversing queue and printing data*/
 void display(struct node *queue)
 {
     int i;
@@ -81,14 +74,12 @@ void display(struct node *queue)
     else
     {
         printf("\nElements in Circular Queue are: \n");
-        for(i = queue->front+1 ; i != queue->rear ; i = (i+1) % queue->capacity)
-            printf("Data = %d\n" , queue->ptr[i]);
-        printf("Data = %d\n" , queue->ptr[queue->rear]);
+        for(i=queue->front+1 ; i != queue->rear ; i = (i+1) % queue->capacity)
+            printf("Data = %d\n",queue->ptr[i]);
+        printf("Data = %d\n",queue->ptr[queue->rear]);
     }
-
 }
-
-//Driver Program
+/*Driver Program*/
 int main()
 {
     int cap,choice;
@@ -141,17 +132,7 @@ int main()
 
 /*
 
-    Time Complexities:
-    Enqueue --> O(1)
-    DeQueue --> O(1)
-    IsEmpty --> O(1)
-    IsFull  --> O(1)
-    Traversal --> O(n)
-
-    Space Complexity: O(n) [for array]
-    ----------------------------------
-
-    Sample Input-Output:
+    Sample Input/Output:
 
     Enter capacity of the array : 5
             1 To enter data i.e. en-Queue
@@ -293,4 +274,15 @@ int main()
             6 To exit.
 
     Enter Choice : 6
+    
+    
+    Time Complexities:
+    Enqueue --> O(1)
+    DeQueue --> O(1)
+    IsEmpty --> O(1)
+    IsFull  --> O(1)
+    Traversal --> O(n)
+
+    Space Complexity: O(n) [for array]
+    
 */

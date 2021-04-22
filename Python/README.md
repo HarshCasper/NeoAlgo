@@ -346,6 +346,7 @@
 - [Perfect Number](math/Perfect_Number.py)
 - [Harshad Number](math/HarshadNumber.py)
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
+- [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 
 ## Bit Manipulation
 

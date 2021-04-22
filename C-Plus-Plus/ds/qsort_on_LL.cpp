@@ -1,3 +1,24 @@
+/*
+
+Quick Sort algorithm allows us to sort a given 
+array. Here, we will apply quick sort algorithm 
+to sort an singly linked list.
+The main step in this algorithm is to partition 
+according to the order(sorting).
+
+Partition Algorithm:
+We will take the right most element as the pivot,
+traverse through the list if the node has value
+greater than pivot, we will move it after tail
+else, keep it in same position.
+
+QuickSort Algorithm:
+We will call partition which will retuen pivot 
+element, then we will recursively traverse the
+left and right side linked list.
+
+*/
+
 #include <iostream>
 #include <cstdio>
 using namespace std;
@@ -8,6 +29,8 @@ struct LLNode
     LLNode *next;
 };
 
+//function to add a node at the beginning 
+//of a linked list
 void addNode(LLNode **head, int value)
 {
     LLNode *curr = new LLNode;
@@ -23,6 +46,7 @@ void addNode(LLNode **head, int value)
     }
 }
 
+//function for printing linked list
 void display(LLNode **head)
 {
     LLNode *temp = *head;
@@ -45,6 +69,8 @@ LLNode *getTail(LLNode *cur)
     return cur;
 }
 
+//Function for partition algorithm return us the
+//pivot element at each step
 LLNode *partition(LLNode *head, LLNode *end, LLNode **newHead, LLNode **newEnd)
 {
     LLNode *pivot = end;
@@ -79,6 +105,7 @@ LLNode *partition(LLNode *head, LLNode *end, LLNode **newHead, LLNode **newEnd)
     return pivot;
 }
 
+//Function for Quick sort algorithm
 LLNode *qSort(LLNode *head, LLNode *end)
 {
     if (!head || head == end)
@@ -106,6 +133,9 @@ LLNode *qSort(LLNode *head, LLNode *end)
     return newHead;
 }
 
+//Function for recursively calling quick sort 
+//algorithm for left and right side linked
+//list of pivot element
 void quickSort(LLNode **headRef)
 {
     (*headRef) = qSort(*headRef, getTail(*headRef));

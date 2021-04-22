@@ -121,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Doubling the value](cp/Doubling_the_value.cpp)
 - [Count Leaves in Binary Tree](cp/count_leaves_in_binaryTree.cpp)
 - [Play With OR](cp/Play_with_OR.cpp)
 - [Delete without head pointer](cp/Delete_without_head_pointer.cpp)

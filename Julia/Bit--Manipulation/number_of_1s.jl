@@ -1,6 +1,8 @@
 #=Counting the number of 1s in the binary representation of a number of 1s using Bit Manipulation.
 Calulating using bit operator & gives us a faster result than converting the decimal number to binary and then 
-counting. =#
+counting.
+REPLIT Link : https://replit.com/@09HarshHarsh/Number-Of-1s-in-binary-representation#main.jl 
+=#
 
 ## Function
 
@@ -25,11 +27,12 @@ print("\nThe number of 1s in the binary representation are ")
 counter(n)
 
 #=
-Time Complexity: O(n)
-Space Complexity: O(1)
-
 SAMPLE INPUT AND OUTPUT
 
 Enter the number 5
 The number of 1s in the binary representation are 2
+
+
+Time Complexity: O(n)
+Space Complexity: O(1)
 =#

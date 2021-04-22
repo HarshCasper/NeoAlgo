@@ -30,6 +30,7 @@
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Generic Function for Swapping](cp/Generic_Swaps.cpp)
 - [Adjacent Difference Algorithm](cp/adjacent.cpp)
+- [Recursive Modular Exponentiation](cp/power.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
 - [Count Max Consecutive One's](cp/max_consecutive_ones.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
@@ -121,6 +122,8 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Find transition point](cp/Find_transition_point.cpp)
+- [Doubling the value](cp/Doubling_the_value.cpp)
 - [Count Leaves in Binary Tree](cp/count_leaves_in_binaryTree.cpp)
 - [Play With OR](cp/Play_with_OR.cpp)
 - [Delete without head pointer](cp/Delete_without_head_pointer.cpp)
@@ -149,6 +152,8 @@
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
 - [Baised Standings](cp/baised_standings.cpp)
+- [Find total paths for robot](cp/robot_paths.cpp)
+- [Wine Selling](cp/wines_problem.cpp)
 
 ## Data Structures
 
@@ -241,7 +246,7 @@
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
-
+- [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
@@ -430,6 +435,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_number.cpp)
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
+- [Lucas Number](math/LucasSeries.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)

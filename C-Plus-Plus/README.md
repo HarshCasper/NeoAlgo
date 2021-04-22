@@ -430,6 +430,7 @@ _add list here_
 - [Automorphic Number](math/automorphic_number.cpp)
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
+- [Lucas Number](math/LucasSeries.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)

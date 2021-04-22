@@ -48,7 +48,10 @@
 - [Insertion Sort](sort/InsertionSort.dart)
 - [Selection Sort](sort/Selection_sort.dart)
 - [Shell Sort](sort/Shell_Sort.dart)
+- [Quick Sort](sort/Quick_Sort.dart)
+- [Merge Sort](sort/Merge_Sort.dart)
 
 ## Cryptography
 
 - [Caesar Cipher](cryptography/CaesarCipher.dart)
+- [Vernam Cipher](cryptography/VernamCipher.dart)

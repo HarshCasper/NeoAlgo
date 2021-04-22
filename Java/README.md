@@ -32,6 +32,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Intersection of Two Arrays](cp/Intersection_of_Two_Arrays.java)
 - [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
@@ -103,6 +104,7 @@ _add list here_
 - [Rat In A Maze](cp/RatInAMaze.java)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
+- [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
 
 ## Cryptography
 
@@ -188,6 +190,7 @@ _add list here_
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
 - [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
+- [Left view of binary tree](graphs/left_view_binary_tree.java)
 - [Bipartite Check](graphs/BipartiteCheck.java)
 - [Articulation_Point](graphs/Articulation_Point.java)
 - [Laplacian matrix for Undirected graph](graphs/LaplacianMatrix.java)
@@ -195,6 +198,7 @@ _add list here_
 ## Mathematics
 
 - [Count Number Of Digits](math/countDigits)
+- [Smallest Prime Factor](math/smallest_prime_factor.java)
 - [Euler's Totient Function](math/Euler's_Totient_function.java)
 - [Iterative](math/countDigits/iterative.java)
 - [Recursive](math/countDigits/recursive.java)
@@ -322,6 +326,7 @@ _add list here_
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Insert Position](other/InsertPosition.java)
+- [Keys and rooms for entry](other/Key_n_room.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
@@ -354,4 +359,4 @@ _add list here_
 - [Generate Parentheses](other/GenerateParentheses.java)
 - [Blocked Maze](other/BlockedMaze.java)
 - [Knights Tour](other/KnightsTour.java)
-
+- [Word Ladder](other/WordLadder.java)

@@ -61,7 +61,7 @@ int main(void)
 	//Call to the function decToHex().
 	len = decToHex(dec , hex);
 
-	printf("The equivalent decimal number is : ") ;
+	printf("The equivalent Hexadecimal number is : ") ;
 
 	/*
 	Here array is printed reversely as according to method to convert decimal number to hex number, the 1st obtained & stored
@@ -74,12 +74,14 @@ int main(void)
 	return 0 ;
 }
 /*
-Sample Example :
-I/O : 45
-O/P : 2D
-Explanation: 45 when converted into hexadecimal is equal to 2D. So it outputs 2D.
+Sample Input/Output :
+
+Input :
+Enter the number in Decimal form : 45
+
+Output :
+The equivalent Hexadecimal number is : 2D
 
 Time Complexity : O(n)
 Space complexity : O(1)
 */
-

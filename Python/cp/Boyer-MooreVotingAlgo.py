@@ -47,8 +47,8 @@ if __name__ == "__main__":
     majorityElement(A, n)
 
 '''
-Time Complexity: O(n)
-Space Complexity: O(n)
+Time Complexity: O(n*n)
+Space Complexity: O(1)
 
 Output: 6 ('6' occurs 3 times in list A so it is the majority element)
 '''

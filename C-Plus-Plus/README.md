@@ -440,6 +440,7 @@ _add list here_
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Lucky Number](math/LuckyNumber.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
+- [Pronic Number](math/Pronic_numbers.cpp)
 
 ## Dynamic Programming
 

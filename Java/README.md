@@ -239,6 +239,7 @@ _add list here_
 - [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
 - [Lucky Number](math/LuckyNumber.java)
 - [Special Number](math/Special.java)
+- [Kamenetsky's Formula](math/Kamenetsky_Formula.java)
 
 
 ## Dynamic Programming

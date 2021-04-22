@@ -196,6 +196,7 @@ _add list here_
 ## Mathematics
 
 - [Count Number Of Digits](math/countDigits)
+- [Smallest Prime Factor](math/smallest_prime_factor.java)
 - [Euler's Totient Function](math/Euler's_Totient_function.java)
 - [Iterative](math/countDigits/iterative.java)
 - [Recursive](math/countDigits/recursive.java)

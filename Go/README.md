@@ -84,6 +84,7 @@
 - [Quick Sort](sort/quick_sort)
 - [Radix Sort](sort/radix_sort)
 - [Selection Sort](sort/selection_sort)
+- [Shell Sort](sort/shell_sort)
 
 ## Cryptography
 - [Caesar Cipher](cryptography/Caesar_Cipher)

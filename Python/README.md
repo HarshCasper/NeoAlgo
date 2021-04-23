@@ -37,6 +37,7 @@
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
 * [Binary Search Iterative](search/binarysearch_iterative.py)
+* [Unbounded Binary Search](search/unbounded_binary_search.py) 
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)

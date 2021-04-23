@@ -1,3 +1,6 @@
+/*
+ This code helps in printing a LinkedList by using addLast function after taking input from the user
+*/
 import java.io.*;
 import java.util.*;
 
@@ -13,6 +16,8 @@ public class printLinkedList {
     Node tail;
     int size;
 
+    // Using add last function, the elements will be added to the end of the LinkedList
+
     void addLast(int val) {
       Node temp = new Node();
       temp.data = val;
@@ -27,9 +32,13 @@ public class printLinkedList {
 
       size++;
     }
+
+    // Size function returns the size of the LinkedList provided
+
     public int size() {
       return size;
     }
+  //  print function prints the LinkedList
 
     public void print() {
       for (Node temp = head; temp != null; temp = temp.next) {
@@ -38,6 +47,9 @@ public class printLinkedList {
       System.out.println();
     }
   }
+
+  // Here main function is taking suitable input from the user and is printing the LinkedList
+  
     public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     LinkedList ll = new LinkedList();
@@ -51,3 +63,24 @@ public class printLinkedList {
     ll.print();
     }
 }
+
+
+/*
+
+Sample Input/Output:
+
+Input:
+5
+10
+13
+14
+15
+16
+
+Output:
+10 13 14 15 16
+
+Time Complexity: O(n)
+Space Complexity:O(1)
+
+*/

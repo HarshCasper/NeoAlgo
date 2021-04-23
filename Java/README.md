@@ -167,6 +167,7 @@ _add list here_
 - [Double Ended Queue in Java](ds/DEQueue.java)
 - [Circular Queue](ds/CircularQueue.java)
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
+- [Print Linked List](ds/printLinkedList.java)
 
 ## Graphs
 

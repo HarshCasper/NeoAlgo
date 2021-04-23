@@ -16,6 +16,7 @@
 ## Competitive Programming
 
 - [ReverseString](cp/ReverseString.kt)
+- [CompareString](cp/CompareString.kt)
 
 ## Sorting Algorithms
 

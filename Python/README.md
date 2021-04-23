@@ -24,6 +24,7 @@
 * [Right view of a binary tree](ds/Right_view_of_binary_tree.py)
 * [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
 * [Stack using list](ds/stack_using_list.py)
+* [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -36,6 +37,7 @@
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
 * [Binary Search Iterative](search/binarysearch_iterative.py)
+* [Jump Search](search/Jump__search.py)
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
@@ -391,6 +393,7 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Longest Consecutive Subsequence](other/Longest_Consecutive_Subsequence.py)
 - [Maximum Product Subarray](other/Maximum_Product_Subarray.py)
 - [Rearrange the negative and positive elements](other/Rearrange_the_neagtive_positive_element.py)
 - [Find if there is a subarray with 0 sum](other/Subarray_with_sum0.py)

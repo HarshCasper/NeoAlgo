@@ -120,6 +120,7 @@
 - [Best Fit Memory allocation](ds/best_fit_memory.c)
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
+- [Reverse Queue using stack](ds/reverse-queue.c)
 
 ## Searching
 
@@ -176,6 +177,7 @@
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.c)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
 - [Unique BST](dp/Unique_BST.c)
@@ -227,6 +229,10 @@ _add list here_
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 - [Pascal's triangle](math/Pascals_triangle.c)
+- [Decimal to Hexadecimal conversion](math/Decimal_to_Hex.c)
+- [Polynomial Addition](math/polynomial_addition.c)
+- [Polynomial Multiplication](math/polynomial_multiplication.c)
+- [Special Number](math/special.c)
 
 ## Operating System
 

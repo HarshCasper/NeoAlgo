@@ -462,7 +462,6 @@ _add list here_
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
-- [Tiling-2 (NxM floor)](dp/Tiling_NxM.cpp)
 
 ## Bit - Manipulation
 

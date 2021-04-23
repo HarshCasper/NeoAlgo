@@ -12,9 +12,10 @@ struct node {
 };
 node* head = NULL;
 
+// Function to insert elements in the linked list
 void insert(int data) {
     node* newNode = new node;
-    newNode->info = data;
+    newNode -> info = data;
     newNode->next = NULL;
     if(head == NULL) {
         head = newNode;
@@ -25,9 +26,12 @@ void insert(int data) {
         temp = temp->next;
     temp->next = newNode;
 }
+
+// Function to sort the linked list
 void sortlist() {
     int zeros = 0, ones = 0, twos = 0;
     node* temp = head;
+    // Calculating the number of zeros, ones and twos
     while(temp != NULL) {
         if(temp->info == 0)
             zeros++;
@@ -55,6 +59,7 @@ void sortlist() {
     }
 }
 
+// Function to print the linked list 
 void print() {
     node* temp = head;
     while(temp != NULL) {
@@ -65,19 +70,21 @@ void print() {
 
 int main() {
     int n;
-    cout<<"How many elements do you want to sort? ";
-    cin>>n;
+    cout << "How many elements do you want to sort? ";
+    cin >> n;
     int item;
-    cout<<"Enter "<<n<<" spaced integers: "<<endl;
+    cout << "Enter "<<n<<" spaced integers: " << endl;
     for(int i = 0; i < n; i++) {
-        cin>>item;
+        cin >> item;
         insert(item);
     }
-    cout<<"Sorted list is: ";
+    cout << "Sorted list is: ";
     sortlist();
     print();
 }
+
 /*
+  Sample Input/Output:
   Input:
   The first line contains a single integer n - number of integers in the list
   The next line contains n spaced integers
@@ -96,3 +103,4 @@ int main() {
   Time Complexity: O(n);
   Space Complexity: O(1);
 */
+

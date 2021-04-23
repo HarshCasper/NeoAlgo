@@ -43,6 +43,7 @@ _add list here_
 - [Fibonacci Search](search/Fibonacci_Search.cs)
 - [Jump Search](search/JumpSearch.cs)
 - [Recursive Binary Search](search/RecursiveBinarySearch.cs)
+- [Interpolation Search](search/Interpolation_Search.cs) 
 
 ## Sorting
 

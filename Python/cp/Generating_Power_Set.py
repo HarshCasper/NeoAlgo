@@ -54,15 +54,18 @@ if __name__ == "__main__":
     print("Power Set:", subsets(list_of_values))
 
 # Sample Input-Output:
+
 # Sample Input 1:
 # Enter values seperated by space: 1 2 3
 # Sample Output 1:
 # Power Set: [[], [3], [2], [2, 3], [1], [1, 3], [1, 2], [1, 2, 3]]
+
 # Sample Input 2:
 # Enter values seperated by space: 1 2 -1 0
 # Sample Output 2:
 # Power Set: [[], [0], [-1], [-1, 0], [2], [2, 0], [2, -1], [2, -1, 0],
 # [1], [1, 0], [1, -1], [1, -1, 0], [1, 2], [1, 2, 0],
 # [1, 2, -1], [1, 2, -1, 0]]
+
 # Time Complexity: O(N * 2*N)
 # Space Complexity: O(2*N)

@@ -1,6 +1,10 @@
 /*
-Problem Description: For a given unsorted array, your task is to return the length of longest sub-sequence such that elements in the subsequence are consecutive integers.
-For example: For an array [3, 6, 10, 2, 4] the longest sequence of consecutive elements is 2, 3, 4 so the length will be 3.
+Problem Description: For a given unsorted array, your task is to return 
+the length of longest sub-sequence such that elements in the subsequence 
+are consecutive integers.
+
+For example: For an array [3, 6, 10, 2, 4] the longest sequence of 
+consecutive elements is 2, 3, 4 so the length will be 3.
 */
 
 import java.io.*;
@@ -62,7 +66,7 @@ class Longest_Consecutive_Sequence {
 Time Complexity: O(n)
 Space Complextiy: O(1)
 
-Sample Case 1
+Sample Case: 
 Input-
 Enter number of elements:
 4
@@ -72,16 +76,4 @@ Enter elements:
 Output-
 Length of longest consecutive sequence: 
 3
-
-
-Sample Case 2
-Input-
-Enter number of elements:
-11
-Enter elements:
-9 1 4 7 3 -1 0 5 8 -1 6
-
-Output-
-Length of longest consecutive sequence: 
-7
 */

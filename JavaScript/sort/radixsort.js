@@ -18,3 +18,12 @@ function radixSort(arr) {
     return arr;
  }
  console.log(radixSort([5,3,88,235,65,23,4632,234]))
+
+ // Output 
+ // [ 3, 5, 23, 65, 88, 234, 235, 4632 ]
+
+ // Time Complexity
+ // O(n*k/d)
+
+ // Space Complexity
+ // O(n+2^d)

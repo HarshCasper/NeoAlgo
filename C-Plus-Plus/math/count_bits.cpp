@@ -7,16 +7,17 @@ Count number of bits in binary representation.
 Print the value of count.
 */
 
+// C++ Program
 #include<bits/stdc++.h>
 using namespace std;
 
-//function for counting number of bits
+// function for counting number of bits
 int count_bits(int n)
 {
-  //initialize count with 0
+  // initialize count with 0
    int count=0;
    
-   //  counting number of bits in binary representation of number
+   // counting number of bits in binary representation of number
    while(n!=0)
    {
      count++;
@@ -25,26 +26,28 @@ int count_bits(int n)
    return count;
 }
 
-//main function
+// main function
 int main()
 {
   int n;
 
-  //Taking number as input
+  // Taking number as input
   cout<<"Enter the number: ";
   cin>>n;
 
-  //Printing count of bits of given number
+  // Printing count of bits of given number
   cout<<"No. of bits: "<<count_bits(n)<<endl;
   return 0;
 }
 
 /*
+
 Input:
 Enter the number: 10
 
 Output:
 No. of bits: 4
+
 
 Input:
 Enter the number: 3
@@ -55,4 +58,5 @@ No. of bits: 2
 Time Complexity: O(logn)
 Space Complexity: O(1)
 where n is the number of elements.
+
 */

@@ -12,6 +12,7 @@ Time Complexity : O(log n)
 # an example of a function
 # fun(x) = x^2 + 5x - 10
 
+
 def fun(x):
     return x*x + 5*x - 10
 
@@ -38,7 +39,7 @@ def binarySearch(low_index, high_index):
         if fun(midPoint) > 0 and (midPoint == low_index or fun(midPoint - 1) <= 0):
             return midPoint
 
-        if fun(midPoint) <= 0:
+        elif fun(midPoint) <= 0:
             return binarySearch((midPoint + 1), high_index)
 
         else:
@@ -49,10 +50,9 @@ def binarySearch(low_index, high_index):
 
 
 """
-# Driver Code : Example
+Driver Code : Example
 print("The value n where fun(x) becomes " +
       "positive first is : ", findFirstPositive())
-      
 Input : x^2 + 5x - 10
 Output : The value n where function() becomes positive first is 2
 """

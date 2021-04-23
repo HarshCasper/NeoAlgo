@@ -13,26 +13,33 @@ public class  Fibonacci_series_till_n_terms {
     //enter the no of terms required in the series
     System.out.println("Enter the no of terms required in the series");
     int n = sc.nextInt();
-    int a = 0, b = 1; //initializing the first two no of the series    
+     //initializing the first two no of the series
+    int a = 0, b = 1;    
     int c = 0;
     if (n <= 0) {
-      System.out.println("Enter a positive number"); // prints the message "Enter a positive no" in case n is negative or 0
+     // prints the message "Enter a positive no" in case n is negative or 0
+      System.out.println("Enter a positive number"); 
     } else if (n == 1) {
       System.out.println("The fibonaaci series upto " + n + " term is");
-      System.out.println(a); // prints the first term i.e 0 in case n=1
+      // prints the first term i.e 0 in case n=1
+      System.out.println(a); 
     } else {
       System.out.println("The fibonaaci series upto " + n + " terms is");
-      System.out.print(a + " " + b + " "); //printing the first two terms of the series   
-
-      for (int i = 3; i <= n; ++i) //looping till n terms if n>2   
+      //printing the first two terms of the series
+      System.out.print(a + " " + b + " ");    
+      //looping till n terms if n>2   
+      for (int i = 3; i <= n; ++i) 
       {
-        c = a + b; //storing the next term in c i.e the sum of previous two no.    
-
-        a = b; //changing the value of a to the next term  i.e b
-        b = c; //changing the value of b to the next term  i.e c
-        System.out.print(c + " "); // printing the next term and adding space for the next term
+        //storing the next term in c i.e the sum of previous two no.    
+        c = a + b; 
+        //changing the value of a to the next term  i.e b
+        a = b; 
+        //changing the value of b to the next term  i.e c
+        b = c; 
+        // printing the next term and adding space for the next term
+        System.out.print(c + " "); 
       }
-    } //else closes
+    }
   }
 }
 

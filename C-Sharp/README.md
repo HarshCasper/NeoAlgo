@@ -64,7 +64,7 @@ _add list here_
 - [Tower of Hanoi](math/tower_of_hanoi.cs)
 - [Armstrong Number](math/Armstrong_Number.cs)
 - [Catalan Number](math/Catalan_Number.cs)
-
+- [Fibonacci](math/Fibonacci.cs)
 
 ## Other
 

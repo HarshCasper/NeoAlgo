@@ -32,6 +32,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Count total words in String](cp/Count_Words.java)
 - [Intersection of Two Arrays](cp/Intersection_of_Two_Arrays.java)
 - [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)

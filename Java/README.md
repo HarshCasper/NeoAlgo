@@ -178,6 +178,7 @@ _add list here_
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 - [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
+- [Diameter_of_Binary_tree.java](Java/ds/Diameter_of_Binary_tree.java)
 
 ## Graphs
 

@@ -21,7 +21,7 @@ void Maximum_consecutive_avgint_pair(int n, int arr[]) {
 	    else{
 	        even++;
 	    }
-	}
+    }
    /*If the no of odd is greater than no of even print 
    the odd nos first followed by the even nos*/
 	if( odd > even){
@@ -55,21 +55,30 @@ void Maximum_consecutive_avgint_pair(int n, int arr[]) {
 
 int main() {
 	int  n;
+	cout << "Enter the no of elements in array:" <<endl;
 	cin >> n;
 	int arr[n];
+	cout << "Enter the elements in array:" <<endl;
 	for( int i=0; i<n ;i++){
 	    cin >> arr[i];
 	}
+	cout << "The reordered array is: "<<endl;
 	Maximum_consecutive_avgint_pair(n, arr);
 	return 0;
 }
 
 /*
-time complexity:-O(n) to compute odd and even numbers
-space complexity:- O(n)
-Examples:-
-n=8
-10 9 13 15 3 16 9 13
-output=13 9 13 15 3 9 16 10 
+Sample Input/Output:
 
+Input:
+Enter the no of elements in array:
+8
+Enter the elements in array:
+10 9 13 15 3 16 9 13
+Output:
+The reordered array is: 
+9 13 15 3 9 13 10 16 
+
+Tme complexity:-O(n) to compute odd and even numbers
+Space complexity:- O(n)
 */

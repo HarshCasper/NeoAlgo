@@ -30,7 +30,9 @@ if __name__=="__main__":
 '''
 Time Complexity:O(n)
 Space Complexity:O(1)
+
 Input/Output:
+
 Enter a number 111
 The given number is special
 '''

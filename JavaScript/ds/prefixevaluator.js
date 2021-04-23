@@ -1,5 +1,9 @@
-// This program is for evaluating prefix expression.
-// In this we evaluate the given prefix expression using stack
+/*
+Prefix expression:- An expression is called the prefix expression if the operator appears in the expression before the operands
+Example: operator operand1 operand2
+This program is for evaluating prefix expression.
+In this we evaluate the given prefix expression using stack
+*/
 
 // creating stackarr 
 var stackarr=[];
@@ -131,7 +135,8 @@ const main = async () => {
 
   main();
 
-  /*
+ /*
+
  Input: 
  Enter the prefix expression(Please provide space after each operator or operand): + * 2 3 4
  
@@ -146,4 +151,5 @@ const main = async () => {
 
  Time Complexity: O(n)
  Space Complexity: O(n)
+
  */

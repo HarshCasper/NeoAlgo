@@ -46,3 +46,12 @@ function heapSort(input) {
 var arr = [3, 0, 2, 5, -1, 4, 1];
 heapSort(arr);
 console.log(arr);
+
+// Output - 
+// [-1,0,1,2,3,4,5]
+
+// Time Complexity -
+// O(nlogn)
+
+// Space Complexity -
+// O(1)

@@ -22,7 +22,7 @@
 import java.util.Arrays;
 import java.util.List;
  
-class Main
+class KeypadSequence
 {
     // Top-down recursive function 
     public static void findCombinations(List<List<Character>> keypad,

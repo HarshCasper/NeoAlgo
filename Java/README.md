@@ -26,6 +26,7 @@
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 - [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
 - [Dijsktra Algorithm](Greedy_Algorithms/Dijsktra.java)
+
 ## Blockchain
 
 _add list here_
@@ -95,6 +96,7 @@ _add list here_
 - [Paint Fence Algorithm](cp/Paint_Fence.java)
 - [Minimum Window Substring](cp/MinimumWindowSubstring.java)
 - [Length of Longest Substring Without Repeating Characters](cp/LongestSubstringNoRepeatingChar.java)
+- [Display all the possible keypad sequence for a given input](cp/KeypadSequence.java)
 - [Longest Substring with K Distinct Characters](cp/LongestSubstringDistinctChar.java)
 - [Maximum Sum Subarray of Size K](cp/MaximumSumSubarray.java)
 - [First Negative Number in Every Window of Size K](cp/FirstNegativeNumber.java)
@@ -240,7 +242,6 @@ _add list here_
 - [Lucky Number](math/LuckyNumber.java)
 - [Special Number](math/Special.java)
 
-
 ## Dynamic Programming
 
 - [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)
@@ -262,7 +263,6 @@ _add list here_
 - [Subset Sum to Target](dp/SubsetSumToTarget.java)
 - [Dice Throw Problem](dp/DiceThrow.java)
 - [Word Wrap Problem](dp/WordWrapProblem.java)
-
 
 ## Blockchain
 
@@ -309,6 +309,7 @@ _add list here_
 _add list here_
 
 ## Operating Systems
+
 - [Banker's Algorithm](Operating-System/banker.java)
 - [Memory Allocation in Operating Systems](Operating-System/alloc.java)
 - [Page Replacement Algorithms](Operating-System/allocate.java)

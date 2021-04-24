@@ -13,10 +13,11 @@ the array sums up to 13.
 '''
 
 def TripletSumValue(ary,k):
+    #take a final list 
     fnl_lst=[]
-    
+    #take a dictionary
     dict={}
-
+    #check whether the numbers is present to produce given sum  
     for i in range(0,len(ary)):
         for j in range(i+1,len(ary)):
 
@@ -29,11 +30,11 @@ def TripletSumValue(ary,k):
                     fnl_lst.append(tup)
             else:
                 dict[ary[j]]=1
-
+    #result 
     return fnl_lst
 
 def main():
-   
+   #takeing the input 
    arr = list(map(int,input("Enter the list: ").split()))
    k = int(input("Enter K: "))
    print("Array which sum ",k," is ",TripletSumValue(arr,k))

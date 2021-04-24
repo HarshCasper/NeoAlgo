@@ -2,7 +2,7 @@
 Top view of binary tree
 
 Given a binary tree, print the nodes in left to right manner as visible from
-above the tree.Input is given in order of left child root then
+above the tree.Input is given in order of root node, left child then
 right child(preorder).
 For e.g. 1 2 4 -1 -1 5 -1 -1 3 6 -1 -1 -1
 Tree looks like

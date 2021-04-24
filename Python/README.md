@@ -411,6 +411,6 @@ _add list here_
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
 - [Merge Interval](other/merge_interval.py)
 - [Kth index removal](other/stringkth.py)
-- [Display all possible sequences for given input number](other/KeypadSequence.py)
+- [Display all the possible keypad sequence given an input number](other/KeypadSequence.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

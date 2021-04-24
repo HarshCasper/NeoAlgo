@@ -19,11 +19,12 @@ class Program
         {
             if (low == high)
             {
-                if (arr[low] == x) return low;
+                if (arr[low] == x) 
+                    return low;
                 return -1;
             }
-            // Probing the position with keeping uniform distribution in mind. 
 
+            // Probing the position with keeping uniform distribution in mind. 
             int pos = low + (((high - low)/(arr[high] - arr[low]))*(x - arr[low]));
 
             // Condition of element to be found 

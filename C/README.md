@@ -120,6 +120,7 @@
 - [Best Fit Memory allocation](ds/best_fit_memory.c)
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
+- [Postfix to Infix Conversion](ds/postfixToInfix.c)
 ## Searching
 
 - [Binary Search](search/Binary_search.c)

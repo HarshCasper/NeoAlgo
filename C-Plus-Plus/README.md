@@ -623,3 +623,5 @@ _add list here_
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
 - [Zig Zag Array(unsorted)](other/zig-zag_array_unsorted.cpp)
 - [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)
+- [Count pairs with given sum](other/Count_pairs_with_given_sum.cpp)
+

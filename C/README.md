@@ -187,6 +187,7 @@
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
+- [Warshall Algorithm](graphs/warshall.c)
 
 ## Machine Learning
 

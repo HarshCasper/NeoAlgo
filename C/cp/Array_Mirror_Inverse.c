@@ -1,37 +1,48 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main() {
-  int n;
-  scanf("%d", &n);
-  int arr[n];
-  for (int i = 0; i < n; ++i) {
-  	scanf("%d", &arr[i]);
-  }
-  bool f = true;
-  for (int i = 0; i < n; ++i) {
-  	if(arr[arr[i]] != i) {
-  		f = false;
-  	}
-  }
-  if(f)
-  	printf("The given array is mirror-inverse");
-  else
-  	printf("The given array is not mirror-inverse");
-  return 0;
+bool array_mirror_inverse(int[], int);
+int main()
+{
+	int n;
+	bool f;
+	printf("Enter the size of the array:");
+	scanf("%d", &n);
+	int arr[n];
+	printf("Enter the elements:");
+	for (int i = 0; i < n; ++i)
+	{
+		scanf("%d", &arr[i]);
+	}
+
+	f = array_mirror_inverse(arr, n);
+	if (f)
+		printf("The given array is mirror-inverse");
+	else
+		printf("The given array is not the mirror-inverse");
+}
+
+// Boolean Function which return if the array is mirror-inverse or not
+bool array_mirror_inverse(int arr[], int n)
+{
+	bool f = true;
+	for (int i = 0; i < n; ++i)
+	{
+		if (arr[arr[i]] != i)
+		{
+			f = false;
+		}
+	}
+
+	return f;
 }
 
 /*
 Time Complexity: O(N)
-INPUT 1:
-5
-1 0 2 4 3
-OUTPUT 1:
-The given array is mirror-inverse
 
-INPUT 2:
-5
-1 2 0 4 3
-OUTPUT 2:
-The given array is not mirror-inverse
+Sample Output
+Enter the size of the array:5
+Enter the elements:1 0 2 4 3
+The given array is mirror-inverse
 */
+

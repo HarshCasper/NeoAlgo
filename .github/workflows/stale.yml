@@ -17,7 +17,7 @@ jobs:
           stale-pr-message: >
             Please reopen this pull request once you commit the changes requested
             or make improvements on the code. If this is not the case and you need
-            some help, feel free to seek help from our [Telegram](https://t.me/tesseractcoding)
+            some help, feel free to seek help from our [Discord](https://discord.gg/c7mCbVWK)
             or ping one of the reviewers. Thank you for your contributions!
           stale-issue-label: "no-issue-activity"
           stale-pr-label: "no-pr-activity"

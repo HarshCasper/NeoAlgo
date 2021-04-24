@@ -226,6 +226,7 @@ _add list here_
 - [Neon number](Neon_number.java)
 - [Ascii of string](math/AsciiOfString.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
+- [Pascal Triangle](math/pascal_triangle.java)
 - [Printing all Good Numbers ina a given range](math/good_number.java)
 - [Transpose of Matrix](math/Matrix_Transpose.java)
 - [Tribonacci series upto n terms](math/tribonacci.java)

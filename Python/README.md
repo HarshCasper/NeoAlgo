@@ -44,7 +44,7 @@
 * [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 * [Merge Sort Parallel](sort/Parallel_MergeSort.py)
 * [Wiggle Sort](sort/wiggle_sort.py)
-
+* [Tim Sort](sort/TimSort.py)
 ## Graphs
 * [Depth of Tree](graphs/Depth_Of_Tree.py)
 * [Height of Tree](graphs/height_of_given_tree.py)

@@ -349,5 +349,6 @@ _add list here_
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+- [Wave Array](/other/Wave_Array.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

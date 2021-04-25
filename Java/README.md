@@ -168,6 +168,7 @@ _add list here_
 - [Circular Queue](ds/CircularQueue.java)
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 - [Print Linked List](ds/printLinkedList.java)
+- [Matrix Multiplication](ds/matrixMultiplication.java)
 
 ## Graphs
 

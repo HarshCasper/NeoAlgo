@@ -104,7 +104,7 @@
 - [Minimum operations to make sum of each column & row of square matrix equal](cp/matrix_min_operations_for_equal_sum.cpp)
 - [Expressing n as a product of prime numbers](cp/prime_factors.cpp)
 - [Generate all n balanced parenthesis combinations](cp/generate_valid_parenthesis.cpp)
-- [Lexicograhic Rank of string](cp/Lexicographic_rank_of_string.cpp)
+- [Lexicographic Rank of string](cp/Lexicographic_rank_of_string.cpp)
 - [Longest substring with k distinct characters](cp/longest_substring_with_k_unique_characters.cpp)
 - [Longest subarray of sum k](cp/largest_subarray_of_sum_k.cpp)
 - [Minimum Window Substring](cp/minimum_window_substring.cpp)

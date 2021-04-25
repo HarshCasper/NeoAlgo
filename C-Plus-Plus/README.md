@@ -145,6 +145,8 @@
 - [Friends Pairing](cp/friends_pairing.cpp)
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
+- [to_find_whether_a_particular_number_exists_or_not_in_array_using_c++](cp/to_find_whether_a_particular_number_exists_or_not_in_array_using_c++.cpp)
+
 
 ## Data Structures
 

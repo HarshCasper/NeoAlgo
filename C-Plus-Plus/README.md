@@ -359,6 +359,7 @@ _add list here_
 - [Reordered Power of 2](math/reorderedPowerOf2.cpp)
 - [Automorphic Number](math/automorphic_number.cpp)
 - [Roman to Integer](math/Roman_To_Integer.cpp)
+- [Fascinating Number](math/fascinating_number.cpp)
 
 ## Dynamic Programming
 

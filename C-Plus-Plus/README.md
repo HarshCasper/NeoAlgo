@@ -443,7 +443,7 @@ _add list here_
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Lucky Number](math/LuckyNumber.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
-
+- [Polynomial addition](math/polynomial_addition.cpp)
 ## Dynamic Programming
 
 - [Arithmetic Slices](dp/Arithmetic_Slices.cpp)

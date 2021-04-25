@@ -42,6 +42,7 @@
 - [Interpolation Search](search/InterpolationSearch.dart)
 - [Fibonacci Search](search/FibonacciSearch.dart)
 - [Sentinel Search](search/Sentinel_Search.dart)
+- [Jump Search](search/Jump_Search.dart)
 
 ## Sorting
 

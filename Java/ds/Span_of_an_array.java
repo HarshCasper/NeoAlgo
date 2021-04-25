@@ -6,7 +6,6 @@ import java.util.*;
 
 public class span {
     public static void main(String[] args) {
-       /*taking the input for array*/
         Scanner scan = new Scanner(System.in);
         System.out.println("enter the size of array");
         int number = scan.nextInt();
@@ -14,15 +13,13 @@ public class span {
         System.out.println("enter the elements");
         for (int i = 0; i < arrelement.length; i++) {
             arrelement[i] = scan.nextInt();
-         }
-         /*Finding the maximum element from the array*/
+        }
         int max = arrelement[0];
         for (int j = 0; j < arrelement.length; j++) {
                 if (arrelement[j] > max) {
                 max = arrelement[j];
             }
         }
-        /*Finding the minimum element from the array*/
         int min = arrelement[0];
         for (int k = 0; k < arrelement.length; k++) {
             if (arrelement[k] < min) {
@@ -36,8 +33,6 @@ public class span {
 }
 
 /*
-Standard Input/Output 
-
 Input:
 enter the size of an array
 6

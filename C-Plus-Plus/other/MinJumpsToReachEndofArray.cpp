@@ -24,14 +24,12 @@ int min_jumps(int arr[], int n)
     {
         return 0;
     }
-
-    /* if arr[0] is 0 then we can't jump */
+   /* if arr[0] is 0 then we can't jump */
     if (arr[0] == 0)
     {
         return -1;
     }
-
-    /* ladder keeps track of largest ladder we have and stairs keep track of stairs
+   /* ladder keeps track of largest ladder we have and stairs keep track of stairs
        in the current ladder, initially jump count is 1 as we have to take a ladder
        to start. */
     int ladder = arr[0];
@@ -83,7 +81,6 @@ int main()
         cout << "Minimum no. of jumps required to reach end of array: " << no_of_jumps;
     }
 }
-
 /*
 Sample input 1:
 Enter size of array: 5

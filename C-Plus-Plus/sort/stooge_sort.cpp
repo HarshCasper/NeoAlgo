@@ -59,7 +59,7 @@ int main()
 }
 
 /*
-Time Complexity: O(n^2), generally slower than bubble sort
+Time Complexity: O(n^2.7095), slower than bubble sort
 Space Complexity: O(n)
 
 SAMPLE INPUT AND OUTPUT

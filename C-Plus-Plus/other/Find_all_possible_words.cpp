@@ -13,7 +13,6 @@ void possibleStrings(char characters[], int n, int k, string s){
     cout << s << endl;
         return;
     }
-    
     for (int i = 0; i < n; i++){
         string s1 = s + characters[i];
         possibleStrings(characters, n, k - 1, s1);

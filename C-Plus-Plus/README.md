@@ -121,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Rotate Doubly linked list by given node](cp/Rotate_doubly_linked_list_by_given_node.cpp)
 - [Find transition point](cp/Find_transition_point.cpp)
 - [Doubling the value](cp/Doubling_the_value.cpp)
 - [Count Leaves in Binary Tree](cp/count_leaves_in_binaryTree.cpp)
@@ -624,3 +625,4 @@ _add list here_
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
 - [Zig Zag Array(unsorted)](other/zig-zag_array_unsorted.cpp)
 - [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)
+- [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)

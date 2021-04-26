@@ -153,6 +153,7 @@
 - [Baised Standings](cp/baised_standings.cpp)
 - [Find total paths for robot](cp/robot_paths.cpp)
 - [Wine Selling](cp/wines_problem.cpp)
+- [Defend Kingdom](cp/defend_kingdom.cpp)
 
 ## Data Structures
 

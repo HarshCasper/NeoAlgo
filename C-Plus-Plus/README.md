@@ -625,3 +625,4 @@ _add list here_
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
 - [Zig Zag Array(unsorted)](other/zig-zag_array_unsorted.cpp)
 - [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)
+- [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)

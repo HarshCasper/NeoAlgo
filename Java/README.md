@@ -226,7 +226,6 @@ _add list here_
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
 - [Neon number](math/Neon_number.java)
 - [Ascii of string](math/AsciiOfString.java)
-- [Roots of Quadratic Equation](Quadratic_Equation.java)
 - [Pascal Triangle](math/pascal_triangle.java)
 - [Roots of Quadratic Equation](math/Quadratic_Equation.java)
 - [Printing all Good Numbers ina a given range](math/good_number.java)

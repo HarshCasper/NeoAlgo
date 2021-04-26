@@ -18,7 +18,7 @@ int catalan(int n){
 
 int main(){
   print("Enter the Number:");
-  int n  = int.parse(stdin.readLineSync());
+  int n  = int.parse(stdin.readLineSync()!);
   for (int i = 0; i < n; i++)
   {
     stdout.write(catalan(i));

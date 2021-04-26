@@ -41,6 +41,7 @@
 - [Armstrong Number](math/armstrong_number.jl)
 - [Automorphic Number](math/automorphic_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
+- [Delannoy Number](math/delannoy_number.jl)
 - [Perfect Number](math/perfect_number.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
 - [Lucas Number](math/lucas_number.jl)

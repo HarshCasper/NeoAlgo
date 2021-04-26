@@ -153,6 +153,7 @@
 - [Baised Standings](cp/baised_standings.cpp)
 - [Find total paths for robot](cp/robot_paths.cpp)
 - [Wine Selling](cp/wines_problem.cpp)
+- [Defend Kingdom](cp/defend_kingdom.cpp)
 
 ## Data Structures
 
@@ -391,7 +392,7 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Catalan number](math/catalan_num.cpp)
 - [Check if a Number is a Palindrome](math/check_palindrome.cpp)
-- [Counting divisors using sieve of Eratosthenes](maths/counting_divisors_using_sieve_of_eratosthenes.cpp)
+- [Counting divisors using sieve of Eratosthenes](math/counting_divisors_using_sieve_of_eratosthenes.cpp)
 - [Difference_of_Two_Strings](math/Difference_of_Two_Strings.cpp)
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
@@ -442,6 +443,7 @@ _add list here_
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Lucky Number](math/LuckyNumber.cpp)
+- [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
 
 ## Dynamic Programming
@@ -458,7 +460,6 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
-- [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.cpp)

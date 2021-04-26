@@ -1,15 +1,6 @@
 '''
 Given an array arr and an integer k.Find if there's a triplet in the array which sums up to the given integer k
-Input:
-k = 13
-[1 4 45 6 10 8]
 
-Output:
-[(1, 4, 8)]
-
-Explanation:
-The triplet {1, 4, 8} in 
-the array sums up to 13.
 '''
 
 def TripletSumValue(ary,k):
@@ -17,7 +8,8 @@ def TripletSumValue(ary,k):
     fnl_lst=[]
     #take a dictionary
     dict={}
-    #check whether the numbers is present to produce given sum  
+    #check whether the numbers is present to producestatus 
+    #given sum  
     for i in range(0,len(ary)):
         for j in range(i+1,len(ary)):
 
@@ -34,7 +26,7 @@ def TripletSumValue(ary,k):
     return fnl_lst
 
 def main():
-   #takeing the input 
+   #taking the input 
    arr = list(map(int,input("Enter the list: ").split()))
    k = int(input("Enter K: "))
    print("Array which sum ",k," is ",TripletSumValue(arr,k))

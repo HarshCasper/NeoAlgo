@@ -54,6 +54,7 @@
 - [Strong Number](math/strong_number.jl)
 - [Sum of Digits](math/sum_of_digits.jl)
 - [Sum of Divisors](math/sum_of_divisors.jl)
+- [Stern's Diatomic Series](math/sterns_diatomic_series.jl)
 - [Tower of Hanoi](math/towerOfHanoi.jl)
 
 ## Searching

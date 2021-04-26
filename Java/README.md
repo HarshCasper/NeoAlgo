@@ -32,6 +32,7 @@ _add list here_
 
 ## Competitive programming
 
+- [Count total words in String](cp/Count_Words.java)
 - [Intersection of Two Arrays](cp/Intersection_of_Two_Arrays.java)
 - [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
@@ -144,7 +145,7 @@ _add list here_
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Find the LCA(Least Common Ancestor) in a Binary Search Tree](ds/LCAofaBST.java)
 - [Node to Root Path in a Binary Tree](ds/NodetoRootPath.java)
-- [Detect Loop in Linked List](DetectLoopLL.java)
+- [Detect Loop in Linked List](ds/DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
 - [Expression Tree from Postfix Expression](ds/Build_Expression_Tree.java)
 - [Huffman ENcoder](ds/Huffman.java)
@@ -220,13 +221,14 @@ _add list here_
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
-- [Factorial Using BigInteger](FactorialUsingBigInteger.java)
+- [Factorial Using BigInteger](math/FactorialUsingBigInteger.java)
 - [HCF of two number](math/HCFOfTwoNumber.java)
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
-- [Neon number](Neon_number.java)
+- [Neon number](math/Neon_number.java)
 - [Ascii of string](math/AsciiOfString.java)
 - [Roots of Quadratic Equation](Quadratic_Equation.java)
 - [Pascal Triangle](math/pascal_triangle.java)
+- [Roots of Quadratic Equation](math/Quadratic_Equation.java)
 - [Printing all Good Numbers ina a given range](math/good_number.java)
 - [Transpose of Matrix](math/Matrix_Transpose.java)
 - [Tribonacci series upto n terms](math/tribonacci.java)

@@ -364,3 +364,4 @@ _add list here_
 - [Knights Tour](other/KnightsTour.java)
 - [Word Ladder](other/WordLadder.java)
 - [Linear probing in java](other/linearProbing.java)
+- [Checking Anagram of String](other/anagram.java)

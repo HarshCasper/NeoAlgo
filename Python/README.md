@@ -309,6 +309,7 @@
 
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
+- [Delannoy Number](math/delannoy_number.py)
 - [Least Common Multiple (LCM)](math/Least_common_multiple.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)

@@ -54,6 +54,7 @@
 - [Quick Sort](sort/Quick_Sort.dart)
 - [Merge Sort](sort/Merge_Sort.dart)
 - [Heap Sort](sort/Heap_Sort.dart)
+- [Radix Sort](sort/Radix_Sort.dart)
 - [Tim Sort](sort/Tim_Sort.dart)
 
 ## Cryptography

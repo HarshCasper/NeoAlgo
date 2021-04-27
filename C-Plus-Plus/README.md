@@ -155,6 +155,7 @@
 - [Find total paths for robot](cp/robot_paths.cpp)
 - [Wine Selling](cp/wines_problem.cpp)
 - [Defend Kingdom](cp/defend_kingdom.cpp)
+- [Snakes and Ladders](cp/snakes_and_ladders.cpp)
 
 ## Data Structures
 

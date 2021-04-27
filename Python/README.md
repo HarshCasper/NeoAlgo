@@ -309,6 +309,7 @@
 
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
+- [Delannoy Number](math/delannoy_number.py)
 - [Least Common Multiple (LCM)](math/Least_common_multiple.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
@@ -360,6 +361,7 @@
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
 - [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.py)
+- [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.py)
 
 ## Blockchain
 

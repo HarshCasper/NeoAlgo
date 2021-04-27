@@ -41,6 +41,7 @@
 - [Armstrong Number](math/armstrong_number.jl)
 - [Automorphic Number](math/automorphic_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
+- [Delannoy Number](math/delannoy_number.jl)
 - [Perfect Number](math/perfect_number.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
 - [Lucas Number](math/lucas_number.jl)
@@ -54,6 +55,7 @@
 - [Strong Number](math/strong_number.jl)
 - [Sum of Digits](math/sum_of_digits.jl)
 - [Sum of Divisors](math/sum_of_divisors.jl)
+- [Stern's Diatomic Series](math/sterns_diatomic_series.jl)
 - [Tower of Hanoi](math/towerOfHanoi.jl)
 
 ## Searching

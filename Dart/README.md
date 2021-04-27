@@ -42,6 +42,7 @@
 - [Interpolation Search](search/InterpolationSearch.dart)
 - [Fibonacci Search](search/FibonacciSearch.dart)
 - [Sentinel Search](search/Sentinel_Search.dart)
+- [Jump Search](search/Jump_Search.dart)
 
 ## Sorting
 
@@ -53,6 +54,7 @@
 - [Quick Sort](sort/Quick_Sort.dart)
 - [Merge Sort](sort/Merge_Sort.dart)
 - [Heap Sort](sort/Heap_Sort.dart)
+- [Tim Sort](sort/Tim_Sort.dart)
 
 ## Cryptography
 

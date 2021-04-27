@@ -22,6 +22,8 @@
 - [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Decimal to Hexadecimal Conversion](maths/decimal_to_hexadecimal.dart)
 - [Double factorial](maths/double_factorial.dart)
+- [Euler's Totient Function](maths/Euler's_Totient_function.dart)
+- [Euclidean Algorithm to find GCD](maths/Euclidean_Algorithm_to_find_GCD.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
 - [Sum of Digits](maths/SumOfDigits.dart)
@@ -40,6 +42,7 @@
 - [Interpolation Search](search/InterpolationSearch.dart)
 - [Fibonacci Search](search/FibonacciSearch.dart)
 - [Sentinel Search](search/Sentinel_Search.dart)
+- [Jump Search](search/Jump_Search.dart)
 
 ## Sorting
 
@@ -50,6 +53,9 @@
 - [Shell Sort](sort/Shell_Sort.dart)
 - [Quick Sort](sort/Quick_Sort.dart)
 - [Merge Sort](sort/Merge_Sort.dart)
+- [Heap Sort](sort/Heap_Sort.dart)
+- [Radix Sort](sort/Radix_Sort.dart)
+- [Tim Sort](sort/Tim_Sort.dart)
 
 ## Cryptography
 

@@ -73,6 +73,7 @@
 - [Gnome Sort](./sort/GnomeSort.js)
 - [WaveForm Sort](./sort/WaveFormSort.js)
 - [Shaker Sort](./sort/ShakerSort.js)
+- [Pancake Sort](./sort/PancakeSort.js)
 
 ## Machine Learning
 

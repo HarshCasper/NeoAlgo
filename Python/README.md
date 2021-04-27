@@ -362,6 +362,7 @@
 - [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.py)
 - [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.py)
+- [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.py)
 
 ## Blockchain
 

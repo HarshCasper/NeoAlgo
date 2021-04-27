@@ -154,6 +154,7 @@
 - [Baised Standings](cp/baised_standings.cpp)
 - [Find total paths for robot](cp/robot_paths.cpp)
 - [Wine Selling](cp/wines_problem.cpp)
+- [Mean after removing Kth percent smallest and largest elements](cp/Mean_after_removing_Kth_smallest_and_largest_elements.cpp)
 - [Defend Kingdom](cp/defend_kingdom.cpp)
 
 ## Data Structures

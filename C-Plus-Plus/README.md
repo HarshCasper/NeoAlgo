@@ -121,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Rotate Doubly linked list by given node](cp/Rotate_doubly_linked_list_by_given_node.cpp)
 - [Find transition point](cp/Find_transition_point.cpp)
 - [Doubling the value](cp/Doubling_the_value.cpp)
 - [Count Leaves in Binary Tree](cp/count_leaves_in_binaryTree.cpp)
@@ -153,6 +154,7 @@
 - [Baised Standings](cp/baised_standings.cpp)
 - [Find total paths for robot](cp/robot_paths.cpp)
 - [Wine Selling](cp/wines_problem.cpp)
+- [Defend Kingdom](cp/defend_kingdom.cpp)
 
 ## Data Structures
 
@@ -442,6 +444,7 @@ _add list here_
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Lucky Number](math/LuckyNumber.cpp)
+- [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
 
 ## Dynamic Programming
@@ -458,7 +461,6 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
-- [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.cpp)
@@ -623,3 +625,4 @@ _add list here_
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
 - [Zig Zag Array(unsorted)](other/zig-zag_array_unsorted.cpp)
 - [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)
+- [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)

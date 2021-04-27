@@ -154,6 +154,7 @@
 - [Baised Standings](cp/baised_standings.cpp)
 - [Find total paths for robot](cp/robot_paths.cpp)
 - [Wine Selling](cp/wines_problem.cpp)
+- [Mean after removing Kth percent smallest and largest elements](cp/Mean_after_removing_Kth_smallest_and_largest_elements.cpp)
 - [Defend Kingdom](cp/defend_kingdom.cpp)
 
 ## Data Structures
@@ -240,6 +241,7 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Swapping Node of Linked List](ds/Sawpping_Nodes_of_Linked_list-Using_CPP.cpp)
 - [Auto Complete - Using Trie](ds/Auto_complete.cpp)
 - [Append Last N To First](ds/Append_Last_N_To_First.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)

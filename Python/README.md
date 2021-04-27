@@ -395,6 +395,7 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Triplet Sum in Array](other/TripletSumValue.py)
 - [Longest Consecutive Subsequence](other/Longest_Consecutive_Subsequence.py)
 - [Maximum Product Subarray](other/Maximum_Product_Subarray.py)
 - [Rearrange the negative and positive elements](other/Rearrange_the_neagtive_positive_element.py)

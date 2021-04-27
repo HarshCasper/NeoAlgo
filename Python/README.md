@@ -25,6 +25,7 @@
 * [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
 * [Stack using list](ds/stack_using_list.py)
 * [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
+* [Double Ended Queue](ds/Double_Ended_queue.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -213,6 +214,7 @@
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.py)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
@@ -307,6 +309,7 @@
 
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
+- [Delannoy Number](math/delannoy_number.py)
 - [Least Common Multiple (LCM)](math/Least_common_multiple.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
@@ -358,6 +361,7 @@
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
 - [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.py)
+- [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.py)
 
 ## Blockchain
 
@@ -393,6 +397,7 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Triplet Sum in Array](other/TripletSumValue.py)
 - [Longest Consecutive Subsequence](other/Longest_Consecutive_Subsequence.py)
 - [Maximum Product Subarray](other/Maximum_Product_Subarray.py)
 - [Rearrange the negative and positive elements](other/Rearrange_the_neagtive_positive_element.py)

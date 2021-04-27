@@ -6,39 +6,38 @@ Such as 2=2*1 (2 and 1 are consecutive numbers)
 This program will print the pronic numbers in the given range.        
 */
 
-
 #include <iostream>
-#include<math.h>
+#include <math.h>
 using namespace std;
 
 /* Function to check whether number is pronic or not
-A number is pronic if the root of equation i^2+i-num=0 is real and integer.*/
-bool is_pronic(int num){
-    int dis=1+4*num;
-    if(dis<=0)
-      return false;
-    else{
-    	 int root=sqrt(dis);
-         if(root*root==dis && dis%2==1)
-            return true;
-         else
-		   return false;   
-    }  
+A number is pronic if the root of equation i^2+i-num=0 is real and integer.
+So, the discriminant of equation should be positive, odd  and perfect square for number to be pronic*/
+bool is_pronic(int num)
+{
+    int dis = 1 + 4 * num;
+    //checking discriminant is  positive,odd and perfect square
+    if (dis >= 0 && floor(sqrt(dis)) == sqrt(dis))
+        return true;
+    else
+        return false;
 }
 
-int main(){
-    int ll,hl;
-    cout<<"Enter the range for which you want to print PRONIC NUMBERS:\n";
-    cout<<"Enter lower limit:";
-    cin>>ll;
-    cout<<"Enter higher limit:";
-    cin>>hl;
-    
+int main()
+{
+    int ll, hl;
+    cout << "Enter the range for which you want to print PRONIC NUMBERS:\n";
+    cout << "Enter lower limit:";
+    cin >> ll;
+    cout << "Enter higher limit:";
+    cin >> hl;
+
     //Printing pronic numbers in given range
-    cout<<"PRONIC NUMBERS from "<<ll<<" to "<<hl<<" are:\n";
-    for(int i=ll;i<=hl;i++){
-        if(is_pronic(i))
-           cout<<i<<" ";   
+    cout << "Pronic numbers from " << ll << " to " << hl << " are:\n";
+    for (int i = ll; i <= hl; i++)
+    {
+        if (is_pronic(i))
+            cout << i << " ";
     }
 }
 
@@ -52,7 +51,7 @@ Enter lower limit:1
 Enter higher limit:1000
 
 Output:
-PRONIC NUMBERS from 1 to 1000 are:
+Pronic numbers from 1 to 1000 are:
 2 6 12 20 30 42 56 72 90 110 132 156 182 210 240 272 306 342 380 420 462 506 552 600 650 702 756 812 870 930 992
 
 Time Complexity:O(n) where n is total numbers in range

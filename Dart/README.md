@@ -9,6 +9,11 @@
 
 # Codes in the Dart language
 
+## Array
+
+- [Reverse Array in Groups](Array/Reverse_array_in_groups.dart)
+
+
 ## Maths
 
 - [2D Areas](maths/Areas2D.dart)

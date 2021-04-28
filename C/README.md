@@ -200,6 +200,7 @@
 ## Bit - Manipulation
 
 - [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
+- [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
 
 ## Computational Geometry
 

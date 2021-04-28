@@ -1,7 +1,7 @@
 """
 created by: AdhilUsman
 created on: 28-06-2021
-This program simulates a coin flip and outputs heads or tails. It is impossible to have 100 percentage randomness in classical world. The modules like randomm only creates pseudo randomness which means after a while there will be a pattern. Quantum world is 100 percentage random and probabilistic. So the ouutput of this program will be random and will have equal probability.
+
 """
 
 

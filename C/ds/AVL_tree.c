@@ -1,5 +1,8 @@
 /*
-
+AVL tree is basically a self-balancing binary search tree in which the balancing factor
+i.e difference between the height of left-subtree and right-subtrees is either 0 or 1 or -1
+(not more than one). If the balance factor is disturbed then we need to rotate the nodes 
+to maintain the balance factor.
 */
 #include<stdio.h>
 #include<stdlib.h>

@@ -196,6 +196,10 @@
 - [Breadth First Search](graphs/BFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
 
+## Bit - Manipulation
+
+- [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
+
 ## Computational Geometry
 
 - [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.c)

@@ -200,6 +200,7 @@
 ## Bit - Manipulation
 
 - [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
+- [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
 
 ## Computational Geometry
 

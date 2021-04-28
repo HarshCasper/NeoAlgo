@@ -361,6 +361,7 @@
 - [Special Number](math/special.py)
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
+- [Positive Decimal to Binary](math/positive_decimal_to_binary.py)
 
 ## Bit Manipulation
 

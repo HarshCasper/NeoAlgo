@@ -196,6 +196,10 @@
 - [Breadth First Search](graphs/BFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
 
+## Computational Geometry
+
+- [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.c)
+
 ## Machine Learning
 
 _add list here_

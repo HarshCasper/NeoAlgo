@@ -19,8 +19,7 @@ For every element in the array run another loop to find the count of similar ele
 If the count is greater than the max count update the max count and store the index in another variable.
 If the maximum count is greater than the half the size of the array, print the element. Else print there is no majority element.
 	
-Time complexity :O(nlogn)
-Space Complexity:O(1)
+
 */
 
 
@@ -133,12 +132,16 @@ Input (1):
 Output (1): -1
 Explanation 1:
 Since, each element in {1,2,3} appears only once so there is no majority element.
---------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------
+/
+'''
 Input (2):
       N = 5 
       A[] = {1,4,4,4,2} 
 Output (2): 4
 Explanation (2):
-Since, 4 is present more than N/2 times, so it is the majority element.	
+Since, 4 is present more than N/2 times, so it is the majority element.
+
+Time complexity :O(nlogn)
+Space Complexity:O(1)
+'''
 */

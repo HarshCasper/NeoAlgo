@@ -332,6 +332,7 @@
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
 - [Sum of Digits of a Number](math/sum_of_digits.py)
+- [Sterns Diatomic Series](math/sterns_diatomic_series.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
@@ -362,6 +363,8 @@
 - [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.py)
 - [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.py)
+- [Check Collinearity of Three Points](Bit--Manipulation/check_collinearity_of_three_points.py)
+- [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.py)
 
 ## Blockchain
 

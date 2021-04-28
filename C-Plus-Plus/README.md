@@ -121,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Geek-onacci Number](cp/Geek-onacci_Number.cpp)
 - [Game with nos](cp/Game_with_nos.cpp)
 - [Rotate Doubly linked list by given node](cp/Rotate_doubly_linked_list_by_given_node.cpp)
 - [Find transition point](cp/Find_transition_point.cpp)

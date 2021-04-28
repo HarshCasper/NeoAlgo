@@ -44,6 +44,7 @@
 
 ## Data Structures
 
+- [AVL Tree](ds/AVL_tree.c)
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)

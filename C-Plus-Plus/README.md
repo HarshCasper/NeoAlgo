@@ -446,7 +446,7 @@ _add list here_
 - [Lucky Number](math/LuckyNumber.cpp)
 - [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
-- [Ones Complement of Binary Number](math/ones_complement_of_binary_number)
+- [Ones Complement of Binary Number](math/ones_complement_of_binary_number.cpp)
 
 ## Dynamic Programming
 

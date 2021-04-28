@@ -21,7 +21,11 @@
 * [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
 * [Identical BSTs](ds/identical_binary_tree.py)
 * [Loop detection in Linked List](ds/loop_detection_in_LL.py)
+* [Right view of a binary tree](ds/Right_view_of_binary_tree.py)
+* [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
 * [Stack using list](ds/stack_using_list.py)
+* [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
+* [Double Ended Queue](ds/Double_Ended_queue.py)
 
 ## Searching
 * [Bilinear Search](search/bilinear.py)
@@ -34,6 +38,7 @@
 * [Sublinear Search](search/Sublinear_search.ipynb)
 * [Exponential Search](search/exponential_search.py)
 * [Binary Search Iterative](search/binarysearch_iterative.py)
+* [Jump Search](search/Jump__search.py)
 
 ## Sorting
 * [Bead Sort](sort/Bead_Sort.py)
@@ -81,6 +86,8 @@
 - [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
 - [Singly Linked List](ds/SinglyLinkedList.py)
 - [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
+- [Sum of Linked List](ds/Sum_of_Linked_list.py)
+- [Left view of a binary tree](graphs/Left_view_of_binary_tree.py)
 
 ## Competitive Programming
 
@@ -121,7 +128,7 @@
 - [Minimize Amplitude After K Removals](cp/Minimize_Amplitude_After_K_Removals.py)
 - [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 - [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
-
+- [Trapping rain water](cp/Trapping_rain_water.py)
 
 ## Cryptography
 
@@ -194,6 +201,7 @@
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)
+- [Cutting A Rod](dp/cutting_a_rod.py)
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Common Substring](dp/length_longest_common_substring.py)
 - [Longest Decreasing Subsequence](dp/length_common_decreasing_subsequence.py)
@@ -205,6 +213,8 @@
 - [Knapsack Unbounded](dp/Knapsack_Unbounded.py)
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
+- [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.py)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
@@ -299,6 +309,7 @@
 
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
+- [Delannoy Number](math/delannoy_number.py)
 - [Least Common Multiple (LCM)](math/Least_common_multiple.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
@@ -321,6 +332,7 @@
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
 - [Sum of Digits of a Number](math/sum_of_digits.py)
+- [Sterns Diatomic Series](math/sterns_diatomic_series.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
@@ -339,15 +351,20 @@
 - [Reverse a Number](math/reverse_a_number.py)
 - [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
-<<<<<<< HEAD
 - [Perfect square less than n](math/Perfect_square.py)
-=======
 - [Perfect Number](math/Perfect_Number.py)
->>>>>>> e46c66505675d4612515f5dfd2d0b4d8123dd28b
+- [Harshad Number](math/HarshadNumber.py)
+- [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
+- [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 
 ## Bit Manipulation
 
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
+- [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
+- [Reverse bits of a Number](Bit--Manipulation/reverse_bits.py)
+- [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.py)
+- [Check Collinearity of Three Points](Bit--Manipulation/check_collinearity_of_three_points.py)
+- [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.py)
 
 ## Blockchain
 
@@ -383,6 +400,11 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Triplet Sum in Array](other/TripletSumValue.py)
+- [Longest Consecutive Subsequence](other/Longest_Consecutive_Subsequence.py)
+- [Maximum Product Subarray](other/Maximum_Product_Subarray.py)
+- [Rearrange the negative and positive elements](other/Rearrange_the_neagtive_positive_element.py)
+- [Find if there is a subarray with 0 sum](other/Subarray_with_sum0.py)
 - [Common Elements](other/common_elements.py)
 - [Count pair with given sum](other/count_pair_with_given_sum.py)
 - [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)

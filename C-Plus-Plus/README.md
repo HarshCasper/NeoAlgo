@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -30,6 +30,7 @@
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
 - [Generic Function for Swapping](cp/Generic_Swaps.cpp)
 - [Adjacent Difference Algorithm](cp/adjacent.cpp)
+- [Recursive Modular Exponentiation](cp/power.cpp)
 - [Count of string P in string S](cp/CountofPinS.cpp)
 - [Count Max Consecutive One's](cp/max_consecutive_ones.cpp)
 - [Elements Occurrence using Binary Search](cp/ElementsOccurrence_BinarySearch.cpp)
@@ -49,7 +50,6 @@
 - [Longest Common Prefix](cp/longestCommonPrefix.cpp)
 - [Longest Common Ancestor using Binary Lifting](cp/LowestCommonAncestor_in_Tree.cpp)
 - [Longest Subarray with Zero Sum](cp/ZeroSum.cpp)
-- [Lucky Numbers](cp/Lucky_Numbers.cpp)
 - [Maximum in Array](cp/Maximum_In_Array.cpp)
 - [Merge_Intervals](cp/Merge_Intervals.cpp)
 - [Merge String Alternatively](cp/Merge_string_alternatively.cpp)
@@ -98,7 +98,6 @@
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
 - [Peak element](cp/Peak_element.cpp)
-- [Boyer Moore Algorithm for Pattern Searching](cp/Boyer_Moore_Algorithm.cpp)
 - [Topological Sort on DAG](cp/Topological_sort.cpp)
 - [Check T-Prime](cp/check_T_prime.cpp)
 - [Aggressive cows](cp/aggressive_cows.cpp)
@@ -122,6 +121,11 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Rotate Doubly linked list by given node](cp/Rotate_doubly_linked_list_by_given_node.cpp)
+- [Find transition point](cp/Find_transition_point.cpp)
+- [Doubling the value](cp/Doubling_the_value.cpp)
+- [Count Leaves in Binary Tree](cp/count_leaves_in_binaryTree.cpp)
+- [Play With OR](cp/Play_with_OR.cpp)
 - [Delete without head pointer](cp/Delete_without_head_pointer.cpp)
 - [Cyclically rotate of an array by one](cp/Cyclically_rotate_of_array_by_one.cpp)
 - [Minimum number to form the sum even](cp/Minimum_number_to_form_the_sum_even.cpp)
@@ -133,6 +137,7 @@
 - [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Reverse individual words in a sentence without stacks](cp/reverseWords.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
@@ -143,8 +148,14 @@
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
 - [Connecting Dots](cp/connecting_dots.cpp)
 - [Friends Pairing](cp/friends_pairing.cpp)
+- [Four Sum](cp/Four_Sum.cpp)
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
+- [Baised Standings](cp/baised_standings.cpp)
+- [Find total paths for robot](cp/robot_paths.cpp)
+- [Wine Selling](cp/wines_problem.cpp)
+- [Mean after removing Kth percent smallest and largest elements](cp/Mean_after_removing_Kth_smallest_and_largest_elements.cpp)
+- [Defend Kingdom](cp/defend_kingdom.cpp)
 
 ## Data Structures
 
@@ -155,6 +166,7 @@
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
 - [Singly Linked List Operations Using Unique Key](ds/SLL_Operations_Usnig_Unique_Key.cpp)
 - [Add Post-Order Tree Traversal](ds/postorder.cpp)
+- [Number of Good Pairs](ds/Number_of_good_pairs.cpp)
 - [Level Order Tree Traversal](ds/LevelOrderTraversal.cpp)
 - [AVL Tree](ds/avl_tree.cpp)
 - [Binary Search Tree](ds/BinarySearchTree.cpp)
@@ -177,6 +189,7 @@
 - [Priority Queue](ds/Priority_Queue.cpp)
 - [Queue](ds/queue.cpp)
 - [Queue Linked List](ds/QueueLinkedList.cpp)
+- [Queue using Circular Array](ds/queue_using_circular_array.cpp)
 - [Red Black Tree](ds/RED-BLACK-TREE.cpp)
 - [Reverse Linked List](ds/Reverse_linked_list.cpp)
 - [Singly Linked List](ds/singly_linked_list.cpp)
@@ -211,6 +224,7 @@
 - [Maximum Element of Binary Tree](ds/Maximum_Element_of_Binary_Tree.cpp)
 - [Maximum Sum Level Of Binary Tree](ds/Max_Sum_Level_Of_Binary_Tree.cpp)
 - [Symmetric Binary Tree or Not](ds/Symmetric_Binary_Tree.cpp)
+- [Sort linked list of zeros, ones and twos](ds/sort_list_of_0s_1s_2s.cpp)
 - [Vertical Order Traversal Of Binary Tree](ds/vertical_order_traversal_BinaryTree.cpp)
 - [Height of Binary Tree without using Recusrsion](ds/Height_Of_Binary_Tree_Non_Recursive.cpp)
 - [Print all Root to Leaf paths of Given Binary Tree](ds/Binary_Tree_Print_All_Root_To_Leaf_Paths.cpp)
@@ -228,11 +242,18 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Swapping Node of Linked List](ds/Sawpping_Nodes_of_Linked_list-Using_CPP.cpp)
+- [Auto Complete - Using Trie](ds/Auto_complete.cpp)
 - [Append Last N To First](ds/Append_Last_N_To_First.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
+- [Merge Sort- Linked List](ds/MergeSortLL.cpp)
+- [Remove all Duplicated from Sorted Linked List](ds/Remove_all_Duplicates_from_Linnkedlist.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
-
+- [First Fit memory Allocation](ds/first_fit.cpp)
+- [Best Fit memory Allocation](ds/best_fit_memory.cpp)
+- [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
+- [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
 
 ## Graphs
 
@@ -281,6 +302,7 @@
 - [Top view of Tree](graphs/top_view_binary_tree.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
+- [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
 
 ## Searching
 
@@ -348,6 +370,7 @@
 - [Next smallest element to the right](stack/nextSmallestToRight.cpp)
 - [Smallest element in an array](stack/smallest_element_in_an_array.cpp)
 - [Sort stack using recursion](stack\Sort_stack_using_recursion.cpp)
+- [Cloning stack without extra space ](stack\clone_a_stack_without_usinig_extra_space.cpp)
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
@@ -374,12 +397,13 @@ _add list here_
 - [Binary Exponentiation](math/Binary_Exponentiation.cpp)
 - [Catalan number](math/catalan_num.cpp)
 - [Check if a Number is a Palindrome](math/check_palindrome.cpp)
-- [Counting divisors using sieve of Eratosthenes](maths/counting_divisors_using_sieve_of_eratosthenes.cpp)
+- [Counting divisors using sieve of Eratosthenes](math/counting_divisors_using_sieve_of_eratosthenes.cpp)
 - [Difference_of_Two_Strings](math/Difference_of_Two_Strings.cpp)
 - [Double factorial](math/double_factorial.cpp)
 - [Euler's_Totient_Function](math/Euler's_Totient_function.cpp)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.cpp)
 - [Factorial Space Optimized](math/factorial_space_optimized.cpp)
+- [Fibonacci without Recursion](math/fibonacci_space_optimized.cpp)
 - [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
@@ -419,9 +443,13 @@ _add list here_
 - [Automorphic Number](math/automorphic_number.cpp)
 - [Roman to Integer](math/Roman_To_Integer.cpp)
 - [Strong Number](math/Strong_Number.cpp)
+- [Lucas Number](math/LucasSeries.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
+- [Lucky Number](math/LuckyNumber.cpp)
+- [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
+- [Next Prime Number](math/next_prime_number.cpp)
 
 ## Dynamic Programming
 
@@ -437,7 +465,6 @@ _add list here_
 - [Longest common sub sequence](dp/longest_increasing_subsequence.cpp)
 - [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.cpp)
 - [Longest increasing subsequence](dp/longest_increasing_subsequence.cpp)
-- [Matrix Chain Multiplication](dp/Matrix_Chain_Multiplication.cpp)
 - [Maximum Subarray Sum (Constant Space)](<dp/Max_subarray_sum_constant_space(DP).cpp>)
 - [Maximum Sum Rectangle](dp/max_sum_rectangle.cpp)
 - [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.cpp)
@@ -475,7 +502,11 @@ _add list here_
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Average Submatrix > K](dp/avg_submatrix_k.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
+- [Interleaving strings](dp/Interleaving_strings.cpp)
+- [Minimum Insertion Steps to make string palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.cpp)
 
 ## Bit - Manipulation
 
@@ -494,6 +525,7 @@ _add list here_
 - [Find duplicate elements using XOR](Bit--Manipulation/Find_duplicate_elements_using_XOR.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 - [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
+- [Minimum XOR value](Bit--Manipulation/Minimum_XOR_Value.cpp)
 
 ## Blockchain
 
@@ -550,7 +582,7 @@ _add list here_
 - [Rabin Karp Algorithm (using rolling hash)](other/Rabin_Karp_Algorithm_using_rolling_hash.cpp)
 - [Rabin Karp Algorithm (using prefix sum)](other/Rabin_Karp_Algorithm_using_prefix_sum.cpp)
 - [Remove Outermost Parantheses](other/remove_outermost_parenthesis.cpp)
-- [Rotate by one](other/Rotate_by_one.cpp)
+- [Inplace rotation of matrix by 90 degree](other/Rotate_by_90.cpp)
 - [Russian Peasant Algorithm](other/RussianPeasantAlgo.cpp)
 - [Sliding Window Technique](other/Calculate_max_sum_of_k_consecutive_elements.cpp)
 - [String Rotation based on Queries](other/string_rotation.cpp)
@@ -596,3 +628,6 @@ _add list here_
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
 - [Majority_Element_Using_Binary_Search](other/Majority_Element_using_Binary_Search.cpp)
+- [Zig Zag Array(unsorted)](other/zig-zag_array_unsorted.cpp)
+- [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)
+- [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)

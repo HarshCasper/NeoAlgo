@@ -40,6 +40,9 @@
 - [Recursive postorder traversal of binary search tree](./ds/Recursive_postorder.js)
 - [Infix to Postfix Conversion](./ds/infixtopostfix.js)
 - [Infix to Prefix Conversion](./ds/infixtoprefix.js)
+- [Postfix expression evaluator](./ds/postfixevaluator.js)
+- [Infix expression evaluator](./ds/infixevaluator.js)
+
 
 ## Searching
 
@@ -69,6 +72,7 @@
 - [Comb Sort](./sort/CombSort.js)
 - [Gnome Sort](./sort/GnomeSort.js)
 - [WaveForm Sort](./sort/WaveFormSort.js)
+- [Shaker Sort](./sort/ShakerSort.js)
 
 ## Machine Learning
 
@@ -88,6 +92,8 @@ _add list here_
 - [Matrix Multiplication](./math/Matrix_multiplication.js)
 - [Matrix addition](./math/Matrix_addition.js)
 - [Neon Number](./math/NeonNumber.js)
+- [Happy Number](./math/HappyNumber.js)
+- [Perfect Number](./math/Perfect_Number.js)
 
 ## Competitive Programming
 

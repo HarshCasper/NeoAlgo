@@ -74,7 +74,8 @@
 - [Sparse Matrix using Linked List](ds/Sparse_Matrix.c)
 - [Leaf Nodes in Binary Search Tree](ds/Leaf_Nodes_BST.c)
 - [Hash Table using Linear Probing](ds/Hash_Table.c)
-- [Tower of Hanoi].(ds/tower_of_hanoi.c)
+- [Tower of Hanoi](ds/tower_of_hanoi.c)
+
 
 ## Searching
 

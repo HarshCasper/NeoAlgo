@@ -43,24 +43,63 @@ class Graph:
                 e = e + 1
                 result.append([u, v, w])
                 self.apply_union(parent, rank, x, y)
+        print("Edge  : Weight")
         for u, v, weight in result:
-            print("%d - %d: %d" % (u, v, weight))
+            print("%d - %d : %d" % (u, v, weight))
+
+if __name__ == '__main__':
+  g = Graph(6)
+  for i in range(8):
+      src = int(input("Source : "))
+      dest = int(input("Destination : "))
+      weight = int(input("Weight : "))
+      g.add_edge(src,dest,weight)
+  
+  g.kruskal_algo()
 
 
-g = Graph(6)
-g.add_edge(0, 1, 4)
-g.add_edge(0, 2, 4)
-g.add_edge(1, 2, 2)
-g.add_edge(1, 0, 4)
-g.add_edge(2, 0, 4)
-g.add_edge(2, 1, 2)
-g.add_edge(2, 3, 3)
-g.add_edge(2, 5, 2)
-g.add_edge(2, 4, 4)
-g.add_edge(3, 2, 3)
-g.add_edge(3, 4, 3)
-g.add_edge(4, 2, 4)
-g.add_edge(4, 3, 3)
-g.add_edge(5, 2, 2)
-g.add_edge(5, 4, 3)
-g.kruskal_algo()
+'''
+Sample Input :
+Source : 0
+Destination : 1
+Weight : 4 
+Source : 0 
+Destination : 2 
+Weight : 4 
+Source : 1 
+Destination : 2 
+Weight : 2 
+Source : 2 
+Destination : 3 
+Weight : 3 
+Source : 2 
+Destination : 5 
+Weight : 2 
+Source : 2 
+Destination : 4 
+Weight : 4 
+Source : 3 
+Destination : 4 
+Weight : 3 
+Source : 5 
+Destination : 4 
+Weight : 3
+
+Sample Output:
+
+Edge : Weight
+
+1 - 2 : 2
+
+2 - 5 : 2
+
+2 - 3 : 3
+
+3 - 4 : 3
+
+0 - 1 : 4
+
+Let E denote the number of Edges and V denote the number of Vertices.
+Time Complexity: `O(E log V)`
+Space Complexity: `O(E+V)`
+'''

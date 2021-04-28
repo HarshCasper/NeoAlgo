@@ -332,6 +332,7 @@
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
 - [Sum of Digits of a Number](math/sum_of_digits.py)
+- [Sterns Diatomic Series](math/sterns_diatomic_series.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)

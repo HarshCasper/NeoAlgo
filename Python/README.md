@@ -309,6 +309,7 @@
 
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
+- [Delannoy Number](math/delannoy_number.py)
 - [Least Common Multiple (LCM)](math/Least_common_multiple.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
@@ -331,6 +332,7 @@
 - [Palindrome](math/Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
 - [Sum of Digits of a Number](math/sum_of_digits.py)
+- [Sterns Diatomic Series](math/sterns_diatomic_series.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
@@ -360,6 +362,9 @@
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
 - [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.py)
+- [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.py)
+- [Check Collinearity of Three Points](Bit--Manipulation/check_collinearity_of_three_points.py)
+- [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.py)
 
 ## Blockchain
 
@@ -395,6 +400,7 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Triplet Sum in Array](other/TripletSumValue.py)
 - [Longest Consecutive Subsequence](other/Longest_Consecutive_Subsequence.py)
 - [Maximum Product Subarray](other/Maximum_Product_Subarray.py)
 - [Rearrange the negative and positive elements](other/Rearrange_the_neagtive_positive_element.py)

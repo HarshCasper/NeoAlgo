@@ -42,7 +42,6 @@ int get_connected_components(int nodes)
             dfs(i, nodes);
             connected_components++;
         }
-
     }
     return connected_components;
 }
@@ -50,10 +49,10 @@ int get_connected_components(int nodes)
 int main()
 {
     printf( "Enter the nodes of the graph :\n");
-	int nodes;
-	scanf("%d",&nodes);
-	printf( "Enter the adjacency matrix :\n");
-	for(int i = 1; i <= nodes; i++)
+    int nodes;
+    scanf("%d",&nodes);
+    printf( "Enter the adjacency matrix :\n");
+    for(int i = 1; i <= nodes; i++)
     {
         for(int j = 1; j <= nodes; j++)
         {

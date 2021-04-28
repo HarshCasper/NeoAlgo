@@ -28,6 +28,7 @@
 - [Linked List](./ds/LinkedList.js)
 - [Dynamic Linked List](./ds/DynamicLinkedList.js)
 - [Doubly Linked List](./ds/DoublyLinkedList.js)
+- [Circular Singly Linked List](./ds/CircularSinglyLinkedList.js)
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Queue using Linked List](./ds/QueueLinkedList.js)
@@ -73,6 +74,7 @@
 - [Gnome Sort](./sort/GnomeSort.js)
 - [WaveForm Sort](./sort/WaveFormSort.js)
 - [Shaker Sort](./sort/ShakerSort.js)
+- [Pancake Sort](./sort/PancakeSort.js)
 
 ## Machine Learning
 

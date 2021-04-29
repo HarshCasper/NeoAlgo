@@ -99,3 +99,5 @@
 - [PlayFair Cipher](cryptography/PlayFair_Cipher)
 - [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform)
 
+## Graphs
+- [Topological Sorting](graphs/topological_sort)

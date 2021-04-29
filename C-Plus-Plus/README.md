@@ -256,6 +256,7 @@
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 - [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
+- [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 
 ## Graphs
 

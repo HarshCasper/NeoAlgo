@@ -420,5 +420,6 @@ _add list here_
 - [Merge Interval](other/merge_interval.py)
 - [Kth index removal](other/stringkth.py)
 - [Display all possible keypad sequences for a given number](other/KeypadSequence.py)
+- [Arrange The String](other/Arrange_The_String.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

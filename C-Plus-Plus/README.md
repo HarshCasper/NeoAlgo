@@ -131,6 +131,7 @@
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
 - [Busy Man](cp/busy_man.cpp)
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
+- [Lee Algorithm](cp/Lee_Algorithm.cpp)
 
 ## Data Structures
 

@@ -25,6 +25,7 @@ using namespace std;
 
 int WordLadder(string startWord, string endWord, vector<string>& s) {
         
+        // endword is not in the WordList
         if(find(s.begin(), s.end(),endWord)==s.end())
             return 0;
         
@@ -43,6 +44,7 @@ int WordLadder(string startWord, string endWord, vector<string>& s) {
             
              string temp=p.first;
              
+             // count of words in sequence
             int count=p.second;
             
             q.pop();

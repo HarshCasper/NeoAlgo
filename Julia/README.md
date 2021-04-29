@@ -33,6 +33,7 @@
 - [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.jl)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.jl)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.jl)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.jl)
 - [Subset Sum Problem](dp/subset_sum.jl)
 
 ## Mathematics
@@ -40,15 +41,21 @@
 - [Armstrong Number](math/armstrong_number.jl)
 - [Automorphic Number](math/automorphic_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
+- [Delannoy Number](math/delannoy_number.jl)
 - [Perfect Number](math/perfect_number.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
+- [Lucas Number](math/lucas_number.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
 - [Number of Digits](math/number_of_digits.jl)
 - [Noble Integer](math/noble_integer.jl)
 - [Magic Number](math/magic_number.jl)
 - [Mystery Number](math/mystery_number.jl)
 - [Neon Number](math/neon_number.jl)
+- [Reverse a Number](math/reverse_number.jl)
+- [Strong Number](math/strong_number.jl)
 - [Sum of Digits](math/sum_of_digits.jl)
+- [Sum of Divisors](math/sum_of_divisors.jl)
+- [Stern's Diatomic Series](math/sterns_diatomic_series.jl)
 - [Tower of Hanoi](math/towerOfHanoi.jl)
 
 ## Searching
@@ -73,3 +80,9 @@
 ## Bit Manipulation
 
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.jl)
+- [Reverse bits of a Number](Bit--Manipulation/reverse_bits.jl)
+- [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.jl)
+- [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.jl)
+- [Toggle Kth Bit](Bit--Manipulation/toggle_kth_bit.jl)
+- [Minimum XOR Value](Bit--Manipulation/minimum_xor_value.jl)
+

@@ -57,6 +57,6 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 This project follows the [MIT License](/LICENSE).
 
-## Slack
+## Discord
 
-[![Slack](https://img.shields.io/badge/chat-on_slack-purple.svg?style=for-the-badge&logo=slack)](https://join.slack.com/t/tesseractcodi-bxq5968/shared_invite/zt-ju6c0nqq-KgkTvFyxjNVbDRBIjADanw)
+[![Discord](https://img.shields.io/discord/829038891611717753?color=7389DA&label=Discord&logo=Discord&logoColor=FFF&style=for-the-badge)](https://discord.com/invite/nUGcHHMy26)

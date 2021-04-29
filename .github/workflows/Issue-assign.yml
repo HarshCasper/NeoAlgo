@@ -19,6 +19,6 @@ jobs:
         uses: JasonEtco/slash-assign-action@v0.0.3
         with:
           assigned_label: Assigned
-          days_until_warning: 7
-          days_until_unassign: 14
+          days_until_warning: 5
+          days_until_unassign: 7
           stale_assignment_label: Open

@@ -162,6 +162,9 @@
 - [Defend Kingdom](cp/defend_kingdom.cpp)
 - [Snakes and Ladders](cp/snakes_and_ladders.cpp)
 - [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
+- [Graph on an array](cp/graph_on_an_array.cpp)
+- [Chopsticks Problem](cp/chopsticks.cpp)
+
 
 ## Data Structures
 

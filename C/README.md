@@ -65,6 +65,7 @@
 
 ## Data Structures
 
+- [AVL Tree](ds/AVL_tree.c)
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
@@ -126,6 +127,7 @@
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
+- [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
 
 ## Searching
 
@@ -201,6 +203,7 @@
 
 - [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
+- [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
 
 ## Computational Geometry
 
@@ -249,6 +252,7 @@ _add list here_
 - [Polynomial Addition](math/polynomial_addition.c)
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
+- [Pronic Number](math/Pronic_numbers.c)
 
 ## Operating System
 

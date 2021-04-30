@@ -97,7 +97,7 @@
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
 - [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
-- [Stack Using Queue](ds/StackUsingQueue.c) 
+- [Stack Using Queue](ds/StackUsingQueue.c)
 - [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Reverse Linked List](ds/reverse_linked_list.c)
@@ -124,7 +124,10 @@
 - [Worst Fit Memory allocation](ds/worst_fit_memory.c)
 - [Best Fit Memory allocation](ds/best_fit_memory.c)
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
+- [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
+- [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+
 ## Searching
 
 - [Binary Search](search/Binary_search.c)
@@ -166,6 +169,7 @@
 - [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
 - [Quick Sort](sort/quickSort.c)
 - [Wiggle Sort](sort/Wiggle_sort.c)
+- [Gnome Sort](sort/GnomeSort.c)
 
 ## Dynamic Programming
 
@@ -192,6 +196,15 @@
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
+- [Warshall Algorithm](graphs/warshall.c)
+
+## Bit - Manipulation
+
+- [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
+
+## Computational Geometry
+
+- [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.c)
 
 ## Machine Learning
 
@@ -216,12 +229,12 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Krishnamurthy Number](math/krishnamurthy_number.c)
-- [Strong Number](math/strong_number.c) 
+- [Strong Number](math/strong_number.c)
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
 - [Number of Digits](math/number_of_digits.c)
-- [Magic Number](math/Magic_Number.c) 
+- [Magic Number](math/Magic_Number.c)
 - [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Subtraction](math/matrix_subtraction.c)
@@ -236,6 +249,7 @@ _add list here_
 - [Polynomial Addition](math/polynomial_addition.c)
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
+- [Pronic Number](math/Pronic_numbers.c)
 
 ## Operating System
 

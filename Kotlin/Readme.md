@@ -13,6 +13,10 @@
 
 - [Bit Operations](BitManipulation/BasicBitOperations.kt)
 
+## Competitive Programming
+
+- [ReverseString](cp/ReverseString.kt)
+
 ## Sorting Algorithms
 
 - [Bubble Sort](sort/BubbleSort/src/BubbleSort.kt)
@@ -20,6 +24,7 @@
 - [Insertion Sort](sort/InsertionSort/src/InsertionSort.kt)
 - [Merge Sort](sort/MergeSort/src/MergeSort.kt)
 - [Radix Sort](sort/RadixSort/src/RadixSort.kt)
+- [Quick Sort](sort/QuickSort/src/QuickSort.kt)
 
 ## Maths
 
@@ -30,6 +35,10 @@
 - [Palindrome Number](Maths/PalindromeNumber.kt)
 - [Fibonacci Number](Maths/FibonacciNumber.kt)
 - [Happy Number](Maths/HappyNumber.kt)
+- [Gray to Decimal and Decimal to Gray](Maths/GraytoDecimalandDecimaltoGray.kt)
+- [Tower of Hanoi](Maths/TowerofHanoi.kt)
+- [Factorial](Maths/Factorial.kt)
+
 
 ## Searching Algorithms
 

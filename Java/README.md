@@ -25,12 +25,15 @@
 - [Activity Selection](Greedy_Algorithms/Active_Selection.java)
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 - [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
+- [Dijsktra Algorithm](Greedy_Algorithms/Dijsktra.java)
 ## Blockchain
 
 _add list here_
 
 ## Competitive programming
 
+- [Count total words in String](cp/Count_Words.java)
+- [Intersection of Two Arrays](cp/Intersection_of_Two_Arrays.java)
 - [Prime Number in a range](cp/Prime_range.java)
 - [Identical Words](cp/Identical_Words.java)
 - [Meetings](cp/Meetings.java)
@@ -68,6 +71,7 @@ _add list here_
 - [Factorial of large numbers](cp/Factorial_large_numbers.java)
 - [Happiness Problem (cp sets question)](cp/HappinessProblem.java)
 - [Prime Number With Recursion](cp/PrimeRecursion.java)
+- [Prefix Sum of Array](cp/prefix_sum.java)
 - [Prime Number without Recursion](cp/Prime.java)
 - [Suduko Solver](cp/SudukoSolver.java)
 - [Ugly Number With Recursion](cp/UglyRecursion.java)
@@ -100,7 +104,9 @@ _add list here_
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 - [Rat In A Maze](cp/RatInAMaze.java)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
+- [Ckeck for Subarray with sum 0](cp/SubarraySumZero.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
+- [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
 
 ## Cryptography
 
@@ -129,6 +135,7 @@ _add list here_
 - [Finding_shortest_path_for_multistaged_graph](dp/Finding_shortest_path_for_multistaged_graph.java)
 - [Rod Cutting Problem](dp/Rod_Cutting.java)
 - [Flight of stairs](dp/FlightOfStairs.java)
+- [Minimum Cost Path](dp/MinimumCostPath.java)
 - [Egg Dropping Problem](dp/EggDroppingProblem.java)
 
 ## Data Structures
@@ -138,7 +145,7 @@ _add list here_
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Find the LCA(Least Common Ancestor) in a Binary Search Tree](ds/LCAofaBST.java)
 - [Node to Root Path in a Binary Tree](ds/NodetoRootPath.java)
-- [Detect Loop in Linked List](DetectLoopLL.java)
+- [Detect Loop in Linked List](ds/DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
 - [Expression Tree from Postfix Expression](ds/Build_Expression_Tree.java)
 - [Huffman ENcoder](ds/Huffman.java)
@@ -171,6 +178,11 @@ _add list here_
 - [Circular Queue](ds/CircularQueue.java)
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 - [Minimum Element in Stack](ds/Min_Element_In_Stack.java)
+- [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
+- [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
+- [Worst fit memory allocation](ds/Worstfit.java)
+- [First fit memory allocation](ds/Firstfit.java)
+- [Best fit memory allocation](ds/Bestfit.java)
 
 ## Graphs
 
@@ -184,16 +196,21 @@ _add list here_
 - [Prim's Algorithm](graphs/Prim_Algorithm.java)
 - [Directed Graph Cycle Detection](graphs/DirectedCycleDetection.java)
 - [Topological Sort in Directed Acyclic Graph (DAG)](graphs/TopologicalSort.java)
+- [Left view of binary tree](graphs/left_view_binary_tree.java)
 - [Bipartite Check](graphs/BipartiteCheck.java)
 - [Articulation_Point](graphs/Articulation_Point.java)
+- [Laplacian matrix for Undirected graph](graphs/LaplacianMatrix.java)
 
 ## Mathematics
 
 - [Count Number Of Digits](math/countDigits)
+- [Smallest Prime Factor](math/smallest_prime_factor.java)
 - [Euler's Totient Function](math/Euler's_Totient_function.java)
 - [Iterative](math/countDigits/iterative.java)
 - [Recursive](math/countDigits/recursive.java)
+- [Check whether a number is power of 2](math/check_whether_a_number_is_power_of_2.java)
 - [String Method](math/countDigits/stringmethod.java)
+- [Sum of Divisors](math/sum_of_divisors.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)
 - [Complex numbers](math/Complex.java)
 - [Double Factorial](math/DoubleFactorial.java)
@@ -203,14 +220,17 @@ _add list here_
 - [Sieve of Eratosthenes](math/SieveOfEratosthenes.java)
 - [Sum of Digit in a Number](math/SumOfDigit.java)
 - [Armstrong number](math/ArmstrongNumber.java)
+- [Number of Divisors](math/number_of_divisors.java)
 - [Catalan Number](math/CatalanNumber.java)
 - [Palindrome Number Using Recursion](math/PalindromeRecursion.java)
 - [Strong Number Using Recursion](math/check_strong_number.java)
 - [Factorial Using Big Integer](math/Big_Integer_Factorial.java)
+- [Factorial Using BigInteger](math/FactorialUsingBigInteger.java)
+- [HCF of two number](math/HCFOfTwoNumber.java)
 - [Polynomial Sum & Product using Linked Lists](math/polynomial.java)
-- [Neon number](Neon_number.java)
+- [Neon number](math/Neon_number.java)
 - [Ascii of string](math/AsciiOfString.java)
-- [Roots of Quadratic Equation](Quadratic_Equation.java)
+- [Roots of Quadratic Equation](math/Quadratic_Equation.java)
 - [Printing all Good Numbers ina a given range](math/good_number.java)
 - [Transpose of Matrix](math/Matrix_Transpose.java)
 - [Tribonacci series upto n terms](math/tribonacci.java)
@@ -220,6 +240,12 @@ _add list here_
 - [Mystery Number](math/MysteryNumber.java)
 - [Perfect Number](math/Perfect_Number.java)
 - [Matrix Multiplication](math/Matrix_multiplication.java)
+- [Lucas Theorem](math/lucastheorem.java)
+- [Factorial of a Number](math/Factorial.java)
+- [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
+- [Lucky Number](math/LuckyNumber.java)
+- [Special Number](math/Special.java)
+
 
 ## Dynamic Programming
 
@@ -229,6 +255,7 @@ _add list here_
 - [Longest common subsequence of Three Strings](dp/LCSThreeStrings.java)
 - [Maximum sum rectangle of 2D array](dp/MaximumSumRectangle.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
+- [K Ordered LCS](dp/KOrderedLCS.java)
 - [CoinChange DP](dp/Coin_Change.java)
 - [Coin Change Problem Using DP](dp/CoinChangeUsingDp.java)
 - [Rectangle Cutting Using DP](dp/Rectangle_cutting.java)
@@ -240,6 +267,7 @@ _add list here_
 - [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
 - [Subset Sum to Target](dp/SubsetSumToTarget.java)
 - [Dice Throw Problem](dp/DiceThrow.java)
+- [Word Wrap Problem](dp/WordWrapProblem.java)
 
 
 ## Blockchain
@@ -280,6 +308,7 @@ _add list here_
 - [Shell Sort](sort/ShellSort.java)
 - [Sleep Sort](sort/SleepSort.java)
 - [Comb Sort](sort/CombSort_implementation.java)
+- [Tree Sort](sort/TreeSort.java)
 
 ## Machine Learning
 
@@ -297,15 +326,19 @@ _add list here_
 
 ## Other
 
+- [Smallest and longest Substring with given length](other/smallest_and_longest_SubString.java)
 - [3 sum closest to target](other/3sum_closest_to_target.java)
 - [All possible codes](other/LetterCodeRecursion.java)
 - [Find the numbers](other/FindNumbers.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Insert Position](other/InsertPosition.java)
+- [Is Symmetric Tree](other/Is_symmetric_tree.java)
+- [Keys and rooms for entry](other/Key_n_room.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
+- [N Knight Kill](other/NKnightKill.java)
 - [One plus to the whole](other/OnePlustoWhole.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
@@ -319,13 +352,22 @@ _add list here_
 - [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)
+- [Unique Number in an Array using Bitmasking](other/UniqueNumberBitmasking.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
+- [Maximum Consecutive Ones](other/max_consecutive_ones.java)
 - [Adjacent Element Product](other/AdjacentElementProduct.java)
 - [Infix to Prefix Expression](other/InfixtoPrefix.java)
 - [Infix to Postfix Expression](other/InfixToPostfix.java)
 - [Pair programmers productivity problem](other/Pair_programmers_productivity_problem.java)
 - [Union of two Unsorted Arrays](other/UnionUnsortedArray.java)
 - [Repeating and missing number](other/Repeating_and_missing_number.java)
+- [Generate Parentheses](other/GenerateParentheses.java)
+- [Blocked Maze](other/BlockedMaze.java)
+- [Knights Tour](other/KnightsTour.java)
+- [Word Ladder](other/WordLadder.java)
+- [Linear probing in java](other/linearProbing.java)
+- [Longest Consecutive Sequence](other/Longest_Consecutive_Squence.java)
+- [Quadratic probing in java](other/quadraticProbing.java)

@@ -454,6 +454,7 @@ _add list here_
 - [Lucky Number](math/LuckyNumber.cpp)
 - [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
+- [Pronic Number](math/Pronic_numbers.cpp)
 
 ## Dynamic Programming
 

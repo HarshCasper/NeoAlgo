@@ -121,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Power Of Numbers](cp/Power_of_numbers.cpp)
 - [Geek-onacci Number](cp/Geek-onacci_Number.cpp)
 - [Game with nos](cp/Game_with_nos.cpp)
 - [Rotate Doubly linked list by given node](cp/Rotate_doubly_linked_list_by_given_node.cpp)
@@ -154,10 +155,13 @@
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
 - [Baised Standings](cp/baised_standings.cpp)
+- [Addition of Numbers representing in form of Linked List](cp/Addition_of_2_numbers_representing_Linked_list.cpp)
 - [Find total paths for robot](cp/robot_paths.cpp)
 - [Wine Selling](cp/wines_problem.cpp)
 - [Mean after removing Kth percent smallest and largest elements](cp/Mean_after_removing_Kth_smallest_and_largest_elements.cpp)
 - [Defend Kingdom](cp/defend_kingdom.cpp)
+- [Snakes and Ladders](cp/snakes_and_ladders.cpp)
+- [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
 
 ## Data Structures
 
@@ -256,6 +260,9 @@
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 - [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
+- [BFS of Binary Tree](ds/BFS_Binary_Tree.cpp)
+- [Prefix to Postfix Conversion](ds/prefix-to-postfix.cpp)
+- [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
 
 ## Graphs
 
@@ -452,6 +459,8 @@ _add list here_
 - [Lucky Number](math/LuckyNumber.cpp)
 - [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
+- [Polynomial addition](math/polynomial_addition.cpp)
+- [Pronic Number](math/Pronic_numbers.cpp)
 
 ## Dynamic Programming
 

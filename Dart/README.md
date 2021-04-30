@@ -46,6 +46,7 @@
 
 ## Sorting
 
+- [Bead Sort](sort/BeadSort.dart)
 - [Bubble Sort](sort/BubbleSort.dart)
 - [Bucket Sort](sort/BucketSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)

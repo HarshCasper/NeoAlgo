@@ -18,7 +18,6 @@
 - [Anagram Program](cp/anagram_program.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Finding possible codes using recursion ](cp/possible_code_recursion.c)
-- [Linear Search](search/linear_search.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
 - [Painter Partition Problem](cp/painter_partition.c)
 - [Random Search Monte Carlo version](search/random_search.c)
@@ -43,6 +42,9 @@
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
 - [Trapping rain water](cp/Trapping_rain_water.c)
+- [Max Consecutive Ones](cp/max_consecutive_ones.c)
+- [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
+- [Bigmod Algorithm](cp/bigmod_algorithm.c)
 
 ## Cryptography
 
@@ -57,6 +59,9 @@
 - [Hill Cipher](cryptography/Hill_Cipher.c)
 - [Playfair Cipher](cryptography/PlayFairCipher.c)
 - [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform.c)
+- [Check for subsequence](other/check_for_subsequence.c)
+- [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
+- [Sudoku Solver](other/SudokuSolver.c)
 
 ## Data Structures
 
@@ -92,7 +97,7 @@
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
 - [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
-- [Stack Using Queue](ds/StackUsingQueue.c) 
+- [Stack Using Queue](ds/StackUsingQueue.c)
 - [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Reverse Linked List](ds/reverse_linked_list.c)
@@ -119,7 +124,10 @@
 - [Worst Fit Memory allocation](ds/worst_fit_memory.c)
 - [Best Fit Memory allocation](ds/best_fit_memory.c)
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
+- [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
+- [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+
 ## Searching
 
 - [Binary Search](search/Binary_search.c)
@@ -161,6 +169,7 @@
 - [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
 - [Quick Sort](sort/quickSort.c)
 - [Wiggle Sort](sort/Wiggle_sort.c)
+- [Gnome Sort](sort/GnomeSort.c)
 
 ## Dynamic Programming
 
@@ -171,7 +180,7 @@
 - [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.c)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.c)
-- [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
+- [N-Queen](dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.c)
@@ -187,6 +196,15 @@
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
+- [Warshall Algorithm](graphs/warshall.c)
+
+## Bit - Manipulation
+
+- [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
+
+## Computational Geometry
+
+- [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.c)
 
 ## Machine Learning
 
@@ -211,12 +229,12 @@ _add list here_
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Krishnamurthy Number](math/krishnamurthy_number.c)
-- [Strong Number](math/strong_number.c) 
+- [Strong Number](math/strong_number.c)
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
 - [Number of Digits](math/number_of_digits.c)
-- [Magic Number](math/Magic_Number.c) 
+- [Magic Number](math/Magic_Number.c)
 - [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Subtraction](math/matrix_subtraction.c)
@@ -231,6 +249,7 @@ _add list here_
 - [Polynomial Addition](math/polynomial_addition.c)
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
+- [Pronic Number](math/Pronic_numbers.c)
 
 ## Operating System
 
@@ -257,25 +276,6 @@ _add list here_
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
-
-## CP
-
-- [Activity Selection](cp/Activity_selection.c)
-- [Max Consecutive Ones](cp/max_consecutive_ones.c)
-- [Anagram Program](cp/anagram_program.c)
-- [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
-- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
-- [Max Sub Array Sum](cp/maxSubArraySum.c)
-- [Bigmod Algorithm](cp/bigmod_algorithm.c)
-- [Sum of Triplet](cp/sum_of_triplet.c)
-
-## Cryptography
-
-- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
-- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
-- [Check for subsequence](other/check_for_subsequence.c)
-- [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
-- [Sudoku Solver](other/SudokuSolver.c)
 
 ## Blockchain
 

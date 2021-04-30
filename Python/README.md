@@ -133,6 +133,7 @@
 - [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 - [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
 - [Trapping rain water](cp/Trapping_rain_water.py)
+- [Generating Power Set](cp/Generating_Power_Set.py)
 
 ## Cryptography
 
@@ -259,6 +260,7 @@
 - [Depth First Search](graphs/DFS.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
 - [Rotten Oranges](graphs/Rotten_Oranges.py)
+- [Top view of binary tree](graphs/top_view_binary_tree.py)
 
 ## Competitive Programming
 
@@ -308,6 +310,8 @@
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
+- [Bell State creation](ml/Bell_state_creation.ipynb)
+
 
 ## Mathematics
 
@@ -360,6 +364,7 @@
 - [Harshad Number](math/HarshadNumber.py)
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
+- [Pronic Number](math/Pronic_numbers.py)
 
 ## Bit Manipulation
 

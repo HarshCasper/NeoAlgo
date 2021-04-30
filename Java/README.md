@@ -180,7 +180,6 @@ _add list here_
 - [Minimum Element in Stack](ds/Min_Element_In_Stack.java)
 - [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
-- [Worst fit memory allocation](ds/Worstfit.java)
 - [First fit memory allocation](ds/Firstfit.java)
 - [Best fit memory allocation](ds/Bestfit.java)
 

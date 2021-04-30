@@ -121,6 +121,8 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Geek-onacci Number](cp/Geek-onacci_Number.cpp)
+- [Game with nos](cp/Game_with_nos.cpp)
 - [Rotate Doubly linked list by given node](cp/Rotate_doubly_linked_list_by_given_node.cpp)
 - [Find transition point](cp/Find_transition_point.cpp)
 - [Doubling the value](cp/Doubling_the_value.cpp)
@@ -152,9 +154,13 @@
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
 - [Baised Standings](cp/baised_standings.cpp)
+- [Addition of Numbers representing in form of Linked List](cp/Addition_of_2_numbers_representing_Linked_list.cpp)
 - [Find total paths for robot](cp/robot_paths.cpp)
 - [Wine Selling](cp/wines_problem.cpp)
+- [Mean after removing Kth percent smallest and largest elements](cp/Mean_after_removing_Kth_smallest_and_largest_elements.cpp)
 - [Defend Kingdom](cp/defend_kingdom.cpp)
+- [Snakes and Ladders](cp/snakes_and_ladders.cpp)
+- [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
 
 ## Data Structures
 
@@ -223,6 +229,7 @@
 - [Maximum Element of Binary Tree](ds/Maximum_Element_of_Binary_Tree.cpp)
 - [Maximum Sum Level Of Binary Tree](ds/Max_Sum_Level_Of_Binary_Tree.cpp)
 - [Symmetric Binary Tree or Not](ds/Symmetric_Binary_Tree.cpp)
+- [Sort linked list of zeros, ones and twos](ds/sort_list_of_0s_1s_2s.cpp)
 - [Vertical Order Traversal Of Binary Tree](ds/vertical_order_traversal_BinaryTree.cpp)
 - [Height of Binary Tree without using Recusrsion](ds/Height_Of_Binary_Tree_Non_Recursive.cpp)
 - [Print all Root to Leaf paths of Given Binary Tree](ds/Binary_Tree_Print_All_Root_To_Leaf_Paths.cpp)
@@ -240,16 +247,21 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Swapping Node of Linked List](ds/Sawpping_Nodes_of_Linked_list-Using_CPP.cpp)
 - [Auto Complete - Using Trie](ds/Auto_complete.cpp)
 - [Append Last N To First](ds/Append_Last_N_To_First.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
+- [Merge Sort- Linked List](ds/MergeSortLL.cpp)
 - [Remove all Duplicated from Sorted Linked List](ds/Remove_all_Duplicates_from_Linnkedlist.cpp)
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 - [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
+- [BFS of Binary Tree](ds/BFS_Binary_Tree.cpp)
+- [Prefix to Postfix Conversion](ds/prefix-to-postfix.cpp)
+- [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
 
 ## Graphs
 
@@ -446,6 +458,8 @@ _add list here_
 - [Lucky Number](math/LuckyNumber.cpp)
 - [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
+- [Polynomial addition](math/polynomial_addition.cpp)
+- [Pronic Number](math/Pronic_numbers.cpp)
 
 ## Dynamic Programming
 

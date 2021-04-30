@@ -179,6 +179,9 @@ _add list here_
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 - [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
+- [Worst fit memory allocation](ds/Worstfit.java)
+- [First fit memory allocation](ds/Firstfit.java)
+- [Best fit memory allocation](ds/Bestfit.java)
 
 ## Graphs
 
@@ -329,6 +332,7 @@ _add list here_
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Insert Position](other/InsertPosition.java)
+- [Is Symmetric Tree](other/Is_symmetric_tree.java)
 - [Keys and rooms for entry](other/Key_n_room.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
@@ -365,3 +369,5 @@ _add list here_
 - [Knights Tour](other/KnightsTour.java)
 - [Word Ladder](other/WordLadder.java)
 - [Linear probing in java](other/linearProbing.java)
+- [Longest Consecutive Sequence](other/Longest_Consecutive_Squence.java)
+- [Quadratic probing in java](other/quadraticProbing.java)

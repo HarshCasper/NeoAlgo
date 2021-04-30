@@ -35,6 +35,7 @@
 - [Palindrome Number](Maths/PalindromeNumber.kt)
 - [Fibonacci Number](Maths/FibonacciNumber.kt)
 - [Happy Number](Maths/HappyNumber.kt)
+- [Gray to Decimal and Decimal to Gray](Maths/GraytoDecimalandDecimaltoGray.kt)
 - [Tower of Hanoi](Maths/TowerofHanoi.kt)
 - [Factorial](Maths/Factorial.kt)
 

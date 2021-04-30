@@ -1,3 +1,6 @@
+#include<bitset/stdc++.h>
+using namespace std;
+
 class Container_with_most_Water {
 public:
     int calculate(int i, int j, int x1, int x2){
@@ -5,10 +8,13 @@ public:
         return part1 * abs(j - i);
     }
     
+    //function to clalculate the maximum area
     int maxArea(vector<int>& height) {
         int max = 0;
-        int i = 0;    // left pointer
-        int j = height.size() - 1;    // right pointer
+        // left pointer
+        int i = 0;  
+        // right pointer  
+        int j = height.size() - 1;    
         
         while (i < j){
             int curr = calculate(i,j, height[i], height[j]);
@@ -16,7 +22,8 @@ public:
             if (height[i] < height[j]) i++;     
             else j--;
         }
-        return max;  // Returning maxarea
+         // Returning maxarea
+        return max; 
     }
 };
 

@@ -258,6 +258,7 @@
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 - [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
+- [BFS of Binary Tree](ds/BFS_Binary_Tree.cpp)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.cpp)
 - [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
 

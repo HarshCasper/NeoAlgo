@@ -170,6 +170,7 @@ _add list here_
 - [Double Ended Queue in Java](ds/DEQueue.java)
 - [Circular Queue](ds/CircularQueue.java)
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
+- [Minimum Element in Stack](ds/Min_Element_In_Stack.java)
 
 ## Graphs
 

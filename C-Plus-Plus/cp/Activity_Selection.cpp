@@ -31,7 +31,8 @@ Person can only do 0th and 2nd activities.
 
 using namespace std;
 
-bool compare(pair<int,int> a,pair <int ,int> b)         //made compare function for sorting
+//made compare function for sorting
+bool compare(pair<int,int> a,pair <int ,int> b)         
 {
 	return a.second<b.second;
 }
@@ -39,27 +40,30 @@ bool compare(pair<int,int> a,pair <int ,int> b)         //made compare function 
 int main() 
 {
 	int testcases;
-	
-	cout<<"Enter no. of Testcases:";                      //no.of test cases to be tested
+	 //no.of test cases to be tested
+	cout<<"Enter no. of Testcases:";                     
 	cin>>testcases;
 
 	while(testcases--)
 	{
-		int num,count;                                     //counter for answer
-		count=1;                                           // Initialize count with 1
+		//counter for answer
+		int num,count;  
+		// Initialize count with 1                                   
+		count=1;                                          
 		
 		cout<<"Enter no. of Activities:";
 		cin>>num;
 		
-		pair<int,int>* arr = new pair<int,int>[num];      //An dynamic Array of Pairs
+		 //An dynamic Array of Pairs
+		pair<int,int>* arr = new pair<int,int>[num];     
         
 		cout<<"Enter activities:"<<endl;
 		for(int i=0;i<num;i++)
 		{
 			cin>>arr[i].first>>arr[i].second;
 		}
-
-		sort(arr,arr+num,compare);                        // Inbuilt Sorting Function taking compare function as a parameter 
+		// Inbuilt Sorting Function taking compare function as a parameter 
+		sort(arr,arr+num,compare);                        
 
 		int prev=0;
 
@@ -71,8 +75,8 @@ int main()
 				prev=curr;
 			}
 		}
-		
-        cout<<"Person can do only "<<count<<" activities at a time"<<endl;    //Result
+		//Result
+        cout<<"Person can do only "<<count<<" activities at a time"<<endl;    
 		delete[] arr;  
 	}
 	return 0;

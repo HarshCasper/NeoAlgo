@@ -361,6 +361,7 @@
 - [Harshad Number](math/HarshadNumber.py)
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
+- [Pronic Number](math/Pronic_numbers.py)
 
 ## Bit Manipulation
 

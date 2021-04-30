@@ -144,6 +144,7 @@ _add list here_
 - [Level order traversal of a tree](ds/LevelOrderTraversalRecursion.java)
 - [Check if a Binary Tree is a Binary Search Tree](ds/CheckBST.java)
 - [Find the LCA(Least Common Ancestor) in a Binary Search Tree](ds/LCAofaBST.java)
+- [Fold A Linked List](ds/Fold A Linked List.java)
 - [Node to Root Path in a Binary Tree](ds/NodetoRootPath.java)
 - [Detect Loop in Linked List](ds/DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
@@ -179,7 +180,10 @@ _add list here_
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 - [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
-- [Fold A Linked List](ds/Fold A Linked List.java)
+- [Worst fit memory allocation](ds/Worstfit.java)
+- [First fit memory allocation](ds/Firstfit.java)
+- [Best fit memory allocation](ds/Bestfit.java)
+
 
 ## Graphs
 
@@ -330,6 +334,7 @@ _add list here_
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Insert Position](other/InsertPosition.java)
+- [Is Symmetric Tree](other/Is_symmetric_tree.java)
 - [Keys and rooms for entry](other/Key_n_room.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)

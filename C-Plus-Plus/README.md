@@ -159,6 +159,7 @@
 - [Wine Selling](cp/wines_problem.cpp)
 - [Mean after removing Kth percent smallest and largest elements](cp/Mean_after_removing_Kth_smallest_and_largest_elements.cpp)
 - [Defend Kingdom](cp/defend_kingdom.cpp)
+- [Snakes and Ladders](cp/snakes_and_ladders.cpp)
 - [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
 
 ## Data Structures
@@ -258,6 +259,8 @@
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 - [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
+- [BFS of Binary Tree](ds/BFS_Binary_Tree.cpp)
+- [Prefix to Postfix Conversion](ds/prefix-to-postfix.cpp)
 - [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
 
 ## Graphs
@@ -455,6 +458,7 @@ _add list here_
 - [Lucky Number](math/LuckyNumber.cpp)
 - [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
+- [Polynomial addition](math/polynomial_addition.cpp)
 - [Pronic Number](math/Pronic_numbers.cpp)
 
 ## Dynamic Programming

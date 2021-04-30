@@ -121,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Power Of Numbers](cp/Power_of_numbers.cpp)
 - [Geek-onacci Number](cp/Geek-onacci_Number.cpp)
 - [Game with nos](cp/Game_with_nos.cpp)
 - [Rotate Doubly linked list by given node](cp/Rotate_doubly_linked_list_by_given_node.cpp)
@@ -162,6 +163,8 @@
 - [Snakes and Ladders](cp/snakes_and_ladders.cpp)
 - [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
 - [Graph on an array](cp/graph_on_an_array.cpp)
+- [Chopsticks Problem](cp/chopsticks.cpp)
+
 
 ## Data Structures
 

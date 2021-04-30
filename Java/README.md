@@ -121,6 +121,7 @@ _add list here_
 - [Hill Cipher](cryptography/HillCipher.java)
 - [Vigenere Cipher](cryptography/VigenereCipher.java)
 - [Playfair Cipher](cryptography/PlayFairCipher.java)
+- [Auto Key Cipher](cryptography/AutoKey_Cipher.java)
 
 ## Dynamic Programming
 

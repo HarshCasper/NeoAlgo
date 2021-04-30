@@ -544,6 +544,7 @@ _add list here_
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 - [Keyword Cipher](cryptography/KeywordCipher.cpp)
 - [Hill Cipher](cryptography/HillCipher.cpp)
+- [Auto Key Cipher](cryptography/AutoKey_Cipher.cpp)
 
 ## Computational Geometry
 

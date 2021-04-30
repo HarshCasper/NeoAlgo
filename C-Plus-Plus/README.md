@@ -640,3 +640,4 @@ _add list here_
 - [Zig Zag Array(unsorted)](other/zig-zag_array_unsorted.cpp)
 - [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)
 - [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)
+- [MaxMin Problem](other/MaxMin.cpp)

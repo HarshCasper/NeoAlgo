@@ -196,6 +196,7 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
+- [Number of Connected Components](graphs/number_of_connected_components.c)
 - [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
 - [Warshall Algorithm](graphs/warshall.c)

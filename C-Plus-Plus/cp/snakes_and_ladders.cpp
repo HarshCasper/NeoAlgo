@@ -61,27 +61,30 @@ public:
 
 int main()
 {
-    int board[50]={0};
-    int n;
+    int board[200]={0};
+    int total_jumps;
     cout<<"Enter total number of ladders and snakes present in board: "<<endl;
-    cin>>n;
+    cin>>total_jumps;
     cout<<"Enter the points where the ladders and snakes are present(add negative jump for snakes): "<<endl;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<total_jumps;i++)
     {
         int temp,jump;
         cin>>temp>>jump;
         board[temp]=jump;
     }
-    graph g(50);
+    int board_size;
+    cout<<"Enter board size: "<<endl;
+    cin>>board_size;
+    graph game_board(board_size);
     for(int i=0;i<36;i++)
     {
         for(int dice=1;dice<=6;dice++)
         {
             int v=i+dice+board[i+dice];
-            g.AddEdge(i,v,false);
+            game_board.AddEdge(i,v,false);
         }
     }
-    g.bfs(0,36);
+    game_board.bfs(0,36);
     return 0;
 }
 /*
@@ -101,6 +104,8 @@ Enter the points where the ladders and snakes are present(add negative jump for 
 25 -10
 32 -2
 34 -22
+Enter board size: 
+50
 
 Output:-
 Minimum number of moves: 4

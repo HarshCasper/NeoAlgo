@@ -366,3 +366,4 @@ _add list here_
 - [Word Ladder](other/WordLadder.java)
 - [Linear probing in java](other/linearProbing.java)
 - [Longest Consecutive Sequence](other/Longest_Consecutive_Squence.java)
+- [Quadratic probing in java](other/quadraticProbing.java)

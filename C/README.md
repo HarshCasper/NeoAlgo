@@ -248,6 +248,7 @@ _add list here_
 - [Polynomial Addition](math/polynomial_addition.c)
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
+- [Pronic Number](math/Pronic_numbers.c)
 
 ## Operating System
 

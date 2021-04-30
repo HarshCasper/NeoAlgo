@@ -161,6 +161,7 @@
 - [Defend Kingdom](cp/defend_kingdom.cpp)
 - [Snakes and Ladders](cp/snakes_and_ladders.cpp)
 - [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
+- [Chopsticks](cp/chopsticks.cpp)
 
 ## Data Structures
 

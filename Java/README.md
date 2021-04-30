@@ -354,7 +354,6 @@ _add list here_
 - [Unique Number in an Array using Bitmasking](other/UniqueNumberBitmasking.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)
 - [Set Bits in an Integer](other/SetBitsInInteger.java)
-- [Set Bits in an Integer using Bitmasking](other/SetBitsBitmasking.java)
 - [Find GCD of two Numbers](other/FindGCDOfTwoNo.java)
 - [String Palindrome](other/Palindrome.java)
 - [Maximum Consecutive Ones](other/max_consecutive_ones.java)

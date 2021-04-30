@@ -40,7 +40,17 @@ public:
    }
 };
 main(){
-   vector<vector<int>> sz1 = [[1,2,3], [4,5,6], [7,8,9]];  //put the input from test cases
+   std::vector<vector<int>> sz1;  //Enter the input from user
+   int size,temp;
+   cin>>size;
+   for(int i=0; i< size; i++){
+      vector<int>v1;
+      for(int j=0; j< size; j++){
+         cin>>temp;
+         v1.push_back(temp); 
+      }
+      sz1.push_back(v1);
+   }
    Solution ob;
    print_blocksum(ob.matrixBlockSum(sz1, 1));
 }

@@ -1,6 +1,5 @@
 /*
-Program in C++ to find the maximum product possible by multiplying any two elements of the 
-input Aay that may contain negative numbers using the most optimised algorithm
+Program in C++ to find the maximum product possible by multiplying any two elements of the input array that may contain negative numbers using the most optimised algorithm
 */
 
 #include<bits/stdc++.h>
@@ -17,7 +16,7 @@ int main()
 
     if (n < 2)
     {
-        cout << "There are no pairs\n";
+        cout << "There are no pairs so no pairwise product possible\n";
         return 0;
     }
 
@@ -36,7 +35,7 @@ int main()
     }
     if (n == 2)
     {
-        cout << A[0] << " " << A[1] << endl;
+        cout << "Max product pair is {" << A[0] << ", "<< A[1]<< "}"<<" and product is "<<A[0]*A[1];
         return 0;
         
     }
@@ -46,7 +45,7 @@ int main()
     // Iniitialize minimum and second minimum negative numbers to default min value
     int n_max1 = INT_MIN, n_max2 = INT_MIN;
  
-    // Traverse given Array
+    // Traverse the Array
     for (int i = 0; i < n; i++)
     {
         // Update maximum and second maximum if needed

@@ -179,7 +179,7 @@ _add list here_
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 - [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
-- [Fold A Linked List](ds/Fold A Linked List.Java )
+- [Fold A Linked List](ds/Fold A Linked List.java)
 
 ## Graphs
 

@@ -464,6 +464,7 @@ _add list here_
 - [Next Prime Number](math/next_prime_number.cpp)
 - [Polynomial addition](math/polynomial_addition.cpp)
 - [Pronic Number](math/Pronic_numbers.cpp)
+- [Time Conversion](math/TimeConversion.cpp)
 
 ## Dynamic Programming
 

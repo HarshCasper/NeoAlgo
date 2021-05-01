@@ -1,3 +1,11 @@
+/*
+Counting Sort in Dart
+
+Counting sort is a sorting algorithm where the number of occurances of each
+element of the given array is stored in a frequency counter array which is
+used to further map according to their index into the sorted array.
+*/
+
 import 'dart:io';
 
 void countSort(List array, int size) {
@@ -42,6 +50,7 @@ void countSort(List array, int size) {
 }
 
 main() {
+  // Taking user input
   var n, ele;
   print('Enter the number of Elements: ');
   n = stdin.readLineSync();

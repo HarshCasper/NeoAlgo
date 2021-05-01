@@ -232,6 +232,7 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Lucas Number](math/lucas_number.c)
 - [Lowest Prime Factor](math/lowest_prime_factor_of_number.c)
+- [LCM](math/LCM.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Krishnamurthy Number](math/krishnamurthy_number.c)

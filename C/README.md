@@ -65,6 +65,7 @@
 
 ## Data Structures
 
+- [AVL Tree](ds/AVL_tree.c)
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
@@ -126,6 +127,7 @@
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
+- [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
 
 ## Searching
 
@@ -194,16 +196,21 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
+- [Number of Connected Components](graphs/number_of_connected_components.c)
+- [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
 - [Warshall Algorithm](graphs/warshall.c)
 
 ## Bit - Manipulation
 
 - [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
+- [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
+- [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
 
 ## Computational Geometry
 
 - [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.c)
+
 
 ## Machine Learning
 
@@ -248,6 +255,7 @@ _add list here_
 - [Polynomial Addition](math/polynomial_addition.c)
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
+- [Pronic Number](math/Pronic_numbers.c)
 
 ## Operating System
 

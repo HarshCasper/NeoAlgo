@@ -599,5 +599,5 @@ _add list here_
 - [Repeating and Missing Number](other/repeated_missing.cpp)
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
-- [Maximise consecutive average integer pair](other/Maxm_consecutive_avgint_pairs.cpp)
+- [Maximize consecutive average integer pair](other/Maxm_consecutive_avgint_pairs.cpp)
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)

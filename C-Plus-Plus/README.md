@@ -121,7 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
-- [Maximum Pairwise Product](cp/maximum_pairwise_product.cpp)
+- [Maximum Pairwise Product In Array](cp/maximum_pairwise_product.cpp)
 
 ## Data Structures
 

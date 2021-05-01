@@ -9,6 +9,12 @@
 
 # Codes in the Dart language
 
+## Array
+
+- [Reverse Array in Groups](Array/Reverse_array_in_groups.dart)
+- [Remove duplicates from Array](Array/Remove_duplicates_from_array.dart)
+
+
 ## Maths
 
 - [2D Areas](maths/Areas2D.dart)
@@ -42,9 +48,11 @@
 - [Interpolation Search](search/InterpolationSearch.dart)
 - [Fibonacci Search](search/FibonacciSearch.dart)
 - [Sentinel Search](search/Sentinel_Search.dart)
+- [Jump Search](search/Jump_Search.dart)
 
 ## Sorting
 
+- [Bead Sort](sort/BeadSort.dart)
 - [Bubble Sort](sort/BubbleSort.dart)
 - [Bucket Sort](sort/BucketSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
@@ -53,8 +61,11 @@
 - [Quick Sort](sort/Quick_Sort.dart)
 - [Merge Sort](sort/Merge_Sort.dart)
 - [Heap Sort](sort/Heap_Sort.dart)
+- [Radix Sort](sort/Radix_Sort.dart)
+- [Tim Sort](sort/Tim_Sort.dart)
 
 ## Cryptography
 
 - [Caesar Cipher](cryptography/CaesarCipher.dart)
 - [Vernam Cipher](cryptography/VernamCipher.dart)
+- [Affine Cipher](cryptography/AffineCipher.dart)

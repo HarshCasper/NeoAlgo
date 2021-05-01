@@ -13,6 +13,7 @@
 
 - [Reverse Array in Groups](Array/Reverse_array_in_groups.dart)
 - [Remove duplicates from Array](Array/Remove_duplicates_from_array.dart)
+- [Subarray with given sum](Array/Subarray_Sum.dart)
 
 
 ## Maths

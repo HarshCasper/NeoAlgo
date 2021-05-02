@@ -9,6 +9,10 @@
 
 # Codes in the C# language
 
+## Graphs 
+- [DFS Implementation of Graph](graphs/DFS.cs)
+- [Kosaraju's algorithm for Strong Connectected Components](graphs/Kosaraju's_algorithm_for_SCC.cs)
+
 ## Blockchain
 
 _add list here_
@@ -27,12 +31,18 @@ _add list here_
 
 ## Dynamic Programming
 
-_add list here_
+- [Partition Problem](dp/PartitionProblem.cs)
+
+## Graphs
+- [Topological Sorting](graphs/TopologicalSorting.cs)
 
 ## Searching
 
 - [Binary Search](search/BinarySearch.cs)
 - [Linear Search](search/LinearSearch.cs)
+- [Fibonacci Search](search/Fibonacci_Search.cs)
+- [Jump Search](search/JumpSearch.cs)
+- [Recursive Binary Search](search/RecursiveBinarySearch.cs)
 
 ## Sorting
 
@@ -40,6 +50,7 @@ _add list here_
 - [Insertion Sort](sort/InsertionSort.cs)
 - [Quick Sort](sort/QuickSort.cs)
 - [Merge Sort](sort/MergeSort.cs)
+- [Selection Sort](sort/SelectionSort.cs)
 
 ## Machine Learning
 

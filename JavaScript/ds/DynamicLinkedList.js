@@ -174,6 +174,62 @@ class LinkedList {
     return slowTraverse;
   }
 
+  // Start point for performing the merge sort
+  setMergeSort() {
+    // Call the mergesort algorithm and set the result to head 
+    let head = this.mergeSort(this.head)
+    
+    // to update the tail of returned linked list i.e head here
+    let setTail = head
+    while(setTail.next !== null) setTail = setTail.next
+
+    return this.tail = setTail
+  }
+
+  // Perform the merge sort
+  mergeSort(linkedList) {
+    // set start and last of linked list
+    let start = linkedList;
+    let last = null;
+    if (start.next === null) return start;
+
+    // get the middle node
+    let middle = this.getMidNode(start, last);
+    let middleNext = middle.next;
+    middle.next = null;
+
+    // create two halved of linked list
+    let rightPart = middleNext;
+    let leftPart = start;
+
+    // pass the respective halves to comapre the elements  
+    this.head = this.mergeLL(
+      this.mergeSort(leftPart),
+      this.mergeSort(rightPart)
+    );
+
+    return this.head
+  }
+
+  // Perform comparison of two different linked lists
+  mergeLL(left, right) {
+    let sorted;
+
+    if (left === null) return right;
+    if (right === null) return left;
+
+    // check elements & add it to the new linked list
+    if (left.value < right.value) {
+      sorted = new Node(left.value);
+      sorted.next = this.mergeLL(left.next, right);
+    } else {
+      sorted = new Node(right.value);
+      sorted.next = this.mergeLL(left, right.next);
+    }
+
+    return sorted;
+  }
+
   // Performing binary search
   binarySearch(key) {
     let startNode = this.head;
@@ -227,6 +283,8 @@ do {
   console.log("6. Reverse a Linked List".display);
   console.log("7. Sort the Linked List using Bubble Sort".insert);
   console.log("8. Search node using binary search".display);
+  console.log("9. Sort the Linked List using Merge Sort".display);
+
 
   choice = +prompt("Enter your choice - ");
 
@@ -301,6 +359,11 @@ do {
       myLinkedList.binarySearch(value);
       break;
 
+    case 9:
+      myLinkedList.setMergeSort();
+      console.log("After merge sort - ", myLinkedList.printList());
+      break;
+
     default:
       console.log("You know this is wrong, Bbye!\n".wrong);
       return;
@@ -322,6 +385,7 @@ Follow the instructions to get in the show
 6. Reverse a Linked List
 7. Sort the Linked List using Bubble Sort
 8. Search node using Binary Search
+9. Sort the Linked List using Merge Sort
 Enter your choice - 2
 Enter Value to Append element - 43
 After Append Linked List -  [10, 43]
@@ -335,6 +399,7 @@ After Append Linked List -  [10, 43]
 6. Reverse a Linked List
 7. Sort the Linked List using Bubble Sort
 8. Search node using Binary Search
+9. Sort the Linked List using Merge Sort
 Enter your choice - 6
 Reversal of Linked List -  [43, 10]
 
@@ -347,6 +412,7 @@ Reversal of Linked List -  [43, 10]
 6. Delete element from Linked List
 7. Sort the Linked List using Bubble Sort
 8. Search node using Binary Search
+9. Sort the Linked List using Merge Sort
 Enter your choice - 7
 After sorting -  [ 10, 43 ]
 
@@ -355,4 +421,14 @@ Enter your choice - 8
 Enter Value to Search - 10
 Found 10
 
+- Enter few such elements using the insertion operation
+... above test display
+Enter your choice - 1
+Linked List - [10, 43, 90, 32, 54, 21, 80]
+
+Enter your choice - 9
+After Merge Sort - [10, 21, 32, 43, 54, 80, 90]
+
 */
+
+

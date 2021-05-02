@@ -1,5 +1,3 @@
-
-
 ### C ###
 
 *.d
@@ -30,7 +28,6 @@
 *.su
 *.idb
 *.pdb
-*.mod*
 *.cmd
 .tmp_versions/
 modules.order
@@ -41,7 +38,6 @@ dkms.conf
 ### C++ ###
 
 *.slo
-*.mod
 *.smod
 *.lai
 
@@ -156,5 +152,3 @@ venv.bak/
 dmypy.json
 .pyre/
 .pytype/
-
-.vscode

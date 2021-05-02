@@ -22,9 +22,3 @@ enabled = true
   [analyzers.meta]
   environment = ["nodejs"]
 
-[[analyzers]]
-name = "java"
-enabled = true
-
-  [analyzers.meta]
-  runtime_version = "8"

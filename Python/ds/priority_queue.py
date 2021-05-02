@@ -1,6 +1,6 @@
 class PriorityQueueNode:
     """
-    Node class for PriorityQueue
+    Node class for PriorityQueue.
     """
 
     def __init__(self, value, priority):
@@ -10,8 +10,8 @@ class PriorityQueueNode:
 
 class PriorityQueue:
     """
-    PriorityQueue implementation using a list. A priority is
-    attached with every value of the queue.
+    PriorityQueue implementation using a list.
+    A priority is attached with every value of the queue.
     """
 
     def __init__(self):
@@ -19,22 +19,21 @@ class PriorityQueue:
 
     def get_size(self):
         """
-        Returns the size of the priority queue.
+        Return the size of the priority queue.
         """
         return len(self.pq)
 
     def isEmpty(self):
         """
-        Returns boolean value.
-        `true` if the priority queue is empty,
-        esle, returns `false`
+        Return boolean value.
+        `True` if the priority queue is empty,
+        esle, returns `False`.
         """
-        return self.get_size == 0
+        return self.get_size() == 0
 
     def get_min(self):
         """
-        Returns the element in the priority queue
-        with the least priority
+        Return the least priority element in the priority queue.
         """
         if self.isEmpty():
             return None
@@ -42,7 +41,7 @@ class PriorityQueue:
 
     def insert_into_pq(self, value, priority):
         """
-        Inserts elements into the priority queue
+        Insert elements into the priority queue.
         """
         pq_node = PriorityQueueNode(value, priority)
         self.pq.append(pq_node)
@@ -50,7 +49,7 @@ class PriorityQueue:
         self.percolate_up()
 
     def percolate_up(self):
-        """Finds the correct place for the element to be added
+        """Find correct place for the element to be added
         into the priority queue, following Heap Order Property.
         """
         child_index = self.get_size() - 1
@@ -67,7 +66,7 @@ class PriorityQueue:
 
     def remove_min(self):
         """
-        Removes the element with the least priority
+        Remove element with the least priority.
         """
         if self.isEmpty():
             return None
@@ -81,12 +80,11 @@ class PriorityQueue:
         return ele
 
     def percolate_down(self):
-        """Finds the position of the element to be removed
+        """Find the position of the element to be removed
         and ensures that Heap Order Property is maintained
         after removal of the element.
         """
-        i = 0
-        parent_index = i
+        parent_index = 0
         left_child_index = (2 * parent_index) + 1
         right_child_index = (2 * parent_index) + 2
 

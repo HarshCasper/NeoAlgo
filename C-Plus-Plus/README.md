@@ -208,6 +208,7 @@
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
 - [Searching in BST](ds/Searching_in_BST.cpp)
 - [Binary tree using stack (iterative method to construct tree)](ds/BinaryTreeUsingStack.cpp)
+- [Check weather Given Linked List is Palindrome or Not in C++](ds/Linked_List_Palindrome_or_not.cpp)
 
 ## Graphs
 

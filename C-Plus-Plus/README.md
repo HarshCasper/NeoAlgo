@@ -95,6 +95,7 @@
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
+- [Right View of Binary Tree Using Queues](ds/Right_view_of_Binary_Tree.cpp)
 
 
 ## Graphs

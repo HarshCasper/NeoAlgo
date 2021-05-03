@@ -1,6 +1,6 @@
 /* 
 Problem: Solving Quadratic equations in C.
-Aim: A program that print roots and also type of the roots of a quadratic equation ax^2+bx+c=0. 
+Aim: A program that prints roots and also tells us the types of the roots of a quadratic equation ax²+bx+c=0
 */
 #include<stdio.h>
 #include<math.h>

@@ -121,6 +121,7 @@ _add list here_
 - [Happy Number](math/happy_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
+- [Quadratic Equation](math/Quadratic_Equation.c)
 
 ## Other
 

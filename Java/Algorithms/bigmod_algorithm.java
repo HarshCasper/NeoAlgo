@@ -30,7 +30,6 @@ public class NumberofDivisors
         
         new_number = get_new_number_by_bigmod(base , power / 2, mod_number);
         return ((new_number * new_number) % mod_number);
-
     }
     else
     {

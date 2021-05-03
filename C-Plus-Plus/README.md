@@ -95,6 +95,7 @@
 - [Threaded Binary Tree](ds/ThreadedBinaryTree.cpp)
 - [Alternate Merging of nodes of two linked lists](ds/alternate_merging_of_linked_list.cpp)
 - [Priority Queue using Array](ds/priorityQ_array.cpp)
+- [Print Even Placed nodes in a linked list after odd placed nodes](ds/Even_after_odd_linked_list.cpp)
 
 
 ## Graphs

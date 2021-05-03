@@ -68,8 +68,10 @@ int main()
 /*
 Sample Input/Output: 
 Input:
+Enter the size of the array
 4
 S=["10","0001","111001","1","0"]
+Enter the value of at most 0's and 1's
 3 5
 Output: 
 4

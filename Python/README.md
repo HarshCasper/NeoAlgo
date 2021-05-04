@@ -183,7 +183,7 @@
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
-
+- [Chocolate Distribution Problem](cp/Chololate_distribution.py)
 
 ## Cryptography
 

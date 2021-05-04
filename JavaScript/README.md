@@ -43,6 +43,7 @@
 - [Infix to Prefix Conversion](./ds/infixtoprefix.js)
 - [Postfix expression evaluator](./ds/postfixevaluator.js)
 - [Infix expression evaluator](./ds/infixevaluator.js)
+- [Prefix expression evaluator](./ds/prefixevaluator.js)
 
 
 ## Searching
@@ -78,7 +79,7 @@
 
 ## Machine Learning
 
-_add list here_
+- [Simple Neural Network](./ML/NeuralNetwork.js)
 
 ## Mathematics
 

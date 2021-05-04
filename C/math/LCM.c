@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-long long int lcm_num=1;
+long long int lcm_num=1; 
+//Long to contain larger LCM
 
 long long int lcm(int a, int b)
 {  
     if (lcm_num % a == 0 && lcm_num % b == 0)
         return lcm_num;
-    lcm_num++;
+    lcm_num++; //increasing number by 1 to check for LCM
 
     lcm(a, b);
     return lcm_num;

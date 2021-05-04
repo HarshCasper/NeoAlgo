@@ -114,6 +114,7 @@ _add list here_
 ## Mathematics
 
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
+- [Binary to Decimal](math/binary_to_decimal.c)
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)

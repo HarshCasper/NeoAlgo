@@ -239,6 +239,7 @@ _add list here_
 - [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
 - [Lucky Number](math/LuckyNumber.java)
 - [Special Number](math/Special.java)
+- [Generalized Cullen Number](math/cullen_number.java)
 
 
 ## Dynamic Programming

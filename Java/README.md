@@ -245,6 +245,7 @@ _add list here_
 - [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
 - [Lucky Number](math/LuckyNumber.java)
 - [Special Number](math/Special.java)
+- [Product of Array except itself](math/Product_of_Array.java)
 
 ## Dynamic Programming
 

@@ -5,7 +5,7 @@ Aim: A program that prints roots and also tells us the types of the roots of a q
 #include<stdio.h>
 #include<math.h>
 
-int main(){
+void quadratic_equation_roots(){
 	// value a, b, and c;
 	double a, b, c;
 	double discriminant;
@@ -33,8 +33,10 @@ int main(){
 		printf("\nThe roots are complex numbers and have imaginary roots. And the roots are, ");
 		printf("\nroot1 = %.2lf + %.2lfi",-b/(2*a),sqrt(-discriminant)/(2*a));
 		printf("\nroot2 = %.2lf - %.2lfi",-b/(2*a),sqrt(-discriminant)/(2*a));
-	}
-	return 0;	
+	}	
+}
+void main(){
+	quadratic_equation_roots();
 }
 /* 
 Sample Test Cases:

@@ -26,6 +26,7 @@
 - [Stack using list](ds/stack_using_list.py)
 - [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
 - [Double Ended Queue](ds/Double_Ended_queue.py)
+- [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
 
 ## Searching

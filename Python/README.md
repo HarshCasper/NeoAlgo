@@ -28,6 +28,7 @@
 - [Double Ended Queue](ds/Double_Ended_queue.py)
 - [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
+- [Best fit memory allocation](ds/Bestfit.py)
 
 ## Searching
 

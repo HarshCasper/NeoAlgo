@@ -114,7 +114,6 @@ _add list here_
 ## Mathematics
 
 - [Binary Exponentiation](math/Binary_Exponentiation.c)
-- [Binary to Decimal](math/binary_to_decimal.c)
 - [Euler's Totient Function](math/Euler's_Totient_function.c)
 - [GCD By Euclidean Algorithm](math/GCD_In_C.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
@@ -126,6 +125,7 @@ _add list here_
 
 ## Other
 
+- [Binary to Decimal Conversion](math/binary_to_decimal.c)
 - [Find the Numbers](other/Find_the_numbers.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)

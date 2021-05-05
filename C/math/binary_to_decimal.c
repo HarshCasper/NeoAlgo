@@ -6,28 +6,28 @@ AIM - To take binary number from the user
 #include <stdlib.h>
 
 /*Function decleration*/
-int BtoD (char s[]);
+int BinarytoDecimal (char s[]);
 
 int main()
 {
-    char z[100];
+    char temp[100];
     printf("Enter the binary number : ");
-    gets(z);
-    printf("Decimal equivalent = %d",BtoD(z));
+    gets(temp);
+    printf("Decimal equivalent = %d",BinarytoDecimal(temp));
     return 0;
 }
 /*Function to convert binary to decimal*/
-int BtoD (char s[])
+int BinarytoDecimal (char temp[])
 {
-    int i,d=0;
-    for(i=0;s[i];i++)
+    int i,decimal=0;
+    for(i=0;temp[i];i++)
     {
-        if(s[i]=='0')
-            d=d*2+0;
+        if(temp[i]=='0')
+            decimal=decimal*2+0;
         else
-            d=d*2+1;
+            decimal=decimal*2+1;
     }
-    return(d);
+    return(decimal);
 }
 
 /*

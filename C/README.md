@@ -44,6 +44,7 @@
 
 ## Data Structures
 
+- [Balanced Parenthesis using Stack](ds/balanced_parenthesis.c)
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)

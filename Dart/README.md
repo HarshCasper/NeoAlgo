@@ -9,6 +9,13 @@
 
 # Codes in the Dart language
 
+## Array
+
+- [Reverse Array in Groups](Array/Reverse_array_in_groups.dart)
+- [Remove duplicates from Array](Array/Remove_duplicates_from_array.dart)
+- [K-largest element in Array](Array/K_Largest_Element_Array.dart)
+- [Sorting an array in the wave form](Array/Sort_array_wave_form.dart)
+
 ## Maths
 
 - [2D Areas](maths/Areas2D.dart)
@@ -22,6 +29,8 @@
 - [Decimal to Binary conversion](maths/DecimalToBinary.dart)
 - [Decimal to Hexadecimal Conversion](maths/decimal_to_hexadecimal.dart)
 - [Double factorial](maths/double_factorial.dart)
+- [Euler's Totient Function](maths/Euler's_Totient_function.dart)
+- [Euclidean Algorithm to find GCD](maths/Euclidean_Algorithm_to_find_GCD.dart)
 - [Strong Number](maths/StrongNumber.dart)
 - [Factorial](maths/Factorial.dart)
 - [Sum of Digits](maths/SumOfDigits.dart)
@@ -40,15 +49,26 @@
 - [Interpolation Search](search/InterpolationSearch.dart)
 - [Fibonacci Search](search/FibonacciSearch.dart)
 - [Sentinel Search](search/Sentinel_Search.dart)
+- [Jump Search](search/Jump_Search.dart)
 
 ## Sorting
 
+- [Bead Sort](sort/BeadSort.dart)
 - [Bubble Sort](sort/BubbleSort.dart)
 - [Bucket Sort](sort/BucketSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
 - [Selection Sort](sort/Selection_sort.dart)
 - [Shell Sort](sort/Shell_Sort.dart)
+- [Quick Sort](sort/Quick_Sort.dart)
+- [Merge Sort](sort/Merge_Sort.dart)
+- [Heap Sort](sort/Heap_Sort.dart)
+- [Radix Sort](sort/Radix_Sort.dart)
+- [Tim Sort](sort/Tim_Sort.dart)
+- [Counting Sort](sort/Counting_Sort.dart)
+- [Cocktail Sort](sort/Cocktail_Sort.dart)
 
 ## Cryptography
 
 - [Caesar Cipher](cryptography/CaesarCipher.dart)
+- [Vernam Cipher](cryptography/VernamCipher.dart)
+- [Affine Cipher](cryptography/AffineCipher.dart)

@@ -29,7 +29,7 @@ int isPallindrome(int num) {
 
 int main() {
   stdout.write("Enter the number:  ");
-  int num = int.parse(stdin.readLineSync());
+  int num = int.parse(stdin.readLineSync()!);
 
   isPallindrome(num);
 

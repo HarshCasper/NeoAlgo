@@ -32,13 +32,13 @@ int Recursive(int num) {
 int main() {
   //taking input from the user
   stdout.write("Enter a number: ");
-  int num = int.parse(stdin.readLineSync());
+  int num = int.parse(stdin.readLineSync()!);
 
   print("Select a method you want to use to find Double Factorial");
   print("1. Iterative");
   print("2. Recursive");
   stdout.write("choice ( 1 or 2 )? : ");
-  int choice = int.parse(stdin.readLineSync());
+  int choice = int.parse(stdin.readLineSync()!);
 
   if (choice == 1) {
     stdout.write("Double Factorial of $num: ");

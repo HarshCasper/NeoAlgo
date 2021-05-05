@@ -27,6 +27,7 @@
 - [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
 - [Double Ended Queue](ds/Double_Ended_queue.py)
 - [First fit memory allocation](ds/Firstfit.py)
+- [Worst fit memory allocation](ds/Worstfit.py)
 
 ## Searching
 
@@ -283,8 +284,10 @@
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
+- [Chocolate Distribution Problem](cp/Chololate_distribution.py)
 - [Sort an Arrays of 0s, 1s, 2s](cp/Sort_An_Arraysof0s1sand2s.py)
 - [Activity Selection](cp/activity_selection.py)
+
 
 ## Cryptography
 

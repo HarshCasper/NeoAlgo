@@ -51,6 +51,8 @@ _add list here_
 - [Quick Sort](sort/QuickSort.cs)
 - [Merge Sort](sort/MergeSort.cs)
 - [Selection Sort](sort/SelectionSort.cs)
+- [Heap Sort](sort/HeapSort.cs)
+- [Count Sort](sort/CountSort.cs)
 
 ## Machine Learning
 

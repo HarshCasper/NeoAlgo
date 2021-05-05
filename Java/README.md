@@ -19,6 +19,7 @@
 - [MinMax Algorithm](Algorithms/Min_Max_Algorithm_implementation.java)
 - [Sieve of Eratosthenes](Algorithms/Sieve_of_Eratosthenes.java)
 - [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
+- [Big Mod Algorithm](Algorithms/bigmod_algorithm.java)
 
 ## Greedy Algorithms
 
@@ -26,6 +27,7 @@
 - [Fractional Knapsack](Greedy_Algorithms/FractionalKnapsack.java)
 - [Job_Scheduling](Greedy_Algorithms/Job_Scheduling.java)
 - [Dijsktra Algorithm](Greedy_Algorithms/Dijsktra.java)
+
 ## Blockchain
 
 _add list here_
@@ -244,7 +246,7 @@ _add list here_
 - [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
 - [Lucky Number](math/LuckyNumber.java)
 - [Special Number](math/Special.java)
-
+- [Generalized Cullen Number](math/cullen_number.java)
 
 ## Dynamic Programming
 
@@ -267,7 +269,6 @@ _add list here_
 - [Subset Sum to Target](dp/SubsetSumToTarget.java)
 - [Dice Throw Problem](dp/DiceThrow.java)
 - [Word Wrap Problem](dp/WordWrapProblem.java)
-
 
 ## Blockchain
 
@@ -314,6 +315,7 @@ _add list here_
 _add list here_
 
 ## Operating Systems
+
 - [Banker's Algorithm](Operating-System/banker.java)
 - [Memory Allocation in Operating Systems](Operating-System/alloc.java)
 - [Page Replacement Algorithms](Operating-System/allocate.java)
@@ -370,3 +372,4 @@ _add list here_
 - [Linear probing in java](other/linearProbing.java)
 - [Longest Consecutive Sequence](other/Longest_Consecutive_Squence.java)
 - [Quadratic probing in java](other/quadraticProbing.java)
+- [Display all possible keypad sequences for a given input number](other/KeypadSequence.java)

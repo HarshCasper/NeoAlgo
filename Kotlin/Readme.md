@@ -12,6 +12,7 @@
 ## Bit Manipulation
 
 - [Bit Operations](BitManipulation/BasicBitOperations.kt)
+- [Single Number I](BitManipulation/SingleNumber_I.kt)
 
 ## Competitive Programming
 

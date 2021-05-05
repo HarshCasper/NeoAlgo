@@ -266,6 +266,7 @@ _add list here_
 
 ## Other
 
+- [Binary to Decimal Conversion](math/binary_to_decimal.c)
 - [Find the Numbers](other/Find_the_numbers.c)
 - [Find First and Last position index of an element in an array](other/find_first_and_last_position_index_of_a_number_in_array.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)

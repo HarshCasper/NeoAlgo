@@ -1,10 +1,10 @@
-import java.util.Scanner
-
 /*
 
 A Kotlin Program to find whether a given number is a power of 2 or not.
 
 */
+
+import java.util.Scanner;
 
 fun main(args: Array <String>) {
 

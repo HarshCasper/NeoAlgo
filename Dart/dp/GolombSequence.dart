@@ -60,5 +60,5 @@ The 30th term in the golomb sequence is 10
 Enter the value of 'n', where you need the n'th number in the golomb sequence:
 60
 The 60th term in the golomb sequence is 15
-
 */
+

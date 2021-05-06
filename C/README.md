@@ -257,6 +257,7 @@ _add list here_
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
 - [Pronic Number](math/Pronic_numbers.c)
+- [Quadratic Equation](math/Quadratic_Equation.c)
 
 ## Operating System
 

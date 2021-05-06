@@ -19,8 +19,7 @@ left and right side linked list.
 
 */
 
-#include <iostream>
-#include <cstdio>
+#include<bits/stdc++.h>
 using namespace std;
 
 struct LLNode
@@ -148,12 +147,15 @@ int main()
 {
     LLNode *head = NULL;
     LLNode *tail = NULL;
-    addNode(&head, 20);
-    addNode(&head, 30);
-    addNode(&head, 90);
-    addNode(&head, 50);
-    addNode(&head, 10);
-    addNode(&head, 110);
+    int n;
+    cout << "Enter number of nodes: \n";
+    cin>>n;
+    cout << "Enter values: \n";
+    for(int i=0;i<n;i++){
+        int x;
+        cin>>x;
+        addNode(&head, x);
+    }
 
     cout << "Linked List before sorting \n";
     display(&head);
@@ -168,7 +170,14 @@ int main()
 
 /*
 QuickSort on Singly Linked List:
+Input:
+Enter number of nodes:
+6
+Enter values:
+20 30 90 50 10 110
 
+
+Ouput:
 Linked List before sorting
 110 ->10 ->50 ->90 ->30 ->20
 
@@ -181,6 +190,3 @@ Worst-case performance: O(n2)
 Average performance: O(n log n)
 
 */
-
-
-

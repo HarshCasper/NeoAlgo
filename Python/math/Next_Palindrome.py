@@ -42,3 +42,4 @@ if __name__ == '__main__':
     n = int(input('Enter nth position: '))
     print(getNthPalindrome(n, num))
 
+

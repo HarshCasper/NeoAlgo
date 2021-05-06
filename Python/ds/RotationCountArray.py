@@ -1,48 +1,53 @@
 '''
 Descrption ->
-            Given an array of distinct number enteries which are arranged in ascending order.
-            If the array is rotated clockwise number of times. Then, calculate the total 
+            Given an array of distinct number enteries which are 
+            arranged in ascending order.If the array is rotated 
+            clockwise number of times. Then, calculate the total 
             number of rotations in the respective array.
 '''
 
-# program to find number of rotations in a sorted rotated array. 
+# program to find number of rotations in a sorted rotated array.
 
 # PYTHON CODE:
 
-def Total(lst,low, high):  
+def Total(listt, low, high):
+
 
     # When array in not rotated at all
-    if (high < low): 
+    if high < low:
         return 0
 
     # When array has single element left
-    if (high == low): 
+    if high == low: 
         return low 
 
     # calculating middle value 
-    mid = low + (high - low)/2;  
-    mid = int(mid) 
+    mid = low + (high - low)/2
+    mid = int(mid)
 
-    # checking minimum element 
-    if (mid < high and lst[mid+1] < lst[mid]): 
-        return (mid+1) 
+    # checking minimum element
+    if (mid < high and listt[mid+1] < listt[mid]):
+        return mid+1
 
-    #check if mid is middle element
-    if (mid > low and lst[mid] < lst[mid - 1]): 
-        return mid 
+    # check if mid is middle element
+    if (mid > low and list[mid] < listt[mid - 1]):
+        return mid
 
-    #Move either left or right  
-    if (lst[high] > lst[mid]): 
-        return Total(lst, low, mid-1); 
+    # Move either left or right
+    if listt[high] > listt[mid]:
+        return Total(listt, low, mid-1)
 
-    return Total(lst, mid+1, high) 
+    return Total(listt, mid+1, high)
+
 
 # main code
 
-lst = list(map(int,input().strip().split()))
+lst = list(map(int, input().strip().split()))
 n = len(lst)
 
-print(Total(lst, 0, n-1))    
+
+print(Total(lst, 0, n-1)) 
+ 
 
 
 '''

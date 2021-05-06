@@ -66,6 +66,7 @@
 ## Data Structures
 
 - [AVL Tree](ds/AVL_tree.c)
+- [Balanced Parenthesis using Stack](ds/balanced_parenthesis.c)
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
@@ -206,6 +207,7 @@
 - [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
 - [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
+- [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
 
 ## Computational Geometry
 
@@ -256,6 +258,7 @@ _add list here_
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
 - [Pronic Number](math/Pronic_numbers.c)
+- [Quadratic Equation](math/Quadratic_Equation.c)
 
 ## Operating System
 
@@ -266,6 +269,7 @@ _add list here_
 
 ## Other
 
+- [Binary to Decimal Conversion](math/binary_to_decimal.c)
 - [Find the Numbers](other/Find_the_numbers.c)
 - [Find First and Last position index of an element in an array](other/find_first_and_last_position_index_of_a_number_in_array.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)

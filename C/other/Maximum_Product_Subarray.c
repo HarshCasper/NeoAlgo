@@ -1,4 +1,4 @@
-/* Find the maxinum product subarray of a given array */
+/* Find the maximum product subarray of a given array */
 
 #include<stdio.h>
 /* Function for finding minimum of two numbers */
@@ -19,7 +19,7 @@ int max(int p, int q)
         return q;
 }
 
-/* Function for finding maxinum product subarray */
+/* Function for finding maximum product subarray */
 int solve()
 {
     /* Input size of an array */

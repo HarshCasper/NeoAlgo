@@ -66,6 +66,7 @@
 ## Data Structures
 
 - [AVL Tree](ds/AVL_tree.c)
+- [Balanced Parenthesis using Stack](ds/balanced_parenthesis.c)
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
@@ -256,6 +257,7 @@ _add list here_
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
 - [Pronic Number](math/Pronic_numbers.c)
+- [Quadratic Equation](math/Quadratic_Equation.c)
 
 ## Operating System
 

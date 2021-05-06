@@ -207,6 +207,7 @@
 - [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
 - [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
+- [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
 
 ## Computational Geometry
 

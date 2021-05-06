@@ -29,6 +29,7 @@
 - [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
 - [Best fit memory allocation](ds/Bestfit.py)
+- [Rotation Count in sorted Array](ds/RotationCountArray.py)
 
 ## Searching
 

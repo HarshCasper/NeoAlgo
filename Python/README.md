@@ -29,6 +29,7 @@
 - [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
 - [Best fit memory allocation](ds/Bestfit.py)
+- [Tree(Bottom view of Binary tree )](ds/bottom_view_BinaryTree.py)
 
 ## Searching
 

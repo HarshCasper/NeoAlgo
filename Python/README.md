@@ -60,7 +60,7 @@
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
-
+- [Climbing the Leaderboard](cp/climbing-the-leaderboard.py)
 
 ## Cryptography
 

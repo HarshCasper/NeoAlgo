@@ -266,6 +266,7 @@
 - [BFS of Binary Tree](ds/BFS_Binary_Tree.cpp)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.cpp)
 - [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
+- [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 
 ## Graphs
 

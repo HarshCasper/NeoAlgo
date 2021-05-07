@@ -19,6 +19,7 @@
 - [MinMax Algorithm](Algorithms/Min_Max_Algorithm_implementation.java)
 - [Sieve of Eratosthenes](Algorithms/Sieve_of_Eratosthenes.java)
 - [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
+- [Big Mod Algorithm](Algorithms/bigmod_algorithm.java)
 
 ## Greedy Algorithms
 
@@ -245,6 +246,7 @@ _add list here_
 - [Sum of Nth Row of Pascal Triangle](math/PascalNthRowSum.java)
 - [Lucky Number](math/LuckyNumber.java)
 - [Special Number](math/Special.java)
+- [Generalized Cullen Number](math/cullen_number.java)
 
 ## Dynamic Programming
 
@@ -325,6 +327,7 @@ _add list here_
 
 ## Other
 
+- [Find Peak element](other/Peak_element.java)
 - [Smallest and longest Substring with given length](other/smallest_and_longest_SubString.java)
 - [3 sum closest to target](other/3sum_closest_to_target.java)
 - [All possible codes](other/LetterCodeRecursion.java)

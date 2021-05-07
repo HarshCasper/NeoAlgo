@@ -13,7 +13,9 @@
 
 - [Reverse Array in Groups](Array/Reverse_array_in_groups.dart)
 - [Remove duplicates from Array](Array/Remove_duplicates_from_array.dart)
-
+- [K-largest element in Array](Array/K_Largest_Element_Array.dart)
+- [Sorting an array in the wave form](Array/Sort_array_wave_form.dart)
+- [Subarray with given sum](Array/Subarray_Sum.dart)
 
 ## Maths
 
@@ -39,6 +41,7 @@
 - [Binomial Coefficient (under modulo)](maths/binomial_coefficient_under_modulo.dart)
 - [Perfect Number](maths/PerfectNumber.dart)
 - [Harshad Number](maths/HarshadNumber.dart)
+- [Tower of Hanoi](maths/TowerOfHanoi.dart)
 - [Square Root using Binary Search](math/Squareroot_binary_search.dart)
 
 
@@ -65,6 +68,7 @@
 - [Radix Sort](sort/Radix_Sort.dart)
 - [Tim Sort](sort/Tim_Sort.dart)
 - [Counting Sort](sort/Counting_Sort.dart)
+- [Cocktail Sort](sort/Cocktail_Sort.dart)
 
 ## Cryptography
 

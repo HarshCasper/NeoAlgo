@@ -315,7 +315,7 @@ _add list here_
 - [Power_Set_Using_Bitwise](Bit--Manipulation/Power_Set_Using_Bitwise.cpp)
 - [Reverse Bits](Bit--Manipulation/reverse_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
-
+- [Count_total_set_bits_in_all_numbers_from_1_to_n](Bit--Manipulation/Total _setBits_in_from_1_to_n.cpp)
 
 ## Blockchain
 

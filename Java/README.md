@@ -108,6 +108,7 @@ _add list here_
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
+- [Linear probing in Hashtable](ds/Hashtable_linear_probing.java)
 
 ## Graphs
 

@@ -171,6 +171,7 @@
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
 - [kReverse in a LinkedList](ds/kReverse_LinkedList.cpp)
+- [Boundary traversal of a Binary Search Tree](ds.binary_traversal_bst.cpp)
 - [Construct binary tree using inorder and preorder](ds/Construct_binary_tree_using_inorder_and_preorder.cpp)
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)

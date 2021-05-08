@@ -402,7 +402,6 @@ _add list here_
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
 - [Sum of Divisors](math/sum_of_divisors.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
-- [Total Ones](math/Total_ones.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Print Pallindrome Partitions](math/Print_Palindrome_Partitions.cpp)
 - [Remove Invalid Parentheses](math/remove_invalid_parentheses.cpp)

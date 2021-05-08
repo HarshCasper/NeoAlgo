@@ -487,18 +487,9 @@ _add list here_
 - [Reverse Bits](Bit--Manipulation/reverse_bits.cpp)
 - [Sort integers by the number of set bits present in them](Bit--Manipulation/sort_integers_by_their_number_of_set_bits.cpp)
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
-<<<<<<< HEAD
-- [Count_total_set_bits_in_all_numbers_from_1_to_n](Bit--Manipulation/Total _setBits_in_from_1_to_n.cpp)
-=======
-<<<<<<< HEAD
-- [Count_total_set_bits_in_all_numbers_from_1_to_n](Bit--Manipulation/Total _setBits_in_from_1_to_n.cpp)
-
-=======
 - [Find duplicate elements using XOR](Bit--Manipulation/Find_duplicate_elements_using_XOR.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 - [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
->>>>>>> ac6e7165817be3aaffa1ee7f32f00944692b8a7c
->>>>>>> 19671742699c3d63690507ca12b0b2ae9d45a54b
 
 ## Blockchain
 

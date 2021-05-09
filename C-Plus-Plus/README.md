@@ -111,7 +111,7 @@
 - [Linear Probing](ds/linear-probing.cpp)
 - [Quadratic Probing](ds/quadratic-probing.cpp)
 - [Double Hashing](ds/double-hashing.cpp)
-
+- [Binary Tree Vertical Order Traversal](ds/BinaryTree_verticalOrderTraversal.cpp)
 ## Graphs
 
 - [Articulation points in an Undirected Graph](graphs/Articulation_points.cpp)

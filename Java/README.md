@@ -20,6 +20,7 @@
 - [Sieve of Eratosthenes](Algorithms/Sieve_of_Eratosthenes.java)
 - [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
 - [Big Mod Algorithm](Algorithms/bigmod_algorithm.java)
+- [Longest Common Subsequence](Algorithm/Longest_Common_Subsequence.java)
 
 ## Greedy Algorithms
 

@@ -12,7 +12,8 @@
 ## Bit Manipulation
 
 - [Bit Operations](BitManipulation/BasicBitOperations.kt)
-
+- [Single Number I](BitManipulation/SingleNumber_I.kt)
+- [Power Of Two](BitManipulation/PowerOfTwo.kt)
 ## Competitive Programming
 
 - [ReverseString](cp/ReverseString.kt)

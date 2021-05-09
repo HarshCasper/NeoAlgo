@@ -164,8 +164,8 @@
 - [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
 - [Graph on an array](cp/graph_on_an_array.cpp)
 - [Chopsticks Problem](cp/chopsticks.cpp)
+- [Construct Special Tree](cp/construct_special_tree.cpp)
 - [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
-
 
 ## Data Structures
 

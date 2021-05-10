@@ -3,23 +3,18 @@ Given a string we need to write a function that returns true if the string is pa
 Remove the non alphanumeric characters during comparison.
 */
 var palindrome = (str) => {
-    const exp = new RegExp("/[\W_]/g","u")
-    var strAlphaNumeric = str.replace(exp, ""); //remove all non-alphanumeric characters
+      var strAlphaNumeric = str.replace(/[\W_]/gu, ""); //remove all non-alphanumeric characters
       var lowerCase = strAlphaNumeric.toLowerCase(); //turn everything to lowercase
       var reversedStr = lowerCase.split("").reverse().join(""); //reverse the string to check if the reversed words match the first words.
-      
-      if (lowerCase === reversedStr) 
-      { //check if lcase match revcase, if yes, return true
-        return true;
-      } else { //otherwise return false.
-        return false;
+      var flag;
+      (lowerCase === reversedStr)? flag = true : flag = false;
+      return flag;
       }
-    }
     
 
     
     
-    Example: 
+    //Example: 
 
     palindrome("eye") //should return `true`
 

@@ -65,6 +65,8 @@
 
 ## Data Structures
 
+- [AVL Tree](ds/AVL_tree.c)
+- [Balanced Parenthesis using Stack](ds/balanced_parenthesis.c)
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
@@ -195,16 +197,22 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
+- [Number of Connected Components](graphs/number_of_connected_components.c)
+- [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
 - [Warshall Algorithm](graphs/warshall.c)
 
 ## Bit - Manipulation
 
 - [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
+- [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
+- [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
+- [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
 
 ## Computational Geometry
 
 - [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.c)
+
 
 ## Machine Learning
 
@@ -250,6 +258,7 @@ _add list here_
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
 - [Pronic Number](math/Pronic_numbers.c)
+- [Quadratic Equation](math/Quadratic_Equation.c)
 
 ## Operating System
 
@@ -260,6 +269,7 @@ _add list here_
 
 ## Other
 
+- [Binary to Decimal Conversion](math/binary_to_decimal.c)
 - [Find the Numbers](other/Find_the_numbers.c)
 - [Find First and Last position index of an element in an array](other/find_first_and_last_position_index_of_a_number_in_array.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
@@ -276,6 +286,7 @@ _add list here_
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
+- [Find the maximum product subarray of a given array](other/Maximum_Product_Subarray.c)
 
 ## Blockchain
 

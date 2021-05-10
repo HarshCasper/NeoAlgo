@@ -121,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Power Of Numbers](cp/Power_of_numbers.cpp)
 - [Geek-onacci Number](cp/Geek-onacci_Number.cpp)
 - [Game with nos](cp/Game_with_nos.cpp)
 - [Rotate Doubly linked list by given node](cp/Rotate_doubly_linked_list_by_given_node.cpp)
@@ -161,6 +162,10 @@
 - [Defend Kingdom](cp/defend_kingdom.cpp)
 - [Snakes and Ladders](cp/snakes_and_ladders.cpp)
 - [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
+- [Graph on an array](cp/graph_on_an_array.cpp)
+- [Chopsticks Problem](cp/chopsticks.cpp)
+- [Construct Special Tree](cp/construct_special_tree.cpp)
+- [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
 
 ## Data Structures
 
@@ -262,6 +267,7 @@
 - [BFS of Binary Tree](ds/BFS_Binary_Tree.cpp)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.cpp)
 - [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
+- [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 
 ## Graphs
 

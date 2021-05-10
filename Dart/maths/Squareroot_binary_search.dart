@@ -17,7 +17,7 @@ int square_root_binary_search(int n) {
   // square root of n.
   int left = 1, right = n;
   while (left <= right) {
-    int mid = (left + right) ~/ 2;
+    int mid = left + (right - left) ~/ 2;
 
     if (mid * mid == n) return mid;
     if (mid * mid < n) {

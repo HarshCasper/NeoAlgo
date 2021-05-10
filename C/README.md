@@ -182,6 +182,7 @@
 - [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.c)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.c)
+- [Matrix Multiplication using DP](dp/Matrix_Multiplication_using_DP.c)
 - [N-Queen](dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)

@@ -164,7 +164,8 @@
 - [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
 - [Graph on an array](cp/graph_on_an_array.cpp)
 - [Chopsticks Problem](cp/chopsticks.cpp)
-
+- [Construct Special Tree](cp/construct_special_tree.cpp)
+- [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
 
 ## Data Structures
 
@@ -266,6 +267,7 @@
 - [BFS of Binary Tree](ds/BFS_Binary_Tree.cpp)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.cpp)
 - [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
+- [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 
 ## Graphs
 

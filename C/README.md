@@ -286,6 +286,7 @@ _add list here_
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
+- [Find the maximum product subarray of a given array](other/Maximum_Product_Subarray.c)
 
 ## Blockchain
 

@@ -45,6 +45,7 @@
 - [Max Consecutive Ones](cp/max_consecutive_ones.c)
 - [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [Bigmod Algorithm](cp/bigmod_algorithm.c)
+- [Find Minimum element in Rotated and Sorted Array](cp/minimum_in_rotated_sorted_array.c)
 
 ## Cryptography
 

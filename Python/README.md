@@ -13,7 +13,9 @@
 
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
+- [Linear Probing in Hashing](ds/Linear_Probing_In_Hashing.py)
 - [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+- [Quadratic Probing in Hashing](ds/Quadratic_Probing_in_hashing.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Reverse Linked List](ds/Reverse_linked_list.py)
 - [Binary Search Tree](ds/BinarySearchTree.py)

@@ -233,7 +233,7 @@ int main(){
  Enter the size of array : 8
  Enter the inorder traversal   : 4 8 2 5 1 6 3 7
  Enter the postorder traversal : 8 4 5 2 6 7 3 1
- 
+  
  Output Format :
  Example : ( Output to the above input example ) 
  The Preoder Traversal of the Tree is : 1 2 4 8 5 3 6 7
@@ -243,9 +243,6 @@ int main(){
  Time Complexity for performing the traversal of the binary tree : O(n)
    Where n is the no.of nodes 
  Space Complexity : O(1) 
-*/
 
-   Where n is the no.of nodes 
- Space Complexity : O(1) 
 */
 

@@ -16,6 +16,7 @@
 - [K-largest element in Array](Array/K_Largest_Element_Array.dart)
 - [Sorting an array in the wave form](Array/Sort_array_wave_form.dart)
 - [Subarray with given sum](Array/Subarray_Sum.dart)
+- [Missing in AP](Array/Missing_in_AP.dart)
 
 ## Maths
 

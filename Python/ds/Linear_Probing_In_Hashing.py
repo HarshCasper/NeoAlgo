@@ -1,6 +1,9 @@
-"""Linear Probing is a technique for resolving hash collisions of calues of hash function.It is a form of open addressing.
+"""
+Linear Probing is a technique for resolving hash collisions of calues of hash function.It is a form of open addressing.
 In this scheme, each cell of a hash table stores a single key–value pair. 
-When the hash function causes a collision by mapping a new key to a cell of the hash table that is already occupied by another key, linear probing searches the table for the closest following free location and inserts the new key there."""
+When the hash function causes a collision by mapping a new key to a cell of the hash table that is already occupied by another key, 
+linear probing searches the table for the closest following free location and inserts the new key there.
+"""
 
 #Function for Linear Probing
 def linearProbing( hash, hashSize, arr, sizeOfArray):

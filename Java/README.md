@@ -184,6 +184,8 @@ _add list here_
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
 - [First fit memory allocation](ds/Firstfit.java)
 - [Best fit memory allocation](ds/Bestfit.java)
+- [Hashtable chaining](ds/Hashtable_chaining.java)
+- [Linear probing in Hashtable](ds/Hashtable_linear_probing.java)
 
 ## Graphs
 

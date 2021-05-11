@@ -239,6 +239,7 @@ _add list here_
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Krishnamurthy Number](math/krishnamurthy_number.c)
 - [Strong Number](math/strong_number.c)
+- [Sterns Diatomic series](math/sterns_diatomic_series.c)
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)

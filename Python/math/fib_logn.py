@@ -15,7 +15,7 @@ def fib(k):
     A = [[1, 1],
          [1, 0]]
     if k <= 1:
-        return A    
+        return A
     if k % 2 == 1:
         return matmult(A, fib(k-1))
     fib_half = fib(k//2)

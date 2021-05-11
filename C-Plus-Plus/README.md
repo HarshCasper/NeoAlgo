@@ -168,6 +168,7 @@
 - [Construct Special Tree](cp/construct_special_tree.cpp)
 - [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
 - [Strange Hotel](cp/strange_hotel.cpp)
+- [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 
 ## Data Structures
 

@@ -426,6 +426,7 @@ _add list here_
 - [Sum of Divisors](math/sum_of_divisors.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
+- [Sterns Diatomic Series](math/sterns_diatomic_series.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Print Pallindrome Partitions](math/Print_Palindrome_Partitions.cpp)
 - [Remove Invalid Parentheses](math/remove_invalid_parentheses.cpp)

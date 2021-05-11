@@ -167,6 +167,7 @@
 - [Chopsticks Problem](cp/chopsticks.cpp)
 - [Construct Special Tree](cp/construct_special_tree.cpp)
 - [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
+- [Count of groups having largest size](cp/Count_of_groups_having_largest_size.cpp)
 
 ## Data Structures
 

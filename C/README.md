@@ -201,6 +201,7 @@
 - [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
 - [Warshall Algorithm](graphs/warshall.c)
+- [Dijkstra Algorithm](graphs/Dijkstra.c)
 
 ## Bit - Manipulation
 

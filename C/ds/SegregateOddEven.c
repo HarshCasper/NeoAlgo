@@ -1,7 +1,8 @@
 /*
 Code Description :
 A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
-It consists of nodes.A Node has 2 parts;One is the data part and the other is the address part. Address part contains the address of the next or the 
+It consists of nodes.A Node has 2 parts.
+One is the data part and the other is the address part. Address part contains the address of the next or the 
 successor node and data part contains value of the node.
 Through this C program,Nodes of a linked list are arranged such that the odd and the even nodes are segregated.
 Here,all even nodes appear before all the odd nodes in the modified linked list. 
@@ -10,22 +11,22 @@ Here,all even nodes appear before all the odd nodes in the modified linked list.
 #include <stdio.h>
 #include <malloc.h>
 
-//Defining the structure of a Node
+/* Defining the structure of a Node */
 struct node
 {
   int data;
   struct node *next;
 };
 
-//Header to point to the first node and Last to point to the Last one
+/* Header to point to the first node and Last to point to the Last one */
 struct node *header, *last;
 
-//Function Declarations
+/* Function Declarations */
 void SegregateOddEven();
 void create();
 void show();
 
-//Driver Function
+/* Driver Function */
 void main()
 {
     int i, num;
@@ -43,17 +44,19 @@ void main()
   
     SegregateOddEven();
   
-    printf("\nModified Linked List is : \n");
+    printf("\nLinked List after calling SegregateOddEven() : \n");
     show();
 }
 
-//Function for Creation of a Linked List
+/* Function for Creation of a Linked List */
 void create()
 {
-    struct node *temp = malloc(sizeof(struct node));
+    struct node *temp = (struct node*) malloc(sizeof(struct node));
+    
     printf("Enter value of Node: ");
     scanf("%d", &temp->data);
     temp->next= NULL;
+    
 	if (header == NULL)
 	{
     	header = temp;
@@ -68,7 +71,7 @@ void create()
     }
 }
 
-//Function to Display Nodes of a Linked List
+/* Function to Display Nodes of a Linked List */
 void show()
 {
     struct node *temp = header;
@@ -81,28 +84,44 @@ void show()
     
 }
 
-//Function to Segregate Even and Odd Nodes of a Linked List
+/* Function to Segregate Even and Odd Nodes of a Linked List */
 void SegregateOddEven()
 {
     struct node *temp = header, *p1 = last, *next_node = NULL, *prev;
-  
-    while (temp != p1)	//Traversing of Nodes till last second node
+    
+  	/* Traversing of Nodes till the second last node */
+    while (temp != p1)	
 	{
 		/* If the data of node is ODD */
     	if (temp->data % 2 != 0)	
     	{
-      		if (temp == header)		//If the first node is odd,set prev as header and then update header to the next node 
+    		/* If the first node is odd,set prev as header and then update header to the next node */
+      		if (temp == header)		 
       		{
         		prev = header;
         		header = header->next;
       		}
-      		next_node = temp->next;		//Store value of current odd node's next in next_node
-     		prev->next = next_node;		//Set previous odd node's next to next_node
-      		last->next = temp;			//Make current odd node as the last node of the list
-      		temp->next = NULL;			//Make the last node to point to NULL
-      		last = temp;				//Make last equal to current odd node
-      		temp = next_node;			//Update current pointer to next of the moved node
-    	}		
+      		
+      		/* Store value of current odd node's next in next_node */
+      		next_node = temp->next;	
+      		
+			/* Update previous odd node's next to next_node */	
+     		prev->next = next_node;		
+     		
+     		/* Make current odd node as the last node of the list */
+      		last->next = temp;	
+      		
+			/* Make the last node to point to NULL */		
+      		temp->next = NULL;	
+      		
+			/* Make last equal to current odd node */	
+      		last = temp;				
+      		
+      		/* Update current pointer to next of the moved node */
+      		temp = next_node;	
+			  		
+    	}	
+			
     	/* If data of node is EVEN */
     	else						
     	{
@@ -110,8 +129,9 @@ void SegregateOddEven()
       		temp = temp->next;
     	}
 	}
-	/* If the last node is ODD */
-    if (p1->data % 2 != 0)		//p1 points to the last node here
+	
+	/* If the last node is ODD */	
+    if (p1->data % 2 != 0)		
   	{
     	next_node = temp->next;
     	prev->next = next_node;
@@ -120,3 +140,23 @@ void SegregateOddEven()
     	last = temp;
   	}
 }
+
+/*
+COMPLEXITY:
+Space Complexity : O(n)
+Time Complexity : O(n)
+
+OUTPUT:
+Enter the number of nodes : 5
+Enter value of Node: 1
+Enter value of Node: 6
+Enter value of Node: 8
+Enter value of Node: 7
+Enter value of Node: 9
+
+Linked List is :
+-->1-->6-->8-->7-->9
+Linked List after calling SegregateOddEven() :
+-->6-->8-->1-->7-->9
+
+*/

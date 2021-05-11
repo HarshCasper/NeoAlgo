@@ -17,7 +17,7 @@ public class MEXofanarray
         check if visited_array[ar[i]] == 0 means
         ar[i] is visited or not if is not visited then we will increment it
         visited_array[ar[i]]++  */
-        int visited_array[] = new int[N];
+        int visited_array[] = new int[N + 1];
     
         for(int i = 0; i < N; i++)
         {
@@ -25,8 +25,7 @@ public class MEXofanarray
              {
                  visited_array[ar[i]]++;
              }
-
-        }
+         }
 
          /* set MEX as 1
          then will start from 1 index and check if visited_array[i] == 0
@@ -42,23 +41,24 @@ public class MEXofanarray
              }
         }
         return MEX;
-}
+     }
 
 	public static void main(String args[]) 
 	{
-		Scanner scan = new Scanner(System.in);
-		System.out.print("Enter the size of array \n");
-		int number = scan.nextInt();
+	   Scanner scan = new Scanner(System.in);
+	   System.out.print("Enter the size of array \n");
+     	   int number = scan.nextInt();
 
-		int[] ar = new int[number];
-		System.out.println("Enter array elements \n"); 
-		for(int i = 0; i < number; i++)
-		{
-		    ar[i] = scan.nextInt();
-		}
-		scan.close();
-		int MEX_of_array = get_MEX_of_array(ar , N);
-        System.out.println(MEX_of_array);
+	   int[] ar = new int[number];
+	   System.out.println("Enter array elements \n"); 
+	   for(int i = 0; i < number; i++)
+	   {
+	       ar[i] = scan.nextInt();
+	   }
+	   scan.close();
+	   int MEX_of_array = get_MEX_of_array(ar , N);
+	   System.out.println("MEX of the Array is :\n"); 
+           System.out.println(MEX_of_array);
 	}
 }
 /*

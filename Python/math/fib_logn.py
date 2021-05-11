@@ -17,10 +17,10 @@ def fib(k):
     if k <= 1:
         return A    
     if k % 2 == 1:
-        return matmult(A, fib(k-1))    
+        return matmult(A, fib(k-1))
     fib_half = fib(k//2)
     return matmult(fib_half, fib_half)
 
 
 for ii in range(10):
-    print(fib(ii)[0][0]) 
+    print(fib(ii)[0][0])

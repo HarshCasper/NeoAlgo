@@ -126,6 +126,7 @@
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
+- [Climbing the Leaderboard](cp/climbing-the-leaderboard.py)
 - [Dutch national flag problem](cp/Sort_An_Arraysof0s1sand2s.py)
 - [Find Intersection of Two Given Linked Lists](cp/find_intersection_of_two_linked_lists.py)
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
@@ -379,6 +380,8 @@
 - [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.py)
 - [Check Collinearity of Three Points](Bit--Manipulation/check_collinearity_of_three_points.py)
 - [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.py)
+- [Count of Set bits in a Number](Bit--Manipulation/count_num_of_set_bits.py)
+- [Minimum XOR value](Bit--Manipulation/minimum_xor_value.py)
 
 ## Blockchain
 

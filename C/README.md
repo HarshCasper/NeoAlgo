@@ -208,6 +208,7 @@
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
 - [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
 - [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.c)
 
 ## Computational Geometry
 
@@ -238,6 +239,7 @@ _add list here_
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Krishnamurthy Number](math/krishnamurthy_number.c)
 - [Strong Number](math/strong_number.c)
+- [Sterns Diatomic series](math/sterns_diatomic_series.c)
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
@@ -286,6 +288,7 @@ _add list here_
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
+- [Find the maximum product subarray of a given array](other/Maximum_Product_Subarray.c)
 
 ## Blockchain
 

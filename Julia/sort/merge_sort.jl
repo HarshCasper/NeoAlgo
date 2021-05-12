@@ -1,5 +1,5 @@
 """Julia program to implement Merge sort
-Merge Sort is one of the most popular sorting algorithms that is based on the principle of Divide and Conquer Algorithm.Here, problem is divided into multiple sub-problems. Each sub-problem is solved individually. Finally, sub-problems are combined to form the final solution.
+Merge Sort is one of the most popular sorting algorithms that is based on the principle of Divide and Conquer Algorithm. Here, problem is divided into multiple sub-problems. Each sub-problem is solved individually. Finally, sub-problems are combined to form the final solution.
 """
 function merge_sort(arr)
     if length(arr) <= 1

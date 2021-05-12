@@ -168,6 +168,7 @@
 - [Chopsticks Problem](cp/chopsticks.cpp)
 - [Construct Special Tree](cp/construct_special_tree.cpp)
 - [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
+- [Special Pairs](cp/special_pairs.cpp)
 - [Strange Hotel](cp/strange_hotel.cpp)
 
 ## Data Structures

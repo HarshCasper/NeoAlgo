@@ -8,81 +8,87 @@ Find the sum of these numbers.
 
 //  Code / Solution
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 //Define Node as structure
-struct TreeNode 
+struct TreeNode
 {
-    int data;
-    TreeNode *left;
-    TreeNode *right;
-    
+	int data;
+	TreeNode *left;
+	TreeNode *right;
 };
 
 //Function to allocate new node with given data
-TreeNode* newNode(int data)
+TreeNode *newNode(int data)
 {
-	TreeNode *node=new TreeNode();
-	node->data=data;
-	node->left=node->right=NULL;
+	TreeNode *node = new TreeNode();
+	node->data = data;
+	node->left = node->right = NULL;
 	return (node);
 }
 
 //Function to create Binary Tree from preorder traversal
-TreeNode* buildTree(){
-	
+TreeNode *buildTree()
+{
+
 	//Input
 	int d;
-	cin>>d;
-	
+	cin >> d;
+
 	//If d is -1 then return NULL
-	if( d== -1)
-	return NULL; 
-	
-	 //Place data at current node
-	 TreeNode *root=newNode(d);
-	 
-	 //recursively build Left and Right Subtrees
-	 root->left=buildTree();
-	 root->right=buildTree();
-	 
-	 return root;
+	if (d == -1)
+		return NULL;
+
+	//Place data at current node
+	TreeNode *root = newNode(d);
+
+	//recursively build Left and Right Subtrees
+	root->left = buildTree();
+	root->right = buildTree();
+
+	return root;
 }
- 
-int total_sum=0; //This stores the ans ie sum of binary numbers from root to leaf
-int curr_sum=0; //This stores the ans of single path from root to leaf
+//This stores the ans ie sum of binary numbers from root to leaf
+int total_sum = 0;
+//This stores the ans of single path from root to leaf
+int curr_sum = 0;
 
 //Function for preorder traversal of binary tree
-void preorder(TreeNode *root,int curr_sum){
+void preorder(TreeNode *root, int curr_sum)
+{
 	//Base Condition
-	if(root==NULL)
-	return ;
-	curr_sum=curr_sum*2+root->data; //converting base 2 to base 10
+	if (root == NULL)
+		return;
+	//converting base 2 to base 10
+	curr_sum = curr_sum * 2 + root->data;
 	//When we encounter leaf node
-	if(root->left==NULL && root->right==NULL)
-	total_sum+=curr_sum; //Path found
-	preorder(root->left,curr_sum);
-	preorder(root->right,curr_sum);
+	if (root->left == NULL && root->right == NULL)
+		//Path found
+		total_sum += curr_sum;
+	preorder(root->left, curr_sum);
+	preorder(root->right, curr_sum);
 }
 
 //Function to find sum of root to leaf
-int sumOfRootToLeaf(TreeNode *root){
-	
+int sumOfRootToLeaf(TreeNode *root)
+{
+
 	//Base Condition
-	if(root==NULL)
-	return 0;
+	if (root == NULL)
+		return 0;
 	//Root to left traversal is DFS preorder traversal Root->left->right
-	preorder(root,0);
+	preorder(root, 0);
 	return total_sum;
 }
 
-int main(){
-	
+int main()
+{
+
 	//Create the Tree
-	cout<<"Enter the binary tree elements preorder wise and enter -1 for NULL nodes : ";
-	TreeNode *root=buildTree();
-	cout<<"Sum of root to leaf Binary Numbers is: "<<sumOfRootToLeaf(root);
+	cout << "Enter the binary tree elements preorder wise and enter -1 for NULL nodes : ";
+	TreeNode *root = buildTree();
+	cout << "Sum of root to leaf Binary Numbers is: " << sumOfRootToLeaf(root);
 	return 0;
 }
 

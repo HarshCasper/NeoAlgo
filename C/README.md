@@ -98,6 +98,7 @@
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Segregate Odd and Even Nodes in a Linked List](ds/SegregateOddEven.c)
 - [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
@@ -129,6 +130,7 @@
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+
 
 ## Searching
 

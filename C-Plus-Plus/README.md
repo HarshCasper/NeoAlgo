@@ -121,6 +121,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Minimum indexed character](cp/Minimum_indexed_character.cpp)
 - [Power Of Numbers](cp/Power_of_numbers.cpp)
 - [Geek-onacci Number](cp/Geek-onacci_Number.cpp)
 - [Game with nos](cp/Game_with_nos.cpp)
@@ -164,7 +165,9 @@
 - [Checking a number has exactly four factors](cp/Exactly_Four_Factors.cpp)
 - [Graph on an array](cp/graph_on_an_array.cpp)
 - [Chopsticks Problem](cp/chopsticks.cpp)
-
+- [Construct Special Tree](cp/construct_special_tree.cpp)
+- [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
+- [Strange Hotel](cp/strange_hotel.cpp)
 
 ## Data Structures
 
@@ -267,6 +270,8 @@
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.cpp)
 - [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
 - [Check weather Given Linked List is Palindrome or Not in C++](ds/Linked_List_Palindrome_or_not.cpp)
+- [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
+- [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 
 ## Graphs
 
@@ -425,6 +430,7 @@ _add list here_
 - [Sum of Divisors](math/sum_of_divisors.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)
+- [Sterns Diatomic Series](math/sterns_diatomic_series.cpp)
 - [Ugly Numbers](math/ugly_numbers.cpp)
 - [Print Pallindrome Partitions](math/Print_Palindrome_Partitions.cpp)
 - [Remove Invalid Parentheses](math/remove_invalid_parentheses.cpp)

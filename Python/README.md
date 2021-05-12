@@ -13,7 +13,9 @@
 
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
+- [Linear Probing in Hashing](ds/Linear_Probing_In_Hashing.py)
 - [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+- [Quadratic Probing in Hashing](ds/Quadratic_Probing_in_hashing.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Reverse Linked List](ds/Reverse_linked_list.py)
 - [Binary Search Tree](ds/BinarySearchTree.py)
@@ -26,6 +28,9 @@
 - [Stack using list](ds/stack_using_list.py)
 - [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
 - [Double Ended Queue](ds/Double_Ended_queue.py)
+- [First fit memory allocation](ds/Firstfit.py)
+- [Worst fit memory allocation](ds/Worstfit.py)
+- [Best fit memory allocation](ds/Bestfit.py)
 
 ## Searching
 
@@ -123,6 +128,7 @@
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
+- [Climbing the Leaderboard](cp/climbing-the-leaderboard.py)
 - [Dutch national flag problem](cp/Sort_An_Arraysof0s1sand2s.py)
 - [Find Intersection of Two Given Linked Lists](cp/find_intersection_of_two_linked_lists.py)
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
@@ -282,8 +288,10 @@
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
+- [Chocolate Distribution Problem](cp/Chololate_distribution.py)
 - [Sort an Arrays of 0s, 1s, 2s](cp/Sort_An_Arraysof0s1sand2s.py)
 - [Activity Selection](cp/activity_selection.py)
+
 
 ## Cryptography
 
@@ -374,6 +382,8 @@
 - [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.py)
 - [Check Collinearity of Three Points](Bit--Manipulation/check_collinearity_of_three_points.py)
 - [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.py)
+- [Count of Set bits in a Number](Bit--Manipulation/count_num_of_set_bits.py)
+- [Minimum XOR value](Bit--Manipulation/minimum_xor_value.py)
 
 ## Blockchain
 

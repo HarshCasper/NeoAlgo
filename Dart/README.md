@@ -79,4 +79,5 @@
 
 ## Dynamic Programming
 
+- [Rod Cutting Problem](dp/RodCuttingProblem.dart)
 - [Golomb Sequence](dp/GolombSequence.dart)

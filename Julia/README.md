@@ -85,4 +85,4 @@
 - [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.jl)
 - [Toggle Kth Bit](Bit--Manipulation/toggle_kth_bit.jl)
 - [Minimum XOR Value](Bit--Manipulation/minimum_xor_value.jl)
-
+- [Count number of set bits](Bit--Manipulation/count_num_of_set_bits.jl)

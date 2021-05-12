@@ -127,6 +127,26 @@ class CircularLinkedList {
     }
   }
 
+  // Reverse circular singly linked list
+  reverse() {
+    if (!this.head.next) return;
+
+    let first = this.head;
+    this.tail = this.head;
+    let second = first.next;
+
+    while (second !== this.head) {
+      const temp = second.next;
+      second.next = first;
+      first = second;
+      second = temp;
+    }
+
+    // Update head node
+    this.head.next = first;
+    this.head = first;
+  }
+
   // Displaying all the nodes of Linked List
   printList() {
     let currentNode = this.head;
@@ -158,6 +178,7 @@ do {
   console.log("3. Prepend element in the Circular Singly Linked List".insert);
   console.log("4. Insert anywhere in between the Circular Singly Linked List".insert);
   console.log("5. Delete element from the Circular Singly Linked List".delete);
+  console.log("6. Reverse the Circular Singly Linked List".display);
 
 
   choice = +prompt("Enter your choice - ");
@@ -206,6 +227,15 @@ do {
       myCircularLinkedList.remove(index);
       console.log("After Deletion Linked List - ", myCircularLinkedList.printList());
       break;
+    
+    case 6:
+      if (myCircularLinkedList.length === 0) {
+        return console.log("500, you can't reverse empty CSLL".wrong);
+      }
+  
+      myCircularLinkedList.reverse();
+      console.log("Reversed Circular Linked List - ", myCircularLinkedList.printList());
+      break;
 
     default:
       console.log("You know this is wrong, Bbye!\n".wrong);
@@ -225,6 +255,7 @@ Follow the instructions to get in the show
 3. Prepend element in the Linked List
 4. Insert anywhere in between the Linked List
 5. Delete element from the Circular Singly Linked List
+6. Reverse the Circular Singly Linked List
 Enter your choice - 2
 Enter Value to Append element - 21
 After Append Linked List -  [ 21 ]
@@ -243,7 +274,11 @@ After Prepend Linked List -  [ 90, 12, 21 ]
 5. Delete element from the Circular Singly Linked List
 Enter your choice - 5 
 Enter position of element - 2
-After Deletion Linked List - [90, 21] 
+After Deletion Linked List - [90, 21]
+
+6. Reverse the Circular Singly Linked List
+Enter your choice - 6
+Reversed Circular Linked List - [21, 90]
 
 */
 

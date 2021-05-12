@@ -171,6 +171,7 @@
 - [Count of groups having largest size](cp/Count_of_groups_having_largest_size.cpp)
 - [Special Pairs](cp/special_pairs.cpp)
 - [Strange Hotel](cp/strange_hotel.cpp)
+- [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
 
 ## Data Structures
 

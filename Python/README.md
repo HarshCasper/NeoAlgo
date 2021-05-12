@@ -31,6 +31,7 @@
 - [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
 - [Best fit memory allocation](ds/Bestfit.py)
+- [Reverse First K elements of Queue](ds/Reverse_First_K_elements_of_Queue.py)
 
 ## Searching
 
@@ -346,6 +347,7 @@
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
+- [Next nth Palindrome](math/Next_Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
 - [Sum of Digits of a Number](math/sum_of_digits.py)
 - [Sterns Diatomic Series](math/sterns_diatomic_series.py)

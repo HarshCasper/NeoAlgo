@@ -76,6 +76,7 @@
 - [Selection Sort](sort/selection_sort.jl)
 - [Comb Sort](sort/comb_sort.jl)
 - [Quick Sort](sort/quick_sort.jl)
+- [Merge Sort](sort/merge_sort.jl)
 
 ## Bit Manipulation
 

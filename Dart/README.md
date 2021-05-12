@@ -16,6 +16,7 @@
 - [K-largest element in Array](Array/K_Largest_Element_Array.dart)
 - [Sorting an array in the wave form](Array/Sort_array_wave_form.dart)
 - [Subarray with given sum](Array/Subarray_Sum.dart)
+- [Floor of element in Array](Array/Floor_of_sorted_array.dart)
 - [Missing in AP](Array/Missing_in_AP.dart)
 
 ## Maths
@@ -76,3 +77,8 @@
 - [Caesar Cipher](cryptography/CaesarCipher.dart)
 - [Vernam Cipher](cryptography/VernamCipher.dart)
 - [Affine Cipher](cryptography/AffineCipher.dart)
+
+## Dynamic Programming
+
+- [Rod Cutting Problem](dp/RodCuttingProblem.dart)
+- [Golomb Sequence](dp/GolombSequence.dart)

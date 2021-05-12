@@ -109,6 +109,7 @@ _add list here_
 - [Ckeck for Subarray with sum 0](cp/SubarraySumZero.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 - [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
+- [MEX of an Array](cp/MEX_of_an_array.java)
 
 ## Cryptography
 
@@ -139,6 +140,7 @@ _add list here_
 - [Flight of stairs](dp/FlightOfStairs.java)
 - [Minimum Cost Path](dp/MinimumCostPath.java)
 - [Egg Dropping Problem](dp/EggDroppingProblem.java)
+- [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
 
 ## Data Structures
 
@@ -311,6 +313,7 @@ _add list here_
 - [Sleep Sort](sort/SleepSort.java)
 - [Comb Sort](sort/CombSort_implementation.java)
 - [Tree Sort](sort/TreeSort.java)
+- [Quick Sort in strings](sort/QuickSort_in_strings.java)
 
 ## Machine Learning
 
@@ -344,6 +347,7 @@ _add list here_
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [N Knight Kill](other/NKnightKill.java)
 - [One plus to the whole](other/OnePlustoWhole.java)
+- [Optimal Division of numbers](other/Optimal_division_of_numbers.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Sum of pairwise bit differences](other/Pairwise_bitdiff_sum.java)

@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -155,6 +155,7 @@
 - [Four Sum](cp/Four_Sum.cpp)
 - [Replace nodes by sum of its child nodes](cp/replace_each_node.cpp)
 - [Building a Wall](cp/Build_wall.cpp)
+- [Ones and Zeroes](cp/Ones_and_Zeroes.cpp)
 - [Baised Standings](cp/baised_standings.cpp)
 - [Addition of Numbers representing in form of Linked List](cp/Addition_of_2_numbers_representing_Linked_list.cpp)
 - [Find total paths for robot](cp/robot_paths.cpp)
@@ -167,11 +168,14 @@
 - [Chopsticks Problem](cp/chopsticks.cpp)
 - [Construct Special Tree](cp/construct_special_tree.cpp)
 - [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
+- [Special Pairs](cp/special_pairs.cpp)
+- [Strange Hotel](cp/strange_hotel.cpp)
 
 ## Data Structures
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
 - [kReverse in a LinkedList](ds/kReverse_LinkedList.cpp)
+- [Boundary traversal of a Binary Search Tree](ds/boundary_traversal_bst.cpp)
 - [Construct binary tree using inorder and preorder](ds/Construct_binary_tree_using_inorder_and_preorder.cpp)
 - [Detection of Cycle in Linked List](ds/detectionOfCycle_linkedList.cpp)
 - [Reverse Queue content using Stack](ds/Reverse_Queue_content_using_Stack.cpp)
@@ -264,6 +268,7 @@
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
+- [Max rectangle](ds/Max_rectangle.cpp)
 - [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
 - [BFS of Binary Tree](ds/BFS_Binary_Tree.cpp)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.cpp)
@@ -425,6 +430,7 @@ _add list here_
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
 - [Pythagorean Triples Generator](math/Pythagorean_Triples.cpp)
+- [Sum of Two Large Numbers](math/SumOf_TwoLarge_numbers_represented_as_strings.cpp)
 - [Sum of Divisors](math/sum_of_divisors.cpp)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.cpp)
 - [Sum of Digits of a number](math/Sum_of_digits.cpp)

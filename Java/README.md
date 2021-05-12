@@ -109,6 +109,7 @@ _add list here_
 - [Ckeck for Subarray with sum 0](cp/SubarraySumZero.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 - [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
+- [MEX of an Array](cp/MEX_of_an_array.java)
 
 ## Cryptography
 

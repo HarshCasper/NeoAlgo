@@ -25,11 +25,13 @@ TreeNode *node(int val)
 
 TreeNode *flatten(TreeNode *A)
 {
-    if (A == NULL) //if the tree is empty
+     //if the tree is empty
+    if (A == NULL)
     {
         return A;
     }
-    if (A->left == NULL && A->right == NULL) //for the case of leaf node
+    //for the case of leaf node
+    if (A->left == NULL && A->right == NULL) 
     {
         return A;
     }
@@ -53,8 +55,8 @@ TreeNode *flatten(TreeNode *A)
         return j;
     }
 }
-
-void inorder_output(TreeNode *root) //function for output.
+//function for output.
+void inorder_output(TreeNode *root) 
 {
     if (root == NULL)
     {
@@ -64,8 +66,8 @@ void inorder_output(TreeNode *root) //function for output.
     cout << root->val << " ";
     inorder_output(root->right);
 }
-
-TreeNode *insert_value(TreeNode *root, int val, queue<TreeNode *> &t) //code for inserting the required value to every node of tree to be formed.
+ //code for inserting the required value to every node of tree to be formed.
+TreeNode *insert_value(TreeNode *root, int val, queue<TreeNode *> &t)
 {
     TreeNode *temp = node(val);
     if (val == -1)
@@ -86,8 +88,8 @@ TreeNode *insert_value(TreeNode *root, int val, queue<TreeNode *> &t) //code for
     t.push(temp);
     return root;
 }
-
-TreeNode *form_tree(vector<int> v) //code for creating tree
+//code for creating tree
+TreeNode *form_tree(vector<int> v) 
 {
     TreeNode *root = NULL;
     queue<TreeNode *> t;

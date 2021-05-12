@@ -10,8 +10,8 @@ function merge_sort(arr)
     L = arr[1:middle]
     R = arr[middle+1:end]
 
-    merge_sort(L)
     merge_sort(R)
+    merge_sort(L)
 
     i = j = k = 1
     while i <= length(L) && j <= length(R)

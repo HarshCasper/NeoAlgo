@@ -98,6 +98,7 @@
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Segregate Odd and Even Nodes in a Linked List](ds/SegregateOddEven.c)
 - [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
@@ -129,6 +130,7 @@
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+
 
 ## Searching
 
@@ -208,6 +210,7 @@
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
 - [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
 - [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.c)
 
 ## Computational Geometry
 
@@ -238,6 +241,7 @@ _add list here_
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Krishnamurthy Number](math/krishnamurthy_number.c)
 - [Strong Number](math/strong_number.c)
+- [Sterns Diatomic series](math/sterns_diatomic_series.c)
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)

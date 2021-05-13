@@ -109,6 +109,7 @@ _add list here_
 - [Ckeck for Subarray with sum 0](cp/SubarraySumZero.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 - [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
+- [MEX of an Array](cp/MEX_of_an_array.java)
 
 ## Cryptography
 
@@ -139,6 +140,7 @@ _add list here_
 - [Flight of stairs](dp/FlightOfStairs.java)
 - [Minimum Cost Path](dp/MinimumCostPath.java)
 - [Egg Dropping Problem](dp/EggDroppingProblem.java)
+- [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
 
 ## Data Structures
 
@@ -184,6 +186,8 @@ _add list here_
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
 - [First fit memory allocation](ds/Firstfit.java)
 - [Best fit memory allocation](ds/Bestfit.java)
+- [Hashtable chaining](ds/Hashtable_chaining.java)
+- [Linear probing in Hashtable](ds/Hashtable_linear_probing.java)
 
 ## Graphs
 
@@ -309,6 +313,7 @@ _add list here_
 - [Sleep Sort](sort/SleepSort.java)
 - [Comb Sort](sort/CombSort_implementation.java)
 - [Tree Sort](sort/TreeSort.java)
+- [Quick Sort in strings](sort/QuickSort_in_strings.java)
 
 ## Machine Learning
 
@@ -327,6 +332,7 @@ _add list here_
 
 ## Other
 
+- [Find Peak element](other/Peak_element.java)
 - [Smallest and longest Substring with given length](other/smallest_and_longest_SubString.java)
 - [3 sum closest to target](other/3sum_closest_to_target.java)
 - [All possible codes](other/LetterCodeRecursion.java)
@@ -341,6 +347,7 @@ _add list here_
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [N Knight Kill](other/NKnightKill.java)
 - [One plus to the whole](other/OnePlustoWhole.java)
+- [Optimal Division of numbers](other/Optimal_division_of_numbers.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)
 - [Sum of pairwise bit differences](other/Pairwise_bitdiff_sum.java)

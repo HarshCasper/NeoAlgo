@@ -26,9 +26,9 @@
          obtained when one number is divided by the other.*/
      //This if condition checks if both n and c have same last digits
      if((n%10)==(c%10))
-     cout<<"The given number is Trimorphic";
+         cout<<"The given number is Trimorphic";
      else
-     cout<<"The given number is not Trimorphic";
+         cout<<"The given number is not Trimorphic";
      return 0;
  }
 

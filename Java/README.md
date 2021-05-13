@@ -216,6 +216,7 @@ _add list here_
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
 - [Search Insert Position](other/Search_insert_index.java)
+- [Shortest Palindrome Knuth–Morris–Pratt Algorithm](other/Shortest_Palindrome_KMPalgo.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

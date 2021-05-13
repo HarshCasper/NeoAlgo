@@ -45,6 +45,7 @@
 - [Max Consecutive Ones](cp/max_consecutive_ones.c)
 - [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [Bigmod Algorithm](cp/bigmod_algorithm.c)
+- [Find Minimum element in Rotated and Sorted Array](cp/minimum_in_rotated_sorted_array.c)
 
 ## Cryptography
 
@@ -62,10 +63,12 @@
 - [Check for subsequence](other/check_for_subsequence.c)
 - [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
 - [Sudoku Solver](other/SudokuSolver.c)
+- [Auto Key Cipher](cryptography/AutoKey_Cipher.c)
 
 ## Data Structures
 
 - [AVL Tree](ds/AVL_tree.c)
+- [Balanced Parenthesis using Stack](ds/balanced_parenthesis.c)
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
@@ -97,6 +100,8 @@
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Pairwise Swapping in a Linked List](ds/PairwiseSwap.c)
+- [Segregate Odd and Even Nodes in a Linked List](ds/SegregateOddEven.c)
 - [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
@@ -128,6 +133,7 @@
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+
 
 ## Searching
 
@@ -206,6 +212,8 @@
 - [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
 - [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
+- [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.c)
 
 ## Computational Geometry
 
@@ -236,6 +244,7 @@ _add list here_
 - [Karpekar Number](math/Kaprekar_no.c)
 - [Krishnamurthy Number](math/krishnamurthy_number.c)
 - [Strong Number](math/strong_number.c)
+- [Sterns Diatomic series](math/sterns_diatomic_series.c)
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
@@ -256,6 +265,7 @@ _add list here_
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
 - [Special Number](math/special.c)
 - [Pronic Number](math/Pronic_numbers.c)
+- [Quadratic Equation](math/Quadratic_Equation.c)
 
 ## Operating System
 
@@ -283,6 +293,7 @@ _add list here_
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
+- [Find the maximum product subarray of a given array](other/Maximum_Product_Subarray.c)
 
 ## Blockchain
 

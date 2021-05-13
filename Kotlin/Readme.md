@@ -13,6 +13,8 @@
 
 - [Bit Operations](BitManipulation/BasicBitOperations.kt)
 - [Single Number I](BitManipulation/SingleNumber_I.kt)
+- [Power Of Two](BitManipulation/PowerOfTwo.kt)
+- [XOR from 1 to N](BitManipulation/XORFromOneToN.kt)
 
 ## Competitive Programming
 

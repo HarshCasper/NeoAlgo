@@ -407,6 +407,7 @@
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
+- [Find K Pairs with Smallest Sums](heap/Find_K_Pairs_with_Smallest_Sums.cpp)
 
 ## Machine Learning
 

@@ -26,6 +26,7 @@
 - [Dynamic Queue](ds/dynamic_queue.py)
 - [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
 - [AVL Tree](ds/AVL_Tree.py)
+- [Prefix to postfix](ds/Prefix_to_postfix.py)
 
 ## Competitive Programming
 

@@ -108,6 +108,7 @@ _add list here_
 - [Tree Traversal(postorder traversal)](ds/postorder_Traversal.java)
 - [Priority Queue](ds/PriorityQueueEg.java)
 - [AVL Tree](ds/AVL_Tree.java)
+- [Prefix to Postfix](ds/Prefix_to_postfix.java)
 
 ## Graphs
 

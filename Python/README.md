@@ -209,6 +209,7 @@
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
 - [M Coloring Problem](backracking/M-coloring.py)
 - [Tug Of War](backracking/Tug_of_war.py)
+- [Water Jug Problem](backtracking/Water_Jug_Problem.py)
 
 ## Dynamic Programming
 

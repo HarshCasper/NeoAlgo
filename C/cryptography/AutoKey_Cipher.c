@@ -16,20 +16,6 @@ Where:
 
 */
 
-/*
-Sample Input:
-    Enter the Single Key word: L //In A-Z, L will be at 11 index.
-    Enter the length of Plain Text: 5
-    Enter the Plain Text: hello
-
-
-Sample Output:
-    The Plain Text is: hello
-    The Text after Encryption(Cipher text) is: slpwz
-
-After Decryption the Text is: hello
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -115,3 +101,17 @@ int main(int argc, char **argv)
     free(plaintext);
     return 0;
 }
+
+/*
+Sample Input:
+    Enter the Single Key word: L //In A-Z, L will be at 11 index.
+    Enter the length of Plain Text: 5
+    Enter the Plain Text: hello
+
+
+Sample Output:
+    The Plain Text is: hello
+    The Text after Encryption(Cipher text) is: slpwz
+
+After Decryption the Text is: hello
+*/

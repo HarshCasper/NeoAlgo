@@ -45,6 +45,7 @@
 - [Harshad Number](maths/HarshadNumber.dart)
 - [Tower of Hanoi](maths/TowerOfHanoi.dart)
 - [Square Root using Binary Search](math/Squareroot_binary_search.dart)
+- [Modular multiplicative inverse](math/Modular_multiplicative_inverse.dart)
 
 
 ## Search

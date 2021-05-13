@@ -63,6 +63,7 @@
 - [Check for subsequence](other/check_for_subsequence.c)
 - [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
 - [Sudoku Solver](other/SudokuSolver.c)
+- [Auto Key Cipher](cryptography/AutoKey_Cipher.c)
 
 ## Data Structures
 

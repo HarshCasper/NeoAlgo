@@ -568,6 +568,7 @@ _add list here_
 - [Vernam Cipher](cryptography/VernamCipher.cpp)
 - [Keyword Cipher](cryptography/KeywordCipher.cpp)
 - [Hill Cipher](cryptography/HillCipher.cpp)
+- [Play Fair Cipher](cryptography/PlayFair_Cipher.cpp)
 
 ## Computational Geometry
 

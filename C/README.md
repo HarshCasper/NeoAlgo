@@ -270,10 +270,9 @@ _add list here_
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [First Come First Serve Scheduling Algorithm](operating_system/first_come_first_serve_algorithm.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 - [Priority Scheduling Algorithm](operating_system/priority_sjf.c)
-- [First Come First Serve Scheduling Algorithm](operating_system/first_come_first_serve_algorithm.c)
-
 
 ## Other
 

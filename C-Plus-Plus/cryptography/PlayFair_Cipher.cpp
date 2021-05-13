@@ -1,7 +1,16 @@
-// Play Fair Cipher in C++
+/*
+About Play Fair Cipher: In Play fair, The Key Matrix will be always 5x5 dimension. It neither depends on key nor on plain text. 
+                        We have to build always a 5x5 matrix. Now, this 5x5 grid of matrix consists of alphabets(a-z) which is used to encrypt/decrypt the text. 
+                        Each of the 25 alphabets must be unique and we have to assume I and J as a single char(it's our choice to select I or J). 
+                        Because, 5x5 grid contains only 25 slots. If the plaintext contains J/I, then it is replaced by I/J(based on our assumption).
 
-#include <iostream>
-#include <cstdlib>
+Rules:
+    1. Form a rectangle with the two letters and take the letters on the horizontal opposite corner of the rectangle.
+    2. If both the letters are in the same row: Take the letter to the right of each one (going back to the leftmost if at the rightmost position).
+    3. If both the letters are in the same column: Take the letter below each one (going back to the top if at the bottom).
+*/
+
+#include <bits/stdc++.h>
 #define dim 5 //dimension 5x5
 
 std::string resulttext;
@@ -9,10 +18,11 @@ char matrix[dim][dim], choosechar(int a, int b);
 bool chooseindex(char l, int &a, int &b);
 void formmatrix(std::string k, bool ij);
 
-//e_d: Encryption or Decryption(true/false)
+// Argument e_d: Encryption or Decryption(true/false)
 std::string play_fair(std::string key, std::string text, bool ij, int e_d)
 {
     formmatrix(key, ij);
+    // Placing I/J in one cell in matrix
     for (std::string::iterator i = text.begin(); i != text.end(); ++i)
     {
         *i = toupper(*i);
@@ -24,6 +34,7 @@ std::string play_fair(std::string key, std::string text, bool ij, int e_d)
             continue;
         resulttext += *i;
     }
+    // For Encryption
     if (e_d)
     {
         std::string temptext = "";
@@ -43,10 +54,14 @@ std::string play_fair(std::string key, std::string text, bool ij, int e_d)
     if (resulttext.length() & 1)
         resulttext += 'X';
 
+    // for Indexes
     int a, b, c, d;
+    // Result strings
     std::string tempresult = "";
+    // Iterating through out the string(all chars)
     for (std::string::const_iterator i = resulttext.begin(); i != resulttext.end(); ++i)
     {
+        // Selecting the indexes from matrix
         if (chooseindex(*i++, a, b))
             if (chooseindex(*i, c, d))
             {
@@ -71,11 +86,13 @@ std::string play_fair(std::string key, std::string text, bool ij, int e_d)
     return resulttext;
 }
 
+// Selecting char from matrix with provided indexes(parameters)
 char choosechar(int a, int b)
 {
     return matrix[(b + dim) % dim][(a + dim) % dim];
 }
 
+// Validation
 bool chooseindex(char character, int &a, int &b)
 {
     for (int y = 0; y < dim; ++y)
@@ -89,6 +106,11 @@ bool chooseindex(char character, int &a, int &b)
     return false;
 }
 
+/*
+First, We have fill the matrix with letters/characters of key without repeating any character(skip duplicates).
+(*) = empty
+fill the other slots with remaining characters(a-z) sequentially. Place I/J in one slot(index). Now the resultant will be our Key matrix
+*/
 void formmatrix(std::string key, bool ij)
 {
     if (key.length() < 1)
@@ -108,32 +130,30 @@ void formmatrix(std::string key, bool ij)
     copy(tempKey.begin(), tempKey.end(), &matrix[0][0]);
 }
 
+// Driver code starts
 int main(int argc, char *argv[])
 {
     std::string key = "harry";
     std::string plaintext = "my name is ravi";
     std::string encryptedtext, decryptedtext;
-    /*
-    // Custom Input:
-    cout << "Enter The Key: ";
-    getline(cin, key);
-    cout << "\nEnter the Plain Text to Encrypt: ";
-    getline(cin, plaintext);
-    */
     std::cout << "\nPlain Text is : " << plaintext;
+    // Encryption Process starts
     encryptedtext = play_fair(key, plaintext, true, 1);
-    std::cout << "\n\nEncrypted Text is : " << encryptedtext;
+    std::cout << "\n\nEncrypted Text is : " << encryptedtext; // Displaying Encrypted Key
+    // Decryption Process starts
     decryptedtext = play_fair(key, encryptedtext, true, -1);
     decryptedtext = decryptedtext.substr(0, decryptedtext.length() / 2);
-    std::cout << "\nDecrypted Text is: " << decryptedtext;
-
+    std::cout << "\nDecrypted Text is: " << decryptedtext; // Displaying Decrypted Key
     return 0;
 }
 
 /*
-Sample Output:
+Sample Input:
+    Key: harry
+    plainText: my name is ravi
 
-Plain Text is : my name is ravi
-Encrypted Text is : SFKBLFMOYRUK
-Decrypted Text is: MYNAMEISRAVI
+Sample Output:
+    Plain Text is : my name is ravi
+    Encrypted Text is : SFKBLFMOYRUK
+    Decrypted Text is: MYNAMEISRAVI
 */

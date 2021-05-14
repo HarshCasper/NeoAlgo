@@ -1,24 +1,24 @@
 """
-Sorting the array into a wave-like array. In other words, arranging the elements into a sequence such that a1 >= a2 <= a3 >= a4 <= a5..... (considering the increasing lexicographical order) in python.
+Sorting the array into a wave-like array.
 For eg: arr[] = {1,2,3,4,5}
 Output: 2 1 4 3 5
 """
 
 
-def convertToWave(N,A):
-    for i in range(0, N-N%2, 2):               #swapping alternatively
-        temp=A[i]
-        A[i]=A[i+1]
-        A[i+1]=temp
-    return A
+def convertToWave(length,array):
+    for i in range(0, length - length%2, 2):               #swapping alternatively
+        temp=array[i]
+        array[i]=array[i+1]
+        array[i+1]=temp
+    return array
 
-A = list(map(int,input("Enter the elements of the array : ").split()))
-N = len(A)
+arr = list(map(int,input("Enter the elements of the array : ").split()))
+N = len(arr)    # length of the array
 
-A = convertToWave(N,A)
+arr = convertToWave(N,arr)
 
 print("Wave Array: ")
-for el in A:
+for el in arr:
   print(el, end=" ")
    
     

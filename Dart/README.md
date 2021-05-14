@@ -45,6 +45,7 @@
 - [Harshad Number](maths/HarshadNumber.dart)
 - [Tower of Hanoi](maths/TowerOfHanoi.dart)
 - [Square Root using Binary Search](math/Squareroot_binary_search.dart)
+- [Trimorphic Number](math/TrimorphicNumber.dart)
 
 
 ## Search

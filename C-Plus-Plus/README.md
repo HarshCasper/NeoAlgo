@@ -150,6 +150,7 @@
 - [Max Topology Short](cp/Max_Topology_short.cpp)
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
+- [Lee Algorithm](cp/Lee_Algorithm.cpp)
 - [Connecting Dots](cp/connecting_dots.cpp)
 - [Friends Pairing](cp/friends_pairing.cpp)
 - [Four Sum](cp/Four_Sum.cpp)

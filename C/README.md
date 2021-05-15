@@ -45,6 +45,7 @@
 - [Max Consecutive Ones](cp/max_consecutive_ones.c)
 - [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
 - [Bigmod Algorithm](cp/bigmod_algorithm.c)
+- [Find Minimum element in Rotated and Sorted Array](cp/minimum_in_rotated_sorted_array.c)
 
 ## Cryptography
 
@@ -62,6 +63,7 @@
 - [Check for subsequence](other/check_for_subsequence.c)
 - [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
 - [Sudoku Solver](other/SudokuSolver.c)
+- [Auto Key Cipher](cryptography/AutoKey_Cipher.c)
 
 ## Data Structures
 
@@ -98,6 +100,8 @@
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Pairwise Swapping in a Linked List](ds/PairwiseSwap.c)
+- [Segregate Odd and Even Nodes in a Linked List](ds/SegregateOddEven.c)
 - [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
 - [Stack Using Queue](ds/StackUsingQueue.c)
 - [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
@@ -128,7 +132,9 @@
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
+- [Postfix to Infix Conversion](ds/postfixToInfix.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+
 
 ## Searching
 
@@ -265,9 +271,9 @@ _add list here_
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [First Come First Serve Scheduling Algorithm](operating_system/first_come_first_serve_algorithm.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 - [Priority Scheduling Algorithm](operating_system/priority_sjf.c)
-
 
 ## Other
 

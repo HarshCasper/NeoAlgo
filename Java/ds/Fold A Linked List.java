@@ -1,13 +1,13 @@
-// The function is expected to place last element after 1st element, 2nd last element after 2nd element and so on.
- /*Example 1
+/* 
+The function is expected to place last element after 1st element, 2nd last element after 2nd element and so on.
+
+Example 1
 1->2->3->4->5
 will fold as
-1->5->2->4->3 */
+1->5->2->4->3 
 
-/* Example 2
-1->2->3->4->5->6
-1->6->2->5->3->4 */
-// Implement on singly Linked List , using Recurrsion.
+Implement on singly Linked List , using Recurrsion.
+ */
 
 
 import java.io.*;
@@ -121,15 +121,6 @@ Sample Input/Output:
 Input:  5
         1 2 3 4 5
 Output: 1 5 2 4 3 
-Time Complexity: O(n) 
-Space Complexity: O(n) 
-*/
-
-/*
-Sample Input/Output:
-Input:  6
-        2 4 5 6 7 8 
-Output: 2 8 4 7 5 6 
 Time Complexity: O(n) 
 Space Complexity: O(n) 
 */

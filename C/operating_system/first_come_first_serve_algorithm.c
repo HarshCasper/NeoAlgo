@@ -1,9 +1,11 @@
 /*
-FCFS: First Come First Serve algorithm is a CPU scheduling algorithm, in which the process are taken on the basis of their arrival time. The process that arrives first, is alloted the CPU first for the execution. Its working is similar to that of the FIFO in queue. It is a non-preemptive algorithm which means that the next process cannot be scheduled in the middle of the ongoing execution of a process in CPU.  
 
-Advantages: It is simple and easy, not much calculations and complications are involved.
+FCFS: First Come First Serve algorithm 
 
-Disadvantages: It is non-preemptive, so may lead to the starvation if any one process has a very long burst time. It also has a higher average waiting time than most of the other CPU scheduling algorithms.
+It is a CPU scheduling algorithm, in which the process are taken on the basis of their arrival time. 
+The process that arrives first, is alloted the CPU first for the execution. Its working is similar to 
+that of the FIFO in queue. It is a non-preemptive algorithm which means that the next process cannot be 
+scheduled in the middle of the ongoing execution of a process in CPU.  
 
 Terms explanation:
 1. Burst time is the time taken by a process to complete its execution.
@@ -16,18 +18,8 @@ Step 2: Waiting time for a process is calculated by adding the burst time of the
 Step 3: Turn around time of a process is calculated which is the sum of burst time and waiting time of that process.
 Step 4: Average waiting time and average turn around time are calculated by diving the total waiting and turn around time by nummber of process.
 
-Variables used:
-1. bt is burst time.
-2. wt is waiting time .
-3. tat is turn around time (tat= wt+bt).
-4. avg_wt is average waiting time.
-5. avg_tat is average turn around time.
-6. total_wt is total waiting time.
-7. total_tat is total turn around time.
-8. process indiacates the index of process.
-9. n is the number of process.
-
 */
+
 #include <stdio.h>
 
 // Function to calculate waiting time 
@@ -113,8 +105,9 @@ int main()
 }
 
 /*
-Test case 1:
-Input 1:
+
+Test case:
+Input:
 Enter total number of process(maximum 50):4
 
 Enter Process Burst Time
@@ -126,7 +119,7 @@ P[3]:4
 
 P[4]:8
 
-Output 1:
+Output:
 Process         Burst Time      Waiting Time    Turnaround Time
 P[1]            2               0               2
 P[2]            6               2               8
@@ -136,35 +129,8 @@ P[4]            8               12              20
 Average Waiting Time:5.500000
 Average Turnaround Time:10.500000
 
-Test case 2:
-Input 2:
-Enter total number of process(maximum 50):6
-
-Enter Process Burst Time
-P[1]:4
-
-P[2]:8
-
-P[3]:6
-
-P[4]:3
-
-P[5]:7
-
-P[6]:2
-
-Output 2:
-Process         Burst Time      Waiting Time    Turnaround Time
-P[1]            4               0               4
-P[2]            8               4               12
-P[3]            6               12              18
-P[4]            3               18              21
-P[5]            7               21              28
-P[6]            2               28              30
-
-Average Waiting Time:13.833333
-Average Turnaround Time:18.833334
-
-Complexities: Average case time complexity is of O(n^2) and the best case time complexity is of O(n). Space complexity is of O(1)
+Complexities: 
+Time complexity: O(n)
+Space complexity: O(1)
 
 */

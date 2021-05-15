@@ -188,6 +188,7 @@ _add list here_
 - [Best fit memory allocation](ds/Bestfit.java)
 - [Hashtable chaining](ds/Hashtable_chaining.java)
 - [Linear probing in Hashtable](ds/Hashtable_linear_probing.java)
+- [Prefix to Postfix](ds/Prefix_to_postfix.java)
 
 ## Graphs
 

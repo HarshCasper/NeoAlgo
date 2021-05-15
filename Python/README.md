@@ -209,6 +209,7 @@
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
 - [M Coloring Problem](backracking/M-coloring.py)
 - [Tug Of War](backracking/Tug_of_war.py)
+- [Water Jug Problem](backtracking/Water_Jug_Problem.py)
 
 ## Dynamic Programming
 
@@ -434,6 +435,7 @@ _add list here_
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+- [Wave Array](other/Wave_Array.py)
 - [Merge Interval](other/merge_interval.py)
 - [Kth index removal](other/stringkth.py)
 - [Display all possible keypad sequences for a given number](other/KeypadSequence.py)

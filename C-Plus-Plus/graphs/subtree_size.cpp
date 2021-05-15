@@ -55,7 +55,7 @@ Enter the edges:-
 2 4
 2 5
 3 6
-Enter the edges:-
+Subtree size array :
 6 3 2 1 1 1 
 
 Time Complexity : O( N+E) // Nodes and Edges

@@ -132,6 +132,7 @@
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
+- [Postfix to Infix Conversion](ds/postfixToInfix.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
 
 

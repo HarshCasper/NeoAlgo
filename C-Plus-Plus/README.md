@@ -150,6 +150,7 @@
 - [Max Topology Short](cp/Max_Topology_short.cpp)
 - [Minimum rounds to achieve n jobs](cp/min_jobs.cpp)
 - [Dividing tasks to Students](cp/Dividing_tasks.cpp)
+- [Lee Algorithm](cp/Lee_Algorithm.cpp)
 - [Connecting Dots](cp/connecting_dots.cpp)
 - [Friends Pairing](cp/friends_pairing.cpp)
 - [Four Sum](cp/Four_Sum.cpp)
@@ -300,6 +301,7 @@
 - [Flood fill](graphs/FloodFill.cpp)
 - [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
 - [Number of Connected Components](graphs/number_of_connected_components.cpp)
+- [Is it a tree](graphs/is_it_a_tree.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
 - [Kosaraju Algorithm](graphs/Kosaraju_Algorithm.cpp)
 - [Kruskal's Algorithm](graphs/kruskal_Algorithm.cpp)
@@ -476,6 +478,8 @@ _add list here_
 - [Next Prime Number](math/next_prime_number.cpp)
 - [Polynomial addition](math/polynomial_addition.cpp)
 - [Pronic Number](math/Pronic_numbers.cpp)
+- [Special Number](math/special.cpp)
+- [Harshad Number](math/HarshadNumber.cpp)
 
 ## Dynamic Programming
 

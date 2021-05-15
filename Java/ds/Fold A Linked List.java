@@ -14,12 +14,14 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-  public static class Node {  // Creating Node for Singly Linked List
+  
+  // Creating Node for Singly Linked List
+  public static class Node {  
     int data;
     Node next;
   }
-
-  public static class LinkedList {    // singly Linked List
+  // singly Linked List
+  public static class LinkedList {    
     Node head;
     Node tail;
     int size;
@@ -38,12 +40,12 @@ public class Main {
 
       size++;
     }
-
-    public int size() {       // size function
+    // size function
+    public int size() {       
       return size;
     }
-
-    public void display() {                // display function
+    // display function
+    public void display() {                
       for (Node temp = head; temp != null; temp = temp.next) {
         System.out.print(temp.data + " ");
       }
@@ -51,45 +53,61 @@ public class Main {
     }
 
 
+    // static variable for ending purpose
+    static int c;     
+    // static left pointer 
+    static Node left;                   
 
-    static int c;                       // static variable for ending purpose
-    static Node left;                   // static left pointer 
+    // helper function
+    private void foldHelper(Node node) {   
 
-    private void foldHelper(Node node) {   // helper function
-
-
-        if(node==null)                    // If reached null node simply return
+        // If reached null node simply return
+        if(node==null)                    
         {
             return;
         }
-
-        foldHelper(node.next);           // else call helper function for next node for placing right pointer at the tail
-        if(c==1)                          // c works as flag to check if left pointer and right pointer has crosssed each other
+        // else call helper function for next node for placing right pointer at the tail
+        foldHelper(node.next);
+        
+        // c works as flag to check if left pointer and right pointer has crosssed each other
+        if(c==1)                          
         {
             return;
         }
-        else if(left.next==node || left==node)  // if left.next = right node or left == right node 
-        {
-            node.next=null;                     // this node will be our tail node
+      
+        // if left.next = right node or left == right node
+        else if(left.next==node || left==node)   
+        {   
+            // this node will be our tail node
+            node.next=null;                     
             tail=node;
-            c=1;                                // shows our work is complete now
+            // shows our work is complete now
+            c=1;                                
             return;
         }
 
-        else                                   // if work left pointer has not crossed right pointer
+        // if work left pointer has not crossed right pointer
+        else                                   
         { 
-            Node nbr = left.next;              // storing the next of left since our new next will be right pointer       
-            left.next=node;                    // storing right pointer in the next of left
-            node.next=nbr;                     // this can we visualized as simple inserting right pointer between left pointer and its next
-            left=nbr;                          // our new left will be its previous next
+            // storing the next of left since our new next will be right pointer
+            Node nbr = left.next;      
+            // storing right pointer in the next of left
+            left.next=node;    
+            // this can we visualized as simple inserting right pointer between left pointer and its next
+            node.next=nbr;
+            // our new left will be its previous next
+            left=nbr;                          
         }
 
     }
 
-    public void fold() {             // Fold function
+    // Fold function
+    public void fold() {             
       c=0;
-      left=head;                     // initially left pointer will be at head
-      foldHelper(head);              // calling helper function for result
+      // initially left pointer will be at head
+      left=head;  
+      // calling helper function for result
+      foldHelper(head);              
 
 
     }

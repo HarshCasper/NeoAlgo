@@ -46,7 +46,9 @@
 - [Tower of Hanoi](maths/TowerOfHanoi.dart)
 - [Square Root using Binary Search](math/Squareroot_binary_search.dart)
 - [Disarium Number](math/DisariumNumber.dart)
-
+- [Largest prime factor](math/Largest_Prime_Factor.dart)
+- [Modular multiplicative inverse](math/Modular_multiplicative_inverse.dart)
+- [Mystery Number](maths/MysteryNumber.dart)
 
 ## Search
 

@@ -167,7 +167,7 @@
 - [Chopsticks Problem](cp/chopsticks.cpp)
 - [Construct Special Tree](cp/construct_special_tree.cpp)
 - [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
-
+- [Max sum in the configuration](cp/Max_sum_in_the_configuration.cpp)
 ## Data Structures
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)

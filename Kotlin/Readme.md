@@ -12,6 +12,13 @@
 ## Bit Manipulation
 
 - [Bit Operations](BitManipulation/BasicBitOperations.kt)
+- [Single Number I](BitManipulation/SingleNumber_I.kt)
+- [Power Of Two](BitManipulation/PowerOfTwo.kt)
+- [XOR from 1 to N](BitManipulation/XORFromOneToN.kt)
+
+## Competitive Programming
+
+- [ReverseString](cp/ReverseString.kt)
 
 ## Sorting Algorithms
 
@@ -31,6 +38,10 @@
 - [Palindrome Number](Maths/PalindromeNumber.kt)
 - [Fibonacci Number](Maths/FibonacciNumber.kt)
 - [Happy Number](Maths/HappyNumber.kt)
+- [Gray to Decimal and Decimal to Gray](Maths/GraytoDecimalandDecimaltoGray.kt)
+- [Tower of Hanoi](Maths/TowerofHanoi.kt)
+- [Factorial](Maths/Factorial.kt)
+
 
 ## Searching Algorithms
 

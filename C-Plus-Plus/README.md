@@ -241,6 +241,7 @@
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
+- [Row with max 1s ](ds/Row_with_max_1s.cpp)
 
 ## Graphs
 

@@ -1,11 +1,6 @@
 '''
 Given five positive integers, the aim is to find the minimum and maximum values that can be calculated by summing exactly four of the five integers.
 
-Example:
-arr = [1,3,5,7,9]
-The minimum sum is 1+3+5+7 = 16 and the maximum sum is 3+5+7+9 = 24. So, the output will be:
-16 24
-
 '''
 
 def MMSum(a):

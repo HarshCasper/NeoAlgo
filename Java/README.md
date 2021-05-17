@@ -103,6 +103,7 @@ _add list here_
 - [Rat In A Maze](cp/RatInAMaze.java)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
+- [Print unique digits of a large number](cp/unique-digits-of-large-number.java)
 
 ## Cryptography
 

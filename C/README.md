@@ -18,7 +18,6 @@
 - [Anagram Program](cp/anagram_program.c)
 - [First Missing Positive Integer](cp/first_missing_positive_integer.c)
 - [Finding possible codes using recursion ](cp/possible_code_recursion.c)
-- [Linear Search](search/linear_search.c)
 - [Max Sub Array Sum](cp/maxSubArraySum.c)
 - [Painter Partition Problem](cp/painter_partition.c)
 - [Random Search Monte Carlo version](search/random_search.c)
@@ -43,6 +42,10 @@
 - [Lexicographical rank of a string](cp/Lexicographic_rank.c)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.c)
 - [Trapping rain water](cp/Trapping_rain_water.c)
+- [Max Consecutive Ones](cp/max_consecutive_ones.c)
+- [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
+- [Bigmod Algorithm](cp/bigmod_algorithm.c)
+- [Find Minimum element in Rotated and Sorted Array](cp/minimum_in_rotated_sorted_array.c)
 
 ## Cryptography
 
@@ -57,9 +60,15 @@
 - [Hill Cipher](cryptography/Hill_Cipher.c)
 - [Playfair Cipher](cryptography/PlayFairCipher.c)
 - [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform.c)
+- [Check for subsequence](other/check_for_subsequence.c)
+- [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
+- [Sudoku Solver](other/SudokuSolver.c)
+- [Auto Key Cipher](cryptography/AutoKey_Cipher.c)
 
 ## Data Structures
 
+- [AVL Tree](ds/AVL_tree.c)
+- [Balanced Parenthesis using Stack](ds/balanced_parenthesis.c)
 - [Circular Linked List](ds/CircularLinkedList.c)
 - [Fenwick Tree](ds/FenwickTree.c)
 - [Infix to postfix](ds/infix_to_postfix.c)
@@ -91,8 +100,10 @@
 - [Implementation of minHeap](ds/minHeap.c)
 - [Removing duplicates from sorted linked list](ds/removeDuplicate.c)
 - [Doubly Linked List Implementation](ds/doubly_linked_list.c)
+- [Pairwise Swapping in a Linked List](ds/PairwiseSwap.c)
+- [Segregate Odd and Even Nodes in a Linked List](ds/SegregateOddEven.c)
 - [Inorder Predecessor and Successor in BST](ds/inorder_predecessor_successor.c)
-- [Stack Using Queue](ds/StackUsingQueue.c) 
+- [Stack Using Queue](ds/StackUsingQueue.c)
 - [Infix to Postfix Conversion](stack/Infix_to_Postfix.c)
 - [Finding a pair of element](ds/Finding_a_pair_of_element.c)
 - [Reverse Linked List](ds/reverse_linked_list.c)
@@ -116,6 +127,14 @@
 - [Remove Duplicates From an Unsorted Linked List](ds/Remove_Duplicate_In_Linked_List.c)
 - [First Fit Memory allocation](ds/first_fit_memory.c)
 - [Adjacency Matrix in C](ds/Adjacency_matrix.c)
+- [Worst Fit Memory allocation](ds/worst_fit_memory.c)
+- [Best Fit Memory allocation](ds/best_fit_memory.c)
+- [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
+- [Queue using Circular Array](ds/queue_using_circular_array.c)
+- [Reverse Queue using stack](ds/reverse-queue.c)
+- [Postfix to Infix Conversion](ds/postfixToInfix.c)
+- [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+
 
 ## Searching
 
@@ -158,6 +177,7 @@
 - [Iterative Merge Sort](sort/Iterative_Merge_Sort.c)
 - [Quick Sort](sort/quickSort.c)
 - [Wiggle Sort](sort/Wiggle_sort.c)
+- [Gnome Sort](sort/GnomeSort.c)
 
 ## Dynamic Programming
 
@@ -168,10 +188,11 @@
 - [Longest Decreasing Subsequence](dp/length_longest_decreasing_subsequence.c)
 - [Longest Increasing Subsequence](dp/length_longest_increasing_subsequence.c)
 - [Longest Common Subsequence](dp/length_longest_common_subsequence.c)
-- [N-Queen](https://github.com/subhayu99/NeoAlgo/blob/master/C/dp/N-Queen.c)
+- [N-Queen](dp/N-Queen.c)
 - [Max_Sub_Square_Matrix](dp/Max_Sub_SquareMatrixwithAll_1s.c)
 - [Max_Sum_Rectangle_Matrix](dp/Max_Sum_Rectangle.c)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.c)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.c)
 - [Implement Floyd-Warshall Algorithm](dp/floyd_warshal.c)
 - [House Robber](dp/houseRobber.c)
 - [Unique BST](dp/Unique_BST.c)
@@ -182,7 +203,23 @@
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.c)
 - [Prim's Algorithm](graphs/Prim_Algorithm.c)
 - [Breadth First Search](graphs/BFS.c)
+- [Number of Connected Components](graphs/number_of_connected_components.c)
+- [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
+- [Warshall Algorithm](graphs/warshall.c)
+
+## Bit - Manipulation
+
+- [Toggle k-th bit of a number](Bit--Manipulation/toggle_kth_bit.c)
+- [Reverse bits of a Number](Bit--Manipulation/reverse_bits.c)
+- [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
+- [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
+- [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.c)
+
+## Computational Geometry
+
+- [Check Collinearity of Three points](computational_geometry/check_collinearity_of_three_points.c)
+
 
 ## Machine Learning
 
@@ -202,15 +239,18 @@ _add list here_
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)
 - [Find factorial of a Number](math/factorial.c)
 - [Happy Number](math/happy_number.c)
+- [Lucas Number](math/lucas_number.c)
 - [Lowest Prime Factor](math/lowest_prime_factor_of_number.c)
 - [Automorphic Number](math/automorphic_no.c)
 - [Karpekar Number](math/Kaprekar_no.c)
-- [Strong Number](math/strong_number.c) 
+- [Krishnamurthy Number](math/krishnamurthy_number.c)
+- [Strong Number](math/strong_number.c)
+- [Sterns Diatomic series](math/sterns_diatomic_series.c)
 - [Reverse Number](math/reverse_number.c)
 - [Neon Number](math/Neon_number.c)
 - [Noble Integer](math/Noble_Integer.c)
 - [Number of Digits](math/number_of_digits.c)
-- [Magic Number](math/Magic_Number.c) 
+- [Magic Number](math/Magic_Number.c)
 - [Perfect Number](math/perfect_number.c)
 - [Matrix Addition](math/matrix_addition.c)
 - [Matrix Subtraction](math/matrix_subtraction.c)
@@ -221,16 +261,23 @@ _add list here_
 - [Palindrome](math/Palindrome.c)
 - [Decimal to Binary](math/DecimalToBinary.c)
 - [Pascal's triangle](math/Pascals_triangle.c)
+- [Decimal to Hexadecimal conversion](math/Decimal_to_Hex.c)
+- [Polynomial Addition](math/polynomial_addition.c)
+- [Polynomial Multiplication](math/polynomial_multiplication.c)
+- [Special Number](math/special.c)
+- [Pronic Number](math/Pronic_numbers.c)
+- [Quadratic Equation](math/Quadratic_Equation.c)
 
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [First Come First Serve Scheduling Algorithm](operating_system/first_come_first_serve_algorithm.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 - [Priority Scheduling Algorithm](operating_system/priority_sjf.c)
 
-
 ## Other
 
+- [Binary to Decimal Conversion](math/binary_to_decimal.c)
 - [Find the Numbers](other/Find_the_numbers.c)
 - [Find First and Last position index of an element in an array](other/find_first_and_last_position_index_of_a_number_in_array.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
@@ -247,26 +294,7 @@ _add list here_
 - [Find Union and Intersection of two Sorted arrays](other/Union_and_Intersection_of_two_Sorted_arrays.c)
 - [Concatenate two strings](other/concatenate_two_strings.c)
 - [String Palindrome](other/String_Palindrome_or_not.c)
-- [Permutation of string](other/Permutation_of_string.c)
-
-## CP
-
-- [Activity Selection](cp/Activity_selection.c)
-- [Max Consecutive Ones](cp/max_consecutive_ones.c)
-- [Anagram Program](cp/anagram_program.c)
-- [Maximum possible length of balanced bracket sequence](cp/maximum_size_of_balanced_bracket_sequence.c)
-- [First Missing Positive Integer](cp/first_missing_positive_integer.c)
-- [Max Sub Array Sum](cp/maxSubArraySum.c)
-- [Bigmod Algorithm](cp/bigmod_algorithm.c)
-- [Sum of Triplet](cp/sum_of_triplet.c)
-
-## Cryptography
-
-- [Affine Substitution Cipher](cryptography/Affine_Substitution_Cipher.c)
-- [Caesar Cipher Algorithm](cryptography/caesar_cipher.c)
-- [Check for subsequence](other/check_for_subsequence.c)
-- [Swap_Two_Nibbles](other/Swap_two_nibbles.c)
-- [Sudoku Solver](other/SudokuSolver.c)
+- [Find the maximum product subarray of a given array](other/Maximum_Product_Subarray.c)
 
 ## Blockchain
 

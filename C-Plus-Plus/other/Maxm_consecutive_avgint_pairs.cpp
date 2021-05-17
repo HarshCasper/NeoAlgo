@@ -79,6 +79,6 @@ Output:
 The reordered array is: 
 9 13 15 3 9 13 10 16 
 
-Tme complexity:-O(n) to compute odd and even numbers
+Time complexity:-O(n) to compute odd and even numbers
 Space complexity:- O(n)
 */

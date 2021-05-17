@@ -91,6 +91,8 @@ Node* detectcycle(Node *head)
     {
         temp = temp->next;
         temp1 = temp1->next->next;
+        /*If temp1 pointer meets the temp pointer before reaching NULL, 
+         then cycle is present */
         if (temp == temp1)
         {
             break;
@@ -105,11 +107,13 @@ void breakcycle(Node *head, Node *node1)
     if (node1 == head)
     {
         Node *kk = head->next;
+        /*While the next node of the current node doesn't reach the head node,
+        because that will be the cycle point */
         while (kk->next != head)
         {
             kk = kk->next;
         }
-
+        //Making the next node of that node that again lands itself to the head as NULL
         kk->next = NULL;
         return;
 
@@ -117,14 +121,15 @@ void breakcycle(Node *head, Node *node1)
 
     Node *prev = node1;
     Node *temp = head;
-
+    /*While the next node of the current node doesn't reach the node already visited,
+    because that will be the cycle point */
     while (temp != node1)
     {
         temp = temp->next;
         prev = node1;
         node1 = node1->next;
     }
-
+    //Making the next node of the node that again lands itself to the visited node as NULL
     prev->next = NULL;
 }
 

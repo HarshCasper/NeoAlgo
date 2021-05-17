@@ -26,9 +26,11 @@ public:
 
 void StringToNums()
 {
+    //Dividing the string characters by a space
     char *ans=strtok(a," ");
     while(ans!=NULL)
     {
+        //The corresponding integer of the character is being pushed
         v.push_back(stoi(ans));
         ans=strtok(NULL," ");
     }
@@ -57,6 +59,7 @@ Node* CreateTree()
         {
             break;
         }
+        //If elements are remaining in the array, then make it the right child
         no=v[i++];
         temp->right=new Node(no);
         q.push(temp->right);
@@ -86,6 +89,8 @@ int countSubtrees(Node* root,int x)
         return 0;
     }
     int ans=0;
+    /*If the data value of the node+left child+right child is equal to x, 
+    then we have found the subtree */
     if(Sum(root)==x)
     {
         ans=1;
@@ -116,10 +121,8 @@ Enter the value x:
 5
 
 Output:-
-Total subtrees are: 
-0
+Total subtrees are: 0
 
 Time Complexity: O(n)
 Space Complexity: O(n)
 */
-

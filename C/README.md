@@ -234,6 +234,7 @@ _add list here_
 - [Check whether a number is power of 2](math/Check_whether_a_number_is_power_of_2.c)
 - [Sieve of Eratosthenes](math/Sieve_of_Eratosthenes.c)
 - [Sum of Digits](math/sum_of_digits.c)
+- [Swapping Numbers using Pointers](math/Swapping_using_Pointers.c)
 - [Armstrong Number](math/armstrong_number.c)
 - [Sum of Divisors of a Number](math/sum_of_divisors.c)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.c)

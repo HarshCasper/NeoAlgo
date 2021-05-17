@@ -1,3 +1,46 @@
+"""
+    Introduction:
+        Symmetric encryption is a powerful encryption strategy used for transferring digital
+        information over an in-secure channer. For this however we need a key which is present
+        with both the Sender and the Receiver. The same key would be used for the encryption and
+        decryption. However, exchange of the symmetric key needs to be secure to ensure that the
+        transmitted data is not tampered with. Here comes, Diffie Helman Key Exchange protocol using
+        which two parties can generate a common symmetric key based on the data transmitted between them.
+        The symmetric key, however is never shared directly between the two parties.
+
+    Purpose:
+        The code segment below mimics the diffie helman protocol in the real world. It shows the flow
+        of information from the beginning of a connection till the end where both parties have
+        successfully generated a symmetric key at their respective ends.
+
+    Method:
+        Diffie Helman Key Exchange Protocol
+
+    Sample Input/Output:
+        For the purpose of this demonstration, there is no input required from the user. The algorithm,
+        generates a prime number and the primitive root associated with its Finite field, and shares it
+        with different users.
+
+        In the output, the algorithm returns all the users along with their respective public keys,
+        and the symmetric key that they generated at their own ends. Note that, the symmetric key,
+        was never shared among the user throughout the program.
+        
+        Sample Output:
+            Public Variables:
+            Prime Number: 761
+            Primitive Root: 6
+
+            User: User_1
+            Public Key: Pub_1
+            Final Key: Symmetric Key
+
+            User: User_2
+            Public Key: Pub_2
+            Final Key: Symmetric Key
+
+        The symmetric key generated, would be the same for both users.
+"""
+
 import random
 from math import sqrt
 
@@ -116,13 +159,19 @@ def find_root(n):
     return None
 
 class Diffie_Helman:
+    """
+        Contains static methods to be used in order to perform tasks related to
+        the Diffie Helman Key Exchange protocol.
+    """
+
     @staticmethod
     def initialize():
         ## Generate prime number
 
-        prime = get_prime(start=10, end=15)
-
-        # For testing, take prime = 761
+        # # For testing, take prime = 761
+        prime = 761
+        
+        # prime = get_prime(start=10, end=15)
         root = find_root(prime)
         if root is None:
             # Recursively calls itself till a primtive root exists for a prime number

@@ -33,6 +33,7 @@
 - [Best fit memory allocation](ds/Bestfit.py)
 - [Reverse First K elements of Queue](ds/Reverse_First_K_elements_of_Queue.py)
 - [Prefix to postfix](ds/Prefix_to_postfix.py)
+- [Equilibrium Point](ds/Equilibrium Point.py)
 
 ## Searching
 

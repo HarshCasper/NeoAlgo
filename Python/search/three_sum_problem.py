@@ -1,3 +1,19 @@
+"""
+    Introduction:
+        Two pointer technique is an optimization technique which is a really clever way of using
+        brute-force to search for a particular pattern in a sorted list.
+
+    Purpose:
+        The code segment below solves the Three Sum Problem. We have to find a triplet out of the
+        given list of numbers such that the sum of that triplet equals to another given value.
+        The Naive Approach is to calculate the sum of all possible triplets and return the one with
+        the required sum or None. This approach takes O(N^3) time to run. However, by using Two pointer
+        search technique we can reduce the time complexity to O(N^2).
+
+    Method:
+        Three Sum Problem using Two Pointer Technique
+"""
+
 def three_sum_problem(numbers, sum_val):
     """
         Returns a triplet (x1,x2, x3) in list of numbers if found, whose sum equals sum_val, or None

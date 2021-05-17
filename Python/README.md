@@ -339,6 +339,7 @@
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 - [Fibonacci number](math/Fibonacci.py)
 - [Fibonacci number with Recursion](math/fibonacci_recursion.py)
+- [Min Max Sum](math/min_max_sum.py)
 - [Check Armstrong Number](math/CheckArmstrongNumber.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 - [Ackermann Function](math/ackermann_function.py)

@@ -209,6 +209,7 @@
 - [Subset Sum](backtracking/Subset_Sum.py)
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
 - [M Coloring Problem](backracking/M-coloring.py)
+- [Tic Tac Toe Game](backtracking/Tic_Tac_Toe.py)
 - [Tug Of War](backracking/Tug_of_war.py)
 - [Water Jug Problem](backtracking/Water_Jug_Problem.py)
 

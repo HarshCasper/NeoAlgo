@@ -71,7 +71,7 @@ def miller_rabin(num):
         if result == num-1:
             # Is a prime number
             return True
-    
+
     # Is a composite number
     return False
 
@@ -88,7 +88,7 @@ def get_prime(start=20, end=25):
     if not miller_rabin(n):
         # Recursively call itself, unless a prime is found
         return get_prime(start, end)
-    
+
     # Return the prime number
     return n
 
@@ -105,7 +105,7 @@ def fast_exponentiation(base, exp, n):
             output = (output*base) % n
     return output
 
-def findPrimeFactors(n): 
+def findPrimeFactors(n):
     """
         Returns all the prime factors of a number n in a set()
     """
@@ -113,22 +113,22 @@ def findPrimeFactors(n):
     s = set()
 
     # Print the number of 2s that divide n
-    while (n % 2 == 0) : 
+    while (n % 2 == 0):
         s.add(2)
         n = n // 2
 
-    # n must be odd at this po. So we can   
-    # skip one element (Note i = i +2)  
+    # n must be odd at this po. So we can
+    # skip one element (Note i = i +2)
     for i in range(3, int(sqrt(n)), 2):
-        # While i divides n, print i and divide n  
+        # While i divides n, print i and divide n
         while (n % i == 0):
             s.add(i)
             n = n // i
 
-    # This condition is to handle the case  
-    # when n is a prime number greater than 2  
-    if (n > 2) : 
-        s.add(n)  
+    # This condition is to handle the case
+    # when n is a prime number greater than 2
+    if (n > 2):
+        s.add(n)
     return s
 
 def find_root(n):
@@ -139,23 +139,23 @@ def find_root(n):
     phi = n-1
     factors = findPrimeFactors(phi)
     for r in range(2, phi + 1):
-        # Iterate through all prime factors of phi.  
-        # and check if we found a power with value 1  
+        # Iterate through all prime factors of phi.
+        # and check if we found a power with value 1
         flag = False
-        for it in factors:  
+        for it in factors:
 
-            # Check if r^((phi)/primefactors) 
+            # Check if r^((phi)/primefactors)
             # mod n is 1 or not  
-            if (fast_exponentiation(r, phi // it, n) == 1):  
+            if (fast_exponentiation(r, phi // it, n) == 1):
 
                 flag = True
                 break
-            
-        # If there was no power with value 1.  
+
+        # If there was no power with value 1.
         if (flag == False): 
             return r  
 
-    # If no primitive root found  
+    # If no primitive root found
     return None
 
 class Diffie_Helman:
@@ -220,7 +220,7 @@ class User:
     def exchange(self, public):
         self.result = fast_exponentiation(public, self.k_pri, self.prime)
         print(self)
-    
+
     def __str__(self):
         return "User: {}\nPublic Key: {}\nFinal Key: {}\n".format(self.name, self.k_pub, self.result)
 
@@ -235,7 +235,7 @@ if __name__ == '__main__':
 
     alice_public = alice.keygen()
     bob_public = bob.keygen()
-    
+
     # Exchange each other's public keys. Both users can now generate a private key by themselves
     alice.exchange(bob_public)
     bob.exchange(alice_public)

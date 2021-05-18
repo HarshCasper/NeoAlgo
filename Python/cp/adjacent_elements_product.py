@@ -30,8 +30,5 @@ Max=  15  product of elements at position  0 , 1
 
 Time Complexity : O(n)
 Space Complexity : O(1)
+
 """
-
-
-
-

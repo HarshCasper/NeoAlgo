@@ -173,6 +173,7 @@
 - [Count of groups having largest size](cp/Count_of_groups_having_largest_size.cpp)
 - [Special Pairs](cp/special_pairs.cpp)
 - [Strange Hotel](cp/strange_hotel.cpp)
+- [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
 
 ## Data Structures

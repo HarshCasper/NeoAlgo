@@ -134,6 +134,7 @@
 - [Reverse Queue using stack](ds/reverse-queue.c)
 - [Postfix to Infix Conversion](ds/postfixToInfix.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+- [Morris Order Traversal ] (ds/Morris.c)
 
 
 ## Searching

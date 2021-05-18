@@ -77,7 +77,7 @@ void insert(int key, int data)
 	  array[index].collision = array[index].collision+1;
  
   while(array[index].key != 0){
-	  index++;
+	 index=(index+1)%capacity;
 	  if(array[index].key == key){
 		  break;
 	  }

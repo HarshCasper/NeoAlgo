@@ -250,6 +250,7 @@ _add list here_
 - [Tower Of Hanoi](math/Tower_Of_Hanoi.cpp)
 - [Happy Number](math/Happy_Number.cpp)
 - [Sieve of Atkins](math/Sieve_Of_Atkins.cpp)
+- [Maximum Number By Altering Atmost One Digit](math/Maximum_number.cpp)
 
 ## Dynamic Programming
 

@@ -31,6 +31,8 @@
 - [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
 - [Best fit memory allocation](ds/Bestfit.py)
+- [Reverse First K elements of Queue](ds/Reverse_First_K_elements_of_Queue.py)
+- [Prefix to postfix](ds/Prefix_to_postfix.py)
 
 ## Searching
 
@@ -206,8 +208,12 @@
 - [Sudoku Solver](backtracking/sudokuSolver.py)
 - [Subset Sum](backtracking/Subset_Sum.py)
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
+- [Maze Generation Visualiser](backtracking/Maze-Generation-Visualiser.py)
 - [M Coloring Problem](backracking/M-coloring.py)
+- [Tic Tac Toe Game](backtracking/Tic_Tac_Toe.py)
 - [Tug Of War](backracking/Tug_of_war.py)
+- [Water Jug Problem](backtracking/Water_Jug_Problem.py)
+
 
 ## Dynamic Programming
 
@@ -235,6 +241,7 @@
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 - [Catalan Number](dp/Catalan_DP.py)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.py)
 
 ## Pathfinding Algorithms
 
@@ -336,6 +343,7 @@
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 - [Fibonacci number](math/Fibonacci.py)
 - [Fibonacci number with Recursion](math/fibonacci_recursion.py)
+- [Min Max Sum](math/min_max_sum.py)
 - [Check Armstrong Number](math/CheckArmstrongNumber.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 - [Ackermann Function](math/ackermann_function.py)
@@ -346,6 +354,7 @@
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
+- [Next nth Palindrome](math/Next_Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
 - [Sum of Digits of a Number](math/sum_of_digits.py)
 - [Sterns Diatomic Series](math/sterns_diatomic_series.py)
@@ -432,6 +441,7 @@ _add list here_
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+- [Wave Array](other/Wave_Array.py)
 - [Merge Interval](other/merge_interval.py)
 - [Kth index removal](other/stringkth.py)
 - [Display all possible keypad sequences for a given number](other/KeypadSequence.py)

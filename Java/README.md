@@ -109,6 +109,7 @@ _add list here_
 - [Ckeck for Subarray with sum 0](cp/SubarraySumZero.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 - [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
+- [MEX of an Array](cp/MEX_of_an_array.java)
 
 ## Cryptography
 
@@ -139,6 +140,8 @@ _add list here_
 - [Flight of stairs](dp/FlightOfStairs.java)
 - [Minimum Cost Path](dp/MinimumCostPath.java)
 - [Egg Dropping Problem](dp/EggDroppingProblem.java)
+- [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.java)
 
 ## Data Structures
 
@@ -149,6 +152,7 @@ _add list here_
 - [Node to Root Path in a Binary Tree](ds/NodetoRootPath.java)
 - [Detect Loop in Linked List](ds/DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
+- [Fold A Linked List](ds/Fold A Linked List.java)
 - [Expression Tree from Postfix Expression](ds/Build_Expression_Tree.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
@@ -186,6 +190,8 @@ _add list here_
 - [Best fit memory allocation](ds/Bestfit.java)
 - [Hashtable chaining](ds/Hashtable_chaining.java)
 - [Linear probing in Hashtable](ds/Hashtable_linear_probing.java)
+- [Prefix to Postfix](ds/Prefix_to_postfix.java)
+
 
 ## Graphs
 
@@ -311,6 +317,7 @@ _add list here_
 - [Sleep Sort](sort/SleepSort.java)
 - [Comb Sort](sort/CombSort_implementation.java)
 - [Tree Sort](sort/TreeSort.java)
+- [Quick Sort in strings](sort/QuickSort_in_strings.java)
 
 ## Machine Learning
 

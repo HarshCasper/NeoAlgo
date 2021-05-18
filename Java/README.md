@@ -141,6 +141,7 @@ _add list here_
 - [Minimum Cost Path](dp/MinimumCostPath.java)
 - [Egg Dropping Problem](dp/EggDroppingProblem.java)
 - [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.java)
 
 ## Data Structures
 

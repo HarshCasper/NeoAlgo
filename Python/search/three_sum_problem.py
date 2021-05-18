@@ -76,19 +76,12 @@ if __name__ == "__main__":
 
 
 """
-    Sample Input 1: 
-    12 3 4 1 6 9    # List of numbers
-    24              # Sum
+    Sample Input 1:
+    Enter the list of numbers: 12 3 4 1 6 9
+    Enter the value of sum: 24
 
     Sample Output 1:
     (3,9,12) is the triplet with sum: 24
-
-    Sample Input 2: 
-    12 3 4 1 6 9    # List of numbers
-    26              # Sum
-
-    Sample Output 1:
-    No triplet found with sum: 24
 
     Time Complexity:
     For sorting:                O(N.log N)

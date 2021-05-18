@@ -475,7 +475,6 @@ _add list here_
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
-- [Lucky Number](math/LuckyNumber.cpp)
 - [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
 - [Polynomial addition](math/polynomial_addition.cpp)

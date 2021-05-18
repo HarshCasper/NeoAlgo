@@ -169,9 +169,12 @@
 - [Chopsticks Problem](cp/chopsticks.cpp)
 - [Construct Special Tree](cp/construct_special_tree.cpp)
 - [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
+- [Max sum in the configuration](cp/Max_sum_in_the_configuration.cpp)
 - [Count of groups having largest size](cp/Count_of_groups_having_largest_size.cpp)
 - [Special Pairs](cp/special_pairs.cpp)
 - [Strange Hotel](cp/strange_hotel.cpp)
+- [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
+- [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
 
 ## Data Structures
 
@@ -658,7 +661,9 @@ _add list here_
 - [Repeating and Missing Number](other/repeated_missing.cpp)
 - [Kth missing Positive integer in sorted Array](other/kth_missing.cpp)
 - [Triplet Sum in array](other/Triplet_sum_in_array.cpp)
+- [Maximize consecutive average integer pair](other/Maxm_consecutive_avgint_pairs.cpp)
 - [Minimum Sum Partition using Recursion](other/minimum_sum_partition_recursion.cpp)
 - [Zig Zag Array(unsorted)](other/zig-zag_array_unsorted.cpp)
 - [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)
 - [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)
+- [Largest Number formed from elements of the Array](other/LargestNumber.cpp)

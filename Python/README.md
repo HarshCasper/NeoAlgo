@@ -208,10 +208,12 @@
 - [Sudoku Solver](backtracking/sudokuSolver.py)
 - [Subset Sum](backtracking/Subset_Sum.py)
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
+- [Maze Generation Visualiser](backtracking/Maze-Generation-Visualiser.py)
 - [M Coloring Problem](backracking/M-coloring.py)
 - [Tic Tac Toe Game](backtracking/Tic_Tac_Toe.py)
 - [Tug Of War](backracking/Tug_of_war.py)
 - [Water Jug Problem](backtracking/Water_Jug_Problem.py)
+
 
 ## Dynamic Programming
 
@@ -239,6 +241,7 @@
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 - [Catalan Number](dp/Catalan_DP.py)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.py)
 
 ## Pathfinding Algorithms
 
@@ -312,6 +315,7 @@
 
 ## Machine Learning
 
+- [Amazon Alexa Reviews Analysis](ml/Amazon_Alexa_Reviews_Analysis.ipynb)
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)

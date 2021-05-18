@@ -300,7 +300,6 @@
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
 - [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
-- [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
 - [Number of Connected Components](graphs/number_of_connected_components.cpp)
 - [Is it a tree](graphs/is_it_a_tree.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)

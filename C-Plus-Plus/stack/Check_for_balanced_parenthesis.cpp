@@ -7,70 +7,82 @@ Application: Stack data structure
 Author: @gargvader
 Edit by: @Mohim-Singla
 */
+
 #include <iostream>
 #include <stack>
+#include <string>
 using namespace std;
 
-/*Function for Parenthesis matching.*/
-void parenthcheck(string s)
+// function to check if brackets are balanced
+bool areBracketsBalanced(string expr)
 {
-	/*Initializing a vector "oper"*/
-	stack<char> oper;
-	for(int i = 0; i < s.length(); i++)
-	{
-		/*Open parenthesis is always pushed into the stack*/
-		if (s[i] == '(' || s[i] == '[' || s[i] == '{')
-       		{
-         		oper.push(s[i]);
-        	}
-		else if (s[i] == ')' || s[i] == ']' || s[i] == '}')
-     		{
-           		//Closed parenthesis encountered must be balanced by an open parenthesis already
-			//present in the stack
-            		if (oper.empty())
-            		{
-                		cout << "Unbalanced Parenthesis";
-                		return;
-            		}
-            		else
-            		{
-                		//Stack contains open parenthesis, one of which has been balanced
-				//Pop one parenthesis out
-                		if ((s[i] == ')' && oper.top() == '(') || (s[i] == ']' && oper.top() == '[') || (s[i] == '}' && oper.top() == '{'))
-                    			oper.pop();
-                		else
-                		{
-                    			/*Stack contains no open parenthesis. So closed parenthesis cannot be balanced*/
-                    			cout<< "Unbalanced Parenthesis";
-                    			return;
-                		}
-        		}
-        	}
-        	else
-        	{
-            		continue;
-        	}
-	}
-    	/*Check if we have open parenthesis remaining*/
-    	if (oper.empty())
-    	{
-        	cout<< "Balanced Parenthesis";
-    	}
-    	else
-    	{
-		cout<< "Unbalanced Parenthesis";
-    	}
+    stack<char> s;
+    char x;
+
+    // Traversing the Expression
+    for (int i = 0; i < expr.length(); i++)
+    {
+        if (expr[i] == '(' || expr[i] == '[' || expr[i] == '{')
+        {
+            // Push the element in the stack
+            s.push(expr[i]);
+            continue;
+        }
+
+        // IF current current character is not opening
+        // bracket, then it must be closing. So stack
+        // cannot be empty at this point.
+        if (s.empty())
+            return false;
+
+        switch (expr[i])
+        {
+        case ')':
+
+            // Store the top element in a
+            x = s.top();
+            s.pop();
+            if (x == '{' || x == '[')
+                return false;
+            break;
+
+        case '}':
+
+            // Store the top element in b
+            x = s.top();
+            s.pop();
+            if (x == '(' || x == '[')
+                return false;
+            break;
+
+        case ']':
+
+            // Store the top element in c
+            x = s.top();
+            s.pop();
+            if (x == '(' || x == '{')
+                return false;
+            break;
+        }
+    }
+
+    // Check Empty Stack
+    return (s.empty());
 }
 
-/*Main Function*/
+// Driver code
 int main()
 {
-	/*Input the string*/
-	string s;
-	cout<< "enter string: ";
-	cin>> s;
-	/*Calling out the function*/
-	parenthcheck(s);
+    string expr;
+    cout << "Enter a expression " << endl;
+    cin >> expr;
+
+    // Function call
+    if (areBracketsBalanced(expr))
+        cout << "Balanced Parenthesis";
+    else
+        cout << "Unbalanced Parenthesis";
+    return 0;
 }
 /*
 -------------------------------

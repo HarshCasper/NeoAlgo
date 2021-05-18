@@ -239,6 +239,7 @@
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 - [Catalan Number](dp/Catalan_DP.py)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.py)
 
 ## Pathfinding Algorithms
 

@@ -63,6 +63,7 @@
 - [Replace Pi using recursion](cp/replace_pi.cpp)
 - [Lexicographically largest palindrome subsequence](cp/Lexicographyically_largest_palindrome_subsequence.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
+- [Search target element in Rotated Sorted Array](cp/Search_target_element_in_Rotated_Sorted_Array.cpp)
 
 ## Data Structures
 

@@ -2,71 +2,108 @@
 Check for balanced parenthesis
 ==============================
 Given an expression containing parenthesis, check if it is well-formed or balanced.
-Example of balanced parenthesis are: (), ((())), (a+b), (a/b)*(b/a)
-
+A balanced parenthesis means for every opening bracket there must be equivalent closing brackets.
 Application: Stack data structure
-Time Complexity: O(n)
-Space Complexity: O(n)
+Author: @gargvader
+Edit by: @Mohim-Singla
 */
 
-#include<iostream>
+#include <iostream>
 #include <stack>
+#include <string>
 using namespace std;
 
-bool isBalanced(string str) {
-	// Size of the string
-	int n = str.size();
+// function to check if brackets are balanced
+bool areBracketsBalanced(string expr)
+{
+    stack<char> s;
+    char x;
 
-	// Stack to store open parenthesis
-	stack<int> s;
-	// Open parenthesis -> 1
+    // Traversing the Expression
+    for (int i = 0; i < expr.length(); i++)
+    {
+        if (expr[i] == '(' || expr[i] == '[' || expr[i] == '{')
+        {
+            // Push the element in the stack
+            s.push(expr[i]);
+            continue;
+        }
 
-	// Loop through characters in the string
-	for (int i = 0; i < n; i++) {
-		// Open parenthesis is always pushed into the stack
-		if (str[i] == '(') {
-			s.push(1);
-		} else if (str[i] == ')') {
-			// Closed parenthesis encountered must be balanced by an open parenthesis already
-			// present in the stack
-			if (!s.empty()) {
-				// Stack contains open parenthesis, one of which has been balanced
-				// Pop one parenthesis out
-				s.pop();
-			} else {
-				// Stack contains no open parenthesis. So closed parenthesis cannot be balanced
-				return 0;
-			}
-		}
-	}
+        // IF current current character is not opening
+        // bracket, then it must be closing. So stack
+        // cannot be empty at this point.
+        if (s.empty())
+            return false;
 
-	// Check if we have open parenthesis remaining
-	if (s.size()) {
-		return 0;
-	} else {
-		return 1;
-	}
+        switch (expr[i])
+        {
+        case ')':
+
+            // Store the top element in a
+            x = s.top();
+            s.pop();
+            if (x == '{' || x == '[')
+                return false;
+            break;
+
+        case '}':
+
+            // Store the top element in b
+            x = s.top();
+            s.pop();
+            if (x == '(' || x == '[')
+                return false;
+            break;
+
+        case ']':
+
+            // Store the top element in c
+            x = s.top();
+            s.pop();
+            if (x == '(' || x == '{')
+                return false;
+            break;
+        }
+    }
+
+    // Check Empty Stack
+    return (s.empty());
 }
 
-int main() {
+// Driver code
+int main()
+{
+    string expr;
+    cout << "Enter a expression " << endl;
+    cin >> expr;
 
-	// Input the string
-	string str; cin >> str;
-
-	if (isBalanced(str)) cout << "Yes";
-	else cout << "No";
+    // Function call
+    if (areBracketsBalanced(expr))
+        cout << "Balanced Parenthesis";
+    else
+        cout << "Unbalanced Parenthesis";
+    return 0;
 }
-
 /*
+-------------------------------
+Test case 1:
 Input:
 ((a+b)+(c-d+f))
-
 Output:
-Yes
-
+Balanced Parenthesis
+-------------------------------
+Test case 2:
 Input:
-((a+b)+(c-d+f)))
-
+{(a+b)+(c-d+f)]}
 Output:
-No
+Unbalanced Parenthesis
+---------------------------------
+Test case 3:
+Input:
+(a+b)*{c*[a+b*(c+d)}]
+Output:
+Unbalanced Parenthesis
+--------------------------------
+Time Complexity: O(n)
+Space Complexity: O(n)
 */

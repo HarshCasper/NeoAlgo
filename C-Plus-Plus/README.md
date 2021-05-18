@@ -169,6 +169,7 @@
 - [Chopsticks Problem](cp/chopsticks.cpp)
 - [Construct Special Tree](cp/construct_special_tree.cpp)
 - [Colouring Binary Tree](cp/colouring_binary_tree.cpp)
+- [Max sum in the configuration](cp/Max_sum_in_the_configuration.cpp)
 - [Count of groups having largest size](cp/Count_of_groups_having_largest_size.cpp)
 - [Special Pairs](cp/special_pairs.cpp)
 - [Strange Hotel](cp/strange_hotel.cpp)

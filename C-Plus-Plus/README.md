@@ -560,6 +560,7 @@ _add list here_
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 - [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
 - [Minimum XOR value](Bit--Manipulation/Minimum_XOR_Value.cpp)
+- [All possible subset of a set](Bit--Manipulation/all_possible_subset_of_a_set.cpp)
 
 ## Blockchain
 

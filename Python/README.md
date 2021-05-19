@@ -377,6 +377,7 @@
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 - [Pronic Number](math/Pronic_numbers.py)
+- [Noble Integer](math/NobleInteger.py)
 
 ## Bit Manipulation
 
@@ -441,5 +442,6 @@ _add list here_
 - [Kth index removal](other/stringkth.py)
 - [Display all possible keypad sequences for a given number](other/KeypadSequence.py)
 - [Arrange The String](other/Arrange_The_String.py)
+
 
 ## [Coding Template for Contribution](Code_Template.md)

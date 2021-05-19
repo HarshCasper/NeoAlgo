@@ -555,6 +555,7 @@ _add list here_
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
 - [Minimum XOR value](Bit--Manipulation/Minimum_XOR_Value.cpp)
 - [All possible subset of a set](Bit--Manipulation/all_possible_subset_of_a_set.cpp)
+- [Sum of two numbers without using arithmetic operators](Bit--Manipulation/Sum_of_two_numbers_without_using_arithmetic_operators.cpp)
 
 ## Blockchain
 

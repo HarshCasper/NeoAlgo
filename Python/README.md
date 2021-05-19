@@ -317,6 +317,7 @@
 ## Machine Learning
 
 - [Amazon Alexa Reviews Analysis](ml/Amazon_Alexa_Reviews_Analysis.ipynb)
+- [Churn Risk Score Prediction](ml/Churn_Risk_Score_Prediction.ipynb)
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)

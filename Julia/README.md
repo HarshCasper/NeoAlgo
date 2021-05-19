@@ -87,3 +87,4 @@
 - [Toggle Kth Bit](Bit--Manipulation/toggle_kth_bit.jl)
 - [Minimum XOR Value](Bit--Manipulation/minimum_xor_value.jl)
 - [Count number of set bits](Bit--Manipulation/count_num_of_set_bits.jl)
+- [Power of 2](Bit--Manipulation/power_of_2.jl)

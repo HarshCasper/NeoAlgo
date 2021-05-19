@@ -126,7 +126,7 @@ int main() {
 
 /*
 Time Complexity: O(nlogn)
-Space Complexity: O(logn)
+Space Complexity: O(1)
 where 'n' is the size of the singly linked list
 
 Sample Input:

@@ -1,14 +1,8 @@
 '''
 Introduction 
-There are two singly linked lists in a system
-Write a program to get the point where two linked list merge. 
-If they do not merge , print that the given lists do not merge
-        
-Argument/Return Type
-Input are taken as two lists , 
-contaning the data of each node of a Linked List inorder seperated by space 
-Data of the interection node is printed as out put , if they intersect
-If the given Linked Lists do not intersect, a statement which says that is printed
+    There are two singly linked lists in a system
+    Write a program to get the point where two linked list merge. 
+    If they do not merge , print that the given lists do not merge
 '''
 
 
@@ -156,12 +150,9 @@ Linked List 1 = 1->2->3->4->5->6->7->None
 Linked List 2 = 5->4->3->4->5->6->7->None
 The intersection point is 3
 
-Corner Test Cases Result
-Code works fine for all corner test cases tested , including null linked lists.
-
 Time/Space Complexity
 Time Complexity : O(m+n)
   where m and n are size of two linked lists
 Space Complexity : O(1)
-  No additional space is required
 '''
+

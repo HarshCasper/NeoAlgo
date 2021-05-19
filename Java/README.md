@@ -220,6 +220,7 @@ _add list here_
 - [String Method](math/countDigits/stringmethod.java)
 - [Sum of Divisors](math/sum_of_divisors.java)
 - [Binary Exponentiation](math/Binary_Exponentiation.java)
+- [Consecutive Number Sum](math/ConsecutiveNumberSum.java)
 - [Complex numbers](math/Complex.java)
 - [Double Factorial](math/DoubleFactorial.java)
 - [Extended Euclid Algorithm](math/ExtendedEuclidAlgo.java)

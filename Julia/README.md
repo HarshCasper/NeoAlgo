@@ -61,6 +61,7 @@
 ## Searching
 
 - [Binary Search](search/binary_search.jl)
+- [Exponential Search](search/exponential_search.jl)
 - [Fibonacci Search](search/fibonacci_search.jl)
 - [Interpolation Search](search/interpolation_search.jl)
 - [Jump Search](search/jump_search.jl)

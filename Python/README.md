@@ -72,7 +72,6 @@
 - [Prim's Algorithm](graphs/Prim_Algorithm.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
-
 * [Binary Tree (Post order transversal)](ds/Binary_tree_post_order.py)
 * [Circular Linked List](ds/Circular_LinkedList.py)
 * [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)

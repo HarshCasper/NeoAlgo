@@ -174,6 +174,7 @@
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
 - [Jump search](search/jump_search.py)
+- [Three Sum Problem](search/three_sum_problem.py)
 
 ## Sorting
 

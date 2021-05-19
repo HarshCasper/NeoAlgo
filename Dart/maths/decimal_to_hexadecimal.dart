@@ -39,7 +39,7 @@ void decimalToHexadecimal(int decimalNumber) {
 int main() {
   stdout.write("Enter the Decimal Number: ");
 
-  int decimalNumber = int.parse(stdin.readLineSync());
+  int decimalNumber = int.parse(stdin.readLineSync()!);
   decimalToHexadecimal(decimalNumber);
 
   return 0;

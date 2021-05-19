@@ -53,3 +53,4 @@ Output :
     Index of the rightmost different bit :
     2
 */
+

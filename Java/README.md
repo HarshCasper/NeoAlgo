@@ -110,7 +110,11 @@ _add list here_
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 - [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
 - [MEX of an Array](cp/MEX_of_an_array.java)
+
 - [Sliding Window Technique](cp/slding_window_technique.java)
+
+- [Find Minimum element in Rotated and Sorted Array](cp/minimum_in_rotated_sorted_array.java)
+
 
 ## Cryptography
 
@@ -362,6 +366,7 @@ _add list here_
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
+- [Trimming Binary Tree](other/Trimming_binary_tree.java)
 - [Unique 3](other/UniqueIII.java)
 - [Unique Number in an Array using Bitmasking](other/UniqueNumberBitmasking.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)

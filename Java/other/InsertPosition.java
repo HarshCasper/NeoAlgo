@@ -10,7 +10,7 @@ import java.util.*;
 
 public class InsertPosition
 {
-    public int searchPosition(int[] arr, int key)
+    public static int searchPosition(int[] arr, int key)
     {
         int leftptr = 0;
         int rightptr = arr.length - 1;
@@ -22,7 +22,7 @@ public class InsertPosition
             {
                 return mid;
             }
-            else if(arr[mid] > key)
+            else if(arr[mid] < key)
             {
                 leftptr = mid + 1;
             }
@@ -57,6 +57,7 @@ public class InsertPosition
 
         System.out.println("Position at which the key value should be inserted is: ");
         System.out.print(searchPosition(arr, key));
+        sc.close();
     }
 }
 

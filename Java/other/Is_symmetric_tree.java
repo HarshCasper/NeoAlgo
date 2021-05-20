@@ -117,6 +117,7 @@ class Is_symmetric_tree
             }
             i++;
         }
+        return root;
     }
     
 	public static void main (String[] args) throws IOException

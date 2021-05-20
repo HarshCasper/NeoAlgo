@@ -174,6 +174,7 @@
 - [Strange Hotel](cp/strange_hotel.cpp)
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
+- [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 
 ## Data Structures
 
@@ -277,6 +278,7 @@
 - [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
+- [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
 
 ## Graphs
 

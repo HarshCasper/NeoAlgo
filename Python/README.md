@@ -140,6 +140,7 @@
 - [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 - [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
 - [Trapping rain water](cp/Trapping_rain_water.py)
+- [Max of Adjacent Elements Product](cp/adjacent_elements_product.py)
 - [Generating Power Set](cp/Generating_Power_Set.py)
 
 ## Cryptography
@@ -173,6 +174,7 @@
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
 - [Jump search](search/jump_search.py)
+- [Three Sum Problem](search/three_sum_problem.py)
 
 ## Sorting
 
@@ -315,6 +317,8 @@
 ## Machine Learning
 
 - [Amazon Alexa Reviews Analysis](ml/Amazon_Alexa_Reviews_Analysis.ipynb)
+- [Ames House Price Prediction](ml/Ames_House_Price_Prediction.ipynb)
+- [Churn Risk Score Prediction](ml/Churn_Risk_Score_Prediction.ipynb)
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)

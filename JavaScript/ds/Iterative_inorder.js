@@ -134,7 +134,7 @@ Enter the value for node 4
 4
 Enter the value for node 5
 1
-The preorder traversal for the binary search tree
+The inorder traversal for the binary search tree
 1 2 3 4 5
 
 Time Complexity = O( n )

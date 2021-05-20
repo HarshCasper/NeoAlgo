@@ -135,6 +135,7 @@
 - [Dice Throw Problem](dp/Dice_Throw.py)	
 - [Partition Problem](dp/Partition_Problem.py)
 - [Matrix-Chain-Multiplication](dp/Matrix-Chain-Multiplication.py)
+- [Painting fence problem](dp/Painting_fence.py)
 
 
 ## Pathfinding Algorithms 

@@ -394,6 +394,7 @@
 - [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.py)
 - [Count of Set bits in a Number](Bit--Manipulation/count_num_of_set_bits.py)
 - [Minimum XOR value](Bit--Manipulation/minimum_xor_value.py)
+- [Convert binary code to gray code](Bit--Manipulation/binary_to_gray.py)
 
 ## Blockchain
 

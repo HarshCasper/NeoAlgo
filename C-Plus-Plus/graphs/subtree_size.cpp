@@ -1,12 +1,14 @@
 /*Given the number of nodes and edges of graph print an array containg subtree size of each node*/
 
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
-vector<int> arr[50];        //Adjacency List storing the graph
-vector<int> vis(50, 0);     //Visited array, it stores wheather the node is visited or not
-vector<int> subsize(50, 0); //Subsize array, it stores the subtree size of each node
+//Adjacency List storing the graph
+vector<int> arr[50];
+//Visited array, it stores wheather the node is visited or not
+vector<int> vis(50, 0);
+//Subsize array, it stores the subtree size of each node
+vector<int> subsize(50, 0);
 
 int dfs(int node)
 {

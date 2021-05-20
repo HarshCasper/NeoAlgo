@@ -87,6 +87,7 @@ _add list here_
 - [LCS](dp/LCS.java)
 - [Flood Fill Algorithm](dp/flood_fill.java)
 - [Binary Tress with N nodes](dp/BinarySearchTreeCount.java)
+- [Painting fence problem](dp/Painting_fence.java)
 
 ## Data Structures
 

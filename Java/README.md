@@ -258,6 +258,7 @@ _add list here_
 ## Dynamic Programming
 
 - [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)
+- [Get Maxinmum Maze Paths](dp/Get_Maxinmum_Maze_Paths.java)
 - [Kandane Algorithm](dp/Kadane_Algorithm.java)
 - [Longest common subsequence](dp/LCS.java)
 - [Longest common subsequence of Three Strings](dp/LCSThreeStrings.java)

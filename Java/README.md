@@ -361,6 +361,7 @@ _add list here_
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
+- [Trimming Binary Tree](other/Trimming_binary_tree.java)
 - [Unique 3](other/UniqueIII.java)
 - [Unique Number in an Array using Bitmasking](other/UniqueNumberBitmasking.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)

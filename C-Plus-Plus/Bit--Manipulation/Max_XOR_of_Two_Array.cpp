@@ -92,6 +92,11 @@ int main() {
         return 0;
 }
 
+/*
+ Time Complexity : O(n) , where n is the number of elements in the vector.
+ Space complexity : O(1)
+*/
+
 /* Sample Text Case 
 
  Enter the vector size
@@ -105,7 +110,4 @@ int main() {
  Enter the elements in the vector
  14 70 53 83 49 91 36 80 92 51 66 70
  The Maximum XOR of two numbers in the array/vector is : 127
-
- Time Complexity : O(n) , where n is the number of elements in the vector.
-
 */

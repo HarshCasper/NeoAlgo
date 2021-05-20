@@ -49,5 +49,5 @@ Enter k, Number of Colors
 Number of possiblilities for painting the fence is : 6
 
 Time complexity : O(n)
-Space complexity : O(n) , where n is the number of posts
+Space complexity : O(1) , where n is the number of posts
 """

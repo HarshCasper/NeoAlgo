@@ -19,6 +19,8 @@
 - [Floor of element in Array](Array/Floor_of_sorted_array.dart)
 - [Missing in AP](Array/Missing_in_AP.dart)
 - [Segregate Even/Odd](Array/Segregate_even_odd.dart)
+- [Palindrome Array](Array/Palindrome_array.dart)
+- [Geometric Progression](Array/Geometric_Progression.dart)
 
 ## Maths
 

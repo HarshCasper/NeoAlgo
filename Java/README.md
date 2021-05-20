@@ -141,6 +141,7 @@ _add list here_
 - [Minimum Cost Path](dp/MinimumCostPath.java)
 - [Egg Dropping Problem](dp/EggDroppingProblem.java)
 - [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.java)
 
 ## Data Structures
 
@@ -151,6 +152,7 @@ _add list here_
 - [Node to Root Path in a Binary Tree](ds/NodetoRootPath.java)
 - [Detect Loop in Linked List](ds/DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
+- [Fold A Linked List](ds/Fold A Linked List.java)
 - [Expression Tree from Postfix Expression](ds/Build_Expression_Tree.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)
@@ -184,11 +186,11 @@ _add list here_
 - [Minimum Element in Stack](ds/Min_Element_In_Stack.java)
 - [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
-- [First fit memory allocation](ds/Firstfit.java)
 - [Best fit memory allocation](ds/Bestfit.java)
 - [Hashtable chaining](ds/Hashtable_chaining.java)
 - [Linear probing in Hashtable](ds/Hashtable_linear_probing.java)
 - [Prefix to Postfix](ds/Prefix_to_postfix.java)
+
 
 ## Graphs
 
@@ -290,7 +292,6 @@ _add list here_
 - [Manacher's Algorithm](search/ManacherAlgorithm.java)
 - [Stack Search](search/Stack_Search.java)
 - [Bilinear Search](search/Bilinear_Search.java)
-- [Jump Search Algorithm](search/JumpSearchAlgorithm.java)
 - [Recursive Binary Search](search/BinarySearchRecursive.java)
 
 ## Sorting
@@ -360,6 +361,7 @@ _add list here_
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
+- [Trimming Binary Tree](other/Trimming_binary_tree.java)
 - [Unique 3](other/UniqueIII.java)
 - [Unique Number in an Array using Bitmasking](other/UniqueNumberBitmasking.java)
 - [LastdigitofnthFibonacci](other/LastDigitFibonacci.java)

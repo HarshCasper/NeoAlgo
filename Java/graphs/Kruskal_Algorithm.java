@@ -18,7 +18,7 @@ class Graph {
   Edge edge[];
 
   // Graph creation
-  Graph(int v, int e) {
+  public Graph(int v, int e) {
     vertices = v;
     edges = e;
     edge = new Edge[edges];
@@ -75,46 +75,71 @@ class Graph {
         Union(subsets, x, y);
       }
     }
+    System.out.println("Edge  : Weight");
     for (i = 0; i < e; ++i)
-      System.out.println(result[i].src + " - " + result[i].dest + ": " + result[i].weight);
+      System.out.println(result[i].src + " - " + result[i].dest + " : " + result[i].weight);
   }
 
   public static void main(String[] args) {
     int vertices = 6; // Number of vertices
     int edges = 8; // Number of edges
     Graph G = new Graph(vertices, edges);
-
-    G.edge[0].src = 0;
-    G.edge[0].dest = 1;
-    G.edge[0].weight = 4;
-
-    G.edge[1].src = 0;
-    G.edge[1].dest = 2;
-    G.edge[1].weight = 4;
-
-    G.edge[2].src = 1;
-    G.edge[2].dest = 2;
-    G.edge[2].weight = 2;
-
-    G.edge[3].src = 2;
-    G.edge[3].dest = 3;
-    G.edge[3].weight = 3;
-
-    G.edge[4].src = 2;
-    G.edge[4].dest = 5;
-    G.edge[4].weight = 2;
-
-    G.edge[5].src = 2;
-    G.edge[5].dest = 4;
-    G.edge[5].weight = 4;
-
-    G.edge[6].src = 3;
-    G.edge[6].dest = 4;
-    G.edge[6].weight = 3;
-
-    G.edge[7].src = 5;
-    G.edge[7].dest = 4;
-    G.edge[7].weight = 3;
+    Scanner sc = new Scanner(System.in);
+    for(int i = 0;i<8;i++){
+        System.out.print("Source : ");
+        G.edge[i].src = sc.nextInt();
+        System.out.print("Destination : ");
+        G.edge[i].dest = sc.nextInt();
+        System.out.print("Weight : ");
+        G.edge[i].weight = sc.nextInt();
+    }
     G.KruskalAlgo();
   }
 }
+
+
+/*
+Sample Input :
+Source : 0
+Destination : 1
+Weight : 4 
+Source : 0 
+Destination : 2 
+Weight : 4 
+Source : 1 
+Destination : 2 
+Weight : 2 
+Source : 2 
+Destination : 3 
+Weight : 3 
+Source : 2 
+Destination : 5 
+Weight : 2 
+Source : 2 
+Destination : 4 
+Weight : 4 
+Source : 3 
+Destination : 4 
+Weight : 3 
+Source : 5 
+Destination : 4 
+Weight : 3
+
+Sample Output:
+
+Edge : Weight
+
+1 - 2 : 2
+
+2 - 5 : 2
+
+2 - 3 : 3
+
+3 - 4 : 3
+
+0 - 1 : 4
+
+Let E denote the number of Edges and V denote the number of Vertices.
+Time Complexity: `O(E log V)`
+Space Complexity: `O(E+V)`
+*/

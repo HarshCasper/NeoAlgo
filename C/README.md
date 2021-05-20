@@ -132,8 +132,11 @@
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
+- [Postfix to Infix Conversion](ds/postfixToInfix.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
 - [XOR Linked List ] (ds/XOR.c)
+- [Morris Order Traversal ] (ds/Morris.c)
+- [Hash Table Implementation](ds/hashtable.c)
 
 
 ## Searching
@@ -271,9 +274,9 @@ _add list here_
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [First Come First Serve Scheduling Algorithm](operating_system/first_come_first_serve_algorithm.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 - [Priority Scheduling Algorithm](operating_system/priority_sjf.c)
-
 
 ## Other
 

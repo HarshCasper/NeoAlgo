@@ -3,12 +3,15 @@
 using namespace std;
 
 void printSubsequences(string str, string curr="", int idx = 0){
-    if(idx == str.size()){ //Base case
+    //Base case
+    if(idx == str.size()){ 
         cout << curr << endl;
         return; 
     }
-    printSubsequences(str, curr, idx + 1); //Recursive call when character does not get added to curr
-    printSubsequences(str, curr + str[idx], idx + 1); //Recursive call when character gets added to curr
+    //Recursive call when character does not get added to curr
+    printSubsequences(str, curr, idx + 1); 
+    //Recursive call when character gets added to curr
+    printSubsequences(str, curr + str[idx], idx + 1); 
 }
 
 int main() {
@@ -18,6 +21,11 @@ int main() {
     printSubsequences(s, "", 0);
     return 0;
 }
+
+/*
+Time complexity : O(n)
+Space complexity : O(1)
+*/
 
 /*Example:
 Input : s = "abcd"

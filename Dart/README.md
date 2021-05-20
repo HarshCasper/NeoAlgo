@@ -18,6 +18,7 @@
 - [Subarray with given sum](Array/Subarray_Sum.dart)
 - [Floor of element in Array](Array/Floor_of_sorted_array.dart)
 - [Missing in AP](Array/Missing_in_AP.dart)
+- [Geometric Progression](Array/Geometric_Progression.dart)
 
 ## Maths
 
@@ -45,7 +46,11 @@
 - [Harshad Number](maths/HarshadNumber.dart)
 - [Tower of Hanoi](maths/TowerOfHanoi.dart)
 - [Square Root using Binary Search](math/Squareroot_binary_search.dart)
-
+- [Trimorphic Number](math/TrimorphicNumber.dart)
+- [Disarium Number](math/DisariumNumber.dart)
+- [Largest prime factor](math/Largest_Prime_Factor.dart)
+- [Modular multiplicative inverse](math/Modular_multiplicative_inverse.dart)
+- [Mystery Number](maths/MysteryNumber.dart)
 
 ## Search
 

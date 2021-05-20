@@ -2,17 +2,7 @@
 Rapidly-exploring Random Trees
 
 Purpose: A robot is attempting to navigate its path from the start point to a specified goal region, 
-        while avoiding the set of all obstacles.
-
-Method: Using tree structure
-
-Intuition:
-In RRT, points are randomly generated within a specified radius 
-and connected to the nearest existing node in a tree. 
-Each time a node is created, we check that it lies outside of the obstacles. 
-Furthermore, chaining the node to its closest neighbor must also avoid obstacles. 
-The algorithm ends when a node is generated within the goal region, or a limit is hit.
-
+        while avoiding the set of all obstacles.Will be  Using tree structure
 """
 
 import matplotlib.pyplot as plt
@@ -211,15 +201,6 @@ goal: 10 10
 Output - 
 A graph plotted using matplotlib with required path avoiding obtsacles, and the sampled points.
 
-Time and Space Complexity: 
-
-The time and space complexity are largely dependent on the number of nodes generated and the sample space used.
-Here we have limited the number of iterations to 5000.
-The choice of where to place the next vertex that you will attempt to connect to is the sampling problem. 
-In simple cases, where search is low dimensional, uniform random placement works adequately. 
-
-One problem with the RRT method is the nearest neighbour search time, which grows significantly 
-when adding a large number of vertices.
-Sampling strategies for RRTs are still an open research area.
-
+Time Complexity: O(N)
+Space Complexity: O(N)
 """

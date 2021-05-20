@@ -23,6 +23,7 @@
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Stack](./ds/Stack.js)
+- [Iterative Preorder Traversal](./ds/Iterative_preorder.js)
 
 ## Searching
 

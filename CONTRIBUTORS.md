@@ -267,6 +267,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://linktr.ee/anshmishra10"><img src="https://avatars.githubusercontent.com/u/68746461?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ansh Mishra</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=anshmishra010" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/radhikaaojha"><img src="https://avatars.githubusercontent.com/u/80522622?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Radhika Ojha</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=radhikaaojha" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/devRawnie"><img src="https://avatars.githubusercontent.com/u/43227329?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ROHIT SHARMA</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=devRawnie" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/RohiniRG"><img src="https://avatars.githubusercontent.com/u/64858610?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rohini Rao</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=RohiniRG" title="Code">💻</a></td>
+    <td align="center"><a href="https://vedant-jain03.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/76901313?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vedant-jain03</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=vedant-jain03" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Manasi2001"><img src="https://avatars.githubusercontent.com/u/68627617?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Manasi Chhibber</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Manasi2001" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->

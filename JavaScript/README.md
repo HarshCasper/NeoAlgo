@@ -44,6 +44,7 @@
 - [Postfix expression evaluator](./ds/postfixevaluator.js)
 - [Infix expression evaluator](./ds/infixevaluator.js)
 - [Prefix expression evaluator](./ds/prefixevaluator.js)
+- [Valid Parentheses](./ds/ValidParentheses.js)
 
 
 ## Searching
@@ -107,6 +108,7 @@
 - [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
 - [Two Sum](./cp/TwoSum.js)
 - [Reverse a String](./cp/ReverseString.js)
+- [Max Water Container](./cp/WaterContainer.js)
 
 ## Dynamic Programming
 

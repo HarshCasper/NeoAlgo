@@ -36,6 +36,7 @@
 
 ## Searching
 
+- [8 Puzzle Problem (BFS)](search/8_Puzzle_Problem_using_BFS.py)
 - [Bilinear Search](search/bilinear.py)
 - [Binary Search](search/binarysearch.py)
 - [Breadth First Search](search/bfs.py)

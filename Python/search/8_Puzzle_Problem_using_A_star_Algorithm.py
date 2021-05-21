@@ -183,31 +183,21 @@ def Astar_search(initial_state):
 
 # starting executing the 8-puzzle with setting up the initial state
 # here we have considered 3 initial state intitalized using state variable
-state=[[1, 3, 4,
+state= [1, 3, 4,
         8, 6, 2,
-        7, 0, 5],
-
-       [2, 8, 1,
-        0, 4, 3,
-        7, 6, 5],
-
-       [2, 8, 1,
-        4, 6, 3,
-        0, 7, 5]]
-# iterating over number of initial_state
-for i in range(0,3):
-    # initializing the num_of_instances to zero
-    Puzzle.num_of_instances = 0
-    # set t0 to current time
-    t0 = time()
-    astar = Astar_search(state[i])
-    # getting the time t1 after executing the breadth_first_search method
-    t1 = time() - t0
-    print('A*:',astar)
-    print('space:', Puzzle.num_of_instances)
-    print('time:', t1)
-    print()
-    print('------------------------------------------')
+        7, 0, 5]
+# initializing the num_of_instances to zero
+Puzzle.num_of_instances = 0
+# set t0 to current time
+t0 = time()
+astar = Astar_search(state)
+# getting the time t1 after executing the breadth_first_search method
+t1 = time() - t0
+print('A*:',astar)
+print('space:', Puzzle.num_of_instances)
+print('time:', t1)
+print()
+print('------------------------------------------')
     
 '''
 Sample working:
@@ -240,112 +230,6 @@ All states from goal to initial:
 A*: ['D', 'L', 'U', 'R', 'U']
 space: 117
 time: 0.0029821395874023438
-
-------------------------------------------
-
-All states from goal to initial: 
-[1, 2, 3]
-[8, 0, 4]
-[7, 6, 5] 
-
-[1, 0, 3]
-[8, 2, 4]
-[7, 6, 5] 
-
-[0, 1, 3]
-[8, 2, 4]
-[7, 6, 5] 
-
-[8, 1, 3]
-[0, 2, 4]
-[7, 6, 5] 
-
-[8, 1, 3]
-[2, 0, 4]
-[7, 6, 5] 
-
-[8, 1, 3]
-[2, 4, 0]
-[7, 6, 5] 
-
-[8, 1, 0]
-[2, 4, 3]
-[7, 6, 5] 
-
-[8, 0, 1]
-[2, 4, 3]
-[7, 6, 5] 
-
-[0, 8, 1]
-[2, 4, 3]
-[7, 6, 5] 
-
-[2, 8, 1]
-[0, 4, 3]
-[7, 6, 5] 
-
-A*: ['D', 'R', 'U', 'L', 'L', 'D', 'R', 'R', 'U']
-space: 977
-time: 0.011646032333374023
-
-------------------------------------------
-
-All states from goal to initial: 
-[1, 2, 3]
-[8, 0, 4]
-[7, 6, 5] 
-
-[1, 0, 3]
-[8, 2, 4]
-[7, 6, 5] 
-
-[0, 1, 3]
-[8, 2, 4]
-[7, 6, 5] 
-
-[8, 1, 3]
-[0, 2, 4]
-[7, 6, 5] 
-
-[8, 1, 3]
-[2, 0, 4]
-[7, 6, 5] 
-
-[8, 1, 3]
-[2, 4, 0]
-[7, 6, 5] 
-
-[8, 1, 0]
-[2, 4, 3]
-[7, 6, 5] 
-
-[8, 0, 1]
-[2, 4, 3]
-[7, 6, 5] 
-
-[0, 8, 1]
-[2, 4, 3]
-[7, 6, 5] 
-
-[2, 8, 1]
-[0, 4, 3]
-[7, 6, 5] 
-
-[2, 8, 1]
-[4, 0, 3]
-[7, 6, 5] 
-
-[2, 8, 1]
-[4, 6, 3]
-[7, 0, 5] 
-
-[2, 8, 1]
-[4, 6, 3]
-[0, 7, 5] 
-
-A*: ['D', 'R', 'U', 'L', 'L', 'D', 'R', 'R', 'U', 'L', 'U', 'R']
-space: 4817
-time: 0.14372038841247559
 
 ------------------------------------------
 

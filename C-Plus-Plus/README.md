@@ -86,7 +86,6 @@
 - [Remove Minimum Parantheses to make Valid Parantheses](cp/removeMinParantheses.cpp)
 - [Sum of Matrix Principal and Secondary Diagonal](cp/matrix's_principal_secondary_diagonal_sum.cpp)
 - [Reverse Lookup in 1D array](cp/Reverse_Lookup_in_1D_array.cpp)
-- [Moore's Voting Algorithm to find the majority element](cp/moore_voting.cpp)
 - [Sort Color](cp/Sort_Color.cpp)
 - [Ticket Auction](cp/tkt_auction.cpp)
 - [Replace Pi using recursion](cp/replace_pi.cpp)
@@ -121,6 +120,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Maximum Pairwise Product In Array](cp/maximum_pairwise_product.cpp)
 - [Minimum indexed character](cp/Minimum_indexed_character.cpp)
 - [Power Of Numbers](cp/Power_of_numbers.cpp)
 - [Geek-onacci Number](cp/Geek-onacci_Number.cpp)
@@ -176,6 +176,7 @@
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
 - [Largest BST in binary tree](cp/largest_bst_in_btree.cpp)
+- [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 
 ## Data Structures
 
@@ -195,7 +196,6 @@
 - [Binary Tree](ds/BinaryTree.cpp)
 - [Circular Linkedlist](ds/Circular_LinkedList.cpp)
 - [Validating BST](ds/Check_for_Binary_search_tree.cpp)
-- [Diameter of Binary Tree](ds/Diameter_BinaryTree.cpp)
 - [Doubly Linked List](ds/DoublyLinkedList.cpp)
 - [Double Ended Queue](ds/Double_Ended_Queue.cpp)
 - [Hashtable with separate chaining](ds/Hashing_with_chaining.cpp)
@@ -244,7 +244,6 @@
 - [Binary Search Tree Validation](ds/Binary_Search_Tree_Validation.cpp)
 - [Maximum Element of Binary Tree](ds/Maximum_Element_of_Binary_Tree.cpp)
 - [Maximum Sum Level Of Binary Tree](ds/Max_Sum_Level_Of_Binary_Tree.cpp)
-- [Symmetric Binary Tree or Not](ds/Symmetric_Binary_Tree.cpp)
 - [Sort linked list of zeros, ones and twos](ds/sort_list_of_0s_1s_2s.cpp)
 - [Vertical Order Traversal Of Binary Tree](ds/vertical_order_traversal_BinaryTree.cpp)
 - [Height of Binary Tree without using Recusrsion](ds/Height_Of_Binary_Tree_Non_Recursive.cpp)
@@ -281,6 +280,7 @@
 - [Reverse Linked List Nodes in K-Groups](ds/Reverse_LinkedList_Nodes_in_K-Groups.cpp)
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
+- [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
 
 ## Graphs
 
@@ -303,7 +303,6 @@
 - [Dijkstra's Algorithm](graphs/Dijkstra_algorithm.cpp)
 - [Edmond Karp's Algorithm](graphs/EdmondKarp.cpp)
 - [Flood fill](graphs/FloodFill.cpp)
-- [Floyd Warshall ALgorithm (ASSP)](graphs/FloydWarshallAlgorithm.cpp)
 - [Number of Connected Components](graphs/number_of_connected_components.cpp)
 - [Is it a tree](graphs/is_it_a_tree.cpp)
 - [In-order (LNR) Tree Traversal](graphs/inorder-traversal.cpp)
@@ -331,6 +330,7 @@
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 - [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
+- [Subtree size of each node](graphs/subtree_size.cpp)
 
 ## Searching
 
@@ -478,7 +478,6 @@ _add list here_
 - [Perfect Number](math/Perfect_Number.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
-- [Lucky Number](math/LuckyNumber.cpp)
 - [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
 - [Next Prime Number](math/next_prime_number.cpp)
 - [Polynomial addition](math/polynomial_addition.cpp)
@@ -559,8 +558,8 @@ _add list here_
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
 - [Find duplicate elements using XOR](Bit--Manipulation/Find_duplicate_elements_using_XOR.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
-- [Toggle k-th bit of a number](Bit--Manipulation/togglebit.cpp)
 - [Minimum XOR value](Bit--Manipulation/Minimum_XOR_Value.cpp)
+- [All possible subset of a set](Bit--Manipulation/all_possible_subset_of_a_set.cpp)
 
 ## Blockchain
 

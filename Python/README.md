@@ -36,6 +36,8 @@
 
 ## Searching
 
+- [8 Puzzle Problem (BFS)](search/8_Puzzle_Problem_using_BFS.py)
+- [8 Puzzle Problem (A* Algorithm)](search/8_Puzzle_Problem_using_A_star_Algorithm.py)
 - [Bilinear Search](search/bilinear.py)
 - [Binary Search](search/binarysearch.py)
 - [Breadth First Search](search/bfs.py)
@@ -72,7 +74,6 @@
 - [Prim's Algorithm](graphs/Prim_Algorithm.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
 - [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
-
 * [Binary Tree (Post order transversal)](ds/Binary_tree_post_order.py)
 * [Circular Linked List](ds/Circular_LinkedList.py)
 * [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
@@ -141,6 +142,7 @@
 - [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 - [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
 - [Trapping rain water](cp/Trapping_rain_water.py)
+- [Max of Adjacent Elements Product](cp/adjacent_elements_product.py)
 - [Generating Power Set](cp/Generating_Power_Set.py)
 
 ## Cryptography
@@ -174,6 +176,7 @@
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
 - [Jump search](search/jump_search.py)
+- [Three Sum Problem](search/three_sum_problem.py)
 
 ## Sorting
 
@@ -208,9 +211,12 @@
 - [Sudoku Solver](backtracking/sudokuSolver.py)
 - [Subset Sum](backtracking/Subset_Sum.py)
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
+- [Maze Generation Visualiser](backtracking/Maze-Generation-Visualiser.py)
 - [M Coloring Problem](backracking/M-coloring.py)
+- [Tic Tac Toe Game](backtracking/Tic_Tac_Toe.py)
 - [Tug Of War](backracking/Tug_of_war.py)
 - [Water Jug Problem](backtracking/Water_Jug_Problem.py)
+
 
 ## Dynamic Programming
 
@@ -238,6 +244,7 @@
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 - [Catalan Number](dp/Catalan_DP.py)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.py)
 
 ## Pathfinding Algorithms
 
@@ -270,6 +277,7 @@
 - [Bellman Ford](graphs/Bellman_Ford.py)
 - [Rotten Oranges](graphs/Rotten_Oranges.py)
 - [Top view of binary tree](graphs/top_view_binary_tree.py)
+- [Warshall Algorithm](graphs/warshall.py)
 
 ## Competitive Programming
 
@@ -311,6 +319,9 @@
 
 ## Machine Learning
 
+- [Amazon Alexa Reviews Analysis](ml/Amazon_Alexa_Reviews_Analysis.ipynb)
+- [Ames House Price Prediction](ml/Ames_House_Price_Prediction.ipynb)
+- [Churn Risk Score Prediction](ml/Churn_Risk_Score_Prediction.ipynb)
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
@@ -339,6 +350,7 @@
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 - [Fibonacci number](math/Fibonacci.py)
 - [Fibonacci number with Recursion](math/fibonacci_recursion.py)
+- [Min Max Sum](math/min_max_sum.py)
 - [Check Armstrong Number](math/CheckArmstrongNumber.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 - [Ackermann Function](math/ackermann_function.py)

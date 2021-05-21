@@ -205,6 +205,7 @@
 
 ## Backtracking
 
+- [Cryptarithmetic Problem](backtracking/Cryptarithmetic_Problem.py)
 - [N Queens Problem](backtracking/N_Queens.py)
 - [Knight's Tour](backtracking/Knight's_Tour.py)
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)

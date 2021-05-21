@@ -175,7 +175,7 @@ _add list here_
 - [Implementing Stacks using Arrays](ds/StackUsingArrays.java)
 - [Top view of a binary tree](ds/Top_view_of_binary_tree.java)
 - [Reversing Circular Linked List](ds/ReversingCircularLinkedList.java)
-- [All permutations of integer array](ds/Permutations_integer_array.java)
+- [All permutations of an integer array](ds/Permutations_integer_array.java)
 
 ## Graphs
 

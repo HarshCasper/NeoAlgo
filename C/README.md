@@ -125,6 +125,7 @@ _add list here_
 
 ## Other
 
+- [Decimal to Octal](other/decimal_to_octal.c)
 - [Find the Numbers](other/Find_the_numbers.c)
 - [Number_of_duplicates_using_Binary_search](other/Number_of_duplicates_using_Binary_search.c)
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.c)

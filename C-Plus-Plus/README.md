@@ -176,7 +176,7 @@
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
-
+- [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
 
 ## Data Structures
 

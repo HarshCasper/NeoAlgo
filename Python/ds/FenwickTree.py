@@ -57,4 +57,7 @@ Enter the position to update : 2
 Enter the value to be added : 12
 Enter the last index : 3
 Sum from 0 to 3 : 19
+
+Time Complexity : O(nlog n) # n = number of elements 
+Space Complexity : O(n)
 """

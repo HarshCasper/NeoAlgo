@@ -281,6 +281,7 @@
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
+- [Implementation of Doubly Ended Queue](ds/DoublyEndedQueue.cpp)
 
 ## Graphs
 

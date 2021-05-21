@@ -175,8 +175,8 @@
 - [Strange Hotel](cp/strange_hotel.cpp)
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
+- [Largest BST in binary tree](cp/largest_bst_in_btree.cpp)
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
-
 
 ## Data Structures
 

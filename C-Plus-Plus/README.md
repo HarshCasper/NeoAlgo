@@ -120,6 +120,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Maximum Pairwise Product In Array](cp/maximum_pairwise_product.cpp)
 - [Minimum indexed character](cp/Minimum_indexed_character.cpp)
 - [Power Of Numbers](cp/Power_of_numbers.cpp)
 - [Geek-onacci Number](cp/Geek-onacci_Number.cpp)
@@ -174,6 +175,8 @@
 - [Strange Hotel](cp/strange_hotel.cpp)
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
+- [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
+
 
 ## Data Structures
 
@@ -327,6 +330,7 @@
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 - [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
+- [Subtree size of each node](graphs/subtree_size.cpp)
 
 ## Searching
 

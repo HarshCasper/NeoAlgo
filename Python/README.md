@@ -275,6 +275,7 @@
 - [Bellman Ford](graphs/Bellman_Ford.py)
 - [Rotten Oranges](graphs/Rotten_Oranges.py)
 - [Top view of binary tree](graphs/top_view_binary_tree.py)
+- [Warshall Algorithm](graphs/warshall.py)
 
 ## Competitive Programming
 

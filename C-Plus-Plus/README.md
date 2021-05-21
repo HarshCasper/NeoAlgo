@@ -174,6 +174,7 @@
 - [Strange Hotel](cp/strange_hotel.cpp)
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
+- [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 
 ## Data Structures
 
@@ -327,6 +328,7 @@
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 - [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
+- [Subtree size of each node](graphs/subtree_size.cpp)
 
 ## Searching
 

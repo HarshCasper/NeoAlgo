@@ -135,7 +135,6 @@
 - [Postfix to Infix Conversion](ds/postfixToInfix.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
 - [Morris Order Traversal ] (ds/Morris.c)
-- [Hash Table Implementation](ds/hashtable.c)
 
 
 ## Searching
@@ -209,6 +208,7 @@
 - [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
 - [Warshall Algorithm](graphs/warshall.c)
+- [Celebrity Problem](graphs/celebrity_problem.c)
 
 ## Bit - Manipulation
 
@@ -217,6 +217,7 @@
 - [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
 - [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.c)
+- [Minimum XOR value](Bit--Manipulation/minimum_xor_value.c)
 
 ## Computational Geometry
 

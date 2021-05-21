@@ -110,7 +110,11 @@ _add list here_
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 - [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
 - [MEX of an Array](cp/MEX_of_an_array.java)
+
+- [Sliding Window Technique](cp/slding_window_technique.java)
+
 - [Find Minimum element in Rotated and Sorted Array](cp/minimum_in_rotated_sorted_array.java)
+
 
 ## Cryptography
 

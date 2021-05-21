@@ -93,4 +93,3 @@ Enter number of bars: 7
 Enter height of each bar: 6 2 5 4 5 1 6
 Largest area = 12 between bars 1 and 5
 */
-

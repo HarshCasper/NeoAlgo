@@ -41,6 +41,7 @@ _add list here_
 - [Meetings](cp/Meetings.java)
 - [Next Greater Element](cp/Next_Greater_Element.java)
 - [Maximum Function](cp/Maximum_Function.java)
+- [Buddy Nim](cp/buddy_nim.java)
 - [Jump Game](cp/Jump_Game.java)
 - [Remove Duplicate word from String](cp/Duplicate_word.java)
 - [Reverse words in String](cp/Reverse_words_in_String.java)

@@ -11,6 +11,7 @@
 
 ## Graphs 
 - [DFS Implementation of Graph](graphs/DFS.cs)
+- [Kosaraju's algorithm for Strong Connectected Components](graphs/Kosaraju's_algorithm_for_SCC.cs)
 
 ## Blockchain
 
@@ -40,6 +41,8 @@ _add list here_
 - [Binary Search](search/BinarySearch.cs)
 - [Linear Search](search/LinearSearch.cs)
 - [Fibonacci Search](search/Fibonacci_Search.cs)
+- [Jump Search](search/JumpSearch.cs)
+- [Recursive Binary Search](search/RecursiveBinarySearch.cs)
 
 ## Sorting
 
@@ -47,6 +50,9 @@ _add list here_
 - [Insertion Sort](sort/InsertionSort.cs)
 - [Quick Sort](sort/QuickSort.cs)
 - [Merge Sort](sort/MergeSort.cs)
+- [Selection Sort](sort/SelectionSort.cs)
+- [Heap Sort](sort/HeapSort.cs)
+- [Count Sort](sort/CountSort.cs)
 
 ## Machine Learning
 

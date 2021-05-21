@@ -233,4 +233,10 @@ time: 0.0029821395874023438
 
 ------------------------------------------
 
+Complexities:
+     Time Complexity -> O(b^d)
+     Space Complexity -> O(b*d)
+         b -> branch factor
+         d -> depth factor
+         
 '''

@@ -45,6 +45,7 @@
 - [Infix expression evaluator](./ds/infixevaluator.js)
 - [Prefix expression evaluator](./ds/prefixevaluator.js)
 - [Valid Parentheses](./ds/ValidParentheses.js)
+- [Iterative Postorder Traversal](./ds/Iterative_postorder.js)
 - [Iterative Inorder Traversal](./ds/Iterative_inorder.js)
 
 ## Searching

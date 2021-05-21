@@ -1,3 +1,9 @@
+/*
+For a string S. The task is to print all possible permutations of a given string.
+A permutation, also called an “order,” is a rearrangement of the elements of a string 
+into a one-to-one correspondence with S itself. A string of length n has a maximum of n! permutations possible. 
+*/
+
 import 'dart:io';
 
 // List to store all permutations possible
@@ -63,12 +69,5 @@ ufn
 unf
 nuf
 nfu
-
-Enter String:
-lol
-All possible permutations for lol are:
-lol
-llo
-oll
 */
 

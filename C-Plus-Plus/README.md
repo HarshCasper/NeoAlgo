@@ -177,6 +177,7 @@
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
 - [Largest BST in binary tree](cp/largest_bst_in_btree.cpp)
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
+- [Minimum cost to construct temple](cp/min_cost_to_construct_temple.cpp)
 
 ## Data Structures
 

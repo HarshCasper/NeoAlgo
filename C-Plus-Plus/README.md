@@ -120,6 +120,7 @@
 - [Find all unique prime factor of any number n](cp/Unique_prime_factors.cpp)
 - [Find the maximum number formed from 2-digit numbers in an array](cp/maxNumber.cpp)
 - [Plus One Problem](cp/Plus_One.cpp)
+- [Maximum Pairwise Product In Array](cp/maximum_pairwise_product.cpp)
 - [Minimum indexed character](cp/Minimum_indexed_character.cpp)
 - [Power Of Numbers](cp/Power_of_numbers.cpp)
 - [Geek-onacci Number](cp/Geek-onacci_Number.cpp)
@@ -174,6 +175,8 @@
 - [Strange Hotel](cp/strange_hotel.cpp)
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
+- [Largest BST in binary tree](cp/largest_bst_in_btree.cpp)
+- [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 
 ## Data Structures
 
@@ -259,6 +262,7 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Next Larger Element-tree](ds/Next_Larger_Element-tree_using_CPP.cpp)
 - [Swapping Node of Linked List](ds/Sawpping_Nodes_of_Linked_list-Using_CPP.cpp)
 - [Auto Complete - Using Trie](ds/Auto_complete.cpp)
 - [Append Last N To First](ds/Append_Last_N_To_First.cpp)
@@ -327,6 +331,8 @@
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 - [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
+- [Subtree size of each node](graphs/subtree_size.cpp)
+
 
 ## Searching
 
@@ -537,6 +543,7 @@ _add list here_
 - [Interleaving strings](dp/Interleaving_strings.cpp)
 - [Minimum Insertion Steps to make string palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.cpp)
+- [Rod Cutting Problem](dp/Rod_cutting_problem.cpp)
 
 ## Bit - Manipulation
 

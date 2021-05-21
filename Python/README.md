@@ -37,6 +37,7 @@
 ## Searching
 
 - [8 Puzzle Problem (BFS)](search/8_Puzzle_Problem_using_BFS.py)
+- [8 Puzzle Problem (A* Algorithm)](search/8_Puzzle_Problem_using_A_star_Algorithm.py)
 - [Bilinear Search](search/bilinear.py)
 - [Binary Search](search/binarysearch.py)
 - [Breadth First Search](search/bfs.py)
@@ -276,6 +277,7 @@
 - [Bellman Ford](graphs/Bellman_Ford.py)
 - [Rotten Oranges](graphs/Rotten_Oranges.py)
 - [Top view of binary tree](graphs/top_view_binary_tree.py)
+- [Warshall Algorithm](graphs/warshall.py)
 
 ## Competitive Programming
 

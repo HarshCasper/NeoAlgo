@@ -46,6 +46,7 @@
 - [Prefix expression evaluator](./ds/prefixevaluator.js)
 - [Valid Parentheses](./ds/ValidParentheses.js)
 - [Iterative Preorder Traversal](./ds/Iterative_preorder.js)
+- [Iterative Inorder Traversal](./ds/Iterative_inorder.js)
 
 ## Searching
 

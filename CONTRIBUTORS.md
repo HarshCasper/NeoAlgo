@@ -273,6 +273,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://vedant-jain03.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/76901313?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vedant-jain03</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=vedant-jain03" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Manasi2001"><img src="https://avatars.githubusercontent.com/u/68627617?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Manasi Chhibber</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Manasi2001" title="Code">💻</a></td>
     <td align="center"><a href="https://linktr.ee/iamakkkhil"><img src="https://avatars.githubusercontent.com/u/55273506?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akhil Bhalerao</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=iamakkkhil" title="Code">💻</a></td>
+    <td align="center"><a href="https://devpost.com/anshika15-dubey?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"><img src="https://avatars.githubusercontent.com/u/61225173?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anshika Dubey</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=anshika272" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mehak2323"><img src="https://avatars.githubusercontent.com/u/76546415?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mehak</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=mehak2323" title="Code">💻</a></td>
   </tr>
 </table>
 

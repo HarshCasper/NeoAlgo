@@ -116,7 +116,7 @@
 
 - [Flight of stairs](./dp/flightOfStairs.js)
 - [Climbing stairs problem](./dp/Climbing_stairs.js)
-
+- [Painting Fence Problem](./dp/Painting_fence.js)
 
 ## Blockchain
 

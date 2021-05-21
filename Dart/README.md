@@ -21,6 +21,7 @@
 - [Segregate Even/Odd](Array/Segregate_even_odd.dart)
 - [Palindrome Array](Array/Palindrome_array.dart)
 - [Geometric Progression](Array/Geometric_Progression.dart)
+- [MEX in an Array](Array/MEX_array.dart)
 
 ## Maths
 

@@ -3,12 +3,7 @@ i.e. find a node with a value just greater than n.
 Note: Return NULL if no node is present with a value greater than n.
 */
 
-#include <iostream>
-
-#include <queue>
-
-#include <vector>
-
+#include<bits/stdc++.h>
 using namespace std;
 
 // TreeNode

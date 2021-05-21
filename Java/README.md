@@ -255,6 +255,7 @@ _add list here_
 - [Lucky Number](math/LuckyNumber.java)
 - [Special Number](math/Special.java)
 - [Generalized Cullen Number](math/cullen_number.java)
+- [Median of Running Streams](math/Findmedian.java)
 
 ## Dynamic Programming
 

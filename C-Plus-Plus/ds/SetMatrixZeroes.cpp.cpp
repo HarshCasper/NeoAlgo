@@ -144,4 +144,7 @@ Matrix after setting zeroes:
 0 0 0 
 3 0 1 
 
+Time Complexity- O(n) or O(m) depending upon m and n
+Space Complexity-O(1)
+
 */

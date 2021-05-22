@@ -78,6 +78,7 @@
 - [Tim Sort](sort/Tim_Sort.dart)
 - [Counting Sort](sort/Counting_Sort.dart)
 - [Cocktail Sort](sort/Cocktail_Sort.dart)
+- [Stooge Sort](sort/Stooge_Sort.dart)
 
 ## Cryptography
 

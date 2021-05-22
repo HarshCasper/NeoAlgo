@@ -210,6 +210,7 @@ _add list here_
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
+- [Minimum Depth Binary Tree](other/MinimumDepthBT.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [Print all possible subsequences](other/SubSequences.java)
 - [Painter Partition problem](other/PainterPartition.java)

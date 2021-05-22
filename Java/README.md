@@ -110,7 +110,11 @@ _add list here_
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 - [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
 - [MEX of an Array](cp/MEX_of_an_array.java)
+
+- [Sliding Window Technique](cp/slding_window_technique.java)
+
 - [Find Minimum element in Rotated and Sorted Array](cp/minimum_in_rotated_sorted_array.java)
+
 
 ## Cryptography
 
@@ -143,6 +147,7 @@ _add list here_
 - [Egg Dropping Problem](dp/EggDroppingProblem.java)
 - [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.java)
+- [Painting fence problem](dp/Painting_fence.java)
 
 ## Data Structures
 
@@ -255,6 +260,7 @@ _add list here_
 - [Lucky Number](math/LuckyNumber.java)
 - [Special Number](math/Special.java)
 - [Generalized Cullen Number](math/cullen_number.java)
+- [Median of Running Streams](math/Findmedian.java)
 
 ## Dynamic Programming
 

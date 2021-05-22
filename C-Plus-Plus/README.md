@@ -333,7 +333,6 @@
 - [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
 - [Subtree size of each node](graphs/subtree_size.cpp)
 
-
 ## Searching
 
 - [Binary Search](search/Binary_Search.cpp)
@@ -670,3 +669,4 @@ _add list here_
 - [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)
 - [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)
 - [Largest Number formed from elements of the Array](other/LargestNumber.cpp)
+- [Isomorphic Strings](other/IsomorphicStrings.cpp)

@@ -282,6 +282,7 @@
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
+- [First element occurring k times in an array](ds/FirstElement_Array.cpp)
 
 ## Graphs
 
@@ -332,7 +333,6 @@
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 - [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
 - [Subtree size of each node](graphs/subtree_size.cpp)
-
 
 ## Searching
 

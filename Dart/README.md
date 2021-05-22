@@ -53,6 +53,7 @@
 - [Largest prime factor](math/Largest_Prime_Factor.dart)
 - [Modular multiplicative inverse](math/Modular_multiplicative_inverse.dart)
 - [Mystery Number](maths/MysteryNumber.dart)
+- [Pronic Number](maths/PronicNumber.dart)
 
 ## Search
 

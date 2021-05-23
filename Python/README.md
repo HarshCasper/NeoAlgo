@@ -205,6 +205,7 @@
 
 ## Backtracking
 
+- [Cryptarithmetic Problem](backtracking/Cryptarithmetic_Problem.py)
 - [N Queens Problem](backtracking/N_Queens.py)
 - [Knight's Tour](backtracking/Knight's_Tour.py)
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
@@ -323,6 +324,8 @@
 - [Ames House Price Prediction](ml/Ames_House_Price_Prediction.ipynb)
 - [Churn Risk Score Prediction](ml/Churn_Risk_Score_Prediction.ipynb)
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
+- [E-Mail Classification](ml/E-Mail_Classification.ipynb)
+- [Ice Cream Revenue Prediction](ml/Ice_Cream_Revenue_Prediction.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
 - [Linear Regression](ml/Linear_Regression.ipynb)

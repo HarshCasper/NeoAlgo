@@ -486,6 +486,7 @@ _add list here_
 - [Pronic Number](math/Pronic_numbers.cpp)
 - [Special Number](math/special.cpp)
 - [Harshad Number](math/HarshadNumber.cpp)
+- [Polygonal Number](math/Polygonal_numbers.cpp)
 
 ## Dynamic Programming
 

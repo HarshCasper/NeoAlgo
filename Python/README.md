@@ -26,6 +26,7 @@
 - [Dynamic Queue](ds/dynamic_queue.py)
 - [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
 - [AVL Tree](ds/AVL_Tree.py)
+- [Reverse Queue Using Stack](ds/Reverse_queue_using_stack.py)
 
 ## Competitive Programming
 

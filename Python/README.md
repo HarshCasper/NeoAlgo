@@ -378,6 +378,7 @@
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
 - [Transpose of matrix](math/Matrix_transpose.py)
+- [Tribonacci](math/tribonacci.py)
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
 - [Matrix Multiplication](math/Matrix_multiplication.py)

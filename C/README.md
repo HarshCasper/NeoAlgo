@@ -270,7 +270,7 @@ _add list here_
 - [Special Number](math/special.c)
 - [Pronic Number](math/Pronic_numbers.c)
 - [Quadratic Equation](math/Quadratic_Equation.c)
-
+- [Polygonal Number](math/Polygonal_Numbers.c)
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)

@@ -1,18 +1,13 @@
 /*Given a generic tree and an integer n. Find and return the node with the next larger element in the tree
 i.e. find a node with a value just greater than n.
 Note: Return NULL if no node is present with a value greater than n.
-
 */
 #include <iostream>
 
 #include <queue>
-
 #include <vector>
-
+#include<bits/stdc++.h>
 using namespace std;
-
-// TreeNode
- 
 template < typename T >
   class TreeNode {
     public:
@@ -37,7 +32,7 @@ template < typename T >
 
 TreeNode < int > * takeInputLevelWise() {
   int rootData;
-//   cout<<"enter root data"<<endl;
+//    cout<<"enter root data"<<endl;
   cin >> rootData;
   TreeNode < int > * root = new TreeNode < int > (rootData);
 
@@ -66,7 +61,7 @@ TreeNode < int > * takeInputLevelWise() {
 // function for finding out nextlargest element
 
 TreeNode < int > * getNextLargerElement(TreeNode < int > * root, int x) {
-  
+
   int min = 0;
   TreeNode < int > * nextnode = NULL;
   if (root == NULL) {

@@ -12,33 +12,6 @@
         The code segment below mimics the diffie helman protocol in the real world. It shows the flow
         of information from the beginning of a connection till the end where both parties have
         successfully generated a symmetric key at their respective ends.
-
-    Method:
-        Diffie Helman Key Exchange Protocol
-
-    Sample Input/Output:
-        For the purpose of this demonstration, there is no input required from the user. The algorithm,
-        generates a prime number and the primitive root associated with its Finite field, and shares it
-        with different users.
-
-        In the output, the algorithm returns all the users along with their respective public keys,
-        and the symmetric key that they generated at their own ends. Note that, the symmetric key,
-        was never shared among the user throughout the program.
-        
-        Sample Output:
-            Public Variables:
-            Prime Number: 761
-            Primitive Root: 6
-
-            User: User_1
-            Public Key: Pub_1
-            Final Key: Symmetric Key
-
-            User: User_2
-            Public Key: Pub_2
-            Final Key: Symmetric Key
-
-        The symmetric key generated, would be the same for both users.
 """
 
 import random

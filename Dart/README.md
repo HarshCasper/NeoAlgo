@@ -89,3 +89,4 @@
 
 - [Rod Cutting Problem](dp/RodCuttingProblem.dart)
 - [Golomb Sequence](dp/GolombSequence.dart)
+- [String Permutations](dp/StringPermutations.dart)

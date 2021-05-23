@@ -147,6 +147,7 @@ _add list here_
 - [Egg Dropping Problem](dp/EggDroppingProblem.java)
 - [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.java)
+- [Painting fence problem](dp/Painting_fence.java)
 
 ## Data Structures
 

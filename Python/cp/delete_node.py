@@ -1,9 +1,15 @@
-class ListNode():                  #Node Class
+'''
+    Given head pointer you have to delete the value of the node to delete
+'''
+
+
+class ListNode():      
+    #Node Class            
     def __init__(self,value=None):
         self.data = value
         self.next = None
-
-def create_LinkedList(head,val):           # function for creating linked list
+# function for creating linked list
+def create_LinkedList(head,val):           
     if(head.next!=None):
         temp = head.next
         while(temp.next!=None):
@@ -17,15 +23,16 @@ def create_LinkedList(head,val):           # function for creating linked list
         newnode.next = None
         head.next = newnode
         
-
-def print_linkedlist(head):                 #function for displaying  linked list
+#function for displaying  linked list
+def print_linkedlist(head):                 
     temp = head.next
     while(temp!=None):
         print(temp.data,end =' ')
         temp = temp.next
     print()
-    
-def delete_node(node):                         #function to delete a node from linked list
+
+    #function to delete a node from linked list
+def delete_node(node):                         
      if node.next is not None:
             node.data, node.next = node.next.data, node.next.next
         
@@ -49,6 +56,11 @@ if __name__ == '__main__':
 # 7
 # 3 4 5 6 7 
 # 3 5 6 7 
+
+'''
+Time complexity : O(N)
+Space complexity :O(1)
+'''
 
 
 

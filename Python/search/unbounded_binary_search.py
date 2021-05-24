@@ -1,5 +1,11 @@
 """
-    code for unbounded_binary_search Algorithm
+code for unbounded_binary_search Algorithm:
+    Given a function ‘int f(unsigned int x)’ which takes a non-negative integer ‘x’
+    as input and returns an integer as output. The function is monotonically increasing
+    with respect to value of x, i.e., the value of f(x+1) is greater than f(x) for
+    every input x. Find the value ‘n’ where f() becomes positive for the first time.
+    Since f() is monotonically increasing, values of f(n+1), f(n+2),…
+    must be positive and values of f(n-2), f(n-3), .. must be negative.
 """
 
 
@@ -63,12 +69,17 @@ print("The value n where fun(x) becomes " +
 
 
 """
-Given a function ‘int f(unsigned int x)’ which takes a non-negative integer ‘x’
-as input and returns an integer as output. The function is monotonically increasing
-with respect to value of x, i.e., the value of f(x+1) is greater than f(x) for
-every input x. Find the value ‘n’ where f() becomes positive for the first time.
-Since f() is monotonically increasing, values of f(n+1), f(n+2),…
-must be positive and values of f(n-2), f(n-3), .. must be negative.
+Example 1: x*x + 5 - 10
+
+please enter three parameters of the equation in order a, b, c : 1 5 10
+please enter the signs of the equation + or - in order sign_b, sign_c : + -
+The value n where fun(x) becomes positive first is :  2
+
+Example 2: 2*x*x - 10 - 20
+
+please enter three parameters of the equation in order a, b, c : 2 10 20 
+please enter the signs of the equation + or - in order sign_b, sign_c : - - 
+The value n where fun(x) becomes positive first is :  7
 
 Time Complexity : O(log n)
 Space Complexity : O(1)

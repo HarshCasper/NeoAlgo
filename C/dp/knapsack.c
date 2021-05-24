@@ -50,5 +50,4 @@ The maximum value that can be put in a knapsack of capacity 5 is: 37
 
 Time Complexity: O(2^n) where n is no of items .
 Auxiliary Space :O(1) As no extra data structure has been used for storing values.
-
 */

@@ -1,34 +1,9 @@
 """
-Depth First Search: Its a graph traversal technique which uses
-        stack data-structure fo its implementation. We extract the
-        current node from the top of the stack and traverse its adjacent
-        nodes. If not visited, we put the node at the top of the stack
-        mark it as visited.
 Purpose: Given a binary matrix of N*M order where 0 is the wall and 1 is the way.
         Find the shortest distance from a source cell to a destination cell,
         traversing through limited cells only. Also, you can move only
         up, down, left and right. If found then print the distance and
         path in separate lines, else return -1.
-
-Method : Depth-First Search
-Intuition : As we know stack is used for DFS. In recursion
-        1. Initialize stack.
-        2. Initialize 2d boolean array, the same size as the original array.
-            This will help us in avoiding traversal to go in loops.
-        3. Make a call to recursive function DFSUtil with row=0, column =0
-            and visited[] array.
-        4. In DFSutil Function, check if row and column indexes are within
-            the range of given matrix and marked false in the visited[] array,
-            if not then return from the function. If indexes are valid and not
-            visited then print the element. Mark the element in the visited array.
-            Make a recursive call to left(column-1), right(column+1), down(row+1)
-            and up(row+1) from the current element position.
-
-Time Complexity:   O(N*M)
-Space Complexity: O(N*M)
-
-Argument: 2-d list, tuple, tuple (Maze, Source, Destination)
-Return  : Integer, String          (Distance, Path)
 
 """
 # Main DFS function using recursion
@@ -119,6 +94,10 @@ if __name__ == "__main__":
 
 
 """
+
+Time Complexity:   O(N*M)
+Space Complexity: O(N*M)
+
 Sample Input / Output
 
 Enter the Dimension of the maze:- 5 5

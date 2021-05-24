@@ -1,6 +1,4 @@
 #Optimized Bubble Sort
-#Written by XZANATOL
-
 """
 Add a small optimization for Bubble Sort algorithm, so that is stops looping on the given \
 list if it is sorted.
@@ -9,9 +7,11 @@ list if it is sorted.
 def optimized_BS(L):
     length = len(L)
     for i in range(length):
-        sorted = 0 #sorted flag
+        #sorted flag
+        sorted = 0 
         for j in range(length-i-1):
-            if L[j] > L[j+1]: #Reverse the operator for descending order
+            #Reverse the operator for descending order
+            if L[j] > L[j+1]: 
                 L[j], L[j+1] = L[j+1], L[j]
                 sorted = 1
                 
@@ -30,9 +30,6 @@ if __name__ == "__main__":
     print("List after sorting: {} ".format(optimized_BS(L)))
 
 """
-The idea of the sorted flag is that it detects where a swap happenned or not in each pass \
-of the for second for loop. If no swaps took place then the list is sorted already, and \
-no need for more passes to take place, so it breaks out of the loop.
 
 I/O example:
 =============
@@ -44,9 +41,6 @@ List after sorting: [1, 4, 5, 6, 65, 87, 89]
 
 Time Complexity:
 =================
-Time Complexity here is affected by how the list if first provided. The algorithm takes \
-lesser time to order elements when elements are already sorted.
-
 Best case Time Complexity: O(n)
 Explain: When the array is already sorted
 

@@ -1,21 +1,9 @@
 """
-Purpose: Total number of diffrent binary tree that can be
-         made using n keys/nodes.
-Method: Dynamic Programming
-Intution: Total number of diffrent Binary Trees with N nodes
-            = Catalan(N)*N!
-
-Here function Binary_Trees() return the total number of
-diffrent Binary trees that can be made with N distinct nodes
-
-Argument: N (number of distinct nodes)
-return Type: int (Total number of binary tree)
-
-Time Complexity:  O(n)
-Space Complexity: O(n)
-
-Note: Since the number of possible binary tree will be large
-      the answer is given in mod of 10^9+7
+    Purpose: Total number of diffrent binary tree that can be
+            made using n keys/nodes.
+            We will be using Dynamic Programming
+    Intution: Total number of diffrent Binary Trees with N nodes
+                = Catalan(N)*N!
 """
 
 # Catalan_Number (N) = ((2*N)!) / ((N+1)!*N!)
@@ -64,6 +52,11 @@ if __name__ == "__main__":
     n = int(input("Enter the number of distinct nodes: "))
     print("Total number of Binary Tree = ", Binary_Trees(n))
 
+'''
+Time Complexity:  O(n)
+Space Complexity: O(n)
+'''
+
 """
 SAMPLE INPUT/OUTPUT
 
@@ -74,3 +67,4 @@ Enter the number of distinct nodes: 10
 Total number of Binary Tree =  60949324800
 
 """
+

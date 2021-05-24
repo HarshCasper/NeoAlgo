@@ -45,7 +45,9 @@
 - [Infix expression evaluator](./ds/infixevaluator.js)
 - [Prefix expression evaluator](./ds/prefixevaluator.js)
 - [Valid Parentheses](./ds/ValidParentheses.js)
-
+- [Iterative Preorder Traversal](./ds/Iterative_preorder.js)
+- [Iterative Postorder Traversal](./ds/Iterative_postorder.js)
+- [Iterative Inorder Traversal](./ds/Iterative_inorder.js)
 
 ## Searching
 
@@ -109,12 +111,13 @@
 - [Two Sum](./cp/TwoSum.js)
 - [Reverse a String](./cp/ReverseString.js)
 - [Max Water Container](./cp/WaterContainer.js)
+- [Backspace String Compare](./cp/BackspaceCompare.js)
 
 ## Dynamic Programming
 
 - [Flight of stairs](./dp/flightOfStairs.js)
 - [Climbing stairs problem](./dp/Climbing_stairs.js)
-
+- [Painting Fence Problem](./dp/Painting_fence.js)
 
 ## Blockchain
 

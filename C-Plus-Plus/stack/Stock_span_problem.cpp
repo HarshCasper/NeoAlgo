@@ -6,25 +6,24 @@ of stock's price on ith day. The span of a stock's price on a given day i, is th
 consecutive days before the (i+1)th day, for which the stock's price is less than equal to that on
 the ith day.
 
-Application: Stack data structure
-Link: https://practice.geeksforgeeks.org/problems/stock-span-problem/0
-Time Complexity: O(n)
-Space Complexity: O(n)
 */
 
-#include<iostream>
-#include<stack>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-int main() {
+int main()
+{
 
 	// Input number of days
-	int n; cin >> n;
+	int n;
+	cin >> n;
 	int price[n];
 	int span[n];
 
 	// Input price for n days
-	for (int i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++)
+	{
 		cin >> price[i];
 	}
 
@@ -36,7 +35,8 @@ int main() {
 	span[0] = 1;
 
 	// Looping through rest of the days
-	for (int i = 1; i < n; i++) {
+	for (int i = 1; i < n; i++)
+	{
 		// Initally the curr span of a day will be 1, i.e, itself
 		int currSpan = 1;
 		int currPrice = price[i];
@@ -48,7 +48,8 @@ int main() {
 
 		// While we have elements in the stack and currPrice is greater than equal to topPrice
 		// keeping popping out elements and update the currSpan
-		while (s.size() && topPrice <= currPrice) {
+		while (s.size() && topPrice <= currPrice)
+		{
 
 			// Update currSpan
 			currSpan += topSpan;
@@ -57,11 +58,14 @@ int main() {
 			s.pop();
 
 			// Update top element after popping
-			if (s.size()) {
+			if (s.size())
+			{
 				p = s.top();
 				topSpan = p.first;
 				topPrice = p.second;
-			} else {
+			}
+			else
+			{
 				// Stack is empty
 				break;
 			}
@@ -74,10 +78,16 @@ int main() {
 	}
 
 	// Print ans
-	for (int i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++)
+	{
 		cout << span[i] << " ";
 	}
 }
+
+/*
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
 
 /*
 Sample Input :

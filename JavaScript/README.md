@@ -23,6 +23,7 @@
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Stack](./ds/Stack.js)
+- [First Fit Algorithm](./ds/firstfit.js)
 
 ## Searching
 

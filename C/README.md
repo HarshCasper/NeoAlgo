@@ -199,6 +199,7 @@
 - [House Robber](dp/houseRobber.c)
 - [Unique BST](dp/Unique_BST.c)
 - [Tiling_Problem](dp/tiling_problem.c)
+- [knapsack implementation](dp/knapsack.c)
 
 ## Graphs
 

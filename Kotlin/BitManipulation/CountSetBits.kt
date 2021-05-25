@@ -49,6 +49,6 @@ Sample Test Cases:
 */
 
 /*
-    Time complexity: O(1)
+    Time complexity: O(No. of Set Bits)
     Space complexity: O(1)
 */

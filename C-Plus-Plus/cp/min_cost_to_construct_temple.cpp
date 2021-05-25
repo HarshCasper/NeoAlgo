@@ -55,6 +55,8 @@ class graph
         int sum=0;
         for(auto i:m)
         {
+            /* If cost of making road is less than the temple,
+            then make the road */
             if(!visited[(int)i.first])
             {
                 count=dfshelper(i.first,visited);
@@ -81,6 +83,8 @@ int main()
         cin>>p>>q; 
         g.add(p,q);
     }
+    /* If the cost of road is not less than the cost of temple,
+    then construct the temple */
     if(cost_road>cost_temple) 
     {
         sum=cost_temple*vertices;

@@ -26,6 +26,7 @@
 ## Dynamic Programming
 
 - [Cutting A Rod](dp/cutting_a_rod.jl)
+- [Count Derangements](dp/count_derangements.jl)
 - [Golomb Sequence](dp/golomb_sequence.jl)
 - [Fibbonaci Number](dp/fibonacci.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
@@ -57,6 +58,7 @@
 - [Sum of Divisors](math/sum_of_divisors.jl)
 - [Stern's Diatomic Series](math/sterns_diatomic_series.jl)
 - [Tower of Hanoi](math/towerOfHanoi.jl)
+- [Tribonacci Series](math/tribonacci.jl)
 
 ## Searching
 

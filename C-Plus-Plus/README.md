@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
     <img src="../img/neo_algo.png"><br>
     <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=flat">
     <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
@@ -175,6 +175,7 @@
 - [Strange Hotel](cp/strange_hotel.cpp)
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
+- [Largest BST in binary tree](cp/largest_bst_in_btree.cpp)
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
 
@@ -262,6 +263,7 @@
 - [Check if two given trees are Quasi Isomorphic or not](ds/Quasi_Isomorphic_Binary_Trees.cpp)
 - [Build a Balanced BST with given vector of values](ds/Balanced_BST_From_a_vector_of_values.cpp)
 - [Given a BST check if it is AVL Tree or not](ds/AVL_Tree_or_not.cpp)
+- [Next Larger Element-tree](ds/Next_Larger_Element-tree_using_CPP.cpp)
 - [Swapping Node of Linked List](ds/Sawpping_Nodes_of_Linked_list-Using_CPP.cpp)
 - [Auto Complete - Using Trie](ds/Auto_complete.cpp)
 - [Append Last N To First](ds/Append_Last_N_To_First.cpp)
@@ -273,6 +275,7 @@
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
+- [Row with max 1s ](ds/Row_with_max_1s.cpp)
 - [Max rectangle](ds/Max_rectangle.cpp)
 - [Palindrome checker using doubly linked list](ds/palindrome_doubly_linked_list.cpp)
 - [BFS of Binary Tree](ds/BFS_Binary_Tree.cpp)
@@ -281,6 +284,7 @@
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
+
 
 ## Graphs
 
@@ -331,6 +335,7 @@
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 - [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
 - [Subtree size of each node](graphs/subtree_size.cpp)
+
 
 ## Searching
 
@@ -541,6 +546,7 @@ _add list here_
 - [Interleaving strings](dp/Interleaving_strings.cpp)
 - [Minimum Insertion Steps to make string palindrome](dp/Minimum_Insertion_Steps_to_make_Palindrome.cpp)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.cpp)
+- [Rod Cutting Problem](dp/Rod_cutting_problem.cpp)
 
 ## Bit - Manipulation
 

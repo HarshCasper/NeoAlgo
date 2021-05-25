@@ -326,6 +326,7 @@
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
 - [E-Mail Classification](ml/E-Mail_Classification.ipynb)
 - [Flight Delay Prediction](ml/Flight_Delay_Predictions.ipynb)
+- [Ice Cream Revenue Prediction](ml/Ice_Cream_Revenue_Prediction.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
 - [Linear Regression](ml/Linear_Regression.ipynb)

@@ -66,6 +66,7 @@
 - [Intro Sort](sort/IntroSort.py)
 - [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 - [Merge Sort Parallel](sort/Parallel_MergeSort.py)
+- [Tim Sort](sort/TimSort.py)
 
 ## Graphs
 
@@ -202,6 +203,7 @@
 - [Tree Sort](sort/Tree_Sort.py)
 - [Wiggle Sort](sort/Wiggle_sort.py)
 - [Counting Sort](sort/Counting_Sort.py)
+- [Tim Sort](sort/TimSort.py)
 
 ## Backtracking
 

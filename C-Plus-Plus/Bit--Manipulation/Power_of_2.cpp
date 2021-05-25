@@ -1,47 +1,36 @@
-//Power of 2 (Naive Approach)
-//Time Complexity : O(logn)
-//Space Complexity: O(1)
-
-/*Sample Input:
-Example 1:- 
-Enter number
-5
-Example 2:-
-Enter number
-32
-
-Sample Output:
-Example 1:- No
-Example 2:- Yes
+/*
+Description : 
+        We have to find wether the number is power of 2 or not . If it is then return yes else no 
 */
+
 #include<bits/stdc++.h>
 using namespace std;
+
+bool power_of_2(int n)
+{
+	// if zero then it will return true
+	return (n&& !(n&n-1));
+}
 int main()
 {
-	int n;
-	cout<<"Enter number \n";
-	cin>>n;
-	int f =1;
-	if(n==0)
-	cout<<"No"<<"\n";
-	else
-	{
-		while(n!=1)
-		{
-			if(n%2!=0)
-			{
-				f=0;
-				break;
-			}
-			n=n/2;
-			
-		}
-	}
-	if(f==0)
-	cout<<"No"<<"\n";
-	else
-	cout<<"Yes"<<"\n";
-	
-	  
-	  
+	int num;
+    cout<<"Enter the number : "<<endl;
+	cin>>num;
+	power_of_2(num)? cout<<"Yes\n": cout<<"No\n";
 }
+
+/*
+Time complexity : O(1)
+Space complexity : O(1)
+*/
+
+/*
+Input :
+Enter the number : 
+64
+
+Output :
+Yes
+
+*/
+

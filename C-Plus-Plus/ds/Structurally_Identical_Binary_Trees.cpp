@@ -119,7 +119,7 @@ int main()
     if(IsStructurallyIdentical(root1,root2))
       cout<<"Hence the given two trees are structurally identical";
     else
-      cout<<"Hence the given two trees are structurally identical";
+      cout<<"Hence the given two trees are not structurally identical";
     
     return 0; 
 }

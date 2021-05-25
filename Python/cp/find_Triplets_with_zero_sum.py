@@ -1,5 +1,4 @@
 '''
-Author : Mohit Kumar
 Python program to find triplets in a given  array whose sum is zero
 '''
 # function to print triplets with 0 sum
@@ -86,7 +85,6 @@ COMPLEXITY ANALYSIS :
 Time Complexity : O(n^2).
     Only two nested loops is required, so the time complexity is O(n^2).
 
-Auxiliary Space : O(1), no extra space is required,
-so the time complexity is constant.
+Auxiliary Space : O(1), 
 
 '''

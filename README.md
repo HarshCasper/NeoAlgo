@@ -5,7 +5,7 @@
 
 ## Overview
 
-The goal of this project is to have in a single place all possible algorithms and data structures - in multiple languages. We aim to achieve this collaboratively, so feel free to contribute in any way you want, just make sure to follow the contribution guidelines listed below.
+The goal of this project is to have in a single place for all possible algorithms and data structures - in multiple languages. We aim to achieve this collaboratively, so feel free to contribute in any way you want, just make sure to follow the contribution guidelines listed below.
 
 ## Contents
 
@@ -23,7 +23,6 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 - [Julia](/Julia/README.md)
 - [Python](/Python/README.md)
 - [Q-Sharp](/Q-Sharp/README.md)
-- [Miscellaneous](/Miscellaneous)
 
 ## Contributing Guidelines
 
@@ -58,6 +57,6 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 This project follows the [MIT License](/LICENSE).
 
-## Slack
+## Discord
 
-[![Slack](https://img.shields.io/badge/chat-on_slack-purple.svg?style=for-the-badge&logo=slack)](https://join.slack.com/t/tesseractcodi-bxq5968/shared_invite/zt-ju6c0nqq-KgkTvFyxjNVbDRBIjADanw)
+[![Discord](https://img.shields.io/discord/829038891611717753?color=7389DA&label=Discord&logo=Discord&logoColor=FFF&style=for-the-badge)](https://discord.com/invite/nUGcHHMy26)

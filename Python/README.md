@@ -346,6 +346,7 @@
 - [Linear Regression](ml/Linear_Regression.ipynb)
 - [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
 - [Logistic Regression](ml/Logistic_Regression.ipynb)
+- [Mobile Price Range Classification](ml/Mobile_Price_Range_Classification.ipynb)
 - [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)

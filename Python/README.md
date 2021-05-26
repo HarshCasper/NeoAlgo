@@ -34,9 +34,20 @@
 - [Reverse First K elements of Queue](ds/Reverse_First_K_elements_of_Queue.py)
 - [Prefix to postfix](ds/Prefix_to_postfix.py)
 - [Lowest Common Ancestor of Binary Search Tree](ds/lowest_common_ancestor_bst.py)
+- [Reverse Queue Using Stack](ds/Reverse_queue_using_stack.py)
 
 ## Searching
-
+- [Bilinear Search](search/bilinear.py)
+- [Binary Search](search/binarysearch.py)
+- [Breadth First Search](search/bfs.py)
+- [Depth First Search](search/dfs.py)
+- [Fibonacci Search](search/fibonacci_search.py)
+- [Linear Search](search/Linear_Search.py)
+- [Random Search Las vegas version](search/random_search_las_vegas.py)
+- [Sublinear Search](search/Sublinear_search.ipynb)
+- [Exponential Search](search/exponential_search.py)
+- [Binary Search Iterative](search/binarysearch_iterative.py)
+- [Unbounded Binary Search](search/unbounded_binary_search.py) 
 - [8 Puzzle Problem (BFS)](search/8_Puzzle_Problem_using_BFS.py)
 - [8 Puzzle Problem (A* Algorithm)](search/8_Puzzle_Problem_using_A_star_Algorithm.py)
 - [Bilinear Search](search/bilinear.py)
@@ -206,6 +217,7 @@
 
 ## Backtracking
 
+- [Cryptarithmetic Problem](backtracking/Cryptarithmetic_Problem.py)
 - [N Queens Problem](backtracking/N_Queens.py)
 - [Knight's Tour](backtracking/Knight's_Tour.py)
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
@@ -324,6 +336,10 @@
 - [Ames House Price Prediction](ml/Ames_House_Price_Prediction.ipynb)
 - [Churn Risk Score Prediction](ml/Churn_Risk_Score_Prediction.ipynb)
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
+- [E-Mail Classification](ml/E-Mail_Classification.ipynb)
+- [Flight Delay Prediction](ml/Flight_Delay_Predictions.ipynb)
+- [Ice Cream Revenue Prediction](ml/Ice_Cream_Revenue_Prediction.ipynb)
+- [Income Classification](ml/Income_Classification.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
 - [Linear Regression](ml/Linear_Regression.ipynb)

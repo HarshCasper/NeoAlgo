@@ -1,15 +1,8 @@
 """
     Takes an array of integers sorted in ascending order, a target value and
     finds the starting and ending position of a given target value.
+    We will be using Binary Search:
 
-    Approach - Binary Search:
-
-    Binary search follows divide and conquer approach in which,
-    the list is divided into two halves and the item is compared
-    with the middle element of the list. If the match is found then,
-    the location of middle element is returned otherwise,
-    we search into either of the halves depending
-    upon the result produced through the match.
 """
 
 

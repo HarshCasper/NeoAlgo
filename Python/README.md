@@ -11,82 +11,105 @@
 
 ## Data Structures
 
-* [Queue](ds/Queue.py)
-* [Stacks](ds/Stacks.py)
-* [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
-* [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
-* [Reverse Linked List](ds/Reverse_linked_list.py)
-* [Binary Search Tree](ds/BinarySearchTree.py)
-* [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
-* [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
-* [Identical BSTs](ds/identical_binary_tree.py)
-* [Loop detection in Linked List](ds/loop_detection_in_LL.py)
-* [Right view of a binary tree](ds/Right_view_of_binary_tree.py)
-* [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
-* [Stack using list](ds/stack_using_list.py)
-* [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
-
-## Searching
-* [Bilinear Search](search/bilinear.py)
-* [Binary Search](search/binarysearch.py)
-* [Breadth First Search](search/bfs.py)
-* [Depth First Search](search/dfs.py)
-* [Fibonacci Search](search/fibonacci_search.py)
-* [Linear Search](search/Linear_Search.py)
-* [Random Search Las vegas version](search/random_search_las_vegas.py)
-* [Sublinear Search](search/Sublinear_search.ipynb)
-* [Exponential Search](search/exponential_search.py)
-* [Binary Search Iterative](search/binarysearch_iterative.py)
-* [Unbounded Binary Search](search/unbounded_binary_search.py) 
-
-## Sorting
-* [Bead Sort](sort/Bead_Sort.py)
-* [Bubble Sort](sort/Bubble_Sort.py)
-* [Gnome Sort](sort/gnome_sort.py)
-* [Comb Sort](sort/comb_sort.py)
-* [Heap Sort](sort/Heap_sort.py)
-* [Insertion Sort](sort/insertion.py)
-* [Merge Sort](sort/Merge_Sort.py)
-* [Quick Sort](sort/QuickSort.py)
-* [Radix Sort](sort/Radix_Sort.py)
-* [Selection Sort](sort/Selection_Sort.py)
-* [Topological Sort](sort/topological_sort.py)
-* [Intro Sort](sort/IntroSort.py)
-* [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
-* [Merge Sort Parallel](sort/Parallel_MergeSort.py)
-
-## Graphs
-* [Depth of Tree](graphs/Depth_Of_Tree.py)
-* [Height of Tree](graphs/height_of_given_tree.py)
-* [Prim's Algorithm](graphs/Prim_Algorithm.py)
-* [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py) 
-* [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
-- [Binary Tree (Post order transversal)](ds/Binary_tree_post_order.py)
-- [Circular Linked List](ds/Circular_LinkedList.py)
-- [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
-- [Linked List Intersection](ds/linkedListIntersection.py)
-- [Palindrome using doubly linked list](ds/Palindrome-doublylinkedlist.py)
 - [Queue](ds/Queue.py)
 - [Stacks](ds/Stacks.py)
-- [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
-- [Reverse individual words of a string using stacks](ds/reverseWordsOfString.py)
-- [Tree (includes Traversals - in, pre, post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+- [Linear Probing in Hashing](ds/Linear_Probing_In_Hashing.py)
+- [Tree (includes Traversals - in,pre,post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+- [Quadratic Probing in Hashing](ds/Quadratic_Probing_in_hashing.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
-- [Trie](ds/Trie.py)
-- [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
-- [Dynamic Stack](ds/dynamic_queue.py)
-- [Dynamic Queue](ds/dynamic_queue.py)
-- [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
-- [AVL Tree](ds/AVL_Tree.py)
-- [Linked List Intersection](ds/linkedListIntersection.py)
-- [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
-- [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
-- [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
-- [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
-- [Singly Linked List](ds/SinglyLinkedList.py)
-- [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
-- [Sum of Linked List](ds/Sum_of_Linked_list.py)
-- [Left view of a binary tree](graphs/Left_view_of_binary_tree.py)
+- [Reverse Linked List](ds/Reverse_linked_list.py)
+- [Binary Search Tree](ds/BinarySearchTree.py)
+- [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
+- [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
+- [Identical BSTs](ds/identical_binary_tree.py)
+- [Loop detection in Linked List](ds/loop_detection_in_LL.py)
+- [Right view of a binary tree](ds/Right_view_of_binary_tree.py)
+- [Rotate the array by k elements](ds/rotate_the_array_by_k_elements.py)
+- [Stack using list](ds/stack_using_list.py)
+- [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
+- [Double Ended Queue](ds/Double_Ended_queue.py)
+- [First fit memory allocation](ds/Firstfit.py)
+- [Worst fit memory allocation](ds/Worstfit.py)
+- [Best fit memory allocation](ds/Bestfit.py)
+- [Reverse First K elements of Queue](ds/Reverse_First_K_elements_of_Queue.py)
+- [Prefix to postfix](ds/Prefix_to_postfix.py)
+
+## Searching
+- [Bilinear Search](search/bilinear.py)
+- [Binary Search](search/binarysearch.py)
+- [Breadth First Search](search/bfs.py)
+- [Depth First Search](search/dfs.py)
+- [Fibonacci Search](search/fibonacci_search.py)
+- [Linear Search](search/Linear_Search.py)
+- [Random Search Las vegas version](search/random_search_las_vegas.py)
+- [Sublinear Search](search/Sublinear_search.ipynb)
+- [Exponential Search](search/exponential_search.py)
+- [Binary Search Iterative](search/binarysearch_iterative.py)
+- [Unbounded Binary Search](search/unbounded_binary_search.py) 
+- [8 Puzzle Problem (BFS)](search/8_Puzzle_Problem_using_BFS.py)
+- [8 Puzzle Problem (A* Algorithm)](search/8_Puzzle_Problem_using_A_star_Algorithm.py)
+- [Bilinear Search](search/bilinear.py)
+- [Binary Search](search/binarysearch.py)
+- [Breadth First Search](search/bfs.py)
+- [Depth First Search](search/dfs.py)
+- [Fibonacci Search](search/fibonacci_search.py)
+- [Linear Search](search/Linear_Search.py)
+- [Random Search Las vegas version](search/random_search_las_vegas.py)
+- [Sublinear Search](search/Sublinear_search.ipynb)
+- [Exponential Search](search/exponential_search.py)
+- [Binary Search Iterative](search/binarysearch_iterative.py)
+- [Jump Search](search/Jump__search.py)
+
+## Sorting
+
+- [Bead Sort](sort/Bead_Sort.py)
+- [Bubble Sort](sort/Bubble_Sort.py)
+- [Gnome Sort](sort/gnome_sort.py)
+- [Comb Sort](sort/comb_sort.py)
+- [Heap Sort](sort/Heap_sort.py)
+- [Insertion Sort](sort/insertion.py)
+- [Merge Sort](sort/Merge_Sort.py)
+- [Quick Sort](sort/QuickSort.py)
+- [Radix Sort](sort/Radix_Sort.py)
+- [Selection Sort](sort/Selection_Sort.py)
+- [Topological Sort](sort/topological_sort.py)
+- [Intro Sort](sort/IntroSort.py)
+- [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
+- [Merge Sort Parallel](sort/Parallel_MergeSort.py)
+
+## Graphs
+
+- [Depth of Tree](graphs/Depth_Of_Tree.py)
+- [Height of Tree](graphs/height_of_given_tree.py)
+- [Prim's Algorithm](graphs/Prim_Algorithm.py)
+- [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
+- [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+* [Binary Tree (Post order transversal)](ds/Binary_tree_post_order.py)
+* [Circular Linked List](ds/Circular_LinkedList.py)
+* [Infix To Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
+* [Linked List Intersection](ds/linkedListIntersection.py)
+* [Palindrome using doubly linked list](ds/Palindrome-doublylinkedlist.py)
+* [Queue](ds/Queue.py)
+* [Stacks](ds/Stacks.py)
+* [Infix to Postfix Conversion](ds/Infix_To_Postfix_Conversion.py)
+* [Reverse individual words of a string using stacks](ds/reverseWordsOfString.py)
+* [Tree (includes Traversals - in, pre, post-order)](ds/Tree_Traversals_In_Pre_Post_Order.py)
+* [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
+* [Trie](ds/Trie.py)
+* [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
+* [Dynamic Stack](ds/dynamic_queue.py)
+* [Dynamic Queue](ds/dynamic_queue.py)
+* [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
+* [AVL Tree](ds/AVL_Tree.py)
+* [Linked List Intersection](ds/linkedListIntersection.py)
+* [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
+* [Swapping Nodes of a Linked List](ds/SwapNodes-LinkedList.py)
+* [Binary Search Tree Validation](ds/Binary-Search-Tree-Validation.py)
+* [Implementation of Stack using queues](ds/Implementation_of_Stack_using_queues.py)
+* [Singly Linked List](ds/SinglyLinkedList.py)
+* [Remove Zero Sum Consecutive Nodes from Linked List](ds/consecutive_sum_is_zero.py)
+* [Sum of Linked List](ds/Sum_of_Linked_list.py)
+* [Left view of a binary tree](graphs/Left_view_of_binary_tree.py)
 
 ## Competitive Programming
 
@@ -118,6 +141,7 @@
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
+- [Climbing the Leaderboard](cp/climbing-the-leaderboard.py)
 - [Dutch national flag problem](cp/Sort_An_Arraysof0s1sand2s.py)
 - [Find Intersection of Two Given Linked Lists](cp/find_intersection_of_two_linked_lists.py)
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
@@ -128,6 +152,8 @@
 - [Median of two sorted array](cp/Median_of_two_sorted_arrays.py)
 - [Find First and Last Position of Element in Sorted_Array](cp/Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
 - [Trapping rain water](cp/Trapping_rain_water.py)
+- [Max of Adjacent Elements Product](cp/adjacent_elements_product.py)
+- [Generating Power Set](cp/Generating_Power_Set.py)
 
 ## Cryptography
 
@@ -160,6 +186,7 @@
 - [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
 - [Jump search](search/jump_search.py)
+- [Three Sum Problem](search/three_sum_problem.py)
 
 ## Sorting
 
@@ -188,14 +215,19 @@
 
 ## Backtracking
 
+- [Cryptarithmetic Problem](backtracking/Cryptarithmetic_Problem.py)
 - [N Queens Problem](backtracking/N_Queens.py)
 - [Knight's Tour](backtracking/Knight's_Tour.py)
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
 - [Sudoku Solver](backtracking/sudokuSolver.py)
 - [Subset Sum](backtracking/Subset_Sum.py)
 - [Rat-In-Maze problem](backracking/RatInMaze.py)
+- [Maze Generation Visualiser](backtracking/Maze-Generation-Visualiser.py)
 - [M Coloring Problem](backracking/M-coloring.py)
+- [Tic Tac Toe Game](backtracking/Tic_Tac_Toe.py)
 - [Tug Of War](backracking/Tug_of_war.py)
+- [Water Jug Problem](backtracking/Water_Jug_Problem.py)
+
 
 ## Dynamic Programming
 
@@ -213,6 +245,7 @@
 - [Knapsack 0-1](dp/Knapsack_01.py)
 - [Knapsack Fractional](dp/Knapsack_fractional.py)
 - [Maximum Sum Increasing Subsequence](dp/maximum_sum_increasing_subsequence.py)
+- [Maximum Sum Decreasing Subsequence](dp/maximum_sum_decreasing_subsequence.py)
 - [Ugly Numbers](dp/Ugly_Numbers.py)
 - [Dice Throw Problem](dp/Dice_Throw.py)
 - [Partition Problem](dp/Partition_Problem.py)
@@ -222,6 +255,7 @@
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 - [Catalan Number](dp/Catalan_DP.py)
+- [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.py)
 
 ## Pathfinding Algorithms
 
@@ -229,7 +263,7 @@
 - [DFS in Maze (Recursive)](Pathfinding/2D_DFS_Recursive.py)
 - [DFS in Maze (Iterative)](Pathfinding/2D_DFS_Iterative.py)
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
-- [A* (Astar) in Maze](Pathfinding/2D_Astar.py)
+- [A\* (Astar) in Maze](Pathfinding/2D_Astar.py)
 - [RRT in Maze](Pathfinding/2D_RRT.py)
 
 ## Graphs
@@ -253,6 +287,8 @@
 - [Depth First Search](graphs/DFS.py)
 - [Bellman Ford](graphs/Bellman_Ford.py)
 - [Rotten Oranges](graphs/Rotten_Oranges.py)
+- [Top view of binary tree](graphs/top_view_binary_tree.py)
+- [Warshall Algorithm](graphs/warshall.py)
 
 ## Competitive Programming
 
@@ -274,8 +310,10 @@
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
+- [Chocolate Distribution Problem](cp/Chololate_distribution.py)
 - [Sort an Arrays of 0s, 1s, 2s](cp/Sort_An_Arraysof0s1sand2s.py)
 - [Activity Selection](cp/activity_selection.py)
+
 
 ## Cryptography
 
@@ -292,7 +330,14 @@
 
 ## Machine Learning
 
+- [Amazon Alexa Reviews Analysis](ml/Amazon_Alexa_Reviews_Analysis.ipynb)
+- [Ames House Price Prediction](ml/Ames_House_Price_Prediction.ipynb)
+- [Churn Risk Score Prediction](ml/Churn_Risk_Score_Prediction.ipynb)
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
+- [E-Mail Classification](ml/E-Mail_Classification.ipynb)
+- [Flight Delay Prediction](ml/Flight_Delay_Predictions.ipynb)
+- [Ice Cream Revenue Prediction](ml/Ice_Cream_Revenue_Prediction.ipynb)
+- [Income Classification](ml/Income_Classification.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
 - [Linear Regression](ml/Linear_Regression.ipynb)
@@ -302,11 +347,14 @@
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
+- [Bell State creation](ml/Bell_state_creation.ipynb)
+
 
 ## Mathematics
 
 - [Area](math/Area.py)
 - [Binary Exponentiation](math/Binary_Exponentiation.py)
+- [Delannoy Number](math/delannoy_number.py)
 - [Least Common Multiple (LCM)](math/Least_common_multiple.py)
 - [GCD - Euclidean Algorithm](math/GCD_Euclidean_Algorithm.py)
 - [Extended Euclidean Algorithm](math/Extended_Euclidean_Algorithm.py)
@@ -317,6 +365,7 @@
 - [Sieve of Eratosthenes](math/prime_number_using_sieve_of_Eratosthenes.py)
 - [Fibonacci number](math/Fibonacci.py)
 - [Fibonacci number with Recursion](math/fibonacci_recursion.py)
+- [Min Max Sum](math/min_max_sum.py)
 - [Check Armstrong Number](math/CheckArmstrongNumber.py)
 - [Strassen's Matrix Multiplication](math/Strassen's_Matrix_Mul.py)
 - [Ackermann Function](math/ackermann_function.py)
@@ -327,8 +376,10 @@
 - [Lucas Theorem](math/Lucas_Theorem.py)
 - [GCD of 2 Numbers](math/GCD_of_two_numbers.py)
 - [Palindrome](math/Palindrome.py)
+- [Next nth Palindrome](math/Next_Palindrome.py)
 - [Sine Function](math/Sine_Function.py)
 - [Sum of Digits of a Number](math/sum_of_digits.py)
+- [Sterns Diatomic Series](math/sterns_diatomic_series.py)
 - [Arctan Function](math/Arctan.py)
 - [Strong Number](math/Strong_Number.py)
 - [Noble Integer](math/Noble_Integer.py)
@@ -352,12 +403,18 @@
 - [Harshad Number](math/HarshadNumber.py)
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
+- [Pronic Number](math/Pronic_numbers.py)
 
 ## Bit Manipulation
 
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.py)
 - [Toggle K-th bit](Bit--Manipulation/toggle_kth_bit.py)
 - [Reverse bits of a Number](Bit--Manipulation/reverse_bits.py)
+- [Left Rotate bits of a Number](Bit--Manipulation/left_rotate_bits.py)
+- [Check Collinearity of Three Points](Bit--Manipulation/check_collinearity_of_three_points.py)
+- [Right Rotate bits of a Number](Bit--Manipulation/right_rotate_bits.py)
+- [Count of Set bits in a Number](Bit--Manipulation/count_num_of_set_bits.py)
+- [Minimum XOR value](Bit--Manipulation/minimum_xor_value.py)
 
 ## Blockchain
 
@@ -393,6 +450,7 @@ _add list here_
 - [Dutch National Flag Algorithm Implementation in Python](other/SortColors-DutchNationalFlag.py)
 - [Ploting Diffrent Graphs in Python](other/Plot_Graph.py)
 - [Remove Minimum Number of Parenthesis for Balanced String](other/check_valid_parenthesis_string.py)
+- [Triplet Sum in Array](other/TripletSumValue.py)
 - [Longest Consecutive Subsequence](other/Longest_Consecutive_Subsequence.py)
 - [Maximum Product Subarray](other/Maximum_Product_Subarray.py)
 - [Rearrange the negative and positive elements](other/Rearrange_the_neagtive_positive_element.py)
@@ -405,7 +463,10 @@ _add list here_
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+- [Wave Array](other/Wave_Array.py)
 - [Merge Interval](other/merge_interval.py)
 - [Kth index removal](other/stringkth.py)
+- [Display all possible keypad sequences for a given number](other/KeypadSequence.py)
+- [Arrange The String](other/Arrange_The_String.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

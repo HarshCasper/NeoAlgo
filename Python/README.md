@@ -33,6 +33,7 @@
 - [Best fit memory allocation](ds/Bestfit.py)
 - [Reverse First K elements of Queue](ds/Reverse_First_K_elements_of_Queue.py)
 - [Prefix to postfix](ds/Prefix_to_postfix.py)
+- [Lowest Common Ancestor of Binary Search Tree](ds/lowest_common_ancestor_bst.py)
 - [Reverse Queue Using Stack](ds/Reverse_queue_using_stack.py)
 
 ## Searching

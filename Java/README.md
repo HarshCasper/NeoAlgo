@@ -196,7 +196,7 @@ _add list here_
 - [Hashtable chaining](ds/Hashtable_chaining.java)
 - [Linear probing in Hashtable](ds/Hashtable_linear_probing.java)
 - [Prefix to Postfix](ds/Prefix_to_postfix.java)
-
+- [Reverse queue using stack](ds/Reverse_queue_using_stack.java)
 
 ## Graphs
 

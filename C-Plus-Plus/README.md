@@ -482,6 +482,7 @@ _add list here_
 - [Strong Number](math/Strong_Number.cpp)
 - [Lucas Number](math/LucasSeries.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
+- [Tribonacci Number](math/tribonacci.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)

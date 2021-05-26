@@ -4,9 +4,6 @@
  * Then XOR operation is performed on every character of the string with the key chosen which ends in the formation of encoded string.
  * The encoded string is decoded again by passing the encoded string again to the function which gives us back the original string.
  * 
- * Complexity :
- * Time Complexity : O(N)
- * Space Complexity : O(N)
  */
 
 import java.util.*;
@@ -37,6 +34,10 @@ public class XORCipher{
     }
 }
 /**
+ * Complexity :
+ * Time Complexity : O(N)
+ * Space Complexity : O(N)
+ *
  * Sample Output :
  * Enter the string to be encrypted : XORCipher
  * Data after encoding : $=%(?

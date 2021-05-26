@@ -28,7 +28,7 @@ class graph
         v=vert;
         cost_temple=a;
         cost_road=b;
-    }
+    } 
     void add(int u,int v)
     {
         m[u].push_back(v);
@@ -46,8 +46,9 @@ class graph
               count+= dfshelper(i,visited);
             }
         }
-    return count;
+       return count;
     }
+    
     int dfs()
     {
         bool visited[(int)v]={false};
@@ -65,7 +66,7 @@ class graph
 
             }
         }
-    return sum;
+        return sum;
     }
 
 };
@@ -90,7 +91,7 @@ int main()
         sum=cost_temple*vertices;
     }
     else
-    sum=g.dfs();
+        sum=g.dfs();
     cout<<"Minimum cost: "<<sum<<endl;
     return 0;
 }

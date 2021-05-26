@@ -35,7 +35,17 @@
 - [Prefix to postfix](ds/Prefix_to_postfix.py)
 
 ## Searching
-
+- [Bilinear Search](search/bilinear.py)
+- [Binary Search](search/binarysearch.py)
+- [Breadth First Search](search/bfs.py)
+- [Depth First Search](search/dfs.py)
+- [Fibonacci Search](search/fibonacci_search.py)
+- [Linear Search](search/Linear_Search.py)
+- [Random Search Las vegas version](search/random_search_las_vegas.py)
+- [Sublinear Search](search/Sublinear_search.ipynb)
+- [Exponential Search](search/exponential_search.py)
+- [Binary Search Iterative](search/binarysearch_iterative.py)
+- [Unbounded Binary Search](search/unbounded_binary_search.py) 
 - [8 Puzzle Problem (BFS)](search/8_Puzzle_Problem_using_BFS.py)
 - [8 Puzzle Problem (A* Algorithm)](search/8_Puzzle_Problem_using_A_star_Algorithm.py)
 - [Bilinear Search](search/bilinear.py)

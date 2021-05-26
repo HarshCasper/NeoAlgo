@@ -111,6 +111,7 @@
 - [Two Sum](./cp/TwoSum.js)
 - [Reverse a String](./cp/ReverseString.js)
 - [Max Water Container](./cp/WaterContainer.js)
+- [Backspace String Compare](./cp/BackspaceCompare.js)
 
 ## Dynamic Programming
 

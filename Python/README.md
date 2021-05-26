@@ -350,6 +350,7 @@
 - [Mobile Price Range Classification](ml/Mobile_Price_Range_Classification.ipynb)
 - [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+- [Questions to Subject Classification](ml/Questions_to_Subject_Classification.ipynb)
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 - [Bell State creation](ml/Bell_state_creation.ipynb)

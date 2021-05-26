@@ -353,6 +353,7 @@ _add list here_
 - [Keys and rooms for entry](other/Key_n_room.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
+- [Minimum Depth Binary Tree](other/MinimumDepthBT.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [N Knight Kill](other/NKnightKill.java)
 - [One plus to the whole](other/OnePlustoWhole.java)

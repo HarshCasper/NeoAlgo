@@ -178,6 +178,7 @@
 - [Largest BST in binary tree](cp/largest_bst_in_btree.cpp)
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
+- [Optimal Game Strategy](cp/optimal_game.cpp)
 
 ## Data Structures
 

@@ -21,6 +21,7 @@
 - [Segregate Even/Odd](Array/Segregate_even_odd.dart)
 - [Palindrome Array](Array/Palindrome_array.dart)
 - [Geometric Progression](Array/Geometric_Progression.dart)
+- [MEX in an Array](Array/MEX_array.dart)
 
 ## Maths
 
@@ -62,6 +63,7 @@
 - [Fibonacci Search](search/FibonacciSearch.dart)
 - [Sentinel Search](search/Sentinel_Search.dart)
 - [Jump Search](search/Jump_Search.dart)
+- [Bilinear Search](search/Bilinear_Search.dart)
 
 ## Sorting
 
@@ -78,6 +80,7 @@
 - [Tim Sort](sort/Tim_Sort.dart)
 - [Counting Sort](sort/Counting_Sort.dart)
 - [Cocktail Sort](sort/Cocktail_Sort.dart)
+- [Stooge Sort](sort/Stooge_Sort.dart)
 
 ## Cryptography
 

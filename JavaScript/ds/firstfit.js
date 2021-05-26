@@ -70,10 +70,7 @@ class Firstfit{
         console.log("First Fit Allocation")
         this.printResult(arr2, numOfProcess)
     }
-
-
 }
-
 
 const readline = require('readline');
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
@@ -86,10 +83,6 @@ const getLine = (function () {
     })();
     return async () => ((await getLineGen.next()).value);
 })();
-
-
-
-
 
 const main = async () => {
     let obj = new Firstfit()

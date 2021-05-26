@@ -12,8 +12,6 @@ class Block{
     }
 }
 
-
-
 class Process{
     constructor(){
         this.Num = 0
@@ -21,7 +19,6 @@ class Process{
         this.block = null
     }
 }
-
 
 class Bestfit{
     initialiseBlocks(arr,sizes,n){
@@ -73,7 +70,6 @@ class Bestfit{
     }
 }
 
-
 const readline = require('readline');
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
@@ -85,10 +81,6 @@ const getLine = (function () {
     })();
     return async () => ((await getLineGen.next()).value);
 })();
-
-
-
-
 
 const main = async () => {
     let obj = new Bestfit()

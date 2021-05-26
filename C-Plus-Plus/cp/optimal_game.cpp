@@ -15,11 +15,14 @@ int optimalGameStrategy(int *coins,int i,int j)
     {
         return 0;
     }
+    //If sum already exists, then pick from the dp array
     if(dp[i][j]!=0)
     {
         return dp[i][j];
     }
     int sum=0;
+    /* If the player 1 chooses, he will either choose from first or last,
+    which will leave either of 2 options */
     int option1=min(optimalGameStrategy(coins,i+2,j),optimalGameStrategy(coins,i+1,j-1));
     int option2=min(optimalGameStrategy(coins,i,j-2),optimalGameStrategy(coins,i+1,j-1));
     sum+=max(coins[i]+option1,coins[j]+option2);

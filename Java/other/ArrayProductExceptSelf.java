@@ -3,13 +3,6 @@ Problem statement:
 Given an integer array, we need to display a new array 
 such that array[index] is equal to the product of all the 
 elements of the array except array[index].
-
-Sample input:
-Enter length of array: 2
-Enter the array elements: 4 2
-
-Sample output:
-The array of product except self is: 2 4 
 */
 
 class Solution {

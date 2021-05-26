@@ -123,25 +123,4 @@ Enter the two nodes value for finding Lowest Common Ancestor
 30 40
 Lowest Common Ancestor is:  30
 
-
-Input/Output #2:
-Enter the value of the root
-50
-Add the node value to be inserted(Enter N if you dont wish to insert more nodes)
-20
-Add the node value to be inserted(Enter N if you dont wish to insert more nodes)
-30
-Add the node value to be inserted(Enter N if you dont wish to insert more nodes)
-40
-Add the node value to be inserted(Enter N if you dont wish to insert more nodes)
-70
-Add the node value to be inserted(Enter N if you dont wish to insert more nodes)
-60
-Add the node value to be inserted(Enter N if you dont wish to insert more nodes)
-80
-Add the node value to be inserted(Enter N if you dont wish to insert more nodes)
-N
-Enter the two nodes value for finding Lowest Common Ancestor
-40 60
-Lowest Common Ancestor is:  50
 '''

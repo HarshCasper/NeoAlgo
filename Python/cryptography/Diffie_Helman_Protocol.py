@@ -212,3 +212,26 @@ if __name__ == '__main__':
     # Exchange each other's public keys. Both users can now generate a private key by themselves
     alice.exchange(bob_public)
     bob.exchange(alice_public)
+
+"""
+    Sample Input Output-
+        Input: 
+            None
+
+        Output:
+            Public Variables:
+            Prime Number: 761
+            Primitive Root: 6
+
+            User: Alice
+            Public Key: 476
+            Final Key: 465
+
+            User: Bob
+            Public Key: 291
+            Final Key: 465
+
+    Time Complexity:
+        Miller Rabin Primality: O(k.log^3.n), n is the prime number and k is the no of rounds
+        Modular Exponentiation: O(n)
+"""

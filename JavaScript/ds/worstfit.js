@@ -12,8 +12,6 @@ class Block{
     }
 }
 
-
-
 class Process{
     constructor(){
         this.Num = 0
@@ -21,7 +19,6 @@ class Process{
         this.block = null
     }
 }
-
 
 class Worstfit{
     initialiseBlocks(arr,sizes,n){
@@ -85,10 +82,6 @@ const getLine = (function () {
     return async () => ((await getLineGen.next()).value);
 })();
 
-
-
-
-
 const main = async () => {
     let obj = new Bestfit()
     let sizes = [60, 20, 12, 35, 64, 42, 31, 35, 40, 50]
@@ -140,5 +133,3 @@ Process No            Process Size          Block ID          Block Size        
 Time complexity : O(n)
 space complexity : O(n)
 */
-
-

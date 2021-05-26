@@ -134,8 +134,10 @@
 - [Reverse Queue using stack](ds/reverse-queue.c)
 - [Postfix to Infix Conversion](ds/postfixToInfix.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+- [Mirror of a Binary Tree](ds/Mirror_BinaryTree.c)
 - [XOR Linked List](ds/XOR.c)
-- [Morris Order Traversal ] (ds/Morris.c)
+- [Morris Order Traversal](ds/Morris.c)
+
 
 
 ## Searching

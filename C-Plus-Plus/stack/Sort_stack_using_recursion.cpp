@@ -3,9 +3,7 @@ Problem Statement:
  Given a stack, sort the given stack using recursion such that the greatest element is on the top. 
 */
 
-#include <iostream>
-#include <algorithm>
-#include <stack>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -105,3 +103,4 @@ int main()
   Output: 41 32 11 3 2              
 
 */
+

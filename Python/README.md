@@ -35,6 +35,7 @@
 - [Prefix to postfix](ds/Prefix_to_postfix.py)
 - [Lowest Common Ancestor of Binary Search Tree](ds/lowest_common_ancestor_bst.py)
 - [Reverse Queue Using Stack](ds/Reverse_queue_using_stack.py)
+- [Priority Queue](ds/Priority_Queue.py)
 
 ## Searching
 - [Bilinear Search](search/bilinear.py)

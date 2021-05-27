@@ -197,7 +197,7 @@ _add list here_
 - [Hashtable chaining](ds/Hashtable_chaining.java)
 - [Linear probing in Hashtable](ds/Hashtable_linear_probing.java)
 - [Prefix to Postfix](ds/Prefix_to_postfix.java)
-
+- [Reverse queue using stack](ds/Reverse_queue_using_stack.java)
 
 ## Graphs
 
@@ -354,6 +354,7 @@ _add list here_
 - [Keys and rooms for entry](other/Key_n_room.java)
 - [Maximum size square sub-matrix with all 1's](other/MaximumSquareMatrix.java)
 - [Merge 2 Sorted arrays in O(1) extra space](other/MergeSortedArrays.java)
+- [Minimum Depth Binary Tree](other/MinimumDepthBT.java)
 - [Minimum Sum Partition](other/MinimumSumPartition.java)
 - [N Knight Kill](other/NKnightKill.java)
 - [One plus to the whole](other/OnePlustoWhole.java)
@@ -364,6 +365,7 @@ _add list here_
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
 - [Remove the key element from the array](other/remove_element_from_array.java)
+- [Retrieve Binary Search Tree](other/RetrieveBTS.java)
 - [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)

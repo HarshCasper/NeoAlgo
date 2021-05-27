@@ -148,6 +148,7 @@ _add list here_
 - [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.java)
 - [Painting fence problem](dp/Painting_fence.java)
+- [Right Side View of Binary Tree](dp/RightViewBT.java)
 
 ## Data Structures
 

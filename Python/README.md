@@ -351,6 +351,7 @@
 - [NASA Asteroids Classification](ml/NASA_Asteroids_Classification.ipynb)
 - [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+- [Solar Radiation Prediction](ml/Solar_Radiation_Prediction.ipynb)
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 - [Bell State creation](ml/Bell_state_creation.ipynb)

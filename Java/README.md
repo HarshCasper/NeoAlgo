@@ -129,6 +129,7 @@ _add list here_
 - [Hill Cipher](cryptography/HillCipher.java)
 - [Vigenere Cipher](cryptography/VigenereCipher.java)
 - [Playfair Cipher](cryptography/PlayFairCipher.java)
+- [XOR Cipher](cryptography/XORCipher.java)
 
 ## Dynamic Programming
 

@@ -216,6 +216,7 @@ _add list here_
 - [Rainwater Harvesting](other/RainWaterHarvesting.java)
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
 - [Search Insert Position](other/Search_insert_index.java)
+- [Convert Sorted Array to Binary Search Tree](other/SortedArrayToBST.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

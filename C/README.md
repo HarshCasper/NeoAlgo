@@ -133,6 +133,7 @@
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
+-[Bitonic Point in Linked List](ds/BitonicPoint.c)
 
 
 ## Searching

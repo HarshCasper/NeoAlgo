@@ -76,11 +76,11 @@ public class SortedArrayToBST
         // Taking input
 	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Enter the number of nodes for tree : ");
+        System.out.println("Enter the number of elements in array : ");
         int n = br.nextInt();
 
         int []arr = new int[n];
-        System.out.println("Enter the nodes for tree : ");
+        System.out.println("Enter the array element in sorted order : ");
         for(int i = 0; i < n; i++)
         {
             arr[i] = br.nextInt();
@@ -104,8 +104,8 @@ public class SortedArrayToBST
 EXAMPLES:-
 
 INPUT--
-Enter the number of nodes for tree : 5
-Enter the nodes for tree : -10 -3 0 5 9
+Enter the number of elements in array : 5
+Enter the array element in sorted order : -10 -3 0 5 9
 OUTPUT--
 Binary search tree formed is : 0 -3 9 -10 null 5
      0

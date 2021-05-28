@@ -18,8 +18,7 @@ we can view the tree from two sides , i.e left and right.
         the left side view of the tree would print  1 2 4 8 10
 */
 // including the header files
- #include<iostream>
- #include<queue>
+ #include<bits/stdc++.h>
  using namespace std;
    //defining the node structure
    struct Node{

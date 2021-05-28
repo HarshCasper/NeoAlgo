@@ -5,8 +5,6 @@ minimize the number of multiplications.
 */
 
 #include <bits/stdc++.h>
-#include<vector>
-#include<climits>
 using namespace std;
 
 int matrixChainMultiplication(int arr, int n){
@@ -47,15 +45,16 @@ int matrixChainMultiplication(int arr, int n){
 }
 
 int main() {
-    int n;
-    cin >> n;
-    int* arr = new int[n];
-
-    for (int i = 0; i <= n; i++) {
+    int size;
+    cout<<"Enter the size of the array:";
+    cin >> size;
+    int* arr = new int[size];
+   cout<<"Enter the array elements:"
+    for (int i = 0; i <= size; i++) {
         cin >> arr[i];
     }
 
-    cout << matrixChainMultiplication(arr, n);
+    cout << matrixChainMultiplication(arr, size);
 
     delete[] arr;
 }

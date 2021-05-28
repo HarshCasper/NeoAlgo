@@ -18,6 +18,10 @@
 - [Subarray with given sum](Array/Subarray_Sum.dart)
 - [Floor of element in Array](Array/Floor_of_sorted_array.dart)
 - [Missing in AP](Array/Missing_in_AP.dart)
+- [Segregate Even/Odd](Array/Segregate_even_odd.dart)
+- [Palindrome Array](Array/Palindrome_array.dart)
+- [Geometric Progression](Array/Geometric_Progression.dart)
+- [MEX in an Array](Array/MEX_array.dart)
 
 ## Maths
 
@@ -45,7 +49,11 @@
 - [Harshad Number](maths/HarshadNumber.dart)
 - [Tower of Hanoi](maths/TowerOfHanoi.dart)
 - [Square Root using Binary Search](math/Squareroot_binary_search.dart)
-
+- [Trimorphic Number](math/TrimorphicNumber.dart)
+- [Disarium Number](math/DisariumNumber.dart)
+- [Largest prime factor](math/Largest_Prime_Factor.dart)
+- [Modular multiplicative inverse](math/Modular_multiplicative_inverse.dart)
+- [Mystery Number](maths/MysteryNumber.dart)
 
 ## Search
 
@@ -55,6 +63,7 @@
 - [Fibonacci Search](search/FibonacciSearch.dart)
 - [Sentinel Search](search/Sentinel_Search.dart)
 - [Jump Search](search/Jump_Search.dart)
+- [Bilinear Search](search/Bilinear_Search.dart)
 
 ## Sorting
 
@@ -71,6 +80,7 @@
 - [Tim Sort](sort/Tim_Sort.dart)
 - [Counting Sort](sort/Counting_Sort.dart)
 - [Cocktail Sort](sort/Cocktail_Sort.dart)
+- [Stooge Sort](sort/Stooge_Sort.dart)
 
 ## Cryptography
 
@@ -82,3 +92,4 @@
 
 - [Rod Cutting Problem](dp/RodCuttingProblem.dart)
 - [Golomb Sequence](dp/GolombSequence.dart)
+- [String Permutations](dp/StringPermutations.dart)

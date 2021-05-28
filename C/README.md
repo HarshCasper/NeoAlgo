@@ -132,8 +132,13 @@
 - [Palindrome Checker using doubly linked list](ds/palindrome_doubly_linked_list.c)
 - [Queue using Circular Array](ds/queue_using_circular_array.c)
 - [Reverse Queue using stack](ds/reverse-queue.c)
+- [Postfix to Infix Conversion](ds/postfixToInfix.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
 -[Bitonic Point in Linked List](ds/BitonicPoint.c)
+- [Mirror of a Binary Tree](ds/Mirror_BinaryTree.c)
+- [XOR Linked List](ds/XOR.c)
+- [Morris Order Traversal](ds/Morris.c)
+
 
 
 ## Searching
@@ -207,6 +212,7 @@
 - [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
 - [Warshall Algorithm](graphs/warshall.c)
+- [Celebrity Problem](graphs/celebrity_problem.c)
 
 ## Bit - Manipulation
 
@@ -215,6 +221,7 @@
 - [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
 - [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.c)
+- [Minimum XOR value](Bit--Manipulation/minimum_xor_value.c)
 
 ## Computational Geometry
 
@@ -271,9 +278,9 @@ _add list here_
 ## Operating System
 
 - [Banker's Algorithm](operating_system/bankers.c)
+- [First Come First Serve Scheduling Algorithm](operating_system/first_come_first_serve_algorithm.c)
 - [Round Robin Scheduling Algorithm](operating_system/Round_Robin_Scheduling.c)
 - [Priority Scheduling Algorithm](operating_system/priority_sjf.c)
-
 
 ## Other
 

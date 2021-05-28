@@ -26,6 +26,7 @@
 ## Dynamic Programming
 
 - [Cutting A Rod](dp/cutting_a_rod.jl)
+- [Count Derangements](dp/count_derangements.jl)
 - [Golomb Sequence](dp/golomb_sequence.jl)
 - [Fibbonaci Number](dp/fibonacci.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
@@ -40,6 +41,7 @@
 
 - [Armstrong Number](math/armstrong_number.jl)
 - [Automorphic Number](math/automorphic_number.jl)
+- [Eulerian Number](math/eulerian_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
 - [Delannoy Number](math/delannoy_number.jl)
 - [Perfect Number](math/perfect_number.jl)
@@ -57,10 +59,12 @@
 - [Sum of Divisors](math/sum_of_divisors.jl)
 - [Stern's Diatomic Series](math/sterns_diatomic_series.jl)
 - [Tower of Hanoi](math/towerOfHanoi.jl)
+- [Tribonacci Series](math/tribonacci.jl)
 
 ## Searching
 
 - [Binary Search](search/binary_search.jl)
+- [Exponential Search](search/exponential_search.jl)
 - [Fibonacci Search](search/fibonacci_search.jl)
 - [Interpolation Search](search/interpolation_search.jl)
 - [Jump Search](search/jump_search.jl)
@@ -76,6 +80,7 @@
 - [Selection Sort](sort/selection_sort.jl)
 - [Comb Sort](sort/comb_sort.jl)
 - [Quick Sort](sort/quick_sort.jl)
+- [Merge Sort](sort/merge_sort.jl)
 
 ## Bit Manipulation
 
@@ -86,3 +91,4 @@
 - [Toggle Kth Bit](Bit--Manipulation/toggle_kth_bit.jl)
 - [Minimum XOR Value](Bit--Manipulation/minimum_xor_value.jl)
 - [Count number of set bits](Bit--Manipulation/count_num_of_set_bits.jl)
+- [Power of 2](Bit--Manipulation/power_of_2.jl)

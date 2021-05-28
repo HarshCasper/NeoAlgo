@@ -10,10 +10,7 @@ All dots belong to the same colour.
 For all 1 ≤ i ≤ k - 1: di and di + 1 are adjacent. Also, dk and d1 should also be adjacent. Cells x and y are called adjacent if they share an edge.
 Our task is to determine if there exists a cycle on the board.
 */
-
-
-#include <iostream>
-#include <vector>
+#include<bits/stdc++.h>
 using namespace std;
 
 // directions in which we can move
@@ -77,23 +74,23 @@ bool hasCycle(vector<vector<char>> &board, int n, int m)
 }
 
 int main() {
-    int n, m;
+    int rows, columns;
     cout<<"enter the number of rows and columns"<<endl;
-    cin >> n >> m;
+    cin >> rows >> columns;
 
-    vector<vector<char>> board(n, vector<char>(m));
+    vector<vector<char>> board(rows, vector<char>(columns));
   
-//     Each of the following N lines contain M characters. 
+//     Each of the following rows  contain columns characters. 
 //     Please note that characters are not space separated.
 //     Each character is an uppercase Latin letter.
-    cout<<"enter the characters on the board in N lines having M capital characters"<<endl;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
+    cout<<"enter the characters on the board in rows lines having columns capital characters"<<endl;
+    for (int i = 0; i < rows; ++i) {
+        for (int j = 0; j < columns; ++j) {
             cin >> board[i][j];
         }
     }
 
-    cout << (hasCycle(board, n, m) ? "true" : "false");
+    cout << (hasCycle(board, rows, columns) ? "true" : "false");
 }
 
 

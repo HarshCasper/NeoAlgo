@@ -108,6 +108,7 @@ _add list here_
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
 - [Ckeck for Subarray with sum 0](cp/SubarraySumZero.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
+- [Trapping Rain Water II](cp/Trapping_rain_water_2D.java)
 - [Matrix Rotation in Clockwise and Anti-Clockwise Directions](cp/MatrixRotation.java)
 - [MEX of an Array](cp/MEX_of_an_array.java)
 
@@ -129,6 +130,7 @@ _add list here_
 - [Hill Cipher](cryptography/HillCipher.java)
 - [Vigenere Cipher](cryptography/VigenereCipher.java)
 - [Playfair Cipher](cryptography/PlayFairCipher.java)
+- [XOR Cipher](cryptography/XORCipher.java)
 
 ## Dynamic Programming
 
@@ -392,3 +394,4 @@ _add list here_
 - [Longest Consecutive Sequence](other/Longest_Consecutive_Squence.java)
 - [Quadratic probing in java](other/quadraticProbing.java)
 - [Display all possible keypad sequences for a given input number](other/KeypadSequence.java)
+- [Product of Array Except Self](other/ArrayProductExceptSelf.java)

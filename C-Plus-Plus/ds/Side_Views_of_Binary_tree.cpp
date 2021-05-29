@@ -3,14 +3,14 @@ we can view the tree from two sides , i.e left and right.
  for example given a binary tree as considered in the solution
        
 	   
-	   1
+	     1
      /   \
     2    3
    / \  / \
   4  5 6  7
    \     /
    8    9
-        \
+        \1
         10
         
         here the root node is 1
@@ -18,23 +18,49 @@ we can view the tree from two sides , i.e left and right.
         the left side view of the tree would print  1 2 4 8 10
 */
 // including the header files
- #include<bits/stdc++.h>
+#include <bits/stdc++.h>
  using namespace std;
-   //defining the node structure
-   struct Node{
-   	int data;
-   	Node*left, *right;
-   	// constructor
-   	Node(int value){
-   		data=value;
-   		left=NULL;
-   		right=NULL;
-	   }
-   };
-   /* we make a fuction "RightView" to print the right side of the tree.
+ //creating a class to define the node structure
+ class Node{
+   public://access specifier since all the the members in a class are by default private
+     int val;
+     Node* left;
+     Node* right;
+ };
+ Node* create(Node* root)
+    {
+    int x;
+    //firstly the left half of the tree will be constructed and then the right half
+    cin>>x;
+    if (x== -1)
+    {
+    return NULL;
+    } 
+    root=new Node;
+    root->val=x;
+    cout<<"enter left child"<<endl;
+    root->left=create(root->left);
+    cout<<"enter right child"<<endl;
+    root->right=create(root->right);
+    return root;
+}
+
+   void inorder(Node* root)
+   {
+   if(!root)
+   {
+   return;
+    }
+inorder(root->left);
+cout<<root->val<<endl;
+inorder(root->right);
+   }
+
+ /* we make a fuction "RightView" to print the right side of the tree.
     to print the right view we need to print all the rightmost elements in the level order traversal.
     therefore we approach the problem by defining a queue to store the elements for our each level and checking to print the rightmost node of the level.
    */
+
  void RightView(Node* root)
  {
  	if (root==NULL)
@@ -57,7 +83,7 @@ we can view the tree from two sides , i.e left and right.
       	
       	if(i==(nodes-1))//test condition to print the rightmost node in the presesnt level .
       	{
-      		cout<<current->data<<" ";
+      		cout<<current->val<<" ";
 		  }
 		  //checking if the nodes have any successor nodes, if they are presesnt we push them in the queue.
 		  
@@ -72,8 +98,8 @@ we can view the tree from two sides , i.e left and right.
 	  }
 	 }
  }
-  
-   /* we make a fuction "LeftView" to print the left side of the tree.
+
+  /* we make a fuction "LeftView" to print the left side of the tree.
     to print the left view we need to print all the leftmost elements in the level order traversal.
     therefore we approach the problem by defining a queue to store the elements for our each level and checking to print the leftmost node of the level.
    */
@@ -98,7 +124,7 @@ void LeftView(Node* root)
 		
 		if(i==1) //test condition to print the leftmost node in the presesnt level
 		   {
-			cout<<current->data<<" ";
+			cout<<current->val<<" ";
 		   }
 		    //checking if the nodes have any successor nodes, if they are presesnt we push them in the queue.
 		 if (current->left!=NULL)
@@ -112,28 +138,26 @@ void LeftView(Node* root)
 	}
 }
 }
-  // declaring the main fuction and contructing the binary tree.
-  
-  
-  int main()
-  {
-  	Node*root=new Node(1);
-  	root->left=new Node(2);
-  	root->right=new Node(3);
-  	root->left->left=new Node(4);
-  	root->left->right=new Node(5);	
-	root->right->left=new Node(6);
-  	root->right->right=new Node(7);
-  	root->left->left->right=new Node(8);
-  	root->right->right->left=new Node(9);
-  	root->right->right->left->left=new Node(10);
-  	//function calling to print the side views.
-  	cout<<"right view:"<<endl;
-  	RightView(root);
-  	 cout<<endl;
-  	 cout<<"left view:"<<endl;
-  	LeftView(root);
-	cout<<endl; 
-  	
-  	return 0;
-  }
+
+// declaring the main fuction and contructing the binary tree.
+
+   int main()
+   {
+   Node *root=NULL;
+   cout<<"enter the node value, enter -1 to assign NULL to the node"<<endl;
+  root= create(root);
+  //printing the inorder sequqnce to check if the tree is biult correctly.
+  cout<<"Inorder Sequence:"<<endl;
+  inorder(root);
+  //printing the Right Side View of the Tree.
+  cout<<"Right Side View of the Tree:"<<endl;
+  RightView(root);
+  cout<<endl;
+  //printing the Left Side View of the Tree.
+  cout<<"Left Side View of the Tree:"<<endl;
+  LeftView(root);
+  cout<<endl;
+   return 0;
+}
+   
+   

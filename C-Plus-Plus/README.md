@@ -240,6 +240,7 @@
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
+- [Find first and last positions of an element in a sorted array](ds/Find_first_and_last_positions_of_an_element_in_a_sorted_array.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 
 ## Graphs

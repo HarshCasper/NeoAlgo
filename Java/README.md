@@ -312,6 +312,7 @@ _add list here_
 - [Counting Sort](sort/CountingSort.java)
 - [Heap Sort](sort/HeapSort.java)
 - [Insertion Sort](sort/InsertionSort.java)
+- [Lomuto partition](sort/LomutoPartition.java)
 - [Merge Sort](sort/Merge_sort.java)
 - [Minimum number of swaps to sort an array of N unordered consecutive integers](sort/MinimumSwapsForNIntegers.java)
 - [Optimized Bubble Sort](sort/OptimizedBubbleSort.java)

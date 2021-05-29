@@ -9,6 +9,20 @@
 
 # Codes in the Dart language
 
+## Array
+
+- [Reverse Array in Groups](Array/Reverse_array_in_groups.dart)
+- [Remove duplicates from Array](Array/Remove_duplicates_from_array.dart)
+- [K-largest element in Array](Array/K_Largest_Element_Array.dart)
+- [Sorting an array in the wave form](Array/Sort_array_wave_form.dart)
+- [Subarray with given sum](Array/Subarray_Sum.dart)
+- [Floor of element in Array](Array/Floor_of_sorted_array.dart)
+- [Missing in AP](Array/Missing_in_AP.dart)
+- [Segregate Even/Odd](Array/Segregate_even_odd.dart)
+- [Palindrome Array](Array/Palindrome_array.dart)
+- [Geometric Progression](Array/Geometric_Progression.dart)
+- [MEX in an Array](Array/MEX_array.dart)
+
 ## Maths
 
 - [2D Areas](maths/Areas2D.dart)
@@ -33,7 +47,13 @@
 - [Binomial Coefficient (under modulo)](maths/binomial_coefficient_under_modulo.dart)
 - [Perfect Number](maths/PerfectNumber.dart)
 - [Harshad Number](maths/HarshadNumber.dart)
-
+- [Tower of Hanoi](maths/TowerOfHanoi.dart)
+- [Square Root using Binary Search](math/Squareroot_binary_search.dart)
+- [Trimorphic Number](math/TrimorphicNumber.dart)
+- [Disarium Number](math/DisariumNumber.dart)
+- [Largest prime factor](math/Largest_Prime_Factor.dart)
+- [Modular multiplicative inverse](math/Modular_multiplicative_inverse.dart)
+- [Mystery Number](maths/MysteryNumber.dart)
 
 ## Search
 
@@ -42,9 +62,12 @@
 - [Interpolation Search](search/InterpolationSearch.dart)
 - [Fibonacci Search](search/FibonacciSearch.dart)
 - [Sentinel Search](search/Sentinel_Search.dart)
+- [Jump Search](search/Jump_Search.dart)
+- [Bilinear Search](search/Bilinear_Search.dart)
 
 ## Sorting
 
+- [Bead Sort](sort/BeadSort.dart)
 - [Bubble Sort](sort/BubbleSort.dart)
 - [Bucket Sort](sort/BucketSort.dart)
 - [Insertion Sort](sort/InsertionSort.dart)
@@ -53,8 +76,20 @@
 - [Quick Sort](sort/Quick_Sort.dart)
 - [Merge Sort](sort/Merge_Sort.dart)
 - [Heap Sort](sort/Heap_Sort.dart)
+- [Radix Sort](sort/Radix_Sort.dart)
+- [Tim Sort](sort/Tim_Sort.dart)
+- [Counting Sort](sort/Counting_Sort.dart)
+- [Cocktail Sort](sort/Cocktail_Sort.dart)
+- [Stooge Sort](sort/Stooge_Sort.dart)
 
 ## Cryptography
 
 - [Caesar Cipher](cryptography/CaesarCipher.dart)
 - [Vernam Cipher](cryptography/VernamCipher.dart)
+- [Affine Cipher](cryptography/AffineCipher.dart)
+
+## Dynamic Programming
+
+- [Rod Cutting Problem](dp/RodCuttingProblem.dart)
+- [Golomb Sequence](dp/GolombSequence.dart)
+- [String Permutations](dp/StringPermutations.dart)

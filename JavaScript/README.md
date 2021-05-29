@@ -28,6 +28,7 @@
 - [Linked List](./ds/LinkedList.js)
 - [Dynamic Linked List](./ds/DynamicLinkedList.js)
 - [Doubly Linked List](./ds/DoublyLinkedList.js)
+- [Circular Singly Linked List](./ds/CircularSinglyLinkedList.js)
 - [Parenthesis Checker](./ds/Parenthesis_Checker.js)
 - [Queue](./ds/Queue.js)
 - [Queue using Linked List](./ds/QueueLinkedList.js)
@@ -42,7 +43,14 @@
 - [Infix to Prefix Conversion](./ds/infixtoprefix.js)
 - [Postfix expression evaluator](./ds/postfixevaluator.js)
 - [Infix expression evaluator](./ds/infixevaluator.js)
-
+- [Prefix expression evaluator](./ds/prefixevaluator.js)
+- [Valid Parentheses](./ds/ValidParentheses.js)
+- [Iterative Preorder Traversal](./ds/Iterative_preorder.js)
+- [Iterative Postorder Traversal](./ds/Iterative_postorder.js)
+- [Iterative Inorder Traversal](./ds/Iterative_inorder.js)
+- [Best Fit Algorithm](./ds/bestfit.js)
+- [First Fit Algorithm](./ds/firstfit.js)
+- [Worst Fit Algorithm](./ds/worstfit.js)
 
 ## Searching
 
@@ -73,10 +81,11 @@
 - [Gnome Sort](./sort/GnomeSort.js)
 - [WaveForm Sort](./sort/WaveFormSort.js)
 - [Shaker Sort](./sort/ShakerSort.js)
+- [Pancake Sort](./sort/PancakeSort.js)
 
 ## Machine Learning
 
-_add list here_
+- [Simple Neural Network](./ML/NeuralNetwork.js)
 
 ## Mathematics
 
@@ -104,12 +113,14 @@ _add list here_
 - [First Negative Integer In Every Window Of Size K](./cp/FirstNegativeIntegerInEveryWindowOfSizeK.js)
 - [Two Sum](./cp/TwoSum.js)
 - [Reverse a String](./cp/ReverseString.js)
+- [Max Water Container](./cp/WaterContainer.js)
+- [Backspace String Compare](./cp/BackspaceCompare.js)
 
 ## Dynamic Programming
 
 - [Flight of stairs](./dp/flightOfStairs.js)
 - [Climbing stairs problem](./dp/Climbing_stairs.js)
-
+- [Painting Fence Problem](./dp/Painting_fence.js)
 
 ## Blockchain
 

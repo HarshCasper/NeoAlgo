@@ -257,6 +257,7 @@
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
+- [House Robber](dp/House_Robber.py)
 - [Catalan Number](dp/Catalan_DP.py)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.py)
 
@@ -470,6 +471,7 @@ _add list here_
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+- [Count Articles](other/Count_Articles.py)
 - [Wave Array](other/Wave_Array.py)
 - [Merge Interval](other/merge_interval.py)
 - [Kth index removal](other/stringkth.py)

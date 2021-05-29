@@ -24,7 +24,7 @@ bool checkCycle(int src)
             //If the child is not visited then mark it visited and insert in queue
             if (vis[child] == 0)
             {
-                vis[node] = 1;
+                vis[child] = 1;
                 q.push(make_pair(child, node));
             }
             /*If the node is visited and child is not the previour element
@@ -65,7 +65,7 @@ int main()
     }
     else
     {
-        cout << "There exists a cycle in this graph";
+        cout << "There does not exists a cycle in this graph";
     }
     return 0;
 }

@@ -541,6 +541,7 @@ _add list here_
 - [Tiling 2 x N](dp/Tiling_2xN.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
+- [Maximize Matrix Chain Multiplication](dp/Max_MatrixChain_Multiplication.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
 - [Coin Tower](dp/coinTower.cpp)
 - [Average Submatrix > K](dp/avg_submatrix_k.cpp)

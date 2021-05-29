@@ -3,9 +3,7 @@
 //The difference is that once we select the last element as the pivot
 //we need to keep adjusting its position by sorting and swapping the elements in memory.
 
-
 import java.util.Scanner;
-
 public class Main
 {
 
@@ -18,8 +16,16 @@ public class Main
         int[] ar = new int[n];
         System.out.println("Enter array elements:");
         for(int i=0;i<n;i++)
-        ar[i] =sc.nextInt();
+        {
+            ar[i] =sc.nextInt();
+        }
+        System.out.println("The array before sorting is:");
+        for(int i=0;i<n;i++)
+        {
+            System.out.print(ar[i]+" ");
+        }
         quickSort(ar, 0, ar.length-1);
+        System.out.println("\n");
         System.out.println("The Sorted array is:");
         for(int i=0;i<n;i++)
         {
@@ -27,21 +33,28 @@ public class Main
             
         }
     }
+	
 public static void quickSort(int[] ar, int low, int high)
 {
     if(low<high)
     {
         int p =partition(ar, low, high);
+        // from the above function the pivot is choosen 
+        //and the quicksort function is called  as two parts
+        //from 0 to p-1 and other is p+1 to the higher end
         quickSort(ar, 0, p-1);
         quickSort(ar, p+1, high);
     }
 }
+//function to perform partition
 public static int partition(int[] ar, int l, int r)
 {
+    //pivot element is choosen
     int pivot =ar[r];
     int i =l;
     for(int j=l;j<r;j++)
     {
+        //swapping is done on comparing woth the pivot element
         if(ar[j] <=pivot)
             {
             int t =ar[j];
@@ -63,14 +76,13 @@ public static int partition(int[] ar, int l, int r)
 
 /*sample output
 Enter size of the array:
-5
+10
 Enter array elements:
-1000
-12
-13
-0
--1
+10 9 8 7 6 5 4 3 2 1
+The array before sorting is:
+10 9 8 7 6 5 4 3 2 1 
 The Sorted array is:
--1 0 12 13 1000 */
+1 2 3 4 5 6 7 8 9 10  */
+
 
 

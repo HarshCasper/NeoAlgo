@@ -1,34 +1,9 @@
 """
-Breadth First Search- Its a graph traversal technique which uses
-        queue data-structure fo its implementation. We extract the
-        current node from the front of the queue, traverse its adjacent
-        nodes. If not visited, we put the node at the end of the queue
-        mark it as visited.
-
 Purpose: Given a binary matrix of N*M order where 0 is the wall and 1 is way.
         Find the shortest distance from a source cell to a destination cell,
         traversing through limited cells only. Also you can move only
         up, down, left and right. If found then print the distance and
         path in separate lines, else return -1.
-
-Method : Breadth-First Search
-Intuition : The idea is to BFS (breadth first search) on matrix cells. Note that
-            we can always use BFS to find shortest path if graph is unweighted.
-
-        1. Store each cell as a node with their row, column values and distance
-            from source cell.
-        2. Start BFS with source cell.
-        3. Make a visited array with all having “false” values except ‘0’cells
-            which are assigned “true” values as they can not be traversed.
-        4. Keep updating distance from source value in each move.
-        5. Return distance when destination is met, else return -1
-            (no path exists in between source and destination).
-
-Time Compexity:   O(N*M)
-Space Complexity: O(N*M)
-
-Argument: 2-d list, tupple, tupple (Maze, Source, Destination)
-Return  : Integer, String          (Distance, Path)
 
 """
 from collections import deque
@@ -118,6 +93,11 @@ if __name__ == "__main__":
 
 
 """
+
+Time Compexity:   O(N*M)
+Space Complexity: O(N*M)
+
+
 Sample Input / Output
 
 Enter the Dimension of the maze:- 5 5

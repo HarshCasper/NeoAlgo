@@ -441,6 +441,7 @@ _add list here_
 - [Factorial Space Optimized](math/factorial_space_optimized.cpp)
 - [Fibonacci without Recursion](math/fibonacci_space_optimized.cpp)
 - [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
+- [Hailstone Sequence](math\Hailstone_sequence.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)

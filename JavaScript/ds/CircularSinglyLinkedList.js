@@ -106,6 +106,47 @@ class CircularLinkedList {
     return this;
   }
 
+  // Delete a node from circular SLL
+  remove(index) {
+    if (index === 1) {
+      this.tail.next = this.head.next;
+      this.head = this.head.next;
+      this.length--;
+      return this;
+    } else {
+      let previousNode = this.traverseToIndex(index - 1); // traverse to that node
+      if (index === this.length) {
+        previousNode.next = this.head;
+        this.length--;
+        return this;
+      }
+
+      previousNode.next = previousNode.next.next;
+      this.length--;
+      return this;
+    }
+  }
+
+  // Reverse circular singly linked list
+  reverse() {
+    if (!this.head.next) return;
+
+    let first = this.head;
+    this.tail = this.head;
+    let second = first.next;
+
+    while (second !== this.head) {
+      const temp = second.next;
+      second.next = first;
+      first = second;
+      second = temp;
+    }
+
+    // Update head node
+    this.head.next = first;
+    this.head = first;
+  }
+
   // Displaying all the nodes of Linked List
   printList() {
     let currentNode = this.head;
@@ -135,9 +176,10 @@ do {
   console.log("1. Display the Circular Singly Linked List".display);
   console.log("2. Append element in the Circular Singly Linked List".insert);
   console.log("3. Prepend element in the Circular Singly Linked List".insert);
-  console.log(
-    "4. Insert anywhere in between the Circular Singly Linked List".insert
-  );
+  console.log("4. Insert anywhere in between the Circular Singly Linked List".insert);
+  console.log("5. Delete element from the Circular Singly Linked List".delete);
+  console.log("6. Reverse the Circular Singly Linked List".display);
+
 
   choice = +prompt("Enter your choice - ");
 
@@ -154,19 +196,13 @@ do {
     case 2:
       value = +prompt("Enter Value to Append element - ");
       myCircularLinkedList.append(value);
-      console.log(
-        "After Append Linked List - ",
-        myCircularLinkedList.printList()
-      );
+      console.log("After Append Linked List - ", myCircularLinkedList.printList());
       break;
 
     case 3:
       value = +prompt("Enter Value to Prepend element - ");
       myCircularLinkedList.prepend(value);
-      console.log(
-        "After Prepend Linked List - ",
-        myCircularLinkedList.printList()
-      );
+      console.log("After Prepend Linked List - ", myCircularLinkedList.printList());
       break;
 
     case 4:
@@ -176,10 +212,29 @@ do {
       if (index <= 0)
         return console.log("You know this is wrong, Bbye!\n".wrong);
       myCircularLinkedList.insert(index, value);
-      console.log(
-        "After Insertion Linked List - ",
-        myCircularLinkedList.printList()
-      );
+      console.log("After Insertion Linked List - ", myCircularLinkedList.printList());
+      break;
+
+    case 5:
+      if (myCircularLinkedList.length === 0) {
+        return console.log("404, you can't remove anything from void".wrong);
+      }
+  
+      index = +prompt("Enter position of element - ");
+      if (index <= 0 || index > myCircularLinkedList.length)
+        return console.log("You know this is wrong, Bbye!\n".wrong);
+  
+      myCircularLinkedList.remove(index);
+      console.log("After Deletion Linked List - ", myCircularLinkedList.printList());
+      break;
+    
+    case 6:
+      if (myCircularLinkedList.length === 0) {
+        return console.log("500, you can't reverse empty CSLL".wrong);
+      }
+  
+      myCircularLinkedList.reverse();
+      console.log("Reversed Circular Linked List - ", myCircularLinkedList.printList());
       break;
 
     default:
@@ -199,8 +254,8 @@ Follow the instructions to get in the show
 2. Append element in the Linked List
 3. Prepend element in the Linked List
 4. Insert anywhere in between the Linked List
-5. Reverse the Linked List
-6. Delete element from Linked List
+5. Delete element from the Circular Singly Linked List
+6. Reverse the Circular Singly Linked List
 Enter your choice - 2
 Enter Value to Append element - 21
 After Append Linked List -  [ 21 ]
@@ -215,6 +270,15 @@ After Insertion Linked List -  [ 12, 21 ]
 Enter your choice - 3
 Enter Value to Prepend element - 90
 After Prepend Linked List -  [ 90, 12, 21 ]
+
+5. Delete element from the Circular Singly Linked List
+Enter your choice - 5 
+Enter position of element - 2
+After Deletion Linked List - [90, 21]
+
+6. Reverse the Circular Singly Linked List
+Enter your choice - 6
+Reversed Circular Linked List - [21, 90]
 
 */
 

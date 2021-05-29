@@ -287,7 +287,6 @@
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
 
-
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
@@ -300,6 +299,7 @@
 - [Boruvka's Algorithm for finding MST](graphs/Boruvka_algorithm_for_finding_MST.cpp)
 - [Celebrity Problem](graphs/celebrity_problem.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
+- [Cycle Detection in Undirected Graph using BFS](graphs/checkCycle_bfs.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 - [Depth First Search Algorithm](graphs/DFS.cpp)

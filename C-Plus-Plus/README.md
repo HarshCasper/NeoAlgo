@@ -180,6 +180,7 @@
 - [Minimum cost to construct temple](cp/min_cost_to_construct_temple.cpp)
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
 - [Optimal Game Strategy](cp/optimal_game.cpp)
+- [Count the total number of vertices with more children than its parent](cp/total_more_child_vertices_than_parent.cpp)
 
 ## Data Structures
 

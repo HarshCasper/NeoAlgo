@@ -96,6 +96,6 @@ Enter value of k: 2
 Output 2:
 Maximum number of consecutive 1's by flipping atmost k 0's are: 6
 
-Time complexity: O(nlogn)   logn is the time taken to push and pop from min heap
-Space complexity: O(m)   where m is the number of zeroes in the array
+Time complexity: O(nlogk)   logk is the time taken to push and pop from min heap
+Space complexity: O(k)   
 */

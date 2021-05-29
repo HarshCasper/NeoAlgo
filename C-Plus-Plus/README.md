@@ -177,7 +177,9 @@
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
 - [Largest BST in binary tree](cp/largest_bst_in_btree.cpp)
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
+- [Minimum cost to construct temple](cp/min_cost_to_construct_temple.cpp)
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
+- [Optimal Game Strategy](cp/optimal_game.cpp)
 
 ## Data Structures
 
@@ -329,13 +331,13 @@
 - [Shortest Path in Unweighted Graph](graphs/shortest_path_using_bfs.cpp)
 - [Depth first Search for a graph](graphs/dfs_of_a_graph.cpp)
 - [Diameter of Binary Tree](graphs/Diameter_of_binary_tree.cpp)
+- [Connecting Dots- Graphs](graphs/Connecting_Dots-Graphs_using_cpp.cpp)
 - [Check Path in Graph](graphs/checkPath.cpp)
 - [Top view of Tree](graphs/top_view_binary_tree.cpp)
 - [3 Cycle](graphs/3Cycle.cpp)
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 - [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
 - [Subtree size of each node](graphs/subtree_size.cpp)
-
 
 ## Searching
 
@@ -540,7 +542,9 @@ _add list here_
 - [Tiling 2 x N](dp/Tiling_2xN.cpp)
 - [Kadane's Algorithm](dp/Kadane_Algorithm.cpp)
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
+- [Maximize Matrix Chain Multiplication](dp/Max_MatrixChain_Multiplication.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Coin Tower](dp/coinTower.cpp)
 - [Average Submatrix > K](dp/avg_submatrix_k.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
 - [Interleaving strings](dp/Interleaving_strings.cpp)
@@ -673,3 +677,4 @@ _add list here_
 - [Zig Zag Array(sorted)](other/zig-zag_array_sorted.cpp)
 - [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)
 - [Largest Number formed from elements of the Array](other/LargestNumber.cpp)
+- [Isomorphic Strings](other/IsomorphicStrings.cpp)

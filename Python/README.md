@@ -412,6 +412,7 @@
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 - [Pronic Number](math/Pronic_numbers.py)
+- [Positive Decimal to Binary](math/positive_decimal_to_binary.py)
 
 ## Bit Manipulation
 

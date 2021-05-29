@@ -41,7 +41,7 @@ public static void quickSort(int[] ar, int low, int high)
         int p =partition(ar, low, high);
         // from the above function the pivot is choosen 
         //and the quicksort function is called  as two parts
-        //from 0 to p-1 and other is p+1 to the higher end
+        //from 0 to p-1 and other is p+1 to the higher end limit of the array
         quickSort(ar, 0, p-1);
         quickSort(ar, p+1, high);
     }
@@ -54,7 +54,7 @@ public static int partition(int[] ar, int l, int r)
     int i =l;
     for(int j=l;j<r;j++)
     {
-        //swapping is done on comparing woth the pivot element
+        //swapping is done on comparing with the pivot element
         if(ar[j] <=pivot)
             {
             int t =ar[j];

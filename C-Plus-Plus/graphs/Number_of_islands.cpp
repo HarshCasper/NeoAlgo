@@ -50,6 +50,21 @@ int main()
             }
         }
     }
-    cout<<no_of_islands<<endl;
+    cout<<"Total number of islands: "<<no_of_islands<<endl;
     return 0;
 }
+/*
+    Sample Input:
+    Enter number of rows and columns:4 5
+    Enter the elements:
+    1 1 1 1 0
+    1 1 0 1 0
+    1 1 0 0 0
+    0 0 0 0 0
+
+    Sample Output:
+    Total number of islands: 1
+
+    Time Complexity: O(m*n)
+    Space Complexity: O(m*n)
+*/

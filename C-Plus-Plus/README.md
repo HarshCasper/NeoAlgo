@@ -174,6 +174,7 @@
 - [Strange Hotel](cp/strange_hotel.cpp)
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
+- [Meeting Rooms](cp/Meeting_Rooms)
 
 ## Data Structures
 

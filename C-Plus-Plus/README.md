@@ -664,6 +664,7 @@ _add list here_
 - [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
+- [Lazy Propagation in Segment Tree](other/Lazy_Propagation_in_Segment_Tree.cpp)
 - [Gray inverse Code](other/Gray_Inverse_Code.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
 - [Sorting an array of zeroes and ones](other/Sorting_an_array_of_zeroes_and_ones.cpp)

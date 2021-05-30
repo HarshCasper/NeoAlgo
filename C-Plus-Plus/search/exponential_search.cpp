@@ -1,14 +1,6 @@
 /*
-
- Created by Sarthak-9
  Exponential Search Algorithm is an optimized Binary Search to search an element in sorted array.
  It is specifically used when the size of array is infinite.
-
- Let n be the number of elements input in array and key be the element to be searched.
-
- Time Complexity : O(log n)
- Space Complexity : O(log n)
-
 */
 
 
@@ -87,7 +79,11 @@ int main()
 }
 
 /*
+ Time Complexity : O(log n)
+ Space Complexity : O(log n)
+*/
 
+/*
  Input:
  Enter the size of array
  8

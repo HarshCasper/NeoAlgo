@@ -605,6 +605,7 @@ _add list here_
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Add two binary numbers](other/Add_two_binary_numbers.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
+- [Car Fueling using greedy approach](other/CarFueling.cpp)
 - [Count Max Possible Subsequence](other/max_possible_subsequence.cpp)
 - [Check whether a string is Subsequence](other/whether_string_is_subsequence.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)

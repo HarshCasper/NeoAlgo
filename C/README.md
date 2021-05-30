@@ -270,6 +270,7 @@ _add list here_
 - [Decimal to Hexadecimal conversion](math/Decimal_to_Hex.c)
 - [Polynomial Addition](math/polynomial_addition.c)
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
+- [Tribonacci Series](math/tribonacci.c)
 - [Special Number](math/special.c)
 - [Pronic Number](math/Pronic_numbers.c)
 - [Quadratic Equation](math/Quadratic_Equation.c)

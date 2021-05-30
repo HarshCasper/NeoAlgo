@@ -8,7 +8,7 @@ Space Complexity: O(1)
 #include <bits/stdc++.h>
 using namespace std;
  
-/*  To set the values of *x and *y to non-repeating elements*/
+/*  To set the values of *a and *b to non-repeating elements*/
 
 void NonRepeatingInt(int arr[], int n, int *a, int *b)
 {

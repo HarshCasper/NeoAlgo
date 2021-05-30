@@ -1,0 +1,60 @@
+/*
+Top K frequent elements
+=====================
+Given an integer array  and an integer K, find the K most frequent elements. You may return the answer in any order.
+n->size of array
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+#define ll long long int
+
+int main() {
+  int n;
+  cin >> n;
+  int nums[n];
+  for (int i = 0; i < n; i++) {
+    cin >> nums[i];
+  }
+  int K;
+  cin >> K;
+  unordered_map < int, int > mp;
+  
+  // store the frequency of each element in a map
+  for (int i = 0; i < nums.size(); i++) {
+    mp[nums[i]]++;
+
+  }
+
+  // push the frequency of each element and the element itself  in maximum heap
+  priority_queue < pair < int, int >> pq;
+  for (auto x: mp) {
+    pq.push({x.second,x.first});
+  }
+  
+  // store the result in a vector
+  vector < int > p;
+  while (K--) {
+    p.push_back(pq.top().second);
+    pq.pop();
+  }
+  // output the answer
+  for (int i = 0; i < p.size(); i++) {
+    cout << p[i] << " ";
+  }
+
+  return 0;
+}
+/*
+Input:
+6
+3 1 2 1 2 1
+2
+
+Output:
+1 2
+*/

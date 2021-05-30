@@ -393,6 +393,7 @@
 
 ## Stack based problems
 
+- [Evaluation of Prefix Expression](stack/Evaluate_prefix.cpp)
 - [Infix to Postfix Conversion](../C/stack/Infix_to_Postfix.c)
 - [Check for balanced parenthesis](stack/Check_for_balanced_parenthesis.cpp)
 - [Evaluation of Postfix Expression](stack/evaluate_postfix.cpp)

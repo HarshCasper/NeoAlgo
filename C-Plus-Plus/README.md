@@ -338,6 +338,7 @@
 - [Iterative procedure for dfs traversal](graphs/Iterative_dfs.cpp)
 - [Center of Star Graph](graphs/Center_of_Star_Graph.cpp)
 - [Subtree size of each node](graphs/subtree_size.cpp)
+- [Number_of_islands](graphs/Number_of_islands.cpp)
 
 ## Searching
 

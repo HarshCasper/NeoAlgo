@@ -1,12 +1,6 @@
 /*
-                                              Fibonacci Search
+ Fibonacci Search
 Search for an element in a Sorted Array
-
-fibonacci series generalisation:
-F(0) = 0
-F(1) = 1
-F(2) = F(1) + F(0) = 0+1 = 1 
-F(n) = F(n-1)+F(n-2) for n>=2
 */
 
 #include<bits/stdc++.h>
@@ -14,9 +8,12 @@ using namespace std;
 
 int fibonacciSearch(int arr[], int n, int element) {
    // Initializing fibonacci no 
-   int fibM2 = 0; //(m-2)th fibonacci no.
-   int fibM1 = 1; //(m-1)th fibonacci no. 
-   int fibM = fibM1 + fibM2; //mth fibonacci no.
+   //(m-2)th fibonacci no
+   int fibM2 = 0; 
+   //(m-1)th fibonacci no. 
+   int fibM1 = 1; 
+   //mth fibonacci no.
+   int fibM = fibM1 + fibM2; 
 
    /*finding smallest fibonacci no. greater than or equal to 
      n in Fibonacci sereies and storing it in fibM */
@@ -112,3 +109,4 @@ Time Complexity : O(log(n))
 Auxiliary Space : O(1) 
 
 */
+

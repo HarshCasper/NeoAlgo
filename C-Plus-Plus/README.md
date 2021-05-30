@@ -278,6 +278,7 @@
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
+- [Side Views of The binary tree ](ds/Side_Views_of_Binary_tree.cpp)
 
 ## Graphs
 

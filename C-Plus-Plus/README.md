@@ -286,6 +286,7 @@
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
+- [Side Views of The binary tree ](ds/Side_Views_of_Binary_tree.cpp)
 
 
 ## Graphs
@@ -483,6 +484,7 @@ _add list here_
 - [Strong Number](math/Strong_Number.cpp)
 - [Lucas Number](math/LucasSeries.cpp)
 - [Perfect Number](math/Perfect_Number.cpp)
+- [Tribonacci Number](math/tribonacci.cpp)
 - [Reverse a Number](math/reverse_a_number.cpp)
 - [Fibonacci Recursive](math/fibonacci.cpp)
 - [Matrix Chain Multiplication](math/Matrix_Chain_Multiplication.cpp)
@@ -603,6 +605,7 @@ _add list here_
 - [Arranging elements of array to form biggest possible number](other/Arranging_elements_of_array_to_form_biggestno.cpp)
 - [Add two binary numbers](other/Add_two_binary_numbers.cpp)
 - [Boyer–Moore majority vote algorithm](other/majority_vote_algorithm.cpp)
+- [Car Fueling using greedy approach](other/CarFueling.cpp)
 - [Count Max Possible Subsequence](other/max_possible_subsequence.cpp)
 - [Check whether a string is Subsequence](other/whether_string_is_subsequence.cpp)
 - [Count of distinct elements in a window](cp/DistinctElementsinaWindow.cpp)
@@ -661,6 +664,7 @@ _add list here_
 - [Find Kth Element of Two Sorted Array](other/Find_kth_Element_of_two_sorted_array.cpp)
 - [Find median in a row-wise sorted Matrix](other/Median_in_row_wise_sorted_matrix.cpp)
 - [Allocate minimum number of pages](other/AllocateMinPages.cpp)
+- [Lazy Propagation in Segment Tree](other/Lazy_Propagation_in_Segment_Tree.cpp)
 - [Gray inverse Code](other/Gray_Inverse_Code.cpp)
 - [Phone Keypad](other/Phone_keypad.cpp)
 - [Sorting an array of zeroes and ones](other/Sorting_an_array_of_zeroes_and_ones.cpp)

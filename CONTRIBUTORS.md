@@ -278,6 +278,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://www.linkedin.com/in/siddharth-bhatnagar-msit"><img src="https://avatars.githubusercontent.com/u/56535991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siddharth Bhatnagar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=siddharth-bhatnagar" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Simi06"><img src="https://avatars.githubusercontent.com/u/60649835?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Smriti Sharma</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Simi06" title="Code">💻</a></td>
   </tr>
 </table>
 

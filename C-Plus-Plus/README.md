@@ -291,6 +291,7 @@
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
+- [Convert BST to Min Heap](heap/BSTtoMinHeap.cpp)
 
 ## Machine Learning
 

@@ -553,6 +553,7 @@ _add list here_
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [Maximize Matrix Chain Multiplication](dp/Max_MatrixChain_Multiplication.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Braille's Dilemma](dp/BraillesDilemma.cpp)
 - [Coin Tower](dp/coinTower.cpp)
 - [Average Submatrix > K](dp/avg_submatrix_k.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)

@@ -181,7 +181,9 @@
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
 - [Minimum no of squares the knight cannot visit](cp/min_moves_knight_cannot_visited.cpp)
 - [Optimal Game Strategy](cp/optimal_game.cpp)
+- [Count the total number of vertices with more children than its parent](cp/total_more_child_vertices_than_parent.cpp)
 - [Run Length Encoding](cp/Run_Length_Encoding.cpp)
+
 ## Data Structures
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
@@ -289,7 +291,6 @@
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
 - [Side Views of The binary tree ](ds/Side_Views_of_Binary_tree.cpp)
 
-
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
@@ -302,6 +303,7 @@
 - [Boruvka's Algorithm for finding MST](graphs/Boruvka_algorithm_for_finding_MST.cpp)
 - [Celebrity Problem](graphs/celebrity_problem.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
+- [Cycle Detection in Undirected Graph using BFS](graphs/checkCycle_bfs.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 - [Depth First Search Algorithm](graphs/DFS.cpp)
@@ -445,6 +447,7 @@ _add list here_
 - [Factorial Space Optimized](math/factorial_space_optimized.cpp)
 - [Fibonacci without Recursion](math/fibonacci_space_optimized.cpp)
 - [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
+- [Hailstone Sequence](math/Hailstone_sequence.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)

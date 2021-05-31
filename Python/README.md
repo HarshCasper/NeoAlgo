@@ -28,6 +28,7 @@
 - [Stack using list](ds/stack_using_list.py)
 - [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
 - [Double Ended Queue](ds/Double_Ended_queue.py)
+- [Priority Queue](ds/priority_queue.py)
 - [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
 - [Best fit memory allocation](ds/Bestfit.py)
@@ -35,6 +36,7 @@
 - [Prefix to postfix](ds/Prefix_to_postfix.py)
 - [Lowest Common Ancestor of Binary Search Tree](ds/lowest_common_ancestor_bst.py)
 - [Reverse Queue Using Stack](ds/Reverse_queue_using_stack.py)
+
 
 ## Searching
 - [Bilinear Search](search/bilinear.py)
@@ -78,6 +80,7 @@
 - [Intro Sort](sort/IntroSort.py)
 - [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 - [Merge Sort Parallel](sort/Parallel_MergeSort.py)
+- [Tim Sort](sort/TimSort.py)
 
 ## Graphs
 
@@ -156,6 +159,7 @@
 - [Trapping rain water](cp/Trapping_rain_water.py)
 - [Max of Adjacent Elements Product](cp/adjacent_elements_product.py)
 - [Generating Power Set](cp/Generating_Power_Set.py)
+- [Run Length Encoding](cp/Run_Length_Encoding.py)
 
 ## Cryptography
 
@@ -215,6 +219,7 @@
 - [Tree Sort](sort/Tree_Sort.py)
 - [Wiggle Sort](sort/Wiggle_sort.py)
 - [Counting Sort](sort/Counting_Sort.py)
+- [Tim Sort](sort/TimSort.py)
 
 ## Backtracking
 
@@ -257,6 +262,7 @@
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
+- [Coin Tower](dp/coinTower.py)
 - [House Robber](dp/House_Robber.py)
 - [Catalan Number](dp/Catalan_DP.py)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.py)
@@ -347,14 +353,19 @@
 - [Laptop Price Prediction](ml/Laptop_Price_Prediction.ipynb)
 - [Linear Regression](ml/Linear_Regression.ipynb)
 - [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
+- [Loan Eligibility Prediction](ml/Loan_Eligibility_Prediction.ipynb)
 - [Logistic Regression](ml/Logistic_Regression.ipynb)
 - [Mobile Price Range Classification](ml/Mobile_Price_Range_Classification.ipynb)
 - [NASA Asteroids Classification](ml/NASA_Asteroids_Classification.ipynb)
 - [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+- [Solar Radiation Prediction](ml/Solar_Radiation_Prediction.ipynb)
+- [Questions to Subject Classification](ml/Questions_to_Subject_Classification.ipynb)
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
+- [Startup Profit Prediction](ml/Startup_Profit_Prediction.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 - [Bell State creation](ml/Bell_state_creation.ipynb)
+- [White Wine Quality Prediction](ml/White_Wine_Quality_Prediction.ipynb)
 
 
 ## Mathematics
@@ -412,6 +423,7 @@
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 - [Pronic Number](math/Pronic_numbers.py)
+- [Positive Decimal to Binary](math/positive_decimal_to_binary.py)
 
 ## Bit Manipulation
 
@@ -477,5 +489,6 @@ _add list here_
 - [Kth index removal](other/stringkth.py)
 - [Display all possible keypad sequences for a given number](other/KeypadSequence.py)
 - [Arrange The String](other/Arrange_The_String.py)
+- [Finding equilibrium point in the array](other/equilibrium_point_in_array.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

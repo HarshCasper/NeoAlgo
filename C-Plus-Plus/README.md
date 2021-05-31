@@ -387,6 +387,7 @@
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Topological Sort](sort/Topological_Sort.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
+- [Relative Sort Array](sort/Relative_Sort_Array.cpp)
 - [Stooge Sort](sort/stooge_sort.cpp)
 - [Three Way Merge Sort](sort/three_way_merge_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)

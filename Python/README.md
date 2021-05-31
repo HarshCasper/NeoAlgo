@@ -361,6 +361,7 @@
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 - [Bell State creation](ml/Bell_state_creation.ipynb)
+- [White Wine Quality Prediction](ml/White_Wine_Quality_Prediction.ipynb)
 
 
 ## Mathematics

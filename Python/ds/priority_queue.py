@@ -108,11 +108,12 @@ class PriorityQueue:
 
 if __name__ == "__main__":
     pq1 = PriorityQueue()
-
-    pq1.insert_into_pq('A', 10)
-    pq1.insert_into_pq('Q', 45)
-    pq1.insert_into_pq('D', 4)
-    pq1.insert_into_pq('W', 55)
-
+    size=int(input("Enter the number of values to initialise the priority queue with: "))
+    print("Enter values to push in the queue along with it's priority: ")
+    value=[]
+    for i in range(size):
+    	value.append([ele for ele in input().split()])
+    for i in range(len(value)):
+        pq1.insert_into_pq(value[i][0],value[i][1])
     for i in range(pq1.get_size()):
-        print(pq1.remove_min())
+        print(pq1.remove_min(),end=" ")

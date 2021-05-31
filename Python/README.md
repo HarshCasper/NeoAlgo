@@ -367,8 +367,8 @@
 - [Startup Profit Prediction](ml/Startup_Profit_Prediction.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 - [Bell State creation](ml/Bell_state_creation.ipynb)
+- [Naive Bayes Classifier](ml\Naive_Bayes_Classifier.ipynb)
 - [White Wine Quality Prediction](ml/White_Wine_Quality_Prediction.ipynb)
-
 
 ## Mathematics
 

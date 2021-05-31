@@ -120,22 +120,20 @@ class BFS_RottenOranges1
 
 /* 
 
-    Input: 
-        3 3 
-        0 1 2
-        0 1 2  
-        2 1 1
-    Output: 1
-
-    Input/Output Explanation:
-    We will use bfs using a queue to find the time to rot all the oranges.
-    Oranges at positions (0,2), (1,2), (2,0) will rot oranges at (0,1), (1,1), (2,2) and (2,1) in unit time and hence within
-    1 sec all the oranges present will be rotten.
-    
-    
+    Sample Input/ Output:
+    Enter the dimention of the matrix:
+    3 3 
+        
+    Enter values of the matrix which consists of 1 for fresh, 0 for no oranges, 2 for rotten oranges:
+     0 1 2
+     0 1 2  
+     2 1 1
+        
+    The time taken to rot all oranges is:  1
     
     Time complexity- O(n*m)
     As we are traversing the array only once.
+    
     Space complexity- O(n*m)
-
 */
+

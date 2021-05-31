@@ -142,6 +142,7 @@
 - [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Ninja and Cities](cp/city.cpp)
 - [Reverse individual words in a sentence without stacks](cp/reverseWords.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
@@ -291,6 +292,7 @@
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
+- [Construction of Binary Tree from Inorder and Preorder Traversal](ds/BinaryTreeFromInorderAndPreorder.cpp)
 - [Side Views of The binary tree ](ds/Side_Views_of_Binary_tree.cpp)
 - [Convert BST to Min Heap ](ds/BSTtoMinHeap.cpp) 
 
@@ -502,6 +504,8 @@ _add list here_
 - [Pronic Number](math/Pronic_numbers.cpp)
 - [Special Number](math/special.cpp)
 - [Harshad Number](math/HarshadNumber.cpp)
+- [Amicable Pair](math/Amicable_Pair.cpp)
+- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.cpp)
 
 ## Dynamic Programming
 

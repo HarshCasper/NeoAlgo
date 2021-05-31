@@ -28,6 +28,7 @@
 - [Stack using list](ds/stack_using_list.py)
 - [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
 - [Double Ended Queue](ds/Double_Ended_queue.py)
+- [Priority Queue](ds/priority_queue.py)
 - [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
 - [Best fit memory allocation](ds/Bestfit.py)
@@ -35,6 +36,7 @@
 - [Prefix to postfix](ds/Prefix_to_postfix.py)
 - [Lowest Common Ancestor of Binary Search Tree](ds/lowest_common_ancestor_bst.py)
 - [Reverse Queue Using Stack](ds/Reverse_queue_using_stack.py)
+
 
 ## Searching
 - [Bilinear Search](search/bilinear.py)
@@ -422,6 +424,7 @@
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 - [Pronic Number](math/Pronic_numbers.py)
 - [Positive Decimal to Binary](math/positive_decimal_to_binary.py)
+- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.py)
 
 ## Bit Manipulation
 

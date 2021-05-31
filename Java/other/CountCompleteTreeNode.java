@@ -75,7 +75,7 @@ public class CountCompleteTreeNode
         //otherwise we recursively call function 
         //for left and right roots and increment the result 
         //by 1, and return it
-        return 1 + compTreeNodes(root->left) + compTreeNodes(root->right);
+        return 1 + compTreeNodes(root.left) + compTreeNodes(root.right);
     }
 
     //driver code

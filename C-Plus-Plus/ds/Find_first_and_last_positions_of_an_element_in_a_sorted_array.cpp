@@ -80,7 +80,6 @@ int Last_positions(int a[],int n,int element)
 
 }
 
-
 /*
 
 INPUT:  

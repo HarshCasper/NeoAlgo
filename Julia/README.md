@@ -45,6 +45,7 @@
 - [Palindrome Number](math/check_palindrome.jl)
 - [Delannoy Number](math/delannoy_number.jl)
 - [Perfect Number](math/perfect_number.jl)
+- [Pronic Number](math/pronic_number.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
 - [Lucas Number](math/lucas_number.jl)
 - [N'th Catalan Number](math/catalan_number.jl)

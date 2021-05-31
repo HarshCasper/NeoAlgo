@@ -425,6 +425,7 @@
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
 - [Next smallest element to left](stack/nextSmallestToRight.cpp)
 - [Next greatest element to the left](stack/nextGreatestToLeft.cpp)
+- [Implementation of Two Stacks using single array](stack/two_stacks_using_single_array.cpp)
 
 ## Heap based problems
 

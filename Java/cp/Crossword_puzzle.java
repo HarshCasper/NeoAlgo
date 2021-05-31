@@ -241,4 +241,9 @@ ANKARA
     + + + + + N + + + +
     + + + + + D + + + +
 
+
+Time Complexity: O(2^N) 
+Space Complexity: O(N*M) 
+
+N is the number of words, M is the length of current word
 */

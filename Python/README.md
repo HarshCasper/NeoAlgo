@@ -351,6 +351,7 @@
 - [Laptop Price Prediction](ml/Laptop_Price_Prediction.ipynb)
 - [Linear Regression](ml/Linear_Regression.ipynb)
 - [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
+- [Loan Eligibility Prediction](ml/Loan_Eligibility_Prediction.ipynb)
 - [Logistic Regression](ml/Logistic_Regression.ipynb)
 - [Mobile Price Range Classification](ml/Mobile_Price_Range_Classification.ipynb)
 - [NASA Asteroids Classification](ml/NASA_Asteroids_Classification.ipynb)

@@ -93,6 +93,7 @@
 - [Binary tree to doubly linked list](cp/Binary_Tree_to_Doubly_Linked_List.cpp)
 - [Check if given Binary Tree is symmetric or not](cp/Binary_Tree_Symmetric_or_not.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
+- [Search target element in Rotated Sorted Array](cp/Search_target_element_in_Rotated_Sorted_Array.cpp)
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)

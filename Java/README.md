@@ -121,7 +121,6 @@ _add list here_
 - [Find Minimum element in Rotated and Sorted Array](cp/minimum_in_rotated_sorted_array.java)
 - [Run length encoding](Run_Length_Encoding.java)
 
-
 ## Cryptography
 
 - [Caesar Cipher](cryptography/ceaserCipher.java)
@@ -206,6 +205,7 @@ _add list here_
 - [Linear probing in Hashtable](ds/Hashtable_linear_probing.java)
 - [Prefix to Postfix](ds/Prefix_to_postfix.java)
 - [Reverse queue using stack](ds/Reverse_queue_using_stack.java)
+- [Zig Zag Traversal of Binary Tree](ds/ZigZag_Traversal_Trees.java)
 
 ## Graphs
 

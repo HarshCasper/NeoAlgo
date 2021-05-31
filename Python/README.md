@@ -361,7 +361,7 @@
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 - [Bell State creation](ml/Bell_state_creation.ipynb)
-
+- [Naive Bayes Classifier](ml\Naive_Bayes_Classifier.ipynb)
 
 ## Mathematics
 

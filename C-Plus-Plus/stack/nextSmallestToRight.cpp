@@ -5,29 +5,32 @@ ALGORITHM:
 */
 #include <bits/stdc++.h>
 using namespace std;
-void nextSmallestElement(int a[], int n)
+void nextSmallestToRight(int a[],int n)
 {
     stack<int> s;
-    s.push(a[0]);
-    for (int i = 1; i < n; i++)
+    vector<int> v;
+    for(int i=n-1;i>=0;i--)
     {
-        if (s.empty())
+        if(s.empty())
+        v.push_back(-1);
+        else if(s.empty()!=true && s.top()<a[i])
+        v.push_back(s.top());
+        else if(s.empty()!=true && s.top()>a[i])
         {
-            s.push(a[i]);
-            continue;
-        }
-        while (s.empty() != true && s.top() > a[i])
-        {
-            cout << a[i] << " ";
+            while(s.empty()!=true && s.top()>a[i])
             s.pop();
+
+            if(s.empty())
+            v.push_back(-1);
+            else if(s.top()>a[i])
+            v.push_back(s.top());
         }
         s.push(a[i]);
     }
-    while (s.empty() != true)
-    {
-        cout << -1 << " ";
-        s.pop();
-    }
+    reverse(v.begin(),v.end());
+
+    for(int i=0;i<n;i++)
+    cout<<v[i]<<" ";
 }
 int main()
 {
@@ -36,7 +39,7 @@ int main()
     int a[n];
     for (int i = 0; i < n; i++)
         cin >> a[i];
-    nextSmallestElement(a, n);
+    nextSmallestToRight(a, n);
 }
 /*
 Time Complexity:O(n^2)

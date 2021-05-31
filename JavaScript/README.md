@@ -48,6 +48,10 @@
 - [Iterative Preorder Traversal](./ds/Iterative_preorder.js)
 - [Iterative Postorder Traversal](./ds/Iterative_postorder.js)
 - [Iterative Inorder Traversal](./ds/Iterative_inorder.js)
+- [Best Fit Algorithm](./ds/bestfit.js)
+- [First Fit Algorithm](./ds/firstfit.js)
+- [Worst Fit Algorithm](./ds/worstfit.js)
+- [Radix Sort](./ds/RadixSort.js)
 
 ## Searching
 

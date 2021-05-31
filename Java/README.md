@@ -163,7 +163,7 @@ _add list here_
 - [Node to Root Path in a Binary Tree](ds/NodetoRootPath.java)
 - [Detect Loop in Linked List](ds/DetectLoopLL.java)
 - [Delete node from LinkedList](ds/DeleteElementLL.java)
-- [Fold A Linked List](ds/Fold A Linked List.java)
+- [Fold A Linked List](ds/foldALinkedList.java)
 - [Expression Tree from Postfix Expression](ds/Build_Expression_Tree.java)
 - [Huffman ENcoder](ds/Huffman.java)
 - [Linked List](ds/linkedList.java)

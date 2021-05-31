@@ -2,8 +2,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> arr[100000];    //Adjacency List storing the graph
-vector<int> vis(100000, 0); //Visited array, it stores wheather the node is visited or not
+ //Adjacency List storing the graph
+vector<int> arr[100000];   
+//Visited array, it stores wheather the node is visited or not
+vector<int> vis(100000, 0); 
 
 bool checkCycle(int src)
 {

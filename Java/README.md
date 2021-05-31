@@ -373,6 +373,7 @@ _add list here_
 - [Retrieve Binary Search Tree](other/RetrieveBTS.java)
 - [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
+- [Sum up root to the leaf number](other/SumRootToLeaf.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

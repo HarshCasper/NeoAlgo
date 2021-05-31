@@ -10,6 +10,6 @@
 # Codes in the PHP language
 
 ## Sorting Algorithms
-
+- [Selection Sort](sort/SelectionSort.php)
 - [Quick Sort](sort/quick_sort.php)
 - [Bubble Sort](sort/bubble_sort.php)

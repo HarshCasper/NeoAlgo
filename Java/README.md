@@ -151,6 +151,7 @@ _add list here_
 - [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.java)
 - [Painting fence problem](dp/Painting_fence.java)
+- [Right Side View of Binary Tree](dp/RightViewBT.java)
 
 ## Data Structures
 
@@ -372,6 +373,7 @@ _add list here_
 - [Retrieve Binary Search Tree](other/RetrieveBTS.java)
 - [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
+- [Sum up root to the leaf number](other/SumRootToLeaf.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

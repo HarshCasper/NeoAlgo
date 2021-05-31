@@ -93,6 +93,7 @@
 - [Binary tree to doubly linked list](cp/Binary_Tree_to_Doubly_Linked_List.cpp)
 - [Check if given Binary Tree is symmetric or not](cp/Binary_Tree_Symmetric_or_not.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
+- [Search target element in Rotated Sorted Array](cp/Search_target_element_in_Rotated_Sorted_Array.cpp)
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
@@ -141,6 +142,7 @@
 - [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Ninja and Cities](cp/city.cpp)
 - [Reverse individual words in a sentence without stacks](cp/reverseWords.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
@@ -181,7 +183,11 @@
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
 - [Minimum no of squares the knight cannot visit](cp/min_moves_knight_cannot_visited.cpp)
 - [Optimal Game Strategy](cp/optimal_game.cpp)
+- [Count the total number of vertices with more children than its parent](cp/total_more_child_vertices_than_parent.cpp)
 - [Run Length Encoding](cp/Run_Length_Encoding.cpp)
+- [Delete peak elements in max heap](cp/delete_peak_elements_in_maxHeap.cpp)
+- [Special Recursive Sequence](cp/special_recursive_sequence.cpp)
+
 ## Data Structures
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)
@@ -277,6 +283,7 @@
 - [Queue using Stacks](ds/Queue_using_Stacks.cpp)
 - [First Fit memory Allocation](ds/first_fit.cpp)
 - [Best Fit memory Allocation](ds/best_fit_memory.cpp)
+- [Find first and last positions of an element in a sorted array](ds/Find_first_and_last_positions_of_an_element_in_a_sorted_array.cpp)
 - [Worst Fit memory Allocation](ds/worst_fit_memory.cpp)
 - [Row with max 1s ](ds/Row_with_max_1s.cpp)
 - [Max rectangle](ds/Max_rectangle.cpp)
@@ -287,8 +294,9 @@
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
+- [Construction of Binary Tree from Inorder and Preorder Traversal](ds/BinaryTreeFromInorderAndPreorder.cpp)
 - [Side Views of The binary tree ](ds/Side_Views_of_Binary_tree.cpp)
-
+- [Convert BST to Min Heap ](ds/BSTtoMinHeap.cpp) 
 
 ## Graphs
 
@@ -302,6 +310,7 @@
 - [Boruvka's Algorithm for finding MST](graphs/Boruvka_algorithm_for_finding_MST.cpp)
 - [Celebrity Problem](graphs/celebrity_problem.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
+- [Cycle Detection in Undirected Graph using BFS](graphs/checkCycle_bfs.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 - [Depth First Search Algorithm](graphs/DFS.cpp)
@@ -385,6 +394,7 @@
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Topological Sort](sort/Topological_Sort.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
+- [Relative Sort Array](sort/Relative_Sort_Array.cpp)
 - [Stooge Sort](sort/stooge_sort.cpp)
 - [Three Way Merge Sort](sort/three_way_merge_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
@@ -423,6 +433,8 @@
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
+- [Convert BST to Min Heap](heap/BSTtoMinHeap.cpp)
+- [Convert Min Heap To Max Heap](heap/ConvertMinHeapToMax.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
 
 ## Machine Learning
@@ -444,6 +456,7 @@ _add list here_
 - [Factorial Space Optimized](math/factorial_space_optimized.cpp)
 - [Fibonacci without Recursion](math/fibonacci_space_optimized.cpp)
 - [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
+- [Hailstone Sequence](math/Hailstone_sequence.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
@@ -495,6 +508,8 @@ _add list here_
 - [Pronic Number](math/Pronic_numbers.cpp)
 - [Special Number](math/special.cpp)
 - [Harshad Number](math/HarshadNumber.cpp)
+- [Amicable Pair](math/Amicable_Pair.cpp)
+- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.cpp)
 
 ## Dynamic Programming
 
@@ -548,6 +563,9 @@ _add list here_
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [Maximize Matrix Chain Multiplication](dp/Max_MatrixChain_Multiplication.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Travelling Salesman Problem](dp/travellingSalesman.cpp)
+- [Town Planning](dp/townPlanning.cpp)
+- [Braille's Dilemma](dp/BraillesDilemma.cpp)
 - [Coin Tower](dp/coinTower.cpp)
 - [Average Submatrix > K](dp/avg_submatrix_k.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
@@ -685,3 +703,4 @@ _add list here_
 - [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)
 - [Largest Number formed from elements of the Array](other/LargestNumber.cpp)
 - [Isomorphic Strings](other/IsomorphicStrings.cpp)
+- [Maximum number of consecutive 1's produced by flipping at most K 0's](other/MaxNoOfConsecutive1'sFlipAtmostK0's.cpp)

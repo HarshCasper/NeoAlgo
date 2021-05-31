@@ -27,6 +27,7 @@
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
 - [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
+  [Bitonic Subarray](cp/Bitonic_Subarray.c)  
 - [Prefix Sum of Array](cp/prefix_sum.c)
 - [Reverse String using Recursion](cp/Reverse_String_Recursion.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)

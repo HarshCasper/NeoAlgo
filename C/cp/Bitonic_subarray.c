@@ -1,61 +1,61 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
  
-// Function to find the length of the longest bitonic subarray in an array
-int findBitonicSubarray(int A[], int n)
+int bitonic(int *arr, int n)
 {
-    // `I[i]` store the length of the longest increasing subarray,
-    // ending at `A[i]`
-    int I[n + 1];
-    I[0] = 1;
-    for (int i = 1; i <= n; i++)
-    {
-        I[i] = 1;
-        if (A[i-1] < A[i]) {
-            I[i] = I[i-1] + 1;
-        }
-    }
+    int inc[n]; // Length of increasing subarray ending at all indexes
+    int dec[n]; // Length of decreasing subarray starting at all indexes
+    int i, max;
  
-    // `D[i]` store the length of the longest decreasing subarray,
-    // starting with `A[i]`
-    int D[n + 1];
-    D[n] = 1;
-    for (int i = n - 1; i >= 0; i--)
-    {
-        D[i] = 1;
-        if (A[i] > A[i+1]) {
-            D[i] = D[i+1] + 1;
-        }
-    }
+    // length of increasing sequence ending at first index is 1
+    inc[0] = 1;
  
-    // consider each element as a peak and calculate LBS
-    int lbs_len = 1;
-    int beg = 0, end = 0;
+    // length of increasing sequence starting at first index is 1
+    dec[n-1] = 1;
  
-    for (int i = 0; i <= n; i++)
-    {
-        if (lbs_len < I[i] + D[i] - 1)
-        {
-            lbs_len = I[i] + D[i] - 1;
-            beg = i - I[i] + 1;
-            end = i + D[i] - 1;
-        }
-    }
+    // Step 1) Construct increasing sequence array
+    for (i = 1; i < n; i++)
+       inc[i] = (arr[i] >= arr[i-1])? inc[i-1] + 1: 1;
  
-    // print the longest bitonic subarray
-    printf("The length of the longest bitonic subarray is %d\n", lbs_len);
-    printf("The longest bitonic subarray is [%d, %d]", beg, end);
+    // Step 2) Construct decreasing sequence array
+    for (i = n-2; i >= 0; i--)
+       dec[i] = (arr[i] >= arr[i+1])? dec[i+1] + 1: 1;
  
-    return lbs_len;
+    // Step 3) Find the length of maximum length bitonic sequence
+    max = inc[0] + dec[0] - 1;
+    for (i = 1; i < n; i++)
+        if (inc[i] + dec[i] - 1 > max)
+            max = inc[i] + dec[i] - 1;
+ 
+    return max;
 }
  
-int main(void)
+
+int main()
 {
-    int A[] = { 3, 5, 8, 4, 5, 9, 10, 8, 5, 3, 4 };
-    int n = sizeof(A) / sizeof(A[0]);
- 
-    findBitonicSubarray(A, n - 1);
- 
+    int i,NoOfElements;
+	int *A;
+	printf("How many elements? Enter the size: ");
+	scanf("%d",&NoOfElements);
+
+	A=(int*)malloc(NoOfElements*sizeof(int));
+
+	if(A==NULL){
+		printf("ERROR: MEMORY ALLOCATION FAIL\n");
+		return 1;
+	}
+	printf("Enter %d elements",NoOfElements);
+	for (i=0; i<NoOfElements; ++i){
+		scanf("%d",&A[i]);
+	}
+
+	printf("Array elements are:\n");
+	for(i=0;i < NoOfElements;i++){
+		printf("%d\n",A[i]);
+    }
+    int n = sizeof(A)/sizeof(A[0]);
+    printf("nLength of max length Bitnoic Subarray is %d",
+            bitonic(A, n));
     return 0;
 }
-
 

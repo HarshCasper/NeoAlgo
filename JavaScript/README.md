@@ -115,6 +115,7 @@
 - [Reverse a String](./cp/ReverseString.js)
 - [Max Water Container](./cp/WaterContainer.js)
 - [Backspace String Compare](./cp/BackspaceCompare.js)
+- [Sieve of Eratosthenes ](./cp/SieveofEratosthenes.js)
 
 ## Dynamic Programming
 

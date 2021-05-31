@@ -156,6 +156,7 @@
 - [Trapping rain water](cp/Trapping_rain_water.py)
 - [Max of Adjacent Elements Product](cp/adjacent_elements_product.py)
 - [Generating Power Set](cp/Generating_Power_Set.py)
+- [Run Length Encoding](cp/Run_Length_Encoding.py)
 
 ## Cryptography
 

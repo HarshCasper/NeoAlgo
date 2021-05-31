@@ -1,7 +1,7 @@
 '''
 The rob function takes an array as input 
 and returns total amount that can be robbed. 
-Problem link: https://leetcode.com/problems/house-robber/'
+
 '''
 
 def rob(nums):
@@ -31,7 +31,10 @@ def main():
 
 main()
 
-# Complexity - Runtime O(N), Space O(N); N = length of array 
+# Complexity - 
+
+# Time O(N), 
+# Space O(N); N = length of array 
 
 # Sample input/output
 #input: nums = [2, 7, 9, 3, 1]
@@ -39,3 +42,4 @@ main()
 
 #input: nums = [1, 2, 3, 1]
 #Output: 4
+

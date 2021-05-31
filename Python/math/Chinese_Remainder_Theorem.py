@@ -5,24 +5,9 @@ Chinese Remainder Theorem: In number theory, the Chinese remainder theorem
         the remainder of the division of n by the product of these integers,
         under the condition that the divisors are pairwise coprime.
 
-Purpose: Given an array of Co-Prime numbers(num) and an array of desired
-        remainders(rem) of length N, find the minimum value X such that:
-            x % num[0] = rem[0]
-            x % num[1] = rem[0]
-            . . . . . . . .
-            . . . . . . . .
-            x % num[N-1] = rem[N-1]
-
 Method : Chinese Remainder Theorem / Inverse Modulo Implementation
 
-Time Complexity : O(N^2)
-Space Complexity: O(N)
-
-Argument : 2 List  ( num and rem)
-Return   : Integer ( Minimum X)
-
 """
-
 
 def multiply_fun(li):
     result = 1
@@ -74,6 +59,11 @@ if __name__ == "__main__":
 
     print("x = ", ans)
 
+'''
+Time Complexity : O(N^2)
+Space Complexity: O(N)
+'''
+
 """
 Sample Input / Output
 
@@ -88,3 +78,4 @@ Enter value of coprime divisors : 5 4 3 7 11
 Enter value of remainders : 1 2 3 4 5
 x =  1446.0
 """
+

@@ -267,6 +267,8 @@ _add list here_
 - [Generalized Cullen Number](math/cullen_number.java)
 - [Median of Running Streams](math/Findmedian.java)
 - [Amicable Pair](math/Amicable_Pair.java)
+- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.java)
+
 ## Dynamic Programming
 
 - [Climb Stairs With Minimum Moves](dp/Climb_Stairs_With_Minimum_Moves.java)

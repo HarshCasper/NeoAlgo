@@ -690,3 +690,4 @@ _add list here_
 - [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)
 - [Largest Number formed from elements of the Array](other/LargestNumber.cpp)
 - [Isomorphic Strings](other/IsomorphicStrings.cpp)
+- [Picking Toys -Sliding Window Problem](other/Picking_Toys_Sliding_Window_Problem.cpp)

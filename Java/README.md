@@ -217,6 +217,7 @@ _add list here_
 - [Recursion Counting of Substring in given String](other/RecursionCount.java)
 - [Search Insert Position](other/Search_insert_index.java)
 - [Sudoku solver](other/SudokuSolver.java)
+- [Sum up left leaves of the tree](other/SumOfLeftLeaves.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)
 - [Unique 3](other/UniqueIII.java)

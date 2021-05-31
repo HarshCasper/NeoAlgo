@@ -360,6 +360,7 @@
 - [Solar Radiation Prediction](ml/Solar_Radiation_Prediction.ipynb)
 - [Questions to Subject Classification](ml/Questions_to_Subject_Classification.ipynb)
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
+- [Startup Profit Prediction](ml/Startup_Profit_Prediction.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 - [Bell State creation](ml/Bell_state_creation.ipynb)
 - [White Wine Quality Prediction](ml/White_Wine_Quality_Prediction.ipynb)

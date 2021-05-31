@@ -5,16 +5,23 @@ import random
 
 """ sequential implementation of merge sort """
 def sequential_mergesort(array, *args):
-    if not args: # first call
+    # first call
+    if not args: 
         sequential_mergesort(array, 0, len(array)-1)
-        return array # return the sorted array
-    else: # recursive call
+        # return the sorted array
+        return array 
+        # recursive call
+    else: 
         left, right = args
         if (left < right):
-            mid = left + ((right - left) // 2) # find the middle point
-            sequential_mergesort(array, left, mid) # sort the left half
-            sequential_mergesort(array, mid+1, right) # sort the right half
-            merge(array, left, mid, right) # merge the two sorted halves
+            # find the middle point
+            mid = left + ((right - left) // 2) 
+            # sort the left half
+            sequential_mergesort(array, left, mid) 
+            # sort the right half
+            sequential_mergesort(array, mid+1, right) 
+            # merge the two sorted halves
+            merge(array, left, mid, right) 
 
 """ helper method to merge two sorted subarrays
     array[l..m] and array[m+1..r] into array """
@@ -35,10 +42,12 @@ def merge(array, left, mid, right):
             else:
                 array[merge_index] = right_temp_arr[right_temp_index]
                 right_temp_index += 1
-        elif (left_temp_index < (mid - left + 1)): # copy any remaining on left side
+                # copy any remaining on left side
+        elif (left_temp_index < (mid - left + 1)): 
             array[merge_index] = left_temp_arr[left_temp_index]
             left_temp_index += 1
-        elif (right_temp_index < (right - mid)): # copy any remaining on right side
+            # copy any remaining on right side
+        elif (right_temp_index < (right - mid)): 
             array[merge_index] = right_temp_arr[right_temp_index]
             right_temp_index += 1
         merge_index += 1
@@ -57,12 +66,15 @@ if __name__ == '__main__':
     strfinalSortResult =','.join([str(i) for i in sequential_result])
     print('final sorted array is : '+ strfinalSortResult)
 
-    # input/output sample
-    # Enter your range for generating random array: 10
-    # Generating Random Array...
-    # Random Array to Sort is : 1807,7508,7166,7673,2000,1356,7665,4670,9395,6002
-    # Evaluating Parallel Implementation...
-    # final sorted array is : 1356,1807,2000,4670,6002,7166,7508,7665,7673,9395
-    # Time Complexity: O(nLog(n)) in worst case
-	#Space Complexity: O(n) in worst case
+'''
+ input/output sample
+ Enter your range for generating random array: 10
+ Generating Random Array...
+ Random Array to Sort is : 1807,7508,7166,7673,2000,1356,7665,4670,9395,6002
+ Evaluating Parallel Implementation...
+ final sorted array is : 1356,1807,2000,4670,6002,7166,7508,7665,7673,9395
+ Time Complexity: O(nLog(n)) in worst case
+Space Complexity: O(n) in worst case
     
+'''
+

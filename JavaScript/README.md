@@ -51,6 +51,7 @@
 - [Best Fit Algorithm](./ds/bestfit.js)
 - [First Fit Algorithm](./ds/firstfit.js)
 - [Worst Fit Algorithm](./ds/worstfit.js)
+- [Radix Sort](./ds/RadixSort.js)
 - [Shell Sort](./ds/ShellSort.js)
 
 ## Searching

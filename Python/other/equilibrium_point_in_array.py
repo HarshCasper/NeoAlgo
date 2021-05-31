@@ -46,6 +46,10 @@ if __name__ == "__main__":
         
         
 """
+
+Time complexity: O(n)
+Space complexity: O(n)
+
 Test case 1
 Input:
 Enter elements of the array: 1 2 3 4 5

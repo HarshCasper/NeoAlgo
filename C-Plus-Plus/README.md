@@ -179,6 +179,7 @@
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 - [Minimum cost to construct temple](cp/min_cost_to_construct_temple.cpp)
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
+- [Minimum no of squares the knight cannot visit](cp/min_moves_knight_cannot_visited.cpp)
 - [Optimal Game Strategy](cp/optimal_game.cpp)
 - [Run Length Encoding](cp/Run_Length_Encoding.cpp)
 ## Data Structures

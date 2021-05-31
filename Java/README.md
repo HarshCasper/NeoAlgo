@@ -372,6 +372,7 @@ _add list here_
 - [Remove the key element from the array](other/remove_element_from_array.java)
 - [Retrieve Binary Search Tree](other/RetrieveBTS.java)
 - [Search Insert Position](other/Search_insert_index.java)
+- [Convert Sorted Array to Binary Search Tree](other/SortedArrayToBST.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Sum up root to the leaf number](other/SumRootToLeaf.java)
 - [Swap Nibbles](other/SwapNibbles.java)

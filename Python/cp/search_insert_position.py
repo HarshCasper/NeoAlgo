@@ -4,10 +4,6 @@ return the index if the target is found.
 If not, return the index where it would be if it were inserted in order.
 You may assume no duplicates in the array.
 
-Example 1:
-Input: [1,3,5,6], 5
-Output: 2
-
 """
 # taking the input from the user
 
@@ -29,3 +25,17 @@ else:
         "Number not found. It can be inserted at index {}.".format(a)
     )  # printing the target index
 
+'''
+Time complexity : O(N)
+Space complexity : O(N)
+'''
+
+'''
+Test Case :
+
+Input: 
+ Enter the elements in the list:[1,3,5,6]
+ Enter the Element whose index has to be found: 5
+Output:
+The number is present at the index {}. 2
+'''

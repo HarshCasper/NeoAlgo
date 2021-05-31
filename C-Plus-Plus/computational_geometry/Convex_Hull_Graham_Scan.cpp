@@ -9,67 +9,63 @@
        of the boundary.
 */
 
-
-
-
-
-
-#include <iostream> 
-#include<algorithm>
-#include<vector>
-#include<stack>
-#include<cmath>
+#include <bits/stdc++.h>
 #define e 1e-10
 #define x first
 #define y second
 
 using namespace std;
-
-typedef struct point      //structure for the coordinates
+//structure for the coordinates
+typedef struct point
 {
-   double x,y;           // comparison is done first on y coordinate and then on x coordinate.
-} 
-point;
+    // comparison is done first on y coordinate and then on x coordinate.
+    double x, y;
+} point;
 
-vector <point>plane;
+vector<point> plane;
 
 stack<point> hull;
 
 double area(point a, point b, point c)
 {
     return (a.x - b.x) * (b.y - c.y) - (a.y - b.y) * (b.x - c.x);
-
 }
-double dis(point a, point b)          //returns euclidean distance between two points.
+//returns euclidean distance between two points.
+double dis(point a, point b)
 {
     return sqrt((a.x = b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
 }
-bool cmp(point a, point b)           // for comparing points based on their orientation.
+// for comparing points based on their orientation.
+bool cmp(point a, point b)
 {
-    if (area(plane[0], a, b) < -e){
-    return 0;
+    if (area(plane[0], a, b) < -e)
+    {
+        return 0;
     }
-    if (area(plane[0], a, b) > e){
+    if (area(plane[0], a, b) > e)
+    {
         return 1;
     }
     return dis(a, plane[0]) < dis(b, plane[0]);
-
 }
 
 int main()
 
 {
-   cout<<"enter the desired number of points\n";
-    int n;                         // the number of coordinates to be entered
+    cout << "enter the desired number of points\n";
+    // the number of coordinates to be entered
+    int n;
     point tmp;
     cin >> n;
-    cout<<"enter the points\n";
+    cout << "enter the points\n";
     plane.resize(n);
-    for (int i = 0; i < n; i++)    //entering the desired points for determining the convex hull
+    //entering the desired points for determining the convex hull
+    for (int i = 0; i < n; i++)
     {
 
         cin >> plane[i].x >> plane[i].y;
-        if (i) {
+        if (i)
+        {
             if (plane[i].x < plane[0].x)
                 swap(plane[i], plane[0]);
         }
@@ -77,31 +73,31 @@ int main()
     sort(plane.begin() + 1, plane.end(), cmp);
     hull.push(plane[0]);
     hull.push(plane[1]);
-    for (int i = 2; i < n; i++) {
+    for (int i = 2; i < n; i++)
+    {
         tmp = hull.top();
         hull.pop();
-        while (hull.size() && area(plane[i], tmp, hull.top()) > -e) {
+        while (hull.size() && area(plane[i], tmp, hull.top()) > -e)
+        {
             tmp = hull.top();
             hull.pop();
         }
         hull.push(tmp);
         hull.push(plane[i]);
-
     }
-    cout<<"\n The following vertices form the convex hull:\n";
-    while (!hull.empty()) {
+    cout << "\n The following vertices form the convex hull:\n";
+    while (!hull.empty())
+    {
         cout << hull.top().x << " , " << hull.top().y << endl;
         hull.pop();
-}    }
-
-
+    }
+}
 
 /*Time Complexity: O(nLogn), if total points = n*/
 /*Worst case time complexity: Θ(N log N)
 Average case time complexity: Θ(N log N)
 Best case time complexity: Θ(N log N)
 Space complexity: Θ(N)*/
-
 
 /* Test Case 1:
 Sample Input :
@@ -125,3 +121,4 @@ The following vertices form the convex hull:
 0,0
 0,3
 */
+

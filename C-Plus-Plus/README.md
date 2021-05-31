@@ -93,6 +93,7 @@
 - [Binary tree to doubly linked list](cp/Binary_Tree_to_Doubly_Linked_List.cpp)
 - [Check if given Binary Tree is symmetric or not](cp/Binary_Tree_Symmetric_or_not.cpp)
 - [Generate all combinations of well-formed parentheses](cp/Generate_all_valid_parentheses_combinations.cpp)
+- [Search target element in Rotated Sorted Array](cp/Search_target_element_in_Rotated_Sorted_Array.cpp)
 - [Conversion of Binary Number to Decimal Number](cp/Conversion_from_Binary_to_Decimal.cpp)
 - [Painting Fence Algorithm](cp/Paint_Fence.cpp)
 - [All String permutation by using recursion](cp/recursion_string_permutation.cpp)
@@ -179,7 +180,10 @@
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 - [Minimum cost to construct temple](cp/min_cost_to_construct_temple.cpp)
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
+- [Minimum no of squares the knight cannot visit](cp/min_moves_knight_cannot_visited.cpp)
 - [Optimal Game Strategy](cp/optimal_game.cpp)
+- [Count the total number of vertices with more children than its parent](cp/total_more_child_vertices_than_parent.cpp)
+- [Run Length Encoding](cp/Run_Length_Encoding.cpp)
 
 ## Data Structures
 
@@ -288,7 +292,6 @@
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
 - [Side Views of The binary tree ](ds/Side_Views_of_Binary_tree.cpp)
 
-
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
@@ -301,6 +304,7 @@
 - [Boruvka's Algorithm for finding MST](graphs/Boruvka_algorithm_for_finding_MST.cpp)
 - [Celebrity Problem](graphs/celebrity_problem.cpp)
 - [Check for bipartite graph](graphs/Check_for_bipartite_graph.cpp)
+- [Cycle Detection in Undirected Graph using BFS](graphs/checkCycle_bfs.cpp)
 - [Cycle Detection in a Directed Graph](graphs/DirectedCycleDetection.cpp)
 - [Cycle Detection in Graph](graphs/detect_cycle.cpp)
 - [Depth First Search Algorithm](graphs/DFS.cpp)
@@ -384,6 +388,7 @@
 - [Topological Sort](sort/Topological_Sorting_DFS.cpp)
 - [Topological Sort](sort/Topological_Sort.cpp)
 - [Sleep Sort](sort/sleep_sort.cpp)
+- [Relative Sort Array](sort/Relative_Sort_Array.cpp)
 - [Stooge Sort](sort/stooge_sort.cpp)
 - [Three Way Merge Sort](sort/three_way_merge_sort.cpp)
 - [Wave Sort](sort/wave_sort.cpp)
@@ -411,6 +416,7 @@
 - [Checking if a linked list is palindromic](stack/palindromic_list.cpp)
 - [Check palindrome using stack](stack/CheckPalindrome.cpp)
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
+- [Next smallest element to left](stack/nextSmallestToRight.cpp)
 - [Next greatest element to the left](stack/nextGreatestToLeft.cpp)
 
 ## Heap based problems
@@ -442,6 +448,7 @@ _add list here_
 - [Factorial Space Optimized](math/factorial_space_optimized.cpp)
 - [Fibonacci without Recursion](math/fibonacci_space_optimized.cpp)
 - [Find Smallest Prime Factor](math/smallest_prime_factor.cpp)
+- [Hailstone Sequence](math/Hailstone_sequence.cpp)
 - [Hamming Distance](math/Hamming_Distance.cpp)
 - [Number is Power of 2](math/Check_whether_a_number_is_power_of_2.cpp)
 - [Palindrome Number](math/check_palindrome.cpp)
@@ -547,6 +554,7 @@ _add list here_
 - [Maximize Matrix Chain Multiplication](dp/Max_MatrixChain_Multiplication.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
 - [Town Planning](dp/townPlanning.cpp)
+- [Braille's Dilemma](dp/BraillesDilemma.cpp)
 - [Coin Tower](dp/coinTower.cpp)
 - [Average Submatrix > K](dp/avg_submatrix_k.cpp)
 - [Catalan Number](dp/Catalan_DP.cpp)
@@ -571,6 +579,7 @@ _add list here_
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
 - [Find duplicate elements using XOR](Bit--Manipulation/Find_duplicate_elements_using_XOR.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
+- [Non Repeating Integers](Bit--Manipulation/Non_Repeating_Integer.cpp)
 - [Minimum XOR value](Bit--Manipulation/Minimum_XOR_Value.cpp)
 - [All possible subset of a set](Bit--Manipulation/all_possible_subset_of_a_set.cpp)
 

@@ -502,6 +502,7 @@ _add list here_
 - [Pronic Number](math/Pronic_numbers.cpp)
 - [Special Number](math/special.cpp)
 - [Harshad Number](math/HarshadNumber.cpp)
+- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.cpp)
 
 ## Dynamic Programming
 

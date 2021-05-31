@@ -107,6 +107,8 @@ _add list here_
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 - [Rat In A Maze](cp/RatInAMaze.java)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
+- [Next Smallest Element to the Left](cp/nextSmallestToLeft.java)
+- [Next Smallest element to right](cp/NextSmallestToRight.java)
 - [Next Greater Element to Left using stacks](cp/nextGreaterElementLeft.java)
 - [Next smallest element to right](cp/NextSmallestToRight.java)
 - [Ckeck for Subarray with sum 0](cp/SubarraySumZero.java)

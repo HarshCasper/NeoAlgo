@@ -1,52 +1,9 @@
 """
-Dijkstra's Algorithm: It is a path finding which uses priority queue or heap
-        data structure for its implementation. For Dijkstra’s algorithm,
-        it is always recommended to use heap (or priority queue) as the
-        required operations (extract minimum and decrease key) match with
-        speciality of heap (or priority queue). However, the problem is, heap
-        doesn’t support decrease key. To resolve this problem, do not update a key,
-        but insert one more copy of it. So we allow multiple instances of same vertex
-        in heap.
-
 Purpose: Given a binary matrix of N*M order where 0 is the wall and 1 is the way.
         Find the shortest distance from a source cell to a destination cell,
         traversing through limited cells only. Also, you can move only
         up, down, left and right. If found then print the distance and
         path in separate lines, else return -1.
-
-Method : Dijkstra's Algorithm
-Intuition : To implement Dijkstra's Algorithm using heap,
-        we use the following steps
-        1) Initialize distances of all vertices as infinite.
-        2) Create an empty heap hp.  Every item
-            of hp is a pair (weight, vertex). Weight (or
-            distance) is used as first item  of pair
-            as first item is by default used to compare
-            two pairs
-        3) Insert source vertex into hp and make its
-            distance as 0.
-        4) While either hp doesn't become empty
-            a) Extract minimum distance vertex from hp.
-                Let the extracted vertex be u.
-            b) Loop through all adjacent of u and do
-                following for every vertex v.
-
-           // If there is a shorter path to v
-           // through u.
-                If dist[v] > dist[u] + weight(u, v)
-                    (i) Update distance of v, i.e., do
-                         dist[v] = dist[u] + weight(u, v)
-                    (ii) Insert v into the pq (Even if v is
-                        already there)
-
-        5) Print the path lengths and induce the path using the parent
-            dictionary.
-
-Time Complexity:  O(N*M)
-Space Complexity: O(N*M)
-
-Argument: 2-d list, tuple, tuple   (Maze, Source, Destination)
-Return  : Integer, String          (Distance, Path)
 
 """
 from heapq import heappop, heappush
@@ -153,6 +110,11 @@ if __name__ == "__main__":
         print("Path: ", path)
 
 """
+
+Time Complexity:  O(N*M)
+Space Complexity: O(N*M)
+
+
 Sample Input / Output
 
 Enter the Dimension of the maze:- 5 5
@@ -192,3 +154,4 @@ Enter the Destination cell: 4 7
 Disance=  25
 Path:  DDDDRRRRRUULLLUURRRRRDDDD
 """
+

@@ -180,7 +180,7 @@
 - [Minimum cost to construct temple](cp/min_cost_to_construct_temple.cpp)
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
 - [Optimal Game Strategy](cp/optimal_game.cpp)
-
+- [Run Length Encoding](cp/Run_Length_Encoding.cpp)
 ## Data Structures
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)

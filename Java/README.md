@@ -98,6 +98,7 @@ _add list here_
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 - [Rat In A Maze](cp/RatInAMaze.java)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
+- [Next Smallest Element to the Left](cp/nextSmallestToLeft.java)
 
 ## Cryptography
 

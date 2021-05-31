@@ -109,6 +109,8 @@ _add list here_
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
 - [Next Smallest Element to the Left](cp/nextSmallestToLeft.java)
 - [Next Smallest element to right](cp/NextSmallestToRight.java)
+- [Next Greater Element to Left using stacks](cp/nextGreaterElementLeft.java)
+- [Next smallest element to right](cp/NextSmallestToRight.java)
 - [Ckeck for Subarray with sum 0](cp/SubarraySumZero.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 - [Trapping Rain Water II](cp/Trapping_rain_water_2D.java)

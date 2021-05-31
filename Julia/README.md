@@ -26,6 +26,7 @@
 ## Dynamic Programming
 
 - [Cutting A Rod](dp/cutting_a_rod.jl)
+- [Count Derangements](dp/count_derangements.jl)
 - [Golomb Sequence](dp/golomb_sequence.jl)
 - [Fibbonaci Number](dp/fibonacci.jl)
 - [Longest Common Substring](dp/length_longest_common_substring.jl)
@@ -40,9 +41,11 @@
 
 - [Armstrong Number](math/armstrong_number.jl)
 - [Automorphic Number](math/automorphic_number.jl)
+- [Eulerian Number](math/eulerian_number.jl)
 - [Palindrome Number](math/check_palindrome.jl)
 - [Delannoy Number](math/delannoy_number.jl)
 - [Perfect Number](math/perfect_number.jl)
+- [Pronic Number](math/pronic_number.jl)
 - [Krishnamurthy Number](math/krishnamurthy_number.jl)
 - [Lucas Number](math/lucas_number.jl)
 - [N'th Catalan Number](math/catalan_number.jl)
@@ -57,6 +60,7 @@
 - [Sum of Divisors](math/sum_of_divisors.jl)
 - [Stern's Diatomic Series](math/sterns_diatomic_series.jl)
 - [Tower of Hanoi](math/towerOfHanoi.jl)
+- [Tribonacci Series](math/tribonacci.jl)
 
 ## Searching
 

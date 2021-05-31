@@ -19,6 +19,7 @@
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Reverse Linked List](ds/Reverse_linked_list.py)
 - [Binary Search Tree](ds/BinarySearchTree.py)
+- [Binary Search Tree (Level Order Traversal)](ds/BST_Level_Order_Traversal.py)
 - [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
 - [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
 - [Identical BSTs](ds/identical_binary_tree.py)
@@ -28,14 +29,30 @@
 - [Stack using list](ds/stack_using_list.py)
 - [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
 - [Double Ended Queue](ds/Double_Ended_queue.py)
+- [Priority Queue](ds/priority_queue.py)
 - [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
 - [Best fit memory allocation](ds/Bestfit.py)
 - [Reverse First K elements of Queue](ds/Reverse_First_K_elements_of_Queue.py)
 - [Prefix to postfix](ds/Prefix_to_postfix.py)
+- [Lowest Common Ancestor of Binary Search Tree](ds/lowest_common_ancestor_bst.py)
+- [Reverse Queue Using Stack](ds/Reverse_queue_using_stack.py)
+
 
 ## Searching
-
+- [Bilinear Search](search/bilinear.py)
+- [Binary Search](search/binarysearch.py)
+- [Breadth First Search](search/bfs.py)
+- [Depth First Search](search/dfs.py)
+- [Fibonacci Search](search/fibonacci_search.py)
+- [Linear Search](search/Linear_Search.py)
+- [Random Search Las vegas version](search/random_search_las_vegas.py)
+- [Sublinear Search](search/Sublinear_search.ipynb)
+- [Exponential Search](search/exponential_search.py)
+- [Binary Search Iterative](search/binarysearch_iterative.py)
+- [Unbounded Binary Search](search/unbounded_binary_search.py) 
+- [8 Puzzle Problem (BFS)](search/8_Puzzle_Problem_using_BFS.py)
+- [8 Puzzle Problem (A* Algorithm)](search/8_Puzzle_Problem_using_A_star_Algorithm.py)
 - [Bilinear Search](search/bilinear.py)
 - [Binary Search](search/binarysearch.py)
 - [Breadth First Search](search/bfs.py)
@@ -64,6 +81,7 @@
 - [Intro Sort](sort/IntroSort.py)
 - [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
 - [Merge Sort Parallel](sort/Parallel_MergeSort.py)
+- [Tim Sort](sort/TimSort.py)
 
 ## Graphs
 
@@ -142,6 +160,7 @@
 - [Trapping rain water](cp/Trapping_rain_water.py)
 - [Max of Adjacent Elements Product](cp/adjacent_elements_product.py)
 - [Generating Power Set](cp/Generating_Power_Set.py)
+- [Run Length Encoding](cp/Run_Length_Encoding.py)
 
 ## Cryptography
 
@@ -159,6 +178,7 @@
 - [Rail Fence Cipher](cryptography/Rail_Fence_Cipher.py)
 - [Hill Cipher](cryptography/HillCipher.py)
 - [Monoalphabetic Cipher](cryptography/monoalphabeticcipher.py)
+- [Diffie Helman Protocol](cryptography/Diffie_Helman_Protocol.py)
 
 ## Searching
 
@@ -200,9 +220,11 @@
 - [Tree Sort](sort/Tree_Sort.py)
 - [Wiggle Sort](sort/Wiggle_sort.py)
 - [Counting Sort](sort/Counting_Sort.py)
+- [Tim Sort](sort/TimSort.py)
 
 ## Backtracking
 
+- [Cryptarithmetic Problem](backtracking/Cryptarithmetic_Problem.py)
 - [N Queens Problem](backtracking/N_Queens.py)
 - [Knight's Tour](backtracking/Knight's_Tour.py)
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
@@ -241,6 +263,8 @@
 - [Subset Sum](dp/subset_sum.py)
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
+- [Coin Tower](dp/coinTower.py)
+- [House Robber](dp/House_Robber.py)
 - [Catalan Number](dp/Catalan_DP.py)
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.py)
 
@@ -275,6 +299,7 @@
 - [Bellman Ford](graphs/Bellman_Ford.py)
 - [Rotten Oranges](graphs/Rotten_Oranges.py)
 - [Top view of binary tree](graphs/top_view_binary_tree.py)
+- [Warshall Algorithm](graphs/warshall.py)
 
 ## Competitive Programming
 
@@ -320,17 +345,30 @@
 - [Ames House Price Prediction](ml/Ames_House_Price_Prediction.ipynb)
 - [Churn Risk Score Prediction](ml/Churn_Risk_Score_Prediction.ipynb)
 - [Decision Tree](ml/DecisionTree_From_Scratch.ipynb)
+- [E-Mail Classification](ml/E-Mail_Classification.ipynb)
+- [Flight Delay Prediction](ml/Flight_Delay_Predictions.ipynb)
+- [Ice Cream Revenue Prediction](ml/Ice_Cream_Revenue_Prediction.ipynb)
+- [Income Classification](ml/Income_Classification.ipynb)
 - [Iris Classifier using Keras](ml/Iris_Classifier_using_Keras.ipynb)
 - [K Nearest Neighbor](ml/K_nearest_neighbors.ipynb)
+- [Laptop Price Prediction](ml/Laptop_Price_Prediction.ipynb)
 - [Linear Regression](ml/Linear_Regression.ipynb)
 - [Linear Regression using PyTorch](ml/Linear_Regression_using_PyTorch.ipynb)
+- [Loan Eligibility Prediction](ml/Loan_Eligibility_Prediction.ipynb)
 - [Logistic Regression](ml/Logistic_Regression.ipynb)
+- [Mobile Price Range Classification](ml/Mobile_Price_Range_Classification.ipynb)
+- [NASA Asteroids Classification](ml/NASA_Asteroids_Classification.ipynb)
+- [Naive Bayes Algorithm from Scratch](ml/Naive_Bayes_from_Scratch.py)
 - [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
+- [Solar Radiation Prediction](ml/Solar_Radiation_Prediction.ipynb)
+- [Questions to Subject Classification](ml/Questions_to_Subject_Classification.ipynb)
 - [Support Vector Machine](ml/Support_Vector_Machine.ipynb)
+- [Startup Profit Prediction](ml/Startup_Profit_Prediction.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 - [Bell State creation](ml/Bell_state_creation.ipynb)
-
+- [Naive Bayes Classifier](ml\Naive_Bayes_Classifier.ipynb)
+- [White Wine Quality Prediction](ml/White_Wine_Quality_Prediction.ipynb)
 
 ## Mathematics
 
@@ -372,6 +410,7 @@
 - [Natural Algorithm](math/Natural_Logarithm_Algorithm.py)
 - [K-th Largest Number](math/K_largest.py)
 - [Transpose of matrix](math/Matrix_transpose.py)
+- [Tribonacci](math/tribonacci.py)
 - [Neon Number](math/Neon_number.py)
 - [Matrix addition](math/Matrix_addition.py)
 - [Matrix Multiplication](math/Matrix_multiplication.py)
@@ -386,6 +425,8 @@
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 - [Pronic Number](math/Pronic_numbers.py)
+- [Positive Decimal to Binary](math/positive_decimal_to_binary.py)
+- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.py)
 
 ## Bit Manipulation
 
@@ -445,10 +486,12 @@ _add list here_
 - [Union of two arrays](other/Union_of_two_arrays.py)
 - [Array Rolation](other/Program_to_rotation_array.py)
 - [Tower of Hanoi](other/Tower_of_Hanoi.py)
+- [Count Articles](other/Count_Articles.py)
 - [Wave Array](other/Wave_Array.py)
 - [Merge Interval](other/merge_interval.py)
 - [Kth index removal](other/stringkth.py)
 - [Display all possible keypad sequences for a given number](other/KeypadSequence.py)
 - [Arrange The String](other/Arrange_The_String.py)
+- [Finding equilibrium point in the array](other/equilibrium_point_in_array.py)
 
 ## [Coding Template for Contribution](Code_Template.md)

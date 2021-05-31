@@ -27,6 +27,7 @@
 - [Count of distinct elements in every window](cp/Count_Distinct_Elements_in_Every_Window.c)
 - [Longest substring without repeating characters](../C-Plus-Plus/cp/Longest_substring_without_repeating_chars.cpp)
 - [Maximum Sum Subarray](cp/max_sum_subarray.c)
+  [Bitonic Subarray](cp/Bitonic_Subarray.c)  
 - [Prefix Sum of Array](cp/prefix_sum.c)
 - [Reverse String using Recursion](cp/Reverse_String_Recursion.c)
 - [Knutt Morris Prat](cp/Knutt_Morris_Prat.c)
@@ -134,8 +135,11 @@
 - [Reverse Queue using stack](ds/reverse-queue.c)
 - [Postfix to Infix Conversion](ds/postfixToInfix.c)
 - [Prefix to Postfix Conversion](ds/prefix-to-postfix.c)
-- [Morris Order Traversal ] (ds/Morris.c)
-- [Hash Table Implementation](ds/hashtable.c)
+-[Bitonic Point in Linked List](ds/BitonicPoint.c)
+- [Mirror of a Binary Tree](ds/Mirror_BinaryTree.c)
+- [XOR Linked List](ds/XOR.c)
+- [Morris Order Traversal](ds/Morris.c)
+
 
 
 ## Searching
@@ -209,6 +213,7 @@
 - [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.c)
 - [Adjacency List](graphs/Adjacency_List.c)
 - [Warshall Algorithm](graphs/warshall.c)
+- [Celebrity Problem](graphs/celebrity_problem.c)
 
 ## Bit - Manipulation
 
@@ -217,6 +222,7 @@
 - [Count number of set bits in a number](Bit--Manipulation/count_num_of_set_bits.c)
 - [Rotate bits of a Number](Bit--Manipulation/rotate_bits.c)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.c)
+- [Minimum XOR value](Bit--Manipulation/minimum_xor_value.c)
 
 ## Computational Geometry
 
@@ -266,6 +272,7 @@ _add list here_
 - [Decimal to Hexadecimal conversion](math/Decimal_to_Hex.c)
 - [Polynomial Addition](math/polynomial_addition.c)
 - [Polynomial Multiplication](math/polynomial_multiplication.c)
+- [Tribonacci Series](math/tribonacci.c)
 - [Special Number](math/special.c)
 - [Pronic Number](math/Pronic_numbers.c)
 - [Quadratic Equation](math/Quadratic_Equation.c)

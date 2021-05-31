@@ -28,6 +28,7 @@
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
+  [Continuous_Seq](cp/Continuous_Seq.cpp)  
 - [Generic Function for Swapping](cp/Generic_Swaps.cpp)
 - [Adjacent Difference Algorithm](cp/adjacent.cpp)
 - [Recursive Modular Exponentiation](cp/power.cpp)

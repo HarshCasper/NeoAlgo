@@ -281,6 +281,7 @@ _add list here_
 - [Unique BST](dp/Unique_BST.java)
 - [Job Sequencing to Maximize Profit](dp/JobSequencingToMaximizeProfit.java)
 - [Matrix Chain Multiplication to find the minimum cost](dp/MatrixChainMultiplication.java)
+- [Shortest common supersequence](dp/shortestSupersequence.java)
 - [Perfect Sum Problem](dp/PerfectSumProblem.java)
 - [Floyd Warshall Algorithm](dp/FloydWarshallAlgorithm.java)
 - [Subset Sum to Target](dp/SubsetSumToTarget.java)

@@ -1,3 +1,17 @@
+""" Demonstartion of Priority Queue in Python.
+
+Priority Queue is an extension of queue with some additional properties-
+-> Every item has a priority associated with it.
+-> An element with high priority is dequeued before an element with low priority.
+-> If two elements have the same priority, they are served according to their order in the queue.
+
+A priority queue supports following main operations:
+-> insert_into(item, priority): Inserts an item with given priority.
+-> get_min(): Returns the lowest priority item.
+-> remove_min(): Removes the lowest priority item.
+"""
+
+
 class PriorityQueueNode:
     """
     Node class for PriorityQueue.
@@ -108,12 +122,61 @@ class PriorityQueue:
 
 if __name__ == "__main__":
     pq1 = PriorityQueue()
-    size=int(input("Enter the number of values to initialise the priority queue with: "))
-    print("Enter values to push in the queue along with it's priority: ")
-    value=[]
+    """initialise the priority queue object.
+    """
+    size = int(input("Enter the size of the priority queue: "))
+    print("Enter space-separated value and priority to push into the queue: ")
+    """Enter two space separated values.
+    The first value is the value to be pushed in the priority queue
+    and the second value is it's priority
+    """
+    value = []
     for i in range(size):
-    	value.append([ele for ele in input().split()])
+        value.append([ele for ele in input().split()])
+        """all the values along with their priority are inserted into a list"""
     for i in range(len(value)):
-        pq1.insert_into_pq(value[i][0],value[i][1])
+        pq1.insert_into_pq(value[i][0], value[i][1])
+        """all the values are being inserted into the queue according to their priority"""
     for i in range(pq1.get_size()):
-        print(pq1.remove_min(),end=" ")
+        print(pq1.remove_min(), end=" ")
+
+"""Space-Time Complexity Analysis:
+
+->insert_into()
+Time-Complexity: O(logN)
+Space-Complexity: O(1)
+
+->get_min():
+Time-Complexity: O(logN)
+Space-Complexity: O(1)
+
+->remove_min():
+Time-Complexity: O(logN)
+Space-Complexity: O(1)
+"""
+
+"""Test-Cases:
+>>>
+Input:
+Enter the size of the priority queue: 3
+Enter space-separated value and priority to push into the queue:
+A 1
+B 2
+C 3
+
+Output:
+A B C
+
+>>>
+Input:
+Enter the size of the priority queue: 5
+Enter space-separated value and priority to push into the queue:
+Anamika a
+B.Tech b
+CSE c
+College c
+Python p
+
+Output:
+Anamika B.Tech College CSE Python
+"""

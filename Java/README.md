@@ -356,6 +356,7 @@ _add list here_
 - [Smallest and longest Substring with given length](other/smallest_and_longest_SubString.java)
 - [3 sum closest to target](other/3sum_closest_to_target.java)
 - [All possible codes](other/LetterCodeRecursion.java)
+- [Count Complete Tree Nodes](other/CountCompleteTreeNode.java)
 - [Find the numbers](other/FindNumbers.java)
 - [Find first missing positive number](other/FirstMissingPositiveNumber.java)
 - [First non-repeating character in a string](other/FirstNonRepeatingChar.java)

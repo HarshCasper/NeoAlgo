@@ -111,7 +111,6 @@ int main()
      cin>>a;
      keys.push_back(a);
     }
-    
     Node* root = nullptr;
     for (int key: keys) {
         root = insert(root, key);

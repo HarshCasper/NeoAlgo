@@ -10,7 +10,7 @@
 # Codes in the C++ language
 
 ## Competitive Programming
-
+- [Minimum Steps to collect coin stacks](cp/Minimum_steps_to_collect_coin_stacks.cpp)
 - [Time taken to rot all Oranges](cp/Rotten_Oranges.cpp)
 - [2-D Matrix Sorting](cp/2-D_MatrixSorting.cpp)
 - [ActivitySelection](cp/Activity_Selection.cpp)

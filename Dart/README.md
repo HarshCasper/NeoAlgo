@@ -55,6 +55,7 @@
 - [Modular multiplicative inverse](math/Modular_multiplicative_inverse.dart)
 - [Mystery Number](maths/MysteryNumber.dart)
 - [Pronic Number](maths/PronicNumber.dart)
+- [Ugly Number](maths/UglyNumber.dart)
 
 ## Search
 

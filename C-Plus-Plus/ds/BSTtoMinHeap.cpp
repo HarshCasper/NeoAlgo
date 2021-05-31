@@ -1,11 +1,7 @@
 // Program to convert the given Binary Search Tree into a min heap, given that BST is a complete binary tree
 
 
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <string>
-#include <utility>
+#include <bits/stdc++.h>
 using namespace std;
  
 // Data structure to store a binary tree node
@@ -129,18 +125,18 @@ void convert(Node* root)
  
 int main()
 {
-    vector<int> keys = { 5, 3, 2, 4, 8, 6, 10 };
- 
-    /* Construct the following BST
-               5
-             /   \
-            /     \
-           3       8
-          / \     / \
-         /   \   /   \
-        2     4 6    10
-    */
- 
+    vector<int> keys;
+    int n;
+    cout<<"Enter the no. of nodes"<<endl;
+    cin>>n;
+    cout<<"Enter the keys to construct a binary tree:"<<endl;
+    for(int i=0;i<n;i++)
+    {
+     int a;
+     cin>>a;
+     keys.push_back(a);
+    }
+    
     Node* root = nullptr;
     for (int key: keys) {
         root = insert(root, key);
@@ -152,4 +148,4 @@ int main()
     return 0;
 }
 
-
+// The time complexity of the above program is O(n) and the space complexity is also O(n).

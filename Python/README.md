@@ -19,6 +19,7 @@
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Reverse Linked List](ds/Reverse_linked_list.py)
 - [Binary Search Tree](ds/BinarySearchTree.py)
+- [Binary Search Tree (Level Order Traversal)](ds/BST_Level_Order_Traversal.py)
 - [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
 - [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
 - [Identical BSTs](ds/identical_binary_tree.py)
@@ -28,6 +29,7 @@
 - [Stack using list](ds/stack_using_list.py)
 - [Maximum distance between same elements](ds/MaxDistanceBetweenSameElements.py)
 - [Double Ended Queue](ds/Double_Ended_queue.py)
+- [Priority Queue](ds/priority_queue.py)
 - [First fit memory allocation](ds/Firstfit.py)
 - [Worst fit memory allocation](ds/Worstfit.py)
 - [Best fit memory allocation](ds/Bestfit.py)
@@ -35,6 +37,7 @@
 - [Prefix to postfix](ds/Prefix_to_postfix.py)
 - [Lowest Common Ancestor of Binary Search Tree](ds/lowest_common_ancestor_bst.py)
 - [Reverse Queue Using Stack](ds/Reverse_queue_using_stack.py)
+
 
 ## Searching
 - [Bilinear Search](search/bilinear.py)
@@ -355,6 +358,7 @@
 - [Logistic Regression](ml/Logistic_Regression.ipynb)
 - [Mobile Price Range Classification](ml/Mobile_Price_Range_Classification.ipynb)
 - [NASA Asteroids Classification](ml/NASA_Asteroids_Classification.ipynb)
+- [Naive Bayes Algorithm from Scratch](ml/Naive_Bayes_from_Scratch.py)
 - [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 - [Solar Radiation Prediction](ml/Solar_Radiation_Prediction.ipynb)
@@ -422,6 +426,7 @@
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 - [Pronic Number](math/Pronic_numbers.py)
 - [Positive Decimal to Binary](math/positive_decimal_to_binary.py)
+- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.py)
 
 ## Bit Manipulation
 

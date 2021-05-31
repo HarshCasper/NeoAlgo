@@ -107,6 +107,7 @@ _add list here_
 - [Maximum of Minimum for Every Window Size](cp/MaximumOfMinimumSubarrays.java)
 - [Rat In A Maze](cp/RatInAMaze.java)
 - [Median of two sorted arrays](cp/Median_of_two_sorted_arrays.java)
+- [Next smallest element to right](cp/NextSmallestToRight.java)
 - [Ckeck for Subarray with sum 0](cp/SubarraySumZero.java)
 - [Trapping Rain Water](cp/Trapping_rain_water.java)
 - [Trapping Rain Water II](cp/Trapping_rain_water_2D.java)
@@ -147,6 +148,7 @@ _add list here_
 - [Finding_shortest_path_for_multistaged_graph](dp/Finding_shortest_path_for_multistaged_graph.java)
 - [Rod Cutting Problem](dp/Rod_Cutting.java)
 - [Flight of stairs](dp/FlightOfStairs.java)
+- [Equal Sum Partition](equalSumPartition.java)
 - [Minimum Cost Path](dp/MinimumCostPath.java)
 - [Egg Dropping Problem](dp/EggDroppingProblem.java)
 - [Travelling Salesman Problem](dp/Traveling_SalesmanDP.java)
@@ -266,6 +268,8 @@ _add list here_
 - [Special Number](math/Special.java)
 - [Generalized Cullen Number](math/cullen_number.java)
 - [Median of Running Streams](math/Findmedian.java)
+- [Amicable Pair](math/Amicable_Pair.java)
+- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.java)
 
 ## Dynamic Programming
 
@@ -376,6 +380,7 @@ _add list here_
 - [Convert Sorted Array to Binary Search Tree](other/SortedArrayToBST.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Sum up root to the leaf number](other/SumRootToLeaf.java)
+- [Sum up left leaves of the tree](other/SumOfLeftLeaves.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

@@ -185,6 +185,7 @@
 - [Optimal Game Strategy](cp/optimal_game.cpp)
 - [Count the total number of vertices with more children than its parent](cp/total_more_child_vertices_than_parent.cpp)
 - [Run Length Encoding](cp/Run_Length_Encoding.cpp)
+- [Delete peak elements in max heap](cp/delete_peak_elements_in_maxHeap.cpp)
 - [Special Recursive Sequence](cp/special_recursive_sequence.cpp)
 
 ## Data Structures

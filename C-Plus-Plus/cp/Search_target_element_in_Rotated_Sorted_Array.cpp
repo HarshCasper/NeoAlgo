@@ -9,12 +9,9 @@ Given the array arr[] after the rotation and an integer target, return the index
 Write an algorithm with O(log n) runtime complexity.
 */
 
-/*
-  Explanation:
-     Use Binary search to reduce run time.
-*/
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 // function to search target element
@@ -29,8 +26,7 @@ using namespace std;
             
             if(arr[j]==target)
                 return j;
-            
-        // Binary Search    
+              
         while(i<j)
         {
             int mid= i+(j-i)/2;
@@ -68,41 +64,44 @@ using namespace std;
 
 int main()
 {
-    int n;  // Number of Element
+    int n;  
+    cout<<"Enter number of Element: ";
     cin>>n;
 
     vector<int> arr;
+    
+    cout<<"Enter array Elements: ";  
     for(int i=0;i<n;i++)
     {
-        int x;    // input given array element 
+        int x;
         cin>>x;
         arr.push_back(x);
     }
    
-     int target;    //input target element
+     int target;
+     cout<<"Enter the traget element: ";   
      cin>>target;
   
      int result= search(arr,target);
 
+     cout<<"Target Element found at index: ";
      cout<<result<<endl;
 
   return 0; 
 }
 
 /*
-  Time Complexity: O(log n)
+Sample Input/Output:
+
+Input: Enter number of Element: 7
+       Enter array Elements: 4 5 6 7 0 1 2
+       Enter the traget element: 0
+
+Output: Target Element found at index: 4
+
+
+Time complexity:  O(log n)
+Space complexity: O(1)
+
 */
-
-/*
-   Example:
-     Input: arr = [4,5,6,7,0,1,2], target = 0
-     Output: 4
-
-     Input: arr=[4,5,6,7,0,1,2], target = 3
-     Output: -1
-
-     Input: arr=[1], target=0
-     Output: -1
-*/
-
 

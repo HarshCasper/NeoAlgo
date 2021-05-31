@@ -123,12 +123,13 @@ int main()
 
 Sample Input/Output:
 
-Input:7
-      4 2 6 1 3 5 7
-      
-Output:1 
-       2 5 
-       3 4 6 7
+Output: Enter the no. of nodes
+Input:  7 
+Output: Enter the keys to construct a binary tree:
+Input:  4 2 6 1 3 5 7
+Output: 1 
+        2 5 
+        3 4 6 7
        
 Time complexity:O(n)
 Space complexity:O(n)

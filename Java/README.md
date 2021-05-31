@@ -380,6 +380,7 @@ _add list here_
 - [Convert Sorted Array to Binary Search Tree](other/SortedArrayToBST.java)
 - [Sudoku solver](other/SudokuSolver.java)
 - [Sum up root to the leaf number](other/SumRootToLeaf.java)
+- [Sum up left leaves of the tree](other/SumOfLeftLeaves.java)
 - [Swap Nibbles](other/SwapNibbles.java)
 - [Three Sum Problem](other/three_Sum_problem.java)
 - [Tower of Hanoi problem](other/TowerOfHanoi.java)

@@ -179,6 +179,7 @@
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 - [Minimum cost to construct temple](cp/min_cost_to_construct_temple.cpp)
 - [Max sum increasing subsequence](cp/max_sum_increasing_subsequence.cpp)
+- [Minimum no of squares the knight cannot visit](cp/min_moves_knight_cannot_visited.cpp)
 - [Optimal Game Strategy](cp/optimal_game.cpp)
 - [Run Length Encoding](cp/Run_Length_Encoding.cpp)
 ## Data Structures
@@ -571,6 +572,7 @@ _add list here_
 - [Swap_even_and_odd_bits](Bit--Manipulation/Swap_even_and_odd_bits.cpp)
 - [Find duplicate elements using XOR](Bit--Manipulation/Find_duplicate_elements_using_XOR.cpp)
 - [Number of Bits to be flipped to Inter-convert Two numbers](Bit--Manipulation/no_of_bits_to_be_flipped_to_inter_convert_two_numbers.cpp)
+- [Non Repeating Integers](Bit--Manipulation/Non_Repeating_Integer.cpp)
 - [Minimum XOR value](Bit--Manipulation/Minimum_XOR_Value.cpp)
 - [All possible subset of a set](Bit--Manipulation/all_possible_subset_of_a_set.cpp)
 

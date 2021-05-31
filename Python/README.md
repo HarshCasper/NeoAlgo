@@ -355,6 +355,7 @@
 - [Logistic Regression](ml/Logistic_Regression.ipynb)
 - [Mobile Price Range Classification](ml/Mobile_Price_Range_Classification.ipynb)
 - [NASA Asteroids Classification](ml/NASA_Asteroids_Classification.ipynb)
+- [Naive Bayes Algorithm from Scratch](ml/Naive_Bayes_from_Scratch.py)
 - [Numeric Outlier Selection](ml/Numerical_outlier_method.ipynb)
 - [Principal Component Analysis](ml/principal_component_analysis.ipynb)
 - [Solar Radiation Prediction](ml/Solar_Radiation_Prediction.ipynb)

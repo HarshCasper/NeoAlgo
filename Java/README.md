@@ -115,6 +115,7 @@ _add list here_
 - [Sliding Window Technique](cp/slding_window_technique.java)
 
 - [Find Minimum element in Rotated and Sorted Array](cp/minimum_in_rotated_sorted_array.java)
+- [Run length encoding](Run_Length_Encoding.java)
 
 
 ## Cryptography

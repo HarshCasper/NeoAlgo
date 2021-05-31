@@ -703,3 +703,4 @@ _add list here_
 - [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)
 - [Largest Number formed from elements of the Array](other/LargestNumber.cpp)
 - [Isomorphic Strings](other/IsomorphicStrings.cpp)
+- [Maximum number of consecutive 1's produced by flipping at most K 0's](other/MaxNoOfConsecutive1'sFlipAtmostK0's.cpp)

@@ -81,7 +81,6 @@ int Last_positions(int a[],int n,int element)
 }
 
 /*
-
 INPUT:  
 array size : 10
 element : 4
@@ -93,5 +92,4 @@ last position of an element is : 7
 
 Time Complexity: O(n)
 Space Complexity: O(n)
-
 */

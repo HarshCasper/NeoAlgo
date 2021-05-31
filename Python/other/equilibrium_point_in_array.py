@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[7]:
-
-
 '''
 Given an array of n positive integers, find the first equilibrium point in the array.
 Equilibrium Point in an array is a position at which sum of elements before it is equal 
@@ -63,4 +57,3 @@ Output:
 Position 3 is the equilibrium point.
 
 """
-

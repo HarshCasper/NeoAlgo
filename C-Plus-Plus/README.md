@@ -182,6 +182,8 @@
 - [Minimum no of squares the knight cannot visit](cp/min_moves_knight_cannot_visited.cpp)
 - [Optimal Game Strategy](cp/optimal_game.cpp)
 - [Run Length Encoding](cp/Run_Length_Encoding.cpp)
+- [Delete peak elements in max heap](cp/delete_peak_elements_in_maxHeap.cpp)
+
 ## Data Structures
 
 - [Queue using linked list](ds/Queue_all_operations_using_linkedlist.cpp)

@@ -49,7 +49,7 @@ int32_t main(){
     while(t--){
         string s;
         cin>>s;
-                                            //instead of k I have sustituted its value as 2
+                                            //instead of k I have sustituted its value as 2 you can also directly initialise k with 2 and place k
         int i=0,j=0;
         
         int mx = INT_MIN;

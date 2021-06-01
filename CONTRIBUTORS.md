@@ -276,6 +276,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://devpost.com/anshika15-dubey?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"><img src="https://avatars.githubusercontent.com/u/61225173?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anshika Dubey</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=anshika272" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mehak2323"><img src="https://avatars.githubusercontent.com/u/76546415?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mehak</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=mehak2323" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="http://www.linkedin.com/in/siddharth-bhatnagar-msit"><img src="https://avatars.githubusercontent.com/u/56535991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siddharth Bhatnagar</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=siddharth-bhatnagar" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Simi06"><img src="https://avatars.githubusercontent.com/u/60649835?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Smriti Sharma</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Simi06" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Sri-vishnu-r1431"><img src="https://avatars.githubusercontent.com/u/78591776?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sri-vishnu-r1431</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Sri-vishnu-r1431" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->

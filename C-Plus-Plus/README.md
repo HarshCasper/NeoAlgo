@@ -20,6 +20,7 @@
 - [All Possible Sum Using FFT](cp/all_possible_sums_using_fft.cpp)
 - [Binary_Coded_String](cp/Binary_Coded_String.cpp)
 - [Check Anagrams](cp/check_anagrams.cpp)
+- [Minimum steps to collect coin stacks](Minimum_steps_to_collect_coin_stacks.cpp)
 - [Product of the maximum element and the minimum element in two consecutive arrays](cp/Product_of_the_maximum_element_and_the_minimum_element_in_two_consecutive_arrays.cpp)
 - [Check Pangram](cp/check_pangram.cpp)
 - [Check for Subsequence](cp/Check_for_Subsequence.cpp)

@@ -62,7 +62,7 @@ int main() {
 Space Complexity: O(n)
 
 Test Case:
-    Input:
+    Sample Input:
         Enter the number of coin stacks:
         5
         Enter the height of 1 coin stack:
@@ -75,7 +75,7 @@ Test Case:
         2
         Enter the height of 1 coin stack:
         1
-    Output:
+    Sample Output:
         Minimum number of straight lines that pass througha all the coins are: 4
  */
  

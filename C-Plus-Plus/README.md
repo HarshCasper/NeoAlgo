@@ -708,3 +708,4 @@ _add list here_
 - [Largest Number formed from elements of the Array](other/LargestNumber.cpp)
 - [Isomorphic Strings](other/IsomorphicStrings.cpp)
 - [Maximum number of consecutive 1's produced by flipping at most K 0's](other/MaxNoOfConsecutive1'sFlipAtmostK0's.cpp)
+- [Picking Toys-Sliding Window Problem](other/Picking_Toys_Sliding_Window_Problem.cpp)

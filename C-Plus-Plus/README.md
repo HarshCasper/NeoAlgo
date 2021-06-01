@@ -28,6 +28,7 @@
 - [Length of last word](cp/length_of_last_word.cpp)
 - [Container with most water](cp/Container_with_most_water.cpp)
 - [Contiguous Sub Array with Given Sum](cp/SubArrayWithGivenSum.cpp)
+  [Continuous_Seq](cp/Continuous_Seq.cpp)  
 - [Generic Function for Swapping](cp/Generic_Swaps.cpp)
 - [Adjacent Difference Algorithm](cp/adjacent.cpp)
 - [Recursive Modular Exponentiation](cp/power.cpp)
@@ -142,6 +143,7 @@
 - [Palindrome Number](cp/Palindrome_number.cpp)
 - [Minimum Cost to generate N Cells](cp/min_cost_to_generate_n_cells.cpp)
 - [Groups Anagrams](cp/Group_Anagrams.cpp)
+- [Ninja and Cities](cp/city.cpp)
 - [Reverse individual words in a sentence without stacks](cp/reverseWords.cpp)
 - [Inversion Count Problem using Merge Sort](cp/InversionCountProblem.cpp)
 - [Minimum circles to be removed](cp/min_circles_to_be_removed.cpp)
@@ -176,6 +178,7 @@
 - [Strange Hotel](cp/strange_hotel.cpp)
 - [Find subtrees with total nodes sum equal to x](cp/total_subtrees.cpp)
 - [Remove cycle in a tree to form a linked list](cp/remove_cycle.cpp)
+- [Meeting Rooms](cp/Meeting_Rooms)
 - [Largest BST in binary tree](cp/largest_bst_in_btree.cpp)
 - [Total Pairs Chosen](cp/total_pairs_chosen.cpp)
 - [Minimum cost to construct temple](cp/min_cost_to_construct_temple.cpp)
@@ -184,6 +187,8 @@
 - [Optimal Game Strategy](cp/optimal_game.cpp)
 - [Count the total number of vertices with more children than its parent](cp/total_more_child_vertices_than_parent.cpp)
 - [Run Length Encoding](cp/Run_Length_Encoding.cpp)
+- [Delete peak elements in max heap](cp/delete_peak_elements_in_maxHeap.cpp)
+- [Special Recursive Sequence](cp/special_recursive_sequence.cpp)
 
 ## Data Structures
 
@@ -291,6 +296,7 @@
 - [Sum of Root To Leaf Binary Numbers](ds/RootToLeafSum.cpp)
 - [Construct Binary Tree from Inorder and Postorder](ds/BinaryTreeFromInorderPostorder.cpp)
 - [Insertion Sort On Linked List](ds/insertion_sort_on_linked_list.cpp)
+- [Construction of Binary Tree from Inorder and Preorder Traversal](ds/BinaryTreeFromInorderAndPreorder.cpp)
 - [Side Views of The binary tree ](ds/Side_Views_of_Binary_tree.cpp)
 - [Convert BST to Min Heap ](ds/BSTtoMinHeap.cpp) 
 
@@ -327,7 +333,8 @@
 - [Pre-order (NLR) Tree Traversal](/graphs/Preorder_Traversal.cpp)
 - [Prim's Algorithm](graphs/Prim_Algorithm.cpp)
 - [Minimum distance of each node using SSSP on trees by DFS](graphs/minimum_distance_using_SSSP_on_trees_by_DFS.cpp)
-- [Toplogical Sort in Diredted Acyclic Graph (DAG)](graphs/TopologicalSort.cpp)
+- [Toplogical Sort in Directed Acyclic Graph (DAG) using DFS](graphs/TopologicalSort.cpp)
+- [Toplogical Sort in Directed Acyclic Graph (DAG) using BFS](graphs/topologicalSort_bfs.cpp)
 - [Tarjan's Algorithm](graphs/Tarjan's_Algorithm.cpp)
 - [Vertical Order print of Binary Tree](graphs/Vertical_order_print_of_binary_tree.cpp)
 - [Left view of Tree](graphs/left_view_of_tree.cpp)
@@ -420,6 +427,7 @@
 - [Postfix to Prefix Conversion](stack/postfix_to_prefix.cpp)
 - [Next smallest element to left](stack/nextSmallestToRight.cpp)
 - [Next greatest element to the left](stack/nextGreatestToLeft.cpp)
+- [Implementation of Two Stacks using single array](stack/two_stacks_using_single_array.cpp)
 
 ## Heap based problems
 
@@ -429,6 +437,8 @@
 - [Cheapest flights within k stops](heap/cheapest_flights_within_k_stops.cpp)
 - [Heap implementation and basic queries on it](heap/heap_implementation.cpp)
 - [Reconstruct Itinerary Problem implementation using Hashmap](heap/reconstruct_Itinerary.cpp)
+- [Convert BST to Min Heap](heap/BSTtoMinHeap.cpp)
+- [Convert Min Heap To Max Heap](heap/ConvertMinHeapToMax.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
 
 ## Machine Learning
@@ -502,6 +512,8 @@ _add list here_
 - [Pronic Number](math/Pronic_numbers.cpp)
 - [Special Number](math/special.cpp)
 - [Harshad Number](math/HarshadNumber.cpp)
+- [Amicable Pair](math/Amicable_Pair.cpp)
+- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.cpp)
 
 ## Dynamic Programming
 
@@ -555,6 +567,7 @@ _add list here_
 - [Shortest_Uncommon_Subseqence](dp/shortest_uncommon_subseq.cpp)
 - [Maximize Matrix Chain Multiplication](dp/Max_MatrixChain_Multiplication.cpp)
 - [House Robber Problem](dp/House_Robber_Problem.cpp)
+- [Travelling Salesman Problem](dp/travellingSalesman.cpp)
 - [Town Planning](dp/townPlanning.cpp)
 - [Braille's Dilemma](dp/BraillesDilemma.cpp)
 - [Coin Tower](dp/coinTower.cpp)
@@ -694,3 +707,4 @@ _add list here_
 - [Minimum no. of jumps to reach end of an array](other/MinJumpsToReachEndofArray.cpp)
 - [Largest Number formed from elements of the Array](other/LargestNumber.cpp)
 - [Isomorphic Strings](other/IsomorphicStrings.cpp)
+- [Maximum number of consecutive 1's produced by flipping at most K 0's](other/MaxNoOfConsecutive1'sFlipAtmostK0's.cpp)

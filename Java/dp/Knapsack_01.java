@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 /// 0/1 Knapsack can be solved using the dynamic approach wherein
@@ -8,7 +7,7 @@ import java.util.*;
 /// Solving 0/1 Knapsack using DP reduces the extra work produced
 /// by working on same cases as seen in recursive approach
 
-class Knapsack01 {
+class Knapsack_01 {
 
     /// Returns the maximum value that can
     /// be put in a knapsack of capacity W
@@ -84,9 +83,9 @@ Test Case:
         Enter the number of elements:
         4
         Enter the maximum weight of knapsack:
-        50
+        5
         Enter the weight of each element:
-        10 20 30 40
+        1 2 3 4
         Enter the value of each element:
         60 100 120 170
 
@@ -95,12 +94,19 @@ Test Case:
 
 Explanation:
 
+	[0  0   0   0   0   0
+	 0 60  60  60  60  60
+	 0 60 100 160 160 160
+	 0 60 100 160 180 180
+	 0 60 100 160 180 230 ]
+
+	 Here, we will use the elements with weight 1 and 4 as it will yield the maximum value.
 
 Time Complexity : O(N*W)   /// As we pre-compute a dp array of size N*W
 Space Complexity : O(N*W)  /// As we use a 2D array to store dynamic values.
 
 where,
-/// N = number of weight elements
+/// N = number of elements
 /// W = capacity of knapsack
 
- */
+*/

@@ -156,6 +156,7 @@ _add list here_
 - [Longest Bitonic Subsequence](dp/Longest_bitonic_subsequence.java)
 - [Painting fence problem](dp/Painting_fence.java)
 - [Right Side View of Binary Tree](dp/RightViewBT.java)
+- [0/1 Knapsack](dp/Knapsack_01.java)
 
 ## Data Structures
 

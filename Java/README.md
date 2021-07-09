@@ -19,6 +19,11 @@
 - [MinMax Algorithm](Algorithms/Min_Max_Algorithm_implementation.java)
 - [Sieve of Eratosthenes](Algorithms/Sieve_of_Eratosthenes.java)
 - [Strassen's Algorithm](Algorithms/Strassens_Algo_for_Matrix_multiplication.java)
+<<<<<<< Updated upstream
+=======
+- [Big Mod Algorithm](Algorithms/bigmod_algorithm.java)
+- [Soundex Conversion Algorithm] (Algorithms/Soundex.java)
+>>>>>>> Stashed changes
 
 ## Greedy Algorithms
 

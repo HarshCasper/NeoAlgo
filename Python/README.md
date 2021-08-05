@@ -18,6 +18,7 @@
 - [Quadratic Probing in Hashing](ds/Quadratic_Probing_in_hashing.py)
 - [Tree (Level Order Traversal)](ds/Tree_Level_Order_Traversal.py)
 - [Reverse Linked List](ds/Reverse_linked_list.py)
+- [Reverse Doubly Linked List](ds/reverse_doubly_linked_list.py)
 - [Binary Search Tree](ds/BinarySearchTree.py)
 - [Binary Search Tree (Level Order Traversal)](ds/BST_Level_Order_Traversal.py)
 - [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)

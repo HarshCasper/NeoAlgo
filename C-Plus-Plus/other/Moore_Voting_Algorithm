@@ -56,3 +56,15 @@ int main(){
 	moore_voting_algorithm(arr,n);
 	return 0;
 }
+
+Sample Input #1
+Enter the size of Array : 7
+Enter the elements of array :
+7 1 1 1 4 3 1
+Majority : 1
+
+Sample Input #2
+Enter the size of Array : 8
+Enter the elements of array :
+1 2 1 2 1 2 1 2
+No Majority exists

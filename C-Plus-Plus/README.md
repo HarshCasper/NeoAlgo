@@ -371,7 +371,7 @@
 - [Recursive Binary Search](search/Binary_Recursive_Search.cpp)
 - [Pair of nodes in the BST which sum to S](search/PairOfNodesInTheBSTWhichSumToS.cpp)
 - [Sqrt Monotonic Binary Search](search/Sqrt_Monotonic_Binary_Search.cpp)
-
+- [KMP Algorithm](search/KMP_Algorithm.cpp)
 ## Sorting
 
 - [Bead Sort](sort/Bead_Sort.cpp)

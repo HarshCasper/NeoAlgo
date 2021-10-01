@@ -1,13 +1,10 @@
 """
 Problem Statement : To find Hamming Distance between two numbers.
-
-What is Hamming distance? The hamming distance is the value differ in two
-                          binary representations as a 32-bit integer.
+                    Hamming distance? The hamming distance is the value differ in two binary 
+                    representations as a 32-bit integer.
 
 Intution: If num1 = 7(0111) and num2 = 8(1000), the bit differance between 
           these two numbers will be 4.
-
-Return  : Differnce in binary representation between two numbers.
 
 """
 
@@ -39,6 +36,11 @@ def main():
     print("Hamming distance between these two numbers is: ", hamming_distance(num1, num2))
 
 main()
+
+'''
+Time complexity :O(n)
+Space complexity :O(1)
+'''
 
 """
 Sample Input / Output:

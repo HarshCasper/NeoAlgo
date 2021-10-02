@@ -441,6 +441,7 @@
 - [Convert BST to Min Heap](heap/BSTtoMinHeap.cpp)
 - [Convert Min Heap To Max Heap](heap/ConvertMinHeapToMax.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
+- [Connect N ropes with Minimum COst](heap/ConnectNRopesWithMinumumCost.cpp)
 
 ## Machine Learning
 

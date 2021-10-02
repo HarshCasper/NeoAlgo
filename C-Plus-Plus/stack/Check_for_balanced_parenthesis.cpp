@@ -104,6 +104,12 @@ Input:
 Output:
 Unbalanced Parenthesis
 --------------------------------
+Test case 3:
+Input:
+(){}
+Output:
+Balanced Parenthesis
+--------------------------------
 Time Complexity: O(n)
 Space Complexity: O(n)
 */

@@ -18,6 +18,8 @@
 - [Stack](dp/stack)
 - [Factorial](dp/factorial)
 - [Fibonacci](dp/fibonacci)
+- [Maximum Sub-array sum](dp/Max_SubArray_Sum)
+- [Golomb Sequence](dp/golomb_sequence)
 
 ## Data Structures
 - [Binary Tree](ds/binary_tree)
@@ -55,6 +57,8 @@
 - [Fibonacci Number](math/Fibonacci)
 - [Mystery Number](math/Mystery_Number)
 - [Prime Number](math/Prime_Number)
+- [Perfect Number](math/Perfect_Number)
+- [Lucky Number](math/Lucky_Number)
 - [GCD](math/GCD)
 
 ## Others
@@ -80,6 +84,7 @@
 - [Quick Sort](sort/quick_sort)
 - [Radix Sort](sort/radix_sort)
 - [Selection Sort](sort/selection_sort)
+- [Shell Sort](sort/shell_sort)
 
 ## Cryptography
 - [Caesar Cipher](cryptography/Caesar_Cipher)
@@ -94,3 +99,5 @@
 - [PlayFair Cipher](cryptography/PlayFair_Cipher)
 - [Burrows Wheeler Transform](cryptography/Burrows_Wheeler_Transform)
 
+## Graphs
+- [Topological Sorting](graphs/topological_sort)

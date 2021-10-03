@@ -23,7 +23,7 @@ int Check_Automorphic(int n) {
     no_digits++;
   }
 
-  flag = pow(10, no_digits);
+  flag = pow(10, no_digits) as int;
   remainder = square % flag;
 
   if (remainder == temp)
@@ -35,7 +35,7 @@ int Check_Automorphic(int n) {
 void main() {
   int num;
   print("Enter the number: ");
-  num = int.parse(stdin.readLineSync());
+  num = int.parse(stdin.readLineSync()!);
 
   int result = Check_Automorphic(num);
 

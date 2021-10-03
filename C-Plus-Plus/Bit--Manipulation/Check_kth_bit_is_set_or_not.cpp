@@ -1,29 +1,4 @@
 //Check if the kth bit is set or not
-//Time Complexity: O(1) 
-//Space Complexity: O(1)
-
-//Sample Input:
-/*Example 1:- 
-Enter number
-8
-Enter bit no
-4
-
-Example 2:-
-Enter number
-50
-Enter bit no
-4
-
-Sample Output:
-Example 1:- 
-Using Left Shift operator Yes
-Using Right Shift operator Yes
-
-Example 2:- 
-Using Left Shift operator No
-Using Right Shift operator No
-*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -47,6 +22,35 @@ int main()
 	 else
 	  cout<<"No"<<"\n";
 	  
-	  
-	  
 }
+
+/*
+Time Complexity: O(1) 
+Space Complexity: O(1)
+*/
+
+/*
+Test cases:
+
+Example 1:- 
+Enter number
+8
+Enter bit no
+4
+
+Example 2:-
+Enter number
+50
+Enter bit no
+4
+
+Sample Output:
+Example 1:- 
+Using Left Shift operator Yes
+Using Right Shift operator Yes
+
+Example 2:- 
+Using Left Shift operator No
+Using Right Shift operator No
+*/
+

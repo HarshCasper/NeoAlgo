@@ -38,6 +38,10 @@ int main(){
     }
     return 0;
 }
+// Time Complexity : O(n+m+256)
+    // where n = s1.size(), m = s2.size();
+// Space Complexity : O(256)
+
 // Sample test case:
 // s1 = 'abcd' and s2 = 'abcdb'
 // count of a, b, c, d become 1 while traversing through s1

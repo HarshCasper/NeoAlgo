@@ -1,0 +1,28 @@
+name: Google java formatter
+
+on:
+  push:
+    paths:
+      - "Java/**"
+  pull_request:
+    paths:
+      - "Java/**"
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v2
+
+      - name: Setup java environment
+        uses: actions/setup-java@v1
+        with:
+          java-version: "11"
+
+      - name: Setup code formatter
+        uses: axel-op/googlejavaformat-action@v3
+        with:
+          args: "--skip-javadoc-formatting --replace"
+          commitMessage: "FORMAT: Google java formatter"

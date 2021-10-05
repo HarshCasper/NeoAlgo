@@ -495,4 +495,7 @@ _add list here_
 - [Finding equilibrium point in the array](other/equilibrium_point_in_array.py)
 - [Segment Tree](other/Segment_Tree.py)
 
+## String
+- [KMP Algorithm](string/KMP.py)
+
 ## [Coding Template for Contribution](Code_Template.md)

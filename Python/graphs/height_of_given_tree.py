@@ -1,8 +1,12 @@
 '''
     Author: Dasu Srinivas
-    Description: Calculates the height of the given tree
+    Description: Calculates the height of the given  Binary Tree
+
+    Time Complexity: O(log N),  Worst-Case: O(N)
+    Space Complexity: O(1)
+            Where N is the total number of nodes
 '''
-# Binary node creation
+# Strucure of a Binary Node
 class Node:
     def __init__(self,data):
         self.data=data
@@ -23,13 +27,33 @@ def height_of_tree(node):
             return right_height+1
 
 
+#----------------------------------------- Driver Code -------------------------
+if __name__ == "__main__":
+    root_node = Node(1) 
+    root_node.left = Node(21) 
+    root_node.right = Node(23) 
+    root_node.left.left = Node(34) 
+    root_node.right.left = Node(37)
+    root_node.right.rights = Node(46)
+    root_node.right.left.left = Node(55)
 
-root_node = Node(1) 
-root_node.left = Node(21) 
-root_node.right = Node(23) 
-root_node.left.left = Node(34) 
-root_node.left.right = Node(35)
-root_node.right.left = Node(37)
-root_node.left.right.left = Node(46)
+    print("Height of the given tree is:", height_of_tree(root_node))
 
-print("Height of the given tree is:", height_of_tree(root_node))
+"""
+Sample Input / Output:
+
+                     1
+                    / \
+                   /   \
+                  /     \
+                21       23
+               /         / \
+              /         /   \
+             /         /     \
+           34         37     46
+                     /
+                    /
+                   /
+                 55  
+    Output = 4
+"""

@@ -408,6 +408,10 @@
 - [Binary-Insertion Sort](sort/Binary_Insertion_Sort.cpp)
 - [Merge Without Extra Space](sort/merge_without_extra_space.cpp)
 
+## String Algorithms
+
+- [KMP Pattern Matching Algorithm](String_Algorithms/KMP_Algorithm.cpp)
+
 ## Stack based problems
 
 - [Infix to Postfix Conversion](../C/stack/Infix_to_Postfix.c)

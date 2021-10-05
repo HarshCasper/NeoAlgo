@@ -494,4 +494,7 @@ _add list here_
 - [Arrange The String](other/Arrange_The_String.py)
 - [Finding equilibrium point in the array](other/equilibrium_point_in_array.py)
 
+## String
+- [KMP Algorithm](string/KMP.py)
+
 ## [Coding Template for Contribution](Code_Template.md)

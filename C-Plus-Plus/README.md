@@ -447,6 +447,7 @@
 - [Convert Min Heap To Max Heap](heap/ConvertMinHeapToMax.cpp)
 - [Kth Smallest Element in an array](heap/KthSmallest.cpp)
 - [Connect N ropes with Minimum COst](heap/ConnectNRopesWithMinumumCost.cpp)
+- [Merge K Sorted Lists](heap/MergeKSortedList.cpp)
 
 ## Machine Learning
 

@@ -21,7 +21,7 @@
 - [Binary Search Tree](ds/BinarySearchTree.py)
 - [Binary Search Tree (Level Order Traversal)](ds/BST_Level_Order_Traversal.py)
 - [Leaf Nodes in a Binary Search Tree](ds/Leaf_nodes_BST.py)
-- [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py)
+<!-- [Reverse Linked List in groups](ds/Reverse_in_groups_LL.py) //deleted by maintainer in commit 32407af -->
 - [Identical BSTs](ds/identical_binary_tree.py)
 - [Loop detection in Linked List](ds/loop_detection_in_LL.py)
 - [Right view of a binary tree](ds/Right_view_of_binary_tree.py)
@@ -47,7 +47,7 @@
 - [Fibonacci Search](search/fibonacci_search.py)
 - [Linear Search](search/Linear_Search.py)
 - [Random Search Las vegas version](search/random_search_las_vegas.py)
-- [Sublinear Search](search/Sublinear_search.ipynb)
+<!-- [Sublinear Search](search/Sublinear_search.ipynb) deleted in commit b6b2dd4 -->
 - [Exponential Search](search/exponential_search.py)
 - [Binary Search Iterative](search/binarysearch_iterative.py)
 - [Unbounded Binary Search](search/unbounded_binary_search.py) 
@@ -55,15 +55,13 @@
 - [8 Puzzle Problem (A* Algorithm)](search/8_Puzzle_Problem_using_A_star_Algorithm.py)
 - [Bilinear Search](search/bilinear.py)
 - [Binary Search](search/binarysearch.py)
-- [Breadth First Search](search/bfs.py)
 - [Depth First Search](search/dfs.py)
 - [Fibonacci Search](search/fibonacci_search.py)
 - [Linear Search](search/Linear_Search.py)
 - [Random Search Las vegas version](search/random_search_las_vegas.py)
-- [Sublinear Search](search/Sublinear_search.ipynb)
 - [Exponential Search](search/exponential_search.py)
 - [Binary Search Iterative](search/binarysearch_iterative.py)
-- [Jump Search](search/Jump__search.py)
+- [Jump Search](search/jump_search.py)
 
 ## Sorting
 
@@ -73,13 +71,13 @@
 - [Comb Sort](sort/comb_sort.py)
 - [Heap Sort](sort/Heap_sort.py)
 - [Insertion Sort](sort/insertion.py)
-- [Merge Sort](sort/Merge_Sort.py)
+<!-- [Merge Sort](sort/Merge_Sort.py) unable to find file or reference -->
 - [Quick Sort](sort/QuickSort.py)
 - [Radix Sort](sort/Radix_Sort.py)
 - [Selection Sort](sort/Selection_Sort.py)
 - [Topological Sort](sort/topological_sort.py)
 - [Intro Sort](sort/IntroSort.py)
-- [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
+- [Merge Sort Sequential](sort/Sequential_MergeSort.py)
 - [Merge Sort Parallel](sort/Parallel_MergeSort.py)
 - [Tim Sort](sort/TimSort.py)
 
@@ -105,7 +103,7 @@
 * [Diameter Of Binary Tree](ds/DiameterOfBinaryTree.py)
 * [Dynamic Stack](ds/dynamic_queue.py)
 * [Dynamic Queue](ds/dynamic_queue.py)
-* [Invert a Binary Tree](ds/Invert%20a%20Binary%20Tree.py)
+* [Invert a Binary Tree](ds/Invert_a_Binary_Tree.py)
 * [AVL Tree](ds/AVL_Tree.py)
 * [Linked List Intersection](ds/linkedListIntersection.py)
 * [Sparse Matrix Operation](ds/Sparse_matrix_Operation.py)
@@ -123,7 +121,7 @@
 - [Anagram Problem](cp/anagram_problem.py)
 - [Find Least positive number](cp/findingLeastPositiveNumber.py)
 - [KMP Algorithm](cp/KMP_Algorithm.py)
-- [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py)
+<!-- [Longest Palindrome Substring](cp/Longest_Palindrome_Substring.py) deleted in commit 5240b11 -->
 - [Longest Common Prefix](cp/longest_Common_Prefix.py)
 - [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 - [Maximum Subarray Sum](cp/maxsum_subarray_python.py)
@@ -139,16 +137,16 @@
 - [Search Insert Position](cp/search_insert_position.py)
 - [Stock span problem](cp/stock_span.py)
 - [Bulb Switcher problem](cp/bulb_switcher.py)
-- [Vowels and consonants in a string](cp/VowelsConsonants.py)
+- [Vowels and consonants in a string](cp/Vowels_and_Consonants.py)
 - [Letter Count in a word](cp/LetterCount.py)
 - [Cyclically Rotate Clockwise](cp/Cyclically_rotate.py)
-- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+- [Prime factorization using sieve](cp/Prime_factorization_using_sieve.py)
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [House Robber](cp/house_robber.py)
 - [Number of K-Length Sublists with Average at Least Target](cp/Number_of_K-Length_Sublists_with_Average_at_Least_Target.py)
 - [Fence Painting Algorithm](cp/Paint_Fence.py)
 - [Climbing the Leaderboard](cp/climbing-the-leaderboard.py)
-- [Dutch national flag problem](cp/Sort_An_Arraysof0s1sand2s.py)
+- [Dutch national flag problem](cp/Sort_An_Arrayof0s1sand2s.py)
 - [Find Intersection of Two Given Linked Lists](cp/find_intersection_of_two_linked_lists.py)
 - [Maximum value of each subarray of size k](cp/SlidingWindowMaximum.py)
 - [Count the number of anagrams](cp/CountAnagrams.py)
@@ -184,14 +182,12 @@
 
 - [Bilinear Search](search/bilinear.py)
 - [Binary Search](search/binarysearch.py)
-- [Breadth First Search](search/bfs.py)
 - [Depth First Search](search/dfs.py)
 - [Exponential Search](search/exponential_search.py)
 - [Interpolation Search](search/Interpolation_Search.py)
 - [Linear Search](search/Linear_Search.py)
 - [Random Search Las vegas version](search/random_search_las_vegas.py)
 - [Random select](search/random_select.py)
-- [Sublinear Search](search/Sublinear_search.ipynb)
 - [Z-Algorithm](search/Z_Algorithm.py)
 - [Jump search](search/jump_search.py)
 - [Three Sum Problem](search/three_sum_problem.py)
@@ -205,7 +201,7 @@
 - [Insertion Sort](sort/insertion.py)
 - [Quick Sort](sort/QuickSort.py)
 - [Heap Sort](sort/Heap_sort.py)
-- [Merge Sort Sequantial](sort/Sequential_MergeSort.py)
+- [Merge Sort Sequential](sort/Sequential_MergeSort.py)
 - [Merge Sort Parallel](sort/Parallel_MergeSort.py)
 - [Cocktail sort](sort/cocktail_sort.py)
 - [Intro-sort](sort/IntroSort.py)
@@ -218,7 +214,7 @@
 - [Sleep Sort](sort/Sleep_sort.py)
 - [Bucket Sort](sort/Bucket_sort.py)
 - [Tree Sort](sort/Tree_Sort.py)
-- [Wiggle Sort](sort/Wiggle_sort.py)
+<!-- [Wiggle Sort](sort/Wiggle_sort.py) deleted in commit a50d1a0 -->
 - [Counting Sort](sort/Counting_Sort.py)
 - [Tim Sort](sort/TimSort.py)
 
@@ -230,11 +226,11 @@
 - [Hamiltonian Cycle](backtracking/Hamiltonian_Cycle.py)
 - [Sudoku Solver](backtracking/sudokuSolver.py)
 - [Subset Sum](backtracking/Subset_Sum.py)
-- [Rat-In-Maze problem](backracking/RatInMaze.py)
+- [Rat-In-Maze problem](backtracking/RatInMaze.py)
 - [Maze Generation Visualiser](backtracking/Maze-Generation-Visualiser.py)
-- [M Coloring Problem](backracking/M-coloring.py)
+- [M Coloring Problem](backtracking/M-coloring.py)
 - [Tic Tac Toe Game](backtracking/Tic_Tac_Toe.py)
-- [Tug Of War](backracking/Tug_of_war.py)
+- [Tug Of War](backtracking/Tug_of_war.py)
 - [Water Jug Problem](backtracking/Water_Jug_Problem.py)
 
 
@@ -245,7 +241,7 @@
 - [Longest Common Subsequence](dp/Longest_Common_Subsequence.py)
 - [Longest Common Substring](dp/length_longest_common_substring.py)
 - [Longest Decreasing Subsequence](dp/length_common_decreasing_subsequence.py)
-- [Longest Increasing Subsequence](dp/Longest_Increasing_Subsequence.py)
+- [Longest Increasing Subsequence](dp/Longest_increasing_Subsequence.py)
 - [Binary Trees with N nodes](dp/binary_trees_with_n_nodes.py)
 - [Unique BST with N nodes](dp/Unique_BST.py)
 - [Edit Distance](dp/EditDistance.py)
@@ -279,7 +275,6 @@
 
 ## Graphs
 
-- [Breadth First Search](graphs/BFS.py)
 - [Depth of Tree](graphs/Depth_Of_Tree.py)
 - [Height of Tree](graphs/height_of_given_tree.py)
 - [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
@@ -299,7 +294,7 @@
 - [Bellman Ford](graphs/Bellman_Ford.py)
 - [Rotten Oranges](graphs/Rotten_Oranges.py)
 - [Top view of binary tree](graphs/top_view_binary_tree.py)
-- [Warshall Algorithm](graphs/warshall.py)
+- [Warshall Algorithm](graphs/Warshall.py)
 
 ## Competitive Programming
 
@@ -309,7 +304,7 @@
 - [Longest Common Prefix](cp/longest_Common_Prefix.py)
 - [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
 - [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
-- [Prime factorization using sieve](cp/Prime_factorisation_using_sieve.py)
+- [Prime factorization using sieve](cp/Prime_factorization_using_sieve.py)
 - [Rabin Karp Algorithm](cp/Rabin_Karp.py)
 - [Target sum triplet](cp/Target_Sum_Triplet.py)
 - [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
@@ -321,8 +316,8 @@
 - [Stable Marriage Problem](cp/stable_marriage_problem.py)
 - [Rain Water Harvesting](cp/rainwater_harvesting.py)
 - [House Robber](cp/house_robber.py)
-- [Chocolate Distribution Problem](cp/Chololate_distribution.py)
-- [Sort an Arrays of 0s, 1s, 2s](cp/Sort_An_Arraysof0s1sand2s.py)
+- [Chocolate Distribution Problem](cp/Chocolate_distribution.py)
+- [Sort an Array of 0s, 1s, 2s](cp/Sort_An_Arrayof0s1sand2s.py)
 - [Activity Selection](cp/activity_selection.py)
 
 
@@ -367,7 +362,7 @@
 - [Startup Profit Prediction](ml/Startup_Profit_Prediction.ipynb)
 - [Logically Weighted Regression](ml/Logically_weighted_regression.py)
 - [Bell State creation](ml/Bell_state_creation.ipynb)
-- [Naive Bayes Classifier](ml\Naive_Bayes_Classifier.ipynb)
+- [Naive Bayes Classifier](ml/Naive_Bayes_Classifier.ipynb)
 - [White Wine Quality Prediction](ml/White_Wine_Quality_Prediction.ipynb)
 
 ## Mathematics
@@ -419,7 +414,7 @@
 - [Reverse a Number](math/reverse_a_number.py)
 - [Count of Digits](math/count_of_digits.py)
 - [Lucky Numbers](math/Lucky_Numbers.py)
-- [Perfect square less than n](math/Perfect_square.py)
+- [Perfect square less than n](math/perfect_square.py)
 - [Perfect Number](math/Perfect_Number.py)
 - [Harshad Number](math/HarshadNumber.py)
 - [Roots of Quadratic Equation](math/roots_of_quadratic_equation.py)
@@ -458,14 +453,14 @@ _add list here_
 - [Russian Peasant Algorithm](other/Russian_Peasant_Algorithm.py)
 - [Ocurrence of a number using binary search](other/find_freq_using_bs.py)
 - [Moore's Algorithm](other/Moore_Algorithm.py)
-- [Satellite Image analysis using Numpy](other/Satellite%20Image%20Analysis%20using%20numpy.ipynb)
+- [Satellite Image analysis using Numpy](other/Satellite_image_analysis_using_Numpy.ipynb)
 - [Happy Number](other/HappyNumber.py)
 - [Subsequence Recursion](other/Subsequence_recursion.py)
 - [Swap 2 nibbles](other/Swap_two_nibbles.py)
 - [Find leftmost non repeating character](other/left_nonRepeating_char.py)
 - [Subsequence check](other/Subsequence_check.py)
-- [Painter Partition Probelm](other/painter_partition.py)-
-- [Remove Outermost Paranthesis](other/remove_outermost_paranthesis.py)
+- [Painter Partition Problem](other/painter_partition.py)-
+- [Remove Outermost Parenthesis](other/remove_outermost_parenthesis.py)
 - [Find the Numbers](other/find_the_numbers.py)
 - [Count Triplets with Sum of Two Equal to the Third One](other/CountTriplets.py)
 - [Sudoku Solver](other/sudoku_backtracking.py)
@@ -480,7 +475,7 @@ _add list here_
 - [Find if there is a subarray with 0 sum](other/Subarray_with_sum0.py)
 - [Common Elements](other/common_elements.py)
 - [Count pair with given sum](other/count_pair_with_given_sum.py)
-- [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.)
+- [Best Time to Buy and Sell Stock](other/best_time_buy_And_sell_stock.py)
 - [Next premutation](other/Next_premutation.py)
 - [Minimum number of jumps](other/minimize_the_jump.py)
 - [Union of two arrays](other/Union_of_two_arrays.py)

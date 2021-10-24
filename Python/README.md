@@ -76,6 +76,18 @@
 - [Merge Sort Sequential](sort/Sequential_MergeSort.py)
 - [Merge Sort Parallel](sort/Parallel_MergeSort.py)
 - [Tim Sort](sort/TimSort.py)
+- [Bogo Sort](sort/Bogo_sort.py)
+- [Optimized Bubble Sort](sort/Optimized_Bubble_Sort.py)
+- [Cocktail sort](sort/cocktail_sort.py)
+- [Intro-sort](sort/IntroSort.py)
+- [Matrix Sort](sort/Matrix_Sort.py)
+- [Pancake Sort](sort/pancakesorting.py)
+- [Shell Sort](sort/Shell_Sort.py)
+- [Sleep Sort](sort/Sleep_sort.py)
+- [Bucket Sort](sort/Bucket_sort.py)
+- [Tree Sort](sort/Tree_Sort.py)
+<!-- [Wiggle Sort](sort/Wiggle_sort.py) deleted in commit a50d1a0 -->
+- [Counting Sort](sort/Counting_Sort.py)
 
 ## Graphs
 
@@ -173,32 +185,6 @@
 - [Hill Cipher](cryptography/HillCipher.py)
 - [Monoalphabetic Cipher](cryptography/monoalphabeticcipher.py)
 - [Diffie Helman Protocol](cryptography/Diffie_Helman_Protocol.py)
-
-## Sorting
-
-- [Bubble Sort](sort/Bubble_Sort.py)
-- [Bogo Sort](sort/Bogo_sort.py)
-- [Optimized Bubble Sort](sort/Optimized_Bubble_Sort.py)
-- [Selection Sort](sort/Selection_Sort.py)
-- [Insertion Sort](sort/insertion.py)
-- [Quick Sort](sort/QuickSort.py)
-- [Heap Sort](sort/Heap_sort.py)
-- [Merge Sort Sequential](sort/Sequential_MergeSort.py)
-- [Merge Sort Parallel](sort/Parallel_MergeSort.py)
-- [Cocktail sort](sort/cocktail_sort.py)
-- [Intro-sort](sort/IntroSort.py)
-- [Bead Sort](sort/Bead_Sort.py)
-- [Matrix Sort](sort/Matrix_Sort.py)
-- [Pancake Sort](sort/pancakesorting.py)
-- [Radix Sort](sort/Radix_Sort.py)
-- [Shell Sort](sort/Shell_Sort.py)
-- [Topological Sort](sort/topological_sort.py)
-- [Sleep Sort](sort/Sleep_sort.py)
-- [Bucket Sort](sort/Bucket_sort.py)
-- [Tree Sort](sort/Tree_Sort.py)
-<!-- [Wiggle Sort](sort/Wiggle_sort.py) deleted in commit a50d1a0 -->
-- [Counting Sort](sort/Counting_Sort.py)
-- [Tim Sort](sort/TimSort.py)
 
 ## Backtracking
 

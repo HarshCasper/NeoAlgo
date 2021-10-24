@@ -38,7 +38,6 @@
 - [Lowest Common Ancestor of Binary Search Tree](ds/lowest_common_ancestor_bst.py)
 - [Reverse Queue Using Stack](ds/Reverse_queue_using_stack.py)
 
-
 ## Searching
 - [Bilinear Search](search/bilinear.py)
 - [Binary Search](search/binarysearch.py)
@@ -53,15 +52,12 @@
 - [Unbounded Binary Search](search/unbounded_binary_search.py) 
 - [8 Puzzle Problem (BFS)](search/8_Puzzle_Problem_using_BFS.py)
 - [8 Puzzle Problem (A* Algorithm)](search/8_Puzzle_Problem_using_A_star_Algorithm.py)
-- [Bilinear Search](search/bilinear.py)
-- [Binary Search](search/binarysearch.py)
-- [Depth First Search](search/dfs.py)
-- [Fibonacci Search](search/fibonacci_search.py)
-- [Linear Search](search/Linear_Search.py)
-- [Random Search Las vegas version](search/random_search_las_vegas.py)
-- [Exponential Search](search/exponential_search.py)
-- [Binary Search Iterative](search/binarysearch_iterative.py)
 - [Jump Search](search/jump_search.py)
+- [Interpolation Search](search/Interpolation_Search.py)
+- [Random select](search/random_select.py)
+- [Z-Algorithm](search/Z_Algorithm.py)
+- [Jump search](search/jump_search.py)
+- [Three Sum Problem](search/three_sum_problem.py)
 
 ## Sorting
 
@@ -177,20 +173,6 @@
 - [Hill Cipher](cryptography/HillCipher.py)
 - [Monoalphabetic Cipher](cryptography/monoalphabeticcipher.py)
 - [Diffie Helman Protocol](cryptography/Diffie_Helman_Protocol.py)
-
-## Searching
-
-- [Bilinear Search](search/bilinear.py)
-- [Binary Search](search/binarysearch.py)
-- [Depth First Search](search/dfs.py)
-- [Exponential Search](search/exponential_search.py)
-- [Interpolation Search](search/Interpolation_Search.py)
-- [Linear Search](search/Linear_Search.py)
-- [Random Search Las vegas version](search/random_search_las_vegas.py)
-- [Random select](search/random_select.py)
-- [Z-Algorithm](search/Z_Algorithm.py)
-- [Jump search](search/jump_search.py)
-- [Three Sum Problem](search/three_sum_problem.py)
 
 ## Sorting
 

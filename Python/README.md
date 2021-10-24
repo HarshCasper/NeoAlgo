@@ -203,6 +203,10 @@
 - [Hill Cipher](cryptography/HillCipher.py)
 - [Monoalphabetic Cipher](cryptography/monoalphabeticcipher.py)
 - [Diffie Helman Protocol](cryptography/Diffie_Helman_Protocol.py)
+- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
+- [Knight Walk](graphs/Knight_Walk.py)
+- [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
+- [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
 
 ## Backtracking
 
@@ -258,19 +262,6 @@
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
 - [A\* (Astar) in Maze](Pathfinding/2D_Astar.py)
 - [RRT in Maze](Pathfinding/2D_RRT.py)
-
-## Cryptography
-
-- [Affine Cipher](cryptography/AffineCipher.py)
-- [Caesar Cipher](cryptography/Caesar_Cipher.py)
-- [Vigenere Cipher](cryptography/vigenere_cipher.py)
-- [RSA Algorithm](cryptography/RSA_Algorithm.py)
-- [XOR Cipher](cryptography/XOR_cipher.py)
-- [AES Algorithm](cryptography/AES.py)
-- [Floyd Warshall Algorithm](graphs/Floyd_Warshall_Algorithm.py)
-- [Knight Walk](graphs/Knight_Walk.py)
-- [Bridge Edge in Graph](graphs/Bridge_Edge_in_Graph.py)
-- [Euler Circuit and Path](graphs/Euler_circuit_and_Path.py)
 
 ## Machine Learning
 

@@ -181,6 +181,10 @@
 - [Max of Adjacent Elements Product](cp/adjacent_elements_product.py)
 - [Generating Power Set](cp/Generating_Power_Set.py)
 - [Run Length Encoding](cp/Run_Length_Encoding.py)
+- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
+- [Chocolate Distribution Problem](cp/Chocolate_distribution.py)
+- [Sort an Array of 0s, 1s, 2s](cp/Sort_An_Arrayof0s1sand2s.py)
+- [Activity Selection](cp/activity_selection.py)
 
 ## Cryptography
 
@@ -254,32 +258,6 @@
 - [Dijkstra's Algorithm in Maze](Pathfinding/2D_Dijkstra.py)
 - [A\* (Astar) in Maze](Pathfinding/2D_Astar.py)
 - [RRT in Maze](Pathfinding/2D_RRT.py)
-
-
-## Competitive Programming
-
-- [Anagram Checker](cp/anagram_checker.py)
-- [Find Least positive number](cp/findingLeastPositiveNumber.py)
-- [KMP Algorithm](cp/KMP_Algorithm.py)
-- [Longest Common Prefix](cp/longest_Common_Prefix.py)
-- [Maximum sum of k consecutive elements in an array](cp/max_sum_k_consecutive_elements.py)
-- [MaxSub Array Sum ](cp/maxsum_subarray_python.py)
-- [Prime factorization using sieve](cp/Prime_factorization_using_sieve.py)
-- [Rabin Karp Algorithm](cp/Rabin_Karp.py)
-- [Target sum triplet](cp/Target_Sum_Triplet.py)
-- [Triplets with Zero Sum](cp/find_Triplets_with_zero_sum.py)
-- [Maximum sum rectangle](cp/max_sum.py)
-- [Search Insert Position](cp/search_insert_position.py)
-- [Maximum Water Container](cp/Maximum_Water_Container.py)
-- [Smallest sum subarray](cp/smallest_sum_array.py)
-- [Delete a node from linked list](cp/delete_node.py)
-- [Stable Marriage Problem](cp/stable_marriage_problem.py)
-- [Rain Water Harvesting](cp/rainwater_harvesting.py)
-- [House Robber](cp/house_robber.py)
-- [Chocolate Distribution Problem](cp/Chocolate_distribution.py)
-- [Sort an Array of 0s, 1s, 2s](cp/Sort_An_Arrayof0s1sand2s.py)
-- [Activity Selection](cp/activity_selection.py)
-
 
 ## Cryptography
 

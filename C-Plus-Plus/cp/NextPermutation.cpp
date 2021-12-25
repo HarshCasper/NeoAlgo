@@ -44,8 +44,7 @@ Input :
 6
 5 3 4 9 7 6
 Output :
-6
-5 3 4 9 7 6
+5 3 6 4 7 9
 
 Time Complexity : O(nlogn)
 Space Complexity : O(n)

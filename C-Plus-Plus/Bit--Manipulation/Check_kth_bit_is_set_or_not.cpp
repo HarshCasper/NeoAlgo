@@ -11,16 +11,16 @@ int main()
 	cin>>k;
 	//Using left shift operator
 	 cout<<"Using Left Shift operator ";
-	if((n & (1<<(k-1))) != 0)
+	if(n & 1<<(k-1))
 	 cout<<"Yes"<<"\n";
 	 else
-	  cout<<"No"<<"\n";
+	  cout<<"No"<<'\n';
 	  // using right shift operator
 	  cout<<"Using Right Shift operator ";
-	  if((n>>(k-1)) & 1)
-	   cout<<"Yes"<<"\n";
+	  if(n>>(k-1) & 1)
+	   cout<<"Yes"<<'\n';
 	 else
-	  cout<<"No"<<"\n";
+	  cout<<"No"<<'\n';
 	  
 }
 

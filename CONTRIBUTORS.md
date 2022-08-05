@@ -282,6 +282,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Sri-vishnu-r1431"><img src="https://avatars.githubusercontent.com/u/78591776?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sri-vishnu-r1431</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=Sri-vishnu-r1431" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sharvin18"><img src="https://avatars.githubusercontent.com/u/65294298?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sharvin Dedhia</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=sharvin18" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/lazy-geek"><img src="https://avatars.githubusercontent.com/u/38218691?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abrar Malek</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=lazy-geek" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/theashishgavade"><img src="https://avatars.githubusercontent.com/u/68729505?v=4?s=100" width="100px;" alt=""/><br /><sub><b>The Ashish Gavade</b></sub></a><br /><a href="https://github.com/TesseractCoding/NeoAlgo/commits?author=lazy-geek" title="Code">💻</a></td>
   </tr>
 </table>
 

@@ -121,7 +121,7 @@ print("\n")
 # Post-Order Traversal :- left -> right -> root
 print("Post-Order Traversal :- left -> right -> root")
 print("Recursive:")
-print(tree.postorder_traversal_iterative(tree.root, ''))
+print(tree.postorder_traversal(tree.root, ''))
 print("Iterative:")
 print(tree.postorder_traversal_iterative(tree.root, ''))
 # Expected Output:- 4 5 2 6 7 3 1

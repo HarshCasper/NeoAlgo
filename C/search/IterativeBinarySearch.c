@@ -1,45 +1,87 @@
 // C program to implement Binary Search using Iterative Approach i.e Using Loop
 #include <stdio.h>
+#include <stdlib.h>
 
-/*(l is leftmost index , r the rightmost index and val is the element we are
-   searching for) If value is present return the index else return -1
-    */
-int binarySearch(int arr[], int l, int r, int val) {
-  int mid = 0;
-  while (l <= r) {
-    // Storing the middle index of the array
-    mid = (l + r) / 2;
-    // value matched with X i.e searched element
-    if (arr[mid] == val) {
-      return mid;
-    }
-    /* If val is less than the mid element
-            Check the left sub-array */
-    else if (val < arr[mid]) {
-      r = mid - 1;
-    }
-    /* If val is greater than the mid element
-    Check the right sub-array */
-    else {
-      l = mid + 1;
+// base utility function to create the array
+int *create(int n)
+{
+  int *a = (int *)malloc(n * sizeof(int));
+
+  printf("\nEnter the elements of Array : ");
+  for (int i = 0; i < n; i++)
+  {
+
+    scanf("%d", (a + i));
+  }
+
+  return a;
+}
+
+// key is the element to be searched
+int BinarySearch(int array[], int length, int key)
+{
+  int high = length - 1;
+  int low = 0;
+  if (low <= high)
+  {
+    while (low <= high)
+    {
+      int mid = (low + high) / 2;
+
+      if (key == array[mid])
+      {
+        return mid;
+      }
+      else if (key < array[mid])
+      {
+        high = mid - 1;
+      }
+      else
+      {
+        low = mid + 1;
+      }
     }
   }
-  /* value not found in the array
-  return with -1 response */
+
   return -1;
 }
 
-int main() {
-  int arr[] = {-2, 5, 14, 17, 19, 27};
-  // searched value assuming to be val=19
-  int val = 19;
-  int n = sizeof(arr) / sizeof(arr[0]);
-  int index = binarySearch(arr, 0, n - 1, val);
+// printing the array function
+void display(int *a, int n)
+{
+  for (int i = 0; i < n; i++)
+  {
 
-  if (index == -1) {
-    printf("\nThe element %d is not present in the array", val);
-  } else {
-    printf("\nThe element %d is present at index: %d", val, index);
+    printf("%d ", *(a + i));
+  }
+}
+
+int main()
+{
+  int n;
+
+  printf("\nEnter the size of the array : ");
+  scanf("%d", &n);
+
+  int *arr = create(n);
+
+  printf("\nThe array is : ");
+  display(arr, n);
+
+  int element; // element to search
+
+  printf("\nEnter the element to search : ");
+  scanf("%d", &element);
+
+  int flag = BinarySearch(arr, n, element);
+
+  if (flag == -1)
+  {
+    printf("\nElement not found\n");
+  }
+  else
+  {
+    printf("\nElement found at index : %d\n", flag);
   }
   return 0;
 }
@@ -49,18 +91,18 @@ int main() {
 
 /* Sample Test Case:
 Test-1:
-        IF searched value is 19
+        If searched value is 19
         i.e val=19
         ------
         Output
         ------
-        The element 19 is not present at index: 4
+        Element found at index :  4
 
 Test-2:
-        IF searched value is 29
+        If searched value is 29
         i.e val=29
         ------
         Output
         ------
-        The element 29 is not present in the array
+        Element not found
  */

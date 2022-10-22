@@ -1,6 +1,6 @@
 /*
-a linear search or sequential search is a method for finding an element within a list. 
-It sequentially checks each element of the list until a match is found or the whole list 
+a linear search or sequential search is a method for finding an element within a list.
+It sequentially checks each element of the list until a match is found or the whole list
 has been searched.
 
 It has time complexity of O(n).
@@ -8,7 +8,7 @@ ____________________
 |1|5|8|9|0|10|11|12|  -----> search(9)
                                 |
                                 |
-___________________        
+___________________
 |1|5|8|9|0|10|11|12|
 
  |_______________________is i==9 false next element i=1
@@ -20,68 +20,77 @@ So it is searching the whole array linearly.
 
 */
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-//base utility function to create the array
-int* create(int n){
-    int *a = (int*)malloc(n*sizeof(int));
+// base utility function to create the array
+int *create(int n)
+{
+    int *a = (int *)malloc(n * sizeof(int));
 
+    printf("\nEnter the elements of Array : ");
     for (int i = 0; i < n; i++)
     {
-        /* code */
-        scanf("%d",(a+i));
+
+        scanf("%d", (a + i));
     }
-    
+
     return a;
 }
 
-
-//linear searching a element
-void linear_search(int element,int *a,int n){
-
-     //loop intitialisation
-     for (int i = 0; i < n; i++)
-     {
-         /* check if the element is in the array */
-         if(*(a+i)==element){
-             printf("\nelement found at:%d position",i);
-             break;
-         }
-     }
-     
-}
-
-//printting the array function
-void display(int *a,int n){
+// linear searching a element
+int linear_search(int element, int *a, int n)
+{
+    // loop intitialisation
     for (int i = 0; i < n; i++)
     {
-        /* code */
-
-        printf("%d ",*(a+i));
+        /* check if the element is in the array */
+        if (*(a + i) == element)
+        {
+            return i;
+        }
     }
-    
+
+    return -1; // return -1 if elements is not found
 }
 
-//main function
-int main(int argc, char const *argv[])
+// printing the array function
+void display(int *a, int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+
+        printf("%d ", *(a + i));
+    }
+}
+
+// main function
+int main()
 {
     int n;
 
-    printf("\nenter the size of the array:");
-    scanf("%d",&n);
+    printf("\nEnter the size of the array : ");
+    scanf("%d", &n);
 
     int *arr = create(n);
-    
-    printf("\n the array is:");
-    display(arr,n);
 
-    int element;//element to search
+    printf("\nThe array is : ");
+    display(arr, n);
 
-    printf("\n enter the element to search:");
-    scanf("%d",&element);
+    int element; // element to search
 
-    linear_search(element,arr,n);
+    printf("\nEnter the element to search : ");
+    scanf("%d", &element);
+
+    int flag = linear_search(element, arr, n);
+
+    if (flag == -1)
+    {
+        printf("\nElement not found\n");
+    }
+    else
+    {
+        printf("\nElement found at index : %d\n", flag);
+    }
     return 0;
 }
-

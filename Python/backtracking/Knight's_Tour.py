@@ -17,7 +17,7 @@ Argument: Tupple (Current Position)
 Return  : 2d Matrix (Steps of the Knight)
 
 Note: Backtracking approch for Knight's Tour Problem is very slow
-        hence use smaller number (<8) for fast result
+        hence use smaller number (<8) for fast resultttttttttttttt
 """
 
 from time import time

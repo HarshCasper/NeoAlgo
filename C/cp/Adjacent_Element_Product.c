@@ -1,4 +1,4 @@
-//Find the pair of adjacent elements that have the largest product in a given array and return that product.
+//Find the pair of adjacent elements that have the largest product in a given array and return that product testing.
 #include <stdio.h>
 
 void prod_elements(int *, int *, int);

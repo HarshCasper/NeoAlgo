@@ -13,7 +13,7 @@ The cryptarithmetic problem that is needed to be solved here is:
 
 Distinct variables are: S, E, N, D, M, O, R, Y
 Domain: {0,...,9}
-
+test
 '''
 
 # importing the necessary libraries

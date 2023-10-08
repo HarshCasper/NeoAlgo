@@ -1,4 +1,4 @@
-//Find the pair of adjacent elements that have the largest product in a given array and return that product.
+// Find the pair of adjacent elements that have the largest product in a given array and return that product. testing
 #include <stdio.h>
 
 void prod_elements(int *, int *, int);
@@ -31,7 +31,8 @@ void prod_elements(int *prod, int *arr, int num)
 {
 	int i;
 	for (i = 0; i < num - 1; i++)
-	{*(prod + i) = (*(arr + i)) * (*(arr + i + 1));
+	{
+		*(prod + i) = (*(arr + i)) * (*(arr + i + 1));
 	}
 }
 
@@ -42,7 +43,7 @@ int largest_product(int *prod, int num)
 	big = *prod;
 	for (i = 0; i < num - 1; i++)
 	{
-		if (big<*(prod + i))
+		if (big < *(prod + i))
 			big = *(prod + i);
 	}
 
@@ -55,4 +56,3 @@ Enter the elements:3 6 -2 -5 7 3
 Array=3 6 -2 -5 7 3
 Largest Adjacent Product in the Array=21
 */
-

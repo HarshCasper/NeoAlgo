@@ -1,21 +1,61 @@
 <p align="center">
-<img src="img/neo_algo.png" /><br>
-<a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=for-the-badge" /></a> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/TesseractCoding/NeoAlgo/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo?style=for-the-badge" /></a> <a href="https://github.com/TesseractCoding/NeoAlgo/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/tesseractcoding/neoalgo?style=for-the-badge" /></a> <a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/README.md#contributors-" target="_blank"><img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo?style=for-the-badge" /></a>
+  <img src="img/neo_algo.png" alt="NeoAlgo Logo" width="220" />
 </p>
 
-## Overview
+<p align="center">
+  <a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/LICENSE" target="_blank">
+    <img src="https://img.shields.io/github/license/tesseractcoding/neoalgo?style=for-the-badge" alt="License" />
+  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" />
+  <a href="https://github.com/TesseractCoding/NeoAlgo/pulls" target="_blank">
+    <img src="https://img.shields.io/github/issues-pr/tesseractcoding/neoalgo?style=for-the-badge" alt="GitHub Pull Requests" />
+  </a>
+  <a href="https://github.com/TesseractCoding/NeoAlgo/issues" target="_blank">
+    <img src="https://img.shields.io/github/issues/tesseractcoding/neoalgo?style=for-the-badge" alt="GitHub Issues" />
+  </a>
+  <a href="https://github.com/TesseractCoding/NeoAlgo/blob/master/README.md#contributors-" target="_blank">
+    <img src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo?style=for-the-badge" alt="All Contributors" />
+  </a>
+</p>
 
-The goal of this project is to have in a single place for all possible algorithms and data structures - in multiple languages. We aim to achieve this collaboratively, so feel free to contribute in any way you want, just make sure to follow the contribution guidelines listed below.
+---
 
-## Contents
+## 🧭 Overview
 
-Our content is divided by programming language. Please create an issue if you wish to add code in a language that we don't currently have here. **Do not create folders in your submissions unless specifically told to do so.**
+The **NeoAlgo Project** aims to provide a centralized repository containing implementations of various algorithms and data structures in multiple programming languages.
 
-Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCoding/NeoAlgo/wiki) section. Please let us know if you'd like to contribute to an article.
+We encourage collaboration and learning through contribution! Feel free to add your own implementations or improve existing ones — just make sure to follow the contribution guidelines below.
+
+---
+
+## 📚 Table of Contents
+
+- [Overview](#-overview)
+- [Contents](#-contents)
+- [Contributing Guidelines](#-contributing-guidelines)
+- [Where to Upload Files](#-where-to-upload-the-files)
+- [Contributors](#-our-contributors)
+- [Code of Conduct](#-code-of-conduct)
+- [License](#-license)
+- [Discord](#-discord)
+
+---
+
+## 📁 Contents
+
+Our content is organized by programming language.  
+If you wish to add code in a language not currently listed, please create an issue first.
+
+> ⚠️ Do **not** create new folders inside existing language folders unless specifically instructed.
+
+We also welcome contributions to our [Wiki](https://github.com/TesseractCoding/NeoAlgo/wiki).  
+If you’d like to write or edit an article, please let us know!
+
+Supported languages:
 
 - [C](/C/README.md)
-- [C-Plus-Plus](/C-Plus-Plus/README.md)
-- [C-Sharp](/C-Sharp/README.md)
+- [C++ (C-Plus-Plus)](/C-Plus-Plus/README.md)
+- [C# (C-Sharp)](/C-Sharp/README.md)
 - [Dart](/Dart/README.md)
 - [Go](/Go/README.md)
 - [JavaScript](/JavaScript/README.md)
@@ -24,39 +64,18 @@ Also, we are accepting submissions to our [Wiki](https://github.com/TesseractCod
 - [Python](/Python/README.md)
 - [Q-Sharp](/Q-Sharp/README.md)
 
-## Contributing Guidelines
+---
 
-- **Plagiarism is strictly not allowed**. Any work that is found to be suspicious of plagiarized work will not be merged.
-- Issues will be assigned on a _first come, first serve_ basis. You just have to comment on the issue, asking to be assigned, and it will be done if found fit.
-- Preferably, you cannot work on any issue that is not assigned to you.
-- In case you want to submit an improvement to an existing algorithm, we prefer that you create an issue, describing in detail your improvement. This will help others to analyze your contribution. You can use the [templates](.github/ISSUE_TEMPLATE/algorithm-ds-proposal.md) that we have provided :)
-- If you have anything else in mind, create an issue, and please wait for it to be assigned to you. You can then start working on it and create a PR.
-- All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
-- If you have no idea what are issues or PRs, please do refer to [this link](https://github.com/TesseractCoding/NeoAlgo/wiki/What-is-a-Pull-Request-and-how-to-do-it%3F)
+## 🧑‍💻 Contributing Guidelines
 
-Make sure your code works before submitting it :D
+Please read carefully before submitting a Pull Request (PR):
 
-### Where to upload the files
-
-**PLEASE READ THIS**
-
-- Your files should be uploaded directly into the corresponding folder (e.g. if you wrote code for a Data Structure in Python, it goes inside the DS folder within the Python folder and so on)
-- Edit the corresponding _README.md_ file to **add the link to your code in the corresponding section** ([GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/))
-- **Under no circumstances create new folders within the language folders to upload your code unless specifically told to do so**.
-- Also, be polite with the reviewers - they will be ALWAYS polite to you.
-
-## Our Contributors
-
-[CONTRIBUTORS.md](https://github.com/TesseractCoding/NeoAlgo/blob/master/CONTRIBUTORS.md)
-
-## Code of Conduct
-
-You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
-
-## License
-
-This project follows the [MIT License](/LICENSE).
-
-## Discord
-
-[![Discord](https://img.shields.io/discord/829038891611717753?color=7389DA&label=Discord&logo=Discord&logoColor=FFF&style=for-the-badge)](https://discord.com/invite/nUGcHHMy26)
+- 🚫 **Plagiarism is strictly prohibited.** Any copied work will be rejected.
+- 🧾 Issues are assigned on a **first-come, first-serve** basis.  
+  Comment on an issue to request assignment.
+- 🧍 Only work on issues that have been **assigned to you**.
+- 💡 If you’re improving an existing algorithm, open an issue explaining your idea before creating a PR.
+- 🪄 All PRs must be made from a **separate branch**.  
+  Example:
+  ```bash
+  git checkout -b fix-algorithm-name

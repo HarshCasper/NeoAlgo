@@ -301,6 +301,17 @@
 - [Side Views of The binary tree ](ds/Side_Views_of_Binary_tree.cpp)
 - [Convert BST to Min Heap ](ds/BSTtoMinHeap.cpp) 
 
+
+### Sliding Window
+
+| Problem | Description |
+|----------|--------------|
+| [Maximum Sum Subarray of Size K](./Sliding_Window/max_sum_subarray.cpp) | Find the maximum sum of subarray of size K |
+| [First Negative Integer in Every Window of Size K](./Sliding_Window/first_negative_in_window.cpp) | Find the first negative number in each window |
+| [Longest Substring with K Distinct Characters](./Sliding_Window/longest_substring_k_distinct.cpp) | Find length of longest substring with at most K distinct characters |
+| [Minimum Window Substring](./Sliding_Window/min_window_substring.cpp) | Find the smallest window containing all characters of another string |
+
+
 ## Graphs
 
 - [Adjacency List Representation](graphs/Adjacency_List.cpp)
@@ -373,6 +384,11 @@
 - [Pair of nodes in the BST which sum to S](search/Pair_Of_nodes_in_the_BST_which_Sum_to_S.cpp)
 - [Sqrt Monotonic Binary Search](search/Sqrt_Monotonic_Binary_Search.cpp)
 - [Order Agnostic Binary Search](search/orderAgnosticBS.cpp)
+
+
+## Greedy
+- [Greedy Algorithms](./greedy/README.md)
+
 
 ## Sorting
 
